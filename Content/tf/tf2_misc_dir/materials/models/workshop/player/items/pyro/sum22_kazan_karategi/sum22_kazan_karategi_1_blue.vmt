@@ -1,21 +1,17 @@
 "VertexLitGeneric"
 {
-	"$basetexture"		"models/workshop/player/items/pyro/sum22_kazan_karategi/sum22_kazan_karategi_1_blue_color"
-	"$bumpmap"		"models/workshop/player/items/pyro/sum22_kazan_karategi/sum22_kazan_karategi_1_normal"
+	"$basetexture"		"models/workshop/player/items/pyro/sum22_kazan_karategi/sum22_kazan_karategi_1_color"
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
-	"$phong"		"1"
-	"$phongexponent"		"3.000000"
-	"$phongboost"		"0.400000"
+	"$phong"		"0"
+	"$phongexponent"		"0.000000"
+	"$phongboost"		"0.000000"
 	"$phongfresnelranges"		"[.25 .5 1]"
-	"$rimlight"		"1"
-	"$rimlightexponent"		"6.000000"
-	"$rimlightboost"		"1.000000"
-	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"1.000000"
-	"$colortint_base"		"{ 40 34 32 }"
-	"$color2"		"{ 40 34 32 }"
-	"$colortint_tmp"		"[0 0 0]"
+	"$rimlight"		"0"
+	"$rimlightexponent"		"0.000000"
+	"$rimlightboost"		"0.000000"
+	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
+	"$additive"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
 	"$detailscale"		"5"
@@ -24,8 +20,10 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"0"
+		"$selfillum"		"1"
 	}
+	"$selfillumtint"		"[1 1 1]"
+	"$selfillummask"		"models/workshop/player/items/pyro/sum22_kazan_karategi/sum22_kazan_karategi_1_illum"
 	"proxies"
 	{
 		"invis"
@@ -41,24 +39,13 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Multiply"
+		"Equals"
 		{
-			"srcVar1"		"$color2"
-			"srcVar2"		"$yellow"
+			"srcVar1"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}
