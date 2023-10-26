@@ -102,7 +102,7 @@ class MightySlamTrait extends BossTrait
                     weapon,
                     deltaVector * 1250,
                     bossLocal.GetOrigin(),
-                    target.GetMaxHealth() * (1 - distance / 500),
+                    damage,
                     1);
             }
             function (target, deltaVector, distance) {

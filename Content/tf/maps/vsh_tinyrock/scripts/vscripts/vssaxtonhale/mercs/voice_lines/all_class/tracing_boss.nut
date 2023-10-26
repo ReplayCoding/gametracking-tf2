@@ -28,7 +28,7 @@ characterTraitsClasses.push(class extends CustomVoiceLine
     function OnTickAlive(tickDelta)
     {
         local boss = GetBossPlayers()[0]; //todo supports only 1 boss
-        if (!IsValidBoss(boss) || !IsPlayerAlive(boss) || GetAliveMercCount() <= 1)
+        if (!IsValidBoss(boss) || GetAliveMercCount() <= 1)
             return;
         local time = Time();
 
@@ -106,20 +106,23 @@ characterTraitsClasses.push(class extends CustomVoiceLine
         if (aliveMercs.len() < 2)
             return;
 
-        local clDist = 999999;
+        local clDist = 1500;
         local clTeammate = null;
         foreach (teammate in aliveMercs)
         {
             if (teammate == player)
                 continue;
+            local teammateClass = teammate.GetPlayerClass();
             local distance = (player.GetOrigin() - teammate.GetOrigin()).Length();
-            if (distance < clDist && TraceLine(player.EyePosition(), teammate.EyePosition(), null) > 0.99)
+            if (distance < clDist
+                && TraceLine(player.EyePosition(), teammate.EyePosition(), null) > 0.99
+                && teammateClass != TF_CLASS_SPY && teammateClass != TF_CLASS_SNIPER)
             {
                 clTeammate = teammate;
                 clDist = distance;
             }
         }
         if (clTeammate != null)
-            EmitPlayerVO(clTeammate, soundLine);
+            EmitPlayerToPlayerVO(clTeammate, player, clDist, soundLine);
     }
 });

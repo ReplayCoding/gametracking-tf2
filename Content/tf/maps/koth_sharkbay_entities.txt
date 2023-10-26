@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 11093
+Revision: 11096
 {
 "world_maxs" "5888 6656 1472"
 "world_mins" "-4608 -1664 -704"
@@ -8,7 +8,7 @@ Revision: 11093
 "detailvbsp" "detail_trainyard.vbsp"
 "detailmaterial" "detail/detailsprites_trainyard"
 "classname" "worldspawn"
-"mapversion" "11093"
+"mapversion" "11096"
 "hammerid" "1"
 }
 {
@@ -105,7 +105,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885870"
-"OnPass" "seagull3_propSetAnimationfly0-1"
+"OnPass" "seagull3_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "-300.083 2053.94 -56"
@@ -133,7 +133,7 @@ Revision: 11093
 "max" "10"
 "classname" "math_counter"
 "hammerid" "1801374"
-"OutValue" "shark_kill_compare_10SetValueCompare0-1"
+"OutValue" "shark_kill_compare_10,SetValueCompare,,0,-1"
 }
 {
 "portalnumber" "1"
@@ -540,7 +540,7 @@ Revision: 11093
 "hammerid" "1885876"
 }
 {
-"origin" "-2720 4832 -256"
+"origin" "-2720 4832 -427"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "6"
@@ -708,7 +708,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885954"
-"OnPass" "seagull1_propSetAnimationsoar0-1"
+"OnPass" "seagull1_prop,SetAnimation,soar,0,-1"
 }
 {
 "portalnumber" "5"
@@ -947,7 +947,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885923"
-"OnPass" "seagull2_propSetAnimationsoar0-1"
+"OnPass" "seagull2_prop,SetAnimation,soar,0,-1"
 }
 {
 "model" "*8"
@@ -1034,7 +1034,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885850"
-"OnPass" "seagull3_propSetAnimationfly0-1"
+"OnPass" "seagull3_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "-1664 2816 384"
@@ -1568,8 +1568,8 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885899"
-"OnPass" "seagull2_propSetAnimationfly0-1"
-"OnPass" "seagull2_propSetDefaultAnimationfly0-1"
+"OnPass" "seagull2_prop,SetAnimation,fly,0,-1"
+"OnPass" "seagull2_prop,SetDefaultAnimation,fly,0,-1"
 }
 {
 "origin" "1806.05 -1011.35 879.623"
@@ -1838,8 +1838,8 @@ Revision: 11093
 "filtername" "filter_blu"
 "classname" "trigger_multiple"
 "hammerid" "927464"
-"OnStartTouchAll" "door_blu_large_win_1Open0-1"
-"OnEndTouchAll" "door_blu_large_win_1Close0-1"
+"OnStartTouchAll" "door_blu_large_win_1,Open,,0,-1"
+"OnEndTouchAll" "door_blu_large_win_1,Close,,0,-1"
 }
 {
 "model" "*14"
@@ -1905,8 +1905,8 @@ Revision: 11093
 "filtername" "filter_blu"
 "classname" "trigger_multiple"
 "hammerid" "927479"
-"OnStartTouchAll" "door_blu_large_win_2Open0-1"
-"OnEndTouchAll" "door_blu_large_win_2Close0-1"
+"OnStartTouchAll" "door_blu_large_win_2,Open,,0,-1"
+"OnEndTouchAll" "door_blu_large_win_2,Close,,0,-1"
 }
 {
 "model" "*16"
@@ -1972,8 +1972,8 @@ Revision: 11093
 "filtername" "filter_blu"
 "classname" "trigger_multiple"
 "hammerid" "927494"
-"OnStartTouchAll" "door_blu_large_win_3Open0-1"
-"OnEndTouchAll" "door_blu_large_win_3Close0-1"
+"OnStartTouchAll" "door_blu_large_win_3,Open,,0,-1"
+"OnEndTouchAll" "door_blu_large_win_3,Close,,0,-1"
 }
 {
 "model" "*18"
@@ -3507,7 +3507,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885907"
-"OnPass" "seagull2_propSetAnimationsoar0-1"
+"OnPass" "seagull2_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "-1581.04 2700.96 252.318"
@@ -3894,7 +3894,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885911"
-"OnPass" "seagull2_propSetAnimationland0-1"
+"OnPass" "seagull2_prop,SetAnimation,land,0,-1"
 }
 {
 "origin" "-448 2304 -127.765"
@@ -4166,9 +4166,9 @@ Revision: 11093
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "807656"
-"OnMapSpawn" "tonemap_globalSetAutoExposureMin.80-1"
-"OnMapSpawn" "tonemap_globalSetAutoExposureMax1.10-1"
-"OnMapSpawn" "tonemap_globalSetBloomScale.50-1"
+"OnMapSpawn" "tonemap_global,SetAutoExposureMin,.8,0,-1"
+"OnMapSpawn" "tonemap_global,SetAutoExposureMax,1.1,0,-1"
+"OnMapSpawn" "tonemap_global,SetBloomScale,.5,0,-1"
 }
 {
 "origin" "577.62 1832.19 -23.3874"
@@ -4244,8 +4244,8 @@ Revision: 11093
 "filtername" "filter_red"
 "classname" "trigger_multiple"
 "hammerid" "926460"
-"OnStartTouchAll" "door_red_large_win_1Open0-1"
-"OnEndTouchAll" "door_red_large_win_1Close0-1"
+"OnStartTouchAll" "door_red_large_win_1,Open,,0,-1"
+"OnEndTouchAll" "door_red_large_win_1,Close,,0,-1"
 }
 {
 "model" "*22"
@@ -4311,8 +4311,8 @@ Revision: 11093
 "filtername" "filter_red"
 "classname" "trigger_multiple"
 "hammerid" "926867"
-"OnStartTouchAll" "door_red_large_win_2Open0-1"
-"OnEndTouchAll" "door_red_large_win_2Close0-1"
+"OnStartTouchAll" "door_red_large_win_2,Open,,0,-1"
+"OnEndTouchAll" "door_red_large_win_2,Close,,0,-1"
 }
 {
 "model" "*24"
@@ -4378,8 +4378,8 @@ Revision: 11093
 "filtername" "filter_red"
 "classname" "trigger_multiple"
 "hammerid" "926882"
-"OnStartTouchAll" "door_red_large_win_3Open0-1"
-"OnEndTouchAll" "door_red_large_win_3Close0-1"
+"OnStartTouchAll" "door_red_large_win_3,Open,,0,-1"
+"OnEndTouchAll" "door_red_large_win_3,Close,,0,-1"
 }
 {
 "model" "*26"
@@ -4794,7 +4794,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885891"
-"OnPass" "seagull2_propSetAnimationfly0-1"
+"OnPass" "seagull2_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "576 2676 484"
@@ -4973,9 +4973,9 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885895"
-"OnPass" "seagull2_propSetDefaultAnimationidle010-1"
-"OnPass" "seagull2_tracktrainSetSpeedReal00-1"
-"OnPass" "seagull2_propSetAnimationidle010-1"
+"OnPass" "seagull2_prop,SetDefaultAnimation,idle01,0,-1"
+"OnPass" "seagull2_tracktrain,SetSpeedReal,0,0,-1"
+"OnPass" "seagull2_prop,SetAnimation,idle01,0,-1"
 }
 {
 "origin" "3986 2643.36 192"
@@ -5067,7 +5067,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885938"
-"OnPass" "seagull1_propSetAnimationsoar0-1"
+"OnPass" "seagull1_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "-660.58 2578.3 415.35"
@@ -5697,314 +5697,7 @@ Revision: 11093
 "hammerid" "1646651"
 }
 {
-"origin" "2768 488 -440"
-"targetname" "shark_path_A13"
-"target" "shark_path_A1"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891233"
-}
-{
-"origin" "2800 360 -440"
-"targetname" "shark_path_A12"
-"target" "shark_path_A13"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891229"
-}
-{
-"origin" "2880 296 -440"
-"targetname" "shark_path_A11"
-"target" "shark_path_A12"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891225"
-}
-{
-"origin" "3024 296 -440"
-"targetname" "shark_path_A10"
-"target" "shark_path_A11"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891221"
-}
-{
-"origin" "3136 344 -440"
-"targetname" "shark_path_A9"
-"target" "shark_path_A10"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891217"
-}
-{
-"origin" "3216 408 -440"
-"targetname" "shark_path_A8"
-"target" "shark_path_A9"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891213"
-}
-{
-"origin" "3264 472 -440"
-"targetname" "shark_path_A7"
-"target" "shark_path_A8"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891197"
-}
-{
-"origin" "3280 552 -440"
-"targetname" "shark_path_A6"
-"target" "shark_path_A7"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891193"
-}
-{
-"origin" "3248 632 -440"
-"targetname" "shark_path_A5"
-"target" "shark_path_A6"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891189"
-}
-{
-"origin" "3168 696 -440"
-"targetname" "shark_path_A4"
-"target" "shark_path_A5"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891177"
-}
-{
-"origin" "3024 696 -440"
-"targetname" "shark_path_A3"
-"target" "shark_path_A4"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891173"
-}
-{
-"origin" "2928 664 -440"
-"targetname" "shark_path_A2"
-"target" "shark_path_A3"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "891165"
-}
-{
-"origin" "2816 600 -440"
-"targetname" "shark_path_A1"
-"target" "shark_path_A2"
-"speed" "0"
-"spawnflags" "0"
-"radius" "0"
-"orientationtype" "1"
-"angles" "0 0 0"
-"classname" "path_track"
-"hammerid" "887845"
-}
-{
-"origin" "3240 232 -464"
-"spawnflags" "0"
-"solid" "6"
-"skin" "3"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"PerformanceMode" "0"
-"parentname" "sharkA1"
-"modelscale" "1.0"
-"model" "models/props_gunn/shark/shark.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"health" "0"
-"fadescale" "1"
-"fademindist" "1400"
-"fademaxdist" "1500"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 0 0"
-"classname" "prop_dynamic_override"
-"hammerid" "884528"
-}
-{
 "model" "*28"
-"wheels" "50"
-"volume" "10"
-"velocitytype" "0"
-"targetname" "sharkA1"
-"target" "shark_path_A7"
-"startspeed" "100"
-"speed" "100"
-"spawnflags" "8"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "3216 236 -439.01"
-"orientationtype" "1"
-"MoveSoundMinTime" "0"
-"MoveSoundMinPitch" "60"
-"MoveSoundMaxTime" "0"
-"MoveSoundMaxPitch" "200"
-"height" "4"
-"health" "100"
-"dmg" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"bank" "0"
-"classname" "func_tanktrain"
-"hammerid" "884525"
-}
-{
-"origin" "3002.57 452.54 -448.015"
-"StartDisabled" "0"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/hwm/sniper.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "crouch_LOSER"
-"angles" "0 300 0"
-"classname" "prop_dynamic"
-"hammerid" "884517"
-}
-{
-"origin" "3056 488 -448.015"
-"StartDisabled" "0"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/hwm/heavy.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "crouch_LOSER"
-"angles" "0 15 0"
-"classname" "prop_dynamic"
-"hammerid" "884513"
-}
-{
-"origin" "2952 768 -464"
-"spawnflags" "0"
-"solid" "6"
-"skin" "3"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"PerformanceMode" "0"
-"parentname" "sharkA2"
-"modelscale" "1.0"
-"model" "models/props_gunn/shark/shark.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"health" "0"
-"fadescale" "1"
-"fademindist" "1400"
-"fademaxdist" "1500"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 0 0"
-"classname" "prop_dynamic_override"
-"hammerid" "884467"
-}
-{
-"model" "*29"
 "wheels" "50"
 "volume" "10"
 "velocitytype" "0"
@@ -6060,10 +5753,10 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885858"
-"OnPass" "seagull3_propSetAnimationsoar0-1"
+"OnPass" "seagull3_prop,SetAnimation,soar,0,-1"
 }
 {
-"model" "*30"
+"model" "*29"
 "spawnflags" "0"
 "frequency" "5"
 "density" "6"
@@ -6093,7 +5786,7 @@ Revision: 11093
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "1885967"
-"OnMultiNewRound" "seagull2_tracktrainStop0-1"
+"OnMultiNewRound" "seagull2_tracktrain,Stop,,0,-1"
 }
 {
 "origin" "-3408 3008 12.762"
@@ -6126,7 +5819,7 @@ Revision: 11093
 "hammerid" "1856630"
 }
 {
-"model" "*31"
+"model" "*30"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -6612,9 +6305,9 @@ Revision: 11093
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1801372"
-"OnTrigger" "shark_kill_10_counterAdd10-1"
-"OnTrigger" "texture_toggle_0IncrementTextureIndex0-1"
-"OnTrigger" "shark_kill_total_counterAdd10-1"
+"OnTrigger" "shark_kill_10_counter,Add,1,0,-1"
+"OnTrigger" "texture_toggle_0,IncrementTextureIndex,,0,-1"
+"OnTrigger" "shark_kill_total_counter,Add,1,0,-1"
 }
 {
 "origin" "502.647 2564.88 -372.785"
@@ -6694,7 +6387,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885950"
-"OnPass" "seagull1_propSetAnimationfly0-1"
+"OnPass" "seagull1_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "254.052 2108.65 591.623"
@@ -6707,7 +6400,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885866"
-"OnPass" "seagull3_propSetAnimationsoar0-1"
+"OnPass" "seagull3_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "990.052 732.648 591.623"
@@ -6720,7 +6413,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885862"
-"OnPass" "seagull3_propSetAnimationfly0-1"
+"OnPass" "seagull3_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "564 3232 216"
@@ -6834,7 +6527,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2004289"
-"OnPass" "seagull3_propSetAnimationsoar0-1"
+"OnPass" "seagull3_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "1264 3736 591.623"
@@ -6991,7 +6684,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2004223"
-"OnPass" "seagull3_propSetAnimationsoar0-1"
+"OnPass" "seagull3_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "-768 -1344 751.623"
@@ -7370,7 +7063,7 @@ Revision: 11093
 "hammerid" "2004027"
 }
 {
-"model" "*32"
+"model" "*31"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -7660,17 +7353,17 @@ Revision: 11093
 "max" "99"
 "classname" "math_counter"
 "hammerid" "1890795"
-"OnHitMax" "shark_killDisable0-1"
+"OnHitMax" "shark_kill,Disable,,0,-1"
 }
 {
 "origin" "592 944 -95.985"
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "807678"
-"OnMultiNewRound" "koth_gamerulesSetBlueTeamRespawnWaveTime60-1"
-"OnMultiNewRound" "koth_gamerulesSetRedTeamRespawnWaveTime60-1"
-"OnMultiNewRound" "koth_gamerulesSetRedTeamGoalString#koth_setup_goal0-1"
-"OnMultiNewRound" "koth_gamerulesSetBlueTeamGoalString#koth_setup_goal0-1"
+"OnMultiNewRound" "koth_gamerules,SetBlueTeamRespawnWaveTime,6,0,-1"
+"OnMultiNewRound" "koth_gamerules,SetRedTeamRespawnWaveTime,6,0,-1"
+"OnMultiNewRound" "koth_gamerules,SetRedTeamGoalString,#koth_setup_goal,0,-1"
+"OnMultiNewRound" "koth_gamerules,SetBlueTeamGoalString,#koth_setup_goal,0,-1"
 }
 {
 "origin" "-3272 2816 264"
@@ -7789,7 +7482,7 @@ Revision: 11093
 "hammerid" "1638619"
 }
 {
-"model" "*33"
+"model" "*32"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -7846,7 +7539,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885942"
-"OnPass" "seagull1_propSetAnimationfly0-1"
+"OnPass" "seagull1_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "1600 2144 -383.744"
@@ -7938,7 +7631,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885946"
-"OnPass" "seagull1_propSetAnimationsoar0-1"
+"OnPass" "seagull1_prop,SetAnimation,soar,0,-1"
 }
 {
 "origin" "-2855.06 3566.87 5.79574"
@@ -8002,9 +7695,9 @@ Revision: 11093
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1976652"
-"OnTrigger" "particle_steam_whistleStop4-1"
-"OnTrigger" "particle_steam_whistleStart0-1"
-"OnTrigger" "sound_steam_whistlePlaySound0-1"
+"OnTrigger" "particle_steam_whistle,Stop,,4,-1"
+"OnTrigger" "particle_steam_whistle,Start,,0,-1"
+"OnTrigger" "sound_steam_whistle,PlaySound,,0,-1"
 }
 {
 "origin" "899.576 2845.46 517.39"
@@ -8444,7 +8137,7 @@ Revision: 11093
 "hammerid" "1853797"
 }
 {
-"model" "*34"
+"model" "*33"
 "wheels" "50"
 "volume" "10"
 "velocitytype" "2"
@@ -8452,7 +8145,7 @@ Revision: 11093
 "target" "seagull2_path_1"
 "startspeed" "5000"
 "speed" "500"
-"spawnflags" "0"
+"spawnflags" "8"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -8479,8 +8172,8 @@ Revision: 11093
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1885883"
-"OnTrigger" "seagull2_propSetAnimationtakeoff0-1"
-"OnTrigger" "seagull2_tracktrainSetSpeedReal5000.5-1"
+"OnTrigger" "seagull2_prop,SetAnimation,takeoff,0,-1"
+"OnTrigger" "seagull2_tracktrain,SetSpeedReal,500,0.5,-1"
 }
 {
 "origin" "5520 2272 -40"
@@ -8633,7 +8326,7 @@ Revision: 11093
 "hammerid" "931126"
 }
 {
-"model" "*35"
+"model" "*34"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -8647,18 +8340,18 @@ Revision: 11093
 "area_cap_point" "cp_koth"
 "classname" "trigger_capture_area"
 "hammerid" "807666"
-"OnCapTeam2" "cp_koth_propSkin20-1"
-"OnCapTeam1" "cp_koth_propSkin10-1"
-"OnCapTeam2" "koth_gamerulesSetBlueKothClockActive0-1"
-"OnCapTeam2" "koth_gamerulesSetBlueTeamRespawnWaveTime80-1"
-"OnCapTeam2" "koth_gamerulesSetRedTeamRespawnWaveTime40-1"
-"OnCapTeam1" "koth_gamerulesSetRedKothClockActive0-1"
-"OnCapTeam1" "koth_gamerulesSetRedTeamRespawnWaveTime80-1"
-"OnCapTeam1" "koth_gamerulesSetBlueTeamRespawnWaveTime40-1"
-"OnCapTeam2" "seagull2_relayTrigger0-1"
-"OnCapTeam1" "seagull2_relayTrigger0-1"
-"OnCapTeam1" "cap_hornTrigger0-1"
-"OnCapTeam2" "cap_hornTrigger0-1"
+"OnCapTeam2" "cp_koth_prop,Skin,2,0,-1"
+"OnCapTeam1" "cp_koth_prop,Skin,1,0,-1"
+"OnCapTeam2" "koth_gamerules,SetBlueKothClockActive,,0,-1"
+"OnCapTeam2" "koth_gamerules,SetBlueTeamRespawnWaveTime,8,0,-1"
+"OnCapTeam2" "koth_gamerules,SetRedTeamRespawnWaveTime,4,0,-1"
+"OnCapTeam1" "koth_gamerules,SetRedKothClockActive,,0,-1"
+"OnCapTeam1" "koth_gamerules,SetRedTeamRespawnWaveTime,8,0,-1"
+"OnCapTeam1" "koth_gamerules,SetBlueTeamRespawnWaveTime,4,0,-1"
+"OnCapTeam2" "seagull2_relay,Trigger,,0,-1"
+"OnCapTeam1" "seagull2_relay,Trigger,,0,-1"
+"OnCapTeam1" "cap_horn,Trigger,,0,-1"
+"OnCapTeam2" "cap_horn,Trigger,,0,-1"
 }
 {
 "origin" "2704 2688 -128"
@@ -8715,8 +8408,8 @@ Revision: 11093
 "CompareValue" "10"
 "classname" "logic_compare"
 "hammerid" "1801376"
-"OnEqualTo" "texture_toggle_10IncrementTextureIndex0-1"
-"OnEqualTo" "shark_kill_10_counterSetValueNoFire00-1"
+"OnEqualTo" "texture_toggle_10,IncrementTextureIndex,,0,-1"
+"OnEqualTo" "shark_kill_10_counter,SetValueNoFire,0,0,-1"
 }
 {
 "portalnumber" "28"
@@ -8851,13 +8544,14 @@ Revision: 11093
 "hammerid" "1416277"
 }
 {
-"model" "*36"
+"model" "*35"
 "TeamNum" "0"
 "StartDisabled" "0"
+"kill_icon" "hud/kill_icons/shark_kill"
 "croc_model" "models/props_gunn/shark/shark.mdl"
 "classname" "func_croc"
 "hammerid" "845839"
-"OnEat" "shark_killTrigger0-1"
+"OnEat" "shark_kill,Trigger,,0,-1"
 }
 {
 "portalnumber" "29"
@@ -8884,7 +8578,7 @@ Revision: 11093
 "hammerid" "1566338"
 }
 {
-"model" "*37"
+"model" "*36"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -8913,12 +8607,12 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885887"
-"OnPass" "seagull2_propSetAnimationidle010-1"
-"OnPass" "seagull2_tracktrainSetSpeedReal00-1"
-"OnPass" "seagull2_propSetDefaultAnimationidle010-1"
+"OnPass" "seagull2_prop,SetAnimation,idle01,0,-1"
+"OnPass" "seagull2_tracktrain,SetSpeedReal,0,0,-1"
+"OnPass" "seagull2_prop,SetDefaultAnimation,idle01,0,-1"
 }
 {
-"model" "*38"
+"model" "*37"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -8947,7 +8641,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885919"
-"OnPass" "seagull2_propSetAnimationfly0-1"
+"OnPass" "seagull2_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "-400 416 -432"
@@ -8960,7 +8654,7 @@ Revision: 11093
 "hammerid" "959234"
 }
 {
-"model" "*39"
+"model" "*38"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -9004,7 +8698,7 @@ Revision: 11093
 "hammerid" "930905"
 }
 {
-"model" "*40"
+"model" "*39"
 "spawnflags" "0"
 "frequency" "5"
 "density" "6"
@@ -9201,7 +8895,7 @@ Revision: 11093
 "hammerid" "930957"
 }
 {
-"model" "*41"
+"model" "*40"
 "spawnflags" "0"
 "frequency" "5"
 "density" "6"
@@ -9278,7 +8972,7 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885934"
-"OnPass" "seagull1_propSetAnimationfly0-1"
+"OnPass" "seagull1_prop,SetAnimation,fly,0,-1"
 }
 {
 "origin" "3999.59 2071.72 -53.8953"
@@ -9425,7 +9119,7 @@ Revision: 11093
 "hammerid" "1854228"
 }
 {
-"model" "*42"
+"model" "*41"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -9765,7 +9459,7 @@ Revision: 11093
 "hammerid" "1998073"
 }
 {
-"model" "*43"
+"model" "*42"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -9824,7 +9518,7 @@ Revision: 11093
 "hammerid" "1603706"
 }
 {
-"model" "*44"
+"model" "*43"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -9844,10 +9538,10 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885915"
-"OnPass" "seagull2_propSetAnimationsoar0-1"
+"OnPass" "seagull2_prop,SetAnimation,soar,0,-1"
 }
 {
-"model" "*45"
+"model" "*44"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -9857,7 +9551,7 @@ Revision: 11093
 "hammerid" "1848402"
 }
 {
-"model" "*46"
+"model" "*45"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -9976,6 +9670,313 @@ Revision: 11093
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1885826"
-"OnPass" "seagull3_propSetAnimationfly0-1"
+"OnPass" "seagull3_prop,SetAnimation,fly,0,-1"
+}
+{
+"origin" "2768 488 -440"
+"targetname" "shark_path_A13"
+"target" "shark_path_A1"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891233"
+}
+{
+"origin" "2800 360 -440"
+"targetname" "shark_path_A12"
+"target" "shark_path_A13"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891229"
+}
+{
+"origin" "2880 296 -440"
+"targetname" "shark_path_A11"
+"target" "shark_path_A12"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891225"
+}
+{
+"origin" "3024 296 -440"
+"targetname" "shark_path_A10"
+"target" "shark_path_A11"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891221"
+}
+{
+"origin" "3136 344 -440"
+"targetname" "shark_path_A9"
+"target" "shark_path_A10"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891217"
+}
+{
+"origin" "3216 408 -440"
+"targetname" "shark_path_A8"
+"target" "shark_path_A9"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891213"
+}
+{
+"origin" "3264 472 -440"
+"targetname" "shark_path_A7"
+"target" "shark_path_A8"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891197"
+}
+{
+"origin" "3280 552 -440"
+"targetname" "shark_path_A6"
+"target" "shark_path_A7"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891193"
+}
+{
+"origin" "3248 632 -440"
+"targetname" "shark_path_A5"
+"target" "shark_path_A6"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891189"
+}
+{
+"origin" "3168 696 -440"
+"targetname" "shark_path_A4"
+"target" "shark_path_A5"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891177"
+}
+{
+"origin" "3024 696 -440"
+"targetname" "shark_path_A3"
+"target" "shark_path_A4"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891173"
+}
+{
+"origin" "2928 664 -440"
+"targetname" "shark_path_A2"
+"target" "shark_path_A3"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "891165"
+}
+{
+"origin" "2816 600 -440"
+"targetname" "shark_path_A1"
+"target" "shark_path_A2"
+"speed" "0"
+"spawnflags" "0"
+"radius" "0"
+"orientationtype" "1"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "887845"
+}
+{
+"origin" "3240 232 -464"
+"spawnflags" "0"
+"solid" "6"
+"skin" "3"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"parentname" "sharkA1"
+"modelscale" "1.0"
+"model" "models/props_gunn/shark/shark.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"health" "0"
+"fadescale" "1"
+"fademindist" "1400"
+"fademaxdist" "1500"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"DefaultAnim" "idle"
+"angles" "0 0 0"
+"classname" "prop_dynamic_override"
+"hammerid" "884528"
+}
+{
+"model" "*46"
+"wheels" "50"
+"volume" "10"
+"velocitytype" "0"
+"targetname" "sharkA1"
+"target" "shark_path_A7"
+"startspeed" "100"
+"speed" "100"
+"spawnflags" "8"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "3216 236 -439.01"
+"orientationtype" "1"
+"MoveSoundMinTime" "0"
+"MoveSoundMinPitch" "60"
+"MoveSoundMaxTime" "0"
+"MoveSoundMaxPitch" "200"
+"height" "4"
+"health" "100"
+"dmg" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"bank" "0"
+"classname" "func_tanktrain"
+"hammerid" "884525"
+}
+{
+"origin" "3002.57 452.54 -448.015"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"modelscale" "1.0"
+"model" "models/player/hwm/sniper.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"DefaultAnim" "crouch_LOSER"
+"angles" "0 300 0"
+"classname" "prop_dynamic"
+"hammerid" "884517"
+}
+{
+"origin" "3056 488 -448.015"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"modelscale" "1.0"
+"model" "models/player/hwm/heavy.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"DefaultAnim" "crouch_LOSER"
+"angles" "0 15 0"
+"classname" "prop_dynamic"
+"hammerid" "884513"
+}
+{
+"origin" "2952 768 -464"
+"spawnflags" "0"
+"solid" "6"
+"skin" "3"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"parentname" "sharkA2"
+"modelscale" "1.0"
+"model" "models/props_gunn/shark/shark.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"health" "0"
+"fadescale" "1"
+"fademindist" "1400"
+"fademaxdist" "1500"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"DefaultAnim" "idle"
+"angles" "0 0 0"
+"classname" "prop_dynamic_override"
+"hammerid" "884467"
 }
  

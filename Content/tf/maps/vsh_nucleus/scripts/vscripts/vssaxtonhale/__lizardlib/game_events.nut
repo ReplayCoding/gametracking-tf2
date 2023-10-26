@@ -85,15 +85,11 @@ function OnGameEvent_player_changeclass(params)
 
 function OnGameEvent_player_spawn(params)
 {
+    if (IsInWaitingForPlayers() || IsNotValidRound())
+        return;
     local player = GetPlayerFromParams(params);
     if (!IsValidPlayer(player))
         return;
-    if (IsInWaitingForPlayers() || IsNotValidRound())
-    {
-        if (params.team == TF_TEAM_BOSS)
-            RunWithDelay("SwitchPlayerTeam(activator, TF_TEAM_MERCS)", player, 0);
-        return;
-    }
     FireListeners("spawn", player, params);
 }
 
@@ -130,12 +126,25 @@ function OnGameEvent_rps_taunt_event(params)
 function FinishSetup()
 {
     //todo Hale-specific check to fix Class-Restricted Duels bug.
-    if (GetRandomBossPlayer().GetPlayerClass() != TF_CLASS_HEAVY)
+    local boss = GetRandomBossPlayer();
+    if (boss != null && boss.GetPlayerClass() != TF_CLASS_HEAVY && !IsRoundOver())
     {
-        isRoundSetup = false;
-        GetRandomBossPlayer().TakeDamage(999999, 0, null);
-        EndRound(TF_TEAM_UNASSIGNED);
-        return;
+        boss.RemoveCond(TF_COND_STUNNED);
+        boss.RemoveCond(TF_COND_TAUNTING);
+        DiscardTraits(boss);
+        characterTraits[boss] <- [];
+        hudAbilityInstances[boss] <- [];
+        boss.ForceRespawn();
+        RefreshBossSetup(boss);
+        bosses[boss].TryApply(boss);
+
+        RunWithDelay2(this, 1, function (boss)
+        {
+            if (boss.GetPlayerClass() == TF_CLASS_HEAVY)
+                return;
+            boss.TakeDamage(999999, 0, null);
+            EndRound(TF_TEAM_UNASSIGNED);
+        }, boss)
     }
     FireListeners("setup_end");
     isRoundSetup = false;

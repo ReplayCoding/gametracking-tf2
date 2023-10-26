@@ -778,7 +778,7 @@
 					if ( classarms && classarms.IsValid() ) {
 				// if ShortCircuit, disable the class arms' visibility
 						if ( wep && wep.IsValid()
-                            && (wep.GetClassname() == "tf_weapon_mechanical_arm"  || playerscope["hide_base_arms"]))  { // Short Circuit
+                            && (wep.GetClassname() == "tf_weapon_mechanical_arm" || ("hide_base_arms" in playerscope)))  { // Short Circuit
 							classarms.DisableDraw();
 						}
 						else {

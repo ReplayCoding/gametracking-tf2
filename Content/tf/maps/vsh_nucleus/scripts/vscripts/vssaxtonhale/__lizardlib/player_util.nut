@@ -26,6 +26,8 @@
     return this.GetFlags() & FL_ONGROUND;
 }
 
+::CTFBot.IsOnGround <- CTFPlayer.IsOnGround;
+
 ::IsValidClient <- function(player)
 {
     try
@@ -107,6 +109,8 @@
     this.RemoveFlag(FL_ONGROUND);
 }
 
+::CTFBot.Yeet <- CTFPlayer.Yeet;
+
 ::CTFBot.SwitchTeam <- function(team)
 {
     this.ForceChangeTeam(team, true);
@@ -125,7 +129,16 @@
     if (IsValidPlayer(player))
     {
         player.SwitchTeam(team);
-        if (!IsBoss(player))
+        if (!IsBoss(player) && IsRoundSetup())
+        {
             player.ForceRegenerateAndRespawn();
+            local ammoPack = null;
+            while (ammoPack = Entities.FindByClassname(ammoPack, "tf_ammo_pack"))
+                if (ammoPack.GetOwner() == player)
+                {
+                    ammoPack.Kill();
+                    return;
+                }
+        }
     }
 }

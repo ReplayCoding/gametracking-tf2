@@ -27,7 +27,6 @@ class SaxtonHale extends Boss
     function OnApply0Delay()
     {
         player.SetPlayerClass(TF_CLASS_HEAVY);
-        player.Regenerate(true);
         SetPropInt(player, "m_bForcedSkin", 1);
         SetPropInt(player, "m_nForcedSkin", 0);
 
@@ -40,6 +39,7 @@ class SaxtonHale extends Boss
             vsh_vscript.Hale_SetRedArm(player, false);
             vsh_vscript.Hale_SetBlueArm(player, false);
             player.CreateCustomWearable(null, saxton_aura_model_path);
+            //player.GiveWeapon("Hale's Own Fists", null, AutoSwitch); //todo?
         });
 
         player.SetModelScale(API_GetFloat("boss_scale"), 0);
@@ -68,6 +68,7 @@ Include("/bosses/saxton_hale/abilities/sweeping_charge.nut");
 Include("/bosses/saxton_hale/abilities/mighty_slam.nut");
 Include("/bosses/saxton_hale/abilities/saxton_punch.nut");
 Include("/bosses/saxton_hale/misc/colored_arms.nut");
+Include("/bosses/saxton_hale/misc/visible_weapon_fix.nut");
 
 AddBossTrait("saxton_hale", AbilityHudTrait);
 AddBossTrait("saxton_hale", SweepingChargeTrait);
@@ -99,7 +100,6 @@ RegisterCustomWeapon(
     Defaults,
     function (table, player) {
         table.worldModel = "models/empty.mdl";
-        //table.viewModel = "models/empty.mdl";
         table.viewModel = saxton_viewmodel_path;
         table.classArms = saxton_viewmodel_path;
     },

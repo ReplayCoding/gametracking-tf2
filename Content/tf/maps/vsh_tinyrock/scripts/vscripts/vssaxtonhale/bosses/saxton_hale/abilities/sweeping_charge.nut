@@ -130,7 +130,7 @@ class SweepingChargeTrait extends BossTrait
         boss.AddCustomAttribute("no_attack", 1, 0.5);
         boss.AddCustomAttribute("move speed penalty", 0.25, 0.5);
         if (!boss.InCond(TF_COND_AIMING))
-        boss.AddCond(TF_COND_AIMING);
+            boss.AddCond(TF_COND_AIMING);
     }
 
     function Perform()

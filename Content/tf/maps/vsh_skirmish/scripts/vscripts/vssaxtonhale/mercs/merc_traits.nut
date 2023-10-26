@@ -41,7 +41,6 @@ Include("/mercs/merc_traits/single_class/demo_jumper_ammo.nut");
 Include("/mercs/merc_traits/single_class/soldier_jumper_ammo.nut");
 Include("/mercs/merc_traits/single_class/spy_invis_res.nut");
 Include("/mercs/merc_traits/single_class/engineer_telefrag_scaling.nut");
-Include("/mercs/merc_traits/single_class/scout_faster_milk.nut");
 
 Include("/mercs/voice_lines/all_class/tracing_boss.nut");
 Include("/mercs/voice_lines/all_class/no_medic.nut");
@@ -59,3 +58,4 @@ Include("/mercs/voice_lines/single_class/heavy_tickle.nut");
 Include("/mercs/voice_lines/single_class/spy_dead_ringer.nut");
 Include("/mercs/voice_lines/single_class/spy_last_mann.nut");
 Include("/mercs/voice_lines/single_class/sniper_run.nut");
+Include("/mercs/voice_lines/single_class/pyro_airblast.nut");

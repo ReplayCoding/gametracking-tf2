@@ -1,21 +1,23 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/workshop/player/items/sniper/sum23_cranium_cover_style2/sum23_cranium_cover_style2_color"
-	"$lightwarptexture"		"models/lightwarps/jarate_lightwarp"
+	"$bumpmap"		"models/workshop/player/items/sniper/sum23_cranium_cover_style2/sum23_cranium_cover_style2_normal"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phongexponenttexture"		"models/workshop/player/items/sniper/sum23_cranium_cover_style2/sum23_cranium_cover_style2_phongexponent"
 	"$phong"		"1"
-	"$phongexponent"		"10.000000"
-	"$phongboost"		"1.000000"
+	"$phongexponent"		"20.000000"
+	"$phongboost"		"2.000000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"1.000000"
-	"$color2"		"{ 255 255 255 }"
+	"$rimmask"		"1"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1.000000"
+	"$colortint_base"		"{ 156 48 48 }"
+	"$color2"		"{ 156 48 48 }"
+	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
-	"$additive"		"1"
-	"$envmap"		"effects/saxxy/saxxy_gold"
-	"$basealphaenvmapmask"		"0"
-	"$normalmapalphaenvmapmask"		"0"
-	"$envmaptint"		"[0.192157 0.192157 0.192157]"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
 	"$detailscale"		"5"
@@ -41,13 +43,24 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"		"$yellow"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}

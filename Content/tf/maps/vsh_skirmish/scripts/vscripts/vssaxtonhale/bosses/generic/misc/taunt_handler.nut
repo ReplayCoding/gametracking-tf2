@@ -69,6 +69,8 @@ class TauntHandlerTrait extends BossTrait
                 hasTauntPartner = true;
                 partnerJoinTime = time;
                 local tauntIdPartner = GetPropInt(tauntPartner, "m_iTauntItemDefIndex");
+                if (tauntIdPartner == 1111)
+                    tauntId = 1111;
                 if (tauntId == 1110 || tauntIdPartner == 1110) //RPS
                 {
                     EmitPlayerVO(boss, "rps_on3");
@@ -102,15 +104,15 @@ class TauntHandlerTrait extends BossTrait
                 isTaunting = true;
             }
         }
-        else if (tauntId == 1107) //Flippin' Awesome
+        else if (tauntId == 1107 || tauntId == 1111) //Flippin' Awesome or Skullcracker
         {
-            if (time - partnerJoinTime > 1.55)
+            if (time - partnerJoinTime > (tauntId == 1107 ? 1.45 : 1.72))
             {
                 local tauntPartner = GetPropEntity(boss, "m_hHighFivePartner");
                 if (tauntPartner != null)
                 {
                     local deltaVector = tauntPartner.GetCenter() - boss.GetCenter();
-                    deltaVector.z += 200;
+                    deltaVector.z += tauntId == 1107 ? 100 : 20;
                     tauntPartner.TakeDamageEx(
                         boss,
                         boss,

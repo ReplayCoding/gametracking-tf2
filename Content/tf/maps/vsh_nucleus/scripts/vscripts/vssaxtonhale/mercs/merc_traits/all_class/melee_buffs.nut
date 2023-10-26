@@ -64,7 +64,10 @@ characterTraitsClasses.push(class extends CharacterTrait
                 local deltaVector = victim.GetOrigin() - player.GetOrigin();
                 deltaVector.z = 0;
                 if (deltaVector.Norm() < 180)
-                    victim.Yeet(deltaVector * 300 + Vector(0, 0, 300));
+                {
+                    local force = !WeaponIs(params.weapon, "any_sword") ? 300 : 100;
+                    victim.Yeet(deltaVector * force + Vector(0, 0, force));
+                }
             }
         }
     }

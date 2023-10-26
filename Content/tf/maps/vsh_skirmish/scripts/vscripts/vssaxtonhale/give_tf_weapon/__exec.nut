@@ -13,6 +13,7 @@ gtfw_exec_code <- [
 "GiveWeapon()",
 "GetWeapon()",
 "CustomWeaponRegistration",
+"zz_BotFix"
 ]
 
 foreach ( file in gtfw_exec_code )

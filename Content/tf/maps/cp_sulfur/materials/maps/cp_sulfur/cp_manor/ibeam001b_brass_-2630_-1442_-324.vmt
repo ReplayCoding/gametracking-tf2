@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CP_MANOR/IBEAM001B_BRASS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_sulfur/c-2630_-1442_-324"
+	}
+}

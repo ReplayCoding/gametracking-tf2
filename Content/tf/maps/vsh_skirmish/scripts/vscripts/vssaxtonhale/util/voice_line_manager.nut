@@ -124,6 +124,22 @@ function PlaySoundForAll(soundScript)
     return true;
 }
 
+::EmitPlayerToPlayerVO <- function(source, target, distance, soundPath)
+{
+    if (source == null || target == null)
+        return false;
+    EmitSoundEx({
+        sound_name = GetCurrentCharacterName(source)+"."+soundPath,
+        filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER
+        volume = 1.2 - clampFloor(300.0, distance) / 1500.0,
+        flags =  GetAliveMercCount() > 5 ? 0 : 1,
+        entity = target,
+        origin = source.GetCenter(),
+        speaker_entity = source
+    });
+    return true;
+}
+
 ::EmitEntityVO <- function(entity, soundBank, soundPath)
 {
     EmitSoundOn(soundBank+"."+soundPath, entity);

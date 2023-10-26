@@ -42,7 +42,7 @@ class KillVoiceLine extends BossVoiceLine
 AddListener("death", 10, function (attacker, victim, params)
 {
     if (params.crit_type > 0
-        || Time() - bossKillLinesLastPlayed < 5
+        || Time() - bossKillLinesLastPlayed < (GetAliveMercCount() > 20 ? 8 : 5)
         || GetAliveMercCount() == 1
         || IsBoss(victim)
         || bossKillLinesEnabled.find(attacker) == null
@@ -68,9 +68,10 @@ AddListener("death", 10, function (attacker, victim, params)
 
 AddListener("builing_destroyed", 0, function (attacker, params)
 {
-    if (RandomInt(1, 3) == 1 && bossKillLinesEnabled.find(attacker) != null && Time() - bossKillLinesLastPlayed > 5)
+    if (RandomInt(1, 4) == 1 && bossKillLinesEnabled.find(attacker) != null && Time() - bossKillLinesLastPlayed > 5)
     {
-        if (RandomInt(1, 5) != 1)
+        bossKillLinesLastPlayed = Time();
+        if (params.objecttype != 0 || RandomInt(1, 5) != 1)
             PlayAnnouncerVO(attacker, "kill_building");
         else
             PlayAnnouncerVO(attacker, "kill_dispenser");

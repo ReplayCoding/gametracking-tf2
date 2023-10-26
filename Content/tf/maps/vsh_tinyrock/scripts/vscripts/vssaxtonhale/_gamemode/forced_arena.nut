@@ -22,12 +22,12 @@ AddListener("spawn", 0, function (player, params)
         player.ForceChangeTeam(TF_TEAM_MERCS, true);
 
     local ammoPack = null;
-    local packsToKill = [];
     while (ammoPack = Entities.FindByClassname(ammoPack, "tf_ammo_pack"))
         if (ammoPack.GetOwner() == player)
-            packsToKill.push(ammoPack);
-    foreach (ammoPack in packsToKill)
-        ammoPack.Kill();
+        {
+            ammoPack.Kill();
+            return;
+        }
 });
 
 AddListener("class_change", 0, function (player, params)
@@ -67,4 +67,11 @@ AddListener("team_change", 0, function (player, params)
         Say(null, "Player '"+name+"' was moved to spectators for some reason. Moving them back.", false);
         RunWithDelay("SwitchPlayerTeam(activator, TF_TEAM_MERCS)", player, 0);
     }
+});
+
+AddListener("tick_frame", 0, function()
+{
+    local pdFlag = Entities.FindByClassname(null, "item_teamflag");
+    if (pdFlag != null)
+        pdFlag.Kill();
 });

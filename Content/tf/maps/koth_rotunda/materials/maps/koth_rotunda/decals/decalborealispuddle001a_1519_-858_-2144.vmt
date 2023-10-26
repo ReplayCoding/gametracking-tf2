@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/DECALS/DECALBOREALISPUDDLE001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c1519_-858_-2144"
+	}
+}

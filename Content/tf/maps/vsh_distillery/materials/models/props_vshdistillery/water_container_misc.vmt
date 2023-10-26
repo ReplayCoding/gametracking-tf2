@@ -1,12 +1,10 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "Models/props_vshdistillery/water_container_misc"
-	"$basemapalphaphongmask" "1"
 	"$surfaceprop" "metal"
 	"$phong" "1"
 	"$phongexponent" "150"
 	"$phongboost" ".5"	
 	"$phongfresnelranges"	"[.7 15 20]"
-
-	"$ambientocclusion" "1"
+	"$bumpmap" "models/effects/flat_normal"
 }

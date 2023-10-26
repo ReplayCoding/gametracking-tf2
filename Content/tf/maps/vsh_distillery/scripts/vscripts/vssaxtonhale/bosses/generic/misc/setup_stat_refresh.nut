@@ -11,6 +11,25 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
+::CalcBossMaxHealth <- function(mercCount)
+{
+    if (mercCount < 2)
+        return 1000;
+    local unrounded = mercCount * mercCount * API_GetFloat("health_factor") + (mercCount < 6 ? 1300 : 2000);
+    return floor(unrounded / 100) * 100;
+}
+
+::RefreshBossSetup <- function(boss)
+{
+    local maxHealth = CalcBossMaxHealth(GetValidPlayerCount() - 1);
+    boss.SetHealth(maxHealth);
+    boss.SetMaxHealth(maxHealth);
+    boss.RemoveCustomAttribute("max health additive bonus");
+    boss.AddCustomAttribute("max health additive bonus", maxHealth - 300, -1);
+    bosses[boss].startingHealth = maxHealth;
+    ::startMercCount <- GetAliveMercCount();
+}
+
 class SetupStatRefreshTrait extends BossTrait
 {
     function OnDamageTaken(attacker, params)
@@ -27,20 +46,6 @@ class SetupStatRefreshTrait extends BossTrait
         if (!IsRoundSetup())
             return;
 
-        local maxHealth = CalcBossMaxHealth(GetValidPlayerCount() - 1);
-        boss.SetHealth(maxHealth);
-        boss.SetMaxHealth(maxHealth);
-        boss.RemoveCustomAttribute("max health additive bonus");
-        boss.AddCustomAttribute("max health additive bonus", maxHealth - 300, -1);
-        bosses[boss].startingHealth = maxHealth;
-        ::startMercCount <- GetAliveMercCount();
+        RefreshBossSetup(boss);
 	}
-
-    function CalcBossMaxHealth(mercCount)
-    {
-        if (mercCount < 2)
-            return 1000;
-        local unrounded = mercCount * mercCount * API_GetFloat("health_factor") + (mercCount < 6 ? 1300 : 2000);
-        return floor(unrounded / 100) * 100;
-    }
 };

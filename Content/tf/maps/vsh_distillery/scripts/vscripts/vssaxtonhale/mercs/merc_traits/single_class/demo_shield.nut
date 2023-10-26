@@ -40,6 +40,14 @@ characterTraitsClasses.push(class extends CharacterTrait
         wasDestroyed = true;
         params.damage = 0;
 
+        local wearable = null;
+        while (wearable = Entities.FindByClassname(wearable, "tf_wearable_demo*"))
+            if (wearable.GetOwner() == player)
+            {
+                wearable.Kill();
+                break;
+            }
+
         local deltaVector = player.GetCenter() - attacker.GetCenter();
         deltaVector.z = 0;
         deltaVector.Norm();
