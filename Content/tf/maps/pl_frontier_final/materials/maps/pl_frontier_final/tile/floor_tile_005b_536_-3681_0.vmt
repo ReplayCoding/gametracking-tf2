@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_frontier_final/c536_-3681_0"
+	}
+}

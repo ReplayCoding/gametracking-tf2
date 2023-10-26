@@ -1,0 +1,50 @@
+convar 
+flags: 
+default: 0
+
+
+convar panel_test_title_safe
+flags:  "cheat"
+default: 0
+Test vgui panel positioning with title safe indentation
+
+convar sb_filter_incompatible_versions
+flags: 
+default: 1
+Hides servers running incompatible versions from the server browser.  (Internet tab only.)
+
+convar sb_firstopentime
+flags:  "developmentonly"
+default: 0
+Indicates the time the server browser was first opened.
+
+convar sb_mod_suggested_maxplayers
+flags:  "hidden"
+default: 0
+
+
+convar sb_numtimesopened
+flags:  "developmentonly"
+default: 0
+Indicates the number of times the server browser was opened this session.
+
+convar sb_quick_list_bit_field
+flags: 
+default: -1
+
+
+convar sb_showblacklists
+flags: 
+default: 0
+If set to 1, blacklist rules will be printed to the console as they're applied.
+
+convar tf_debug_tabcontainer
+flags:  "hidden"
+default: 0
+Spew TabContainer dimensions.
+
+convar vgui_cache_res_files
+flags: 
+default: 1
+
+

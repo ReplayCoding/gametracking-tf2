@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_lakeside_event/c-2069_-1384_21"
+	}
+}

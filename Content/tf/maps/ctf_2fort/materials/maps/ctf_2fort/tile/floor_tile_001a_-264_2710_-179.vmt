@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_2fort/c-264_2710_-179"
+	}
+}

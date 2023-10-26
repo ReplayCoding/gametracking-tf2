@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOW002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_king/c888_334_152"
+	}
+}

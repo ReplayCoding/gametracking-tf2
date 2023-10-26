@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_invasion\2fort\plastic_cover"
+	"$bumpmap" "models\props_invasion\2fort\plastic_cover_normal"
+
+	"$translucent" 1
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "50"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[0.8 0.5 1.0]"
+}

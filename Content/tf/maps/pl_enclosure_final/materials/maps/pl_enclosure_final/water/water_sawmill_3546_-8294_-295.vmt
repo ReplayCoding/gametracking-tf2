@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_enclosure_final/c3546_-8294_-295"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/WALL_ISLAND_HEAVY02B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_mercenarypark/c-3876_-2159_244"
+	}
+}

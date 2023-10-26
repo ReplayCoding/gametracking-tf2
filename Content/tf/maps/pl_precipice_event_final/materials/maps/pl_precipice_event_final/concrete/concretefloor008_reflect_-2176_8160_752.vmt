@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_precipice_event_final/c-2176_8160_752"
+	}
+}

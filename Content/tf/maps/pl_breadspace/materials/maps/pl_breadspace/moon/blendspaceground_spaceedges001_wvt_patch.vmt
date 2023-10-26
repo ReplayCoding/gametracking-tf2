@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"moon/space_ground_rock001"
+	"$bumpmap"		"moon/space_rock_normal"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmap"		"cubemaps/cubemap_sheen001.hdr"
+	"$envmapcontrast"		"1"
+	"$envmaptint"		"[3 2 3.5]"
+	"$surfaceprop"		"dirt"
+	"%keywords"		"tf"
+	"%tooltexture"		"moon/blend_spaceground2spacedges001_tooltexture"
+}

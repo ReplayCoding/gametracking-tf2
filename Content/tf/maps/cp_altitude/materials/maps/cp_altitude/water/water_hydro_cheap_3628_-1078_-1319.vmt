@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_altitude/c3628_-1078_-1319"
+		"Proxies"
+		{
+		}
+	}
+}

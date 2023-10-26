@@ -1,0 +1,84 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_breadspace/bread_tentacles.vtf"
+	//"$bumpmap"		"models/props_breadspace/8track_normal.vtf"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	//"$phongexponenttexture"		"models/workshop/props_8track/8track_phong.vtf"
+	"$phong"		"1"
+	"$phongexponent"		"15.000000"
+	"$phongboost"		"1.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"1.000000"
+	//"$rimmask"		"1"
+	//"$blendtintbybasealpha"		"1"
+	//"$blendtintcoloroverbase"		"0"
+	//"$colortint_base"		"{ 105 50 45 }"
+	//"$color2"		"{ 105 50 45 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$basemapalphaphongmask"		"1"
+
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	$treeSway			"1"	// height at which the effect is on fully (in world units)
+	$treeSwayHeight			"0"//"1000"	// radius at which the effect is on fully (in world units)
+	$treeSwayStartHeight		".5"	// portion of height at which the effect starts to fade in (0-1)
+	$treeSwayRadius			"1000"	// radius at which the effect is on fully (in world units)
+	$treeSwayStartRadius		"0.2"	// portion of radius at which the effect starts to fade in (0-1)
+	$treeSwaySpeed			".2"	// how quickly the tree sways (as a multiplier of time)
+	$treeSwayStrength		"10"	// how much the tree sways (as a multiplier of position)
+	$treeSwayScrumbleSpeed		"2.2"	// how quickly the leaves move (as a multiplier of time)
+	$treeSwayScrumbleStrength	"4.4"	// how much the leaves move( as a multiplier of position)
+	$treeSwayScrumbleFrequency	"10"	// spatial frequency of sine wave applied to leaves.  Typically high-ish (10-25)
+	$treeSwayFalloffExp		"3"	// falloff parameter for wave motion on branches/trunk, higher means core of tree is more stable
+	$treeSwayScrumbleFalloffExp	"2"	// falloff parameter for scrumble motion on leaves, higher means the core of the tree is more stable
+	$treeSwaySpeedHighWindMultiplier "0"  	// multiplier of movement speed at higher wind
+	$treeSwaySpeedLerpStart 	"200.0"	// wind speed at which high wind multiplier begins to have effect
+	$treeSwaySpeedLerpEnd 		"600.0"	// wind speed at which high wind multiplier is fully on
+	$treeSwayStatic 1
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

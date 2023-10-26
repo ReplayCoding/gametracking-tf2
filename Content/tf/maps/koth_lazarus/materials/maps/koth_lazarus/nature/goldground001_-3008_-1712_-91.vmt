@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/GOLDGROUND001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_lazarus/c-3008_-1712_-91"
+	}
+}

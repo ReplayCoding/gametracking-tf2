@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_doublecross_snowy/water/water_doublecross_1280_1472_-220.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

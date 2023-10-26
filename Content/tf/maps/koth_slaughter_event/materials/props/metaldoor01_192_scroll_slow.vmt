@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"Props/metaldoor01_192"
+	"$surfaceprop"	"metal"
+	"$nodecal"	1
+	"%keywords" "tf"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .225
+			"texturescrollangle" 90
+		}
+	}
+}

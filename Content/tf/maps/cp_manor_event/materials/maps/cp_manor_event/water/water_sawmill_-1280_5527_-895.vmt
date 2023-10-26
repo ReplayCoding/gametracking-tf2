@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_manor_event/c-1280_5527_-895"
+		"Proxies"
+		{
+		}
+	}
+}

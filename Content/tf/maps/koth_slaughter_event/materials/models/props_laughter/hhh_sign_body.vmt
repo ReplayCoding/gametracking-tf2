@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_laughter/hhh_sign_body"
+	"$bumpmap"		"models/props_laughter/hhh_sign_body_normal"
+
+	//"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+	"$phong"		"1"
+	"$phongexponent"		"15.000000"
+	"$phongboost"		"5.000000"
+
+	//"$phongfresnelranges"		"[.25 .5 1]"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"4.000000"
+	"$bumpmapalphaphongmask"		"1"
+}
+

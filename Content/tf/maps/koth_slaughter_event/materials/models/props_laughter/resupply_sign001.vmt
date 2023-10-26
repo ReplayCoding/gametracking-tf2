@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_laughter/resupply_sign001"
+	"$bumpmap" "models/props_laughter/resupply_sign001_normal"
+//	$basemapalphaphongmask 1
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "4.8"	
+	"$phongfresnelranges"	"[0.4 0.5 1]"
+
+	"$selfillum" "1"
+}

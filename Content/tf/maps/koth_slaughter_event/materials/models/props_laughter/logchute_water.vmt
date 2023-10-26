@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_laughter\logchute_water"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.02
+			"texturescrollangle" 90
+		}
+	}
+}

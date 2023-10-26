@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT_BLUE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c-174_-3458_199"
+	}
+}

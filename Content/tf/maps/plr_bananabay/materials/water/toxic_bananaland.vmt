@@ -1,0 +1,45 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"water/toxic"
+	"$surfaceprop"	"slime"
+	"%keywords" "tf"
+
+	"$selfillum" 1
+	"$selfillum_envmapmask_alpha" 1
+	"$selfillumtint" "[2 2 2]"
+	"$angle" 0.0
+	"$translate" "[0.0 0.0]"
+	"$center" "[0.5 0.5]"
+	"$offset" "0"
+	"$rate" "7"
+	"$rateResult" 0
+
+	"Proxies"
+	{
+        "EntityRandom"
+        {
+			//the smaller this scale, the more synchronized the texture is
+            "scale" "5.0"
+            "resultVar" "$offset"
+        }
+		"Add"
+		{
+			"srcVar1" "$rate"
+			"srcVar2" "$offset"
+			"resultVar" "$rateResult"
+		}
+		"LinearRamp"
+		{
+			"rate" "$rateResult"
+			"initialValue" 0.0
+			"resultVar" "$angle"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"centerVar" "$center"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

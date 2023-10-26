@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_BARNBLITZ/BLENDSNOWTODIRT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_barnblitz/c3568_-1886_68"
+	}
+}

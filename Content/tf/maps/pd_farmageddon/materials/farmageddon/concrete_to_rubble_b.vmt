@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture"		"concrete/concretefloor003"
+	"$basetexture2"		"farmageddon/farm_dirt_rubble"
+
+	"$bumpmap"		"farmageddon/ssbump_flat"
+	"$bumpmap2"		"nature/dirtground002_height-ssbump"
+
+	"$ssbump"	"1"
+
+	"%tooltexture"		"farmageddon/blend_concrete_to_rubble_tooltexture"
+	"$blendmodulatetexture"	"Nature/dirtground003_blendmask"
+	"%keywords"		"tf"
+	"$surfaceprop2"		"dirt"
+	"$surfaceprop" 		"concrete"
+
+}

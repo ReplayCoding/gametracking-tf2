@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\props_halloween\cauldron1"
+	"$model" "1"
+   	"$selfillum" "1"
+	"$selfillum_envmapmask_alpha" "1" 
+   	"$selfillummask" "models\props_halloween\cauldron1illum"
+	"$selfillumtint" " [0 1 0] "
+}

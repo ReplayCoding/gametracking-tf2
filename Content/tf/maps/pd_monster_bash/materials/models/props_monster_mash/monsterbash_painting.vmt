@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_monster_mash\monsterbash_painting"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"	
+	$basealphaenvmapmask 1
+	//"$basemapalphaphongmask"	"1"
+		
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+}
+

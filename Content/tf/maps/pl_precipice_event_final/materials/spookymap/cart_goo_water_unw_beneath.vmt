@@ -1,0 +1,55 @@
+Water
+{
+	"$surfaceprop" "Water"
+
+	"$normalmap" "water/tfwater001_normal"
+	"$bumpframe" "0"
+
+	"$abovewater" "0"
+
+	"$fogenable" "1"
+	"$fogcolor" "{13 255 206}"
+	"$fogstart" "0"
+	"$fogend" "1050"
+
+	"%compilewater" "1"
+	"%tooltexture" "dev/water_normal"
+	"%keywords" "tf"
+
+	"$blurrefract" "1"
+	"$cheapwaterenddistance" "1000.0"
+	"$cheapwaterstartdistance" "500.0"
+	"$scale" "[1 1]"
+	"$underwateroverlay" "effects/water_warp_2fort"
+
+	<dx90
+	{
+		$fallbackmaterial water/water_2fort_beneath_dx80
+	}
+
+	Water_DX60
+	{
+		$fallbackmaterial nature/water_dx70_beneath
+	}
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar $normalmap
+			animatedtextureframenumvar $bumpframe
+			animatedtextureframerate 30.00
+		}
+
+		TextureScroll
+		{
+			texturescrollvar $bumptransform
+			texturescrollrate .05
+			texturescrollangle 45.00
+		}
+
+		WaterLOD
+		{
+		}
+	}
+}

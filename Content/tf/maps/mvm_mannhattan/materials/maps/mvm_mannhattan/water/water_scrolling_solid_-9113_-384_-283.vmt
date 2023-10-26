@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SCROLLING_SOLID.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/mvm_mannhattan/c-9113_-384_-283"
+		"Proxies"
+		{
+		}
+	}
+}

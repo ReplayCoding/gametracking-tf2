@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"farmageddon/hay_transparent"
+//	"$basetexturetransform" 	"center .5 .5		scale 2.009 2.009		rotate 180		translate 0.3 0.24"
+	"$basetexturetransform" 	"center .5 .5		scale 3.0135 3.0135		rotate 180		translate 0.54 0.4"	
+
+	"$halflambert" "1"
+
+//	"$translucent"	"1"
+
+	"$alphatest"	"1"
+	"$alphatestreference"	".3"
+
+	"$surfaceprop"	"grass"
+	"$nodecal"	"1"
+	"$nocull"		"1"
+
+}

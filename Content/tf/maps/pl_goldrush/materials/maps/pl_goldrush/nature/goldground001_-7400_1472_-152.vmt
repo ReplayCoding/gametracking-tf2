@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/GOLDGROUND001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_goldrush/c-7400_1472_-152"
+	}
+}

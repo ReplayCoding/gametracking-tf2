@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_bagel_event/water/water_sawmill_0_4352_304.vmt"
+	"insert"
+	{
+		"$waterdepth"		"16"
+	}
+}

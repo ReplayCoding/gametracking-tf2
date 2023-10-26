@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_well/c-384_-4048_-456"
+	}
+}

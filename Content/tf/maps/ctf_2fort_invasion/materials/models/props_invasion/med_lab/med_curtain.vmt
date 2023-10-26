@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_invasion\med_lab\med_curtain"
+	"$bumpmap" "models\props_invasion\med_lab\med_curtain_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "0.5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[0.8 0.5 1.0]"
+	//"$basemapalphaphongmask" "1"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/LOS_MUERTOS/ROOFTILES_TRIM_BLUE01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_los_muertos/c-2736_3424_368"
+	}
+}

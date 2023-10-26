@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\test/whirlpool_slush"
+
+
+	"$bumpmap" "models\test\whirlpool_n"
+	"$surfaceprop"	"water"
+	"$translucent" 1
+	"$model" "1"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "2000"
+	"$phongboost" "300"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.6 1 1.5]"
+
+
+
+	//"$colortintbase" "[1 1 1]"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "-1"
+			"texturescrollangle" 90
+		}
+	}
+}

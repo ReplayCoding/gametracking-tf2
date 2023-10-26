@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"		"models/props_farmageddon/monster_pumpkin"
+	"$bumpmap"		"models/props_farmageddon/monster_pumpkin_normal"
+
+//	"$baseTexture"		"models/props_farmageddon/monster_pumpkin_stem_01"
+//	"$bumpmap"		"models/props_farmageddon/monster_pumpkin_stem_normal"
+
+//	"$basetexturetransform"	"center 0 0 scale 2 8 rotate 0 translate 0 0"
+//	"$bumptransform"	"center 0 0 scale 2 8 rotate 0 translate 0 0"
+
+	"$phong"			"1"
+	"$phongexponent"		"10"
+	"$phongboost"		".5"	
+	"$lightwarptexture"		"models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$detail"			"overlays/detail001"
+	"$detailscale"		"4"
+	"$detailblendmode"	"0"
+	"$detailblendfactor"		".8"
+
+}
+

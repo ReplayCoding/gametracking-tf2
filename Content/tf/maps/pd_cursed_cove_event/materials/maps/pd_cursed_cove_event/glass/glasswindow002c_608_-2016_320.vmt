@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_cursed_cove_event/c608_-2016_320"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SYNTHETIC/OXIDIZED_COPPER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c-804_-1974_439"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_lazarus/water/water_well_murky_-1408_-1344_-320.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

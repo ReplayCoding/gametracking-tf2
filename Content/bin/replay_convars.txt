@@ -1,0 +1,265 @@
+convar 
+flags: 
+default: 0
+
+
+ccommand replay_add_fake_replays
+flags: 
+Adds a set of fake replays
+
+convar replay_block_dump_interval
+flags:  "dontrecord"
+default: 10
+The server will write partial replay files at this interval when recording.
+
+convar replay_buffersize
+flags:  "dontrecord"
+default: 32
+Maximum size for the replay memory buffer.
+
+ccommand replay_clearqueuedtakes
+flags:  "dontrecord"
+Clear takes from render queue.
+
+ccommand replay_confirmquit
+flags:  "hidden" "dontrecord"
+Make sure all replays are rendered before quitting
+
+convar replay_data_lifespan
+flags:  "replicated" "dontrecord"
+default: 1
+The number of days before replay data will be removed from the server.  Server operators can expect that any data written more than replay_data_lifespan days will be considered stale, and any subsequent execution of replay_docleanup (or automatic cleanup, which can be enabled with replay_fileserver_autocleanup) will remove that data.
+
+convar replay_deathcammaxverticaloffset
+flags:  "dontrecord"
+default: 150
+Vertical offset for player death camera
+
+convar replay_debug
+flags:  "dontrecord"
+default: 0
+Show Replay debug info.
+
+ccommand replay_deleteclientreplays
+flags:  "dontrecord"
+Deletes all replays from client replay history, as well as all files associated with each replay.
+
+ccommand replay_docleanup
+flags: 
+Deletes stale session data from the fileserver.  "replay_docleanup force" will remove all replay session data.
+
+convar replay_dodiskcleanup
+flags:  "hidden" "archive"
+default: 1
+If 1, cleanup unneeded recording session blocks.
+
+convar replay_dofileserver_cleanup_on_start
+flags:  "gamedll"
+default: 1
+Cleanup any stale replay data (both locally and on fileserver) at startup.
+
+ccommand replay_dopublishtest
+flags:  "dontrecord"
+Do a replay publish test using the current setup.
+
+convar replay_enable
+flags:  "replicated" "dontrecord"
+default: 0
+Enable Replay recording on server
+
+convar replay_enableeventbasedscreenshots
+flags:  "archive" "dontrecord"
+default: 0
+If disabled, only take a screenshot when a replay is saved.  If enabled, take up to replay_maxscreenshotsperreplay screenshots, with a minimum of replay_mintimebetweenscreenshots seconds in between, at key events.  Events include kills, ubers (if you are a medic), sentry kills (if you are an engineer), etc.  NOTE: Turning this on may affect performance!
+
+convar replay_fileserver_autocleanup
+flags:  "gamedll"
+default: 0
+Automatically do fileserver cleanup in between rounds?  This is the same as explicitly calling replay_docleanup.
+
+convar replay_fileserver_host
+flags:  "replicated" "dontrecord"
+default: 
+The hostname of the Web server hosting replays.  This can be an IP or a hostname, e.g. "1.2.3.4" or "www.myserver.com"
+
+convar replay_fileserver_offload_aborttime
+flags:  "gamedll"
+default: 60
+The time after which publishing will be aborted for a session block or session info file.
+
+convar replay_fileserver_path
+flags:  "replicated" "dontrecord"
+default: 
+If your replays are stored at "http://123.123.123.123:4567/tf/replays", replay_fileserver_path should be set to "/tf/replays"
+
+convar replay_fileserver_port
+flags:  "replicated" "dontrecord"
+default: 80
+The port for the Web server hosting replays.  For example, if your replays are stored at "http://123.123.123.123:4567/tf/replays", replay_fileserver_port should be 4567.
+
+convar replay_fileserver_protocol
+flags:  "replicated" "dontrecord"
+default: http
+Can be "http" or "https"
+
+convar replay_flushinterval
+flags:  "archive" "dontrecord"
+default: 15
+Replay system will flush to disk a maximum of every replay_flushinterval seconds.
+
+convar replay_forcereconstruct
+flags:  "dontrecord"
+default: 0
+Force the reconstruction of replays each time.
+
+convar replay_local_fileserver_path
+flags:  "dontrecord"
+default: 
+The file server local path.  For example, "c:\MyWebServer\htdocs\replays" or "/MyWebServer/htdocs/replays".
+
+convar replay_max_publish_threads
+flags:  "gamedll"
+default: 4
+The max number of threads allowed for publishing replay data, e.g. FTP threads.
+
+convar replay_maxconcurrentdownloads
+flags:  "dontrecord"
+default: 3
+The maximum number of concurrent downloads allowed.
+
+convar replay_maxscreenshotsperreplay
+flags:  "dontrecord"
+default: 8
+The maximum number of screenshots that can be taken for any given replay.
+
+convar replay_mintimebetweenscreenshots
+flags:  "dontrecord"
+default: 5
+The minimum time (in seconds) that must pass between screenshots being taken.
+
+convar replay_name
+flags:  "gamedll"
+default: Replay
+Replay bot name
+
+convar replay_playerdeathscreenshotdelay
+flags:  "dontrecord"
+default: 2
+Amount of time to wait after player is killed before taking a screenshot
+
+convar replay_postdeathrecordtime
+flags:  "dontrecord"
+default: 5
+The amount of time (seconds) to be recorded after you die for a given replay.
+
+convar replay_postwinreminderduration
+flags:  "dontrecord"
+default: 5
+The number of seconds to show a Replay reminder, post-win/lose.
+
+ccommand replay_printclientreplays
+flags:  "dontrecord"
+Prints out all client replay info
+
+ccommand replay_printqueuedtakes
+flags:  "dontrecord"
+Print a list of takes queued for rendering.
+
+ccommand replay_printsessioninfo
+flags:  "dontrecord"
+Print session info
+
+convar replay_publish_simulate_delay_local_http
+flags:  "dontrecord"
+default: 0
+Simulate a delay (in seconds) when publishing replay data via local HTTP.
+
+convar replay_publish_simulate_rename_fail
+flags:  "dontrecord"
+default: 0
+Simulate a rename failure during local HTTP publishing, which will force a manual copy & delete.
+
+ccommand replay_record
+flags: 
+Starts Replay demo recording.
+
+convar replay_record_voice
+flags:  "gamedll"
+default: 1
+If enabled, voice data is recorded into the replay files.
+
+convar replay_recording
+flags:  "hidden" "replicated" "dontrecord"
+default: 0
+
+
+ccommand replay_removeclientreplay
+flags:  "dontrecord"
+Remove the replay at the given index.
+
+ccommand replay_renderpause
+flags:  "dontrecord"
+Pause Replay rendering.
+
+ccommand replay_renderunpause
+flags:  "dontrecord"
+Unpause Replay rendering.
+
+convar replay_screenshotkilldelay
+flags:  "dontrecord"
+default: .4
+Delay before taking a screenshot when you kill someone, in seconds.
+
+convar replay_screenshotresolution
+flags:  "dontrecord"
+default: 0
+0 for low-res screenshots (width=512), 1 for hi-res (width=1024)
+
+convar replay_screenshotsentrykilldelay
+flags:  "dontrecord"
+default: .30
+Delay before taking a screenshot when you kill someone, in seconds.
+
+convar replay_sentrycammaxverticaloffset
+flags:  "dontrecord"
+default: 10
+Vertical offset from a sentry on sentry kill
+
+convar replay_sentrycamoffset_frontback
+flags:  "dontrecord"
+default: -50
+Front/back offset for sentry POV screenshot
+
+convar replay_sentrycamoffset_leftright
+flags:  "dontrecord"
+default: -25
+Left/right offset for sentry POV screenshot
+
+convar replay_sentrycamoffset_updown
+flags:  "dontrecord"
+default: 22
+Up/down offset for sentry POV screenshot
+
+convar replay_sessioninfo_updatefrequency
+flags:  "dontrecord"
+default: 5
+If a replay has not been downloaded, the replay browser will update the status of a given replay on the server based on this cvar (in seconds).
+
+ccommand replay_stoprecord
+flags: 
+Stop Replay demo recording.
+
+convar replay_voice_during_playback
+flags:  "archive"
+default: 0
+Play player voice chat during replay playback
+
+ccommand save_replay
+flags: 
+Save a replay of the current life if possible.
+
+convar sv_use_steam_voice
+flags:  "hidden" "replicated"
+default: 0
+Deprecated - placeholder convar for handling old network streams that had an incomplete SVC_VoiceInit packet.  Use "sv_voicecodec steam"
+

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"effects/red"
+
+	"$envmap" "effects/invun_red"
+
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
+	
+}

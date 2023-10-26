@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_cursed_cove_event/c-2992_-2208_432"
+		"Proxies"
+		{
+		}
+	}
+}

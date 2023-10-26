@@ -1,0 +1,10 @@
+"Vertexlitgeneric"
+{
+	"$baseTexture" "models/props_misc/candy_cane_01"
+	"$bumpmap"     "models/props_misc/candy_cane_01_normal"
+	"$normalmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".25"	
+	"$phongfresnelranges"	"[.5 10 10]"	
+}

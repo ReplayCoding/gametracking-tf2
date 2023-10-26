@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"farmageddon/farm_dirt_wall"
+	"$basetexture2"	"harvest/harvest_grass"
+
+	"$bumpmap"	"farmageddon/farm_dirt_wall_ssbump"
+	"$bumpmap2" "farmageddon/ssbump_flat"
+	"$ssbump" "1"
+
+	"%tooltexture"	"farmageddon/dirt_root_wall_grass_tooltexture"
+	"$blendmodulatetexture"	"Nature/grass_blendmask"
+	"%keywords"	"tf"
+	"$surfaceprop"	"dirt"
+	"$surfaceprop2"	"dirt"
+
+}
+

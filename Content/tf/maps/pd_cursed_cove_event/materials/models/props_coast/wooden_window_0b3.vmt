@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_coast\wooden_window_0b3"
+	"$bumpmap" "models\effects\flat_normal" 
+
+	"$phong" "1.5"
+	"$phongexponent" "8"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.25 1 4]"
+	"$basemapalphaphongmask" "1"
+	"$selfillum" "1"
+
+}

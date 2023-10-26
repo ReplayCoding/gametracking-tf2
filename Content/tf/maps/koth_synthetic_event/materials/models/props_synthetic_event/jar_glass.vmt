@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_synthetic_event/jar"
+//	"$nocull" 1
+	"$additive" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.4 .4 .4]"
+
+	"$phong" "1"
+	"$phongexponent" "200"
+	"$phongboost" "4"
+	"$phongfresnelranges" "[1 2 4]"
+//	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
+	"$lightwarptexture"	"models/props_spymovie/watercooler_bottle_warp"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".5"
+
+}

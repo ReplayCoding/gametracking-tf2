@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"effects/goldcube"
+
+	"$envmap" "cubemaps/cubemap_gold001"
+	"$envmaptint" "[1 .95 .3]"
+
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
+	
+}

@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture "nature/lazarus_waves001"
+
+	$alphatest 1
+	$additive 1
+
+	$selfillum 1
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $basetexturetransform
+			texturescrollrate .5
+			texturescrollangle 255
+		}
+
+		Sine
+		{
+			resultVar $selfillumtint
+			sineperiod 8
+			sinemin .125
+			sinemax .5
+		}
+	}
+}

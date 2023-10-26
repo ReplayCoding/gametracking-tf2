@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "models/props_doublecross_snowy/roofsnow_blu"
+//	"$bumpmap" "models/props_doublecross_snowy/roofsnow_red001_normal"
+	"$surfaceprop" "snow"
+	"$basealphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[.02 .02 .02]"
+
+//    $emissiveBlendEnabled 1
+    $emissiveBlendTexture "dev/null"
+    $emissiveBlendBaseTexture "models/props_doublecross_snowy/roofsnow_blu"
+    $emissiveBlendFlowTexture "dev/null"
+    $emissiveBlendStrength 0.1
+    $emissiveBlendScrollVector "[0 0]"
+
+	"%keywords" "tf"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/METALDUCT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_breadspace/c-1152_832_64"
+	}
+}

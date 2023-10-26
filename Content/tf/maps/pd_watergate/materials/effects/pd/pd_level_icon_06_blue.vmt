@@ -1,0 +1,35 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/pd/pd_level_icon_06_blue"
+	"$surfaceprop"	"no_decal"
+	"$translucent"	1
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+	"$minsize"		"0.02"
+
+	"$teammatch"	"0"
+	"$matchinverted"	"0"
+	"$one"		"2"
+	"$ignorez"	"1"
+    "$endalpha"		"0"
+	
+	"Proxies"
+	{
+		"PlayerTeamMatch"
+		{
+			"resultVar"	"$teammatch"
+		}
+		"Subtract"
+		{
+			"srcVar1"	"$one"
+			"srcVar2"	"$teammatch"
+			"resultVar"	"$matchinverted"	
+		}
+		"Multiply"
+		{
+			"srcVar1"	"$endalpha"		
+			"srcVar2"	"$matchinverted"	
+			"resultVar" 	"$alpha"	
+		}
+	}
+}

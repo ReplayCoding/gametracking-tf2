@@ -1,0 +1,250 @@
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+	"wave"		"farmageddon_sounds\farmer_lose01.wav"
+	"wave"		"farmageddon_sounds\farmer_lose02.wav"
+	"wave"		"farmageddon_sounds\farmer_lose03.wav"
+	}
+	
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+	"wave"		"farmageddon_sounds\farmer_win01.wav"
+	"wave"		"farmageddon_sounds\farmer_win02.wav"
+	"wave"		"farmageddon_sounds\farmer_win03.wav"
+	}
+	
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_prep.wav"
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_1.wav"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_2.wav"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_3.wav"
+}
+
+"Announcer.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_end_30_seconds.wav"
+}
+"Announcer.RoundBegins4Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_4.wav"
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_5.wav"
+}
+
+"Announcer.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\announcer_ends_5min.mp3"
+}
+
+"Announcer.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"farmageddon_sounds\farmer_end_60_seconds.wav"
+}
+
+
+"Farmer.Scarecrow"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_scarecrowsummon01.wav"
+		"wave"	"farmageddon_sounds\farmer_scarecrowsummon02.wav"
+		"wave"	"farmageddon_sounds\farmer_scarecrowsummon03.wav"
+		"wave"	"farmageddon_sounds\farmer_scarecrowsummon05.wav"
+	}
+}
+
+"Farmer.Lose"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_lose01.wav"
+		"wave"	"farmageddon_sounds\farmer_lose02.wav"
+		"wave"	"farmageddon_sounds\farmer_lose03.wav"
+	}
+}
+
+"Farmer.Celebrate"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_celebrate01.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate02.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate03.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate04.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate05.wav"
+	}
+}
+
+"Farmer.Close"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_point_close01.wav"
+		"wave"	"farmageddon_sounds\farmer_point_close02.wav"
+		"wave"	"farmageddon_sounds\farmer_point_close03.wav"
+		"wave"	"farmageddon_sounds\farmer_point_close04.wav"
+	}
+}
+
+"Farmer.Open"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_point_open01.wav"
+		"wave"	"farmageddon_sounds\farmer_point_open04.wav"
+		"wave"	"farmageddon_sounds\farmer_point_open03.wav"
+		"wave"	"farmageddon_sounds\farmer_point_open06.wav"
+	}
+}
+
+"Farmer.Celebrate"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_celebrate01.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate02.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate03.wav"
+		"wave"	"farmageddon_sounds\farmer_celebrate04.wav"
+	}
+}
+
+"Farmer.Begin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"farmageddon_sounds\farmer_roundstart01.wav"
+		"wave"	"farmageddon_sounds\farmer_roundstart02.wav"
+		"wave"	"farmageddon_sounds\farmer_roundstart03.wav"
+		"wave"	"farmageddon_sounds\farmer_roundstart04.wav"
+		"wave"	"farmageddon_sounds\farmer_roundstart05.wav"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_freight_final1/water/water_well_-800_-1320_-660.vmt"
+	"insert"
+	{
+		"$waterdepth"		"376"
+	}
+}

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_lakeside_event/wof_fog"
+	$color2 "[2.23 0.33 0.45]"
+	$translucent 1
+	$additive 1
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.07
+			"texturescrollangle" 0
+		}
+	}
+}

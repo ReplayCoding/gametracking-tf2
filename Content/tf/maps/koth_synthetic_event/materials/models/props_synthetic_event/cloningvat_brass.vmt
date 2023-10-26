@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_synthetic_event/cloningvat_brass"
+
+	"$selfillum" "1"
+	"$selfillummask"		"models/props_synthetic_event/cloningvat_glow"
+	"$selfillumtint" "4"
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "0.8"
+	"$basemapalphaphongmask" "1"
+	"$phongwarptexture"	"models/props_spymovie/microscope_warp"
+
+	"$lightwarptexture" "models/player/demo/hwn_demo_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+}

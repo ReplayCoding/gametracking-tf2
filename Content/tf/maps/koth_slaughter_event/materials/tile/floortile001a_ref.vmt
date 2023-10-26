@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "soho/FloorTile_001"
+	"$color" "{200 200 200}" 
+	"$surfaceprop" "tile"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+	"$envmaptint" "[ 1 1 1]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap"	"tile/floortile001_normal"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"%keywords" "tf"
+}

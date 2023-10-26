@@ -1,0 +1,9 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOWBREAK070A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_watchtower/c576_0_864"
+		"$crackmaterial"		"maps/arena_watchtower/glass/glasswindowbreak070b_576_0_864"
+	}
+}

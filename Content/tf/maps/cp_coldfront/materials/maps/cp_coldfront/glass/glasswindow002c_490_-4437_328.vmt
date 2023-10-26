@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_coldfront/c490_-4437_328"
+	}
+}

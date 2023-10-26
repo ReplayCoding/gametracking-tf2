@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_slaughter/can"
+	"$bumpmap" "models/props_slaughter/can_normal"
+	$BasemapAlphaPhongMask 1
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"2"
+	"$phongfresnelranges"	"[1 2 2.5]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+}

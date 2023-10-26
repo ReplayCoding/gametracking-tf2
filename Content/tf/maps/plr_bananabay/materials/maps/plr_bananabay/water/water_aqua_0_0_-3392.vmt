@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_AQUA.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_bananabay/c0_0_-3392"
+		"Proxies"
+		{
+		}
+	}
+}

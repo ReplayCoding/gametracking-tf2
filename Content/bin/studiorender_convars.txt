@@ -1,0 +1,40 @@
+convar 
+flags: 
+default: 0
+
+
+convar r_flashlightscissor
+flags: 
+default: 1
+
+
+convar r_glint_alwaysdraw
+flags: 
+default: 0
+
+
+convar r_glint_procedural
+flags: 
+default: 0
+
+
+convar r_hwmorph
+flags:  "cheat"
+default: 1
+
+
+convar r_randomflex
+flags:  "cheat"
+default: 0
+
+
+convar r_studio_stats
+flags:  "cheat"
+default: 0
+
+
+convar studio_queue_mode
+flags: 
+default: 1
+
+

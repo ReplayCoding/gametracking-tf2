@@ -1,0 +1,62 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"		"models/props_farmageddon/monster_pumpkin"
+	"$bumpmap"		"models/props_farmageddon/monster_pumpkin_normal"
+	"$phongexponenttexture"	"models/props_farmageddon/monster_pumpkin_normal"	//reused here for rimmask only
+
+	"$phong"			"1"
+	"$phongexponent"		"10"
+	"$phongboost"		".5"	
+	"$lightwarptexture"		"models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"	"4"	
+	"$rimlightboost"		"5"
+	"$rimmask"		"1"
+
+	"$selfillum"		"1"
+//	"$selfillumtint"		"[1 2 0.1]"
+	"$selfillumtint"		"[2 2 2]"
+	"$selfillummask"		"models/props_farmageddon/monster_pumpkin_glow_ambient"
+
+	"$detail"			"overlays/detail001"
+	"$detailscale"		"4"
+	"$detailblendmode"	"0"
+	"$detailblendfactor"		".8"
+
+ "Proxies"
+	{
+//		"Sine"
+//		{
+//			"sineperiod" "1.5"
+//			"sinemin" "0.9"
+//			"sinemax" "1.5"
+//			"resultVar" "$selfillumtint[1]"
+//		}
+		
+		"Sine"
+		{
+			"sineperiod" "1.5"
+			"sinemin" "1.8"
+			"sinemax" "2.5"
+			"resultVar" "$selfillumtint[1]"
+		}
+
+		"Sine"
+		{
+			"sineperiod" "1.5"
+			"sinemin" "1.8"
+			"sinemax" "2.5"
+			"resultVar" "$selfillumtint[2]"
+		}
+
+		"Sine"
+		{
+			"sineperiod" "1.5"
+			"sinemin" "1.8"
+			"sinemax" "2.5"
+			"resultVar" "$selfillumtint[2]"
+		}
+	}
+}

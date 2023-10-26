@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_rumble_event/c-2035_-1644_200"
+		"Proxies"
+		{
+		}
+	}
+}

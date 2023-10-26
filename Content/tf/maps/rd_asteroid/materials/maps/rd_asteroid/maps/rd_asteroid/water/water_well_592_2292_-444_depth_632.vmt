@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/rd_asteroid/water/water_well_592_2292_-444.vmt"
+	"insert"
+	{
+		"$waterdepth"		"632"
+	}
+}

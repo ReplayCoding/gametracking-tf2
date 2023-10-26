@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "winter/rockwall014"
+	"$basetexture2" "harvest/harvest_grass"
+	"%tooltexture" "Nature/blendgroundtograss001_tooltexture"
+	"$bumpmap" "Nature/rockwall004_bump-ssbump"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"%detailtype" "tf_forest_grass_lowdensity"
+	"%keywords" "tf"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+
+
+}

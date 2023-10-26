@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_process_final/c-616_-1952_933"
+	}
+}

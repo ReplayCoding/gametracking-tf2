@@ -1,0 +1,41 @@
+UnlitGeneric
+{
+    "$color" "[1.0 1.0 1.0]"
+	"$temp" "[1.0 1.0 1.0]"
+    "$offset" "0"
+	"$zero" "0"
+	"$one" "1"
+	"$two" "2"
+	"$half" "0.5"
+	"$onethird" "0.33"
+	"$twothird" "0.67"
+	
+	
+	"Proxies"
+	{
+        "EntityRandom"
+        {
+			//the smaller this scale, the more synchronized the texture is
+            "scale" "1.5"
+            "resultVar" "$offset"
+        }
+        "Sine"
+        {
+            "sineperiod" 1.49 //1.13
+            "timeoffset" "$offset"	       
+            "resultVar" "$color[0]"
+        }
+        "Sine"
+        {
+            "sineperiod" 1.5 //1.97
+            "timeoffset" "$offset"	       
+            "resultVar" "$color[1]"
+        }
+        "Sine"
+        {
+            "sineperiod" 1.51 //2.93
+            "timeoffset" "$offset"	       
+            "resultVar" "$color[2]"
+        }		
+	}
+}

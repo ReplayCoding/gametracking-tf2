@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	"$basetexture" "pl_precipice/interior/int_coffin_cabinet_t_d"
+	"$surfaceprop" "Wood_Box"
+
+	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
+
+	"$additive" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.80 0.80 0.80]"
+
+	"$phong" "1"
+	"$phongfresnelranges" "[1 2 4]"
+	"$phongexponent" "100"
+	"$phongboost" "0.5"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"
+	"$rimlightboost" "2"
+
+	"%keywords" "tf"
+
+	"$model" "1"
+}

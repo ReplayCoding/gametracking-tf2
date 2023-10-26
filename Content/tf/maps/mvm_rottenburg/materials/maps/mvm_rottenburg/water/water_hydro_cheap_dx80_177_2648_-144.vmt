@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/mvm_rottenburg/c177_2648_-144"
+		"Proxies"
+		{
+		}
+	}
+}

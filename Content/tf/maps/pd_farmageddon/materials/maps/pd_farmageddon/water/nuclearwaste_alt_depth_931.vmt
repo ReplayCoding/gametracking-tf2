@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/water/nuclearwaste_alt.vmt"
+	"insert"
+	{
+		"$waterdepth"		"931"
+	}
+}

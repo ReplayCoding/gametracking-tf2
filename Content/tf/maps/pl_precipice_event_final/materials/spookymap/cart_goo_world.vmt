@@ -1,0 +1,24 @@
+LightmappedGeneric
+{
+	"$basetexture" "Spookymap/cart_goo_world_d"
+	"$surfaceprop" "Water"
+
+	"$selfillum" "1"
+	"$selfillumtint" "[4 4 4]"
+
+	"$color" "[2.44 2.44 2.44]"
+
+	"$selfillumtintmax" "{110 110 110}"
+	"$selfillumtintmin" "{95 95 95}"
+
+	Proxies
+	{
+		Sine
+		{
+			resultVar $selfillumtint
+			sineperiod 4
+			sinemin $selfillumtintmin
+			sinemax $selfillumtintmax
+		}
+	}
+}

@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_xmas/door02"
+	$selfillumtexture "models/props_xmas/door02_light"
+
+	$selfillum 1
+	$selfillummask "models/props_xmas/door02_light"
+
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost" ".2"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "20"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"	
+
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+
+}

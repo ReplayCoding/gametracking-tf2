@@ -1,0 +1,22 @@
+"WorldVertexTransition"
+{
+	"$baseTexture2"		"farmageddon/dirt_root_wall"
+	"$basetexture"		"farmageddon/dirt_roots"
+
+	"$bumpmap2"		"farmageddon/root_wall_ssbump"
+	"$bumpmap"		"farmageddon/dirt_roots_ssbump"
+
+	"$ssbump"		"1"
+
+	"%tooltexture"		"farmageddon/dirt_roots"
+	"$blendmodulatetexture"	"nature/snowgrass_blendmask"
+	"%keywords"		"tf"
+	"$surfaceprop"		"dirt"
+	"$surfaceprop2"		"dirt"
+
+	"$detail"			"overlays/detail004"
+	"$detailscale"		"1.2"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+}
+

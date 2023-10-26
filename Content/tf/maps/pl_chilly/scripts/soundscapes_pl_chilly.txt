@@ -1,0 +1,157 @@
+
+"Millstone.Resp"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".75"
+		"pitch"		"100"
+		"position"		"2"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"3"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".75"
+		"pitch"		"100"
+		"position"		"4"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+}
+
+"Millstone.In"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"3"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum.wav"
+	}
+	
+}
+
+
+"Millstone.Mine"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+}
+
+
+"Millstone.Out"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"100"
+		"wave"		"ambient/desert_life.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 30"
+		"volume"	".50"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/crow1.wav"
+			"wave"		"ambient/crow2.wav"
+		}
+	}
+
+	
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_high.wav"
+	}
+}

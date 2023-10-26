@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_suijin/water/water_well_-672_-561_-134.vmt"
+	"insert"
+	{
+		"$waterdepth"		"72"
+	}
+}

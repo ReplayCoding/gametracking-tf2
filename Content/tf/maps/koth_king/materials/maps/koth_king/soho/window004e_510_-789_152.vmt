@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOW004E.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_king/c510_-789_152"
+	}
+}

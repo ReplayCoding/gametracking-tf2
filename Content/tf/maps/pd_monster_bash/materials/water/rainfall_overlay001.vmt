@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "nature/lazarus_waves001"
+	$translucent 1
+	$additive 1
+//	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .5
+			"texturescrollangle" 255
+		}
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $alpha // The shader parameter to be manipulated
+			sineperiod	2
+			sinemin	 	.125
+			sinemax		.5
+		}
+	}
+}

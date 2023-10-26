@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "blade\rockwall001_clean"
+//	"$basetexturetransform" "center .5 .5 scale 0.75 0.75 rotate -13 translate 0 0"
+	"$bumpmap" "Nature/rockwall001_island_normal"
+    //    "$ssbump" "1"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+	"$basetexture2" "Nature/grass_07"
+//	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$bumpmap2" "Nature/rockwall002_island_normal"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+
+
+}

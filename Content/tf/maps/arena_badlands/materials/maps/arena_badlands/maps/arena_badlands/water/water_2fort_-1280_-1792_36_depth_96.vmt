@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/arena_badlands/water/water_2fort_-1280_-1792_36.vmt"
+	"insert"
+	{
+		"$waterdepth"		"96"
+	}
+}

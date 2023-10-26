@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/BREADSPACE/MOON_WALLPANELS02_STRIPE_BLUE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_breadspace/c-1728_384_65"
+	}
+}

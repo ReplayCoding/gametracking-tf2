@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_undergrove_event/house_hat001_red"
+	"$nodecal" "1"
+
+	">=DX90"
+	{
+	"$selfIllum" "1"
+	}
+}

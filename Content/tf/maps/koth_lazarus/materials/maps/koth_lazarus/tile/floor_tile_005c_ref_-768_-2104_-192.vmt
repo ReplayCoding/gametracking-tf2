@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005C_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_lazarus/c-768_-2104_-192"
+	}
+}

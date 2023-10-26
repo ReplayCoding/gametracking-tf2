@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slasher/c-2168_0_-87"
+		"Proxies"
+		{
+		}
+	}
+}

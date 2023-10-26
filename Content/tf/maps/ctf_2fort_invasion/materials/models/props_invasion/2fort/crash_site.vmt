@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_invasion\2fort\crash_site"
+	"$selfillummask"  "models\props_invasion\2fort\crash_site_selfillum"
+	"$selfillum" "1"	
+	
+    "$phong" "1"
+    "$phongexponent" "10"
+    "$phongboost" "5"
+    "$phongfresnelranges"    "[1 1.5 1]"
+	"$basemapalphaphongmask" "1"
+	"$PhongAlbedoTint" "1"
+	
+	"$phongtint" "[0.3 0.6 0.6]"
+}

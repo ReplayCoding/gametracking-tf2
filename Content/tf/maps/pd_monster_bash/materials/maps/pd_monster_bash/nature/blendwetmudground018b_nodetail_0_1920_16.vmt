@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDWETMUDGROUND018B_NODETAIL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_monster_bash/c0_1920_16"
+	}
+}

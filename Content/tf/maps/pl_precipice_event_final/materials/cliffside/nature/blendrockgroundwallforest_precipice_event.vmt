@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+	$basetexture "nature/rockwall001forest"
+	$bumpmap "nature/rockwall001_normal"
+	$surfaceprop Dirt
+
+	$basetexture2 "harvest/harvest_grass"
+	$bumpmap2 "effects/flat_normal"
+
+	$blendmodulatetexture "nature/grass_blendmask"
+
+	%tooltexture "nature/rockwall001forest"
+	%keywords "tf"
+}

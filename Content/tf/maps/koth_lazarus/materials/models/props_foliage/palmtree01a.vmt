@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/props_foliage/palmtree01a"
+    $emissiveBlendEnabled 1
+    $emissiveBlendTexture "dev/null"
+    $emissiveBlendBaseTexture "models/props_foliage/palmtree01a"
+    $emissiveBlendFlowTexture "dev/null"
+    $emissiveBlendStrength 0.3
+    $emissiveBlendScrollVector "[0 0]"
+    "$nocull" 1
+}

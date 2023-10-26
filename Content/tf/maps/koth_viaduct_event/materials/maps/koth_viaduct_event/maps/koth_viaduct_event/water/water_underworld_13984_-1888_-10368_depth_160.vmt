@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_viaduct_event/water/water_underworld_13984_-1888_-10368.vmt"
+	"insert"
+	{
+		"$waterdepth"		"160"
+	}
+}

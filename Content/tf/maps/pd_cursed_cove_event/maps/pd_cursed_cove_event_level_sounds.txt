@@ -1,0 +1,155 @@
+RD.TeamScoreCore
+{
+	channel				CHAN_STATIC
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	wave					ui\skull_deposit_pos_organic.mp3
+}
+
+RD.EnemyScoreCore
+{
+	channel				CHAN_STATIC
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	wave					ui\skull_deposit_neg_organic.mp3
+}
+
+Pirate.ShipMove 
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_ship_move_001.mp3
+		wave 	 vo/pirate_ship_move_001.mp3
+		wave 	 vo/pirate_ship_move_001.mp3
+		wave 	 vo/pirate_ship_move_001.mp3
+		wave 	 vo/pirate_ship_move_002.mp3
+		wave 	 vo/pirate_ship_move_002.mp3
+		wave 	 vo/pirate_ship_move_002.mp3
+		wave 	 vo/pirate_ship_move_002.mp3
+		wave 	 vo/pirate_ship_move_003.mp3
+	}
+}
+
+Pirate.RoundEnd.lost
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_round_lose_001.mp3
+		wave 	 vo/pirate_round_lose_003.mp3 
+	}
+}
+
+Pirate.RoundEnd.win
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_round_win_001.mp3
+		wave 	 vo/pirate_round_win_003.mp3
+	}
+}
+
+Pirate.RoundBegin 
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_round_begin_001.mp3 
+		wave 	 vo/pirate_round_begin_004.mp3 
+		wave 	 vo/pirate_round_begin_005.mp3 	
+	}
+}
+
+Announcer.AM_RoundStartRandom
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave	
+	{
+		wave 	 vo/pirate_round_begin_001.mp3
+		wave 	 vo/pirate_round_begin_004.mp3
+		wave 	 vo/pirate_round_begin_005.mp3
+	}
+}
+
+Pirate.LockerLeave 
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_zone_leave_001.mp3 
+		wave 	 vo/pirate_zone_leave_002.mp3 
+	}
+}
+
+Pirate.LockerClosing
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave 	 vo/pirate_zone_close_001.mp3
+		wave 	 vo/pirate_zone_close_002.mp3
+		wave 	 vo/pirate_zone_close_003.mp3
+	}
+}
+
+Game.YourTeamLost
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave		vo/pirate_lose_01.mp3
+		wave		vo/pirate_lose_02.mp3	
+	}
+}
+
+Game.YourTeamWon
+{
+	channel				CHAN_VOICE2
+	volume				1
+	soundlevel		SNDLVL_145db
+	pitch					PITCH_NORM
+
+	rndwave
+	{
+		wave		vo/pirate_victory_02.mp3	
+		wave		vo/pirate_victory_01.mp3
+	}
+}

@@ -1,0 +1,49 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_pirate/pirate_stuff"
+//	"$bumpmap" "models/props_pirate/pirate_head_normals"
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"					// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"			// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"			// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$cloakColorTint" "[1 0.5 0.4]"
+	"$yellow" "0"
+	  $selfillum 1
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+
+}

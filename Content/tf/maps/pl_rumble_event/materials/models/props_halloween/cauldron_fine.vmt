@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_halloween/cauldron_fine"
+	"$surfaceprop" "Metal"
+
+	$selfillum 1
+	$selfillummask "models/props_halloween/cauldron_fine_selfillum"
+}

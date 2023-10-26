@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A_ADDITIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_2fort_invasion/c185_-3186_-131"
+	}
+}

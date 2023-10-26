@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "synthetic/cobblestone"
+	"$basetexture2" "koth_viaduct_event/viaduct_grass001"
+	"%tooltexture" "synthetic/blendcobbledirt_B_tooltexture"
+	"$bumpmap"	"synthetic/cobblestone_ssbump"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	"$blendmodulatetexture" "synthetic/cobblestone_grass_blendmask"
+	"%detailtype" "tf_forest_grass"
+	"%keywords" "tf"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+
+
+}

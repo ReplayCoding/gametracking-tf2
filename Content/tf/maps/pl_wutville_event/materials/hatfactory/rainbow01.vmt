@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "patterns/mtp/pyr_rainbow"
+	
+	"Proxies"
+	{
+
+		TextureScroll
+		{
+			texturescrollvar $basetexturetransform
+			texturescrollrate ".13"
+			texturescrollangle 45
+
+		}
+	}
+}

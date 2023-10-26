@@ -1,0 +1,9 @@
+convar 
+flags: 
+default: 0
+
+
+ccommand find
+flags: 
+Find concommands with the specified string in their name/help text.
+

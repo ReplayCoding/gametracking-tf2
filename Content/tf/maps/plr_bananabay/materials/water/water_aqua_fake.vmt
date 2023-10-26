@@ -1,0 +1,37 @@
+"LightmappedGeneric"
+{
+//	"$basetexture" "dev/water"
+	"$basetexture" "dev/water_moving"
+	"$bumpmap" "dev/tfwater_normal"
+//	"$selfillum" "1"
+//	"$translucent" "1"
+	"$surfaceprop" "water"
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[1 1 1]"
+//	"$envmapcontrast" "1"
+	"%keywords" "wasteland"
+//	"$normalmapalphaenvmapmask" 1
+// aqua match
+	"$color" "{24 96 128}"
+// fake match
+//	"$color" "{52 94 124}"
+// extreme boost
+//	"$color" "{832 1504 1984}"	
+	"$bumpframe" 0	// Needed for dx7 
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 21.00
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 21.00
+		}
+	}
+}

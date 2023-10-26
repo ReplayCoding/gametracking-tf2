@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_snakewater_final1/c-675_2321_-112"
+		"Proxies"
+		{
+		}
+	}
+}

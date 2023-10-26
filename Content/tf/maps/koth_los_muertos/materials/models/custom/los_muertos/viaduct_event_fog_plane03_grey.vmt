@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/custom/los_muertos/viaduct_event_fog_plane03_grey"
+	$translucent 1
+	$additive 1
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.034
+			"texturescrollangle" 90
+		}
+	}
+}

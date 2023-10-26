@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_freight_final1/c808_1200_-664"
+		"Proxies"
+		{
+		}
+	}
+}

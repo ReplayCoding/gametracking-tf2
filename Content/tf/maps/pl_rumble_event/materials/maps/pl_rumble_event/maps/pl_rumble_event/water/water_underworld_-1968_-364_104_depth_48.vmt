@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_rumble_event/water/water_underworld_-1968_-364_104.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

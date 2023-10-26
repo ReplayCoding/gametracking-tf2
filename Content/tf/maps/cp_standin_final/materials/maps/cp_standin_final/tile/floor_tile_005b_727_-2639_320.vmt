@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_standin_final/c727_-2639_320"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_terror_event/water/water_underworld_-1720_2796_48.vmt"
+	"insert"
+	{
+		"$waterdepth"		"176"
+	}
+}

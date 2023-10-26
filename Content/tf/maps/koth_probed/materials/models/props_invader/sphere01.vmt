@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/props_invader/sphere01"
+	$surfaceprop metal
+	$model 1
+
+	"$lightwarptexture""models/lightwarps/robot_lightwarp"
+	"$phong" "1"
+	"$phongexponent" "4.000000"
+	"$phongboost" "2.000000"
+	"$phongfresnelranges" "[.25 .5 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "0.500000"
+	"$bumpmapalphaphongmask" "0"
+
+	
+}

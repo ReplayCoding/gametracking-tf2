@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/arena_watchtower/water/water_2fort_-32_-864_96.vmt"
+	"insert"
+	{
+		"$waterdepth"		"144"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SWAMP/TILE/FLOOR_TILE_001A_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_snowycoast/c-952_2712_64"
+	}
+}

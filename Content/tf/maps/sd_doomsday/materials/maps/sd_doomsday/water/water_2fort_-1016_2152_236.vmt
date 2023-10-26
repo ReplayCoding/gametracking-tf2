@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sd_doomsday/c-1016_2152_236"
+		"Proxies"
+		{
+		}
+	}
+}

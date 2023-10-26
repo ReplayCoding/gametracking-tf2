@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/GOLDGROUND001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slasher/c-768_-344_-74"
+	}
+}

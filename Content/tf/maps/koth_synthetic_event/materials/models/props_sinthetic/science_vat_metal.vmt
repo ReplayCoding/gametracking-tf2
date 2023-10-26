@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_sinthetic/science_vat_metal"
+	
+
+	"$envmap" "effects/saxxy/saxxy_gold"
+	"$envmaptint" "[.7 .5 .3]"
+	
+	"$envmapmask"	 "models/props_sinthetic/science_vat_metal_mask"
+	//"$basemapalphaphongmask"    "1"
+		
+	
+}

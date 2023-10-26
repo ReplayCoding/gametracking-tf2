@@ -1,0 +1,44 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_camp/spooky_gravel_crystal03"
+	"$bumpmap" "models/props_moonbase/moon_gravel_crystal_n"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+
+	"$phongexponenttexture"	"models/props_camp/spooky_gravel_crystal_phongexponent"
+
+	"$phong"		"1"
+	"$phongexponent"		"30.000000"
+	"$phongboost"		"20.000000"
+	"$phongfresnelranges"		"[.3 .5 3]"
+//	"$phongalbedotint"		"1"
+	"$phongtint"		"[0.098 0.302 0.396]"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"11"
+	"$rimlightboost"		"90"
+
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"cubemaps/cubemap_specular001"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[ 0.15 0.15 0.15]"
+
+	//"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+
+	"%keywords" "tf"
+	//"$detailscale" "1"
+	//"$detailblendmode" "0"
+	//"$detailblendfactor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$yellow" "0"
+
+	"Proxies"
+	{
+	}
+}

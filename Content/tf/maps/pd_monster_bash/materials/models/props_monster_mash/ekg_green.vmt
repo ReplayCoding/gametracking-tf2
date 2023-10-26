@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/props_monster_mash/ekg_green"
+	"$surfaceprop"	"default"
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 24
+			}
+		}
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_sawmill/c1331_-1666_-272"
+		"Proxies"
+		{
+		}
+	}
+}

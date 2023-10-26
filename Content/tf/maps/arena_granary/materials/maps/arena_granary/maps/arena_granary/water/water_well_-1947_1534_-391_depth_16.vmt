@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/arena_granary/water/water_well_-1947_1534_-391.vmt"
+	"insert"
+	{
+		"$waterdepth"		"16"
+	}
+}

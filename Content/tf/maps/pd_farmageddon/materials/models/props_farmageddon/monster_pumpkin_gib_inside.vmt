@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"		"patterns/yeti/pineapple_interior"
+	"$bumpmap"		"nature/snow_grass01_normal"
+
+	"$phong"			"1"
+	"$phongexponent"		"5"
+	"$phongboost"		"5"
+	"$lightwarptexture"		"models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"	"[1 2 4]"
+//	"$basemapalphaphongmask"	"1"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1"
+
+
+	"$detail"	"water/nuclearwaste003"
+	"$detailscale"		"1"
+	"$detailblendmode"		"5"
+	"$detailblendfactor"		".4"
+
+}
+

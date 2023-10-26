@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_SNOWYCOAST/GLASS/GLASSWINDOW001_LOW_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_snowycoast/c640_-632_-120"
+	}
+}

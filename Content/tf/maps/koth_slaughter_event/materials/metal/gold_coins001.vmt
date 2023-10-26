@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/gold_coins001"
+	"$bumpmap" "metal/gold_coins001_height-ssbump"
+	"%keywords" "tf, pirate"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"$envmap" "env_cubemap"
+	//"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+//	"$envmaptint" "[.91 .88 .34]"
+//	"$envmaptint" "{211 155 86}"
+	"$normalmapalphaenvmapmask" 1
+}

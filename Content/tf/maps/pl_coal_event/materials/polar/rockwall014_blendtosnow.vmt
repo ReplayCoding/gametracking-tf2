@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "winter/rockwall014"
+	"$basetexture2" "Nature/snow_full001"
+	"$bumpmap" "Nature/rockwall004_bump-ssbump"
+	"$ssbump" "1"
+	//"$bumpmap2" "Nature/snow_full001_normal"
+	"$keywords" "tf"
+
+	"$surfaceprop" "dirt"
+	
+	//"$detail" "Overlays/detail004"
+	//"$detailscale" "[2.1 4.2]"
+	//"$detailblendmode" "0"
+	//"$detailblendfactor" "1"
+	
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+}

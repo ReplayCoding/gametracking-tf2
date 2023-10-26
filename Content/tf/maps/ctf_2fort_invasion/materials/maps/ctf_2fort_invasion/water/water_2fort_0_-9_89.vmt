@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_2fort_invasion/c0_-9_89"
+		"Proxies"
+		{
+		}
+	}
+}

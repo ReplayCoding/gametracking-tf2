@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "blade/fogline006a"
+	"$translucent" "1"
+	"$color" "{10 15 25}"
+ 	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetextureTransform"
+			"texturescrollrate" 0.04
+			"texturescrollangle" 0
+		}
+	}	
+
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_cursed_cove_event/c-528_-192_192"
+		"Proxies"
+		{
+		}
+	}
+}

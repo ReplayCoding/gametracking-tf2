@@ -1,0 +1,32 @@
+"UnLitGeneric"
+{
+	"$basetexture" "models/props_farmageddon/tv_screen"
+
+	"$envmap"	"env_cubemap"
+	"$envmapsaturation"	"0.5"
+	"$envmapcontrast"	"1"
+
+	"$detail"	"models/props_farmageddon/tv_static"
+	"$detailscale"	"1"
+	"$detailblendmode"		"0"
+	"$basealphaenvmapmask"	"1"
+
+	"Proxies"
+	{
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar" 	"$detailframe"
+			"animatedtextureframerate"	"30"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$detailtexturetransform"
+			"texturescrollrate"		".1"
+			"texturescrollangle"	"90"
+		}
+
+	}
+}
+

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\stranded/stranded_lavafall001"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$model" "1"
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.14
+			"texturescrollangle" 90
+		}
+	}
+}

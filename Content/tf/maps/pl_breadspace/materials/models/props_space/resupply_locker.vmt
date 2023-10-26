@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_space/resupply_locker.vtf"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.5 10 15]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.0"
+	"$rimlightboost"		"1.0"
+	"$selfillum" "1"
+    "$selfillummask" "models/props_space/resupply_locker_illum.vtf"
+	"$model" 1
+	"%keywords" "tf"
+}

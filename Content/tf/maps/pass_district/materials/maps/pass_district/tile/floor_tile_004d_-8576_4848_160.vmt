@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004D.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pass_district/c-8576_4848_160"
+	}
+}

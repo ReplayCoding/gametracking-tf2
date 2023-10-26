@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOW004D.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_pier/c-4064_-704_512"
+	}
+}

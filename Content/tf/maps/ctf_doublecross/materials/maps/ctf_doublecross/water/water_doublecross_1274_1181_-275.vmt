@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_doublecross/c1274_1181_-275"
+		"Proxies"
+		{
+		}
+	}
+}

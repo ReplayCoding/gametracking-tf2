@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "egypt\sand_floor_05"
+	"$basetexture2" "nature/junglegrass003a"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+//	"$bumpmap" "Nature/dirtground001_height-ssbump"
+//	"%detailtype" "tf_forest_grass"
+	"%detailtype" "tf_bb_orchid_grass"
+	"%keywords" "tf"
+//	"$ssbump" "1"
+	"$surfaceprop" "sand"
+}

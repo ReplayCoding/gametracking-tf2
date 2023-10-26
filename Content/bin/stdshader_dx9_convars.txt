@@ -1,0 +1,130 @@
+convar 
+flags: 
+default: 0
+
+
+convar gl_amd_occlusion_workaround
+flags: 
+default: 1
+
+
+convar mat_disable_fancy_blending
+flags: 
+default: 0
+
+
+convar mat_disable_lightwarp
+flags: 
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+convar mat_luxels
+flags:  "cheat"
+default: 0
+
+
+convar mat_motion_blur_percent_of_screen_max
+flags: 
+default: 4.0
+
+
+convar mat_use_compressed_hdr_textures
+flags: 
+default: 1
+
+
+convar mat_visualize_dof
+flags:  "cheat"
+default: 0
+
+
+convar r_bloomtintb
+flags: 
+default: 0.11
+
+
+convar r_bloomtintexponent
+flags: 
+default: 2.2
+
+
+convar r_bloomtintg
+flags: 
+default: 0.59
+
+
+convar r_bloomtintr
+flags: 
+default: 0.3
+
+
+convar r_flashlight_version2
+flags:  "developmentonly" "cheat"
+default: 0
+
+
+convar r_lightwarpidentity
+flags:  "cheat"
+default: 0
+
+
+convar r_lightwarpidentity
+flags:  "cheat"
+default: 0
+
+
+convar r_lightwarpidentity
+flags:  "cheat"
+default: 0
+
+
+convar r_lightwarpidentity
+flags:  "cheat"
+default: 0
+
+
+convar r_rimlight
+flags: 
+default: 1
+
+
+convar r_showz_power
+flags:  "cheat"
+default: 1.0f
+
+
+convar r_waterforceexpensive
+flags:  "archive"
+default: 0
+
+

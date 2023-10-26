@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/BLOODWATER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_bloodwater/c-1623_812_6567"
+		"Proxies"
+		{
+		}
+	}
+}

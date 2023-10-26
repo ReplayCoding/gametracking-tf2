@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+	"$basetexture" "spookymap/precipice_hay_01"
+	"$bumpmap" "spookymap/precipice_hay_01_n"
+	"$surfaceprop" "Grass"
+
+	"$basetexture2" "concrete/concretefloor003"
+	"$surfaceprop2" "Concrete"
+
+	"%tooltexture" "spookymap/precipice_hay_01"
+	"%keywords" "tf, precipice"
+}

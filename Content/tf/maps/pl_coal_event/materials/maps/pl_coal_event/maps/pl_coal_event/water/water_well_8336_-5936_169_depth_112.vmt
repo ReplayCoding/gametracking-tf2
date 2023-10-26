@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_coal_event/water/water_well_8336_-5936_169.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

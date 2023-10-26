@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_mossrock/water/water_2fort_1452_-783_-62.vmt"
+	"insert"
+	{
+		"$waterdepth"		"44"
+	}
+}

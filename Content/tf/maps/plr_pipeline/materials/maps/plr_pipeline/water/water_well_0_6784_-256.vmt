@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_pipeline/c0_6784_-256"
+		"Proxies"
+		{
+		}
+	}
+}

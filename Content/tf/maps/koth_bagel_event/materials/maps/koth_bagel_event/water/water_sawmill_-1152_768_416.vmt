@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_bagel_event/c-1152_768_416"
+		"Proxies"
+		{
+		}
+	}
+}

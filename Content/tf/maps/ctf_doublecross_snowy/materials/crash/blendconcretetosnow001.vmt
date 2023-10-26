@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Concrete/concretefloor007"
+	"$basetexture2" "Nature/snow_grass01"
+//	"%tooltexture" "Nature/blendgroundtograss008_tooltexture"
+	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+//	"$bumpmap" "Nature/snow_grass01_normal"
+//	"%detailtype" "tf_forest_grass"
+	"%keywords" "tf"
+//	"$ssbump" "1"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "snow"
+
+	"%keywords" "tf"
+}

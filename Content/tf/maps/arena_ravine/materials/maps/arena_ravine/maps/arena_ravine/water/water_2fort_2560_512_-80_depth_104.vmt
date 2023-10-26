@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/arena_ravine/water/water_2fort_2560_512_-80.vmt"
+	"insert"
+	{
+		"$waterdepth"		"104"
+	}
+}

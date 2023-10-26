@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "metal/metaltruss001"
+	$surfaceprop Metalgrate
+
+	$alphatest 1
+	$alphatestreference 0.2
+
+	%keywords "tf"
+
+	$allowalphatocoverage 1
+	%compilepassbullets 1
+}

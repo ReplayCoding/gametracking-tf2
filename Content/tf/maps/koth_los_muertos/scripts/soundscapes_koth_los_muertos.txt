@@ -1,0 +1,96 @@
+"Halloween.Underworld.NoScream"
+{
+	"dsp"	"26"
+
+
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"110"
+		"wave"		"ambient\halloween\Underground_wind_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_02.wav"
+	}	
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_03.wav"
+	}	
+
+	"playrandom"
+	{
+		"time"		"10, 15"
+		"volume"	".2, .35"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2, 5"
+		"volume"	".9, 1.0"
+		"pitch"		"110, 125"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\mysterious_perc_01.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_02.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_03.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_04.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_05.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_06.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_07.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_08.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_09.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_10.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_11.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_12.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_13.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_14.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_15.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_16.mp3"				
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2, 4"
+		"volume"	".9, 1.0"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+}

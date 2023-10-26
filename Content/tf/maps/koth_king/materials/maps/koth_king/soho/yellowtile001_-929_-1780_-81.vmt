@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/YELLOWTILE001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_king/c-929_-1780_-81"
+	}
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_graveyard/church_windows/church_window_large_frame"
+	"$model" 1
+//	"$detail" "overlays/detail001"
+	"$detail" "patterns/paint_dirt"
+	"$detailtexturetransform" "center .49 1.11 scale .35 .7 rotate -5 translate 0 0"
+	"$detailblendmode" "8"
+	"$detailblendfactor" ".8"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_invasion\2fort\quarantine_fan"
+	
+    "$basemapalphaphongmask" "1"
+	
+    "$phong" "1"
+    "$phongexponent" "10"
+    "$phongboost" "1"    
+    "$lightwarptexture" "models/props_vehicles/pickup_lightwarp"
+    "$phongfresnelranges"    "[1 0.5 1]"    
+	
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_breadspace/skybox_dome_2"
+	$phong 1
+	$basemapalphaphongmask 1
+	$phongexponent 5
+	$phongboost 1.0
+	$phongfresnelranges "[0 0.5 1]"
+}

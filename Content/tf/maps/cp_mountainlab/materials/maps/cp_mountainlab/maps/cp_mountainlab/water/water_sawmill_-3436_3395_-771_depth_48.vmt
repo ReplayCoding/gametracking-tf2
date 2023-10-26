@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_mountainlab/water/water_sawmill_-3436_3395_-771.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

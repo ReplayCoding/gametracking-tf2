@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDSNOWTODIRT001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_cascade/c818_-2152_-576"
+	}
+}

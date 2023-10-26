@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004D.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_breadspace/c2496_7424_-256"
+	}
+}

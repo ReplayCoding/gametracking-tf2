@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_lumberyard_event/c-2818_-790_312"
+		"Proxies"
+		{
+		}
+	}
+}

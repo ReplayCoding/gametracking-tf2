@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_watergate/c1512_368_32"
+		"Proxies"
+		{
+		}
+	}
+}

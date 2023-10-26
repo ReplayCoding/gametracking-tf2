@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_synthetic_event/table_01_cloth"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+	"$nocull" "1"
+}
+

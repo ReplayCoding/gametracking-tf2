@@ -1,0 +1,30 @@
+Water
+{
+	"$surfaceprop" "Water"
+
+	"$alpha" "0"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0 0 0]"
+
+	"$normalmap" "water/tfwater001_normal"
+	"$bottommaterial" "spookymap/cart_goo_water_beneath"
+	"$bumpframe" "0"
+
+	"$abovewater" "1"
+
+	"$fogenable" "1"
+	"$fogcolor" "{200 17 251}"
+	"$fogstart" "0"
+	"$fogend" "400"
+
+	"%compilewater" "1"
+	"%tooltexture" "dev/tfwater_normal"
+	"%keywords" "tf"
+
+	"$curr" "0.0"
+	"$curr2" "0.0"
+	"$scale" "[1 1]"
+	"$temp" "[0 0]"
+	"$underwateroverlay" "effects/water_warp"
+}

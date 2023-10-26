@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_moonshine_event/water/water_sawmill_2412_65_-239.vmt"
+	"insert"
+	{
+		"$waterdepth"		"176"
+	}
+}

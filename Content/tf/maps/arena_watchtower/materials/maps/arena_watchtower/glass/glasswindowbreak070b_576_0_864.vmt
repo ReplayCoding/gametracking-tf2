@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/glass/glasswindowbreak070b.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_watchtower/c576_0_864"
+		"Proxies"
+		{
+		}
+	}
+}

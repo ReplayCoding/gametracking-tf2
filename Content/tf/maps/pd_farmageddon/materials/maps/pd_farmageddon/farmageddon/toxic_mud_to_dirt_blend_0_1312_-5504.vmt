@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/FARMAGEDDON/TOXIC_MUD_TO_DIRT_BLEND.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_farmageddon/c0_1312_-5504"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/WALL_ISLAND_HEAVY02C_SPEC.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c-1528_-312_161"
+	}
+}

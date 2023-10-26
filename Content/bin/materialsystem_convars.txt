@@ -1,0 +1,401 @@
+convar 
+flags: 
+default: 0
+
+
+convar mat_aaquality
+flags:  "archive"
+default: 0
+
+
+convar mat_accelerate_adjust_exposure_down
+flags:  "cheat"
+default: 3.0
+
+
+convar mat_antialias
+flags:  "archive"
+default: 0
+
+
+convar mat_bufferprimitives
+flags: 
+default: 0
+
+
+convar mat_bumpmap
+flags: 
+default: 1
+
+
+convar mat_compressedtextures
+flags: 
+default: 1
+
+
+convar mat_debugalttab
+flags:  "cheat"
+default: 0
+
+
+convar mat_debugdepth
+flags: 
+default: 0
+
+
+convar mat_depthbias_decal
+flags:  "cheat"
+default: -262144
+
+
+convar mat_depthbias_normal
+flags:  "cheat"
+default: 0.0f
+
+
+convar mat_depthbias_shadowmap
+flags:  "cheat"
+default: 0.0005
+
+
+convar mat_diffuse
+flags:  "cheat"
+default: 1
+
+
+convar mat_drawflat
+flags:  "cheat"
+default: 0
+
+
+convar mat_dxlevel
+flags: 
+default: 92
+
+
+ccommand mat_evict_all
+flags: 
+Evict all fine mipmaps from the gpu
+
+convar mat_fastnobump
+flags:  "cheat"
+default: 0
+
+
+convar mat_fastspecular
+flags: 
+default: 1
+Enable/Disable specularity for visual testing.  Will not reload materials and will not affect perf.
+
+convar mat_fillrate
+flags:  "cheat"
+default: 0
+
+
+convar mat_filterlightmaps
+flags: 
+default: 1
+
+
+convar mat_filtertextures
+flags: 
+default: 1
+
+
+convar mat_forceaniso
+flags:  "archive"
+default: 1
+
+
+convar mat_forcehardwaresync
+flags: 
+default: 1
+
+
+convar mat_forcemanagedtextureintohardware
+flags:  "hidden"
+default: 1
+
+
+convar mat_fullbright
+flags:  "cheat"
+default: 0
+
+
+ccommand mat_hdr_enabled
+flags: 
+Report if HDR is enabled for debugging
+
+convar mat_hdr_manual_tonemap_rate
+flags: 
+default: 1.0
+
+
+convar mat_hdr_tonemapscale
+flags:  "cheat"
+default: 1.0
+
+
+convar mat_lightmap_pfms
+flags:  "material_system_thread"
+default: 0
+Outputs .pfm files containing lightmap data for each lightmap page when a level exits.
+
+convar mat_lodin_hidden_pop
+flags:  "developmentonly"
+default: 1
+
+
+convar mat_lodin_time
+flags:  "developmentonly"
+default: 5.0
+
+
+convar mat_measurefillrate
+flags:  "cheat"
+default: 0
+
+
+convar mat_mipmaptextures
+flags: 
+default: 1
+
+
+convar mat_monitorgamma
+flags:  "archive"
+default: 2.2
+monitor gamma (typically 2.2 for CRT and 1.7 for LCD)
+
+convar mat_monitorgamma_tv_enabled
+flags:  "archive"
+default: 0
+
+
+convar mat_monitorgamma_tv_exp
+flags: 
+default: 2.5
+
+
+convar mat_monitorgamma_tv_range_max
+flags: 
+default: 255
+
+
+convar mat_monitorgamma_tv_range_min
+flags: 
+default: 16
+
+
+convar mat_morphstats
+flags:  "cheat"
+default: 0
+
+
+convar mat_motion_blur_enabled
+flags:  "archive"
+default: 0
+
+
+convar mat_norendering
+flags:  "cheat"
+default: 0
+
+
+convar mat_normalmaps
+flags:  "cheat"
+default: 0
+
+
+convar mat_parallaxmap
+flags:  "hidden"
+default: 1
+
+
+convar mat_phong
+flags: 
+default: 1
+
+
+convar mat_picmip
+flags:  "archive"
+default: 0
+
+
+convar mat_proxy
+flags:  "cheat"
+default: 0
+
+
+convar mat_queue_mode
+flags:  "archive"
+default: -1
+The queue/thread mode the material system should use: -1=default, 0=synchronous single thread, 2=queued multithreaded
+
+convar mat_queue_report
+flags:  "archive"
+default: 0
+Report thread stalls.  Positive number will filter by stalls >= time in ms.  -1 reports all locks.
+
+convar mat_reducefillrate
+flags: 
+default: 0
+
+
+convar mat_reduceparticles
+flags: 
+default: 0
+
+
+ccommand mat_reloadallmaterials
+flags:  "cheat"
+Reloads all materials
+
+ccommand mat_reloadmaterial
+flags:  "cheat"
+Reloads a single material
+
+ccommand mat_reloadtextures
+flags:  "cheat"
+Reloads all textures
+
+convar mat_report_queue_status
+flags:  "material_system_thread"
+default: 0
+
+
+ccommand mat_reporthwmorphmemory
+flags:  "cheat"
+Reports the amount of size in bytes taken up by hardware morph textures.
+
+convar mat_requires_rt_alloc_first
+flags:  "hidden"
+default: 0
+
+
+convar mat_reversedepth
+flags:  "cheat"
+default: 0
+
+
+convar mat_showenvmapmask
+flags: 
+default: 0
+
+
+convar mat_showlowresimage
+flags:  "cheat"
+default: 0
+
+
+ccommand mat_showmaterials
+flags: 
+Show materials.
+
+ccommand mat_showmaterialsverbose
+flags: 
+Show materials (verbose version).
+
+convar mat_showmiplevels
+flags:  "cheat"
+default: 0
+color-code miplevels 2: normalmaps, 1: everything else
+
+ccommand mat_showtextures
+flags: 
+Show used textures.
+
+convar mat_slopescaledepthbias_decal
+flags:  "cheat"
+default: -0.5
+
+
+convar mat_slopescaledepthbias_normal
+flags:  "cheat"
+default: 0.0f
+
+
+convar mat_slopescaledepthbias_shadowmap
+flags:  "cheat"
+default: 16
+
+
+convar mat_softwarelighting
+flags: 
+default: 0
+
+
+convar mat_specular
+flags: 
+default: 1
+Enable/Disable specularity for perf testing.  Will cause a material reload upon change.
+
+convar mat_spew_on_texture_size
+flags: 
+default: 0
+Print warnings about vtf content that isn't of the expected size
+
+convar mat_spewalloc
+flags:  "developmentonly" "archive"
+default: 0
+
+
+convar mat_supportflashlight
+flags:  "hidden"
+default: -1
+0 - do not support flashlight (don't load flashlight shader combos), 1 - flashlight is supported
+
+convar mat_texture_reload_frame_swap_workaround
+flags: 
+default: 0
+Workaround certain GL drivers holding unnecessary amounts of data when loading many materials by forcing synthetic frame swaps
+
+convar mat_texture_tracking
+flags: 
+default: 0
+
+
+convar mat_tonemap_algorithm
+flags:  "cheat"
+default: 1
+0 = Original Algorithm 1 = New Algorithm
+
+convar mat_tonemapping_occlusion_use_stencil
+flags: 
+default: 0
+
+
+convar mat_trilinear
+flags: 
+default: 0
+
+
+convar mat_vrmode_adapter
+flags: 
+default: -1
+
+
+convar mat_vsync
+flags: 
+default: 0
+Force sync to vertical retrace
+
+convar r_flashlightdepthtexture
+flags: 
+default: 1
+
+
+convar r_shadowrendertotexture
+flags:  "archive"
+default: 0
+
+
+convar r_waterforceexpensive
+flags:  "archive"
+default: 0
+
+
+convar r_waterforcereflectentities
+flags: 
+default: 0
+
+

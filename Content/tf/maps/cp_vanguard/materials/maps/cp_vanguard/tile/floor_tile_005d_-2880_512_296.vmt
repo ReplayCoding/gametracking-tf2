@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005D.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_vanguard/c-2880_512_296"
+	}
+}

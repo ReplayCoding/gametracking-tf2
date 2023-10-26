@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_halloween/bottlecart_shelf"
+	"$bumpmap" "models/props_halloween/bottlecart_shelf_bump"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.25"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".2"	
+}

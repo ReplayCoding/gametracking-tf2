@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PROPS/METALDUCT001A_RED.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_breadspace/c1728_192_384"
+	}
+}

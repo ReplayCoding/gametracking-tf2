@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_enclosure_final/c-7431_1008_154"
+		"Proxies"
+		{
+		}
+	}
+}

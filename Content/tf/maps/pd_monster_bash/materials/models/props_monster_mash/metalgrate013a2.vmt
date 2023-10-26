@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "metal/metalgrate013a"
+	$surfaceprop Metalgrate
+
+	$translucent 1
+
+	$nodecal 1
+
+	%keywords "tf"
+
+	%compilepassbullets 1
+}

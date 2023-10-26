@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDWETMUDGROUND018A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_monster_bash/c1952_96_-192"
+	}
+}

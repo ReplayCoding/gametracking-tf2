@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_thundermountain/water/water_well_2304_544_128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

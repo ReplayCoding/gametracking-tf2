@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_OCEAN_EXPENSIVE_NIGHT002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c-1584_-1472_96"
+		"Proxies"
+		{
+		}
+	}
+}

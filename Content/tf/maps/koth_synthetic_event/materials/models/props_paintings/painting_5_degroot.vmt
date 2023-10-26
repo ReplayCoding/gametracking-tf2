@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_paintings/painting_5_degroot"
+	"$phongwarptexture"  "models\weapons\c_items/c_pocket_watch_phongwarp"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.1 10 10]"
+}
+

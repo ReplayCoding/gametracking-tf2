@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_watergate/water/water_2fort_6688_11600_8160.vmt"
+	"insert"
+	{
+		"$waterdepth"		"7"
+	}
+}

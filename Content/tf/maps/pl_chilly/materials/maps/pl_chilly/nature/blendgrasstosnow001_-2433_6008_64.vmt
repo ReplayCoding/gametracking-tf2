@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDGRASSTOSNOW001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_chilly/c-2433_6008_64"
+	}
+}

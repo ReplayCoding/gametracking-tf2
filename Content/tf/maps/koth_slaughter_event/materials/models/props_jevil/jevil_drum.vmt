@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_jevil/jevil_drum"
+
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"35.000000"
+	"$phongboost"		"4.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"15"
+	"$rimlightboost"		"4"
+
+	"$selfillum"		"1"
+}
+
+

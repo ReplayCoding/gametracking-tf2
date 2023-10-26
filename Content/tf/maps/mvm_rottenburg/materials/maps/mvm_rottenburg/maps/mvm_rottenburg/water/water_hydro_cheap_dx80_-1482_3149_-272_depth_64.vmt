@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/mvm_rottenburg/water/water_hydro_cheap_dx80_-1482_3149_-272.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

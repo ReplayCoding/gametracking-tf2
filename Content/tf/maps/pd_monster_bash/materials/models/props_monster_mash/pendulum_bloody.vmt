@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_monster_mash\pendulum_bloody"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.4 .4 .4]"
+	"$basealphaenvmapmask" "0"
+
+	"$phong" "1"
+	"$basemapalphaphongmask" "1"
+
+	"$phongexponent" "35"
+//	"$phongfresnelranges"		"[.25 .5 1]"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongboost" "5"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "2"
+}
+
+

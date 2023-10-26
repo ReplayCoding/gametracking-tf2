@@ -1,0 +1,74 @@
+convar 
+flags: 
+default: 0
+
+
+convar gl_blit_halfx
+flags: 
+default: 0
+
+
+convar gl_blit_halfy
+flags: 
+default: 0
+
+
+convar gl_disable_forced_vsync
+flags: 
+default: 0
+
+
+convar gl_finish
+flags: 
+default: 0
+
+
+convar gl_swapdebug
+flags: 
+default: 0
+
+
+convar gl_swapinterval
+flags: 
+default: 0
+
+
+convar gl_swaplimit
+flags: 
+default: 0
+
+
+convar gl_swaplimit_mt
+flags: 
+default: 3
+
+
+convar gl_swaptear
+flags: 
+default: 1
+
+
+ccommand grab_window
+flags: 
+grab/ungrab window.
+
+convar sdl_displayindex
+flags:  "hidden"
+default: 0
+SDL fullscreen display index.
+
+convar sdl_displayindex_fullscreen
+flags:  "hidden"
+default: -1
+
+
+convar sdl_double_click_size
+flags: 
+default: 2
+
+
+convar sdl_double_click_time
+flags: 
+default: 400
+
+

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_synthetic_event/bloody_barrel"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+}

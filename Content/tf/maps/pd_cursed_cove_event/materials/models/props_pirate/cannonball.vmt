@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_pirate/cannonball"
+	"$bumpmap" "models/props_pirate/cannonball_normal"
+
+
+"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" ".3"
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"									// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".1"		
+
+
+}

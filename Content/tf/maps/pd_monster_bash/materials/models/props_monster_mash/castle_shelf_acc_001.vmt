@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_monster_mash/castle_shelf_acc_001"
+
+	$phong 1
+	$phongfresnelranges "[0.21 0.6 1]"
+	$phongexponent 5
+	$phongboost 0.8
+	$basemapalphaphongmask 1
+}

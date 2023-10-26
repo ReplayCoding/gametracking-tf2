@@ -1,0 +1,15 @@
+"SpriteCard"
+{
+	"$basetexture" "effects/pd/bottle_icon_leader"
+	"$surfaceprop"	"no_decal"
+	"$translucent"	1
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+	"$minsize"		"0.02"
+	
+	//"$minfadesize"		"0.017"
+	//"$maxfadesize"		"0.015"
+
+	"$ignorez"	"1"
+	"$endalpha"		"0"
+}

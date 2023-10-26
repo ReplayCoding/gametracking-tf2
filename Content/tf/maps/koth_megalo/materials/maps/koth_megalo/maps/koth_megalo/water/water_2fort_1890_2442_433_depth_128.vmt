@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_megalo/water/water_2fort_1890_2442_433.vmt"
+	"insert"
+	{
+		"$waterdepth"		"128"
+	}
+}

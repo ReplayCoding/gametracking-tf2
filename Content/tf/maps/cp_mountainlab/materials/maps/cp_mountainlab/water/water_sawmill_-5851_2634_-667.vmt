@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_mountainlab/c-5851_2634_-667"
+		"Proxies"
+		{
+		}
+	}
+}

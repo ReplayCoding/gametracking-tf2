@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SYNTHETIC/HARDWOOD_FLOOR01_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c-1398_2392_242"
+	}
+}

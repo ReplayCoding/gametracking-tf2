@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "breadspace/green_fog"
+	"$translucent" 1
+	"proxies"
+	{
+		"TextureScroll"
+		{
+		"texturescrollvar" "$basetexturetransform"
+		"texturescrollrate" "0.1"
+		"texturescrollangle" "0"
+		}
+	}
+}

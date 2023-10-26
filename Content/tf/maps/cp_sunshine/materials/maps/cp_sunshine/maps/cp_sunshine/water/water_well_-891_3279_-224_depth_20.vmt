@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_sunshine/water/water_well_-891_3279_-224.vmt"
+	"insert"
+	{
+		"$waterdepth"		"20"
+	}
+}

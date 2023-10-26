@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_upward/c7168_-2048_128"
+		"Proxies"
+		{
+		}
+	}
+}

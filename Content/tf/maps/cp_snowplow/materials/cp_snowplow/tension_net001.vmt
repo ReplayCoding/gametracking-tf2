@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cp_snowplow/tension_net001"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+
+	"$alphatest" 1
+	"$AlphaTestReference" ".25"
+	"$AllowAlphaToCoverage" "1"
+	"$nocull" 1
+}

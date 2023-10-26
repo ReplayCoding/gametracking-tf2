@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/BOREAL/BLENDSNOWTODIRT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_snowville_event/c2096_-1632_1204"
+	}
+}

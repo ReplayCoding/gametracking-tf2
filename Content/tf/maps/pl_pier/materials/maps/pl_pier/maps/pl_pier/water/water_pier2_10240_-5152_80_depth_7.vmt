@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_pier/water/water_pier2_10240_-5152_80.vmt"
+	"insert"
+	{
+		"$waterdepth"		"7"
+	}
+}

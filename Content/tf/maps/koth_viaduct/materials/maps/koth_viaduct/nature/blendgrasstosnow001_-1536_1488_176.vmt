@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDGRASSTOSNOW001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_viaduct/c-1536_1488_176"
+	}
+}

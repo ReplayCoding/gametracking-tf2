@@ -1,0 +1,16 @@
+Ambient.SlowTrainLoop
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/slow_train_loop.wav"
+}
+"Ambient.WarningBells"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"		")ambient/railroad_bells.wav"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_wutville_event/c985_-1272_2884"
+	}
+}

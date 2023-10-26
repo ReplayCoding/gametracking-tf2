@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+	$basetexture "koth_viaduct_event/viaduct_dirt001"
+	$bumpmap "nature/dirtground001_height-ssbump"
+	$surfaceprop Dirt
+	$ssbump 1
+
+	$basetexture2 "harvest/harvest_grass"
+
+	$blendmodulatetexture "nature/grass_blendmask"
+
+	%tooltexture "nature/blendgroundtograss001_tooltexture"
+	%keywords "tf"
+
+	%detailtype tf_forest_grass_lowdensity
+}

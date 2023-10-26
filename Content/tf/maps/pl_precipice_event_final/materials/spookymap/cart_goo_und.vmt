@@ -1,0 +1,24 @@
+UnlitGeneric
+{
+	"$basetexture" "spookymap/cart_goo_illummask"
+	"$surfaceprop" "Wade"
+
+	"$nodecal" "1"
+
+	"$color" "[3.43 3.43 3.43]"
+	"$color2" "[0.02 0.90 0.70]"
+
+	"$selfillumtintmax" "{110 110 110}"
+	"$selfillumtintmin" "{95 95 95}"
+
+	Proxies
+	{
+		Sine
+		{
+			resultVar $selfillumtint
+			sineperiod 4
+			sinemin $selfillumtintmin
+			sinemax $selfillumtintmax
+		}
+	}
+}

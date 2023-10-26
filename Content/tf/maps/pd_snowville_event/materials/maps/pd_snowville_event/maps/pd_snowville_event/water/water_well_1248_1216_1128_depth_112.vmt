@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_snowville_event/water/water_well_1248_1216_1128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

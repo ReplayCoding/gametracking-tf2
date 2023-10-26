@@ -1,0 +1,13 @@
+"decalmodulate"
+{
+	"$basetexture"               "overlays/caustics_004_faded"
+	"proxies"
+	{
+		"animatedtexture"
+		{
+			"animatedtexturevar"         "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate"   15.50
+		}
+	}
+}

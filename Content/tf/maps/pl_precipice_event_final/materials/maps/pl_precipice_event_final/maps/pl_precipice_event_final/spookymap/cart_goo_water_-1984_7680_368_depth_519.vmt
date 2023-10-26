@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_precipice_event_final/spookymap/cart_goo_water_-1984_7680_368.vmt"
+	"insert"
+	{
+		"$waterdepth"		"519"
+	}
+}

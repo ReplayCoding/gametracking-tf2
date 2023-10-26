@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_monster_mash/castle_banner_001"
+	$bumpmap "models/props_monster_mash/castle_banner_001_n"
+
+	$phong 1
+	$phongfresnelranges "[0.25 0.62 1]"
+	$phongexponent 9
+	$phongboost 0.13
+}

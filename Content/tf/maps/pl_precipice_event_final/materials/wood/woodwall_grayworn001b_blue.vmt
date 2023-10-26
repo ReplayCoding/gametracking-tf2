@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	$basetexture "pl_barnblitz/woodwall_grayworn001b"
+	$bumpmap "wood/grain_elevator_facade_06_normal"
+	$surfaceprop Wood
+
+	$reflectivity "[0.83 0.86 0.98]"
+
+	$color "[0.67 0.73 0.95]"
+
+	%keywords "tf"
+}

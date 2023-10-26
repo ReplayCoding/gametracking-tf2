@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_lakeside_final/water/water_well_8187_-3918_401.vmt"
+	"insert"
+	{
+		"$waterdepth"		"18"
+	}
+}

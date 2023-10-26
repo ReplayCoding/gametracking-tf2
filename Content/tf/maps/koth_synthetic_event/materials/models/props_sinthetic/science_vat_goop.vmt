@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_sinthetic/science_vat_goop"
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" ".1"
+	"$phongfresnelranges"	"[.5 1 2]"
+	"$lightwarptexture"	"models/props_spymovie/watercooler_bottle_warp"
+	"$selfillum" 1
+}

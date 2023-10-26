@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_badlands/c1286_1799_36"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDGRASSTOSNOW001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_coldfront/c-581_-2982_248"
+	}
+}

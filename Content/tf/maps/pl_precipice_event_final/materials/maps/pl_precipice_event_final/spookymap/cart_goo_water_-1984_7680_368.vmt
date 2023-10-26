@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SPOOKYMAP/CART_GOO_WATER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_precipice_event_final/c-1984_7680_368"
+	}
+}

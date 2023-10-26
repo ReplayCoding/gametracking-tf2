@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL_MURKY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_lazarus/c-192_-1744_-192"
+		"Proxies"
+		{
+		}
+	}
+}

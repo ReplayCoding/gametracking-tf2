@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_viaduct_event/c13984_-1888_-10368"
+		"Proxies"
+		{
+		}
+	}
+}

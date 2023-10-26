@@ -1,0 +1,703 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+"Bay.Coast"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.45,0.65"
+		"pitch"		"90,110"
+		"time"		"6.0, 10.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_wave1.wav"
+			"wave"	"ambient/water/distant_wave2.wav"
+			"wave"	"ambient/water/distant_wave3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 7.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/wave1.wav"
+			"wave"	"ambient/water/wave2.wav"
+			"wave"	"ambient/water/wave3.wav"
+			"wave"	"ambient/water/wave4.wav"
+			"wave"	"ambient/water/wave5.wav"
+			"wave"	"ambient/water/wave6.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient/forest_high_wind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird1.mp3"
+			"wave"		"ambient_mp3/forest_bird2.mp3"
+			"wave"		"ambient_mp3/forest_bird3.mp3"
+			"wave"		"ambient_mp3/forest_bird4.mp3"
+			"wave"		"ambient_mp3/forest_bird5.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/forest_bird9.mp3"
+		}
+	}
+}
+
+"Bay.Town"
+{
+	"dsp"	"1"
+	"dsp_volume" "1.0"
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"80,100"
+		"time"		"6.0,10.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_wave1.wav"
+			"wave"	"ambient/water/distant_wave2.wav"
+			"wave"	"ambient/water/distant_wave3.wav"
+		}
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.TownInside"
+		"volume"	"0.5"
+	}	
+	
+}
+
+"Bay.TownInside"
+{
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"		"2,7"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel" "SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"  "ambient/materials/bump1.wav"
+			"wave"  "ambient/materials/shuffle1.wav"
+			"wave"  "ambient/materials/squeeker2.wav"
+			"wave"  "ambient/materials/squeekyfloor1.wav"
+			"wave"  "ambient/materials/squeekyfloor2.wav"
+			"wave"  "ambient/materials/dinnerplates1.wav"
+			"wave"  "ambient/materials/dinnerplates2.wav"
+			"wave"  "ambient/materials/dinnerplates3.wav"
+			"wave"  "ambient/materials/dinnerplates4.wav"
+			"wave"  "ambient/materials/dinnerplates5.wav"
+			"wave"  "ambient/materials/flush1.wav"
+			"wave"  "ambient/materials/flush2.wav"
+			"wave"  "ambient/materials/footsteps_wood1.wav"
+			"wave"  "ambient/materials/footsteps_wood2.wav"
+			"wave"  "ambient/materials/rustypipes1.wav"
+			"wave"  "ambient/materials/rustypipes2.wav"
+			"wave"  "ambient/materials/rustypipes3.wav"
+		}
+	}
+}
+
+"Bay.Interior"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/atmosphere/cargo_hold2.wav"
+		"pitch"		"100"
+	}
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"6.0, 10.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_wave1.wav"
+			"wave"	"ambient/water/distant_wave2.wav"
+			"wave"	"ambient/water/distant_wave3.wav"
+		}
+	}
+}
+
+
+"Bay.Boathouse"
+{
+
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"time"		"9,16"
+		"volume"	"0.2,0.35"
+		"pitch"		"95,105"
+		"soundlevel"	"SNDLVL_140dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/wood_creak1.wav"
+			"wave"	"ambient/materials/wood_creak2.wav"
+			"wave"	"ambient/materials/wood_creak3.wav"
+			"wave"	"ambient/materials/wood_creak4.wav"
+			"wave"	"ambient/materials/wood_creak5.wav"
+			"wave"	"ambient/materials/wood_creak6.wav"
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+		}
+	}
+
+	"playsoundscape"
+	{
+		"name"	"Base.Coast"
+		"volume" "0.4"
+	}
+}
+
+"Bay.Underground"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+}
+
+"Bay.Summoning"
+{
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"12, 30"
+		"volume"	"0.1"
+		"position"		"0"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hell\hell_rumbles_01.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_02.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_03.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_04.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_05.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_06.mp3"	
+			"wave"		"ambient_mp3/hell\hell_rumbles_07.mp3"			
+		}
+	}
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+}
+
+"Bay.Util_Birds"
+{
+	"playrandom"
+	{
+		"volume"	"0.75,0.9"
+		"pitch"		"95, 105"
+		"time"		"8.0, 20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_bird1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird4.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird5.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird6.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird7.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird8.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird9.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird10.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird13.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird14.mp3"
+		}
+	}
+	"playrandom"
+	{	
+		"time"			"8, 24"
+		"volume"		"0.05,0.15"
+		"pitch"			"90,110"
+		"soundlevel" 	"SNDLVL_90dB"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_01.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_02.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_03.mp3"
+		}	
+	}
+}
+
+"Bay.Util_Shoreline"
+{
+	"playrandom"
+	{
+		"volume"	"0.25,0.55"
+		"pitch"		"120"
+		"time"		"3.0, 4.0"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/shore1.wav"
+			"wave"	"ambient/levels/canals/shore2.wav"
+			"wave"	"ambient/levels/canals/shore3.wav"
+			"wave"	"ambient/levels/canals/shore4.wav"
+		}
+	}
+
+}
+
+"Bay.Util_Waves"
+{
+	"playrandom"
+	{
+		"volume"	"0.45,0.65"
+		"pitch"		"90,110"
+		"time"		"10.0, 17.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/wave1.wav"
+			"wave"	"ambient/water/wave2.wav"
+			"wave"	"ambient/water/wave3.wav"
+			"wave"	"ambient/water/wave4.wav"
+			"wave"	"ambient/water/wave5.wav"
+			"wave"	"ambient/water/wave6.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"soundlevel" 	"SNDLVL_85dB"
+		"wave"			"ambient/mvm_warehouse/warehouse_harbor.wav"	
+	}
+}
+
+"Bay.Util_Waves_Distant"
+{
+	"playrandom"
+	{
+		"volume"	"0.45,0.65"
+		"pitch"		"90,110"
+		"time"		"6.0, 10.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_wave1.wav"
+			"wave"	"ambient/water/distant_wave2.wav"
+			"wave"	"ambient/water/distant_wave3.wav"
+		}
+	}
+
+}
+
+"Bay.Util_Wildlife"
+{
+	"playrandom"
+	{
+		"time"		"7, 16"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,110"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/animal_call_bird1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird4.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird5.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird6.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird7.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird8.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird9.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird10.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird13.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_bird14.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker1.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker2.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker3.mp3"
+			"wave"		"ambient_mp3/lair/animal_call_woodpecker4.mp3"
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient/lair/jungle_insect_loop2.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Bay.Util_Wind"
+{
+	"playrandom"
+	{
+		"volume"	"0.2,0.6"
+		"time"		"10.0, 30.0"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			")ambient/lair/jungle_wind_trees.wav"
+			")ambient/lair/jungle_wind_trees2.wav"
+		}
+
+	}
+}
+
+"Bay.Util_Train_Engine"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/slow_train_loop.wav"
+	}
+}
+
+"Bay.Util_Train_Cars"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/machines/razor_train_wheels_loop1.wav"
+	}
+}
+
+"Bay.Battlements"
+{
+	"dsp"	"1"
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wildlife"
+		"volume"	"0.7"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.8"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wind"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.4"
+	}	
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.2"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+}
+
+"Bay.Beach"
+{
+	"dsp"	"1"
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wind"
+		"volume"	"0.8"
+	}	
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Shoreline"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.6"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wildlife"
+		"volume"	"0.6"
+	}
+}
+
+"Bay.Canyon"
+{
+	"dsp"	"1"
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wind"
+		"volume"	"0.8"
+	}	
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.6"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.6"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wildlife"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.4"
+	}	
+}
+
+"Bay.CaveOpen"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Shoreline"
+		"volume"	"0.8"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.6"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wildlife"
+		"volume"	"0.4"
+	}
+}
+
+"Bay.CaveInner"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.3"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.3"
+	}	
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.4"
+	}
+}
+
+"Bay.Hill"
+{
+	"dsp"	"1"
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wildlife"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.8"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Wind"
+		"volume"	"0.8"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.5"
+	}	
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.3"
+	}
+}
+
+"Bay.SpawnInner"
+{
+//	"dsp"	"3"
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".10"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}	
+}
+
+"Bay.SpawnOuter"
+{
+//	"dsp"	"6"
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}	
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves_Distant"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Waves"
+		"volume"	"0.1"
+	}
+	"playsoundscape"
+	{
+		"name"		"Bay.Util_Birds"
+		"volume"	"0.3"
+	}
+}

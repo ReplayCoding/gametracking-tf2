@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/breadspace/goop"
+	"$selfillum" "1"
+	"$phong" "1"
+    	"$phongexponent" "5"
+    	"$phongboost" "0.5"    
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+  	 "$phongfresnelranges"    "[1 1.5 1]"  
+	$phongtint "[.25 1 1.5]"
+}
+

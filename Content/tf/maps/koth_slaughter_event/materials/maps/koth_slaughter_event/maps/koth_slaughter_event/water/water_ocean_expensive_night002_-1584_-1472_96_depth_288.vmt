@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_slaughter_event/water/water_ocean_expensive_night002_-1584_-1472_96.vmt"
+	"insert"
+	{
+		"$waterdepth"		"288"
+	}
+}

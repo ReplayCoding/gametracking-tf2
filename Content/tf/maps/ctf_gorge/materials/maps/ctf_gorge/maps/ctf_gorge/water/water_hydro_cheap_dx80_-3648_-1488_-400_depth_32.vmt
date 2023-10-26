@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_gorge/water/water_hydro_cheap_dx80_-3648_-1488_-400.vmt"
+	"insert"
+	{
+		"$waterdepth"		"32"
+	}
+}

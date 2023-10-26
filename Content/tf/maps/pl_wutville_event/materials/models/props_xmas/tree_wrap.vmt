@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_xmas/tree_wrap"
+
+	"$nodecal" "1"
+	"$nocull" "1"
+	"$alphatest" "1"
+	"$alphatestreference" "0.2"
+
+	"$envmap" "cubemaps/cubemap_gold001"
+	"$envmaptint" "[1 .95 .3]"
+
+}

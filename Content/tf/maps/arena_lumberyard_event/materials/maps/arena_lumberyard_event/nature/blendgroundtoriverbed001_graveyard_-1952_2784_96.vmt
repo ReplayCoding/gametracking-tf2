@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDGROUNDTORIVERBED001_GRAVEYARD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_lumberyard_event/c-1952_2784_96"
+	}
+}

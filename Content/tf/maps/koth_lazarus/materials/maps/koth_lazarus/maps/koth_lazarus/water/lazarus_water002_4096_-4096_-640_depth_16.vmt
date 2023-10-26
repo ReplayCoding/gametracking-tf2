@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_lazarus/water/lazarus_water002_4096_-4096_-640.vmt"
+	"insert"
+	{
+		"$waterdepth"		"16"
+	}
+}

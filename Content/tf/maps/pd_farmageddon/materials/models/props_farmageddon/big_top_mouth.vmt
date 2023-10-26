@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_farmageddon/big_top_mouth"
+	"$bumpmap"		"models/props_farmageddon/big_top_mouth_normal"
+
+	"$phongexponenttexture"	"patterns/blank_white"
+
+	"$phong"			"1"
+	"$phongexponent"		"30"
+	"$phongboost"		"2"
+	"$phongalbedotint"		"1"
+	"$phongfresnelranges"	"[.5 1 2]"
+
+	"$detail"			"models/props_farmageddon/big_top_mouth_glow"
+	"$detailscale"		"1"
+	"$detailblendmode"	"5"
+	"$detailblendfactor"	"3"
+
+//	"$detail" "overlays/detail004"
+//	"$detailscale" "8"
+//	"$detailblendmode" "0"
+//	"$detailblendfactor" "1.4"
+
+	"$surfaceprop"		"dirt"
+
+"Proxies"
+ {
+  "Sine"
+  {
+	"sinemax"	"3"
+	"sinemin"	"2"
+	"sineperiod"	".5"
+	"resultvar"	"$detailblendfactor"
+  }
+ }
+}

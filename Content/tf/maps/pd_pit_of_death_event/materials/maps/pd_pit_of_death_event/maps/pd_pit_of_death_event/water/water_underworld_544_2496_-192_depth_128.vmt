@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_pit_of_death_event/water/water_underworld_544_2496_-192.vmt"
+	"insert"
+	{
+		"$waterdepth"		"128"
+	}
+}

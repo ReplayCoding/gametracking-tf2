@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\test/waterfall001"
+	"$bumpmap" "models\test\whirlpool_n"
+	"$surfaceprop"	"water"
+	"$alphatest" 1
+	"$model" "1"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "2000"
+	"$phongboost" "300"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.6 1 1.5]"
+
+
+	//"$colortintbase" "[1 1 1]"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.04
+			"texturescrollangle" 90
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_swiftwater_final1/water/water_hydro_cheap_1664_-3968_-944.vmt"
+	"insert"
+	{
+		"$waterdepth"		"120"
+	}
+}

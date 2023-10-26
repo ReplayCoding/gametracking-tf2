@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_xmas/fence"
+	"$detail" "models/props_xmas/stripes07"
+   	"$detailscale" 1
+    	"$detailblendfactor" 1
+    	"$detailblendmode" 4
+	"$detailtexturetransform" "center .5 .5 scale 1 1 rotate 3 translate 0 0"
+
+}

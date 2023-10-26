@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_badlands/water/water_2fort_1286_1799_36.vmt"
+	"insert"
+	{
+		"$waterdepth"		"96"
+	}
+}

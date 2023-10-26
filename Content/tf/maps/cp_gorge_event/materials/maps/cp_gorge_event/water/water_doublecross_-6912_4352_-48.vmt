@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_gorge_event/c-6912_4352_-48"
+		"Proxies"
+		{
+		}
+	}
+}

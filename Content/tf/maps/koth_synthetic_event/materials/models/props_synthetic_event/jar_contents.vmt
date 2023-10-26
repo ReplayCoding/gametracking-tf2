@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_synthetic_event/jar"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "10"
+	"$phongfresnelranges" "[.01 .1 10]"
+}

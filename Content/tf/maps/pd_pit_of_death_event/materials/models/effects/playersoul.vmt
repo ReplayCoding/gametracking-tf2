@@ -1,0 +1,51 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\effects\playersoul"
+//	"$lightwarptexture" "models\player\items\mvm_loot\all_class\fob_lightwarp"
+	"$lightwarptexture" "hud\color_white"
+	"$additive" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "5"	
+	"$phongfresnelranges"	"[.1 .5 1]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$selfillumfresnel" "3"
+
+	"$selfillumfresnelminmaxexp" "[0 2 1]"
+	"$selfillum" "1"
+
+	"$selfillumtint" "[-0.3 -0.3 -0.3]"
+	"$selfillumtint_base" "[0.3 0.3 0.3]"
+
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 148 28 226 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$color2"		"{ 148 28 226 }"
+
+	"proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" ".5"
+			"texturescrollangle" "90"
+		}	
+	}
+}
+
+
+

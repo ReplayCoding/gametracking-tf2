@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOORTILE001A_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c-1008_-1216_-1462"
+	}
+}

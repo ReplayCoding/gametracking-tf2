@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/props_vehicles/SnowCat_Body" 
+	"$bumpmap" "models/props_vehicles/SnowCat_normal" 
+	"$phong" "1"
+    "$phongexponent" "30"
+    "$phongboost" "1"    
+    "$lightwarptexture" "models/props_vehicles/pickup_lightwarp"
+    "$phongfresnelranges"    "[1 2 5]"
+}

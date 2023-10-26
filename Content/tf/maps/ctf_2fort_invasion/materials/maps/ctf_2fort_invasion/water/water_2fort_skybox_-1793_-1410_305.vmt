@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_2fort_invasion/c-1793_-1410_305"
+		"Proxies"
+		{
+		}
+	}
+}

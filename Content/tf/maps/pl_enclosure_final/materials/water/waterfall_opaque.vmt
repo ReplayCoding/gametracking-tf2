@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "water\waterfall002"
+	"$surfaceprop"	"water"
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.65
+			"texturescrollangle" 90
+		}
+	}
+}

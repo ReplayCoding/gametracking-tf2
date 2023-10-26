@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOW002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pass_district/c-8320_10240_384"
+	}
+}

@@ -1,0 +1,81 @@
+convar 
+flags: 
+default: 0
+
+
+convar datacachesize
+flags: 
+default: 64
+Size in MB.
+
+convar developer
+flags: 
+default: 0
+
+
+convar mem_force_flush
+flags:  "cheat"
+default: 0
+Force cache flush of unlocked resources on every alloc
+
+convar mod_forcedata
+flags: 
+default: 1
+Forces all model file data into cache on model load.
+
+convar mod_load_anims_async
+flags: 
+default: 0
+
+
+convar mod_load_fakestall
+flags: 
+default: 0
+Forces all ANI file loading to stall for specified ms
+
+
+convar mod_load_mesh_async
+flags: 
+default: 0
+
+
+convar mod_load_showstall
+flags: 
+default: 0
+1 - show hitches , 2 - show stalls
+
+convar mod_load_vcollide_async
+flags: 
+default: 0
+
+
+convar mod_lock_mdls_on_load
+flags: 
+default: 0
+
+
+convar mod_test_mesh_not_available
+flags:  "cheat"
+default: 0
+
+
+convar mod_test_not_available
+flags:  "cheat"
+default: 0
+
+
+convar mod_test_verts_not_available
+flags:  "cheat"
+default: 0
+
+
+convar mod_trace_load
+flags: 
+default: 0
+
+
+convar r_rootlod
+flags:  "archive"
+default: 0
+
+

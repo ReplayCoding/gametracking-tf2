@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_cursed_cove_event/water/water_2fort_0_1984_80.vmt"
+	"insert"
+	{
+		"$waterdepth"		"8"
+	}
+}

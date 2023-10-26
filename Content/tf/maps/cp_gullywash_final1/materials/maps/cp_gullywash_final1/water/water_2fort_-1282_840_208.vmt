@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_gullywash_final1/c-1282_840_208"
+		"Proxies"
+		{
+		}
+	}
+}

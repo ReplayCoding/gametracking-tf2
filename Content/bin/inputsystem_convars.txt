@@ -1,0 +1,44 @@
+convar 
+flags: 
+default: 0
+
+
+convar joy_active
+flags: 
+default: -1
+Which of the connected joysticks / gamepads to use (-1 means first found)
+
+convar joy_axis_deadzone
+flags:  "archive"
+default: 0.2
+Dead zone near the zero point to not report movement.
+
+convar joy_axisbutton_threshold
+flags:  "archive"
+default: 0.3
+Analog axis range before a button press is registered.
+
+convar joy_gamecontroller_config
+flags:  "archive"
+default: 
+Game controller mapping (passed to SDL with SDL_HINT_GAMECONTROLLERCONFIG), can also be configured in Steam Big Picture mode.
+
+convar joy_xcontroller_found
+flags:  "hidden"
+default: 1
+Automatically set to 1 if an xcontroller has been detected.
+
+ccommand key_updatelayout
+flags: 
+Updates game keyboard layout to current windows keyboard setting.
+
+convar sc_disable
+flags:  "archive"
+default: 0
+Disables use of Steam Controller API
+
+convar sc_joystick_map
+flags:  "archive"
+default: 1
+How to map the analog joystick deadzone and extents 0 = Scaled Cross, 1 = Concentric Mapping to Square.
+

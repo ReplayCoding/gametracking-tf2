@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_bagel_event/c576_0_279"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_invasion\2fort\saucer_reassembly"
+	"$phongexponenttexture" "models\props_invasion\props_alien\saucer_exponent"	
+	//"$selfillummask"  "models\props_invasion\props_alien\saucer_selfillum"
+	//"$selfillum" "1"	
+	
+
+    "$phong" "1"
+  // "$phongexponent" "100"
+    "$phongboost" "3"    
+    //"$lightwarptexture" "models/props_vehicles/pickup_lightwarp"
+    "$phongfresnelranges"    "[1 1.5 1]"
+	"$basemapalphaphongmask" "1"
+	"$PhongAlbedoTint" "1"
+	
+	"$phongtint" "[0.3 0.7 0.7]"
+	
+	/*
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "0.3"
+	"$envmapsaturation" "1"
+	"$envmaptint" "[1 1 1]"
+	*/
+}

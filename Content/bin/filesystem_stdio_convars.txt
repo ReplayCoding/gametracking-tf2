@@ -1,0 +1,95 @@
+convar 
+flags: 
+default: 0
+
+
+convar async_allow_held_files
+flags: 
+default: 1
+Allow AsyncBegin/EndRead()
+
+convar async_mode
+flags: 
+default: 0
+Set the async filesystem mode (0 = async, 1 = synchronous)
+
+ccommand async_resume
+flags: 
+
+
+convar async_simulate_delay
+flags: 
+default: 0
+Simulate a delay of up to a set msec per file operation
+
+ccommand async_suspend
+flags: 
+
+
+convar filesystem_buffer_size
+flags: 
+default: 0
+Size of per file buffers. 0 for none
+
+convar filesystem_max_stdio_read
+flags: 
+default: 16
+
+
+convar filesystem_native
+flags: 
+default: 1
+Use native FS or STDIO
+
+convar filesystem_report_buffered_io
+flags: 
+default: 0
+
+
+convar filesystem_unbuffered_io
+flags: 
+default: 1
+
+
+convar fs_monitor_read_from_pack
+flags: 
+default: 0
+0:Off, 1:Any, 2:Sync only
+
+convar fs_report_sync_opens
+flags: 
+default: 0
+0:Off, 1:Blocking only, 2:All
+
+convar fs_warning_mode
+flags: 
+default: 0
+0:Off, 1:Warn main thread, 2:Warn other threads
+
+ccommand loader_dump_table
+flags: 
+
+
+convar loader_spew_info
+flags: 
+default: 0
+0:Off, 1:Timing, 2:Completions, 3:Late Completions, 4:Purges, -1:All 
+
+convar loader_spew_info_ex
+flags: 
+default: 0
+(internal)
+
+convar lzma_persistent_buffer
+flags: 
+default: 0
+If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
+
+ccommand trackerlistallfiles
+flags: 
+TrackerListAllFiles
+
+ccommand trackerlistvpkfiles
+flags: 
+TrackerListVPKFiles
+

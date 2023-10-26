@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/LAZARUS_WATER001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_lazarus/c-140_144_-479"
+		"Proxies"
+		{
+		}
+	}
+}

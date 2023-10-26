@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/spookymap/cart/cart_goo_d"
+
+	"$selfillum" "1"
+
+	"$color2" "[0.09 4.45 3.45]"
+
+	"$selfillumtintmax" "{110 110 110}"
+	"$selfillumtintmin" "{95 95 95}"
+	"$translate" "[0.0 0.0]"
+
+	Proxies
+	{
+		Sine
+		{
+			resultVar $selfillumtint
+			sineperiod 4
+			sinemin $selfillumtintmin
+			sinemax $selfillumtintmax
+		}
+	}
+}

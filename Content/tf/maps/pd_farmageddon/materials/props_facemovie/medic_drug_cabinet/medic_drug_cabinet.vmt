@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/medic_drug_cabinet/medic_drug_cabinet"
+	"$surfaceprop"	"default"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[.5 1 2]"
+	
+//	$ambientocclusion" 1
+}

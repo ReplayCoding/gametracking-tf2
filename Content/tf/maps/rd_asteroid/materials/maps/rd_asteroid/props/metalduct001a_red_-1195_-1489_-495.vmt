@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PROPS/METALDUCT001A_RED.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/rd_asteroid/c-1195_-1489_-495"
+	}
+}

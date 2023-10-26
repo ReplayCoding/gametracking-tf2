@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GREEN_GLASS_TRANSLUCENT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c-982_-102_-47"
+	}
+}

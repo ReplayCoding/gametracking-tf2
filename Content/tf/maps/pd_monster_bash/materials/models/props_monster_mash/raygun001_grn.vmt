@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_monster_mash/raygun001_grn"
+	"$selfillum" 	1
+
+	"Proxies"
+	{
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	2
+			sinemin	 	0.5
+			sinemax		 3
+		}
+	}
+}

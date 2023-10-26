@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_5gorge/c-3648_-1488_-400"
+		"Proxies"
+		{
+		}
+	}
+}

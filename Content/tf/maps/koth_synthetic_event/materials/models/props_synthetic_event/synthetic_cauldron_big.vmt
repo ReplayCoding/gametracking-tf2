@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_synthetic_event/synthetic_cauldron"
+	"$bumpmap"	"models/props_synthetic_event/synthetic_cauldron_normal"
+	"$selfillum" 	1
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$detail" "overlays/detail004"
+	"$detailscale" "3.1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1.5"
+
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SCROLLING_SOLID_BRIGHT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_monster_bash/c5504_7040_-1763"
+		"Proxies"
+		{
+		}
+	}
+}

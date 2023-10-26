@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/plr_hightower_event/water/water_well_6119_9092_-212.vmt"
+	"insert"
+	{
+		"$waterdepth"		"30"
+	}
+}

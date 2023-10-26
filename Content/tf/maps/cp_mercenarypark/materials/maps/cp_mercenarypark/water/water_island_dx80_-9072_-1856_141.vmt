@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ISLAND_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_mercenarypark/c-9072_-1856_141"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "wood/barn_beam"
+	"$basetexturetransform"	"center .5 .5 scale .7 .7 rotate 90 translate 0 0"
+	"$detail"		"patterns/paint_dirt"
+	"$detailscale"	".8"
+	"$detailblendmode"		"2"
+	"$detailblendfactor"	"0.4"
+}

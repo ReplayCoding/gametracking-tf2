@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_frontier_final/c3756_-304_-9"
+	}
+}

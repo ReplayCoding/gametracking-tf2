@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c1423_-1069_92"
+		"Proxies"
+		{
+		}
+	}
+}

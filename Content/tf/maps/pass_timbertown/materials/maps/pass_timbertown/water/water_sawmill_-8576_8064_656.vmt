@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pass_timbertown/c-8576_8064_656"
+		"Proxies"
+		{
+		}
+	}
+}

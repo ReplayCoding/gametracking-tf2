@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_invasion\med_lab\chem_experiments"
+	
+	//$alphatest 1
+	//"$translucent"  1
+	//"$additive " 1
+	//$ignorez
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"
+	
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
+	"$basemapalphaphongmask" "1"
+
+
+	//"$envmap" "env_cubemap"
+	//"$envmapcontrast" "1"
+	//"$envmapsaturation" "1"
+	//"$envmaptint" "[0.1 0.1 0.2]"
+
+
+}

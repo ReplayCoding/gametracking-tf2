@@ -1,0 +1,24 @@
+convar 
+flags: 
+default: 0
+
+
+ccommand mat_texture_outline_fonts
+flags: 
+Outline fonts textures.
+
+convar panel_test_title_safe
+flags:  "cheat"
+default: 0
+Test vgui panel positioning with title safe indentation
+
+convar tf_debug_tabcontainer
+flags:  "hidden"
+default: 0
+Spew TabContainer dimensions.
+
+convar vgui_cache_res_files
+flags: 
+default: 1
+
+

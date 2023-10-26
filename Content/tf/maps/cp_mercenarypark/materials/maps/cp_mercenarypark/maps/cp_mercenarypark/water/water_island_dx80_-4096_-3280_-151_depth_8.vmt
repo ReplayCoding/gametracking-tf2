@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_mercenarypark/water/water_island_dx80_-4096_-3280_-151.vmt"
+	"insert"
+	{
+		"$waterdepth"		"8"
+	}
+}

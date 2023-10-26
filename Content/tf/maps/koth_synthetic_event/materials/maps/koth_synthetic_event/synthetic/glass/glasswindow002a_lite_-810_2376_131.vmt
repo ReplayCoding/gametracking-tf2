@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SYNTHETIC/GLASS/GLASSWINDOW002A_LITE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_synthetic_event/c-810_2376_131"
+	}
+}

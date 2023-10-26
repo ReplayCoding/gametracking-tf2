@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_farmageddon/kitchen_stove.vtf"	
+	"$bumpmap" "\models\effects\flat_normal"
+	"$phongexponenttexture"	"patterns/blank_white"
+	"$phongalbedotint"	"1"
+	"$phong" "1" 
+	"$phongexponent" "5"
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[1 3 9]" 
+}

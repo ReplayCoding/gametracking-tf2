@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/MEDIEVALGLASS001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_hasslecastle/c-616_-2664_760"
+	}
+}

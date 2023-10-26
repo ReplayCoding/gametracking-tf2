@@ -1,0 +1,126 @@
+convar 
+flags: 
+default: 0
+
+
+ccommand ccs_create_convars_from_hwconfig
+flags:  "cheat"
+Create convars from the current hardware config, useful for diffing purposes
+
+convar lzma_persistent_buffer
+flags: 
+default: 0
+If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
+
+convar mat_alphacoverage
+flags: 
+default: 1
+
+
+convar mat_autoload_glshaders
+flags: 
+default: 1
+
+
+convar mat_autosave_glshaders
+flags: 
+default: 1
+
+
+convar mat_debugalttab
+flags:  "cheat"
+default: 0
+
+
+convar mat_depthbias_shadowmap
+flags:  "developmentonly" "cheat"
+default: 20
+
+
+convar mat_disable_ps_patch
+flags: 
+default: 0
+
+
+convar mat_disablehwmorph
+flags: 
+default: 0
+Disables HW morphing for particular mods
+
+convar mat_fastclip
+flags:  "cheat"
+default: 0
+
+
+convar mat_force_ps_patch
+flags: 
+default: 0
+
+
+convar mat_forcedynamic
+flags:  "cheat"
+default: 0
+
+
+convar mat_frame_sync_enable
+flags:  "cheat"
+default: 1
+
+
+convar mat_frame_sync_force_texture
+flags:  "cheat"
+default: 0
+Force frame syncing to lock a managed texture.
+
+convar mat_hdr_level
+flags:  "archive"
+default: 2
+
+
+convar mat_remoteshadercompile
+flags:  "cheat"
+default: 127.0.0.1
+
+
+ccommand mat_shadercount
+flags: 
+display count of all shaders and reset that count
+
+convar mat_slopescaledepthbias_shadowmap
+flags:  "cheat"
+default: 16
+
+
+ccommand mat_spewvertexandpixelshaders
+flags: 
+Print all vertex and pixel shaders currently loaded to the console
+
+convar mat_texture_limit
+flags:  "never_as_string"
+default: -1
+If this value is not -1, the material system will limit the amount of texture memory it uses in a frame. Useful for identifying performance cliffs. The value is in kilobytes.
+
+ccommand mem_dumpvballocs
+flags:  "cheat"
+Dump VB memory allocation stats.
+
+convar r_pix_recordframes
+flags: 
+default: 0
+
+
+convar r_pix_start
+flags: 
+default: 0
+
+
+convar r_pixelfog
+flags: 
+default: 1
+
+
+convar r_shader_srgb
+flags: 
+default: 0
+-1 = use hardware caps. 0 = use hardware srgb. 1 = use shader srgb(software lookup)
+

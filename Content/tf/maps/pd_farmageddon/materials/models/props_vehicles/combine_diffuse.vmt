@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_vehicles/combine_diffuse"
+
+	"$selfillum"		"1"
+	"$selfillumtint"		"[2 4 0]"
+	"$selfillummask"		"models/props_vehicles/combine_glow"
+
+	"$detail"			"overlays/detail001"
+	"$detailscale"		"3.5"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		".8"
+}

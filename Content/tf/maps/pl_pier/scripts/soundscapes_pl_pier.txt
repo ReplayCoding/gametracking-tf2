@@ -1,0 +1,147 @@
+"Pier.Shoreline"
+{
+	"dsp"	"1"
+
+	"playrandom"
+	{
+		"volume"	"0.45,0.65"
+		"pitch"		"90,110"
+		"time"		"6.0, 10.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/distant_wave1.wav"
+			"wave"	"ambient/water/distant_wave2.wav"
+			"wave"	"ambient/water/distant_wave3.wav"
+		}
+	}
+		"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,110"
+		"time"		"5.0, 7.0"
+		"rndwave"
+		{
+			"wave"	"ambient/water/wave1.wav"
+			"wave"	"ambient/water/wave2.wav"
+			"wave"	"ambient/water/wave3.wav"
+			"wave"	"ambient/water/wave4.wav"
+			"wave"	"ambient/water/wave5.wav"
+			"wave"	"ambient/water/wave6.wav"
+		}
+	}
+}
+
+"Pier.Town"
+	{
+		"dsp"	"1"
+		"dsp_volume" "1.0"
+		"playrandom"
+		{
+			"volume"	"0.3,0.5"
+			"pitch"		"80,100"
+			"time"		"6.0,10.0"
+			"rndwave"
+			{
+				"wave"	"ambient/water/distant_wave1.wav"
+				"wave"	"ambient/water/distant_wave2.wav"
+				"wave"	"ambient/water/distant_wave3.wav"
+			}
+		}
+		"playsoundscape"
+		{
+			"name"		"Pier.TownInside"
+			"volume"	"0.5"
+		}	
+		
+	}
+
+"Pier.TownInside"
+{
+	"playrandom"
+	{
+		"time"		"2,7"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel" "SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"  "ambient/materials/bump1.wav"
+			"wave"  "ambient/materials/shuffle1.wav"
+			"wave"  "ambient/materials/squeeker2.wav"
+			"wave"  "ambient/materials/squeekyfloor1.wav"
+			"wave"  "ambient/materials/squeekyfloor2.wav"
+			"wave"  "ambient/materials/dinnerplates1.wav"
+			"wave"  "ambient/materials/dinnerplates2.wav"
+			"wave"  "ambient/materials/dinnerplates3.wav"
+			"wave"  "ambient/materials/dinnerplates4.wav"
+			"wave"  "ambient/materials/dinnerplates5.wav"
+			"wave"  "ambient/materials/flush1.wav"
+			"wave"  "ambient/materials/flush2.wav"
+			"wave"  "ambient/materials/footsteps_wood1.wav"
+			"wave"  "ambient/materials/footsteps_wood2.wav"
+			"wave"  "ambient/materials/rustypipes1.wav"
+			"wave"  "ambient/materials/rustypipes2.wav"
+			"wave"  "ambient/materials/rustypipes3.wav"
+		}
+	}
+}
+
+"Pier.BluBoatHouse"
+	{
+		"dsp" "1"
+		"playlooping"
+		{
+			"volume"	"0.5"
+			"wave"		"ambient/atmosphere/cargo_hold2.wav"
+			"pitch"		"100"
+		}
+			"playrandom"
+		{
+			"volume"	"0.3,0.5"
+			"pitch"		"90,110"
+			"time"		"6.0, 10.0"
+			"rndwave"
+			{
+				"wave"	"ambient/water/distant_wave1.wav"
+				"wave"	"ambient/water/distant_wave2.wav"
+				"wave"	"ambient/water/distant_wave3.wav"
+			}
+		}
+	}
+
+
+"Pier.PierInside"
+	{
+
+		"dsp"	"1"
+
+		"playrandom"
+		{
+			"time"		"9,16"
+			"volume"	"0.2,0.35"
+			"pitch"		"95,105"
+			"soundlevel"	"SNDLVL_140dB"
+			"position"	"random"
+			"rndwave"
+			{
+				"wave"	"ambient/materials/wood_creak1.wav"
+				"wave"	"ambient/materials/wood_creak2.wav"
+				"wave"	"ambient/materials/wood_creak3.wav"
+				"wave"	"ambient/materials/wood_creak4.wav"
+				"wave"	"ambient/materials/wood_creak5.wav"
+				"wave"	"ambient/materials/wood_creak6.wav"
+				"wave"	"ambient/wind/wind_snippet1.wav"
+				"wave"	"ambient/wind/wind_snippet2.wav"
+			}
+		}
+
+		"playsoundscape"
+		{
+			"name"	"Pier.Shoreline"
+			"volume" "0.4"
+		}
+	}
+	
+
+

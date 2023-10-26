@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_monster_bash/c-3232_-288_-160"
+		"Proxies"
+		{
+		}
+	}
+}

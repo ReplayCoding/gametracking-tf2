@@ -1,0 +1,14 @@
+"Refract"
+{
+	"$normalmap" "models\props_invasion\med_lab\med_curtain_normal"
+	"$dudvmap" "water\dx80_tfwater001_dudv.vtf"
+	//"$dudvmap" "Models/effects/fisheyelens_dudv"
+	
+	"$bluramount" 5
+ 	"$refractamount" "0.2"
+	"$REFRACTTINT" "{230 240 255}"
+	"$scale" "[0 .1 1]"
+
+ 	"$model" 1
+	"$nodecal" 1
+}

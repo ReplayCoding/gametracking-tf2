@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DUNGEON_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_monster_bash/c0_0_-14127"
+		"Proxies"
+		{
+		}
+	}
+}

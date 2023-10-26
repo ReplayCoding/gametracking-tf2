@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/wetmudground003"
+	"$basetexture2" "Nature/citygrass004"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/wetmudground001_height-ssbump"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump_env"
+                "$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"%tooltexture" "Nature/blendwetmudground017_tooltexture"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"%detailtype" "tf_forest_grass"
+
+	"%keywords" "tf, frontline, urban"
+}

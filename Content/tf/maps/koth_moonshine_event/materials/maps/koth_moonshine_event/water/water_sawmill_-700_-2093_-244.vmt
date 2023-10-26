@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_moonshine_event/c-700_-2093_-244"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_monster_mash/mm_mid_platform/mm_platform"
+//	"$bumpmap" "models/props_monster_mash//mm_mid_platform/mm_platform_normal"
+//	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".4"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+}

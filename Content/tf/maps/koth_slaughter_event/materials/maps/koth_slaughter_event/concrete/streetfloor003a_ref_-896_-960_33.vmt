@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/STREETFLOOR003A_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c-896_-960_33"
+	}
+}

@@ -1,0 +1,197 @@
+convar 
+flags: 
+default: 0
+
+
+convar dxa_nullrefresh_capslock
+flags: 
+default: 0
+
+
+convar gl_batch_tex_creates
+flags: 
+default: 0
+
+
+convar gl_batch_tex_destroys
+flags: 
+default: 0
+
+
+convar gl_batch_vis
+flags: 
+default: 0
+
+
+convar gl_blitmode
+flags: 
+default: 1
+
+
+convar gl_bufmode
+flags: 
+default: 1
+
+
+convar gl_can_query_fast
+flags: 
+default: 0
+
+
+convar gl_can_resolve_flipped
+flags: 
+default: 0
+
+
+convar gl_cannot_resolve_flipped
+flags: 
+default: 0
+
+
+convar gl_debug_output
+flags: 
+default: 1
+
+
+ccommand gl_dump_stats
+flags: 
+
+
+convar gl_enabletexsubimage
+flags: 
+default: 1
+
+
+convar gl_flushpaircache
+flags: 
+default: 0
+
+
+convar gl_magnify_resolve_mode
+flags: 
+default: 2
+
+
+convar gl_minify_resolve_mode
+flags: 
+default: 1
+
+
+convar gl_minimize_all_tex
+flags: 
+default: 1
+
+
+convar gl_minimize_rt_tex
+flags: 
+default: 0
+
+
+convar gl_minimize_tex_log
+flags: 
+default: 0
+
+
+convar gl_mtglflush_at_tof
+flags: 
+default: 0
+
+
+convar gl_nullqueries
+flags: 
+default: 0
+
+
+convar gl_paircache_rows_lg2
+flags: 
+default: 10
+
+
+convar gl_paircache_ways_lg2
+flags: 
+default: 5
+
+
+convar gl_paircachestats
+flags: 
+default: 0
+
+
+ccommand gl_persistent_buffer_max_offset
+flags: 
+
+
+convar gl_pow2_tempmem
+flags: 
+default: 0
+If set, use power-of-two allocations for temporary texture memory during uploads. May help with fragmentation on certain systems caused by heavy churn of large allocations.
+
+convar gl_radar7954721_workaround_all
+flags: 
+default: 0
+
+
+convar gl_radar7954721_workaround_maskval
+flags: 
+default: 0
+
+
+convar gl_radar7954721_workaround_mixed
+flags: 
+default: 1
+
+
+convar gl_rt_forcergba
+flags: 
+default: 1
+
+
+ccommand gl_shader_compile_time_dump
+flags: 
+Dump  stats shader compile time.
+
+convar gl_shaderpair_cachelog
+flags: 
+default: 0
+
+
+convar gl_telemetry_gpu
+flags: 
+default: 0
+
+
+convar gl_telemetry_gpu_pipeline_flushing
+flags: 
+default: 0
+
+
+convar gl_texlayoutstats
+flags: 
+default: 0
+
+
+convar gl_texmsaalog
+flags: 
+default: 0
+
+
+convar glm_cacheprograms
+flags:  "developmentonly"
+default: 0
+
+
+convar glm_literefresh_capslock
+flags: 
+default: 0
+
+
+convar glm_nullrefresh_capslock
+flags: 
+default: 0
+
+
+convar mat_vsync
+flags: 
+default: 0
+Force sync to vertical retrace
+

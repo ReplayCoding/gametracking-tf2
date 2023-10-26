@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MOON/MOON_WALLPANELS03_ENVCUBEMAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_breadspace/c1360_2832_-592"
+	}
+}

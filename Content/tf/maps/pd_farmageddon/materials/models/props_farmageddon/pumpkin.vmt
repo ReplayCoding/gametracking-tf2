@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_farmageddon/pumpkin"
+
+	"$nodecal"	"1"
+
+	"$detail"		"models/props_farmageddon/pumpkin_glow"
+	"$detailscale"		"1"
+	"$detailblendfactor"	"1"
+	"$detailblendmode"	"5"
+
+	"$phong"			"1"
+	"$phongexponent"		"3"
+
+	"$phongboost"			"1"	
+	"$lightwarptexture"			"models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"		"[2 3 5]"
+	"$basemapalphaphongmask"	"1"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"	"2"
+	"$rimlightboost"		"1"
+
+	"Proxies"
+	{
+ 		"Sine"
+		{
+			"sinemax"	"1"
+			"sinemin"		".8"
+			"sineperiod"	"2.3"
+			"resultvar"	"$detailblendfactor"
+		}
+	}
+}

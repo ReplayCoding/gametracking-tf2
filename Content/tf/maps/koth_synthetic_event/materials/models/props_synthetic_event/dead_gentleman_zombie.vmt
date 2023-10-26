@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_synthetic_event/dead_gentleman_zombie"
+//	"$baseTexture" "models/props_synthetic_event/dead_gentleman_pickled"
+//	"$baseTexture" "models/props_synthetic_event/dead_gentleman_dry"
+	"$basemapalphaphongmask" "1"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" "50"
+	"$phongfresnelranges" "[.6 2 5]"
+}

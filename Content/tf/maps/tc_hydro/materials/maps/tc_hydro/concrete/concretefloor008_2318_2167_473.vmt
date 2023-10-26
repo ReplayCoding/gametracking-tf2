@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/tc_hydro/c2318_2167_473"
+	}
+}

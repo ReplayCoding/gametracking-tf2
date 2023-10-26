@@ -1,0 +1,17 @@
+Pot.Boil
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NONE
+	wave		bagel_event/cauldron_boil.wav
+}
+
+Pot.Idle
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_80dB
+	wave		ambient/levels/canals/toxic_slime_loop1.wav
+}

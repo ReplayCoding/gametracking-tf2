@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/tc_hydro/c2429_-2005_121"
+		"Proxies"
+		{
+		}
+	}
+}

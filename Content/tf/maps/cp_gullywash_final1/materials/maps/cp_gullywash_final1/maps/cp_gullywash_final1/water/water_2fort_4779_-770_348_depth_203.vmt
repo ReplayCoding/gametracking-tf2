@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_gullywash_final1/water/water_2fort_4779_-770_348.vmt"
+	"insert"
+	{
+		"$waterdepth"		"203"
+	}
+}

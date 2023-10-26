@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/sd_doomsday/water/water_2fort_-1040_4320_72.vmt"
+	"insert"
+	{
+		"$waterdepth"		"92"
+	}
+}

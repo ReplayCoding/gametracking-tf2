@@ -1,0 +1,17 @@
+"Byre.UFOHum"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"90"
+	"soundlevel"	"SNDLVL_100dB"
+	"wave"		")ambient/machines/thumper_amb.wav"
+}
+
+"Byre.LaserHum"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".5"
+	"pitch"		"60"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")ambient/energy/force_field_loop1.wav"
+}

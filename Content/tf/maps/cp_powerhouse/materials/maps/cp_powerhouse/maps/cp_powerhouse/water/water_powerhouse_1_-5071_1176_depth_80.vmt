@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_powerhouse/water/water_powerhouse_1_-5071_1176.vmt"
+	"insert"
+	{
+		"$waterdepth"		"80"
+	}
+}

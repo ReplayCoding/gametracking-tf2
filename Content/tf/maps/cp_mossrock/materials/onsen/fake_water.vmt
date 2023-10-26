@@ -1,0 +1,28 @@
+"Refract"
+{
+	"$RefractTexture" _rt_WaterRefraction
+//	"$ReflectTexture" _rt_WaterReflection
+	"$normalmap" "water\tfwater001_normal"
+	"$REFRACTTINT" "{74 154 213}"
+ 	"$refractamount" 0.1
+// 	"$reflectamount" 0.1
+//	"$fresnelpower" 2
+	 "$bluramount" 1
+	"$scale" "[2 2]"
+ 	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 25.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumpTransform"
+			"texturescrollrate" 0.2
+			"texturescrollangle" 90.00
+		}
+	}
+}

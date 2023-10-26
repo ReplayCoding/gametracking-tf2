@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_slasher/water/water_underworld2_624_4832_-111.vmt"
+	"insert"
+	{
+		"$waterdepth"		"240"
+	}
+}

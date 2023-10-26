@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/GOLD_COINS001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c3408_776_289"
+	}
+}

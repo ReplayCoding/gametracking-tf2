@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_snowycoast/water/water_well_128_-3712_-192.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

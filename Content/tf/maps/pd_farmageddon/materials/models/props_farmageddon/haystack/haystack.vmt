@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_farmageddon/haystack/haystack"
+	"$bumpmap"	"models/props_farmageddon/haystack/haystack_normal"
+
+	"$surfaceprop" "grass"
+	"$nodecal"	"1"
+
+	"$halflambert" "1"
+
+	"$detail"			"overlays/detail001"
+	"$detailscale"		"3.0135"
+	"$detailblendmode"	"0"
+	"$detailblendfactor"	"1"
+
+}

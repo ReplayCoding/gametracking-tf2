@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_synthetic_event/synthetic_lab_equipment.vtf"
+	"$basemapalphaphongmask" "1"
+	
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "50"
+	"$phongfresnelranges" "[.6 2 5]"
+}

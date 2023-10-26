@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props_eotl/cranenet"
+	"$bumpmap" "models/player/shared/shared_normal"
+	"$nocull" "1"
+
+	"$translucent" "1"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+
+}

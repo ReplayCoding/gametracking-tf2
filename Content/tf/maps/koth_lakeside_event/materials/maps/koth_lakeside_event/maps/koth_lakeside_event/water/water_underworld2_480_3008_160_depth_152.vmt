@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_lakeside_event/water/water_underworld2_480_3008_160.vmt"
+	"insert"
+	{
+		"$waterdepth"		"152"
+	}
+}

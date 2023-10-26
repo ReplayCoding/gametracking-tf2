@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_nightfall_final/c864_11328_-128"
+		"Proxies"
+		{
+		}
+	}
+}

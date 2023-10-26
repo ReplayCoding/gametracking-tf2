@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/FARMAGEDDON/ROOT_DIRT_WALL_BLEND.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_farmageddon/c832_-832_-5504"
+	}
+}

@@ -1,0 +1,19 @@
+"Lightmappedgeneric"
+{
+	"$baseTexture" "spookymap/clouds_spooky_animated"
+	//"$cloudalphatexture" "spookymap/cloudalpha"
+	//"$cloudscale" "[ 2.00 2.00 2.00 ]"
+	//"$maskscale" "[ 1 1 1 ]"
+	//"%tooltexture" "spookymap/clouds_spooky_animated"
+$translucent 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.01
+			"texturescrollangle" 0.05
+		}
+	}
+}
+

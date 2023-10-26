@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_snakewater_final1/water/water_sawmill_-675_2321_-112.vmt"
+	"insert"
+	{
+		"$waterdepth"		"72"
+	}
+}

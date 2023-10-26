@@ -1,0 +1,37 @@
+convar 
+flags: 
+default: 0
+
+
+convar vr_debug_nochromatic
+flags: 
+default: 0
+
+
+convar vr_debug_nodistortion
+flags: 
+default: 0
+
+
+convar vr_distortion_enable
+flags: 
+default: 1
+
+
+ccommand vr_refresh_distortion_texture
+flags: 
+
+
+ccommand vr_reset_home_pos
+flags: 
+Sets the current HMD position as the zero point
+
+ccommand vr_track_reinit
+flags: 
+Reinitializes HMD tracking
+
+convar vr_use_offscreen_render_target
+flags: 
+default: 0
+Experimental: Use larger offscreen render target for pre-distorted scene in VR
+

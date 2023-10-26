@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_PIER2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_pier/c-3184_-176_384"
+		"Proxies"
+		{
+		}
+	}
+}

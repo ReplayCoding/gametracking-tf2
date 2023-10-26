@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_frontier_final/c1345_-4283_118"
+		"Proxies"
+		{
+		}
+	}
+}

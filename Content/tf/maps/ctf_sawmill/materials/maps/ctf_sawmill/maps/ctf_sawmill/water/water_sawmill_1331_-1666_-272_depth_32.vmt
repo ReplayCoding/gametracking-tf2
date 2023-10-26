@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_sawmill/water/water_sawmill_1331_-1666_-272.vmt"
+	"insert"
+	{
+		"$waterdepth"		"32"
+	}
+}

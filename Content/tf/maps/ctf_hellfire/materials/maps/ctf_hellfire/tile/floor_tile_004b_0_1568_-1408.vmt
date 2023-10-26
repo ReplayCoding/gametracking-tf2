@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_hellfire/c0_1568_-1408"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/HALLWAY_SHRINK002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slaughter_event/c832_1832_-1471"
+	}
+}

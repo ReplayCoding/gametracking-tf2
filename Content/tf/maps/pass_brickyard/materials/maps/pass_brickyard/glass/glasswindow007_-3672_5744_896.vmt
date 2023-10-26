@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW007.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pass_brickyard/c-3672_5744_896"
+	}
+}

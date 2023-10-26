@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "farmageddon/skybox_harvest_grass"
+	"$basetexture2" "harvest/harvest_grass"
+
+	"%tooltexture" "harvest/harvest_grass"
+
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+
+	"%keywords" "tf"
+
+	"$detail" "overlays/detail004"
+	"$detailscale" "0.1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2"
+}

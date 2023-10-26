@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_mossrock/c1452_-783_-62"
+		"Proxies"
+		{
+		}
+	}
+}

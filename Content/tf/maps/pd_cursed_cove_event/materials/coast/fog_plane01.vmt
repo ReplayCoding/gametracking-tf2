@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "coast/fog_plane01"
+	$translucent 1
+	$additive 1
+$nocull 1
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.07
+			"texturescrollangle" 0
+		}
+	}
+}

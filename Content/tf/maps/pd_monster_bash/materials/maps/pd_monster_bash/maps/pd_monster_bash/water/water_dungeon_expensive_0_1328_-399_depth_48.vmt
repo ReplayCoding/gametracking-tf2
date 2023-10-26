@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_monster_bash/water/water_dungeon_expensive_0_1328_-399.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

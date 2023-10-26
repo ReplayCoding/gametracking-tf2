@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+	$basetexture "concrete/concretefloor007"
+	$bumpmap "concrete/concretefloor007_height-ssbump"
+
+	$basetexture2 "concrete/concretefloor007_dark"
+
+	$detail "overlays/detail001"
+	$detailscale 1.9
+
+	$blendmodulatetexture "concrete/concretefloor007_blendmask"
+
+	%keywords "tf"
+}

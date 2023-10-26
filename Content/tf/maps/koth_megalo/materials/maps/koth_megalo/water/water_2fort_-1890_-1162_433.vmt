@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_megalo/c-1890_-1162_433"
+		"Proxies"
+		{
+		}
+	}
+}
