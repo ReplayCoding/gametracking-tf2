@@ -1794,6 +1794,11 @@ flags:
 default: 0
 Attempt to compress out of band voice payloads (360 only).
 
+convar net_disconnect_reason
+flags: 
+default: 0
+Show client disconnect reason.
+
 convar net_drawslider
 flags: 
 default: 0
@@ -3600,6 +3605,11 @@ convar sv_netspike_sendtime_ms
 flags: 
 default: 0
 If nonzero, the server will dump a netspike trace if it takes more than N ms to prepare a snapshot to a single client.  This feature does take some CPU cycles, so it should be left off when not in use.
+
+convar sv_no_name_changes
+flags: 
+default: 0
+
 
 convar sv_parallel_packentities
 flags: 

@@ -1612,9 +1612,14 @@ flags:  "archive"
 default: 0
 When in tournament mode, use the advanced tournament spectator UI.
 
+convar cl_vote_non_input_alpha
+flags: 
+default: 150
+
+
 convar cl_vote_ui_active_after_voting
 flags: 
-default: 0
+default: 1
 
 
 convar cl_vote_ui_show_notification

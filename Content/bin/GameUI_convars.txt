@@ -7,11 +7,6 @@ ccommand bench_showstatsdialog
 flags:  "cheat"
 Shows a dialog displaying the most recent benchmark results.
 
-convar binds_per_command
-flags: 
-default: 1
-
-
 convar commentary_firstrun
 flags:  "archive"
 default: 0
@@ -84,29 +79,4 @@ convar vgui_message_dialog_modal
 flags:  "archive"
 default: 1
 
-
-convar x360_audio_english
-flags: 
-default: 0
-Keeps track of whether we're forcing english in a localized language.
-
-convar x360_resolution_height
-flags: 
-default: 480
-This is only used for reference. Changing this value does nothing
-
-convar x360_resolution_interlaced
-flags: 
-default: 0
-This is only used for reference. Changing this value does nothing
-
-convar x360_resolution_widescreen_mode
-flags: 
-default: 0
-This is only used for reference. Changing this value does nothing
-
-convar x360_resolution_width
-flags: 
-default: 640
-This is only used for reference. Changing this value does nothing
 

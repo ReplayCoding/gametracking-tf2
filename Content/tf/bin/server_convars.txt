@@ -3701,6 +3701,11 @@ flags:
 default: 0
 Allow spectators to vote?
 
+convar sv_vote_bots_allowed
+flags: 
+default: 0
+Allow bots to vote or not.
+
 convar sv_vote_command_delay
 flags:  "developmentonly"
 default: 2
@@ -3896,8 +3901,13 @@ flags:  "notify"
 default: 0.6
 The minimum ratio of eligible players needed to pass a vote.  Min 0.1, Max 1.0.
 
+convar sv_vote_timer_allow_early_finish
+flags: 
+default: 1
+If all votes are in, whether to end the vote (for debugging)
+
 convar sv_vote_timer_duration
-flags:  "developmentonly"
+flags: 
 default: 15
 How long to allow voting on an issue
 

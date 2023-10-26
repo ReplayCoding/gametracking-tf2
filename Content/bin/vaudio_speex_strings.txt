@@ -31,6 +31,8 @@ __bss
 __DATA
 __LINKEDIT
 @loader_path/vaudio_speex.dylib
+,b8}W?
+Vu#Jp
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
 /usr/lib/libiconv.2.dylib
@@ -428,7 +430,7 @@ __ZN18VoiceEncoder_Speex7ReleaseEv
 __ZN18VoiceEncoder_Speex11EncodeFrameEPKcPc
 __ZN18VoiceEncoder_Speex11DecodeFrameEPKcPc
 __ZN18VoiceEncoder_Speex10ResetStateEv
-__GLOBAL__sub_I_VoiceEncod.stdout.rel_tf_osx_builder.75219.GGpGaj.ii
+__GLOBAL__sub_I_VoiceEncod.stdout.rel_tf_osx_builder.93532.VdNrUN.ii
 __ZL18ENCODED_FRAME_SIZE
 __ZTS18VoiceEncoder_Speex
 __ZTS13IFrameEncoder
@@ -661,7 +663,7 @@ __ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE
 __ZN21CUtlCStringConversion14FindConversionEPKcPi
 __ZN18CUtlCharConversion14FindConversionEPKcPi
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.38279.064CuM.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90365.1luepP.ii
 __ZTS21CUtlCStringConversion
 __ZTS18CUtlCharConversion
 __ZTS19CUtlNoEscConversion
@@ -695,7 +697,7 @@ __ZN18VoiceEncoder_Speex7ReleaseEv
 __ZN18VoiceEncoder_Speex11EncodeFrameEPKcPc
 __ZN18VoiceEncoder_Speex11DecodeFrameEPKcPc
 __ZN18VoiceEncoder_Speex10ResetStateEv
-__GLOBAL__sub_I_VoiceEncod.stdout.rel_tf_osx_builder.75219.GGpGaj.ii
+__GLOBAL__sub_I_VoiceEncod.stdout.rel_tf_osx_builder.93532.VdNrUN.ii
 _sb_decode_lost
 _inner_prod
 _cheb_poly_eva
@@ -707,7 +709,7 @@ __ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE
 __ZN21CUtlCStringConversion14FindConversionEPKcPi
 __ZN18CUtlCharConversion14FindConversionEPKcPi
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.38279.064CuM.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90365.1luepP.ii
 __ZTS16VoiceCodec_Frame
 __ZTS11IVoiceCodec
 __ZL18ENCODED_FRAME_SIZE
