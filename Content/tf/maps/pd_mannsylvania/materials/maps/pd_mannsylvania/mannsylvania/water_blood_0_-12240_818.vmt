@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/MANNSYLVANIA/WATER_BLOOD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c0_-12240_818"
+		"Proxies"
+		{
+		}
+	}
+}

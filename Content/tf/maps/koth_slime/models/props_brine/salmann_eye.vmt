@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/salmann_eye"
+
+	"$detail"	"models/props_brine/salmann_eye_pupil"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+	"$detailscale"		"1"
+//	"$detailtexturetransform" "center .5 .5 scale .5 .5 rotate 0 translate 0 0"
+
+	"$nodecal" "1"
+
+//	"$envmap"             "models/player/shared/eye-reflection-cubemap-"
+
+//	"$lightwarptexture"		"models/props_brine/salmann_lightwarp"
+	"$lightwarptexture"		"models/props_brine/salmann_eye_warp"
+//	"$lightwarptexture"   "models/player/shared/eye_lightwarp"
+
+	"$phong"		"1"
+	"$phongexponent"		"70"
+	"$phongboost"		"7"
+//	"$phongwarptexture"  "models/weapons/v_bat\v_bat_phongwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+
+	"$basemapalphaphongmask"	"1"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	
+
+}

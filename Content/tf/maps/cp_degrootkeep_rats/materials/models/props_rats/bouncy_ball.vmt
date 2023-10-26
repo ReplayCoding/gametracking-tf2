@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_rats/bouncy_ball"
+	"$bumpmap" "models/effects/flat_normal" 
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "3"
+//	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$basemapalphaphongmask" "1"
+
+
+	"$nodecal"			"1"
+
+	"$rimlight"			"1"
+	"$rimlightboost"		"3"
+	"$rimlightexponent"		"20"								
+}

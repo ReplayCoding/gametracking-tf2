@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_mannsylvania/water/water_doublecross_0_-2688_-192.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

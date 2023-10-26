@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_mannsylvania/mannsylvania_portrait_02_01"
+	$surfaceprop Wood
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.20 0.20 0.20]"
+
+	$model 1
+}

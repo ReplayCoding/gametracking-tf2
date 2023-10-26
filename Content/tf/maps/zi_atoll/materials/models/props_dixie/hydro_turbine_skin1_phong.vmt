@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_dixie\hydro_turbine_skin1"  // <------change this
+
+	"$envmap" "cubemaps/cubemap_sheen001"
+	"$envmaptint" "[.15 .15 .15]"
+	"$normalmapalphaenvmapmask" "1"
+
+}

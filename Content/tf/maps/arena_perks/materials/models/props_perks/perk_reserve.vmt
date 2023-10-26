@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/props_perks/perk_reserve"
+	"$bumpmap"	"models/props_perks/perk_reserve_normal"
+	"$phong" "1"
+
+	"$phongexponenttexture" "models/props_perks/perk_exponent"
+	"$phongalbedotint" "1"
+
+	"$phongexponent" "14"
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongboost" "20"
+	"$bumpmapalphaphongmask"		"1"
+	//"$selfillum" "1"	
+
+	"$phongalbedotint" "1"
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "1"
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_spineyard/c2720_-256_672"
+	}
+}

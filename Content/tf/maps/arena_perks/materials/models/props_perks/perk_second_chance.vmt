@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_perks/perk_test"
+
+	"$phong" "1"
+	"$phongexponent" "24"
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongboost" "1"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+	"$glowcolor" "1"
+}
+

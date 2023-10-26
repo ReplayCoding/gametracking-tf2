@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/HEAVEN/WATER_FOUNTAIN_DARK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_spineyard/c896_960_288"
+		"Proxies"
+		{
+		}
+	}
+}

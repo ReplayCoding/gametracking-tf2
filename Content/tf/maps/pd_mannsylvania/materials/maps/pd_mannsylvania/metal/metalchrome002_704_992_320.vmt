@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c704_992_320"
+	}
+}

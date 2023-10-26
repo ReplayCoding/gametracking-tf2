@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOWUNI001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c0_-11824_1152"
+	}
+}

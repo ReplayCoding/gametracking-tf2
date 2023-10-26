@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/ASYLUM/ROCKWALL014_RAIN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-5568_384_-352"
+	}
+}

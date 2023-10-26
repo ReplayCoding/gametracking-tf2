@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_atoll/c1608_-472_208"
+	}
+}

@@ -1,0 +1,18 @@
+"ColorCorrection"
+{
+	"$WEIGHT_DEFAULT" "0.0"
+	"$WEIGHT0" "1.0"
+	"$WEIGHT1" "1.0"
+	"$WEIGHT2" "1.0"
+	"$WEIGHT3" "1.0"
+	"$NUM_LOOKUPS" "1"
+	"$USE_FB_TEXTURE" "1"
+	// Set USE_FB_TEXTURE to 0 if you want to use this
+	// $INPUT_TEXTURE "test/test123mat"
+	
+	// For DirectX 8 users, this will just make the material display nothing
+	"<dx90"
+	{
+		"$no_draw" "1"
+	}
+}

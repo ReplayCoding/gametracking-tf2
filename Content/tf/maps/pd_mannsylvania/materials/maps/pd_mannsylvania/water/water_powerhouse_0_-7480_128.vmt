@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_POWERHOUSE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c0_-7480_128"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,1013 @@
+"Portal.Open"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\portal_open_01.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_02.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_03.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_04.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_05.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_06.mp3"
+		"wave"	"mannsylvania\Dracula\portal_open_07.mp3"
+	}
+}
+
+"Portal.Close"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\portal_close_01.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_02.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_03.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_04.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_05.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_06.mp3"
+		"wave"	"mannsylvania\Dracula\portal_close_07.mp3"
+	}
+}
+
+"Inside.Castle"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\castle_01.mp3"
+		"wave"	"mannsylvania\Dracula\castle_02.mp3"
+		"wave"	"mannsylvania\Dracula\castle_03.mp3"
+		"wave"	"mannsylvania\Dracula\castle_04.mp3"
+		"wave"	"mannsylvania\Dracula\castle_05.mp3"
+		"wave"	"mannsylvania\Dracula\castle_06.mp3"
+		"wave"	"mannsylvania\Dracula\castle_07.mp3"
+		"wave"	"mannsylvania\Dracula\castle_08.mp3"
+		"wave"	"mannsylvania\Dracula\castle_09.mp3"
+		"wave"	"mannsylvania\Dracula\castle_10.mp3"
+		"wave"	"mannsylvania\Dracula\castle_11.mp3"
+		"wave"	"mannsylvania\Dracula\castle_12.mp3"
+		"wave"	"mannsylvania\Dracula\castle_13.mp3"
+		"wave"	"mannsylvania\Dracula\castle_14.mp3"
+		"wave"	"mannsylvania\Dracula\castle_15.mp3"
+		"wave"	"mannsylvania\Dracula\castle_16.mp3"
+	}
+}
+
+"Game.Start"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\game_start_01.mp3"
+		"wave"	"mannsylvania\Dracula\game_start_02.mp3"
+		"wave"	"mannsylvania\Dracula\game_start_03.mp3"
+		"wave"	"mannsylvania\Dracula\game_start_04.mp3"
+		"wave"	"mannsylvania\Dracula\game_start_05.mp3"
+	}
+}
+
+"Game.Intro"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\game_intro_01.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_02.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_03.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_04.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_05.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_06.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_07.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_08.mp3"
+		"wave"	"mannsylvania\Dracula\game_intro_09.mp3"
+	}
+}
+
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\team_lost_01.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_02.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_03.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_04.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_05.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_06.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_07.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_08.mp3"
+		"wave"	"mannsylvania\Dracula\team_lost_09.mp3"
+	}
+	
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+		"wave"	"mannsylvania\Dracula\team_won_01.mp3"
+		"wave"	"mannsylvania\Dracula\team_won_02.mp3"
+		"wave"	"mannsylvania\Dracula\team_won_03.mp3"
+		"wave"	"mannsylvania\Dracula\team_won_04.mp3"
+		"wave"	"mannsylvania\Dracula\team_won_05.mp3"
+		"wave"	"mannsylvania\Dracula\team_won_06.mp3"
+	}
+	
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_10_seconds_01.mp3"
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_1_seconds_01.mp3"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_2_seconds_01.mp3"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_3_seconds_01.mp3"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_4_seconds_01.mp3"
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\mission_begins_5_seconds_01.mp3"
+}
+
+"Announcer.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\random_01.mp3"
+}
+
+"Announcer.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\random_01.mp3"
+}
+
+"Announcer.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"mannsylvania\Dracula\random_01.mp3"
+}
+
+"Soldier.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	
+	"rndwave"		
+	{
+		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
+		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+	}
+}
+
+"Soldier.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	
+	"rndwave"		
+	{
+		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
+		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+	}
+}
+
+"Soldier.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	
+	"rndwave"		
+	{
+		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
+		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+	}
+}
+
+"Scout.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"	"vo/scout_sf12_badmagic05.mp3"
+		"wave"	"vo/scout_sf12_badmagic06.mp3"
+	}
+}
+
+"Scout.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"	"vo/scout_sf12_badmagic05.mp3"
+		"wave"	"vo/scout_sf12_badmagic06.mp3"
+	}
+}
+
+"Scout.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"	"vo/scout_sf12_badmagic05.mp3"
+		"wave"	"vo/scout_sf12_badmagic06.mp3"
+	}
+}
+
+"Scout.AutoCappedControlPoint04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"	"vo/scout_sf12_badmagic05.mp3"
+		"wave"	"vo/scout_sf12_badmagic06.mp3"
+	}
+}
+"Medic.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/medic_sf12_badmagic05.mp3"
+		"wave"		"vo/medic_sf12_badmagic06.mp3"
+		"wave"		"vo/medic_sf12_badmagic07.mp3"
+		"wave"		"vo/medic_sf12_badmagic08.mp3"
+		"wave"		"vo/medic_sf12_badmagic09.mp3"
+		"wave"		"vo/medic_sf12_badmagic12.mp3"
+	}
+}
+
+"Medic.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/medic_sf12_badmagic05.mp3"
+		"wave"		"vo/medic_sf12_badmagic06.mp3"
+		"wave"		"vo/medic_sf12_badmagic07.mp3"
+		"wave"		"vo/medic_sf12_badmagic08.mp3"
+		"wave"		"vo/medic_sf12_badmagic09.mp3"
+		"wave"		"vo/medic_sf12_badmagic12.mp3"
+	}
+}
+
+"Medic.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/medic_sf12_badmagic05.mp3"
+		"wave"		"vo/medic_sf12_badmagic06.mp3"
+		"wave"		"vo/medic_sf12_badmagic07.mp3"
+		"wave"		"vo/medic_sf12_badmagic08.mp3"
+		"wave"		"vo/medic_sf12_badmagic09.mp3"
+		"wave"		"vo/medic_sf12_badmagic12.mp3"
+	}
+}
+
+"Demoman.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+}
+
+"Demoman.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+}
+
+"Demoman.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+}
+
+"Heavy.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/heavy_sf12_badmagic06.mp3"
+		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+	}
+}
+
+"Heavy.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/heavy_sf12_badmagic06.mp3"
+		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+	}
+}
+
+"Heavy.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"		
+	{
+		"wave"		"vo/heavy_sf12_badmagic06.mp3"
+		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+	}
+}
+
+"Engineer.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_influx_big01.mp3"
+}
+
+"Engineer.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_influx_big01.mp3"
+}
+
+"Engineer.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_influx_big01.mp3"
+}
+"Spy.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"		"vo/spy_sf12_goodmagic01.mp3"
+		"wave"		"vo/spy_sf12_goodmagic02.mp3"
+		"wave"		"vo/spy_sf12_goodmagic03.mp3"
+		"wave"		"vo/spy_sf12_goodmagic04.mp3"
+		"wave"		"vo/spy_sf12_goodmagic05.mp3"
+		"wave"		"vo/spy_sf12_goodmagic06.mp3"
+		"wave"		"vo/spy_sf12_goodmagic07.mp3"
+		"wave"		"vo/spy_sf12_goodmagic08.mp3"
+		"wave"		"vo/spy_sf12_goodmagic09.mp3"
+	}
+}
+
+"Spy.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"		"vo/spy_sf12_goodmagic01.mp3"
+		"wave"		"vo/spy_sf12_goodmagic02.mp3"
+		"wave"		"vo/spy_sf12_goodmagic03.mp3"
+		"wave"		"vo/spy_sf12_goodmagic04.mp3"
+		"wave"		"vo/spy_sf12_goodmagic05.mp3"
+		"wave"		"vo/spy_sf12_goodmagic06.mp3"
+		"wave"		"vo/spy_sf12_goodmagic07.mp3"
+		"wave"		"vo/spy_sf12_goodmagic08.mp3"
+		"wave"		"vo/spy_sf12_goodmagic09.mp3"
+	}
+}
+
+"Spy.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"		"vo/spy_sf12_goodmagic01.mp3"
+		"wave"		"vo/spy_sf12_goodmagic02.mp3"
+		"wave"		"vo/spy_sf12_goodmagic03.mp3"
+		"wave"		"vo/spy_sf12_goodmagic04.mp3"
+		"wave"		"vo/spy_sf12_goodmagic05.mp3"
+		"wave"		"vo/spy_sf12_goodmagic06.mp3"
+		"wave"		"vo/spy_sf12_goodmagic07.mp3"
+		"wave"		"vo/spy_sf12_goodmagic08.mp3"
+		"wave"		"vo/spy_sf12_goodmagic09.mp3"
+	}
+}
+"Pyro.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/pyro_sf13_influx_big01.mp3"
+}
+"Sniper.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_influx_big01.mp3"
+		"wave"			"vo/sniper_sf13_influx_big02.mp3"
+		"wave"			"vo/sniper_sf13_influx_big03.mp3"
+		"wave"			"vo/sniper_sf13_influx_big05.mp3"
+	}
+}
+
+"Sniper.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_influx_big01.mp3"
+		"wave"			"vo/sniper_sf13_influx_big02.mp3"
+		"wave"			"vo/sniper_sf13_influx_big03.mp3"
+		"wave"			"vo/sniper_sf13_influx_big05.mp3"
+	}
+}
+
+"Sniper.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_influx_big01.mp3"
+		"wave"			"vo/sniper_sf13_influx_big02.mp3"
+		"wave"			"vo/sniper_sf13_influx_big03.mp3"
+		"wave"			"vo/sniper_sf13_influx_big05.mp3"
+	}
+}
+"Demoman.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/demoman_sf13_midnight04.mp3"
+		"wave"			"vo/demoman_sf13_midnight05.mp3"
+		"wave"			"vo/demoman_sf13_midnight06.mp3"
+	}
+}
+
+"Demoman.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/demoman_sf13_midnight04.mp3"
+		"wave"			"vo/demoman_sf13_midnight05.mp3"
+		"wave"			"vo/demoman_sf13_midnight06.mp3"
+	}
+}
+
+"Demoman.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/demoman_sf13_midnight04.mp3"
+		"wave"			"vo/demoman_sf13_midnight05.mp3"
+		"wave"			"vo/demoman_sf13_midnight06.mp3"
+	}
+}
+"Engineer.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_midnight02.mp3"
+
+}
+
+"Engineer.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_midnight02.mp3"
+}
+
+"Engineer.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/engineer_sf13_midnight02.mp3"
+}
+"Heavy.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/heavy_sf12_attack02.mp3"
+		"wave"			"vo/heavy_sf12_attack03.mp3"
+	}
+}
+
+"Heavy.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/heavy_sf12_attack02.mp3"
+		"wave"			"vo/heavy_sf12_attack03.mp3"
+	}
+}
+
+"Heavy.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/heavy_sf12_attack02.mp3"
+		"wave"			"vo/heavy_sf12_attack03.mp3"
+	}
+}
+
+"Medic.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/medic_sf13_midnight06.mp3"
+		"wave"			"vo/meidc_sf12_midnight07.mp3"
+	}
+}
+
+"Medic.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/medic_sf13_midnight06.mp3"
+		"wave"			"vo/meidc_sf12_midnight07.mp3"
+	}
+}
+
+"Medic.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/medic_sf13_midnight06.mp3"
+		"wave"			"vo/meidc_sf12_midnight07.mp3"
+	}
+}
+
+"Scout.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/scout_sf13_midnight05.mp3"
+		"wave"			"vo/scout_sf13_midnight06.mp3"
+		"wave"			"vo/scout_sf13_midnight07.mp3"
+		"wave"			"vo/scout_sf13_midnight08.mp3"
+	}
+}
+
+"Scout.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/scout_sf13_midnight05.mp3"
+		"wave"			"vo/scout_sf13_midnight06.mp3"
+		"wave"			"vo/scout_sf13_midnight07.mp3"
+		"wave"			"vo/scout_sf13_midnight08.mp3"
+	}
+}
+
+"Scout.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/scout_sf13_midnight05.mp3"
+		"wave"			"vo/scout_sf13_midnight06.mp3"
+		"wave"			"vo/scout_sf13_midnight07.mp3"
+		"wave"			"vo/scout_sf13_midnight08.mp3"
+	}
+}
+"Sniper.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_midnight02.mp3"
+		"wave"			"vo/sniper_sf13_midnight05.mp3"
+	}
+}
+
+"Sniper.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_midnight02.mp3"
+		"wave"			"vo/sniper_sf13_midnight05.mp3"
+	}
+}
+
+"Sniper.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_midnight02.mp3"
+		"wave"			"vo/sniper_sf13_midnight05.mp3"
+	}
+}
+
+"Sniper.AutoCappedIntelligence04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_midnight02.mp3"
+		"wave"			"vo/sniper_sf13_midnight05.mp3"
+	}
+}
+
+"Sniper.AutoCappedIntelligence05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/sniper_sf13_midnight02.mp3"
+		"wave"			"vo/sniper_sf13_midnight05.mp3"
+	}
+}
+
+"Soldier.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/soldier_sf13_midnight01.mp3"
+		"wave"			"vo/soldier_sf13_midnight02.mp3"
+		"wave"			"vo/soldier_sf13_midnight03.mp3"
+	}
+}
+
+"Soldier.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/soldier_sf13_midnight01.mp3"
+		"wave"			"vo/soldier_sf13_midnight02.mp3"
+		"wave"			"vo/soldier_sf13_midnight03.mp3"
+	}
+}
+
+"Soldier.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/soldier_sf13_midnight01.mp3"
+		"wave"			"vo/soldier_sf13_midnight02.mp3"
+		"wave"			"vo/soldier_sf13_midnight03.mp3"
+	}
+}
+
+"Spy.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/spy_sf13_midnight05.mp3"
+		"wave"			"vo/spy_sf13_midnight06.mp3"
+		"wave"			"vo/spy_sf13_midnight07.mp3"
+	}
+}
+
+"Spy.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/spy_sf13_midnight05.mp3"
+		"wave"			"vo/spy_sf13_midnight06.mp3"
+		"wave"			"vo/spy_sf13_midnight07.mp3"
+	}
+}
+
+"Spy.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"		
+	{
+		"wave"			"vo/spy_sf13_midnight05.mp3"
+		"wave"			"vo/spy_sf13_midnight06.mp3"
+		"wave"			"vo/spy_sf13_midnight07.mp3"
+	}
+}
+
+"soldier_sf12_falling02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/soldier_sf12_falling01.mp3"
+}

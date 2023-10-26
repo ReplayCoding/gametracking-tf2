@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_devastation_final1/c212_370_72"
+		"Proxies"
+		{
+		}
+	}
+}

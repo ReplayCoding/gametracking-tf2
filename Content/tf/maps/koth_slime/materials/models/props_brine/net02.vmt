@@ -1,0 +1,42 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_brine/net02"
+//	"$bumpmap" "models/props_brine/net02_normal"
+
+	"$nocull" "1"
+	"$alphatest" "1"
+
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$nodecal" 1
+
+	"$AlphaTestReference" "0.37"
+	"$AllowAlphaToCoverage" "1"
+
+	$treeSway			"1"	// 0: No Sway 1: "Classic" tree sway. 2: Radial tree sway effect
+	$treeSwayHeight			"200"	// The starting height in Hammer units where the effect should start being fully applied. Default 1000.
+	$treeSwayStartHeight		".2"	// The height from the model's origin in which the effect starts blending in. Default 0.2.
+
+	$treeSwayRadius			"70"	// * The radius from the model's origin in Hammer units in where the effect should start being fully applied. Default 300.
+	$treeSwayStartRadius		".1"	// * The radius from the model's origin in which the effect starts blending in. Default 0.1.
+
+	$treeSwaySpeed			"1"	// The speed multiplier of large movement such as the trunk. Default 1.
+	$treeSwayStrength			"5"	// The distance multiplier of large movement such as the trunk. Default 10.
+
+	$treeSwayScrumbleSpeed		"1.1"	// * The falloff of the effect on large movement such as the trunk. Higher means a more stable center. Default 0.1.
+	$treeSwayScrumbleStrength		"1.5"	// * The speed multiplier of the small movement such as the leaves. Default 0.1.
+	$treeSwayScrumbleFrequency	"2"	// * The distance multiplier of the small movement such as the leaves. Default 0.1.
+
+	$treeSwayFalloffExp		"1.5"	// The frequency of the rippling of a sine wave in small movement such as the leaves. Default 1.5.
+	$treeSwayScrumbleFalloffExp	"1"	// * The falloff of the effect on small movement such as the leaves. Higher means a more stable center. Default 1.
+
+	$treeSwaySpeedHighWindMultiplier 	"0"  	// Speed multiplier when env_wind triggers a gust. Default 2.
+	$treeSwaySpeedLerpStart 		"200.0"	// Minimum wind speed in which a gust triggered by env_wind will start affecting the material. Default 3.
+
+	$treeSwaySpeedLerpEnd 		"600.0"	// Minimum wind speed in which a gust triggered by env_wind will fully affect the material. Default 6.
+	$treeSwayStatic 			"1"	//Use a static wind value instead of the values from env_wind. If enabled, env_wind is not required.
+
+}
+
+

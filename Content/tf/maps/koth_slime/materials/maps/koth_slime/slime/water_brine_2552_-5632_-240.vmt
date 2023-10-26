@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SLIME/WATER_BRINE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_slime/c2552_-5632_-240"
+		"Proxies"
+		{
+		}
+	}
+}

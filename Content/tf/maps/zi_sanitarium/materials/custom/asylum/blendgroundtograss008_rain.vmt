@@ -1,0 +1,24 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/dirtground010"
+	"$basetexture2" "Nature/grass_08"
+	"%tooltexture" "Nature/blendgroundtograss008_tooltexture"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/rockwall002_island_normal"
+	"%detailtype" "tf_forest_grass"
+	"%keywords" "tf"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+
+
+	"$bumpmap2" "Nature/rockwall002_island_normal"
+	//"$bumpmap" "Nature/dirtgroundcanyon_normal"
+	
+	"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+	"$envmapcontrast" .1
+	"$envmapsaturation" 0
+	"$envmaptint" "[ .05 .05 .05 ]"
+	$nodiffusebumplighting 1
+	//"$basetexture2noenvmap" "1"
+}

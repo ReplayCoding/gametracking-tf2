@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"brine/BrineBeachMuddyRocks"
+	"$basetexture2"	"brine/BrineBeachGravel"
+
+	"$bumpmap" "brine/BrineBeachMuddyRocks_ssBump"
+	"$bumpmap2" "Nature/dirtground002_height-ssbump"
+
+	"$ssbump" "1"
+
+	"%tooltexture"	"brine/BrineBeachRockyToGravelTooltexture"
+	"$blendmodulatetexture"	"Nature/dirtground002_blendmask"
+	"%keywords"	"tf"
+
+	"$surfaceprop"	"dirt"
+	"$surfaceprop2"	"dirt"
+
+}

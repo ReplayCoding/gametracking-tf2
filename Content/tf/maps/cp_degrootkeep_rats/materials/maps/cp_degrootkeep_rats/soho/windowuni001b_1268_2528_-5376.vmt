@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOWUNI001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_degrootkeep_rats/c1268_2528_-5376"
+	}
+}

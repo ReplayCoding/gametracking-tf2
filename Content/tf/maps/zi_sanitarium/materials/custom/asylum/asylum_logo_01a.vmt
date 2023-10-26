@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "custom/asylum/asylum_logo_01a"
+        "$decal" 1
+	"$decalscale" 1
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+ 	"%keywords" "tf"
+
+	
+	"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+	"$envmapcontrast" .2
+	"$envmapsaturation" 0
+	"$envmaptint" "[ .1 .1 .1 ]"
+
+	//"$basetexture2noenvmap" "1"
+}

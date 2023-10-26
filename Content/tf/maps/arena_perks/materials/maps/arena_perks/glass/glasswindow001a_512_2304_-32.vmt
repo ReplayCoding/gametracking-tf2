@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_perks/c512_2304_-32"
+	}
+}

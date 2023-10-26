@@ -1,0 +1,24 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "winter/rockwall014"
+	
+	//"$color" "[ .2 .2 .2 ]"
+	
+	"$bumpmap" "Nature/rockwall002_island_normal"
+    //"$ssbump" "1"
+	$nodiffusebumplighting 1
+	
+	"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+		"$envmapcontrast" .9
+	"$envmapsaturation" 0
+	"$envmaptint" "[ .12 .12 .12]"
+	
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+	"$detail" "Overlays/detail004"
+	"$detailscale" "[2.1 4.2]"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+}

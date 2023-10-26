@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture2"	"brine/brine_beach_sludge"
+	"$basetexture"	"brine/dirtground_dry"
+
+//	"$bumpmap2"	"brine/BrineBeachMuddy_ssBump"
+//	"$bumpmap" "brine/ssbump_flat"
+
+//	"$ssbump" "1"
+
+	"%tooltexture"	"brine/beach_sludge_blend_tooltexture"
+	"$blendmodulatetexture"	"brine/beach_sludge_blendmask"
+	"%keywords"	"tf"
+
+	"$surfaceprop2"	"mud"
+	"$surfaceprop"	"dirt"
+
+}

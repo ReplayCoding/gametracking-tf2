@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/robe_rack"
+
+	"$bumpmap"	"cable/cableflatnormalmap"
+
+	"$phongexponenttexture"	"cable/pure_white"
+	"$phong"		"1"
+	"$phongexponent"		"5"
+	"$phongboost"		"10"
+	"$phongfresnelranges"	"[.1 1 10]"
+	"$phongalbedotint"		"1"
+}

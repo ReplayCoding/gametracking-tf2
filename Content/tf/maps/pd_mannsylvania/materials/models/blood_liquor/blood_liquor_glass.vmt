@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\blood_liquor\blood_liquor_glass"
+	"$bumpmap"	"models\blood_liquor\blood_liquor_glass_normal"
+
+	//"$normalmapalphaenvmapmask" "1"
+	"$translucent" "1"
+	"$additive" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "150"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+}

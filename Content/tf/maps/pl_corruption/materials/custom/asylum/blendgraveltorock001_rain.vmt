@@ -1,0 +1,27 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "custom/asylum/dirtground_canyon4"
+	"$basetexture2" "winter/rockground010"
+	
+	//"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	//"$ssbump2" "1"
+	
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "concrete"
+	
+	"$bumpmap2" "Nature/rockwall002_island_normal"
+	"$bumpmap" "Nature/dirtgroundcanyon_normal"
+	
+	"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+	"$envmapcontrast" .2
+	"$envmapsaturation" 0
+	"$envmaptint" "[ .1 .1 .1 ]"
+	$nodiffusebumplighting 1
+	//"$basetexture2noenvmap" "1"
+	
+	"$blendmodulatetexture" "Nature/dirtground003_blendmask"
+	
+	"%keywords" "tf"
+	//"%tooltexture" "winter/blendgraveltograss001_tooltexture"
+}

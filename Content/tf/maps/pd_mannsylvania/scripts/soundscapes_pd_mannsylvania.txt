@@ -1,0 +1,149 @@
+"Mannsylvania.Outside"
+{
+
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".1, .3"
+		"pitch"		"60"
+		"wave"		"ambient/desert_life.wav"
+	}
+
+	"playrandom"
+	{
+		"pitch"	"90, 120"
+		"volume"	".7, .9"
+		"time"	"10, 20"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/owl1.mp3"
+			"wave"	"ambient_mp3/owl2.mp3"
+			"wave"	"ambient_mp3/owl3.mp3"
+			"wave"	"ambient_mp3/wolf01.mp3"
+			"wave"	"ambient_mp3/wolf02.mp3"
+			"wave"	"ambient_mp3/wolf03.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"pitch"	"70, 110"
+		"volume"	".1, .3"
+		"time"	"15, 30"
+		"position" "random"
+		
+		"rndwave"
+		{
+			"wave"	"mannsylvania/bats_01.wav"
+			"wave"	"mannsylvania/bats_02.wav"
+			"wave"	"mannsylvania/bats_03.wav"
+			"wave"	"mannsylvania/bats_04.wav"
+			"wave"	"mannsylvania/bats_05.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"pitch"	"65, 75"
+		"volume"	".3, .6"
+		"time"	"20, 40"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/crow1.mp3"
+			"wave"	"ambient_mp3/crow2.mp3"
+		}
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"mannsylvania/ambient_outside.wav"
+	}
+
+}
+
+"Mannsylvania.CastleInside"
+{
+	"dsp"	"22"
+	
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"	"mannsylvania/ambient_castle.wav"		
+	}
+	
+	"playrandom"
+	{
+		"pitch"	"50, 70"
+		"volume"	".3, .5"
+		"time"	"10, 30"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/creak01.mp3"
+			"wave"	"ambient_mp3/creak02.mp3"
+			"wave"	"ambient_mp3/hallow01.mp3"
+			"wave"	"ambient_mp3/hallow02.mp3"
+			"wave"	"ambient_mp3/hallow03.mp3"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"pitch"	"30"
+		"wave"	"ambient/lair/ac_vent1.wav"
+	}
+
+	"playrandom"
+	{
+		"pitch"	"95, 100"
+		"volume"	"0.8, 1"
+		"time"	"8, 15"
+
+		"rndwave"
+		{
+			"wave"	"ambient/atmosphere/thunder3.wav"
+			"wave"	"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"pitch"	"93, 98"
+		"volume"	"0.8, 0.9"
+		"time"	"5, 15"
+
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"position"	"0"
+		"wave"	"mannsylvania/castleplaceholder.wav"
+		
+	}
+}

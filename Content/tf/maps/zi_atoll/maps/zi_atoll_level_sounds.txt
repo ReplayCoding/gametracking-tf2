@@ -1,0 +1,110 @@
+// --------------------------------------------------------------------------------------- //
+// Infection - v1 								           // 
+// --------------------------------------------------------------------------------------- //
+// Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)        //
+// Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
+// --------------------------------------------------------------------------------------- //
+// Infection _level_sounds.txt								   // 
+// --------------------------------------------------------------------------------------- //
+
+"Infection.EMP_Grenade_Beep"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"wave"		"infection/sfx_infection_emp_grenade_beep.wav"
+}
+
+"Infection.EMP_Grenade_Explode"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"wave"		"infection/sfx_infection_emp_grenade_explode1.wav"
+}
+
+"Infection.DemoCharge"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/demo_charge_01.mp3"
+		"wave"	"infection/demo_charge_02.mp3"
+		"wave"	"infection/demo_charge_03.mp3"
+	}
+}
+
+"Infection.EngineerEMP"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/engineer_emp_01.mp3"
+		"wave"	"infection/engineer_emp_02.mp3"
+		"wave"	"infection/engineer_emp_03.mp3"
+		"wave"	"infection/engineer_emp_04.mp3"
+	}
+}
+
+"Infection.SniperSpitStart"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"wave"		"infection/sniper_spit_start.mp3"
+}
+
+"Infection.SniperSpitEnd"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"wave"		"infection/sniper_spit_end.mp3"
+}
+
+"Infection.SoldierPounce"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/soldier_pounce_01.mp3"
+		"wave"	"infection/soldier_pounce_02.mp3"
+		"wave"	"infection/soldier_pounce_03.mp3"
+		"wave"	"infection/soldier_pounce_04.mp3"
+	}
+}
+
+"Infection.SpyReveal"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/spy_reveal_01.mp3"
+		"wave"	"infection/spy_reveal_02.mp3"
+		"wave"	"infection/spy_reveal_03.mp3"
+	}
+}
+
+"Announcer.TimeAdded"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NONE"
+}

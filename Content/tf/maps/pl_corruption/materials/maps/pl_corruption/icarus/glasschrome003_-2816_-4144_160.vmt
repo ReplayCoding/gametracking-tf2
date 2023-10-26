@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-2816_-4144_160"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c-840_-13576_1008"
+	}
+}

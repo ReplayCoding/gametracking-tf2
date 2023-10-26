@@ -1,0 +1,635 @@
+"plague.ocean"
+{
+	"dsp" "1"
+"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"	"ambient\lair\perimeter_ocean_close.wav"
+	}
+	"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".8, 1"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	
+		"playrandom"
+	{
+		"time"		"6, 14"
+		"volume"	".9, 1.0"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"	"ambient\lair\perimeter_waves_close2.wav"
+	}
+"playlooping"
+	{
+		"volume"	".3"
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_medium.wav"
+	}
+	
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	
+"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+
+"playrandom"
+	{	
+		"time"			"8, 10"
+		"volume"		"0.6"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"position"		"4"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_01.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_02.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_03.mp3"
+		}	
+	}
+}
+
+
+
+
+
+
+
+"plague.urban"
+{
+
+
+"playrandom"
+	{
+		"time"		"45, 60"
+		"volume"	".01, .02"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"items/halloween/cat01.wav"
+			"wave"		"items/halloween/cat02.wav"
+			"wave"		"items/halloween/cat03.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"6, 14"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".8, 1"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 14"
+		"volume"	".9, 1.0"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+"playrandom"
+	{
+		"time"		"45,65"
+		"volume"	"0.05,0.1"
+		"pitch"		"65,75"
+		"rndwave"
+		{
+			"wave"		"ambient\rottenburg\rottenburg_belltower.wav"
+		}
+	}
+"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_medium.wav"
+	}
+	
+"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\plaza_amb.wav"
+	}
+	
+	
+
+	
+"playrandom"
+	{	
+		"time"			"8, 10"
+		"volume"		"0.35"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"position"		"4"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_01.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_02.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_03.mp3"
+		}	
+	}
+
+
+	
+"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	
+"playrandom"
+	{
+		"time"		"7,15"
+		"volume"	"0.55,0.75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\shutter6.wav"
+			"wave"		"ambient\materials\shutter7.wav"
+			"wave"		"ambient\materials\shutter8.wav"
+			"wave"		"ambient_mp3\shutter4.mp3"
+			"wave"		"ambient_mp3\shutter5.mp3"
+			"wave"		"ambient_mp3\shutter6.mp3"
+
+		}
+	}
+	
+"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"1"
+		"pitch"		"115"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\dog1.mp3"
+			"wave"		"ambient_mp3\dog2.mp3"
+			"wave"		"ambient_mp3\dog3.mp3"
+			"wave"		"ambient_mp3\dog4.mp3"
+
+		}
+	}
+	
+"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+
+
+"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\plaza_amb.wav"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"plague.generic.indoor"
+{
+"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+
+"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".1, .2"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_1_tone1.wav"
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+"plague.urban.indoor"
+{
+"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".1, .2"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_1_tone1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_medium.wav"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+"plague.urban.garden"
+{
+"dsp"	"1"
+
+
+	
+	"playrandom"
+	{
+		"time"		"45,65"
+		"volume"	"0.05,0.1"
+		"pitch"		"65,75"
+		"rndwave"
+		{
+			"wave"		"ambient\rottenburg\rottenburg_belltower.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"45, 60"
+		"volume"	".01, .02"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"items/halloween/cat01.wav"
+			"wave"		"items/halloween/cat02.wav"
+			"wave"		"items/halloween/cat03.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".8, 1"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_insect_loop.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_insect_loop2.wav"
+	}
+
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+}	
+	
+"plague.garden"
+{
+
+"dsp"	"1"	
+	
+
+	
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"	"ambient\lair\perimeter_ocean_distant.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_medium.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"	"ambient\lair\perimeter_waves_close2.wav"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient/forest_high_wind.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"11, 18"
+		"volume"	".8, 1"
+		"pitch"		"85, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\lair\rolling_thunder1.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"		"ambient_mp3\lair\rolling_thunder3.mp3"	
+			"wave"		"ambient_mp3\lair\rolling_thunder4.mp3"				
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"6, 14"
+		"volume"	".9, 1.0"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_trees.wav"
+	}
+}

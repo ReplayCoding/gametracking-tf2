@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_slime/slime/water_brine_2552_-5632_-240.vmt"
+	"insert"
+	{
+		"$waterdepth"		"200"
+	}
+}

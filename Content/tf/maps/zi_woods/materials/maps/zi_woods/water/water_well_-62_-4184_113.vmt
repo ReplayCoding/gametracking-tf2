@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_woods/c-62_-4184_113"
+		"Proxies"
+		{
+		}
+	}
+}

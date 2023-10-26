@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_brine/net01"
+//	"$bumpmap" "models/props_brine/net01_normal"
+
+	"$nocull" "1"
+	"$alphatest" "1"
+
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$nodecal" 1
+
+	"$AlphaTestReference" "0.37"
+	"$AllowAlphaToCoverage" "1"
+}
+
+
+

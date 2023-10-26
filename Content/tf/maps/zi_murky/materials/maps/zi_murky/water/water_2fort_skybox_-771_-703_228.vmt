@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_murky/c-771_-703_228"
+		"Proxies"
+		{
+		}
+	}
+}

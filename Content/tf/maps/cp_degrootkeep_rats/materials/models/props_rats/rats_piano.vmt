@@ -1,0 +1,17 @@
+// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.pyc script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_rats/rats_piano.vtf"
+	"$basemapalphaphongmask" "1"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"10"
+	"$phongboost"		"2"
+	"$phongfresnelranges"		"[.25 .5 1]"
+//	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$rimmask"		"0"
+
+
+}

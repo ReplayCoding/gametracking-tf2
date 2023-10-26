@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/WINDOWUNI001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_degrootkeep_rats/c116_2256_-5376"
+	}
+}

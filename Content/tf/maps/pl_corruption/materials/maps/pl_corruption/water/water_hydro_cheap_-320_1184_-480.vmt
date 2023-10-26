@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-320_1184_-480"
+		"Proxies"
+		{
+		}
+	}
+}

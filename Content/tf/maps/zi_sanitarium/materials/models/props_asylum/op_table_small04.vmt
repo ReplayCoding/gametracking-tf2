@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_asylum/op_table_small04"
+	"$surfaceprop"	"default"
+	"$basemapalphaphongmask" 1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_asylum/op_table_small04_exp"
+	"$phongfresnelranges"	"[1 2 5]"
+}

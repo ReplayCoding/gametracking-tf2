@@ -1,0 +1,11 @@
+// ### This basic VMT was written based on the D:\dev\ValveGames\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_medieval/stone_trim_128.vtf"
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{83 38 28}"
+	"$color2"		"{255 203 187}"
+
+}

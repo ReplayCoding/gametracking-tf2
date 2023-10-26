@@ -1,0 +1,403 @@
+// --------------------------------------------------------------
+// COMPLETE SOUNDSCAPES
+// --------------------------------------------------------------
+
+"zombiewoods.outdoors.clearing"
+{
+	"playsoundscape"
+	{
+		"name" 		"zombiewoods.wind"
+		"volume"	"0.6"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.forest"
+		"volume"	"0.2"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.crickets"
+		"volume"	"0.1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.forest.life"
+		"volume" 	"0.8"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wolves"
+		"volume" 	"0.4"
+	}
+}
+
+"zombiewoods.outdoors.forested"
+{
+	"playsoundscape"
+	{
+		"name" 		"zombiewoods.wind"
+		"volume"	"0.4"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.forest"
+		"volume"	"0.4"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.crickets"
+		"volume"	"0.1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.forest.life"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wolves"
+		"volume" 	"0.3"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.forest.creaks"
+		"volume" 	"0.8"
+	}
+}
+
+"zombiewoods.indoors.transition"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.inside"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.forest"
+		"volume"	"0.05"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.crickets"
+		"volume"	"0.025"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wolves"
+		"volume"	"0.1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.dripping"
+		"volume" 	"0.1"
+	}
+}
+
+"zombiewoods.indoors.mine"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.inside"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.dripping"
+		"volume" 	"0.4"
+	}
+	
+	"playsoundscape"
+	{
+		"name" 		"zombiewoods.rumbles"
+		"volume"	"0.8"
+	}
+}
+
+"zombiewoods.indoors.cabin"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.inside"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wind.forest"
+		"volume"	"0.1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.crickets"
+		"volume"	"0.025"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.wolves"
+		"volume"	"0.1"
+	}
+}
+
+"zombiewoods.indoors.cabin.wet"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.indoors.cabin"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.water"
+		"volume"	"0.2"
+	}
+
+}
+
+"zombiewoods.outdoors.clearing.wet"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.outdoors.clearing"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.water"
+		"volume" 	"1"
+	}
+}
+
+"zombiewoods.outdoors.forested.wet"
+{
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.outdoors.forested"
+		"volume" 	"1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"zombiewoods.water"
+		"volume" 	"1"
+	}
+}
+
+
+// --------------------------------------------------------------
+// SOUND COLLECTIONS
+// --------------------------------------------------------------
+
+"zombiewoods.wind"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\windwinter.wav"
+	}
+}
+
+"zombiewoods.wind.inside"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+}
+
+"zombiewoods.wind.forest"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\forest_high_wind.wav"
+	}
+}
+
+"zombiewoods.water"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch" 	"100"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+}
+
+"zombiewoods.crickets"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\desert_life.wav"
+	}
+}
+
+"zombiewoods.dripping"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch" 	"80"
+		"wave"		"ambient/water/drip_loop1.wav"
+	}
+}
+
+"zombiewoods.forest.life"
+{
+	"playrandom"
+	{
+		"time" 		"25,30"
+		"volume" 	"1"
+		"pitch" 	"100"
+		
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\lair\animal_call_woodpecker1.mp3"
+			"wave"	"ambient_mp3\lair\animal_call_woodpecker2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time" 		"30,35"
+		"volume" 	"1"
+		"pitch" 	"100"
+		
+		"rndwave"
+		{
+			"wave"	"ambient\owl1.wav"
+			"wave"	"ambient\owl2.wav"
+			"wave"	"ambient\owl3.wav"
+			"wave"	"ambient\owl4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time" 		"45,60"
+		"volume" 	"1"
+		"pitch" 	"100"
+		
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\lair\animal_call_unknown_howl1.mp3"
+			"wave"	"ambient_mp3\lair\animal_call_unknown_howl2.mp3"
+			"wave"	"ambient_mp3\lair\animal_call_unknown_howl6.mp3"
+		}
+	}
+}
+
+"zombiewoods.forest.creaks"
+{
+	"playrandom"
+	{
+		"time" 		"8,12"
+		"volume"	"0.4, 0.8"
+		"pitch" 	"80,120"
+		
+		"rndwave"
+		{
+			"wave" 	"ambient\materials\wood_creak1.wav"
+			"wave" 	"ambient\materials\wood_creak2.wav"
+			"wave" 	"ambient\materials\wood_creak3.wav"
+			"wave" 	"ambient\materials\wood_creak4.wav"
+			"wave" 	"ambient\materials\wood_creak5.wav"
+			"wave" 	"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+
+"zombiewoods.wolves"
+{
+	//Low wolf sounds 1
+	"playrandom"
+	{
+		"time" 		"35,45"
+		"volume"	"0.6,1"
+		"pitch"		"50,90"
+		
+		"rndwave"
+		{
+			"wave" 	"ambient\wolf01.wav"
+			"wave" 	"ambient\wolf02.wav"
+			"wave" 	"ambient\wolf03.wav"
+		}
+	}
+	
+	//Low wolf sounds 2
+	"playrandom"
+	{
+		"time" 		"20,60"
+		"volume"	"0.6,1"
+		"pitch"		"50,90"
+		
+		"rndwave"
+		{
+			"wave" 	"ambient\wolf01.wav"
+			"wave" 	"ambient\wolf02.wav"
+			"wave" 	"ambient\wolf03.wav"
+		}
+	}
+	
+	//High wolf sounds
+	"playrandom"
+	{
+		"time" 		"45,60"
+		"volume"	"0.3,0.5"
+		"pitch"		"80,100"
+		
+		"rndwave"
+		{
+			"wave" 	"misc\wolf_howl_01.wav"
+			"wave" 	"misc\wolf_howl_02.wav"
+			"wave" 	"misc\wolf_howl_03.wav"
+		}
+	}
+}
+
+"zombiewoods.rumbles"
+{
+	"playrandom"
+	{
+		"time" 		"20,30"
+		"volume"	"0.6,1"
+		"pitch"		"100"
+		
+		"rndwave"
+		{
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_01.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_02.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_03.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_04.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_05.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_06.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_07.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_08.mp3"
+			"wave" 	"ambient_mp3\spacebase\spacebase_rumble_09.mp3"
+		}
+	}
+}

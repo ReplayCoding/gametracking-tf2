@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_mannsylvania/c0_-2688_-192"
+		"Proxies"
+		{
+		}
+	}
+}

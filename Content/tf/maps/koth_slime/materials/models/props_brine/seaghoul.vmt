@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_brine/seaghoul"
+	"$bumpmap"	"models/props_brine/seagull_normal"
+
+	"$halflambert"	"1"
+
+	"$detail"		"models/props_brine/seaghoul_eye"
+	"$detailscale"		"1"
+	"$detailblendfactor"	"1"
+	"$detailblendmode"	"5"
+
+	"$phong"		"1"
+	"$phongexponent"		"7"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[1 2 8]"
+
+//	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture"		"models/player/engineer/engineer_hands_lightwarp"
+
+	"$alphatest" 1
+}
+

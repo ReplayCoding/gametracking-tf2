@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_standin_event/explosivepenguin"
+	"$bumpmap" "models\props_standin_event/explosivepenguin_normal"
+	"$normalmapalphaphongmask" "1"
+
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"	
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+}
+

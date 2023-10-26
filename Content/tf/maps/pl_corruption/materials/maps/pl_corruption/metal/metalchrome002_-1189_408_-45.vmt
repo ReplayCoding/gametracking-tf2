@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-1189_408_-45"
+	}
+}

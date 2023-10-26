@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/foodcan"
+	"$bumpmap" "models/props_brine/foodcan_normal"
+
+	"$phongexponenttexture" "models/props_brine/foodcan_normal"
+
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongboost"		"1"
+	"$phongwarptexture"  "models/weapons/v_bat\v_bat_phongwarp"
+	"$phongfresnelranges"	"[.1 10 50]"
+
+	"$rimmask"	"1"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1"
+
+//	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+//	"$lightwarptexture"		"models/props_brine/salmann_eye_warp"
+	"$lightwarptexture"		"models/props_brine/foodcan_lightwarp"
+
+	"$selfillum" "1"
+
+}

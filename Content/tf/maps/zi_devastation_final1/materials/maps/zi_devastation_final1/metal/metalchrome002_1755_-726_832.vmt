@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_devastation_final1/c1755_-726_832"
+	}
+}

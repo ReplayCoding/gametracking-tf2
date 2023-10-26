@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "nature/sandcastle_rockwall002"
+	"$basetexture" "nature/island_sand01"
+	"$bumpmap" "Nature/dirtground001_height-ssbump"
+	"$bumpmap2" "Medieval/stonewall001a_ssbump"
+	"$ssbump" 1
+	"$surfaceprop" "dirt"
+	"$blendmodulatetexture" "nature/snowgrass_blendmask"
+	"%keywords" "tf"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+
+//	"$detail" "Overlays/detail004"
+	"$detailscale" "[2.1 4.2]"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

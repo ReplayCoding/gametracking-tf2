@@ -1,0 +1,60 @@
+"Atoll.Seaside"
+{
+	"playlooping"
+	{
+		"volume" ".7"
+		"pitch" "100"
+		"wave" "ambient\lair\perimeter_ocean_close.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 8"
+		"volume"	".2, .5"
+		"pitch"	"90, 100"
+		"rndwave"
+		{
+			"wave"	"ambient\water\wave3.wav"
+			"wave"	"ambient\water\wave5.wav"
+			"wave"	"ambient\water\wave6.wav"
+		}
+	}	
+}
+
+"Atoll.Generic"
+{
+	"playlooping"
+	{
+		"volume" ".45"
+		"pitch" "100"
+		"wave" "ambient\lair\perimeter_ocean_close.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.4"
+		"pitch"		"85,105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"8,11"
+		"volume"	"0.42"
+		"pitch"		"85,105"
+		"rndwave"
+		{
+			"wave"		"ambient\halloween\windgust_12.wav"
+			"wave"		"ambient\halloween\windgust_10.wav"
+			"wave"		"ambient\halloween\windgust_03.wav"
+			"wave"		"ambient\halloween\windgust_10.wav"
+			"wave"		"ambient\halloween\windgust_05.wav"
+			"wave"		"ambient\halloween\windgust_04.wav"
+		}
+	}	
+}

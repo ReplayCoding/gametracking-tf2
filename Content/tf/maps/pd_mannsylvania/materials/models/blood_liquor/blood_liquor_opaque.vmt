@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\blood_liquor\blood_liquor_opaque"
+	"$bumpmap"	"models\blood_liquor\blood_liquor_opaque_normal"
+
+	"$phong" "1"
+	"$phongexponent" "150"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+}

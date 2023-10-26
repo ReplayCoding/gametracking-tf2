@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_devastation_final1/c364_-785_64"
+		"Proxies"
+		{
+		}
+	}
+}

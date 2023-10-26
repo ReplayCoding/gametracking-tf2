@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-2303_-3464_160"
+	}
+}

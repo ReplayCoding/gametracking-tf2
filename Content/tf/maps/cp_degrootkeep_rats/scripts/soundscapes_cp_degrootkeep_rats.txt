@@ -1,0 +1,503 @@
+"Sandcastle.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_insect_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".35"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
+	}
+	
+	"playrandom"
+	{	
+		"time"			"25, 40"
+		"volume"		"0.1"
+		"pitch"			"100, 90"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient/voices/playground_memory.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"12, 16, 24"
+		"volume"		"0.05"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_01.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_02.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_03.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_04.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_05.mp3"	
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"8,16"
+		"volume"	".4, .666"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/dog1.mp3"
+			"wave"		"ambient_mp3/dog2.mp3"
+			"wave"		"ambient_mp3/dog3.mp3"
+			"wave"		"ambient_mp3/dog4.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/owl4.mp3"
+			"wave"		"ambient_mp3/owl4.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"15, 20, 25, 30"
+		"volume"	".15, .2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"rats/sandcastle_trickortreat1.wav"
+			"wave"		"rats/sandcastle_trickortreat2.wav"
+			"wave"		"rats/sandcastle_trickortreat3.wav"
+			"wave"		"rats/sandcastle_trickortreat4.wav"
+			"wave"		"rats/sandcastle_trickortreat5.wav"
+			"wave"		"rats/sandcastle_trickortreat6.wav"
+			"wave"		"rats/sandcastle_trickortreat7.wav"
+			"wave"		"rats/sandcastle_trickortreat8.wav"
+			"wave"		"rats/sandcastle_trickortreat9.wav"	
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"8, 16"
+		"volume"		"0.2"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_95dB"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_06.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_07.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_03.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_02.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_01.mp3"		
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"0.1"
+		"pitch"		"90,105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
+		}
+	}
+	
+
+}
+
+"Sandcastle.Inside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".05, .1"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+}
+
+"Sandcastle.BBQ"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient\cp_harbor\cauldron_lp_main.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_insect_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".35"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
+	}
+	
+	"playrandom"
+	{	
+		"time"			"25, 40"
+		"volume"		"0.1"
+		"pitch"			"100, 90"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient/voices/playground_memory.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"12, 16, 24"
+		"volume"		"0.05"
+		"pitch"			"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_01.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_02.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_03.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_04.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_horn_05.mp3"	
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".4, .666"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/dog1.mp3"
+			"wave"		"ambient_mp3/dog2.mp3"
+			"wave"		"ambient_mp3/dog3.mp3"
+			"wave"		"ambient_mp3/dog4.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/owl4.mp3"
+			"wave"		"ambient_mp3/owl4.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"15, 20, 25, 30"
+		"volume"	".15, .2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"rats/sandcastle_trickortreat1.wav"
+			"wave"		"rats/sandcastle_trickortreat2.wav"
+			"wave"		"rats/sandcastle_trickortreat3.wav"
+			"wave"		"rats/sandcastle_trickortreat4.wav"
+			"wave"		"rats/sandcastle_trickortreat5.wav"
+			"wave"		"rats/sandcastle_trickortreat6.wav"
+			"wave"		"rats/sandcastle_trickortreat7.wav"
+			"wave"		"rats/sandcastle_trickortreat8.wav"
+			"wave"		"rats/sandcastle_trickortreat9.wav"	
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"			"8, 16"
+		"volume"		"0.2"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_95dB"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_06.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_07.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_03.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_02.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/car_passby_01.mp3"		
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"0.1"
+		"pitch"		"90,105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
+		}
+	}
+	
+
+}
+
+"Sandcastle.Shed"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors_quiet_birds.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".05, .1"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.6"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/props_perks/perk_haunting"
+	"$bumpmap"	"models/props_perks/perk_haunting_normal"
+	"$phong" "1"
+	"$phongexponent" "24"
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongboost" "1"
+	"$bumpmapalphaphongmask"		"1"
+	"$selfillum" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "1"
+}
+
+
+
+
+
+

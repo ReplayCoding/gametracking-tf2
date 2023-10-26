@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_hades\fog_plane01_white"
+	"$translucent" "1"
+	"$additive" "1"
+	"$color2" "{ 77 84 80 }"
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.03
+			"texturescrollangle" 0
+		}
+	}
+}

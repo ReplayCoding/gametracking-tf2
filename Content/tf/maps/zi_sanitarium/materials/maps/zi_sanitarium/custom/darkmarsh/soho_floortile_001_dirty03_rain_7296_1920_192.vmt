@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/DARKMARSH/SOHO_FLOORTILE_001_DIRTY03_RAIN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_sanitarium/c7296_1920_192"
+	}
+}

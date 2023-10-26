@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture"	"Models/props_mannsylvania/leaves_01_orange"
+	"$alphatest" 1
+	//"$nocull" 1	
+
+	$treeSway                         "1"
+	$treeSwayHeight                   "5"
+	$treeSwayStartHeight              "0"
+	$treeSwayRadius                   "5"
+	$treeSwayStartRadius              "0.0"
+	$treeSwaySpeed                    "1"
+	$treeSwayStrength                 "3"
+	$treeSwayScrumbleSpeed            "5"
+	$treeSwayScrumbleStrength         "1"
+	$treeSwayScrumbleFrequency        "300"
+	$treeSwayFalloffExp               "2"
+	$treeSwayScrumbleFalloffExp       "1"
+	$treeSwaySpeedHighWindMultiplier  ".4"
+	$treeSwaySpeedLerpStart           "50.0"
+	$treeSwaySpeedLerpEnd             "250.0"
+	$treeSwayStatic 1
+}

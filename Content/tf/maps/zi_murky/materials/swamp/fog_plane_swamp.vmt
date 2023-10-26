@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "swamp/fog_plane_swamp"
+	$translucent 1
+	$additive 1
+	"%keywords" "tf"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.014
+			"texturescrollangle" 90
+		}
+	}
+}
+

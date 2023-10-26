@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ATOLL_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_atoll/c3200_-4032_2496"
+		"Proxies"
+		{
+		}
+	}
+}

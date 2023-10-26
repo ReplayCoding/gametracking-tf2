@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/salmon"
+	"$bumpmap" "models/props_brine/salmon_nrm"
+
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongboost"		".5"
+	"$phongwarptexture"  "models/weapons/v_bat\v_bat_phongwarp"
+	"$phongfresnelranges"	"[.1 10 50]"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		".1"
+
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.4"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+}

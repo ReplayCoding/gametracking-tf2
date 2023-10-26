@@ -1,0 +1,222 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/salmann_eye"
+
+	"$detail"	"models/props_brine/salmann_eye_pupil"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+	"$detailscale"		"1"
+	"$detailtexturetransform" "center .5 .5 scale .5 .5 rotate 0 translate 0 0"
+
+	"$nodecal" "1"
+
+//	"$envmap"             "models/player/shared/eye-reflection-cubemap-"
+
+//	"$lightwarptexture"		"models/props_brine/salmann_lightwarp"
+	"$lightwarptexture"		"models/props_brine/salmann_eye_warp"
+//	"$lightwarptexture"   "models/player/shared/eye_lightwarp"
+
+	"$phong"		"1"
+	"$phongexponent"		"70"
+	"$phongboost"		"7"
+//	"$phongwarptexture"  "models/weapons/v_bat\v_bat_phongwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+
+	"$basemapalphaphongmask"	"1"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	
+	"$unique0"		"1"
+	"MinOne"			"2"
+	"$uniqueFull"		"1"
+	"$Halfer"		"4"
+	"$uniqueHalf"		"1"
+
+	"$gNoise" 	"1"
+	"$gNoise2"	"1"
+
+	"$sineA"		"1"
+	"$sineB"		"1"
+
+
+	"$sine1"		"1"
+	"$sine2"		"1"
+	"$sine3"		"1"
+
+	"$sine4"		"1"
+	"$sine5"		"1"
+
+	"$sineC"		"1"
+	"$sineC2"		"1"
+	
+	"$EyeLookin"	"[0 0]"
+
+	"$Center"		"[.5 .5]"
+
+
+
+"Proxies"
+{
+
+		"EntityRandom"
+		{
+		"scale"		"2"
+		"resultVar"	"$unique0"	
+		}
+
+	"Add"
+	{
+	"srcVar1"		"$unique0"	
+	"srcVar2"		"MinOne"	
+	"resultVar"	"$uniqueFull"	
+	}
+
+
+	"Divide"
+	{
+	"srcVar1"		"$uniqueFull"	
+	"srcVar2"		"$Halfer"
+	"resultVar"	"$uniqueHalf"	
+	}
+
+		"Sine"	//A
+		{
+		"sineperiod"	"$uniqueFull"
+		"sinemin"		"-0.3"
+		"sinemax"	"0.3"
+		"resultVar"	"$sineA"
+		}
+
+		"Sine"	//B
+		{
+		"sineperiod"	"$uniqueFull"
+		"sinemin"		"-0.3"
+		"sinemax"	"0.3"
+		"timeoffset"	"$uniqueHalf"
+		"resultVar"	"$sineB"
+		}
+
+	"Clamp"
+	{
+	"min"		"-0.08"
+	"max"		"0.08"
+	"srcVar1"		"$sineA"
+	"resultVar"	"$sineA"
+	}
+
+	"Clamp"
+	{
+	"min"		"-0.08"
+	"max"		"0.08"
+	"srcVar1"		"$sineB"
+	"resultVar"	"$sineB"
+	}
+
+	"Add"
+	{
+	"srcVar1"		"$sineA"	
+	"srcVar2"		"$sineB"	
+	"resultVar"	"$sine1"	
+	}
+
+		"Sine"	//2
+		{
+		"sineperiod"	"1.7"
+		"sinemin"		"1"
+		"sinemax"	"1.2"
+		"resultVar"	"$sine2"
+		}
+
+		"Sine"	//3
+		{
+		"sineperiod"	"2"
+		"sinemin"		"0.99"
+		"sinemax"	"1.01"
+		"resultVar"	"$sine3"
+		}
+
+		"Sine"	//4
+		{
+		"sineperiod"	"1"
+		"sinemin"		"1"
+		"sinemax"	"2"
+		"resultVar"	"$sine4"
+		}
+
+		"multiply"
+		{
+		"srcVar1"		"$sine1"
+		"srcVar2"		"$sine2"
+		"resultVar"	"$sineC"		
+		}
+
+	"Clamp"
+	{
+	"min"		"-0.09"
+	"max"		"0.09"
+	"srcVar1"		"$sineC"
+	"resultVar"	"$sineC"
+	}
+
+		"multiply"
+		{
+		"srcVar1"		"$sineC"
+		"srcVar2"		"$sine4"
+		"resultVar"	"$sineC2"		
+		}
+
+		"GaussianNoise"	//1
+		{
+		"mean"		"0.005"
+		"halfWidth"	"0.002"
+		"minVal"		"0.001"
+		"maxVal"		"0.007"
+		"resultVar"	"$gNoise"
+		}
+
+		"Add"
+		{
+		"srcVar1"		"$sineC2"
+		"srcVar2"		"$gNoise"
+		"resultVar"	"$EyeLookin[0]"
+		}
+
+		"GaussianNoise"	//2
+		{
+		"mean"		"0.005"
+		"halfWidth"	"0.002"
+		"minVal"		"0.001"
+		"maxVal"		"0.007"
+		"resultVar"	"$gNoise2"
+		}
+
+		"Add"
+		{
+		"srcVar1"		"$sine3"
+		"srcVar2"		"$gNoise2"
+		"resultVar"	"$EyeLookin[1]"
+		}
+
+		"Sine"	//5
+		{
+		"sineperiod"	".7"
+		"sinemin"		"0.49"
+		"sinemax"	"0.51"
+		"resultVar"	"$sine5"
+		}
+
+
+	"TextureTransform"
+	{
+	"centerVar"	"$Center"	
+	"scaleVar"	"$sine5"
+	"rotateVar"	"0"
+	"translateVar"	"$EyeLookin"
+	"resultVar"	"$detailtexturetransform"
+	}
+
+}
+
+}

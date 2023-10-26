@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_mannsylvania/candelstic_03"
+	$surfaceprop Metal
+
+	$phong 1
+	$phongfresnelranges "[0.1 10 10]"
+	$phongexponent 50
+	$phongboost 0.5
+	$basemapalphaphongmask 1
+
+	$model 1
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/ASYLUM/ASYLUMBRICK_01_BLEND.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_sanitarium/c7296_1920_192"
+	}
+}

@@ -1,0 +1,68 @@
+"Halloween.skeleton_break"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"			")slime\Salmann_Gurgle_03.wav"
+		"wave"			")slime\Salmann_Gurgle_06.wav"
+	}
+}
+
+"Halloween.skeleton_laugh_small"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_120dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"slime\Salmann_Gurgle_01.wav"
+		"wave"		"slime\Salmann_Gurgle_02.wav"
+		"wave"		"slime\Salmann_Gurgle_04.wav"
+		"wave"		"slime\Salmann_Gurgle_05.wav"
+		"wave"		"slime\Salmann_Gurgle_07.wav"
+		"wave"		"slime\Salmann_Gurgle_08.wav"
+		"wave"		"slime\Salmann_Gurgle_09.wav"
+		"wave"		"slime\Salmann_Gurgle_10.wav"
+		"wave"		"slime\Salmann_Gurgle_11.wav"
+		"wave"		"slime\Salmann_Gurgle_12.wav"
+		"wave"		"slime\Salmann_Gurgle_13.wav"
+	}
+}
+
+"Halloween.skeleton_laugh_medium"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"slime\Salmann_Gurgle_01.wav"
+		"wave"		"slime\Salmann_Gurgle_02.wav"
+		"wave"		"slime\Salmann_Gurgle_04.wav"
+		"wave"		"slime\Salmann_Gurgle_05.wav"
+		"wave"		"slime\Salmann_Gurgle_07.wav"
+		"wave"		"slime\Salmann_Gurgle_08.wav"
+		"wave"		"slime\Salmann_Gurgle_09.wav"
+		"wave"		"slime\Salmann_Gurgle_10.wav"
+		"wave"		"slime\Salmann_Gurgle_11.wav"
+		"wave"		"slime\Salmann_Gurgle_12.wav"
+		"wave"		"slime\Salmann_Gurgle_13.wav"
+	}
+}
+
+"salmann.slime_attack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_130dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"			"slime\Salmann_Spew.wav"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CP_MANOR/WOOD_FLOOR01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_lavapit_final/c2124_624_-512"
+	}
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/chalice"
+	"$bumpmap"	"models/props_brine/chalice_nrm"
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "10"	
+	"$phongfresnelranges"	"[.1 1 10]"
+	"$phongtint"	"{255 180 40}"
+	"$phongwarptexture"  "models/props_brine/chalice_warp"
+
+}

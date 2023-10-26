@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CP_MANOR/WOOD_FLOOR01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-2831_-2246_-512"
+	}
+}

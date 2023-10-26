@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_mannsylvania/water/water_powerhouse_0_-7480_128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"4"
+	}
+}

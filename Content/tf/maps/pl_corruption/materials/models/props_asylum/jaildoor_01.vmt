@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\props_asylum\jaildoor_01"
+	"$surfaceprop"	"metal"
+	"%keywords"	"tf"
+	
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".01"	
+	"$phongfresnelranges"	"[1 15 20]"
+}

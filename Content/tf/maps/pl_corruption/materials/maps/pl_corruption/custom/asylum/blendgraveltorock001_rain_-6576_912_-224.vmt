@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/ASYLUM/BLENDGRAVELTOROCK001_RAIN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-6576_912_-224"
+	}
+}

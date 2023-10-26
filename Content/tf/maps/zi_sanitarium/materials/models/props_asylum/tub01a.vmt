@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_asylum/tub01a"
+	"$surfaceprop" 			"metal"
+	
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"	
+	"$halflambert"	"1"
+	"$nocull"		"1"
+	"$phongfresnelranges"	"[.7 15 10]"
+	$basemapalphaphongmask 	"1"
+	//"$bumpmap" "Models/effects/flat_normal"
+	
+}

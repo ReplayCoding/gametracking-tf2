@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOW004E.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_devastation_final1/c-461_-221_576"
+	}
+}

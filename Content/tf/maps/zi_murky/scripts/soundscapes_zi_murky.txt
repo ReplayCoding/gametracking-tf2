@@ -1,0 +1,80 @@
+"Marsh.Outside"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/rain.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/halloween/underground_wind_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"75"
+		"wave"		"ambient/halloween/underground_wind_lp_02.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"200"
+		"wave"		"ambient/cp_harbor/indoor_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"time"		"6,9"
+		"volume"	"1,1"
+		"pitch"		"90,105"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/thunder2.wav"
+			"wave"	"ambient/thunder3.wav"
+			"wave"	"ambient/thunder4.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"1,1"
+		"pitch"		"75,75"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"vo/halloween_boo1.mp3"
+			"wave"	"vo/halloween_boo2.mp3"
+			"wave"	"vo/halloween_boo3.mp3"
+			"wave"	"vo/halloween_boo4.mp3"
+			"wave"	"vo/halloween_boo5.mp3"
+			"wave"	"vo/halloween_boo6.mp3"
+			"wave"	"vo/halloween_boo7.mp3"
+		}
+	}
+}
+
+"Marsh.Inside"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/halloween/underground_wind_lp_04.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/spawn_tone2.wav"
+	}
+}

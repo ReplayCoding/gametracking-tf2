@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_asylum/medic_hammer"
+	"$surfaceprop"	"default"
+	"$basemapalphaphongmask" 1
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"[.5]"
+	"$phongexponenttexture"	"models/props_asylum/medic_hammer_exp"
+	"$phongfresnelranges"	"[1 2 5]"
+}

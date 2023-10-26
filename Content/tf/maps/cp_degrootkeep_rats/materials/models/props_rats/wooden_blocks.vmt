@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_rats/wooden_blocks"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_rats/wooden_blocks_mask"
+	"$envmaptint" "[.2 .2 .2]"
+//	"$envmapcontrast" "1"
+	"$reflectivity" "[.5 .5 .5]"
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$color2"		"{190 140 91}" //LIGHT WOOD
+//	"$color2"		"{146 64 33}" //RED
+//	"$color2"		"{149 94 45}" //ORANGE
+//	"$color2"		"{85 124 75}" //GREEN
+//	"$color2"		"{112 146 154}" //BLUE
+//	"$color2"		"{150 111 74}" //DARKER
+}

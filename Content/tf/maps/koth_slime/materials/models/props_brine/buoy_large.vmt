@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_brine/buoy_large"
+
+	"$basetexturetransform"	"center .5 .5 	scale 2 4 	rotate 0 	translate 0 0"
+
+	"$selfillum" "1"
+	"$selfillumtint"	"[2 1.9 1.7]"
+
+	"$selfillumFresnel"        "1"
+	"$selfillumFresnelMinMaxExp"        "[1 5 8]"
+
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[.3 1 8]"
+
+	"$basemapalphaphongmask" 1
+
+}
+

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/HEAVEN/WATER_FOUNTAIN_DARK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_sanitarium/c7296_1920_192"
+		"Proxies"
+		{
+		}
+	}
+}

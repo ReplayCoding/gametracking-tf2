@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_mannsylvania/mannsylvania/water_blood_0_-12240_818.vmt"
+	"insert"
+	{
+		"$waterdepth"		"5"
+	}
+}
