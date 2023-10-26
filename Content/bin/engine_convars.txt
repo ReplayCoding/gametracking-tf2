@@ -1770,6 +1770,26 @@ flags:  "cheat"
 default: 0
 Discards incoming message: <0|1|name>
 
+convar net_chan_limit_msec
+flags: 
+default: 0
+Netchannel processing is limited to so many milliseconds, abort connection if exceeding budget
+
+convar net_chan_stats_dump
+flags: 
+default: 0
+Netchannel statistics will dump in the logs upon request
+
+convar net_chan_stats_dump_top_msgs
+flags: 
+default: 5
+Netchannel statistics will dump so many top messages in each category
+
+convar net_chan_stats_lru
+flags: 
+default: 3
+Netchannel statistics LRU accumulation buffer size
+
 ccommand net_channels
 flags: 
 Shows net channel info
@@ -1797,12 +1817,17 @@ Attempt to compress out of band voice payloads (360 only).
 convar net_disconnect_reason
 flags: 
 default: 0
-Show client disconnect reason.
+Whether the server should relay the disconnect reason to clients.
 
 convar net_drawslider
 flags: 
 default: 0
 Draw completion slider during signon
+
+convar net_droponsendoverflow
+flags: 
+default: 0
+If enabled, channel will drop client when sending too much data causes buffer overrun
 
 convar net_droppackets
 flags:  "cheat"

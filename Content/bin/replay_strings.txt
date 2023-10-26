@@ -2594,8 +2594,8 @@ US]CQ
 ^(BM
 kZ;&
 RBRB`#AVATB`
-ARA`
-ARD`
+BRA`
+BRD`
 ATCp
 AVDYAp
 BXAp
@@ -2624,7 +2624,7 @@ WARB`
 ARC`
 AVBp
 RBRARAp
-RBRBp
+RARAp
 RBRBp
 RBRBRBRBRAYAp
 VBRBVB
@@ -3097,7 +3097,6 @@ hunk
 1ltered_row
 ish_row
 1d_filter
-@0p
 @@@@
 ```` 0`0
 PP@@
@@ -3194,6 +3193,7 @@ __ZN14CLC_SaveReplayD0Ev
 __ZN14CLC_SaveReplay7ProcessEv
 __ZNK14CLC_SaveReplay7GetTypeEv
 __ZNK14CLC_SaveReplay7GetNameEv
+__ZNK14CLC_SaveReplay7GetSizeEv
 __ZN11CNetMessage7ProcessEv
 __ZN13SVC_GameEventD1Ev
 __ZN13SVC_GameEventD0Ev
@@ -3201,10 +3201,11 @@ __ZN13SVC_GameEvent7ProcessEv
 __ZNK13SVC_GameEvent7GetTypeEv
 __ZNK13SVC_GameEvent8GetGroupEv
 __ZNK13SVC_GameEvent7GetNameEv
+__ZNK13SVC_GameEvent7GetSizeEv
 __ZN11CNetMessageD1Ev
 __ZN11CNetMessageD0Ev
 __ZN30CNetMessageRatelimitPolicyNone29BIncomingMessageForProcessingEdi
-__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.68927.9MMzjm.ii
+__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.2652.O3OZR1.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 __ZTS14CLC_SaveReplay
 __ZTS13SVC_GameEvent
@@ -3460,7 +3461,7 @@ __ZL20replay_renderunpauseRK8CCommand
 __ZL23replay_printqueuedtakesRK8CCommand
 __ZL23replay_clearqueuedtakesRK8CCommand
 __ZN10CUtlVectorIj10CUtlMemoryIjiEED2Ev
-__GLOBAL__sub_I_cl_command.stdout.rel_tf_osx_builder.68932.o7xDd7.ii
+__GLOBAL__sub_I_cl_command.stdout.rel_tf_osx_builder.2653.jgIk6u.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector4d.h
 __ZTV11CNetMessage
 __ZL11vec2_origin
@@ -4266,7 +4267,7 @@ __ZN13CReplaySystem23SV_ShouldBeginRecordingEb
 __ZN13CReplaySystem24SV_NotifyReplayRequestedEv
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/replay/sv_recordingsession.h
 __ZN13CReplaySystem13SV_GetContextEv
-__GLOBAL__sub_I_replaysyst.stdout.rel_tf_osx_builder.69066.5b8LTS.ii
+__GLOBAL__sub_I_replaysyst.stdout.rel_tf_osx_builder.2656.BgHGDN.ii
 __ZTS13CReplaySystem
 __ZTS15CTier2AppSystemI13IReplaySystemLi0EE
 __ZTS15CTier1AppSystemI13IReplaySystemLi0EE
@@ -5075,7 +5076,7 @@ __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.53344.c3Wj3a.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.88297.gXPcWM.ii
 __ZTS6ConVar
 __ZTS14ConCommandBase
 __ZTS10ConCommand
@@ -5292,6 +5293,7 @@ __ZN14CLC_SaveReplayD0Ev
 __ZN14CLC_SaveReplay7ProcessEv
 __ZNK14CLC_SaveReplay7GetTypeEv
 __ZNK14CLC_SaveReplay7GetNameEv
+__ZNK14CLC_SaveReplay7GetSizeEv
 __ZN11CNetMessage7ProcessEv
 __ZN13SVC_GameEventD1Ev
 __ZN13SVC_GameEventD0Ev
@@ -5299,10 +5301,11 @@ __ZN13SVC_GameEvent7ProcessEv
 __ZNK13SVC_GameEvent7GetTypeEv
 __ZNK13SVC_GameEvent8GetGroupEv
 __ZNK13SVC_GameEvent7GetNameEv
+__ZNK13SVC_GameEvent7GetSizeEv
 __ZN11CNetMessageD1Ev
 __ZN11CNetMessageD0Ev
 __ZN30CNetMessageRatelimitPolicyNone29BIncomingMessageForProcessingEdi
-__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.68927.9MMzjm.ii
+__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.2652.O3OZR1.ii
 __ZN21CBaseRecordingSessionC2EP14IReplayContext
 __ZN21CBaseRecordingSessionD2Ev
 __ZN21CBaseRecordingSessionD1Ev
@@ -5473,7 +5476,7 @@ __ZL20replay_renderunpauseRK8CCommand
 __ZL23replay_printqueuedtakesRK8CCommand
 __ZL23replay_clearqueuedtakesRK8CCommand
 __ZN10CUtlVectorIj10CUtlMemoryIjiEED2Ev
-__GLOBAL__sub_I_cl_command.stdout.rel_tf_osx_builder.68932.o7xDd7.ii
+__GLOBAL__sub_I_cl_command.stdout.rel_tf_osx_builder.2653.jgIk6u.ii
 __Z35OnReplayScreenshotResolutionChangedP7IConVarPKcf
 __GLOBAL__sub_I_cl_cvars.stdout.rel_tf_osx_builder.68933.Hn3ASI.ii
 __ZN15CHttpDownloaderC1EP16IDownloadHandler
@@ -6050,7 +6053,7 @@ __ZN13CReplaySystem18SV_SendReplayEventEP10IGameEventi
 __ZN13CReplaySystem23SV_ShouldBeginRecordingEb
 __ZN13CReplaySystem24SV_NotifyReplayRequestedEv
 __ZN13CReplaySystem13SV_GetContextEv
-__GLOBAL__sub_I_replaysyst.stdout.rel_tf_osx_builder.69066.5b8LTS.ii
+__GLOBAL__sub_I_replaysyst.stdout.rel_tf_osx_builder.2656.BgHGDN.ii
 __GLOBAL__sub_I_replay_dbg.stdout.rel_tf_osx_builder.69073.dzhqCn.ii
 __Z18Replay_ReconstructP7CReplayb
 __ZN14CUtlSortVectorIPK28CClientRecordingSessionBlock16CReplay_LessFunc10CUtlVectorIS2_10CUtlMemoryIS2_iEEE6InsertERKS2_
@@ -6520,7 +6523,7 @@ __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.53344.c3Wj3a.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.88297.gXPcWM.ii
 __ZN9ILocalize20ConvertANSIToUnicodeEPKcPwi
 __ZN9ILocalize20ConvertUnicodeToANSIEPKwPci
 __ZN9ILocalize28ConstructStringVArgsInternalEPwiPKwiPc

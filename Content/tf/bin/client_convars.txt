@@ -1079,21 +1079,6 @@ flags:  "developmentonly" "userinfo"
 default: 1.0f
 
 
-convar cl_jiggle_bone_debug
-flags:  "cheat"
-default: 0
-Display physics-based 'jiggle bone' debugging information
-
-convar cl_jiggle_bone_debug_pitch_constraints
-flags:  "cheat"
-default: 0
-Display physics-based 'jiggle bone' debugging information
-
-convar cl_jiggle_bone_debug_yaw_constraints
-flags:  "cheat"
-default: 0
-Display physics-based 'jiggle bone' debugging information
-
 convar cl_jiggle_bone_framerate_cutoff
 flags: 
 default: 20
@@ -6165,7 +6150,7 @@ default: 0.5
 
 
 convar tf_hat_effect_offset
-flags:  "developmentonly"
+flags:  "hidden"
 default: 0
 Adjust the position of the unusual effect for your hat.
 
@@ -6366,12 +6351,12 @@ default: 0
 Setting this to 1 will cause the Medigun's primary attack to be a toggle instead of needing to be held down.
 
 convar tf_misc1_effect_offset
-flags:  "developmentonly"
+flags:  "hidden"
 default: 0
 Adjust the position of the unusual effect for your hat.
 
 convar tf_misc2_effect_offset
-flags:  "developmentonly"
+flags:  "hidden"
 default: 0
 Adjust the position of the unusual effect for your hat.
 
@@ -7969,6 +7954,11 @@ convar weapon_medigun_resist_num_chunks
 flags:  "developmentonly" "cheat" "replicated"
 default: 4
 How many uber bar chunks the vaccinator has.
+
+convar weapon_vaccinator_resist_duration
+flags:  "developmentonly" "cheat" "replicated"
+default: 3
+Amount of time it takes the a full charge of the vaccinator to be released.
 
 ccommand xlook
 flags: 

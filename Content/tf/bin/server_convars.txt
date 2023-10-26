@@ -5109,6 +5109,11 @@ flags:  "cheat"
 default: 1
 
 
+convar tf_fall_damage_disablespread
+flags: 
+default: 0
+
+
 convar tf_fastbuild
 flags:  "developmentonly" "cheat"
 default: 0
@@ -7767,6 +7772,11 @@ convar weapon_showproficiency
 flags: 
 default: 0
 
+
+convar weapon_vaccinator_resist_duration
+flags:  "developmentonly" "cheat" "replicated"
+default: 3
+Amount of time it takes the a full charge of the vaccinator to be released.
 
 ccommand wipe_nav_attributes
 flags:  "cheat"
