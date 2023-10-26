@@ -31,7 +31,6 @@ __common
 __DATA
 __LINKEDIT
 @loader_path/datacache.dylib
-l(	?
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
 /usr/lib/libiconv.2.dylib
@@ -280,8 +279,8 @@ ffffff.
 l^_[]
 ffffff.
 \^_[]
-8IDSTum
 ^_[]
+8IDSTu`
 ^_[]
 fffff.
 ^_[]
@@ -1093,6 +1092,7 @@ MDLCache: Alloc studiohdr %s
 CMDLCache::ReadMDLFile
 MDLCache: Load studiohdr %s
 Failed to load %s!
+MDL %s was smaller than studiohdr_t
 Failed to read model %s from buffer!
 Model %s not a .MDL format file!
 Model %s has mismatched .vvd + .vtx files!
@@ -2029,7 +2029,7 @@ __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountS
 __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.81362.xgvijq.ii
+__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.15282.OxzYBQ.ii
 __ZTS9CMDLCache
 __ZTS15CTier3AppSystemI9IMDLCacheLi0EE
 __ZTS15CTier2AppSystemI9IMDLCacheLi0EE
@@ -2606,7 +2606,7 @@ __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountS
 __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.81362.xgvijq.ii
+__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.15282.OxzYBQ.ii
 __Z21ConnectTier2LibrariesPPFPvPKcPiEi
 __Z24DisconnectTier2Librariesv
 __Z21ConnectTier3LibrariesPPFPvPKcPiEi
