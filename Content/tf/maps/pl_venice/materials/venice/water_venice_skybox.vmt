@@ -1,0 +1,82 @@
+Water
+{
+	$surfaceprop Water
+
+	$envmap "env_cubemap"
+
+	$normalmap "water/tfwater001_normal"
+	$bottommaterial "water/water_2fort_beneath.vmt"
+	$bumpframe 0
+
+	$abovewater 1
+	$forcecheap 1
+
+	$refracttexture "_rt_waterrefraction"
+	$refract 1
+	$refractamount 0.32
+	$refractblur 1
+
+	$fogenable 1
+	$fogcolor "{57 81 75}"
+	$fogstart 0
+	$fogend 250
+
+	%compilewater 1
+	%tooltexture "water/tfwater001_normal"
+	%keywords "tf"
+
+	$curr 0.0
+	$curr2 0.0
+	$scale "[1 1]"
+	$temp "[0 0]"
+	$underwateroverlay "effects/water_warp"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar "$normalmap"
+			animatedtextureframenumvar "$bumpframe"
+			animatedtextureframerate 10.00
+		}
+
+		Sine
+		{
+			sineperiod 24
+			sinemin -0.5
+			sinemax 0.5
+			resultVar "$curr"
+		}
+
+		Sine
+		{
+			sineperiod 16
+			sinemin 0.5
+			sinemax -0.5
+			resultVar "$curr2"
+		}
+
+		Equals
+		{
+			srcVar1 "$curr2"
+			resultVar "$temp[0]"
+		}
+
+		Equals
+		{
+			srcVar1 "$curr"
+			resultVar "$temp[1]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$temp"
+			resultVar "$bumptransform"
+		}
+
+		WaterLOD
+		{
+			dummy 0
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_venice/c4480_8448_2304"
+	}
+}

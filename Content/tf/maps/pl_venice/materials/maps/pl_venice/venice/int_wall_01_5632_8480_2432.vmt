@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/VENICE/INT_WALL_01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_venice/c5632_8480_2432"
+	}
+}

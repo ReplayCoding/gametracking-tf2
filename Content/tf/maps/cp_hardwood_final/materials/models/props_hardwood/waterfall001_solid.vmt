@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_forest/waterfall001"
+	"$surfaceprop"	"default"
+	"$model" "1"
+//	"$translucent" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.23
+			"texturescrollangle" 100
+		}
+	}
+	
+	"$color" "{129 133 145}"
+	"$color2" "{129 133 145}"
+}

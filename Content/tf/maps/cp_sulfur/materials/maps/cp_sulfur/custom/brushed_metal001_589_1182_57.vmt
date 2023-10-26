@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/BRUSHED_METAL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_sulfur/c589_1182_57"
+	}
+}

@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"<dx90"
+	{
+		"$fallbackmaterial"		"rotunda/blend_oil_gravel001_dx80"
+	}
+	"$basetexture"		"nature/gravelgrayred001"
+	"$surfaceprop"		"dirt"
+	"$bumpmap"		"rotunda/gravel_normal"
+	"$envmap"		"env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmapcontrast"		"0"
+	"$envmapsaturation"		"1"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+	"%keywords"		"tf"
+}

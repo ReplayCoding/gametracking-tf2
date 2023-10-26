@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SHARKBAY/WATER_WELL2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_sharkbay/c-2960_5179_-384"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_reckoner/water/water_well_-1688_-8_584.vmt"
+	"insert"
+	{
+		"$waterdepth"		"14"
+	}
+}

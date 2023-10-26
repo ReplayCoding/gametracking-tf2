@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_sulfur/water/water_well_expensive_-650_-4318_-189.vmt"
+	"insert"
+	{
+		"$waterdepth"		"20"
+	}
+}

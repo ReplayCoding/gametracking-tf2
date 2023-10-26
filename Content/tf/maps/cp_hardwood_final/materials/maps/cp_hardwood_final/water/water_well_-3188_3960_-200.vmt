@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_hardwood_final/c-3188_3960_-200"
+		"Proxies"
+		{
+		}
+	}
+}

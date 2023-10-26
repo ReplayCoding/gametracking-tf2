@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props_vshdistillery\straps"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "0.5"	
+	"$lightwarptexture" "models/props_vehicles/pickup_lightwarp"
+	"$phongfresnelranges"	"[1 1.5 2]"
+}

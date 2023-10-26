@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_selbyen/water/water_outflow_skybox_-64_8256_134.vmt"
+	"insert"
+	{
+		"$waterdepth"		"12"
+	}
+}

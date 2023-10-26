@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_hardwood_final/water/water_well_-3188_3960_-200.vmt"
+	"insert"
+	{
+		"$waterdepth"		"37"
+	}
+}

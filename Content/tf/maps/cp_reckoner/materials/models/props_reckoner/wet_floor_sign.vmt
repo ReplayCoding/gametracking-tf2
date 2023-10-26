@@ -1,0 +1,9 @@
+"VertexLitGeneric" {
+	"$basetexture" "models/props_reckoner/wet_floor_sign001"
+	"$bumpmap" "models/props_reckoner/wet_floor_sign001_normal"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "5"
+	"$phongfresnelranges" "[0 0.5 0.1]"
+	// "$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+}

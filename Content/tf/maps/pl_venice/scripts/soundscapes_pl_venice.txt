@@ -1,0 +1,574 @@
+"venice.outside.generic"
+{
+	"dsp" "1"
+	"fadetime" "1.5"
+
+	"playsoundscape"
+	{
+		"name"				"Lumberyard.Outside"
+		"ambientpositionoverride"	"0"
+	}
+}
+
+"venice.outside.coast"
+{
+	"dsp" "1"
+	"fadetime" "1.5"
+
+	"playsoundscape"
+	{
+		"name"				"Lumberyard.Outside"
+		"ambientpositionoverride"	"0"
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+}
+
+"venice.outside.coast.windy"
+{
+	"dsp" "1"
+	"fadetime" "1.5"
+
+	"playsoundscape"
+	{
+		"name"				"Lumberyard.Outside"
+		"ambientpositionoverride"	"0"
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// wind
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	"0.10,0.20"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_wind_gust_01.mp3"
+			"wave"	"ambient/venice_wind_gust_02.mp3"
+			"wave"	"ambient/venice_wind_gust_03.mp3"
+			"wave"	"ambient/venice_wind_gust_04.mp3"
+			"wave"	"ambient/venice_wind_gust_05.mp3"
+			"wave"	"ambient/venice_wind_gust_06.mp3"
+			"wave"	"ambient/venice_wind_gust_07.mp3"
+		}
+	}
+}
+
+"venice.outside.coast.waves"
+{
+	"dsp" "1"
+	"fadetime" "1.5"
+
+	"playsoundscape"
+	{
+		"name"				"Lumberyard.Outside"
+		"ambientpositionoverride"	"0"
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// waves
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"0.20,0.30"
+		"pitch"		"95,100"
+		"position"	"1"
+
+		"rndwave"
+		{
+			"wave"	"ambient\canals\ambience_canals_water_bridge_01.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_02.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_03.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_04.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_05.wav"
+		}
+	}
+}
+
+"venice.outside.coast.windy.waves"
+{
+	"dsp" "1"
+	"fadetime" "1.5"
+
+	"playsoundscape"
+	{
+		"name"				"Lumberyard.Outside"
+		"ambientpositionoverride"	"0"
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// wind
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	"0.10,0.20"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_wind_gust_01.mp3"
+			"wave"	"ambient/venice_wind_gust_02.mp3"
+			"wave"	"ambient/venice_wind_gust_03.mp3"
+			"wave"	"ambient/venice_wind_gust_04.mp3"
+			"wave"	"ambient/venice_wind_gust_05.mp3"
+			"wave"	"ambient/venice_wind_gust_06.mp3"
+			"wave"	"ambient/venice_wind_gust_07.mp3"
+		}
+	}
+
+	// waves
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"0.20,0.30"
+		"pitch"		"95,100"
+		"position"	"1"
+
+		"rndwave"
+		{
+			"wave"	"ambient\canals\ambience_canals_water_bridge_01.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_02.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_03.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_04.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_05.wav"
+		}
+	}
+}
+
+"venice.inside.generic"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\tones\office_room_tone_01.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.3"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/rodent_scratch_short_3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+			"wave"	"ambient/inferno/house_creak_04.wav"
+			"wave"	"ambient/inferno/house_creak_05.wav"
+			"wave"	"ambient/inferno/house_creak_06.wav"
+		}
+	}
+}
+
+"venice.inside.coast"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\tones\office_room_tone_01.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.3"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/rodent_scratch_short_3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+			"wave"	"ambient/inferno/house_creak_04.wav"
+			"wave"	"ambient/inferno/house_creak_05.wav"
+			"wave"	"ambient/inferno/house_creak_06.wav"
+		}
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+}
+
+"venice.inside.coast.windy"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\tones\office_room_tone_01.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.3"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/rodent_scratch_short_3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+			"wave"	"ambient/inferno/house_creak_04.wav"
+			"wave"	"ambient/inferno/house_creak_05.wav"
+			"wave"	"ambient/inferno/house_creak_06.wav"
+		}
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// wind
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	"0.10,0.20"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_wind_gust_01.mp3"
+			"wave"	"ambient/venice_wind_gust_02.mp3"
+			"wave"	"ambient/venice_wind_gust_03.mp3"
+			"wave"	"ambient/venice_wind_gust_04.mp3"
+			"wave"	"ambient/venice_wind_gust_05.mp3"
+			"wave"	"ambient/venice_wind_gust_06.mp3"
+			"wave"	"ambient/venice_wind_gust_07.mp3"
+		}
+	}
+}
+
+"venice.inside.coast.waves"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\tones\office_room_tone_01.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.3"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/rodent_scratch_short_3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+			"wave"	"ambient/inferno/house_creak_04.wav"
+			"wave"	"ambient/inferno/house_creak_05.wav"
+			"wave"	"ambient/inferno/house_creak_06.wav"
+		}
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// waves
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"0.20,0.30"
+		"pitch"		"95,100"
+		"position"	"1"
+
+		"rndwave"
+		{
+			"wave"	"ambient\canals\ambience_canals_water_bridge_01.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_02.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_03.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_04.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_05.wav"
+		}
+	}
+}
+
+"venice.inside.coast.windy.waves"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\tones\office_room_tone_01.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.3"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/rodent_scratch_short_3.wav"
+			"wave"	"ambient/creatures/rats4.wav"
+			"wave"	"ambient/inferno/house_creak_04.wav"
+			"wave"	"ambient/inferno/house_creak_05.wav"
+			"wave"	"ambient/inferno/house_creak_06.wav"
+		}
+	}
+
+	// seagulls
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+
+	// seagulls custom
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.05,0.10"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_seagull_01.mp3"
+		}
+	}
+
+	// wind
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	"0.10,0.20"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/venice_wind_gust_01.mp3"
+			"wave"	"ambient/venice_wind_gust_02.mp3"
+			"wave"	"ambient/venice_wind_gust_03.mp3"
+			"wave"	"ambient/venice_wind_gust_04.mp3"
+			"wave"	"ambient/venice_wind_gust_05.mp3"
+			"wave"	"ambient/venice_wind_gust_06.mp3"
+			"wave"	"ambient/venice_wind_gust_07.mp3"
+		}
+	}
+
+	// waves
+	"playrandom"
+	{
+		"time"		"5,10"
+		"volume"	"0.20,0.30"
+		"pitch"		"95,100"
+		"position"	"1"
+
+		"rndwave"
+		{
+			"wave"	"ambient\canals\ambience_canals_water_bridge_01.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_02.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_03.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_04.wav"
+			"wave"	"ambient\canals\ambience_canals_water_bridge_05.wav"
+		}
+	}
+}

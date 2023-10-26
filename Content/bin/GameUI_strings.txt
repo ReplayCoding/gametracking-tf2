@@ -2074,6 +2074,7 @@ ffff.
 ^_[]
 0ffff.
 <^_[]
+fffff.
 ^_[]
 ^_[]
 ffff.
@@ -3754,6 +3755,7 @@ fffff.
 ^_[]
 fff.
 ^_[]
+ffffff.
 ^_[]
 ^_[]
 ^_[]
@@ -4352,7 +4354,6 @@ ffffff.
 ^_[]
 fffff.
 ^_[]
-fff.
 fff.
 ^_[]
 fff.
@@ -7694,6 +7695,7 @@ Undo
 Copy
 Paste
 PanelMoved
+LoadControlSettings failed! Invalid resource filename!
 SKIN
 custom_mod
 vgui
@@ -8383,6 +8385,7 @@ textfile
 RichText: textfile parameter '%s' not found.
 %s, string text, bool scrollbar
 URLClicked
+Invalid URL '%s'
 ClickPanel
 MoveScrollBar
 MoveScrollBarDirect
@@ -11234,7 +11237,7 @@ __Z29SteamInternal_Init_SteamVideoPP11ISteamVideo
 __Z40SteamInternal_Init_SteamParentalSettingsPP22ISteamParentalSettings
 __Z29SteamInternal_Init_SteamInputPP11ISteamInput
 __ZN10CUtlVectorIPc10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.71099.PL9Hnw.ii
+__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.1450.B6vClG.ii
 __ZTS7CGameUI
 __ZTS7IGameUI
 __ZTV7CGameUI
@@ -13954,7 +13957,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictIP9KeyValuesiE9RemoveAllEv
-__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.56574.kw6oJn.ii
+__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.89405.1vn2d7.ii
 __ZTSN4vgui10BuildGroupE
 __ZTVN4vgui10BuildGroupE
 __ZTIN4vgui10BuildGroupE
@@ -16996,7 +16999,7 @@ __ZN4vgui10ClickPanel14OnMousePressedE12ButtonCode_t
 __ZN4vgui10ClickPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIN4vgui8RichText13TFormatStreamE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlVectorIPN4vgui10ClickPanelE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.49345.HQMQru.ii
+__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.89406.TF28Iy.ii
 __ZTSN4vgui8RichTextE
 __ZTSN4vgui16RichTextInteriorE
 __ZTSN4vgui10ClickPanelE
@@ -17956,7 +17959,7 @@ __ZN4vgui8URLLabel13GetMessageMapEv
 __ZN4vgui8URLLabel10GetAnimMapEv
 __ZN4vgui8URLLabel8GetKBMapEv
 __ZN4vgui8URLLabel17GetPanelClassNameEv
-__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.49346.3rBOHP.ii
+__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.89407.q5FYeX.ii
 __ZTSN4vgui8URLLabelE
 __ZTVN4vgui8URLLabelE
 __ZTTN4vgui8URLLabelE
@@ -19295,7 +19298,7 @@ __Z29SteamInternal_Init_SteamVideoPP11ISteamVideo
 __Z40SteamInternal_Init_SteamParentalSettingsPP22ISteamParentalSettings
 __Z29SteamInternal_Init_SteamInputPP11ISteamInput
 __ZN10CUtlVectorIPc10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.71099.PL9Hnw.ii
+__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.1450.B6vClG.ii
 __ZN23CLabeledCommandComboBoxC1EPN4vgui5PanelEPKc
 __ZN23CLabeledCommandComboBoxD1Ev
 __ZN23CLabeledCommandComboBoxD0Ev
@@ -20881,7 +20884,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictIP9KeyValuesiE9RemoveAllEv
-__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.56574.kw6oJn.ii
+__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.89405.1vn2d7.ii
 __ZN19CBuildModeDialogMgr3AddEPN4vgui15BuildModeDialogE
 __ZN4vgui15BuildModeDialog14CreateControlsEv
 __ZN4vgui15BuildModeDialogC1EPNS_10BuildGroupE
@@ -22825,7 +22828,7 @@ __ZN4vgui10ClickPanel14OnMousePressedE12ButtonCode_t
 __ZN4vgui10ClickPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIN4vgui8RichText13TFormatStreamE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlVectorIPN4vgui10ClickPanelE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.49345.HQMQru.ii
+__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.89406.TF28Iy.ii
 __ZL25Create_ScalableImagePanelv
 __ZN4vgui18ScalableImagePanelC1EPNS_5PanelEPKc
 __ZN4vgui18ScalableImagePanelD2Ev
@@ -23464,7 +23467,7 @@ __ZN4vgui8URLLabel13GetMessageMapEv
 __ZN4vgui8URLLabel10GetAnimMapEv
 __ZN4vgui8URLLabel8GetKBMapEv
 __ZN4vgui8URLLabel17GetPanelClassNameEv
-__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.49346.3rBOHP.ii
+__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.89407.q5FYeX.ii
 __ZN4vgui29VGui_InitMatSysInterfacesListEPKcPPFPvS1_PiEi
 __Z22stb_compress_dxt_blockPhPKhii
 __ZN11ImageLoader19ConvertToDXTRuntimeEPKh11ImageFormatPhS2_iiii

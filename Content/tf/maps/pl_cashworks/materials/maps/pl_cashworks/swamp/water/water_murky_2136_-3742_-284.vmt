@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SWAMP/WATER/WATER_MURKY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c2136_-3742_-284"
+		"Proxies"
+		{
+		}
+	}
+}

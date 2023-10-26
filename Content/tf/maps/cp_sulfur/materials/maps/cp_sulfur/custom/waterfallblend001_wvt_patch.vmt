@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"custom/waterfall002"
+	"$surfaceprop"		"default"
+	"$additive"		"1"
+	"$nocull"		"1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$basetexturetransform"
+			"texturescrollrate"		"-0.340000"
+			"texturescrollangle"		"90"
+		}
+	}
+}

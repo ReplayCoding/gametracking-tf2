@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_brine/crab03"
+	"$bumpmap"	"models/props_brine/crab_nrm"
+
+	"$phongexponenttexture"	"models/props_brine/crab_exponent"
+
+	"$phong"		"1"
+	"$phongexponent"		"12"
+	"$phongboost"		".5"
+	"$phongfresnelranges"	"[1 2 8]"
+	"$phongalbedotint"		"1"
+
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+}
+
+

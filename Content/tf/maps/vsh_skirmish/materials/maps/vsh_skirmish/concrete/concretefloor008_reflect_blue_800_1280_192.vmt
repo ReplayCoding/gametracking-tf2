@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT_BLUE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_skirmish/c800_1280_192"
+	}
+}

@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+	$basetexture "greek/greek_rockwall01"
+	$bumpmap "nature/rockwall004_bump-ssbump"
+	$surfaceprop Rock
+	$ssbump 1
+
+	$basetexture2 "greek/greek_moss01"
+	$bumpmap2 "greek/greek_moss01_ssbump"
+	$surfaceprop2 Grass
+
+	$blendmodulatetexture "nature/grass_blendmask"
+}

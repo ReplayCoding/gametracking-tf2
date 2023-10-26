@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture"	"Models/props_woods/woods_tree_01"
+	"$surfaceprop"   "wood"
+
+	$treeSway                         "1"
+	$treeSwayHeight                   "5"
+	$treeSwayStartHeight              "0"
+	$treeSwayRadius                   "1500"
+	$treeSwayStartRadius              "0.0"
+	$treeSwaySpeed                    "1"
+	$treeSwayStrength                 "1"
+	$treeSwayScrumbleSpeed            "5"
+	$treeSwayScrumbleStrength         "1"
+	$treeSwayScrumbleFrequency        "8000"
+	$treeSwayFalloffExp               "2"
+	$treeSwayScrumbleFalloffExp       "1"
+	$treeSwaySpeedHighWindMultiplier  ".2"
+	$treeSwaySpeedLerpStart           "1000.0"
+	$treeSwaySpeedLerpEnd             "1500.0"
+	$treeSwayStatic 1
+}

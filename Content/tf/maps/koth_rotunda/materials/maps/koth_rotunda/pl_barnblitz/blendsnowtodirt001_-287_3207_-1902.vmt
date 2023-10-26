@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_BARNBLITZ/BLENDSNOWTODIRT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c-287_3207_-1902"
+	}
+}

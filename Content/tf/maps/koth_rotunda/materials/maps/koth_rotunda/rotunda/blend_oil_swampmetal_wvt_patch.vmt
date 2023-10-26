@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"<dx90"
+	{
+		"$fallbackmaterial"		"rotunda/blend_oil_swampmetal_dx80"
+	}
+	"$basetexture"		"swamp/metal/swampmetal001"
+	"$surfaceprop"		"metal"
+	"$bumpmap"		"rotunda/metalfloor_normal_edit"
+	"$basetexturenoenvmap"		"1"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmapcontrast"		"0"
+	"$envmapsaturation"		"1"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+	"%keywords"		"tf"
+}

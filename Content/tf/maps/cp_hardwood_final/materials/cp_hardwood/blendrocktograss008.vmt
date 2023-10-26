@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "cp_sunshine/nature/rockwall001"
+	"$basetexture2" "Nature/grass_08"
+	"%tooltexture" "Nature/blendgroundtograss008_tooltexture"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/dirtground001_height-ssbump"
+	"%keywords" "tf"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+}

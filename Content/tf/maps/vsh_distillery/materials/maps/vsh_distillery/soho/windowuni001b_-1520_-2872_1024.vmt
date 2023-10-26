@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOWUNI001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_distillery/c-1520_-2872_1024"
+	}
+}

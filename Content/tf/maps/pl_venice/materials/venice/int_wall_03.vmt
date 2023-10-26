@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	$basetexture "venice/int_wall_03_d"
+	$bumpmap "venice/int_wall_03_n"
+	$surfaceprop Concrete
+	$ssbump 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+
+	%keywords "tf, venice"
+}

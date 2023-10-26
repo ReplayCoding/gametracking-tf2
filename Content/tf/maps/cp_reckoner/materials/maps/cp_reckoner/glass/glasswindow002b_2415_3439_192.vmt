@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_reckoner/c2415_3439_192"
+	}
+}

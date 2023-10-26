@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_POWERHOUSE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_pelican_peak/c-1792_2048_-640"
+		"Proxies"
+		{
+		}
+	}
+}

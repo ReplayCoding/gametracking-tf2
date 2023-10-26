@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+	$basetexture "sharkbay/tankerdeckb"
+	$surfaceprop "metal"
+
+	$basetexture2 "sharkbay/tankerdeck2"
+	$surfaceprop2 "metal"
+
+
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+	%keywords "tf, zeus"
+}

@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "water/waterfall001"
+	"$basetexture2" "waterfx\Tool\alphablack"
+	"$surfaceprop"	"no_decal"
+	"$additive" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.34
+			"texturescrollangle" 90
+		}
+	}
+}

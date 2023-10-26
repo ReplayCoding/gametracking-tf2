@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_vshdistillery/fork_lift"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "0.05"	
+	"$lightwarptexture" "models/props_vehicles/pickup_lightwarp"
+	"$phongfresnelranges"	"[1 1.5 2]"
+}

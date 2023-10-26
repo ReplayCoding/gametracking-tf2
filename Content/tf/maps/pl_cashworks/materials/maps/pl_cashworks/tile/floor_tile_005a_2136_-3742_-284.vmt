@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c2136_-3742_-284"
+	}
+}

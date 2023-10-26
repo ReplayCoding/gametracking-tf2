@@ -1,0 +1,119 @@
+"Distillery.Outside"
+{
+    "dsp"    "1"
+
+    "playlooping"
+    {
+        "volume"    "1"
+        "pitch"        "100"
+        "wave"        "ambient/lair/jungle_insect_loop2.wav"
+    }
+	
+	"playlooping"
+    {
+        "volume"    "0.9"
+        "pitch"        "100"
+        "wave"        "ambient/lair/jungle_wind_loop.wav"
+    }
+
+    "playrandom"
+    {
+        "time"        "20"
+        "volume"        "0.9"
+        "pitch"        "100"
+        "rndwave"
+        {
+            "wave"        "ambient/machines/aircraft_distant_flyby3.wav"
+            "wave"        "ambient/machines/aircraft_distant_flyby1.wav"
+            "wave"        "ambient/atmosphere/city_skypass1.wav"
+	        "wave"        "ambient/water/distant_wave2.wav"
+		    "wave"        "ambient/water/distant_wave1.wav"
+            "wave"        "ambient/water/distant_wave3.wav"
+        }
+    }
+
+    "playrandom"
+    {
+        "time"        "25"
+        "volume"    "1"
+        "pitch"        "100"
+        "rndwave"
+        {
+            "wave"        "ambient/atmosphere/thunder3.wav"
+            "wave"        "ambient/atmosphere/thunder4.wav"
+            "wave"        "ambient_mp3/lair/cap_3_vista_thunder3.mp3"
+            "wave"        "ambient_mp3/lair/rolling_thunder4.mp3"
+        }
+    }
+
+    "playrandom"
+    {
+        "time"        "15"
+        "volume"        "0.5"
+        "pitch"        "100"
+        "rndwave"
+        {
+            "wave"        "ambient_mp3/lair/animal_call_woodpecker3.mp3"
+            "wave"        "ambient_mp3/lair/animal_call_woodpecker4.mp3"
+            "wave"        "ambient_mp3/lair/animal_call_woodpecker2.mp3"
+		}
+	}
+
+}
+
+"Distillery.Inside"
+{
+    "dsp"    "1"
+
+    "playlooping"
+    {
+        "volume"    "0.8"
+        "pitch"        "100"
+        "wave"        "ambient/lair/cap_3_tone3.wav"
+    }
+	
+	    "playlooping"
+    {
+        "volume"    "0.2"
+        "pitch"        "100"
+        "wave"        "ambient/levels/canals/generator_ambience_loop1.wav"
+    }
+	
+    "playlooping"
+    {
+        "volume"    "0.4"
+        "pitch"        "100"
+        "wave"        "ambient/lair/jungle_insect_loop2.wav"
+    }
+	
+    "playrandom"
+    {
+        "time"        "10"
+        "volume"        "0,7"
+        "pitch"        "100"
+        "rndwave"
+        {
+            "wave"        "ambient/materials/wood_creak1.wav"
+            "wave"        "ambient/materials/wood_creak2.wav"
+            "wave"        "ambient/materials/wood_creak6.wav"			
+            "wave"        "ambient/atmosphere/metallic1.wav"
+            "wave"        "ambient/water/distant_drip3.wav"
+            "wave"        "ambient/water/distant_drip2.wav"			
+			
+        }
+    }
+	
+    "playrandom"
+    {
+        "time"        "30"
+        "volume"    "1"
+        "pitch"        "100"
+        "rndwave"
+        {
+            "wave"        "ambient/atmosphere/thunder3.wav"
+            "wave"        "ambient/atmosphere/thunder4.wav"
+            "wave"        "ambient_mp3/lair/cap_3_vista_thunder3.mp3"
+            "wave"        "ambient_mp3/lair/rolling_thunder4.mp3"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_sulfur/c2073_-1034_-143"
+		"Proxies"
+		{
+		}
+	}
+}

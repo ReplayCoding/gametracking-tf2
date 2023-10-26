@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_cashworks/water/water_2fort_expensive_-477_-447_-307.vmt"
+	"insert"
+	{
+		"$waterdepth"		"12"
+	}
+}

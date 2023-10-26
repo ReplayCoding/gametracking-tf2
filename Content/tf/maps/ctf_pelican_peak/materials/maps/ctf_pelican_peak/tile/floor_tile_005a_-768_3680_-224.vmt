@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_pelican_peak/c-768_3680_-224"
+	}
+}

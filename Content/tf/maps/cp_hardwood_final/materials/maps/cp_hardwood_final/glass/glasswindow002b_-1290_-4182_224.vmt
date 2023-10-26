@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_hardwood_final/c-1290_-4182_224"
+	}
+}

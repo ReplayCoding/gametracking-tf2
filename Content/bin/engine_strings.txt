@@ -350,6 +350,7 @@ fffff.
 ffff.
 L^_[]
 :ua1
+0sbR
 ^_]
 ,^_[]
 ^_[]
@@ -970,7 +971,11 @@ ffffff.
 ffffff.
 ,^_[]
 ^_[]
-;b%]
+;g']
+;g']
+;B']
+;f']
+;k']
 fffff.
 ffffff.
 ^_[]
@@ -1095,7 +1100,7 @@ t%F;Z
 $ffffff.
 ^_[]
 fffff.
->?>\
+7g=\
 ffff.
 ffff.
 ^_[]
@@ -1236,9 +1241,10 @@ p`f.
 fffff.
 ffffff.
 fffff.
->N^\
->N^\
->F`\
+>.`\
+>.`\
+>~a\
+>&b\
 fffff.
 ^_[]
 fffff.
@@ -1875,13 +1881,13 @@ ffffff.
 <^_[]
 ffff.
 ^_[]
-;q!]
-;w!]
-;q!]
-;w!]
-;{!]
-;g!]
-;g!]
+;Q#]
+;W#]
+;Q#]
+;W#]
+;[#]
+;G#]
+;G#]
 ^_[]
 ffff.
 <^_[]
@@ -2036,8 +2042,7 @@ gfff
 u	9X
 ffffff.
 u	9X
-3?X_
-3sX_
+3SZ_
 fffff.
 u	9Z
 ^_[]
@@ -2166,6 +2171,7 @@ QD9E
 ^_[]
 QD9E
 ^_[]
+ffff.
 u+#U
 ^_[]
 ffff.
@@ -2214,7 +2220,6 @@ ffffff.
 ^_[]
 fffff.
 ^_[]
-ffffff.
 ^_[]
 ^_[]
 ^_[]
@@ -3407,6 +3412,7 @@ usH+
 uoH+
 ^_[]
 ffff.
+fff.
 ^_[]
 ffffff.
 ^_[]
@@ -3662,7 +3668,7 @@ L^_[]
 fff.
 ffffff.
 ^_[]
-_Om1
+_?o1
 fff.
 ffffff.
 ^_[]
@@ -3976,23 +3982,8 @@ fffff.
 SWVf
 ^_[]
 ffffff.
-;"2D
-;"2D
 fff.
-;*2D
-;.2D
 ffff.
-;*2D
-;.2D
-7&2D
-7*2D
-7.2D
-7"2D
-7&2D
-7*2D
-7.2D
-7"2D
-7&2D
 ffff.
 4ff.
 <^_[]
@@ -4837,6 +4828,8 @@ ffff.
 ffffff.
 \^_[]
 ffff.
+8B@Y
+8B@]
 fff.
 ffff.
 ffffff.
@@ -6592,7 +6585,6 @@ tuNff.
 ^_[]
 fff.
 ^_[]
-fff.
 ffff.
 ,^_[]
 ~-Cf
@@ -9309,7 +9301,7 @@ u6C1
 ffff.
 ^_[]
 ffffff.
-;3c%
+;sd%
 |^_[]
 fff.
 fffff.
@@ -10036,15 +10028,28 @@ fffff.
 ^_[]
 ^_[]
 @AB=
+9DE/
+9DE/
 ffffff.
+>DG/
+>DG/
 ffff.
 9G$u
 9G(uz9G,uu9G0up9G4uk9G8uf9G<ua
+CDE/
+KDG/
+SDE/
+CEE/
+KEG/
+SEE/
 fffff.
 fffff.
 ffff.
 ffff.
 ffff.
+VDE/
+NDG/
+FDE/
 fffff.
 fff.
 UUUU9
@@ -10540,6 +10545,7 @@ ffff.
 ^_[]
 0ffff.
 <^_[]
+fffff.
 ^_[]
 ^_[]
 ffff.
@@ -12124,6 +12130,7 @@ fffff.
 ^_[]
 fff.
 ^_[]
+ffffff.
 ^_[]
 ^_[]
 ^_[]
@@ -12593,7 +12600,6 @@ ffffff.
 ^_[]
 fffff.
 ^_[]
-fff.
 fff.
 ^_[]
 fff.
@@ -14072,6 +14078,7 @@ Server info data overflow
 CBaseClient::SendServerInfo(finished)
 Ignoring convar change request for variable '%s' from client %s; invalid characters in the variable name
 Client "%s" userinfo ignored: "%s" = "%s"
+Server requested disconnect
 Dropping ClientInfo packet from client not in appropriate state
 CBaseClient::ProcessBaselineAck: wrong baseline nr received (%i)
 CBaseClient::ProcessBaselineAck: invalid frame snapshot (%i)
@@ -16048,6 +16055,7 @@ Parses and stuffs command line + commands to command buffer.
 .gcf
 .sys
 .blob
+.scr
 exec <filename>: execute a script file
 //%s/cfg/%s
 .cfg
@@ -18658,6 +18666,7 @@ addons/
 .mix
 .asi
 .lmp
+.pop
 .bsp.bz2
 .xbox.vtx
 net_warningthrottle
@@ -19973,8 +19982,8 @@ FileSystem/SteamAppId
 steam_appid.txt
 -nobreakpad
 Using Breakpad minidump system. Version: %s AppID: %u
-Jan  4 2023
-10:23:48
+Jul 11 2023
+16:02:49
 %sLaunching "%s"
 DedicatedServerAPI
 /proc/self/maps
@@ -20979,6 +20988,7 @@ DeletePanel
 Copy
 Paste
 PanelMoved
+LoadControlSettings failed! Invalid resource filename!
 SKIN
 custom_mod
 vgui
@@ -21651,6 +21661,7 @@ textfile
 RichText: textfile parameter '%s' not found.
 %s, string text, bool scrollbar
 URLClicked
+Invalid URL '%s'
 DoCutSelected
 ClickPanel
 MoveScrollBar
@@ -23757,10 +23768,6 @@ H__Znwm
 @_wcsstr
 @_wcstol
 @_wcstoll
-@_CFNetworkCopyProxiesForAutoConfigurationScript
-@_CFNetworkCopyProxiesForURL
-@_FindNextComponent
-@_OpenAComponent
 @_objc_msgSend
 @_sel_registerName
 @_CFArrayGetCount
@@ -23773,6 +23780,10 @@ H__Znwm
 @_CFStringGetCString
 @_CFStringGetLength
 @_CFURLCreateWithBytes
+@_CFNetworkCopyProxiesForAutoConfigurationScript
+@_CFNetworkCopyProxiesForURL
+@_FindNextComponent
+@_OpenAComponent
 "CreateInterface
 Xcvar
 FaPv
@@ -24601,7 +24612,7 @@ __ZN10CUtlVectorIN13SVC_ClassInfo7class_sE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI14_XUSER_CONTEXT10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI15_XUSER_PROPERTY10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIy10CUtlMemoryIyiEED2Ev
-__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.57155.Brb4ku.ii
+__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.89442.oLmtIq.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 __ZTS13NET_SetConVar
 __ZTS13NET_StringCmd
@@ -25665,7 +25676,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE
 __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE11RotateRightEt
 __ZN10CUtlVectorIP9CSfxTable10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_snd_dma.stdout.rel_tf_osx_builder.57249.j1Ti6s.ii
+__GLOBAL__sub_I_snd_dma.stdout.rel_tf_osx_builder.89448.4sbtrF.ii
 __ZTS9CSfxTable
 _.memset_pattern
 __ZTS9CDummySfx
@@ -25920,7 +25931,7 @@ __Z15DSP_Process5To1P5dsp_tP21portable_samplepair_tS2_S2_ib
 __Z15DSP_Process5To5P5dsp_tP21portable_samplepair_tS2_S2_ib
 __Z16DLY_GetNextXfadeP5dly_ti
 __Z12PSET_GetNextP6pset_ti
-__GLOBAL__sub_I_snd_dsp.stdout.rel_tf_osx_builder.57253.mH37k6.ii
+__GLOBAL__sub_I_snd_dsp.stdout.rel_tf_osx_builder.89449.W7thPG.ii
 _flt_rng
 _dly_rng
 _mdy_rng
@@ -26055,7 +26066,7 @@ __Z12SND_MovieEndv
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEE9AddToTailEv
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_snd_mix.stdout.rel_tf_osx_builder.57259.giHBSQ.ii
+__GLOBAL__sub_I_snd_mix.stdout.rel_tf_osx_builder.89450.a1mpMw.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -26167,7 +26178,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE6InsertERKSA_
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
-__GLOBAL__sub_I_snd_mp3_so.stdout.rel_tf_osx_builder.57262.HPXbAZ.ii
+__GLOBAL__sub_I_snd_mp3_so.stdout.rel_tf_osx_builder.89485.9vawe7.ii
 __ZTS21CAudioSourceStreamMP3
 __ZTS15CAudioSourceMP3
 __ZTS20CAudioSourceMP3Cache
@@ -26281,7 +26292,7 @@ __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI
 __ZN14CUtlLinkedListIN18CAsyncWavDataCache15StreamedEntry_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE6UnlinkEi
 __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE15RemoveRebalanceEi
-__GLOBAL__sub_I_snd_wave_d.stdout.rel_tf_osx_builder.57265.uNly6r.ii
+__GLOBAL__sub_I_snd_wave_d.stdout.rel_tf_osx_builder.89494.aRUycW.ii
 __ZTS18CAsyncWavDataCache
 __ZTS20CWaveDataStreamAsync
 __ZTS20CWaveDataMemoryAsync
@@ -26546,7 +26557,7 @@ __ZN10CUtlVectorI16CSortedCacheFile10CUtlMemoryIS0_iEED2Ev
 __ZN18CUtlCachedFileDataI22CAudioSourceCachedInfoE8ShutdownEv
 __ZN18CUtlCachedFileDataI22CAudioSourceCachedInfoE12SaveManifestEv
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_snd_wave_s.stdout.rel_tf_osx_builder.57297.NCth5E.ii
+__GLOBAL__sub_I_snd_wave_s.stdout.rel_tf_osx_builder.89525.TEVD6a.ii
 __ZTS16CAudioSourceWave
 __ZTS19CAudioSourceMemWave
 __ZTS22CAudioSourceStreamWave
@@ -26591,7 +26602,7 @@ __Z17WaveCreateTmpFilePKciii
 __Z17WaveAppendTmpFilePKcPvii
 __Z16WaveFixupTmpFilePKc
 __ZL13movie_fixwaveRK8CCommand
-__GLOBAL__sub_I_snd_wave_t.stdout.rel_tf_osx_builder.57301.JiYjre.ii
+__GLOBAL__sub_I_snd_wave_t.stdout.rel_tf_osx_builder.89530.73G3py.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL21movie_fixwave_command
@@ -26599,7 +26610,7 @@ __ZL21movie_fixwave_command
 __ZN12IAudioDevice14AutoDetectInitEb
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/audio/private/snd_win.cpp
 __Z15SNDDMA_Shutdownv
-__GLOBAL__sub_I_snd_win.stdout.rel_tf_osx_builder.57323.7CgG6z.ii
+__GLOBAL__sub_I_snd_win.stdout.rel_tf_osx_builder.89537.wkAQCG.ii
 _snd_firsttime
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -26708,7 +26719,7 @@ __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS
 __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE11RotateRightEt
 __ZN16CVoiceWriterDataC2ERKS_
-__GLOBAL__sub_I_voice.stdout.rel_tf_osx_builder.57328.mRn1jK.ii
+__GLOBAL__sub_I_voice.stdout.rel_tf_osx_builder.89542.bgGVSR.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/audio/private/circularbuffer.h
 _g_VoiceSampleFormat
 _g_nVoiceFadeSamples
@@ -26871,7 +26882,7 @@ __ZN17CAudioSourceVoice14CWaveDataVoiceD0Ev
 __ZN17CAudioSourceVoice14CWaveDataVoice6SourceEv
 __ZN17CAudioSourceVoice14CWaveDataVoice14ReadSourceDataEPPviiPc
 __ZN17CAudioSourceVoice14CWaveDataVoice12IsReadyToMixEv
-__GLOBAL__sub_I_voice_soun.stdout.rel_tf_osx_builder.57332.o9Hd73.ii
+__GLOBAL__sub_I_voice_soun.stdout.rel_tf_osx_builder.89562.EDsJfi.ii
 __ZTS17CAudioSourceVoice
 __ZTS9CVoiceSfx
 __ZTSN17CAudioSourceVoice14CWaveDataVoiceE
@@ -26955,7 +26966,7 @@ __ZN10CUtlRBTreeI6ccpairiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE15In
 __ZN10CUtlVectorIh10CUtlMemoryIhiEE20InsertMultipleBeforeEii
 __ZN10CUtlRBTreeIN7CUtlMapIPKciiPFbRKS2_S4_EE6Node_tEiNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_iEiEED2Ev
 __ZN10CUtlRBTreeI6ccpairiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEED2Ev
-__GLOBAL__sub_I_vox.stdout.rel_tf_osx_builder.57353.A6Amii.ii
+__GLOBAL__sub_I_vox.stdout.rel_tf_osx_builder.89564.SZNt4c.ii
 __ZL9voxperiod
 __ZL8voxcomma
 __ZL13g_vox_isector
@@ -27109,7 +27120,7 @@ __ZThn4_NK11CBaseClient8IsReplayEv
 __ZThn4_NK11CBaseClient15IsHearingClientEi
 __ZThn4_NK11CBaseClient24IsProximityHearingClientEi
 __ZN10CUtlVectorI7Spike_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.57360.JLMzk1.ii
+__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.89565.XDfKhb.ii
 __ZTS7IClient
 __ZTS18INetChannelHandler
 __ZTS19IGameEventListener2
@@ -27234,7 +27245,7 @@ __ZN16CBaseClientState26InstallStringTableCallbackEPKc
 __ZN16CBaseClientState21HookClientStringTableEPKc
 __ZNK16CBaseClientState24GetConnectionRetryNumberEv
 __ZN16CBaseClientState13GetClientNameEv
-__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.57361.NhSm6Q.ii
+__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.89579.H7fX96.ii
 __ZTS16CBaseClientState
 __ZTS28IConnectionlessPacketHandler
 __ZTS21IServerMessageHandler
@@ -27363,7 +27374,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIP10CEventInfotEtE4GrowEi
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_baseserver.stdout.rel_tf_osx_builder.57362.ol8P9q.ii
+__GLOBAL__sub_I_baseserver.stdout.rel_tf_osx_builder.89586.WsxJtG.ii
 __ZTS11CBaseServer
 __ZTS7IServer
 __ZTV11CBaseServer
@@ -27509,7 +27520,7 @@ __ZN15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE
 __ZN15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.57364.HWbAfV.ii
+__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.89587.zLM8QP.ii
 __ZTS30CBugReportUploadProgressDialog
 __ZTS24CBugReportFinishedDialog
 __ZTS11CBugUIPanel
@@ -27598,7 +27609,7 @@ __ZL19TakeCubemapSnapshotRK6VectorPKciib
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/bitmap/float_bm.h
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/bitmap/imageformat.h
 __ZN14FloatCubeMap_tC2Eii
-__GLOBAL__sub_I_buildcubem.stdout.rel_tf_osx_builder.57379.lbue9g.ii
+__GLOBAL__sub_I_buildcubem.stdout.rel_tf_osx_builder.89592.Ul2Hwk.ii
 __ZZL19TakeCubemapSnapshotRK6VectorPKciibE6angle0
 __ZZL19TakeCubemapSnapshotRK6VectorPKciibE6angle1
 __ZZL19TakeCubemapSnapshotRK6VectorPKciibE8face_idx
@@ -27630,7 +27641,7 @@ __ZN17CBenchmarkResults14StartBenchmarkERK8CCommand
 __ZN17CBenchmarkResults13StopBenchmarkEv
 __ZL11bench_startRK8CCommand
 __ZL9bench_endRK8CCommand
-__GLOBAL__sub_I_cbenchmark.stdout.rel_tf_osx_builder.57387.YlJHNs.ii
+__GLOBAL__sub_I_cbenchmark.stdout.rel_tf_osx_builder.89594.tKOS6o.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -27816,7 +27827,7 @@ __ZN13CEngineClient25REMOVED_SteamRefreshLoginEPKcb
 __ZN13CEngineClient24REMOVED_SteamProcessCallERb
 __ZN13CEngineClient20GetEngineBuildNumberEv
 __ZN13CEngineClient23GetProductVersionStringEv
-__GLOBAL__sub_I_cdll_engin.stdout.rel_tf_osx_builder.57389.L6x5z9.ii
+__GLOBAL__sub_I_cdll_engin.stdout.rel_tf_osx_builder.89598.GaBLs8.ii
 __ZTS13CEngineClient
 __ZTS14IVEngineClient
 __ZTS17IVEngineClient013
@@ -27940,7 +27951,7 @@ __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/enginesingleuserfilter.h
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/event_system.h
 __ZN10CUtlVectorI8AddAngle10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_client.stdout.rel_tf_osx_builder.57422.KNsfsg.ii
+__GLOBAL__sub_I_client.stdout.rel_tf_osx_builder.89615.HENWFq.ii
 __ZTS12CClientState
 __ZTV12CClientState
 __ZTI12CClientState
@@ -27997,7 +28008,7 @@ __ZN14CClockDriftMgr24IsClockCorrectionEnabledEv
 __ZN14CClockDriftMgr15AdjustFrameTimeEf
 __ZN14CClockDriftMgr25AdjustAverageDifferenceByEf
 __ZN14CClockDriftMgr13ShowDebugInfoEf
-__GLOBAL__sub_I_clockdrift.stdout.rel_tf_osx_builder.57434.8y8peO.ii
+__GLOBAL__sub_I_clockdrift.stdout.rel_tf_osx_builder.89634.FkC400.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -28024,7 +28035,7 @@ __ZN20CBoundedCvar_CmdRateD0Ev
 __ZNK20CBoundedCvar_CmdRate8GetFloatEv
 __ZN23CBoundedCvar_UpdateRateD0Ev
 __ZNK23CBoundedCvar_UpdateRate8GetFloatEv
-__GLOBAL__sub_I_cl_bounded.stdout.rel_tf_osx_builder.57433.Dm3sua.ii
+__GLOBAL__sub_I_cl_bounded.stdout.rel_tf_osx_builder.89644.MRWlTR.ii
 __ZTS17CBoundedCvar_Rate
 __ZTS20ConVar_ServerBounded
 __ZTS20CBoundedCvar_CmdRate
@@ -28132,7 +28143,7 @@ __ZN11CDemoPlayer16CanSkipBackwardsEv
 __ZN11CDemoPlayer15ShouldLoopDemosEv
 __ZN11CDemoPlayer22OnLastDemoInLoopPlayedEv
 __ZN10CUtlVectorI16DemoCommandQueue10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_cl_demo.stdout.rel_tf_osx_builder.57446.OCoEOk.ii
+__GLOBAL__sub_I_cl_demo.stdout.rel_tf_osx_builder.89645.kkFQ1g.ii
 __ZTS13CDemoRecorder
 __ZTS11CDemoPlayer
 __ZTS13IDemoRecorder
@@ -28325,7 +28336,7 @@ __ZN33CBaseActionTextMessageStartDialogC1EP16CDemoEditorPanelP15CBaseDemoActionb
 __ZN31CBaseActionPlaySoundStartDialog17GetPanelClassNameEv
 __ZN31CBaseActionPlaySoundStartDialog8AddToMapEPKcMN4vgui5PanelEFvvEiiS1_iS1_
 __ZN10CUtlMemoryIN4vgui16MessageMapItem_tEiE4GrowEi
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57455.honShk.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89659.SACV7l.ii
 __ZTS21CBaseActionEditDialog
 __ZTS26CBaseActionSkipAheadDialog
 __ZTS32CBaseActionScreenFadeStartDialog
@@ -28466,7 +28477,7 @@ __ZN18CDemoActionManager14DispatchEventsEv
 __ZN18CDemoActionManager12OverrideViewER13democmdinfo_ti
 __ZN10CUtlVectorIP15CBaseDemoAction10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN10CUtlVectorIP15CBaseDemoAction10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57465.OaUrJ7.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89660.Z4vk1R.ii
 __ZTS18CDemoActionManager
 __ZTS18IDemoActionManager
 __ZTV18CDemoActionManager
@@ -28568,7 +28579,7 @@ __ZN24CDemoActionPausePlaybackD1Ev
 __ZN24CDemoActionPausePlaybackD0Ev
 __ZN15CDemoActionZoomD1Ev
 __ZN15CDemoActionZoomD0Ev
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57467.KNiGno.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89661.twAQqY.ii
 __ZTS20CDemoActionSkipAhead
 __ZTS23CDemoActionStopPlayback
 __ZTS23CDemoActionPlayCommands
@@ -28820,7 +28831,7 @@ __ZN13CDemoUIPanel28GetKBMapEv
 __ZN12CDemoUIPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIN4vgui16MessageMapItem_tE10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN13CDemoUIPanel217GetPanelClassNameEv
-__GLOBAL__sub_I_cl_demouip.stdout.rel_tf_osx_builder.57489.xwFYFD.ii
+__GLOBAL__sub_I_cl_demouip.stdout.rel_tf_osx_builder.89688.lXNEuu.ii
 __ZTS12CDemoUIPanel
 __ZTS13CDemoUIPanel2
 __ZTV12CDemoUIPanel
@@ -28878,7 +28889,7 @@ __ZN18CEntityReportPanel10ShouldDrawEv
 __ZN18CEntityReportPanel11ApplyEffectEP10ENTITYBITSRiS2_S2_
 __ZN18CEntityReportPanel9DrawEntryEiiiii
 __ZN18CEntityReportPanel5PaintEv
-__GLOBAL__sub_I_cl_entityr.stdout.rel_tf_osx_builder.57494.LiNiZO.ii
+__GLOBAL__sub_I_cl_entityr.stdout.rel_tf_osx_builder.89692.9WJvxv.ii
 __ZTS18CEntityReportPanel
 __ZTV18CEntityReportPanel
 __ZTT18CEntityReportPanel
@@ -28907,7 +28918,7 @@ __Z24CL_ProcessPacketEntitiesP18SVC_PacketEntities
 __Z21CL_PreprocessEntitiesv
 __ZN15CEntityReadInfoD1Ev
 __ZN15CEntityReadInfoD0Ev
-__GLOBAL__sub_I_cl_ents_pa.stdout.rel_tf_osx_builder.57503.KrLhuo.ii
+__GLOBAL__sub_I_cl_ents_pa.stdout.rel_tf_osx_builder.89701.RCbaJZ.ii
 __ZTS15CEntityReadInfo
 __ZTS11CEntityInfo
 __ZTV15CEntityReadInfo
@@ -28938,7 +28949,7 @@ __ZN11CFogUIPanel10GetAnimMapEv
 __ZN11CFogUIPanel8GetKBMapEv
 __ZN11CFogUIPanel17GetPanelClassNameEv
 __ZN11CFogUIPanel8AddToMapEPKcMN4vgui5PanelEFvvEiiS1_iS1_
-__GLOBAL__sub_I_cl_foguipa.stdout.rel_tf_osx_builder.57504.04gQ38.ii
+__GLOBAL__sub_I_cl_foguipa.stdout.rel_tf_osx_builder.89702.lzcFih.ii
 __ZTS11CFogUIPanel
 __ZTV11CFogUIPanel
 __ZTT11CFogUIPanel
@@ -28967,7 +28978,7 @@ __Z28CL_SetupLocalNetworkBackDoorb
 __ZN21CLocalNetworkBackdoorD1Ev
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/LocalNetworkBackdoor.h
 __ZN14CUtlLinkedListIttLb0Et10CUtlMemoryI19UtlLinkedListElem_tIttEtEED2Ev
-__GLOBAL__sub_I_cl_localne.stdout.rel_tf_osx_builder.57505.QAsdTt.ii
+__GLOBAL__sub_I_cl_localne.stdout.rel_tf_osx_builder.89706.ePtcWP.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -29061,7 +29072,7 @@ __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEi
 __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE15InsertRebalanceEi
 __ZN8CFmtStrNILi256ELb0EE19InitQuietTruncationEv
-__GLOBAL__sub_I_cl_main.stdout.rel_tf_osx_builder.57511.xwcw2G.ii
+__GLOBAL__sub_I_cl_main.stdout.rel_tf_osx_builder.89708.yYm4Wd.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/globalvars_base.h
 __ZTS8CFmtStrNILi256ELb0EE
 __ZL14cl_jpegquality
@@ -29132,7 +29143,7 @@ __Z16CL_DescribeEventiP10CEventInfoPKc
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/cl_parse_event.cpp
 __Z13CL_FireEventsv
 __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS0_iEEE6UnlinkEi
-__GLOBAL__sub_I_cl_parse_e.stdout.rel_tf_osx_builder.57513.AO1ZIc.ii
+__GLOBAL__sub_I_cl_parse_e.stdout.rel_tf_osx_builder.89725.8VZhNE.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -29190,7 +29201,7 @@ __ZN19CPluginGameUIDialog17GetPanelClassNameEv
 __ZN8CMessage17GetPanelClassNameEv
 __ZN17CPluginHudMessage17GetPanelClassNameEv
 __ZN16CPluginUIManager17GetPanelClassNameEv
-__GLOBAL__sub_I_cl_pluginh.stdout.rel_tf_osx_builder.57517.GIbVkf.ii
+__GLOBAL__sub_I_cl_pluginh.stdout.rel_tf_osx_builder.89731.5050Fi.ii
 __ZTS11CPluginMenu
 __ZTS19CPluginGameUIDialog
 __ZTS8CMessage
@@ -29301,7 +29312,7 @@ __ZN11CRConClient12SendResponseER10CUtlBufferb
 __ZN11CRConClient12AuthenticateEv
 __ZN11CRConClient13BuildResponseER10CUtlBuffer23ServerDataRequestType_tPKcS4_
 __ZN11CRConClient7SendCmdEPKc
-__GLOBAL__sub_I_cl_rcon.stdout.rel_tf_osx_builder.57545.drCDGx.ii
+__GLOBAL__sub_I_cl_rcon.stdout.rel_tf_osx_builder.89748.0zDPwq.ii
 __ZTS16CRConVProfExport
 __ZTS11CRConClient
 __ZTS12IVProfExport
@@ -29371,7 +29382,7 @@ __ZN9CCallbackI13CSteam3Client20PersonaStateChange_tLb0EE3RunEPv
 __ZN9CCallbackI13CSteam3Client20PersonaStateChange_tLb0EED0Ev
 __ZN9CCallbackI13CSteam3Client17LowBatteryPower_tLb0EE3RunEPv
 __ZN9CCallbackI13CSteam3Client17LowBatteryPower_tLb0EED0Ev
-__GLOBAL__sub_I_cl_steamau.stdout.rel_tf_osx_builder.57547.QNnFvq.ii
+__GLOBAL__sub_I_cl_steamau.stdout.rel_tf_osx_builder.89752.ysLld1.ii
 __ZTS13CCallbackImplILi1EE
 __ZTS13CCallbackImplILi12EE
 __ZTS13CCallbackImplILi128EE
@@ -29550,7 +29561,7 @@ __ZNK10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5
 __ZN10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE6UnlinkEt
 __ZN10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE15RemoveRebalanceEt
 __ZN10CUtlVectorIb10CUtlMemoryIbiEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_cl_texture.stdout.rel_tf_osx_builder.57557.vqdLja.ii
+__GLOBAL__sub_I_cl_texture.stdout.rel_tf_osx_builder.89756.zAH56M.ii
 __ZTSN4vgui15TileViewPanelExE
 __ZTS13CVmtTextEntry
 __ZTS20CRenderTextureEditor
@@ -29710,7 +29721,7 @@ __Z19Cmd_ForwardToServerRK8CCommandb
 __ZN8CUtlDictIiiED1Ev
 __ZN10CUtlVectorIi10CUtlMemoryIiiEED1Ev
 __Z14V_sprintf_safeILm512EEiRAT__cPKcz
-__GLOBAL__sub_I_cmd.stdout.rel_tf_osx_builder.17737.gLXlrJ.ii
+__GLOBAL__sub_I_cmd.stdout.rel_tf_osx_builder.89761.kdMATn.ii
 __ZL22g_pBlacklistedCommands
 _cmd_clientslot
 __ZL18g_FileAssociations
@@ -30215,7 +30226,7 @@ __ZN23CColorCorrectionUIPanel17GetPanelClassNameEv
 __ZN10CUtlVectorI6Vector10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZNK14CUtlSortVectorI6VectorN21CCurvesColorOperation14CurvesLessFuncE10CUtlVectorIS0_10CUtlMemoryIS0_iEEE15FindLessOrEqualIS0_EEiRKT_Pb
 __ZN10CUtlVectorIP28CColorCorrectionUIChildPanel10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_colorcorre.stdout.rel_tf_osx_builder.57585.KDVayN.ii
+__GLOBAL__sub_I_colorcorre.stdout.rel_tf_osx_builder.89762.gS0Q7M.ii
 __ZTS16CPrecisionSlider
 __ZTS21CCurvesColorOperation
 __ZTS21CColorCurvesEditPanel
@@ -30618,7 +30629,7 @@ __ZN18CCopyableUtlVectorIN9CConPanel11CNotifyTextEED1Ev
 __ZN18CCopyableUtlVectorIN9CConPanel11CNotifyTextEED0Ev
 __ZN10CUtlVectorIN9CConPanel11CNotifyTextE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN9CConPanel11CNotifyTextE10CUtlMemoryIS1_iEE10GrowVectorEi
-__GLOBAL__sub_I_console.stdout.rel_tf_osx_builder.57604.palS3N.ii
+__GLOBAL__sub_I_console.stdout.rel_tf_osx_builder.89784.LpmPWA.ii
 __ZTS9CConPanel
 __ZTS18CCopyableUtlVectorIN9CConPanel11CNotifyTextEE
 __ZTS10CUtlVectorIN9CConPanel11CNotifyTextE10CUtlMemoryIS1_iEE
@@ -30698,7 +30709,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIPK14ConCommandBasetEtE4GrowEi
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE11RotateRightEt
-__GLOBAL__sub_I_cvar.stdout.rel_tf_osx_builder.57603.wfXQlL.ii
+__GLOBAL__sub_I_cvar.stdout.rel_tf_osx_builder.89786.ZqlzPw.ii
 __ZTS10CCvarQuery
 __ZTS14CBaseAppSystemI10ICvarQueryE
 __ZTS10ICvarQuery
@@ -30780,7 +30791,7 @@ __ZThn4_N15CIVDebugOverlay20AddEntityTextOverlayEiifiiiiPKcz
 __ZThn4_N15CIVDebugOverlay14AddTextOverlayERK6VectorfPKcz
 __ZThn4_N15CIVDebugOverlay14AddTextOverlayERK6VectorifPKcz
 __ZThn4_N15CIVDebugOverlay17AddTextOverlayRGBERK6VectorifffffPKcz
-__GLOBAL__sub_I_debugoverl.stdout.rel_tf_osx_builder.57607.Ef2VXb.ii
+__GLOBAL__sub_I_debugoverl.stdout.rel_tf_osx_builder.89796.GyP0Fh.ii
 __ZTS15CIVDebugOverlay
 __ZTS14IVDebugOverlay
 __ZTS21IVPhysicsDebugOverlay
@@ -31056,7 +31067,7 @@ __ZN14CUtlLinkedListI16CDispShadowDecaltLb1Et10CUtlMemoryI19UtlLinkedListElem_tI
 __ZN10CUtlMemoryI19UtlLinkedListElem_tI16CDispShadowDecaltEtE4GrowEi
 __ZN14CUtlLinkedListIP7decal_tiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS1_iEEE13AllocInternalEb
 __ZN14CUtlLinkedListIP7decal_tiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS1_iEEE6UnlinkEi
-__GLOBAL__sub_I_disp_inter.stdout.rel_tf_osx_builder.57671.e5P8Ys.ii
+__GLOBAL__sub_I_disp_inter.stdout.rel_tf_osx_builder.89797.HCV9p0.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -31153,7 +31164,7 @@ __ZN16CDownloadManager11OnHttpErrorEP16RequestContext_t
 __ZN15CDownloadSystemD0Ev
 __ZN15CDownloadSystem20CreateDownloadThreadEP16RequestContext_t
 __ZN10CUtlVectorIP16RequestContext_t10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_download.stdout.rel_tf_osx_builder.57673.fQ9mx1.ii
+__GLOBAL__sub_I_download.stdout.rel_tf_osx_builder.89798.C5Vf4u.ii
 __ZL18k_szDownloadPathID
 __ZTS16CDownloadManager
 __ZTS15CDownloadSystem
@@ -31189,7 +31200,7 @@ __ZN22CDownloadListGenerator16ForceModelBoundsEPKcRK6VectorS4_
 __ZN22CDownloadListGeneratorD1Ev
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/DownloadListGenerator.h
 __Z14V_sprintf_safeILm1024EEiRAT__cPKcz
-__GLOBAL__sub_I_DownloadLi.stdout.rel_tf_osx_builder.57674.uher0r.ii
+__GLOBAL__sub_I_DownloadLi.stdout.rel_tf_osx_builder.89818.pcXpH1.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -31342,7 +31353,7 @@ __ZN14CUtlLinkedListIP13CDTIRecvTableiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1
 __ZN10CUtlVectorI8CDTIProp10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI8CDTIProp10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN14CUtlLinkedListIP13CDTIRecvTableiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
-__GLOBAL__sub_I_dt_instrum.stdout.rel_tf_osx_builder.57713.se26iZ.ii
+__GLOBAL__sub_I_dt_instrum.stdout.rel_tf_osx_builder.89826.1Dujfu.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -31389,7 +31400,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN7CUtlMapItttPFbRKtS3_EE6Node_tEtEtE4GrowEi
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE11RotateRightEt
-__GLOBAL__sub_I_dt_localtr.stdout.rel_tf_osx_builder.57726.laOINa.ii
+__GLOBAL__sub_I_dt_localtr.stdout.rel_tf_osx_builder.89836.eDztPd.ii
 __ZTS13CPropMapStack
 __ZTS15CDatatableStack
 __ZTS21CServerDatatableStack
@@ -31567,7 +31578,7 @@ __ZNK23CEngineSingleUserFilter13IsInitMessageEv
 __ZNK23CEngineSingleUserFilter17GetRecipientCountEv
 __ZNK23CEngineSingleUserFilter17GetRecipientIndexEi
 __ZNK23CEngineSingleUserFilter18IsBroadcastMessageEv
-__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.57733.cVOneY.ii
+__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.89839.FtyeJs.ii
 __ZTS18CEngineSoundClient
 __ZTS12IEngineSound
 __ZTS23CEngineSingleUserFilter
@@ -31611,7 +31622,7 @@ __ZN18CEngineSoundServer21PrecacheSentenceGroupEPKc
 __ZN18CEngineSoundServer24NotifyBeginMoviePlaybackEv
 __ZN18CEngineSoundServer22NotifyEndMoviePlaybackEv
 __ZN10CUtlVectorIP7edict_t10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.57737.PiNEi0.ii
+__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.89850.iHImw7.ii
 __ZTS18CEngineSoundServer
 __ZTV18CEngineSoundServer
 __ZTI18CEngineSoundServer
@@ -31728,7 +31739,7 @@ __ZL49__CreateCEngineToolIEngineToolFramework_interfacev
 __ZN11CEngineToolD1Ev
 __ZN11CEngineToolD0Ev
 __ZN10CUtlVectorIN11CEngineTool13QuitHandler_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_enginetool.stdout.rel_tf_osx_builder.57749.r6xU2g.ii
+__GLOBAL__sub_I_enginetool.stdout.rel_tf_osx_builder.89858.5XTsMx.ii
 __ZTS11CEngineTool
 __ZTS19IEngineToolInternal
 __ZTS11IEngineTool
@@ -31793,7 +31804,7 @@ __ZN18CTraceFilterHitAll15ShouldHitEntityEP13IHandleEntityi
 __ZNK12CTraceFilter12GetTraceTypeEv
 __ZN19CEntityListAlongRay11EnumElementEP13IHandleEntity
 __ZN18CEnumerationFilter11EnumElementEP13IHandleEntity
-__GLOBAL__sub_I_enginetrac.stdout.rel_tf_osx_builder.57772.4s3Zhz.ii
+__GLOBAL__sub_I_enginetrac.stdout.rel_tf_osx_builder.89863.1cxufF.ii
 __ZTS12CEngineTrace
 __ZTS18CEngineTraceServer
 __ZTS18CEngineTraceClient
@@ -31895,7 +31906,7 @@ __ZN19CEngineClientReplay15InitSoundRecordEv
 __ZN19CEngineClientReplay18Wave_CreateTmpFileEPKc
 __ZN19CEngineClientReplay18Wave_AppendTmpFileEPKcPvi
 __ZN19CEngineClientReplay17Wave_FixupTmpFileEPKc
-__GLOBAL__sub_I_engine_rep.stdout.rel_tf_osx_builder.57781.0zHSv0.ii
+__GLOBAL__sub_I_engine_rep.stdout.rel_tf_osx_builder.89865.pkcfsL.ii
 __ZTS13CEngineReplay
 __ZTS13IEngineReplay
 __ZTS19CEngineClientReplay
@@ -32039,7 +32050,7 @@ __ZN17CGameEventManager17RemoveListenerOldEPv
 __ZN10CUtlVectorIP18CGameEventCallback10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN10CUtlVectorIP18CGameEventCallback10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI20CGameEventDescriptor10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameEventM.stdout.rel_tf_osx_builder.57798.Rxlbhi.ii
+__GLOBAL__sub_I_GameEventM.stdout.rel_tf_osx_builder.89884.7XPfbR.ii
 __ZTS10CGameEvent
 __ZTS17CGameEventManager
 __ZTS10IGameEvent
@@ -32110,7 +32121,7 @@ __Z22DrawLightDebuggingInfov
 __ZL14DrawPointLightRK6Vectorf
 __ZN29CTraceFilterWorldAndPropsOnly15ShouldHitEntityEP13IHandleEntityi
 __ZNK29CTraceFilterWorldAndPropsOnly12GetTraceTypeEv
-__GLOBAL__sub_I_gl_drawlig.stdout.rel_tf_osx_builder.57821.VJaRE6.ii
+__GLOBAL__sub_I_gl_drawlig.stdout.rel_tf_osx_builder.89892.BxQTjn.ii
 __ZTS29CTraceFilterWorldAndPropsOnly
 __ZTS12ITraceFilter
 __ZTV29CTraceFilterWorldAndPropsOnly
@@ -32153,7 +32164,7 @@ __ZN9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
 __ZN9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_gl_lightma.stdout.rel_tf_osx_builder.57823.FqfQ5x.ii
+__GLOBAL__sub_I_gl_lightma.stdout.rel_tf_osx_builder.89904.02Gzpw.ii
 __ZTS9CFunctor6IPFvP8dlight_tP11msurface2_tRK11matrix3x4_tjbbES1_S3_S4_jbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 __ZTS15CMemberFunctor0IP15IMaterialSystemMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 __ZTS9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
@@ -32261,7 +32272,7 @@ __Z12R_LightPointR6Vector
 __ZL25FindIntersectionAtSurfaceP11msurface2_tfR6VectorR15LightVecState_t
 __ZL20ComputeLightmapColorP11msurface2_tiibR6Vector
 __ZN10CUtlVectorIP9IDispInfo10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_gl_rlight.stdout.rel_tf_osx_builder.57835.pwUlD0.ii
+__GLOBAL__sub_I_gl_rlight.stdout.rel_tf_osx_builder.89909.RyM0cG.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -32335,7 +32346,7 @@ __ZN7CRender15GetFovViewmodelEv
 __ZN9CUtlStackIN7CRender11ViewStack_tE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI20LightmapUpdateInfo_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI23LightmapTransformInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_gl_rmain.stdout.rel_tf_osx_builder.57839.YkyLJi.ii
+__GLOBAL__sub_I_gl_rmain.stdout.rel_tf_osx_builder.89910.0F3sZJ.ii
 __ZTS7CRender
 __ZTS7IRender
 __ZTV7CRender
@@ -32370,7 +32381,7 @@ __ZL13r_cleardecalsRK8CCommand
 __Z19R_LoadWorldGeometryb
 __Z11R_LevelInitv
 __Z15R_LevelShutdownv
-__GLOBAL__sub_I_gl_rmisc.stdout.rel_tf_osx_builder.57849.Ia6pWG.ii
+__GLOBAL__sub_I_gl_rmisc.stdout.rel_tf_osx_builder.89914.MvCuIa.ii
 _.memset_pattern
 _.memset_pattern19
 __ZL11vec2_origin
@@ -32489,7 +32500,7 @@ __ZN14CUtlLinkedListIN17CBrushBatchRender13brushrender_tEtLb0Et10CUtlMemoryI19Ut
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIN17CBrushBatchRender13brushrender_tEtEtE4GrowEi
 __ZN10CUtlVectorIP8cplane_t10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN17CBrushBatchRender13surfacelist_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_gl_rsurf.stdout.rel_tf_osx_builder.57851.EdjgbR.ii
+__GLOBAL__sub_I_gl_rsurf.stdout.rel_tf_osx_builder.89916.C9jegA.ii
 __ZL27s_DrawWorldListsToSortGroup
 __ZTS13CBrushSurface
 __ZTS14CEngineBSPTree
@@ -32661,7 +32672,7 @@ __ZN11CHLTVClient12SendSnapshotEP12CClientFrame
 __ZN11CHLTVClient19ProcessFileMD5CheckEP16CLC_FileMD5Check
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/hltvclient.h
 __ZThn8_N11CHLTVClient19ProcessFileMD5CheckEP16CLC_FileMD5Check
-__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.57875.yvjXRJ.ii
+__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.89918.rOeCx6.ii
 __ZTS11CHLTVClient
 __ZTV11CHLTVClient
 __ZTI11CHLTVClient
@@ -32743,7 +32754,7 @@ __ZN10CUtlVectorIN13NET_SetConVar6cvar_sE10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN16CHLTVClientState12GetCDKeyHashEv
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/hltvclientstate.h
 __ZN16CHLTVClientState13GetClientNameEv
-__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.57885.tnL00V.ii
+__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.89923.cjT4fM.ii
 __ZTS16CHLTVClientState
 __ZTV16CHLTVClientState
 __ZTI16CHLTVClientState
@@ -32949,7 +32960,7 @@ __ZThn488_N11CHLTVServer9IsLoadingEv
 __ZN19IGameEventListener2D1Ev
 __ZN19IGameEventListener2D0Ev
 __ZN10CUtlVectorI18CFrameCacheEntry_s10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_hltvserver.stdout.rel_tf_osx_builder.57888.maYK8T.ii
+__GLOBAL__sub_I_hltvserver.stdout.rel_tf_osx_builder.89958.TA7zZ5.ii
 __ZTS10CHLTVFrame
 __ZTS11CHLTVServer
 __ZTS11IHLTVServer
@@ -33080,7 +33091,7 @@ __ZN9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTE
 __ZN9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_host.stdout.rel_tf_osx_builder.57905.ErTqOt.ii
+__GLOBAL__sub_I_host.stdout.rel_tf_osx_builder.89962.D1wYo7.ii
 __ZTS11CFunctorJob
 __ZTS4CJob
 __ZTS12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
@@ -33273,7 +33284,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10C
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEE11RotateRightEt
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEE9RemoveAllEv
-__GLOBAL__sub_I_host_cmd.stdout.rel_tf_osx_builder.57921.JHBIcp.ii
+__GLOBAL__sub_I_host_cmd.stdout.rel_tf_osx_builder.89963.WVCOw5.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -33358,7 +33369,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLess
 __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictI12CMapListItemiE9RemoveAllEv
-__GLOBAL__sub_I_host_listm.stdout.rel_tf_osx_builder.57913.CQXhST.ii
+__GLOBAL__sub_I_host_listm.stdout.rel_tf_osx_builder.89972.bdv0p8.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -33512,7 +33523,7 @@ __ZN15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCount
 __ZN15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_host_saver.stdout.rel_tf_osx_builder.57926.5IyW1p.ii
+__GLOBAL__sub_I_host_saver.stdout.rel_tf_osx_builder.89973.WOlYNN.ii
 __ZL27CURRENT_SAVEFILE_HEADER_TAG
 __ZTS12CSaveRestore
 __ZTS12ISaveRestore
@@ -33678,7 +33689,7 @@ __Z17Key_StartTrapModev
 __Z21Key_CheckDoneTrappingR12ButtonCode_t
 __Z9Key_EventRK12InputEvent_t
 __ZL15HandleEngineKeyRK12InputEvent_t
-__GLOBAL__sub_I_keys.stdout.rel_tf_osx_builder.57939.3GTexQ.ii
+__GLOBAL__sub_I_keys.stdout.rel_tf_osx_builder.89997.Mxz0yN.ii
 __ZL12s_nTrapKeyUp
 __ZL10s_nTrapKey
 __ZL11vec2_origin
@@ -33732,7 +33743,7 @@ __ZN16CClassMemoryPoolI16PropLightcache_tE5ClearEv
 __ZN25CTraceFilterWorldAndProps15ShouldHitEntityEP13IHandleEntityi
 __ZNK25CTraceFilterWorldAndProps12GetTraceTypeEv
 __ZN30MarkStaticPropLightsEmumerator11EnumElementEP13IHandleEntity
-__GLOBAL__sub_I_lightcache.stdout.rel_tf_osx_builder.57951.nJGvl7.ii
+__GLOBAL__sub_I_lightcache.stdout.rel_tf_osx_builder.90004.FKi4vb.ii
 __ZTS25CTraceFilterWorldAndProps
 __ZTS30MarkStaticPropLightsEmumerator
 __ZL20cached_r_worldlights
@@ -33910,7 +33921,7 @@ __ZN14CColorMeshData15DestroyResourceEv
 __ZN14CUtlLinkedListIN12CModelRender15ModelInstance_tEtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE13AllocInternalEb
 __ZN14CUtlLinkedListIN12CModelRender15ModelInstance_tEtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIN12CModelRender15ModelInstance_tEtEtE4GrowEi
-__GLOBAL__sub_I_l_studio.stdout.rel_tf_osx_builder.57971.IFu0ce.ii
+__GLOBAL__sub_I_l_studio.stdout.rel_tf_osx_builder.90013.aYu4XI.ii
 __ZTS12CModelRender
 __ZTS28CPooledVBAllocator_ColorMesh
 __ZTS13IVModelRender
@@ -34040,7 +34051,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tI10CUtlSymboltEtE4GrowEi
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE11RotateRightEt
-__GLOBAL__sub_I_MapReslist.stdout.rel_tf_osx_builder.57973.lfAFkM.ii
+__GLOBAL__sub_I_MapReslist.stdout.rel_tf_osx_builder.90020.Ef9M51.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -34063,7 +34074,7 @@ __ZThn4_N12CMatchmaking19ProcessJoinResponseEP15MM_JoinResponse
 __ZN12CMatchmaking13ConnectToHostEv
 __ZN12CMatchmaking18ClearSearchResultsEv
 __ZL17mm_select_sessionRK8CCommand
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57976.KdPrny.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90021.kSNC1c.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL25mm_select_session_command
@@ -34093,7 +34104,7 @@ __ZN12CMatchmaking18CountPlayersOnTeamEi
 __ZN12CMatchmaking20SwitchToNextOpenTeamEP11CClientInfo
 __ZN10CUtlVectorI14_XUSER_CONTEXT10CUtlMemoryIS0_iEE9AddToTailERKS0_
 __ZN10CUtlVectorI15_XUSER_PROPERTY10CUtlMemoryIS0_iEE9AddToTailERKS0_
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57987.EUrRFz.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90025.v5CFVP.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL13mm_minplayers
@@ -34242,7 +34253,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10C
 __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE7NewNodeEv
 __ZN10CUtlMemoryI15UtlRBTreeNode_tIN7CUtlMapIjP11INetChanneltPFbRKjS5_EE6Node_tEtEtE4GrowEi
 __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE15InsertRebalanceEt
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57997.hFohdw.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90042.qWvu7y.ii
 __ZTS12CMatchmaking
 __ZTS12IMatchmaking
 __ZTS26IMatchmakingMessageHandler
@@ -34314,7 +34325,7 @@ __ZL18ReadVideoConfigIntPKcPi
 __ZN10CUtlVectorI10meshlist_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI10meshlist_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIP5IMesh10CUtlMemoryIS1_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_matsys_int.stdout.rel_tf_osx_builder.58005.x4MhS0.ii
+__GLOBAL__sub_I_matsys_int.stdout.rel_tf_osx_builder.90048.xhRSgd.ii
 __ZL18s_pRegistryConVars
 _r_framecount
 __ZL11vec2_origin
@@ -34491,7 +34502,7 @@ __ZN14CUtlLinkedListI16CUtlKeyValuePairIP7model_t7empty_tEtLb0Et10CUtlMemoryI19U
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E21DoInsertUnconstructedEjb
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E9DoReallocEi
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E9BumpEntryEj
-__GLOBAL__sub_I_ModelInfo.stdout.rel_tf_osx_builder.58007.4vdZjY.ii
+__GLOBAL__sub_I_ModelInfo.stdout.rel_tf_osx_builder.90049.V3Z1nS.ii
 __ZTS10CModelInfo
 __ZTS16CModelInfoServer
 __ZTS16CModelInfoClient
@@ -34680,7 +34691,7 @@ __ZNK13CUtlHashtableImi18DefaultHashFunctorImE19DefaultEqualFunctorImE11undefine
 __ZN13CUtlHashtableImi18DefaultHashFunctorImE19DefaultEqualFunctorImE11undefined_tE8DoRemoveImEEiT_j
 __ZN13CUtlHashtableIP7model_tN12CModelLoader17CDynamicModelInfoE18DefaultHashFunctorIS1_E19DefaultEqualFunctorIS1_E11undefined_tE8DoRemoveIS1_EEiT_j
 __ZN21CResourcePreloadModel23QueuedLoaderMapCallbackEPvS0_PKvi13LoaderError_t
-__GLOBAL__sub_I_modelloade.stdout.rel_tf_osx_builder.58017.6nLigD.ii
+__GLOBAL__sub_I_modelloade.stdout.rel_tf_osx_builder.90056.xczebo.ii
 __ZTS12CModelLoader
 __ZTS15CMDLCacheNotify
 __ZTS12IModelLoader
@@ -34886,7 +34897,7 @@ __ZN13CUtlHashtableIN19CUtlStableHashtableI19CUtlConstStringBaseIcE23CNetworkStr
 __ZN13CUtlHashtableIN19CUtlStableHashtableI19CUtlConstStringBaseIcE23CNetworkStringTableItem25CaselessStringHashFunctor40UTLConstStringCaselessStringEqualFunctorIcEtPKcE13IndirectIndexE7empty_tNS9_9HashProxyENS9_10EqualProxyES8_E9BumpEntryEj
 __ZN10CUtlVectorI18StringHistoryEntry10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIP19CNetworkStringTable10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58027.GPj9YY.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90061.Y3Mv48.ii
 __ZTS19CNetworkStringTable
 __ZTS28CNetworkStringTableContainer
 __ZTS19INetworkStringTable
@@ -34913,7 +34924,7 @@ _sv_compressstringtablebaselines_threshhold
 __ZL74__CreateCNetworkStringTableContainerINetworkStringTableContainer_interfacev
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/networkstringtableclient.cpp
 __Z20CL_PrintStringTablesv
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58031.W0VQNT.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90062.IgzgVk.ii
 _networkStringTableContainerClient
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -34937,7 +34948,7 @@ __ZL80__CreateCNetworkStringTableContainerServerINetworkStringTableContainer_int
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/networkstringtableserver.cpp
 __Z28SV_CreateNetworkStringTablesv
 __Z20SV_PrintStringTablesv
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58042.izRG4F.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90067.I0Kjqh.ii
 _networkStringTableContainerServer
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -35062,7 +35073,7 @@ __ZN10CUtlVectorIPN8CNetChan23SocketProcessingStats_tE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE6InsertERKS4_
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE15InsertRebalanceEi
-__GLOBAL__sub_I_net_chan.stdout.rel_tf_osx_builder.17738.19IPQL.ii
+__GLOBAL__sub_I_net_chan.stdout.rel_tf_osx_builder.90086.4sq3Rx.ii
 __ZTS8CNetChan
 __ZTSZN8CNetChan13ProcessPacketEP11netpacket_sbE51CNetChannelPacketProcessingCallbackFinishProcessing
 __ZTS11INetChannel
@@ -35196,7 +35207,7 @@ __ZN10CUtlVectorI11netsocket_t10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZN10CUtlVectorI11netpacket_s10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorIS_I17CSplitPacketEntry10CUtlMemoryIS0_iEES1_IS3_iEE20InsertMultipleBeforeEii
 ___cxx_global_array_dtor
-__GLOBAL__sub_I_net_ws.stdout.rel_tf_osx_builder.58067.NP0mZy.ii
+__GLOBAL__sub_I_net_ws.stdout.rel_tf_osx_builder.90094.13b08k.ii
 __ZTS8CFmtStrNILi128ELb0EE
 __ZZ11NET_GetLongiP11netpacket_sE16s_dblLastLogLine
 __ZZ11NET_GetLongiP11netpacket_sE16s_dblLastLogLine_0
@@ -35291,7 +35302,7 @@ __ZN17CUtlPriorityQueueIPN19CQueuedPacketSender13CQueuedPacketEE6InsertERKS2_
 __ZN19CQueuedPacketSender9IsRunningEv
 __ZThn288_N19CQueuedPacketSender9IsRunningEv
 __ZN10CUtlVectorIPN19CQueuedPacketSender13CQueuedPacketE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_net_ws_que.stdout.rel_tf_osx_builder.58071.VH6e3w.ii
+__GLOBAL__sub_I_net_ws_que.stdout.rel_tf_osx_builder.90095.QnWFma.ii
 __ZTS19CQueuedPacketSender
 __ZTS19IQueuedPacketSender
 __ZTV19CQueuedPacketSender
@@ -35352,7 +35363,7 @@ __ZN10CUtlVectorIN9CEdgeList9Surface_tE10CUtlMemoryIS1_iEED2Ev
 __ZNK14CUtlSortVectorItN9CEdgeList8EdgeLessE10CUtlVectorIt10CUtlMemoryItiEEE15FindLessOrEqualItEEiRKT_Pb
 __ZNK14CUtlSortVectorIi18WingedEdgeLessFunc10CUtlVectorIi10CUtlMemoryIiiEEE15FindLessOrEqualIiEEiRKT_Pb
 __ZN18WingedEdgeLessFunc4LessERKiS1_Pv
-__GLOBAL__sub_I_OcclusionS.stdout.rel_tf_osx_builder.58072.Vr06Sp.ii
+__GLOBAL__sub_I_OcclusionS.stdout.rel_tf_osx_builder.90104.Ixn1xI.ii
 __ZL16s_pSourceIndices
 __ZL15s_pDeltaIndices
 __ZL12s_pFaceEdges
@@ -35520,7 +35531,7 @@ __ZN16CPropFadeUIPanel17GetPanelClassNameEv
 __ZN19CAreaPortalsUIPanel17GetPanelClassNameEv
 __ZN17COcclusionUIPanel17GetPanelClassNameEv
 __ZN12CPerfUIPanel17GetPanelClassNameEv
-__GLOBAL__sub_I_perfuipane.stdout.rel_tf_osx_builder.58079.sxrCpl.ii
+__GLOBAL__sub_I_perfuipane.stdout.rel_tf_osx_builder.90106.ISP3xT.ii
 __ZTS17CPerfUIChildPanel
 __ZTS16IEnginePerfTools
 __ZTS16CPropFadeUIPanel
@@ -35649,7 +35660,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemory
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE11RotateRightEt
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE5PurgeEv
-__GLOBAL__sub_I_pr_edict.stdout.rel_tf_osx_builder.58107.9HNE8S.ii
+__GLOBAL__sub_I_pr_edict.stdout.rel_tf_osx_builder.90116.iRBvsE.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -35703,7 +35714,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6N
 __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6Node_tEiNSA_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISB_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6Node_tEiNSA_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISB_iEiEE15InsertRebalanceEi
 __ZN10CUtlVectorIS_Ih10CUtlMemoryIhiEES0_IS2_iEE10GrowVectorEi
-__GLOBAL__sub_I_pure_serve.stdout.rel_tf_osx_builder.58109.eDRMzX.ii
+__GLOBAL__sub_I_pure_serve.stdout.rel_tf_osx_builder.90124.TsMEGh.ii
 __ZTS20CPureServerWhitelist
 __ZTS20IPureServerWhitelist
 __ZTV20CPureServerWhitelist
@@ -35798,7 +35809,7 @@ __ZN17CReplayDemoPlayerD0Ev
 __ZThn1832_N17CReplayDemoPlayerD1Ev
 __ZThn1832_N17CReplayDemoPlayerD0Ev
 __ZN10CUtlVectorIPN17CReplayDemoPlayer14PlaybackInfo_tE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_replaydemo.stdout.rel_tf_osx_builder.58135.Dzvrut.ii
+__GLOBAL__sub_I_replaydemo.stdout.rel_tf_osx_builder.90132.GhBspy.ii
 __ZTS17CReplayDemoPlayer
 __ZTS17IReplayDemoPlayer
 __ZTV17CReplayDemoPlayer
@@ -35909,7 +35920,7 @@ __Z17ReplaySystem_Initb
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/replay_internal.cpp
 __Z21ReplaySystem_Shutdownv
 __Z32Replay_IsSupportedModAndPlatformv
-__GLOBAL__sub_I_replay_int.stdout.rel_tf_osx_builder.58151.8rizNq.ii
+__GLOBAL__sub_I_replay_int.stdout.rel_tf_osx_builder.90142.WeCVd1.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -35939,7 +35950,7 @@ __Z18R_CullNodeInternalP7mnode_tRiRK9Frustum_t
 __ZN10CUtlVectorI11CPortalRect10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI13CAreaCullInfo10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI13CAreaCullInfo10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_r_areaport.stdout.rel_tf_osx_builder.58158.nip053.ii
+__GLOBAL__sub_I_r_areaport.stdout.rel_tf_osx_builder.90153.gfAqHI.ii
 __ZL15g_GlobalCounter
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -36038,7 +36049,7 @@ __ZN9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor
 __ZThn8_N9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
 ___cxx_global_array_dtor
-__GLOBAL__sub_I_r_decal.stdout.rel_tf_osx_builder.58164.2CneGe.ii
+__GLOBAL__sub_I_r_decal.stdout.rel_tf_osx_builder.90157.hmbZkm.ii
 __ZTS9CFunctor2IPFvP11msurface2_t6VectorES1_S2_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 __ZTS9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 __ZL22g_iLastReplacedDynamic
@@ -36098,7 +36109,7 @@ __ZL28__CreateCVEfxIVEfx_interfacev
 __ZN5CVEfxD1Ev
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/r_efx.h
 __ZN5CVEfxD0Ev
-__GLOBAL__sub_I_r_efx.stdout.rel_tf_osx_builder.58175.ejtUgS.ii
+__GLOBAL__sub_I_r_efx.stdout.rel_tf_osx_builder.90170.8KOARF.ii
 __ZTS5CVEfx
 __ZTS5IVEfx
 __ZTV5CVEfx
@@ -36117,7 +36128,7 @@ __Z13Linefile_Drawv
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/engine/r_linefile.cpp
 __Z15Linefile_Read_fv
 __ZN10CUtlVectorI6Vector10CUtlMemoryIS0_iEED1Ev
-__GLOBAL__sub_I_r_linefile.stdout.rel_tf_osx_builder.58176.kcEvdK.ii
+__GLOBAL__sub_I_r_linefile.stdout.rel_tf_osx_builder.90172.dVabJM.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -36269,7 +36280,7 @@ __ZN11SoundInfo_t9ReadDeltaEPS_R7bf_readi
 __ZN10CUtlVectorI11SoundInfo_t10CUtlMemoryIS0_iEE12InsertBeforeEi
 __ZN10CUtlVectorI11SoundInfo_t10CUtlMemoryIS0_iEED2Ev
 __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS0_iEEE13AllocInternalEb
-__GLOBAL__sub_I_servermsgh.stdout.rel_tf_osx_builder.58179.REq1T5.ii
+__GLOBAL__sub_I_servermsgh.stdout.rel_tf_osx_builder.90173.J5G9iP.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -36875,7 +36886,7 @@ __ZN10CUtlVectorIN14CStaticPropMgr16StaticPropFade_tE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN14CStaticPropMgr16StaticPropDict_tE10CUtlMemoryIS1_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorI20StaticPropLeafLump_t10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorI11CStaticProp10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_staticprop.stdout.rel_tf_osx_builder.58241.gFyhp6.ii
+__GLOBAL__sub_I_staticprop.stdout.rel_tf_osx_builder.90208.Whj7SR.ii
 __ZTS11CStaticProp
 __ZTS14CStaticPropMgr
 __ZTS14IClientUnknown
@@ -37013,7 +37024,7 @@ __ZN11CGameClient12GetSendFrameEv
 __ZN11CGameClient16IgnoreTempEntityEP10CEventInfo
 __ZN11CGameClient15GetPrevPackInfoEv
 __ZN11SoundInfo_t10WriteDeltaEPS_R8bf_write
-__GLOBAL__sub_I_sv_client.stdout.rel_tf_osx_builder.17739.GVus3y.ii
+__GLOBAL__sub_I_sv_client.stdout.rel_tf_osx_builder.90211.Y3gVmL.ii
 __ZTS11CGameClient
 __ZTV11CGameClient
 __ZTI11CGameClient
@@ -37039,7 +37050,7 @@ __ZN14CUtlLinkedListIP12CChangeTrackiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_
 __ZN16CEntityWriteInfoD1Ev
 __ZN16CEntityWriteInfoD0Ev
 __ZN14CUtlLinkedListIP12CChangeTrackiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEED2Ev
-__GLOBAL__sub_I_sv_ents_wr.stdout.rel_tf_osx_builder.58249.6V4SSV.ii
+__GLOBAL__sub_I_sv_ents_wr.stdout.rel_tf_osx_builder.90210.KBioig.ii
 __ZTS16CEntityWriteInfo
 __ZTV16CEntityWriteInfo
 __ZTI16CEntityWriteInfo
@@ -37071,7 +37082,7 @@ __ZN10CUtlVectorI10ipfilter_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI12userfilter_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI10ipfilter_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI12userfilter_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sv_filter.stdout.rel_tf_osx_builder.58251.gXEohm.ii
+__GLOBAL__sub_I_sv_filter.stdout.rel_tf_osx_builder.90222.kSM2II.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -37118,7 +37129,7 @@ __ZN14CUtlLinkedListIP14CFrameSnapshottLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS
 __ZN14CUtlLinkedListIP14CFrameSnapshottLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIP14CFrameSnapshottEtE4GrowEi
 __ZN10CUtlVectorI19UnpackedDataCache_t10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_sv_framesn.stdout.rel_tf_osx_builder.58261.IeiaWF.ii
+__GLOBAL__sub_I_sv_framesn.stdout.rel_tf_osx_builder.90223.q8w7En.ii
 __ZTS21CFrameSnapshotManager
 __ZTV21CFrameSnapshotManager
 __ZTI21CFrameSnapshotManager
@@ -37173,7 +37184,7 @@ __ZN4CLog4OpenEv
 __ZL18CreateTempFilenameR14TempFilename_tPKcS2_b
 __Z14V_sprintf_safeILm1100EEiRAT__cPKcz
 __ZN10CUtlVectorI8netadr_s10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sv_log.stdout.rel_tf_osx_builder.58277.iLE30A.ii
+__GLOBAL__sub_I_sv_log.stdout.rel_tf_osx_builder.90224.Rv1t1g.ii
 __ZTS4CLog
 __ZTV4CLog
 __ZTI4CLog
@@ -37272,7 +37283,7 @@ __ZN9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefM
 __ZN9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_sv_main.stdout.rel_tf_osx_builder.58278.L8ULIU.ii
+__GLOBAL__sub_I_sv_main.stdout.rel_tf_osx_builder.90242.PQTbkM.ii
 __ZL21szSvNetSpikeUsageText
 __ZTS11CGameServer
 __ZTS15CMemberFunctor0IP18CParallelProcessorIP11CGameClient21CFuncJobItemProcessorIS2_EEMS5_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
@@ -37361,7 +37372,7 @@ __ZN15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorI
 __ZN15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_sv_packede.stdout.rel_tf_osx_builder.58279.9SqPq9.ii
+__GLOBAL__sub_I_sv_packede.stdout.rel_tf_osx_builder.90243.GXd801.ii
 __ZTS15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 __ZTV15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 __ZTI15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
@@ -37408,7 +37419,7 @@ __ZL11plugin_loadRK8CCommand
 __ZL13plugin_unloadRK8CCommand
 __ZN10CUtlVectorIP7CPlugin10CUtlMemoryIS1_iEE22PurgeAndDeleteElementsEv
 __ZN10CUtlVectorIP7CPlugin10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_sv_plugin.stdout.rel_tf_osx_builder.58280.VT2Are.ii
+__GLOBAL__sub_I_sv_plugin.stdout.rel_tf_osx_builder.90258.yccyRY.ii
 __ZTS13CServerPlugin
 __ZTS20IServerPluginHelpers
 __ZTV13CServerPlugin
@@ -37453,7 +37464,7 @@ __ZNK11CGameServer21GetSoundPrecacheTableEv
 __ZN11CGameServer8GetSoundEi
 __ZN11CGameServer17DumpPrecacheStatsEP19INetworkStringTable
 __ZL15sv_precacheinfoRK8CCommand
-__GLOBAL__sub_I_sv_precach.stdout.rel_tf_osx_builder.58285.r6upkL.ii
+__GLOBAL__sub_I_sv_precach.stdout.rel_tf_osx_builder.90260.7Q2wSE.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -37491,7 +37502,7 @@ __ZN10CUtlVectorIN11CRConServer12FailedRCon_tE10CUtlMemoryIS1_iEE12InsertBeforeE
 __ZN14CUtlLinkedListIftLb0Et10CUtlMemoryI19UtlLinkedListElem_tIftEtEE13AllocInternalEb
 __ZN14CUtlLinkedListIftLb0Et10CUtlMemoryI19UtlLinkedListElem_tIftEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIftEtE4GrowEi
-__GLOBAL__sub_I_sv_rcon.stdout.rel_tf_osx_builder.58294.H11Bfa.ii
+__GLOBAL__sub_I_sv_rcon.stdout.rel_tf_osx_builder.90261.xfO3y6.ii
 __ZTS11CRConServer
 __ZTV11CRConServer
 __ZTI11CRConServer
@@ -37515,7 +37526,7 @@ __Z14SV_RedirectEndv
 __Z21SV_RedirectCheckFlushi
 __Z17SV_RedirectActivev
 __Z18SV_RedirectAddTextPKc
-__GLOBAL__sub_I_sv_redirec.stdout.rel_tf_osx_builder.58295.Pr5spq.ii
+__GLOBAL__sub_I_sv_redirec.stdout.rel_tf_osx_builder.90264.4CG4Y5.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -37556,7 +37567,7 @@ __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI1
 __ZN14CUtlLinkedListIN19CServerRemoteAccess15ListenerStore_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE4FreeEi
-__GLOBAL__sub_I_sv_remotea.stdout.rel_tf_osx_builder.58296.6RrK9o.ii
+__GLOBAL__sub_I_sv_remotea.stdout.rel_tf_osx_builder.90273.OflyIn.ii
 __ZTS19CServerRemoteAccess
 __ZTS15IGameServerData
 __ZTV19CServerRemoteAccess
@@ -37661,7 +37672,7 @@ __ZN9CCallbackI13CSteam3Server18GSPolicyResponse_tLb1EE3RunEPv
 __ZN9CCallbackI13CSteam3Server18GSPolicyResponse_tLb1EED0Ev
 __ZN9CCallbackI13CSteam3Server29SteamNetworkingFakeIPResult_tLb1EE3RunEPv
 __ZN9CCallbackI13CSteam3Server29SteamNetworkingFakeIPResult_tLb1EED0Ev
-__GLOBAL__sub_I_sv_steamau.stdout.rel_tf_osx_builder.58325.0Lp2vy.ii
+__GLOBAL__sub_I_sv_steamau.stdout.rel_tf_osx_builder.90288.hN7asZ.ii
 __ZTS13CCallbackImplILi160EE
 __ZTS13CCallbackBase
 __ZTS13CCallbackImplILi24EE
@@ -37732,7 +37743,7 @@ __ZN16CUploadGameStats25IsGameStatsLoggingEnabledEv
 __ZN16CUploadGameStats17GetPseudoUniqueIdEPcm
 __ZN16CUploadGameStats15IsCyberCafeUserEv
 __ZN16CUploadGameStats12IsHDREnabledEv
-__GLOBAL__sub_I_sv_uploadg.stdout.rel_tf_osx_builder.58327.XJHgLK.ii
+__GLOBAL__sub_I_sv_uploadg.stdout.rel_tf_osx_builder.90292.y1PAwZ.ii
 __ZTS16CUploadGameStats
 __ZTS16IUploadGameStats
 __ZTV16CUploadGameStats
@@ -37777,7 +37788,7 @@ __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEt
 __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tI10CUtlStringtEtE4GrowEi
 __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEtEED2Ev
-__GLOBAL__sub_I_sys_dll.stdout.rel_tf_osx_builder.58331.7eKyF0.ii
+__GLOBAL__sub_I_sys_dll.stdout.rel_tf_osx_builder.90294.Xkp5Fs.ii
 __ZL7g_hfind
 _g_bUpdateMinidumpComment
 _g_GameSystemFactory
@@ -37888,7 +37899,7 @@ __ZN10CErrorTextILi95000EE13CommentPrintfEPKcz
 __ZN10CErrorTextILi95000EE21BuildCommentMemStatusEv
 __ZN10CErrorTextILi95000EE20BuildCommentExtendedEv
 __ZN10CUtlVectorI15AppSystemInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sys_dll2.stdout.rel_tf_osx_builder.58337.1qkMiz.ii
+__GLOBAL__sub_I_sys_dll2.stdout.rel_tf_osx_builder.90301.xuuHrc.ii
 __ZTS18CModAppSystemGroup
 __ZTS10CEngineAPI
 __ZTS19CDedicatedServerAPI
@@ -37970,7 +37981,7 @@ __ZN7CEngine12GetFrameTimeEv
 __ZN7CEngine10GetCurTimeEv
 __ZN7CEngine11SetQuittingEi
 __ZN7CEngine11GetQuittingEv
-__GLOBAL__sub_I_sys_engine.stdout.rel_tf_osx_builder.58343.DGb983.ii
+__GLOBAL__sub_I_sys_engine.stdout.rel_tf_osx_builder.90304.tjSJjU.ii
 __ZTS7CEngine
 __ZTS7IEngine
 __ZTV7CEngine
@@ -38044,7 +38055,7 @@ __Z16VideoMode_Createv
 __Z17VideoMode_Destroyv
 __ZN25CVideoMode_MaterialSystemD1Ev
 __ZN25CVideoMode_MaterialSystemD0Ev
-__GLOBAL__sub_I_sys_getmod.stdout.rel_tf_osx_builder.58345.xWvx0y.ii
+__GLOBAL__sub_I_sys_getmod.stdout.rel_tf_osx_builder.90306.ql2IX4.ii
 __ZTS17CVideoMode_Common
 __ZTS25CVideoMode_MaterialSystem
 __ZTS10IVideoMode
@@ -38421,7 +38432,7 @@ __ZN10CUtlVectorI7CSPVert10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZN10CUtlVectorI7CSPVert10CUtlMemoryIS0_iEED2Ev
 __ZNSt3__111__sort_heapIRPFbRKiS2_EPiEEvT0_S7_T_
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits
-__GLOBAL__sub_I_vengineser.stdout.rel_tf_osx_builder.58383.WAFX9k.ii
+__GLOBAL__sub_I_vengineser.stdout.rel_tf_osx_builder.90323.fPVCeG.ii
 __ZTS14CVEngineServer
 __ZTS14IVEngineServer
 __ZTS16CVEngineServer22
@@ -38490,7 +38501,7 @@ __ZN10CBasePanelD2Ev
 __ZN10CBasePanelD1Ev
 __ZN10CBasePanelD0Ev
 __ZN10CBasePanel6OnTickEv
-__GLOBAL__sub_I_vgui_basep.stdout.rel_tf_osx_builder.58405.h0gTDG.ii
+__GLOBAL__sub_I_vgui_basep.stdout.rel_tf_osx_builder.90334.mZbJWC.ii
 __ZTS10CBasePanel
 __ZTV10CBasePanel
 __ZTT10CBasePanel
@@ -38591,7 +38602,7 @@ __ZN12CEnginePanelD1Ev
 __ZN12CEnginePanelD0Ev
 __ZN10CUtlVectorIj10CUtlMemoryIjiEE9AddToTailERKj
 __ZN10CUtlVectorIN11CEngineVGui22LoadingProgressEntry_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_vgui_baseu.stdout.rel_tf_osx_builder.58411.MoiAsm.ii
+__GLOBAL__sub_I_vgui_baseu.stdout.rel_tf_osx_builder.90338.oSGPkg.ii
 __ZTS11CEngineVGui
 __ZTS18CFocusOverlayPanel
 __ZTS19IEngineVGuiInternal
@@ -38671,7 +38682,7 @@ __ZN18CBudgetPanelEngine6OnTickEv
 __ZN18CBudgetPanelEngine16SetTimeLabelTextEv
 __ZN18CBudgetPanelEngine19SetHistoryLabelTextEv
 __ZNK18CBudgetPanelEngine18IsBudgetPanelShownEv
-__GLOBAL__sub_I_vgui_budge.stdout.rel_tf_osx_builder.58415.WebBGk.ii
+__GLOBAL__sub_I_vgui_budge.stdout.rel_tf_osx_builder.90356.tbF8XQ.ii
 __ZTS18CBudgetPanelEngine
 __ZTV18CBudgetPanelEngine
 __ZTT18CBudgetPanelEngine
@@ -38846,7 +38857,7 @@ __ZN4vgui8TreeView19GenerateContextMenuEiii
 __ZN9CVGuiTreeD1Ev
 __ZN9CVGuiTreeD0Ev
 __ZN9CVGuiTree19ApplySchemeSettingsEPN4vgui7ISchemeE
-__GLOBAL__sub_I_vgui_drawt.stdout.rel_tf_osx_builder.58427.flc2pb.ii
+__GLOBAL__sub_I_vgui_drawt.stdout.rel_tf_osx_builder.90360.OdKLgd.ii
 __ZTS14CDrawTreeFrame
 __ZTS9CVGuiTree
 _g_bForceRefresh
@@ -38937,7 +38948,7 @@ __ZN25CConCommandMemberAccessorI19CTextureBudgetPanelE15CommandCallbackERK8CComm
 __ZN25CConCommandMemberAccessorI19CTextureBudgetPanelE25CommandCompletionCallbackEPKcR10CUtlVectorI10CUtlString10CUtlMemoryIS5_iEE
 __ZThn36_N25CConCommandMemberAccessorI19CTextureBudgetPanelE15CommandCallbackERK8CCommand
 __ZThn40_N25CConCommandMemberAccessorI19CTextureBudgetPanelE25CommandCompletionCallbackEPKcR10CUtlVectorI10CUtlString10CUtlMemoryIS5_iEE
-__GLOBAL__sub_I_vgui_textu.stdout.rel_tf_osx_builder.58440.9NUEAU.ii
+__GLOBAL__sub_I_vgui_textu.stdout.rel_tf_osx_builder.90380.4VTplf.ii
 __ZTS19CTextureBudgetPanel
 __ZTS25CConCommandMemberAccessorI19CTextureBudgetPanelE
 __ZTV19CTextureBudgetPanel
@@ -38981,7 +38992,7 @@ __ZN16CVProfGraphPanel5PaintEv
 __ZN16CVProfGraphPanel12PaintLineArtEiii
 __Z21CreateVProfGraphPanelPN4vgui5PanelE
 __Z22DestroyVProfGraphPanelv
-__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.58447.fvKD5q.ii
+__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.90382.S1VTb2.ii
 __ZTS16CVProfGraphPanel
 __ZTV16CVProfGraphPanel
 __ZTT16CVProfGraphPanel
@@ -39094,7 +39105,7 @@ __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMe
 __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE15InsertRebalanceEi
 __ZN8CFmtStrNILi1024ELb0EE19InitQuietTruncationEv
-__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.58457.ZAazqU.ii
+__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.90388.YaMe1i.ii
 __ZTS12CProfileTree
 __ZTS22CProfileHierarchyPanel
 __ZTS11CVProfPanel
@@ -39240,7 +39251,7 @@ __ZN12CVRenderView18GetMatricesForViewERK10CViewSetupP7VMatrixS4_S4_S4_
 __ZN12CVRenderView16DrawBrushModelExEP13IClientEntityP7model_tRK6VectorRK6QAngle20DrawBrushModelMode_t
 __ZN12CVRenderView13EnumerateLeafEii
 __ZThn4_N12CVRenderView13EnumerateLeafEii
-__GLOBAL__sub_I_view.stdout.rel_tf_osx_builder.58462.c8PmSU.ii
+__GLOBAL__sub_I_view.stdout.rel_tf_osx_builder.90389.CLDdyS.ii
 __ZTS12CVRenderView
 __ZTS12IVRenderView
 _r_colormod
@@ -39266,7 +39277,7 @@ __ZN12CVoiceServerD0Ev
 __ZN12CVoiceServer18GetClientListeningEii
 __ZN12CVoiceServer18SetClientListeningEiib
 __ZN12CVoiceServer18SetClientProximityEiib
-__GLOBAL__sub_I_voiceserve.stdout.rel_tf_osx_builder.58466.QeVM7J.ii
+__GLOBAL__sub_I_voiceserve.stdout.rel_tf_osx_builder.90399.ii0H60.ii
 __ZTS12CVoiceServer
 __ZTS12IVoiceServer
 __ZTV12CVoiceServer
@@ -39334,7 +39345,7 @@ __ZN12CVProfExport19GetBudgetGroupInfosEPN12IVProfExport24CExportedBudgetGroupIn
 __ZN12CVProfExport19GetBudgetGroupTimesEPf
 __ZN12CVProfExport35CalculateBudgetGroupTimes_RecursiveEP10CVProfNode
 __ZN10CUtlVectorI17VProfListenInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_vprof_engi.stdout.rel_tf_osx_builder.58468.SnxKc6.ii
+__GLOBAL__sub_I_vprof_engi.stdout.rel_tf_osx_builder.90400.VeYVAU.ii
 __ZTS12CVProfExport
 _g_pVProfExport
 __ZTV12CVProfExport
@@ -39417,7 +39428,7 @@ __ZN14CVProfRecorder15Record_SnapshotEv
 __ZN14CVProfRecorder24Record_MatchBudgetGroupsEP9CVProfile
 __ZN14CVProfRecorder18Record_MatchTree_REP10CVProfNodePKS0_P9CVProfile
 __ZN14CVProfRecorder21Record_WriteTimings_REPK10CVProfNode
-__GLOBAL__sub_I_vprof_reco.stdout.rel_tf_osx_builder.58481.4sJ7Zt.ii
+__GLOBAL__sub_I_vprof_reco.stdout.rel_tf_osx_builder.90401.Dj2jav.ii
 _g_pVProfileForDisplay
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -40703,7 +40714,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictIP9KeyValuesiE9RemoveAllEv
-__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.56574.kw6oJn.ii
+__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.89405.1vn2d7.ii
 __ZTSN4vgui10BuildGroupE
 __ZTVN4vgui10BuildGroupE
 __ZTIN4vgui10BuildGroupE
@@ -43576,7 +43587,7 @@ __ZN4vgui10ClickPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIw10CUtlMemoryIwiEED2Ev
 __ZN10CUtlVectorIN4vgui8RichText13TFormatStreamE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlVectorIPN4vgui10ClickPanelE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.49345.HQMQru.ii
+__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.89406.TF28Iy.ii
 __ZTSN4vgui8RichTextE
 __ZTSN4vgui16RichTextInteriorE
 __ZTSN4vgui10ClickPanelE
@@ -44369,7 +44380,7 @@ __ZN4vgui8URLLabel13GetMessageMapEv
 __ZN4vgui8URLLabel10GetAnimMapEv
 __ZN4vgui8URLLabel8GetKBMapEv
 __ZN4vgui8URLLabel17GetPanelClassNameEv
-__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.49346.3rBOHP.ii
+__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.89407.q5FYeX.ii
 __ZTSN4vgui8URLLabelE
 __ZTVN4vgui8URLLabelE
 __ZTTN4vgui8URLLabelE
@@ -45418,7 +45429,7 @@ __ZN10CUtlVectorIN13SVC_ClassInfo7class_sE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI14_XUSER_CONTEXT10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI15_XUSER_PROPERTY10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIy10CUtlMemoryIyiEED2Ev
-__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.57155.Brb4ku.ii
+__GLOBAL__sub_I_netmessage.stdout.rel_tf_osx_builder.89442.oLmtIq.ii
 __Z13GetAppModName10ESourceApp
 __Z16GetAppSteamAppId10ESourceApp
 __ZN8CSteamID13SetFromStringEPKc9EUniverse
@@ -46005,7 +46016,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE
 __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN7CUtlMapIPv12SfxDictEntrytPFbRKS1_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE11RotateRightEt
 __ZN10CUtlVectorIP9CSfxTable10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_snd_dma.stdout.rel_tf_osx_builder.57249.j1Ti6s.ii
+__GLOBAL__sub_I_snd_dma.stdout.rel_tf_osx_builder.89448.4sbtrF.ii
 __Z8FLT_FreeP5flt_t
 __Z10FLT_ParamsP5prc_t
 __Z8DLY_FreeP5dly_t
@@ -46122,7 +46133,7 @@ __Z15DSP_Process5To1P5dsp_tP21portable_samplepair_tS2_S2_ib
 __Z15DSP_Process5To5P5dsp_tP21portable_samplepair_tS2_S2_ib
 __Z16DLY_GetNextXfadeP5dly_ti
 __Z12PSET_GetNextP6pset_ti
-__GLOBAL__sub_I_snd_dsp.stdout.rel_tf_osx_builder.57253.mH37k6.ii
+__GLOBAL__sub_I_snd_dsp.stdout.rel_tf_osx_builder.89449.W7thPG.ii
 __Z17IsReplayRenderingv
 _MIX_FreeAllPaintbuffers
 _MIX_InitAllPaintbuffers
@@ -46175,7 +46186,7 @@ __Z12SND_MovieEndv
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEE9AddToTailEv
 __ZN10CUtlVectorI13paintbuffer_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_snd_mix.stdout.rel_tf_osx_builder.57259.giHBSQ.ii
+__GLOBAL__sub_I_snd_mix.stdout.rel_tf_osx_builder.89450.a1mpMw.ii
 __Z18PhonemeMP3Shutdownv
 __Z19AddPhonemesFromFilePKc
 __ZN15CAudioSourceMP3C2EP9CSfxTable
@@ -46252,7 +46263,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE6InsertERKSA_
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9CSentenceiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
-__GLOBAL__sub_I_snd_mp3_so.stdout.rel_tf_osx_builder.57262.HPXbAZ.ii
+__GLOBAL__sub_I_snd_mp3_so.stdout.rel_tf_osx_builder.89485.9vawe7.ii
 __Z19CreateSentenceMixerP9voxword_t
 __ZN14CSentenceMixerC2EP9voxword_t
 __ZN14CSentenceMixerD2Ev
@@ -46339,7 +46350,7 @@ __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI
 __ZN14CUtlLinkedListIN18CAsyncWavDataCache15StreamedEntry_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE6UnlinkEi
 __ZN10CUtlRBTreeIN18CAsyncWavDataCache13BufferEntry_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE15RemoveRebalanceEi
-__GLOBAL__sub_I_snd_wave_d.stdout.rel_tf_osx_builder.57265.uNly6r.ii
+__GLOBAL__sub_I_snd_wave_d.stdout.rel_tf_osx_builder.89494.aRUycW.ii
 __Z15CreateWaveMixerP9IWaveDataiiii
 __ZN15CAudioMixerWaveC2EP9IWaveData
 __ZN15CAudioMixerWaveD2Ev
@@ -46533,15 +46544,15 @@ __ZN10CUtlVectorI16CSortedCacheFile10CUtlMemoryIS0_iEED2Ev
 __ZN18CUtlCachedFileDataI22CAudioSourceCachedInfoE8ShutdownEv
 __ZN18CUtlCachedFileDataI22CAudioSourceCachedInfoE12SaveManifestEv
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_snd_wave_s.stdout.rel_tf_osx_builder.57297.NCth5E.ii
+__GLOBAL__sub_I_snd_wave_s.stdout.rel_tf_osx_builder.89525.TEVD6a.ii
 __Z17WaveCreateTmpFilePKciii
 __Z17WaveAppendTmpFilePKcPvii
 __Z16WaveFixupTmpFilePKc
 __ZL13movie_fixwaveRK8CCommand
-__GLOBAL__sub_I_snd_wave_t.stdout.rel_tf_osx_builder.57301.JiYjre.ii
+__GLOBAL__sub_I_snd_wave_t.stdout.rel_tf_osx_builder.89530.73G3py.ii
 __ZN12IAudioDevice14AutoDetectInitEb
 __Z15SNDDMA_Shutdownv
-__GLOBAL__sub_I_snd_win.stdout.rel_tf_osx_builder.57323.7CgG6z.ii
+__GLOBAL__sub_I_snd_win.stdout.rel_tf_osx_builder.89537.wkAQCG.ii
 __ZN10CVBRHeader20IsVBRHeaderAvailableEP8CMPAFileRNS_13VBRHeaderTypeERj
 __ZN10CVBRHeaderC2EP8CMPAFileNS_13VBRHeaderTypeEj
 __ZN10CVBRHeader17ExtractXINGHeaderEj
@@ -46616,7 +46627,7 @@ __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS
 __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeI16CVoiceWriterDatatPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE11RotateRightEt
 __ZN16CVoiceWriterDataC2ERKS_
-__GLOBAL__sub_I_voice.stdout.rel_tf_osx_builder.57328.mRn1jK.ii
+__GLOBAL__sub_I_voice.stdout.rel_tf_osx_builder.89542.bgGVSR.ii
 __ZN9CAutoGain5ResetEifff
 __ZN9CAutoGainC1Ev
 __ZN9CAutoGain14ProcessSamplesEPsi
@@ -46696,7 +46707,7 @@ __ZN17CAudioSourceVoice14CWaveDataVoiceD0Ev
 __ZN17CAudioSourceVoice14CWaveDataVoice6SourceEv
 __ZN17CAudioSourceVoice14CWaveDataVoice14ReadSourceDataEPPviiPc
 __ZN17CAudioSourceVoice14CWaveDataVoice12IsReadyToMixEv
-__GLOBAL__sub_I_voice_soun.stdout.rel_tf_osx_builder.57332.o9Hd73.ii
+__GLOBAL__sub_I_voice_soun.stdout.rel_tf_osx_builder.89562.EDsJfi.ii
 __Z12ReadWaveFilePKcRPcRiS3_S3_S3_
 __Z13WriteWaveFilePKcS0_iiii
 __ZL10VOX_Reloadv
@@ -46756,7 +46767,7 @@ __ZN10CUtlRBTreeI6ccpairiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE15In
 __ZN10CUtlVectorIh10CUtlMemoryIhiEE20InsertMultipleBeforeEii
 __ZN10CUtlRBTreeIN7CUtlMapIPKciiPFbRKS2_S4_EE6Node_tEiNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_iEiEED2Ev
 __ZN10CUtlRBTreeI6ccpairiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEED2Ev
-__GLOBAL__sub_I_vox.stdout.rel_tf_osx_builder.57353.A6Amii.ii
+__GLOBAL__sub_I_vox.stdout.rel_tf_osx_builder.89564.SZNt4c.ii
 __ZN25CBaseAutoCompleteFileList18AutoCompletionFuncEPKcPA64_c
 __ZN10CUtlVectorI10CUtlSymbol10CUtlMemoryIS0_iEED2Ev
 __ZN11CBaseClientC2Ev
@@ -46880,7 +46891,7 @@ __ZThn4_NK11CBaseClient8IsReplayEv
 __ZThn4_NK11CBaseClient15IsHearingClientEi
 __ZThn4_NK11CBaseClient24IsProximityHearingClientEi
 __ZN10CUtlVectorI7Spike_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.57360.JLMzk1.ii
+__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.89565.XDfKhb.ii
 __Z21UpdateNameFromSteamIDP7IConVarP8CSteamID
 __Z20SetNameToSteamIDNameP7IConVar
 __Z18CL_NameCvarChangedP7IConVarPKcf
@@ -46972,7 +46983,7 @@ __ZN16CBaseClientState26InstallStringTableCallbackEPKc
 __ZN16CBaseClientState21HookClientStringTableEPKc
 __ZNK16CBaseClientState24GetConnectionRetryNumberEv
 __ZN16CBaseClientState13GetClientNameEv
-__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.57361.NhSm6Q.ii
+__GLOBAL__sub_I_baseclient.stdout.rel_tf_osx_builder.89579.H7fX96.ii
 __Z14SortServerTagsPKPcS1_
 __ZL20SvTagsChangeCallbackP7IConVarPKcf
 __Z37AllowDebugDedicatedServerOutsideSteamv
@@ -47076,7 +47087,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIP10CEventInfotEtE4GrowEi
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIP10CEventInfotPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_baseserver.stdout.rel_tf_osx_builder.57362.ol8P9q.ii
+__GLOBAL__sub_I_baseserver.stdout.rel_tf_osx_builder.89586.WsxJtG.ii
 __Z24EngineBitBufErrorHandler15BitBufErrorTypePKc
 __Z25InstallBitBufErrorHandlerv
 ___cxx_global_array_dtor
@@ -47167,7 +47178,7 @@ __ZN15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE
 __ZN15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP10CCallQueueM11CCallQueueTI8CTSQueueIP8CFunctorLb0EEEFvvE12CRefCounted1IS4_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.57364.HWbAfV.ii
+__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.89587.zLM8QP.ii
 __Z17CubemapsFSFactoryPKcPi
 __ZL6envmapRK8CCommand
 __ZL10lightprobeRK8CCommand
@@ -47179,12 +47190,12 @@ __ZL18BuildSingleCubemapPKcRK6VectoribS0_P5IVTex
 __ZL13buildcubemapsRK8CCommand
 __ZL19TakeCubemapSnapshotRK6VectorPKciib
 __ZN14FloatCubeMap_tC2Eii
-__GLOBAL__sub_I_buildcubem.stdout.rel_tf_osx_builder.57379.lbue9g.ii
+__GLOBAL__sub_I_buildcubem.stdout.rel_tf_osx_builder.89592.Ul2Hwk.ii
 __ZN17CBenchmarkResults14StartBenchmarkERK8CCommand
 __ZN17CBenchmarkResults13StopBenchmarkEv
 __ZL11bench_startRK8CCommand
 __ZL9bench_endRK8CCommand
-__GLOBAL__sub_I_cbenchmark.stdout.rel_tf_osx_builder.57387.YlJHNs.ii
+__GLOBAL__sub_I_cbenchmark.stdout.rel_tf_osx_builder.89594.tKOS6o.ii
 __Z8CCS_Initv
 __Z12CCS_Shutdownv
 __Z8CCS_Tickf
@@ -47351,7 +47362,7 @@ __ZN13CEngineClient25REMOVED_SteamRefreshLoginEPKcb
 __ZN13CEngineClient24REMOVED_SteamProcessCallERb
 __ZN13CEngineClient20GetEngineBuildNumberEv
 __ZN13CEngineClient23GetProductVersionStringEv
-__GLOBAL__sub_I_cdll_engin.stdout.rel_tf_osx_builder.57389.L6x5z9.ii
+__GLOBAL__sub_I_cdll_engin.stdout.rel_tf_osx_builder.89598.GaBLs8.ii
 __Z20AllocChangeFrameListii
 __ZN16CChangeFrameList7ReleaseEv
 __ZN16CChangeFrameList11GetNumPropsEv
@@ -47424,7 +47435,7 @@ __ZN12CClientState33GetAreaBits_BackwardCompatibilityEv
 __ZN12CClientState8RunFrameEv
 __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS0_iEEE9RemoveAllEv
 __ZN10CUtlVectorI8AddAngle10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_client.stdout.rel_tf_osx_builder.57422.KNsfsg.ii
+__GLOBAL__sub_I_client.stdout.rel_tf_osx_builder.89615.HENWFq.ii
 __ZN12CClientFrame11SetSnapshotEP14CFrameSnapshot
 __ZN12CClientFrameC1EP14CFrameSnapshot
 __ZN12CClientFrameC2Ev
@@ -47451,7 +47462,7 @@ __ZN14CClockDriftMgr24IsClockCorrectionEnabledEv
 __ZN14CClockDriftMgr15AdjustFrameTimeEf
 __ZN14CClockDriftMgr25AdjustAverageDifferenceByEf
 __ZN14CClockDriftMgr13ShowDebugInfoEf
-__GLOBAL__sub_I_clockdrift.stdout.rel_tf_osx_builder.57434.8y8peO.ii
+__GLOBAL__sub_I_clockdrift.stdout.rel_tf_osx_builder.89634.FkC400.ii
 __ZN17CBoundedCvar_RateD1Ev
 __ZN20CBoundedCvar_CmdRateD1Ev
 __ZN23CBoundedCvar_UpdateRateD1Ev
@@ -47463,7 +47474,7 @@ __ZN20CBoundedCvar_CmdRateD0Ev
 __ZNK20CBoundedCvar_CmdRate8GetFloatEv
 __ZN23CBoundedCvar_UpdateRateD0Ev
 __ZNK23CBoundedCvar_UpdateRate8GetFloatEv
-__GLOBAL__sub_I_cl_bounded.stdout.rel_tf_osx_builder.57433.Dm3sua.ii
+__GLOBAL__sub_I_cl_bounded.stdout.rel_tf_osx_builder.89644.MRWlTR.ii
 __Z26CheckOtherInstancesRunningv
 __ZN13CDemoRecorderD1Ev
 __ZN11CDemoPlayerD1Ev
@@ -47542,7 +47553,7 @@ __ZN11CDemoPlayer16CanSkipBackwardsEv
 __ZN11CDemoPlayer15ShouldLoopDemosEv
 __ZN11CDemoPlayer22OnLastDemoInLoopPlayedEv
 __ZN10CUtlVectorI16DemoCommandQueue10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_cl_demo.stdout.rel_tf_osx_builder.57446.OCoEOk.ii
+__GLOBAL__sub_I_cl_demo.stdout.rel_tf_osx_builder.89645.kkFQ1g.ii
 __ZN15CBaseDemoActionC2Ev
 __ZN15CBaseDemoActionD2Ev
 __ZN15CBaseDemoActionD1Ev
@@ -47663,7 +47674,7 @@ __ZN33CBaseActionTextMessageStartDialogC1EP16CDemoEditorPanelP15CBaseDemoActionb
 __ZN31CBaseActionPlaySoundStartDialog17GetPanelClassNameEv
 __ZN31CBaseActionPlaySoundStartDialog8AddToMapEPKcMN4vgui5PanelEFvvEiiS1_iS1_
 __ZN10CUtlMemoryIN4vgui16MessageMapItem_tEiE4GrowEi
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57455.honShk.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89659.SACV7l.ii
 __ZN18CDemoActionManagerD1Ev
 __ZN18CDemoActionManagerD0Ev
 __ZN18CDemoActionManager4InitEv
@@ -47686,7 +47697,7 @@ __ZN18CDemoActionManager14DispatchEventsEv
 __ZN18CDemoActionManager12OverrideViewER13democmdinfo_ti
 __ZN10CUtlVectorIP15CBaseDemoAction10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN10CUtlVectorIP15CBaseDemoAction10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57465.OaUrJ7.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89660.Z4vk1R.ii
 __ZN20CDemoActionSkipAhead6UpdateERK23DemoActionTimingContext
 __ZN20CDemoActionSkipAhead4InitEP9KeyValues
 __ZN20CDemoActionSkipAhead13SetSkipToTickEi
@@ -47774,7 +47785,7 @@ __ZN24CDemoActionPausePlaybackD1Ev
 __ZN24CDemoActionPausePlaybackD0Ev
 __ZN15CDemoActionZoomD1Ev
 __ZN15CDemoActionZoomD0Ev
-__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.57467.KNiGno.ii
+__GLOBAL__sub_I_cl_demoact.stdout.rel_tf_osx_builder.89661.twAQqY.ii
 __ZN16CNewActionButtonC1EPN4vgui5PanelEPKcS4_
 __ZN16CDemoEditorPanel9OnRefreshEv
 __ZN16CDemoEditorPanelC1EPN4vgui5PanelE
@@ -47916,7 +47927,7 @@ __ZN13CDemoUIPanel28GetKBMapEv
 __ZN12CDemoUIPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIN4vgui16MessageMapItem_tE10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN13CDemoUIPanel217GetPanelClassNameEv
-__GLOBAL__sub_I_cl_demouip.stdout.rel_tf_osx_builder.57489.xwFYFD.ii
+__GLOBAL__sub_I_cl_demouip.stdout.rel_tf_osx_builder.89688.lXNEuu.ii
 __Z17CompareEntityBitsPKvS0_
 __Z18CL_ResetEntityBitsv
 __Z19CL_RecordEntityBitsii
@@ -47932,7 +47943,7 @@ __ZN18CEntityReportPanel10ShouldDrawEv
 __ZN18CEntityReportPanel11ApplyEffectEP10ENTITYBITSRiS2_S2_
 __ZN18CEntityReportPanel9DrawEntryEiiiii
 __ZN18CEntityReportPanel5PaintEv
-__GLOBAL__sub_I_cl_entityr.stdout.rel_tf_osx_builder.57494.LiNiZO.ii
+__GLOBAL__sub_I_cl_entityr.stdout.rel_tf_osx_builder.89692.9WJvxv.ii
 __Z18CL_DeleteDLLEntityiPKcb
 __Z20CL_FlushEntityPacketP12CClientFramePKcz
 __Z16CL_CopyNewEntityR15CEntityReadInfoii
@@ -47943,7 +47954,7 @@ __Z24CL_ProcessPacketEntitiesP18SVC_PacketEntities
 __Z21CL_PreprocessEntitiesv
 __ZN15CEntityReadInfoD1Ev
 __ZN15CEntityReadInfoD0Ev
-__GLOBAL__sub_I_cl_ents_pa.stdout.rel_tf_osx_builder.57503.KrLhuo.ii
+__GLOBAL__sub_I_cl_ents_pa.stdout.rel_tf_osx_builder.89701.RCbaJZ.ii
 __ZN11CFogUIPanel12InstallFogUIEPN4vgui5PanelE
 __ZN11CFogUIPanelC1EPN4vgui5PanelE
 __ZN11CFogUIPanelD1Ev
@@ -47959,11 +47970,11 @@ __ZN11CFogUIPanel10GetAnimMapEv
 __ZN11CFogUIPanel8GetKBMapEv
 __ZN11CFogUIPanel17GetPanelClassNameEv
 __ZN11CFogUIPanel8AddToMapEPKcMN4vgui5PanelEFvvEiiS1_iS1_
-__GLOBAL__sub_I_cl_foguipa.stdout.rel_tf_osx_builder.57504.04gQ38.ii
+__GLOBAL__sub_I_cl_foguipa.stdout.rel_tf_osx_builder.89702.lzcFih.ii
 __Z28CL_SetupLocalNetworkBackDoorb
 __ZN21CLocalNetworkBackdoorD1Ev
 __ZN14CUtlLinkedListIttLb0Et10CUtlMemoryI19UtlLinkedListElem_tIttEtEED2Ev
-__GLOBAL__sub_I_cl_localne.stdout.rel_tf_osx_builder.57505.QAsdTt.ii
+__GLOBAL__sub_I_cl_localne.stdout.rel_tf_osx_builder.89706.ePtcWP.ii
 __Z20CL_ReloadFilesInListP9IFileList
 __Z34PrintSvPureWhitelistClassificationPK20CPureServerWhitelist
 __Z21CL_PrintWhitelistInfov
@@ -48046,11 +48057,11 @@ __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEi
 __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeI11SoundInfo_tiPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_iEiEE15InsertRebalanceEi
 __ZN8CFmtStrNILi256ELb0EE19InitQuietTruncationEv
-__GLOBAL__sub_I_cl_main.stdout.rel_tf_osx_builder.57511.xwcw2G.ii
+__GLOBAL__sub_I_cl_main.stdout.rel_tf_osx_builder.89708.yYm4Wd.ii
 __Z16CL_DescribeEventiP10CEventInfoPKc
 __Z13CL_FireEventsv
 __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS0_iEEE6UnlinkEi
-__GLOBAL__sub_I_cl_parse_e.stdout.rel_tf_osx_builder.57513.AO1ZIc.ii
+__GLOBAL__sub_I_cl_parse_e.stdout.rel_tf_osx_builder.89725.8VZhNE.ii
 __ZN11CPluginMenuC1EPN4vgui5PanelE
 __ZN11CPluginMenuD1Ev
 __ZN11CPluginMenuD0Ev
@@ -48100,7 +48111,7 @@ __ZN19CPluginGameUIDialog17GetPanelClassNameEv
 __ZN8CMessage17GetPanelClassNameEv
 __ZN17CPluginHudMessage17GetPanelClassNameEv
 __ZN16CPluginUIManager17GetPanelClassNameEv
-__GLOBAL__sub_I_cl_pluginh.stdout.rel_tf_osx_builder.57517.GIbVkf.ii
+__GLOBAL__sub_I_cl_pluginh.stdout.rel_tf_osx_builder.89731.5050Fi.ii
 __Z16CL_RunPrediction17PREDICTION_REASON
 __ZN11CRConClientD1Ev
 __Z10RCONClientv
@@ -48133,7 +48144,7 @@ __ZN11CRConClient12SendResponseER10CUtlBufferb
 __ZN11CRConClient12AuthenticateEv
 __ZN11CRConClient13BuildResponseER10CUtlBuffer23ServerDataRequestType_tPKcS4_
 __ZN11CRConClient7SendCmdEPKc
-__GLOBAL__sub_I_cl_rcon.stdout.rel_tf_osx_builder.57545.drCDGx.ii
+__GLOBAL__sub_I_cl_rcon.stdout.rel_tf_osx_builder.89748.0zDPwq.ii
 __ZN13CSteam3ClientD1Ev
 __Z12Steam3Clientv
 __ZN13CSteam3ClientC2Ev
@@ -48179,7 +48190,7 @@ __ZN9CCallbackI13CSteam3Client20PersonaStateChange_tLb0EE3RunEPv
 __ZN9CCallbackI13CSteam3Client20PersonaStateChange_tLb0EED0Ev
 __ZN9CCallbackI13CSteam3Client17LowBatteryPower_tLb0EE3RunEPv
 __ZN9CCallbackI13CSteam3Client17LowBatteryPower_tLb0EED0Ev
-__GLOBAL__sub_I_cl_steamau.stdout.rel_tf_osx_builder.57547.QNnFvq.ii
+__GLOBAL__sub_I_cl_steamau.stdout.rel_tf_osx_builder.89752.ysLld1.ii
 __Z21mat_texture_list_on_fv
 __Z22mat_texture_list_off_fv
 __ZN4vgui15TileViewPanelExC2EPNS_5PanelEPKc
@@ -48311,7 +48322,7 @@ __ZNK10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5
 __ZN10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE6UnlinkEt
 __ZN10CUtlRBTreeIN7CUtlMapItN15MatViewOverride14ViewParamsLast6VarMapEtPFbRKtS5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE15RemoveRebalanceEt
 __ZN10CUtlVectorIb10CUtlMemoryIbiEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_cl_texture.stdout.rel_tf_osx_builder.57557.vqdLja.ii
+__GLOBAL__sub_I_cl_texture.stdout.rel_tf_osx_builder.89756.zAH56M.ii
 __ZN11TxViewPanel7InstallEPN4vgui5PanelE
 __ZN11TxViewPanelC1EPN4vgui5PanelE
 __ZN11TxViewPanelD1Ev
@@ -48353,7 +48364,7 @@ __Z19Cmd_ForwardToServerRK8CCommandb
 __ZN8CUtlDictIiiED1Ev
 __ZN10CUtlVectorIi10CUtlMemoryIiiEED1Ev
 __Z14V_sprintf_safeILm512EEiRAT__cPKcz
-__GLOBAL__sub_I_cmd.stdout.rel_tf_osx_builder.17737.gLXlrJ.ii
+__GLOBAL__sub_I_cmd.stdout.rel_tf_osx_builder.89761.kdMATn.ii
 __Z10BeginTracev
 __Z15PushTraceVisitsP11TraceInfo_t
 __Z14PopTraceVisitsP11TraceInfo_t
@@ -48788,7 +48799,7 @@ __ZN23CColorCorrectionUIPanel17GetPanelClassNameEv
 __ZN10CUtlVectorI6Vector10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZNK14CUtlSortVectorI6VectorN21CCurvesColorOperation14CurvesLessFuncE10CUtlVectorIS0_10CUtlMemoryIS0_iEEE15FindLessOrEqualIS0_EEiRKT_Pb
 __ZN10CUtlVectorIP28CColorCorrectionUIChildPanel10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_colorcorre.stdout.rel_tf_osx_builder.57585.KDVayN.ii
+__GLOBAL__sub_I_colorcorre.stdout.rel_tf_osx_builder.89762.gS0Q7M.ii
 __Z24COM_ExplainDisconnectionbPKcz
 __Z9COM_ParsePKc
 __Z13COM_ParseLinePKc
@@ -48857,7 +48868,7 @@ __ZN18CCopyableUtlVectorIN9CConPanel11CNotifyTextEED1Ev
 __ZN18CCopyableUtlVectorIN9CConPanel11CNotifyTextEED0Ev
 __ZN10CUtlVectorIN9CConPanel11CNotifyTextE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN9CConPanel11CNotifyTextE10CUtlMemoryIS1_iEE10GrowVectorEi
-__GLOBAL__sub_I_console.stdout.rel_tf_osx_builder.57604.palS3N.ii
+__GLOBAL__sub_I_console.stdout.rel_tf_osx_builder.89784.LpmPWA.ii
 __ZL38__CreateCCvarQueryICvarQuery_interfacev
 __ZN14CCvarUtilities9SetDirectEP6ConVarPKc
 __ZN14CCvarUtilities9IsCommandERK8CCommand
@@ -48888,7 +48899,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIPK14ConCommandBasetEtE4GrowEi
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIPK14ConCommandBasetPFbRKS2_S4_E10CUtlMemoryI15UtlRBTreeNode_tIS2_tEtEE11RotateRightEt
-__GLOBAL__sub_I_cvar.stdout.rel_tf_osx_builder.57603.wfXQlL.ii
+__GLOBAL__sub_I_cvar.stdout.rel_tf_osx_builder.89786.ZqlzPw.ii
 __ZN13CDebugOverlay14ScreenPositionERK6VectorRS0_
 __ZN13CDebugOverlay14ScreenPositionEffR6Vector
 __ZN13CDebugOverlay20AddEntityTextOverlayEiifiiiiPKc
@@ -48944,7 +48955,7 @@ __ZThn4_N15CIVDebugOverlay20AddEntityTextOverlayEiifiiiiPKcz
 __ZThn4_N15CIVDebugOverlay14AddTextOverlayERK6VectorfPKcz
 __ZThn4_N15CIVDebugOverlay14AddTextOverlayERK6VectorifPKcz
 __ZThn4_N15CIVDebugOverlay17AddTextOverlayRGBERK6VectorifffffPKcz
-__GLOBAL__sub_I_debugoverl.stdout.rel_tf_osx_builder.57607.Ef2VXb.ii
+__GLOBAL__sub_I_debugoverl.stdout.rel_tf_osx_builder.89796.GyP0Fh.ii
 __Z12CSGPlaneListP9leafvis_tR10CUtlVectorI8cplane_t10CUtlMemoryIS2_iEE
 __Z14LeafvisChangedP7IConVarPKcf
 __Z14AddLeafPortalsP9leafvis_ti
@@ -49121,7 +49132,7 @@ __ZN14CUtlLinkedListI16CDispShadowDecaltLb1Et10CUtlMemoryI19UtlLinkedListElem_tI
 __ZN10CUtlMemoryI19UtlLinkedListElem_tI16CDispShadowDecaltEtE4GrowEi
 __ZN14CUtlLinkedListIP7decal_tiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS1_iEEE13AllocInternalEb
 __ZN14CUtlLinkedListIP7decal_tiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS1_iEEE6UnlinkEi
-__GLOBAL__sub_I_disp_inter.stdout.rel_tf_osx_builder.57671.e5P8Ys.ii
+__GLOBAL__sub_I_disp_inter.stdout.rel_tf_osx_builder.89797.HCV9p0.ii
 __Z12AddEmptyMeshP7model_tP10CDispGroupPK11ddispinfo_tPiiii
 __Z16FillStaticBufferP10CGroupMeshP9CDispInfoPK13CCoreDispInfoPK9CDispVerti
 __ZN9CDispInfo15CopyMapDispDataEPK11ddispinfo_t
@@ -49191,7 +49202,7 @@ __ZN16CDownloadManager11OnHttpErrorEP16RequestContext_t
 __ZN15CDownloadSystemD0Ev
 __ZN15CDownloadSystem20CreateDownloadThreadEP16RequestContext_t
 __ZN10CUtlVectorIP16RequestContext_t10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_download.stdout.rel_tf_osx_builder.57673.fQ9mx1.ii
+__GLOBAL__sub_I_download.stdout.rel_tf_osx_builder.89798.C5Vf4u.ii
 __Z21DownloadListGeneratorv
 __ZN22CDownloadListGenerator14SetStringTableEP19INetworkStringTable
 __ZN22CDownloadListGenerator16OnLevelLoadStartEPKc
@@ -49201,7 +49212,7 @@ __ZN22CDownloadListGenerator19ForceSimpleMaterialEPKc
 __ZN22CDownloadListGenerator16ForceModelBoundsEPKcRK6VectorS4_
 __ZN22CDownloadListGeneratorD1Ev
 __Z14V_sprintf_safeILm1024EEiRAT__cPKcz
-__GLOBAL__sub_I_DownloadLi.stdout.rel_tf_osx_builder.57674.uher0r.ii
+__GLOBAL__sub_I_DownloadLi.stdout.rel_tf_osx_builder.89818.pcXpH1.ii
 __Z16SetProxiesForURLPvPKc
 __ZL12curlHeaderFnPvmmS_
 __ZL11curlWriteFnPvmmS_
@@ -49322,7 +49333,7 @@ __ZN14CUtlLinkedListIP13CDTIRecvTableiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1
 __ZN10CUtlVectorI8CDTIProp10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI8CDTIProp10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN14CUtlLinkedListIP13CDTIRecvTableiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
-__GLOBAL__sub_I_dt_instrum.stdout.rel_tf_osx_builder.57713.se26iZ.ii
+__GLOBAL__sub_I_dt_instrum.stdout.rel_tf_osx_builder.89826.1Dujfu.ii
 __Z14ServerDTI_Termv
 __Z15ServerDTI_Flushv
 __Z19ServerDTI_HookTableP9SendTable
@@ -49349,7 +49360,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN7CUtlMapItttPFbRKtS3_EE6Node_tEtEtE4GrowEi
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN7CUtlMapItttPFbRKtS2_EE6Node_tEtNS5_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS6_tEtEE11RotateRightEt
-__GLOBAL__sub_I_dt_localtr.stdout.rel_tf_osx_builder.57726.laOINa.ii
+__GLOBAL__sub_I_dt_localtr.stdout.rel_tf_osx_builder.89836.eDztPd.ii
 __ZN12CRecvDecoderC1Ev
 __ZN15CClientSendPropC1Ev
 __ZN15CClientSendPropD1Ev
@@ -49463,7 +49474,7 @@ __ZNK23CEngineSingleUserFilter13IsInitMessageEv
 __ZNK23CEngineSingleUserFilter17GetRecipientCountEv
 __ZNK23CEngineSingleUserFilter17GetRecipientIndexEi
 __ZNK23CEngineSingleUserFilter18IsBroadcastMessageEv
-__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.57733.cVOneY.ii
+__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.89839.FtyeJs.ii
 __ZN18CEngineSoundServerD1Ev
 __ZL48__CreateCEngineSoundServerIEngineSound_interfacev
 __ZN18CEngineSoundServerD0Ev
@@ -49491,7 +49502,7 @@ __ZN18CEngineSoundServer21PrecacheSentenceGroupEPKc
 __ZN18CEngineSoundServer24NotifyBeginMoviePlaybackEv
 __ZN18CEngineSoundServer22NotifyEndMoviePlaybackEv
 __ZN10CUtlVectorIP7edict_t10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.57737.PiNEi0.ii
+__GLOBAL__sub_I_EngineSoun.stdout.rel_tf_osx_builder.89850.iHImw7.ii
 __ZN12CEngineStatsC1Ev
 __ZN12CEngineStats8BeginRunEv
 __ZN12CEngineStats6EndRunEv
@@ -49591,7 +49602,7 @@ __ZL49__CreateCEngineToolIEngineToolFramework_interfacev
 __ZN11CEngineToolD1Ev
 __ZN11CEngineToolD0Ev
 __ZN10CUtlVectorIN11CEngineTool13QuitHandler_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_enginetool.stdout.rel_tf_osx_builder.57749.r6xU2g.ii
+__GLOBAL__sub_I_enginetool.stdout.rel_tf_osx_builder.89858.5XTsMx.ii
 __ZL48__CreateCEngineTraceServerIEngineTrace_interfacev
 __ZL48__CreateCEngineTraceClientIEngineTrace_interfacev
 __ZN18CEngineTraceClient14GetCollideableEP13IHandleEntity
@@ -49635,7 +49646,7 @@ __ZN18CTraceFilterHitAll15ShouldHitEntityEP13IHandleEntityi
 __ZNK12CTraceFilter12GetTraceTypeEv
 __ZN19CEntityListAlongRay11EnumElementEP13IHandleEntity
 __ZN18CEnumerationFilter11EnumElementEP13IHandleEntity
-__GLOBAL__sub_I_enginetrac.stdout.rel_tf_osx_builder.57772.4s3Zhz.ii
+__GLOBAL__sub_I_enginetrac.stdout.rel_tf_osx_builder.89863.1cxufF.ii
 __ZL44__CreateCEngineReplayIEngineReplay_interfacev
 __ZL56__CreateCEngineClientReplayIEngineClientReplay_interfacev
 __ZN13CEngineReplayD1Ev
@@ -49691,7 +49702,7 @@ __ZN19CEngineClientReplay15InitSoundRecordEv
 __ZN19CEngineClientReplay18Wave_CreateTmpFileEPKc
 __ZN19CEngineClientReplay18Wave_AppendTmpFileEPKcPvi
 __ZN19CEngineClientReplay17Wave_FixupTmpFileEPKc
-__GLOBAL__sub_I_engine_rep.stdout.rel_tf_osx_builder.57781.0zHSv0.ii
+__GLOBAL__sub_I_engine_rep.stdout.rel_tf_osx_builder.89865.pkcfsL.ii
 __ZN20CEngineSoundServices10LevelAllocEiPKc
 __ZN20CEngineSoundServices13OnExtraUpdateEv
 __ZN20CEngineSoundServices22GetSoundSpatializationEiR20SpatializationInfo_t
@@ -49793,7 +49804,7 @@ __ZN17CGameEventManager17RemoveListenerOldEPv
 __ZN10CUtlVectorIP18CGameEventCallback10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN10CUtlVectorIP18CGameEventCallback10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI20CGameEventDescriptor10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameEventM.stdout.rel_tf_osx_builder.57798.Rxlbhi.ii
+__GLOBAL__sub_I_GameEventM.stdout.rel_tf_osx_builder.89884.7XPfbR.ii
 __ZL55__CreateCGameEventManagerOldIGameEventManager_interfacev
 __ZN20CGameEventManagerOld11AddListenerEP18IGameEventListenerPKcb
 __ZN20CGameEventManagerOld11AddListenerEP18IGameEventListenerb
@@ -49821,7 +49832,7 @@ __Z22DrawLightDebuggingInfov
 __ZL14DrawPointLightRK6Vectorf
 __ZN29CTraceFilterWorldAndPropsOnly15ShouldHitEntityEP13IHandleEntityi
 __ZNK29CTraceFilterWorldAndPropsOnly12GetTraceTypeEv
-__GLOBAL__sub_I_gl_drawlig.stdout.rel_tf_osx_builder.57821.VJaRE6.ii
+__GLOBAL__sub_I_gl_drawlig.stdout.rel_tf_osx_builder.89892.BxQTjn.ii
 __Z22R_MarkDLightNotVisiblei
 __Z17R_DLightStartViewv
 __Z15R_DLightEndViewv
@@ -49851,7 +49862,7 @@ __ZN9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
 __ZN9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor0IPFvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_gl_lightma.stdout.rel_tf_osx_builder.57823.FqfQ5x.ii
+__GLOBAL__sub_I_gl_lightma.stdout.rel_tf_osx_builder.89904.02Gzpw.ii
 __ZL8mat_editRK8CCommand
 __ZL13mat_crosshairRK8CCommand
 __ZL18mat_crosshair_editRK8CCommand
@@ -49899,7 +49910,7 @@ __Z12R_LightPointR6Vector
 __ZL25FindIntersectionAtSurfaceP11msurface2_tfR6VectorR15LightVecState_t
 __ZL20ComputeLightmapColorP11msurface2_tiibR6Vector
 __ZN10CUtlVectorIP9IDispInfo10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_gl_rlight.stdout.rel_tf_osx_builder.57835.pwUlD0.ii
+__GLOBAL__sub_I_gl_rlight.stdout.rel_tf_osx_builder.89909.RyM0cG.ii
 __Z15GetScreenAspectv
 __Z16R_DrawScreenRectffff
 __Z13R_DrawPortalsv
@@ -49956,7 +49967,7 @@ __ZN7CRender15GetFovViewmodelEv
 __ZN9CUtlStackIN7CRender11ViewStack_tE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI20LightmapUpdateInfo_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI23LightmapTransformInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_gl_rmain.stdout.rel_tf_osx_builder.57839.YkyLJi.ii
+__GLOBAL__sub_I_gl_rmain.stdout.rel_tf_osx_builder.89910.0F3sZJ.ii
 __Z15R_TimeRefresh_fv
 __Z6R_Initv
 __Z10R_Shutdownv
@@ -49964,7 +49975,7 @@ __ZL13r_cleardecalsRK8CCommand
 __Z19R_LoadWorldGeometryb
 __Z11R_LevelInitv
 __Z15R_LevelShutdownv
-__GLOBAL__sub_I_gl_rmisc.stdout.rel_tf_osx_builder.57849.Ia6pWG.ii
+__GLOBAL__sub_I_gl_rmisc.stdout.rel_tf_osx_builder.89914.MvCuIa.ii
 __Z25R_GetBrushModelPlaneCountPK7model_t
 __Z20R_GetBrushModelPlanePK7model_tiP6Vector
 __Z20Surf_ComputeCentroidP11msurface2_tP6Vector
@@ -50071,7 +50082,7 @@ __ZN14CUtlLinkedListIN17CBrushBatchRender13brushrender_tEtLb0Et10CUtlMemoryI19Ut
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIN17CBrushBatchRender13brushrender_tEtEtE4GrowEi
 __ZN10CUtlVectorIP8cplane_t10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN17CBrushBatchRender13surfacelist_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_gl_rsurf.stdout.rel_tf_osx_builder.57851.EdjgbR.ii
+__GLOBAL__sub_I_gl_rsurf.stdout.rel_tf_osx_builder.89916.C9jegA.ii
 __Z8SCR_Initv
 __Z12SCR_Shutdownv
 __Z22SCR_BeginLoadingPlaquev
@@ -50142,7 +50153,7 @@ __ZN11CHLTVClient18UpdateUserSettingsEv
 __ZN11CHLTVClient12SendSnapshotEP12CClientFrame
 __ZN11CHLTVClient19ProcessFileMD5CheckEP16CLC_FileMD5Check
 __ZThn8_N11CHLTVClient19ProcessFileMD5CheckEP16CLC_FileMD5Check
-__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.57875.yvjXRJ.ii
+__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.89918.rOeCx6.ii
 __ZN16CHLTVClientStateC1Ev
 __ZN16CHLTVClientStateD1Ev
 __ZThn4_N16CHLTVClientStateD1Ev
@@ -50210,7 +50221,7 @@ __ZN16CHLTVClientState11UpdateStatsEv
 __ZN10CUtlVectorIN13NET_SetConVar6cvar_sE10CUtlMemoryIS1_iEE9AddToTailERKS1_
 __ZN16CHLTVClientState12GetCDKeyHashEv
 __ZN16CHLTVClientState13GetClientNameEv
-__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.57885.tnL00V.ii
+__GLOBAL__sub_I_hltvclient.stdout.rel_tf_osx_builder.89923.cjT4fM.ii
 __ZN17CHLTVDemoRecorderC1Ev
 __ZN17CHLTVDemoRecorderD1Ev
 __ZN17CHLTVDemoRecorderD0Ev
@@ -50396,7 +50407,7 @@ __ZThn488_N11CHLTVServer9IsLoadingEv
 __ZN19IGameEventListener2D1Ev
 __ZN19IGameEventListener2D0Ev
 __ZN10CUtlVectorI18CFrameCacheEntry_s10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_hltvserver.stdout.rel_tf_osx_builder.57888.maYK8T.ii
+__GLOBAL__sub_I_hltvserver.stdout.rel_tf_osx_builder.89958.TA7zZ5.ii
 __ZN15CHLTVTestSystem9StopsTestEv
 __ZN15CHLTVTestSystemD1Ev
 __ZN15CHLTVTestSystem8RunFrameEv
@@ -50486,7 +50497,7 @@ __ZN9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTE
 __ZN9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_host.stdout.rel_tf_osx_builder.57905.ErTqOt.ii
+__GLOBAL__sub_I_host.stdout.rel_tf_osx_builder.89962.D1wYo7.ii
 __ZL19host_name_changed_fP7IConVarPKcf
 __ZL26voiceconvar_file_changed_fP7IConVarPKcf
 __Z13GetSteamAppIDv
@@ -50557,7 +50568,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10C
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEE11RotateRightEt
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapI10CUtlStringitPFbRKS1_S3_EE6Node_tEtNS6_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS7_tEtEE9RemoveAllEv
-__GLOBAL__sub_I_host_cmd.stdout.rel_tf_osx_builder.57921.JHBIcp.ii
+__GLOBAL__sub_I_host_cmd.stdout.rel_tf_osx_builder.89963.WVCOw5.ii
 __ZN15CMapListManagerD1Ev
 __Z18Host_UpdateMapListv
 __ZN15CMapListManagerD2Ev
@@ -50577,7 +50588,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLess
 __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKc12CMapListItemiPFbRKS2_S5_EE6Node_tEiNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictI12CMapListItemiE9RemoveAllEv
-__GLOBAL__sub_I_host_listm.stdout.rel_tf_osx_builder.57913.CQXhST.ii
+__GLOBAL__sub_I_host_listm.stdout.rel_tf_osx_builder.89972.bdv0p8.ii
 __Z15FinishAsyncSavev
 __Z13GetSaveMemoryv
 __Z15SaveAllocMemorymmb
@@ -50715,7 +50726,7 @@ __ZN15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCount
 __ZN15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP12CSaveRestoreMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_host_saver.stdout.rel_tf_osx_builder.57926.5IyW1p.ii
+__GLOBAL__sub_I_host_saver.stdout.rel_tf_osx_builder.89973.WOlYNN.ii
 __Z14HostState_Initv
 __Z15HostState_Framef
 __ZN10CHostState11FrameUpdateEf
@@ -50762,7 +50773,7 @@ __Z17Key_StartTrapModev
 __Z21Key_CheckDoneTrappingR12ButtonCode_t
 __Z9Key_EventRK12InputEvent_t
 __ZL15HandleEngineKeyRK12InputEvent_t
-__GLOBAL__sub_I_keys.stdout.rel_tf_osx_builder.57939.3GTexQ.ii
+__GLOBAL__sub_I_keys.stdout.rel_tf_osx_builder.89997.Mxz0yN.ii
 __Z25R_StudioInitLightingCachev
 __Z29InvalidateStaticLightingCachev
 __Z32R_StudioCheckReinitLightingCachev
@@ -50795,7 +50806,7 @@ __ZN16CClassMemoryPoolI16PropLightcache_tE5ClearEv
 __ZN25CTraceFilterWorldAndProps15ShouldHitEntityEP13IHandleEntityi
 __ZNK25CTraceFilterWorldAndProps12GetTraceTypeEv
 __ZN30MarkStaticPropLightsEmumerator11EnumElementEP13IHandleEntity
-__GLOBAL__sub_I_lightcache.stdout.rel_tf_osx_builder.57951.nJGvl7.ii
+__GLOBAL__sub_I_lightcache.stdout.rel_tf_osx_builder.90004.FKi4vb.ii
 __ZN21CLocalNetworkBackdoor12InitFastCopyEv
 __ZN21CLocalNetworkBackdoor22StartEntityStateUpdateEv
 __ZN21CLocalNetworkBackdoor20EndEntityStateUpdateEv
@@ -50909,7 +50920,7 @@ __ZN14CColorMeshData15DestroyResourceEv
 __ZN14CUtlLinkedListIN12CModelRender15ModelInstance_tEtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE13AllocInternalEb
 __ZN14CUtlLinkedListIN12CModelRender15ModelInstance_tEtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIN12CModelRender15ModelInstance_tEtEtE4GrowEi
-__GLOBAL__sub_I_l_studio.stdout.rel_tf_osx_builder.57971.IFu0ce.ii
+__GLOBAL__sub_I_l_studio.stdout.rel_tf_osx_builder.90013.aYu4XI.ii
 __Z25MapReslistGenerator_Usagev
 __Z24MapReslistGenerator_Initv
 __Z19MapReslistGeneratorv
@@ -50957,7 +50968,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tI10CUtlSymboltEtE4GrowEi
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeI10CUtlSymboltPFbRKS0_S2_E10CUtlMemoryI15UtlRBTreeNode_tIS0_tEtEE11RotateRightEt
-__GLOBAL__sub_I_MapReslist.stdout.rel_tf_osx_builder.57973.lfAFkM.ii
+__GLOBAL__sub_I_MapReslist.stdout.rel_tf_osx_builder.90020.Ef9M51.ii
 __ZN12CMatchmaking11StartClientEb
 __ZN12CMatchmaking16SearchForSessionEv
 __ZN12CMatchmaking21HandleSystemLinkReplyEP11netpacket_s
@@ -50973,7 +50984,7 @@ __ZThn4_N12CMatchmaking19ProcessJoinResponseEP15MM_JoinResponse
 __ZN12CMatchmaking13ConnectToHostEv
 __ZN12CMatchmaking18ClearSearchResultsEv
 __ZL17mm_select_sessionRK8CCommand
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57976.KdPrny.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90021.kSNC1c.ii
 __ZN12CMatchmaking9StartHostEb
 __ZN12CMatchmaking20OnHostSessionCreatedEv
 __ZN12CMatchmaking22UpdateSessionReplyDataEj
@@ -50997,7 +51008,7 @@ __ZN12CMatchmaking18CountPlayersOnTeamEi
 __ZN12CMatchmaking20SwitchToNextOpenTeamEP11CClientInfo
 __ZN10CUtlVectorI14_XUSER_CONTEXT10CUtlMemoryIS0_iEE9AddToTailERKS0_
 __ZN10CUtlVectorI15_XUSER_PROPERTY10CUtlMemoryIS0_iEE9AddToTailERKS0_
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57987.EUrRFz.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90025.v5CFVP.ii
 __ZN12CMatchmaking14ProcessMigrateEP10MM_Migrate
 __ZN12CMatchmaking12EndMigrationEv
 __ZThn4_N12CMatchmaking14ProcessMigrateEP10MM_Migrate
@@ -51134,7 +51145,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10C
 __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE7NewNodeEv
 __ZN10CUtlMemoryI15UtlRBTreeNode_tIN7CUtlMapIjP11INetChanneltPFbRKjS5_EE6Node_tEtEtE4GrowEi
 __ZN10CUtlRBTreeIN7CUtlMapIjP11INetChanneltPFbRKjS4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE15InsertRebalanceEt
-__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.57997.hFohdw.ii
+__GLOBAL__sub_I_matchmakin.stdout.rel_tf_osx_builder.90042.qWvu7y.ii
 __ZN21CMaterialProxyFactory11CreateProxyEPKc
 __ZN21CMaterialProxyFactory11LookupProxyEPKcPFPvS1_PiE
 __ZN21CMaterialProxyFactory11DeleteProxyEP14IMaterialProxy
@@ -51178,7 +51189,7 @@ __ZL18ReadVideoConfigIntPKcPi
 __ZN10CUtlVectorI10meshlist_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI10meshlist_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIP5IMesh10CUtlMemoryIS1_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_matsys_int.stdout.rel_tf_osx_builder.58005.x4MhS0.ii
+__GLOBAL__sub_I_matsys_int.stdout.rel_tf_osx_builder.90048.xhRSgd.ii
 __Z8memfgetsPhiPiPci
 __ZNK10CModelInfo13GetModelIndexEPKc
 __ZNK10CModelInfo23GetModelClientSideIndexEPKc
@@ -51276,7 +51287,7 @@ __ZN14CUtlLinkedListI16CUtlKeyValuePairIP7model_t7empty_tEtLb0Et10CUtlMemoryI19U
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E21DoInsertUnconstructedEjb
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E9DoReallocEi
 __ZN13CUtlHashtableIN19CUtlStableHashtableIP7model_t7empty_tN10CModelInfo19ModelFileHandleHashENS4_17ModelFileHandleEqEsPvE13IndirectIndexES3_NS8_9HashProxyENS8_10EqualProxyES7_E9BumpEntryEj
-__GLOBAL__sub_I_ModelInfo.stdout.rel_tf_osx_builder.58007.4vdZjY.ii
+__GLOBAL__sub_I_ModelInfo.stdout.rel_tf_osx_builder.90049.V3Z1nS.ii
 __Z14Model_LessFuncRKPvS1_
 __ZL12mem_vcollideRK8CCommand
 __ZN14CMapLoadHelper4InitEP7model_tPKc
@@ -51438,7 +51449,7 @@ __ZNK13CUtlHashtableImi18DefaultHashFunctorImE19DefaultEqualFunctorImE11undefine
 __ZN13CUtlHashtableImi18DefaultHashFunctorImE19DefaultEqualFunctorImE11undefined_tE8DoRemoveImEEiT_j
 __ZN13CUtlHashtableIP7model_tN12CModelLoader17CDynamicModelInfoE18DefaultHashFunctorIS1_E19DefaultEqualFunctorIS1_E11undefined_tE8DoRemoveIS1_EEiT_j
 __ZN21CResourcePreloadModel23QueuedLoaderMapCallbackEPvS0_PKvi13LoaderError_t
-__GLOBAL__sub_I_modelloade.stdout.rel_tf_osx_builder.58017.6nLigD.ii
+__GLOBAL__sub_I_modelloade.stdout.rel_tf_osx_builder.90056.xczebo.ii
 __Z23Map_AreAnyLeavesVisibleRK16worldbrushdata_tPii
 __Z11Map_VisMarkbP7model_t
 __Z12Map_VisSetupP7model_tiPK6VectorbRj
@@ -51550,10 +51561,10 @@ __ZN13CUtlHashtableIN19CUtlStableHashtableI19CUtlConstStringBaseIcE23CNetworkStr
 __ZN13CUtlHashtableIN19CUtlStableHashtableI19CUtlConstStringBaseIcE23CNetworkStringTableItem25CaselessStringHashFunctor40UTLConstStringCaselessStringEqualFunctorIcEtPKcE13IndirectIndexE7empty_tNS9_9HashProxyENS9_10EqualProxyES8_E9BumpEntryEj
 __ZN10CUtlVectorI18StringHistoryEntry10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorIP19CNetworkStringTable10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58027.GPj9YY.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90061.Y3Mv48.ii
 __ZL74__CreateCNetworkStringTableContainerINetworkStringTableContainer_interfacev
 __Z20CL_PrintStringTablesv
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58031.W0VQNT.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90062.IgzgVk.ii
 __ZN23CNetworkStringTableItemC1Ev
 __ZN23CNetworkStringTableItemD2Ev
 __ZN23CNetworkStringTableItemD1Ev
@@ -51566,7 +51577,7 @@ __ZN10CUtlVectorIN23CNetworkStringTableItem12itemchange_sE10CUtlMemoryIS1_iEED2E
 __ZL80__CreateCNetworkStringTableContainerServerINetworkStringTableContainer_interfacev
 __Z28SV_CreateNetworkStringTablesv
 __Z20SV_PrintStringTablesv
-__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.58042.izRG4F.ii
+__GLOBAL__sub_I_networkstr.stdout.rel_tf_osx_builder.90067.I0Kjqh.ii
 __ZNK8CNetChan10IsLoopbackEv
 __ZNK8CNetChan6IsNullEv
 __ZN8CNetChan5ClearEv
@@ -51680,7 +51691,7 @@ __ZN10CUtlVectorIPN8CNetChan23SocketProcessingStats_tE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE6InsertERKS4_
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIyii8CDefLessIyEE6Node_tEiNS3_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS4_iEiEE15InsertRebalanceEi
-__GLOBAL__sub_I_net_chan.stdout.rel_tf_osx_builder.17738.19IPQL.ii
+__GLOBAL__sub_I_net_chan.stdout.rel_tf_osx_builder.90086.4sq3Rx.ii
 __Z15NET_ErrorStringi
 __Z20NET_StringToSockaddrPKcP8sockaddr
 __Z15NET_StringToAdrPKcP8netadr_s
@@ -51762,7 +51773,7 @@ __ZN10CUtlVectorI11netsocket_t10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZN10CUtlVectorI11netpacket_s10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorIS_I17CSplitPacketEntry10CUtlMemoryIS0_iEES1_IS3_iEE20InsertMultipleBeforeEii
 ___cxx_global_array_dtor
-__GLOBAL__sub_I_net_ws.stdout.rel_tf_osx_builder.58067.NP0mZy.ii
+__GLOBAL__sub_I_net_ws.stdout.rel_tf_osx_builder.90094.13b08k.ii
 __ZN19CQueuedPacketSenderD1Ev
 __ZN19CQueuedPacketSenderC2Ev
 __ZN19CQueuedPacketSenderD2Ev
@@ -51786,7 +51797,7 @@ __ZN17CUtlPriorityQueueIPN19CQueuedPacketSender13CQueuedPacketEE6InsertERKS2_
 __ZN19CQueuedPacketSender9IsRunningEv
 __ZThn288_N19CQueuedPacketSender9IsRunningEv
 __ZN10CUtlVectorIPN19CQueuedPacketSender13CQueuedPacketE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_net_ws_que.stdout.rel_tf_osx_builder.58071.VH6e3w.ii
+__GLOBAL__sub_I_net_ws_que.stdout.rel_tf_osx_builder.90095.QnWFma.ii
 __ZN15CWingedEdgeList10AddSurfaceERK8cplane_t
 __ZN15CWingedEdgeList21AdvanceActiveEdgeListEf
 __ZN15CWingedEdgeList25IsOccludingActiveEdgeListERS_f
@@ -51831,7 +51842,7 @@ __ZN10CUtlVectorIN9CEdgeList9Surface_tE10CUtlMemoryIS1_iEED2Ev
 __ZNK14CUtlSortVectorItN9CEdgeList8EdgeLessE10CUtlVectorIt10CUtlMemoryItiEEE15FindLessOrEqualItEEiRKT_Pb
 __ZNK14CUtlSortVectorIi18WingedEdgeLessFunc10CUtlVectorIi10CUtlMemoryIiiEEE15FindLessOrEqualIiEEiRKT_Pb
 __ZN18WingedEdgeLessFunc4LessERKiS1_Pv
-__GLOBAL__sub_I_OcclusionS.stdout.rel_tf_osx_builder.58072.Vr06Sp.ii
+__GLOBAL__sub_I_OcclusionS.stdout.rel_tf_osx_builder.90104.Ixn1xI.ii
 __ZN11COverlayMgrD1Ev
 __Z10OverlayMgrv
 __ZN11COverlayMgrD2Ev
@@ -51949,7 +51960,7 @@ __ZN16CPropFadeUIPanel17GetPanelClassNameEv
 __ZN19CAreaPortalsUIPanel17GetPanelClassNameEv
 __ZN17COcclusionUIPanel17GetPanelClassNameEv
 __ZN12CPerfUIPanel17GetPanelClassNameEv
-__GLOBAL__sub_I_perfuipane.stdout.rel_tf_osx_builder.58079.sxrCpl.ii
+__GLOBAL__sub_I_perfuipane.stdout.rel_tf_osx_builder.90106.ISP3xT.ii
 __Z13GetFlagStringi
 __ZN13CPrecacheItemC1Ev
 __ZN13CPrecacheItem8GetModelEv
@@ -51985,7 +51996,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemory
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE11RotateRightEt
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEED2Ev
 __ZN10CUtlRBTreeIN7CUtlMapIPKcitPFbRKS2_S4_EE6Node_tEtNS7_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS8_tEtEE5PurgeEv
-__GLOBAL__sub_I_pr_edict.stdout.rel_tf_osx_builder.58107.9HNE8S.ii
+__GLOBAL__sub_I_pr_edict.stdout.rel_tf_osx_builder.90116.iRBvsE.ii
 __ZN20CPureServerWhitelist6CreateEP11IFileSystem
 __ZN20CPureServerWhitelistD2Ev
 __ZN20CPureServerWhitelist4TermEv
@@ -52028,7 +52039,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6N
 __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6Node_tEiNSA_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISB_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcPN20CPureServerWhitelist8CCommandEiPFbRKS2_S7_EE6Node_tEiNSA_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISB_iEiEE15InsertRebalanceEi
 __ZN10CUtlVectorIS_Ih10CUtlMemoryIhiEES0_IS2_iEE10GrowVectorEi
-__GLOBAL__sub_I_pure_serve.stdout.rel_tf_osx_builder.58109.eDRMzX.ii
+__GLOBAL__sub_I_pure_serve.stdout.rel_tf_osx_builder.90124.TsMEGh.ii
 __ZL64__CreateCEngineUniformRandomStreamIUniformRandomStream_interfacev
 __ZN26CEngineUniformRandomStream7SetSeedEi
 __ZN26CEngineUniformRandomStream11RandomFloatEff
@@ -52092,7 +52103,7 @@ __ZN17CReplayDemoPlayerD0Ev
 __ZThn1832_N17CReplayDemoPlayerD1Ev
 __ZThn1832_N17CReplayDemoPlayerD0Ev
 __ZN10CUtlVectorIPN17CReplayDemoPlayer14PlaybackInfo_tE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_replaydemo.stdout.rel_tf_osx_builder.58135.Dzvrut.ii
+__GLOBAL__sub_I_replaydemo.stdout.rel_tf_osx_builder.90132.GhBspy.ii
 __ZN23CReplayDeltaEntityCache13FindDeltaBitsEiiRi
 __ZN23CReplayDeltaEntityCache12AddDeltaBitsEiiiP8bf_write
 __ZN12CReplayFrameC2Ev
@@ -52178,7 +52189,7 @@ __ZN10CUtlVectorI24CReplayFrameCacheEntry_s10CUtlMemoryIS0_iEED2Ev
 __Z17ReplaySystem_Initb
 __Z21ReplaySystem_Shutdownv
 __Z32Replay_IsSupportedModAndPlatformv
-__GLOBAL__sub_I_replay_int.stdout.rel_tf_osx_builder.58151.8rizNq.ii
+__GLOBAL__sub_I_replay_int.stdout.rel_tf_osx_builder.90142.WeCVd1.ii
 __Z22R_Areaportal_LevelInitv
 __Z26R_Areaportal_LevelShutdownv
 __Z10R_CullNodeP9Frustum_tP7mnode_tRi
@@ -52192,7 +52203,7 @@ __Z18R_CullNodeInternalP7mnode_tRiRK9Frustum_t
 __ZN10CUtlVectorI11CPortalRect10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI13CAreaCullInfo10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI13CAreaCullInfo10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_r_areaport.stdout.rel_tf_osx_builder.58158.nip053.ii
+__GLOBAL__sub_I_r_areaport.stdout.rel_tf_osx_builder.90153.gfAqHI.ii
 __ZL18r_printdecalinfo_fv
 __ZN15CDecalVertCache17StoreVertsInCacheEP7decal_tP10CDecalVert
 __ZN15CDecalVertCache14FindFreeBlocksEi
@@ -52264,7 +52275,7 @@ __ZN9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor
 __ZThn8_N9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor9IPFvbi6VectoriPP7decal_tiiifEbiS0_iS3_iiif12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
 ___cxx_global_array_dtor
-__GLOBAL__sub_I_r_decal.stdout.rel_tf_osx_builder.58164.2CneGe.ii
+__GLOBAL__sub_I_r_decal.stdout.rel_tf_osx_builder.90157.hmbZkm.ii
 __ZN5CVEfx23Draw_DecalIndexFromNameEPc
 __ZN5CVEfx23Draw_DecalNameFromIndexEi
 __ZN5CVEfx10DecalShootEiiPK7model_tRK6VectorRK6QAngleS5_PS4_i
@@ -52277,11 +52288,11 @@ __ZN5CVEfx14GetElightByKeyEi
 __ZL28__CreateCVEfxIVEfx_interfacev
 __ZN5CVEfxD1Ev
 __ZN5CVEfxD0Ev
-__GLOBAL__sub_I_r_efx.stdout.rel_tf_osx_builder.58175.ejtUgS.ii
+__GLOBAL__sub_I_r_efx.stdout.rel_tf_osx_builder.90170.8KOARF.ii
 __Z13Linefile_Drawv
 __Z15Linefile_Read_fv
 __ZN10CUtlVectorI6Vector10CUtlMemoryIS0_iEED1Ev
-__GLOBAL__sub_I_r_linefile.stdout.rel_tf_osx_builder.58176.kcEvdK.ii
+__GLOBAL__sub_I_r_linefile.stdout.rel_tf_osx_builder.90172.dVabJM.ii
 __Z20SaveInMemoryCallbackP7IConVarPKcf
 __ZN22CSaveRestoreFileSystem8CompressEPN14CSaveDirectory6file_tE
 __ZN22CSaveRestoreFileSystem10UncompressEPN14CSaveDirectory6file_tE
@@ -52406,7 +52417,7 @@ __ZN11SoundInfo_t9ReadDeltaEPS_R7bf_readi
 __ZN10CUtlVectorI11SoundInfo_t10CUtlMemoryIS0_iEE12InsertBeforeEi
 __ZN10CUtlVectorI11SoundInfo_t10CUtlMemoryIS0_iEED2Ev
 __ZN14CUtlLinkedListI10CEventInfoiLb1Ei15CUtlFixedMemoryI19UtlLinkedListElem_tIS0_iEEE13AllocInternalEb
-__GLOBAL__sub_I_servermsgh.stdout.rel_tf_osx_builder.58179.REq1T5.ii
+__GLOBAL__sub_I_servermsgh.stdout.rel_tf_osx_builder.90173.J5G9iP.ii
 __ZN8CSession12ResetSessionEv
 __ZN8CSessionC1Ev
 __ZN8CSessionD1Ev
@@ -52915,7 +52926,7 @@ __ZN10CUtlVectorIN14CStaticPropMgr16StaticPropFade_tE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN14CStaticPropMgr16StaticPropDict_tE10CUtlMemoryIS1_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorI20StaticPropLeafLump_t10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
 __ZN10CUtlVectorI11CStaticProp10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_staticprop.stdout.rel_tf_osx_builder.58241.gFyhp6.ii
+__GLOBAL__sub_I_staticprop.stdout.rel_tf_osx_builder.90208.Whj7SR.ii
 __Z15ClampClientRatei
 __ZN11CGameClientC2EiP11CBaseServer
 __ZN11CGameClientC1EiP11CBaseServer
@@ -53001,13 +53012,13 @@ __ZN11CGameClient12GetSendFrameEv
 __ZN11CGameClient16IgnoreTempEntityEP10CEventInfo
 __ZN11CGameClient15GetPrevPackInfoEv
 __ZN11SoundInfo_t10WriteDeltaEPS_R8bf_write
-__GLOBAL__sub_I_sv_client.stdout.rel_tf_osx_builder.17739.GVus3y.ii
+__GLOBAL__sub_I_sv_client.stdout.rel_tf_osx_builder.90211.Y3gVmL.ii
 __ZN11CBaseServer18WriteDeltaEntitiesEP11CBaseClientP12CClientFrameS3_R8bf_write
 __ZN14CUtlLinkedListIP12CChangeTrackiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEED1Ev
 __ZN16CEntityWriteInfoD1Ev
 __ZN16CEntityWriteInfoD0Ev
 __ZN14CUtlLinkedListIP12CChangeTrackiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEED2Ev
-__GLOBAL__sub_I_sv_ents_wr.stdout.rel_tf_osx_builder.58249.6V4SSV.ii
+__GLOBAL__sub_I_sv_ents_wr.stdout.rel_tf_osx_builder.90210.KBioig.ii
 __Z14Filter_SendBanRK8netadr_s
 __Z20Filter_ShouldDiscardRK8netadr_s
 __Z20Filter_ConvertStringPKcP10ipfilter_t
@@ -53027,7 +53038,7 @@ __ZN10CUtlVectorI10ipfilter_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI12userfilter_t10CUtlMemoryIS0_iEED1Ev
 __ZN10CUtlVectorI10ipfilter_t10CUtlMemoryIS0_iEED2Ev
 __ZN10CUtlVectorI12userfilter_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sv_filter.stdout.rel_tf_osx_builder.58251.gXEohm.ii
+__GLOBAL__sub_I_sv_filter.stdout.rel_tf_osx_builder.90222.kSM2II.ii
 __ZN21CFrameSnapshotManagerD1Ev
 __ZN21CFrameSnapshotManagerD0Ev
 __ZN21CFrameSnapshotManager12LevelChangedEv
@@ -53053,7 +53064,7 @@ __ZN14CUtlLinkedListIP14CFrameSnapshottLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS
 __ZN14CUtlLinkedListIP14CFrameSnapshottLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS1_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIP14CFrameSnapshottEtE4GrowEi
 __ZN10CUtlVectorI19UnpackedDataCache_t10CUtlMemoryIS0_iEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_sv_framesn.stdout.rel_tf_osx_builder.58261.IeiaWF.ii
+__GLOBAL__sub_I_sv_framesn.stdout.rel_tf_osx_builder.90223.q8w7En.ii
 __ZN12CIPRateLimit6LessIPERKNS_8iprate_sES2_
 __ZN12CIPRateLimitC1EP6ConVarS1_S1_
 __ZN12CIPRateLimitD1Ev
@@ -53090,7 +53101,7 @@ __ZN4CLog4OpenEv
 __ZL18CreateTempFilenameR14TempFilename_tPKcS2_b
 __Z14V_sprintf_safeILm1100EEiRAT__cPKcz
 __ZN10CUtlVectorI8netadr_s10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sv_log.stdout.rel_tf_osx_builder.58277.iLE30A.ii
+__GLOBAL__sub_I_sv_log.stdout.rel_tf_osx_builder.90224.Rv1t1g.ii
 __ZN11CGameServerD1Ev
 __Z13GetSvPureModev
 __ZL9SV_Pure_fRK8CCommand
@@ -53162,7 +53173,7 @@ __ZN9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefM
 __ZN9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor2IPFvbbEbb12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_sv_main.stdout.rel_tf_osx_builder.58278.L8ULIU.ii
+__GLOBAL__sub_I_sv_main.stdout.rel_tf_osx_builder.90242.PQTbkM.ii
 __Z25SV_EnsureInstanceBaselineP11ServerClassiPKvi
 __Z28PackEntities_NetworkBackDooriPP11CGameClientP14CFrameSnapshot
 __Z19PackEntities_NormaliPP11CGameClientP14CFrameSnapshot
@@ -53182,7 +53193,7 @@ __ZN15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorI
 __ZN15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneEclEv
 __ZThn8_N15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED1Ev
 __ZThn8_N15CMemberFunctor0IP18CParallelProcessorI10PackWork_t21CFuncJobItemProcessorIS1_EEMS4_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneED0Ev
-__GLOBAL__sub_I_sv_packede.stdout.rel_tf_osx_builder.58279.9SqPq9.ii
+__GLOBAL__sub_I_sv_packede.stdout.rel_tf_osx_builder.90243.GXd801.ii
 __ZN13CServerPluginD1Ev
 __ZL51__CreateCServerPluginIServerPluginHelpers_interfacev
 __Z26SendCvarValueQueryToClientP7IClientPKcb
@@ -53217,7 +53228,7 @@ __ZL11plugin_loadRK8CCommand
 __ZL13plugin_unloadRK8CCommand
 __ZN10CUtlVectorIP7CPlugin10CUtlMemoryIS1_iEE22PurgeAndDeleteElementsEv
 __ZN10CUtlVectorIP7CPlugin10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_sv_plugin.stdout.rel_tf_osx_builder.58280.VT2Are.ii
+__GLOBAL__sub_I_sv_plugin.stdout.rel_tf_osx_builder.90258.yccyRY.ii
 __Z13SV_ModelIndexPKc
 __ZN11CGameServer16LookupModelIndexEPKc
 __Z17SV_FindOrAddModelPKcb
@@ -53240,7 +53251,7 @@ __ZNK11CGameServer21GetSoundPrecacheTableEv
 __ZN11CGameServer8GetSoundEi
 __ZN11CGameServer17DumpPrecacheStatsEP19INetworkStringTable
 __ZL15sv_precacheinfoRK8CCommand
-__GLOBAL__sub_I_sv_precach.stdout.rel_tf_osx_builder.58285.r6upkL.ii
+__GLOBAL__sub_I_sv_precach.stdout.rel_tf_osx_builder.90260.7Q2wSE.ii
 __ZN11CRConServerD1Ev
 __Z10RCONServerv
 __ZL21RconPasswordChanged_fP7IConVarPKcf
@@ -53269,13 +53280,13 @@ __ZN10CUtlVectorIN11CRConServer12FailedRCon_tE10CUtlMemoryIS1_iEE12InsertBeforeE
 __ZN14CUtlLinkedListIftLb0Et10CUtlMemoryI19UtlLinkedListElem_tIftEtEE13AllocInternalEb
 __ZN14CUtlLinkedListIftLb0Et10CUtlMemoryI19UtlLinkedListElem_tIftEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tIftEtE4GrowEi
-__GLOBAL__sub_I_sv_rcon.stdout.rel_tf_osx_builder.58294.H11Bfa.ii
+__GLOBAL__sub_I_sv_rcon.stdout.rel_tf_osx_builder.90261.xfO3y6.ii
 __Z16SV_RedirectStart10redirect_tPK8netadr_s
 __Z14SV_RedirectEndv
 __Z21SV_RedirectCheckFlushi
 __Z17SV_RedirectActivev
 __Z18SV_RedirectAddTextPKc
-__GLOBAL__sub_I_sv_redirec.stdout.rel_tf_osx_builder.58295.Pr5spq.ii
+__GLOBAL__sub_I_sv_redirec.stdout.rel_tf_osx_builder.90264.4CG4Y5.ii
 __ZL52__CreateCServerRemoteAccessIGameServerData_interfacev
 __Z12Host_Stats_fv
 __ZN19CServerRemoteAccess17GetNextListenerIDEbPK8netadr_s
@@ -53306,7 +53317,7 @@ __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI1
 __ZN14CUtlLinkedListIN19CServerRemoteAccess15ListenerStore_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE13AllocInternalEb
 __ZN14CUtlLinkedListIN19CServerRemoteAccess14DataResponse_tEiLb0Ei10CUtlMemoryI19UtlLinkedListElem_tIS1_iEiEE4FreeEi
-__GLOBAL__sub_I_sv_remotea.stdout.rel_tf_osx_builder.58296.6RrK9o.ii
+__GLOBAL__sub_I_sv_remotea.stdout.rel_tf_osx_builder.90273.OflyIn.ii
 __ZL26sv_setsteamblockingcheck_fP7IConVarPKcf
 __ZL22sdr_spew_level_changedP7IConVarPKcf
 __Z44SetSteamNetworkingSocketsDebugOutputFunctionv
@@ -53392,7 +53403,7 @@ __ZN9CCallbackI13CSteam3Server18GSPolicyResponse_tLb1EE3RunEPv
 __ZN9CCallbackI13CSteam3Server18GSPolicyResponse_tLb1EED0Ev
 __ZN9CCallbackI13CSteam3Server29SteamNetworkingFakeIPResult_tLb1EE3RunEPv
 __ZN9CCallbackI13CSteam3Server29SteamNetworkingFakeIPResult_tLb1EED0Ev
-__GLOBAL__sub_I_sv_steamau.stdout.rel_tf_osx_builder.58325.0Lp2vy.ii
+__GLOBAL__sub_I_sv_steamau.stdout.rel_tf_osx_builder.90288.hN7asZ.ii
 __ZL50__CreateCUploadGameStatsIUploadGameStats_interfacev
 __ZN16CUploadGameStats15UploadGameStatsEPKcjjPKv
 __ZN16CUploadGameStats14InitConnectionEv
@@ -53401,7 +53412,7 @@ __ZN16CUploadGameStats25IsGameStatsLoggingEnabledEv
 __ZN16CUploadGameStats17GetPseudoUniqueIdEPcm
 __ZN16CUploadGameStats15IsCyberCafeUserEv
 __ZN16CUploadGameStats12IsHDREnabledEv
-__GLOBAL__sub_I_sv_uploadg.stdout.rel_tf_osx_builder.58327.XJHgLK.ii
+__GLOBAL__sub_I_sv_uploadg.stdout.rel_tf_osx_builder.90292.y1PAwZ.ii
 __Z19Sys_CompareFileTimell
 __Z9Sys_mkdirPKc
 __Z13Sys_FindFirstPKcPci
@@ -53435,7 +53446,7 @@ __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEt
 __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEtEE10LinkBeforeEtt
 __ZN10CUtlMemoryI19UtlLinkedListElem_tI10CUtlStringtEtE4GrowEi
 __ZN14CUtlLinkedListI10CUtlStringtLb0Et10CUtlMemoryI19UtlLinkedListElem_tIS0_tEtEED2Ev
-__GLOBAL__sub_I_sys_dll.stdout.rel_tf_osx_builder.58331.7eKyF0.ii
+__GLOBAL__sub_I_sys_dll.stdout.rel_tf_osx_builder.90294.Xkp5Fs.ii
 __Z24GetSteamInfIDVersionInfov
 __Z12build_numberv
 __Z13ClearIOStatesv
@@ -53500,7 +53511,7 @@ __ZN10CErrorTextILi95000EE13CommentPrintfEPKcz
 __ZN10CErrorTextILi95000EE21BuildCommentMemStatusEv
 __ZN10CErrorTextILi95000EE20BuildCommentExtendedEv
 __ZN10CUtlVectorI15AppSystemInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_sys_dll2.stdout.rel_tf_osx_builder.58337.1qkMiz.ii
+__GLOBAL__sub_I_sys_dll2.stdout.rel_tf_osx_builder.90301.xuuHrc.ii
 __ZL16fps_max_callbackP7IConVarPKcf
 __ZL29mat_powersavingsmode_callbackP7IConVarPKcf
 __ZN7CEngineD1Ev
@@ -53515,7 +53526,7 @@ __ZN7CEngine12GetFrameTimeEv
 __ZN7CEngine10GetCurTimeEv
 __ZN7CEngine11SetQuittingEi
 __ZN7CEngine11GetQuittingEv
-__GLOBAL__sub_I_sys_engine.stdout.rel_tf_osx_builder.58343.DGb983.ii
+__GLOBAL__sub_I_sys_engine.stdout.rel_tf_osx_builder.90304.tjSJjU.ii
 __ZNK17CVideoMode_Common14IsWindowedModeEv
 __ZNK17CVideoMode_Common12GetModeWidthEv
 __ZNK17CVideoMode_Common13GetModeHeightEv
@@ -53567,7 +53578,7 @@ __Z16VideoMode_Createv
 __Z17VideoMode_Destroyv
 __ZN25CVideoMode_MaterialSystemD1Ev
 __ZN25CVideoMode_MaterialSystemD0Ev
-__GLOBAL__sub_I_sys_getmod.stdout.rel_tf_osx_builder.58345.xWvx0y.ii
+__GLOBAL__sub_I_sys_getmod.stdout.rel_tf_osx_builder.90306.ql2IX4.ii
 __ZN5CGameD1Ev
 __ZN5CGame21HandleMsg_ActivateAppERK12InputEvent_t
 __ZN5CGame20HandleMsg_WindowMoveERK12InputEvent_t
@@ -53849,7 +53860,7 @@ __ZN14CVEngineServer26Message_CheckMessageLengthEv
 __ZN10CUtlVectorI7CSPVert10CUtlMemoryIS0_iEE10GrowVectorEi
 __ZN10CUtlVectorI7CSPVert10CUtlMemoryIS0_iEED2Ev
 __ZNSt3__111__sort_heapIRPFbRKiS2_EPiEEvT0_S7_T_
-__GLOBAL__sub_I_vengineser.stdout.rel_tf_osx_builder.58383.WAFX9k.ii
+__GLOBAL__sub_I_vengineser.stdout.rel_tf_osx_builder.90323.fPVCeG.ii
 __ZN16CAskConnectPanelC1Ej
 __ZN16CAskConnectPanelD1Ev
 __ZN16CAskConnectPanelD0Ev
@@ -53875,7 +53886,7 @@ __ZN10CBasePanelD2Ev
 __ZN10CBasePanelD1Ev
 __ZN10CBasePanelD0Ev
 __ZN10CBasePanel6OnTickEv
-__GLOBAL__sub_I_vgui_basep.stdout.rel_tf_osx_builder.58405.h0gTDG.ii
+__GLOBAL__sub_I_vgui_basep.stdout.rel_tf_osx_builder.90334.mZbJWC.ii
 __ZL11gameui_hideRK8CCommand
 __ZL15gameui_activateRK8CCommand
 __ZL20gameui_preventescapeRK8CCommand
@@ -53963,7 +53974,7 @@ __ZN12CEnginePanelD1Ev
 __ZN12CEnginePanelD0Ev
 __ZN10CUtlVectorIj10CUtlMemoryIjiEE9AddToTailERKj
 __ZN10CUtlVectorIN11CEngineVGui22LoadingProgressEntry_tE10CUtlMemoryIS1_iEED2Ev
-__GLOBAL__sub_I_vgui_baseu.stdout.rel_tf_osx_builder.58411.MoiAsm.ii
+__GLOBAL__sub_I_vgui_baseu.stdout.rel_tf_osx_builder.90338.oSGPkg.ii
 __ZL20vprof_adddebuggroup1RK8CCommand
 __Z13IN_BudgetDownv
 __Z14GetBudgetPanelv
@@ -53976,7 +53987,7 @@ __ZN18CBudgetPanelEngine6OnTickEv
 __ZN18CBudgetPanelEngine16SetTimeLabelTextEv
 __ZN18CBudgetPanelEngine19SetHistoryLabelTextEv
 __ZNK18CBudgetPanelEngine18IsBudgetPanelShownEv
-__GLOBAL__sub_I_vgui_budge.stdout.rel_tf_osx_builder.58415.WebBGk.ii
+__GLOBAL__sub_I_vgui_budge.stdout.rel_tf_osx_builder.90356.tbF8XQ.ii
 __ZN16CDebugMenuButtonC1EPN4vgui5PanelEPKcS4_
 __ZN17CDebugSystemPanelC1EPN4vgui5PanelEPKc
 __ZN17CDebugSystemPanel10SetVisibleEb
@@ -54057,7 +54068,7 @@ __ZN4vgui8TreeView19GenerateContextMenuEiii
 __ZN9CVGuiTreeD1Ev
 __ZN9CVGuiTreeD0Ev
 __ZN9CVGuiTree19ApplySchemeSettingsEPN4vgui7ISchemeE
-__GLOBAL__sub_I_vgui_drawt.stdout.rel_tf_osx_builder.58427.flc2pb.ii
+__GLOBAL__sub_I_vgui_drawt.stdout.rel_tf_osx_builder.90360.OdKLgd.ii
 __ZN18CConVarCheckButtonC1EPN4vgui5PanelEPKcS4_
 __ZN18CConVarCheckButton9SetConVarEP6ConVar
 __ZN18CConVarCheckButton11SetSelectedEb
@@ -54090,7 +54101,7 @@ __ZN25CConCommandMemberAccessorI19CTextureBudgetPanelE15CommandCallbackERK8CComm
 __ZN25CConCommandMemberAccessorI19CTextureBudgetPanelE25CommandCompletionCallbackEPKcR10CUtlVectorI10CUtlString10CUtlMemoryIS5_iEE
 __ZThn36_N25CConCommandMemberAccessorI19CTextureBudgetPanelE15CommandCallbackERK8CCommand
 __ZThn40_N25CConCommandMemberAccessorI19CTextureBudgetPanelE25CommandCompletionCallbackEPKcR10CUtlVectorI10CUtlString10CUtlMemoryIS5_iEE
-__GLOBAL__sub_I_vgui_textu.stdout.rel_tf_osx_builder.58440.9NUEAU.ii
+__GLOBAL__sub_I_vgui_textu.stdout.rel_tf_osx_builder.90380.4VTplf.ii
 __Z19IN_VProfPrevSiblingv
 __Z19IN_VProfNextSiblingv
 __Z14IN_VProfParentv
@@ -54105,7 +54116,7 @@ __ZN16CVProfGraphPanel5PaintEv
 __ZN16CVProfGraphPanel12PaintLineArtEiii
 __Z21CreateVProfGraphPanelPN4vgui5PanelE
 __Z22DestroyVProfGraphPanelv
-__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.58447.fvKD5q.ii
+__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.90382.S1VTb2.ii
 __Z13GetVProfPanelv
 __ZN11CVProfPanel5ResetEv
 __ZL19ClearNodeClientDataP10CVProfNode
@@ -54195,7 +54206,7 @@ __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMe
 __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN22CProfileHierarchyPanel14ColumnPanels_tEiPFbRKS1_S3_E10CUtlMemoryI15UtlRBTreeNode_tIS1_iEiEE15InsertRebalanceEi
 __ZN8CFmtStrNILi1024ELb0EE19InitQuietTruncationEv
-__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.58457.ZAazqU.ii
+__GLOBAL__sub_I_vgui_vprof.stdout.rel_tf_osx_builder.90388.YaMe1i.ii
 __Z12V_CheckGammav
 __Z6V_Initv
 __Z10V_Shutdownv
@@ -54258,14 +54269,14 @@ __ZN12CVRenderView18GetMatricesForViewERK10CViewSetupP7VMatrixS4_S4_S4_
 __ZN12CVRenderView16DrawBrushModelExEP13IClientEntityP7model_tRK6VectorRK6QAngle20DrawBrushModelMode_t
 __ZN12CVRenderView13EnumerateLeafEii
 __ZThn4_N12CVRenderView13EnumerateLeafEii
-__GLOBAL__sub_I_view.stdout.rel_tf_osx_builder.58462.c8PmSU.ii
+__GLOBAL__sub_I_view.stdout.rel_tf_osx_builder.90389.CLDdyS.ii
 __ZL42__CreateCVoiceServerIVoiceServer_interfacev
 __ZN12CVoiceServerD1Ev
 __ZN12CVoiceServerD0Ev
 __ZN12CVoiceServer18GetClientListeningEii
 __ZN12CVoiceServer18SetClientListeningEiib
 __ZN12CVoiceServer18SetClientProximityEiib
-__GLOBAL__sub_I_voiceserve.stdout.rel_tf_osx_builder.58466.QeVM7J.ii
+__GLOBAL__sub_I_voiceserve.stdout.rel_tf_osx_builder.90399.ii0H60.ii
 __Z16PreUpdateProfilef
 __Z17PostUpdateProfilev
 __ZL5spikeRK8CCommand
@@ -54320,7 +54331,7 @@ __ZN12CVProfExport19GetBudgetGroupInfosEPN12IVProfExport24CExportedBudgetGroupIn
 __ZN12CVProfExport19GetBudgetGroupTimesEPf
 __ZN12CVProfExport35CalculateBudgetGroupTimes_RecursiveEP10CVProfNode
 __ZN10CUtlVectorI17VProfListenInfo_t10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_vprof_engi.stdout.rel_tf_osx_builder.58468.SnxKc6.ii
+__GLOBAL__sub_I_vprof_engi.stdout.rel_tf_osx_builder.90400.VeYVAU.ii
 __ZL18vprof_record_startRK8CCommand
 __ZL17vprof_record_stopRK8CCommand
 __ZL20vprof_playback_startRK8CCommand
@@ -54356,7 +54367,7 @@ __ZN14CVProfRecorder15Record_SnapshotEv
 __ZN14CVProfRecorder24Record_MatchBudgetGroupsEP9CVProfile
 __ZN14CVProfRecorder18Record_MatchTree_REP10CVProfNodePKS0_P9CVProfile
 __ZN14CVProfRecorder21Record_WriteTimings_REPK10CVProfNode
-__GLOBAL__sub_I_vprof_reco.stdout.rel_tf_osx_builder.58481.4sJ7Zt.ii
+__GLOBAL__sub_I_vprof_reco.stdout.rel_tf_osx_builder.90401.Dj2jav.ii
 __Z13SV_ClearWorldv
 __Z15SV_TriggerMovedP7edict_tb
 __Z13SV_SolidMovedP7edict_tP12ICollideablePK6Vectorb
@@ -55428,7 +55439,7 @@ __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE7NewNodeEv
 __ZN10CUtlRBTreeIN7CUtlMapIPKcP9KeyValuesiPFbRKS2_S6_EE6Node_tEiNS9_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tISA_iEiEE15InsertRebalanceEi
 __ZN8CUtlDictIP9KeyValuesiE9RemoveAllEv
-__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.56574.kw6oJn.ii
+__GLOBAL__sub_I_BuildGroup.stdout.rel_tf_osx_builder.89405.1vn2d7.ii
 __ZN19CBuildModeDialogMgr3AddEPN4vgui15BuildModeDialogE
 __ZN4vgui15BuildModeDialog14CreateControlsEv
 __ZN4vgui15BuildModeDialogC1EPNS_10BuildGroupE
@@ -57265,7 +57276,7 @@ __ZN4vgui10ClickPanel17GetPanelClassNameEv
 __ZN10CUtlVectorIw10CUtlMemoryIwiEED2Ev
 __ZN10CUtlVectorIN4vgui8RichText13TFormatStreamE10CUtlMemoryIS2_iEED2Ev
 __ZN10CUtlVectorIPN4vgui10ClickPanelE10CUtlMemoryIS2_iEED2Ev
-__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.49345.HQMQru.ii
+__GLOBAL__sub_I_RichText.stdout.rel_tf_osx_builder.89406.TF28Iy.ii
 __ZL25Create_ScalableImagePanelv
 __ZN4vgui18ScalableImagePanelC1EPNS_5PanelEPKc
 __ZN4vgui18ScalableImagePanelD2Ev
@@ -57787,7 +57798,7 @@ __ZN4vgui8URLLabel13GetMessageMapEv
 __ZN4vgui8URLLabel10GetAnimMapEv
 __ZN4vgui8URLLabel8GetKBMapEv
 __ZN4vgui8URLLabel17GetPanelClassNameEv
-__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.49346.3rBOHP.ii
+__GLOBAL__sub_I_URLLabel.stdout.rel_tf_osx_builder.89407.q5FYeX.ii
 __Z16CreateVTFTexturev
 __Z17DestroyVTFTextureP11IVTFTexture
 __ZN11CVTFTexture8ShutdownEv

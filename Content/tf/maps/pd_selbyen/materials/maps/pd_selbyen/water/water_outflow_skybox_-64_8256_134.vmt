@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_OUTFLOW_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_selbyen/c-64_8256_134"
+		"Proxies"
+		{
+		}
+	}
+}

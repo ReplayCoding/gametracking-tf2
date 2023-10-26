@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/WINDOWUNI001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_reckoner/c304_-1342_448"
+	}
+}

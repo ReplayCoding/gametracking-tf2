@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_venice/venice/water_venice_v2_5632_2816_2208.vmt"
+	"insert"
+	{
+		"$waterdepth"		"32"
+	}
+}

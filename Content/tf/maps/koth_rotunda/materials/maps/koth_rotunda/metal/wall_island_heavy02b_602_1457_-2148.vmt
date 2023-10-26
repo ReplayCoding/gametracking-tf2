@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/WALL_ISLAND_HEAVY02B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c602_1457_-2148"
+	}
+}

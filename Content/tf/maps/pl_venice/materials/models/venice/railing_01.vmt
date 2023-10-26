@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "models/venice/railing_01_d"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 20
+	$phongboost 2
+	$basemapalphaphongmask 1
+}

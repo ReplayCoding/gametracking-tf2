@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_sulfur/c-650_-4318_-189"
+		"Proxies"
+		{
+		}
+	}
+}

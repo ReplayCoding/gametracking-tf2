@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	<dx90
+	{
+		"$fallbackmaterial" "rotunda/blend_oil_forttile_dx80"
+	}
+
+	"$basetexture" "Concrete/forttile001"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "rotunda/fortile_normal"
+
+	"$envmap" "env_cubemap"
+//	"$basetexturenoenvmap" "1" //DX9 only, disabled as its redundant and could cause issues.
+	"$normalmapalphaenvmapmask" "1" //Alpha for gravel is locked at 1, alpha for oil is at 0. This is the envmap masking system for having the oil shine.
+	"$basetexture2" "tools/toolsblack"
+	"$surfaceprop2" "mud"
+	"$bumpmap2" "rotunda/oil_normal"
+//	"$ssbump" "1" //ss bump seems to be the issue, so its been disabled.
+//	"$fresnelreflection" "1"
+	"$envmapcontrast" "0"
+	"$envmapsaturation" "1"
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+	"$blendmodulatetexture" "concrete\concretefloor007_blendmask"
+	"%keywords" "tf"
+}
+
+//edit by Custard1, based on edit by Brokk, based on edit by Custard1

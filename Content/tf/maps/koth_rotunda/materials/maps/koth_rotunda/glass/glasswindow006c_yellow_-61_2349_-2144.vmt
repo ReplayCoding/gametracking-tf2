@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C_YELLOW.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c-61_2349_-2144"
+	}
+}

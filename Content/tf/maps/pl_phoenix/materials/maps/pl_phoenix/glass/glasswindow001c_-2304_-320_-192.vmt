@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_phoenix/c-2304_-320_-192"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/SNOW_FULL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c394_2115_-1892"
+	}
+}

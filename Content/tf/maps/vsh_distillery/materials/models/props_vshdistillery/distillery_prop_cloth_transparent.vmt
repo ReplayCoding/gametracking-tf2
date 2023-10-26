@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vshdistillery/distillery_prop_cloth"
+	"$bumpmap" "models/props_vshdistillery/distillery_prop_cloth_normal"
+	"$phong" "1"
+	"$phongexponent" "200"
+	"$phongboost" "0.05"	
+	"$phongfresnelranges"	"[2 1 .8]"
+	//"$basemapalphaphongmask" "1"
+}

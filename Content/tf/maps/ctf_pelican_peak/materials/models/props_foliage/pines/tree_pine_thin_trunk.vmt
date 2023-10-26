@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_foliage/pines/tree_pine_thin_trunk"
+	"%keywords" "tf"
+	"$surfaceprop" "Wood"
+	
+
+
+    	$treeSway                         "1"
+	$treeSwayHeight                   "400"
+	$treeSwayStartHeight              "0"
+	$treeSwayRadius                   "400"
+	$treeSwayStartRadius              "0.0"
+	$treeSwaySpeed                    "1"
+	$treeSwayStrength                 "4"
+	$treeSwayScrumbleSpeed            "1"
+	$treeSwayScrumbleStrength         "1"
+	$treeSwayScrumbleFrequency        "400"
+	$treeSwayFalloffExp               "2"
+	$treeSwayScrumbleFalloffExp       "1"
+	$treeSwaySpeedHighWindMultiplier  ".2"
+	$treeSwaySpeedLerpStart           "1000.0"
+	$treeSwaySpeedLerpEnd             "2500.0"
+	$treeSwayStatic 1
+}

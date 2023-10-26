@@ -1,0 +1,26 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "swamp/metal/swampmetal001"
+	"$surfaceprop" "metal"
+//	"$bumpmap" "Metal/Imetal001_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$basetexturenoenvmap" "1"
+//	"$normalmapalphaenvmapmask" "1"
+	
+	"$basetexture2" "tools/toolsblack"
+	"$surfaceprop2" "mud"
+//	"$bumpmap2" "nature/rockground001_height-ssbump"
+//	"$ssbump" "1"
+//	"$fresnelreflection" "1"
+//	"$envmapcontrast" "0"
+//	"$envmapsaturation" "1"
+//	"$envmaptint" "[0.1 0.1 0.1]"
+
+//	"$blendmodulatetexture" "nature/gravelground001_blendmask"
+//	"$blendmodulatetexture" "concrete\concretefloor007_blendmask"
+
+	"%keywords" "tf"
+}
+
+//i hate dx80 i hate dx80 i hate dx80 i hate dx80

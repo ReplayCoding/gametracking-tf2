@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\Krazyzark\drinky_01_t"
+	"$surfaceprop"	"glass"
+	"$translucent" 1
+	"$alpha" 1
+	
+	"$phong"	"1"
+	"$phongboost"	"10"
+	"$phongexponent" "8"
+	"$phongfresnelranges"	"[.1 1 2]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+}

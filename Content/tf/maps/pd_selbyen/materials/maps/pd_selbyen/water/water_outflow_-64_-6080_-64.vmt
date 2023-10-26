@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_OUTFLOW.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_selbyen/c-64_-6080_-64"
+		"Proxies"
+		{
+		}
+	}
+}

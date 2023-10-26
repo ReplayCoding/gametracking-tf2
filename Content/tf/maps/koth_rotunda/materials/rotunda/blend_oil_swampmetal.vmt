@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	<dx90
+	{
+		"$fallbackmaterial" "rotunda/blend_oil_swampmetal_dx80"
+	}
+
+	"$basetexture" "swamp/metal/swampmetal001"
+	"$surfaceprop" "metal"
+	"$bumpmap" "rotunda/metalfloor_normal_edit"
+
+	"$envmap" "env_cubemap"
+	"$basetexturenoenvmap" "1" //DX9 only, need to convert the existing normal and mess with its alpha to disable this.
+	"$normalmapalphaenvmapmask" "1" //
+	"$basetexture2" "tools/toolsblack"
+	"$surfaceprop2" "mud"
+	"$bumpmap2" "rotunda/oil_normal"
+//	"$ssbump" "1" //ss bump seems to be the issue, so its been disabled.
+//	"$fresnelreflection" "1"
+	"$envmapcontrast" "0"
+	"$envmapsaturation" "1"
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+	"$blendmodulatetexture" "concrete\concretefloor007_blendmask"
+	"%keywords" "tf"
+}
+
+//edit by Custard1, based on edit by Brokk, based on edit by Custard1

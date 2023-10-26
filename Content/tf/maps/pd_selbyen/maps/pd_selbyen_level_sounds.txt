@@ -1,0 +1,199 @@
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+	"wave"		"selbyen_sounds\fisherman_lose01.wav"
+	"wave"		"selbyen_sounds\fisherman_lose02.wav"
+	"wave"		"selbyen_sounds\fisherman_lose03.wav"
+	"wave"		"selbyen_sounds\fisherman_lose04.wav"
+	}
+	
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+"rndwave"
+	{
+	"wave"		"selbyen_sounds\fisherman_win01.wav"
+	"wave"		"selbyen_sounds\fisherman_win02.wav"
+	"wave"		"selbyen_sounds\fisherman_win03.wav"
+	"wave"		"selbyen_sounds\fisherman_win04.wav"
+	"wave"		"selbyen_sounds\fisherman_win05.wav"
+	"wave"		"selbyen_sounds\fisherman_win06.wav"
+	}
+	
+}
+
+"Fisherman.One"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_1.wav"
+}
+
+"Fisherman.Two"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_2.wav"
+}
+
+"Fisherman.Three"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_3.wav"
+}
+
+"Fisherman.en"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_en.wav"
+}
+
+"Fisherman.To"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_to.wav"
+}
+
+"Fisherman.Tre"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_tre.wav"
+}
+
+"Fisherman.30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"selbyen_sounds\fisherman_30_seconds.wav"
+}
+
+"Fisherman.Losing"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"selbyen_sounds\fisherman_losing01.wav"
+		"wave"	"selbyen_sounds\fisherman_losing02.wav"
+		"wave"	"selbyen_sounds\fisherman_losing03.wav"
+		"wave"	"selbyen_sounds\fisherman_losing04.wav"
+		"wave"	"selbyen_sounds\fisherman_losing05.wav"
+	}
+}
+
+
+"Fisherman.Winning"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"selbyen_sounds\fisherman_winning01.wav"
+		"wave"	"selbyen_sounds\fisherman_winning02.wav"
+		"wave"	"selbyen_sounds\fisherman_winning03.wav"
+		"wave"	"selbyen_sounds\fisherman_winning04.wav"
+		"wave"	"selbyen_sounds\fisherman_winning05.wav"
+	}
+}
+
+"Fisherman.Close"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"selbyen_sounds\fisherman_point_close01.wav"
+		"wave"	"selbyen_sounds\fisherman_point_close02.wav"
+		"wave"	"selbyen_sounds\fisherman_point_close03.wav"
+	}
+}
+
+"Fisherman.Open"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"selbyen_sounds\fisherman_point_open01.wav"
+		"wave"	"selbyen_sounds\fisherman_point_open02.wav"
+		"wave"	"selbyen_sounds\fisherman_point_open03.wav"
+		"wave"	"selbyen_sounds\fisherman_point_open04.wav"
+	}
+}
+
+
+"Fisherman.Begin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"selbyen_sounds\fisherman_prep01.wav"
+		"wave"	"selbyen_sounds\fisherman_prep02.wav"
+		"wave"	"selbyen_sounds\fisherman_prep03.wav"
+	}
+}

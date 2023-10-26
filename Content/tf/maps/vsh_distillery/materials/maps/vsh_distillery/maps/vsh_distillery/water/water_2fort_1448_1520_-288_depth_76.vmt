@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/vsh_distillery/water/water_2fort_1448_1520_-288.vmt"
+	"insert"
+	{
+		"$waterdepth"		"76"
+	}
+}

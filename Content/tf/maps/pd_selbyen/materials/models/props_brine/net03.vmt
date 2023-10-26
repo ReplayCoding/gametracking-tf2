@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$basetexture"	"models/props_brine/net03"
+	"$bumpmap" "models/props_medieval/pendant_flag/bannerFlag_C_normal"
+
+	"$nocull" "1"
+	"$alphatest" "1"
+
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$nodecal" 1
+
+	"$AlphaTestReference" "0.37"
+	"$AllowAlphaToCoverage" "1"
+
+}
+
+

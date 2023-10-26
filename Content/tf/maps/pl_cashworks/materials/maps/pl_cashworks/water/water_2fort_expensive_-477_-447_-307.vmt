@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c-477_-447_-307"
+		"Proxies"
+		{
+		}
+	}
+}

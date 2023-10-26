@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ROTUNDA/FLOORR_TILE_006A_RED_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c-158_2885_-1904"
+	}
+}

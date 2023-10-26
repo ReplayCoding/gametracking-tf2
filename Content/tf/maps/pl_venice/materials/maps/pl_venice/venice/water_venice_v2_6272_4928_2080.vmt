@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/VENICE/WATER_VENICE_V2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_venice/c6272_4928_2080"
+		"Proxies"
+		{
+		}
+	}
+}

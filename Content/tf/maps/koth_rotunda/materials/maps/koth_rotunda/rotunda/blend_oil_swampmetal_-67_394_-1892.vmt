@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ROTUNDA/BLEND_OIL_SWAMPMETAL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c-67_394_-1892"
+	}
+}

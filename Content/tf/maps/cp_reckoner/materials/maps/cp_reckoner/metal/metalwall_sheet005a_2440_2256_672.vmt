@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALWALL_SHEET005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_reckoner/c2440_2256_672"
+	}
+}

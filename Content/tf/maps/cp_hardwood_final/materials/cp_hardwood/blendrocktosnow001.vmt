@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "cp_sunshine/nature/rockwall001"
+	"$basetexture2" "Nature/snow_full001"
+	"$blendmodulatetexture" "nature/snowwall_blendmask"
+	"$bumpmap" "nature/rockwall009_height-ssbump"
+    "$ssbump" "1"
+	"%keywords" "tf"
+	"$surfaceprop" "rock"
+}

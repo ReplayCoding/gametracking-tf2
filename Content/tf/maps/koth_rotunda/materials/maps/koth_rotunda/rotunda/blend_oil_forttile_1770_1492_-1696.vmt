@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ROTUNDA/BLEND_OIL_FORTTILE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c1770_1492_-1696"
+	}
+}

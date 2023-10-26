@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/vsh_skirmish/water/water_island_dx80_-160_2912_-192.vmt"
+	"insert"
+	{
+		"$waterdepth"		"21"
+	}
+}

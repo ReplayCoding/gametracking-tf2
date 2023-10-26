@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_phoenix/water/water_hydro_cheap_-1984_1408_-448.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

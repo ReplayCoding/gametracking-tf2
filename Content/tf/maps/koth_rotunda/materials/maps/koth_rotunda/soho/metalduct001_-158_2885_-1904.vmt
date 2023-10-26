@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/METALDUCT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_rotunda/c-158_2885_-1904"
+	}
+}

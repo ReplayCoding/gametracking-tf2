@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"metal/metalwall_sheet005a"
+	"$bumpmap"	"metal/metalwall_sheet_normal02"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[0.05 0.05 0.05]"
+
+//	"$color"		"{30 30 30}"
+
+	"$surfaceprop"	"metal"
+
+	"%keywords" "tf"
+}

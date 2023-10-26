@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_sharkbay/sharkbay_oiltanker/sharkbay_oiltanker_1"
+
+	"$lightwarptexture" "models/props_sharkbay/sharkbay_oiltanker/tarpwarp"
+
+	"$halflambert"	"1"
+
+	"$basemapalphaphongmask" 1
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.1 1 10]"
+
+}

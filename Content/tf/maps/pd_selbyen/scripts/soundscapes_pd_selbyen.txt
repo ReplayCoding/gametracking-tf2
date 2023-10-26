@@ -1,0 +1,165 @@
+"Seal.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_trees2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_distant.wav"
+	}
+
+	"playrandom"
+	{	
+		"time"			"9, 13"
+		"volume"		"0.4"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"rndwave"
+		{
+				"wave"		"ambient\mvm_warehouse\seagull_01.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_02.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_03.wav"
+		}	
+	}
+
+	"playrandom"
+	{	
+		"time"			"60, 120"
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient\mvm_warehouse\ship_horn_01.wav"
+			"wave"		"ambient\mvm_warehouse\ship_horn_02.wav"
+		}
+	}
+}
+
+"Seal.Outside_water"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_trees2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_close.wav"
+	}
+
+	"playrandom"
+	{	
+		"time"			"9, 13"
+		"volume"		"0.6"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"rndwave"
+		{
+				"wave"		"ambient\mvm_warehouse\seagull_01.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_02.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_03.wav"
+		}	
+	}
+
+	"playrandom"
+	{	
+		"time"			"60, 120"
+		"volume"		"0.2"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient\mvm_warehouse\ship_horn_01.wav"
+			"wave"		"ambient\mvm_warehouse\ship_horn_02.wav"
+		}
+	}
+}
+
+"Seal.Indoors"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient\lightwindcreaks.wav"
+	}
+		"playrandom"
+	{	
+		"time"			"15, 30"
+		"volume"		"0.03"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"rndwave"
+		{
+				"wave"		"ambient\mvm_warehouse\seagull_01.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_02.wav"
+				"wave"		"ambient\mvm_warehouse\seagull_03.wav"
+		}	
+	}
+
+	"playrandom"
+	{	
+		"time"			"60, 120"
+		"volume"		"0.07"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_90dB"
+		"rndwave"
+		{
+			"wave"		"ambient\mvm_warehouse\ship_horn_01.wav"
+			"wave"		"ambient\mvm_warehouse\ship_horn_02.wav"
+		}	
+	}
+}
+
+"Seal.Indoors_deep"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\lightwindcreaks.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\lighthum.wav"
+	}
+
+}

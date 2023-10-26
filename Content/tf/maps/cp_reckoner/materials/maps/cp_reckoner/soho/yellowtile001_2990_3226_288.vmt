@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/YELLOWTILE001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_reckoner/c2990_3226_288"
+	}
+}

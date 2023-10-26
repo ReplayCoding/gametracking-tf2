@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_pelican_peak/water/water_2fort_0_1088_-352.vmt"
+	"insert"
+	{
+		"$waterdepth"		"96"
+	}
+}

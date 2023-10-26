@@ -1,0 +1,48 @@
+"UnlitGeneric"
+{
+	"%compilewater"	"1"
+	"$basetexture"	"water/nuclearwaste003"
+	"$surfaceprop"	"water"
+	"$bottommaterial"	"water/nuclearwaste_alt_beneath.vmt"
+	"$selfillum"	"1"
+	"%keywords"	"tf"
+	"$nocull"		"1"
+
+	"$detail"		"water/nuclearwaste002"
+	"$detailscale"		"1"
+	"$detailblendfactor"	"1"
+	"$detailblendmode"	"5"
+
+	"$fogenable"		"1"
+	"$fogcolor"		"{64 128 0}"
+	"$fogstart"		"0"
+	"$fogend"		"170"
+
+"Proxies"
+{
+	"TextureScroll"
+	{
+	"texturescrollvar"		"$baseTextureTransform"
+	"texturescrollrate"		".02"
+	"texturescrollangle"		"45.00"
+	}
+
+	"Sine"
+ 	{
+	"sinemax"	"1.1"
+	"sinemin"		".9"
+ 	"sineperiod"	"9"
+ 	"resultvar"	"$detailscale"
+	}
+
+	"Sine"
+	{
+	"sinemax"	"1.1"
+	"sinemin"		".9"
+	"sineperiod"	".07"
+ 	"resultvar"	"$detailblendfactor"
+	}
+
+}
+
+}
