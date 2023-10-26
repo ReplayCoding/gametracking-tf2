@@ -512,7 +512,7 @@ ffff.
 <^_[]
 \^_[]
 l^_[]
-ffff.
+fffff.
 ^_[]
 ^_[]
 ^_[]
@@ -6002,6 +6002,7 @@ maps/%s
 maps
 .bsp
 data
+(UGC) %s
 #GameUI_RandomMap
 SkillLevel0
 SkillLevel1
@@ -6035,7 +6036,7 @@ gameui_xbox
 GameUI
 Resource/gameui_%language%.txt
 Resource/valve_%language%.txt
-VEngineVGui001
+VEngineVGui002
 VGUI_Surface030
 VENGINE_GAMEUIFUNCS_VERSION005
 VENGINE_MATCHMAKING_VERSION001
@@ -8811,7 +8812,7 @@ OBSOLETE
 SLIDER
 CATEGORY
 BUTTON
-WDVC`PB`0A\A`
+WDVC`QB`0A\A`
 ARC`
 ASCUB`
 ARC`
@@ -9548,7 +9549,7 @@ p p00
 0p p
 p p
 p pp p
-p p
+0p p
 p p
 p p
 P  00
@@ -10958,6 +10959,7 @@ __ZN32CCreateMultiplayerGameServerPage19IsRandomMapSelectedEv
 __ZN32CCreateMultiplayerGameServerPage10GetMapNameEv
 __ZN32CCreateMultiplayerGameServerPage6SetMapEPKc
 __ZN32CCreateMultiplayerGameServerPage20OnCheckButtonCheckedEv
+__Z14V_sprintf_safeILm388EEiRAT__cPKcz
 __ZN32CCreateMultiplayerGameServerPage13GetMessageMapEv
 __ZN32CCreateMultiplayerGameServerPage10GetAnimMapEv
 __ZN32CCreateMultiplayerGameServerPage8GetKBMapEv
@@ -11228,7 +11230,7 @@ __Z29SteamInternal_Init_SteamVideoPP11ISteamVideo
 __Z40SteamInternal_Init_SteamParentalSettingsPP22ISteamParentalSettings
 __Z29SteamInternal_Init_SteamInputPP11ISteamInput
 __ZN10CUtlVectorIPc10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.7799.n8TjgK.ii
+__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.96732.TrNEN8.ii
 __ZTS7CGameUI
 __ZTS7IGameUI
 __ZTV7CGameUI
@@ -19136,6 +19138,7 @@ __ZN32CCreateMultiplayerGameServerPage19IsRandomMapSelectedEv
 __ZN32CCreateMultiplayerGameServerPage10GetMapNameEv
 __ZN32CCreateMultiplayerGameServerPage6SetMapEPKc
 __ZN32CCreateMultiplayerGameServerPage20OnCheckButtonCheckedEv
+__Z14V_sprintf_safeILm388EEiRAT__cPKcz
 __ZN32CCreateMultiplayerGameServerPage13GetMessageMapEv
 __ZN32CCreateMultiplayerGameServerPage10GetAnimMapEv
 __ZN32CCreateMultiplayerGameServerPage8GetKBMapEv
@@ -19287,7 +19290,7 @@ __Z29SteamInternal_Init_SteamVideoPP11ISteamVideo
 __Z40SteamInternal_Init_SteamParentalSettingsPP22ISteamParentalSettings
 __Z29SteamInternal_Init_SteamInputPP11ISteamInput
 __ZN10CUtlVectorIPc10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.7799.n8TjgK.ii
+__GLOBAL__sub_I_GameUI_Int.stdout.rel_tf_osx_builder.96732.TrNEN8.ii
 __ZN23CLabeledCommandComboBoxC1EPN4vgui5PanelEPKc
 __ZN23CLabeledCommandComboBoxD1Ev
 __ZN23CLabeledCommandComboBoxD0Ev
