@@ -31,6 +31,7 @@ __bss
 __DATA
 __LINKEDIT
 @loader_path/bugreporter_public.dylib
+)B^E
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
 /usr/lib/libiconv.2.dylib
@@ -330,6 +331,10 @@ P @@@@
 0@p@
 @@@@@@@@@@
 @@  @@@0
+5nec
+5nec
+5nec
+5nec
 /Users/buildbot/buildslave/../.ccache/tmp/
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/build/buildbot_osx.build/Release/bugreporter_public.build/Objects-normal/i386/blockingudpsocket.o
 __ZN18CBlockingUDPSocketC2Ev
@@ -429,7 +434,7 @@ __ZN12CBugReporter13GetLevelCountEi
 __ZN12CBugReporter8GetLevelEii
 __ZN10CUtlVectorIN4CBug7incfileE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI10CUtlSymbol10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.7618.hFuk5Y.ii
+__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.26398.EZLmqn.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 __ZTS12CBugReporter
 __ZTS12IBugReporter
@@ -513,7 +518,7 @@ __ZN10CUtlBuffer6PrintfEPKcz
 __ZN10CUtlBuffer7SeekPutENS_10SeekType_tEi
 __ZN10CUtlBuffer12SetBigEndianEb
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90089.tAttnl.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.8986.vt30zT.ii
 __ZTS21CUtlCStringConversion
 __ZTS18CUtlCharConversion
 __ZTS19CUtlNoEscConversion
@@ -554,7 +559,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN15CUtlSymbolTable16CStringPoolIndexEtEtE4Gro
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.90099.BHbkAW.ii
+__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.8990.irHFju.ii
 __ZN10CUtlSymbol14s_pSymbolTableE
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -654,7 +659,7 @@ __ZN12CBugReporter13GetLevelCountEi
 __ZN12CBugReporter8GetLevelEii
 __ZN10CUtlVectorIN4CBug7incfileE10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorI10CUtlSymbol10CUtlMemoryIS0_iEED2Ev
-__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.7618.hFuk5Y.ii
+__GLOBAL__sub_I_bugreporte.stdout.rel_tf_osx_builder.26398.EZLmqn.ii
 __Z15UploadBugReportRK8netadr_sRK8CSteamIDiPKcS6_S6_S6_S6_S6_S6_S6_iiS6_jjjjS6_S6_j
 __ZL17BugUploadProgressjRK18TBugReportProgress
 __Z28Win32UploadBugReportBlockingRK20TBugReportParameters
@@ -707,7 +712,7 @@ __ZN10CUtlBuffer6PrintfEPKcz
 __ZN10CUtlBuffer7SeekPutENS_10SeekType_tEi
 __ZN10CUtlBuffer12SetBigEndianEb
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90089.tAttnl.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.8986.vt30zT.ii
 __ZN10CUtlSymbol10InitializeEv
 __ZN10CUtlSymbolC1EPKc
 __ZNK10CUtlSymbol6StringEv
@@ -729,7 +734,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN15CUtlSymbolTable16CStringPoolIndexEtEtE4Gro
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.90099.BHbkAW.ii
+__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.8990.irHFju.ii
 __ZN6IceKeyC2Ei
 __ZN6IceKeyC1Ei
 __ZN6IceKeyD1Ev

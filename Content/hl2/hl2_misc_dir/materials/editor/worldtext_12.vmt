@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	$basetexture editor/worldtextsheet_robotomono
+	$nocull 1
+	$vertexcolor 0
+	$vertexalpha 1
+	$translucent	1
+	$distancealpha	1
+
+    $color "[0.6 1 0.4]"
+
+	$softedges 1
+	$edgesoftnessstart 0.6
+	$edgesoftnessend 0.5
+
+	$glow 1
+	$glowcolor "[0 1 0]"
+	$glowalpha 1
+	$glowstart 0.1
+	$glowend 0.7
+	$glowx 0
+	$glowy 0
+
+	$no_fullbright	1
+}

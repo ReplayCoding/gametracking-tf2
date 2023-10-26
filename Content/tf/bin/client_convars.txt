@@ -3401,6 +3401,16 @@ ccommand playvideo_exitcommand
 flags: 
 Plays a video and fires and exit command when it is stopped or finishes: <filename> <exit command>
 
+convar pointworldtext_rainbowspeed_char
+flags: 
+default: 15.0f
+
+
+convar pointworldtext_rainbowspeed_time
+flags: 
+default: 100.0f
+
+
 convar props_break_max_pieces
 flags: 
 default: -1
@@ -5153,12 +5163,12 @@ default: 1
 Which version of the store to display.
 
 convar sv_accelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
 convar sv_airaccelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
@@ -5169,12 +5179,12 @@ If set, server only simulates entities on even numbered ticks.
 
 
 convar sv_backspeed
-flags:  "developmentonly" "archive" "replicated"
+flags:  "archive" "replicated"
 default: 0.6
 How much to slow down backwards motion
 
 convar sv_bounce
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 0
 Bounce multiplier for when physically simulated objects collide with other objects.
 
@@ -5184,12 +5194,12 @@ default: 0
 Visualizes +use logic. Green cross=trace success, Red cross=trace too far, Green box=radius success
 
 convar sv_footsteps
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 1
 Play footstep sound for players
 
 convar sv_friction
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 4
 World friction.
 
@@ -5209,12 +5219,12 @@ default: 0
 Disable hitboxes
 
 convar sv_maxspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 320
 
 
 convar sv_maxvelocity
-flags:  "developmentonly" "replicated"
+flags:  "replicated"
 default: 3500
 Maximum speed any ballistically moving object is allowed to attain per axis.
 
@@ -5279,12 +5289,12 @@ default: 200000
 How hard the player is pushed away from physics objects (falls off with inverse square of distance).
 
 convar sv_rollangle
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 0
 Max view roll angle
 
 convar sv_rollspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 200
 
 
@@ -5315,7 +5325,7 @@ default: 3
 
 
 convar sv_stepsize
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 18
 
 
@@ -5325,7 +5335,7 @@ default: 0
 
 
 convar sv_stopspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 100
 Minimum stopping speed when on ground.
 
@@ -5345,17 +5355,17 @@ default: 0
 1 = Vote caller is not forced to vote yes on yes/no votes.
 
 convar sv_wateraccelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
 convar sv_waterdist
-flags:  "developmentonly" "replicated"
+flags:  "replicated"
 default: 12
 Vertical view fixup when eyes are near water plane.
 
 convar sv_waterfriction
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 1
 
 
@@ -6438,6 +6448,11 @@ flags:
 default: 0
 
 
+convar tf_monitor_resolution
+flags: 
+default: 1024
+Needs to be set at game launch time to override.
+
 convar tf_movement_aircurrent_aircontrol_mult
 flags:  "cheat" "replicated"
 default: 0.25
@@ -7511,6 +7526,11 @@ convar tf_warpaint_explanation_viewed
 flags:  "archive"
 default: 
 
+
+convar tf_water_resolution
+flags: 
+default: 1024
+Needs to be set at game launch time to override.
 
 convar tf_weapon_criticals
 flags:  "notify" "replicated"

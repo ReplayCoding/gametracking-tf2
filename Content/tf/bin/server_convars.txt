@@ -941,6 +941,10 @@ flags:  "cheat"
 Displays the movement bounding box for the given entity(ies) in orange.  Some entites will also display entity specific overlays.
 	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
 
+ccommand ent_call
+flags:  "cheat"
+ent_call <funcname> <option:entname> calls function on current look target or filtername, checks on ent, then root, then mode, then map scope
+
 ccommand ent_cancelpendingentfires
 flags: 
 Cancels all ent_fire created outputs that are currently waiting for their delay to expire.
@@ -1025,6 +1029,11 @@ Removes all entities of the specified type
 ccommand ent_rotate
 flags:  "cheat"
 Rotates an entity by a specified # of degrees
+
+ccommand ent_script_dump
+flags:  "cheat"
+Dumps the names and values of this entity's script scope to the console
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
 
 ccommand ent_setname
 flags:  "cheat"
@@ -3070,6 +3079,117 @@ flags:  "archive"
 default: 0
 Show when a vcd is playing but normal AI is running.
 
+ccommand script
+flags: 
+Run the text as a script
+
+ccommand script_add_debug_filter
+flags:  "cheat"
+Add a filter to the game debug overlay
+
+ccommand script_add_watch
+flags:  "cheat"
+Add a watch to the game debug overlay
+
+ccommand script_add_watch_pattern
+flags:  "cheat"
+Add a watch to the game debug overlay
+
+ccommand script_attach_debugger
+flags:  "cheat"
+Connect the vscript VM to the script debugger
+
+convar script_attach_debugger_at_startup
+flags: 
+default: 0
+
+
+convar script_break_in_native_debugger_on_error
+flags: 
+default: 0
+
+
+ccommand script_clear_watches
+flags:  "cheat"
+Clear all watches from the game debug overlay
+
+convar script_connect_debugger_on_mapspawn
+flags: 
+default: 0
+
+
+ccommand script_debug
+flags:  "cheat"
+Toggle the in-game script debug features
+
+ccommand script_debug
+flags: 
+Connect the vscript VM to the script debugger
+
+ccommand script_dump_all
+flags: 
+Dump the state of the VM to the console
+
+ccommand script_execute
+flags: 
+Run a vscript file
+
+ccommand script_find
+flags:  "cheat"
+Find a key in the VM 
+
+ccommand script_help
+flags: 
+Output help for script functions, optionally with a search string
+
+ccommand script_reload_code
+flags: 
+Execute a vscript file, replacing existing functions with the functions in the run script
+
+ccommand script_reload_entity_code
+flags: 
+Execute all of this entity's VScripts, replacing existing functions with the functions in the run scripts
+
+ccommand script_reload_think
+flags: 
+Execute an activation script, replacing existing functions with the functions in the run script
+
+ccommand script_remove_debug_filter
+flags:  "cheat"
+Remove a filter from the game debug overlay
+
+ccommand script_remove_watch
+flags:  "cheat"
+Remove a watch from the game debug overlay
+
+ccommand script_remove_watch_pattern
+flags:  "cheat"
+Remove a watch from the game debug overlay
+
+ccommand script_trace_disable
+flags:  "cheat"
+Turn off a particular trace output by file or function name
+
+ccommand script_trace_disable_all
+flags:  "cheat"
+Turn off all trace output
+
+ccommand script_trace_disable_key
+flags:  "cheat"
+Turn off a particular trace output by table/instance
+
+ccommand script_trace_enable
+flags:  "cheat"
+Turn on a particular trace output by file or function name
+
+ccommand script_trace_enable_all
+flags:  "cheat"
+Turn on all trace output
+
+ccommand script_trace_enable_key
+flags:  "cheat"
+Turn on a particular trace output by table/instance
+
 ccommand server_game_time
 flags: 
 Gives the game time in seconds (server's curtime)
@@ -3244,12 +3364,12 @@ flags:  "cheat"
 Reports the surface properties at the cursor
 
 convar sv_accelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
 convar sv_airaccelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
@@ -3283,7 +3403,7 @@ default: 1
 Set to 1 to autosave game on level transition. Does not affect autosave triggers.
 
 convar sv_backspeed
-flags:  "developmentonly" "archive" "replicated"
+flags:  "archive" "replicated"
 default: 0.6
 How much to slow down backwards motion
 
@@ -3312,7 +3432,7 @@ default: 0
 Set to values other than 0 to select a bonus map challenge type.
 
 convar sv_bounce
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 0
 Bounce multiplier for when physically simulated objects collide with other objects.
 
@@ -3364,7 +3484,7 @@ flags:  "developmentonly"
 Find sound names which reference the specified wave files.
 
 convar sv_footsteps
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 1
 Play footstep sound for players
 
@@ -3374,7 +3494,7 @@ default: 0
 Will transmit all entities to client, regardless of PVS conditions (will still skip based on transmit flags, however).
 
 convar sv_friction
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 4
 World friction.
 
@@ -3414,7 +3534,7 @@ default: 1000
 Maximum move magnitude that can be requested by client.
 
 convar sv_maxspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 320
 
 
@@ -3439,7 +3559,7 @@ default: -1
 Print a warning when user commands get dropped due to insufficient usrcmd ticks allocated, number of seconds to throttle, negative disabled
 
 convar sv_maxvelocity
-flags:  "developmentonly" "replicated"
+flags:  "replicated"
 default: 3500
 Maximum speed any ballistically moving object is allowed to attain per axis.
 
@@ -3553,18 +3673,23 @@ default: 0
 Nonzero if we were able to login OK
 
 convar sv_rollangle
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 0
 Max view roll angle
 
 convar sv_rollspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 200
 
 
 convar sv_runcmds
 flags: 
 default: 1
+
+
+convar sv_script_think_interval
+flags: 
+default: 0.1
 
 
 convar sv_showanimstate
@@ -3627,12 +3752,12 @@ default: 3
 
 
 convar sv_stepsize
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 18
 
 
 convar sv_stopspeed
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 100
 Minimum stopping speed when on ground.
 
@@ -3917,17 +4042,17 @@ default: 1
 Suppress listing of disabled issues in the vote setup screen.
 
 convar sv_wateraccelerate
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 10
 
 
 convar sv_waterdist
-flags:  "developmentonly" "replicated"
+flags:  "replicated"
 default: 12
 Vertical view fixup when eyes are near water plane.
 
 convar sv_waterfriction
-flags:  "developmentonly" "notify" "replicated"
+flags:  "notify" "replicated"
 default: 1
 
 
@@ -6148,7 +6273,7 @@ default: 0.5
 
 
 convar tf_mvm_bot_sniper_target_by_dps
-flags:  "developmentonly" "cheat"
+flags:  "cheat"
 default: 1
 If set, Snipers in MvM mode target the victim that has the highest DPS
 
@@ -7664,6 +7789,11 @@ flags:
 default: 1
 Show human gib entities
 
+convar voice_player_speaking_delay_threshold
+flags:  "cheat"
+default: 0.5f
+
+
 convar voice_serverdebug
 flags: 
 default: 0
@@ -7713,6 +7843,11 @@ default: 0
 convar vprof_scope_entity_thinks
 flags: 
 default: 0
+
+
+convar vscript_script_hooks
+flags: 
+default: 1
 
 
 ccommand wc_air_edit_further

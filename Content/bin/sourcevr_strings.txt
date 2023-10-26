@@ -261,6 +261,8 @@ P p0
 00  @0@
 0pp
 0 P
+Lnec
+Mnec
 /Users/buildbot/buildslave/../.ccache/tmp/
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/build/buildbot_osx.build/Release/sourcevr.build/Objects-normal/i386/memoverride.o
 __Znwm
@@ -317,7 +319,7 @@ __ZN21CSourceVirtualReality10DeactivateEv
 __ZN21CSourceVirtualReality17ShouldForceVRModeEv
 __ZN21CSourceVirtualReality20SetShouldForceVRModeEv
 __ZN23CDistortionTextureRegen7ReleaseEv
-__GLOBAL__sub_I_sourcevirt.stdout.rel_tf_osx_builder.8573.SJ0Wlj.ii
+__GLOBAL__sub_I_sourcevirt.stdout.rel_tf_osx_builder.27365.VdwOff.ii
 __ZTS23CDistortionTextureRegen
 __ZTS21CSourceVirtualReality
 __ZTS19ITextureRegenerator
@@ -442,7 +444,7 @@ __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/tier1/utlmemory.h
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.89897.eUx1gl.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 __ZTS6ConVar
 __ZTS14ConCommandBase
@@ -496,7 +498,7 @@ __ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE
 __ZN21CUtlCStringConversion14FindConversionEPKcPi
 __ZN18CUtlCharConversion14FindConversionEPKcPi
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90089.tAttnl.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.8986.vt30zT.ii
 __ZTS21CUtlCStringConversion
 __ZTS18CUtlCharConversion
 __ZTS19CUtlNoEscConversion
@@ -557,7 +559,7 @@ __Z18_SSE_RSqrtAccuratef
 __Z14_SSE_RSqrtFastf
 __Z24_SSE_VectorNormalizeFastR6Vector
 __Z16_SSE_InvRSquaredPKf
-__GLOBAL__sub_I_sse.stdout.rel_tf_osx_builder.90484.YOsOe1.ii
+__GLOBAL__sub_I_sse.stdout.rel_tf_osx_builder.9376.gxVesc.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL2f3
@@ -624,7 +626,7 @@ __ZN21CSourceVirtualReality10DeactivateEv
 __ZN21CSourceVirtualReality17ShouldForceVRModeEv
 __ZN21CSourceVirtualReality20SetShouldForceVRModeEv
 __ZN23CDistortionTextureRegen7ReleaseEv
-__GLOBAL__sub_I_sourcevirt.stdout.rel_tf_osx_builder.8573.SJ0Wlj.ii
+__GLOBAL__sub_I_sourcevirt.stdout.rel_tf_osx_builder.27365.VdwOff.ii
 __ZN18CMaterialReference4InitEPKcS1_b
 __ZN18CMaterialReferenceC1EPKcS1_b
 __ZN18CMaterialReference8ShutdownEv
@@ -692,7 +694,7 @@ __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.89897.eUx1gl.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
 __ZN12InterfaceRegC1EPFPvvEPKc
 __Z23CreateInterfaceInternalPKcPi
 __Z18Sys_GetFactoryThisv
@@ -704,7 +706,7 @@ __ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE
 __ZN21CUtlCStringConversion14FindConversionEPKcPi
 __ZN18CUtlCharConversion14FindConversionEPKcPi
 __ZN19CUtlNoEscConversion14FindConversionEPKcPi
-__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.90089.tAttnl.ii
+__GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.8986.vt30zT.ii
 __ZN10CUtlString5PurgeEv
 __ZN10CUtlString3SetEPKc
 __ZNK10CUtlString3GetEv
@@ -721,7 +723,7 @@ __Z18_SSE_RSqrtAccuratef
 __Z14_SSE_RSqrtFastf
 __Z24_SSE_VectorNormalizeFastR6Vector
 __Z16_SSE_InvRSquaredPKf
-__GLOBAL__sub_I_sse.stdout.rel_tf_osx_builder.90484.YOsOe1.ii
+__GLOBAL__sub_I_sse.stdout.rel_tf_osx_builder.9376.gxVesc.ii
 __ZN7VMatrixaSERKS_
 __Z17MatrixSetIdentityR7VMatrix
 __Z21ConnectTier3LibrariesPPFPvPKcPiEi
