@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_camp/spooky_gravel_crystal01"
+	"$bumpmap" "models/props_moonbase/moon_gravel_crystal_n"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+
+	"$phongexponenttexture"	"models/props_camp/spooky_gravel_crystal_phongexponent"
+
+	"$phong"		"1"
+	"$phongexponent"		"30.000000"
+	"$phongboost"		"9.000000"
+	"$phongfresnelranges"		"[.3 .5 3]"
+//	"$phongalbedotint"		"1"
+	"$phongtint"		"[0.098 0.302 0.396]"
+
+	"$rimlight"		"1"
+	"$rimlightexponent"		"11"
+	"$rimlightboost"		"50"
+
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"cubemaps/cubemap_specular001"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[ 0.15 0.15 0.15]"
+}

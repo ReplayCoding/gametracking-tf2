@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_spookeyridge/brutal_spike_001"
+
+	$selfillum 1
+	$selfillummask "models/props_spookeyridge/brutal_spike_001_glow"
+	$selfillumtint "[0.99 0.41 0.14]"
+}

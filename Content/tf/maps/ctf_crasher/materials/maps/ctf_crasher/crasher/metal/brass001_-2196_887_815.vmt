@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CRASHER/METAL/BRASS001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_crasher/c-2196_887_815"
+	}
+}

@@ -1,0 +1,11 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_hearth/blue_broken_wall_01"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_hearth/broken_wall_mask"	
+	"$envmapcontrast" "1"
+	"$reflectivity" "[.7 .5 .35]"
+	"$model" 1
+}

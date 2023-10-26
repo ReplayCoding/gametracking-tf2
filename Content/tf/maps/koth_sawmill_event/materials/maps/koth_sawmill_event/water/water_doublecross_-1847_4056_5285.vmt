@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_sawmill_event/c-1847_4056_5285"
+		"Proxies"
+		{
+		}
+	}
+}

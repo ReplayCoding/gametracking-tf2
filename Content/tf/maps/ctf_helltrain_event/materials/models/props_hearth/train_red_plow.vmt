@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props_hearth/train_red_plow_diffuse"
+	//"$bumpmap" "models\props_hearth/train_red_plow_normal"
+	//"$envmap" "effects/hearth_cubemap_01"
+	//"$normalmapalphaenvmapmask" "1"
+	//"$envmaptint" "[.7 .7 .7]"
+	//"$color2" "[.8 .8 .8]"
+	//"$phong" "1"
+	//"$phongboost" "1.4"
+  	//"$phongexponent" "6"
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	//"$phongfresnelranges"	"[.1 1.8 2]"
+	//"$halflambert" "1"
+	$color2 "[ 1 1 1 ]"
+}

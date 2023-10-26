@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props_hearth/train_blue_base_diffuse"
+		//"$phong" "1"
+		//"$phongtint" "[.1.1.1]"
+	//"$phongboost" ".2"
+  	  //"$phongexponent" "12"
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	//"$phongfresnelranges"	"[.1 .1 .1]"
+	//"$halflambert" "1"
+	"$reflectivity" "[.8 .8 .8]"
+	$color2 "[ 2.3 2.3 2.3 ]"
+}

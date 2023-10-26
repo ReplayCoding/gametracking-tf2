@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_hearth/telescope_03"
+	
+	"$envmaptint" "[.5 .5 .5]"
+	"$envmap" "env_cubemap"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "12"				
+	"$rimlightboost" ".8"
+	"$rimmask" "1"
+	
+	"$phongboost" "1.4"
+    "$phongexponent" "32"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	"$phongfresnelranges"	"[.1 1.8 2]"
+	"$halflambert" "1"
+}
+

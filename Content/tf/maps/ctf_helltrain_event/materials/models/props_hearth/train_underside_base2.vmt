@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"model" "1"
+        	"$basetexture"	"models\props_hearth/train_underside_base2"
+			"$surfaceprop" "metal"
+ 	"%keywords" "tf"
+		"$phong" "1"
+	"$phongboost" "1.4"
+    "$phongexponent" "32"
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	"$phongfresnelranges"	"[.1 1.8 2]"
+	//"$halflambert" "1"
+	"$color2" "{170 170 170}"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "12"				
+	"$rimlightboost" ".8"
+	"$rimmask" "1"
+}

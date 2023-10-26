@@ -1,0 +1,71 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_hearth/boiler_cap_details"
+	"$surfaceprop" "rock"
+	"%keywords" "tf"
+	
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" ".5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 1
+	
+	"$selfillum" "1"
+	"$selfillumtint" "[1 .1 .1]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[2 1 .1]"
+	
+	"$bumpmap" "models/effects/flat_normal"
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 24
+		}
+		"Sine"
+		{
+			"sinemin" ".2"
+			"sinemax" ".6"
+			"sineperiod" "1"
+			"resultVar" "$selfillumtint[1]"
+		}
+		"Sine"
+		{
+			"sinemin" ".5"
+			"sinemax" ".2"
+			"sineperiod" "2"
+			"resultVar" "$selfillumtint[0]"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" .3
+			"texturescrollangle" 90
+		}
+	
+
+
+	}
+	
+	//"$envmap" "cubemaps/cubemap_gold001"
+	//"$basealphaenvmapmask" "1"
+	//"$envmaptint" "[.6 .1 .1]"
+	//"$envmapsaturation" ".4"
+	
+	//"$rimlight" "1"
+	//"$rimlightexponent" "10"
+	//"$rimlightboost" "1"
+	
+	"$model" 1
+	"$color2" "[ 2 2 2 ]"
+	
+	//"$phong" "1"
+	//"$phongexponent" "50"
+	//"$phongboost" "2"	
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	//"$phongfresnelranges"	"[.3 .5 .6]"
+	//"$halflambert" "1"
+		
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_crasher/c-2983_588_128"
+	}
+}

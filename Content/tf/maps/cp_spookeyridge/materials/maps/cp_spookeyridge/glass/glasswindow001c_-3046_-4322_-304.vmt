@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_spookeyridge/c-3046_-4322_-304"
+	}
+}

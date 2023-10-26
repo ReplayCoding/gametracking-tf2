@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hacksaw_event/button_green"
+	"%keywords" "tf"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+	"Proxies"
+	{
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	2
+			sinemin	 	1
+			sinemax		2 
+		}
+	}
+}

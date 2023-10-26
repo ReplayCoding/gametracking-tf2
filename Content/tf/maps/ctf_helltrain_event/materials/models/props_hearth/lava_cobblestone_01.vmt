@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture "models/props_hearth/lava_cobblestone_01"
+	$model 1
+	%keywords "tf"
+	$color2 "[ 3 3 3 ]"
+	$basetexturetransform "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+}

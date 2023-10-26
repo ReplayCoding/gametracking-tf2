@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "effects\envmaptest\envmap_particle_test_base"
+	"$bumpmap" "effects\envmaptest\envmap_particle_test_normal"
+	"$surfaceprop"	"no_decal"
+	"$additive"	1
+	"$translucent"	1
+	"$color2" "[0 0 0]"
+	"$envmap" "effects/goldcube"
+}

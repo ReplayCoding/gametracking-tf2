@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	$basetexture "models/props_hearth/ocean_bomb_01"
+	$basetexturetransform "center .5 .5 scale .9 .9 rotate 0 translate 0 0" 
+	$alphatest 1
+	$alphatestreference .99
+	$nocull 1
+	$model 1
+	%keywords "tf"
+	$color2 "[ 2 2 2 ]"
+}

@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_hearth/balustrade_01"
+	"$surfaceprop" "wood"
+	"$model" "1"
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+	 "$envmaptint" "[.4 .4 .4]"
+	 "$envmapcontrast" ".3"
+	
+}

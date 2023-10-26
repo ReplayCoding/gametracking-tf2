@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_sawmill_event/c-2280_6730_5541"
+	}
+}

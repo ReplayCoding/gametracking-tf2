@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_hearth/train_blue_brass_diffuse"
+	"$bumpmap" "models\props_hearth/train_blue_brass_normal"
+	"$surfaceprop" "metal"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	//"$halflambert" "1"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" 0
+	"$detailblendmode" 6
+	"$yellow" "0"
+	
+	"$normalmapalphaenvmapmask" 1
+
+	"$envmap" "cubemaps/cubemap_gold001"
+    "$envmapfresnel"	"1"
+	"$envmaptint" "[.2 .1 .05]"
+	
+
+	//"$basemapalphaphongmask"	"1"
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+	
+	"$bloomamount" "0"
+	"model" "1"
+	"%keywords" "tf"
+}

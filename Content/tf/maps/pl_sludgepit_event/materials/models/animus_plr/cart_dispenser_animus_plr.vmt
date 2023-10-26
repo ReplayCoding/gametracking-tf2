@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\animus_plr\cart_dispenser_animus_plr"
+
+	"$phong" "1"
+	"$phongexponent" "6"
+	"$phongboost" ".2"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 6]"
+	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".2"										// Boost for ambient cube component of rim lighting
+
+}

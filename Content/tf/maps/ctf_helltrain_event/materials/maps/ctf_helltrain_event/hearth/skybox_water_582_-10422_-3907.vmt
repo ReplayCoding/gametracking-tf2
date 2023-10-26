@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/HEARTH/SKYBOX_WATER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_helltrain_event/c582_-10422_-3907"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"vertexlitGeneric"
+{
+	"model" "1"
+    "$basetexture"	"models\props_hearth/window_rivet_01"
+ 	"%keywords" "tf"
+	"$reflectivity" "[.15 .15 .15]"
+	
+	"$phong" "1"
+	"$phongboost" "1"
+    "$phongexponent" "7"
+	"$phongfresnelranges"	"[.1 .1 .1]"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "1"
+}

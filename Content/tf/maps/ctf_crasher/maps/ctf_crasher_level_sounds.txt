@@ -1,0 +1,1380 @@
+// crasher level sounds
+// pont was here :)
+
+//entry.name
+//{
+//    channel    CHAN_AUTO
+//    volume     VOL_NORM
+//    pitch      PITCH_NORM
+//    soundlevel SNDLVL_NORM
+//    wave       ")common/null.wav"  //<-- remember this spatialisation bracket ))))))))))))))
+//}
+
+// Laser rig noises
+// pew pew!!
+crasher.laserFireClose
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      98,102
+    soundlevel SNDLVL_100dB
+	rndwave
+	{
+		wave ")crasher/crasher_beam1.wav"
+		wave ")crasher/crasher_beam2.wav"
+	}
+}
+crasher.laserFireDistant
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE // global
+    wave       ")crasher/crasher_beam_distant.wav"
+}
+// idle hum
+crasher.laserIdle1
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_70dB
+    wave       ")weapons/cow_mangler_idle.wav"
+}
+crasher.laserIdle2
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_70dB
+    wave       ")ambient/energy/electric_loop.wav"
+}
+crasher.laserChargeup
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      120,124
+    soundlevel SNDLVL_90dB
+    wave       ")ambient\levels\labs\teleport_mechanism_windup4.wav"
+}
+// Main Movement
+crasher.laserMove
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")ambient/levels/labs/machine_moving_loop4.wav"
+}
+crasher.laserMoveDownStop
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")ambient/levels/labs/machine_stop1.wav"
+}
+crasher.laserMoveUpStop
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")doors/garage_stop1.wav"
+}
+crasher.laserMoveHStop
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    //wave       ")doors/default_stop.wav"	// too light
+    wave       ")doors\door_metal_large_chamber_close1.wav"
+}
+// Small shuddering when coming to a stop in each axis
+crasher.laserShudderStart
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")doors/door_metal_thin_move1.wav"
+}
+crasher.laserShudderMid
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")plats/elevator_stop1.wav"
+}
+crasher.laserShudderStop
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_85dB
+    wave       ")doors/door_metal_large_open1.wav"
+}
+// ring traversal
+crasher.ringTraverse
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_95dB
+    wave       ")plats\elevator_move_loop2.wav"
+}
+crasher.ringTraverseStop
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_95dB
+    wave       ")plats\elevator_stop2.wav"
+}
+crasher.ringTraverseStart
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_95dB
+    wave       ")plats\elevator_start1.wav"
+}
+
+
+// misc
+crasher.allSparks
+{
+    channel    CHAN_AUTO
+    volume     0.5
+    pitch      90,110
+    soundlevel SNDLVL_70dB
+	rndwave
+	{
+		wave ")ambient\energy\spark1.wav"
+		wave ")ambient\energy\spark2.wav"
+		wave ")ambient\energy\spark3.wav"
+		wave ")ambient\energy\spark4.wav"
+		wave ")ambient\energy\spark5.wav"
+		wave ")ambient\energy\spark6.wav"
+		wave ")ambient\energy\zap1.wav"
+		wave ")ambient\energy\zap2.wav"
+		wave ")ambient\energy\zap3.wav"
+		//wave ")ambient\energy\zap6.wav"
+		//wave ")ambient\energy\zap7.wav"
+		//wave ")ambient\energy\zap8.wav"
+		//wave ")ambient\energy\zap9.wav"
+	}
+}
+crasher.zapBig // unused
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,110
+    soundlevel SNDLVL_95dB
+	rndwave
+	{
+		wave ")ambient\energy\zap6.wav"
+		wave ")ambient\energy\zap7.wav"
+		wave ")ambient\energy\zap8.wav"
+		wave ")ambient\energy\zap9.wav"
+	}
+}
+
+// metal noises
+crasher.metalcreak
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_75dB
+	rndwave
+	{
+		wave ")ambient\materials\metal_stress1.wav"
+		wave ")ambient\materials\metal_stress2.wav"
+		wave ")ambient\materials\metal_stress3.wav"
+		wave ")ambient\materials\metal_stress4.wav"
+		wave ")ambient\materials\metal_stress5.wav"
+		wave ")physics\metal\metal_box_strain1.wav"
+		wave ")physics\metal\metal_box_strain2.wav"
+		wave ")physics\metal\metal_box_strain3.wav"
+		wave ")physics\metal\metal_box_strain4.wav"
+		wave ")physics\metal\metal_solid_strain1.wav"
+		wave ")physics\metal\metal_solid_strain2.wav"
+		wave ")physics\metal\metal_solid_strain3.wav"
+	}
+}
+
+// giant bomb det
+crasher.bigdet
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_NONE
+	rndwave
+	{
+		wave       ")crasher/crasher_bomb_explode1.wav"
+		wave       ")crasher/crasher_bomb_explode2.wav"
+	}
+}
+// gate destruction (round-ending capture)
+crasher.gatecrasher
+{
+    channel    CHAN_AUTO
+    volume     1
+    pitch      97,103
+    soundlevel SNDLVL_105dB
+	wave       ")crasher/crasher_gate_crash.wav"
+}
+// gate damage (mid-round capture)
+crasher.gatehit
+{
+    channel    CHAN_AUTO
+    volume     0.8
+    pitch      97,103
+    soundlevel SNDLVL_105dB
+	wave       ")misc/halloween/strongman_fast_impact_01.wav"
+}
+
+
+// benja announcer
+// team1 red
+// team2 blu
+
+"crasher.va.Intro.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_intro01.mp3"
+		"wave" "crasher/vo/crasher_red_intro02.mp3"
+		"wave" "crasher/vo/crasher_red_intro03.mp3"
+		"wave" "crasher/vo/crasher_red_intro04.mp3"
+	}
+}
+
+"crasher.va.Intro.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_intro01.mp3"
+		"wave" "crasher/vo/crasher_blu_intro02.mp3"
+		"wave" "crasher/vo/crasher_blu_intro03.mp3"
+		"wave" "crasher/vo/crasher_blu_intro04.mp3"
+	}
+}
+
+// enemy picks up their flag first
+"crasher.va.FirstFlagPickupIsEnemy.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_firstisenemy01.mp3"
+		"wave" "crasher/vo/crasher_red_firstisenemy02.mp3"
+		"wave" "crasher/vo/crasher_red_firstisenemy03.mp3"
+	}
+}
+"crasher.va.FirstFlagPickupIsEnemy.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_firstisenemy01.mp3"
+		"wave" "crasher/vo/crasher_blu_firstisenemy02.mp3"
+		"wave" "crasher/vo/crasher_blu_firstisenemy03.mp3"
+	}
+}
+
+
+// ally picks up our flag first
+"crasher.va.FirstFlagPickupIsAlly.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_firstisally01.mp3"
+		"wave" "crasher/vo/crasher_red_firstisally02.mp3"
+		"wave" "crasher/vo/crasher_red_firstisally03.mp3"
+	}
+}
+"crasher.va.FirstFlagPickupIsAlly.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_firstisally01.mp3"
+		"wave" "crasher/vo/crasher_blu_firstisally02.mp3"
+		"wave" "crasher/vo/crasher_blu_firstisally03.mp3"
+	}
+}
+
+
+// new enemy giant
+"crasher.va.FlagPickupBad.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_pickupbad01.mp3"
+		"wave" "crasher/vo/crasher_red_pickupbad02.mp3"
+		"wave" "crasher/vo/crasher_red_pickupbad03.mp3"
+		"wave" "crasher/vo/crasher_red_pickupbad04.mp3"
+		"wave" "crasher/vo/crasher_red_pickupbad05.mp3"
+	}
+}
+"crasher.va.FlagPickupBad.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_pickupbad01.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupbad02.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupbad03.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupbad04.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupbad05.mp3"
+	}
+}
+
+
+// new ally giant
+"crasher.va.FlagPickupGood.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_pickupgood01.mp3"
+		"wave" "crasher/vo/crasher_red_pickupgood02.mp3"
+		"wave" "crasher/vo/crasher_red_pickupgood03.mp3"
+		"wave" "crasher/vo/crasher_red_pickupgood04.mp3"
+		"wave" "crasher/vo/crasher_red_pickupgood05.mp3"
+	}
+}
+"crasher.va.FlagPickupGood.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_pickupgood01.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupgood02.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupgood03.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupgood04.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupgood05.mp3"
+	}
+}
+
+
+// enemy giant progress
+"crasher.va.EnemyNear.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_nearbad01.mp3"
+		"wave" "crasher/vo/crasher_red_nearbad02.mp3"
+		"wave" "crasher/vo/crasher_red_nearbad03.mp3"
+		"wave" "crasher/vo/crasher_red_nearbad04.mp3"
+	}
+}
+"crasher.va.EnemyNear.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_nearbad01.mp3"
+		"wave" "crasher/vo/crasher_blu_nearbad02.mp3"
+		"wave" "crasher/vo/crasher_blu_nearbad03.mp3"
+		"wave" "crasher/vo/crasher_blu_nearbad04.mp3"
+	}
+}
+
+
+// friendly giant progress
+"crasher.va.AllyNear.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_neargood01.mp3"
+		"wave" "crasher/vo/crasher_red_neargood02.mp3"
+		"wave" "crasher/vo/crasher_red_neargood03.mp3"
+		"wave" "crasher/vo/crasher_red_neargood04.mp3"
+	}
+}
+"crasher.va.AllyNear.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_neargood01.mp3"
+		"wave" "crasher/vo/crasher_blu_neargood02.mp3"
+		"wave" "crasher/vo/crasher_blu_neargood03.mp3"
+		"wave" "crasher/vo/crasher_blu_neargood04.mp3"
+	}
+}
+
+
+// enemy giant first capture
+"crasher.va.EnemyFirstCapture.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_cap1enemy01.mp3"
+		"wave" "crasher/vo/crasher_red_cap1enemy02.mp3"
+	}
+}
+"crasher.va.EnemyFirstCapture.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_cap1enemy01.mp3"
+		"wave" "crasher/vo/crasher_blu_cap1enemy02.mp3"
+	}
+}
+// enemy giant captured
+"crasher.va.EnemyCapture.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_cap2enemy01.mp3"
+		"wave" "crasher/vo/crasher_red_cap2enemy02.mp3"
+	}
+}
+"crasher.va.EnemyCapture.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_cap2enemy01.mp3"
+		"wave" "crasher/vo/crasher_blu_cap2enemy02.mp3"
+	}
+}
+
+// friendly giant first capture
+"crasher.va.AllyFirstCapture.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_cap1ally01.mp3"
+		"wave" "crasher/vo/crasher_red_cap1ally02.mp3"
+	}
+}
+
+"crasher.va.AllyFirstCapture.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_cap1ally01.mp3"
+		"wave" "crasher/vo/crasher_blu_cap1ally02.mp3"
+	}
+}
+
+// friendly giant captured
+"crasher.va.AllyCapture.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_cap2ally01.mp3"
+		"wave" "crasher/vo/crasher_red_cap2ally02.mp3"
+	}
+}
+"crasher.va.AllyCapture.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_cap2ally01.mp3"
+		"wave" "crasher/vo/crasher_blu_cap2ally02.mp3"
+	}
+}
+
+
+// enemy giant death
+"crasher.va.CourierDownGood.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_courierdowngood01.mp3"
+		"wave" "crasher/vo/crasher_red_courierdowngood02.mp3"
+		"wave" "crasher/vo/crasher_red_courierdowngood03.mp3"
+	}
+}
+"crasher.va.CourierDownGood.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_courierdowngood01.mp3"
+		"wave" "crasher/vo/crasher_blu_courierdowngood02.mp3"
+		"wave" "crasher/vo/crasher_blu_courierdowngood03.mp3"
+	}
+}
+
+
+// friendly giant death
+"crasher.va.CourierDownBad.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_courierdownbad01.mp3"
+		"wave" "crasher/vo/crasher_red_courierdownbad02.mp3"
+		"wave" "crasher/vo/crasher_red_courierdownbad03.mp3"
+	}
+}
+"crasher.va.CourierDownBad.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_courierdownbad01.mp3"
+		"wave" "crasher/vo/crasher_blu_courierdownbad02.mp3"
+		"wave" "crasher/vo/crasher_blu_courierdownbad03.mp3"
+	}
+}
+
+
+// round win!
+"crasher.va.RoundWin.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/vo/crasher_red_win01.mp3"
+		//"wave" "crasher/vo/crasher_red_win02.mp3"
+		"wave" "crasher/vo/crasher_red_win01_music.mp3"
+		"wave" "crasher/vo/crasher_red_win02_music.mp3"
+	}
+}
+"crasher.va.RoundWin.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/vo/crasher_blu_win01.mp3"
+		//"wave" "crasher/vo/crasher_blu_win02.mp3"
+		"wave" "crasher/vo/crasher_blu_win01_music.mp3"
+		"wave" "crasher/vo/crasher_blu_win02_music.mp3"
+	}
+}
+
+
+// round loss!
+"crasher.va.RoundLose.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/vo/crasher_red_loss01.mp3"
+		//"wave" "crasher/vo/crasher_red_loss02.mp3"
+		"wave" "crasher/vo/crasher_red_loss01_music.mp3"
+		"wave" "crasher/vo/crasher_red_loss02_music.mp3"
+	}
+}
+"crasher.va.RoundLose.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/vo/crasher_blu_loss01.mp3"
+		//"wave" "crasher/vo/crasher_blu_loss02.mp3"
+		"wave" "crasher/vo/crasher_blu_loss01_music.mp3"
+		"wave" "crasher/vo/crasher_blu_loss02_music.mp3"
+	}
+}
+
+
+// flag pickup nag
+"crasher.va.FlagNag.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_pickupnag01.mp3"
+		"wave" "crasher/vo/crasher_red_pickupnag02.mp3"
+		"wave" "crasher/vo/crasher_red_pickupnag03.mp3"
+		"wave" "crasher/vo/crasher_red_pickupnag04.mp3"
+	}
+}
+"crasher.va.FlagNag.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_pickupnag01.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupnag02.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupnag03.mp3"
+		"wave" "crasher/vo/crasher_blu_pickupnag04.mp3"
+	}
+}
+
+
+// slow giant nag
+"crasher.va.WaitNag.team1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_red_waitnag01.mp3"
+		"wave" "crasher/vo/crasher_red_waitnag02.mp3"
+	}
+}
+"crasher.va.WaitNag.team2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/vo/crasher_blu_waitnag01.mp3"
+		"wave" "crasher/vo/crasher_blu_waitnag02.mp3"
+	}
+}
+
+
+
+// easter egg og bigboys announcer
+
+"crasher.va.Intro.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+// enemy picks up their flag first
+"crasher.va.FirstFlagPickupIsEnemy.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_firstisenemy01.mp3"
+		"wave" "crasher/classic/bigboy_firstisenemy02.mp3"
+		"wave" "crasher/classic/bigboy_firstisenemy04.mp3"
+		"wave" "crasher/classic/bigboy_firstisenemy05.mp3"
+	}
+}
+
+
+// ally picks up our flag first
+"crasher.va.FirstFlagPickupIsAlly.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_firstisally01.mp3"
+		"wave" "crasher/classic/bigboy_firstisally02.mp3"
+		"wave" "crasher/classic/bigboy_firstisally04.mp3"
+		"wave" "crasher/classic/bigboy_firstisally06.mp3"
+	}
+}
+
+
+// new enemy giant
+"crasher.va.FlagPickupBad.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_pickupbad01.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad03.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad04.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad06.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad08.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad10.mp3"
+		"wave" "crasher/classic/bigboy_pickupbad12.mp3"
+	}
+}
+
+
+// new ally giant
+"crasher.va.FlagPickupGood.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_pickupgood01.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood03.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood05.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood09.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood10.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood14.mp3"
+		"wave" "crasher/classic/bigboy_pickupgood17.mp3"
+	}
+}
+
+
+// enemy giant progress
+"crasher.va.EnemyNear.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_nearbad02.mp3"
+		"wave" "crasher/classic/bigboy_nearbad03.mp3"
+		"wave" "crasher/classic/bigboy_nearbad04.mp3"
+		"wave" "crasher/classic/bigboy_nearbad05.mp3"
+		"wave" "crasher/classic/bigboy_nearbad08.mp3"
+		"wave" "crasher/classic/bigboy_nearbad09.mp3"
+	}
+}
+
+
+// friendly giant progress
+"crasher.va.AllyNear.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_neargood02.mp3"
+		"wave" "crasher/classic/bigboy_neargood04.mp3"
+		"wave" "crasher/classic/bigboy_neargood06.mp3"
+		"wave" "crasher/classic/bigboy_neargood07.mp3"
+		"wave" "crasher/classic/bigboy_neargood09.mp3"
+		"wave" "crasher/classic/bigboy_neargood10.mp3"
+	}
+}
+
+
+// enemy giant first capture
+"crasher.va.EnemyFirstCapture.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_capturebad02.mp3"
+		"wave" "crasher/classic/bigboy_capturebad03.mp3"
+		//"wave" "crasher/classic/bigboy_capturebad04.mp3"
+		//"wave" "crasher/classic/bigboy_capturebad05.mp3"
+		"wave" "crasher/classic/bigboy_capturebad07.mp3"
+		"wave" "crasher/classic/bigboy_capturebad08.mp3"
+	}
+}
+
+
+// enemy giant captured
+"crasher.va.EnemyCapture.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_capturebad02.mp3"
+		"wave" "crasher/classic/bigboy_capturebad03.mp3"
+		//"wave" "crasher/classic/bigboy_capturebad04.mp3"
+		//"wave" "crasher/classic/bigboy_capturebad05.mp3"
+		"wave" "crasher/classic/bigboy_capturebad07.mp3"
+		"wave" "crasher/classic/bigboy_capturebad08.mp3"
+	}
+}
+
+// friendly giant first capture
+"crasher.va.AllyFirstCapture.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_capturegood01.mp3"
+		"wave" "crasher/classic/bigboy_capturegood02.mp3"
+		"wave" "crasher/classic/bigboy_capturegood03.mp3"
+		//"wave" "crasher/classic/bigboy_capturegood04.mp3"
+		"wave" "crasher/classic/bigboy_capturegood05.mp3"
+		"wave" "crasher/classic/bigboy_capturegood06.mp3"
+	}
+}
+
+// friendly giant captured
+"crasher.va.AllyCapture.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_capturegood01.mp3"
+		"wave" "crasher/classic/bigboy_capturegood02.mp3"
+		"wave" "crasher/classic/bigboy_capturegood03.mp3"
+		//"wave" "crasher/classic/bigboy_capturegood04.mp3"
+		"wave" "crasher/classic/bigboy_capturegood05.mp3"
+		"wave" "crasher/classic/bigboy_capturegood06.mp3"
+	}
+}
+
+
+// enemy giant death
+"crasher.va.CourierDownGood.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_courierdowngood02.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood03.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood04.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood05.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood06.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood07.mp3"
+		"wave" "crasher/classic/bigboy_courierdowngood08.mp3"
+	}
+}
+
+
+// friendly giant death
+"crasher.va.CourierDownBad.teamEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_courierdownbad01.mp3"
+		"wave" "crasher/classic/bigboy_courierdownbad02.mp3"
+		"wave" "crasher/classic/bigboy_courierdownbad03.mp3"
+		//"wave" "crasher/classic/bigboy_courierdownbad04.mp3"
+		"wave" "crasher/classic/bigboy_courierdownbad05.mp3"
+		"wave" "crasher/classic/bigboy_courierdownbad08.mp3"
+	}
+}
+
+
+// round win!
+"crasher.va.RoundWin.teamEgg" // didnt exist in original bigboys, repurposing lines
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/classic/bigboy_capturegood04.mp3"
+		"wave" "crasher/classic/bigboy_win01_music.mp3"
+		//"wave" "crasher/classic/bigboy_neargood08.mp3"
+		"wave" "crasher/classic/bigboy_win02_music.mp3"
+		//"wave" "crasher/classic/bigboy_pickupgood12.mp3"
+		"wave" "crasher/classic/bigboy_win03_music.mp3"
+	}
+}
+
+
+// round loss!
+"crasher.va.RoundLose.teamEgg" // didnt exist in original bigboys, repurposing lines
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		//"wave" "crasher/classic/bigboy_capturebad04.mp3"
+		"wave" "crasher/classic/bigboy_lose01_music.mp3"
+		//"wave" "crasher/classic/bigboy_capturebad05.mp3"
+		"wave" "crasher/classic/bigboy_lose02_music.mp3"
+		//"wave" "crasher/classic/bigboy_courierdownbad04.mp3"	
+		"wave" "crasher/classic/bigboy_lose03_music.mp3"
+	}
+}
+
+
+// flag pickup nag
+"crasher.va.FlagNag.teamEgg" // didnt exist in original bigboys, no suitable lines
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"	
+	}
+}
+
+
+// slow giant nag
+"crasher.va.WaitNag.teamEgg"  // didnt exist in original bigboys, no suitable lines
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"	
+	}
+}
+
+// announcer activation line
+"crasher.activateEgg"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave" "crasher/classic/bigboy_pickupgood11.mp3"
+	}
+}
+
+
+// rip the jetpacker lines they were funny
+
+//MVM Footstep overrides for giant footsteps
+
+"MVM.SentryBusterStep"
+{
+	"soundlevel"	"SNDLVL_96dB"
+	"pitch"			"45,75"
+	"volume"		"0.8"
+	"rndwave"
+	{
+		"wave"		")crasher/giant_step_01.wav"
+		"wave"		")crasher/giant_step_02.wav"
+		"wave"		")crasher/giant_step_03.wav"
+		"wave"		")crasher/giant_step_04.wav"
+	}
+}
+
+// DEFAULT ANNOUNCER OVERRIDES
+// These are from tf2_misc_dir.vpk/scripts/game_sounds_vo.txt
+// Announcer still says "You failed" / "Success" on round end
+
+"Announcer.TournamentModeStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Announcer.Success"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Announcer.Failure"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+	
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Announcer.CaptureIntel"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_65dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Announcer.DefendIntel"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_65dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.EnemyCaptured"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.FlagReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.TeamDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Invade.TeamStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Game.YourTeamLost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Game.YourTeamWon"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}

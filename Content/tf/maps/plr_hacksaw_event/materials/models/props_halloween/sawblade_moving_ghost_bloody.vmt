@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/sawblade_moving_ghost_bloody"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1.5 1.5 1.5]"
+	"$basealphaenvmapmask" 1
+	"$nodecal" "1"
+	"$additive" "1"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "10"	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+//	"$rimlight" "1"
+//	"$rimlightexponent" "4"	
+//	"$rimlightboost" "3"
+}

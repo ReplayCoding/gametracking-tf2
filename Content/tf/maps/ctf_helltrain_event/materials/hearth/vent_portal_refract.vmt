@@ -1,0 +1,26 @@
+"Refract"
+{
+	<dx90
+	{
+		"$fallbackmaterial" "models/props_c17/fisheyelens_DX60"
+	}
+    //"$basetexture"	"hearth/vent_portal_blue_1"
+	//"$basetexturetransform" "center .5 .5 scale .1 .1 rotate 0 translate 0 0"
+    "$normalmap"     "water/tfwater001_normal"
+	"$bumptransform" "center .5 .5 scale .2 .2 rotate 0 translate 0 0"
+    
+	"$nodecal" 1
+	"$bluramount" 0
+ 	"$refractamount" .01
+ 	//	"$normalmap"  "models/workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper_lens"
+	//"$nocull" 1
+	 
+	 "Proxies" {
+        "AnimatedTexture"
+        {
+            "animatedtexturevar" "$normalmap"
+            "animatedtextureframenumvar" "$bumpframe"
+            "animatedtextureframerate" 60.00
+        }
+    }
+}

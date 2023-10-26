@@ -1,0 +1,22 @@
+"WorldVertexTransition"
+{
+	"$baseTexture"	"crasher/flagstone001"
+	"$surfaceprop" "concrete"
+	"$bumpmap"	"crasher/flagstone001_ssbump"
+	"$ssbump"	"1"
+	
+	//"$basetexture2" "nature/grass_07"
+	//"$basetexture2" "crasher/grass07b"
+	//"$basetexture2" "crasher/grass07c"
+	"$basetexture2" "Nature/dirtground010"
+	"$surfaceprop2" "dirt"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	"$ssbump2" "1"
+	
+	//"$blendmodulatetexture" "nature/grass_blendmask"
+	//"$blendmodulatetexture" "crasher/flagstone001_blendmask"
+	//"$blendmodulatetexture" "crasher/flagstone_grass_blend"
+	"$blendmodulatetexture" "crasher/flagstone_snow_blend"
+	
+	"%keywords" "tf"
+}

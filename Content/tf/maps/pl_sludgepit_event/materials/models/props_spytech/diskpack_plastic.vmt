@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_spytech/diskpack_plastic"
+	$additive 1
+	$bumpmap "effects/flat_normal"
+	$color "{ 150 121 89 }"
+	"$basemapalphaphongmask" "1"	
+	"$envmapcontrast" "0"
+	//"$envmap" "cubemaps\cubemap_specular001"
+	"$envmap" env_cubemap
+	"$envmaptint" "[ 0.6 0.4 0.2 ]"	
+
+	"$phong" "1"
+	"$phongexponent" "200"
+	"$phongboost" "10"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.5 .5 3]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"			
+	"$rimlightexponent" "150"	
+	"$rimlightboost" "1"
+
+}
+

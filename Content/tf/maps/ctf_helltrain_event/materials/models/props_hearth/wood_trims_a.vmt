@@ -1,0 +1,15 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_hearth/wood_trims_a"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$detail" "overlays/detail006"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_hearth/wood_trims_a_mask"	
+	"$envmapcontrast" "1"
+	"$reflectivity" "[.7 .5 .35]"
+	"$model" 1
+}

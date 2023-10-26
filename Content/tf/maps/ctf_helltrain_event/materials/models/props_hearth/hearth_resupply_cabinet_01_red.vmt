@@ -1,0 +1,15 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models\props_hearth/hearth_resupply_cabinet_01_red"
+	"$surfaceprop" "wood"
+	"$model" "1"
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+	"$envmapcontrast" .5
+	"$envmapsaturation" 1
+	"$envmaptint" "[.2 .2 .2]"
+	"$selfillum" "1"
+	"$selfillumtint" "[.65 .65 .65]"
+	"$selfillummask" "models\props_hearth/hearth_resupply_cabinet_01_selfillum_mask"
+}

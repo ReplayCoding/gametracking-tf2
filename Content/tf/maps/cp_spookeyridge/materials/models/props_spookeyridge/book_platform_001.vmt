@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_spookeyridge/book_platform_001"
+
+	$selfillum 1
+	$selfillummask "models/props_spookeyridge/book_platform_001_glow"
+	$selfillumtint "[0.86 0.50 0.99]"
+}

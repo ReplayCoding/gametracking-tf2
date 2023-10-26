@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_spookeyridge/c-1157_-3862_-416"
+	}
+}

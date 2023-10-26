@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "models/props_hearth/tracks_desert_01"
+	$alphatest 1
+	$alphatestreference .99
+	$model 1
+	%keywords "tf"
+	$color2 "[ 2 2 2 ]"
+}

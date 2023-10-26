@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SWAMP/TILE/FLOOR_TILE_004A_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_spookeyridge/c2152_-2854_-192"
+	}
+}

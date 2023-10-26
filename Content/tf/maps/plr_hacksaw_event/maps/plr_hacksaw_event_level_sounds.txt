@@ -1,0 +1,279 @@
+"Bonesaw.RoundStart"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue03.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue04.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue05.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue06.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue07.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_mannbros_argue12.mp3"
+    }
+}
+
+"Bonesaw.EnemyHacking_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\sf13_redmond_losing04.mp3"
+        "wave"      "vo\halloween_mann_brothers\sf13_redmond_losing05.mp3"
+        "wave"      "vo\halloween_mann_brothers\sf13_redmond_losing06.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing21.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing15.mp3"
+    }
+}
+
+"Bonesaw.AllyHacking_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_winning10.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_winning16.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_winning18.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_winning12.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_winning02.mp3"
+    }
+}
+
+"Bonesaw.EnemyHacking_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_losing03.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_losing14.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_losing05.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_losing08.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_losing11.mp3"
+    }
+}
+
+"Bonesaw.AllyHacking_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_winning07.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_winning02.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_winning08.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_winning05.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_winning09.mp3"
+    }
+}
+
+"Bonesaw.AllyHackingClose_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_almost_won01.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing_push04.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing_push02.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing_push08.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing_push07.mp3"
+    }
+}
+
+"Bonesaw.EnemyHackingClose_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_almost_lost01.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_losing03.mp3"
+    }
+}
+
+"Bonesaw.AllyHackingClose_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_won02.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_won05.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_won07.mp3"
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_won12.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_won01.mp3"
+    }
+}
+
+"Bonesaw.EnemyHackingClose_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_lost01.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_almost_lost03.mp3"
+    }
+}
+
+"Bonesaw.RoundWon_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_win01.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_win07.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_win03.mp3"
+    }
+}
+
+
+"Bonesaw.RoundLost_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_lose02.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_lose04.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_lose07.mp3"
+    }
+}
+
+"Bonesaw.RoundWon_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_win03.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_win05.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_win01.mp3"
+    }
+}
+
+
+"Bonesaw.RoundLost_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_lose02.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_lose04.mp3"
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_lose08.mp3"
+    }
+}
+
+"Bonesaw.hhh"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_mann_brothers\Sf13_blutarch_enemies14.mp3"
+    }
+}
+
+"Bonesaw.Money_Red"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_redmond_win09.mp3"
+    }
+}
+
+"Bonesaw.Money_Blu"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"           
+    {
+	"wave"      "vo\halloween_mann_brothers\Sf13_blutarch_win10.mp3"
+    }
+}
+
+"Halloween.PlayerScream"
+{
+    "channel"        "CHAN_VOICE"
+    "volume"        "0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"           
+    {
+        "wave"      "vo\halloween_scream4.mp3"
+    }
+}
+

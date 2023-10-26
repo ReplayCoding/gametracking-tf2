@@ -1,0 +1,40 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\crasher\flask_liquid"
+	
+	"$color2" "{210 69 57}"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	//"$halflambert" "1"
+	
+	"$selfillum" "1"
+	//"$selfillumtint" "[0.2 0.2 0.2]"
+	"$selfillumtint" "[0.6 0.6 0.6]"
+	
+	//"$rimlight" "1"						
+	//"$rimlightexponent" "5"				
+	//"$rimlightboost" "1"
+	
+	
+	// pulsating selfillum, ripped from pumpkin bombs
+	
+	"$detail" "models\crasher\flask_liquid_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" 0.4
+	"$detailblendmode" 1 // 1 additive 5 additive unlit
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sinemax" "0.23"
+			"sinemin" "0"
+			"sineperiod" "4.64"
+			"resultvar" "$detailblendfactor"
+		}	
+	}
+}

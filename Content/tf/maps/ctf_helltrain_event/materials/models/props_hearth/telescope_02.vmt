@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_hearth/telescope_02"
+	"$bumpmap" "models\props_hearth/telescope_02_bump"
+	//"$basealphaenvmapmask" "1"
+	
+	"$envmap" "cubemaps/cubemap_gold001"
+    "$envmapfresnel"	"1"
+	"$envmaptint" "[.4 .4 .4]"
+	
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[.5 .5 .5]"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "12"				
+	"$rimlightboost" ".8"
+	"$rimmask" "1"
+	
+	"phong" "1"
+	"$phongboost" "1.4"
+    "$phongexponent" "32"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	"$phongfresnelranges"	"[.1 1.8 2]"
+	"$halflambert" "1"
+}
+

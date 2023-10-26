@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props_hearth/pipe_meter_01"
+	"$surfaceprop" "Metal"
+	"$selfillum" "1"
+    "$selfillummask" "models/props_hearth/pipe_meter_01_mask"
+	"$reflectivity" "[.15 .15 .15]"
+}

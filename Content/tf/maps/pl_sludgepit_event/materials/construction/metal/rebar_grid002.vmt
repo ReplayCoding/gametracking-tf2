@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "construction/metal/rebar_grid002"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf"
+	"$nocull" "1"
+
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.17"
+	"$AllowAlphaToCoverage" "1"
+}

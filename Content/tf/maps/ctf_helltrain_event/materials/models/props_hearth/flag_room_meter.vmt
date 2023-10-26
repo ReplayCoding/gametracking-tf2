@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_hearth/flag_room_meter_diffuse"
+
+	"$phong" "1"
+	"$phongboost" "1.4"
+    "$phongexponent" "6"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"	
+	"$phongfresnelranges"	"[.1 1.8 2]"
+	"$halflambert" "1"
+	"$basemapalphaphongmask" "1"
+	
+	"$envmap" "env_cubemap"
+    "$envmaptint" "[.03 .03 .03]"
+    "$envmapfresnel"	"1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "12"				
+	"$rimlightboost" ".8"
+	"$rimmask" "1"
+	
+	"$blendtintbybasealpha" "1"
+}

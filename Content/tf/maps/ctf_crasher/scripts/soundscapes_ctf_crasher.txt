@@ -1,0 +1,1354 @@
+
+
+//############################################################
+// Utility Soundscapes
+//############################################################
+
+"Crasher.Util.Fauna" // Distant wildlife.
+{
+	// distant birds.
+	"playrandom"
+	{
+		"time"		"6,30"
+		"volume"	".65"
+		"pitch"		"97,103"
+		"rndwave"
+		{
+			"wave"	"ambient\crow3.wav"	// crows are diurnal but whatever who cares
+			"wave"	"ambient\crow4.wav" // maybe these ones go out and party ykno. crow party
+			"wave"	"ambient\owl3.wav"
+			"wave"	"ambient\owl4.wav"
+		}
+	}
+	// distant wolves.
+	"playrandom"
+	{
+		"time"		"20,60"
+		"volume"	".45"
+		"pitch"		"97,103"
+		"rndwave"
+		{
+			"wave"	"ambient\wolf01.wav"
+			"wave"	"ambient\wolf02.wav"
+			"wave"	"ambient\wolf03.wav"
+		}
+	}
+	// halloween shit idk
+	"playrandom"
+	{
+		"time"		"40,220"
+		"volume"	".05"
+		"pitch"		"90,95"
+		"rndwave"
+		{
+			"wave"	"items\halloween\banshee01.wav"
+			"wave"	"items\halloween\banshee02.wav"
+			"wave"	"items\halloween\banshee02.wav"
+		}
+	}
+	// cats
+	"playrandom"
+	{
+		"time"		"90,180"
+		"volume"	".05"
+		"pitch"		"90,103"
+		"rndwave"
+		{
+			"wave"	"items\halloween\cat01.wav"
+			"wave"	"items\halloween\cat02.wav"
+			"wave"	"items\halloween\cat03.wav"
+		}
+	}
+}
+
+"Crasher.Util.Wind" // Wind
+{
+	// slight wind
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".45"
+		"pitch"		"97,103"
+		"rndwave"
+		{
+			//"wave"	"ambient\lair\jungle_wind_trees2.wav"
+			//"wave"	"ambient\lair\jungle_wind_trees2.wav" // doubled up
+			"wave"	"ambient\wind_gust1.wav"
+			"wave"	"ambient\wind_gust2.wav"
+			"wave"	"ambient\halloween\windgust_07.wav"
+			"wave"	"ambient\halloween\windgust_09.wav"
+			"wave"	"ambient\halloween\windgust_10.wav"
+			"wave"	"ambient\halloween\windgust_11.wav"
+		}
+	}
+}
+"Crasher.Util.WindMore" // Wind. More frequent.
+{
+	// slight wind
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	".65"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+			//"wave"	"ambient\lair\jungle_wind_trees2.wav"
+			//"wave"	"ambient\lair\jungle_wind_trees2.wav" // doubled up
+			"wave"	"ambient\wind_gust1.wav"
+			"wave"	"ambient\wind_gust2.wav"
+			"wave"	"ambient\halloween\windgust_07.wav"
+			"wave"	"ambient\halloween\windgust_09.wav"
+			"wave"	"ambient\halloween\windgust_10.wav"
+			"wave"	"ambient\halloween\windgust_11.wav"
+		}
+	}
+}
+
+"Crasher.Util.WallLight" // Small lighting fixture hum
+{
+	// lights hum pos0
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum2.wav"
+	}
+}
+
+"Crasher.Util.Rocks" // Slight rock crumbling.
+{
+	// rocks.
+	"playrandom"
+	{
+		"time"		"6,14"
+		"volume"	".55"
+		"pitch"		"95,103"
+		"rndwave"
+		{
+			"wave"	"ambient\materials\rock1.wav"
+			"wave"	"ambient\materials\rock2.wav"
+			"wave"	"ambient\materials\rock3.wav"
+			"wave"	"ambient\materials\rock4.wav"
+		}
+	}
+}
+
+"Crasher.Util.WoodCreaks" // Slight wood creaking.
+{
+	// wood creaking
+	"playrandom"
+	{
+		"time"		"6,14"
+		"volume"	".55"
+		"pitch"		"95,103"
+		"rndwave"
+		{
+			"wave"	"ambient\materials\wood_creak1.wav"
+			"wave"	"ambient\materials\wood_creak2.wav"
+			"wave"	"ambient\materials\wood_creak3.wav"
+			"wave"	"ambient\materials\wood_creak4.wav"
+			"wave"	"ambient\materials\wood_creak5.wav"
+			"wave"	"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+
+"Crasher.Util.MetalCreaks" // Slight metal creaking.
+{
+	// metal creaking
+	"playrandom"
+	{
+		"time"		"5,20"
+		"volume"	".65"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+			"wave"	"ambient\creak01.wav"
+			"wave"	"ambient\creak02.wav"
+			"wave"	"ambient\creak03.wav"
+		}
+	}
+}
+
+"Crasher.Util.LabComputer" // Lab computer noises. Beep boop!
+{
+	// all sorts of stuff
+	"playrandom"
+	{
+		"time"		"2,8"
+		"volume"	".35"
+		"pitch"		"70,105"
+		"rndwave"
+		{
+			//"wave"	"player\cyoa_pda_beep2.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep3.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep4.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep5.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep6.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep7.wav" // computer beep
+			//"wave"	"player\cyoa_pda_beep8.wav" // computer beep
+			"wave"	"ambient\levels\prison\radio_random1.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random2.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random3.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random4.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random5.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random6.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random7.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random8.wav" // radio noise
+			"wave"	"ambient\levels\prison\radio_random9.wav" // radio noise
+			"wave"	"ambient\machines\combine_terminal_idle1.wav" // misc computer mechanicals
+			"wave"	"ambient\machines\combine_terminal_idle4.wav" // misc computer mechanicals
+		}
+	}
+}
+
+
+//############################################################
+// Proper Soundscapes
+//############################################################
+
+// It's a quiet, still night in this rural European town. A touch chilly, but nothing uncomfortable. 
+"Crasher.Outside" // Outside, in open areas. Quiet positional hums of lights.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"1"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// lights
+	// pos 0
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "0"
+	}
+	// pos 1
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "1"
+	}
+	// pos 2
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "2"
+	}
+	// pos 3
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "3"
+	}
+	// pos 4 (dupe for blu side)
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "4"
+	}
+	// pos 5 (dupe for blu side)
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "5"
+	}
+	// pos 6 (dupe for blu side)
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "6"
+	}
+	// pos 7 (dupe for blu side)
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WallLight"
+		"volume"	"1"
+		"positionoverride" "7"
+	}
+}
+
+"Crasher.Outside.Secluded" // Outside, in a less open area. Nearby structures dampen sound.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.7"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.85"
+	}
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"0.25"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// pos 0 quiet deeper hum for small upper tunnel area
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".05"
+		"pitch"		"110"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+	
+	// pos 1 quiet deeper hum for small upper tunnel area (dupe for blu side)
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".05"
+		"pitch"		"110"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+}
+
+"Crasher.Outside.Rocks" // Outside, with an occasional crumble of rocks.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"1"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"1"
+	}
+	// ronck
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Rocks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.Creaky" // Outside, with wood creaks.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"1"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"1"
+	}
+	// wood
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.Water" // Outside, in the water.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.7"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.85"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.WaterNear" // Outside, nearby the water. Quiet positional hum of utility pole transformer.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	//"playlooping"
+	//{
+	//	"volume"	".15"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\windwinterinside.wav"
+	//}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"1"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// utility pole transformer
+	// pos 0
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum1.wav"
+	}
+	// pos 1 (dupe for blu side)
+	"playlooping"
+	{
+		"position"	"1"
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum1.wav"
+	}
+}
+
+"Crasher.Outside.WaterNear.Rocks" // Outside, nearby the water. An occasional crumble of rocks.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".55"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	//"playlooping"
+	//{
+	//	"volume"	".15"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\windwinterinside.wav"
+	//}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.9"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.9"
+	}
+	// rocks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Rocks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.WaterNear.Creaky" // Outside, nearby the water, with wood creaks. For the bridge.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	//"playlooping"
+	//{
+	//	"volume"	".15"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\windwinterinside.wav"
+	//}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"1"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WindMore"
+		"volume"	"1"
+	}
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.Tunnel" // Outside-ish, in the tunnels near the water. Very quiet down here, just the sound of water and the hum of lights.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	// ambient (also deeper hum)
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	".55"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	// ambient (lights)
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\lighthum.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.2"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.25"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.TunnelSweetener" // Transition between Tunnel and Water
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	// ambient (also deeper hum)
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+	// ambient (water)
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		//"wave"		"ambient\halloween\underground_water_lp_01.wav"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	// ambient (lights)
+	"playlooping"
+	{
+		"volume"	".08"
+		"pitch"		"100"
+		"wave"		"ambient\lighthum.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.25"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.3"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.Courtyard" // Outside-ish, the lower courtyard. Fairly quiet down here.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	// ambient (also deeper hum)
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+	// ambient (lights)
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient\lighthum.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.45"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.6"
+	}
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"0.5"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Outside.Courtyard.Creaky" // Under the wood structure. Wood creaks.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient (deeper hum)
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	// ambient (also deeper hum)
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground.wav"
+	}
+	// ambient (lights)
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\lighthum.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.35"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.5"
+	}
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+
+"Crasher.Bar" // Inside the bar. Cosy. Quiet mix of outside - there's an open door, after all. Positional light hum.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	// ambient inside
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wildlife
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Fauna"
+		"volume"	"0.2"
+	}
+	// wind
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.Wind"
+		"volume"	"0.2"
+	}
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// pos 0 lights hum
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	
+	// pos 1 lights hum (dupe for blu side)
+	"playlooping"
+	{
+		"position"	"1"
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+}
+
+
+// An echoey chamber in an old fort, bustling with computers and machinery in service of the laser looming above.
+"Crasher.Lab" // Inside the laboratory. 
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\indoor2.wav"
+	}
+	// ambient also
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\machines\lab_loop1.wav"
+	}
+	// ambient light hum
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum1.wav"
+	}
+	// ambient echoey
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"0.4"
+	}
+	// metal creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.MetalCreaks"
+		"volume"	"0.4"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// pos 0 vat machine thing
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".25"
+		"pitch"		"95"
+		"wave"		"ambient\lair\cap_2_boiler_smooth1.wav"
+	}
+	
+	// pos 1 computers
+	"playlooping"
+	{
+		"position"	"1"
+		"volume"	".45"
+		"pitch"		"95"
+		"wave"		"ambient\lair\cap_3_inside_radar1.wav"
+	}
+	
+	// pos 2 computers
+	"playlooping"
+	{
+		"position"	"2"
+		"volume"	".45"
+		"pitch"		"95"
+		"wave"		"ambient\computer_tape2.wav"
+	}
+	// beep boop
+	"playsoundscape"
+	{
+		"positionoverride" "2"
+		"name"		"Crasher.Util.LabComputer"
+		"volume"	"1"
+	}
+	
+	// pos 3 computers
+	"playlooping"
+	{
+		"position"	"3"
+		"volume"	".45"
+		"pitch"		"95"
+		"wave"		"ambient\computer_tape3.wav"
+	}
+	// beep boop
+	"playsoundscape"
+	{
+		"positionoverride" "3"
+		"name"		"Crasher.Util.LabComputer"
+		"volume"	"1"
+	}
+	
+	// pos 4 computers
+	"playlooping"
+	{
+		"position"	"4"
+		"volume"	".45"
+		"pitch"		"95"
+		//"wave"		"ambient\computer_working.wav"
+		"wave"		"ambient\computer_tape3.wav"
+	}
+	// beep boop
+	"playsoundscape"
+	{
+		"positionoverride" "4"
+		"name"		"Crasher.Util.LabComputer"
+		"volume"	"1"
+	}
+	
+	// pos 5 computers
+	"playlooping"
+	{
+		"position"	"5"
+		"volume"	".35"
+		"pitch"		"95"
+		"wave"		"ambient\computer_working2.wav"
+		//"wave"		"ambient\lair\cap_3_inside_tape_machine2.wav"
+	}
+	// beep boop
+	//"playsoundscape"
+	//{
+	//	"positionoverride" "5"
+	//	"name"		"Crasher.Util.LabComputer"
+	//	"volume"	"1"
+	//}
+}
+"Crasher.Lab.Central" // Inside the laboratory; standing below the laser.
+{
+	"dsp"	"1"
+
+	// ambient
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\indoor2.wav"
+	}
+	// ambient also
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\machines\lab_loop1.wav"
+	}
+	// ambient light hum
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum1.wav"
+	}
+	// ambient echoey
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"0.2"
+	}
+	// metal creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.MetalCreaks"
+		"volume"	"0.7"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+
+"Crasher.Lab.Outer.Large" // The wooden extension-turned-storeroom beyond the lab.
+{
+	"dsp"	"1"
+
+	// ambient
+	//"playlooping"
+	//{
+	//	"volume"	".25"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\outdoors.wav"
+	//}
+	// ambient inside
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	// ambient lights hum
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	
+	// ambient
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\indoor2.wav"
+	}
+	// ambient also
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\machines\lab_loop1.wav"
+	}
+	// ambient light hum
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum1.wav"
+	}
+	// ambient echoey
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"0.65"
+	}
+	// metal creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.MetalCreaks"
+		"volume"	"0.2"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+"Crasher.Lab.Outer.Small" // The wooden extension-turned-storeroom beyond the lab; the front area by the door with a low ceiling. Louder lights, wood creaks.
+{
+	"dsp"	"1"
+
+	// ambient
+	//"playlooping"
+	//{
+	//	"volume"	".25"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\outdoors.wav"
+	//}
+	// ambient inside
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	// ambient lights hum
+	"playlooping"
+	{
+		"volume"	".55"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+}
+"Crasher.Lab.Resupply" // Fairly cosy and quiet deep lab interior.
+{
+	"dsp"	"1"
+	
+	// ambient
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	// ambient lights hum
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	// ambient generic interior
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav" // just a little hint of the familiar resupply audio
+	}
+	
+	
+	// PREFABS #######################
+	
+	// wood creaks
+	"playsoundscape"
+	{
+		"name"		"Crasher.Util.WoodCreaks"
+		"volume"	"1"
+	}
+	
+	
+	// POSITIONAL #######################
+	
+	// pos 0 spawn computer
+	"playlooping"
+	{
+		"position"	"0"
+		"volume"	".65"
+		"pitch"		"90"
+		"wave"		"ambient\computer_working2.wav"
+	}
+	
+	// pos 1 spawn console
+	"playlooping"
+	{
+		"position"	"1"
+		"volume"	".35"
+		"pitch"		"90"
+		"wave"		"ambient\computer_working.wav"
+	}
+	
+	// pos 2 spawn computer (dupe for blu side)
+	"playlooping"
+	{
+		"position"	"2"
+		"volume"	".65"
+		"pitch"		"90"
+		"wave"		"ambient\computer_working2.wav"
+	}
+	
+	// pos 3 spawn console (dupe for blu side)
+	"playlooping"
+	{
+		"position"	"3"
+		"volume"	".35"
+		"pitch"		"90"
+		"wave"		"ambient\computer_working.wav"
+	}
+}
+
+
+
+
+// pont was here!
+
+

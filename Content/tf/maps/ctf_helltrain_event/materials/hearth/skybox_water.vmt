@@ -1,0 +1,30 @@
+"LightmappedGeneric" 
+
+{ 
+    "$basetexture"	"hearth/dark_water"
+    "$bumpmap"     "water/tfwater001_normal"
+    "$envmap"     "env_cubemap" 
+    "$envmaptint"    "[.5 .5 .5]"
+    "$envmapsaturation" "[.3 .3 .3]"
+    "$normalmapalphaenvmapmask"     "1"
+    "%tooltexture" "dev/tfwater_normal"
+
+    "Proxies" {
+
+        "TextureScroll"
+ 
+        { 
+            "texturescrollvar"     "$basetexturetransform"
+            "texturescrollrate"     .25
+            "texturescrollangle"     180 
+        }
+
+        "AnimatedTexture"
+        {
+            "animatedtexturevar" "$bumpmap"
+            "animatedtextureframenumvar" "$bumpframe"
+            "animatedtextureframerate" 20.00
+        }
+
+    }
+}

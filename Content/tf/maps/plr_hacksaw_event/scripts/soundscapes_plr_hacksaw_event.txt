@@ -1,0 +1,132 @@
+"Bonesaw.Outside"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"hacksaw/the_burning01.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"ambient/halloween/underground_wind_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"hacksaw/kindled_wind01.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"75"
+		"wave"		"ambient/halloween/underground_wind_lp_02.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"200"
+		"wave"		"ambient/cp_harbor/indoor_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"time"		"6,9"
+		"volume"	"1,1"
+		"pitch"		"90,105"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/thunder2.wav"
+			"wave"	"ambient/thunder3.wav"
+			"wave"	"ambient/thunder4.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"2, 5"
+		"volume"	".12, .22"
+		"pitch"		"80, 120"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+}
+
+"Bonesaw.Inside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"hacksaw/the_burning01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"hacksaw/kindled_wind01.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 30"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}
