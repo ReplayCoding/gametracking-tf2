@@ -268,46 +268,46 @@
 //-----------------------------------------------------------------------------
 ::CTFPlayer.AddWeapon <- function(classname, itemindex, slot)
 {
-	GTFW.DevPrint(0,"AddWeapon",format("%s %i %i",classname, itemindex, slot))
-	local ply = this;
-	local weapon = SpawnEntityFromTable(classname, {
-		origin = ply.GetOrigin(),
-		angles = ply.GetAbsAngles(),
-		effects = 129,
-		TeamNum = ply.GetTeam(),
-		CollisionGroup = 11,
-		ltime = Time(),
-	});
+        GTFW.DevPrint(0,"AddWeapon",format("%s %i %i",classname, itemindex, slot))
+        local ply = this;
+        local weapon = SpawnEntityFromTable(classname, {
+            origin = ply.GetOrigin(),
+            angles = ply.GetAbsAngles(),
+            effects = 129,
+            TeamNum = ply.GetTeam(),
+            CollisionGroup = 11,
+            ltime = Time(),
+        });
 
-	SetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex", itemindex);
-	SetPropInt(weapon, "m_AttributeManager.m_Item.m_iEntityLevel", 0);
-	SetPropBool(weapon, "m_AttributeManager.m_Item.m_bInitialized", true);
+        SetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex", itemindex);
+        SetPropInt(weapon, "m_AttributeManager.m_Item.m_iEntityLevel", 0);
+        SetPropBool(weapon, "m_AttributeManager.m_Item.m_bInitialized", true);
 
-	SetPropBool(weapon, "m_bClientSideAnimation", true);
-	SetPropBool(weapon, "m_bClientSideFrameReset", true);
+        SetPropBool(weapon, "m_bClientSideAnimation", true);
+        SetPropBool(weapon, "m_bClientSideFrameReset", true);
 
-	SetPropBool(weapon, "m_bValidatedAttachedEntity", true);
-	//SetPropInt(weapon, "m_AttributeManager.m_Item.m_bOnlyIterateItemViewAttributes", 1);	// Removes all pre-existing stats of the weapon.
-	SetPropInt(weapon, "m_AttributeManager.m_iReapplyProvisionParity", 1);
+        SetPropBool(weapon, "m_bValidatedAttachedEntity", true);
+        //SetPropInt(weapon, "m_AttributeManager.m_Item.m_bOnlyIterateItemViewAttributes", 1);	// Removes all pre-existing stats of the weapon.
+        SetPropInt(weapon, "m_AttributeManager.m_iReapplyProvisionParity", 1);
 
-	SetPropEntity(weapon, "m_hOwner", ply);
-	weapon.SetOwner(ply);
+        SetPropEntity(weapon, "m_hOwner", ply);
+        weapon.SetOwner(ply);
 
-// Seems without this, we can't hit Engineer objects!
-	local solidFlags = GetPropInt(weapon, "m_Collision.m_usSolidFlags");
-	SetPropInt(weapon, "m_Collision.m_usSolidFlags", solidFlags | Constants.FSolid.FSOLID_NOT_SOLID);
+    // Seems without this, we can't hit Engineer objects!
+        local solidFlags = GetPropInt(weapon, "m_Collision.m_usSolidFlags");
+        SetPropInt(weapon, "m_Collision.m_usSolidFlags", solidFlags | Constants.FSolid.FSOLID_NOT_SOLID);
 
-	solidFlags = GetPropInt(weapon, "m_Collision.m_usSolidFlags");
-	SetPropInt(weapon, "m_Collision.m_usSolidFlags", solidFlags & ~(Constants.FSolid.FSOLID_TRIGGER));
-
-
-	Entities.DispatchSpawn(weapon)	//Dispatches weapon into the world
-	weapon.ReapplyProvision()	// then applies any body attributes back onto the player.
+        solidFlags = GetPropInt(weapon, "m_Collision.m_usSolidFlags");
+        SetPropInt(weapon, "m_Collision.m_usSolidFlags", solidFlags & ~(Constants.FSolid.FSOLID_TRIGGER));
 
 
-	SetPropEntityArray(ply, "m_hMyWeapons", weapon, slot);
+        Entities.DispatchSpawn(weapon)	//Dispatches weapon into the world
+        weapon.ReapplyProvision()	// then applies any body attributes back onto the player.
 
-	DoEntFire("!self", "SetParent", "!activator", 0, ply, weapon);
+
+        SetPropEntityArray(ply, "m_hMyWeapons", weapon, slot);
+
+        DoEntFire("!self", "SetParent", "!activator", 0, ply, weapon);
 
 	itemindex = GetItemID(itemindex,ForceNotCustom)	//clears custom bits
 

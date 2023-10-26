@@ -199,7 +199,7 @@ class SweepingChargeTrait extends BossTrait
                 if (bashedByHale.find(target) != null)
                     return;
                 local dmg = target.GetMaxHealth() * 0.55;
-                if (target.GetClassname().find("obj_") == 0)
+                if (startswith(target.GetClassname(), "obj_"))
                 {
                     dmg *= 0.2;
                     boss.SetAbsVelocity(Vector(0,0,0))
@@ -213,7 +213,7 @@ class SweepingChargeTrait extends BossTrait
                     deltaVector * 1250,
                     boss.GetOrigin(),
                     dmg,
-                    1);
+                    DMG_BURN);
             }
             function (target, deltaVector, distance) {
                 if (bashedByHale.find(target) != null)
@@ -236,7 +236,7 @@ class SweepingChargeTrait extends BossTrait
     function MeterAsPercentage()
     {
         if (meter < 0)
-            return (10 + meter) * 100 / 10;
+            return (10 + meter) * 90 / 10;
         return isCurrentlyDashing ? 200 : 100;
     }
 
@@ -249,14 +249,5 @@ class SweepingChargeTrait extends BossTrait
             return format(" %d", mapped);
         else
             return format("%d", mapped);
-    }
-
-    function MeterAsColor()
-    {
-        if (meter < 0)
-            return "255 255 255";
-        if (meter > 0)
-            return "0 255 255";
-        return "0 255 0";
     }
 };

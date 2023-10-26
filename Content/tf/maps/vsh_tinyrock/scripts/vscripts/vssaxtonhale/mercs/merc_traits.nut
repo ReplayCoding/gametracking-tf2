@@ -41,6 +41,9 @@ Include("/mercs/merc_traits/single_class/demo_jumper_ammo.nut");
 Include("/mercs/merc_traits/single_class/soldier_jumper_ammo.nut");
 Include("/mercs/merc_traits/single_class/spy_invis_res.nut");
 Include("/mercs/merc_traits/single_class/engineer_telefrag_scaling.nut");
+Include("/mercs/merc_traits/single_class/pyro_powerjack.nut");
+Include("/mercs/merc_traits/single_class/demo_boots.nut");
+Include("/mercs/merc_traits/single_class/heavy_received_knockback.nut");
 
 Include("/mercs/voice_lines/all_class/tracing_boss.nut");
 Include("/mercs/voice_lines/all_class/no_medic.nut");

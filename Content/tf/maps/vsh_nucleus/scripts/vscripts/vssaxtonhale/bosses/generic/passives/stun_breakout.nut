@@ -12,7 +12,7 @@
 //=========================================================================
 
 PrecacheClassVoiceLines("rage")
-PrecacheScriptSound("xmas.jingle_noisemaker");
+PrecacheArbitrarySound("xmas.jingle_noisemaker");
 
 class StunBreakoutTrait extends BossTrait
 {

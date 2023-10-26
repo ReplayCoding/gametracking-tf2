@@ -1,0 +1,58 @@
+"SyntheticEvent.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient/desert_wind.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"20,60"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/owl4.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 40"
+		"volume"	".6, .8"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"50, 60"
+		"volume"	".05"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"items\halloween\cat03.wav"
+			"wave"		"items\halloween\cat02.wav"
+			"wave"		"items\halloween\cat01.wav"
+		}
+	}
+}

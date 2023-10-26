@@ -14,7 +14,7 @@
 PrecacheClassVoiceLines("behind")
 PrecacheClassVoiceLines("above")
 PrecacheClassVoiceLines("contact")
-PrecacheScriptSound("medic.contact_uber")
+PrecacheArbitrarySound("medic.contact_uber")
 
 characterTraitsClasses.push(class extends CustomVoiceLine
 {

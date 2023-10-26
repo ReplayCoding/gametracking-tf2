@@ -11,8 +11,8 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-PrecacheScriptSound("vsh_sfx.boss_slam_impact");
-PrecacheScriptSound("vsh_sfx.slam_ready");
+PrecacheArbitrarySound("vsh_sfx.boss_slam_impact");
+PrecacheArbitrarySound("vsh_sfx.slam_ready");
 
 class MightySlamTrait extends BossTrait
 {
@@ -102,7 +102,7 @@ class MightySlamTrait extends BossTrait
                     deltaVector * 1250,
                     bossLocal.GetOrigin(),
                     damage,
-                    1);
+                    DMG_BLAST);
             }
             function (target, deltaVector, distance) {
                 local pushForce = distance < 100 ? 1 : 100 / distance;
@@ -119,7 +119,7 @@ class MightySlamTrait extends BossTrait
     function MeterAsPercentage()
     {
         if (meter < 0)
-            return (15 + meter) * 100 / 15;
+            return (15 + meter) * 90 / 15;
         return inUse ? 200 : 100
     }
 
@@ -132,14 +132,5 @@ class MightySlamTrait extends BossTrait
             return format(" %d", mapped);
         else
             return format("%d", mapped);
-    }
-
-    function MeterAsColor()
-    {
-        if (meter < 0)
-            return "255 255 255";
-        if (inUse)
-            return "0 255 255";
-        return "0 255 0";
     }
 };

@@ -11,7 +11,7 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-PrecacheScriptSound("demo.special_01")
+PrecacheArbitrarySound("demo.special_01")
 
 characterTraitsClasses.push(class extends CharacterTrait
 {

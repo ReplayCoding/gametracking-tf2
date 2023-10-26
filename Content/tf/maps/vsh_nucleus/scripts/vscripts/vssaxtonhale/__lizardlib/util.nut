@@ -11,11 +11,6 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-function Include(path)
-{
-    IncludeScript("vssaxtonhale/" + path);
-}
-
 Include("__lizardlib/netprops.nut");
 Include("__lizardlib/constants.nut");
 Include("__lizardlib/listeners.nut");

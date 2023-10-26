@@ -21,6 +21,7 @@ function SetConvars()
     Convars.SetValue("mp_disable_respawn_times", 0);
     Convars.SetValue("mp_respawnwavetime", 999999);
     Convars.SetValue("tf_classlimit", 0);
+    Convars.SetValue("cl_use_tournament_specgui", 0);
     Convars.SetValue("mp_forcecamera", 0);
     Convars.SetValue("sv_alltalk", 1);
     Convars.SetValue("tf_dropped_weapon_lifetime", 0);
@@ -57,33 +58,36 @@ function SpawnHelperEntities()
     })
 
     local controlPoint = Entities.FindByClassname(null, "team_control_point");
-    controlPoint.KeyValueFromInt("point_index", 0);
-    controlPoint.KeyValueFromInt("point_start_locked", 1);
-    EntFireByHandle(controlPoint, "SetLocked", "1", 0, null, null);
-    EntityOutputs.AddOutput(controlPoint,
-        "OnUnlocked",
-        "!self",
-        "ShowModel",
-        "",
-        0, -1);
-    EntityOutputs.AddOutput(controlPoint,
-        "OnCapReset",
-        "!self",
-        "HideModel",
-        "",
-        0, -1);
-    EntityOutputs.AddOutput(controlPoint,
-        "OnCapTeam"+(TF_TEAM_MERCS-1),
-        vsh_vscript_name,
-        "RunScriptCode",
-        "EndRound("+TF_TEAM_MERCS+")",
-        0, -1);
-    EntityOutputs.AddOutput(controlPoint,
-        "OnCapTeam"+(TF_TEAM_BOSS-1),
-        vsh_vscript_name,
-        "RunScriptCode",
-        "EndRound("+TF_TEAM_BOSS+")",
-        0, -1);
+    if (controlPoint != null)
+    {
+        controlPoint.KeyValueFromInt("point_index", 0);
+        controlPoint.KeyValueFromInt("point_start_locked", 1);
+        EntFireByHandle(controlPoint, "SetLocked", "1", 0, null, null);
+        EntityOutputs.AddOutput(controlPoint,
+            "OnUnlocked",
+            "!self",
+            "ShowModel",
+            "",
+            0, -1);
+        EntityOutputs.AddOutput(controlPoint,
+            "OnCapReset",
+            "!self",
+            "HideModel",
+            "",
+            0, -1);
+        EntityOutputs.AddOutput(controlPoint,
+            "OnCapTeam"+(TF_TEAM_MERCS-1),
+            vsh_vscript_name,
+            "RunScriptCode",
+            "EndRound("+TF_TEAM_MERCS+")",
+            0, -1);
+        EntityOutputs.AddOutput(controlPoint,
+            "OnCapTeam"+(TF_TEAM_BOSS-1),
+            vsh_vscript_name,
+            "RunScriptCode",
+            "EndRound("+TF_TEAM_BOSS+")",
+            0, -1);
+    }
 
     local pointMaster = Entities.FindByClassname(null, "team_control_point_master");
     if (pointMaster == null)
@@ -128,7 +132,9 @@ function SpawnHelperEntities()
         "OnSetupFinished#1": vsh_vscript_name+",RunScriptCode,FinishSetup(),0,-1",
         "OnSetupFinished#2": "vsh_setup*,Trigger,,0,-1",
         "OnSetupFinished#3": "vsh_setup*,Open,,0,-1",
-        "OnFinished": vsh_vscript_name+",RunScriptCode,UnlockControlPoint(),0,-1"
+        "On1MinRemain": "vsh_1min*,Trigger,,0,-1",
+        "OnFinished#1": vsh_vscript_name+",RunScriptCode,UnlockControlPoint(),0,-1"
+        "OnFinished#2": vsh_vscript_name+",RunScriptCode,PrepareStalemate(),0,-1"
     });
     team_round_timer.ValidateScriptScope();
     team_round_timer.GetScriptScope().Tick <- function()
@@ -146,4 +152,29 @@ function UnlockControlPoint()
     if (controlPoint != null)
         EntFireByHandle(controlPoint, "SetUnlockTime", "0", 0, null, null);
     PlayAnnouncerVO(GetRandomBossPlayer(), "point_enabled");
+}
+
+function PrepareStalemate()
+{
+    local boss = GetRandomBossPlayer();
+    local delay = clampFloor(60, API_GetFloat("stalemate_time"));
+
+    local text_tf = SpawnEntityFromTable("game_text_tf", {
+        message = "#vsh_end_this",
+        icon = "ico_notify_flag_moving_alt",
+        background = 0,
+        display_to_team = 0
+    });
+    EntFireByHandle(text_tf, "Display", "", delay - 60, null, null);
+    EntFireByHandle(text_tf, "Kill", "", delay - 59, null, null);
+
+    RunWithDelay("EntFireByHandle(team_round_timer, `SetTime`, `60`, 0, null, null)", null, delay - 60);
+
+    PlayAnnouncerVODelayed(boss, "count5", delay - 6);
+    PlayAnnouncerVODelayed(boss, "count4", delay - 5);
+    PlayAnnouncerVODelayed(boss, "count3", delay - 4);
+    PlayAnnouncerVODelayed(boss, "count2", delay - 3);
+    PlayAnnouncerVODelayed(boss, "count1", delay - 2);
+
+    RunWithDelay("EndRound(TF_TEAM_UNASSIGNED)", null, delay);
 }

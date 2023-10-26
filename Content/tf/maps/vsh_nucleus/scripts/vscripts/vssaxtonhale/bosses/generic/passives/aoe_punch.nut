@@ -30,7 +30,7 @@ class AoEPunchTrait extends BossTrait
                     deltaVector * 450,
                     boss.GetOrigin(),
                     damage / 2,
-                    2);
+                    1);
             }
             function(target, deltaVector, distance) {});
     }

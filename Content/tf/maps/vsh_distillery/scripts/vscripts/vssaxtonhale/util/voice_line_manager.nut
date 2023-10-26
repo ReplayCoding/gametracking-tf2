@@ -63,6 +63,8 @@ class BossVoiceLine extends CustomVoiceLine
         PrecacheScriptSound(className+"."+name);
 }
 
+::PrecacheArbitrarySound <- PrecacheScriptSound
+
 ::GetCurrentCharacterName <- function(player)
 {
     local bossName = GetBossName(player);

@@ -11,9 +11,9 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-PrecacheScriptSound("vsh_sfx.saxton_punch");
-PrecacheScriptSound("saxton_hale.saxton_punch_ready")
-PrecacheScriptSound("saxton_hale.saxton_punch")
+PrecacheArbitrarySound("vsh_sfx.saxton_punch");
+PrecacheArbitrarySound("saxton_hale.saxton_punch_ready")
+PrecacheArbitrarySound("saxton_hale.saxton_punch")
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "vsh_megapunch_shockwave" })
 
 class SaxtonPunchTrait extends BossTrait
@@ -101,7 +101,7 @@ class SaxtonPunchTrait extends BossTrait
     function MeterAsPercentage()
     {
         if (meter < 0)
-            return (30 + meter) * 100 / 30;
+            return (30 + meter) * 90 / 30;
         return 200
     }
 
@@ -114,12 +114,5 @@ class SaxtonPunchTrait extends BossTrait
             return format(" %d", mapped);
         else
             return format("%d", mapped);
-    }
-
-    function MeterAsColor()
-    {
-        if (meter < 0)
-            return "255 255 255";
-        return "0 255 0";
     }
 };

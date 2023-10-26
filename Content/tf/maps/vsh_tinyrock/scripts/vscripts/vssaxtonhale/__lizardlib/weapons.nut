@@ -25,7 +25,6 @@
     big_earner = GetModelIndex("models/workshop/weapons/c_models/c_switchblade/c_switchblade.mdl"),
     your_eternal_reward = GetModelIndex("models/workshop/weapons/c_models/c_eternal_reward/c_eternal_reward.mdl"),
     wanga_prick = GetModelIndex("models/workshop/weapons/c_models/c_voodoo_pin/c_voodoo_pin.mdl"),
-    vaccinator = GetModelIndex("models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense.mdl"),
     warriors_spirit = GetModelIndex("models/workshop/weapons/c_models/c_bear_claw/c_bear_claw.mdl"),
     direct_hit = GetModelIndex("models/weapons/c_models/c_directhit/c_directhit.mdl"),
     reserve_shooter = GetModelIndex("models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter.mdl"),
@@ -43,6 +42,7 @@
     disciplinary_action = GetModelIndex("models/workshop/weapons/c_models/c_riding_crop/c_riding_crop.mdl"),
     eviction_notice = GetModelIndex("models/workshop/weapons/c_models/c_eviction_notice/c_eviction_notice.mdl"),
     diamondback = GetModelIndex("models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl"),
+    powerjack = GetModelIndex("models/workshop/weapons/c_models/c_powerjack/c_powerjack.mdl")
 }
 
 ::SetItemId <- function(item, id)
@@ -86,5 +86,10 @@
         return weapon.GetClassname() == "tf_weapon_pipebomblauncher";
     else if (name == "any_sword")
         return weapon.GetClassname() == "tf_weapon_sword" || weapon.GetClassname() == "tf_weapon_katana";
+    else if (name == "any_demo_boots")
+    {
+        local id = GetItemID(weapon)
+        return id == 608 || id == 405;
+    }
     return (name in weaponModels ? weaponModels[name] : null) == GetPropInt(weapon, "m_iWorldModelIndex");
 }

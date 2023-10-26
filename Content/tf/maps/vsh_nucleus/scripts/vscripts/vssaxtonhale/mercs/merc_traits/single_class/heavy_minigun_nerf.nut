@@ -22,6 +22,6 @@ characterTraitsClasses.push(class extends CharacterTrait
     {
         local primary = player.GetWeaponBySlot(TF_WEAPONSLOTS.PRIMARY);
         if (primary != null)
-            primary.AddAttribute("damage penalty", 0.6, -1);
+            primary.AddAttribute("damage bonus HIDDEN", 0.6, -1);
     }
 });

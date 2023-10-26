@@ -132,7 +132,6 @@ class AbilityHudTrait extends BossTrait
             return;
 
         local progressBarTexts = [];
-        local colors = [];
         local overlay = "";
         foreach(ability in hudAbilityInstances[player])
         {
@@ -144,7 +143,6 @@ class AbilityHudTrait extends BossTrait
             for(; i <= 100; i+=13)
                 progressBarText += "▱";
             progressBarTexts.push(progressBarText);
-            colors.push(ability.MeterAsColor());
             if (percentage >= 100)
                 overlay += "on_";
             else

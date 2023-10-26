@@ -13,7 +13,7 @@
 
 ::IsCollateralDamage <- function(damage_type)
 {
-    return damage_type == 1 || damage_type == 2 || damage_type == DMG_BLAST;
+    return damage_type & 75;
 }
 
 function AssignBoss(bossClass, bossPlayer)

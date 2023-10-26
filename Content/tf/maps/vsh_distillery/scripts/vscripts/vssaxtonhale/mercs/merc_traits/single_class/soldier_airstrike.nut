@@ -23,7 +23,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 
     function OnDamageDealt(victim, params)
     {
-        lastHitWasAirStrike = WeaponIs(params.weapon, "airstrike");
+        lastHitWasAirStrike = player != victim && WeaponIs(params.weapon, "airstrike");
     }
 
     function OnHurtDealtEvent(victim, params)

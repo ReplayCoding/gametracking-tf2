@@ -13,7 +13,14 @@
 
 ClearGameEventCallbacks();
 
-IncludeScript("vssaxtonhale/__lizardlib/util.nut");
+function Include(path)
+{
+    IncludeScript("vssaxtonhale/" + path);
+}
+
+try { IncludeScript("vsh_addons/main_pre.nut"); } catch(e) { }
+
+Include("__lizardlib/util.nut");
 Include("/util/entities.nut");
 Include("/vsh_api.nut");
 Include("/util/player_cache.nut");

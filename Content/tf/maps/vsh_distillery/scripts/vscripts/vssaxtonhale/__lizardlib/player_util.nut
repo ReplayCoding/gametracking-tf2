@@ -59,7 +59,7 @@
         return entity != null
             && entity.IsValid()
             && entity.GetTeam() > 1
-            && (entity.IsPlayer() || entity.GetClassname().find("obj_") == 0);
+            && (entity.IsPlayer() || startswith(entity.GetClassname(), "obj_"));
     }
     catch(e)
     {
@@ -73,7 +73,7 @@
     {
         return building != null
             && building.IsValid()
-            && building.GetClassname().find("obj_") == 0
+            && startswith(building.GetClassname(), "obj_")
             && building.GetTeam() > 1;
     }
     catch(e)

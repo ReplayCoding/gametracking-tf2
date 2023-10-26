@@ -26,7 +26,6 @@ PrecacheClassVoiceLines("kill_dispenser")
 PrecacheClassVoiceLines("kill_generic")
 PrecacheClassVoiceLines("kill_medic_last")
 PrecacheClassVoiceLines("kill_medic_only")
-PrecacheClassVoiceLines("kill_medic_vacc")
 
 ::bossKillLinesEnabled <- [];
 ::bossKillLinesLastPlayed <- 0;
@@ -50,9 +49,7 @@ AddListener("death", 10, function (attacker, victim, params)
         return;
 
     local voiceLine = null;
-    if (victim.GetPlayerClass() == TF_CLASS_MEDIC && WeaponIs(victim.GetWeaponBySlot(TF_WEAPONSLOTS.SECONDARY), "vaccinator"))
-        voiceLine = "kill_medic_vacc";
-    else if (victim.GetPlayerClass() == TF_CLASS_SPY && RandomInt(1, 3) == 1 && WeaponIs(victim.GetWeaponBySlot(TF_WEAPONSLOTS.INVIS_WATCH), "dead_ringer"))
+    if (victim.GetPlayerClass() == TF_CLASS_SPY && RandomInt(1, 4) == 1 && WeaponIs(victim.GetWeaponBySlot(TF_WEAPONSLOTS.INVIS_WATCH), "dead_ringer"))
         voiceLine = "kill_spy_dr";
     else if (victim.GetPlayerClass() == TF_CLASS_MEDIC && IsOnlyOneMedicAlive())
         voiceLine = MedicsAtStart() > 1 ? "kill_medic_last" : "kill_medic_only";
