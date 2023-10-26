@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ICELAKE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_gravelpit_snowy/c-3536_1296_-512"
+		"Proxies"
+		{
+		}
+	}
+}

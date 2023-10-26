@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"conveyor/metaldoor01_192_scroll"
+	"$surfaceprop"	"conveyor"
+	"%keywords"	"tf, nesman"
+	
+	
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"		"$basetexturetransform"
+			"texturescrollrate"		".25"
+			"texturescrollangle"	"90"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_frostcliff/water/water_underworld2_4016_790_434.vmt"
+	"insert"
+	{
+		"$waterdepth"		"24"
+	}
+}

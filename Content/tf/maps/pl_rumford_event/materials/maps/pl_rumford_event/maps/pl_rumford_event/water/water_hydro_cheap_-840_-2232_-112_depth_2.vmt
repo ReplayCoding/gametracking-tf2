@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_rumford_event/water/water_hydro_cheap_-840_-2232_-112.vmt"
+	"insert"
+	{
+		"$waterdepth"		"2"
+	}
+}

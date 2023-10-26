@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_frostwatch/water/water_well_7263_3024_158.vmt"
+	"insert"
+	{
+		"$waterdepth"		"132"
+	}
+}

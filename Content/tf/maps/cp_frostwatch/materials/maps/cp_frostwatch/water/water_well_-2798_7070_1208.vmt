@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_frostwatch/c-2798_7070_1208"
+		"Proxies"
+		{
+		}
+	}
+}

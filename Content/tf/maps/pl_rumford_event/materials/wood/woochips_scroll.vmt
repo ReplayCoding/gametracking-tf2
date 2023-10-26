@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"wood/woodchips"
+	"$surfaceprop"	"wood"
+	"%keywords"	"tf, zeus"
+	
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$baseTextureTransform"
+			"texturescrollrate"		".85"
+			"texturescrollangle"	"00"
+		}
+	}
+}

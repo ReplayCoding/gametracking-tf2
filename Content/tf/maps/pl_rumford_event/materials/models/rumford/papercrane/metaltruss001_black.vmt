@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metaltruss001"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf"
+	"$alphatest" "1"
+	"$alphatestreference" "0.2"
+	"$allowalphatocoverage" "1"
+	"$color" "{30 30 30}"
+}

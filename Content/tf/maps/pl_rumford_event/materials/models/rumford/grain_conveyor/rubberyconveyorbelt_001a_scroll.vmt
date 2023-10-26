@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"props/rubberconveyerbelt001a"
+	"$surfaceprop"	"conveyor"
+	"%keywords"	"tf, nesman"
+	
+	
+	"proxies"
+	{
+		"texturescroll"
+		{
+			"texturescrollvar"		"$basetexturetransform"
+			"texturescrollrate"		".15"
+			"texturescrollangle"	"0"
+		}
+	}
+}

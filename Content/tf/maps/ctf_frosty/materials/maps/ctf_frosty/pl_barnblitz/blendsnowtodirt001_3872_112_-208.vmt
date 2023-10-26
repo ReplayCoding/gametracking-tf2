@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_BARNBLITZ/BLENDSNOWTODIRT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_frosty/c3872_112_-208"
+	}
+}

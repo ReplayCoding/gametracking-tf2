@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_frostcliff/c4016_790_434"
+		"Proxies"
+		{
+		}
+	}
+}

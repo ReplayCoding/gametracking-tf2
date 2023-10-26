@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR004.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_rumford_event/c6944_1665_-48"
+	}
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_rumford_event/c-840_-2232_-112"
+		"Proxies"
+		{
+		}
+	}
+}

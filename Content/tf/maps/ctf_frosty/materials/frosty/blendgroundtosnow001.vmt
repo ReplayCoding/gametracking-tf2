@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maritime/Nature/dirtground001"
+	"$basetexture2" "Nature/snow_full001"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	"%tooltexture" "Nature/blendgroundtograss008_tooltexture"
+	"$bumpmap" "Nature/snow_full001_normal"
+	"$bumpmap2" "Nature/snow_full001_normal"
+	"$surfaceprop" "snow"
+	“$reflectivity2” “[0.75 0.75 0.90]”
+
+	"%keywords" "tf"
+}

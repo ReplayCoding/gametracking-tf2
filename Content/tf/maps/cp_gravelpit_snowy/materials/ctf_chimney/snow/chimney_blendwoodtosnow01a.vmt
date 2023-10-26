@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "wood/wood_bridge001"
+	"$basetexture2" "nature/snow_full001"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	//"$bumpmap" "Nature/dirtground001_height-ssbump"
+	"$surfaceprop" "wood"
+	"$surfaceprop2" "snow"
+	"$ssbump" "1"
+	"%keywords" "tf";"frost"
+}

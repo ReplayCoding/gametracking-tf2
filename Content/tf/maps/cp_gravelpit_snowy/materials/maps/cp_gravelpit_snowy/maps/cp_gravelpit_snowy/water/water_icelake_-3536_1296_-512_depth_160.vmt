@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_gravelpit_snowy/water/water_icelake_-3536_1296_-512.vmt"
+	"insert"
+	{
+		"$waterdepth"		"160"
+	}
+}

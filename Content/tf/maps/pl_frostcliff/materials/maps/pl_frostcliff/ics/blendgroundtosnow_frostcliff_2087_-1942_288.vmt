@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICS/BLENDGROUNDTOSNOW_FROSTCLIFF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_frostcliff/c2087_-1942_288"
+	}
+}
