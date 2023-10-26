@@ -252,8 +252,9 @@ PROBLEMATIC_PLAYER_CONDS <-
     8,  // TF_COND_INVULNERABLE_WEARINGOFF
     9,  // TF_COND_STEALTHED_BLINK
     11, // TF_COND_CRITBOOSTED
-    14, // TF_COND_PHASE
     13, // TF_COND_FEIGN_DEATH
+    14, // TF_COND_PHASE
+ //   17, // TF_COND_SHIELD_CHARGE
     19, // TF_COND_ENERGY_BUFF
     47, // TF_COND_DISGUISE_WEARINGOFF
     64, // TF_COND_STEALTHED_USER_BUFF
@@ -375,6 +376,7 @@ const SFX_SPIT_SPLATTER       = "Halloween.PumpkinExplode";
 const SFX_SPIT_MISS           = "Mud.StepRight";
 const SFX_SPY_REVEAL_ONCAST   = "Infection.SpyReveal";
 const SFX_ABILITY_USE         = "Halloween.Merasmus_Spell";
+const SFX_PYRO_FIREBOMB       = "Halloween.spell_fireball_impact";
 
 const STRING_NETPROP_ITEMDEF  = "m_AttributeManager.m_Item.m_iItemDefinitionIndex";
 
@@ -417,7 +419,7 @@ const EVENT_DEMO_CHARGE_EXIT       = 9;
 const EVENT_PUT_ABILITY_ON_CD      = 10;
 const EVENT_DOWNWARDS_VIEWPUNCH    = 11;
 const EVENT_KILL_TEMP_ENTITY       = 12;
-const EVENT_DEMO_EMERGENCY_EXIT    = 13;
+const EVENT_DEMO_CHARGE_RESET      = 13;
 const EVENT_SPY_RECLOAK            = 14;
 const EVENT_SPY_SWAP_CLOAK         = 15;
 
@@ -445,7 +447,7 @@ const ZBIT_OUT_OF_COMBAT           = 0x80000;
 const ZBIT_THE_OMBUDSMAN           = 0x100000;
 const ZBIT_SOLDIER_IN_POUNCE       = 0x400000;
 const ZBIT_SCOUT_HAS_TRIPLE_JUMPED = 0x800000;
-const ZBIT_AUTOTEAM                = 0x1000000;
+const ZBIT_DEMOCHARGE              = 0x1000000;
 
 const ZABILITY_THROWABLE           = 0;
 const ZABILITY_PROJECTILE          = 1;
@@ -458,7 +460,7 @@ const ZHUD_X_READY_OFFSET          = 0.014;
 const ZHUD_X_PASSIVE_OFFSET        = 0.006;
 
 const TF_NERF_MINIGUN_Z_DMG        = 0.6;
-const TF_NERF_SENTRY_Z_DMG         = 0.35;
+const TF_NERF_SENTRY_Z_DMG         = 0.4;
 const Z_NERF_SHIELD_TF_DMG         = 0.5;
 
 const TF_IDX_UNDEFINED             = -1;
@@ -474,8 +476,7 @@ const TF_WEAPON_COUNT              = 7;
 const TF_DEATH_FEIGN_DEATH         = 32;
 const TF_DEATH_GIBBED              = 0x0080;
 
-// Note: these won't work until after Scream Fortress 2023
-const HIDEHUD_BUILDING_STATUS     =  0x1000   // Hide Engineer building status
-const HIDEHUD_CLOAK_AND_FEIGN     =  0x2000   // Hide item effect meter (cloak, etc.)
-const HIDEHUD_PIPES_AND_CHARGE    =  0x4000   // Hide Demoman HUD
-const HIDEHUD_METAL               =  0x8000   // Metal/account HUD
+const HIDEHUD_BUILDING_STATUS     =  0x1000
+const HIDEHUD_CLOAK_AND_FEIGN     =  0x2000
+const HIDEHUD_PIPES_AND_CHARGE    =  0x4000
+const HIDEHUD_METAL               =  0x8000

@@ -138,6 +138,14 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
 {
     ScreenShake ( _vecLocation, 5000, 5000, 4, 350, 0, true );
 
+    if ( _hInflictor.IsPlayer() )
+    {
+        if ( _hInflictor.GetHealth() <= _hInflictor.GetMaxHealth() || _hInflictor.GetHealth() < _flDmg )
+        {
+            _hInflictor.SetHealth( 1 );
+        }
+    }
+
     local _hBomb = SpawnEntityFromTable( "tf_generic_bomb",
     {
         explode_particle = "mvm_loot_explosion",
@@ -202,7 +210,7 @@ GetRandomPlayers <- function( _howMany = 1 )
 
     foreach ( _hPlayer in GetAllPlayers() )
     {
-        if ( _hPlayer != null )
+        if ( _hPlayer != null /* &&  ( _hPlayer.GetFlags() & FL_FAKECLIENT ) == 0 */  )
             _playerArr.append( _hPlayer );
     };
 
@@ -300,7 +308,6 @@ ShouldZombiesWin <- function( _hPlayer )
         } );
 
         // the zombies have won the round.
-        printl( "Set ::bGameStarted to false")
         ::bGameStarted <- false;
         EntFireByHandle ( _hGameWin, "RoundWin", "", 0, null, null );
     }
@@ -742,22 +749,6 @@ CTFPlayer_GiveZombieWeapon <- function()
     return;
 };
 
-// CTFPlayer_Cloak <- function()
-// {
-//     if ( this.InCond( TF_COND_STEALTHED_USER_BUFF ) )
-//         return;
-
-//     this.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
-// };
-
-// CTFPlayer_Uncloak <- function()
-// {
-//     if ( !this.InCond( TF_COND_STEALTHED_USER_BUFF ) )
-//         return;
-
-//     this.RemoveCondEx( TF_COND_STEALTHED_USER_BUFF, true );
-// };
-
 CTFPlayer_AddZombieAttribs <- function()
 {
     local _iClassNum = this.GetPlayerClass();
@@ -1028,7 +1019,7 @@ CTFPlayer_CanDoAct <- function( _iAct )
             _temp = _sc.m_fTimeNextViewpunch;
             break;
         case ZOMBIE_BECOME_ZOMBIE:
-            return true;
+            _temp = _sc.m_fTimeBecomeZombie;
             break;
         case ZOMBIE_BECOME_SURVIVOR:
             _temp = _sc.m_fTimeRemoveZombie;
@@ -1117,10 +1108,6 @@ CTFPlayer_ProcessEventQueue <- function(  )
                 this.ViewPunch( _angSecondViewPunch );
                 break;
 
-            case EVENT_DEMO_EMERGENCY_EXIT:
-                this.SetHealth(0);
-                break;
-
             case EVENT_KILL_TEMP_ENTITY: // todo mess
 
                 if ( "m_hTempEntity" in _sc && _sc.m_hTempEntity != null && _sc.m_hTempEntity.IsValid() )
@@ -1148,6 +1135,28 @@ CTFPlayer_ProcessEventQueue <- function(  )
 
             case EVENT_SPY_SWAP_CLOAK:
                 this.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
+                break;
+
+            case EVENT_DEMO_CHARGE_RESET:
+
+                if ( _sc.m_hZombieFXWearable != null && _sc.m_hZombieFXWearable.IsValid() )
+                    _sc.m_hZombieFXWearable.Destroy();
+
+                if ( _sc.m_hZombieWearable != null && _sc.m_hZombieWearable.IsValid() )
+                    _sc.m_hZombieWearable.Destroy();
+
+                this.GiveZombieFXWearable();
+                this.GiveZombieCosmetics();
+
+                this.SetForcedTauntCam ( 0 );
+
+                this.RemoveCond ( TF_COND_CRITBOOSTED_PUMPKIN );
+                this.RemoveCond ( TF_COND_TAUNTING );
+                this.RemoveCond ( TF_COND_INVULNERABLE_USER_BUFF );
+                this.RemoveCond ( TF_COND_RADIUSHEAL );
+
+                _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_DEMOCHARGE );
+                _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_MUST_EXPLODE );
                 break;
 
             default:

@@ -34,38 +34,68 @@ function Main()
     return true;
 };
 
-// changes //////////////////////////////////////////////////////////////////////////////////
-// 12/10/2023 - v2.2 --------------------------------------------------------------------- //
-// -- All Zombies (except for Scout, Heavy and Spy) have 25 bonus HP (up from 10)          //
-// -- Starting Zombie Factor is now 1/5 of all players (previous 1/6)                      //
-// -- -- The game will also now always round up the number of starting zombies             //
-// -- Added additional HIDEHUD bits to remove irrelevant HUD elements when playing Zombie  //
-// -- Reduce damage dealt to Zombies by sentry guns by 60% (previously 40%)                //
-// -- Removed damage reduction for Human Demoman wearing a shield                          //
-// -- Zombie Scout now has an additional 25% jump height                                   //
-// -- Zombie Heavy now has Battalion's Backup effect                                       //
-// -- Zombie Heavy has an additional 20% melee damage                                      //
-// -- Zombie Medic Heal cooldown reduced to 7 seconds (previously 11)                      //
-// -- Zombie Spy is now cloaked on spawn                                                   //
-// -- -- Attacking or using an ability will remove the cloak                               //
-// -- -- Cloak will be restored after 3 seconds of not attacking or using an ability       //
-// -- Zombie Pyro no longer drops a small health pack on death                             //
-// -- Zombie Pyro now bursts in to a firey explosion on death                              //
-// -- -- All enemies within 256 hu of a dying Zombie Pyro are set on fire                  //
-// -- Zombie Engineer's EMP Grenade no longer slides on sloped surfaces                    //
-// -- Zombie Engineer's EMP Grenade now deals 110 damage to all buildings hit              //
-// -- Zombie Engineer's EMP Grenade can now kill buildings                                 //
-// -- Zombie Sniper's Spit now deals damage to sentry guns, teleporters and dispensers     //
-// -- Zombie Sniper now drops a spit pool on death                                         //
-// -- Zombie Soldier's Pounce has been adjusted to feel more like a blast jump             //
-// -- Zombie Soldier's Pounce cooldown reduced to 5 seconds (previously 10)                //
-// -- Fixed a bug where Zombie Demo could detonate himself before the charge had started   //
-// -- Fixed a bug where Bonk! Atomic Punch could persist through Zombie conversion         //
-// -- Fixed a bug where Crit-a-Cola could persist through Zombie conversion                //
-// -- Fixed various issues caused by Zombie Demo surviving his own charge                  //
-// -- Fixed issues with the Zombie HUD not correctly displaying certain strings            //
-// -- Fixed autoteam exploit                                                               //
-// --------------------------------------------------------------------------------------- //
+// changes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 14/10/2023 - v2.2.1 ------------------------------------------------------------------------------------------------- //
+// -- If a game is in progress and there are no players on BLU team or RED team the game will now end.                   //
+// -- Fixed a bug that allowed Dead Ringer spies to die without triggering a round loss                                  //
+// -- Fixed a bug that caused Zombies to not see combat text correctly                                                   //
+// -- Fixed a bug that caused Rocket Launchers and Sticky Bomb Launchers to start with a low ammo                        //
+// -- Fixed a bug that caused changing player loadout to kill human players (particularly on Murky)                      //
+// -- Fixed an issue with missing particle effects for Medic's Heal ability                                              //
+// -- Adjusted the number of Zombies selected at round start for low player counts                                       //
+//                                                                                                                       //
+// -- Corrected unintended changes in the last update:                                                                   //
+// -- -- Changed the damage dealt by Zombie Soldier's Stomp                                                              //
+// -- -- -- In the previous update, Soldier would instantly kill his stomp target. This was not intended                 //
+// -- -- -- The new damage calculation is (10 + fall damage x 3). This is the same as the Mantreads                      //
+// -- -- Changed the Sentry Gun to deal 40% damage to Zombies                                                            //
+// -- -- -- In the previous update, this was 35%. This was not intended                                                  //
+// -- -- Added a sound effect to Pyro's explosion of flames on death                                                     //
+// -- -- Removed some debug print statements                                                                             //
+//                                                                                                                       //
+// -- Reworked Demoman's Blast Charge to fix several exploits and bugs                                                   //
+// -- These changes should also make Blast Charge more reliable and less frustrating to use                              //
+// -- -- Blast Charge is now triggered based on the player's velocity                                                    //
+// -- -- When player's speed drops below a threshold while charging, they explode                                        //
+// -- -- Additionally, anything that would usually interrupt a shield charge will now trigger the explosion              //
+// -- -- Fixed a bug that caused ÜberCharge applied by Blast Charge to persist longer than intended                      //
+// -- -- Fixed a bug that caused Blast Charge to fail to kill the player in situations where the player should be killed //
+// -- -- Fixed a bug that caused Blast Charge to briefly display the player's first person view before detonation        //
+// -- -- Fixed a bug that caused the player to be unable to attack, jump or duck after surviving Blast Charge            //
+// -- -- Fixed many bugs that caused Blast Charge to fail to detonate                                                    //
+// -- -- Fixed many bugs related to Blast Charge being cast at the same time as being converted to Zombie                //
+//                                                                                                                       //
+// 12/10/2023 - v2.2 --------------------------------------------------------------------------------------------------- //
+// -- All Zombies (except for Scout, Heavy and Spy) have 25 bonus HP (up from 10)                                        //
+// -- Starting Zombie Factor is now 1/5 of all players (previous 1/6)                                                    //
+// -- -- The game will also now always round up the number of starting zombies                                           //
+// -- Added additional HIDEHUD bits to remove irrelevant HUD elements when playing Zombie                                //
+// -- Reduce damage dealt to Zombies by sentry guns by 60% (previously 40%)                                              //
+// -- Removed damage reduction for Human Demoman wearing a shield                                                        //
+// -- Zombie Scout now has an additional 25% jump height                                                                 //
+// -- Zombie Heavy now has Battalion's Backup effect                                                                     //
+// -- Zombie Heavy has an additional 20% melee damage                                                                    //
+// -- Zombie Medic Heal cooldown reduced to 7 seconds (previously 11)                                                    //
+// -- Zombie Spy is now cloaked on spawn                                                                                 //
+// -- -- Attacking or using an ability will remove the cloak                                                             //
+// -- -- Cloak will be restored after 3 seconds of not attacking or using an ability                                     //
+// -- Zombie Pyro no longer drops a small health pack on death                                                           //
+// -- Zombie Pyro now bursts in to a firey explosion on death                                                            //
+// -- -- All enemies within 256 hu of a dying Zombie Pyro are set on fire                                                //
+// -- Zombie Engineer's EMP Grenade no longer slides on sloped surfaces                                                  //
+// -- Zombie Engineer's EMP Grenade now deals 110 damage to all buildings hit                                            //
+// -- Zombie Engineer's EMP Grenade can now kill buildings                                                               //
+// -- Zombie Sniper's Spit now deals damage to sentry guns, teleporters and dispensers                                   //
+// -- Zombie Sniper now drops a spit pool on death                                                                       //
+// -- Zombie Soldier's Pounce has been adjusted to feel more like a blast jump                                           //
+// -- Zombie Soldier's Pounce cooldown reduced to 5 seconds (previously 10)                                              //
+// -- Fixed a bug where Zombie Demo could detonate himself before the charge had started                                 //
+// -- Fixed a bug where Bonk! Atomic Punch could persist through Zombie conversion                                       //
+// -- Fixed a bug where Crit-a-Cola could persist through Zombie conversion                                              //
+// -- Fixed various issues caused by Zombie Demo surviving his own charge                                                //
+// -- Fixed issues with the Zombie HUD not correctly displaying certain strings                                          //
+// -- Fixed autoteam exploit                                                                                             //
+// --------------------------------------------------------------------------------------------------------------------- //
 
 if ( Main() )
     ::bGameStarted <- false;
@@ -77,6 +107,11 @@ try {
 };
 
 ClearGameEventCallbacks();
+
+function OnPostSpawn()
+{
+    AddThinkToEnt( self, "GameStateThink" );
+}
 
 function OnGameEvent_teamplay_round_win( params )
 {
@@ -127,10 +162,6 @@ function OnGameEvent_player_spawn( params )
 
         // replaces arm viewmodels and disables zombie skins
         _hPlayer.MakeHuman();
-
-        // check if the player has a jumper weapon
-        // modify it to make it less annoying on this game mode.
-        _hPlayer.ModifyJumperWeapons();
 
         // make sure the players have the correct amnt of health
         // since we modify all classes' health values when zombie
@@ -195,25 +226,29 @@ function OnGameEvent_teamplay_setup_finished( params )
         ::bGameStarted <- false;
         return;
     }
-    else if ( ( _iPlayerCountRed > 1 ) && ( _iPlayerCountRed < 5 ) && ( _numStartingZombies == -1 ) )
+    else if ( _numStartingZombies == -1 )
     {
-        // 2 - 4 players, 1 zombie
-        _numStartingZombies = 1;
+        if ( _iPlayerCountRed <= 4 )
+        {
+            _numStartingZombies = 1;
+        }
+        else if ( _iPlayerCountRed <= 8 )
+        {
+            _numStartingZombies = 2;
+        }
+        else if ( _iPlayerCountRed <= 12 )
+        {
+            _numStartingZombies = 3;
+        }
+        else if ( _iPlayerCountRed < 18 )
+        {
+            _numStartingZombies = 4;
+        }
+        else // 18 or more players
+        {
+            _numStartingZombies = RoundUp( _iPlayerCountRed / STARTING_ZOMBIE_FAC );
+        }
     }
-    else if ( ( _iPlayerCountRed <= 6 ) && ( _numStartingZombies == -1 ) )
-    {
-        // 5 - 6 players, 2 zombies.
-        _numStartingZombies = 2;
-    }
-    else if ( ( _iPlayerCountRed < 18 ) && ( _numStartingZombies == -1 ) )
-    {
-        // 7 - 17 players, 3 zombies.
-        _numStartingZombies = 4;
-    }
-    else if ( _numStartingZombies == -1 ) // everything else, player count / zombie factor (default: 6)
-    {
-        _numStartingZombies = RoundUp( _iPlayerCountRed / STARTING_ZOMBIE_FAC );
-    };
 
     local _szZombieNetNames  =  "";
     local _zombieArr         =  GetRandomPlayers( _numStartingZombies );
@@ -265,10 +300,11 @@ function OnGameEvent_teamplay_setup_finished( params )
 
         // add the pending zombie flag
         // the actual zombie conversion is handled in the player's think script
-        _sc.m_iFlags            <- ( ( _sc.m_iFlags | ZBIT_PENDING_ZOMBIE ) );
+        _sc.m_iFlags <- ( ( _sc.m_iFlags | ZBIT_PENDING_ZOMBIE ) );
 
         // don't delay zombie conversion when the player is alive.
         _nextPlayer.SetNextActTime ( ZOMBIE_BECOME_ZOMBIE, INSTANT );
+        _nextPlayer.SetNextActTime ( ZOMBIE_ABILITY_CAST, 0.1 );
 
         // ------------------------------------------- //
         // build string for chat notification          //
@@ -310,6 +346,15 @@ function OnGameEvent_teamplay_setup_finished( params )
                                               STRING_UI_CHAT_FIRST_WAVE_MSG );
     };
 
+    local _hNextRespawnRoom = null;
+    while ( _hNextRespawnRoom = Entities.FindByClassname( _hNextRespawnRoom, "func_respawnroom" ) )
+    {
+        if ( _hNextRespawnRoom && _hNextRespawnRoom.GetTeam() == TF_TEAM_RED )
+        {
+            EntFireByHandle( _hNextRespawnRoom, "SetInactive", "", 0.0, null, null );
+        };
+    };
+
     PlayGlobalBell( false );
 
     // show the first infected announce message to all players
@@ -323,7 +368,6 @@ function OnGameEvent_teamplay_broadcast_audio( params )
 
 function OnGameEvent_teamplay_restart_round( params )
 {
-    printl( "Set ::bGameStarted to false")
     ::bGameStarted <- false;
 
     local _hNextPlayer = null;
@@ -386,7 +430,7 @@ function OnGameEvent_player_death( params )
             _sc.m_hZombieAbility.CreateSpitball( true );
         };
 
-        // zombie pyro always drops a gas jar on death
+        // zombie pyro drops a gas jar and sets all nearby players on fire
         if ( _hPlayer.GetPlayerClass() == TF_CLASS_PYRO )
         {
             local _hGas = SpawnEntityFromTable( "tf_projectile_jar_gas",
@@ -407,32 +451,12 @@ function OnGameEvent_player_death( params )
                                                _hPlayer,
                                                _hPlayer.GetActiveWeapon(),
                                                Vector(0,0,0),
-                                               _hNextPlayer.GetLocalOrigin(), 1, (DMG_CLUB) )
+                                               _hNextPlayer.GetLocalOrigin(), 1, ( DMG_CLUB ) )
                 };
             };
 
-
-
-            // local _hIgniteTrigger = SpawnEntityFromTable( "trigger_ignite",
-            // {
-            //     burn_duration             = 3,
-            //     damage_percent_per_second = 8,
-            //     spawnflags                = 1,
-            //     solid                     = 2,
-            // });
-
-            // _hIgniteTrigger.KeyValueFromString ( "mins", "0 0 0" );
-            // _hIgniteTrigger.KeyValueFromString ( "maxs", "256 256 256" );
-
-            // EntFireByHandle ( _hIgniteTrigger, "Enable", "", -1, null, null );
-
-            // _hIgniteTrigger.SetAbsOrigin( _hPlayer.GetCenter() );
-
-            // EntFireByHandle        ( _hIgniteTrigger, "Kill", "", 1, null, null );
-
+            EmitSoundOn            ( SFX_PYRO_FIREBOMB, _hPlayer );
             DispatchParticleEffect ( "fireSmokeExplosion_track", _hPlayer.GetLocalOrigin(), Vector( 0, 0, 0 ) );
-
-
         }
         else
         {
@@ -457,7 +481,6 @@ function OnGameEvent_player_death( params )
         // ------------------------------------- //
         // Zombie Gib Hack                       //
         // ------------------------------------- //
-
         // when a player has the zombie skin override, they are hard coded to never gib
         // if we remove this skin here it creates gibs for the player
         SetPropInt ( _hPlayer, "m_iPlayerSkinOverride", 0 );
@@ -471,7 +494,7 @@ function OnGameEvent_player_death( params )
 
         if ( ( _sc.m_iFlags & ZBIT_MUST_EXPLODE ) )
         {
-            _sc.m_iFlags        <- ( _sc.m_iFlags & ~ZBIT_MUST_EXPLODE );
+            _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_MUST_EXPLODE );
             _sc.m_tblEventQueue <- { };
 
             // ---------------------------------------- //
@@ -516,7 +539,17 @@ function OnGameEvent_player_death( params )
             ClientPrint( null, HUD_PRINTTALK, _szDeathMsg );
         };
 
-        // 11/10/2023 - Fix autoteam exploit
+        // dead ringer deaths exit here
+        if ( ( params.death_flags & TF_DEATH_FEIGN_DEATH ) )
+        {
+            PlayGlobalBell( true );
+            return;
+        };
+
+        // evaluate win condition when a player dies
+        ShouldZombiesWin ( _hPlayer );
+
+        // make sure players can only add time once per round
         if ( ( !_sc.m_bCanAddTime ) )
         {
             return;
@@ -527,12 +560,6 @@ function OnGameEvent_player_death( params )
         };
 
         PlayGlobalBell( true );
-
-        // dead ringer deaths exit at this point
-        if ( ( params.death_flags & TF_DEATH_FEIGN_DEATH ) )
-            return;
-
-        ShouldZombiesWin( _hPlayer );
 
         local _hRoundTimer = Entities.FindByClassname( null, "team_round_timer" );
 
@@ -709,10 +736,12 @@ function OnScriptHook_OnTakeDamage( params )
             // solider can mantreads stomp when jumping
             if ( _hVictim.GetPlayerClass() == TF_CLASS_SOLDIER && _hVictim.InCond( TF_COND_BLASTJUMPING ) )
             {
+                local _flDamage = params.damage;
                 local _hGroundEnt = GetPropEntity( _hVictim, "m_hGroundEntity" );
 
                 if ( _hGroundEnt.GetClassname() == "player" )
                 {
+                    _flDamage = ( _flDamage * 3 ) + 10;
                     if ( _hGroundEnt.GetTeam() == TF_TEAM_BLUE || !( _sc.m_iFlags & ZBIT_SOLDIER_IN_POUNCE ) )
                         return;
 
@@ -725,7 +754,7 @@ function OnScriptHook_OnTakeDamage( params )
 
                     _hGroundEnt.TakeDamageCustom( _hVictim, _hVictim, _hWeapon,
                                                   Vector( 0, 0, 0 ), _hVictim.GetOrigin(),
-                                                  _hGroundEnt.GetMaxHealth(), DMG_FALL, TF_DMG_CUSTOM_BOOTS_STOMP );
+                                                  _flDamage, DMG_FALL, TF_DMG_CUSTOM_BOOTS_STOMP );
 
                     SetPropInt          ( _hWeapon, STRING_NETPROP_ITEMDEF, arrZombieCosmeticIDX[ TF_CLASS_SOLDIER ] );
                     EmitAmbientSoundOn  ( "Weapon_Mantreads.Impact", 10, 1, 100, _hGroundEnt );

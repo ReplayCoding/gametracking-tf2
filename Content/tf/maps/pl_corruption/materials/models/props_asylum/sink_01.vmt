@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_asylum/sink_01"
+	"$surfaceprop"	"metal"
+	"$basemapalphaphongmask" 1
+	"$phong"	"1"
+	"$phongboost"	".5"
+	"$phongexponent"	"10"
+	"$phongfresnelranges"	"[1 2 2.5]"
+}

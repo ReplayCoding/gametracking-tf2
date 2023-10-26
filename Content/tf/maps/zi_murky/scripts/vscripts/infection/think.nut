@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection - V1                                                                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
 // All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -36,17 +36,13 @@ PlayerThink <- function()
             {
                 local _szAbilityTooltip = STRING_UI_ZOMBIE_INSTRUCTION;
 
-                self.ClearProblematicConds();
-
                 m_iFlags  = ( ( m_iFlags & ~ZBIT_PENDING_ZOMBIE & ~ZBIT_SURVIVOR ) );
                 SetPropInt  ( self, "m_Local.m_iHideHUD", ( HIDEHUD_WEAPONSELECTION  |
                                                             HIDEHUD_BUILDING_STATUS  |
                                                             HIDEHUD_CLOAK_AND_FEIGN  |
-                                                            HIDEHUD_PIPES_AND_CHARGE |
-                                                            HIDEHUD_METAL ));
+                                                            HIDEHUD_PIPES_AND_CHARGE ));
                 self.DestroyAllWeapons();
                 self.GiveZombieWeapon();
-                self.GiveZombieAbility();
                 self.AddZombieAttribs();
                 self.SpawnEffect();
                 self.RemoveAmmo();
@@ -55,17 +51,13 @@ PlayerThink <- function()
                 SetPropBool         ( self, "m_Shared.m_bShieldEquipped", false );
                 SendGlobalGameEvent ( "localplayer_pickup_weapon", self );
 
-                if ( m_hZombieAbility.m_iAbilityType == ZABILITY_PASSIVE )
-                {
-                    m_hZombieAbility.ApplyPassive();
-                    _szAbilityTooltip = STRING_UI_ZOMBIE_INSTRUCTION_PASSIVE;
-                };
-
                 // zombie spy can cloak now
                 if ( self.GetPlayerClass() == TF_CLASS_SPY )
                 {
                     self.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
                 };
+
+                m_vecVelocityPrevious <- self.GetVelocity();
 
                 local _hTooltip = self.ZombieInitialTooltip();
 
@@ -76,6 +68,14 @@ PlayerThink <- function()
 
                 self.SetHealth      ( self.GetMaxHealth() );
                 self.SetNextActTime ( ZOMBIE_BECOME_ZOMBIE, ACT_LOCKED );
+
+                self.GiveZombieAbility();
+
+                if ( m_hZombieAbility.m_iAbilityType == ZABILITY_PASSIVE )
+                {
+                    m_hZombieAbility.ApplyPassive();
+                    _szAbilityTooltip = STRING_UI_ZOMBIE_INSTRUCTION_PASSIVE;
+                };
 
                 m_iFlags = ( m_iFlags | ZBIT_ZOMBIE | ZBIT_HASNT_HEARD_READY_SFX | ZBIT_HASNT_HEARD_DENY_SFX | ZBIT_HAS_HUD );
             };
@@ -269,30 +269,30 @@ PlayerThink <- function()
             // demoman zombie charge ability collision check                                  //
             // ------------------------------------------------------------------------------ //
 
-            if ( self.GetPlayerClass() == TF_CLASS_DEMOMAN && self.InCond( TF_COND_SHIELD_CHARGE ) )
+            if ( self.GetPlayerClass() == TF_CLASS_DEMOMAN && ( m_iFlags & ZBIT_MUST_EXPLODE ) )
             {
-                local _tblTrace =
+                if ( ( m_tblEventQueue.rawin( EVENT_DEMO_CHARGE_EXIT ) ) && !self.InCond( TF_COND_INVULNERABLE_USER_BUFF ) )
                 {
-                    start   = self.GetOrigin(),
-                    end     = self.GetOrigin(),
-                    hullmin = self.GetPlayerMins(),
-                    hullmax = self.GetPlayerMaxs(),
-                    filter  = self,
-                };
+                    if ( ( !self.InCond( TF_COND_SHIELD_CHARGE ) ) || ( abs( self.GetVelocity().y ) < ( abs( m_vecVelocityPrevious.y ) - 100 ) ) )
+                    {
+                        m_hZombieAbility.ExitDemoCharge ();
+                        m_tblEventQueue.rawdelete       ( EVENT_DEMO_CHARGE_EXIT );
+                    };
+                }
 
-                TraceHull( _tblTrace );
-
-                if ( "hit" in _tblTrace && "enthit" in _tblTrace )
-                {
-                    self.AddEventToQueue( EVENT_DEMO_CHARGE_EXIT, INSTANT );
-                };
+            }
+            else if ( self.GetPlayerClass() == TF_CLASS_DEMOMAN && ( m_iFlags & ZBIT_DEMOCHARGE ) )
+            {
+                self.AddCustomAttribute ( "move speed penalty", 0.001, -1 );
             };
+
+            m_vecVelocityPrevious = self.GetVelocity();
 
             // ------------------------------------------------------------------------------ //
             // passive self healing                                                           //
             // ------------------------------------------------------------------------------ //
 
-            if ( m_fTimeLastHit < ( Time() - 5.0 ) && !( m_iFlags & ZBIT_HEALING_FROM_ZMEDIC ) )
+            if ( m_fTimeLastHit < ( Time() - 5.0 ) && !( m_iFlags & ZBIT_MUST_EXPLODE ) )
             {
                 if ( ( m_fTimeNextHealTick <= Time() ) && ( self.GetHealth() < self.GetMaxHealth() ) )
                 {
@@ -830,7 +830,6 @@ SniperSpitThink <- function()
                     _hNextPlayer.TakeDamage( SNIPER_SPIT_POP_DAMAGE, DMG_BURN, m_hOwner );
                     SetPropInt( m_hOwner.GetActiveWeapon(), STRING_NETPROP_ITEMDEF, ZOMBIE_WEAPON_IDX[ TF_CLASS_SNIPER ] );
 
-                  // _hNextPlayer.ViewPunch(QAngle(0, 0, 15));
                     EmitSoundOnClient("TFPlayer.FirePain", _hNextPlayer)
 
                     DispatchParticleEffect  ( FX_SPIT_HIT_PLAYER, _vecPlayerOrigin, Vector( 0, 0, 0 ) );
@@ -1120,3 +1119,31 @@ DemomanBombThink <- function()
 
     return 0.01;
 };
+
+GameStateThink <- function()
+{
+    local _iNumRedPlayers = PlayerCount( TF_TEAM_RED );
+    local _iNumBluPlayers = PlayerCount( TF_TEAM_BLUE );
+
+    if ( _iNumRedPlayers < 1 && ::bGameStarted )
+    {
+        ShouldZombiesWin( null );
+    }
+    else if ( _iNumBluPlayers < 1 && ::bGameStarted )
+    {
+        // no zombies, humans win
+        local _hGameWin = SpawnEntityFromTable( "game_round_win",
+        {
+            win_reason      = "0",
+            force_map_reset = "1",
+            TeamNum         = "2", // TF_TEAM_RED
+            switch_teams    = "0"
+        });
+
+        EntFireByHandle( _hGameWin, "RoundWin", "", 0, null, null );
+        ::bGameStarted <- false;
+        return FLT_MAX;
+    };
+
+    return 0.5;
+}

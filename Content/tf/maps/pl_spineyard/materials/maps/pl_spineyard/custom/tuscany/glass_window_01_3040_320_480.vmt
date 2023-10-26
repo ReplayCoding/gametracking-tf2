@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/TUSCANY/GLASS_WINDOW_01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_spineyard/c3040_320_480"
+	}
+}

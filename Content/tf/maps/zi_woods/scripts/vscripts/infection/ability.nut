@@ -602,16 +602,22 @@ class CDemoCharge extends CZombieAbility
         EmitSoundOn( "Weapon_StickyBombLauncher.ChargeUp", this.m_hAbilityOwner );
 
         // todo - array
-        this.m_hAbilityOwner.AddCond ( TF_COND_CRITBOOSTED_PUMPKIN );
-        this.m_hAbilityOwner.AddCond ( TF_COND_TAUNTING );
-        this.m_hAbilityOwner.AddCond ( TF_COND_INVULNERABLE_USER_BUFF );
-        this.m_hAbilityOwner.AddCond ( TF_COND_RADIUSHEAL ); // just the heal ring
+        this.m_hAbilityOwner.AddCond   ( TF_COND_CRITBOOSTED_PUMPKIN );
+        this.m_hAbilityOwner.AddCond   ( TF_COND_TAUNTING );
+        this.m_hAbilityOwner.AddCondEx ( TF_COND_INVULNERABLE_USER_BUFF, 1.76, this.m_hAbilityOwner );
+        this.m_hAbilityOwner.AddCond   ( TF_COND_RADIUSHEAL ); // just the heal ring
 
         this.m_hAbilityOwner.RemoveOutOfCombat ( true );
-        this.m_hAbilityOwner.AddEventToQueue   ( EVENT_DEMO_CHARGE_START, 1.75 );
-        this.m_hAbilityOwner.AddEventToQueue   ( EVENT_DEMO_EMERGENCY_EXIT, 4.1 );
 
-        this.m_hAbilityOwner.LockInPlace( true );
+        this.m_hAbilityOwner.AddCustomAttribute ( "no_jump", 1, -1 );
+        this.m_hAbilityOwner.AddCustomAttribute ( "no_duck", 1, -1 );
+        this.m_hAbilityOwner.AddCustomAttribute ( "no_attack", 1, -1 );
+        this.m_hAbilityOwner.AddCustomAttribute ( "move speed penalty", 0.001, -1 );
+
+        this.m_hAbilityOwner.AddEventToQueue   ( EVENT_DEMO_CHARGE_START, 1.75 );
+
+        _d.m_iFlags <- ( _d.m_iFlags | ZBIT_DEMOCHARGE );
+
         return;
     };
 
@@ -626,12 +632,15 @@ class CDemoCharge extends CZombieAbility
 
         _sc.m_iFlags  <- ( _sc.m_iFlags | ZBIT_MUST_EXPLODE );
 
-        this.m_hAbilityOwner.RemoveCustomAttribute ( "move speed penalty" );
-
         this.m_hAbilityOwner.AddCond    ( TF_COND_SHIELD_CHARGE );
-        this.m_hAbilityOwner.RemoveCond ( TF_COND_INVULNERABLE_USER_BUFF );
         this.m_hAbilityOwner.RemoveCond ( TF_COND_RADIUSHEAL );
-        this.m_hAbilityOwner.AddCondEx  ( TF_COND_INVULNERABLE_USER_BUFF, 0.2, this.m_hAbilityOwner );
+        this.m_hAbilityOwner.AddCondEx  ( TF_COND_INVULNERABLE_USER_BUFF, 0.298, this.m_hAbilityOwner );
+        this.m_hAbilityOwner.AddEventToQueue   ( EVENT_DEMO_CHARGE_EXIT, 1.5 );
+
+        this.m_hAbilityOwner.RemoveCustomAttribute ( "no_jump" );
+        this.m_hAbilityOwner.RemoveCustomAttribute ( "no_duck" );
+        this.m_hAbilityOwner.RemoveCustomAttribute ( "no_attack" );
+        this.m_hAbilityOwner.RemoveCustomAttribute ( "move speed penalty" );
         return;
     };
 
@@ -642,12 +651,14 @@ class CDemoCharge extends CZombieAbility
 
         local _d = this.m_hAbilityOwner.GetScriptScope();
 
-        this.m_hAbilityOwner.RemoveCond( TF_COND_SHIELD_CHARGE );
-        this.m_hAbilityOwner.RemoveCond( TF_COND_TAUNTING );
+        this.m_hAbilityOwner.RemoveCond  ( TF_COND_SHIELD_CHARGE );
+      //  this.m_hAbilityOwner.RemoveCond  ( TF_COND_INVULNERABLE_USER_BUFF );
+        this.m_hAbilityOwner.RemoveCond  ( TF_COND_TAUNTING );
 
         this.PutAbilityOnCooldown();
 
         _d.m_iFlags            <- ( _d.m_iFlags & ~ZBIT_MUST_EXPLODE );
+        _d.m_iFlags            <- ( _d.m_iFlags & ~ZBIT_DEMOCHARGE );
         _d.m_tblEventQueue     <- { };
 
         DemomanExplosionPreCheck( this.m_hAbilityOwner.GetOrigin(),
@@ -655,22 +666,7 @@ class CDemoCharge extends CZombieAbility
                                   DEMOMAN_CHARGE_RADIUS,
                                   this.m_hAbilityOwner );
 
-        if ( !( this.m_hAbilityOwner.GetHealth() <= 0 ) )
-        {
-            if ( _d.m_hZombieFXWearable != null && _d.m_hZombieFXWearable.IsValid() )
-            _d.m_hZombieFXWearable.Destroy();
-
-            if ( _d.m_hZombieWearable != null && _d.m_hZombieWearable.IsValid() )
-                _d.m_hZombieWearable.Destroy();
-
-            // create new ones now that the player can see themselves
-            this.m_hAbilityOwner.GiveZombieFXWearable();
-            this.m_hAbilityOwner.GiveZombieCosmetics();
-
-            this.m_hAbilityOwner.LockInPlace       ( false );
-            this.m_hAbilityOwner.SetForcedTauntCam ( 0 );
-        };
-
+        this.m_hAbilityOwner.AddEventToQueue( EVENT_DEMO_CHARGE_RESET, 0.1 );
         return;
     };
 };

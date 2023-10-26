@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Perks - Version 1.3                                                                     //
+// Perks - Version 1.4                                                                     //
 // --------------------------------------------------------------------------------------- //
 // Game Design and Scripting by: Le Codex (https://steamcommunity.com/id/lecodex)          //
 // Assets by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551)             //
@@ -83,7 +83,7 @@ class PerkManager {
     }
 
     function OnRoundStart() {
-        foreach (perk in ActivePerks) perk.OnRoundStart();
+        foreach (perk in ActivePerks) perk.OnRoundStart(Team);
     }
 
     function OnSpawn(player) {

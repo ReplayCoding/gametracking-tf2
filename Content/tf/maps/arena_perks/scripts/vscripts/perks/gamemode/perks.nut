@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Perks - Version 1.3                                                                     //
+// Perks - Version 1.4                                                                     //
 // --------------------------------------------------------------------------------------- //
 // Game Design and Scripting by: Le Codex (https://steamcommunity.com/id/lecodex)          //
 // Assets by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551)             //
@@ -33,7 +33,7 @@ class BasePerk {
     
     function OnCollect() {}
 
-    function OnRoundStart() {}
+    function OnRoundStart(team) {}
     function OnSpawn(player) {}
     function OnEnemySpawn(player) {}
     function OnDeath(player, attacker) {}
@@ -54,6 +54,7 @@ class BloodlustPerk extends BasePerk {
 
 
 // CLOAKING - Invisibility on spawn //
+// UNUSED //
 class CloakingPerk extends BasePerk {
     Identifier = "cloak"
 
@@ -117,6 +118,16 @@ class HonorPerk extends BasePerk {
 }
 
 
+// PATIENCE - Passive regeneration //
+class PatiencePerk extends BasePerk {
+    Identifier = "patience"
+
+    function OnSpawn(player) {
+        player.AddCustomAttribute("health regen", 7.0, -1);
+    }
+}
+
+
 // PRECISION - Reduced spread and increased projectile speed //
 class PrecisionPerk extends BasePerk {
     Identifier = "precision"
@@ -157,18 +168,24 @@ class QuickdrawPerk extends BasePerk {
 class ReservePerk extends BasePerk {
     Identifier = "reserve"
 
+    function OnRoundStart(team) {
+        foreach (player in GetAllPlayers()) {
+            if (player.GetTeam() != team) continue;
+
+            for (local i = 0; i <= 7; i++)
+            {
+                local weapon = NetProps.GetPropEntityArray(player, "m_hMyWeapons", i);
+                if (weapon == null) continue;
+                
+                weapon.AddAttribute("clip size bonus upgrade", 1.5, -1);
+                weapon.AddAttribute("clip size upgrade atomic", 2, -1);
+            }
+        }
+    }
+
     function OnSpawn(player) {
         player.AddCustomAttribute("ammo regen", 20, -1);
         player.AddCustomAttribute("metal regen", 50, -1);
-
-        for (local i = 0; i <= 7; i++)
-        {
-            local weapon = NetProps.GetPropEntityArray(player, "m_hMyWeapons", i);
-            if (weapon == null) continue;
-            
-            weapon.AddAttribute("clip size bonus upgrade", 1.5, -1);
-            weapon.AddAttribute("clip size upgrade atomic", 2, -1);
-        }
     }
 }
 
@@ -243,7 +260,7 @@ class RevealPerk extends BasePerk {
 class RevivePerk extends BasePerk {
     Identifier = "revive"
 
-    function OnRoundStart() {
+    function OnRoundStart(team) {
         foreach (player in GetAllPlayers()) {
             player.ValidateScriptScope();
             if ("revive_marker" in player.GetScriptScope()) delete player.GetScriptScope().revive_marker;
@@ -272,6 +289,9 @@ class RevivePerk extends BasePerk {
         if ("revive_marker" in player.GetScriptScope() && player.GetScriptScope().revive_marker) {
             player.GetScriptScope().revive_marker.Destroy();
             player.AddCondEx(Constants.ETFCond.TF_COND_INVULNERABLE, 1.5, null);
+
+            local state = ::PerkGamemode.GetActiveState()
+            RunWithDelay(state.CountAlivePlayers, 0.1, [state, false]);
         }
     }
 
@@ -326,7 +346,7 @@ class StrongholdPerk extends BasePerk {
 
 ::PERK_LIST <- [
     BloodlustPerk,
-    CloakingPerk,
+    PatiencePerk,
     ConversionPerk,
     GravediggingPerk,
     HastePerk,

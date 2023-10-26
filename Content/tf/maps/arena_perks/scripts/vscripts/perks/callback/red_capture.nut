@@ -1,1 +1,1 @@
-::PerkGamemode.GetActiveState().WinRound(Constants.ETFTeam.TF_TEAM_RED);
+if (::PerkGamemode.CurrentState == "round") ::PerkGamemode.GetActiveState().WinRound(Constants.ETFTeam.TF_TEAM_RED);

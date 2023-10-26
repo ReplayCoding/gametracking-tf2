@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Perks - Version 1.3                                                                     //
+// Perks - Version 1.4                                                                     //
 // --------------------------------------------------------------------------------------- //
 // Game Design and Scripting by: Le Codex (https://steamcommunity.com/id/lecodex)          //
 // Assets by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551)             //
@@ -129,18 +129,26 @@ class PerkGameStateTransition extends PerkGameStateBase {
 
 
 class PerkGameStateRound extends PerkGameStateBase {
+    TextPlayerCounterRed = null;
+    TextPlayerCounterBlu = null;
+
+    constructor() {
+        TextPlayerCounterRed = Entities.FindByName(null, "text_playercounter_red");
+        TextPlayerCounterBlu = Entities.FindByName(null, "text_playercounter_blu");
+    }
+
     function OnEnter() {
         EntFire("arena_spawnpoints", "Enable", "", -1, null);
         EntFire("vote_spawnpoints", "Disable", "", -1, null);
         
         EntFireByHandle(GAME_TIMER, "Disable", "", 0, null, null);
 
-        foreach (manager in ::PerkGamemode.PerkManagers) {
-            manager.OnRoundStart();
-        }
-
         foreach (player in GetAllPlayers()) {
             ClearWeaponCache(player);
+        }
+
+        foreach (manager in ::PerkGamemode.PerkManagers) {
+            manager.OnRoundStart();
         }
 
         // RunWithDelay(function() { 
@@ -160,6 +168,8 @@ class PerkGameStateRound extends PerkGameStateBase {
         EntFireByHandle(CENTRAL_CP, "SetLocked", "1", 0, null, null);
         EntFireByHandle(CENTRAL_CP, "SetUnlockTime", "50", 0, null, null);
         EntFireByHandle(CENTRAL_CP, "HideModel", "", 0, null, null);
+
+        RunWithDelay(CountAlivePlayers, 0.5, [this, false]);
     }
 
     function OnSpawn(params) {
@@ -185,11 +195,11 @@ class PerkGameStateRound extends PerkGameStateBase {
             ::PerkGamemode.PerkManagers[ateam].OnKill(attacker, victim);
         }
 
-        RunWithDelay(CheckForGameEnd, 0.1, [this]);
+        RunWithDelay(CountAlivePlayers, 0.1, [this, true]);
     }
 
     function OnLeave(params) {
-        RunWithDelay(CheckForGameEnd, 0.1, [this]);
+        RunWithDelay(CountAlivePlayers, 0.1, [this, true]);
     }
 
     function OnPointUnlocked() {
@@ -198,27 +208,41 @@ class PerkGameStateRound extends PerkGameStateBase {
         }
     }
 
-    function CheckForGameEnd()
+    function CountAlivePlayers(checkForGameEnd=false)
     {
         // printl("CHECKIG FOR GAME END");
-        local redTeamDead = GetAliveTeamPlayerCount(Constants.ETFTeam.TF_TEAM_RED) == 0;
-        local bluTeamDead = GetAliveTeamPlayerCount(Constants.ETFTeam.TF_TEAM_BLUE) == 0;
+        local redAlive = GetAliveTeamPlayerCount(Constants.ETFTeam.TF_TEAM_RED);
+        local bluAlive = GetAliveTeamPlayerCount(Constants.ETFTeam.TF_TEAM_BLUE);
 
-        if (redTeamDead && bluTeamDead) return WinRound(0);
-        if (redTeamDead) return WinRound(Constants.ETFTeam.TF_TEAM_BLUE);
-        if (bluTeamDead) return WinRound(Constants.ETFTeam.TF_TEAM_RED);
+        NetProps.SetPropString(TextPlayerCounterRed, "m_iszMessage", redAlive.tostring());
+        NetProps.SetPropString(TextPlayerCounterBlu, "m_iszMessage", bluAlive.tostring());
+        EntFireByHandle(TextPlayerCounterRed, "Display", "", 0, null, null);
+        EntFireByHandle(TextPlayerCounterBlu, "Display", "", 0, null, null);
+
+        if (checkForGameEnd) {
+            local redTeamDead = redAlive == 0;
+            local bluTeamDead = bluAlive == 0;
+
+            if (redTeamDead && bluTeamDead) return WinRound(0);
+            if (redTeamDead) return WinRound(Constants.ETFTeam.TF_TEAM_BLUE);
+            if (bluTeamDead) return WinRound(Constants.ETFTeam.TF_TEAM_RED);
+        }
     }
 
     function WinRound(winnerTeam) {
         if (winnerTeam) {
             EntFireByHandle(PLAYER_DESTRUCTION_LOGIC, "Score"+TeamName(winnerTeam, true)+"Points", "", 0, null, null);
             EntFire("text_win_"+TeamName(winnerTeam), "Display", "", 0, null);
+        } else {
+            EntFireByHandle(PLAYER_DESTRUCTION_LOGIC, "ScoreRedPoints", "", 0, null, null);
+            EntFireByHandle(PLAYER_DESTRUCTION_LOGIC, "ScoreBluePoints", "", 0, null, null);
+            EntFire("text_win_none", "Display", "", 0, null);
         }
 
        foreach (player in GetAllPlayers()) {
             local team = player.GetTeam();
             if (!winnerTeam || team != winnerTeam) {
-                EntFireByHandle(TRIGGER_STUN_MAKER, "ForceSpawnAtEntityOrigin", "!activator", 0, player, player);
+                StunPlayer(player, 9999);
             } else {
                 player.AddCondEx(Constants.ETFCond.TF_COND_CRITBOOSTED_FIRST_BLOOD, 9999, null);
             }

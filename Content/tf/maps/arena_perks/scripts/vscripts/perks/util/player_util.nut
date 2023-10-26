@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Perks - Version 1.3                                                                     //
+// Perks - Version 1.4                                                                     //
 // --------------------------------------------------------------------------------------- //
 // Game Design and Scripting by: Le Codex (https://steamcommunity.com/id/lecodex)          //
 // Assets by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551)             //
@@ -23,12 +23,22 @@
     }
 }
 
+::GetAllPlayers <- function() {
+    for (local i = 0; i < MaxClients(); i++) {
+        local player = PlayerInstanceFromIndex(i);
+        if (!IsValidPlayer(player)) continue;
+
+        yield player;
+    }
+
+    return null;
+}
+
 ::GetAliveTeamPlayerCount <- function(team)
 {
     local aliveCount = 0;
-    for (local i = 1; i <= Constants.Server.MAX_PLAYERS; i++) {
-        local player = PlayerInstanceFromIndex(i);
-        if (IsValidPlayer(player) && IsPlayerAlive(player) && player.GetTeam() == team) aliveCount++;
+    foreach (player in GetAllPlayers()) {
+        if (IsPlayerAlive(player) && player.GetTeam() == team) aliveCount++;
     }
     return aliveCount;
 }
@@ -49,13 +59,18 @@
     }
 }
 
-::GetAllPlayers <- function() {
-    for (local i = 0; i < MaxClients(); i++) {
-        local player = PlayerInstanceFromIndex(i);
-        if (!IsValidPlayer(player)) continue;
-
-        yield player;
-    }
-
-    return null;
+::StunPlayer <- function(player, time) {
+    local trigger_stun = SpawnEntityFromTable("trigger_stun", {
+        targetname = "trigger_stun",
+        stun_type = 2,
+        stun_duration = time,
+        move_speed_reduction = 0,
+        trigger_delay = 0,
+        ///filtername = "filter_team_blu",
+        StartDisabled = 0,
+        spawnflags = 1,
+        solid = 2,
+        "OnStunPlayer#1": "!self,Kill,0,0.01,-1",
+    });
+    EntFireByHandle(trigger_stun, "EndTouch", "", 0.0, player, player);
 }

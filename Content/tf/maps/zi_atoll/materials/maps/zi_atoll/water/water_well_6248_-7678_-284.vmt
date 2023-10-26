@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_atoll/c6248_-7678_-284"
+		"Proxies"
+		{
+		}
+	}
+}

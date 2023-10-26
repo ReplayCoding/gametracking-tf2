@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Perks - Version 1.3                                                                     //
+// Perks - Version 1.4                                                                     //
 // --------------------------------------------------------------------------------------- //
 // Game Design and Scripting by: Le Codex (https://steamcommunity.com/id/lecodex)          //
 // Assets by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551)             //
@@ -43,6 +43,7 @@ enum LIFE_STATE
     reserve = "Ammo Reserve"
     revive = "Second Chance"
     cloak = "Cloaking"
+    patience = "Patience"
 }
 
 ::PERKS_DESCRIPTIONS <- {
@@ -61,4 +62,5 @@ enum LIFE_STATE
     reserve = "You gain +50% clip size\nand regenerating\nammo and metal"
     revive = "Once per round, you can\nbe revived by a Medic"
     cloak = "You start with 15\nseconds of invisibility\n(ends if you shoot)"
+    patience = "You gain up to 7 health/s"
 }
