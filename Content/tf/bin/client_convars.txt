@@ -5887,7 +5887,7 @@ default: 0.5
 Time to live of flame damage entities.
 
 convar tf_flamethrower_new_flame_offset
-flags:  "developmentonly" "cheat"
+flags:  "developmentonly" "cheat" "replicated"
 default: 40 5 0
 Starting position relative to the flamethrower.
 

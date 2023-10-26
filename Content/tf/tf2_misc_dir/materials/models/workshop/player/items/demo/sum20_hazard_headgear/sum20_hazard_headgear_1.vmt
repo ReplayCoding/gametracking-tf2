@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/workshop/player/items/demo/sum20_hazard_headgear/sum20_hazard_headgear_color"
-	"$lightwarptexture"		"models/weapons/c_items/c_ambassador_lightwarp"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
 	"$phongexponent"		"55.000000"
 	"$phongboost"		"6.000000"
@@ -18,7 +18,7 @@
 	"$envmap"		"env_cubemap"
 	"$basealphaenvmapmask"		"0"
 	"$normalmapalphaenvmapmask"		"0"
-	"$envmaptint"		"[1 1 1]"
+	"$envmaptint"		"[0.564706 0.564706 0.564706]"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
 	"$detailscale"		"5"

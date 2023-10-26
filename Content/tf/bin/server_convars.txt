@@ -5245,7 +5245,7 @@ default: 350.0
 Maximum damage distance for flamethrower.
 
 convar tf_flamethrower_new_flame_offset
-flags:  "developmentonly" "cheat"
+flags:  "developmentonly" "cheat" "replicated"
 default: 40 5 0
 Starting position relative to the flamethrower.
 
