@@ -31,6 +31,7 @@ __common
 __DATA
 __LINKEDIT
 @loader_path/bugreporter_filequeue.dylib
+`fXD$
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
 /usr/lib/libiconv.2.dylib
@@ -391,8 +392,6 @@ PPpp
 00  @@
 0p00p
 @P@p
-4nec
-4nec
 /Users/buildbot/buildslave/../.ccache/tmp/
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/build/buildbot_osx.build/Release/bugreporter_filequeue.build/Objects-normal/i386/memoverride.o
 __Znwm
@@ -692,7 +691,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN15CUtlSymbolTable16CStringPoolIndexEtEtE4Gro
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.8990.irHFju.ii
+__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.80716.Vf8C84.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL20g_CleanupSymbolTable
@@ -901,7 +900,7 @@ __ZN10CUtlMemoryI15UtlRBTreeNode_tIN15CUtlSymbolTable16CStringPoolIndexEtEtE4Gro
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE15InsertRebalanceEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE10RotateLeftEt
 __ZN10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE10CUtlMemoryI15UtlRBTreeNode_tIS1_tEtEE11RotateRightEt
-__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.8990.irHFju.ii
+__GLOBAL__sub_I_utlsymbol.stdout.rel_tf_osx_builder.80716.Vf8C84.ii
 __ZL14s_BackSlashMap
 __ZTS12CBugReporter
 __ZTS12IBugReporter
