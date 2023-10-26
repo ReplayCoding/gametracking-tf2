@@ -3727,7 +3727,7 @@ default: 120
 A vote that fails in MvM cannot be re-submitted for this long
 
 convar sv_vote_holder_may_vote_no
-flags: 
+flags:  "replicated"
 default: 0
 1 = Vote caller is not forced to vote yes on yes/no votes.
 

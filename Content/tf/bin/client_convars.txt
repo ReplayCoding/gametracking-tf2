@@ -5354,6 +5354,11 @@ flags:  "replicated"
 default: 0
 Turns on turbo physics
 
+convar sv_vote_holder_may_vote_no
+flags:  "replicated"
+default: 0
+1 = Vote caller is not forced to vote yes on yes/no votes.
+
 convar sv_wateraccelerate
 flags:  "developmentonly" "notify" "replicated"
 default: 10
