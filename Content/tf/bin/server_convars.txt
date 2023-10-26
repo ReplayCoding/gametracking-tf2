@@ -5432,6 +5432,11 @@ flags:  "developmentonly" "notify" "replicated"
 default: 0
 
 
+convar tf_gamemode_community
+flags:  "developmentonly" "notify" "replicated"
+default: 0
+
+
 convar tf_gamemode_cp
 flags:  "developmentonly" "notify" "replicated"
 default: 0

@@ -5914,6 +5914,11 @@ Forced holiday,
    Halloween = 2
 
 
+convar tf_gamemode_community
+flags:  "developmentonly" "notify" "replicated"
+default: 0
+
+
 convar tf_ghost_up_speed
 flags:  "cheat" "replicated"
 default: 300.f
