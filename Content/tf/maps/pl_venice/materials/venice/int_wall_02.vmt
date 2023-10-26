@@ -7,7 +7,7 @@ LightmappedGeneric
 
 	$envmap "env_cubemap"
 	$normalmapalphaenvmapmask 1
-	$envmaptint "[0.50 0.50 0.50]"
+	$envmaptint "[0.25 0.25 0.25]"
 
 	%keywords "tf, venice"
 }

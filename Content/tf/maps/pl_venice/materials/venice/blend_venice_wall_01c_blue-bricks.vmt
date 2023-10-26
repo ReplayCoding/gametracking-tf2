@@ -1,0 +1,15 @@
+WorldVertexTransition
+{
+	$basetexture "venice/venice_wall_01c_blue_d"
+	$bumpmap "venice/venice_wall_bricks_02_ssbump"
+	$surfaceprop Concrete
+	$ssbump 1
+
+	$basetexture2 "brick/brickwall002b"
+	$bumpmap2 "brick/brickwall002_height-ssbump"
+	$surfaceprop2 Brick
+
+	$blendmodulatetexture "venice/blend_venice_wall-bricks_02_bm"
+
+	%keywords "tf, venice"
+}

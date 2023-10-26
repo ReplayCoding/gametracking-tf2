@@ -6498,6 +6498,16 @@ flags:  "clientdll" "hidden" "archive" "dontrecord"
 default: 0
 The number of times the player upgrade help dialog has displayed.
 
+convar tf_mvm_defenders_team_size
+flags:  "notify" "replicated"
+default: 6
+Maximum number of defenders in MvM
+
+convar tf_mvm_max_connected_players
+flags:  "gamedll"
+default: 10
+Maximum number of connected real players in MvM
+
 convar tf_mvm_min_players_to_start
 flags:  "notify" "replicated"
 default: 3

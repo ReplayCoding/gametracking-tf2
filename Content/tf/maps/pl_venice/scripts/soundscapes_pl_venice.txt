@@ -1,24 +1,20 @@
 "venice.outside.generic"
 {
 	"dsp" "1"
-	"fadetime" "1.5"
 
 	"playsoundscape"
 	{
 		"name"				"Lumberyard.Outside"
-		"ambientpositionoverride"	"0"
 	}
 }
 
 "venice.outside.coast"
 {
 	"dsp" "1"
-	"fadetime" "1.5"
 
 	"playsoundscape"
 	{
 		"name"				"Lumberyard.Outside"
-		"ambientpositionoverride"	"0"
 	}
 
 	// seagulls
@@ -54,12 +50,10 @@
 "venice.outside.coast.windy"
 {
 	"dsp" "1"
-	"fadetime" "1.5"
 
 	"playsoundscape"
 	{
 		"name"				"Lumberyard.Outside"
-		"ambientpositionoverride"	"0"
 	}
 
 	// seagulls
@@ -114,12 +108,10 @@
 "venice.outside.coast.waves"
 {
 	"dsp" "1"
-	"fadetime" "1.5"
 
 	"playsoundscape"
 	{
 		"name"				"Lumberyard.Outside"
-		"ambientpositionoverride"	"0"
 	}
 
 	// seagulls
@@ -173,12 +165,10 @@
 "venice.outside.coast.windy.waves"
 {
 	"dsp" "1"
-	"fadetime" "1.5"
 
 	"playsoundscape"
 	{
 		"name"				"Lumberyard.Outside"
-		"ambientpositionoverride"	"0"
 	}
 
 	// seagulls
