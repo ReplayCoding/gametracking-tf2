@@ -31,8 +31,6 @@ __common
 __DATA
 __LINKEDIT
 @loader_path/scenefilecache.dylib
-Clr2
-p>S$
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
 /usr/lib/libiconv.2.dylib
@@ -236,7 +234,7 @@ __ZL48__CreateCSceneFileCacheISceneFileCache_interfacev
 __ZN15CSceneFileCacheD1Ev
 __ZN14CBaseAppSystemI15ISceneFileCacheE14QueryInterfaceEPKc
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/appframework/IAppSystem.h
-__GLOBAL__sub_I_SceneFileC.stdout.rel_tf_osx_builder.9901.f9dIj1.ii
+__GLOBAL__sub_I_SceneFileC.stdout.rel_tf_osx_builder.56101.aiD3RN.ii
 __ZTS15CSceneFileCache
 __ZTS14CBaseAppSystemI15ISceneFileCacheE
 __ZTS15ISceneFileCache
@@ -307,7 +305,7 @@ __ZThn24_N12CEmptyConVar8SetValueEf
 __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.55430.mXKsKU.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 __ZTS6ConVar
 __ZTS14ConCommandBase
@@ -338,7 +336,7 @@ __ZN5CLZMA10UncompressEPhS0_
 __ZL7SzAllocPvm
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/tier1/convar.h
 __ZL6SzFreePvS_
-__GLOBAL__sub_I_lzmaDecode.stdout.rel_tf_osx_builder.8867.vztqtQ.ii
+__GLOBAL__sub_I_lzmaDecode.stdout.rel_tf_osx_builder.55433.LctBPo.ii
 __ZL7g_Alloc
 __ZL11vec2_origin
 __ZL12vec2_invalid
@@ -402,7 +400,7 @@ __ZN15CSceneFileCache14GetSceneStringEs
 __ZL48__CreateCSceneFileCacheISceneFileCache_interfacev
 __ZN15CSceneFileCacheD1Ev
 __ZN14CBaseAppSystemI15ISceneFileCacheE14QueryInterfaceEPKc
-__GLOBAL__sub_I_SceneFileC.stdout.rel_tf_osx_builder.9901.f9dIj1.ii
+__GLOBAL__sub_I_SceneFileC.stdout.rel_tf_osx_builder.56101.aiD3RN.ii
 _LzmaDec_DecodeToDic
 __ZL16LzmaDec_TryDummyPK8CLzmaDecPKhm
 __ZL19LzmaDec_DecodeReal2P8CLzmaDecmPKh
@@ -451,14 +449,14 @@ __ZThn24_N12CEmptyConVar8SetValueEf
 __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.55430.mXKsKU.ii
 __ZN12InterfaceRegC1EPFPvvEPKc
 __ZN5CLZMA12IsCompressedEPh
 __ZN5CLZMA13GetActualSizeEPh
 __ZN5CLZMA10UncompressEPhS0_
 __ZL7SzAllocPvm
 __ZL6SzFreePvS_
-__GLOBAL__sub_I_lzmaDecode.stdout.rel_tf_osx_builder.8867.vztqtQ.ii
+__GLOBAL__sub_I_lzmaDecode.stdout.rel_tf_osx_builder.55433.LctBPo.ii
 __Z10V_strlowerPc
 __Z6V_atofPKc
 __Z9V_strncpyPcPKci

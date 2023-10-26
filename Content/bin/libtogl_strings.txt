@@ -172,6 +172,7 @@ fff.
 ^_[]
 ^_[]
 ^_[]
+ffff.
 ^_[]
 !ffff.
 ^_[]
@@ -195,6 +196,7 @@ fff.
 ffffff.
 ^_[]
 ^_[]
+fff.
 ^_[]
 fffff.
 ^_[]
@@ -669,7 +671,6 @@ ffff.
 fffff.
 ^_[]
 fffff.
-^_[]
 0000000000000000
 21IDirect3DBaseTexture9
 17IDirect3DTexture9
@@ -3817,22 +3818,22 @@ zPLR
 zPLR
 zPLR
 zPLR
-&YA1
+&YA1)
 INTZ
 RAWZ
 NULL
 DF16
 DF24
-ATI2
-ATI1
-BTI1
-&YA1
-&YA1
-&YA1
-&YA1
-&YA1
-&YA1
-&YA1
+ATI2.
+ATI1<
+BTI1J
+&YA1)
+&YA1)
+&YA1)
+&YA1)
+&YA1)
+&YA1)
+&YA1)
 &YA1
 &YA1
 &YA1
@@ -4295,7 +4296,7 @@ Texture9
 HSurface9
 Buffer9
 HShader9
-(@@@@
+&@@@@
 P@
 `00
 p0pp`000
@@ -4336,7 +4337,7 @@ __ZN10CGLMBuffer4LockEP17GLMBuffLockParamsPPc
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/tier1/convar.h
 __ZN10CGLMBuffer6UnlockEiPKv
 __ZNK10CGLMBuffer9GetHandleEv
-__GLOBAL__sub_I_cglmbuffer.stdout.rel_tf_osx_builder.13701.C2VJ8F.ii
+__GLOBAL__sub_I_cglmbuffer.stdout.rel_tf_osx_builder.58526.TrVFHi.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector4d.h
 _g_bDisableStaticBuffer
@@ -4382,7 +4383,7 @@ __ZN19CGLMShaderPairCache24SelectShaderPairInternalEP11CGLMProgramS1_ji
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/togl/linuxwin/cglmprogram.h
 __ZN19CGLMShaderPairCache15QueryShaderPairEiP17GLMShaderPairInfo
 __ZN19CGLMShaderPairCache20PurgePairsWithShaderEP11CGLMProgram
-__GLOBAL__sub_I_cglmprogra.stdout.rel_tf_osx_builder.13703.qJfyo4.ii
+__GLOBAL__sub_I_cglmprogra.stdout.rel_tf_osx_builder.58527.gf4HOy.ii
 _g_shaderSectionMarkers
 _g_glmShaderLimitDescs
 __ZL11vec2_origin
@@ -4410,7 +4411,7 @@ __ZN9CGLMQuery6IsDoneEv
 __ZN9CGLMQuery8CompleteEPj
 __ZN9CGLMQuery9IsStartedEv
 __ZN9CGLMQuery9IsStoppedEv
-__GLOBAL__sub_I_cglmquery.stdout.rel_tf_osx_builder.13704.sG1dO2.ii
+__GLOBAL__sub_I_cglmquery.stdout.rel_tf_osx_builder.58529.cRWW9Q.ii
 __ZL11vec2_origin
 __ZL12vec2_invalid
 __ZL11vec4_origin
@@ -4455,7 +4456,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI15GLMTexLayoutKeyP12GLMTexLayouttPFbRKS1_S5_EE6Node_t
 __ZN10CUtlRBTreeIN7CUtlMapI15GLMTexLayoutKeyP12GLMTexLayouttPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE11RotateRightEt
 __ZN10CUtlVectorIh10CUtlMemoryIhiEED2Ev
 __ZN10CUtlVectorIh10CUtlMemoryIhiEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_cglmtex.stdout.rel_tf_osx_builder.13705.EDxfZE.ii
+__GLOBAL__sub_I_cglmtex.stdout.rel_tf_osx_builder.58530.SYHDVs.ii
 __ZZN20GLMTexSamplingParams11SetToTargetEjE18dxtogl_addressMode
 __ZZN20GLMTexSamplingParams11SetToTargetEjE16dxtogl_magFilter
 __ZZN20GLMTexSamplingParams11SetToTargetEjE16dxtogl_minFilter
@@ -4758,7 +4759,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEt
 __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE6UnlinkEt
 __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE15RemoveRebalanceEt
 __ZN10CUtlVectorI9D3DMATRIX10CUtlMemoryIS0_iEE10GrowVectorEi
-__GLOBAL__sub_I_dxabstract.stdout.rel_tf_osx_builder.13707.OYV9zZ.ii
+__GLOBAL__sub_I_dxabstract.stdout.rel_tf_osx_builder.58532.D3KosN.ii
 __ZTS21IDirect3DBaseTexture9
 __ZTS17IDirect3DTexture9
 __ZTS17IDirect3DSurface9
@@ -4902,7 +4903,7 @@ __ZN10CUtlVectorIP7CGLMFBO10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN10GLMContext14TextureEntry_tE10CUtlMemoryIS1_iEED2Ev
 __ZN8CTSQueueIP7CGLMTexLb0EED2Ev
 __ZN8CTSQueueIP7CGLMTexLb0EE5PurgeEv
-__GLOBAL__sub_I_glmgr.stdout.rel_tf_osx_builder.13752.JFl0tx.ii
+__GLOBAL__sub_I_glmgr.stdout.rel_tf_osx_builder.58573.WNLAqY.ii
 __ZL20g_garbageTextureBits
 _g_nullFragmentProgramText
 _g_preloadTexVertexProgramText
@@ -5111,7 +5112,7 @@ __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.55430.mXKsKU.ii
 __ZTS6ConVar
 __ZTS14ConCommandBase
 __ZTS10ConCommand
@@ -5176,7 +5177,7 @@ __ZN20CKeyValuesErrorStack11ReportErrorEPKc
 __ZN10CUtlVectorIP9KeyValues10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIP9KeyValues10CUtlMemoryIS1_iEE10GrowVectorEi
 __ZN14CUtlSortVectorIP9KeyValues29CUtlSortVectorKeyValuesByName10CUtlVectorIS1_10CUtlMemoryIS1_iEEE13CompareHelperEPKS1_S9_
-__GLOBAL__sub_I_KeyValues.stdout.rel_tf_osx_builder.8854.xY0R9c.ii
+__GLOBAL__sub_I_KeyValues.stdout.rel_tf_osx_builder.55432.qZWQhg.ii
 __ZN9KeyValues22s_pfGetSymbolForStringE
 __ZN9KeyValues22s_pfGetStringForSymbolE
 __ZL21s_LastFileLoadingFrom
@@ -5263,7 +5264,6 @@ __ZN10CUtlString5PurgeEv
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/tier1/utlstring.cpp
 __ZN10CUtlString3SetEPKc
 __ZNK10CUtlString3GetEv
-__ZN10CUtlStringaSERKS_
 ___clang_call_terminate
 __ZL31gl_persistent_buffer_max_offsetRK8CCommand
 __ZN17CPersistentBufferC1Ev
@@ -5275,7 +5275,7 @@ __ZN10CGLMBufferD1Ev
 __ZN10CGLMBuffer4LockEP17GLMBuffLockParamsPPc
 __ZN10CGLMBuffer6UnlockEiPKv
 __ZNK10CGLMBuffer9GetHandleEv
-__GLOBAL__sub_I_cglmbuffer.stdout.rel_tf_osx_builder.13701.C2VJ8F.ii
+__GLOBAL__sub_I_cglmbuffer.stdout.rel_tf_osx_builder.58526.TrVFHi.ii
 __ZN7CGLMFBOC1EP10GLMContext
 __ZN7CGLMFBOD2Ev
 __ZN7CGLMFBO9TexDetachE17EGLMFBOAttachmentj
@@ -5300,7 +5300,7 @@ __ZN19CGLMShaderPairCacheD1Ev
 __ZN19CGLMShaderPairCache24SelectShaderPairInternalEP11CGLMProgramS1_ji
 __ZN19CGLMShaderPairCache15QueryShaderPairEiP17GLMShaderPairInfo
 __ZN19CGLMShaderPairCache20PurgePairsWithShaderEP11CGLMProgram
-__GLOBAL__sub_I_cglmprogra.stdout.rel_tf_osx_builder.13703.qJfyo4.ii
+__GLOBAL__sub_I_cglmprogra.stdout.rel_tf_osx_builder.58527.gf4HOy.ii
 __ZN9CGLMQueryC1EP10GLMContextP14GLMQueryParams
 __ZN9CGLMQueryD1Ev
 __ZN9CGLMQuery5StartEv
@@ -5309,7 +5309,7 @@ __ZN9CGLMQuery6IsDoneEv
 __ZN9CGLMQuery8CompleteEPj
 __ZN9CGLMQuery9IsStartedEv
 __ZN9CGLMQuery9IsStoppedEv
-__GLOBAL__sub_I_cglmquery.stdout.rel_tf_osx_builder.13704.sG1dO2.ii
+__GLOBAL__sub_I_cglmquery.stdout.rel_tf_osx_builder.58529.cRWW9Q.ii
 __Z13GetFormatDesc10_D3DFORMAT
 __Z24LessFunc_GLMTexLayoutKeyRK15GLMTexLayoutKeyS1_
 __ZN18CGLMTexLayoutTableC1Ev
@@ -5340,7 +5340,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI15GLMTexLayoutKeyP12GLMTexLayouttPFbRKS1_S5_EE6Node_t
 __ZN10CUtlRBTreeIN7CUtlMapI15GLMTexLayoutKeyP12GLMTexLayouttPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE11RotateRightEt
 __ZN10CUtlVectorIh10CUtlMemoryIhiEED2Ev
 __ZN10CUtlVectorIh10CUtlMemoryIhiEE20InsertMultipleBeforeEii
-__GLOBAL__sub_I_cglmtex.stdout.rel_tf_osx_builder.13705.EDxfZE.ii
+__GLOBAL__sub_I_cglmtex.stdout.rel_tf_osx_builder.58530.SYHDVs.ii
 __ZN7D3DToGL21PrintToBufWithIndentsER10CUtlBufferPKcz
 __Z10PrintToBufR10CUtlBufferPKcz
 __Z10PrintToBufPciPKcz
@@ -5393,7 +5393,7 @@ __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEt
 __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE6UnlinkEt
 __ZN10CUtlRBTreeIN7CUtlMapI19RenderTargetState_tP7CGLMFBOtPFbRKS1_S5_EE6Node_tEtNS8_8CKeyLessE10CUtlMemoryI15UtlRBTreeNode_tIS9_tEtEE15RemoveRebalanceEt
 __ZN10CUtlVectorI9D3DMATRIX10CUtlMemoryIS0_iEE10GrowVectorEi
-__GLOBAL__sub_I_dxabstract.stdout.rel_tf_osx_builder.13707.OYV9zZ.ii
+__GLOBAL__sub_I_dxabstract.stdout.rel_tf_osx_builder.58532.D3KosN.ii
 __ZN18COpenGLEntryPointsC2Ev
 __ZL20CheckOpenGLExtensionPKcii
 __ZL16GetOpenGLVersionPiS_S_
@@ -5457,7 +5457,7 @@ __ZN10CUtlVectorIP7CGLMFBO10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIN10GLMContext14TextureEntry_tE10CUtlMemoryIS1_iEED2Ev
 __ZN8CTSQueueIP7CGLMTexLb0EED2Ev
 __ZN8CTSQueueIP7CGLMTexLb0EE5PurgeEv
-__GLOBAL__sub_I_glmgr.stdout.rel_tf_osx_builder.13752.JFl0tx.ii
+__GLOBAL__sub_I_glmgr.stdout.rel_tf_osx_builder.58573.WNLAqY.ii
 __ZN17CGLMTextSectionerC2EPciPPKc
 __ZN17CGLMTextSectionerC1EPciPPKc
 __ZN17CGLMTextSectionerD1Ev
@@ -5549,7 +5549,7 @@ __ZThn24_N12CEmptyConVar8SetValueEi
 __ZThn24_NK12CEmptyConVar7GetNameEv
 __ZThn24_NK12CEmptyConVar9IsFlagSetEi
 __ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_
-__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.8790.oihyfd.ii
+__GLOBAL__sub_I_convar.stdout.rel_tf_osx_builder.55430.mXKsKU.ii
 __ZN9KeyValues25GetSymbolForStringClassicEPKcb
 __ZN9KeyValues25GetStringForSymbolClassicEi
 __ZN9KeyValuesC1EPKc
@@ -5579,7 +5579,7 @@ __ZN20CKeyValuesErrorStack11ReportErrorEPKc
 __ZN10CUtlVectorIP9KeyValues10CUtlMemoryIS1_iEED2Ev
 __ZN10CUtlVectorIP9KeyValues10CUtlMemoryIS1_iEE10GrowVectorEi
 __ZN14CUtlSortVectorIP9KeyValues29CUtlSortVectorKeyValuesByName10CUtlVectorIS1_10CUtlMemoryIS1_iEEE13CompareHelperEPKS1_S9_
-__GLOBAL__sub_I_KeyValues.stdout.rel_tf_osx_builder.8854.xY0R9c.ii
+__GLOBAL__sub_I_KeyValues.stdout.rel_tf_osx_builder.55432.qZWQhg.ii
 __Z9V_stricmpPKcS0_
 __Z9V_strncmpPKcS0_i
 __Z6V_atofPKc
@@ -5626,7 +5626,6 @@ __GLOBAL__sub_I_utlbuffer.stdout.rel_tf_osx_builder.8986.vt30zT.ii
 __ZN10CUtlString5PurgeEv
 __ZN10CUtlString3SetEPKc
 __ZNK10CUtlString3GetEv
-__ZN10CUtlStringaSERKS_
 __ZZN20GLMTexSamplingParams11SetToTargetEjE18dxtogl_addressMode
 __ZZN20GLMTexSamplingParams11SetToTargetEjE16dxtogl_magFilter
 __ZZN20GLMTexSamplingParams11SetToTargetEjE16dxtogl_minFilter

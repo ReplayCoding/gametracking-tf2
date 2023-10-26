@@ -31,6 +31,7 @@ __common
 __DATA
 __LINKEDIT
 @loader_path/vaudio_miles.dylib
+v07.
 @executable_path/libMilesX86.dylib
 @loader_path/libtier0.dylib
 @loader_path/libvstdlib.dylib
@@ -233,7 +234,7 @@ __ZN18FrameEncoder_Miles11EncodeFrameEPKcPc
 __ZN18FrameEncoder_Miles11DecodeFrameEPKcPc
 __ZN18FrameEncoder_Miles10ResetStateEv
 __Z22CreateVoiceCodec_Milesv
-__GLOBAL__sub_I_voice_code.stdout.rel_tf_osx_builder.11897.5g8XKL.ii
+__GLOBAL__sub_I_voice_code.stdout.rel_tf_osx_builder.57033.tGhBaZ.ii
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector2d.h
 /Users/buildbot/buildslave/rel_hl2_osx/build/src/public/mathlib/vector4d.h
 __ZTS18FrameEncoder_Miles
@@ -322,7 +323,7 @@ __ZN18FrameEncoder_Miles11EncodeFrameEPKcPc
 __ZN18FrameEncoder_Miles11DecodeFrameEPKcPc
 __ZN18FrameEncoder_Miles10ResetStateEv
 __Z22CreateVoiceCodec_Milesv
-__GLOBAL__sub_I_voice_code.stdout.rel_tf_osx_builder.11897.5g8XKL.ii
+__GLOBAL__sub_I_voice_code.stdout.rel_tf_osx_builder.57033.tGhBaZ.ii
 __ZN12InterfaceRegC1EPFPvvEPKc
 __ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE
 __ZN21CUtlCStringConversion14FindConversionEPKcPi
