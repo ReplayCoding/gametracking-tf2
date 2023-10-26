@@ -1235,7 +1235,7 @@ crasher.gatehit
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_65dB"
+	"soundlevel"	"SNDLVL_NONE"
 
 	"rndwave"
 	{
@@ -1249,7 +1249,7 @@ crasher.gatehit
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_65dB"
+	"soundlevel"	"SNDLVL_NONE"
 
 	"rndwave"
 	{
@@ -1259,7 +1259,7 @@ crasher.gatehit
 
 "Invade.EnemyCaptured"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1273,11 +1273,11 @@ crasher.gatehit
 
 "Invade.EnemyDropped"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_NONE"
+	"soundlevel"	"SNDLVL_NORM"
 
 	"rndwave"
 	{
@@ -1287,7 +1287,7 @@ crasher.gatehit
 
 "Invade.EnemyStolen"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1301,7 +1301,7 @@ crasher.gatehit
 
 "Invade.FlagReturned"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1315,7 +1315,7 @@ crasher.gatehit
 
 "Invade.TeamCaptured"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1329,7 +1329,7 @@ crasher.gatehit
 
 "Invade.TeamDropped"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1343,7 +1343,7 @@ crasher.gatehit
 
 "Invade.TeamStolen"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
 
@@ -1357,9 +1357,11 @@ crasher.gatehit
 
 "Game.YourTeamLost"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
 
 	"rndwave"
 	{
@@ -1369,9 +1371,53 @@ crasher.gatehit
 
 "Game.YourTeamWon"
 {
-	"channel"		"CHAN_VOICE"
+	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
 	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"MatchMaking.MatchEndWinMusicCasual"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"	
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"MatchMaking.MatchEndLoseMusicCasual"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"	
+	{
+		"wave"	"vo/null.mp3"
+	}
+}
+
+"Announcer.CompGameBeginsFight"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
 
 	"rndwave"
 	{
