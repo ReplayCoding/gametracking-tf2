@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C_YELLOW.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_sludgepit_event/c-4140_-952_-29"
+	}
+}

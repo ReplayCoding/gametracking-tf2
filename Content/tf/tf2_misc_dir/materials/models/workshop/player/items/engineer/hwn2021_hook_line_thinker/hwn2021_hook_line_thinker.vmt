@@ -1,7 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"		"models/workshop/player/items/engineer/hwn2021_hook_line_thinker/hwn2021_hook_line_thinker_color"
-	"$bumpmap"		"models/workshop/player/items/engineer/hwn2021_hook_line_thinker/hwn2021_hook_line_thinker_normal"
+	"$basetexture"		"models/workshop/player/items/engineer/hwn2021_hook_line_thinker/hwn2021_hook_line_thinker_1_color"
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
 	"$phongexponent"		"25"
@@ -12,6 +11,7 @@
 	"$rimlightboost"		"2"
 	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
+	"$additive"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
 	"$detailscale"		"5"
@@ -20,8 +20,9 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"0"
+		"$selfillum"		"1"
 	}
+	"$selfillumtint"		"[0.490196 0.941177 0.007843]"
 	"proxies"
 	{
 		"invis"

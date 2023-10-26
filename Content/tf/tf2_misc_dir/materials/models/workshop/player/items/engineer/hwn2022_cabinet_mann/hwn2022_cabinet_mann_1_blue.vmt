@@ -1,16 +1,19 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/workshop/player/items/engineer/hwn2022_cabinet_mann/hwn2022_cabinet_mann_1_blue_color"
-	"$bumpmap"		"models/workshop/player/items/engineer/hwn2022_cabinet_mann/hwn2022_cabinet_mann_1_normal"
-	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"25.000000"
-	"$phongboost"		"2.000000"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.100000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
-	"$color2"		"{ 71 124 194 }"
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 255 255 255 }"
+	"$color2"		"{ 255 255 255 }"
+	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -22,8 +25,7 @@
 	{
 		"$selfillum"		"1"
 	}
-	"$selfillumtint"		"[1 1 1]"
-	"$selfillummask"		"models/workshop/player/items/engineer/hwn2022_cabinet_mann/hwn2022_cabinet_mann_1_illum"
+	"$selfillumtint"		"[1.960784 1.960784 1.960784]"
 	"proxies"
 	{
 		"invis"
@@ -39,13 +41,24 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"		"$yellow"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}
