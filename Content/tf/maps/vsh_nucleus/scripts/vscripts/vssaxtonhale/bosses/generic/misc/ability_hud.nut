@@ -120,7 +120,7 @@ class AbilityHudTrait extends BossTrait
             y = 0.91
         });
 
-        RunWithDelay2(this, 0.1, function () {
+        RunWithDelay2(this, 0.2, function () {
             EntFireByHandle(game_text_tip_1, "Display", "", 0, boss, boss);
             EntFireByHandle(game_text_tip_2, "Display", "", 0, boss, boss);
         });
@@ -152,18 +152,18 @@ class AbilityHudTrait extends BossTrait
         }
 
         EntFireByHandle(game_text_charge, "AddOutput", "message "+progressBarTexts[0], 0, boss, boss);
-        //EntFireByHandle(game_text_charge, "AddOutput", "color "+colors[0], 0, boss, boss);
         EntFireByHandle(game_text_charge, "Display", "", 0, boss, boss);
 
         EntFireByHandle(game_text_punch, "AddOutput", "message "+progressBarTexts[1], 0, boss, boss);
-        //EntFireByHandle(game_text_punch, "AddOutput", "color "+colors[1], 0, boss, boss);
         EntFireByHandle(game_text_punch, "Display", "", 0, boss, boss);
 
         EntFireByHandle(game_text_slam, "AddOutput", "message "+progressBarTexts[2], 0, boss, boss);
-        //EntFireByHandle(game_text_slam, "AddOutput", "color "+colors[2], 0, boss, boss);
         EntFireByHandle(game_text_slam, "Display", "", 0, boss, boss);
 
-        player.SetScriptOverlayMaterial("vgui/vssaxtonhale/"+overlay);
+        EntFireByHandle(game_text_tip_1, "Display", "", 0, boss, boss);
+        EntFireByHandle(game_text_tip_2, "Display", "", 0, boss, boss);
+
+        player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" + overlay);
     }
 
     function OnDeath(attacker, params)

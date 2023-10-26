@@ -200,7 +200,10 @@ class SweepingChargeTrait extends BossTrait
                     return;
                 local dmg = target.GetMaxHealth() * 0.55;
                 if (target.GetClassname().find("obj_") == 0)
+                {
                     dmg *= 0.2;
+                    boss.SetAbsVelocity(Vector(0,0,0))
+                }
                 else
                     bashedByHale.push(target);
                 target.TakeDamageEx(

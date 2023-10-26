@@ -23,14 +23,15 @@ AddListener("round_end", 0, function (winnerTeam)
 {
     if (lostByRPS)
         return;
-    local voiceLine;
+    local voiceLine = null;
     if (winnerTeam == TF_TEAM_BOSS)
         voiceLine = "boss_win";
     else if (winnerTeam == TF_TEAM_MERCS)
         voiceLine = IsAnyBossAlive() ? "mercs_win_capture" : "mercs_win_kill";
-    else
+    else if (IsRoundSetup())
         voiceLine = "bailout";
-    PlayAnnouncerVODelayed(GetRandomBossPlayer(), voiceLine, 1);
+    if (voiceLine != null)
+        PlayAnnouncerVODelayed(GetRandomBossPlayer(), voiceLine, 1);
     if (winnerTeam == TF_TEAM_BOSS)
         foreach (boss in GetBossPlayers())
             RunWithDelay("PlayAnnouncerVOToPlayer(activator, activator, `boss_win_4boss`)", boss, 1);

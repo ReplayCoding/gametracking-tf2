@@ -131,8 +131,8 @@ function PlaySoundForAll(soundScript)
     EmitSoundEx({
         sound_name = GetCurrentCharacterName(source)+"."+soundPath,
         filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER
-        volume = 1.2 - clampFloor(300.0, distance) / 1500.0,
-        flags =  GetAliveMercCount() > 5 ? 0 : 1,
+        volume = (GetAliveMercCount() > 10 ? 1 : 1.2 - clampFloor(300.0, distance) / 1500.0) / 1.8,
+        flags =  1,
         entity = target,
         origin = source.GetCenter(),
         speaker_entity = source

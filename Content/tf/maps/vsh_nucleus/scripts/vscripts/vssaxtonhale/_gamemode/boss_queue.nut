@@ -11,16 +11,41 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
+::SetNextBossByEntity <- function(playerEnt)
+{
+    SetPersistentVar("next_boss", playerEnt.entindex());
+}
+
+::SetNextBossByEntityIndex <- function(playerEntIndex)
+{
+    SetPersistentVar("next_boss", playerEntIndex);
+}
+
+::SetNextBossByUserId <- function(userId)
+{
+    local playerEnt = GetPlayerFromUserID(userId);
+    SetPersistentVar("next_boss", playerEnt.entindex());
+}
+
 function ProgressBossQueue(iterations = 0)
 {
     try
     {
+        local nextBossIndex = GetPersistentVar("next_boss", null);
+        if (nextBossIndex != null)
+        {
+            SetPersistentVar("next_boss", null);
+            local nextBossPlayer = PlayerInstanceFromIndex(nextBossIndex);
+            if (IsValidPlayer(nextBossPlayer))
+                return nextBossPlayer;
+        }
+
         local playedAsBossAlready = GetPersistentVar("played_as_boss");
         if (playedAsBossAlready == null)
             SetPersistentVar("played_as_boss", playedAsBossAlready = []);
 
         local candidates = GetValidPlayers().slice();
-        if (iterations < 3 && RandomInt(1, 6) != 1) //We leave a small chance for a completely random selection
+        if (iterations < 3 && RandomInt(1, 10) != 1) //We leave a small chance for a completely random selection
         {
             foreach (played in playedAsBossAlready)
             {
@@ -41,6 +66,13 @@ function ProgressBossQueue(iterations = 0)
     }
     catch(e)
     {
-        return GetValidClients()[RandomInt(0, GetValidPlayers().len() - 1)];
+        try
+        {
+            return GetValidPlayers()[RandomInt(0, GetValidPlayers().len() - 1)];
+        }
+        catch(e1)
+        {
+            return GetValidClients()[RandomInt(0, GetValidClients().len() - 1)];
+        }
     }
 }

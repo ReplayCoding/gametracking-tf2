@@ -22,6 +22,8 @@ AddListener("tick_always", 0, function (timeDelta)
         {
             SetPropInt(weapon, "m_iWorldModelIndex", empty_model_index);
             weapon.DisableDraw();
+            SetPropInt(weapon, "m_nRenderMode", 1);
+            weapon.SetModelScale(0.05, 0)
         }
     }
 });

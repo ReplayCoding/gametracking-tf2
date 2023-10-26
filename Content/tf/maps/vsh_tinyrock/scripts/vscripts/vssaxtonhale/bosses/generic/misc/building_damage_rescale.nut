@@ -15,10 +15,12 @@ class BuildingDamageRescaleTrait extends BossTrait
 {
     function OnDamageDealt(victim, params)
     {
-        if (IsCollateralDamage(params.damage_type) || victim == null || victim.GetClassname().find("obj_") == null)
+        if (victim == null || IsCollateralDamage(params.damage_type) || victim.GetClassname().find("obj_") == null)
             return;
 
         local level = GetPropInt(victim, "m_iUpgradeLevel");
         params.damage *= 1 - 0.2 * level;
+        if (GetPropInt(victim, "m_nShieldLevel") > 0)
+            params.damage *= 3;
     }
 };

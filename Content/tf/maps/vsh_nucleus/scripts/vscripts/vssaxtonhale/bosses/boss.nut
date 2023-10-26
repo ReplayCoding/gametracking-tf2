@@ -35,6 +35,7 @@ class Boss extends CharacterTrait
 
     function OnApply()
     {
+        player.ForceRespawn();
         RunWithDelay2(this, 0, OnApply0Delay);
     }
 
@@ -70,6 +71,7 @@ Include("/bosses/generic/misc/setup_stat_refresh.nut");
 Include("/bosses/generic/misc/taunt_handler.nut");
 Include("/bosses/generic/misc/building_damage_rescale.nut");
 Include("/bosses/generic/misc/spawn_protection.nut");
+Include("/bosses/generic/misc/no_gib_fix.nut");
 Include("/bosses/generic/voice_lines/jarated.nut");
 Include("/bosses/generic/voice_lines/kill.nut");
 Include("/bosses/generic/voice_lines/round_start.nut");

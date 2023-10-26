@@ -26,6 +26,7 @@ characterTraitsClasses.push(class extends CharacterTrait
     {
         local weapon = params.weapon;
         if (WeaponIs(weapon, "eyelander")
+        || WeaponIs(weapon, "eyelander_xmas")
         || WeaponIs(weapon, "headtaker")
         || WeaponIs(weapon, "golf_club")
         || WeaponIs(weapon, "eyelander_xmas"))

@@ -29,8 +29,6 @@ function SetConvars()
     Convars.SetValue("mp_scrambleteams_auto", 0);
     Convars.SetValue("mp_stalemate_timelimit", 9999999);
     Convars.SetValue("mp_scrambleteams_auto_windifference", 0);
-    Convars.SetValue("mp_winlimit", 0);
-    Convars.SetValue("mp_maxrounds", 0);
     Convars.SetValue("mp_humans_must_join_team", "red");
     Convars.SetValue("tf_rd_points_per_approach", "500");
     Convars.SetValue("sv_vote_issue_autobalance_allowed", "0");

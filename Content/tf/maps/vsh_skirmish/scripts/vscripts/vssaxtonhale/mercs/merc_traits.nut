@@ -47,6 +47,7 @@ Include("/mercs/voice_lines/all_class/no_medic.nut");
 Include("/mercs/voice_lines/all_class/setup.nut");
 Include("/mercs/voice_lines/all_class/wall_climb.nut");
 Include("/mercs/voice_lines/all_class/victory.nut");
+Include("/mercs/voice_lines/all_class/silent_tie.nut");
 
 Include("/mercs/voice_lines/single_class/scout_marked.nut");
 Include("/mercs/voice_lines/single_class/soldier_jumper.nut");

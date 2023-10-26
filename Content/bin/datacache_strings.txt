@@ -235,16 +235,18 @@ fffff.
 N4ff.
 ^_[]
 ^_[]
-B @t
+C @u
 ,^_[]
-fff.
 <^_[]
 fff.
 ^_[]
 ^_[]
 ffffff.
 ffffff.
+C;^(
 ,^_[]
+^_[]
+fffff.
 ^_[]
 fff.
 -ff.
@@ -1124,7 +1126,7 @@ Error Vertex File for '%s' checksum %d should be %d
 MDLCache: Alloc VVD %s
 MDLCache: Begin load VVD %s
 CMDLCache:: Out of memory
-Warning: freed a locked resource
+Warning: Attempted to free a locked resource.
 CMDLCache:: Error MDLCACHE_STUDIOHDR not present for '%s'
 .vmt
 Model textures
@@ -1899,11 +1901,12 @@ __ZThn8_N9CMDLCache4InitEv
 __ZN9CMDLCache8ShutdownEv
 __ZThn8_N9CMDLCache8ShutdownEv
 __ZN9CMDLCache5FlushEti
-/Users/buildbot/buildslave/rel_hl2_osx/build/src/public/tier0/memalloc.h
 __ZN9CMDLCache10ClearAsyncEt18MDLCacheDataType_tib
 __ZN9CMDLCache18UnloadHardwareDataEtbb
 __ZN9CMDLCache16FreeVirtualModelEt
 __ZN9CMDLCache14FreeAnimBlocksEt
+__ZN9CMDLCache11UncacheDataEP13memhandle_t__18MDLCacheDataType_tb
+/Users/buildbot/buildslave/rel_hl2_osx/build/src/public/tier0/memalloc.h
 __ZN9CMDLCache18NotifyFileUnloadedEtPKc
 __ZN9CMDLCache14SetCacheNotifyEP15IMDLCacheNotify
 __ZN9CMDLCache12GetModelNameEt
@@ -2029,7 +2032,7 @@ __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountS
 __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.56131.9wK5uO.ii
+__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.31269.eCfWF3.ii
 __ZTS9CMDLCache
 __ZTS15CTier3AppSystemI9IMDLCacheLi0EE
 __ZTS15CTier2AppSystemI9IMDLCacheLi0EE
@@ -2490,6 +2493,7 @@ __ZN9CMDLCache10ClearAsyncEt18MDLCacheDataType_tib
 __ZN9CMDLCache18UnloadHardwareDataEtbb
 __ZN9CMDLCache16FreeVirtualModelEt
 __ZN9CMDLCache14FreeAnimBlocksEt
+__ZN9CMDLCache11UncacheDataEP13memhandle_t__18MDLCacheDataType_tb
 __ZN9CMDLCache18NotifyFileUnloadedEtPKc
 __ZN9CMDLCache14SetCacheNotifyEP15IMDLCacheNotify
 __ZN9CMDLCache12GetModelNameEt
@@ -2606,7 +2610,7 @@ __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountS
 __ZN9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEEclEv
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED1Ev
 __ZThn8_N9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEED0Ev
-__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.56131.9wK5uO.ii
+__GLOBAL__sub_I_mdlcache.stdout.rel_tf_osx_builder.31269.eCfWF3.ii
 __Z21ConnectTier2LibrariesPPFPvPKcPiEi
 __Z24DisconnectTier2Librariesv
 __Z21ConnectTier3LibrariesPPFPvPKcPiEi

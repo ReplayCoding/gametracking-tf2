@@ -87,10 +87,16 @@ AddListener("tick_always", 8, function(timeDelta)
     }
     if (GetAliveMercCount() <= 5 && GetPropFloat(team_round_timer, "m_flTimeRemaining") > 60)
         EntFireByHandle(team_round_timer, "SetTime", "60", 0, null, null);
-    if (GetAliveMercCount() <= 0)
-        EndRound(TF_TEAM_BOSS);
-    if (!IsAnyBossAlive())
+
+    local noBossesAlive = !IsAnyBossAlive();
+    local noMercsAlive = GetAliveMercCount() <= 0;
+
+    if (noBossesAlive && noMercsAlive)
+        EndRound(TF_TEAM_UNASSIGNED);
+    else if (noBossesAlive)
         EndRound(TF_TEAM_MERCS);
+    else if (noMercsAlive)
+        EndRound(TF_TEAM_BOSS);
 });
 
 function EndRound(winner)

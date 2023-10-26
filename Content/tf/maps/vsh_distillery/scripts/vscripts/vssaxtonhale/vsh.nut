@@ -28,5 +28,7 @@ Include("/bosses/boss.nut");
 Include("/_gamemode/hud.nut");
 Include("/_gamemode/gamerules.nut");
 
+try { IncludeScript("vsh_addons/main.nut"); } catch(e) { }
+
 __CollectGameEventCallbacks(this);
 __CollectEventCallbacks(this, "OnGameEvent_", "GameEventCallbacks", RegisterScriptGameEventListener);

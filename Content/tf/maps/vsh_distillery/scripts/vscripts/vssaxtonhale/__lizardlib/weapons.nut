@@ -11,10 +11,12 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
+//Why does this table exist? Because the same weapon can have multiple IDs, namely, pre-JI weapon skins.
 ::weaponModels <- {
     market_gardener = GetModelIndex("models/workshop/weapons/c_models/c_market_gardener/c_market_gardener.mdl"),
     holiday_punch = GetModelIndex("models/workshop/weapons/c_models/c_xms_gloves/c_xms_gloves.mdl"),
     eyelander = GetModelIndex("models/weapons/c_models/c_claymore/c_claymore.mdl"),
+    eyelander_xmas = GetModelIndex("models/weapons/c_models/c_claymore/c_claymore_xmas.mdl"),
     headtaker = GetModelIndex("models/weapons/c_models/c_headtaker/c_headtaker.mdl"),
     golf_club = GetModelIndex("models/workshop/weapons/c_models/c_golfclub/c_golfclub.mdl"),
     claymore_xmas = GetModelIndex("models/weapons/c_models/c_claymore/c_claymore_xmas.mdl"),
@@ -40,6 +42,7 @@
     sticky_jumper = GetModelIndex("models/weapons/c_models/c_sticky_jumper/c_sticky_jumper.mdl"),
     disciplinary_action = GetModelIndex("models/workshop/weapons/c_models/c_riding_crop/c_riding_crop.mdl"),
     eviction_notice = GetModelIndex("models/workshop/weapons/c_models/c_eviction_notice/c_eviction_notice.mdl"),
+    diamondback = GetModelIndex("models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl"),
 }
 
 ::SetItemId <- function(item, id)

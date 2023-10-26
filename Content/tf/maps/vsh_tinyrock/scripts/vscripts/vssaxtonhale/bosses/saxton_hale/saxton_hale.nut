@@ -27,6 +27,7 @@ class SaxtonHale extends Boss
     function OnApply0Delay()
     {
         player.SetPlayerClass(TF_CLASS_HEAVY);
+        player.Regenerate(true);
         SetPropInt(player, "m_bForcedSkin", 1);
         SetPropInt(player, "m_nForcedSkin", 0);
 
@@ -39,11 +40,11 @@ class SaxtonHale extends Boss
             vsh_vscript.Hale_SetRedArm(player, false);
             vsh_vscript.Hale_SetBlueArm(player, false);
             player.CreateCustomWearable(null, saxton_aura_model_path);
-            //player.GiveWeapon("Hale's Own Fists", null, AutoSwitch); //todo?
+            player.GiveWeapon("Hale's Own Fists");
         });
 
         player.SetModelScale(API_GetFloat("boss_scale"), 0);
-        player.GiveWeapon("Hale's Own Fists", null, AutoSwitch);
+        player.GiveWeapon("Hale's Own Fists");
 
         player.AddCustomAttribute("move speed bonus", 1.8, -1);
         player.AddCustomAttribute("cancel falling damage", 1, -1);
@@ -88,6 +89,7 @@ AddBossTrait("saxton_hale", ReceivedDamageScalingTrait);
 AddBossTrait("saxton_hale", StunBreakoutTrait);
 AddBossTrait("saxton_hale", BuildingDamageRescaleTrait);
 AddBossTrait("saxton_hale", SpawnProtectionTrait);
+AddBossTrait("saxton_hale", NoGibFixTrait);
 
 AddBossTrait("saxton_hale", JaratedVoiceLine);
 AddBossTrait("saxton_hale", LastMannHidingVoiceLine);

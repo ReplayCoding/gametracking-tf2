@@ -14,7 +14,6 @@
 PrecacheScriptSound("vsh_sfx.boss_slam_impact");
 PrecacheScriptSound("vsh_sfx.slam_ready");
 
-
 class MightySlamTrait extends BossTrait
 {
     meter = 0;
@@ -74,7 +73,7 @@ class MightySlamTrait extends BossTrait
         {
             BossPlayViewModelAnim(boss, "vsh_slam_fall");
             boss.AddCustomAttribute("no_attack", 1, 0.25);
-            SetItemId(boss.GetActiveWeapon(), 1123); //Necro Smasher
+            SetItemId(boss.GetActiveWeapon(), 264); //Frying Pan
         }
     }
 

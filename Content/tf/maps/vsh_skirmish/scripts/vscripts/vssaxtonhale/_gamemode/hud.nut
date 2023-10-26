@@ -40,6 +40,8 @@ AddListener("tick_only_valid", 2, function (timeDelta)
 
     foreach (player in GetValidMercs())
     {
+        if (GetPropInt(player, "m_nButtons") & IN_SCORE)
+            continue;
         local number = floor(player in damage ? damage[player] : 0);
         local offset = number < 10 ? 0.498 : number < 100 ? 0.493 : number < 1000 ? 0.491 : 0.487;
 

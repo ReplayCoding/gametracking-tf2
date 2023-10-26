@@ -48,6 +48,9 @@ characterTraitsClasses.push(class extends CharacterTrait
             {
                 RunWithDelay("YERDisguise(activator)", player, 0.1);
             }
+
+            if (WeaponIs(player.GetWeaponBySlot(TF_WEAPONSLOTS.PRIMARY), "diamondback"))
+                AddPropInt(player, "m_Shared.m_iRevengeCrits", 2);
         }
     }
 });
@@ -72,13 +75,14 @@ function YERDisguise(player)
     {
         teammate = PlayerInstanceFromIndex(i);
         if (teammate != player && IsMercValidAndAlive(teammate))
-            break;
+        {
+            SetPropEntity(player, "m_Shared.m_hDisguiseTarget", teammate);
+            SetPropInt(player, "m_Shared.m_nDisguiseTeam", teammate.GetTeam());
+            SetPropInt(player, "m_Shared.m_nDisguiseClass", teammate.GetPlayerClass());
+            SetPropInt(player, "m_Shared.m_nDisguiseHealth", teammate.GetHealth());
+            SetPropInt(player, "m_Shared.m_nMaskClass", teammate.GetPlayerClass());
+            player.AddCond(TF_COND_DISGUISED);
+            return;
+        }
     }
-    if (teammate == null)
-        return;
-    SetPropEntity(player, "m_hDisguiseTarget", teammate);
-    SetPropInt(player, "m_nDisguiseTeam", teammate.GetTeam());
-    SetPropInt(player, "m_nDisguiseClass", teammate.GetPlayerClass());
-    SetPropInt(player, "m_nDisguiseHealth", teammate.GetHealth());
-    player.AddCond(TF_COND_DISGUISED);
 }
