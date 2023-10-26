@@ -5,7 +5,7 @@
 	"soundlevel"	"SNDLVL_105dB"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")coalpit/freeze_ray_fire.mp3"
+	"wave"		")coalpit_sfx/freeze_ray_fire.mp3"
 }
 
 "FreezeRay.FireDistant"
@@ -15,7 +15,7 @@
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
 
-	"wave"		")coalpit/freeze_ray_fire_dist.mp3"
+	"wave"		")coalpit_sfx/freeze_ray_fire_dist.mp3"
 }
 
 "SnowmanBomb.Appear"
@@ -28,8 +28,8 @@
 	
 	"rndwave"
 	{
-		"wave"			")coalpit/snowman_appear1.mp3"
-		"wave"			")coalpit/snowman_appear2.mp3"
+		"wave"			")coalpit_sfx/snowman_appear1.mp3"
+		"wave"			")coalpit_sfx/snowman_appear2.mp3"
 	}
 }
 
@@ -43,9 +43,9 @@
 	
 	"rndwave"
 	{
-		"wave"			")coalpit/snowman_explode1.mp3"
-		"wave"			")coalpit/snowman_explode2.mp3"
-		"wave"			")coalpit/snowman_explode3.mp3"
+		"wave"			")coalpit_sfx/snowman_explode1.mp3"
+		"wave"			")coalpit_sfx/snowman_explode2.mp3"
+		"wave"			")coalpit_sfx/snowman_explode3.mp3"
 	}
 }
 
