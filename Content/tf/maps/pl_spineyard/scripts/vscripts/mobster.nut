@@ -19,12 +19,12 @@ if (!("ConstantNamingConvention" in ROOT))
 
 const MOBSTER_IDLE_SOUND = "Halloween.skeleton_laugh_medium"
 const MOBSTER_WEAPON_MODEL = "models/props_tuscany/tommygun_01.mdl"
-const MOBSTER_WEAPON_SHOOT_SOUND = "Weapon_ClassicSniperRifle.Single"
+const MOBSTER_WEAPON_SHOOT_SOUND = "Weapon_SMG.Single"
 const MOBSTER_WEAPON_TRACER_PARTICLE = "bullet_pistol_tracer01_red"
-const MOBSTER_WEAPON_MUZZLEFLASH_PARTICLE = "muzzle_sentry"
+const MOBSTER_WEAPON_MUZZLEFLASH_PARTICLE = "muzzle_smg"
 const MOBSTER_WEAPON_DAMAGE = 3
 const MOBSTER_WEAPON_TIME_FIRE_DELAY = 0.1
-const MOBSTER_WEAPON_SPREAD = 0.05
+const MOBSTER_WEAPON_SPREAD = 0.1
 const MOBSTER_WEAPON_RANGE = 4000.0
 const MOBSTER_MAX_SPEED = 250.0
 const MOBSTER_FOV = 90.0
@@ -53,11 +53,11 @@ if (!("nextbots" in getroottable()))
 
 ::BotPathPoint <- class
 {
-	constructor(_area, _pos, _how)
+	constructor(area, pos, how)
 	{
-		area = _area
-		pos = _pos
-		how = _how
+		this.area = area
+		this.pos = pos
+		this.how = how
 	}
 
 	area = null
@@ -87,7 +87,7 @@ class Mobster
 		me.SetSequence(sequence_spawn)
 
 		weapon = SpawnEntityFromTable("prop_dynamic", { model = MOBSTER_WEAPON_MODEL, solid = SOLID_NONE })
-		EntFireByHandle(weapon, "SetParent", "!activator", 0, me, null)
+		EntFireByHandle(weapon, "SetParent", "!activator", -1, me, null)
 		weapon.SetMoveType(MOVETYPE_NONE, MOVECOLLIDE_DEFAULT)
 		NetProps.SetPropInt(weapon, "m_fEffects", EF_BONEMERGE | EF_BONEMERGE_FASTCULL)
 		weapon.SetLocalOrigin(Vector())
@@ -98,8 +98,8 @@ class Mobster
 		me.AddFlag(FL_NPC)
 		me.SetCollisionGroup(COLLISION_GROUP_PLAYER)
 
-		EntFireByHandle(me, "SetStepHeight", "18", 0, null, null)
-		EntFireByHandle(me, "SetMaxJumpHeight", "18", 0, null, null)
+		EntFireByHandle(me, "SetStepHeight", "18", -1, null, null)
+		EntFireByHandle(me, "SetMaxJumpHeight", "0", -1, null, null)
 		me.KeyValueFromFloat("speed", MOBSTER_MAX_SPEED)
 
 		me.SetSize(Vector(-24, -24, 0), Vector(24, 24, 82))
@@ -288,8 +288,8 @@ class Mobster
 
 		delta_yaw = AngleNormalize(delta_yaw)
 		
-		// Turn smoothly towards the target yaw
-		local turn_speed = MOBSTER_TURN_RATE / (1 + exp(-abs(delta_yaw)))
+		// Make turn speed proportional to delta_yaw
+		local turn_speed = MOBSTER_TURN_RATE * abs(delta_yaw) / (1 + exp(-abs(delta_yaw)))
 		if (delta_yaw > turn_speed) delta_yaw = turn_speed
 		else if (delta_yaw < -turn_speed) delta_yaw = -turn_speed
 
@@ -479,11 +479,11 @@ class Mobster
 				local clr
 				if (p1.how <= GO_WEST || p1.how >= NUM_TRAVERSE_TYPES)
 					clr = [0, 255, 0]
-				else if (p1.how ==  GO_JUMP)
+				else if (p1.how == GO_JUMP)
 					clr = [128, 128, 255]
 				else
 					clr = [255, 128, 192]
-					
+				
 				DebugDrawLine(p1.pos, p2.pos, clr[0], clr[1], clr[2], true, duration)
 				DebugDrawText(p1.pos, i.tostring(), false, duration)
 			}
@@ -491,59 +491,6 @@ class Mobster
 
 		foreach (name, area in path_areas)
 			area.DebugDrawFilled(255, 0, 0, 30, duration, true, 0.0)
-			
-		local text_pos = Vector(m_vecAbsOrigin.x, m_vecAbsOrigin.y, m_vecAbsOrigin.z + 90.0) + m_angAbsRotation.Left() * -32.0
-		local z_offset = -8.0
-		local m = movement
-		
-		DebugDrawText(
-			text_pos,
-			format("origin: %f %f %f", m.m_vecAbsOrigin.x, m.m_vecAbsOrigin.y, m.m_vecAbsOrigin.z), 
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("angles: %f %f %f", m.m_vecViewAngles.x, m.m_vecViewAngles.y, m.m_vecViewAngles.z), 
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("velocity: %f %f %f", m.m_vecVelocity.x, m.m_vecVelocity.y, m.m_vecVelocity.z), 
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("basevelocity: %f %f %f", m.m_vecBaseVelocity.x, m.m_vecBaseVelocity.y, m.m_vecBaseVelocity.z), 
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("forward: %g", m.m_flForwardMove),
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("side: %g", m.m_flSideMove),
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("ground: %s", m.m_ground ? m.m_ground.tostring() : "null"),
-			false, duration
-		)
-		text_pos.z += z_offset
-		DebugDrawText(
-			text_pos,
-			format("speed: %g", m.m_vecVelocity.Length2D()),
-			false, duration
-		)
-		text_pos.z += z_offset
 	}
 	
 	function Update()

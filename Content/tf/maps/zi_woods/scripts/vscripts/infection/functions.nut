@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection - V1                                                                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
 // All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -27,6 +27,18 @@ PrecacheResources <- function()
 
     return;
 };
+
+RoundUp <- function( _fValue ) {
+
+    local _iPart = _fValue.tointeger();
+
+    if( _fValue > _iPart )
+    {
+        return _iPart + 1;
+    };
+
+    return _iPart;
+}
 
 GetPlayerUserID <- function( _hPlayer )
 {
@@ -288,7 +300,8 @@ ShouldZombiesWin <- function( _hPlayer )
         } );
 
         // the zombies have won the round.
-        bGameStarted <- false;
+        printl( "Set ::bGameStarted to false")
+        ::bGameStarted <- false;
         EntFireByHandle ( _hGameWin, "RoundWin", "", 0, null, null );
     }
     else
@@ -729,6 +742,22 @@ CTFPlayer_GiveZombieWeapon <- function()
     return;
 };
 
+// CTFPlayer_Cloak <- function()
+// {
+//     if ( this.InCond( TF_COND_STEALTHED_USER_BUFF ) )
+//         return;
+
+//     this.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
+// };
+
+// CTFPlayer_Uncloak <- function()
+// {
+//     if ( !this.InCond( TF_COND_STEALTHED_USER_BUFF ) )
+//         return;
+
+//     this.RemoveCondEx( TF_COND_STEALTHED_USER_BUFF, true );
+// };
+
 CTFPlayer_AddZombieAttribs <- function()
 {
     local _iClassNum = this.GetPlayerClass();
@@ -866,7 +895,8 @@ CTFPlayer_BuildZombieHUDString <- function()
         local _nWholeSeconds = _flSecondsUntilAbility.tointeger();
         local _nDecimalPart  = ( _flSecondsUntilAbility - floor( _flSecondsUntilAbility ) );
 
-        _szMessage = ( STRING_UI_READY_IN + _nWholeSeconds + "" );
+        // todo: need to figure out localized strings and rewrite this
+        _szMessage += format( "%s %d", "Ready in", _nWholeSeconds );
 
         if ( _nDecimalPart <= 0.8 )
         {
@@ -1107,6 +1137,19 @@ CTFPlayer_ProcessEventQueue <- function(  )
                 _sc.m_hZombieAbility.PutAbilityOnCooldown();
                 break;
 
+            case EVENT_SPY_RECLOAK:
+
+                // start with standard cloak for spawn fx
+                this.AddCondEx( TF_COND_STEALTHED, 0.3, null );
+
+                // then swap to TF_COND_STEALTHED_USER_BUFF for the rest of the duration
+                this.AddEventToQueue( EVENT_SPY_SWAP_CLOAK, 0.2 );
+                break;
+
+            case EVENT_SPY_SWAP_CLOAK:
+                this.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
+                break;
+
             default:
                 _sc.m_tblEventQueue.rawdelete( _nearestEvent );
                 return;
@@ -1169,6 +1212,9 @@ CTFPlayer_ResetInfectionVars <- function()
     {
         _sc.m_iUserConfigFlags <- ZBIT_HAS_HUD;
     };
+
+    if ( !::bGameStarted )
+        _sc.m_bCanAddTime <- true;
 
     _sc.m_iFlags                <- ZBIT_SURVIVOR;
     _sc.m_tblEventQueue         <- { };

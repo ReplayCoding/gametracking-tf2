@@ -8536,6 +8536,8 @@ materials/effects/workshop/rainbow_sparkle.vtf a81800e3 87616
 materials/effects/workshop/rave_laser_trail.vtf e0cd1d6f 11168
 materials/effects/workshop/runeprison_runes.vtf 3118d677 699948
 materials/effects/workshop/sakura.vtf 061556ef 22080
+materials/effects/workshop/sapped/light1.vtf 247a8eab 5594772
+materials/effects/workshop/sapped/light2.vtf a29d16ce 5594772
 materials/effects/workshop/sc_softglow3.vtf cf992343 16608
 materials/effects/workshop/sea_splash_side.vtf 7b9d07a8 350956
 materials/effects/workshop/shootingstar/shootingstar.vtf dd9b3df8 5595080
@@ -16814,7 +16816,7 @@ materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastpho
 materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_1_normal.vtf 08dc2f49 349784
 materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_1_phongexponent.vtf 79b4db43 87640
 materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_color.vtf ce26a004 349784
-materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_normal.vtf 2d5b5cd8 349784
+materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_normal.vtf ae285420 349784
 materials/models/workshop/player/items/demo/hwn2023_blastphomet/hwn2023_blastphomet_phongexponent.vtf e44ff6d3 43936
 materials/models/workshop/player/items/demo/hwn2023_mad_lad/hwn2023_mad_lad_blue_color.vtf 5e64a0f8 175008
 materials/models/workshop/player/items/demo/hwn2023_mad_lad/hwn2023_mad_lad_color.vtf d5c89e00 175008
@@ -17299,9 +17301,13 @@ materials/models/workshop/player/items/engineer/hwn2023_constructors_cover/hwn20
 materials/models/workshop/player/items/engineer/hwn2023_constructors_cover/hwn2023_constructors_cover_color.vtf d13d17a7 175008
 materials/models/workshop/player/items/engineer/hwn2023_constructors_cover/hwn2023_constructors_cover_normal.vtf c97f4c65 349784
 materials/models/workshop/player/items/engineer/hwn2023_constructors_cover/hwn2023_constructors_cover_phongexponent.vtf 34731ae3 87640
+materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_1_blue_color.vtf f4fa6102 349784
+materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_1_color.vtf 1d89e1ed 349784
+materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_1_normal.vtf 65b1a81d 349784
+materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_1_phongexponent.vtf f9ffb879 87640
 materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_blue_color.vtf f4fa6102 349784
 materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_color.vtf 1d89e1ed 349784
-materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_normal.vtf 65b1a81d 349784
+materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_normal.vtf a3c17143 349784
 materials/models/workshop/player/items/engineer/hwn2023_dell_dynamic/hwn2023_dell_dynamic_phongexponent.vtf f9ffb879 87640
 materials/models/workshop/player/items/engineer/insulated_innovator/insulated_innovator_blue_color.vtf 3b155ead 349784
 materials/models/workshop/player/items/engineer/insulated_innovator/insulated_innovator_color.vtf 2aa8c8b4 349784
@@ -18943,7 +18949,11 @@ materials/models/workshop/player/items/scout/hwn2021_corpse_carrier/hwn2021_corp
 materials/models/workshop/player/items/scout/hwn2022_imps_imprint/hwn2022_imps_imprint_blue_color.vtf f3c4b124 349784
 materials/models/workshop/player/items/scout/hwn2022_imps_imprint/hwn2022_imps_imprint_color.vtf 6417188c 349784
 materials/models/workshop/player/items/scout/hwn2022_imps_imprint/hwn2022_imps_imprint_normal.vtf 724a1aad 349784
-materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_color.vtf 9d86621f 349784
+materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_1_color.vtf 9d86621f 349784
+materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_1_normal.vtf 73c85054 349784
+materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_1_phongexponent.vtf e8936992 87640
+materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_color.vtf f2d8c5c2 43936
+materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_illum.vtf a35d9cd5 87640
 materials/models/workshop/player/items/scout/hwn2022_masked_fiend/hwn2022_masked_fiend_normal.vtf 73c85054 349784
 materials/models/workshop/player/items/scout/hwn2023_jumping_jester/hwn2023_jumping_jester_blue_color.vtf eecc19e4 349784
 materials/models/workshop/player/items/scout/hwn2023_jumping_jester/hwn2023_jumping_jester_color.vtf 1074a898 349784

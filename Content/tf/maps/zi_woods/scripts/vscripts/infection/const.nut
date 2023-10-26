@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection - V1                                                                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
 // All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -21,9 +21,9 @@ const MIN_TIME_BETWEEN_SPIT_CAST       = 5;     // Ability Cooldown  - Sniper Sp
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_SPY_REVEAL      = 10;    // Ability Cooldown  - Spy Reveal Cast     //
 // --------------------------------------------------------------------------------------- //
-const MIN_TIME_BETWEEN_SOLDIER_POUNCE  = 10;    // Ability Cooldown  - Soldier Pounce Cast //
+const MIN_TIME_BETWEEN_SOLDIER_POUNCE  = 5;     // Ability Cooldown  - Soldier Pounce Cast //
 // --------------------------------------------------------------------------------------- //
-const MIN_TIME_BETWEEN_MEDIC_HEAL      = 11;    // Ability Cooldown  - Medic Heal Cast     //
+const MIN_TIME_BETWEEN_MEDIC_HEAL      = 7;     // Ability Cooldown  - Medic Heal Cast     //
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_DEMO_CHARGE     = 6;     // Ability Cooldown  - Demo Charge Cast    //
 // --------------------------------------------------------------------------------------- //
@@ -32,7 +32,7 @@ const MIN_TIME_BETWEEN_DEMO_CHARGE     = 6;     // Ability Cooldown  - Demo Char
 /////////////////////////////////////////////////////////////////////////////////////////////
 const ADDITIONAL_SEC_PER_PLAYER        = 8;     // Additional time added per player        //
 const ROUND_TIMER_NAME                 = "infection_timer"    // targetname of round timer //
-const STARTING_ZOMBIE_FAC              = 6;                                                //
+const STARTING_ZOMBIE_FAC              = 5;                                                //
 /////////////////////////////////////////////////////////////////////////////////////////////
 // Zombie Stats |------------------------------------------------------------------------- //
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -44,7 +44,7 @@ const ZSNIPER_DMG_MULTI                = 1;     // Sniper   Zombie Damage Multip
 const ZSOLDIER_DMG_MULTI               = 1;     // Soldier  Zombie Damage Multiplier       //
 const ZDEMOMAN_DMG_MULTI               = 1;     // Demoman  Zombie Damage Multiplier       //
 const ZMEDIC_DMG_MULTI                 = 1;     // Medic    Zombie Damage Multiplier       //
-const ZHEAVY_DMG_MULTI                 = 2;     // Heavy    Zombie Damage Multiplier       //
+const ZHEAVY_DMG_MULTI                 = 2.2;   // Heavy    Zombie Damage Multiplier       //
 const ZPYRO_DMG_MULTI                  = 0.7;   // Pyro     Zombie Damage Multiplier       //
 const ZSPY_DMG_MULTI                   = 1;     // Spy      Zombie Damage Multiplier       //
 const ZENGINEER_DMG_MULTI              = 1;     // Engineer Zombie Damage Multiplier       //
@@ -97,6 +97,7 @@ ZOMBIE_WEP_ATTRIBS <- [ ////////////////////////////////////////////////////////
 [// attributes for scout zombie weapon --------------------------------------------------- //
 ["damage bonus", ZSCOUT_DMG_MULTI, -1 ],        // set class specific damage multi         //
 ["move speed bonus", 1.75, -1 ],                // extra movement speed for scout passive  //
+["increased jump height from weapon", 1.25, -1] // additional jump height                  //
 ],                                              //                                         //
 [// attributes for sniper zombie weapon -------------------------------------------------- //
 ["damage bonus", ZSNIPER_DMG_MULTI, -1 ],       // set class specific damage multi         //
@@ -147,7 +148,8 @@ ZOMBIE_PLAYER_CONDS <- [ ///////////////////////////////////////////////////////
 [// TF_CONDs applied to medic zombie ----------------------------------------------------- //
 ],                                              //                                         //
 [// TF_CONDs applied to heavyweapons zombie ---------------------------------------------- //
-    TF_COND_NO_KNOCKBACK,                       // heavy zombie                            //
+    TF_COND_NO_KNOCKBACK,                       // cannot be knocked back                  //
+    TF_COND_DEFENSEBUFF,                        // battalion's backup effect               //
 ],                                              //                                         //
 [// TF_CONDs applied to pyro zombie ------------------------------------------------------ //
 ],                                              //                                         //
@@ -177,19 +179,19 @@ ZOMBIE_PLAYER_ATTRIBS <- [ /////////////////////////////////////////////////////
 ],                                                    //                                   //
 [// attributes for sniper zombie  -------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 [// attributes for soldier zombie  ------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 [// attributes for demo zombie  ---------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 [// attributes for medic zombie  --------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 [// attributes for heavyweapons zombie  -------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
@@ -201,11 +203,11 @@ ZOMBIE_PLAYER_ATTRIBS <- [ /////////////////////////////////////////////////////
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
 ],                                                    //                                   //
 [// attributes for spy zombie  ----------------------------------------------------------- //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 [// attributes for engy zombie  ---------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 10, -1 ],             //                                   //
+["hidden maxhealth non buffed", 25, -1 ],             //                                   //
 ],                                                    //                                   //
 ];                                                    //                                   //
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -233,6 +235,9 @@ SNIPER_SPIT_ZONE_ENTS <-
 {
     "tf_pumpkin_bomb" : "ignite",
     "tf_generic_bomb" : "detonate",
+    "obj_sentrygun"   : "building",
+    "obj_dispenser"   : "building",
+    "obj_teleporter"  : "building",
 };
 
 PROBLEMATIC_PLAYER_CONDS <-
@@ -247,7 +252,9 @@ PROBLEMATIC_PLAYER_CONDS <-
     8,  // TF_COND_INVULNERABLE_WEARINGOFF
     9,  // TF_COND_STEALTHED_BLINK
     11, // TF_COND_CRITBOOSTED
+    14, // TF_COND_PHASE
     13, // TF_COND_FEIGN_DEATH
+    19, // TF_COND_ENERGY_BUFF
     47, // TF_COND_DISGUISE_WEARINGOFF
     64, // TF_COND_STEALTHED_USER_BUFF
     66, // TF_COND_STEALTHED_USER_BUFF_FADING
@@ -411,6 +418,8 @@ const EVENT_PUT_ABILITY_ON_CD      = 10;
 const EVENT_DOWNWARDS_VIEWPUNCH    = 11;
 const EVENT_KILL_TEMP_ENTITY       = 12;
 const EVENT_DEMO_EMERGENCY_EXIT    = 13;
+const EVENT_SPY_RECLOAK            = 14;
+const EVENT_SPY_SWAP_CLOAK         = 15;
 
 const ZBIT_PARTICLE_HACK           = 0x1;
 const ZBIT_PENDING_ZOMBIE          = 0x2;
@@ -436,6 +445,7 @@ const ZBIT_OUT_OF_COMBAT           = 0x80000;
 const ZBIT_THE_OMBUDSMAN           = 0x100000;
 const ZBIT_SOLDIER_IN_POUNCE       = 0x400000;
 const ZBIT_SCOUT_HAS_TRIPLE_JUMPED = 0x800000;
+const ZBIT_AUTOTEAM                = 0x1000000;
 
 const ZABILITY_THROWABLE           = 0;
 const ZABILITY_PROJECTILE          = 1;
@@ -448,7 +458,7 @@ const ZHUD_X_READY_OFFSET          = 0.014;
 const ZHUD_X_PASSIVE_OFFSET        = 0.006;
 
 const TF_NERF_MINIGUN_Z_DMG        = 0.6;
-const TF_NERF_SENTRY_Z_DMG         = 0.6;
+const TF_NERF_SENTRY_Z_DMG         = 0.35;
 const Z_NERF_SHIELD_TF_DMG         = 0.5;
 
 const TF_IDX_UNDEFINED             = -1;
@@ -463,3 +473,9 @@ const TF_COND_SPEED_BOOST          = 32;
 const TF_WEAPON_COUNT              = 7;
 const TF_DEATH_FEIGN_DEATH         = 32;
 const TF_DEATH_GIBBED              = 0x0080;
+
+// Note: these won't work until after Scream Fortress 2023
+const HIDEHUD_BUILDING_STATUS     =  0x1000   // Hide Engineer building status
+const HIDEHUD_CLOAK_AND_FEIGN     =  0x2000   // Hide item effect meter (cloak, etc.)
+const HIDEHUD_PIPES_AND_CHARGE    =  0x4000   // Hide Demoman HUD
+const HIDEHUD_METAL               =  0x8000   // Metal/account HUD

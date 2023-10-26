@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection - V1                                                                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
 // All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -16,11 +16,11 @@ function Main()
 
         // from valve developer wiki - bring all constants in to global scope
         foreach (a,b in Constants)
-            foreach (k,v in b)
-                if (v == null)
-                    root[k] <- 0;
-                else
-                    root[k] <- v;
+        foreach (k,v in b)
+        if (v == null)
+        root[k] <- 0;
+        else
+        root[k] <- v;
 
         IncludeScript ( "infection/const.nut", root);
         IncludeScript ( "infection/strings.nut", root);
@@ -34,8 +34,41 @@ function Main()
     return true;
 };
 
+// changes //////////////////////////////////////////////////////////////////////////////////
+// 12/10/2023 - v2.2 --------------------------------------------------------------------- //
+// -- All Zombies (except for Scout, Heavy and Spy) have 25 bonus HP (up from 10)          //
+// -- Starting Zombie Factor is now 1/5 of all players (previous 1/6)                      //
+// -- -- The game will also now always round up the number of starting zombies             //
+// -- Added additional HIDEHUD bits to remove irrelevant HUD elements when playing Zombie  //
+// -- Reduce damage dealt to Zombies by sentry guns by 60% (previously 40%)                //
+// -- Removed damage reduction for Human Demoman wearing a shield                          //
+// -- Zombie Scout now has an additional 25% jump height                                   //
+// -- Zombie Heavy now has Battalion's Backup effect                                       //
+// -- Zombie Heavy has an additional 20% melee damage                                      //
+// -- Zombie Medic Heal cooldown reduced to 7 seconds (previously 11)                      //
+// -- Zombie Spy is now cloaked on spawn                                                   //
+// -- -- Attacking or using an ability will remove the cloak                               //
+// -- -- Cloak will be restored after 3 seconds of not attacking or using an ability       //
+// -- Zombie Pyro no longer drops a small health pack on death                             //
+// -- Zombie Pyro now bursts in to a firey explosion on death                              //
+// -- -- All enemies within 256 hu of a dying Zombie Pyro are set on fire                  //
+// -- Zombie Engineer's EMP Grenade no longer slides on sloped surfaces                    //
+// -- Zombie Engineer's EMP Grenade now deals 110 damage to all buildings hit              //
+// -- Zombie Engineer's EMP Grenade can now kill buildings                                 //
+// -- Zombie Sniper's Spit now deals damage to sentry guns, teleporters and dispensers     //
+// -- Zombie Sniper now drops a spit pool on death                                         //
+// -- Zombie Soldier's Pounce has been adjusted to feel more like a blast jump             //
+// -- Zombie Soldier's Pounce cooldown reduced to 5 seconds (previously 10)                //
+// -- Fixed a bug where Zombie Demo could detonate himself before the charge had started   //
+// -- Fixed a bug where Bonk! Atomic Punch could persist through Zombie conversion         //
+// -- Fixed a bug where Crit-a-Cola could persist through Zombie conversion                //
+// -- Fixed various issues caused by Zombie Demo surviving his own charge                  //
+// -- Fixed issues with the Zombie HUD not correctly displaying certain strings            //
+// -- Fixed autoteam exploit                                                               //
+// --------------------------------------------------------------------------------------- //
+
 if ( Main() )
-    bGameStarted <- false;
+    ::bGameStarted <- false;
 
 try {
     _CONST;
@@ -66,8 +99,9 @@ function OnGameEvent_player_spawn( params )
     // so let's make sure it's cleared whenever a player has respawned
     _hPlayer.SetScriptOverlayMaterial( "" );
     _hPlayer.ResetInfectionVars();
+
     // game hasn't started, player should be a survivor
-    if ( !bGameStarted )
+    if ( !::bGameStarted )
     {
         // force the player to red team and then respawn them
         if ( _hPlayer.GetTeam() == TF_TEAM_BLUE )
@@ -137,7 +171,7 @@ function OnGameEvent_player_spawn( params )
 
 function OnGameEvent_teamplay_setup_finished( params )
 {
-    bGameStarted <- true;
+    ::bGameStarted <- true;
 
     local _iPlayerCountRed    = PlayerCount( TF_TEAM_RED );
     local _numStartingZombies = -1;
@@ -158,7 +192,7 @@ function OnGameEvent_teamplay_setup_finished( params )
         });
 
         EntFireByHandle( _hGameWin, "RoundWin", "", 0, null, null );
-        bGameStarted <- false;
+        ::bGameStarted <- false;
         return;
     }
     else if ( ( _iPlayerCountRed > 1 ) && ( _iPlayerCountRed < 5 ) && ( _numStartingZombies == -1 ) )
@@ -174,11 +208,11 @@ function OnGameEvent_teamplay_setup_finished( params )
     else if ( ( _iPlayerCountRed < 18 ) && ( _numStartingZombies == -1 ) )
     {
         // 7 - 17 players, 3 zombies.
-        _numStartingZombies = 3;
+        _numStartingZombies = 4;
     }
     else if ( _numStartingZombies == -1 ) // everything else, player count / zombie factor (default: 6)
     {
-        _numStartingZombies = ( _iPlayerCountRed / STARTING_ZOMBIE_FAC ).tointeger();
+        _numStartingZombies = RoundUp( _iPlayerCountRed / STARTING_ZOMBIE_FAC );
     };
 
     local _szZombieNetNames  =  "";
@@ -289,7 +323,8 @@ function OnGameEvent_teamplay_broadcast_audio( params )
 
 function OnGameEvent_teamplay_restart_round( params )
 {
-    bGameStarted <- false;
+    printl( "Set ::bGameStarted to false")
+    ::bGameStarted <- false;
 
     local _hNextPlayer = null;
 
@@ -324,12 +359,12 @@ function OnGameEvent_player_death( params )
     if ( _hPlayer == null )
         return;
 
-    local _sc                 =  _hPlayer.GetScriptScope();
-    local _iClassNum          =  _hPlayer.GetPlayerClass();
-    local _hPlayerTeam        =  _hPlayer.GetTeam();
-    local _bIsEngineerWithEMP =  ( _hPlayer.GetPlayerClass() == TF_CLASS_ENGINEER && _hPlayer.CanDoAct( ZOMBIE_ABILITY_CAST ) );
+    local _sc                  =  _hPlayer.GetScriptScope();
+    local _iClassNum           =  _hPlayer.GetPlayerClass();
+    local _hPlayerTeam         =  _hPlayer.GetTeam();
+    local _bIsEngineerWithEMP  =  ( _hPlayer.GetPlayerClass() == TF_CLASS_ENGINEER && _hPlayer.CanDoAct( ZOMBIE_ABILITY_CAST ) );
 
-    if ( bGameStarted && _hPlayerTeam == TF_TEAM_BLUE ) // zombie has died
+    if ( ::bGameStarted && _hPlayerTeam == TF_TEAM_BLUE ) // zombie has died
     {
         // zombie engie with unused emp grenade drops a small ammo kit
         // so just use the one valve spawned for us
@@ -346,6 +381,11 @@ function OnGameEvent_player_death( params )
             };
         };
 
+        if ( _hPlayer.GetPlayerClass() == TF_CLASS_SNIPER )
+        {
+            _sc.m_hZombieAbility.CreateSpitball( true );
+        };
+
         // zombie pyro always drops a gas jar on death
         if ( _hPlayer.GetPlayerClass() == TF_CLASS_PYRO )
         {
@@ -355,10 +395,50 @@ function OnGameEvent_player_death( params )
             });
 
             _hGas.SetOwner( _hPlayer );
-        };
 
-        // zombies always create a small health kit on death
-        CreateSmallHealthKit( _hPlayer.GetOrigin() );
+            local _hNextPlayer = null;
+            while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 256 ) )
+            {
+                if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
+                {
+                    // trigger a 1 dmg attack from pyro on each player in the area
+                    // this will set them on fire.
+                    _hNextPlayer.TakeDamageEx( _hPlayer,
+                                               _hPlayer,
+                                               _hPlayer.GetActiveWeapon(),
+                                               Vector(0,0,0),
+                                               _hNextPlayer.GetLocalOrigin(), 1, (DMG_CLUB) )
+                };
+            };
+
+
+
+            // local _hIgniteTrigger = SpawnEntityFromTable( "trigger_ignite",
+            // {
+            //     burn_duration             = 3,
+            //     damage_percent_per_second = 8,
+            //     spawnflags                = 1,
+            //     solid                     = 2,
+            // });
+
+            // _hIgniteTrigger.KeyValueFromString ( "mins", "0 0 0" );
+            // _hIgniteTrigger.KeyValueFromString ( "maxs", "256 256 256" );
+
+            // EntFireByHandle ( _hIgniteTrigger, "Enable", "", -1, null, null );
+
+            // _hIgniteTrigger.SetAbsOrigin( _hPlayer.GetCenter() );
+
+            // EntFireByHandle        ( _hIgniteTrigger, "Kill", "", 1, null, null );
+
+            DispatchParticleEffect ( "fireSmokeExplosion_track", _hPlayer.GetLocalOrigin(), Vector( 0, 0, 0 ) );
+
+
+        }
+        else
+        {
+            // zombies (that aren't pyro) always create a small health kit on death
+            CreateSmallHealthKit( _hPlayer.GetOrigin() );
+        };
 
         // ------------------------------------- //
         // remove zombie "vgui"                  //
@@ -413,7 +493,7 @@ function OnGameEvent_player_death( params )
         return; // zombie death event ends here
     };
 
-    if ( bGameStarted ) // if the game is started, a dying survivor becomes a zombie
+    if ( ::bGameStarted ) // if the game is started, a dying survivor becomes a zombie
     {
         // player was survivor, killed by a zombie and wasn't suicide
         if ( _hKiller && _hKiller.GetClassname() == "player" && _hKiller.GetTeam() == TF_TEAM_BLUE && _hPlayerTeam == TF_TEAM_RED )
@@ -434,6 +514,16 @@ function OnGameEvent_player_death( params )
                                          NetName( _hPlayer ) );
 
             ClientPrint( null, HUD_PRINTTALK, _szDeathMsg );
+        };
+
+        // 11/10/2023 - Fix autoteam exploit
+        if ( ( !_sc.m_bCanAddTime ) )
+        {
+            return;
+        }
+        else
+        {
+            _sc.m_bCanAddTime <- false;
         };
 
         PlayGlobalBell( true );
@@ -659,15 +749,16 @@ function OnScriptHook_OnTakeDamage( params )
     {
         local _sc = _hAttacker.GetScriptScope();
 
-        if ( _hVictim.GetPlayerClass() == TF_CLASS_DEMOMAN )
-        {
-            // reduce incoming damage from zombies for survivors
-            // when wearing a demoshield
-            if ( _hVictim.HasThisWearable( "tf_wearable_demoshield" ) )
-            {
-                params.damage <- ( params.damage * 0.5 );
-            };
-        };
+        // if ( _hVictim.GetPlayerClass() == TF_CLASS_DEMOMAN )
+        // {
+        //     // actually, you know what. let's not do this.
+        //     //reduce incoming damage from zombies for survivors
+        //     //when wearing a demoshield
+        //     // if ( _hVictim.HasThisWearable( "tf_wearable_demoshield" ) )
+        //     // {
+        //     //     params.damage <- ( params.damage * 0.5 );
+        //     // };
+        // };
 
         // ----------------------------------------------------------- //
         // zombie heavy knock up effect                                //

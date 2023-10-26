@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection - V1                                                                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
 // All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -21,8 +21,8 @@ if ( "InfectionLoaded" in getroottable() )
 ::PDLogic              <- null;
 ::bSetupHasEnded       <- false;
 
-const GAMEMODE_NAME         =  "Zombie Infection";
-const VERSION               =  "v2.1 - 30-09-2023";
+const GAMEMODE_NAME =  "Zombie Infection";
+const VERSION       =  "v2.2 - 12-10-2023";
 
 ::INFECTION_CONVARS <-
 {

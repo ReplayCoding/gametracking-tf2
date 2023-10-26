@@ -1,0 +1,72 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/pyro/television_head/television_head_1_color"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"40.000000"
+	"$phongboost"		"6.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$color2"		"{ 255 255 255 }"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.078431 0.078431 0.078431]"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"models/passtime/tv/passtime_tv_screen_static"
+	"$detailscale"		"1"
+	"$detailblendfactor"		"1"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"$selfillumtint"		"[1.000000 1.000000 1.000000]"
+	"$selfillummask"		"models/workshop/player/items/pyro/television_head/television_head_1_illum"
+	"$one"		"1"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"15"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$one"
+			"resultVar"		"$detailblendfactor"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$one"
+			"resultVar"		"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$yellow"
+			"resultVar"		"$color2"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$basetexturetransform"
+			"texturescrollrate"		"-0.200000"
+			"texturescrollangle"		"-90"
+		}
+	}
+}

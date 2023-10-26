@@ -39,8 +39,11 @@ PlayerThink <- function()
                 self.ClearProblematicConds();
 
                 m_iFlags  = ( ( m_iFlags & ~ZBIT_PENDING_ZOMBIE & ~ZBIT_SURVIVOR ) );
-                SetPropInt  ( self, "m_Local.m_iHideHUD", ( HIDEHUD_WEAPONSELECTION ) );
-
+                SetPropInt  ( self, "m_Local.m_iHideHUD", ( HIDEHUD_WEAPONSELECTION  |
+                                                            HIDEHUD_BUILDING_STATUS  |
+                                                            HIDEHUD_CLOAK_AND_FEIGN  |
+                                                            HIDEHUD_PIPES_AND_CHARGE |
+                                                            HIDEHUD_METAL ));
                 self.DestroyAllWeapons();
                 self.GiveZombieWeapon();
                 self.GiveZombieAbility();
@@ -56,6 +59,12 @@ PlayerThink <- function()
                 {
                     m_hZombieAbility.ApplyPassive();
                     _szAbilityTooltip = STRING_UI_ZOMBIE_INSTRUCTION_PASSIVE;
+                };
+
+                // zombie spy can cloak now
+                if ( self.GetPlayerClass() == TF_CLASS_SPY )
+                {
+                    self.AddCondEx( TF_COND_STEALTHED_USER_BUFF, -1, null );
                 };
 
                 local _hTooltip = self.ZombieInitialTooltip();
@@ -374,6 +383,12 @@ PlayerThink <- function()
             {
                 if ( _flNextPrimaryAttack == _flTimeWeaponIdle && self.CanDoAct( ZOMBIE_DO_ATTACK1 ) )
                 {
+                    // Make sure spy gets recloaked after attacking
+                    if ( self.GetPlayerClass() == TF_CLASS_SPY )
+                    {
+                        self.AddEventToQueue( EVENT_SPY_RECLOAK, 3 );
+                    };
+
                     local _angFirstViewPunch = QAngle( -2, RandomFloat( -3, 3 ), 0 );
 
                     _bAttackedThisTick  =  true;
@@ -464,6 +479,14 @@ PlayerThink <- function()
                 if ( m_hZombieAbility.m_iAbilityType == ZABILITY_PASSIVE )
                     return PLAYER_RETHINK_TIME;
 
+                // Make sure spy gets uncloaked after casting ability
+                if ( self.GetPlayerClass() == TF_CLASS_SPY )
+                {
+                    self.RemoveCond      ( TF_COND_STEALTHED )
+                    self.RemoveCond      ( TF_COND_STEALTHED_USER_BUFF )
+                    self.AddEventToQueue ( EVENT_SPY_RECLOAK, 3 );
+                };
+
                 m_iFlags  =  ( m_iFlags | ZBIT_HASNT_HEARD_READY_SFX );
 
                 EmitSoundOnClient( SFX_ABILITY_USE, self );
@@ -548,7 +571,7 @@ SniperSpitThink <- function()
                 local _szHitEntClass = _tblTrace.enthit.GetClassname();
 
                 self.SetAbsVelocity( self.GetAbsVelocity() * 0.1 );
-                //taunty
+
                 // handling pumpkin bombs is quite important because halloween
                 if ( _szHitEntClass == "tf_generic_bomb" || _szHitEntClass == "tf_pumpkin_bomb" )
                 {
@@ -767,6 +790,12 @@ SniperSpitThink <- function()
                                                                          m_vecSpitZone,
                                                                          SPIT_ZONE_RADIUS ) )
             {
+                if ( _szInput == "building" )
+                {
+                    _hNextTargetEntity.TakeDamage( SNIPER_SPIT_ZONE_DAMAGE, DMG_BURN, m_hOwner );
+                    continue;
+                };
+
                 if ( _hNextTargetEntity != null )
                 {
                     EntFireByHandle( _hNextTargetEntity, _szInput, "", -1, null, null );
@@ -834,11 +863,19 @@ SniperSpitThink <- function()
 
 EngieEMPThink <- function ()
 {
-
-    HitSolid <- function()
+    local _tblTraceLine =
     {
-        m_bHasHitSolid <- true;
-    };
+        start   = self.GetOrigin(),
+        end     = self.GetOrigin() + Vector( 0,0,-5),
+        ignore  = self,
+    }
+
+    TraceLineEx( _tblTraceLine)
+
+    if ( _tblTraceLine.plane_normal.z < 0.86602 && _tblTraceLine.plane_normal.z != 0 && _tblTraceLine.plane_normal.z != 1 )
+    {
+        self.SetPhysVelocity( self.GetPhysVelocity() * 0.65 );
+    }
 
     if ( !m_bHasHitSolid )
     {
@@ -899,7 +936,7 @@ EngieEMPThink <- function ()
                 {
                     // deal bonus damage to the first building hit
                     local _vecNearestBuildingOrigin = Entities.FindByClassnameNearest( "obj_*", self.GetOrigin(), ENGIE_EMP_FIRST_HIT_RANGE ).GetOrigin();
-                    _buildable.TakeDamage( ( _buildable.GetHealth() * ENGIE_EMP_FIRST_HIT_DMG_PERCENT ), DMG_BLAST, m_hOwner );
+                    // _buildable.TakeDamage( 110, DMG_BLAST, m_hOwner ); // todo - const
 
                     m_fExplodeTime = 0.0; // explode now
                 };
@@ -1008,7 +1045,7 @@ EngieEMPThink <- function ()
                 SetPropBool   ( _buildable, "m_bDisabled",  true );
                 AddThinkToEnt ( _buildable, "BuildableEMPThink" );
 
-                _buildable.TakeDamage( ( _buildable.GetHealth() / 2 ), DMG_CLUB, m_hOwner );
+                _buildable.TakeDamage( 110, DMG_CLUB, m_hOwner );
 
             };
         };
@@ -1016,7 +1053,7 @@ EngieEMPThink <- function ()
         self.Destroy();
     };
 
-    return ENGIE_EMP_RETHINK_TIME;
+    return 0.0;
 };
 
 BuildableEMPThink <- function()

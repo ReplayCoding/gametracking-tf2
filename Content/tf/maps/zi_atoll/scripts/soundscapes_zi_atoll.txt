@@ -2,7 +2,7 @@
 {
 	"playlooping"
 	{
-		"volume" ".7"
+		"volume" ".95"
 		"pitch" "100"
 		"wave" "ambient\lair\perimeter_ocean_close.wav"
 	}
@@ -25,15 +25,15 @@
 {
 	"playlooping"
 	{
-		"volume" ".45"
-		"pitch" "100"
+		"volume" ".89"
+		"pitch" "93"
 		"wave" "ambient\lair\perimeter_ocean_close.wav"
 	}
 	
 	"playrandom"
 	{
 		"time"		"10,20"
-		"volume"	"0.4"
+		"volume"	"0.52"
 		"pitch"		"85,105"
 		"rndwave"
 		{
@@ -45,7 +45,7 @@
 	"playrandom"
 	{
 		"time"		"8,11"
-		"volume"	"0.42"
+		"volume"	"0.72"
 		"pitch"		"85,105"
 		"rndwave"
 		{

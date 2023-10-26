@@ -11,7 +11,7 @@
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
-	"$rimmask"		"0"
+	"$rimmask"		"1"
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"0.000000"
 	"$colortint_base"		"{ 87 77 87 }"
@@ -87,7 +87,7 @@
 		{
 			"srcVar1"		"$blinkboolean"
 			"srcVar2"		"$zero"
-			"LessEqualVar"		"$one"
+			"lessEqualVar"		"$one"
 			"greaterVar"		"$blinksquishval"
 			"resultVar"		"$blinkrange"
 		}

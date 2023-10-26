@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_spineyard/c2272_1152_448"
+	}
+}

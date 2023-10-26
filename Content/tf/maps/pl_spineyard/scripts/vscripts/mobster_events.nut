@@ -48,7 +48,7 @@ function OnGameEvent_npc_hurt(params)
 			angles = npc.GetAbsAngles(),
 			skin = npc.GetSkin()
 		})
-		EntFireByHandle(gibs, "Break", null, 0, null, null)
+		EntFireByHandle(gibs, "Break", null, -1, null, null)
 
 		local attacker_player = GetPlayerFromUserID(params.attacker_player)
 		if (attacker_player != null)
