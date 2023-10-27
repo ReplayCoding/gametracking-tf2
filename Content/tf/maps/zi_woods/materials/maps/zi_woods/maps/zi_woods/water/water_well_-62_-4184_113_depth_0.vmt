@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/zi_woods/water/water_well_-62_-4184_113.vmt"
+	"insert"
+	{
+		"$waterdepth"		"0"
+	}
+}
