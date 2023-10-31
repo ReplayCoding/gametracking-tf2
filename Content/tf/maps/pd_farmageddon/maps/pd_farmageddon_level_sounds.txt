@@ -248,3 +248,65 @@
 		"wave"	"farmageddon_sounds\farmer_roundstart05.wav"
 	}
 }
+
+//-----------------------------------------------------------------------------
+//Merasmus Gargoyle Notifications
+//-----------------------------------------------------------------------------
+//
+"sf15.Merasmus.Gargoyle.Spawn"
+{
+    "channel"    "CHAN_VOICE2"
+    "volume"    "1"
+    "soundlevel"    "SNDLVL_NONE"
+    "pitch"        "PITCH_NORM"
+    "rndwave"
+    {
+        "wave"             "farmageddon_sounds\farmer_gargenter1.wav"
+        "wave"             "farmageddon_sounds\farmer_gargenter2.wav"
+        "wave"             "farmageddon_sounds\farmer_gargenter3.wav"
+        "wave"             "farmageddon_sounds\farmer_gargenter4.wav"
+                
+    }
+}
+"sf15.Merasmus.Gargoyle.Moved"
+{
+    "channel"    "CHAN_VOICE2"
+    "volume"    "1"
+    "soundlevel"    "SNDLVL_NONE"
+    "pitch"        "PITCH_NORM"
+    "rndwave"
+    {
+        "wave"             "farmageddon_sounds\farmer_gargon1.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon2.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon3.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon4.wav"
+	}
+}
+"sf15.Merasmus.Gargoyle.Got"
+{
+    "channel"    "CHAN_VOICE2"
+    "volume"    "1"
+    "soundlevel"    "SNDLVL_NONE"
+    "pitch"        "PITCH_NORM"
+    "rndwave"
+    {
+        "wave"             "farmageddon_sounds\farmer_gargon1.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon2.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon3.wav"
+        "wave"             "farmageddon_sounds\farmer_gargon4.wav"
+    }
+}
+"sf15.Merasmus.Gargoyle.Gone"
+{
+    "channel"    "CHAN_VOICE2"
+    "volume"    "1"
+    "soundlevel"    "SNDLVL_NONE"
+    "pitch"        "PITCH_NORM"
+    "rndwave"
+    {
+        "wave"             "farmageddon_sounds\farmer_gargot1.wav"
+        "wave"             "farmageddon_sounds\farmer_gargot2.wav"
+        "wave"             "farmageddon_sounds\farmer_gargot3.wav"
+        "wave"             "farmageddon_sounds\farmer_gargot4.wav"
+    }
+}
