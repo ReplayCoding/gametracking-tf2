@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_brew/c-857_-4522_-64"
+		"Proxies"
+		{
+		}
+	}
+}

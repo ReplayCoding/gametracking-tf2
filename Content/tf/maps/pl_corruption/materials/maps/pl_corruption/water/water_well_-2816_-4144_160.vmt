@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_corruption/c-2816_-4144_160"
+		"Proxies"
+		{
+		}
+	}
+}

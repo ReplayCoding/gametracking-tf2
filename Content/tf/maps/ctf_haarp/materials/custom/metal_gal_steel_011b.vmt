@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "custom/metal_gal_steel_011b_clr"
+	"$surfaceprop" "metalpanel"
+	//"$envmap" "env_cubemap"
+	//"$envmapcontrast" .25
+	//"$envmapsaturation" .5
+	//"$envmaptint" "[ .15 .15 .15]"
+	//"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "metal/wall011b_bump-ssbump"
+	$ssbump 1
+	//"$phongfresnelranges"	"[0 15 10]"
+	"%keywords" "tf"
+}

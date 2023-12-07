@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/WOODPANEL01A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c1757_417_-24"
+	}
+}

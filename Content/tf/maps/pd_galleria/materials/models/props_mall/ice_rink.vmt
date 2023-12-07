@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_mall/ice_rink"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$bumpmap" "models/props_mall/ice_rink_normal"
+	"$envmaptint" "[.5 .5 .5]"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"	
+	"$phongfresnelranges" "[.5 1 2]"
+	
+}

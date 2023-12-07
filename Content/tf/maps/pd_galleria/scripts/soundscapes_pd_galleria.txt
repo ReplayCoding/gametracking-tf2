@@ -1,0 +1,60 @@
+"Galleria.Inside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+}
+
+"Galleria.Mall"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+
+	"playrandom"
+	{
+		"time"		"10,25"
+		"volume"	".1"
+		"pitch"		"100"
+		"attenuation"	"0.7"	
+		"rndwave"
+		{
+			"wave"		"ambient\creak01.wav"
+			"wave"		"ambient\creak02.wav"
+			"wave"		"ambient\creak03.wav"
+		}
+	}
+}

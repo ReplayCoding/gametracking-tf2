@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_brew/ceiling_fan01"
+	"$selfillum" 1
+	"$selfillummask" 	"models/props_brew/ceiling_fan01_mask"
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".80"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
+
+	//"$envmap" "cubemaps/cubemap_sheen001"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	//">=DX90"
+	//{
+	//	"$baseTexture" 		"models/props_mining/computer_industrial02_noalpha"
+	//	"$selfillummask" 	"models/props_mining/computer_industrial02_selfillum"
+	//}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	//"<DX90"
+	//{
+	//	"$baseTexture" 	"models/props_mining/computer_industrial02"
+	//}
+
+}

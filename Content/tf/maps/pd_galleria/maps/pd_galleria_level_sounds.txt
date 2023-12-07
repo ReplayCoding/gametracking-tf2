@@ -1,0 +1,183 @@
+"Game.YourTeamLost"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_round_end_1.mp3"
+		"wave"		"mvm\intercom_round_end_2.mp3"
+		"wave"		"mvm\intercom_round_end_3.mp3"
+	}
+}
+
+"Game.YourTeamWon"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_round_end_1.mp3"
+		"wave"		"mvm\intercom_round_end_2.mp3"
+		"wave"		"mvm\intercom_round_end_3.mp3"
+		"wave"		"mvm\intercom_round_end_4.mp3"
+	}
+}
+
+
+"Announcer.RoundBegins10Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_round_start_1.mp3"
+		"wave"		"mvm\intercom_round_start_2.mp3"
+		"wave"		"mvm\intercom_round_start_3.mp3"
+	}
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"mvm\intercom_countdown_1.mp3"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"mvm\intercom_countdown_2.mp3"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"			"mvm\intercom_countdown_3.mp3"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"			"mvm\intercom_countdown_4.mp3"
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"			"mvm\intercom_countdown_5.mp3"
+}
+
+
+"Intercom.CapZoneOpen"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_cap_open_1.mp3"
+		"wave"		"mvm\intercom_cap_open_2.mp3"
+		"wave"		"mvm\intercom_cap_open_3.mp3"
+		"wave"		"mvm\intercom_cap_open_4.mp3"		
+		"wave"		"mvm\intercom_cap_open_5.mp3"
+	}
+}
+
+"Intercom.CapZoneClosed"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_cap_closed_1.mp3"
+		"wave"		"mvm\intercom_cap_closed_2.mp3"
+		"wave"		"mvm\intercom_cap_closed_3.mp3"
+	}
+}
+
+"Intercom.IceMachineHitGeneric"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_ice_machine_kills_1.mp3"
+		"wave"		"mvm\intercom_ice_machine_kills_2.mp3"
+		"wave"		"mvm\intercom_ice_machine_kills_3.mp3"
+		"wave"		"mvm\intercom_ice_machine_kills_4.mp3"
+	}
+}
+
+"Intercom.IceMachineHitRed"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_ice_machine_kills_6.mp3"
+	}
+}
+
+"Intercom.IceMachineHitBlu"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_ice_machine_kills_5.mp3"
+	}
+}
+
+"Intercom.Joke"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"mvm\intercom_jokes_1.mp3"
+		"wave"		"mvm\intercom_jokes_2.mp3"
+		"wave"		"mvm\intercom_jokes_3.mp3"
+	}
+}
+
+

@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+    "$basetexture" "tools/toolsnodraw"
+    "$surfaceprop" "ice"
+
+    "$aTo" 0 
+
+    "Proxies"
+    {
+        "Equals"
+        {
+            "srcVar1" "$aTo"
+            "resultVar" "$alpha"
+       	 } 
+   }
+
+    "%keywords" "tf, zeus"
+}

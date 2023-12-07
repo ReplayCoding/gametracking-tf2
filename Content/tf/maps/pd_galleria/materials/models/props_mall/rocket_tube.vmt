@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\props_mall\rocket_tube"
+    
+    "$phong" "1"
+    "$phongexponent" "25"
+    "$phongboost" ".4"    
+    "$phongfresnelranges"    "[1 4 8]"
+    "$phongexponenttexture" "models\props_mall\rocket_tube_expmask"
+
+    "$bumpmap" "models\props_mall\rocket_tube_normal"
+    
+    "$rimlight" "1"                                                
+    "$rimlightexponent" "4"                                        
+    "$rimlightboost" "2"
+    "$rimmask" "1"    
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SNOWTOWER/BLENDMETALROOFSNOW_025.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_snowtower/c6192_7592_462"
+	}
+}

@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 				"models/props_mall/foodcourtbench"
+	"$surfaceprop" 				"Concrete"
+	
+	"$phong" 					"1"
+	"$phongexponent" 			"35"
+	"$phongboost" 				".2"	
+	"$phongfresnelranges"		"[.7 15 10]"
+	"$phongtint"				"[1 1 1]"
+	"$basemapalphaphongmask" 	"1"
+	
+	
+}

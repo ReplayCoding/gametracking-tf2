@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/WINDOWUNI001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_turbine_winter/c-384_-448_584"
+	}
+}

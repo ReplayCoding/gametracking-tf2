@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/FLOOR_TILE_001A_MATTE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c0_1056_160"
+	}
+}

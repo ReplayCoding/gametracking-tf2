@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/props_mall/elevator_facade/elevator_brass_diffuse"
+    "$bumpmap" "models/props_mall/elevator_facade/elevator_brass_normal"
+    "$bumpmapalphaphongmask" "1"
+    "$phong" "1"
+    "$phongexponent" "15"
+    "$phongboost" ".50"    
+    "$phongfresnelranges" "[.7 15 20]"
+    "$envmap" "cubemaps\cubemap_specular001"
+    "$envmaptint" "[.1 .1 .1]"
+    "$normalmapalphaenvmapmask" "1"
+	"$lightwarptexture" "models\lightwarps\rainblower_lightwarp"
+	
+	//"$lightwarptexture"  "models/lightwarps/robot_lightwarp"
+	//"$lightwarptexture" "models\weapons\c_items\c_fists_of_steel_lightwarp"
+}

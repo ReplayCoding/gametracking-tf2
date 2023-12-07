@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "brew/brew_waves001"
+	$translucent 1
+	$additive 1
+//	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 270
+		}
+	}
+}

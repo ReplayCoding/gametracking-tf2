@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/OFFICE/OFFICETILE01B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_turbine_winter/c-1024_-384_-184"
+	}
+}

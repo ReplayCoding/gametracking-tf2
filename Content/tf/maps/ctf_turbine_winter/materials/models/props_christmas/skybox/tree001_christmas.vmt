@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_christmas/skybox/tree001_christmas"
+	"$surfaceprop" 			"grass"
+	"$detail"				"models/props_christmas/skybox/tree001_christmas_glow"
+	"$detailscale"			"1"
+	"$detailblendmode"		"5"
+	"$detailblendfactor"	"2"
+	"$detailcolor"			"{252 241 206}"
+	
+	"$alphatest"			"1"
+	"$alphatestreference"	".7"
+	//"$bumpmap" "Models/effects/flat_normal"
+	
+}

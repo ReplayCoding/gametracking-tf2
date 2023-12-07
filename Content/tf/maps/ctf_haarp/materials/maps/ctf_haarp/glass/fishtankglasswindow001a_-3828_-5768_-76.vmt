@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/FISHTANKGLASSWINDOW001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_haarp/c-3828_-5768_-76"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/SKYLIGHTGLASS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_turbine_winter/c-2112_-1024_584"
+	}
+}

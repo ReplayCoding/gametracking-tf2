@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_hades/boathouse/shirt_design011_b"
+	"$bumpmap" "models/props_hades/boathouse/shirt_normal"
+	"$nocull" "1"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"3"
+	"$phongboost"		"5"
+	"$phongfresnelranges"		"[.25 .5 1]"
+}

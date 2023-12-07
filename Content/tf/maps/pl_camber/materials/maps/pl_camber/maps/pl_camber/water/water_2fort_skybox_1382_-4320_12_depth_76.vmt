@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_camber/water/water_2fort_skybox_1382_-4320_12.vmt"
+	"insert"
+	{
+		"$waterdepth"		"76"
+	}
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/glasswindow06_long"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" .1
+	"$translucent" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .1 .1 .1]"
+	"$envmapmask" "glass/glasswindow06_long_mask"
+	"%keywords" "tf, zeus"
+}
+

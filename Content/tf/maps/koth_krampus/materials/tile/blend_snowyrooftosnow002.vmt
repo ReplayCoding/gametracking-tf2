@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "tile/snowy_roof_02"
+	"$basetexture2" "Nature/snow_full001"
+	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+	//"%tooltexture" "tile/snowytile_tooltexture"
+	"$bumpmap" "nature/snow_full001_normal"
+	"$envmap" "cubemaps/cubemap_sheen001.hdr"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[.70 .70 .73]"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "snow"
+
+	"%keywords" "tf"
+}

@@ -12841,8 +12841,8 @@ Revision: 3018
 "classname" "logic_auto"
 "hammerid" "6067415"
 "OnMultiNewRound" "ctf_gamerulesSetStalemateOnTimelimit10-1"
-"OnMultiNewRound" "ctf_gamerulesSetRedTeamGoalStringSteal the Intelligence Briefcase from the enemy base.0-1"
-"OnMultiNewRound" "ctf_gamerulesSetBlueTeamGoalStringSteal the Intelligence Briefcase from the enemy base.0-1"
+"OnMultiNewRound" "ctf_gamerulesSetRedTeamGoalString#ctf_frosty_team_goal0-1"
+"OnMultiNewRound" "ctf_gamerulesSetBlueTeamGoalString#ctf_frosty_team_goal0-1"
 }
 {
 "origin" "-2681.86 819.02 -212"

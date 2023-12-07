@@ -1,0 +1,22 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "clouds/clouds_texture"
+	$scrollspeed 0.02
+	$scrollang 0
+	
+	$color "[1 0.85 0.7]"
+	
+	%keywords tf
+	
+	Proxies
+	{	
+		
+		TextureScroll
+		{
+			texturescrollvar $basetexturetransform
+			texturescrollrate $scrollspeed
+			texturescrollangle $scrollang
+		}
+		
+	}
+}

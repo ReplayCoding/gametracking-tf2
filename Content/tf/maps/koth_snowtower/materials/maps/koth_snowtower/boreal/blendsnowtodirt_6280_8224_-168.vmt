@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/BOREAL/BLENDSNOWTODIRT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_snowtower/c6280_8224_-168"
+	}
+}

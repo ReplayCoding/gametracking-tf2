@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_mall/launch_control_panel/bigbutton_diffuse"
+	"$selfillum" 1
+	"$nodecal" "1"
+	"$selfillummask" 	"models/props_mall/launch_control_panel/bigbutton_diffuse"
+	"$phong" "1"
+    "$phongexponent" "25"
+    "$phongboost" ".1"    
+    "$phongfresnelranges"    "[1 4 8]"
+	
+	"$bumpmap" "models/props_mall/launch_control_panel/monitors_normal"
+    
+    "$rimlight" "1"                                                
+    "$rimlightexponent" "5.5"                                        
+    "$rimlightboost" "4"
+	
+	"$nodecal" "1"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	//">=DX90"
+	//{
+	//	"$baseTexture" 		"Models/props_spytech/control_room_consoles_noalpha"
+	//	"$selfillummask" 	"Models/props_spytech/control_room_consoles_selfillum"
+	//}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	//"<DX90"
+	//{
+	//	"$baseTexture" 	"Models/props_spytech/control_room_consoles"
+	//}
+	
+	proxies
+	{
+		"Sine"
+		{
+			"resultVar"		"$selfillumtint"
+			"sinemin"		"0.1"
+			"sinemax"		"2.0"
+			"sineperiod"		"4.0"
+		}
+	}
+}

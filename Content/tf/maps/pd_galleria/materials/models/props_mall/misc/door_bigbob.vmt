@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_mall/misc/door_bigbob"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+	"$bumpmap" "models/props_mall/misc/door_bigbob_normal"
+    "$bumpmapalphaphongmask" "1"
+    "$phong" "1"
+    "$phongexponent" "5"
+    "$phongboost" ".2"    
+    "$phongfresnelranges" "[.7 15 20]"
+	"%keywords" "tf, mall"
+}

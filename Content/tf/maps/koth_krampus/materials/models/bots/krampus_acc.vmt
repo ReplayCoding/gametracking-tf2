@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/bots/KrampusAcc_diffuse"
+	"$bumpmap" "models/bots/KrampusAcc_normal"
+	"$phongexponenttexture" "models/bots/KrampusAcc_expmask_bw"
+	"$bumpmapalphaphongmask" "1"
+
+	"$surfaceprop"	"Wood_Box"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$phongfresnelranges"	"[.3 1 8]"
+
+	"$rimmask"		"1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+}
+
+
+

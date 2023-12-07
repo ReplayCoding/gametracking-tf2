@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_camber/c1382_-4320_12"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -7103,7 +7103,7 @@ Revision: 13
 "OnMapSpawn" "tonemap_globalSetAutoExposureMax1.10-1"
 "OnMapSpawn" "tonemap_globalSetBloomScale.30-1"
 "OnMultiNewRound" "fog_mainTurnOn0-1"
-"OnMultiNewRound" "gamerulesSetRedTeamGoalStringAn infection lurks among you...0-1"
+"OnMultiNewRound" "gamerulesSetRedTeamGoalString#arena_perks_infection0-1"
 }
 {
 "origin" "-736 -128 232"
@@ -15716,8 +15716,8 @@ Revision: 13
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "490851"
-"OnMultiNewRound" "game_rulesSetRedTeamGoalStringKill the enemy team or capture the point!0-1"
-"OnMultiNewRound" "game_rulesSetBlueTeamGoalStringKill the enemy team or capture the point!0-1"
+"OnMultiNewRound" "game_rulesSetRedTeamGoalString#arena_perks_team_goal0-1"
+"OnMultiNewRound" "game_rulesSetBlueTeamGoalString#arena_perks_team_goal0-1"
 "OnMultiNewRound" "pd_logicEnableMaxScoreUpdating0-1"
 "OnMultiNewRound" "pd_logicDisableMaxScoreUpdating1-1"
 "OnMultiNewRound" "pd_logicSetPointsOnPlayerDeath01-1"

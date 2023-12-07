@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/PLR_HACKSAW/HACKSAW_WATER_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_hacksaw/c2067_2064_-1903"
+		"Proxies"
+		{
+		}
+	}
+}

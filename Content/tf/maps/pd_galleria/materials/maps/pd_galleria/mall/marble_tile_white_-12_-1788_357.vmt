@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/MARBLE_TILE_WHITE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c-12_-1788_357"
+	}
+}

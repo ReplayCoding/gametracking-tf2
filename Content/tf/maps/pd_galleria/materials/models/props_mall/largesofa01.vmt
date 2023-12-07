@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_mall/largesofa01"
+	"$bumpmap"				"models/props_mall/largesofa01_nrm"
+	"$surfaceprop" 			"grass"
+	
+	"$phong"				"1"
+	"$phongfresnelranges"	"[.2 .5 10]"
+	"$phongboost"			".05"
+	"$phongexponent"		"5"
+	
+	"$halflambert"			"1"
+	
+}

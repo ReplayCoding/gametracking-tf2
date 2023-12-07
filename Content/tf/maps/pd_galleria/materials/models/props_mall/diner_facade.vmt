@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_mall/diner_facade"
+	"$bumpmap"			"models/props_mall/diner_facade_normal"
+	"$surfaceprop" 			"metal"
+	
+	"$phong" 			"1"
+	"$phongboost" 			".6"
+	"$phongexponent" 			"3"
+	"$phongfresnelranges" 		"[.4 .9 1.5]"
+	"$normalmapalphaenvmapmask" 	"1"
+
+	//"$envmap" "env_cubemap"
+	//"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[.5 .5 .5]"
+	
+}
+

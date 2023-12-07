@@ -1,0 +1,58 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_mall/launch_control_panel/monitors_diffuse"
+	"$selfillum" 1
+	"$nodecal" "1"
+	"$selfillummask" 	"models/props_mall/launch_control_panel/monitors_diffuse"
+	"$phong" "1"
+    "$phongexponent" "25"
+    "$phongboost" ".1"    
+    "$phongfresnelranges"    "[1 4 8]"
+	
+	"$bumpmap" "models/props_mall/launch_control_panel/monitors_normal"
+    
+    "$rimlight" "1"                                                
+    "$rimlightexponent" "5.5"                                        
+    "$rimlightboost" "4"
+	"$sine1" "0"
+	"$sine2" "0"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	//">=DX90"
+	//{
+	//	"$baseTexture" 		"Models/props_spytech/control_room_consoles_noalpha"
+	//	"$selfillummask" 	"Models/props_spytech/control_room_consoles_selfillum"
+	//}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	//"<DX90"
+	//{
+	//	"$baseTexture" 	"Models/props_spytech/control_room_consoles"
+	//}
+	
+	proxies
+	{
+		"Sine"
+		{
+			"resultVar"		"$sine1"
+			"sinemin"		"0.9"
+			"sinemax"		"1.15"
+			"sineperiod"		"0.1"
+		}
+		"Sine"
+		{
+			"resultVar"		"$sine2"
+			"sinemin"		"0.95"
+			"sinemax"		"1.05"
+			"sineperiod"		"0.073"
+		}
+		
+		"Multiply"
+		{
+			"srcVar1"		"$sine1"
+			"srcVar2"		"$sine2"
+			"resultVar"		"$selfillumtint"
+		}
+		
+	}
+}

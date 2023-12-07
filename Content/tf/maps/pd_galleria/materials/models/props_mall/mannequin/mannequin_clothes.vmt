@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/props_mall/mannequin/clothes_blu1"
+    "$bumpmap" "models/props_mall/mannequin/clothes_normal"
+    "$bumpmapalphaphongmask" "1"
+    "$phong" "0"
+    "$phongexponent" "5"
+    "$phongboost" ".05"    
+    "$phongfresnelranges" "[.7 15 20]"
+}

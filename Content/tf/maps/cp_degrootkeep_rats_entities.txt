@@ -6168,8 +6168,8 @@ Revision: 45
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "354"
-"OnMapSpawn" "tf_gamerulesSetBlueTeamGoalStringCapture the Control Points to win the game and go big!0-1"
-"OnMapSpawn" "tf_gamerulesSetRedTeamGoalStringDefend the Control Points to win the game and go big!0-1"
+"OnMapSpawn" "tf_gamerulesSetBlueTeamGoalString#cp_degrootkeep_rats_blue_goal0-1"
+"OnMapSpawn" "tf_gamerulesSetRedTeamGoalString#cp_degrootkeep_rats_red_goal0-1"
 "OnMapSpawn" "tf_gamerulesSetRedTeamRespawnWaveTime30-1"
 "OnMapSpawn" "tf_gamerulesSetBlueTeamRespawnWaveTime00-1"
 }

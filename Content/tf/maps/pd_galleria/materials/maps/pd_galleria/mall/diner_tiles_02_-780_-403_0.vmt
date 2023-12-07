@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/DINER_TILES_02.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c-780_-403_0"
+	}
+}

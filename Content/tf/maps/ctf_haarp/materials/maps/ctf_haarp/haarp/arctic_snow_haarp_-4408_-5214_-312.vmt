@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/HAARP/ARCTIC_SNOW_HAARP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_haarp/c-4408_-5214_-312"
+	}
+}

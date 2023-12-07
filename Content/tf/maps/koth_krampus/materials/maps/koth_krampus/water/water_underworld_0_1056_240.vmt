@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_krampus/c0_1056_240"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT_BLUE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c1007_977_168"
+	}
+}

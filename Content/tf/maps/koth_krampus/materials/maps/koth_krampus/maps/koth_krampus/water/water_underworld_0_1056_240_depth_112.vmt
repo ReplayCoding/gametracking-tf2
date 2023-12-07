@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_krampus/water/water_underworld_0_1056_240.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/OFFICE/WOODPANEL01B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_turbine_winter/c2024_1152_-184"
+	}
+}

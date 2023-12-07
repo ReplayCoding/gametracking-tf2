@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_brew/fermentation_tank_01.vtf"
+	"$phongexponenttexture" "models/props_brew/fermentation_tank_01_expmask.vtf"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "cubemaps/cubemap_sheen001_brew"
+	"$basemapalphaenvmapmask" 1 
+	"$envmaptint" "[0.7 0.7 0.7]"
+	
+	"$phong" "1"
+	"$phongboost" "8"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[.6 2 5]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+	"$rimmask" "1"
+}

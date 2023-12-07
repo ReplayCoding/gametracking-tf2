@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_mall/hale_movie_cutout/hale_movie_cutout"
+	"$bumpmap" "models/props_mall/hale_movie_cutout/hale_movie_cutout_normal"
+    "$bumpmapalphaphongmask" "1"
+    "$phong" "1"
+    "$phongexponent" "5"
+    "$phongboost" ".25"    
+    "$phongfresnelranges" "[.7 15 20]"
+}

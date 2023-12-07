@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDSNOWTOCOBBLE001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_carrier/c216_-5262_-133"
+	}
+}

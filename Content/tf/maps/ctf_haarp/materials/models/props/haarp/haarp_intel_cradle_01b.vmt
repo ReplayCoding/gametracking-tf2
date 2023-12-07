@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\haarp/haarp_intel_cradle_01b"
+	"$translucent" "1"
+
+	"Proxies"
+	{
+	"TextureScroll"
+	{
+	"texturescrollvar" "$baseTextureTransform"
+	"texturescrollrate" ".3"
+	"texturescrollangle" "180"
+	}
+	}
+
+}
+
+
+	
+

@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "haarp/haarp_rockwall"
+	"$basetexture2" "haarp/arctic_snow_haarp"
+	"%tooltexture" "haarp/haarp_rockwall"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	//"$bumpmap" "Nature/rockwall001_normal"
+	//"$bumpmap2" "haarp/arctic_snow_nrm"
+	"%keywords" "tf"
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "snow"
+
+}

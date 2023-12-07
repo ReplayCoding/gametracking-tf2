@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_brew/geezer_robot"
+	"$bumpmap"     "models/props_brew/geezer_robot_normal"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongwarptexture"  "models\weapons\v_bat\v_bat_phongwarp"
+
+	//"$basemapalphaphongmask" "1"
+
+	"$envmap" "cubemaps/cubemap_sheen001_brew"
+	"$basemapalphaenvmapmask" 1 
+	"$envmaptint" "[.7 .7 .7]"
+	
+	"$phong" "1"
+	"$phongboost" "5"
+	"$phongexponent" "50"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$bumpmapalphaphongmask"		"1"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+	"$rimmask" "1"
+	
+	"$detail" "models/props_brew/geezer_robot_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" .9
+	"$detailblendmode" 6
+}

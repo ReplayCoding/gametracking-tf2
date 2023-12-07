@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILEBLUE01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_brew/c753_-3241_-105"
+	}
+}

@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture		"models/props_gothic/spears"
+
+	$phong 1
+	$basemapalphaphongmask 	1		
+	$basealphaenvmapmask 1
+	$phongexponent 10
+	$phongboost 1
+	$phongfresnelranges		[0.5 1 3]	
+
+
+	$envmap 		env_cubemap
+	$envmaptint 	"[.09 .09 .09]"
+}

@@ -1,0 +1,41 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_toucan/reactor/reactor_canister_diffuse"
+	"$surfaceprop" "default"
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+	"$selfillummask" "models/props_toucan/reactor/white"
+	//"$selfillum_envmapmask_alpha" 1
+	//"$blendtintbybasealpha" "1" 
+	//"$blendtintcoloroverbase" "1"  
+
+	//"$colortint_base" "{100 20 4}"
+	//"$color2" "{0 0 0}"  
+	//"$colortint_tmp" "[0 0 0]"
+	
+	"$envmap" "cubemaps/cubemap_sheen001"
+	"$envmaptint" "[1 0.85 0.2]"
+	//$envmapcontrast 0
+	"$phong" "1"
+	"$phongexponenttexture"	"models/props_toucan/reactor/reactor_canister_expmask"
+	"$phongexponentfactor" "10"
+	"$phongboost" ".25"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	//"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[2 1 6]"
+
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "15"				
+	"$rimlightboost" "2.5"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.5
+			"texturescrollangle" 0
+		}
+	}
+}

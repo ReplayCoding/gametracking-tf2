@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/WOODFLOOR_002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_galleria/c1888_-16_176"
+	}
+}

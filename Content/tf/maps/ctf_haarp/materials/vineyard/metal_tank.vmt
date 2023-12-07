@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	$baseTexture "vineyard/metal_tank"
+
+	//"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" 1 
+	"$envmaptint" "[.41 .42 .46]"
+
+	
+	//"$phong" "1"
+	//"$phongboost" "1"
+	//"$phongexponent" "8"
+	//"$phongfresnelranges" "[3 5 8]"
+}

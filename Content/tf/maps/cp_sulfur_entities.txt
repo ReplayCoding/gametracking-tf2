@@ -12627,8 +12627,8 @@ Revision: 62
 "hammerid" "1196204"
 "OnMultiNewRound" "gamerulesSetBlueTeamRespawnWaveTime60-1"
 "OnMultiNewRound" "gamerulesSetRedTeamRespawnWaveTime60-1"
-"OnMultiNewRound" "gamerulesSetRedTeamGoalStringPrevent BLU from holding the main point until your time runs out!00"
-"OnMultiNewRound" "gamerulesSetBlueTeamGoalStringCapture and hold the main point to win!00"
+"OnMultiNewRound" "gamerulesSetRedTeamGoalString#cp_sulfur_red_goal00"
+"OnMultiNewRound" "gamerulesSetBlueTeamGoalString#cp_sulfur_blue_goal00"
 "OnMultiNewRound" "gamerulesSetBlueTeamRole20-1"
 "OnMultiNewRound" "gamerulesSetRedTeamRole10-1"
 }

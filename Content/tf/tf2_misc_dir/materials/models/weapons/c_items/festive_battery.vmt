@@ -9,13 +9,14 @@
 	"$yellow" "0"
 	
 	"$phong" "1"
-	"$phongexponent" "100"
-	"$phongboost" "5"	
+	"$phongexponent" "3"
+	"$phongboost" ".1"
 	"$phongfresnelranges"	"[1 1 1]"
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
 
 	"$rimlight" "1"
 	"$rimlightexponent" "10"
-	"$rimlightboost" "7.5"
+	"$rimlightboost" "5"
 	
 	"$cloakPassEnabled" "1"
 	

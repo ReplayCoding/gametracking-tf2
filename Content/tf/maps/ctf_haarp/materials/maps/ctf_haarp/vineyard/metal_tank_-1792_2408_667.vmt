@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/VINEYARD/METAL_TANK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_haarp/c-1792_2408_667"
+	}
+}

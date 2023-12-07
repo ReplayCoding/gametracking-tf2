@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\props_mall\gascan"
+    
+    "$phong" "1"
+    "$phongexponent" "4.5"
+    "$phongboost" ".5"    
+    "$lightwarptexture"        "models\player\pyro\pyro_lightwarp"
+    "$phongfresnelranges"    "[1 4 8]"
+    "$phongexponenttexture" "models\props_mall\gascan_expmask"
+
+    "$bumpmap" "models\props_mall\gascan_normal"
+    
+    "$rimlight" "1"                                                
+    "$rimlightexponent" "5.5"                                        
+    "$rimlightboost" "4"
+    "$rimmask" "1"    
+}

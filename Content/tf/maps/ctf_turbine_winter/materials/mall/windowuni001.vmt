@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+
+{
+	//"$color2"	"[1.6 1.6 1.6]"
+	"$basetexture" "soho/WindowUni001"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+    "$envmaptint" "[ 0.4 0.4 0.4 ]"
+//	$envmapmask "concrete/concretewall001e"
+	$envmapmask "soho/WindowUni001"
+
+	"%keywords" "tf"
+
+}

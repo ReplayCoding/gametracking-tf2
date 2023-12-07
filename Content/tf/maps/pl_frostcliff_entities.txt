@@ -4604,8 +4604,8 @@ Revision: 7647
 "OnMapSpawn" "gamerulesSetBlueTeamRole20-1"
 "OnMultiNewRound" "gamerulesSetRedTeamRespawnWaveTime40-1"
 "OnMultiNewRound" "gamerulesSetBlueTeamRespawnWaveTime60-1"
-"OnMapSpawn" "gamerulesSetBlueTeamGoalStringPush the payload cart into RED teams frosted pit!2-1"
-"OnMapSpawn" "gamerulesSetRedTeamGoalStringStop BLU from advancing at all costs!2-1"
+"OnMapSpawn" "gamerulesSetBlueTeamGoalString#pl_frostcliff_blue_goal2-1"
+"OnMapSpawn" "gamerulesSetRedTeamGoalString#pl_frostcliff_red_goal2-1"
 "OnMultiNewRound" "particle_snow_02AddOutputradius_max 1920-1"
 "OnMultiNewRound" "xmas_relay_redbaseTrigger0-1"
 }
