@@ -8,7 +8,6 @@ IncludeScript("cp_carrier/config.nut");
 IncludeScript("cp_carrier/events.nut");
 
 ::carrier <- null;
-::carrier_crits <- false;
 
 ::bombDropTimeStamp <- Time();
 ::bombArertTimeStamp <- Time();
@@ -47,7 +46,8 @@ function TryMakingIntoRobot(player)
 function TurnIntoFlagCarrier(player)
 {
     carrier = player;
-    local classIndex = clamp(player.GetPlayerClass(), 0, 9);
+    local playerClass = player.GetPlayerClass();
+    local classIndex = clamp(playerClass, 0, 9);
     player.KeyValueFromString("targetname", "carrier");
     player.SetModelScale(3, -1);
     player.Teleport(true, boss_tele_dest.GetOrigin(), false, QAngle(), true, Vector(0, 0, 0));
@@ -59,23 +59,22 @@ function TurnIntoFlagCarrier(player)
     player.AddCustomAttribute("cloak consume rate increased", 9999, -1);
     player.AddCustomAttribute("voice pitch scale", 0.6, -1);
     player.AddCustomAttribute("cannot be backstabbed", 1, -1);
-    player.AddCustomAttribute("airblast pushback scale", 0, -1);
-    player.AddCustomAttribute("move speed penalty", 0.55, -1);
+    player.AddCustomAttribute("airblast vulnerability multiplier", 0, -1);
+    player.AddCustomAttribute("move speed penalty", 0.5, -1);
     player.AddCustomAttribute("taunt force weapon slot", 1, -1);
     player.AddCustomAttribute("cancel falling damage", 1, -1);
     player.AddCustomAttribute("reduced_healing_from_medics", 0.25, -1);
     player.AddCustomAttribute("patient overheal penalty", 0, -1);
-
-    if (carrier_crits)
-        player.AddCond(Constants.ETFCond.TF_COND_CRITBOOSTED_PUMPKIN);
+    player.AddCustomAttribute("ammo regen", 1, -1);
+    player.AddCond(Constants.ETFCond.TF_COND_ENERGY_BUFF);
 
     local classStockHP = player.GetHealth();
-    local carrier_max_hp = CARRIER_HP[classIndex] + 125 * GetREDPlayerCounter();
+    local carrierMaxHP = CARRIER_HP[classIndex] + 125 * GetREDPlayerCounter();
 
-    player.SetHealth(carrier_max_hp);
-    player.SetMaxHealth(carrier_max_hp);
+    player.SetHealth(carrierMaxHP);
+    player.SetMaxHealth(carrierMaxHP);
     player.RemoveCustomAttribute("max health additive bonus");
-    player.AddCustomAttribute("max health additive bonus", carrier_max_hp - classStockHP, -1);
+    player.AddCustomAttribute("max health additive bonus", carrierMaxHP - classStockHP, -1);
 
     local itemsToKill = [];
     for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
@@ -83,6 +82,31 @@ function TurnIntoFlagCarrier(player)
             itemsToKill.push(item);
     foreach (item in itemsToKill)
         item.Kill();
+
+    if (playerClass == Constants.ETFClass.TF_CLASS_PYRO)
+        for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
+            if (item.GetClassname() == "tf_weapon_rocketpack")
+            {
+                local wasActive = player.GetActiveWeapon() == item;
+                item.Kill();
+                local newWeapon = GiveWeapon(player, "tf_weapon_shotgun_pyro", 12);
+                if (wasActive)
+                    player.Weapon_Switch(newWeapon);
+                break;
+            }
+    if (playerClass == Constants.ETFClass.TF_CLASS_SOLDIER || playerClass == Constants.ETFClass.TF_CLASS_DEMOMAN)
+        for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
+            if (NetProps.GetPropInt(item, "m_AttributeManager.m_Item.m_iItemDefinitionIndex") == 154) // Pain Train
+            {
+                local wasActive = player.GetActiveWeapon() == item;
+                item.Kill();
+                local newWeapon = playerClass == Constants.ETFClass.TF_CLASS_SOLDIER
+                    ? GiveWeapon(player, "tf_weapon_shovel", 196)
+                    : GiveWeapon(player, "tf_weapon_bottle", 191);
+                if (wasActive)
+                    player.Weapon_Switch(newWeapon);
+                break;
+            }
 
     ShootGibs(player.GetCenter(), classIndex, true);
 
@@ -119,7 +143,7 @@ function TurnIntoFlagCarrier(player)
     DoEntFire("flag_picked", "Trigger", "", 0, null, null);
 }
 
-function CarrierDied(player)
+function CarrierDied(player, isPlayerDeath)
 {
     DispatchParticleEffect("fireSmokeExplosion_track", player.GetCenter(), Vector(0, 180, 0));
     carrier = null;
@@ -138,7 +162,8 @@ function CarrierDied(player)
         flags = 1,
         channel = 0
     });
-    PlayCarrierDownVO();
+    if (isPlayerDeath)
+        PlayCarrierDownVO();
 
     EntFireByHandle(item_teamflag, "ForceReset", "", -1, null, null);
     DoEntFire("bomb_sprite", "ShowSprite", "", -1, null, null);
@@ -153,14 +178,6 @@ function PlayerRespawn(player)
     player.SetHealth(player.GetMaxHealth());
     player.KeyValueFromString("targetname", "");
     player.SetCustomModelWithClassAnimations("");
-
-    if (player.GetPlayerClass() == Constants.ETFClass.TF_CLASS_PYRO)
-        for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
-            if (item.GetClassname() == "tf_weapon_rocketpack")
-            {
-                item.AddAttribute("cannot pick up intelligence", 1, -1);
-                break;
-            }
 }
 
 function ShootGibs(origin, classIndex, humanGibs)
@@ -201,7 +218,7 @@ function PlayBombAlertVO()
     foreach (player in GetAllPlayers())
         EmitSoundEx({
             sound_name = player.GetTeam() == Constants.ETFTeam.TF_TEAM_RED ? redLine : bluLine,
-            filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER
+            filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER,
             volume = 1,
             soundlevel = 150,
             flags = 1,
@@ -220,7 +237,7 @@ function PlayCarrierDownVO()
         if (player.GetTeam() == Constants.ETFTeam.TF_TEAM_RED)
             EmitSoundEx({
                 sound_name = line,
-                filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER
+                filter_type = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_SINGLE_PLAYER,
                 volume = 1,
                 soundlevel = 150,
                 flags = 1,

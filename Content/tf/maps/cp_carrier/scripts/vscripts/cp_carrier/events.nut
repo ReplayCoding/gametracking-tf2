@@ -40,7 +40,10 @@ function OnGameEvent_player_death(params)
 {
     local player = "userid" in params ? GetPlayerFromUserID(params.userid) : null;
     if (carrier && player == carrier && IsValidPlayer(player))
-        CarrierDied(player);
+    {
+        local inflictor = "inflictor_entindex" in params ? params.inflictor_entindex : 0;
+        CarrierDied(player, inflictor != player.entindex() && inflictor > 0 && inflictor < MAX_PLAYERS);
+    }
 }
 
 __CollectGameEventCallbacks(this);

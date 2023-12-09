@@ -2,8 +2,10 @@
 {
 	// Original shader: BaseTimesLightmap
 	"$basetexture" "Nature/snow_full001_dark"
+	"$bumpmap" "Nature/snow_full001_normal"
 	"$surfaceprop" "snow"
 	"$normalmapalphaenvmapmask" 1
 //	"$envmaptint" "[.02 .02 .02]"
 	"%keywords" "tf"
+	"$envmap" "env_cubemap"
 }

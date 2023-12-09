@@ -67,3 +67,17 @@
     }
     EntFireByHandle(main_script_entity, "RunScriptCode", name + "()", delay, null, null);
 }
+
+::GiveWeapon <- function(player, weaponClass, weaponId)
+{
+    local weapon = Entities.CreateByClassname(weaponClass);
+    NetProps.SetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex", weaponId);
+    NetProps.SetPropBool(weapon, "m_AttributeManager.m_Item.m_bInitialized", true);
+    NetProps.SetPropBool(weapon, "m_bValidatedAttachedEntity", true);
+	NetProps.SetPropBool(weapon, "m_bClientSideAnimation", true);
+    NetProps.SetPropBool(weapon, "m_bForcePurgeFixedupStrings", true);
+    weapon.SetTeam(player.GetTeam());
+    Entities.DispatchSpawn(weapon);
+    player.Weapon_Equip(weapon);
+    return weapon;
+}

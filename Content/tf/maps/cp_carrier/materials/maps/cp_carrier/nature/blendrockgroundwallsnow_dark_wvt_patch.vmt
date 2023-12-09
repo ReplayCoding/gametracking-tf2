@@ -1,7 +1,10 @@
 "LightMappedGeneric"
 {
-	"$basetexture"		"Nature/rockwall001forest_dark"
+	"$basetexture"		"Nature/rockwall001forest"
 	"%tooltexture"		"Nature/rockwall001forest"
+	"$bumpmap"		"Nature/flat_normal_noenv"
 	"%keywords"		"tf"
 	"$surfaceprop"		"snow"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmap"		"env_cubemap"
 }

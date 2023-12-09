@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDROCKGROUNDWALLSNOW_DARK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_carrier/c96_-5824_0"
+	}
+}

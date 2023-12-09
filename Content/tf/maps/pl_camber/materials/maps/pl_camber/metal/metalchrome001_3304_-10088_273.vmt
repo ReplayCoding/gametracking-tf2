@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_camber/c3304_-10088_273"
+	}
+}

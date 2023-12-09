@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/SNOW_FULL001_DARK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_carrier/c1024_-7040_0"
+	}
+}

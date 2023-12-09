@@ -1,13 +1,15 @@
 "WorldVertexTransition"
 {
-	"$basetexture" "Nature/rockwall001forest_dark"
-	"$basetexture2" "Nature/snow_full001_dark"
+	"$basetexture" "Nature/rockwall001forest"
+	"$basetexture2" "Nature/snow_full001"
 	"%tooltexture" "Nature/rockwall001forest"
 	"$blendmodulatetexture" "Nature/snowwall_blendmask"
 
-	//"$bumpmap" "Nature/rockwall001_normal"
-	//"$bumpmap2" "Nature/rockground002_height-ssbump"
+	"$bumpmap" "Nature/flat_normal_noenv"
+	"$bumpmap2" "Nature/snow_full001_normal"
 	"%keywords" "tf"
 	"$surfaceprop" "snow"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
 
 }

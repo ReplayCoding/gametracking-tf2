@@ -1,0 +1,207 @@
+"Carrier.Redcave"
+{
+	"dsp"	"18"
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/spacebase/spacebase_indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"ambient/lair/cap_3_mountain_rumble.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	"0.3"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/spacebase/spacebase_bang_01.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_bang_02.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_bang_03.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_bang_04.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.4"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_01.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_02.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_03.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_04.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_05.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_06.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_07.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_08.mp3"
+			"wave"		"ambient_mp3/spacebase/spacebase_rumble_09.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"40,60"
+		"volume"	"0.4"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/lair/cap_3_tone_metal_movement3.mp3"
+			"wave"		"ambient_mp3/lair/cap_3_tone_metal_movement1.mp3"
+		}
+	}
+}
+
+"Carrier.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinter.wav"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/windmill_wind_loop1.wav"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lightwindcreaks.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\wind\windgust.wav"
+			"wave"		"ambient\wind\windgust_strong.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"30,50"
+		"volume"	".35"
+		"pitch"		"75"
+		"rndwave"
+		{
+			"wave"		"ambient/halloween/windgust_05.wav"
+			"wave"		"ambient/halloween/windgust_07.wav"
+			"wave"		"ambient/halloween/windgust_10.wav"
+		}
+	}
+}
+"Carrier.Redspawn"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{  
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/lair/spawn_tone2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/lair/light_hum2.wav"
+	}
+	"playlooping"
+	{  
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient/lair/cap_2_boiler_rough1.wav"
+	}
+
+}
+"Carrier.Bluespawn"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/machines/lab_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/lair/ac_vent1.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	".3, .45"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"hl1\ambience\steamburst1.wav"
+			"wave"		"ambient/materials/metal_stress1.wav"
+			"wave"		"ambient/materials/metal_stress2.wav"
+			"wave"		"ambient/materials/metal_stress4.wav"
+			"wave"		"ambient/materials/metal_rattle3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	".3, .45"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"physics/metal/metal_solid_strain1.wav"
+			"wave"		"physics/metal/metal_solid_strain2.wav"
+			"wave"		"physics/metal/metal_solid_strain3.wav"
+			"wave"		"ambient/atmosphere/hole_hit3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20,40"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/creak01.wav"
+			"wave"		"ambient/creak02.wav"
+			"wave"		"ambient/creak03.wav"
+		}
+	}
+}
