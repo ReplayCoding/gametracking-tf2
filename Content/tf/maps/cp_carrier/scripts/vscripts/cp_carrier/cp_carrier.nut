@@ -2,16 +2,18 @@
 //Copyright LizardOfOz.
 //=========================================================================
 
+::carrier <- null;
+
 IncludeScript("cp_carrier/util.nut");
 IncludeScript("cp_carrier/entities.nut");
 IncludeScript("cp_carrier/config.nut");
 IncludeScript("cp_carrier/events.nut");
-
-::carrier <- null;
+IncludeScript("cp_carrier/bossbar.nut");
 
 ::bombDropTimeStamp <- Time();
 ::bombArertTimeStamp <- Time();
 ::carrierDownTimeStamp <- Time();
+::hasKatanaBeenNerfed <- false;
 
 ::CARRIER_HP <- [
     2000,
@@ -34,7 +36,8 @@ function TryMakingIntoRobot(player)
         return;
     }
     player.SetCustomModelWithClassAnimations(BOT_MODELS[clamp(activator.GetPlayerClass(), 0, 9)]);
-    RunWithDelay(this, 0.2, function() {
+    local delay = player.GetAbsVelocity().z < -400 ? 0.2 : 0.5;
+    RunWithDelay(this, delay, function() {
         if (carrier != player)
         {
             player.SetCustomModelWithClassAnimations("");
@@ -46,6 +49,7 @@ function TryMakingIntoRobot(player)
 function TurnIntoFlagCarrier(player)
 {
     carrier = player;
+    hasKatanaBeenNerfed = false;
     local playerClass = player.GetPlayerClass();
     local classIndex = clamp(playerClass, 0, 9);
     player.KeyValueFromString("targetname", "carrier");
@@ -66,7 +70,8 @@ function TurnIntoFlagCarrier(player)
     player.AddCustomAttribute("reduced_healing_from_medics", 0.25, -1);
     player.AddCustomAttribute("patient overheal penalty", 0, -1);
     player.AddCustomAttribute("ammo regen", 1, -1);
-    player.AddCond(Constants.ETFCond.TF_COND_ENERGY_BUFF);
+    player.AddCustomAttribute("dmg taken from crit reduced", 0.75, -1);
+    player.AddCond(Constants.ETFCond.TF_COND_OFFENSEBUFF);
 
     local classStockHP = player.GetHealth();
     local carrierMaxHP = CARRIER_HP[classIndex] + 125 * GetREDPlayerCounter();
@@ -94,6 +99,7 @@ function TurnIntoFlagCarrier(player)
                     player.Weapon_Switch(newWeapon);
                 break;
             }
+
     if (playerClass == Constants.ETFClass.TF_CLASS_SOLDIER || playerClass == Constants.ETFClass.TF_CLASS_DEMOMAN)
         for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
             if (NetProps.GetPropInt(item, "m_AttributeManager.m_Item.m_iItemDefinitionIndex") == 154) // Pain Train
@@ -129,6 +135,7 @@ function TurnIntoFlagCarrier(player)
         origin = player.GetOrigin()
     });
 
+    UpdateBossBarClass(player);
     DoEntFire("bomb_sprite", "HideSprite", "", -1, null, null);
     DoEntFire("boss_elevator_train", "StartForward", "", 0.5, null, null);
     DoEntFire("boss_exit_door", "Open", "", 1, null, null);
@@ -143,6 +150,29 @@ function TurnIntoFlagCarrier(player)
     DoEntFire("flag_picked", "Trigger", "", 0, null, null);
 }
 
+function FixCarrierWeapons()
+{
+    local weapon = carrier.GetActiveWeapon();
+    if (weapon && weapon.GetClassname() == "tf_weapon_rocketpack")
+    {
+        weapon.Kill();
+        carrier.Weapon_Switch(GiveWeapon(carrier, "tf_weapon_shotgun_pyro", 12));
+    }
+    else if (NetProps.GetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex") == 154) // Pain Train
+    {
+        weapon.Kill();
+        carrier.Weapon_Switch(
+            carrier.GetPlayerClass() == Constants.ETFClass.TF_CLASS_SOLDIER
+                ? GiveWeapon(carrier, "tf_weapon_shovel", 196)
+                : GiveWeapon(carrier, "tf_weapon_bottle", 191));
+    }
+    else if (!hasKatanaBeenNerfed && weapon && weapon.GetClassname() == "tf_weapon_katana")
+    {
+        weapon.AddAttribute("restore health on kill", 25, -1);
+        hasKatanaBeenNerfed = true;
+    }
+}
+
 function CarrierDied(player, isPlayerDeath)
 {
     DispatchParticleEffect("fireSmokeExplosion_track", player.GetCenter(), Vector(0, 180, 0));
@@ -151,19 +181,19 @@ function CarrierDied(player, isPlayerDeath)
     player.KeyValueFromString("targetname", "");
     player.SetCustomModelWithClassAnimations("");
     EntFireByHandle(self, "RunScriptCode", "local ragdoll = NetProps.GetPropEntity(activator, `m_hRagdoll`); if (ragdoll) ragdoll.Kill();", -1, player, player);
-    NetProps.SetPropInt(monster_resource, "m_iBossHealthPercentageByte", 0);
+    SetBossBarValue(0);
     ShootGibs(player.GetOrigin(), clamp(player.GetPlayerClass(), 0, 9), false);
 
     EmitSoundEx({
         sound_name = "ambient/explosions/explode_2.wav",
         volume = 1,
-        filter = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_GLOBAL
+        filter = Constants.EScriptRecipientFilter.RECIPIENT_FILTER_GLOBAL,
         soundlevel = 150,
         flags = 1,
         channel = 0
     });
     if (isPlayerDeath)
-        PlayCarrierDownVO();
+        EntFireByHandle(self, "RunScriptCode", "PlayCarrierDownVO()", 0.1, null, null);
 
     EntFireByHandle(item_teamflag, "ForceReset", "", -1, null, null);
     DoEntFire("bomb_sprite", "ShowSprite", "", -1, null, null);
@@ -229,7 +259,7 @@ function PlayBombAlertVO()
 
 function PlayCarrierDownVO()
 {
-    if (Time() - carrierDownTimeStamp < 20)
+    if (Time() - carrierDownTimeStamp < 20 || NetProps.GetPropInt(tf_gamerules, "m_iRoundState") >= 5)
         return;
     carrierDownTimeStamp = Time();
     local line = CARRIER_DIED_RED[RandomInt(0, CARRIER_DIED_RED.len() - 1)];

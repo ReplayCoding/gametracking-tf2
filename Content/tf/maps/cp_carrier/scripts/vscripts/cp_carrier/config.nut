@@ -2,6 +2,19 @@
 //Copyright LizardOfOz.
 //=========================================================================
 
+BOSS_ICONS <- [
+    "../hud/leaderboard_class_scout",
+    "../hud/leaderboard_class_scout",
+    "../hud/leaderboard_class_sniper",
+    "../hud/leaderboard_class_soldier",
+    "../hud/leaderboard_class_demo",
+    "../hud/leaderboard_class_medic",
+    "../hud/leaderboard_class_heavy",
+    "../hud/leaderboard_class_pyro",
+    "../hud/leaderboard_class_spy",
+    "../hud/leaderboard_class_engineer"
+];
+
 BOT_MODELS <- [
     "models/bots/scout/bot_scout.mdl",
     "models/bots/scout/bot_scout.mdl",
@@ -64,7 +77,7 @@ HUMAN_SCREAM <- [
 ];
 
 BOMB_ALERT_RED <- [ "vo/announcer_cart_defender_finalwarning4.mp3", "vo/mvm_bomb_alerts03.mp3", "vo/mvm_bomb_alerts04.mp3", "vo/mvm_bomb_alerts05.mp3", "vo/mvm_bomb_alerts08.mp3", "vo/mvm_bomb_alerts09.mp3", "vo/mvm_bomb_alerts10.mp3", "vo/mvm_bomb_alerts11.mp3", "vo/mvm_bomb_alerts12.mp3", "vo/mvm_bomb_alerts13.mp3", "vo/mvm_bomb_alerts14.mp3" ];
-BOMB_ALERT_BLU <- [ "vo/announcer_cart_attacker_warning1.mp3", "vo/announcer_cart_attacker_warning2.mp3", "vo/announcer_cart_attacker_warning4.mp3", "vo/mvm_bomb_alerts03.mp3", "vo/mvm_bomb_alerts05.mp3", "vo/mvm_bomb_alerts14.mp3" ];
+BOMB_ALERT_BLU <- [ "vo/announcer_cart_attacker_warning1.mp3", "vo/announcer_cart_attacker_warning2.mp3", "vo/announcer_cart_attacker_warning4.mp3" ];
 CARRIER_DIED_RED <- [ "vo/mvm_bomb_back01.mp3", "vo/mvm_bomb_back02.mp3", "vo/mvm_bomb_reset01.mp3", "vo/mvm_bomb_reset02.mp3", "vo/mvm_bomb_reset03.mp3" ];
 
 foreach (sound in HUMAN_SCREAM)

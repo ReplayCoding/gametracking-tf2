@@ -60,13 +60,13 @@ function KrampusThink()
         return -1;
     self.StudioFrameAdvance();
 
-    //try
-    //{
+    try
+    {
         if (IsActive())
         {
             ProcessBeingStuck();
-            local hpBar = clamp(255.0 * GetKrampusHealth() / GetKrampusMaxHealth(), 1, 255);
-            SetPropInt(monster_resource, "m_iBossHealthPercentageByte", hpBar);
+            CrushBuildings();
+            SetBossBarValue(clamp(255.0 * GetKrampusHealth() / GetKrampusMaxHealth(), 1, 255));
             if (targetPickTicks++ > 66)
             {
                 targetPickTicks = 0;
@@ -75,8 +75,8 @@ function KrampusThink()
             if (targetPickTicks % 11 == 0)
                 ProcessScreenShake();
         }
-    //}
-    //catch(e) { }
+    }
+    catch(e) { }
 
     TickAllCoalProjectiles();
 
@@ -99,6 +99,25 @@ function ProcessBeingStuck()
     {
         prevKrampusOrigin = krampusOrigin;
         stuckTicks = 0;
+    }
+}
+
+function CrushBuildings()
+{
+    for (local building = null; building = Entities.FindByClassname(building, "obj_*");)
+    {
+        local deltaVector = building.GetOrigin() - krampusOrigin;
+        local distance = deltaVector.Length();
+        if (distance < 120)
+            building.TakeDamageCustom(
+                krampus,
+                krampus,
+                null,
+                Vector(),
+                Vector(),
+                99999,
+                DMG_BULLET | DMG_ACID,
+                0)
     }
 }
 

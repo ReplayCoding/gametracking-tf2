@@ -1,8 +1,9 @@
 
 "VertexlitGeneric"
 {
-	"$basetexture" 			"models/props_office/nameplaque02"
+	"$basetexture" 			"models/props_office/plaquename06"
 	"$surfaceprop" 			"metal"
+	"$nodecal"		"1"
 	
 	"$phong" "1"
 	"$phongexponent" "25"

@@ -34,8 +34,11 @@ foreach (vo in [VO_COAL_BARRAGE, VO_COAL_THROW, VO_DEATH, VO_ISEEYOU, VO_ONKILL,
 PrecacheScriptSound("Weapon_PickAxe.Swing");
 PrecacheSound("ambient/fire/ignite.wav");
 PrecacheSound("ambient/fireball.wav");
+PrecacheScriptSound("xmas.jingle_noisemaker");
+PrecacheScriptSound("Halloween.TeleportVortex.EyeballMovedVortex");
 
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "kr_death_parent" });
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "kr_coaltrail_parent" });
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "kr_eruption_parent" });
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "kr_landing_parent" });
+PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "eyeboss_tp_vortex" });

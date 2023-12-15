@@ -65,7 +65,7 @@
                         Vector(),
                         maxHP * (isHealed ? 0.7 : 0.4),
                         DMG_BULLET | DMG_ACID,
-                        0)
+                        0);
                     EmitSoundEx({
                         sound_name = "Wood.Break",
                         entity = target,

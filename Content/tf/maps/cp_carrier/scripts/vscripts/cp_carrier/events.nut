@@ -8,10 +8,10 @@ function Think()
 {
     if (IsValidPlayer(carrier) && carrier.IsAlive())
     {
-        local hpBar = clamp(255.0 * carrier.GetHealth() / carrier.GetMaxHealth(), 1, 255);
-        NetProps.SetPropInt(monster_resource, "m_iBossHealthPercentageByte", hpBar);
+        SetBossBarValue(clamp(255.0 * carrier.GetHealth() / carrier.GetMaxHealth(), 1, 255));
         if (carrier.InCond(Constants.ETFCond.TF_COND_TAUNTING))
             carrier.RemoveCond(Constants.ETFCond.TF_COND_TAUNTING);
+        FixCarrierWeapons();
     }
     return -1;
 }
@@ -39,11 +39,8 @@ function OnGameEvent_teamplay_flag_event(params)
 function OnGameEvent_player_death(params)
 {
     local player = "userid" in params ? GetPlayerFromUserID(params.userid) : null;
-    if (carrier && player == carrier && IsValidPlayer(player))
-    {
-        local inflictor = "inflictor_entindex" in params ? params.inflictor_entindex : 0;
-        CarrierDied(player, inflictor != player.entindex() && inflictor > 0 && inflictor < MAX_PLAYERS);
-    }
+    if (carrier && player == carrier && IsValidPlayer(player) && "attacker" in params)
+        CarrierDied(player, params.attacker != params.userid);
 }
 
 __CollectGameEventCallbacks(this);

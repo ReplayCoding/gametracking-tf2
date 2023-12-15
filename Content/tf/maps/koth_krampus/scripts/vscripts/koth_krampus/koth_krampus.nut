@@ -7,6 +7,7 @@ ClearGameEventCallbacks();
 IncludeScript("koth_krampus/__lizardlib/util.nut");
 IncludeScript("koth_krampus/config.nut");
 IncludeScript("koth_krampus/entities.nut");
+IncludeScript("koth_krampus/bossbar.nut");
 
 SetPropInt(tf_gamerules, "m_nGameType", 2);
 EntFireByHandle(self, "RunScriptCode", "SpawnKrampus()", KRAMPUS_FIRST_SPAWN_DELAY, null, null);
@@ -79,13 +80,7 @@ function KrampusFailsafe()
         krampus = null;
         EntFireByHandle(team_control_point, "SetLocked", "0", -1, null, null);
         EntFireByHandle(GetActiveTimer(), "resume", "", -1, null, null);
-        SetPropInt(monster_resource, "m_iBossHealthPercentageByte", 0);
-
-        if (krampus_cam && krampus_cam.IsValid())
-        {
-            krampus_cam.SetAbsOrigin(team_control_point.GetOrigin() + Vector(0, 0, 120));
-            EntFireByHandle(krampus_cam, "SetParent", "!activator", -1, team_control_point, team_control_point);
-        }
+        SetBossBarValue(0);
     }
 }
 
@@ -111,6 +106,7 @@ function OnScriptHook_OnTakeDamage(params)
             if (playerClass == TF_CLASS_HEAVYWEAPONS || (playerClass == TF_CLASS_ENGINEER && params.inflictor != params.attacker))
                 params.damage *= 0.6;
         }
+
         return;
     }
 

@@ -92,6 +92,15 @@
         }
         if (tick == 795)
         {
+            for(local i = 0; i <= 6; i += 6)
+                EmitSoundEx({
+                    sound_name = "Taunt.YetiLand",
+                    filter = RECIPIENT_FILTER_GLOBAL
+                    volume = 1,
+                    soundlevel = 150,
+                    flags = 1,
+                    channel = i
+                });
             EmitSoundEx({
                 sound_name = "Taunt.YetiLand",
                 filter = RECIPIENT_FILTER_GLOBAL
@@ -120,12 +129,6 @@
 
             EntFireByHandle(team_control_point, "SetLocked", "1", -1, null, null);
             EntFireByHandle(main_script.GetActiveTimer(), "pause", "", -1, null, null);
-
-            if (krampus_cam && krampus_cam.IsValid())
-            {
-                krampus_cam.SetAbsOrigin(krampusOrigin + Vector(0, 0, 150));
-                EntFireByHandle(krampus_cam, "SetParent", "!activator", -1, krampus, krampus);
-            }
         }
         if (tick >= 795 && (krampusOrigin - bossJumpEndOrigin).Length() > 150)
         {
