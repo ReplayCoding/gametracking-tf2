@@ -12,7 +12,11 @@
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2.300000"
 	"$rimmask"		"1"
-	"$color2"		"{ 255 255 255 }"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 189 59 59 }"
+	"$color2"		"{ 189 59 59 }"
+	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -39,13 +43,24 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"		"$yellow"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}
