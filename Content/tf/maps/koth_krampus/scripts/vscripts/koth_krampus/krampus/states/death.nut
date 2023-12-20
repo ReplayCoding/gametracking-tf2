@@ -16,6 +16,7 @@
         EmitGlobalSound(PickRandomSound(VO_DEATH));
         ClientPrint(null, HUD_PRINTTALK, "#koth_krampus_death");
         SendGlobalGameEvent("halloween_boss_killed", { })
+        DoEntFire("krampus_death", "Trigger", "", 0, null, null);
     }
 
     function Think()

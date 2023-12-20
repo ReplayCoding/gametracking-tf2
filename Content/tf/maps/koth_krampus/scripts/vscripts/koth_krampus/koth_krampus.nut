@@ -13,6 +13,7 @@ SetPropInt(tf_gamerules, "m_nGameType", 2);
 EntFireByHandle(self, "RunScriptCode", "SpawnKrampus()", KRAMPUS_FIRST_SPAWN_DELAY, null, null);
 EntFireByHandle(team_control_point, "SetLocked", "1", -1, null, null);
 
+::krampusLauncher <- null;
 ::krampusDeathTimeStamp <- -120;
 ::krampusSpawnCounter <- 0;
 ::shouldKrampusBePresent <- false;
@@ -125,7 +126,7 @@ function OnScriptHook_OnTakeDamage(params)
 function OnGameEvent_player_death(params)
 {
     local inflictor = EntIndexToHScript(params.inflictor_entindex)
-    if (inflictor && (inflictor == krampus || inflictor.GetOwner() == krampusLauncher))
+    if (inflictor && krampus && (inflictor == krampus || inflictor.GetOwner() == krampusLauncher))
     {
         local player = GetPlayerFromUserID(params.userid);
         if (player)

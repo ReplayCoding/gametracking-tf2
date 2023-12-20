@@ -9,9 +9,9 @@ Convars.SetValue("tf_rd_points_per_approach", "25");
 function SpawnBossBar()
 {
     pd_logic = SpawnEntityFromTable("tf_logic_player_destruction", {
-        blue_respawn_time = 9999,
+        blue_respawn_time = 0,
         finale_length = 999999,
-        flag_reset_delay = 60,
+        flag_reset_delay = 0,
         heal_distance = 0,
         min_points = 255,
         points_per_player = 0,
@@ -22,13 +22,11 @@ function SpawnBossBar()
     SetPropInt(pd_logic, "m_nBlueScore", 0);
     SetPropInt(pd_logic, "m_nBlueTargetPoints", 0);
     SetPropInt(pd_logic, "m_nMaxPoints", 255);
-
-    local auto = SpawnEntityFromTable("logic_auto", {
-        spawnflags = 1,
-        "OnMultiNewRound#1": "pd_logic,SetPointsOnPlayerDeath,0,0,-1",
-        "OnMultiNewRound#2": "pd_logic,EnableMaxScoreUpdating,,0,-1",
-        "OnMultiNewRound#3": "pd_logic,DisableMaxScoreUpdating,,5,-1",
-    });
+    EntFireByHandle(pd_logic, "SetPointsOnPlayerDeath", "0", -1, null, null);
+    EntFireByHandle(pd_logic, "SetPointsOnPlayerDeath", "0", 0.1, null, null);
+    EntFireByHandle(pd_logic, "SetPointsOnPlayerDeath", "0", 1, null, null);
+    EntFireByHandle(pd_logic, "EnableMaxScoreUpdating", "", -1, null, null);
+    EntFireByHandle(pd_logic, "DisableMaxScoreUpdating", "", 5, null, null);
 }
 SpawnBossBar();
 
