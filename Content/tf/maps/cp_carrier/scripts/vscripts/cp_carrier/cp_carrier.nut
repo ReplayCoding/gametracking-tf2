@@ -13,20 +13,9 @@ IncludeScript("cp_carrier/bossbar.nut");
 ::bombDropTimeStamp <- Time();
 ::bombArertTimeStamp <- Time();
 ::carrierDownTimeStamp <- Time();
-::hasKatanaBeenNerfed <- false;
+::tauntFlag <- false;
 
-::CARRIER_HP <- [
-    2000,
-    2000,
-    2000,
-    3000,
-    3000,
-    2000,
-    3000,
-    2500,
-    2000,
-    2500
-];
+DoEntFire("taunt_fix_cosmetic", "Kill", "", 0, null, null);
 
 function TryMakingIntoRobot(player)
 {
@@ -49,7 +38,6 @@ function TryMakingIntoRobot(player)
 function TurnIntoFlagCarrier(player)
 {
     carrier = player;
-    hasKatanaBeenNerfed = false;
     local playerClass = player.GetPlayerClass();
     local classIndex = clamp(playerClass, 0, 9);
     player.KeyValueFromString("targetname", "carrier");
@@ -58,7 +46,7 @@ function TurnIntoFlagCarrier(player)
 
     player.AddCustomAttribute("patient overheal penalty", 1, -1);
     player.AddCustomAttribute("override footstep sound set", 7, -1);
-    player.AddCustomAttribute("damage force reduction", 0.2, -1);
+    player.AddCustomAttribute("damage force reduction", 0.25, -1);
     player.AddCustomAttribute("health from packs decreased", 0.05, -1);
     player.AddCustomAttribute("cloak consume rate increased", 9999, -1);
     player.AddCustomAttribute("voice pitch scale", 0.6, -1);
@@ -72,9 +60,10 @@ function TurnIntoFlagCarrier(player)
     player.AddCustomAttribute("ammo regen", 1, -1);
     player.AddCustomAttribute("dmg taken from crit reduced", 0.75, -1);
     player.AddCond(Constants.ETFCond.TF_COND_OFFENSEBUFF);
+    player.SetGravity(playerClass == Constants.ETFClass.TF_CLASS_MEDIC ? 3 : 2);
 
     local classStockHP = player.GetHealth();
-    local carrierMaxHP = CARRIER_HP[classIndex] + 125 * GetREDPlayerCounter();
+    local carrierMaxHP = 3000 + 125 * GetREDPlayerCounter();
 
     player.SetHealth(carrierMaxHP);
     player.SetMaxHealth(carrierMaxHP);
@@ -87,32 +76,6 @@ function TurnIntoFlagCarrier(player)
             itemsToKill.push(item);
     foreach (item in itemsToKill)
         item.Kill();
-
-    if (playerClass == Constants.ETFClass.TF_CLASS_PYRO)
-        for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
-            if (item.GetClassname() == "tf_weapon_rocketpack")
-            {
-                local wasActive = player.GetActiveWeapon() == item;
-                item.Kill();
-                local newWeapon = GiveWeapon(player, "tf_weapon_shotgun_pyro", 12);
-                if (wasActive)
-                    player.Weapon_Switch(newWeapon);
-                break;
-            }
-
-    if (playerClass == Constants.ETFClass.TF_CLASS_SOLDIER || playerClass == Constants.ETFClass.TF_CLASS_DEMOMAN)
-        for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
-            if (NetProps.GetPropInt(item, "m_AttributeManager.m_Item.m_iItemDefinitionIndex") == 154) // Pain Train
-            {
-                local wasActive = player.GetActiveWeapon() == item;
-                item.Kill();
-                local newWeapon = playerClass == Constants.ETFClass.TF_CLASS_SOLDIER
-                    ? GiveWeapon(player, "tf_weapon_shovel", 196)
-                    : GiveWeapon(player, "tf_weapon_bottle", 191);
-                if (wasActive)
-                    player.Weapon_Switch(newWeapon);
-                break;
-            }
 
     ShootGibs(player.GetCenter(), classIndex, true);
 
@@ -150,31 +113,64 @@ function TurnIntoFlagCarrier(player)
     DoEntFire("flag_picked", "Trigger", "", 0, null, null);
 }
 
-function FixCarrierWeapons()
+function PreventCarrierFromTele()
 {
-    local weapon = carrier.GetActiveWeapon();
-    if (weapon && weapon.GetClassname() == "tf_weapon_rocketpack")
+    local carrierPos = carrier.GetOrigin();
+    for(local teleporter = null; teleporter = Entities.FindByClassname(teleporter, "obj_teleporter");)
     {
-        weapon.Kill();
-        carrier.Weapon_Switch(GiveWeapon(carrier, "tf_weapon_shotgun_pyro", 12));
+        if (teleporter.GetTeam() != Constants.ETFTeam.TF_TEAM_BLUE || NetProps.GetPropInt(teleporter, "m_iObjectMode") == 1)
+            continue;
+        if ((carrierPos - teleporter.GetOrigin()).Length() < 180)
+            EntFireByHandle(teleporter, "Disable", "", 0, null, null);
+        else if (NetProps.GetPropBool(teleporter, "m_bDisabled"))
+            EntFireByHandle(teleporter, "Enable", "", 0, null, null);
     }
-    else if (NetProps.GetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex") == 154) // Pain Train
+}
+
+function ProcessCarrierTaunts()
+{
+    local isTaunting = carrier.InCond(Constants.ETFCond.TF_COND_TAUNTING) || carrier.GetActiveWeapon().GetClassname() == "tf_weapon_rocketpack";
+    if (isTaunting && !tauntFlag)
     {
-        weapon.Kill();
-        carrier.Weapon_Switch(
-            carrier.GetPlayerClass() == Constants.ETFClass.TF_CLASS_SOLDIER
-                ? GiveWeapon(carrier, "tf_weapon_shovel", 196)
-                : GiveWeapon(carrier, "tf_weapon_bottle", 191));
+        tauntFlag = true;
+        item_teamflag.SetModelScale(0.01, -1);
+        carrier.SetCustomModelWithClassAnimations("");
+        NetProps.SetPropInt(carrier, "m_nRenderMode", 1);
+        NetProps.SetPropInt(carrier, "m_clrRender", 1);
+
+        local cosmetic = SpawnEntityFromTable("tf_wearable", {
+            targetname = "taunt_fix_cosmetic"
+        });
+        cosmetic.SetModel(BOT_MODELS[clamp(carrier.GetPlayerClass(), 0, 9)]);
+        EntFireByHandle(cosmetic, "SetParent", "!activator", 0, carrier, carrier);
+        NetProps.SetPropEntity(cosmetic, "m_hOwnerEntity", carrier);
+
+        cosmetic = SpawnEntityFromTable("prop_dynamic", {
+            targetname = "taunt_fix_cosmetic"
+        });
+        cosmetic.SetModel(item_teamflag.GetModelName());
+        cosmetic.SetModelScale(3, -1);
+        EntFireByHandle(cosmetic, "SetParent", "!activator", 0, carrier, carrier);
+        EntFireByHandle(cosmetic, "SetParentAttachment", "flag", 0, carrier, carrier);
+        NetProps.SetPropEntity(cosmetic, "m_hOwnerEntity", carrier);
     }
-    else if (!hasKatanaBeenNerfed && weapon && weapon.GetClassname() == "tf_weapon_katana")
+    else if (!isTaunting && tauntFlag)
     {
-        weapon.AddAttribute("restore health on kill", 25, -1);
-        hasKatanaBeenNerfed = true;
+        tauntFlag = false;
+        DoEntFire("taunt_fix_cosmetic", "Kill", "", 0, null, null);
+        carrier.SetCustomModelWithClassAnimations(BOT_MODELS[clamp(carrier.GetPlayerClass(), 0, 9)]);
+        item_teamflag.SetModelScale(3, -1);
+        NetProps.SetPropInt(carrier, "m_nRenderMode", 0);
+        NetProps.SetPropInt(carrier, "m_clrRender", 0xFFFFFFFF);
     }
 }
 
 function CarrierDied(player, isPlayerDeath)
 {
+    tauntFlag = false;
+    DoEntFire("taunt_fix_cosmetic", "Kill", "", 0, null, null);
+    item_teamflag.SetModelScale(3, -1);
+
     DispatchParticleEffect("fireSmokeExplosion_track", player.GetCenter(), Vector(0, 180, 0));
     carrier = null;
     bombDropTimeStamp = Time();
@@ -204,6 +200,9 @@ function CarrierDied(player, isPlayerDeath)
 
 function PlayerRespawn(player)
 {
+    NetProps.SetPropInt(player, "m_nRenderMode", 0);
+    NetProps.SetPropInt(player, "m_clrRender", 0xFFFFFFFF);
+    player.SetGravity(1);
     player.RemoveCustomAttribute("max health additive bonus");
     player.SetHealth(player.GetMaxHealth());
     player.KeyValueFromString("targetname", "");

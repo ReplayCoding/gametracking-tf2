@@ -9,9 +9,8 @@ function Think()
     if (IsValidPlayer(carrier) && carrier.IsAlive())
     {
         SetBossBarValue(clamp(255.0 * carrier.GetHealth() / carrier.GetMaxHealth(), 1, 255));
-        if (carrier.InCond(Constants.ETFCond.TF_COND_TAUNTING))
-            carrier.RemoveCond(Constants.ETFCond.TF_COND_TAUNTING);
-        FixCarrierWeapons();
+        ProcessCarrierTaunts();
+        PreventCarrierFromTele();
     }
     return -1;
 }

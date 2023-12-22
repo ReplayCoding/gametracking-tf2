@@ -6,7 +6,6 @@
 ::main_script <- this;
 
 ::tf_gamerules <- Entities.FindByClassname(null, "tf_gamerules");
-
 ::item_teamflag <- Entities.FindByClassname(null, "item_teamflag");
 ::boss_pit_exit <- Entities.FindByName(null, "boss_pit_exit").GetOrigin();
 ::boss_tele_dest <- Entities.FindByName(null, "boss_tele_dest");
