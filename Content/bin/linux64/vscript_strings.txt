@@ -1,0 +1,5320 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_pMemAlloc
+__gxx_personality_v0
+__cxa_call_unexpected
+memset
+strlen
+strcpy
+select
+_Z6DevMsgPKcz
+ThreadSleep
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
+tolower
+strtoul
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEmmmc
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+__cxa_begin_catch
+__cxa_rethrow
+__cxa_end_catch
+__cxa_guard_acquire
+CommandLine_Tier0
+__cxa_guard_release
+__cxa_guard_abort
+send
+memmove
+_ZSt20__throw_length_errorPKc
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
+puts
+socket
+bind
+recv
+vsnprintf
+memcpy
+free
+malloc
+calloc
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+expf
+atan2f
+atanf
+log10f
+logf
+acosf
+asinf
+srand
+longjmp
+isprint
+isxdigit
+isalpha
+iscntrl
+ispunct
+isspace
+isalnum
+islower
+isupper
+_setjmp
+memcmp
+strtoll
+__cxa_pure_virtual
+strstr
+strtod
+toupper
+strcmp
+ThreadGetCurrentId
+_ZN10CVProfNode9ExitScopeEv
+g_Telemetry
+g_VProfCurrentProfile
+g_ClockSpeedMillisecondsMultiplier
+_ZN10CVProfNode10GetSubNodeEPKciS1_i
+_ZN10CVProfNode10EnterScopeEv
+Warning
+__cxa_atexit
+Plat_FloatTime
+RandomInt
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm
+_Z10DevWarningPKcz
+strtol
+Error
+RandomFloat
+strchr
+_Z6ConMsgPKcz
+__dynamic_cast
+_Z11ConColorMsgRK5ColorPKcz
+strcasecmp
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+dlclose
+CreateInterface
+dlopen
+dlerror
+Plat_IsInDebugSession
+getcwd
+dlsym
+__ctype_b_loc
+wcslen
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+strncasecmp
+strncpy
+wcsncpy
+vswprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoull
+cvar
+_ZN17CThreadSpinRWLock11LockForReadEv
+_ZN17CThreadSpinRWLock10UnlockReadEv
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+_ZN12CThreadEventC1Eb
+_ZN17CThreadSyncObjectD2Ev
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN12CThreadEvent3SetEv
+_ZN13CThreadRWLock12LockForWriteEv
+_ZN13CThreadRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+_ZN17CThreadSpinRWLock11UnlockWriteEv
+sincosf
+_ZGVbN2v_sin
+HushAsserts
+GetCPUInformation
+cbrtf
+_ZGVbN4vv_powf
+_ZGVbN2vv_pow
+__pthread_key_create
+pthread_once
+dl_iterate_phdr
+libtier0.so
+libvstdlib.so
+libm.so.6
+libmvec.so.1
+libdl.so.2
+libstdc++.so.6
+libpthread.so.0
+ld-linux-x86-64.so.2
+libc.so.6
+GLIBC_2.2.5
+GLIBC_2.29
+GLIBC_2.27
+CXXABI_1.3
+GLIBCXX_3.4.21
+GLIBCXX_3.4
+GLIBC_2.22
+GLIBC_2.14
+GLIBC_2.3
+%z~	
+%r~	
+%j~	
+%b~	
+%Z~	
+%R~	
+%J~	
+%B~	
+%:~	
+%2~	
+%*~	
+%"~	
+%z}	
+%r}	
+%j}	
+%b}	
+%Z}	
+%R}	
+%J}	
+%B}	
+%:}	
+%2}	
+%*}	
+%"}	
+%z|	
+%r|	
+%j|	
+%b|	
+%Z|	
+%R|	
+%J|	
+%B|	
+%:|	
+%2|	
+%*|	
+%"|	
+%z{	
+%r{	
+%j{	
+%b{	
+%Rv	
+%Rv	
+%Zv	
+~(H9}
+~(I9
+I9\$8I
+t$0w;H
+u/UH
+ ff.
+` ff.
+ ff.
+` ff.
+` ff.
+AWAVAUATSH
+A8H9
+|$(I
+D$8I
+8[A\A]A^A_]
+AWAVAUATSH
+A8H9
+|$(I
+D$8I
+8[A\A]A^A_]
+AWAVI
+AUATI
+-`R	
+5aR	
+[A\A]A^A_]
+ATSH
+[A\]
+ATSH
+|$(I
+D$8H
+|$(I
+D$8H
+[A\A]]
+ATE1
+AWAVAUATSH
+A9G u
+w L;m
+H[A\A]A^A_]
+8:umH
+[A\]
+8:uXH
+[A\]
+[A\]
+AWAVL
+ATSH
+T$ I
+tbM9
+A\A]A^A_]
+D$ 9
+AUATI
+AWAVI
+AUATI
+-KF	
+5IF	
+[A\A]A^A_]
+ATSI
+Ict$ I
+IcT$0I
+t$(I
+[A\A]]
+AVAUATSH
+ [A\A]A^]
+								H
+AVAUL
+A\A]A^]
+AVAUATI
+A\A]A^]
+AVAUL
+A\A]A^]
+AVAUATI
+[A\A]A^]
+								H
+AVAUL
+A\A]A^]
+AVAUATSH
+\$ 9]
+([A\A]A^A_]
+t$(L
+X ;]
+d$(L
+L$ 9
+T$(L
+AWAVAUL
+9p H
+A;v 
+A\A]A^A_]
+@8H9
+8[A\A]A^A_]
+AWAVAUATI
+9C }
+@8H9
+([A\A]A^A_]
+A\A]A^A_]
+ATSH
+A\A]A^A_]
+[A\A]]
+[A\A]]
+AVAUATI
+f=go
+vgf=tr
+f=aw
+f=rw
+[A\A]A^]
+f=rd
+v4f=di
+f=si
+0[A\A]A^]
+f=ab
+f=rb
+f=sp
+f=sr
+f=ua
+A\A]A^]
+f=souqA
+[A\A]A^]
+0[A\A]A^]
+0[A\A]A^]
+AWAVAUATI
+L+/H)
+[A\A]A^A_]
+xpuqE1
+[A\A]A^A_]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+AVAUATI
+[A\A]A^A_]
+AUATH
+0A\A]]
+AVAUH
+A\A]A^]
+t+UH
+A]A^A_]H
+[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+[A\]
+[A\]
+AWAVAUATI
+[A\A]A^A_]
+P@H9
+P@H9
+[A\]
+[A\]
+[A\]
+@@H9
+R0H9
+@@H9
+@0H9
+[A\]
+[A\]
+@@H9
+R0H9
+AWAVH
+AUATI
+@0L9
+@0L9
+@0L9
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVE1
+AUATI
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUH
+@@H9
+wZL;k
+[A\A]A^]
+[A\A]A^]
+5Xh	
+c H+C
+@0H9
+AVAUI
+A\A]A^]
+A\A]A^]
+[A\]
+AWAVAUATI
+([A\A]A^A_]
+s(H)
+k H+C
+k H+C
+AUATL
+[A\A]]
+s(H9
+[A\A]H
+AVAUATI
+\t2D
+A\A]A^]
+T$(L
+[A\A]A^]
+T$(H
+tzE8
+L$(H
+L$(L
+	weH
+	w5K
+AWAVI
+AUATSH
+CPt*M
+kHI+E
+[A\A]A^A_]
+t7L9e
+L9;M
+L97t+A
+L97M
+AWAVAUATI
+D$(L
+L$(H
+L$(I
+[A\A]A^A_]
+t$(I
+D$(H
+\$(L
+\$(L
+T$(L
+T$(H
+D$(L
+AVAUATSH
+8^t!
+8|tN[L
+A\A]A^]
+[A\A]A^]
+tcUH
+t$XH
+t$HH
+[A\]H
+D$(H
+[A\A]]
+[A\A]]
+[A\]
+AWAVAUATSH
+tef.
+[A\A]A^A_]
+[A\A]A^A_]
+A\A]A^]
+H9w@~
+P@H9
+P@H9
+P@H9
+P@H9
+AUATH
+@@H9
+A\A]]
+A\A]]
+@@H9
+@@H9
+@8H9
+ct}H
+et7H
+@8H9
+@8H9
+AWAVH
+AUATI
+@@H9
+@0L9
+@0L9
+A\A]A^A_]
+A\A]A^A_]
+A\A]A^A_]
+AUATH
+@@H9
+([A\A]]
+([A\A]]
+([A\A]]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+[A\]
+AWAVH
+AUATSH
+[A\A]A^A_]
+ [A\]
+u L)
+t L)
+[A\]
+A\A]A^]
+AVAUH
+@[A\A]A^]
+@[A\A]A^]
+AUATH
+8[A\A]]
+8[A\A]]
+AWAVH
+ATSH
+[A\A]A^A_]
+A\A]]
+[A\A]]
+AWAVI
+AUATSH
+[A\A]A^A_]
+:.t<H
+AUATH
+A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AUATL
+[A\A]]
+AVAUA
+3D9.u+H
+[A\A]A^]
+3D9.t
+[A\A]A^]
+ATSI
+A\A]A^]
+A\A]A^]
+AWAVI
+ATSH
+[A\A]A^A_]
+[A\]
+[A\]
+AWAVAUI
+ATSH
+\$PH
+D$0H
+|$(I
+D$hI
+D$XI
+t$@H
+D$`I
+D$XH
+D$`H
+u3E1
+[A\A]A^A_]
+AUATI
+A\A]]
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AVAUI
+ATSH
+t$(I
+\$8L
+D$WH
+A\A]A^]
+AUATI
+[A\A]]
+AVAUI
+[A\A]A^]
+AWAVAUI
+ATSH
+D$8H
+t$(I
+[A\A]A^A_]
+D$0I
+D$8I
+\$@H9
+D$8H
+D$8w
+M9|$8w
+AUATI
+GXH+G`H
+S8H9S@H
+s0vi
+([A\A]]
+S8H9S@H
+AWAVAUATSH
+GXH+G`H
+([A\A]A^A_]
+AUATI
+A\A]]
+AUATI
+A\A]]
+[A\]
+AUATI
+A\A]]
+u>HcB
+[A\]
+GXH+G`
+ATSH
+GXH+G`H9
+[A\A]]
+A\A]]
+AUATI
+A\A]]
+AVAUATI
+A\A]A^]
+AVAUATI
+GXH+G`H
+ [A\A]A^]
+AUATI
+A\A]]
+ATSH
+W`t2L
+[A\H
+[A\]H
+AUATH
+A\A]]
+AUATI
+A\A]H
+tzwA
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+AUATI
+A\A]]
+A\A]]
+t"= 
+L$pA
+D$pI
+|$xI
+T$xt
+[A\]
+[A\]
+[A\]
+[A\]
+A\A]A^]
+[A\A]A^]
+A\A]A^]
+AVAUATI
+W`H)
+[A\A]A^]
+A\A]A^]
+AUATI
+GXH+G`H
+8[A\A]]
+8[A\A]]
+AWAVAUATI
+we=@
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+SxYH
+t8[L
+AUATI
+A\A]]
+A\A]]
+A\A]]
+AUATI
+wV=@
+[A\A]]
+H;A8
+[A\A]]
+AWAVI
+AUATSH
+GXH+G`H
+C8I9
+[A\A]A^A_]
+L;c@H
+L9{8w
+AUATI
+GXH+G`H
+[A\A]]
+[A\A]]
+AUATI
+GXH+G`H
+([A\A]]
+M;l$@
+\$8I9
+t>f.
+I9\$8w
+l$8L
+D$@H
+[A\A]]
+D$8H
+\$8w
+t$0H
+D$0I
+t$0H
+D$0I
+Sx1H
+I9\$8w
+[A\]
+AVAUATI
+GXH+G`H
+L;k8|!H
+[A\A]A^]
+[A\A]A^]
+GHH9
+AUATI
+[A\A]]
+H;wPH
+D$HH
+D$Hw
+[A\A]]
+t$@H
+D$@I
+D$HM
+l$PH9
+T$@L
+M9l$Hw
+AWAVAUI
+A\A]A^A_]
+|$XH
+Yt*E1
+[A\A]A^A_]
+AWAVL
+u4E1
+[A\A]A^A_]
+A\A]]
+T$XL
+I+T$`
+AWAVAUATI
+[A\A]A^A_]
+A\A]A^]
+A\A]A^]
+AWAVL
+0A\A]A^A_]
+AUATI
+H9ZXv
+[A\A]]
+[A\A]]
+jPI9
+[A\A]H
+AUATI
+[A\A]]
+@PH9
+[A\A]]
+H9XXvFL
+[A\A]]
+AWAVH
+AUATI
+0A\A]A^A_]
+AUATH
+0A\A]]
+AUATH
+8[A\A]]
+ A\A]]
+AVAUI
+[A\A]A^]
+AUATH
+ A\A]]
+AUATH
+ A\A]]
+AUATH
+ A\A]]
+AUATI
+A\A]]
+AUATI
+A\A]]
+A\A]]
+tcv;
+AWAVAUATI
+A\A]A^A_]
+AWAVAUI
+ATSH
+D$@I
+t$hL
+D$(H
+t$XI
+D$P~NI
+D$PH
+I9T$X
+D$`t
+|$xA
+L$pI
+~_f.
+D$PH
+L9sX
+s@M;t$H
+T$8H
+t$@H
+D$0I
+D$`H
+|$`H
+D$`H
+[A\A]A^A_]
+[A\A]A^A_]
+\$PH
+D$0H
+D$hI
+D$XI
+t$@H
+D$`I
+D$XH
+D$`H
+D$8t
+D$XH
+D$`H
+D$8H
+|$8H
+D$8H
+D$HH
+t$8H
+D$8M
+t$HL
+AWAVAUI
+M;fH
+8[A\A]A^A_]
+[A\A]A^A_]
+8[A\A]A^A_]
+ATSH
+D$@I
+|$hI
+t$XI
+D$PH
+I9T$X
+D$PH
+[A\A]A^A_]
+AUATI
+A\A]]
+AUATI
+A\A]]
+AUATI
+A\A]]
+AWAVH
+([A\A]A^A_]
+[A\A]A^A_]
+ [A\]
+xaL;s8u
+L;{0tuH
+[A\A]A^A_]
+ [A\]
+ [A\]
+[A\]
+U0L;e
+[A\A]A^A_]
+[A\A]A^A_]
+AUATH
+D$`H
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+AUATSH
+A\A]A^A_]
+AVAUI
+t$`I
+[A\A]A^A_]
+D$`L
+D$`L
+AUATI
+A\A]]
+AUATI
+A\A]]
+AUATL
+A\A]]
+AUATL
+A\A]]
+AVAUH
+H[A\A]A^A_]
+AVAUH
+H[A\A]A^A_]
+AVAUL
+HA\A]A^]
+AVAUATI
+A\A]A^]
+A\A]A^]
+AVAUATI
+0[A\A]A^]
+AUATI
+A\A]]
+AUATI
+A\A]]
+AVAUATI
+0[A\A]A^]
+AUATI
+0A\A]]
+AUATI
+ A\A]]
+AUATI
+([A\A]]
+AWAVL
+ATSH
+[A\A]A^A_]
+AVAUATSH
+D$8H
+D$8H9
+[A\A]A^A_]
+AWAVL
+AUATI
+[A\A]A^A_]
+D$`L
+H9Y8
+D$`L
+AWAVAUATI
+L;i8
+L9k8~TL
+[A\A]A^A_]
+AWAVAUI
+ATSH
+C8I9
+[A\A]A^A_]
+L;c@H
+L9{8w
+[A\A]A^A_]
+AVAUI
+ATSH
+M;t$@
+\$8I9
+I9\$8w
+t$8L
+D$@H
+ [A\A]A^]
+D$8H
+\$8w
+t$0H
+D$0I
+t$0H
+D$0I
+AWAVAUATI
+D$`H
+H;Q8
+M;n8}WI
+([A\A]A^A_]
+([A\A]A^A_]
+[A\A]A^A_]
+~0L)
+AWAVL
+H;N8
+[A\A]A^A_]
+AUATL
+[A\A]]
+AWAVH
+X[A\A]A^A_]
+H;X8}WH
+M;w8}
+AWAVAUATI
+[A\A]A^A_]
+L9x8~
+L9x8~
+I;F8
+I;^@s~I
+H9Z8~
+I;^@r
+AWAVAUI
+ATSH
+[A\A]A^A_]
+M;t$@
+\$8I9
+I9\$8w
+D$@L
+t$8H
+t$0H
+\$@I
+\$0I
+D$8H
+\$8w
+D$@H
+M;t$@
+t$0H
+\$@I
+AWAVL
+ATSH
+L;h@H
+c8M9
+L9c8w
+L;k8
+[A\A]A^A_]
+AWAVL
+ATSH
+L;h@H
+c8M9
+L9c8w
+L;k8
+[A\A]A^A_]
+AWAVAUATI
+@8H9
+U8I9U@I
+[A\A]A^A_]
+AUATL
+[A\A]]
+AWAVAUI
+ATSH
+D$8H
+l$(I
+[A\A]A^A_]
+D$0I
+D$8I
+\$@H9
+D$8H
+D$8w
+M9|$8w
+I9\$8I
+t$0w$I
+AUATSH
+[A\A]]
+T$`H
+|$`H
+w8Hc
+T2xD
+AVAUATI
+M9l$H
+tVE1
+M9l$`w
+\$pM
+D$0H
+t$0I
+I9^H
+D$8H
+l$8I
+[A\A]A^]
+AUATI
+l$`f
+tvE1
+M9l$`w
+t$XH
+txE1
+M9l$Hw
+t$@H
+[A\A]]
+AWAVI
+ATSH
+[A\A]A^A_]
+S`H9ShH
+SHH9SPH
+[A\A]A^]
+ATSH
+[A\A]A^]
+ATSH
+[A\A]A^]
+AUATI
+t$8H9
+D$8H
+D$(I
+A\A]]
+AVAUATS
+e@[L
+A\A]A^]
+AUATI
+D$XH
+D$8I
+D$8H
+D$(I
+A\A]]
+ATSH
+[A\]
+AWAVL
+ATSH
+H[A\A]A^A_]
+ATSH
+I9]H
+[A\A]]
+ATSH
+I9]H
+[A\A]]
+ATSH
+I9]H
+[A\A]]
+AWAVAUI
+ATSH
+\$PH
+D$0H
+|$(I
+D$hI
+D$XI
+t$@H
+D$`I
+D$XH
+D$`H
+D$8t
+D$XH
+~^E1
+D$`H
+[A\A]A^A_]
+ATSH
+tSE1
+[A\A]]
+AVAUATI
+[A\A]A^]
+AWAVI
+[A\A]A^A_]
+AWAVAUATI
+([A\A]A^A_]
+([A\A]A^A_]
+([A\A]A^A_]
+AWAVAUL
+o ATI
+$t$H=
+t$XH
+t$XH
+x[A\A]A^A_]
+t$XD
+AWAVAUATI
+\$ H
+\$ E1
+t$H=6
+t$XH
+t$HI
+Et$@
+X[A\A]A^A_]
+o ATI
+ [A\A]A^]
+<$]I
+AWAVAUATI
+<$,u
+l$ L
+\$ L
+l$ L
+t$`H
+|$ 1
+[A\A]A^A_]
+t$XH
+$H=0
+ZH=.
+tf~TH
+$H=0
+l$ 1
+$H=0
+$H=0
+WH=.
+t2~PH
+t$XH
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATI
+8[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+t(H=1
+[A\A]A^A_]
+AWAVAUATSH
+([A\A]A^A_]
+AWAVAUATSH
+8[A\A]A^A_]
+AWAVAUI
+ATSI
+H[A\A]A^A_]
+AVAUATSH
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVAUATI
+r0fH
+H[A\A]A^A_]
+|$ L
+<$:tE
+ATSH
+;,ufH
+;,uDH
+;,u"H
+[A\]
+AWAVL
+ AUATI
+,t}H
+<${t
+H[A\A]A^A_]
+[t(H=6
+tUH=
+t$XH
+AWAVAUATI
+t$XH
+x[A\A]A^A_]
+t$XL
+$H;E
+t$XH
+<$]H
+<$,t
+AVAUI
+|$ H
+A\A]A^]
+AWAVAUL
+o ATI
+t(H=
+t$XH
+t$XH
+([A\A]A^A_]
+<$]H
+AWAVAUL
+o ATI
+$t$H=
+t$XH
+$H=+
+$H=+
+t$XH
+H[A\A]A^A_]
+<$]H
+AWAVAUATI
+$H=D
+l$ M
+T$8I
+H[A\A]A^A_]
+|$ H=
+l$ L
+ShH9SpL
+SPH9SXL
+t$XH
+t$XI
+ATSH
+t^E1
+[A\]
+AWAVAUL
+o ATI
+<$)t
+nPL+m
+H[A\A]A^A_]
+FPE1
+FhH)
+AWAVAUL
+o ATI
+<$)t(
+nPL+m
+8[A\A]A^A_]
+FhH)
+FPE1
+AWAVAUL
+o ATI
+<$(I
+<$;H
+<$)H
+<$;u
+uPL+
+EPE1
+x[A\A]A^A_]
+U`E1
+EhH)
+AWAVAUL
+o ATI
+$H=6
+t%H=
+t$XH
+t$XH
+<$)t9
+_PH+
+x[A\A]A^A_]
+GPE1
+K`E1
+AWAVL
+w AUL
+$H=6
+t#H=
+t$XH
+H[A\A]A^A_]
+AVAUATI
+?{tX
+D$8H
+}t/H
+;t)I
+[A\A]A^]
+l$ L
+t^H=,
+T$8I
+u0fH
+[A\A]A^]
+AWAVAUL
+o ATI
+<$)t
+A\A]A^A_]
+AWAVAUL
+o ATI
+<$)t
+FPI9
+$H=,
+<$:t
+T$8H
+$H=-
+H[A\A]A^A_]
+SHE1
+T$8H
+;t&H
+ATSH
+[A\A]]
+ATSH
+[A\]
+[A\]
+AUATI
+8[A\A]]
+AWAVI
+AUATS1
+H[A\A]A^A_]
+tGw%=
+AWAVAUATI
+8[A\A]A^A_]
+AUATL
+ A\A]]
+AUATL
+ A\A]]
+AUATSH
+S8H9
+[A\A]]
+ATSH
+H9W0H
+[A\A]]
+U(I9U0I
+[A\A]]
+ATSH
+C([L
+C([L
+AVAUI
+0[A\A]A^]
+AVAUATSH
+[A\A]A^]
+AUATSH
+H9C8s
+[A\A]]
+H92u
+P[A\]
+P[A\]H
+[A\]
+ATSH
+uG[A\]
+AUATI
+A8L$
+[A\A]]
+A8L$
+A;<$
+A:T$
+AVAUATI
+uXI9
+[A\A]A^]
+AVAUL
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+AWAVAUATSH
+|$ A
+D$ A
+D$ L9
+[A\A]A^A_]
+AUATSH
+t^E1
+sxE1
+[A\A]]
+ATSH
+[A\]
+AWAVI
+ATSH
+[A\A]A^A_]
+ATSH
+[A\A]A^]
+ATSL
+\$xH
+l$pI
+T$hI
+D$pH
+I9T$h
+[A\A]A^A_]
+tiUH
+I9\$
+[A\]
+tiUH
+I9\$
+[A\]
+ATSH
+T$ H
+|$ H
+[A\A]]
+AWAVAUATSH
+T$@H
+~8E1
+M9oH
+~*E1
+M9~H
+I9\$H
+t$@H
+8[A\A]A^A_]
+D$(L
+ATSH
+SPH=
+c`[A\]
+[A\]
+AUATSH
+I9@H
+I9@H
+X[A\A]A^A_]
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+I9@H
+AVAUATSH
+L9cH
+~-E1
+M9gH
+I9]H
+I9]H
+I9]H
+[A\A]A^A_]
+I9]H
+<*tK
+[A\]
+AVAUATI
+HHr/H
+D$@H
+I9\$H
+t$@H
+A\A]A^]
+A\A]A^]
+D$(L
+AVAUATI
+[A\A]A^]
+GxH9
+[A\A]A^]
+D$pI
+D$xI9
+T$pH
+T$xD
+D$xI
+T$pH
+D$xI9
+T$pH
+T$xD
+D$xI
+T$pH
+L$xD
+D$xI
+T$pH
+D$xI9
+T$pH
+t$pI
+D$pI
+D$pI
+t$pI
+D$pI
+D$pI
+t$pI
+D$pI
+t$pI
+D$pI
+D$pI
+t$pI
+D$pI
+t$pI
+D$pI
+AWAVI
+ATSH
+~SE1
+[A\A]A^A_]
+AWAVA
+ATSH
+CxH9
+CxH9
+8[A\A]A^A_]
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+ATSH
+[A\A]]
+AWAVAUATSH
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+CxH9
+[A\A]A^A_]
+[A\A]A^A_]
+CxH9
+[A\A]A^A_]
+AUATSH
+CxH9
+CxH9
+spvWH
+[A\A]A^]
+S8[A\A]A^]
+AUATSH
+G(tBL
+<uw>
+[A\A]]
+w7<*
+w7<-
+{`.t
+ATE1
+CPL9
+CPL9
+[A\A]]
+tIUH
+t$PH
+I9\$Xw
+[A\A]]
+AVAUATSL
+t$0H
+[A\A]A^]
+t$@H
+I9\$Hw
+t$0A\A]]
+uMUH
+D$(L
+A\A]]
+D$(L
+[A\A]]
+AVAUI
+t$PL
+D$(L
+A\A]A^]
+AUATSH
+I9\$Xw
+D$(L
+[A\A]]
+[A\A]]
+uMUH
+@I9|$0t3I
+D$(L
+A\A]]
+[A\]
+umUH
+AVAUI
+D$(L
+A\A]A^]
+AUATSH
+I9\$Hw
+|$0L
+D$(L
+[A\A]]
+[A\A]]
+ATSH
+[A\]
+AUATSH
+I9]H
+[A\A]A^A_]
+tgUH
+AUATL
+A\A]]
+t^~P
+t%~B
+I9^(~pA
+[A\A]A^]
+[A\]
+@0H9
+AWAVAUATI
+L+n`H
+L;oP
+CHI9
+t<f.
+L9{Hw
+D$`H
+T$`L
+T$@H
+D$`L
+U@E1
+T$`H)
+T$`H)P
+{PI9
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+D$`H
+D$@H
+D$`I
+D$@H
+AWAVAUATSH
+S8H9S@H
+[A\A]A^A_]
+L$hSH9
+D$pI
+[A\]
+D$pH
+[A\]H
+9L;B
+M9D9
+t	L9B
+[A\]
+u89]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+AWAVI
+[A\A]A^A_]
+([A\A]A^A_]
+[A\A]A^A_]
+ATSH
+[A\]
+AWAVL
+TRAPH
+h[A\A]A^A_]
+TRAP
+TRAPA
+~^E1
+TRAPA
+TRAPA
+TRAPA
+TRAPA
+TRAPA
+TRAPA
+TRAPA
+RIQS
+LIAT
+[A\A]A^A_]
+TRAP
+TRAP
+TRAPL
+[A\A]A^A_]
+TRAPL
+TRAPL
+TRAPL
+TRAPL
+TRAPL
+TRAPL
+TRAPL
+AWAVL
+RIQS
+[A\A]A^A_]
+LIAT
+D$0I
+\$PH
+l$(I
+D$hI
+D$XI
+D$`H
+D$@H
+D$XH
+D$`H
+AUATSH
+[A\A]]
+|$pL
+I9\$Hw
+[A\A]]
+AWAVAUI
+t$HM
+~=E1
+|$@K
+\$@L
+D$(L
+[A\A]A^A_]
+AWAVAUATSH
+|$8H
+|$@L
+\$@L
+M9t$Hw
+|$XL
+\$XL
+M;|$`r
+\$pH
+D$(L
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+I9]Hw
+[A\A]]
+[A\A]]
+AWAVAUI
+~IE1
+[A\A]A^A_]
+AWAVAUATI
+H[A\A]A^A_]
+AWAVL
+AUATI
+[A\A]A^A_]
+~fUH
+[A\]
+~YUH
+I9\$X
+[A\]
+AUATI
+[A\A]]
+AUATI
+D$PH
+|$PH
+[A\A]]
+t$01
+t$0H
+I9\$8w
+t$01
+t$0H
+I9\$8w
+[A\]
+AUATI
+T$pH
+I9\$h
+[A\A]]
+t$01
+t$0H
+I9\$8w
+[A\]H
+T$HH
+|$HH
+T$HH
+|$HH
+T$xH
+t$8H
+|$xH
+D$(L
+T$pH
+t$@1
+t$@H
+I9\$Hw
+T$8H
+|$pH
+|$8H
+s@E1
+L9cHw
+[A\]
+I9\$X
+D$`H
+|$`H
+T$xH
+|$xH
+[A\]H
+t$8H
+D$(L
+AUATI
+T$pH
+|$pH
+t$@1
+t$@H
+I9\$Hw
+[A\A]]
+T$8H
+|$8H
+$tZM
+D$(L
+AVAUATSH
+~\E1
+M9fH
+[A\A]A^]
+I9\$Hw
+D$0A
+|$8I
+[A\]H
+[A\]
+I9\$8w
+[A\]
+AUATI
+7v@H
+[A\A]]
+ATSH
+[A\]
+AWAVL
+AUE1
+ATE1
+ <Yw5
+9|ujI
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATSH
+c@tEE1
+L9k0w
+t6E1
+t7E1
+t9E1
+[A\A]A^]
+uhUH
+AUATL
+ A\A]]
+t'v}=
+[A\]
+t	vG=
+[A\]H
+[A\]
+[A\]
+v5= 
+AUATSH
+c@t'E1
+L9k0w
+[A\A]A^]
+ATSH
+[A\A]A^]
+[A\]
+~dUH
+ATSH
+[A\]
+AUATSH
+[A\A]]
+AVAUATSH
+[A\A]A^]
+AUATI
+[A\A]]
+t$ I
+AVAUATE1
+ulHcC
+[A\A]A^A_]
+[A\]
+[A\]
+[A\]
+u0IcD$
+ATSH
+[A\]
+[A\]
+AVAUATI
+H#A0H
+[A\A]H
+A^]H
+AVAUI
+ATSH
+d$ M
+t6M9t$(u
+t$8L
+[A\A]A^A_]
+|$8L
+t$(I
+\$0I
+D$ I
+H#F0H
+d$ M
+T$ H
+D$ H
+AWAVH
+AUATSH
+t$(I
+T$8I9T$@I
+[A\A]A^A_]
+D$0H
+T$8I
+ATSH
+~qE1
+M9eH
+[A\A]]
+AUATL
+\$HI
+L$@I
+D$8H
+[A\A]]
+AUATI
+\$(L
+[A\A]]
+uEUI
+twH9P
+u<UH
+AVAUATI
+H9C@
+[A\A]A^A_]
+@ L9
+AVAUA
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+|$HH
+L$@H
+u5Hcv
+[A\]
+SHH9
+[A\A]A^]
+[A\A]A^]
+AVAUATSH
+l$(L
+[A\A]A^A_]
+ATE1
+M9eH
+[A\A]]
+ATSH
+~qE1
+M9eH
+[A\A]]
+AWAVL
+H[A\A]A^A_]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+AVAUI
+PH;WPH
+D$HI9
+M9t$Hw
+D$XI
+|$xA
+L$pI
+[A\A]A^]
+D$HH
+D$Hw
+t$@H
+D$@M
+D$pA
+D$p 
+|$xI
+\$xH
+[A\A]]
+vS= 
+AWAVI
+ghSH
+H9X0s
+GPI+^@I
+([A\A]A^A_]
+([A\A]A^A_]
+AWAVI
+ATSH
+\$PH
+D$0H
+T$(I
+D$hI
+D$XI
+|$@H
+D$`I
+D$XH
+D$`H
+D$XH
+~pE1
+T$`H
+D$8H
+[A\A]A^A_]
+t$XH
+AVAUI
+ATSH
+D$0L9
+t$@I
+|$HE
+D$@I
+D$@t
+D$PM
+t$0I
+[A\A]A^A_]
+D$(H
+T$HH
+|$HH
+AUATSH
+t>E1
+~BE1
+[A\A]]
+T$xH
+t$@1
+t$@H
+I9\$Hw
+$A\]
+|$xH
+T$@H
+D$XH9
+~sUH
+ATE1
+[A\A]]
+[A\A]A^A_]
+AWAVAUI
+ATSH
+D$8H
+D$(H
+[A\A]A^A_]
+D$0I
+D$8I
+\$@H9
+T$0H
+D$8H
+D$8w
+M9|$8w
+AWAVAUATI
+T$XE1
+t$`H
+I9]Hw
+[A\A]A^A_]
+HcP8H9
+D$XH
+D$`H
+D$@H
+M;|$X|OH
+M9|$X~
+IcE(H
+l$@I
+D$`I
+D$@H
+D$`A
+D$`H
+D$@H
+D$`H
+D$@H
+T$`H
+L$`PL
+AXAY
+L$@H
+t$@H
+PPHc
+D$`I
+D$@H
+t$`L
+Lch(Hc
+D$`A
+L$`Hc;I
+T$@H
+IcE(H
+L$`Hc
+T$@H
+|$@A
+AXAY
+D$`Hc
+T$`H
+D$@H
+T$@H
+L$`Hc;I
+T$@H
+D$`M
+D$@H
+D$`H
+D$8H
+Hc3L
+t$`H
+|$`M
+t$@H
+8APH
+[A]%
+L$`I
+T$`H
+t$@D
+D$8H
+Hc3I
+T$`I
+t$`H
+L$@H
+T$@H
+Hc3I
+T$`I
+t$`H
+L$@H
+T$@H
+T$@I
+T$`D
+D$`D
+l$`H
+D$@I
+D$@I
+D$`D
+l$`H
+D$@I
+D$@I
+T$`H
+D$@H
+T$@H
+\$`H
+D$XH
+\$`H
+D$`Hc
+L$`I
+T$`H
+t$@D
+D$`I
+T$`H
+D$@H
+T$@H
+\$`H
+t$`Hc
+L$@H
+|$`M
+t$@H
+8APH
+AZA[%
+\$`H
+T$`H
+D$@H
+T$@H
+T$`H
+D$@H
+T$@H
+t$@I
+T$`A
+t$`I
+t$@H
+D$`A
+T$`H
+D$@H
+T$@H
+D$`L
+L$@H
+D$@H
+T$@H
+D$`E1
+D$@H
+T$@H
+D$`A
+D$`H
+D$@H
+D$`H
+D$@H
+D$`H
+D$@H
+\$`H
+T$`H
+D$`M
+|$Xt
+T$@L
+D$`L9
+HcP4
+M9|$X
+T$@I
+\$`D
+\$@A
+Lc;M
+|$`I
+|$@A
+t$`Lc+I
+T$@I
+T$`H
+D$@H
+T$@H
+t$@H
+L$`I
+T$`H
+t$@H
+T$@I
+\$`D
+D$`Lc
+D$`D
+D$@M
+l$`I
+D$@H
+l$@A
+D$8H
+D$@H
+L$@H
+D$8H
+D$`H
+D$`H
+C8H9C@
+t0E1
+t$`H
+D$`H
+D$`I
+T$`H
+D$@H
+T$@H
+D$`I
+T$`H
+D$@H
+T$@H
+D$`I
+T$`H
+D$@H
+T$@H
+D$`H
+|$`H
+t$@I
+T$xH
+T$@D
+Lc;H
+D$`H
+D$`H
+D$`Hc
+D$@H
+D$XH
+D$`H
+D$@H
+|$`H
+D$`H
+Hc;I
+|$`H
+[A\A]A^A_]
+ZHTf
+t(E1
+AWAVAUATI
+L$`H
+L$@H
+D$XE1
+D$XH
+D$XH
+[A\A]A^A_]
+D$XH
+D$XH
+AUATL
+CXE1
+[A\A]]
+AWAVAUI
+X[A\A]A^A_]
+AVAUATI
+A+T$`I
+D$XI
+A+D$`
+D$HH
+D$XH9
+<I;\$PH
+M9l$Hw
+\$Ht
+T$hH
+t$f.
+D$@H
+A\A]A^]
+D$HH
+D$Hw
+[A\A]A^]
+[A\A]A^]
+t$@H
+D$@I
+D$HM
+AVAUATI
+T$`HcH,H)
+T$`Hc@0H
+D$Xt
+D$XH9
+I9\$X~
+[A\A]A^]
+A\A]A^]
+AWAVE
+~	H9
+tFH9
+|$@Lc
+EXE1
+D$@H
+L$@H
+[A\A]A^A_]
+H97t%H
+D$XI
+L$@H
+AWAVAUATI
+HcR8L9
+HcX4
+tdLc}
+\$@H
+T$`H
+T$@H
+([A\A]A^A_]
+AUATI
+tt= 
+[A\A]A^A_]
+CXE1
+[A\A]A^A_]
+H;B8}
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+t#= 
+8[A\A]A^A_]
+[A\A]A^A_]
+H;B8
+D$@H
+AVAUI
+A\A]A^]
+([A\A]A^A_]
+AVAUATI
+ [A\A]A^]
+ [A\A]A^]
+ [A\A]A^]
+AWAVI
+8[A\A]A^A_]
+[A\A]A^A_]
+I9D$
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+ [A\]
+AWAVAUI
+([A\A]A^A_]
+null
+AWAVL
+uRE1
+[A\A]A^A_]
+A]A^]
+A\A]A^]
+A\A]A^]
+A]A^]
+[A\A]A^]
+AWAVAUATI
+uvE1
+[A\A]A^A_]
+AVAUATI
+I9T$
+[A\A]A^]
+AVAUI
+ [A\A]A^]
+AWAVI
+w`=@
+[A\A]A^A_]
+I;G8s
+uhE1
+AWAVAUI
+[A\A]A^A_]
+t$(I
+u8M;t$@
+t$0H
+t$0H
+D$0M
+t$@M
+M9t$8w
+AWAVI
+AUATSH
+[A\A]A^A_]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+AWAVAUI
+tA= 
+[A\A]A^A_]
+AWAVAUATI
+T$`I
+D$@H
+T$@H
+HcP4A
+D$`L
+I9t$X~3
+([A\A]A^A_]
+AUATI
+A\A]]
+[A\]
+[A\]
+I9\$Hw
+D$0A
+|$8I
+[A\]H
+[A\]
+tiUH
+I9\$
+[A\]
+AVAUATS1
+[A\A]A^A_]
+AWAVL
+AUATI
+A\A]A^A_]
+A\A]A^A_]
+AWAVAUL
+[A\A]A^A_]
+AWAVAUL
+[A\A]A^A_]
+AVAUATI
+A\A]A^]
+A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUATI
+A\A]A^]
+A\A]A^]
+AWAVL
+AUATI
+A\A]A^A_]
+A\A]A^A_]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+AUATL
+A\A]]
+A\A]]
+ATSH
+[A\]
+AVAUATS1
+[A\A]A^A_]
+AVAUL
+xTE1
+A\A]A^]
+A\A]A^]
+AWAVL
+AUATI
+thA9
+([A\A]A^A_]
+AWAVAUL
+[A\A]A^A_]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATI
+A\A]A^]
+A\A]A^]
+AVAUATI
+A\A]A^]
+A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+<wt6
+AWAVAUL
+A\A]A^A_]
+A\A]A^A_]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+AUATL
+A\A]]
+A\A]]
+AVAUATS1
+[A\A]A^A_]
+AUATL
+xmE1
+[A\A]]
+[A\A]]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+AUATL
+A\A]]
+A\A]]
+AVAUATI
+[A\A]A^]
+AUATL
+x]E1
+[A\A]]
+[A\A]]
+AWAVAUL
+[A\A]A^A_]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+AUATL
+A\A]]
+A\A]]
+AVAUATS1
+[A\A]A^A_]
+AWAVAUL
+[A\A]A^A_]
+AUATL
+x}E1
+[A\A]]
+[A\A]]
+AWAVAUL
+[A\A]A^A_]
+<wt6
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUL
+[A\A]A^]
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+AUATL
+A\A]]
+A\A]]
+w6UH
+ATSH
+[A\A]]
+[A\A]]
+[A\A]]
+HcpX
+AVAUA
+A\A]A^]
+ATSH
+[A\]
+ATSH
+[A\]
+AUATSH
+[A\A]]
+A\A]]
+AUATSH
+A\A]]
+[A\A]]
+ATS1
+S@fH
+[A\A]]
+t+UH
+[A\A]A^]
+A\A]A^]
+AUATI
+A\A]]
+A\A]]
+AWAVAUATSH
+X[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+?H+E
+?H+]
+?H9E
+?H9E
+[A\A]A^A_]
+AWAVAUATI
+([A\A]A^A_]
+[A\A]A^A_]
+I9V8~
+txw?H
+tRvQH
+[A\A]A^]
+[A\A]A^]
+t;= 
+uB= 
+[A\]
+[A\A]A^]
+[A\A]A^]
+U-VUUUH
+[A\A]A^]
+[A\A]A^]
+AUATI
+[A\A]]
+[A\A]]
+HcF0H
+AWAVI
+AUATI
+C0E1
+9C0L
+[A\A]A^A_]
+[A\]
+t+UH
+[A\A]]
+Hc6H
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+ATSH
+AUATH
+8[A\A]]
+8[A\A]]
+8[A\A]]
+AWAVAUI
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+H97t%H
+H97t%H
+[A\A]]
+AUATL
+[A\A]]
+AWAVI
+tq= 
+[A\A]A^A_]
+AWAVI
+[A\A]A^A_]
+ATSH
+[A\A]A^]
+ATSH
+[A\A]A^]
+AUATL
+[A\A]]
+AWAVAUI
+ATSH
+#t$f
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]H
+AUATSH
+[A\A]]
+t+UH
+AWAVI
+AUATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AVAUL
+[A\A]A^]
+AUATI
+[A\A]]
+AVAUATSH
+[A\A]A^]
+AUAT
+A\A]]
+AVAU
+t'H;
+[A\A]A^A_]
+~+E1
+D;{0|
+[A\A]A^A_]
+([A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+AUATI
+A9\$
+A\A]A^]
+AUATSH
+A9\$
+[A\A]]
+AUATI
+A9\$
+[A\A]]
+AUATI
+A9\$
+[A\A]A^]
+AVAUI
+ATSH
+p8tHI
+[A\A]A^]
+G L9
+u>I9
+O@L9
+AVAUATI
+t$(I
+t$ L
+\$(H
+\$(H
+[A\A]A^]
+tQ9W
+t+f9
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+[A\A]A^A_]
+tTLc
+t+UH
+ATSH
+#[A\]
+AVAUI
+[A\A]A^]
+AUATSH
+A\A]]
+[A\A]]
+`Pf.
+G8#p(
+G8	p(
+AUATI
+D$TA
+D$Xt
+8[A\A]]
+8[A\A]]
+AVAUA
+D$Tt
+@[A\A]A^]
+@[A\A]A^]
+@[A\A]A^]
+L$TM
+D$TA
+D$Xu
+8[A\A]]
+8[A\A]]
+AWAVAUI
+(HcWP
+t$HL
+|$0L
+[A\A]A^A_]
+D$HA
+AUATSH
+[A\A]]
+t(UH
+AUATH
+A\A]A^]
+A]A^]
+AWAVAUATS
+([A\A]A^A_]
+AWAVAUATI
+x[A\A]A^A_]
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+d$8I
+|$@D
+IcT$PI
+t$@H
+|$\D
+T$pE
+\$xM
+|$H1
+l$(I
+D$XH
+\$ I
+8[A\A]A^A_]
+8[A\A]A^A_]
+D$TA
+/D$psEI
+D$TA
+/D$xw
+ATSH
+[A\A]]
+[A\A]]
+[A\A]A^]
+A\A]A^]
+[A\]
+[A\]
+AUATI
+[A\A]]
+[A\A]]
+AWAVAUATI
+D$8M
+D$8L
+X[A\A]A^A_]
+@(H9
+X[A\A]A^A_]
+D$8H
+D$8L
+D$8E1
+ATSH
+[A\]
+[A\]
+AUATSH
+[A\A]]
+[A\A]]
+AWAVAUATI
+G8t,M
+[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+[A\A]]
+[A\A]]
+A\A]A^A_]
+AWAVAUA
+/tlH
+A\A]A^A_]
+AWE1
+ATSH
+[A\A]A^A_]
+AVMc
+xzD9
+}ID)
+4'D9
+}jHc
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+vcUH
+<2v}
+ u	E
+0uSHc
+sQHc
+AWAVAUATS
+Vt@A
+,3Hc
+[A\A]A^A_]
+3 Hc
+D8 t
+[A\]
+ATSH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+[A\A]]
+AVAUI
+ATStLH
+A\A]A^]
+[A\A]A^]
+~,Hc
+A\A]A^]
+A\A]A^]
+tS<0t\<'t;H
+	w}1
+<Xt0H
+'t2H
+	wT1
+AUATSH
+<.t6
+[A\A]]
+	w(f
+[A\D
+[A\A]]
+<Eu,
+~.Hc
+AWAVAUATSH
+t:E1
+[A\A]A^A_]
+AWAVAUATSH
+tIIc
+[A\A]A^A_]
+ATLc
+[A\]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+AULc
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+AULc
+[A\A]]
+[A\A]]
+AVLc
+[A\A]A^]
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATS
+TUUUv
+[A\A]A^]
+AWAVAUATI
+[A\A]A^A_]
+tx~.
+AVAUATI
+A\A]A^]
+A\A]A^]
+AVAUI
+[A\A]A^]
+A\A]A^]
+AWAVE1
+AUATI
+[A\A]A^A_]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AUE1
+[A\A]]
+[A\D
+AUATI
+[A\A]]
+[A\A]]
+ [A\A]A^]
+AWAVA
+([A\A]A^A_]
+AWAVAUI
+ATLc
+([A\A]A^A_]
+([A\A]A^A_]
+ATLc
+	vQD
+[A\A]A^]
+AWAVI
+AULc
+([A\A]A^A_]
+AVAUI
+/tOH
+[A\A]A^]
+[A\A]A^]
+</t	H
+[A\]
+ATSH
+;"u	D
+[A\]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+AVAUI
+<.tOH
+A\A]A^]
+[A\A]A^]
+AVAUI
+~R[L
+A\A]A^]
+[A\A]A^]
+~.Hc
+t	<\u
+AUATSH
+[A\A]]
+~ Hc
+A\A]A^]
+A]A^]
+/t	H
+AVAUA
+/t	H
+A\A]A^]
+AUATA
+[A\A]]
+/t	H
+AWAVAUA
+D8'u
+D8&u
+~XE1
+D8'u
+<3.u
+D8&u
+[A\A]A^A_]
+t	A8
+AUATA
+~&Lc
+[A\A]]
+AVLc
+[A\A]A^]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+ATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+A\A]A^]
+[A\A]A^]
+AWAVL
+~pH9
+[A\A]A^A_]
+AUATL
+[A\A]]
+[A\A]]
+t.L9
+[A\]
+AWAVL
+ATSL
+~JA9
+[A\A]A^A_]
+~PA9
+AWAVAUATSH
+[A\A]A^A_]
+IcT$
+AWAVAUATSH
+uUMc
+tP<[
+[A\A]A^A_]
+u0Hc
+ty;]
+th~.
+t-E1
+< v^<
+<?tt
+.t!D
+([A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^]
+AWAVL
+AUATSH
+        H
+[A\A]A^A_]
+AVAUI
+[A\A]A^]
+AWAVI
+AUATI
+t"HcE
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVAUATI
+8HcA
+x2Lc
+tYHcE
+8[A\A]A^A_]
+A\A]A^A_]H
+AWAVAUATI
+<$L9
+<uZH
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+[A\A]A^A_]
+A+D$$I
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$I
+AUATA
+[A\A]]
+vLD9
+v:D9
+tOf.
+ATSH
+[A\]
+[A\]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUATSH
+[A\A]]
+A\A]]
+uBf.
+AUATSH
+[A\A]]
+A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUA
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+0[A\]
+0[A\]
+AWAVAUATSH
+[A\A]A^A_]
+AUATL
+[A\A]]
+AWAVAUATSH
+~bIc
+\,$L
+D<$H
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+[A\]
+ATSD
+D9c ~j
+S$D9
++C$H
+[A\]
+[A\]
+AWAVI
+A9F }
+[A\A]A^A_]
+[A\A]]
+x0A9
+[A\]
+[A\]
+ueUH
+<2;{ 
+[A\A]]
+A+t$$I
+[A\A]]
+AUE1
+ATSH
+[A\A]]
++{$H
+A]A^]
+A\A]A^]
+ATSH
+t/A+t$$Hc
+[A\A]]
+D$ A
+[A\A]]
+S +S
+AWAVAUATI
+A+\$$I
+8[A\A
+A]A^A_]
+8[A\A]A^A_]
+AUATL
++S$E
+~IIc
+[A\A]]
+A\A]]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+E+D$$B8
+A+t$$I
+[A+D$$I
+$A\]
+O tp
+AWAVI
+AUATSH
+A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+A+t$$I
+A+t$$I
+AVAUI
+(A\A]A^]
+A+t$$I
+(A\A]A^]
+A+D$$
+AUATSH
+[A\A]]
++C$H
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+uNM9
++s$H
+AWAVAUATSH
+ t*A
+%tdA
+[A\A]A^A_]
+F A9F
+A+v$D8,7
+A+~$I
+A+V$I
+A+~$I
+A+~$I
+A+~$I
+A+F$
+AWAVI
+[A\A]A^A_]
+[A\A]A^A_]
+A\A]A^A_]
+AWAVI
+AUATSH
+A+V$)
+A+N$I
+V +E
+[A\A]A^A_]
+AWAVH
+A+U$
+[A\A]A^A_]
+A+u$H
+AWAVAUI
+ATSH
+[A\A]A^A_]
+A+E$
+< ~xL;}
+A+E$
+A+E$
+uPUH
++W$x
+AUATI
+D$(H
+D$8I
+A\A]]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+D$(H
+D$8I
+[A\A]]
+A+|$$x<Hc
+<$Hc
+A;\$ A
+[A\A]]
+[A\A]]
+AVAUI
+A\A]A^]
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+uT[A\A]A^]
+$A+D$$
+A;D$ A
+A\A]A^]
+|$@I
+D$8L
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+A\A]]
+AVAUATI
+A+W$
+A+G$I
+A;G A
+A+G$D
+A;G A
+A+G$
+A+G$I
+A;G A
+([A\A]A^A_]
+A+G$I
+A;G A
+7A+O$
+A+G$I
+A;G A
+A+G$
+A;G A
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+$A+D$$
+A;D$ A
+[A\A]A^A_]
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+[A\A]A^A_]
+$A+D$$
+A;D$ A
+[A\A]A^A_]
+$A+T$$
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+A;\$ A
+[A\]
+;G ~
++W$x
+AVAUATSH
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+A9G A
+8[A\A]A^A_]
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATI
+E+l$$D
+t;[L
+A\A]A^]
+A\A]A^]
++C$9C
+[A\]
+AUATI
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+$A+D$$
+A;D$ A
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+~/I9
+[A\A]]
+[A\A]]
+AVAUATSH
+7t:H
+~(M9
+[A\A]A^]
+[A\A]A^]
+ATSL
+[A\]
+AVAUATI
+~0M9
+<$Hc
+A\A]A^]
+A\A]A^]
+AVAUATI
+7tBH
+~0M9
+<$Hc
+A\A]A^]
+A\A]A^]
+AVAUI
+A\A]A^]
+A\A]A^]
+ATSH
+A\A]A^]
+[A\A]]
+A\A]]
+A\A]]
+AWAVAUA
+ATS<*u#A
+A\A]A^A_]
+</Mc
+A\A]A^A_]
+AVAUL
+ATSH
+t9L9+t
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+t	H)
+AVAUATSL
+A\A]A^]
+[A\A]A^]
+AVAUI
+ATSL
+~$[L
+A\A]A^]
+[A\A]A^]
+AUATSH
+x+Hc
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+A\A]]
+A\A]]
+AVAUATI
+x}D9
+[A\A]A^]
+[A\A]A^]
+AUATI
+[A\A]]
+[A\A]]
+AVAUI
+ATSH
+D8"u
+[A\A]A^]
+[A\A]A^]
+AWAVAUATL
+X[A\A]A^A_]
+AVAUL
+A\A]A^]
+AUATI
+[A\A]]
+AVAUL
+A\A]A^]
+AVAUL
+A\A]A^]
+<$Hc
+AVAUL
+A\A]A^]
+AVAUL
+A\A]A^]
+AUATI
+A\A]A^]
+A\A]]
+A\A]]
+AVAUL
+A\A]A^]
+AWAVI
+[A\A]A^A_]
+AWAVI
+ATSH
+[A\A]A^A_]
+t	H)
+AVAUATSH
+ubE1
+[A\A]A^A_]
+AUATSH
+[A\A]]
+[A\A]]
+AUATA
+[A\A]]
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]A^A_]
+6tXL
+7upH
+AVAUI
+ATSH
+[A\A]A^A_]
+@u"I
+AWAVAUATSH
+([A\A]A^A_]
+HcpH
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+AUATI
+D$8I
+A9\$H
+[A\A]]
+AVAUATS
+t$XL
+A]A^]
+AVAUATI
+A\A]A^]
+t*UH
+t$ H
+AWAVL
+t'fE
+[A\A]A^A_]
+AWAVAUATI
+t.fA
+[A\A]A^A_]
+IcvHD
+AVAUATI
+[A\A]A^]
+AWAVAUI
+[A\A]A^A_]
+tQ9W
+t+f9
+~;Hc
+0t	H
+AUATSD
+[A\A]A^]
+AWAVAUATA
+@uiE
+[A\A]A^A_]
+tjf;2uefD
+tjf;r
+udfD
+AVAUATSH
+8fA9
+tyfD;j
+[A\A]A^]
+fD;*trH
+AWAVAUATI
+L$ 1
+uFfD
+[A\A]A^A_]
+AUATI
+[A\A]]
+AUATSL
+@u&fE
+[A\A]]
+AVAUATS
+[A\A]A^]
+VUUUH
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+{4fA
+S4fD
+D;s(saH
+s fD;{:H
+C fD
+t+E1
+C@s;
+AWAVAUI
+ATSH
+tBL)
+4'tjH
+4'M9
+4'M9
+[A\A]A^A_]
+ATSH
+0[A\]
+ [A\]
+ [A\]
+~_ D
+AVAUL
+[A\A]A^]
+AWAVL
+8[A\A]A^A_]
+AWAVL
+8[A\A]A^A_]
+/= 6
+ [A\]
+ [A\]
+D$(A
+[A\]
+AVAUL
+ [A\A]A^]
+0[A\]
+A\A]]
+C,[A\]
+AUATL
+A\A]]
+[A\]
+AVAUL
+ [A\A]A^]
+[A\]
+X5<)
+ [A\]
+ [A\]
+[A\A]]
+[A\A]]
+[A\]
+L$(A\]
+0[A\]
+[A\A]]
+0A\A]]
+[A\A]]
+[A\]
+AVAUL
+ [A\A]A^]
+AVAUL
+ [A\A]A^]
+AUATL
+@A\A]]
+A\A]]
+0[A\]
+AVAUA
+H[A\A]A^A_]
+H[A\A]A^A_]
+AWAVL
+H[A\A]A^A_]
+AUATL
+[A\A]A^]
+AWAVAUATLc
+u0Mc
+[A\A]A^A_]
+C/L)
+AULc
+[A\A]]
+A\A]]
+A\A]]
+[A\A]A^A_]
+H[A\A]A^A_]
+@pE1
+@pE1
+AWAVL
+AUATI
+[A\A]A^A_]
+[A\]
+[A\]
+tYUH
+~Z H
+AWAVA
+AUATSH
+[A\A]A^A_]
+ ucL
+@uJL
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVI
+AUATUSH
+o_0H
+D$ I
+D$ H
+D$ L
+D$ 1
+T$@H
+D$(H
+D$@L
+\$ H
+\$ I
+[]A\A]A^A_
+D$8H
+AWE1
+tB</
+[A\A]A^A_]
+AVAUATI
+~	eH
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+H(H)
+H0H)
+H8H)
+H@H)
+HHH)
+HPH)
+HXH)
+[]A\A]
+AWAVL
+ATUH
+[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AWAVL
+AWAVL
+AWAVH
+SRPH
+AWAVAUATI
+SRPH
+AWAVI
+[A\A]A^A_]
+AWLc
+4$D9
+LcL$
+[]A\A]A^A_
+AWAVL
+[]A\A]A^A_
+}	zt
+AWAVAUATUSH
+<0ueM
+([]A\A]A^A_
+ATUH
+ tyvg
+0uRL
+[]A\
+Pu!E1
+0u0I
+[]A\
+PuW1
+PuB1
+AWAVI
+AUATI
+([]A\A]A^A_
+u/H#D$
+AWAVI
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUSH
+/vAH
+T$(L
+D$(L
+[]A\A]A^A_
+[]A\A]A^A_
+Q H;
+[]A\A]A^A_
+H95	F
+T$(H
+|$ H
+D$(H
+t$8H
+0uVH
+v5I9
+Ic4$H
+Mcl$
+L$ L
+D$ I
+D$(L
+AWAVAUI
+l$@H
+D$8I
+d$ M
+D$@H9
+D$8H
+L$ H9
+[]A\A]A^A_
+D$@I9
+D$8I9
+D$@H
+D$HH
+D$@H
+D$ H
+|$HM
+d$(H
+$H9D$
+d$(L
+D$@L
+T$HH
+D$ H
+H;D$
+D$HH
+t$@H
+D$HH
+D$@I
+[]A\A]A^A_
+l$@L
+ATUSH
+L$(H
+@(H9
+[]A\
+D$(M
+d$(M
+T$(H
+T$(H
+AWAVI
+AUATUH
+|$ M
+[]A\A]A^A_
+L;3r
+&#%d;
+Script debugger disconnected
+added watch %d %s
+_sqdbg_debug_hook_
+_sqdbg_error_handler_
+watches
+beginelement
+endelement
+attribute
+-sqdbg_superverbose
+</%s>
+ %s="%s"
+terminated
+addbreakpoint
+line
+the watch does not exists
+desc
+removed watch %d %s
+break
+the breakpoint doesn't exists
+removebreakpoint
+step
+update
+-> %s
+added bp %d %s
+error parsing add breakpoint
+removed bp %d %s
+resumed
+go (execution resumed)
+suspend
+step into
+step return
+disabled
+error parsing add watch
+error parsing remove watch
+terminate from user
+ready
+unknown packet
+&lt;
+&gt;
+&amp;
+&apos;
+&quot;
+&quot;n
+&quot;r
+vector::_M_default_append
+error parsing remove breakpoint
+failed to bind the socket
+disconnected
+socket error
+socket failed
+unknown
+*FUNCTION [%s] %s line [%d]
+AN ERROR HAS OCCURED [%s]
+failed to initialize the debugger
+Squirrel debugging only supported on Windows for now.
+AN ERROR HAS OCCURED [unknown]
+%s line = (%d) column = (%d) : error %s
+*FUNCTION [%s()] %s line [%d]
+AN ERROR HAS OCCURRED [unknown]
+@failed to generate formatted error message
+true
+false
+CALLSTACK
+LOCALS
+[%s] NULL
+[%s] %d
+[%s] %.14g
+[%s] USERPOINTER
+[%s] "%s"
+[%s] TABLE
+[%s] ARRAY
+[%s] CLOSURE
+[%s] NATIVECLOSURE
+[%s] GENERATOR
+[%s] USERDATA
+[%s] THREAD
+[%s] CLASS
+[%s] INSTANCE
+[%s] WEAKREF
+[%s] %s
+AN ERROR HAS OCCURRED [%s]
+invalid type tag
+the blob is invalid
+index out of range
+cannot clone blob this large
+cannot clone blob
+cannot create blob this large
+cannot create blob
+resize failed
+std_blob
+casti2f
+castf2i
+swap2
+swap4
+swapfloat
+constructor
+resize
+_set
+_get
+_typeof
+_nexti
+_cloned
+internal error (_nexti) wrong argument type
+blob would reach over total blob size limit
+cannot create blob with negative size
+8SQStream
+6SQBlob
+invalid param
+sqrt
+RAND_MAX
+asin
+acos
+log10
+atan
+atan2
+floor
+ceil
+srand
+fabs
+I@balanced chars expected
+letter expected
+overflow in numeric constant
+expected paren
+empty class
+unfinished range
+invalid range
+, or } expected
+unexpected character
+open/close char can't be the same
+letter expected for argument of escape sequence
+this object cannot be cloned
+the stream is invalid
+invalid parameter
+io error
+invalid format
+invalid origin
+no data left to read
+readblob
+std_stream
+table expected
+readn
+writeblob
+writen
+seek
+tell
+flush
+regexp
+\x%02x
+empty separators string
+begin
+invalid regexp object
+width format too long
+precision format too long
+printf
+lstrip
+rstrip
+split
+.ssb
+escape
+startswith
+endswith
+search
+match
+capture
+subexpcount
+not enough parameters for the given format string
+string expected for the specified format
+integer expected for the specified format
+float expected for the specified format
+wrong argument type, expected '%s' got '%.50s'
+not enough params in the stack
+the object is not a nativeclosure
+the object is not a class instance
+Invalid attempt to create a slot
+rawset works only on array/table/class and instance
+new member only works with classes
+invalid index type for an array
+rawget works only on array/table/instance and class
+clear only works on table and array
+only generators can be resumed
+only closure can be tail called
+generators cannot be tail called
+cannot resume a vm that is not running any code
+a closure with free variables bound cannot be serialized
+wrong type(expected class or instance)
+the type doesn't have a default delegate
+unexpected type %s
+invalid base type
+invalid param type
+the object is not a closure
+the target is not a closure
+invalid type
+invalid type, expected table
+invalid object type
+the object is not a class
+the class is locked
+null is not a valid key
+null key
+delegate cycle
+wrong type
+the index doesn't exist
+negative size
+invalid stream
+no closure in the calls stack
+@NATIVE
+invalid free var index
+wrong index
+the object must be a weakref
+cannot iterate a generator
+invalid environment
+native closure expected
+invalid typemask
+13SQCollectable
+unnamedbuffer
+func
+locals
+compare func failed
+inconsistent compare function
+top() on a empty array
+idle
+running
+suspended
+internal VM error
+assertion failed
+wrong indexes
+slice out of range
+cannot convert the string
+dead
+unknown error
+wrong parameter
+cannot wakeup a idle thread
+resizing to negative length
+size must be a number
+idx out of range
+native
+varargs
+defparams
+paramscheck
+typecheck
+seterrorhandler
+_versionnumber_
+_version_
+Squirrel 3.2 stable
+_charsize_
+_intsize_
+_floatsize_
+getclass
+rawget
+rawset
+rawin
+getattributes
+setattributes
+getbase
+rawnewmember
+wakeup
+wakeupthrow
+getstatus
+getstackinfos
+pcall
+pacall
+bindenv
+c x|y|t
+getinfos
+getroot
+setroot
+tointeger
+tofloat
+tochar
+slice
+s n  n
+find
+s s n
+tolower
+s n n
+toupper
+extend
+push
+insert
+remove
+reverse
+sort
+clear
+apply
+reduce
+filter
+rawdelete
+setdelegate
+.t|o
+getdelegate
+keys
+values
+setdebughook
+enabledebuginfo
+getroottable
+setroottable
+getconsttable
+setconsttable
+assert
+print
+compilestring
+newthread
+callee
+dummy
+collectgarbage
+resurrectunreachable
+numeric value expected as return value of the compare function
+array resized during sort operation
+cannot wakeup a running thread
+SQVM::Call %s
+7SQClass
+10SQInstance
+IDENTIFIER
+expected '%s'
+expected '%c'
+scalar expected : integer, float
+scalar expected : integer, float, or string
+this
+vargv
+expected ')'
+expected '='
+expected ')' or ','
+function with default parameters cannot have variable number of parameters
+invalid constant [%s.%s]
+can't delete an expression
+can't delete 'base'
+expression expected
+'base' cannot be modified
+cannot evaluate unary operator
+cannot delete an (outer) local
+cannot break deref/or comma needed after [exp]=exp slot declaration
+can't '++' or '--' an expression
+can't '++' or '--' a base
+can't assign expression
+can't 'create' a local slot
+expression expected, found ')'
+rawcall requires at least 2 parameters (callee and this)
+'break' has to be in a loop block
+'continue' has to be in a loop block
+cannot create a class in a local with the syntax(class <local>)
+end of statement expected (; or lf)
+invalid class name
+main
+@INDEX@
+@ITERATOR@
+%lld
+%.14g
+the index '%.50s' does not exist
+comparison between '%.50s' and '%.50s'
+parameter %d has an invalid type '%s' ; expected: '%s'
+{%f}
+{%lld}
+(%s %p)
+internal compiler error: too many literals
+internal compiler error: too many locals
+Invalid character
+while
+else
+continue
+null
+local
+foreach
+catch
+clone
+yield
+resume
+switch
+case
+default
+extends
+instanceof
+static
+enum
+const
+__LINE__
+__FILE__
+rawcall
+missing "*/" in comment
+hexadecimal number expected
+unfinished string
+newline in a constant
+unrecognised escaper char
+empty constant
+constant too long
+invalid octal number
+exponent expected
+error parsing the string
+invalid token '..'
+unexpected character(control)
+too many digits for an Hex number
+io error, read function failure, the origin stream could be corrupted/trucated
+internal vm error, yielding dead generator
+internal vm error, yielding a dead generator
+io error (write function failure)
+invalid or corrupted closure stream
+_delegate 
+outer
+bool
+userdata
+native function
+entity handle
+utlstringtoken
+resuming dead generator
+resuming active generator
+cannot serialize a %s
+_lasterror
+_errorhandler
+_roottable
+temp_reg
+_stack
+non-string key
+_members
+_base 
+_attributes
+_metamethods
+_class 
+_add
+_sub
+_mul
+_div
+_unm
+_modulo
+_cmp
+_call
+_newslot
+_delslot
+_tostring
+_newmember
+_inherited
+12SQRefCounted
+9SQWeakRef
+11SQDelegable
+8SQString
+7SQArray
+10SQUserData
+15SQFunctionProto
+9SQClosure
+7SQOuter
+11SQGenerator
+15SQNativeClosure
+userpointer
+_registry
+_consts
+_metamethodsmap
+_table_default_delegate
+_array_default_delegate
+_string_default_delegate
+_number_default_delegate
+_handle_default_delegate
+_generator_default_delegate
+_thread_default_delegate
+_closure_default_delegate
+_class_default_delegate
+_instance_default_delegate
+_weakref_default_delegate
+_utlstringtoken_default_delegate
+Namespace table '%s' continuation must be a table
+7SQTable
+internal vm error bitwise op failed
+bitwise op between '%s' and '%s'
+cannot suspend an already suspended vm
+cannot suspend through native calls/metamethods
+cannot bind a %s as environment object
+wrong number of parameters (%d passed, at least %d required)
+wrong number of parameters (%d passed, %d required)
+Script terminated by SQQuerySuspend
+cannot apply instanceof between a %s and a %s
+attempt to perform a bitwise op on a %s
+trying to yield a '%s',only genenerator can be yielded
+trying to resume a '%s',only genenerator can be resumed
+/data/src/vscript/languages/squirrel3/squirrel/sqvm.cpp
+SCRIPT PERF WARNING --- "%s" ran long at %fms
+stack overflow, cannot resize stack while in a metamethod
+arith op %c on between '%s' and '%s'
+_nexti returned an invalid idx
+class instances do not support the new slot operator
+trying to modify a class that has already been instantiated
+the property '%s' already exists
+attempt to delete a slot from a %s
+root calls cannot invoke tailcalls
+*ZN4SQVM47FindAllClosuresForFunctionBySourceAndLineNumberER8sqvectorI11SQObjectPtrEPKcxE11CHackerator
+Native stack overflow
+terminated by debugger
+attempt to call '%s'
+division by zero
+<lambda or free run script>
+Unaccounted
+(%s)%s
+trying to inherit from a %s
+SQVM::CallNative
+wrong number of parameters
+indexing %s with %s
+trying to set '%s'
+attempt to negate a %s
+_cmp must return an integer
+(weakref : 0x%p [%s] )
+(%s : 0x%p)
+integer overflow
+modulo by zero
+found func %s -> %p
+_nexti failed
+cannot iterate %s
+cloning a %s
+null cannot be used as index
+object must be a class
+cannot delete a slot from %s
+vscript_perf_warning_spew_ms
+16CSQStateIterator
+4SQVM
+pAnull qangle
+Vector
+Quaternion
+(qangle : (%f, %f, %f)
+ToKVString
+Pitch
+Forward
+Left
+ToQuat
+FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!
+8CFmtStrNILi256ELb0EE
+null quaternion
+%f %f %f %f
+Norm
+ToQAngle
+SetPitchYawRoll
+.nnn
+Invert
+(quaternion : (%f, %f, %f, %f)
+null vector
+<null>
+(vector : (%f, %f, %f)
+Length
+LengthSqr
+Length2D
+Length2DSqr
+Cross
+Scale
+Vector2D
+null vector2D
+(vector2D : (%f, %f)
+Vector4D
+null vector4D
+(vector4D : (%f, %f, %f, %f)
+Squirrel
+_%x%llx_%s
+	failed to connect.
+	Connected!
+unnamed
+basic_string::append
+function 
+<unnamed>
+<unknown>
+void
+ehandle
+BOOL
+INTEGER
+NULL
+EHANDLE
+INSTANCE
+FLOAT
+THREAD
+CLASS
+NATIVECLOSURE
+WEAKREF
+UTLSTRINGTOKEN
+GENERATOR
+USERDATA
+ARRAY
+USERPOINTER
+TABLE
+__vrefs
+RegisterFunctionDocumentation
+key not found in _get()
+CSquirrelVM::ExecuteFunction
+Script
+Internal error
+Vector2D argument expected
+Vector argument expected
+QAngle argument expected
+Quaternion argument expected
+Accessed null instance
+script_guthrie
+cppdelegate
+FindCircularReferences( %s )
+(instance : 0x%p)
+developer
+IsValid
+IsWeakref
+DumpObject
+GetFunctionSignature
+MakeNamespace
+VSquirrel_OnCreateScope
+VSquirrel_OnReleaseScope
+Script running too long, terminating
+Initializing script debugger.
+	Client debugger initialized, waiting for connection from Visual Studio...
+Invalid type specified for SetValue
+Bad user pointer passed to a ISquirrelMetamethodDelegate _get()
+Bad key string passed to a ISquirrelMetamethodDelegate _get()
+Invalid scope handed to script VM
+/data/src/vscript/languages/squirrel3/vsquirrel3/vsquirrel3.cpp
+Script function returned unsupported type
+CSquirrelVM::ExecuteFunction sq_throwerror
+usage: script_guthrie <sourcename> <linenum>
+Unknown vscript console command %s
+%s: 
+%s [%lld]
+CUtlFixedMemory overflow!
+CUtlLinkedList overflow! (exhausted memory allocator)
+9IScriptVM
+11CSquirrelVM
+15CScopedIterator
+RandomFloat
+RandomInt
+Generate a random floating point number within a range, inclusive
+Generate a random integer within a range, inclusive
+VScriptManager010
+10IAppSystem
+14IScriptManager
+14CBaseAppSystemI14IScriptManagerE
+15CTier0AppSystemI14IScriptManagerE
+15CTier1AppSystemI14IScriptManagerLi0EE
+14CScriptManager
+{}()':
+ game
+ client
+ archive
+ notify
+ singleplayer
+ notconnected
+ cheat
+ replicated
+ server_can_execute
+ clientcmd_can_execute
+FCVAR_NEVER_AS_STRING
+ ( def. "%s" )
+ min. %f
+ max. %f
+ - %s
+"%s" = "%s"
+%s %f
+%s %d
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
+ConVarRef %s doesn't point to an existing ConVar
+** NOTE: The real value is %.3f but the server has temporarily restricted it to %.3f **
+7IConVar
+23IConCommandBaseAccessor
+14ConCommandBase
+10ConCommand
+6ConVar
+20ConVar_ServerBounded
+16CDefaultAccessor
+12CEmptyConVar
+>DLOPEN Error:%s
+No such file
+image not found
+bin/linux64
+%s/%s
+%s/bin/linux64/%s
+CreateInterface
+ failed to dlopen %s error=%s
+16CDllDemandLoader
+0123456789ABCDEF
+ bytes
+%i%s
+%%.%if%s
+,%03d
+UCS-2LE
+UCS-4LE
+UTF-32LE
+UTF-8
+%A %b %d
+%I:%M 
+p.m.
+a.m.
+[url=
+steam://openurl/
+steam://openurl_external/
+ << 
+ >> 
+%s %s %s %s
+<!--
+</script>
+script
+<li>
+[/b]
+</b>
+[/i]
+</i>
+[/u]
+</u>
+[/s]
+</s>
+[code]
+<pre>
+[/code]
+</pre>
+[h1]
+<h1>
+[/h1]
+</h1>
+[list]
+<ul>
+[/list]
+</ul>
+[/url]
+</a>
+[img]
+<img src="
+[/img]
+"></img>
+&nbsp;
+&trade;
+&copy;
+&reg;
+&ndash;
+&mdash;
+&euro;
+&iexcl;
+&cent;
+&pound;
+&curren;
+&yen;
+&brvbar;
+&sect;
+&uml;
+&ordf;
+&laquo;
+&not;
+&shy;
+&macr;
+&deg;
+&plusmn;
+&sup2;
+&sup3;
+&acute;
+&micro;
+&para;
+&middot;
+&cedil;
+&sup1;
+&ordm;
+&raquo;
+&frac14;
+&frac12;
+&frac34;
+&iquest;
+&times;
+&divide;
+&Agrave;
+&Aacute;
+&Acirc;
+&Atilde;
+&Auml;
+&Aring;
+&AElig;
+&Ccedil;
+&Egrave;
+&Eacute;
+&Ecirc;
+&Euml;
+&Igrave;
+&Iacute;
+&Icirc;
+&Iuml;
+&ETH;
+&Ntilde;
+&Ograve;
+&Oacute;
+&Ocirc;
+&Otilde;
+&Ouml;
+&Oslash;
+&Ugrave;
+&Uacute;
+&Ucirc;
+&Uuml;
+&Yacute;
+&THORN;
+&szlig;
+&agrave;
+&aacute;
+&acirc;
+&atilde;
+&auml;
+&aring;
+&aelig;
+&ccedil;
+&egrave;
+&eacute;
+&ecirc;
+&euml;
+&igrave;
+&iacute;
+&icirc;
+&iuml;
+&eth;
+&ntilde;
+&ograve;
+&oacute;
+&ocirc;
+&otilde;
+&ouml;
+&oslash;
+&ugrave;
+&uacute;
+&ucirc;
+&uuml;
+&yacute;
+&thorn;
+&yuml;
+<br>
+&#039;
+V_AppendSlash: ran out of space on %s.
+V_MakeAbsolutePath: tried to ".." past the root.
+V_MakeAbsolutePath: _getcwd failed.
+0123456789abcdef
+><a href=
+VEngineCvar004
+VProcessUtils001
+18CUtlCharConversion
+21CUtlCStringConversion
+19CUtlNoEscConversion
+CUtlRBTree overflow!
+CUtlLinkedList overflow! (exhausted index range)
+4fff>fff>fff>fff>
+?333333
+C33s?
+Ga=o
+.M;R
+NAUU
+?~?a`
+;*3$"
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+. u.
+//===	======= Copyright 
+ 2008, Valve Corporation, All rights reserved. ========
+// Purpose: Script initially run after squirrel VM is initialized
+//=============================================================================
+//-----------------------------------------------------------------------------
+// General
+//-----------------------------------------------------------------------------
+realPrint <- print
+print_indent <- 0
+function print( text )
+	for ( local i = print_indent; i > 0; --i )
+		realPrint( "  " )
+	realPrint( text )
+function printl( text )
+	return print( text + "\n" );
+function Msg( text )
+	return print( text );
+function Assert( b, msg = null )
+	if ( b )
+		return;
+	if ( msg != null )
+		throw "Assertion failed: " + msg;
+	else
+		throw "Assertion failed";
+//-----------------------------------------------------------------------------
+function FindCircularReference( target )
+	local visits = {}
+	local result = false
+	function RecursiveSearch( current )
+		if ( current in visits )
+			return;
+		visits[current] <- true;
+		foreach( key, val in current )
+			if ( val == target && !IsWeakref( target, key ) )
+			{
+				print( "    Circular reference to " + target.tostring() + " in key " + key.tostring() + " slot " + val.tostring() + " of object " + current.tostring() + "\n" )
+				result = true
+			}
+			else if ( typeof( val ) == "table" || typeof( val ) == "array" || typeof( val ) == "instance" )
+			{
+				if ( !IsWeakref( target, key ) )
+				{
+					RecursiveSearch( val )
+				}
+			}
+	if ( typeof( target ) == "table" || typeof( target ) == "array" || typeof( target ) == "instance" )
+		RecursiveSearch( target );
+	return result
+function FindCircularReferences( resurrecteds )
+	printl( "Circular references:" )
+	if ( resurrecteds == null )
+		printl( "    None");
+		return
+	if ( typeof( resurrecteds ) != "array" )
+		throw "Bad input to FindCircularReference"
+	foreach( val in resurrecteds )
+		FindCircularReference( val )
+	print("Resurrected objects: ")
+	DumpObject( resurrecteds );
+//-----------------------------------------------------------------------------
+function ScriptDebugDumpKeys( name, table = null )
+	if ( table == null )
+		table = getroottable()
+	if ( name == "" )
+		printl( table.tostring() + "\n{" );
+	else
+		printl( "Find \"" + name + "\"\n{" );
+	local function PrintKey( keyPath, key, value )
+		printl( "    " + keyPath + " = " + value ); 
+	ScriptDebugIterateKeys( name, PrintKey, table );
+	printl( "}" );
+//-----------------------------------------------------------------------------
+function ScriptDebugIterateKeys( name, callback, table = null )
+	local visits = {}
+	local pattern;
+	local function MatchRegexp( keyPath )
+		return pattern.match( keyPath );
+	local function MatchSubstring( keyPath )
+		return keyPath.find( name ) != null;
+	local function MatchAll( keyPath )
+		return true;
+	local matchFunc;
+	if ( table == null )
+		table = getroottable()
+	if ( name == "" )
+		matchFunc = MatchAll
+	else if ( name[0] == '#' ) // exact
+		pattern = regexp( "^" + name + "$" )
+		matchFunc = MatchRegexp
+	else if ( name[0] == '@' ) // regexp
+		pattern = regexp( name.slice( 1 ) )
+		matchFunc = MatchRegexp
+	else // general
+		matchFunc = MatchSubstring
+	ScriptDebugIterateKeysRecursive( matchFunc, null, table, visits, callback );
+//-----------------------------------------------------------------------------
+function ScriptDebugIterateKeysRecursive( matchFunc, path, current, visits, callback )
+	if ( ! ( current in visits ) )
+		visits[current] <- true
+		foreach( key, value in current )
+			if ( typeof(key) == "string" )
+			{
+				local keyPath = ( path ) ? path + "." + key : key
+				if ( matchFunc(keyPath) )
+				{
+					callback( keyPath, key, value );
+				}
+				
+				if ( typeof(value) == "table" )
+				{
+					ScriptDebugIterateKeysRecursive( matchFunc, keyPath, value, visits, callback )
+				}
+			}
+//-----------------------------------------------------------------------------
+// Documentation table
+//-----------------------------------------------------------------------------
+if ( developer() > 0 )
+	Documentation <-
+		classes = {}
+		functions = {}
+		instances = {}
+	function RetrieveNativeSignature( nativeFunction )
+		if ( nativeFunction in NativeFunctionSignatures )
+			return NativeFunctionSignatures[nativeFunction]
+		return "<unnamed>"
+	function RegisterFunctionDocumentation( func, name, signature, description )
+		if ( description.len() )
+			local b = ( description[0] == '#' );
+			if ( description[0] == '#' )
+			{
+				local colon = description.find( ":" );
+				if ( colon == null )
+				{
+					colon = description.len();
+				}
+				local alias = description.slice( 1, colon );
+				description = description.slice( colon + 1 );
+				name = alias;
+				signature = "#";
+			}
+		Documentation.functions[name] <- [ signature, description ]
+	function Document( symbolOrTable, itemIfSymbol = null, descriptionIfSymbol = null )
+		if ( typeof( symbolOrTable ) == "table" )
+			foreach( symbol, itemDescription in symbolOrTable )
+			{
+				Assert( typeof(symbol) == "string" )
+				
+				Document( symbol, itemDescription[0], itemDescription[1] );
+			}
+		else
+			printl( symbolOrTable + ":" + itemIfSymbol.tostring() + "/" + descriptionIfSymbol );
+	function PrintHelp( string = "*", exact = false )
+		local matches = []
+		if ( string == "*" || !exact )
+			foreach( name, documentation in Documentation.functions )
+			{
+				if ( string != "*" && name.tolower().find( string.tolower() ) == null )
+				{
+					continue;
+				}
+				
+				matches.append( name ); 
+			}
+		} 
+		else if ( exact )
+			if ( string in Documentation.functions )
+				matches.append( string )
+		if ( matches.len() == 0 )
+			printl( "Symbol " + string + " not found" );
+			return;
+		matches.sort();
+		foreach( name in matches )
+			local result = name;
+			local documentation = Documentation.functions[name];
+			printl( "Function:    " + name );
+			local signature;
+			if ( documentation[0] != "#" )
+			{
+				signature = documentation[0];
+			}
+			else
+			{
+				signature = GetFunctionSignature( this[name], name );
+			}
+			printl( "Signature:   " + signature );
+			if ( documentation[1].len() )
+				printl( "Description: " + documentation[1] );
+			print( "\n" ); 
+else
+	function RetrieveNativeSignature( nativeFunction ) { return "<unnamed>"; }
+	function RegisterFunctionDocumentation( func, name, signature, description ) {}
+	function Document( symbolOrTable, itemIfSymbol = null, descriptionIfSymbol = null ) {}
+	function PrintHelp( string = "*", exact = false )
+		printl( "You must have started the script VM in developer mode to use this. Start a map/the app with '-dev'" );
+//-----------------------------------------------------------------------------
+// VSquirrel support functions
+//-----------------------------------------------------------------------------
+function VSquirrel_OnCreateScope( name, outer )
+	local result;
+	if ( !(name in outer) )
+		result = outer[name] <- { __vname=name, __vrefs = 1 };
+		result.setdelegate( outer );
+	else
+		result = outer[name];
+		result.__vrefs += 1;
+	return result;
+function VSquirrel_OnReleaseScope( scope )
+	scope.__vrefs -= 1;
+	if ( scope.__vrefs < 0 )
+		throw "Bad reference counting on scope " + scope.__vname;
+	else if ( scope.__vrefs == 0 )
+		delete scope.getdelegate()[scope.__vname];
+		scope.__vname = null;
+		scope.setdelegate( null );
+//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
+class CCallChainer
+	constructor( prefixString, scopeForThis = null )
+		prefix = prefixString;
+		if ( scopeForThis != null )
+			scope = scopeForThis;
+		else
+			scope = ::getroottable();
+		chains = {};
+		// Expose a bound global function to dispatch to this object
+		scope[ "Dispatch" + prefixString ] <- Call.bindenv( this );
+	function PostScriptExecute() 
+		foreach( key, value in scope )
+			if ( typeof( value ) == "function" ) 
+			{
+				if ( key.find( prefix ) == 0 )
+				{
+					key = key.slice( prefix.len() );
+					
+					if ( !(key in chains) )
+					{
+						//::print( "Creating new call chain " + key + "\n");
+						chains[key] <- [];
+					}
+					
+					local chain = chains[key];
+					
+					if ( !chain.len() || chain.top() != value )
+					{
+						chain.push( value );
+						//::print( "Added " + value + " to call chain " + key + "\n" );
+					}
+				}
+			}
+	function Call( event, ... )
+		if ( event in chains )
+			local chain = chains[event];
+			if ( chain.len() )
+			{
+				local i;
+				local args = [];
+				if ( vargv.len() > 0 )
+				{
+					args.push( scope );
+					for ( i = 0; i < vargv.len(); i++ )
+					{
+						args.push( vargv[i] );
+					}
+				}
+				for ( i = chain.len() - 1; i >= 0; i -= 1 )
+				{
+					local func = chain[i];
+					local result;
+					if ( !args.len() )
+					{
+						result = func();
+					}
+					else
+					{
+						result = func.acall( args ); 
+					}
+					if ( result != null && !result )
+						return false;
+				}
+			}
+		return true;
+	scope = null;
+	prefix = null;
+	chains = null;
+//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
+class CSimpleCallChainer
+	constructor( prefixString, scopeForThis = null, exactNameMatch = false )
+		prefix = prefixString;
+		if ( scopeForThis != null )
+			scope = scopeForThis;
+		else
+			scope = ::getroottable();
+		chain = [];
+		// Expose a bound global function to dispatch to this object
+		scope[ "Dispatch" + prefixString ] <- Call.bindenv( this );
+		exactMatch = exactNameMatch
+	function PostScriptExecute() 
+		foreach( key, value in scope )
+			if ( typeof( value ) == "function" ) 
+			{
+				local foundMatch = false;
+				if ( exactMatch )
+				{
+					foundMatch = ( prefix == key );
+				}
+				else
+				{
+					foundMatch = ( key.find( prefix ) == 0 )
+				}
+						
+				if ( foundMatch )
+				{
+					if ( !exactMatch )
+						key = key.slice( prefix.len() );
+					
+					if ( !(chain) )
+					{
+						//::print( "Creating new call simple chain\n");
+						chain <- [];
+					}
+					
+					if ( !chain.len() || chain != value )
+					{
+						chain.push( value );
+						//::print( "Added " + value + " to call chain.\n" );
+					}
+				}
+			}
+	function Call( ... )
+		if ( chain.len() )
+			local i;
+			local args = [];
+			if ( vargv.len() > 0 )
+			{
+				args.push( scope );
+				for ( i = 0; i < vargv.len(); i++ )
+				{
+					args.push( vargv[i] );
+				}
+			}
+			for ( i = chain.len() - 1; i >= 0; i -= 1 )
+			{
+				local func = chain[i];
+				local result;
+				if ( !args.len() )
+				{
+					result = func.pcall( scope );
+				}
+				else
+				{
+					result = func.pacall( scope, args ); 
+				}
+				if ( result != null && !result )
+					return false;
+			}
+		return true;
+	exactMatch = false
+	scope = null;
+	prefix = null;
+	chain = null;
+//-----------------------------------------------------------------------------
+// Late binding: allows a table to refer to parts of itself, it's children,
+// it's owner, and then have the references fixed up after it's fully parsed
+// Usage:
+//    lateBinder <- LateBinder();
+//    lateBinder.Begin( this );
+//    
+//    Test1 <-
+//    {   
+// 	   Foo=1
+//    }   
+//    
+//    Test2 <-
+//    {   
+// 	   FooFoo = "I'm foo foo"
+// 	   BarBar="@Test1.Foo"
+// 	   SubTable = { boo=[bah, "@Test2.FooFoo", "@Test1.Foo"], booboo2={one=bah, two="@Test2.FooFoo", three="@Test1.Foo"} }
+// 	   booboo=[bah, "@Test2.FooFoo", "@Test1.Foo"]
+// 	   booboo2={one=bah, two="@Test2.FooFoo", three="@Test1.Foo"}
+// 	   bah=wha
+//    }   
+//    
+//    lateBinder.End();
+//    delete lateBinder;
+// When End() is called, all of the unresolved symbols in the tables and arrays will be resolved,
+// any left unresolved will become a string prepended with '~', which later code can deal with
+//-----------------------------------------------------------------------------
+class LateBinder
+	// public:
+	function Begin( target, log = false )
+		m_log = log;
+		HookRootMetamethod( "_get", function( key ) { return "^" + key; } );
+		HookRootMetamethod( "_newslot", function( key, value ) { if ( typeof value == "table" ) { m_fixupSet.push( [ key, value ] ); this.rawset( key, value ); };  }.bindenv(this) );
+		m_targetTable = target;
+		Log( "Begin late bind on table " + m_targetTable );
+	function End()
+		UnhookRootMetamethod( "_get" );
+		UnhookRootMetamethod( "_newslot" );
+		Log( "End late bind on table " + m_targetTable );
+		foreach( subTablePair in m_fixupSet )
+			EstablishDelegation( m_targetTable, subTablePair[1] );
+		Log( "Begin resolution... " )
+		m_logIndent++;
+		local found = true;
+		while ( found )
+			foreach( subTablePair in m_fixupSet )
+			{
+				Log( subTablePair[0] + " = " );
+				Log( "{" );
+				if ( !Resolve( subTablePair[1], subTablePair[1], false ) )
+				{
+					found = false;
+				}
+				Log( "}" );
+			}
+		m_logIndent--;
+		foreach( subTablePair in m_fixupSet )
+			RemoveDelegation( subTablePair[1] );
+		Log( "...end resolution" );
+	// private:
+	function HookRootMetamethod( name, value )
+		local saved = null;
+		local roottable = getroottable();
+		if ( name in roottable )
+			saved = roottable[name];
+		roottable[name] <- value;
+		roottable["__saved" + name] <- saved;
+	function UnhookRootMetamethod( name )
+		local saveSlot = "__saved" + name;
+		local roottable = getroottable();
+		local saved = roottable[saveSlot];
+		if ( saved != null )
+			roottable[name] = saved;
+		else
+			delete roottable[name];
+		delete roottable[saveSlot];
+	function EstablishDelegation( parentTable, childTable )
+		childTable.setdelegate( parentTable );
+		foreach( key, value in childTable )
+			local type = typeof value;
+			if ( type == "table" )
+			{
+				EstablishDelegation( childTable, value );
+			}
+	function RemoveDelegation( childTable )
+		childTable.setdelegate( null );
+		foreach( key, value in childTable )
+			local type = typeof value;
+			if ( type == "table" )
+			{
+				RemoveDelegation( value );
+			}
+	function Resolve( lookupTable, subTableOrArray, throwException = false )
+		m_logIndent++;
+		local found = false;
+		foreach( key, value in subTableOrArray )
+			local type = typeof value;
+			if ( type == "string" )
+			{
+				if ( value.len() )
+				{
+					local unresolvedId = null;
+					local controlChar = value[0]
+					if ( controlChar == '^' )
+					{
+						found = true;
+						value = value.slice( 1 );
+						if ( value in lookupTable )
+						{
+							subTableOrArray[key] = lookupTable[value];
+							Log( key + " = " + lookupTable[value] + " <-- " + value );
+						}
+						else
+						{
+							subTableOrArray[key] = "~" + value;
+							unresolvedId = value;
+							Log( key + " = \"" + "~" + value + "\" (unresolved)" );
+						}
+					}
+					else if ( controlChar == '@' )
+					{
+						found = true;
+						local identifiers = [];
+						local iLast = 1;
+						local iNext;
+						while ( ( iNext = value.find( ".", iLast ) ) != null )
+						{
+							identifiers.push( value.slice( iLast, iNext ) );
+							iLast = iNext + 1;
+						}
+						identifiers.push( value.slice( iLast ) );
+						
+						local depthSuccess = 0;
+						local result = lookupTable;
+						foreach( identifier in identifiers )
+						{
+							if ( identifier in result )
+							{
+								depthSuccess++;
+								result = result[identifier];
+							}
+							else
+							{
+								break;
+							}
+						}
+						if ( depthSuccess == identifiers.len() )
+						{
+							subTableOrArray[key] = result;
+							Log( key + " = " + result + " <-- " + value );
+						}
+						else
+						{
+							subTableOrArray[key] = "~" + value.slice( 1 );
+							unresolvedId = value;
+							Log( key + " = \"" + "~" + value + "\" (unresolved)" );
+						}
+					}
+					
+					if ( unresolvedId != null )
+					{
+						if ( throwException )
+						{
+							local exception = "Unresolved symbol: " + bind + " in ";
+							foreach ( entry in m_bindNamesStack )
+							{
+								exception += entry;
+								exception += "."
+							}
+							exception += unresolvedId;
+							
+							throw exception; 
+						}
+					}
+				}
+			}
+		foreach( key, value in subTableOrArray )
+			local type = typeof value;
+			local isTable = ( type == "table" );
+			local isArray = ( type == "array" )
+			if ( isTable || isArray )
+			{
+				Log( key + " =" );
+				Log( isTable ? "{" : "[" );
+				
+				m_bindNamesStack.push( key );
+				if ( Resolve( ( isTable ) ? value : lookupTable, value, throwException ) )
+				{
+					found = true;
+				}
+				m_bindNamesStack.pop();
+				
+				Log( isTable ? "}" : "]" );
+			}
+		m_logIndent--;
+		return found;
+	function Log( string )
+		if ( m_log )
+			for ( local i = 0; i < m_logIndent; i++ )
+			{
+				print( "  " );
+			}
+			printl( string );
+	m_targetTable = null;
+	m_fixupSet = [];
+	m_bindNamesStack = [];
+	m_log = false;
+	m_logIndent = 0;
+// support function to assemble help strings for script calls - call once all your stuff is in the VM
+::_PublishedHelp <- {}
+function AddToScriptHelp( scopeTable )
+	foreach (idx, val in scopeTable )
+		if (typeof(val) == "function")
+			local helpstr = "scripthelp_" + idx
+			if ( ( helpstr in scopeTable ) && ( ! (helpstr in ::_PublishedHelp) ) )
+			{
+//				RegisterFunctionDocumentation( val, idx, "#", scopeTable[helpstr] )
+				RegisterFunctionDocumentation( val, idx, GetFunctionSignature( val, idx ), scopeTable[helpstr] )
+				::_PublishedHelp[helpstr] <- true
+				printl("Registered " + helpstr + " for " + val.tostring)
+			}
+r""\\
+GCC: (SteamRT 10.3.0-3+steamrt3.1+bsrt3.1) 10.3.0
+vscript.so.dbg
+mbstowcs@GLIBC_2.2.5
+g_VProfCurrentProfile
+isspace@GLIBC_2.2.5
+_ZGVbN4vv_powf@GLIBC_2.22
+__ctype_toupper_loc@GLIBC_2.3
+_ZN17CThreadSpinRWLock10UnlockReadEv
+strtoll@GLIBC_2.2.5
+bind@GLIBC_2.2.5
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4
+__ctype_tolower_loc@GLIBC_2.3
+cvar
+sin@GLIBC_2.2.5
+strstr@GLIBC_2.2.5
+isxdigit@GLIBC_2.2.5
+socket@GLIBC_2.2.5
+_ZGVbN2v_sin@GLIBC_2.22
+RandomInt
+wcsncpy@GLIBC_2.2.5
+dl_iterate_phdr@GLIBC_2.2.5
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@GLIBCXX_3.4.21
+_ZN12CThreadEvent3SetEv
+strtoul@GLIBC_2.2.5
+recv@GLIBC_2.2.5
+strchr@GLIBC_2.2.5
+longjmp@GLIBC_2.2.5
+wcsncat@GLIBC_2.2.5
+cbrtf@GLIBC_2.2.5
+__cxa_begin_catch@CXXABI_1.3
+sincosf@GLIBC_2.2.5
+__cxa_finalize@GLIBC_2.2.5
+strlen@GLIBC_2.2.5
+memcmp@GLIBC_2.2.5
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN17CThreadSyncObjectD2Ev
+send@GLIBC_2.2.5
+g_pMemAlloc
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+getcwd@GLIBC_2.2.5
+strncpy@GLIBC_2.2.5
+_ZSt20__throw_length_errorPKc@GLIBCXX_3.4
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21
+memset@GLIBC_2.2.5
+abort@GLIBC_2.2.5
+dlerror@GLIBC_2.2.5
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4
+_ZN10CVProfNode10GetSubNodeEPKciS1_i
+vsnprintf@GLIBC_2.2.5
+__cxa_guard_abort@CXXABI_1.3
+__cxa_guard_release@CXXABI_1.3
+calloc@GLIBC_2.2.5
+strncat@GLIBC_2.2.5
+HushAsserts
+_ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3
+isupper@GLIBC_2.2.5
+dlclose@GLIBC_2.2.5
+_ZN17CThreadSpinRWLock11LockForReadEv
+pthread_mutex_unlock@GLIBC_2.2.5
+iswspace@GLIBC_2.2.5
+iconv_open@GLIBC_2.2.5
+Error
+strtod@GLIBC_2.2.5
+_ZN13CThreadRWLock12LockForWriteEv
+iconv_close@GLIBC_2.2.5
+strftime@GLIBC_2.2.5
+memcpy@GLIBC_2.14
+wcslen@GLIBC_2.2.5
+atanf@GLIBC_2.2.5
+wcstombs@GLIBC_2.2.5
+__cxa_atexit@GLIBC_2.2.5
+_ZGVbN2vv_pow@GLIBC_2.22
+towlower@GLIBC_2.2.5
+Warning
+strcpy@GLIBC_2.2.5
+select@GLIBC_2.2.5
+vswprintf@GLIBC_2.2.5
+srand@GLIBC_2.2.5
+log10f@GLIBC_2.2.5
+isalnum@GLIBC_2.2.5
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4
+acosf@GLIBC_2.2.5
+CommandLine_Tier0
+RandomFloat
+_ZN13CThreadRWLock11UnlockWriteEv
+__ctype_b_loc@GLIBC_2.3
+strcasecmp@GLIBC_2.2.5
+g_ClockSpeedMillisecondsMultiplier
+_ZN10CVProfNode10EnterScopeEv
+__dynamic_cast@CXXABI_1.3
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4
+pthread_mutex_destroy@GLIBC_2.2.5
+free@GLIBC_2.2.5
+towupper@GLIBC_2.2.5
+ThreadGetCurrentId
+strncasecmp@GLIBC_2.2.5
+CreateInterface
+__cxa_call_unexpected@CXXABI_1.3
+_ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3
+islower@GLIBC_2.2.5
+malloc@GLIBC_2.2.5
+strtoull@GLIBC_2.2.5
+Plat_IsInDebugSession
+atan2f@GLIBC_2.2.5
+pthread_mutexattr_init@GLIBC_2.2.5
+strcmp@GLIBC_2.2.5
+strtol@GLIBC_2.2.5
+g_Telemetry
+_setjmp@GLIBC_2.2.5
+tolower@GLIBC_2.2.5
+__cxa_rethrow@CXXABI_1.3
+dlopen@GLIBC_2.2.5
+pthread_mutex_lock@GLIBC_2.2.5
+chdir@GLIBC_2.2.5
+iscntrl@GLIBC_2.2.5
+pthread_mutex_init@GLIBC_2.2.5
+_Z10DevWarningPKcz
+puts@GLIBC_2.2.5
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@GLIBCXX_3.4.21
+powf@GLIBC_2.27
+asinf@GLIBC_2.2.5
+isalpha@GLIBC_2.2.5
+memmove@GLIBC_2.2.5
+__cxa_end_catch@CXXABI_1.3
+pthread_once@GLIBC_2.2.5
+__gxx_personality_v0@CXXABI_1.3
+__pthread_key_create@GLIBC_2.2.5
+expf@GLIBC_2.27
+_Z6ConMsgPKcz
+ThreadSleep
+Plat_FloatTime
+pow@GLIBC_2.29
+_ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3
+_ITM_deregisterTMCloneTable
+_ZN12CThreadEventC1Eb
+isprint@GLIBC_2.2.5
+iconv@GLIBC_2.2.5
+_Z6DevMsgPKcz
+_ZN10CVProfNode9ExitScopeEv
+exp@GLIBC_2.29
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm@GLIBCXX_3.4.21
+pthread_mutexattr_settype@GLIBC_2.2.5
+__cxa_guard_acquire@CXXABI_1.3
+dlsym@GLIBC_2.2.5
+toupper@GLIBC_2.2.5
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEmmmc@GLIBCXX_3.4.21
+cos@GLIBC_2.2.5
+GetCPUInformation
+Plat_localtime
+logf@GLIBC_2.27
+__gmon_start__
+__cxa_pure_virtual@CXXABI_1.3
+_ITM_registerTMCloneTable
+ispunct@GLIBC_2.2.5
+_Z11ConColorMsgRK5ColorPKcz
+_ZN17CThreadSpinRWLock11UnlockWriteEv
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.comment
+.gnu_debuglink

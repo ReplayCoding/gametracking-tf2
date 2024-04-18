@@ -1,0 +1,5270 @@
+95T(
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_pMemAlloc
+__gxx_personality_v0
+__cxa_call_unexpected
+memset
+__cxa_atexit
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+CommandLine_Tier0
+memcpy
+__cxa_guard_acquire
+__cxa_guard_release
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+__cxa_pure_virtual
+sprintf
+Plat_DebugString
+raise
+g_VProfCurrentProfile
+_ZN9CVProfile19FindOrCreateCounterEPKc14CounterGroup_t
+ThreadGetCurrentId
+_ZN10CVProfNode9ExitScopeEv
+g_Telemetry
+_ZN10CVProfNode10GetSubNodeEPKciS1_i
+_ZN10CVProfNode10EnterScopeEv
+Plat_GetPagedPoolInfo
+__cxa_guard_abort
+ThreadInMainThread
+memmove
+Plat_FloatTime
+memcmp
+ClearOpenGLEntryPoints
+strpbrk
+strlen
+__cxa_throw_bad_array_new_length
+ThreadSleep
+g_pVCR
+strtol
+GetCPUInformation
+_Z6DevMsgPKcz
+DevMsg
+GetOpenGLEntryPoints
+DWarning
+_Z10DevWarningPKcz
+Direct3DCreate9
+Direct3DCreate9Ex
+_SpewInfo
+_SpewMessage
+CallAssertFailedNotifyFunc
+ShouldUseNewAssertDialog
+DoNewAssertDialog
+_ExitOnFatalAssert
+Plat_GetCommandLineA
+strstr
+__wrap_fopen64
+strncasecmp
+fgets
+fclose
+isspace
+strtod
+strcmp
+strchr
+_Z6ConMsgPKcz
+__dynamic_cast
+_Z11ConColorMsgRK5ColorPKcz
+strcasecmp
+dlclose
+CreateInterface
+dlopen
+dlerror
+Plat_IsInDebugSession
+getcwd
+dlsym
+KeyValuesSystem
+tolower
+wcslen
+wcstol
+wcstoll
+__isoc99_sscanf
+strncpy
+_ZNV16CThreadFastMutex4LockEyj
+COM_TimestampedLog
+qsort
+stderr
+fprintf
+access
+__errno_location
+readdir64
+closedir
+strdup
+strcasestr
+getenv
+free
+__wrap_freopen
+__wrap_fopen
+__wrap_open
+__wrap_open64
+__wrap_stat
+__wrap_stat64
+__wrap_lstat
+__wrap_scandir
+__wrap_opendir
+__wrap___xstat
+__wrap___lxstat
+__wrap___xstat64
+__wrap___lxstat64
+__wrap_chmod
+__wrap_chown
+__wrap_lchown
+__wrap_symlink
+__wrap_link
+__wrap_mknod
+__wrap_mount
+__wrap_unlink
+__wrap_mkfifo
+__wrap_rename
+__wrap_utime
+__wrap_utimes
+__wrap_realpath
+__wrap_mkdir
+__wrap_rmdir
+__ctype_b_loc
+strcpy
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+wcsncpy
+vswprintf
+vsnprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
+_ZN17CThreadSpinRWLock11LockForReadEv
+_ZN17CThreadSpinRWLock10UnlockReadEv
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+_ZN12CThreadEventC1Eb
+_ZN17CThreadSyncObjectD2Ev
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN12CThreadEvent3SetEv
+_ZN13CThreadRWLock12LockForWriteEv
+_ZN13CThreadRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+_ZN17CThreadSpinRWLock11UnlockWriteEv
+toupper
+SDL_GL_GetProcAddress
+SDL_GL_SetAttribute
+SDL_GL_CreateContext
+SDL_GL_MakeCurrent
+SDL_GL_DeleteContext
+SDL_WarpMouseInWindow
+SDL_GetWindowSize
+SDL_GetNumVideoDisplays
+SDL_GetDisplayBounds
+SDL_GetDesktopDisplayMode
+SDL_SetWindowPosition
+SDL_SetWindowSize
+SDL_ShowWindow
+SDL_RaiseWindow
+SDL_SetWindowFullscreen
+SDL_SetWindowGrab
+SDL_DestroyWindow
+SetAssertDialogParent
+SDL_RWFromFile
+SDL_LoadBMP_RW
+SDL_SetWindowIcon
+SDL_FreeSurface
+SDL_WaitEventTimeout
+SDL_SetWindowGammaRamp
+SDL_SetRelativeMouseMode
+SDL_ShowCursor
+SDL_SetCursor
+SDL_GetWindowGrab
+SDL_GL_UnloadLibrary
+SDL_QuitSubSystem
+SDL_GL_SetSwapInterval
+stdout
+fflush
+SDL_GL_SwapWindow
+g_ClockSpeedMillisecondsMultiplier
+SDL_GetKeyName
+SDL_PollEvent
+SDL_CreateWindow
+SDL_GetError
+SDL_WasInit
+SDL_GetCurrentVideoDriver
+SDL_HideWindow
+SDL_Init
+SDL_GL_LoadLibrary
+SDL_SetWindowTitle
+SDL_SetWindowDisplayMode
+expf
+_ZGVbN4vv_powf
+_ZGVbN2vv_pow
+sincosf
+_ZGVbN2v_sin
+atan2f
+logf
+acosf
+asinf
+HushAsserts
+atanf
+rand
+cbrtf
+__pthread_key_create
+pthread_once
+malloc
+dl_iterate_phdr
+__xmknod
+libtier0.so
+libvstdlib.so
+libdxvk_d3d9.so
+libSDL2-2.0.so.0
+libm.so.6
+libmvec.so.1
+libdl.so.2
+libstdc++.so.6
+libpthread.so.0
+ld-linux-x86-64.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+CXXABI_1.3.8
+CXXABI_1.3
+GLIBC_2.27
+GLIBC_2.29
+GLIBC_2.22
+GLIBC_2.7
+GLIBC_2.14
+GLIBC_2.3
+u/UH
+</tI<*
+[A\A]A^]
+"uUM
+A\A]A^]
+[A\A]A^]
+ ff.
+` ff.
+ ff.
+` ff.
+` ff.
+AVAUATA
+RAWZtq
+INTZti
+DF16tW
+DF24tOH
+[A\A]A^]
+AVAUATH
+DXT1
+DXT1E
+A\A]A^]
+DXT5
+DXT5E
+ATI1
+ATI1
+ATI2
+ATI2E
+NULL
+NULLE
+DF24
+DF24E
+DXT3
+DXT3E
+DF16
+DF16E
+RAWZ
+RAWZE
+INTZ
+INTZE
+AUE1
+)tlL
+hPXZ
+[A\A]A^]
+AUATS
+A\A]]
+AWAVA
+A\A]A^A_]
+A]A^A_]
+AWAVA
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+ATSL
+[A\]
+[A\]
+[A\]
+ATSH
+@XA\H
+A]A^]
+@hA]A^]
+$u"H
+A\A]A^]
+A\A]A^]
+ATSH
+$u"H
+A\A]]
+[A\A]]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+A\A]A^]
+AUATSH
+5h~	
+5e~	
+5W~	
+5M~	
+5S~	
+5M~	
+5K~	
+5O~	
+5O~	
+A\A]]
+[A\A]]
+5|y	
+AWAVL
+A\A]A^A_]
+[A\A]A^A_]
+5P{	
+A\A]]
+AWAVAUI
+[A\A]A^A_]
+AUATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+=ky	
+=%y	
+=}x	
+=Wx	
+AWAVAUATI
+CLt;@
+K`Hc
+CDHc
+[A\A]A^A_]
+G +G$
+AUE1
+[A\A]]
+[A\A]]
+[A\A]]
+AWAVA
+[A\A]A^A_]
+[A\A]H
+A^]H
+~+Hc
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVM
+AUATSH
+GpI9
+[A\A]A^A_]
+A+D$
+[A\A]A^A_]
+[A\A]A^A_]
+_$+_(H
+[A\A]A^]
+ATfH
+|$hI
+t$pH
+|$xH
+D$XH
+D$`H
+5Nb	
+[A\A]A^A_]
+5|`	
+5y_	
+5$_	
+5}^	
+5D^	
+[A\A]A^A_]
+]TtCI
+[A\A]]
+[A\A]]
+[A\]H
+[A\]
+ATSt
+[A\]
+t:UH
+s$[A\]
+[A\]
+C$A9
+c([A\]
+t:UH
+C([A\]
+D$`[A\]
+YxDI
+[A\]
+D$5H
+[A\]H
+[A\]
+A\A]]
+=(X	
+A\A]]
+AWHc
+A\A]A^A_]
+A\A]A^A_]
+AWAVAUATI
+CLt<
+K`Hc
+CDHc
+[A\A]A^A_]
+-p\	
+Gp~r
+[A\A]A^]
+[A\]H
+[A\]
+[A\A]]
+[A\A]]
+ATSH
+t$pf
+D$(I
+D$\I
+D$ I
+A\A]A^]
+A\A]A^]
+ATSH
+[A\]
+ATSH
+[A\]
+AWAVAUATE1
+[A\A]A^A_]
+$t\A
+t$(A
+ATfH
+T$4I
+D$4I
+t$(H
+Gp~aD
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+AVAUATSL
+[A\A]A^]
+ATfH
+u(t:I
+|$0H
+[A\A]]
+ATfH
+AWAVAUA
+@HH9
+[A\A]A^A_]
+H97t%H
+~G|f
+AWAVAUI
+[A\A]A^A_]
+l$(A
+|$0A
+@HH9
+5HD	
+H97t
+AWAVAUATSH
+[A\A]A^A_]
+VUUU
+H97t
+H97t
+AVAUATSH
+[A\A]A^]
+x0Hc
+H97t
+AUATI
+[A\A]]
+=u<	
+[A\A]]
+AWAVE1
+ATSH
+^t?=
+[A\A]A^A_]
+AWAVAUA
+[A\A]A^A_]
+[A\A]A^A_]
+=m3	
+[A\A]A^A_]
+=I3	
+C([A\A]A^]
+AWAVE1
+AUATSH
+[A\A]A^A_]
+=c1	
+5a1	
+AWAVA
+[A\A]A^A_]
+H97t%H
+=	-	
+=	-	
+ATSH
+[A\]
+[A\]
+5!)	
+9w,t;UH
+[A\]
+[A\]
+5a/	
+|$ L
+|$$A
+D$8A
+[A\A]A^A_]
+571	
+D$@I
+ATSL
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVA
+[A\A]A^A_]
+S D9
+H97t%H
+=y!	
+tGUH
+{8fH
+[A\]
+9w0t
+HcG$
+ATfH
+[A\]
+ATSL
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVA
+[A\A]A^A_]
+H97t%H
+ATSH
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+H97t%H
+|$0H
+t$0L
+VUUUH
+AUATI
+A\A]A^]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+H97t%H
+VUUUI
+[A\A]A^A_]
+H97t%H
+AUATSH
+A;E<t<A
+E<IcE
+[A\A]]
+[A\A]]
+ATSH
+8H;=7'
+W(L9
+A;D$<t
+D$<IcD$
+D$@H
+[A\]
+9C@t
+AUATA
+C(H;
+A;E<t
+[A\A]]
+E<IcE
+[A\A]]
+AUATA
+A;E t
+[A\A]]
+A\A]A^]
+A\A]A^]
+AWAVAUA
+I9D$0
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+H97t%H
+[A\A]A^A_]
+[A\A]]
+[A\A]]
+t8fA
+[A\A]]
+l$d1
+[A\A]]
+A\A]A^]
+A\A]A^]
+AUATSH
+L$(t@I
+L$(A
+D$HA
+[A\A]A^A_]
+|$0H
+t$0A
+C,H9
+[A\A]]
+H9w(t*H
+c([A\]
+AVAUATSH
+[A\A]A^]
+H97t
+AUATSH
+t$(t9I
+[A\A]]
+D$HA
+D$8I
+t$(E
+AUATI
+t$(H
+[A\A]]
+AVAUI
+ATSH
+[A\A]A^]
+ATSL
+[A\]
+AWAVAUI
+ATSH
+t$(t9I
+t$(H
+[A\A]A^A_]
+D$HA
+D$8I
+t$(E
+AUATSH
+L$(t9I
+[A\A]]
+D$HA
+D$8I
+L$(E
+AWAVI
+AUATSH
+[A\A]A^A_]
+AWAVI
+CpI9
+[A\A]A^A_]
+L;c`H
+AWAVAUATSH
+[A\A]A^A_]
+[A\]
+[A\]
+AWAVI
+AUATSH
+D$ I
+D$(I
+D$0I
+D$8H
+IcV8I
+D$ I
+D$(I
+D$0I
+D$8H
+[A\A]A^A_]
+ATSH
+[A\]
+AVAUA
+A;F0t
+[A\A]A^]
+F0IcF$H
+D9%X
+D9-G
+ATSL
+[A\]
+[A\A]A^A_]
+[A\A]A^A_]
+Ch[A\]
+AWAVAUATSH
+spfH
+([A\A]A^A_]
+[A\A]A^A_]
+<&A9
+CHD)
+<xHc
+K8D)
+s@D)
+AWAVL
+AUATI
+D$8A
+D;-~
+D$HLc
+D$(A
+[A\A]A^A_]
+Ic\$XH
+VUUU
+AVAUA
+[A\A]A^]
+A\A]A^]
+[A\]
+[A\]
+AVAUA
+[A\A]A^]
+HwLH
+AUATA
+C(tdMc
+([A\A]A^A_]
+AUATSH
+PXHcs
+[A\A]]
+AVAUATI
+[A\A]A^]
+AWAVAUATSH
+t_Ic
+[A\A]A^A_]
+AUATSH
+PXHcs0Ic
+[A\A]]
+xyUH
+AWAVAUATI
+P@L9
+[A\A]A^A_]
+[A\A]A^A_]
+@(Hi
+@(Hi
+@(Hi
+AUATI
+[A\A]]
+[A\A]]
+u ASD
+ASAQA
+AVAUATI
+[A\A]A^A_]
+AUATSH
+D$`D
+D$"9
+[A\A]]
+|$`H
+[A\A]]
+AVAUI
+ATS1
+[A\A]A^]
+AUATI
+PPI9
+[A\A]]
+ATSL
+tT[H
+[A\]
+[A\]
+$[A\]
+[A\A]A^A_]
+[A\A]A^A_]
+A\A]A^H
+A\A]A^]
+[A\]
+[A\A]A^A_]
+A]]H
+A\A]A^]
+AWE1
+X[A\A]A^A_]
+[A\A]A^A_]
+D$HL
+[A\A]A^A_]
+ATLc
+x[A\A]]
+~C,H
+x[A\A]]
+AVAUI
+[A\A]A^]
+[A\A]]
+[A\A]]
+AWAVI
+AULc
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+AULc
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+~D$8A
+D$HH
+[A\A]A^]
+AUATSH
+[A\A]]
+[A\]
+t7UH
+AUATL
+0A\A]]
+@?DL
+0A\A]]
+AWAVAUE1
+ATSH
+[A\A]A^A_]
+s@PD
+AWAVA
+A\A]L
+A^A_]
+[A\A]A^A_]
+AWAVA
+A\A]L
+A^A_]
+[A\A]A^A_]
+AUATI
+[A\A]]
+ [A\]
+AWAVAUATSH
+X[A\A]A^A_]
+tpUH
+$[A\@
+[A\]
+txUH
+[A\]
+AWAVAUATA
+t	D9
+X[A\A]A^A_]
+ATE1
+[A\A]A^A_]
+[A\A]A^A_]
+A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+C8[A\]
+W(E1
+t:H;vxt+
+t%v,H
+tTH;vxA
+tEUH
+@(Hi
+AUATLc
+[A\A]]
+`pUH
+AVAUATSH
+H;IxI
+nU f
+@[A\A]A^]
+@[A\A]A^]
+t;UH
+H;vxt
+H;[xtr
+t7UH
+[A\]
+@(Hi
+tGUE1
+AWAVATSH
+u?fA
+0[A\A^A_]
+@(Hi
+`PUH
+[A\]H
+[A\]H
+A]]H
+[A\]
+A\A]A^]
+A\A]A^]
+[A\A]]
+[A\A]]
+A\A]A^H
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+[A\]
+t,[A\]
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+H[A\A]]
+P(E9
+H[A\A]]
+O~wUH
+AUATSH
+[A\A]]
+[A\A]]
+ATSL
+tT[H
+[A\]
+[A\]
+$[A\]
+AVAUI
+ATSH
+ D;e
+[A\A]A^A_]
+u	L93
+V`t	A
+AUATL
+H[A\A]]
+t_UH
+[A\]
+t:H;vxt+
+t%v,H
+tWUH
+[A\]
+AULc
+[A]]
+[A]]
+AULc
+[A]A^]
+[A]A^]
+AVAUATI
+[A\A]A^]
+A\A]]
+A\A]]
+[A\]
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+t@UH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+tHUH
+[A\]
+[A\]
+[A\]
+ATLc
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+AUATI
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+ATLc
+[A\]
+t6f.
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+t2D;
+[A\]
+AWAVI
+AULc
+tnL9
+[A\A]A^A_]
+AUATSH
+@t+H
+R@H9
+[A\A]]
+[A\A]]
+AUATSH
+@t+H
+R@H9
+[A\A]]
+[A\A]]
+AUATI
+w6A9
+u0E8
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
+[A\]
+[A\]
+AUATfA
+([A\A]]
+AUATfA
+([A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]
+AUATA
+[A\A]A^]
+AUATI
+w6A9
+u0E8
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+AUATSH
+R@H9
+[A\A]]
+[A\A]]
+AUATSH
+R@H9
+[A\A]]
+[A\A]]
+ATSH
+t2D;
+[A\]
+AWAVAUL
+ATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+ATSH
+w#tf
+[A\]
+AWAVAUATA
+[A\A]A^A_]
+[A\A]A^A_]
+H97t
+AWAVAUM
+H;[x
+[A\A]A^A_]
+H97t
+AWAVA
+H;[x
+[A\A]A^A_]
+H97t%H
+A\A]A^]
+u%[L
+[A\]H
+AUATSH
+A\A]A^]
+A\A]A^]
+AUATSH
+[A\A]]
+[A\A]]
+AWAVAUA
+8[A\A]A^A_]
+([A\A]A^A_]
+([A\A]A^A_]
+A\A]A^A_]
+ATSH
+tPIc
+tNIc
+[A\]H
+ATSH
+AUATSH
+[A\A]]
+COPM
+COPM
+CENT
+CENT
+AUATSH
+[A\A]]
+AUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+H97t
+ATSH
+A\A]]
+AVAUATI
+ [A\A]A^]
+KpE1
+[A\]
+[A\]
+ [A\]
+AWAVAUATI
+[A\A]A^A_]
+AVAUA
+A]A^A_]
+AWAVAULc
+9KHt@
+([A\A]A^A_]
+9CHt#
+CP9CL
+([A\A]A^A_]
+([A\A]A^A_]
+AUATI
+[A\A]]
+A\A]]
+[A\A]]
+AWAVAUATSH
+KpE1
+CDE9
+([A\A]A^A_]
+KpE1
+CDE9
+([A\A]A^A_]
+KpE1
+CDE9
+([A\A]A^A_]
+AVAUATL
+[A\A]A^]
+AUATI
+~`tcH
+[A\A]]
+tbE1
+AWAVAUI
+[A\A]A^A_]
+AUATI
+H;[xtY
+[A\A]]
+t.U1
+t"H;vxt
+AUATA
+[A\A]]
+[A\A]]
+AVAUATA
+tnHc
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\A]A^A_]
+A\A]A^A_]
+AWAVL
+[A\A]A^A_]
+A\A]A^A_]
+[A\]
+[A\]H
+P8[A\]
+AUATI
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+AWAVI
+AUATA
+[A\A]A^A_]
+u	[A\]
+t	 I
+[A\]
+AVAUI
+ATSH
+[A\A]A^]
+[A\]
+[A\]
+AWAVAUATSH
+([A\A]A^A_]
+[A\]
+AUATL
+[A\A]]
+[A\A]]
+t~UH
+AUATI
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+t3Hk
+wSUH
+AUATSE
+[A\A]]
+tfHcE
+AWAVAUI
+ATSH
+[A\A]A^A_]
+AVAUL
+ATE1
+[A\A]A^]
+AWAVAUI
+/Kdu
+/KhtS
+[A\A]A^A_]
+/Clt
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+H97t
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+H97t%H
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+H97t
+ATSH
+[A\]
+AWAVI
+AUATI
+A;D$
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+YxaH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+ATSD
+[A\A]A^A_]
+A\A]A^A_]
+AUATA
+[A\A]]
+[A\]
+AUATA
+[A\A]]
+[A\]
+AUATI
+t4A;
+([A\A]A^A_]
+([A\A]A^A_]
+AVAUL
+([A\A]A^A_]
+AVAUI
+[A\A]A^]
+AUATI
+[A\A]]
+AWAVI
+AUATI
+[A\A]A^A_]
+PxH9
+JxfH
+[A\A]A^A_]
+ATSH
+l$TfE
+t$VfA
+D$XA
+D$@H
+8u@H
+T$`j
+[A\A]A^A_]
+T$`y
+t!=l
+AWAVE
+AUATSH
+HcE H
+f	CZH
+C`E1
+A[ZH
+[A\A]A^A_]
+[A\]
+[A\]
+AUATSH
+D$(I
+|$ H
+H[A\A]]
+AWAVAUATSH
+D$ f
+[A\A]A^A_]
+[A\A]]
+[A\A]]
+AWE1
+AUATI
+L9#u
+([A\A]A^A_]
+t;UH
+H;vxt
+AWAVI
+H[A\A]A^A_]
+H[A\A]A^A_]
+[A\A]A^A_]
+t,H;[xt
+t+UH
+ATSH;vxH
+[A\]
+[A\]
+CZ[A\]
+AWAVA
+H[A\A]A^A_]
+H[A\A]A^A_]
+H;@xt
+H;@xt
+ATSH
+t.M9d$xt_H
+[A\A]A^A_]
+D$ D9
+D$#L
+t$#D
+[A\A]A^A_]
+hH;@x
+h[A\A]A^A_]
+h[A\A]A^A_]
+AVAUA
+XH;@x
+N`t	A
+X[A\A]A^A_]
+X[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+AVAUL
+A\A]A^]
+AUATSH
+~	A9
+H[A\A]]
+I9L$
+I9D$
+H[A\A]]
+AWAVAUATSH
+(=CG
+(58G
+tPL9
+o%X>
+(-o7
+[A\A]A^A_]
+[A\]
+[A\]
+AUATL
+[A\A]]
+[A\A]]
+[A\A]]
+AUATI
+~=E1
+[A\A]]
+[A\A]]
+A\A]A^]
+A\A]A^]
+AUATI
+[A\A]]
+AWAVI
+[A\A]A^A_]
+H97t%H
+H;@xtBH
+G L9
+u;I9
+O@L9
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+[A\A]A^A_]
+t\Lc
+AVAUI
+[A\A]A^]
+H[A\A]A^A_]
+H[A\A]A^A_]
+AVAUI
+A]A^]
+A]A^]
+A]A^]
+A]A^]
+A]A^]
+A]A^]
+A\A]A^]
+ATSH
+[A\A]]
+~fU1
+H97u
+[A\]
+[A\]
+[A\]
+[A\]
+[A\]H
+AVAUI
+[A\A]A^]
+AUATL
+\$(H
+T$4I
+t$0H
+@PH9
+([A\A]]
+AUATSH
+d$(M
+[A\A]]
+A\A]]
+AWAVAUATSH
+t+E9
+[A\A]A^A_]
+AVAUATSL
+d$(M
+A\A]A^]
+d$(M
+d$(M
+AWAVAUATSH
+tSD9m
+d$(M
+[A\A]A^A_]
+AVAUATSL
+d$(M
+A\A]A^]
+AVAUATSL
+d$(M
+A\A]A^]
+AWAVI
+AUATSH
+[A\A]A^A_]
+[A\]
+[A\]
+AWAVI
+AUATA
+([A\A]A^A_]
+([A\A]A^A_]
+AUATI
+X[A\A]]
+AVAUATI
+[A\A]A^A_]
+[A\A]A^]
+Y~SUH
+AUATSH
+Lcg8E
+[A\A]]
+[A\]
+[A\]
+H9C8H
+AVAUI
+ATSD
+, [A\A]A^]
+, [A\A]A^]
+AUATI
+[A\A]]
+AUATH
+[A\A]]
+A\A]A^]
+A\A]A^H
+A\A]A^H
+[A\A]]
+A\]H
+AVAUATS
+[A\A]A^A_]
+AUE1
+ATSH
+[A\A]]
+PPAX
+[A\A]]
+hDF24
+PPAX
+hDF16
+hDF24
+hNULL
+YtXI
+PPAZ
+P D9
+[A\A]]
+([A\A]]
+AWAVI
+D$4A
+T$4A
+|$(O
+[A\A]A^A_]
+L$,9
+A9D$0
+[A\A]A^A_]
+AWAVAUA
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+t$HH
+l$@A
+\$(I
+[A\A]A^A_]
+A\A]]
+AUATSH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]H
+A^]H
+[A\A]A^]
+T$@L
+T$LL
+AVAUI
+X[A\A]A^A_]
+X[A\A]A^A_]
+X[A\A]A^A_]
+AUATI
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+ATSH
+[A\H
+ [A\]
+AWAVL
+AUATI
+H[A\A]A^A_]
+H[A\A]A^A_]
+|$(u
+I9|$
+L$(f
+ATSH
+[A\A]]
+[A\A]]
+|$PH
+|$PH
+hDXT1
+|$PH
+PPA[
+|$PH
+PPAY
+ t.A
+VUUU
+[A\A]A^A_]
+[A\A]A^A_]
+VUUU
+AVAUATSH
+[A\A]A^A_]
+[A\A]]
+@(H9
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\A]]
+[A\]
+[A\]
+ATLc
+[A\A]]
+A\A]]
+AUATI
+D$$H
+[A\A]]
+AUATI
+D$0H
+[A\A]]
+[A\A]A^A_]
+AVfA
+ATLc
+[A\A^]
+[A\]H
+[A\]
+ATLc
+[A\A]]
+A\A]]
+[A\A]]
+ATLc
+[A\]
+[A\]
+AWAVI
+AUATSH
+[A\A]A^A_]
+u!Hk
+[A\A]]
+AVAUI
+ATSD
+[A\A]A^]
+AUATSH
+tQE1
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]]
+[A\A]]
+AUATSH
+([A\A]]
+AUATE1
+[A\A]]
+H9Kp
+A]A^A_]
+A\A]A^H
+A\A]A^H
+tcUH
+~O L
+C$ATPA
+[A\A]]
+[A\A]]
+[A\A]]
+AUATA
+-on	
+~C fA
+C$PD
+[A\A]A^A_]
+K$QH
+[A\A]A^A_]
+A\A]A^A_]
+A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+RAWZt/A
+INTZt&A
+Pt A
+DF16t
+DF24u
+AVAUI
+ATSH
+[A\A]A^]
+t+UH
+AVAUH
+[A\A]A^]
+A\A]A^]
+[A\A]A^]
+[A\A]A^]
+AWAVAUATI
+Px9E
+D$ H
+D$(H
+D$0H
+~JE1
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUI
+ATSH
+Px9E
+[A\A]A^A_]
+[A\A]A^A_]
+Yu<H
+ATSH
+Px9E
+[A\A]A^A_]
+A\A]A^A_]
+A\A]A^A_]
+AUATSH
+[A\A]]
+AVAUI
+ATSH
+[A\A]A^]
+[A\]
+GET4A
+[A\]
+AUATSH
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+ATSH
+[A\A]]
+[A\]
+S(A9
+S,A9
+C,[A
+[A\]
+S A9
+S$A9
+[A\]
+AWAVAUI
+ATSHc
+N4E9
+~8t0H
+[A\A]A^A_]
+AWAVAUI
+ATSHc
+N@E9
+~Dt0H
+[A\A]A^A_]
+AUATI
+[A\A]]
+ATSH
+|*A84
+[A\A]A^A_]
+=.:	
+= :	
+H97t%H
+AWAVA
+~xMi
+[A\A]A^A_]
+H97t%H
+AWAVAUATI
+-(7	
+-y6	
+=B?	
+[A\A]A^A_]
+H97t
+AUATA
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]
+[A\A]]
+AVE1
+[A\A]H
+8A^]H
+[A\A]A^]
+AVE1
+[A\A]H
+8A^]H
+[A\A]A^]
+[A\]
+AVAUATSH
+%m0	
+[A\A]A^]
+H97t
+AWAVAUA
+[A\A]A^A_]
+[A\A]A^A_]
+H97t
+AWAVAUATSH
+%~1	
+~@E1
+A\A]A^A_]
+AWAVAUA
+uXfE
+[A\A]A^A_]
+H97t%H
+AWAVI
+AUATSH
+GET4
+[A\A]A^A_]
+5u 	
+H97t%H
+AUATSH
+[A\A]]
+AUATL
+xYA9
+D9 v
+[A\A]A^A_]
+AWAVL
+D98weu
+f9G(u
+[A\A]A^A_]
+AUATSH
+|$(I
+D$ A
+T$*L
+D$$1
+[A\A]A^A_]
+AUATSH
+[A\A]A^A_]
+AWAVAUA
+G 9C 
+4?Hc
+v(9s(
+4?Hc
+u.Ic
+[A\A]A^A_]
+4?Hc
+4?Hc
+4?Hc
+4?Hc
+4?Hc
+4?Hc
+AWAVAUI
+ATSH
+ tFM
+@tRM
+8[A\A]A^A_]
+8[A\A]A^A_]
+4'Hc
+[A\A]A^A_]
+AVAUI
+tp[A\A]A^]
+A\A]A^]
+ATSH
+xTHc
+[A\A]]
+AVAUI
+A\A]A^]
+A\A]A^]
+AVAUI
+A\A]A^]
+A\A]A^]
+AWE1
+A\A]A^A_]
+AVAUI
+tAE1
+t"E1
+t"Hc
+ t"Hc
+t>Hc
+([A\A]A^A_]
+|" H
+$tHA
+[A\]
+AVAUATSH
+-L`	
+-A`	
+T  H
+[A\A]A^A_]
+tEE1
+t";2u
+t*;r
+AWAVAUATI
+[A\A]A^A_]
+[A\]
+=U[	
+=AZ	
+ATSL
+[A\]
+ATSL
+[A\]
+@HH9
+@PH9
+AVAUI
+ATSH
+u7Lcw
+t6M;
+[A\A]A^]
+t$ I
+AWAVI
+AUATSH
+t;M;
+[A\A]A^A_]
+ATSH
+A\A]A^]
+AWAVL
+[A\A]A^A_]
+[A\]
+[A\]
+AWAVAUATSH
+A\A]A^A_]
+ATSH
+[A\A]]
+A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+tCUH
+[A\]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+tCUH
+[A\]
+AVAUL
+A9\$
+I9\$
+D$H[M
+e0A\A]A^]
+AVAUL
+A9\$
+I9\$
+D$H[M
+A\A]A^]
+\$pH
+[A\]
+AUATI
+\$pH
+[A\A]]
+AVAUATSH
+Mcf0Ic
+[A\A]A^A_]
+AWAVI
+AUATSH
+HcV0H
+[A\A]A^A_]
+=P<	
+=,<	
+AVAUA
+E:~ u
+tyLck
+D$81
+l$0F
+D$ A
+sx~3
+[A\A]A^A_]
+AVAUATSH
+d$HM
+t.fA;
+A;\$
+[A\A]A^]
+A\A]A^]
+AVAUATSH
+d$HM
+t.fA;
+A;\$
+[A\A]A^]
+A\A]A^]
+H;@@t:H
+G H9
+u6L9
+H;@Ht
+G@H9
+G L9
+u>I9
+O@L9
+G L9
+u>I9
+O@L9
+AVAUATI
+4$E1
+T$@H
+D$ H
+D$8I
+T$@I
+\$ I9
+uIL9
+A\A]A^]
+T$@I9
+[A\A]A^]
+AUATSH
+[A\A]]
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+[A\A]A^A_]
+tTLc
+r:f.
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+[A\A]A^A_]
+tTLc
+r:f.
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+[A\A]A^A_]
+t\Lc
+AWAVAUA
+ATSH
+t]H;P
+S@H9P
+D$HE
+[A\A]A^A_]
+tTLc
+F@H9
+VHt.H
+P@fH
+ATSH
+A\A]A^]
+t$Hu{H
+D$@L
+T$(I
+L$ I
+D$0I
+D$8L
+[A\A]A^]
+D$@M
+AUATA
+A\A]]
+A\A]]
+A\Hc
+AUATA
+A\A]]
+A\A]]
+A\Hc
+ATSH
+[A\A]A^]
+`Pf.
+G8#p(
+G8	p(
+AUATI
+D$TA
+D$Xt
+8[A\A]]
+8[A\A]]
+AVAUA
+D$Tt
+@[A\A]A^]
+@[A\A]A^]
+@[A\A]A^]
+L$TM
+D$TA
+D$Xu
+8[A\A]]
+8[A\A]]
+AWAVAUI
+(HcWP
+t$HL
+|$0L
+[A\A]A^A_]
+D$HA
+AUATSH
+[A\A]]
+t(UH
+AUATH
+A\A]A^]
+A]A^]
+AWAVAUATS
+([A\A]A^A_]
+=+		
+AWAVAUATI
+x[A\A]A^A_]
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+d$8I
+|$@D
+IcT$PI
+t$@H
+|$\D
+T$pE
+\$xM
+|$H1
+l$(I
+D$XH
+\$ I
+8[A\A]A^A_]
+8[A\A]A^A_]
+D$TA
+/D$psEI
+D$TA
+/D$xw
+ATSH
+%>$	
+[A\A]]
+[A\A]]
+[A\A]A^]
+A\A]A^]
+[A\]
+[A\]
+AUATI
+[A\A]]
+[A\A]]
+AWAVAUATI
+D$8M
+D$8L
+X[A\A]A^A_]
+@(H9
+X[A\A]A^A_]
+D$8H
+D$8L
+D$8E1
+ATSH
+[A\]
+[A\]
+AUATSH
+[A\A]]
+[A\A]]
+AWAVAUATI
+G8t,M
+[A\A]A^A_]
+[A\A]A^A_]
+ATLc
+#[A\]
+AWAVAUATL
+([A\A]A^A_]
+AWAVAUATSH
+hHc]
+h[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+AWAVM
+[A\A]A^A_]
+ATSH
+[A\A]]
+[A\A]]
+A\A]A^A_]
+AWAVAUA
+/tlH
+A\A]A^A_]
+AWE1
+ATSH
+[A\A]A^A_]
+A\]H
+AUATI
+G wAH
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+@ H9
+[A\]
+[A\]
+[A\]
+AUATtsH
+@ H9
+A\A]]
+AWAVAUI
+D95!
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUA
+@ H9
+@ H9
+A\A]A^]
+@ H9
+A\A]A^]
+@XA9D$
+A\A]A^]
+A\A]A^]
+AUATI
+\$(I9
+[A\A]]
+utUH
+A]A^A_]
+A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUI
+\t"I
+[A\A]A^A_]
+AWAVAUATI
+H[A\A]A^A_]
+A\A]A^A_]
+A\A]A^A_]
+H[A\A]A^A_]
+H[A\A]A^A_]
+A\A]A^A_]
+A\A]A^]
+A\A]A^]
+G0H9
+AUATI
+[A\A]]
+ATSL
+[A\]
+t+UH
+O(H9
+AUATSH
+[A\A]]
+A\A]]
+A\A]]
+AVAUATSH
+D$ IcD
+[A\A]A^]
++C$H
++C$H
++S$H
++C$H
++S$H
++S$H
++S$H
+|$0H
++S$H
++C$H
++C$H
++C$H
+ATSH
+D$ A
+D$"M
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+h[A\A]A^A_]
+<}tx<{
+uxHcE
+t3<0u
+u	H9
+h[A\A]A^A_]
+AWE1
+AVE1
+AUATSH
+D$ A
+[(E1
+[A\A]A^A_]
+D$ L
+D$(I
+A\A]]
+AUATSH
+D$(H
+[A\A]]
+AUATSH
+D$(H
+[A\A]]
+AUATA
+D$(H
+[A\A]]
+AVAUATSH
+d$(M
+[A\A]A^]
+AVAUATSLcf
+[A\A]A^]
+AWAVAUATSH
+D$(H
+[A\A]A^A_]
+l$(I
+[A\A]A^]
+[A\A]A^]
+AUATI
+[A\A]]
+D$(I
+D$ A
+A\A]A^]
+D$(A
+D$ A
+A\A]A^A_]
+AWAVI
+[A\A]A^A_]
+AUATI
+[A\A]]
+D$(I
+D$ A
+A\A]A^]
+AWAVI
+[A\A]A^A_]
+AWAVI
+AUATI
+@ L9
+[A\A]A^A_]
+@ H9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
+[A\]
+t E1
+D$(A
+D$ A
+[A\A]]
+D$(A
+D$ A
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+D$ A
++C$H
++C$H
++C$H
++C$H
+ATSH
+D$ A
+D$!A
+D$"H
+[A\A]A^]
+[A\A]A^]
+AVAUA
+[A\A]A^]
+l$0H
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+F0H9
+AWAVAUATSH
+t7Hc
+D$ A
+D$!A
+D$"E1
+[A\A]A^A_]
+AWAVI
+t+ATM
+~uE1
+D9%P{
+D;%4{
+xGHc
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+AVAUI
+ATSD
+ [A\A]A^]
+AWAVA
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+[(Y^H
+[(XZH
+A\A]A^A_]
+[A\A]A^A_]
+A[~6I
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUL
+ATSt1H
+[A\A]A^]
+Mcu0E1
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+ATSH
+xTHc
+[A\A]]
+[A\]
+[A\]
+AWAVI
+t+AUH
+AZA[H
+AXAYH
+D$XI
+D$HH
+T$ I
+[A\A]A^A_]
+|$ IcG
+A9T$0A
+D$ D9h
+A#D$T
+A#D$T
+T$ D9m
+|$hI
+|$XD
+D$hD)
+|$XHc
+AWAVAUL
+o ATSH
+C D9
+[A\A]A^A_]
+sXHc
+C0E1
+0x'H
+t	L9%
+?LZMA
+?LZMAt
+?LZMAt
+AWAVL
+[A\A]A^A_]
+ATSH
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+>LZMAtV
+[A\A]]
+[A\A]]
+AWAVL
+AUATA
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
+AVMc
+xzD9
+}ID)
+4'D9
+}jHc
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+vcUH
+<2v}
+ u	E
+0uSHc
+sQHc
+AWAVAUATS
+Vt@A
+,3Hc
+[A\A]A^A_]
+3 Hc
+D8 t
+[A\]
+ATSH
+[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+[A\A]]
+AVAUI
+ATStLH
+A\A]A^]
+[A\A]A^]
+~,Hc
+A\A]A^]
+A\A]A^]
+tS<0t\<'t;H
+	w}1
+<Xt0H
+'t2H
+	wT1
+AUATSH
+<.t6
+[A\A]]
+	w(f
+[A\D
+[A\A]]
+<Eu,
+~.Hc
+AWAVAUATSH
+t:E1
+[A\A]A^A_]
+AWAVAUATSH
+tIIc
+[A\A]A^A_]
+ATLc
+[A\]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+AULc
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+AULc
+[A\A]]
+[A\A]]
+AVLc
+[A\A]A^]
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATS
+TUUUv
+[A\A]A^]
+AWAVAUATI
+[A\A]A^A_]
+tx~.
+AVAUATI
+A\A]A^]
+A\A]A^]
+AVAUI
+[A\A]A^]
+A\A]A^]
+AWAVE1
+AUATI
+[A\A]A^A_]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AUE1
+[A\A]]
+[A\D
+AUATI
+[A\A]]
+[A\A]]
+ [A\A]A^]
+AWAVA
+([A\A]A^A_]
+AWAVAUI
+ATLc
+([A\A]A^A_]
+([A\A]A^A_]
+ATLc
+	vQD
+[A\A]A^]
+AWAVI
+AULc
+([A\A]A^A_]
+AVAUI
+/tOH
+[A\A]A^]
+[A\A]A^]
+</t	H
+[A\]
+ATSH
+;"u	D
+[A\]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+AVAUI
+<.tOH
+A\A]A^]
+[A\A]A^]
+AVAUI
+~R[L
+A\A]A^]
+[A\A]A^]
+~.Hc
+t	<\u
+AUATSH
+[A\A]]
+~ Hc
+A\A]A^]
+A]A^]
+/t	H
+AVAUA
+/t	H
+A\A]A^]
+AUATA
+[A\A]]
+/t	H
+AWAVAUA
+D8'u
+D8&u
+~XE1
+D8'u
+<3.u
+D8&u
+[A\A]A^A_]
+t	A8
+AUATA
+~&Lc
+[A\A]]
+AVLc
+[A\A]A^]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+ATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+A\A]A^]
+[A\A]A^]
+AWAVL
+~pH9
+[A\A]A^A_]
+AUATL
+[A\A]]
+[A\A]]
+t.L9
+[A\]
+AWAVL
+ATSL
+~JA9
+[A\A]A^A_]
+~PA9
+AWAVAUATSH
+[A\A]A^A_]
+IcT$
+AWAVAUATSH
+uUMc
+tP<[
+[A\A]A^A_]
+u0Hc
+ty;]
+th~.
+t-E1
+< v^<
+<?tt
+.t!D
+([A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^]
+AWAVL
+AUATSH
+        H
+[A\A]A^A_]
+AVAUI
+[A\A]A^]
+AWAVI
+AUATI
+t"HcE
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVAUATI
+8HcA
+x2Lc
+tYHcE
+8[A\A]A^A_]
+A\A]A^A_]H
+AWAVAUATI
+<$L9
+<uZH
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+[A\A]A^A_]
+A+D$$I
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$I
+$A+D$$
+A+D$$I
+A+D$$I
+A+D$$
+A+D$$I
+A+D$$I
+A+D$$I
+A+D$$I
+ATSH
+[A\]
+AUATA
+[A\A]]
+vLD9
+v:D9
+tOf.
+ATSH
+[A\]
+[A\]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUATSH
+[A\A]]
+A\A]]
+uBf.
+AUATSH
+[A\A]]
+A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUA
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+ATSH
+0[A\]
+o5.h
+o%2h
+0[A\]
+o=pa
+o5pa
+o%)a
+AWAVAUATSH
+[A\A]A^A_]
+AUATL
+[A\A]]
+AWAVAUATSH
+~bIc
+\,$L
+D<$H
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+[A\]
+ATSD
+D9c ~j
+S$D9
++C$H
+[A\]
+[A\]
+AWAVI
+A9F }
+[A\A]A^A_]
+[A\A]]
+x0A9
+[A\]
+[A\]
+ueUH
+<2;{ 
+[A\A]]
+A+t$$I
+[A\A]]
+AUE1
+ATSH
+[A\A]]
++{$H
+A]A^]
+A\A]A^]
+ATSH
+t/A+t$$Hc
+[A\A]]
+D$ A
+[A\A]]
+S +S
+AWAVAUATI
+A+\$$I
+8[A\A
+A]A^A_]
+8[A\A]A^A_]
+AUATL
++S$E
+~IIc
+[A\A]]
+A\A]]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+E+D$$B8
+A+t$$I
+[A+D$$I
+$A\]
+O tp
+AWAVI
+AUATSH
+A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+A+t$$I
+A+t$$I
+AVAUI
+(A\A]A^]
+A+t$$I
+(A\A]A^]
+A+D$$
+AUATSH
+[A\A]]
++C$H
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+uNM9
++s$H
+AWAVAUATSH
+ t*A
+%tdA
+[A\A]A^A_]
+F A9F
+A+v$D8,7
+A+~$I
+A+V$I
+A+~$I
+A+~$I
+A+~$I
+A+F$
+AWAVI
+[A\A]A^A_]
+[A\A]A^A_]
+A\A]A^A_]
+AWAVI
+AUATSH
+A+V$)
+A+N$I
+V +E
+[A\A]A^A_]
+AWAVH
+A+U$
+[A\A]A^A_]
+A+u$H
+AWAVAUI
+ATSH
+[A\A]A^A_]
+A+E$
+< ~xL;}
+A+E$
+A+E$
+uPUH
++W$x
+AUATI
+D$(H
+D$8I
+A\A]]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+D$(H
+D$8I
+[A\A]]
+A+|$$x<Hc
+<$Hc
+A;\$ A
+[A\A]]
+[A\A]]
+AVAUI
+A\A]A^]
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+uT[A\A]A^]
+$A+D$$
+A;D$ A
+A\A]A^]
+|$@I
+D$8L
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+A\A]]
+AVAUATI
+A+W$
+A+G$I
+A;G A
+A+G$D
+A;G A
+A+G$
+A+G$I
+A;G A
+([A\A]A^A_]
+A+G$I
+A;G A
+7A+O$
+A+G$I
+A;G A
+A+G$
+A;G A
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+$A+D$$
+A;D$ A
+[A\A]A^A_]
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+[A\A]A^A_]
+$A+D$$
+A;D$ A
+[A\A]A^A_]
+$A+T$$
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+A;\$ A
+[A\]
+;G ~
++W$x
+AVAUATSH
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+A9G A
+8[A\A]A^A_]
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+7A+G$
+A+G$I
+A;G A
+A+G$
+A;G A
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATI
+E+l$$D
+t;[L
+A\A]A^]
+A\A]A^]
++C$9C
+[A\]
+AUATI
+A+D$$I
+A;D$ A
+T$$9
+A9D$
+|$@I
+D$8L
+$A+D$$
+A;D$ A
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+~/I9
+[A\A]]
+[A\A]]
+AVAUATSH
+7t:H
+~(M9
+[A\A]A^]
+[A\A]A^]
+ATSL
+[A\]
+AVAUATI
+~0M9
+<$Hc
+A\A]A^]
+A\A]A^]
+AVAUATI
+7tBH
+~0M9
+<$Hc
+A\A]A^]
+A\A]A^]
+AVAUI
+A\A]A^]
+A\A]A^]
+ATSH
+A\A]A^]
+[A\A]]
+A\A]]
+A\A]]
+AWAVAUA
+ATS<*u#A
+A\A]A^A_]
+</Mc
+A\A]A^A_]
+AVAUL
+ATSH
+t9L9+t
+[A\A]A^]
+AUATL
+A\A]]
+A\A]]
+t	H)
+AVAUATSL
+A\A]A^]
+[A\A]A^]
+AVAUI
+ATSL
+~$[L
+A\A]A^]
+[A\A]A^]
+AUATSH
+x+Hc
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+A\A]]
+A\A]]
+AVAUATI
+x}D9
+[A\A]A^]
+[A\A]A^]
+AUATI
+[A\A]]
+[A\A]]
+AVAUI
+ATSH
+D8"u
+[A\A]A^]
+[A\A]A^]
+AWAVAUATL
+X[A\A]A^A_]
+AVAUL
+A\A]A^]
+AUATI
+[A\A]]
+AVAUL
+A\A]A^]
+AVAUL
+A\A]A^]
+<$Hc
+AVAUL
+A\A]A^]
+AVAUL
+A\A]A^]
+AUATI
+A\A]A^]
+A\A]]
+A\A]]
+AVAUL
+A\A]A^]
+AWAVI
+[A\A]A^A_]
+AWAVI
+ATSH
+[A\A]A^A_]
+t	H)
+AVAUATSH
+ubE1
+[A\A]A^A_]
+AUATSH
+[A\A]]
+[A\A]]
+AUATA
+[A\A]]
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]A^A_]
+6tXL
+7upH
+AVAUI
+ATSH
+[A\A]A^A_]
+@u"I
+AWAVAUATSH
+([A\A]A^A_]
+HcpH
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\]
+AUATI
+D$8I
+A9\$H
+[A\A]]
+AVAUATS
+t$XL
+A]A^]
+AVAUATI
+A\A]A^]
+t*UH
+t$ H
+AWAVL
+t'fE
+[A\A]A^A_]
+AWAVAUATI
+t.fA
+[A\A]A^A_]
+IcvHD
+AVAUATI
+[A\A]A^]
+AWAVAUI
+[A\A]A^A_]
+tQ9W
+t+f9
+~;Hc
+0t	H
+AUATSD
+[A\A]A^]
+AWAVAUATA
+@uiE
+[A\A]A^A_]
+tjf;2uefD
+tjf;r
+udfD
+AVAUATSH
+8fA9
+tyfD;j
+[A\A]A^]
+fD;*trH
+AWAVAUATI
+L$ 1
+uFfD
+[A\A]A^A_]
+AUATI
+[A\A]]
+AUATSL
+@u&fE
+[A\A]]
+AVAUATS
+[A\A]A^]
+VUUUH
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+{4fA
+S4fD
+D;s(saH
+s fD;{:H
+C fD
+t+E1
+C@s;
+G0UA
+WLH)
+O@L9
+gDs{
+O0A\]
+AWAVAUATSH
+CXD)
+w0I9
+g L;e
+t<I)
+[A\A]A^A_]
+AUATSA
+A\A]A^]
+A\A]A^]
+rKA)
+;_ht)L
+[A\A]]
+ATSH
+L9{0
+KdE1
+K D)
+C,E1
+[A\A]A^A_]
+vYE1
+AWAVH
+ATSH
+X[A\A]A^A_]
+[A\]
+AWAVAUI
+[A\A]A^A_]
+AWAVAUATSH
+M9n8t9D
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUE1
+ATE1
+A\D	
+A]A^]
+t%Hc
+[A\]
+~&Ai
+AWAVAUI
+ATSH
+tBL)
+4'tjH
+4'M9
+4'M9
+[A\A]A^A_]
+ATSH
+[A\A]A^A_]
+|$(A\]
+t*UH
+<@E1
+,tC~
+[A\A]A^A_]
+[A\]
+AVE1
+[A\A]A^]
+AVAUL
+0[A\A]A^]
+GBu	9Wd
+CpIc
+VUUUH
+[A\A]]
+[A\A]]
+ATSH
+[A\]
+ATSH
+ [A\]
+ [A\]
+ATSH
+@`H9
+[A\]
+@(H9
+u-D9
+[A\A]]
+H9w8t
+udD9
+P8H9
+uFA9
+[A\A]H
+A\A]A^]
+ulD9
+P8H9
+uNA9
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUI
+D$|D9
+D$|H
+|$(H
+[A\A]A^A_]
+E;l$|A
+[A\A]A^A_]
+@0H9
+@(H9
+A\A]A^A_]
+[A\A]A^A_]
+H8H9
+PHA9
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVA
+E9t$
+~vIc
+t0,E
+[A\A]A^A_]
+AUATA
+d((D
+T( H
+[A\A]A^A_]
+C(v A
+AVAUATI
+0[A\A]A^]
+AWAVL
+[A\A]A^A_]
+A9D$l
+~D$HL
+D$Hf
+|$(1
+E;HX
+|$0A
+A9T$p
+AVAUI
+[A\A]A^]
+AWAVL
+AUATI
++E9,$r
+E9|$
+E;,$w
+E;|$
+8[A\A]A^A_]
+AUATSH
+[A\A]]
+AWAVL
+[A\A]A^A_]
+ATSL
+ATSH
+CpIc
+VUUUD
+[A\A]A^A_]
+AUATL
+[A\A]]
+AUATL
+A\A]]
+A\A]]
+AWAVI
+AUATSH
+@8sB
+([A\A]A^A_]
+BX9AX
+AWAVA
+H[A\A]A^A_]
+D;xX
+@XA9
+s];w$
+@,t>H
+AWAVA
+AUATA
+[A\A]A^A_]
+DXT5
+INTZ
+RAWZ
+ATI2t
+DXT3
+DF24
+DF16
+NULL
+ATI1
+DXT1
+ATSH
+[A\A]A^A_]
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+G$
+A+G$I
+A+W$j
+[A\A]A^A_]
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+A+G$I
+AWAVAUATSH
+[A\A]A^A_]
+AWAVA
+AUATM
+t2Lcm
+[A\A]A^A_]
+AWAVAUATSH
+8[A\A]A^A_]
+P D9u
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATL
+[A\A]A^A_]
+~HD9
+tcf.
+o5qP
+o%K5
+o-e2
+o%G/
+tcf.
+o=4&
+<WH9
+o-4#
+4GI9
+AWAVL
+[A\A]A^A_]
+AWAVL
+[A\A]A^A_]
+AWAVAUATSH
+~QHc
+[A\A]A^A_]
+AWAVAUATSH
+~JLc
+[A\A]A^A_]
+AWAVAUATSH
+~GLcM
+[A\A]A^A_]
+AWAVAUATSH
+~GLcM
+[A\A]A^A_]
+AWAVAUATSH
+~QHc
+[A\A]A^A_]
+AWAVI
+AULc
+?fA9
+[A\A]A^A_]
+AWAVAUATS
+~5HcU
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+~rHc
+AWAVAUATA
+[A\A]A^A_]
+AWAVAUATSH
+~GLc
+[A\A]A^A_]
+AWAVAUATSH
+	fE9
+~FLcM
+[A\A]A^A_]
+AWAVAUATSH
+	fE9
+~FLcM
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+~rHc
+AWAVAUATSH
+~QHc
+[A\A]A^A_]
+AWAVAUATSH
+~QHc
+[A\A]A^A_]
+AWAVAUATSH
+~HLc
+[A\A]A^A_]
+AWAVAUATSH
+~JLc
+[A\A]A^A_]
+W?H)
+tcf.
+W?H)
+AWAVAUL
+n@ATSH
+5UUUU
+[A\A]A^A_]
+4vD)
+[A\A]]
+u/[D
+A\A]A^]
+AUATSL
+[A\A]A^A_]
+AWAVAUATA
+	w*D
+[A\A]A^A_]
+t{fA
+AWAVAU
+X[A\A]A^A_]
+AWAVAU
+X[A\A]A^A_]
+AVAUATA
+	w7D
+[A\A]A^A_]
+|tiE
+ujf%
+[A\A]A^A_]
+A]A^A_]
+A]A^A_]
+A]A^A_]
+A]A^A_]
+[A\A]A^A_]
+~-Mc
+[A\A]A^A_]
+X[A\A]A^A_]
+X[A\A]A^A_]
+AWAVAUATA
+H[A\A]A^A_]
+[A\A]A^A_]
+(u@D
+[A\A]A^A_]
+~WHcE
+AWAVD
+AUATS
+B,H9
+[A\A]A^A_]
+AVAUATD
+P.H9
+[A\A]A^A_]
+AVAUATD
+P/H9
+[A\A]A^A_]
+AVAUATD
+P.H9
+[A\A]A^A_]
+AWAVL
+[A\A]A^A_]
+ATSH
+[A\A]]
+AWAVAUATSH
+Pt5I
+[A\A]A^A_]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+AWfE
+AUATS
+v!fE
+8[A\A]A^A_]
+AWAVAUI
+ATSH
+X[A\A]A^A_]
+[A\A]A^A_]
+ATSH
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+AVAUATSH
+A\A]A^]
+AVAUATSH
+[A\A]A^]
+A\A]A^]
+AVAUATE1
+[A\A]A^A_]
+AVAUATE1
+~\E1
+[A\A]A^A_]
+AVAUATE1
+~LE1
+[A\A]A^A_]
+~yf.
+AWAVAUL
+ATSH
+X[A\A]A^A_]
+~SE1
+[A\]
+AWAVL
+AUATA
+[A\A]A^A_]
+AWAVI
+A9D$
+[A\A]A^A_]
+A9T$
+AWAVL
+~[f.
+A9t$
+h[A\A]A^A_]
+ATSL
+~=f.
+ [A\]
+AWAVI
+[A\A]A^A_]
+[A\A]A^A_]
+AWE1
+A+D$$
+[A\A]A^A_]
+AUE1
+[A\A]A^A_]
+AUE1
+[A\A]A^A_]
+AWAVAUATSH
+H[A\A]A^A_]
+A+F$
+AWAVAUI
+t&< 
+([A\A]A^A_]
+A+D$$
+A+D$$
+A+D$$
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUL
+A\A]A^A_]
+AVAUL
+A\A]A^A_]
+AVAUL
+A\A]A^A_]
+AWAVL
+[A\A]A^A_]
+ [A\A]A^]
+[A\A]A^]
+AWAVL
+[A\A]A^A_]
+tqUH
+AVE1
+A+E$H
+[A\A]A^]
+tqUH
+AVE1
+A+E$H
+[A\A]A^]
+tiUH
+AVE1
+A+E$H
+[A\A]A^]
+tiUH
+AVE1
+A+E$H
+[A\A]A^]
+AUE1
+A+F$I
+[A\A]A^]
+AUE1
+A+F$I
+[A\A]A^]
+tYUH
+ATE1
+[A\A]A^]
+AUE1
+A+F$I
+[A\A]A^]
+AUE1
+A+F$I
+[A\A]A^]
+tqUH
+AVE1
+A+E$H
+[A\A]A^]
+tqUH
+AVE1
+A+E$H
+[A\A]A^]
+tqUH
+AVE1
+A+E$H
+[A\A]A^]
+tyUH
+AUE1
+A+V$I
+[A\A]A^]
+AUE1
+A+V$I
+[A\A]A^]
+AVAUI
+ATSD
+[A\A]A^A_]
+AWAVL
+[A\A]A^A_]
+[A\A]A^A_]
+A;D$
+([A\A]A^A_]
+ATSH
+[A\A]A^A_]
+AVAUATSH
+[A\A]A^A_]
+ATSL
+[A\]
+AWAVAUATSD
+[A\A]A^A_]
+AVAUI
+(-Y 
+(%Y 
+A\A]A^A_]
+A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+L$$A9
+[A\A]A^A_]
+D;G$
+t$XA
+t$XfI
+D$(A
+|$ E
+|$XH
+AWAVAUATS
+A9B 
+[A\A]A^A_]
+AWAVAUATS
+t1Hc
+A9B 
+[A\A]A^A_]
+AUATA
+[A\A]A^A_]
+AWAVE
+t[;]
+[A\A]A^A_]
+AWAVI
+AUATI
+T$ M
+A9F$
+ [A\A]A^A_]
+AUATSD
+A9F$
+@[A\A]A^A_]
+AWAVI
+AUATI
+A9F$
+[A\A]A^A_]
+x	A9
+AVAUM
+ATSH
+[A\A]A^A_]
+AWAVM
+AUATI
+^L$,D
+4A9F
+x	A9
+[A\A]A^A_]
+AWAVAUATS
+[A\A]A^A_]
+AWAVI
+AUATS
+AVE1
+A9G$
+[A\A]A^A_]
+AWAVAUATS
+[A\A]A^A_]
+AVAUM
+ATSH
+[A\A]A^A_]
+AWAVAUATI
+^K,D
+T$XA
+T$XA
+A9D$
+A9D$$
+[A\A]A^A_]
+AWAVA
+AUATSH
+o%"a
+[A\A]A^A_]
+o=(]
+ATSH
+0[A\]
+ [A\]
+ [A\]
+~_ D
+AVAUL
+[A\A]A^]
+AWAVL
+W=G>
+8[A\A]A^A_]
+AWAVL
+W-Z<
+8[A\A]A^A_]
+W%z;
+ [A\]
+ [A\]
+D$(A
+[A\]
+AVAUL
+ [A\A]A^]
+0[A\]
+A\A]]
+C,[A\]
+AUATL
+A\A]]
+[A\]
+AVAUL
+ [A\A]A^]
+[A\]
+ [A\]
+ [A\]
+[A\A]]
+[A\A]]
+[A\]
+L$(A\]
+0[A\]
+[A\A]]
+0A\A]]
+[A\A]]
+[A\]
+AVAUL
+ [A\A]A^]
+AVAUL
+ [A\A]A^]
+AUATL
+@A\A]]
+A\A]]
+0[A\]
+AVAUA
+H[A\A]A^A_]
+H[A\A]A^A_]
+AWAVL
+H[A\A]A^A_]
+AUATL
+[A\A]A^]
+Y%8H
+AWAVAUATLc
+u0Mc
+[A\A]A^A_]
+C/L)
+AULc
+[A\A]]
+A\A]]
+A\A]]
+[A\A]A^A_]
+H[A\A]A^A_]
+@pE1
+@pE1
+AWAVL
+AUATI
+[A\A]A^A_]
+[A\]
+[A\]
+tYUH
+~-`,
+~Z H
+AVAUL
+ [A\A]A^]
+l$<D
+D$(H
+[A\]
+D$8L
+D$,L
+D$8L
+D$,A\]
+~f D
+ATSL
+o,0H
+ttHc
+[A\]
+[A\]
+C8[A\]
+ [A\]
+ [A\]
+([A\A]A^A_]
+HA\A]A^]
+HA\A]A^]
+AWAVL
+[A\A]A^A_]
+tOHc
+tGHc
+VUUU
+o5gx
+o5Mw
+AUATL
+[A\A]]
+ ucL
+@uJL
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVI
+AUATUSH
+o_0H
+D$ I
+D$ H
+D$ L
+D$ 1
+T$@H
+D$(H
+D$@L
+\$ H
+\$ I
+[]A\A]A^A_
+D$8H
+AWE1
+tB</
+[A\A]A^A_]
+AVAUATI
+~	eH
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+H(H)
+H0H)
+H8H)
+H@H)
+HHH)
+HPH)
+HXH)
+[]A\A]
+AWAVL
+ATUH
+[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AWAVL
+AWAVL
+AWAVH
+SRPH
+AWAVAUATI
+SRPH
+AWAVI
+[A\A]A^A_]
+AWLc
+4$D9
+LcL$
+[]A\A]A^A_
+AWAVL
+[]A\A]A^A_
+}	zt
+AWAVAUATUSH
+<0ueM
+([]A\A]A^A_
+ATUH
+ tyvg
+0uRL
+[]A\
+Pu!E1
+0u0I
+[]A\
+PuW1
+PuB1
+AWAVI
+AUATI
+([]A\A]A^A_
+u/H#D$
+AWAVI
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUSH
+/vAH
+T$(L
+D$(L
+[]A\A]A^A_
+[]A\A]A^A_
+Q H;
+[]A\A]A^A_
+T$(H
+|$ H
+D$(H
+t$8H
+0uVH
+v5I9
+Ic4$H
+Mcl$
+L$ L
+D$ I
+D$(L
+AWAVAUI
+l$@H
+D$8I
+d$ M
+D$@H9
+D$8H
+L$ H9
+[]A\A]A^A_
+D$@I9
+D$8I9
+D$@H
+D$HH
+D$@H
+D$ H
+|$HM
+d$(H
+$H9D$
+d$(L
+D$@L
+T$HH
+D$ H
+H;D$
+D$HH
+t$@H
+D$HH
+D$@I
+[]A\A]A^A_
+l$@L
+ATUSH
+L$(H
+@(H9
+[]A\
+D$(M
+d$(M
+T$(H
+T$(H
+AWAVI
+AUATUH
+|$ M
+[]A\A]A^A_
+L;3r
+{}()'
+{}()':
+ENABLE_VB_ALLOC_TRACKER must be 1 to enable VB mem alloc tracking
+Dump VB memory allocation stats.
+VBAllocTracker001
+mem_dumpvballocs
+15IVBAllocTracker
+15CVBAllocTracker
+-disallowhwmorph
+-noglslcontrolflow
+m_NumTextureStages
+m_nMaxAnisotropy
+m_MaxTextureWidth
+m_MaxTextureHeight
+m_MaxTextureDepth
+m_MaxTextureAspectRatio
+m_MaxPrimitiveCount
+m_NumPixelShaderConstants
+m_NumVertexShaderConstants
+m_TextureMemorySize
+m_MaxNumLights
+m_MaxBlendMatrices
+m_MaxBlendMatrixIndices
+m_MaxUserClipPlanes
+m_HDRType
+m_pShaderDLL
+m_ShadowDepthTextureFormat
+m_NullTextureFormat
+m_nVertexTextureCount
+m_nMaxVertexTextureDimension
+m_AlphaToCoverageState
+m_AlphaToCoverageEnableValue
+m_AlphaToCoverageDisableValue
+m_nMaxViewports
+m_flMinGammaControlPoint
+m_flMaxGammaControlPoint
+m_nGammaControlPointCount
+m_bDeviceOk
+m_HasSetDeviceGammaRamp
+m_SupportsVertexShaders
+m_SupportsVertexShaders_2_0
+m_SupportsPixelShaders
+m_SupportsPixelShaders_1_4
+m_SupportsPixelShaders_2_0
+m_SupportsPixelShaders_2_b
+m_SupportsShaderModel_3_0
+m_bSupportsVertexTextures
+m_SupportsMipmapping
+m_SupportsOverbright
+m_SupportsCubeMaps
+m_SupportsHardwareLighting
+m_SupportsMipmappedCubemaps
+m_SupportsNonPow2Textures
+m_PreferDynamicTextures
+m_HasProjectedBumpEnv
+m_SupportsSRGB
+m_bSupportsSpheremapping
+m_UseFastClipping
+m_bNeedsATICentroidHack
+m_bDisableShaderOptimizations
+m_bColorOnSecondStream
+m_bSupportsStreamOffset
+m_bFogColorAlwaysLinearSpace
+m_bSupportsAlphaToCoverage
+m_bSupportsFetch4
+m_bSoftwareVertexProcessing
+m_bScissorSupported
+m_bSupportsBorderColor
+m_bDX10Card
+m_bDX10Blending
+m_bSupportsStaticControlFlow
+m_FakeSRGBWrite
+m_CanDoSRGBReadFromRTs
+m_bSupportsGLMixedSizeTargets
+m_bCanStretchRectFromTextures
+m_MaxHDRType
+-maxdxlevel
+r_shader_srgb
+mat_disablehwmorph
+m_NumBooleanPixelShaderConstants
+m_NumIntegerPixelShaderConstants
+m_NumBooleanVertexShaderConstants
+m_NumIntegerVertexShaderConstants
+m_MaxVertexShaderBlendMatrices
+m_MaxVertexShader30InstructionSlots
+m_MaxPixelShader30InstructionSlots
+m_MaxSimultaneousRenderTargets
+m_bSupportsAnisotropicFiltering
+m_bSupportsMagAnisotropicFiltering
+m_ZBiasAndSlopeScaledDepthBiasSupported
+m_bFogColorSpecifiedInLinearSpace
+m_bSupportsShadowDepthTextures
+m_bSupportsFloat32RenderTargets
+MaterialSystemHardwareConfig012
+Create convars from the current hardware config, useful for diffing purposes
+ccs_create_convars_from_hwconfig
+-1 = use hardware caps. 0 = use hardware srgb. 1 = use shader srgb(software lookup)
+Disables HW morphing for particular mods
+29IMaterialSystemHardwareConfig
+23IHardwareConfigInternal
+15CHardwareConfig
+Indices: %d (First %d, Offset %d)
+Verts %d (First %d, Offset %d) :
+[%4d] 
+P %8.2f %8.2f %8.2f 
+Wr %8.2f 
+BI %d %d %d %d 
+N %1.2f %1.2f %1.2f 
+C b %3d g %3d r %3d a %3d 
+T%d %.2f %.2f 
+S %1.2f %1.2f %1.2f 
+T %1.2f %1.2f %1.2f 
+[COMPRESSED]
+VERTEX_POSITION|
+VERTEX_NORMAL|
+VERTEX_NORMAL[COMPRESSED]|
+VERTEX_COLOR|
+VERTEX_SPECULAR|
+VERTEX_TANGENT_S|
+VERTEX_TANGENT_T|
+VERTEX_BONE_INDEX|
+VERTEX_FORMAT_VERTEX_SHADER|
+VERTEX_BONEWEIGHT(%d)%s|
+VERTEX_USERDATA_SIZE(%d)|
+VERTEX_TEXCOORD_SIZE(%d,%d)
+13IVertexBuffer
+12IIndexBuffer
+5IMesh
+17CVertexBufferBase
+16CIndexBufferBase
+9CMeshBase
+CopyToMeshBuilder called on something other than a temp mesh.
+bad vertex size for material %s
+TexGroup_global_Static Indices
+/data/src/materialsystem/shaderapidx9/meshdx8.cpp
+CShaderAPIDX8::RenderPassWithVertexAndIndexBuffers
+Dx9Device()->DrawIndexedPrimitive
+CMeshMgr::DiscardVertexBuffers
+Too many verts for a dynamic vertex buffer (%d>%d) Tell a programmer to up VERTEX_BUFFER_SIZE.
+failed to lock vertex buffer in CMeshDX8::LockVertexBuffer: nVertexCount=%d, nFirstVertex=%d
+Out of OS Paged Pool Memory! For more information, please see
+http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=150
+CIndexBufferDx8::Allocate: CreateIndexBuffer failed!
+TexGroup_global_Dynamic Indices
+Too many indices for index buffer. . tell a programmer (%d>%d)
+Failed to lock index buffer in CIndexBufferDx8::LockIndexBuffer
+CVertexBufferDx8::Allocate: CreateVertexBuffer failed!
+Too many vertices for vertex buffer. . tell a programmer (%d>%d)
+Failed to lock vertex buffer in CVertexBufferDx8::Lock
+failed to lock index buffer in CMeshDX8::LockIndexBuffer
+ERROR: Compressed vertices in use but vertex compression is disabled (or not supported on this hardware)!
+ERROR: Compressed vertices in use but material does not support them!
+Material %s does not support vertex format used by the mesh (maybe missing fields or mismatched vertex compression?), mesh will not be rendered. Grab a programmer!
+Shader specifying too-thin vertex format, should be at least %d bytes! (Suppressing furthur warnings)
+mat_debugalttab: CMeshMgr::ReleaseBuffers
+mat_debugalttab: CMeshMgr::RestoreBuffers
+CopyStaticMeshIndexBufferToTempMeshIndexBuffer
+CMeshMgr::FindOrCreateVertexBuffer (dynamic VB)
+ERROR: dynamic meshes cannot use compressed vertices!
+Verts: (Vertex Format %llx)
+Indices: %d
+CMeshDX8::UnlockMesh
+Unaccounted
+(%s)%s
+CMeshDX8::ModifyEnd
+Swap_Buffers
+CreateIndexBuffer failed!
+CIndexBufferX8::Lock
+TexGroup_frame_Static Indices
+CVertexBufferDx8::Lock
+CMeshDX8::LockMesh
+%s %d %d
+g_ShaderMutex.Lock
+PreLock
+Lock nFirstIndex
+CMeshDX8::ModifyBegin
+CMeshDX8::RenderPass
+Dx9Device_DrawPrimitive
+render/DrawIndexedPrimitive
+render/numPrimitives
+CDynamicMeshDX8::Draw
+CDynamicMeshDX8
+CBufferedMeshDX8::Flush
+CreateVertexIDBuffer
+Other Verts
+GetDynamicMesh
+too many indices for index buffer. . tell a programmer (%d>%d)
+/data/src/materialsystem/shaderapidx9/dynamicib.h
+D3DERR_INVALIDCALL - Index Buffer Lock Failed in %s on line %d(offset %d, size %d, flags 0x%x)
+D3DERR_DRIVERINTERNALERROR - Index Buffer Lock Failed in %s on line %d (offset %d, size %d, flags 0x%x)
+D3DERR_OUTOFVIDEOMEMORY - Index Buffer Lock Failed in %s on line %d (offset %d, size %d, flags 0x%x)
+HandleLateCreation
+TexGroup_global_
+TexGroup_frame_
+TexGroup_global_Dynamic Verts
+8IMeshMgr
+16CVertexBufferDx8
+15CIndexBufferDx8
+12CBaseMeshDX8
+8CMeshDX8
+15CDynamicMeshDX8
+12CTempMeshDX8
+16CBufferedMeshDX8
+8CMeshMgr
+17IShaderDynamicAPI
+10IShaderAPI
+14CShaderAPIBase
+CShaderAPIDx8::TexWrap: unknown wrapMode
+CShaderAPIDx8::TexWrap: unknown coord
+CShaderAPIDx8::TexMinFilter: Unknown texFilterMode
+CShaderAPIDx8::TexMagFilter: SHADER_TEXFILTERMODE_NEAREST_MIPMAP_NEAREST is invalid
+CShaderAPIDx8::TexMagFilter: SHADER_TEXFILTERMODE_LINEAR_MIPMAP_NEAREST is invalid
+CShaderAPIDx8::TexMagFilter: SHADER_TEXFILTERMODE_NEAREST_MIPMAP_LINEAR is invalid
+CShaderAPIDx8::TexMagFilter: SHADER_TEXFILTERMODE_LINEAR_MIPMAP_LINEAR is invalid
+CShaderAPIDx8::TexMAGFilter: Unknown texFilterMode
+mat_debugalttab: CShaderAPIDx8::EvictManagedResourcesInternal
+Encountered a material with two passes that use different numbers of bones!
+Encountered a material with two passes that use different user data sizes!
+Encountered a material with two passes that use different texture coord sizes!
+Attempting to bind a vertex texture (%s) which was not created as a vertex texture!
+/data/src/materialsystem/shaderapidx9/shaderapidx8.cpp
+OcclusionQuery_GetNumPixelsRendered
+CShaderAPIDx8::CopyRenderTargetToTexture
+mat_debugalttab: CShaderAPIDx8::AcquireInternalRenderTargets
+mat_debugalttab: CShaderAPIDx8::ReleaseInternalRenderTargets
+ForceHardwareSync_WithManagedTexture
+CShaderAPIDx8::ForceHardwareSync
+CShaderAPIDx8::CommitStateChanges
+CShaderAPIDx8::DrawWithVertexAndIndexBuffers
+Can't blit from full-sized offscreen buffer!
+ShaderAPIDX8::CreateDepthStencilSurface: D3DERR_INVALIDCALL
+ShaderAPIDX8::CreateDepthStencilSurface: D3DERR_OUTOFVIDEOMEMORY
+Attempted to set too many flex weights! Max is %d
+If this value is not -1, the material system will limit the amount of texture memory it uses in a frame. Useful for identifying performance cliffs. The value is in kilobytes.
+Force frame syncing to lock a managed texture.
+-dxlevel
+ModifyTexture
+CullMode: invalid cullMode
+TexUnlock
+CShaderAPIDx8::BeginPass
+Refraction overhead
+-shader
+-disable_d3d9_hacks
+DrawIndexedPrimitiveUP
+UpdateFrameSyncQuery
+Name
+TexGroup
+32 bit buffer (hack)
+BindsMax
+BindsFrame
+TextureList
+BACKBUFFER
+FRONTBUFFER
+TexGroup_frame_RenderTargets
+DEPTHBUFFER
+Unaccounted textures
+TexGroup_global_%s
+TexGroup_frame_%s
+CShaderAPIDx8::DrawMesh
+CopyBitsFromHostSurface
+CreateTextureHandles
+%s - Search
+%s - Add
+CreateTextures
+%s - PostLock
+%s - CreateFrames
+%s - CreateD3DTexture
+TexLock
+-nulldevice
+mat_texture_limit
+mat_frame_sync_enable
+mat_frame_sync_force_texture
+r_pix_start
+r_pix_recordframes
+ShaderApi030
+ShaderDevice001
+DebugTextureInfo001
+mat_alphacoverage
+r_pixelfog
+CShaderAPIDx8::SetVertexDecl
+CUtlFixedMemory overflow!
+CUtlLinkedList overflow! (exhausted memory allocator)
+13IShaderAPIDX8
+17IDebugTextureInfo
+13CShaderAPIDx8
+MbP?
+VShaderUtil001
+ShaderDeviceMgr001
+-arbmode
+-nouserclip
+NoUserClipPlanes
+name
+VendorID
+Intel
+min megahertz
+max megahertz
+MinDeviceID
+MaxDeviceID
+min megabytes
+max megabytes
+min megatexels
+max megatexels
+-ignoredxsupportcfg
+EXECUTABLE_PATH
+dxsupport_linux.cfg
+GAME
+dxsupport_override
+dxsupport_override.cfg
+MaxDXLevel
+-debugdxsupport
+GlobalMemoryStatus: %llu
+%d MB of system RAM
+pVidMemKeyValues
+ConVar.mat_picmip
+ConVar.mat_dxlevel
+final config:
+ShaderShadow010
+ShaderAPIDx10 was unable to access the required interfaces!
+CShaderDeviceMgrBase::GetRecommendedConfigurationInfo: CPU speed: %d MHz, Processor: %s
+10IAppSystem
+16IShaderDeviceMgr
+13IShaderDevice
+20CShaderDeviceMgrBase
+17CShaderDeviceBase
+23IConCommandBaseAccessor
+24CShaderAPIConVarAccessor
+5 Y 
+Driver Description :  %s
+Chipset version %d %d %d %d
+Display mode : %d x %d (%s)
+Device Caps :
+Primitive Caps :
+Raster Caps :
+Texture Caps :
+vendor id: 0x%x
+device id: 0x%x
+SHADERAPI CAPS:
+m_NumSamplers: %d
+m_NumTextureStages: %d
+m_HasSetDeviceGammaRamp: %s
+m_nMaxAnisotropy: %d
+m_MaxTextureWidth: %d
+m_MaxTextureHeight: %d
+m_MaxTextureAspectRatio: %d
+m_MaxPrimitiveCount: %d
+m_SupportsMipmapping: %s
+m_SupportsOverbright: %s
+m_SupportsCubeMaps: %s
+m_TextureMemorySize: %d
+m_MaxNumLights: %d
+m_MaxBlendMatrices: %d
+m_MaxBlendMatrixIndices: %d
+m_nDXSupportLevel: %d
+m_PreferDynamicTextures: %s
+m_HasProjectedBumpEnv: %s
+m_MaxUserClipPlanes: %d
+m_SupportsSRGB: %s
+m_HDRType: HDR_TYPE_NONE
+m_HDRType: HDR_TYPE_INTEGER
+m_HDRType: HDR_TYPE_FLOAT
+m_bSupportsSpheremapping: %s
+m_UseFastClipping: %s
+m_pShaderDLL: %s
+m_bNeedsATICentroidHack: %s
+m_bColorOnSecondStream: %s
+SetHardwareGammaRamp( %f )
+-forcenovsync
+OpenGL
+mat_queue_mode
+init
+D3DQueryGetData %t
+unspecified
+ReacquireResources
+ResizeWindow
+NeedsReset
+OtherAppInit
+ReleaseResources
+mat_supports_d3d9ex
+mat_forcedynamic
+mat_debugalttab
+mat_hdr_level
+0.0005
+mat_depthbias_shadowmap
+mat_fastclip
+SDLMgrInterface001
+-nod3d9ex
+Failed to create D3D9!
+-force_device_id
+-force_vendor_id
+-nops2b
+-limitvsconst
+-nosrgb
+-no_compressed_verts
+Shader API Driver Info:
+Driver : %s Version : %lld
+Vertex Shader Version : %d.%d Pixel Shader Version : %d.%d
+CANBLTSYSTONONLOCAL %s CANRENDERAFTERFLIP %s HWRASTERIZATION %s
+HWTRANSFORMANDLIGHT %s NPATCHES %s PUREDEVICE %s
+SEPARATETEXTUREMEMORIES %s TEXTURENONLOCALVIDMEM %s TEXTURESYSTEMMEMORY %s
+TEXTUREVIDEOMEMORY %s TLVERTEXSYSTEMMEMORY %s TLVERTEXVIDEOMEMORY %s
+BLENDOP %s CLIPPLANESCALEDPOINTS %s CLIPTLVERTS %s
+COLORWRITEENABLE %s MASKZ %s TSSARGTEMP %s
+FOGRANGE %s FOGTABLE %s FOGVERTEX %s ZFOG %s WFOG %s
+MIPMAPLODBIAS %s WBUFFER %s ZBIAS %s ZTEST %s
+Size of Texture Memory : %d kb
+Max Texture Dimensions : %d x %d
+Max Texture Aspect Ratio : *%d*
+Max Textures : %d Max Stages : %d
+ALPHA %s CUBEMAP %s MIPCUBEMAP %s SQUAREONLY %s
+m_SupportsVertexShaders (1.1): %s
+m_SupportsVertexShaders_2_0: %s
+m_SupportsPixelShaders (1.1): %s
+m_SupportsPixelShaders_1_4: %s
+m_SupportsPixelShaders_2_0: %s
+m_SupportsPixelShaders_2_b: %s
+m_SupportsShaderModel_3_0: %s
+m_SupportsCompressedTextures: COMPRESSED_TEXTURES_ON
+m_SupportsCompressedTextures: COMPRESSED_TEXTURES_NOT_INITIALIZED
+m_SupportsCompressedVertices: %d
+m_bSupportsAnisotropicFiltering: %s
+m_ZBiasAndSlopeScaledDepthBiasSupported: %s
+m_NumPixelShaderConstants: %d
+m_NumVertexShaderConstants: %d
+m_NumBooleanVertexShaderConstants: %d
+m_NumIntegerVertexShaderConstants: %d
+m_SupportsHardwareLighting: %s
+m_MaxVertexShaderBlendMatrices: %d
+m_SupportsMipmappedCubemaps: %s
+m_SupportsNonPow2Textures: %s
+m_bDisableShaderOptimizations: %s
+m_MaxSimultaneousRenderTargets: %d
+video driver has crashed and been reset, re-uploading resources now
+Failed to create %s device!
+Error 0x%X.
+Please see the following for more info.
+http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=772
+mat_debugalttab: CShaderAPIDX8::AllocFrameSyncObjects
+D3DQUERYTYPE_EVENT not available on this driver
+mat_debugalttab: CShaderAPIDX8::FreeFrameSyncObjects
+/data/src/materialsystem/shaderapidx9/shaderdevicedx8.cpp
+Forcefully resetting device (%s), resources release level was %d.
+ReacquireResources has no effect, now at level %d.
+ReacquireResources being discarded is a bug: use IsDeactivated to check for a valid device.
+ResizeWindow: Reset failed, hr = 0x%08X.
+ReleaseResources has no effect, now at level %d.
+ReleaseResources called twice is a bug: use IsDeactivated to check for a valid device.
+mat_slopescaledepthbias_shadowmap
+19CShaderDeviceMgrDx8
+16CShaderDeviceDx8
+ATOC
+?AlphaFunc: invalid param
+PolyMode: invalid poly mode
+DepthFunc: invalid param
+BlendFunc: invalid factor
+BlendOp: invalid op
+Attempting to bind a texture to an invalid sampler (%d)!
+ERROR: shader asking for a too-narrow vertex format - you will see errors if running with debug D3D DLLs!
+	Padding the vertex format with extra texcoords
+	Will not warn again.
+Attempting set SRGBRead state on an invalid sampler (%d)!
+Attempting set shadow filtering state on an invalid sampler (%d)!
+13IShaderShadow
+16IShaderShadowDX8
+16CShaderShadowDX8
+333?
+BlitVolumeBits: couldn't lock volume texture rect
+BlitVolumeBits: couldn't unlock volume texture rect
+/data/src/materialsystem/shaderapidx9/texturedx8.cpp
+CShaderAPIDX8::BlitTextureBits: couldn't lock texture rect or use UpdateSurface
+CShaderAPIDX8::BlitTextureBits: couldn't lock texture rect
+CShaderAPIDX8::BlitTextureBits: couldn't unlock texture rect
+ShaderAPIDX8::CreateD3DTexture: Invalid color format!
+ShaderAPIDX8::CreateD3DTexture: Null device used. Texture not created.
+ShaderAPIDX8::CreateD3DTexture: D3DERR_INVALIDCALL
+ShaderAPIDX8::CreateD3DTexture: D3DERR_OUTOFVIDEOMEMORY
+ShaderAPIDX8::CreateD3DTexture: E_OUTOFMEMORY
+CPixelWriter::SetPixelMemory:  Unsupported image format %i
+LoadVolumeTextureFromVTF: couldn't get texture level description
+LoadVolumeTextureFromVTF: VTF dimensions do not match texture
+LoadVolumeTextureFromVTF: failed to create temporary staging texture
+LoadVolumeTextureFromVTF: volume UpdateTexture failed
+LoadCubeTextureFromVTF: couldn't get texture level description
+LoadCubeTextureFromVTF: VTF dimensions do not match texture
+LoadCubeTextureFromVTF: failed to create temporary staging texture
+LoadCubeTextureFromVTF: cube UpdateTexture failed
+LoadTextureFromVTF: couldn't get texture level description
+LoadTextureFromVTF: VTF dimensions do not match texture
+LoadTextureFromVTF: failed to create temporary staging texture
+LoadTextureFromVTF: UpdateTexture failed
+LoadTextureFromVTF: couldn't get surface level %d for system surface
+LoadTextureFromVTF: couldn't get surface level %d for dest surface
+LoadTextureFromVTF: surface update failed.
+BlitSurfaceBits
+%s - D3DLockRect
+%s - ConvertImageFormat
+%s - UnlockRect
+%s - pTextureLevel->Release
+D3DLockTexture
+UnlockTexture
+LoadTextureFromVTF
+%s - GetLevelDesc
+%s - CreateSysmemTexture
+%s - BlitTextureBits
+%s - BlitTextureBits - %d
+%s - UpdateTexture
+%s - UpdateSurface
+%s - UpdateSurface - %d
+%s - UpdateSurface - Call 
+%s - Cleanup
+11IRefCounted
+20CRefCountServiceBaseILb1E6CRefMTE
+8CFunctor
+12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
+9CFunctor1IPFvP21IDirect3DBaseTexture9ES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
+/data/src/materialsystem/shaderapidx9/TransitionTable.cpp
+CTransitionTable::FindIdenticalTransitionList
+CTransitionTable::ApplyTransitionList
+CTransitionTable::ApplyShaderState
+CTransitionTable::PerformShadowStateOverrides
+CTransitionTable::ApplyTransition
+CTransitionTable::UseDefaultState
+**** WARNING: Transition table overflow. Grab Brian
+CTransitionTable::UseSnapshot
+/data/src/public/tier1/UtlSortVector.h
+Assertion Failed: !m_bNeedsSort
+16CTransitionTable
+ERROR
+D3DDECLUSAGE_POSITION
+D3DDECLUSAGE_BLENDINDICES
+D3DDECLUSAGE_NORMAL
+D3DDECLUSAGE_PSIZE
+D3DDECLUSAGE_COLOR
+D3DDECLUSAGE_TEXCOORD
+D3DDECLUSAGE_TANGENT
+D3DDECLUSAGE_BINORMAL
+D3DDECLUSAGE_TESSFACTOR
+D3DDECLUSAGE_BLENDWEIGHT
+D3DDECLMETHOD_DEFAULT
+D3DDECLMETHOD_PARTIALV
+D3DDECLMETHOD_CROSSUV
+D3DDECLMETHOD_UV
+D3DDECLMETHOD_LOOKUP
+D3DDECLMETHOD_PARTIALU
+D3DDECLTYPE_FLOAT1
+D3DDECLTYPE_FLOAT3
+D3DDECLTYPE_FLOAT4
+D3DDECLTYPE_D3DCOLOR
+D3DDECLTYPE_UBYTE4
+D3DDECLTYPE_SHORT2
+D3DDECLTYPE_SHORT4
+D3DDECLTYPE_UBYTE4N
+D3DDECLTYPE_SHORT2N
+D3DDECLTYPE_SHORT4N
+D3DDECLTYPE_USHORT2N
+D3DDECLTYPE_USHORT4N
+D3DDECLTYPE_UDEC3
+D3DDECLTYPE_DEC3N
+D3DDECLTYPE_FLOAT16_2
+D3DDECLTYPE_FLOAT16_4
+D3DDECLTYPE_FLOAT2
+D3DDECL_END
+CUtlRBTree overflow!
+D3DDECLMETHOD_LOOKUPPRESAMPLED
+%d: Stream: %d, Offset: %d, Type: %s, Method: %s, Usage: %s, UsageIndex: %d
+ ERROR: failed to create vertex decl for vertex format 0x%08llX! You'll probably see messed-up mesh rendering - to diagnose, build shaderapidx9.dll in debug.
+Num Pixel Shaders = %d Vertex Shaders=%d
+!!!!!Using invalid shader combo!!!!!  Consult a programmer and tell them to build debug materialsystem.dll and stdshader*.dll.  Run with "mat_bufferprimitives 0" and look for CMaterial in the call stack and see what m_pDebugName is.  You are likely using a shader combo that has been skipped.
+Shader %s is the wrong version %d, expecting %d
+Total Combos:%9d Static:%9d Dynamic:%7d SeekTable:%7d Ver:%d '%s'
+vsh 0x%8.8x: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
+psh 0x%8.8x: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
+Total unique vertex shaders: %d
+Total unique pixel shaders: %d
+ unrecognized shader compression type = file corrupt?
+Shader '%s' - All dynamic combos skipped. This is bad!
+Shader '%s' - Couldn't load combo %d of shader (dyn=%d)
+Print all vertex and pixel shaders currently loaded to the console
+display count of all shaders and reset that count
+-r_emulate_gl
+-shadersondemand
+%s_%d_%d.%s
+DEFAULT_WRITE_PATH
+Shader File Cache:
+Total vertex shader sets: %d
+Total pixel shader sets: %d
+failed to create shader
+vertex
+pixel
+shaders\%s\%s.vcs
+shaders\fxc\%s.vcs
+Couldn't load %s shader %s
+127.0.0.1
+mat_remoteshadercompile
+mat_force_ps_patch
+mat_disable_ps_patch
+mat_spewvertexandpixelshaders
+mat_shadercount
+13IShaderBuffer
+14IShaderManager
+13CShaderBufferI11ID3DXBufferE
+14CShaderManager
+/proc/meminfo
+MemTotal:
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+- game
+ client
+ archive
+ notify
+ singleplayer
+ notconnected
+ cheat
+ replicated
+ server_can_execute
+ clientcmd_can_execute
+FCVAR_NEVER_AS_STRING
+ ( def. "%s" )
+ min. %f
+ max. %f
+"%s"
+ - %s
+"%s" = "%s"
+%s %f
+%s %d
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
+ConVarRef %s doesn't point to an existing ConVar
+** NOTE: The real value is %.3f but the server has temporarily restricted it to %.3f **
+7IConVar
+14ConCommandBase
+10ConCommand
+6ConVar
+20ConVar_ServerBounded
+16CDefaultAccessor
+12CEmptyConVar
+>DLOPEN Error:%s
+No such file
+image not found
+bin/linux64
+%s/%s
+%s/bin/linux64/%s
+CreateInterface
+ failed to dlopen %s error=%s
+16CDllDemandLoader
+ ReadToken overflow
+%s, 
+(*%s*), 
+<< NULL >>
+developer
+"		"
+0x%016llX
+$X360
+$WIN32
+$WINDOWS
+$OSX
+$LINUX
+$POSIX
+%f %f %f %f
+%lld
+int( %d = 0x%X )
+float( %f )
+ptr( 0x%p )
+%ls [wstring, len = %d]
+u64( %lld = 0x%llX )
+g_KVMutex
+/data/src/tier1/KeyValues.cpp
+#include
+#include is NULL 
+#base
+#base is NULL 
+LoadFromBuffer: missing {
+LoadFromFile
+%s( %s )
+KeyValues Error: %s in file %s
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+RecursiveLoadFromBuffer:  recursion overflow
+RecursiveLoadFromBuffer:  got EOF instead of keyname
+RecursiveLoadFromBuffer:  got empty keyname
+RecursiveLoadFromBuffer:  got NULL key
+RecursiveLoadFromBuffer:  got } in key
+RecursiveLoadFromBuffer:  got conditional between key and value
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::LoadFromBuffer(%s%s%s): Begin
+KeyValues::LoadFromBuffer(%s%s%s): End
+KeyValues::LoadFromFile(%s%s%s): Begin
+KeyValues::LoadFromFile(%s%s%s): End / FileNotFound
+KeyValues::LoadFromFile(%s%s%s): End / Success
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+m_mutex
+21IKeyValuesDumpContext
+27IKeyValuesDumpContextAsText
+29CKeyValuesDumpContextAsDevMsg
+LZMA Decompression failed (%i)
+LZMA stream: Unexpected LZMA properties size: %hu, expecting %u. Version mismatch?
+If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
+Unrecognized LZMA data
+lzma_persistent_buffer
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
+0123456789ABCDEF
+ bytes
+%i%s
+%%.%if%s
+,%03d
+UCS-2LE
+UCS-4LE
+UTF-32LE
+UTF-8
+%02x
+%A %b %d
+%I:%M 
+p.m.
+a.m.
+[url=
+steam://openurl/
+steam://openurl_external/
+ << 
+ >> 
+%s %s %s %s
+<!--
+</script>
+script
+<li>
+[/b]
+</b>
+[/i]
+</i>
+[/u]
+</u>
+[/s]
+</s>
+[code]
+<pre>
+[/code]
+</pre>
+[h1]
+<h1>
+[/h1]
+</h1>
+[list]
+<ul>
+[/list]
+</ul>
+[/url]
+</a>
+[img]
+<img src="
+[/img]
+"></img>
+&quot;
+&apos;
+&amp;
+&lt;
+&gt;
+&nbsp;
+&trade;
+&copy;
+&reg;
+&ndash;
+&mdash;
+&euro;
+&iexcl;
+&cent;
+&pound;
+&curren;
+&yen;
+&brvbar;
+&sect;
+&uml;
+&ordf;
+&laquo;
+&not;
+&shy;
+&macr;
+&deg;
+&plusmn;
+&sup2;
+&sup3;
+&acute;
+&micro;
+&para;
+&middot;
+&cedil;
+&sup1;
+&ordm;
+&raquo;
+&frac14;
+&frac12;
+&frac34;
+&iquest;
+&times;
+&divide;
+&Agrave;
+&Aacute;
+&Acirc;
+&Atilde;
+&Auml;
+&Aring;
+&AElig;
+&Ccedil;
+&Egrave;
+&Eacute;
+&Ecirc;
+&Euml;
+&Igrave;
+&Iacute;
+&Icirc;
+&Iuml;
+&ETH;
+&Ntilde;
+&Ograve;
+&Oacute;
+&Ocirc;
+&Otilde;
+&Ouml;
+&Oslash;
+&Ugrave;
+&Uacute;
+&Ucirc;
+&Uuml;
+&Yacute;
+&THORN;
+&szlig;
+&agrave;
+&aacute;
+&acirc;
+&atilde;
+&auml;
+&aring;
+&aelig;
+&ccedil;
+&egrave;
+&eacute;
+&ecirc;
+&euml;
+&igrave;
+&iacute;
+&icirc;
+&iuml;
+&eth;
+&ntilde;
+&ograve;
+&oacute;
+&ocirc;
+&otilde;
+&ouml;
+&oslash;
+&ugrave;
+&uacute;
+&ucirc;
+&uuml;
+&yacute;
+&thorn;
+&yuml;
+<br>
+&#039;
+V_AppendSlash: ran out of space on %s.
+V_MakeAbsolutePath: tried to ".." past the root.
+V_MakeAbsolutePath: _getcwd failed.
+FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!
+8CFmtStrNILi256ELb0EE
+0123456789abcdef
+><a href=
+VEngineCvar004
+VProcessUtils001
+18CUtlCharConversion
+21CUtlCStringConversion
+19CUtlNoEscConversion
+CUtlLinkedList overflow! (exhausted index range)
+                Could not find required OpenGL entry point '%s'! Either your video card is unsupported, or your OpenGL driver needs to be updated.
+SDL_SetWindowGammaRamp failed: %d
+/data/src/appframework/sdlmgr.cpp
+ ##### swap interval = %d     swap limit = %d #####
+GL_NVX_gpu_memory_info: Failed retrieving available GPU memory
+GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u
+GL_ATI_meminfo: Failed retrieving available GPU memory
+GL_ATI_meminfo: GL_TEXTURE_FREE_MEMORY_ATI: Total Free: %i, Largest Avail: %i, Total Aux: %i, Largest Aux Avail: %i
+Failed to create SDL window: %s
+Failed to create GL context: %s
+SDL_Init(SDL_INIT_VIDEO) failed: %s
+SDL_GL_LoadLibrary(NULL) failed: %s
+m_rawinput
+false
+SetWindowGrab( %s )
+ShowPixels
+-glmdisableclipplanes
+-glmenableclipplanes
+-glmdualshaders
+-glmenabletrustblit
+-glmdisabletrustblit
+-nonqwerty
+UNAVAILABLE
+GL_NVX_gpu_memory_info: %s
+GL_ATI_meminfo: %s
+GL_MAX_SAMPLES_EXT: %i
+gl_blit_halfx
+gl_blit_halfy
+gl_swapdebug
+gl_swaplimit
+gl_swapinterval
+gl_swaplimit_mt
+gl_disable_forced_vsync
+gl_swaptear
+gl_finish
+sdl_double_click_size
+sdl_double_click_time
+sdl_displayindex_fullscreen
+SDL fullscreen display index.
+sdl_displayindex
+grab/ungrab window.
+grab_window
+-vulkan
+-dx9
+glGetString
+glGetIntegerv
+-gl_dump_strings
+GL_RENDERER: %s
+GL_VENDOR: %s
+GL_VERSION: %s
+GL_EXTENSIONS:%s
+-gl_debug
+SDL video target is '%s'
+-nomousegrab
+-mousegrab
+CreateGameWindow failed
+12ILauncherMgr
+12GLMDisplayDB
+7CSDLMgr
+DXT1DXT3DXT5
+DXT1
+INTZRAWZDF16DF24NULLATI2ATI1DXT1DXT5UNKNOWN
+RGBA8888
+ABGR8888
+RGB888
+BGR888
+RGB565
+IA88
+RGB888_BLUESCREEN
+BGR888_BLUESCREEN
+ARGB8888
+BGRA8888
+DXT1
+DXT3
+DXT5
+BGRX8888
+BGR565
+BGRX5551
+BGRA4444
+DXT1_ONEBITALPHA
+BGRA5551
+UV88
+UVWQ8888
+RGBA16161616F
+RGBA16161616
+IMAGE_FORMAT_UVLX8888
+IMAGE_FORMAT_R32F
+IMAGE_FORMAT_RGB323232F
+IMAGE_FORMAT_RGBA32323232F
+NV_DST16
+NV_DST24
+NV_INTZ
+NV_RAWZ
+ATI_DST16
+ATI_DST24
+NV_NULL
+ATI1N
+ATI2N
+DXT1_RUNTIME
+DXT5_RUNTIME
+TGA doesn't match source data.
+????????????????
+%d %d
+-1.000000
+.pfm
+error loading %s
+sub%dx%d.tga
+submrg%dx%d.tga
+?333333
+L=33s?
+Ga=o
+.M;R
+NAUU
+?~?a`
+4fff>fff>fff>fff>
+VFileSystem022
+VMaterialSystem081
+InputSystemVersion001
+NetworkSystemVersion001
+COLORCORRECTION_VERSION_1
+VP4002
+VMDLLIB001
+QueuedLoaderVersion004
+;*3$"
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+zPLR
+. n.
+. u.
+. N.
+. n.
+. t.
+t. a.
+t. g.
+|. M.
+. l.
+.0l.
+. l.
+zPLR
+zPLR
+zPLR
+r""\\
+GCC: (SteamRT 10.3.0-3+steamrt3.1+bsrt3.1) 10.3.0
+shaderapivk.so.dbg
+SDL_DestroyWindow
+SDL_GL_LoadLibrary
+mbstowcs@GLIBC_2.2.5
+__errno_location@GLIBC_2.2.5
+SDL_CreateWindow
+symlink@GLIBC_2.2.5
+SDL_SetWindowPosition
+g_VProfCurrentProfile
+isspace@GLIBC_2.2.5
+stdout@GLIBC_2.2.5
+_ZGVbN4vv_powf@GLIBC_2.22
+SDL_GetNumVideoDisplays
+__ctype_toupper_loc@GLIBC_2.3
+SDL_GL_DeleteContext
+_ZN17CThreadSpinRWLock10UnlockReadEv
+strtoll@GLIBC_2.2.5
+__wrap_mkfifo
+scandir@GLIBC_2.2.5
+__wrap_utimes
+mkfifo@GLIBC_2.2.5
+__ctype_tolower_loc@GLIBC_2.3
+sprintf@GLIBC_2.2.5
+cvar
+_ZNV16CThreadFastMutex4LockEyj
+__wrap_mount
+sin@GLIBC_2.2.5
+strstr@GLIBC_2.2.5
+__wrap_stat
+_edata
+_ZGVbN2v_sin@GLIBC_2.22
+wcsncpy@GLIBC_2.2.5
+rand@GLIBC_2.2.5
+dl_iterate_phdr@GLIBC_2.2.5
+__wrap_symlink
+__wrap_lchown
+_ZN12CThreadEvent3SetEv
+strtoul@GLIBC_2.2.5
+realpath@GLIBC_2.3
+SDL_GetDisplayBounds
+SDL_GL_CreateContext
+__wrap_rmdir
+strchr@GLIBC_2.2.5
+SDL_GL_SetSwapInterval
+wcsncat@GLIBC_2.2.5
+SDL_SetRelativeMouseMode
+SDL_GetWindowSize
+cbrtf@GLIBC_2.2.5
+rmdir@GLIBC_2.2.5
+SDL_RWFromFile
+sincosf@GLIBC_2.2.5
+DWarning
+__cxa_finalize@GLIBC_2.2.5
+strlen@GLIBC_2.2.5
+memcmp@GLIBC_2.2.5
+_SpewInfo
+mkdir@GLIBC_2.2.5
+__wrap_lstat
+_ZN13CThreadRWLock11WaitForReadEv
+unlink@GLIBC_2.2.5
+_ZN17CThreadSyncObjectD2Ev
+__wrap_rename
+g_pMemAlloc
+SDL_SetWindowGrab
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+getcwd@GLIBC_2.2.5
+strncpy@GLIBC_2.2.5
+GetOpenGLEntryPoints
+__wrap_open64
+utime@GLIBC_2.2.5
+memset@GLIBC_2.2.5
+abort@GLIBC_2.2.5
+dlerror@GLIBC_2.2.5
+tan@GLIBC_2.2.5
+SDL_GetCurrentVideoDriver
+SDL_ShowWindow
+readdir64@GLIBC_2.2.5
+__wrap_mknod
+SDL_WasInit
+SDL_PollEvent
+rename@GLIBC_2.2.5
+_ZN10CVProfNode10GetSubNodeEPKciS1_i
+vsnprintf@GLIBC_2.2.5
+__cxa_guard_abort@CXXABI_1.3
+__cxa_guard_release@CXXABI_1.3
+strncat@GLIBC_2.2.5
+HushAsserts
+SDL_GetWindowGrab
+utimes@GLIBC_2.2.5
+_ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3
+__wrap_utime
+dlclose@GLIBC_2.2.5
+SDL_GetError
+_ZN17CThreadSpinRWLock11LockForReadEv
+pthread_mutex_unlock@GLIBC_2.2.5
+SDL_WarpMouseInWindow
+iswspace@GLIBC_2.2.5
+iconv_open@GLIBC_2.2.5
+__wrap_open
+strtod@GLIBC_2.2.5
+CallAssertFailedNotifyFunc
+log@GLIBC_2.29
+_ZN13CThreadRWLock12LockForWriteEv
+__wrap_mkdir
+iconv_close@GLIBC_2.2.5
+strftime@GLIBC_2.2.5
+memcpy@GLIBC_2.14
+wcslen@GLIBC_2.2.5
+atanf@GLIBC_2.2.5
+KeyValuesSystem
+wcstombs@GLIBC_2.2.5
+__wrap___lxstat64
+Direct3DCreate9Ex
+__cxa_atexit@GLIBC_2.2.5
+SDL_Init
+_ZGVbN2vv_pow@GLIBC_2.22
+__wrap_realpath
+towlower@GLIBC_2.2.5
+__wrap_stat64
+SDL_LoadBMP_RW
+chmod@GLIBC_2.2.5
+__wrap___xstat64
+SDL_FreeSurface
+strcpy@GLIBC_2.2.5
+SDL_WaitEventTimeout
+vswprintf@GLIBC_2.2.5
+__isoc99_sscanf@GLIBC_2.7
+fclose@GLIBC_2.2.5
+__xstat@GLIBC_2.2.5
+Plat_GetCommandLineA
+raise@GLIBC_2.2.5
+lchown@GLIBC_2.2.5
+COM_TimestampedLog
+acosf@GLIBC_2.2.5
+freopen@GLIBC_2.2.5
+CommandLine_Tier0
+Plat_GetPagedPoolInfo
+_ZN13CThreadRWLock11UnlockWriteEv
+__ctype_b_loc@GLIBC_2.3
+strcasecmp@GLIBC_2.2.5
+g_ClockSpeedMillisecondsMultiplier
+fopen64@GLIBC_2.2.5
+_ZN10CVProfNode10EnterScopeEv
+__dynamic_cast@CXXABI_1.3
+SDL_SetWindowFullscreen
+__wrap_opendir
+__lxstat64@GLIBC_2.2.5
+g_pVCR
+DevMsg
+SDL_SetWindowIcon
+pthread_mutex_destroy@GLIBC_2.2.5
+fflush@GLIBC_2.2.5
+SDL_QuitSubSystem
+SDL_HideWindow
+fopen@GLIBC_2.2.5
+free@GLIBC_2.2.5
+__wrap_chmod
+SDL_GetKeyName
+getenv@GLIBC_2.2.5
+towupper@GLIBC_2.2.5
+ThreadGetCurrentId
+strncasecmp@GLIBC_2.2.5
+CreateInterface
+__cxa_call_unexpected@CXXABI_1.3
+ShouldUseNewAssertDialog
+_ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3
+Plat_DebugString
+_ExitOnFatalAssert
+malloc@GLIBC_2.2.5
+strtoull@GLIBC_2.2.5
+__xmknod@GLIBC_2.2.5
+stderr@GLIBC_2.2.5
+__wrap_link
+Plat_IsInDebugSession
+atan2f@GLIBC_2.2.5
+_end
+pthread_mutexattr_init@GLIBC_2.2.5
+strcmp@GLIBC_2.2.5
+strtol@GLIBC_2.2.5
+SetAssertDialogParent
+ThreadInMainThread
+__wrap_scandir
+g_Telemetry
+__cxa_throw_bad_array_new_length@CXXABI_1.3.8
+SDL_GL_SwapWindow
+__xstat64@GLIBC_2.2.5
+__wrap_fopen
+fprintf@GLIBC_2.2.5
+SDL_SetCursor
+tolower@GLIBC_2.2.5
+dlopen@GLIBC_2.2.5
+pthread_mutex_lock@GLIBC_2.2.5
+chdir@GLIBC_2.2.5
+pthread_mutex_init@GLIBC_2.2.5
+opendir@GLIBC_2.2.5
+wcstol@GLIBC_2.2.5
+__bss_start
+_Z10DevWarningPKcz
+SDL_GL_GetProcAddress
+powf@GLIBC_2.27
+fgets@GLIBC_2.2.5
+asinf@GLIBC_2.2.5
+DoNewAssertDialog
+SDL_SetWindowGammaRamp
+closedir@GLIBC_2.2.5
+SDL_GetDesktopDisplayMode
+memmove@GLIBC_2.2.5
+pthread_once@GLIBC_2.2.5
+_ZN9CVProfile19FindOrCreateCounterEPKc14CounterGroup_t
+SDL_GL_UnloadLibrary
+__gxx_personality_v0@CXXABI_1.3
+wcstoll@GLIBC_2.2.5
+__pthread_key_create@GLIBC_2.2.5
+expf@GLIBC_2.27
+access@GLIBC_2.2.5
+_Z6ConMsgPKcz
+SDL_SetWindowSize
+ThreadSleep
+SDL_GL_SetAttribute
+__wrap_freopen
+Plat_FloatTime
+__wrap___xstat
+SDL_SetWindowDisplayMode
+pow@GLIBC_2.29
+SDL_SetWindowTitle
+_ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3
+_ITM_deregisterTMCloneTable
+strpbrk@GLIBC_2.2.5
+_ZN12CThreadEventC1Eb
+iconv@GLIBC_2.2.5
+_Z6DevMsgPKcz
+_ZN10CVProfNode9ExitScopeEv
+exp@GLIBC_2.29
+__wrap_chown
+pthread_mutexattr_settype@GLIBC_2.2.5
+__cxa_guard_acquire@CXXABI_1.3
+strdup@GLIBC_2.2.5
+__wrap_unlink
+dlsym@GLIBC_2.2.5
+toupper@GLIBC_2.2.5
+ClearOpenGLEntryPoints
+cos@GLIBC_2.2.5
+GetCPUInformation
+Plat_localtime
+__lxstat@GLIBC_2.2.5
+logf@GLIBC_2.27
+SDL_RaiseWindow
+__wrap___lxstat
+__wrap_fopen64
+mount@GLIBC_2.2.5
+__gmon_start__
+_SpewMessage
+__cxa_pure_virtual@CXXABI_1.3
+Direct3DCreate9
+qsort@GLIBC_2.2.5
+_ITM_registerTMCloneTable
+SDL_GL_MakeCurrent
+strcasestr@GLIBC_2.2.5
+SDL_ShowCursor
+_Z11ConColorMsgRK5ColorPKcz
+_ZN17CThreadSpinRWLock11UnlockWriteEv
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.comment
+.gnu_debuglink
