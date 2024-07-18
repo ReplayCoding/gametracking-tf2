@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOORTILE001_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_atom_smash/c788_-588_-256"
+	}
+}

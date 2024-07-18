@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_atom_smash/doomsday_device"
+	"$bumpmap" "models/props_atom_smash/doomsday_device_normal"
+	"$envmapcontrast" "0"
+//	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.45 .33 .12]"
+//	"$normalmapalphaenvmapmask" "1"
+
+	"$phongexponenttexture"	"models/props_atom_smash/doomsday_device_exponent"
+	"$phong"		"1"
+	"$phongexponent"		"11"
+	"$phongboost"		"10"
+//	"$phongalbedotint"		"1"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 6]"
+	"$phongtint"  "[.45 .33 .12]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "11"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "20"										// Boost for ambient cube component of rim lighting
+
+	"$selfillum" "1"
+	"$selfillummask" "models/props_atom_smash/doomsday_mask"
+//	"$selfillummask" "models/props_atom_smash/doomsday_mask2"
+
+}

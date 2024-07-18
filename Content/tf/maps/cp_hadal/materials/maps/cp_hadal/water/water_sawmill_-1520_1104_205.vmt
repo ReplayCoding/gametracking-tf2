@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_hadal/c-1520_1104_205"
+		"Proxies"
+		{
+		}
+	}
+}

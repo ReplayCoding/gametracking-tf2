@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c-1780_2659_-656"
+	}
+}

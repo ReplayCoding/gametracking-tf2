@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_embargo/embargo_papercars"
+	"$translucent" 1
+	"$alphatest" 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.2
+			"texturescrollangle" 0
+		}
+	}
+}

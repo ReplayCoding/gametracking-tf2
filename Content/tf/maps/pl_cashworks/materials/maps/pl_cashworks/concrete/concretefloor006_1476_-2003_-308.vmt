@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR006.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c1476_-2003_-308"
+	}
+}

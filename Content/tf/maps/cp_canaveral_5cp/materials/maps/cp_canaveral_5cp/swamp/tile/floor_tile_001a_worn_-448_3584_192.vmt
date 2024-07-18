@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SWAMP/TILE/FLOOR_TILE_001A_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-448_3584_192"
+	}
+}

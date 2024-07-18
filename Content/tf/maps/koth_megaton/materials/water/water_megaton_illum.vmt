@@ -1,0 +1,129 @@
+"Water"
+{
+	<dx90
+	{
+		 	"$fallbackmaterial" "water/water_island_cheap"
+	}
+	"%keywords" "tf"
+//	$forcecheap 1
+
+//	"$basetexture" "water/megaton_water_mask"
+	
+	"%tooltexture" "dev/tfwater_normal"
+	"%compilewater" 1
+	"$abovewater" 1
+//	"$nofresnel" "1"
+
+	"$envmap" "env_cubemap"	
+	"$refracttexture" "_rt_WaterRefraction"
+
+	"$refractamount" ".15"
+
+//	"$refracttint" "{184 191 208}"
+//	"$refracttint" "{134 220 238}"
+//	"$refracttint" "{144 255 240}"
+	"$refracttint" "{38 193 224}"
+//	"$refractblur" "1"
+
+//	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "1"
+	"$reflecttint" "{144 255 240}" //TEAL
+//	"$reflecttint" "{68 100 130}" //DARK BLUE
+//	"$reflecttint" "{33 51 61}" //DARK BLUE2
+//	"$reflecttint" "{199 255 248}"
+
+//	"$reflecttint" "{38 193 224}"
+//	"$reflectsaturation" "[0 0 1]"
+//	"$forceenvmap" 1
+
+	"$scale" "[1 1]"
+
+//	"$bumpmap" "water/dx80_tfwater001_dudv"
+//	"$bumpmap" "water/scrolling_water01_normal"
+	"$normalmap" "water/scrolling_water01_normal"
+//	"$normalmap" "water/tfwater001_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "water/water_megaton_beneath.vmt"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{68 100 130}" //DARK BLUE
+//	"$fogcolor" "{144 255 240}" //TEAL
+//	"$fogcolor" "{125 193 209}" //TEAL2
+//	"$fogcolor" "{102 150 192}"
+	"$fogstart" "-100"
+	"$fogend" "400"
+
+	 "$temp" "[0 0]"
+	 "$curr" 0.0
+	 "$curr2" 0.0
+
+	"$scroll1" "[.01 .01 .05]"
+	"$scroll2" "[-.025 .025 .075]"
+
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+//		"Sine"
+//		{
+//			"sineperiod" "24"
+//			"sinemin" -0.5
+//			"sinemax" 0.5
+//			"resultVar" "$curr"
+//		}
+//		"Sine"
+//		{
+//			"sineperiod" "16"
+//			"sinemin" 0.5
+//			"sinemax" -0.5
+//			"resultVar" "$curr2"
+//		}
+//
+//		"Equals"
+//		{
+//			"srcVar1" "$curr2"
+//			"resultVar" "$temp[0]"
+//		}
+//		"Equals"
+//		{
+//			"srcVar1" "$curr"
+//			"resultVar" "$temp[1]"
+//		}
+//
+
+		"TextureTransform"
+		{
+			"translateVar" "$normalmap"
+			"resultVar" "$bumptransform"
+		}  
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 90
+		}
+
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$basetexturetransform"
+//			"texturescrollrate" -0.04
+//			"texturescrollangle" 90
+//		}
+
+		"WaterLOD"
+		{
+			// fixme!  This has to be here, or material loading barfs.
+			"dummy" 0
+		}
+	}
+}

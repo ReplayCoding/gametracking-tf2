@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SALVADOR_1.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c661_178_28"
+		"Proxies"
+		{
+		}
+	}
+}

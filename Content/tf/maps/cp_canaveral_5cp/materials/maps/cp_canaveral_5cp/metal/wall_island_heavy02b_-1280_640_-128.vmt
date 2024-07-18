@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/WALL_ISLAND_HEAVY02B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-1280_640_-128"
+	}
+}

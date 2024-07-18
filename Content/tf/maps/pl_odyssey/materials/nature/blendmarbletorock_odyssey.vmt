@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+	"$basetexture" "Nature/marble_wall_01"
+	"$bumpmap" "Nature/marble_wall_01_bump"
+
+	$surfaceprop wall
+	$ssbump 1
+
+	$basetexture2 "nature/marble_rock_01"
+	"$bumpmap2" "Nature/rockwall003_height-ssbump"
+	$surfaceprop2 rock
+
+	$blendmodulatetexture "nature/rockwall003_blendmask"
+}

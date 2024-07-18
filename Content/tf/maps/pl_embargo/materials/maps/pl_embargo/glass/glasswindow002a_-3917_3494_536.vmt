@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-3917_3494_536"
+	}
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture	"models/props_embargo/embargo_metalshelf"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".3"	
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$basemapalphaphongmask" "1"
+}

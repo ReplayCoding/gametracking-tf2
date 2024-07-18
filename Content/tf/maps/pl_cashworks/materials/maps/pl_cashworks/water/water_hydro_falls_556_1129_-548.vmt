@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_FALLS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c556_1129_-548"
+		"Proxies"
+		{
+		}
+	}
+}

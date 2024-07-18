@@ -1,0 +1,119 @@
+"Atom_VO.Start"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_round_start_01.mp3"
+        "wave"    "vo/atom_smash/scientist_round_start_02.mp3"
+        "wave"    "vo/atom_smash/scientist_round_start_03.mp3"
+        "wave"    "vo/atom_smash/scientist_round_start_04.mp3"
+    }
+}
+
+"Atom_VO.Shield_Down"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_shield_down_01.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_down_02.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_down_03b.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_down_04.mp3"
+    }
+}
+
+"Atom_VO.Shield_Up"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_shield_up_01.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_up_02b.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_up_03.mp3"
+        "wave"    "vo/atom_smash/scientist_shield_up_04b.mp3"
+    }
+}
+
+"Atom_VO.Countdown"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"    "vo/atom_smash/scientist_finale_buildup_b.mp3"
+}
+
+"Atom_VO.Win"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_finale_pos_01.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_pos_02.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_pos_03a.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_pos_03b.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_pos_04b.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_pos_04c.mp3"
+    }
+}
+
+"Atom_VO.Lose"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_finale_neg_01a.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_01b.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_02a.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_02b.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_03.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_04a.mp3"
+        "wave"    "vo/atom_smash/scientist_finale_neg_04b.mp3"
+    }
+}
+
+"Atom_VO.Idle"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        ".6"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/atom_smash/scientist_idle_01.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_02.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_03.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_04.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_05.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_06.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_07.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_08.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_09.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_10.mp3"
+        "wave"    "vo/atom_smash/scientist_idle_11.mp3"
+
+    }
+}

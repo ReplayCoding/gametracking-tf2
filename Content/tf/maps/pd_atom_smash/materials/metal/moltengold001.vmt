@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"%keywords" "tf"
+	"$basetexture" "metal/gold_solid"
+	//"$baseTexture" "models\props_halloween/unlit_black"
+	"$bumpmap" "moon\mercury\mercury1_normal"
+	"$bumpframe" "0"
+	"$envmapcontrast" "0"
+//	"$envmap" "cubemaps/cubemap_shapes002"
+	"$envmap" "cubemaps/cubemap_gold001"
+	"$envmaptint" "[1 .74 .3]"
+	"$selfillum" 1
+//	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "90"
+	"$phongboost" "5"
+	"$phongfresnelranges"	"[.2 1 4]"
+	"$phongtint" "[1 .74 .3]"
+	
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-1408_-1792_-64"
+	}
+}

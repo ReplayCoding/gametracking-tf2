@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR006.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-1152_-1408_-128"
+	}
+}

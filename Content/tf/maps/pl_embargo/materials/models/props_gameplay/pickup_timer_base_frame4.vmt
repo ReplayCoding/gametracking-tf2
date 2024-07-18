@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_gameplay/pickup_timer_base_frame4"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongwarptexture "models/props_gameplay/cap_specular"
+	$phongexponent 5
+}

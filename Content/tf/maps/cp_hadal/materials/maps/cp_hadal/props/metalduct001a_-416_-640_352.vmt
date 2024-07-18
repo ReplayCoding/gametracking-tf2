@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PROPS/METALDUCT001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_hadal/c-416_-640_352"
+	}
+}

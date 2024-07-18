@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_hadal/hadal/water_hadal_1728_-704_288.vmt"
+	"insert"
+	{
+		"$waterdepth"		"56"
+	}
+}

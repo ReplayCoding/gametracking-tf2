@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c-359_-12_-321"
+	}
+}

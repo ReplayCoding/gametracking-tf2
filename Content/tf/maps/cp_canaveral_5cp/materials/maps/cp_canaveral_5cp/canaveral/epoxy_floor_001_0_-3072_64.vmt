@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CANAVERAL/EPOXY_FLOOR_001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c0_-3072_64"
+	}
+}

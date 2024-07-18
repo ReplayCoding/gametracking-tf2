@@ -1,0 +1,23 @@
+"LightMappedGeneric"
+{
+	"%keywords" "tf"
+	"%tooltexture" "canaveral/water_ocean_shallow"
+	"$envmap" "env_cubemap"
+	"$fresnelreflection" "1"
+	"$envmaptint" "[ 1 1 1 ]"
+	"$envmapcontrast" "0"
+	"$envmapsaturation" "1"
+	"$bumpmap" "canaveral/water_ocean_normal"
+	"$bumpframe" "0"
+	"$surfaceprop" "water"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+	}
+}

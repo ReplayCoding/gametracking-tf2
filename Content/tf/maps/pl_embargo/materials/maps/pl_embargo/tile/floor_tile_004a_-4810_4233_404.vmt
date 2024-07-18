@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-4810_4233_404"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_applejack/water/water_2fort_904_-1080_368.vmt"
+	"insert"
+	{
+		"$waterdepth"		"24"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDISLANDSANDWAVES001B_WET.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_megaton/c-2172_2444_0"
+	}
+}

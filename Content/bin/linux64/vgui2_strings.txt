@@ -1,4 +1,3 @@
-eyx-)
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -759,7 +758,6 @@ ATSH
 CT u
 [A\]
 G(D9
-x+A9
 ATSD
 [A\]
 AUATI
@@ -1043,8 +1041,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95~
-D95U
+D95n
+D95E
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1214,9 +1212,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%0
-D9%H
-D9%(
+D9% 
+D9%8
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1396,7 +1393,7 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%O
+Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
@@ -1620,8 +1617,10 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5}=
+o5]=
+o-{=
 0[A\]
+o-r6
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -2255,7 +2254,7 @@ bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
 Unable to find %s. Solutions:
-1. Read http://www.valve-erc.com/srcsdk/faq.html#NoGameDir
+1. Read https://developer.valvesoftware.com/wiki/Gameinfo.txt
 2. Run vconfig to specify which game you're working on.
 3. Add -game <path> on the command line where <path> is the directory that %s is in.
 Warning: falling back to auto detection of vproject directory.

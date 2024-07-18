@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW005A_ENV.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_megaton/c2408_-2184_0"
+	}
+}

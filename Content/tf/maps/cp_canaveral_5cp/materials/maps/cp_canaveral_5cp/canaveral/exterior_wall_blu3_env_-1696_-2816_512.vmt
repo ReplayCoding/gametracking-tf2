@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CANAVERAL/EXTERIOR_WALL_BLU3_ENV.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-1696_-2816_512"
+	}
+}

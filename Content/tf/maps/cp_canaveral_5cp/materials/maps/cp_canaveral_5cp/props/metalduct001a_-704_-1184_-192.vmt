@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PROPS/METALDUCT001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-704_-1184_-192"
+	}
+}

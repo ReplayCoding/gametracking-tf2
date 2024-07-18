@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A_90.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-384_3584_-64"
+	}
+}

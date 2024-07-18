@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+	$basetexture "greek/greek_ground03b"
+
+	$surfaceprop Concrete
+
+
+	$basetexture2 "nature/grass_07"
+	$bumpmap2 "greek/greek_wall01_mossy_ssbump"
+	$surfaceprop2 Dirt
+
+	$blendmodulatetexture "greek/greek_ground03b_grass_blendmodulate"
+
+	%tooltexture "greek/greek_ground03b"
+	%keywords "tf, greek, greece, hades"
+}

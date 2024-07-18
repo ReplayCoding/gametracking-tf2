@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CANAVERAL/WATER_OCEAN2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c-2432_896_-128"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/applejack/applejack_chicken3"
+	"$bumpmap"              	"models/applejack/applejack_chicken_normal"
+	"$phongexponenttexture"	"models/applejack/applejack_chicken_exp"
+
+	"$lightwarptexture"     "models/player/pyro/pyro_lightwarp"
+
+	"$phong"                "1"
+	"$phongexponent"        "25"
+	"$phongboost"           "1.5"
+	"$phongfresnelranges"   "[.25 .5 1]"
+
+	"$rimlight"             "1"     // To enable rim lighting (requires phong)
+	"$rimlightexponent"     "4"     // Exponent for phong component of rim 
+	"$rimlightboost"        "2"     // Boost for ambient cube component of rim lighting
+	"$rimmask"				"1"
+
+}

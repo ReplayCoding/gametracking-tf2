@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_odyssey/c-1600_3864_-896"
+	}
+}

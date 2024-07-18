@@ -1,0 +1,44 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/cp_hadal/seaweed_base"
+	"$surfaceprop" "nodecal"
+	"$translucent" "1"
+	"$alphatest" "1"
+
+	"$treesway" "1"
+	
+	"$treeswayspeed" "1"
+	"$treeswaystrength" "3"
+
+	"$treeswayscrumblespeed" "1"
+	"$treeswayscrumblestrength" "0.5"
+
+	"$treeswaystatic" "1"
+
+	"$treeswayheight" "10"
+	"$treeswaystartheight" "0.1"	
+	"$treeswayradius" "60"
+
+	"$texoffset" "[0 0]"
+	
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.4
+			"texturescrollangle" 90
+		}
+		"LinearRamp"
+		{
+			"initialValue" 0
+			"rate" 4
+			"resultVar"	"$texoffset[1]"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$texoffset"
+			"resultVar" "$bumptransform"
+		}
+	}
+}

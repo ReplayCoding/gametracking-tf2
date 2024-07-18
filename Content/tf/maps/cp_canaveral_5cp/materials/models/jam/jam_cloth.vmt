@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jam/jam_cloth_diffuse"
+	"$nocull" 1
+	$phong 1
+	$surfaceprop "glassbottle"
+	$bumpmap "models/jam/jam_cloth_normal"
+	$phongexponent			5			// either/or
+	$phongboost				1.0
+	$phongfresnelranges		"[1 1 1]"
+}

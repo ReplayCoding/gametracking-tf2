@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+	"$basetexture" "Nature/rockwall016a"
+	"$bumpmap" "Nature/rockwall003_height-ssbump"
+	$surfaceprop rock
+	$ssbump 1
+
+	$basetexture2 "nature/ground_05"
+
+	$surfaceprop2 dirt
+
+	$blendmodulatetexture "nature/rockwall003_blendmask"
+}

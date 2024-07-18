@@ -1,0 +1,32 @@
+"UnLitTwoTexture"
+{
+	"$basetexture" "pd_salvador/nature/scroll_clouds_1"
+	"$texture2" "pd_salvador/nature/scroll_clouds_cloudalpha_1"
+	"$additive" "1"
+	"$nocull" "0"
+	"$color" "[2 2 2]"
+	"$nofog" "1"
+
+	"$scale" "[6 6]"
+	"$scroll" "[1 0]"
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"resultVar" "$scroll[0]"
+			"rate" 0
+		}
+		"LinearRamp"
+		{
+			"resultVar" "$scroll[1]"
+			"rate" .015
+		}
+		"TextureTransform"
+		{
+			"scaleVar"	"$scale"
+			"translateVar"	"$scroll"
+			"resultVar"	"$basetexturetransform"
+		}
+
+	}
+}

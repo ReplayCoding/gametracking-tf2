@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/WINDOWUNI001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_atom_smash/c904_-480_-64"
+	}
+}

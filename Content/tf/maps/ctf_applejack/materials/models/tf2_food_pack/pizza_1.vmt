@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\tf2_food_pack\pizza_1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+
+}

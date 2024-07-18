@@ -20877,8 +20877,8 @@ Revision: 14
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "8040"
-"OnMultiNewRound" "tf_gamerulesSetBlueTeamGoalStringPush your Hacksaw into the enemy computer to hack the rocket!0-1"
-"OnMultiNewRound" "tf_gamerulesSetRedTeamGoalStringPush your Hacksaw into the enemy computer to hack the rocket!0-1"
+"OnMultiNewRound" "tf_gamerulesSetBlueTeamGoalString#plr_hacksaw_team_goal0-1"
+"OnMultiNewRound" "tf_gamerulesSetRedTeamGoalString#plr_hacksaw_team_goal0-1"
 "OnMultiNewRound" "tf_gamerulesSetBlueTeamRespawnWaveTime60-1"
 "OnMultiNewRound" "tf_gamerulesSetRedTeamRespawnWaveTime60-1"
 }

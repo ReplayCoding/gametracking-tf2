@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_selbyen/c2336_512_448"
+	}
+}

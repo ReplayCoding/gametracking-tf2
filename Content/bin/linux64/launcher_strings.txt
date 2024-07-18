@@ -1143,11 +1143,10 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o%2j
+o%"j
 0[A\]
-o=pc
-o5pc
-o%)c
+o=`c
+o5`c
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1901,7 +1900,7 @@ bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
 Unable to find %s. Solutions:
-1. Read http://www.valve-erc.com/srcsdk/faq.html#NoGameDir
+1. Read https://developer.valvesoftware.com/wiki/Gameinfo.txt
 2. Run vconfig to specify which game you're working on.
 3. Add -game <path> on the command line where <path> is the directory that %s is in.
 Warning: falling back to auto detection of vproject directory.

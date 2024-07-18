@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\tf2_food_pack\bamboo_steamer_tea_pot_tea_cup_mug_generic"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+
+}

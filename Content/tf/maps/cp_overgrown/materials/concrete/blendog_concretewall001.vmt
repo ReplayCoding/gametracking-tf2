@@ -1,0 +1,17 @@
+WorldVertexTransition
+{
+	$basetexture "concrete/og_concretewall001"
+	$bumpmap "brick/brickwall002_height-ssbump"
+	$surfaceprop Concrete
+	$ssbump 1
+
+	$basetexture2 "concrete/og_concretewall001b"
+	$surfaceprop2 Concrete
+
+	$blendmodulatetexture "nature/grass_blendmask"
+
+	$color "[1 0.71 0.37]"
+
+	%tooltexture "concrete/og_concretewall001b"
+	%keywords "tf, og"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/METALDUCT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_applejack/c-1488_-2928_512"
+	}
+}

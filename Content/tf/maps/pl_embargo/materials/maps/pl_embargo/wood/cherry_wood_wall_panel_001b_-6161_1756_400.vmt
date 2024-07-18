@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/CHERRY_WOOD_WALL_PANEL_001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-6161_1756_400"
+	}
+}

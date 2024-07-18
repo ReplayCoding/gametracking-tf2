@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_embargo/water/water_island_dx80_-3824_2736_564.vmt"
+	"insert"
+	{
+		"$waterdepth"		"28"
+	}
+}

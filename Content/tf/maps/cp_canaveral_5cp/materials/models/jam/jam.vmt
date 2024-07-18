@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jam/jam_diffuse"
+	$nodecal "1"
+	$phong 1
+
+	$bumpmap "models/jam/jam_normal"
+	"$phongexponent" "10"
+	$phongboost "2"
+	$phongfresnelranges		"[1 1 1]"
+}

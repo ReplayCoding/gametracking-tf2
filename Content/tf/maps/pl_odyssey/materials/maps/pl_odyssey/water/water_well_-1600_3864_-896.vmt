@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_odyssey/c-1600_3864_-896"
+		"Proxies"
+		{
+		}
+	}
+}

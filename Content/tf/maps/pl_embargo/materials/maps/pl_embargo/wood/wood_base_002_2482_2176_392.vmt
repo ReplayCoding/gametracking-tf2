@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/WOOD_BASE_002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c2482_2176_392"
+	}
+}

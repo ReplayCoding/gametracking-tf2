@@ -1,0 +1,325 @@
+"Atom.InsideGeneric"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideDorms"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"pitch"		"100"
+		"wave"		"ambient\voices\appartments_crowd_loop1.wav"
+	}
+
+}
+
+"Atom.InsideCore"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideServers"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideCoolant"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideCave"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/lair/jungle_underground.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideCaveSmall"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideVats"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+}
+
+"Atom.InsideRed"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient\machines\usetoilet_flush1.wav"
+	}
+
+}
+
+"Atom.InsideBlu"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+
+}

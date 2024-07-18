@@ -1,4 +1,3 @@
-momm
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -423,9 +422,8 @@ $.tgaA
 .tga1
 AWAVAUATSH
 [A\A]A^A_]
-(=wz
 AYAZ
-W%Po
+W%`o
 AYAZE
 PxHc
 HcHHA)
@@ -1491,6 +1489,7 @@ AUE1
 ATE1
 A\D	
 A]A^]
+o%	q
 t%Hc
 [A\]
 ~&Ai
@@ -1521,17 +1520,18 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5?R
-o%<@
-o%]=
+o5/R
+o%,@
+o%M=
+o%{:
+o%w4
 tcf.
-o-<.
-o=t+
+o-,.
+o=d+
 <WH9
-o%#(
-o-t(
+o-d(
 4GI9
-o5b$
+o5R$
 AWAVL
 [A\A]A^A_]
 AWAVL
@@ -1756,8 +1756,6 @@ A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(-*7
-(%*7
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
@@ -1966,11 +1964,10 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-Y-4y
-Y=(y
+Y-$y
 X%NL
 X-"I
-X%mm
+X%]m
 /-s>
 /-B>
 AVAUA
@@ -1980,13 +1977,12 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-Y%(C
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
-W=CD
+W=3D
 [A\A]]
 A\A]]
 A\A]]
@@ -2000,12 +1996,11 @@ AUATI
 [A\]
 [A\]
 tYUH
-~-D-
-~5&-
+~-4-
 ~Z H
 AWAVA
 AUATSH
-o=^&
+o=N&
 [A\A]A^A_]
 ATSL
 [A\]
@@ -2360,7 +2355,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95y
+H95i
 T$(H
 |$ H
 D$(H
@@ -2472,7 +2467,7 @@ bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
 Unable to find %s. Solutions:
-1. Read http://www.valve-erc.com/srcsdk/faq.html#NoGameDir
+1. Read https://developer.valvesoftware.com/wiki/Gameinfo.txt
 2. Run vconfig to specify which game you're working on.
 3. Add -game <path> on the command line where <path> is the directory that %s is in.
 Warning: falling back to auto detection of vproject directory.
@@ -2965,7 +2960,7 @@ VProcessUtils001
 18CUtlCharConversion
 21CUtlCStringConversion
 19CUtlNoEscConversion
-                nv
+                ~v
 ????????????????
 %d %d
 -1.000000
@@ -3097,7 +3092,6 @@ zPLR
 r""\\
 GCC: (SteamRT 10.3.0-3+steamrt3.1+bsrt3.1) 10.3.0
 vtex_dll.so.dbg
-JP]@
 ftell@GLIBC_2.2.5
 mbstowcs@GLIBC_2.2.5
 __errno_location@GLIBC_2.2.5

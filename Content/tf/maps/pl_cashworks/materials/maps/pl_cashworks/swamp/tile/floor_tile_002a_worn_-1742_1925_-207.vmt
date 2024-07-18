@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SWAMP/TILE/FLOOR_TILE_002A_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_cashworks/c-1742_1925_-207"
+	}
+}

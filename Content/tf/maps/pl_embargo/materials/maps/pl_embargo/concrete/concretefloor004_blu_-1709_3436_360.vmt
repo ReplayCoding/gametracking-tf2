@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR004_BLU.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-1709_3436_360"
+	}
+}

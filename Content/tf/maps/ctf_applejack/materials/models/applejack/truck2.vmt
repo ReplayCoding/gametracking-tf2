@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/applejack/truck2"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	"$detail" "overlays/detail002"
+	"$detailscale" "1.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

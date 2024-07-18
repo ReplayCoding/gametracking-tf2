@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ISLAND_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-3824_2736_564"
+		"Proxies"
+		{
+		}
+	}
+}

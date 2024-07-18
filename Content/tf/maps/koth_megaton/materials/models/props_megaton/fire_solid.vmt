@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_megaton/fire_solid"
+	//"$phong" "1"
+	//"$phongexponent" "15"
+	//"$phongboost" ".25"
+	//$phongfresnelranges	"[0 0.5 1]"
+	//"$rimlight" "1"
+	//$rimlightexponent       10
+	//$rimlightboost          40
+	$nocull 1
+}

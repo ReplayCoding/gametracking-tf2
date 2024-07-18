@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_greek/ceiling_fan01"
+
+
+	"$basemapalphaphongmask" "1"
+
+
+	
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "2"
+	"$phongfresnelranges" "[.6 2 2]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+	"$rimmask" "1"
+}

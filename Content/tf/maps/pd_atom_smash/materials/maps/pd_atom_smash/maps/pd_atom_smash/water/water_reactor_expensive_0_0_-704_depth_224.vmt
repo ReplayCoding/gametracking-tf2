@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_atom_smash/water/water_reactor_expensive_0_0_-704.vmt"
+	"insert"
+	{
+		"$waterdepth"		"224"
+	}
+}

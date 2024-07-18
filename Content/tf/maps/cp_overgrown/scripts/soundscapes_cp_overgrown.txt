@@ -1,0 +1,777 @@
+"Overgrown.Jungle"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".55"
+		"pitch"		"100"
+		"wave"		"ambient/forest_high_wind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+
+	"playrandom"
+	{	
+		"time"			"12,24"
+		"volume"		"0.1"
+		"pitch"			"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_01.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_02.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_03.mp3"
+		}	
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".35"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"0.35"
+		"pitch"		"90,105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
+		}
+	}
+}
+
+"Overgrown.Sea"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".65"
+		"pitch"		"100"
+		"wave"		"ambient/forest_high_wind.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".45"
+		"pitch"		"100"
+		"wave"		"ambient/waterfalloutside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"ambient/mvm_warehouse/warehouse_harbor.wav"	
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{	
+		"time"			"12,24"
+		"volume"		"0.3"
+		"pitch"			"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_01.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_02.mp3"
+				"wave"		"ambient_mp3/mvm_warehouse/seagull_03.mp3"
+		}	
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".35"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"6,8"
+		"volume"	".75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\water\wave1.wav"
+			"wave"		"ambient\water\wave2.wav"
+			"wave"		"ambient\water\wave3.wav"
+			"wave"		"ambient\water\wave4.wav"
+			"wave"		"ambient\water\wave5.wav"
+			"wave"		"ambient\water\wave6.wav"
+		}
+	}
+}
+
+"Overgrown.Indoors"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".15"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".05"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}
+
+"Overgrown.IndoorsWood"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".85"
+		"pitch"		"100"
+		"wave"		"ambient/desert_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.75"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,25"
+		"volume"	"0.2"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\creak01.wav"
+		"wave"		"ambient\creak02.wav"
+		"wave"		"ambient\creak03.wav"
+
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".15"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".05"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}
+
+"Overgrown.Base"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".05"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+
+}
+
+"Overgrown.BaseNoBeep"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".05"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".05"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+
+}
+
+"Overgrown.Cave"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"lazarus/ambient/shack_belize_birds_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,6"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"
+			"wave"		"ambient/water/distant_drip4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	".25"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_01.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_02.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_03.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_04.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_05.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_06.mp3"
+			"wave"		"ambient_mp3/rottenburg/smallbird_07.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"4,6"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"lazarus/ambient/trop_bird_01.wav"
+			"wave"		"lazarus/ambient/trop_bird_02.wav"
+			"wave"		"lazarus/ambient/trop_bird_03.wav"
+			"wave"		"lazarus/ambient/trop_bird_04.wav"
+			"wave"		"lazarus/ambient/trop_bird_05.wav"
+			"wave"		"lazarus/ambient/trop_bird_06.wav"
+			"wave"		"lazarus/ambient/trop_bird_07.wav"
+			"wave"		"lazarus/ambient/trop_bird_08.wav"
+			"wave"		"lazarus/ambient/trop_bird_09.wav"
+			"wave"		"lazarus/ambient/trop_bird_10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}

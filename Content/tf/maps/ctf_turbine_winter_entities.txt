@@ -3077,8 +3077,8 @@ Revision: 6
 "classname" "color_correction"
 "hammerid" "1202835"
 "OnMultiNewRound" "ctf_gamerulesSetStalemateOnTimelimit10-1"
-"OnMultiNewRound" "ctf_gamerulesSetRedTeamGoalStringSteal the Intelligence Briefcase from the enemy base.0-1"
-"OnMultiNewRound" "ctf_gamerulesSetBlueTeamGoalStringSteal the Intelligence Briefcase from the enemy base.0-1"
+"OnMultiNewRound" "ctf_gamerulesSetRedTeamGoalString#ctf_turbine_winter_team_goal0-1"
+"OnMultiNewRound" "ctf_gamerulesSetBlueTeamGoalString#ctf_turbine_winter_team_goal0-1"
 }
 {
 "origin" "-3284 448 200"
@@ -7189,7 +7189,7 @@ Revision: 6
 {
 "origin" "-2592 -1064 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7201,7 +7201,7 @@ Revision: 6
 "hammerid" "1300885"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -1064 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7219,14 +7219,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1300788"
 }
 {
 "origin" "-2592 -872 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7238,7 +7238,7 @@ Revision: 6
 "hammerid" "1300997"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -872 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7256,14 +7256,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1300900"
 }
 {
 "origin" "-2592 -680 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7275,7 +7275,7 @@ Revision: 6
 "hammerid" "1301109"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -680 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7293,14 +7293,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301012"
 }
 {
 "origin" "-2592 -488 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7312,7 +7312,7 @@ Revision: 6
 "hammerid" "1301221"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -488 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7330,14 +7330,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301124"
 }
 {
 "origin" "-2592 -296 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7349,7 +7349,7 @@ Revision: 6
 "hammerid" "1301333"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -296 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7367,14 +7367,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301236"
 }
 {
 "origin" "-2592 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7386,7 +7386,7 @@ Revision: 6
 "hammerid" "1301445"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7404,14 +7404,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301348"
 }
 {
 "origin" "-2592 88.0003 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7423,7 +7423,7 @@ Revision: 6
 "hammerid" "1301557"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2592 88.0003 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7441,14 +7441,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301460"
 }
 {
 "origin" "-2400 88.0003 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7460,7 +7460,7 @@ Revision: 6
 "hammerid" "1301669"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2400 88.0003 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7478,14 +7478,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301572"
 }
 {
 "origin" "-2208 88.0003 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7497,7 +7497,7 @@ Revision: 6
 "hammerid" "1301781"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2208 88.0003 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7515,14 +7515,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301684"
 }
 {
 "origin" "-2016 88.0003 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7534,7 +7534,7 @@ Revision: 6
 "hammerid" "1301893"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2016 88.0003 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7552,14 +7552,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301796"
 }
 {
 "origin" "-1824 88.0003 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7571,7 +7571,7 @@ Revision: 6
 "hammerid" "1302005"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-1824 88.0003 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7589,14 +7589,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1301908"
 }
 {
 "origin" "-1728 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7608,7 +7608,7 @@ Revision: 6
 "hammerid" "1302117"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-1728 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7626,14 +7626,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302020"
 }
 {
 "origin" "-1536 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7645,7 +7645,7 @@ Revision: 6
 "hammerid" "1302229"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-1536 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7663,14 +7663,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302132"
 }
 {
 "origin" "-1344 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7682,7 +7682,7 @@ Revision: 6
 "hammerid" "1302341"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-1344 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7700,14 +7700,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302244"
 }
 {
 "origin" "-1152 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7719,7 +7719,7 @@ Revision: 6
 "hammerid" "1302453"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-1152 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7737,14 +7737,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302356"
 }
 {
 "origin" "-960 -104 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7756,7 +7756,7 @@ Revision: 6
 "hammerid" "1302565"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-960 -104 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7774,14 +7774,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302468"
 }
 {
 "origin" "-864 88.0002 148"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -7793,7 +7793,7 @@ Revision: 6
 "hammerid" "1302677"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-864 88.0002 114"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -7811,7 +7811,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1302580"
 }
@@ -8399,7 +8399,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -8426,7 +8426,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 -180 0"
+"angles" "-90 180 0"
 "classname" "env_lightglow"
 "hammerid" "1305594"
 }
@@ -8513,14 +8513,14 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1307393"
 }
 {
 "origin" "3328 -800 200"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8541,12 +8541,12 @@ Revision: 6
 "HorizontalGlowSize" "45"
 "HDRColorScale" "1.0"
 "GlowProxySize" "48"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "classname" "env_lightglow"
 "hammerid" "1307798"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "3328 -800 180"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -8558,7 +8558,7 @@ Revision: 6
 {
 "origin" "3328 -352 200"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8579,12 +8579,12 @@ Revision: 6
 "HorizontalGlowSize" "45"
 "HDRColorScale" "1.0"
 "GlowProxySize" "48"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "classname" "env_lightglow"
 "hammerid" "1316369"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "3328 -352 180"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -8621,7 +8621,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1316614"
 }
@@ -8718,7 +8718,7 @@ Revision: 6
 }
 {
 "model" "*54"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -8739,7 +8739,7 @@ Revision: 6
 {
 "origin" "-2880 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8753,7 +8753,7 @@ Revision: 6
 {
 "origin" "-2976 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8767,7 +8767,7 @@ Revision: 6
 {
 "origin" "-3072 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8781,7 +8781,7 @@ Revision: 6
 {
 "origin" "-2880 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8795,7 +8795,7 @@ Revision: 6
 {
 "origin" "-2976 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8809,7 +8809,7 @@ Revision: 6
 {
 "origin" "-3072 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8823,7 +8823,7 @@ Revision: 6
 {
 "origin" "-2880 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8837,7 +8837,7 @@ Revision: 6
 {
 "origin" "-2976 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8851,7 +8851,7 @@ Revision: 6
 {
 "origin" "-3072 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8865,7 +8865,7 @@ Revision: 6
 {
 "origin" "-2880 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8879,7 +8879,7 @@ Revision: 6
 {
 "origin" "-2976 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8893,7 +8893,7 @@ Revision: 6
 {
 "origin" "-3072 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8907,7 +8907,7 @@ Revision: 6
 {
 "origin" "-2880 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8921,7 +8921,7 @@ Revision: 6
 {
 "origin" "-2976 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -8935,7 +8935,7 @@ Revision: 6
 {
 "origin" "-3072 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -9291,7 +9291,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1320274"
 }
@@ -9327,7 +9327,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-63 -180 -90"
+"angles" "-63 180 -90"
 "classname" "env_lightglow"
 "hammerid" "1320458"
 }
@@ -9773,7 +9773,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1332224"
 }
@@ -11282,14 +11282,14 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1353472"
 }
 {
 "origin" "-2880 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11303,7 +11303,7 @@ Revision: 6
 {
 "origin" "-2976 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11317,7 +11317,7 @@ Revision: 6
 {
 "origin" "-3072 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11331,7 +11331,7 @@ Revision: 6
 {
 "origin" "-2880 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11345,7 +11345,7 @@ Revision: 6
 {
 "origin" "-2976 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11359,7 +11359,7 @@ Revision: 6
 {
 "origin" "-3072 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11373,7 +11373,7 @@ Revision: 6
 {
 "origin" "-2880 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11387,7 +11387,7 @@ Revision: 6
 {
 "origin" "-2976 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11401,7 +11401,7 @@ Revision: 6
 {
 "origin" "-3072 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11415,7 +11415,7 @@ Revision: 6
 {
 "origin" "-2880 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11429,7 +11429,7 @@ Revision: 6
 {
 "origin" "-2976 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11443,7 +11443,7 @@ Revision: 6
 {
 "origin" "-3072 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11457,7 +11457,7 @@ Revision: 6
 {
 "origin" "-2880 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11471,7 +11471,7 @@ Revision: 6
 {
 "origin" "-2976 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11485,7 +11485,7 @@ Revision: 6
 {
 "origin" "-3072 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11499,7 +11499,7 @@ Revision: 6
 {
 "origin" "-3392 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11513,7 +11513,7 @@ Revision: 6
 {
 "origin" "-3488 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11527,7 +11527,7 @@ Revision: 6
 {
 "origin" "-3584 -2184 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11541,7 +11541,7 @@ Revision: 6
 {
 "origin" "-3392 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11555,7 +11555,7 @@ Revision: 6
 {
 "origin" "-3488 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11569,7 +11569,7 @@ Revision: 6
 {
 "origin" "-3584 -2088 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11583,7 +11583,7 @@ Revision: 6
 {
 "origin" "-3392 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11597,7 +11597,7 @@ Revision: 6
 {
 "origin" "-3488 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11611,7 +11611,7 @@ Revision: 6
 {
 "origin" "-3584 -1992 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11625,7 +11625,7 @@ Revision: 6
 {
 "origin" "-3392 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11639,7 +11639,7 @@ Revision: 6
 {
 "origin" "-3488 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11653,7 +11653,7 @@ Revision: 6
 {
 "origin" "-3584 -1896 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11667,7 +11667,7 @@ Revision: 6
 {
 "origin" "-3392 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11681,7 +11681,7 @@ Revision: 6
 {
 "origin" "-3488 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -11695,7 +11695,7 @@ Revision: 6
 {
 "origin" "-3584 -1800 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -12477,7 +12477,7 @@ Revision: 6
 "hammerid" "1368151"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-3060 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12487,7 +12487,7 @@ Revision: 6
 "hammerid" "1368466"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-3060 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12497,7 +12497,7 @@ Revision: 6
 "hammerid" "1368461"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-3148 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12507,7 +12507,7 @@ Revision: 6
 "hammerid" "1368476"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-3148 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12521,7 +12521,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12543,7 +12543,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12565,7 +12565,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12587,7 +12587,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12613,7 +12613,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1368569"
 }
@@ -12626,7 +12626,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1368574"
 }
@@ -12639,7 +12639,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1368577"
 }
@@ -12652,12 +12652,12 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1368580"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2804 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12667,7 +12667,7 @@ Revision: 6
 "hammerid" "1368927"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2804 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12677,7 +12677,7 @@ Revision: 6
 "hammerid" "1368922"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2892 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12687,7 +12687,7 @@ Revision: 6
 "hammerid" "1368937"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2892 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -12701,7 +12701,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12723,7 +12723,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12745,7 +12745,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12767,7 +12767,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -12793,7 +12793,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1369030"
 }
@@ -12806,7 +12806,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1369035"
 }
@@ -12819,7 +12819,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1369038"
 }
@@ -12832,7 +12832,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1369041"
 }
@@ -12979,7 +12979,7 @@ Revision: 6
 {
 "origin" "-3392 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -12993,7 +12993,7 @@ Revision: 6
 {
 "origin" "-3488 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13007,7 +13007,7 @@ Revision: 6
 {
 "origin" "-3584 -1480 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13021,7 +13021,7 @@ Revision: 6
 {
 "origin" "-3392 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13035,7 +13035,7 @@ Revision: 6
 {
 "origin" "-3488 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13049,7 +13049,7 @@ Revision: 6
 {
 "origin" "-3584 -1384 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13063,7 +13063,7 @@ Revision: 6
 {
 "origin" "-3392 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13077,7 +13077,7 @@ Revision: 6
 {
 "origin" "-3488 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13091,7 +13091,7 @@ Revision: 6
 {
 "origin" "-3584 -1288 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13105,7 +13105,7 @@ Revision: 6
 {
 "origin" "-3392 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13119,7 +13119,7 @@ Revision: 6
 {
 "origin" "-3488 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13133,7 +13133,7 @@ Revision: 6
 {
 "origin" "-3584 -1192 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13147,7 +13147,7 @@ Revision: 6
 {
 "origin" "-3392 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13161,7 +13161,7 @@ Revision: 6
 {
 "origin" "-3488 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13175,7 +13175,7 @@ Revision: 6
 {
 "origin" "-3584 -1096 32"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -13250,7 +13250,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1371990"
 }
@@ -14923,7 +14923,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1386707"
 }
@@ -15040,7 +15040,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "1"
-"angles" "73 -180 90"
+"angles" "73 180 90"
 "classname" "prop_dynamic"
 "hammerid" "1387027"
 }
@@ -15082,7 +15082,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 1.00179e-05 0"
+"angles" "90 -2.78869e-06 0"
 "classname" "point_spotlight"
 "hammerid" "1388234"
 }
@@ -15090,7 +15090,7 @@ Revision: 6
 "origin" "264 -824 -255"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "item_healthkit_medium"
 "hammerid" "1386846"
 }
@@ -15099,7 +15099,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 1.00179e-05 -180"
+"angles" "-67.5 -2.78869e-06 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15134,7 +15134,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 -90 -180"
+"angles" "-67.5 -90 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15169,7 +15169,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 -90 -180"
+"angles" "-67.5 -90 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15204,7 +15204,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 -90 -180"
+"angles" "-67.5 -90 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15230,7 +15230,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 -180 0"
+"angles" "90 180 0"
 "classname" "point_spotlight"
 "hammerid" "1388103"
 }
@@ -15239,7 +15239,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 -180 -180"
+"angles" "-67.5 180 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15265,7 +15265,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 -180 0"
+"angles" "90 180 0"
 "classname" "point_spotlight"
 "hammerid" "1388125"
 }
@@ -15274,7 +15274,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 -180 -180"
+"angles" "-67.5 180 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15300,7 +15300,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 1.00179e-05 0"
+"angles" "90 -2.78869e-06 0"
 "classname" "point_spotlight"
 "hammerid" "1388164"
 }
@@ -15309,7 +15309,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-67.5"
-"angles" "-67.5 1.00179e-05 -180"
+"angles" "-67.5 -2.78869e-06 180"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15385,7 +15385,7 @@ Revision: 6
 "hammerid" "1388758"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -1244 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15395,7 +15395,7 @@ Revision: 6
 "hammerid" "1389561"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -1332 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15405,7 +15405,7 @@ Revision: 6
 "hammerid" "1389556"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -1332 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15415,7 +15415,7 @@ Revision: 6
 "hammerid" "1389571"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -1244 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15429,7 +15429,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15451,7 +15451,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15473,7 +15473,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15495,7 +15495,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15521,7 +15521,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1389664"
 }
@@ -15534,7 +15534,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1389669"
 }
@@ -15547,7 +15547,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1389672"
 }
@@ -15560,7 +15560,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1389675"
 }
@@ -15583,7 +15583,7 @@ Revision: 6
 {
 "origin" "2848 -800 200"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -15604,12 +15604,12 @@ Revision: 6
 "HorizontalGlowSize" "45"
 "HDRColorScale" "1.0"
 "GlowProxySize" "48"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "classname" "env_lightglow"
 "hammerid" "1391399"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "2848 -800 180"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15799,7 +15799,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15826,7 +15826,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 -180 0"
+"angles" "-90 180 0"
 "classname" "env_lightglow"
 "hammerid" "1391863"
 }
@@ -15858,7 +15858,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1392307"
 }
@@ -15890,12 +15890,12 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1392321"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -988 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15905,7 +15905,7 @@ Revision: 6
 "hammerid" "1392636"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -1076 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15915,7 +15915,7 @@ Revision: 6
 "hammerid" "1392631"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -1076 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15925,7 +15925,7 @@ Revision: 6
 "hammerid" "1392646"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -988 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -15939,7 +15939,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15961,7 +15961,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -15983,7 +15983,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -16005,7 +16005,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -16031,7 +16031,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1392739"
 }
@@ -16044,7 +16044,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1392744"
 }
@@ -16057,7 +16057,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1392747"
 }
@@ -16070,14 +16070,14 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1392750"
 }
 {
 "origin" "2368 -800 200"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -16098,12 +16098,12 @@ Revision: 6
 "HorizontalGlowSize" "45"
 "HDRColorScale" "1.0"
 "GlowProxySize" "48"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "classname" "env_lightglow"
 "hammerid" "1402145"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "2368 -800 180"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -16144,7 +16144,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-63 3.01211e-06 -90"
+"angles" "-63 -8.38482e-07 -90"
 "classname" "env_lightglow"
 "hammerid" "1402180"
 }
@@ -19082,7 +19082,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -19109,7 +19109,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 -180 0"
+"angles" "-90 180 0"
 "classname" "env_lightglow"
 "hammerid" "1513507"
 }
@@ -19831,7 +19831,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1531291"
 }
@@ -19890,7 +19890,7 @@ Revision: 6
 "hammerid" "1531363"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19900,7 +19900,7 @@ Revision: 6
 "hammerid" "1531678"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19910,7 +19910,7 @@ Revision: 6
 "hammerid" "1531673"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -820 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19920,7 +19920,7 @@ Revision: 6
 "hammerid" "1531688"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -732 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19934,7 +19934,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -19956,7 +19956,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -19978,7 +19978,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -20000,7 +20000,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -20026,7 +20026,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1531781"
 }
@@ -20039,7 +20039,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1531786"
 }
@@ -20052,7 +20052,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1531789"
 }
@@ -20065,7 +20065,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1531792"
 }
@@ -20161,7 +20161,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -20188,7 +20188,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 -180 0"
+"angles" "-90 180 0"
 "classname" "env_lightglow"
 "hammerid" "1532507"
 }
@@ -20265,7 +20265,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -20292,7 +20292,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "classname" "env_lightglow"
 "hammerid" "1551315"
 }
@@ -22661,7 +22661,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1620006"
 }
@@ -22693,7 +22693,7 @@ Revision: 6
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "-0 3.18772e-06 0"
+"angles" "-0 -2.78869e-06 0"
 "classname" "prop_dynamic"
 "hammerid" "1620020"
 }
@@ -22757,7 +22757,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -22784,7 +22784,7 @@ Revision: 6
 "HorizontalGlowSize" "15"
 "HDRColorScale" "1.0"
 "GlowProxySize" "16"
-"angles" "-90 -180 0"
+"angles" "-90 180 0"
 "classname" "env_lightglow"
 "hammerid" "1626406"
 }
@@ -22821,7 +22821,7 @@ Revision: 6
 "hammerid" "1626420"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -1500 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -22831,7 +22831,7 @@ Revision: 6
 "hammerid" "1626735"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2548 -1588 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -22841,7 +22841,7 @@ Revision: 6
 "hammerid" "1626730"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -1588 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -22851,7 +22851,7 @@ Revision: 6
 "hammerid" "1626745"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-2636 -1500 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -22865,7 +22865,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -22887,7 +22887,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -22909,7 +22909,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -22931,7 +22931,7 @@ Revision: 6
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
-"angles" "-90 180 0"
+"angles" "-90 -180 0"
 "_zero_percent_distance" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -22957,7 +22957,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1626838"
 }
@@ -22970,7 +22970,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1626843"
 }
@@ -22983,7 +22983,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1626846"
 }
@@ -22996,7 +22996,7 @@ Revision: 6
 "renderamt" "200"
 "HDRColorScale" "0.5"
 "disablereceiveshadows" "1"
-"angles" "90 180 0"
+"angles" "90 -180 0"
 "classname" "point_spotlight"
 "hammerid" "1626849"
 }

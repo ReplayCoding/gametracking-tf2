@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/applejack/shotgun_plaque"
+	"$bumpmap" "models/applejack/shotgun_plaque_nrm"
+	"$phongexponenttexture""models/applejack/shotgun_plaque_exp"
+
+	"$bumpmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "18"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

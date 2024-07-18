@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW06_TRANSPARENT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-5433_1802_400"
+	}
+}

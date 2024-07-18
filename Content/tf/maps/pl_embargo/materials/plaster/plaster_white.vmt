@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/plaster_white_diffuse"
+	"$bumpmap" "plaster/plaster_normal"
+
+	"$surfaceprop" "concrete"
+	"$reflectivity" "[.5 .5 .5]"
+
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+	"%keywords" "tf, zeus"
+}

@@ -1,0 +1,704 @@
+// DSP Effects. A full list of effects can be found in scripts/dsp_presets.txt. The ID is under "ptype". To hear a preview go in game and type: room_type ID# to hear the sound.
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+"canaveral.shoreline" //Water around the rocket launchpad
+{
+	"dsp"	"1" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"dsp_volume" "1" //0-1 can be decimals. 
+	
+	"playlooping" //This is a rule for playing sounds. These are pretty self explanatory. 
+	{
+		"volume"		"0.5" //0-1 can be decimals. 
+		"pitch"		"100" // 0-255, cannot be decimals. This alters the pitch of the sound. 100 is the normal pitch. Useful values are 80-120
+		"wave"		"ambient\water\lake_water.wav" // Sound file to be played, should have cues in it for looping.
+	}
+	"playlooping" //This is a rule for playing sounds. These are pretty self explanatory. 
+	{
+		"volume"		"1" //0-1 can be decimals. 
+		"pitch"		"100" // 0-255, cannot be decimals. This alters the pitch of the sound. 100 is the normal pitch. Useful values are 80-120
+		"wave"		"ambient\lair\perimeter_ocean_close.wav" // Sound file to be played, should have cues in it for looping.
+	}
+	"playlooping" //This is a rule for playing sounds. These are pretty self explanatory. 
+	{
+		"volume"		"0.5" //0-1 can be decimals. 
+		"pitch"		"100" // 0-255, cannot be decimals. This alters the pitch of the sound. 100 is the normal pitch. Useful values are 80-120
+		"wave"		"ambient\lair\jungle_wind_loop.wav" // Sound file to be played, should have cues in it for looping.
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.8,0.6" //This is just like the above volume, but it will choose a random volume when told to play.
+		"position" 	"0"
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+	"playrandom" //bird sounds
+	{
+		"time"		"5,15"
+		"volume"	".35,0.1"
+		"pitch"		"100"
+		"position"	"random"	
+		"rndwave"
+		{
+			"wave"		"ambient\levels\coast\coastbird1.wav"
+			"wave"		"ambient\levels\coast\coastbird2.wav"
+			"wave"		"ambient\levels\coast\coastbird3.wav"
+			"wave"		"ambient\levels\coast\coastbird4.wav"
+			"wave"		"ambient\levels\coast\coastbird5.wav"
+			"wave"		"ambient\levels\coast\coastbird6.wav"
+			"wave"		"ambient\levels\coast\coastbird7.wav"
+		}
+	}
+}
+"canaveral.launchpad" //This is the soundscape name, it can be anything. The standard naming is [map].[location]
+{
+	"dsp"	"6" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"dsp_volume" "1" //0-1 can be decimals. 
+
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.5,0.4" //This is just like the above volume, but it will choose a random volume when told to play.
+		"position" 	"0"
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+	"playrandom" //Tower Creak sounds and hisses
+	{
+		"time"		"10,15" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.3,0.1" //This is just like the above volume, but it will choose a random volume when told to play.
+		"position" 	"random"
+		"pitch"		"100,120" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\creak01.wav"
+		"wave"		"ambient\creak02.wav"
+		"wave"		"ambient\creak03.wav"
+		"wave"		"ambient\materials\rustypipes1.wav"
+		"wave"		"ambient\materials\rustypipes2.wav"
+		"wave"		"ambient\materials\rustypipes3.wav"
+		}
+	}
+	"playlooping" //Distant ocean
+	{
+		"volume"		"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\perimeter_ocean_close.wav"
+	}
+	"playlooping" //Outdoor sounds added from 2fort
+	{
+		"volume"		".2"
+		"pitch"		"100"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	"playlooping" //Outdoor wind
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"ambient\desert_wind.wav"
+	}
+	"playrandom" //bird sounds
+	{
+		"time"		"5,15"
+		"volume"	".35"
+		"pitch"		"100"
+		"position"	"random"
+		"attenuation"	"0.7"	
+		"rndwave"
+		{
+			"wave"		"ambient\levels\coast\coastbird1.wav"
+			"wave"		"ambient\levels\coast\coastbird2.wav"
+			"wave"		"ambient\levels\coast\coastbird3.wav"
+			"wave"		"ambient\levels\coast\coastbird4.wav"
+			"wave"		"ambient\levels\coast\coastbird5.wav"
+			"wave"		"ambient\levels\coast\coastbird6.wav"
+			"wave"		"ambient\levels\coast\coastbird7.wav"
+		}
+	}
+}
+"canaveral.outdoors" //This is the soundscape name, it can be anything. The standard naming is [map].[location]
+{
+	"dsp"	"1" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"dsp_volume" "1" //0-1 can be decimals. 
+
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.4,0.2" //This is just like the above volume, but it will choose a random volume when told to play.
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+	"playlooping" //This is a rule for playing sounds. These are pretty self explanatory. 
+	{
+		"volume"		"0.5" //0-1 can be decimals. 
+		"pitch"		"100" // 0-255, cannot be decimals. This alters the pitch of the sound. 100 is the normal pitch. Useful values are 80-120
+		"wave"		"ambient\lair\jungle_wind_loop.wav" // Sound file to be played, should have cues in it for looping.
+	}
+	"playrandom" //bird sounds
+	{
+		"time"		"5,15"
+		"volume"	".35"
+		"pitch"		"100"
+		"position"	"random"
+		"attenuation"	"0.7"	
+		"rndwave"
+		{
+			"wave"		"ambient\levels\coast\coastbird1.wav"
+			"wave"		"ambient\levels\coast\coastbird2.wav"
+			"wave"		"ambient\levels\coast\coastbird3.wav"
+			"wave"		"ambient\levels\coast\coastbird4.wav"
+			"wave"		"ambient\levels\coast\coastbird5.wav"
+			"wave"		"ambient\levels\coast\coastbird6.wav"
+			"wave"		"ambient\levels\coast\coastbird7.wav"
+		}
+	}
+	"playrandom" //Helicopter noises
+	{
+		"time"		"60, 120"
+		"volume"	".1"
+		"pitch"		"100"
+		"position"	"random"
+		"attenuation"	"0.7"	
+		"rndwave"
+		{
+			"wave"		"ambient\machines\heli_pass_distant1.wav"
+			"wave"		"ambient\machines\heli_pass1.wav"
+		}
+	}
+}
+"canaveral.cryogenics" //For the fuel areas
+{
+	"dsp"	"2" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone4.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\pipe1.wav"
+	}
+	"playlooping" //Electric buzz
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}
+	"playrandom" //machinery
+	{
+		"time"		"15,40"
+		"volume"	".5"
+		"pitch"		"100"
+		"position"	"random"
+		"attenuation"	"0.7"	
+		"rndwave"
+		{
+			"wave"		"ambient\atmosphere\metallic2.wav"
+			"wave"		"ambient\cp_harbor\furnace_1_shot_02.wav"
+			"wave"		"ambient\cp_harbor\car_1shot_02.wav"
+		}
+	}
+}
+"canaveral.shed" //Shed connecting mid to yard
+{
+	"dsp"	"3" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\desert_indoors.wav"
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.1,0.2" //This is just like the above volume, but it will choose a random volume when told to play.
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound. Positional
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient\cp_harbor\indoor_lp_03.wav"
+		"position"	"1"
+		"attenuation" "0.5"
+	}
+}
+"canaveral.storage" // Blu Forwards Spawn
+{
+	"dsp"	"2" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone2.wav"
+	}
+	"playlooping" //Generic Indoor Loop, light sound. Positional
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum2.wav"
+//		"position"	"1"
+		"attenuation" "0.5"
+	}
+}
+"canaveral.maintenance" //I can't remember where this is
+{
+	"dsp"	"3" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone2.wav"
+	}
+}
+"canaveral.assembly" //Room 04
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone2.wav"
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"15,30" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.3,0.5" //This is just like the above volume, but it will choose a random volume when told to play.
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"position"	"random"
+		"rndwave"		//This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\materials\metal_rattle1.wav"
+		"wave"		"ambient\materials\metal_rattle3.wav"
+		"wave"		"ambient\materials\metal_rattle4.wav"
+		"wave"		"ambient\materials\metal9.wav"
+		"wave"		"ui\item_metal_tiny_drop.wav"
+		}
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound. Positional
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\ac_vent1.wav"
+		"position"	"1"
+		"attenuation" "0.2"
+	}
+}
+"canaveral.blu.lower" //Area below blu balcony. Echoes and lights
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone3.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound. Positional
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient\lair\electric_box_hum.wav"
+		"position"	"1"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound. Positional
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum2.wav"
+		"position"	"2"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound. Positional
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient\lair\ac_vent1.wav"
+		"position"	"0"
+		"attenuation" "0.8"
+	}
+}
+"canaveral.offices" //Prep room before blu last. Doubles as spawn
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working.wav"
+		"position"	"0"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working2.wav"
+		"position"	"1"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"plats\grandfather_clock_tick.wav"
+		"position"	"3"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\computer_tape2.wav"
+		"position"	"2"
+		"attenuation" "0.8"
+	}
+	"playlooping" //AC
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\ac_vent1.wav"
+	}
+}
+"canaveral.control" //Blu Last
+{
+	"dsp"	"19" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_3_tone3.wav"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working.wav"
+		"position"	"0"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working2.wav"
+		"position"	"1"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"plats\grandfather_clock_tick.wav"
+		"position"	"3"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\computer_tape2.wav"
+		"position"	"2"
+		"attenuation" "0.8"
+	}
+}
+"canaveral.shack" //Red connector building between mid and yard
+{
+	"dsp"	"9" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\desert_indoors.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_loop.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.1,0.2" //This is just like the above volume, but it will choose a random volume when told to play.
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"15,30" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.5,0.9" //This is just like the above volume, but it will choose a random volume when told to play.
+		"position" "random"
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}
+}
+"canaveral.carpool" //Building with the van. Pretty exposed to the outside
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\desert_indoors.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_loop.wav"
+	}
+	"playrandom" //This is a rule for playing sounds using a random time.
+	{
+		"time"		"5,10" //This is the time boundreies in which to play the sound. [min],[max]
+		"volume"	"0.5,0.6" //This is just like the above volume, but it will choose a random volume when told to play.
+		"pitch"		"100" //Just like a normal pitch, but will choose a random pitch within the defined bounds. This is useful for making sounds apper different when they are the same
+		"rndwave" //This is used with the "playrandom" rule and will choose a random wav from the list below everytime it is told to play
+		{
+		"wave"		"ambient\water\distant_wave1.wav"
+		"wave"		"ambient\water\distant_wave2.wav"
+		"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+}
+"canaveral.janitor" //Red Forwards spawn
+{
+	"dsp"	"2" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone5.wav"
+	}
+}
+"canaveral.warehouse" //Red's Room04
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\desert_wind_low.wav"
+	}
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\lair\jungle_wind_loop.wav"
+	}
+	"playrandom" //bird sounds
+	{
+		"time"		"5,15"
+		"volume"	".2"
+		"pitch"		"100"
+		"position"	"random"	
+		"rndwave"
+		{
+			"wave"		"ambient\levels\coast\coastbird1.wav"
+			"wave"		"ambient\levels\coast\coastbird2.wav"
+			"wave"		"ambient\levels\coast\coastbird3.wav"
+			"wave"		"ambient\levels\coast\coastbird4.wav"
+			"wave"		"ambient\levels\coast\coastbird5.wav"
+			"wave"		"ambient\levels\coast\coastbird6.wav"
+			"wave"		"ambient\levels\coast\coastbird7.wav"
+		}
+	}
+	"playrandom" //bird sounds
+	{
+		"time"		"5,10"
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"random"	
+		"rndwave"
+		{
+			"wave"		"ambient\lair\jungle_wind_trees.wav"
+			"wave"		"ambient\lair\jungle_wind_trees2.wav"
+		}
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_boiler_smooth1.wav"
+		"position"	"0"
+		"attenuation" "0.6"
+	}
+}
+"canaveral.red.lower" //Deep into red
+{
+	"dsp"	"10" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_tone4.wav"
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_boiler_rough1.wav"
+		"position"	"0"
+		"attenuation" "0.8"
+	}
+}
+"canaveral.old" //Red's old offices
+{
+	"dsp"	"6" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_2_boiler_rough1.wav"
+		"position"	"0"
+		"attenuation" "1"
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"ambient\lair\electric_box_hum.wav"
+		"position"	"1"
+		"attenuation" "1"
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\computer_tape.wav"
+		"position"	"2"
+		"attenuation" "1"
+	}
+	"playlooping" //Boiler
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working_red.wav"
+		"position"	"3"
+		"attenuation" "1"
+	}
+}
+"canaveral.atrium" //Red Last
+{
+	"dsp"	"19" //Can be any number value. This is the DSP effect, it's not needed but can be used to change the sound of a room. (Echos, sound dampning, ect..)
+	"playlooping" //Generic Indoor Loop, aircon sound
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_3_tone3.wav"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working.wav"
+		"position"	"0"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working2.wav"
+		"position"	"1"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"plats\grandfather_clock_tick.wav"
+		"position"	"3"
+		"attenuation" "0.8"
+	}
+	"playlooping" //Computer loop
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"ambient\computer_tape2.wav"
+		"position"	"2"
+		"attenuation" "0.8"
+	}
+}

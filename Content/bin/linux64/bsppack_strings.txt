@@ -1,3 +1,4 @@
+BZBQ
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -2138,22 +2139,25 @@ AUATL
 A\A]]
 0[A\]
 X%GL
-Y5da
-Y-a`
+Y5ta
+/-+a
+Y-q`
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
-W%>L
+W%NL
 AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-X%^G
+X%nG
+Y%(H
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
+W=#A
 [A\A]]
 A\A]]
 A\A]]
@@ -2167,12 +2171,15 @@ AUATI
 [A\]
 [A\]
 tYUH
-~-L*
-~5.*
-(-j)
+~-\*
+~5>*
+(-z)
+(%'(
 ~Z H
 AWAVA
 AUATSH
+(=-)
+(=$)
 [A\A]A^A_]
 AUATL
 [A\A]]
@@ -2539,7 +2546,7 @@ bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
 Unable to find %s. Solutions:
-1. Read http://www.valve-erc.com/srcsdk/faq.html#NoGameDir
+1. Read https://developer.valvesoftware.com/wiki/Gameinfo.txt
 2. Run vconfig to specify which game you're working on.
 3. Add -game <path> on the command line where <path> is the directory that %s is in.
 Warning: falling back to auto detection of vproject directory.
@@ -3324,7 +3331,7 @@ ConVarRef %s doesn't point to an existing ConVar
 20ConVar_ServerBounded
 16CDefaultAccessor
 12CEmptyConVar
-                0D
+                 D
 4fff>fff>fff>fff>
 ?333333
 C33s?

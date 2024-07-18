@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_canaveral_5cp/canaveral/water_ocean2_-2176_1664_-128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

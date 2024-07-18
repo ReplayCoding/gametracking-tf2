@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\cp_hadal/reactor_platform"
+	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongfresnelranges"	"[.5 1 3]"
+}

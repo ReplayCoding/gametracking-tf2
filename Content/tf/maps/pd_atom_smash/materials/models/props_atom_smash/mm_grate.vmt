@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_monster_mash/mm_mid_platform/mm_grate"
+	$alphatest 1
+	$nocull 1
+
+	"$AlphaTestReference" "0.37"
+	"$AllowAlphaToCoverage" "1"
+}

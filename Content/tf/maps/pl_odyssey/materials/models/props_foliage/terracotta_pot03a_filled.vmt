@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+$basetexture	"models/props_foliage/terracotta_pot03a_filled"
+$bumpmap 		"models/props_foliage/terracotta_pot03_normal"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "20"
+	"$phongfresnelranges" "[.6 2 2]"
+	"$phongtint" "[0.3 0.3 0.7]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+	"$rimmask" "1"
+}

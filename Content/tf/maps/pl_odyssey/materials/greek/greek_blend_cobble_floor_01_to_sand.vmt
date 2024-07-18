@@ -1,0 +1,16 @@
+WorldVertexTransition
+{
+	$basetexture "greek/greek_cobble_floor01"
+
+	$surfaceprop Concrete
+
+	"$bumpmap1" "greek\greek_cobble_floor01_ssbump"
+	$basetexture2 "nature/dirtground004_odyssey"
+	$bumpmap2 "nature/dirtground001_height-ssbump"
+	$surfaceprop2 Dirt
+
+	$blendmodulatetexture "greek/greek_cobble_floor01_blendmask"
+
+	%tooltexture "greek/greek_cobble_floor01"
+	%keywords "tf, greek, greece, hades"
+}

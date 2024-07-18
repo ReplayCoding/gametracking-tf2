@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_cachoeira/c-2344_1976_544"
+	}
+}

@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "plaster/plaster_red_diffuse"
+    	"$bumpmap" "plaster/plaster_normal"
+
+	"$baseTexture2" "plaster/plaster_orange_diffuse"
+    	"$bumpmap2" "plaster/plaster_normal"
+
+	"$blendmodulatetexture" "plaster/plaster_to_any_blendmod"
+
+	"$surfaceprop" "concrete"
+	"%keywords" "tf, zeus"
+}
+

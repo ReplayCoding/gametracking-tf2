@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SOHO/METALDUCT001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_canaveral_5cp/c0_2176_512"
+	}
+}

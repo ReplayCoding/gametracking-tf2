@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-6618_3128_320"
+		"Proxies"
+		{
+		}
+	}
+}

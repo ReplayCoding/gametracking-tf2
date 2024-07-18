@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_applejack/c732_868_448"
+	}
+}

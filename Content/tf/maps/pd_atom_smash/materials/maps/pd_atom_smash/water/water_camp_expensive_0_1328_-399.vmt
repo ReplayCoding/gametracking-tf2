@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_CAMP_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_atom_smash/c0_1328_-399"
+		"Proxies"
+		{
+		}
+	}
+}

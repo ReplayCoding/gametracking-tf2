@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$baseTexture"	"shale/shale_wall_001"
+	"$bumpmap" 	"shale/shale_wall_normal"
+	"$surfaceprop"	"concrete"
+
+	"$baseTexture2"	"shale/shale_wall_002"
+	"$bumpmap2" 	"shale/shale_wall_normal"
+	"$surfaceprop2"	"concrete"
+
+	"$blendmodulatetexture" "shale/shale_wall_blend_002"
+
+	"%keywords"	"tf, zeus"
+}
+

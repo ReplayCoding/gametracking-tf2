@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_applejack/c1368_-2292_576"
+	}
+}

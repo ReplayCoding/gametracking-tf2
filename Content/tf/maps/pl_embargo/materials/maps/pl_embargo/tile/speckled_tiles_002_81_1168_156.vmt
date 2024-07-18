@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/SPECKLED_TILES_002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c81_1168_156"
+	}
+}

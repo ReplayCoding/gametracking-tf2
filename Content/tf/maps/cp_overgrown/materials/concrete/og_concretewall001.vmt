@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	$basetexture "concrete/og_concretewall001"
+	$bumpmap "brick/brickwall002_height-ssbump"
+	$ssbump 1
+
+	$detail "overlays/detail001"
+	$detailscale 1.9
+
+	$color "[1 0.71 0.37]"
+
+	%keywords "tf"
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/Piranhas/piranhas_texture" 
+	"$bumpmap" "models/Piranhas/piranhas_normal"
+	
+	"$phong" "1"
+	"$phongboost" "3"
+	"$phongexponent" "30"
+	"$phongfresnelranges"	"[2 1 5]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$bumpmapalphaphongmask"        "1"
+
+	"$envmap" "cubemaps/cubemap_sheen002"
+	"$envmaptint" "[.5 .5 .5]"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$rimmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+}

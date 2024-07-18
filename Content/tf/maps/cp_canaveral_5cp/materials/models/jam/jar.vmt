@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jam/jar_diffuse"
+	$bumpmap "models/jam/jar_normal"
+	$surfaceprop "glassbottle"
+	"$additive"	1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+
+	"$phong" "1"
+	"$phongexponent" "80"
+	"$phongfresnelranges" "[1 2 4]"
+	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
+	"$phongboost" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+
+}

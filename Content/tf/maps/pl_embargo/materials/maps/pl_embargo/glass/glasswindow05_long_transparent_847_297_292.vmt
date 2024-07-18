@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW05_LONG_TRANSPARENT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c847_297_292"
+	}
+}

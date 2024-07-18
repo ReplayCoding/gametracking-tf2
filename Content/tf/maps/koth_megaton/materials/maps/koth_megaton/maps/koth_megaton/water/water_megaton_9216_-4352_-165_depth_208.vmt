@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_megaton/water/water_megaton_9216_-4352_-165.vmt"
+	"insert"
+	{
+		"$waterdepth"		"208"
+	}
+}

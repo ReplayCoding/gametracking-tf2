@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/CHERRY_WOOD_FLOOR_003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-1236_2595_452"
+	}
+}

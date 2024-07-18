@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"wood/wood_base_002"
+	"$surfaceprop"	"wood"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[.2 .2 .2]"
+	"$envmapcontrast"	".5"
+	"$fresnelreflection"	".2"
+
+	"%keywords"	"propper"
+}

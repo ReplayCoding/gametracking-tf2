@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_overgrown/water/water_2fort_-1467_1868_262.vmt"
+	"insert"
+	{
+		"$waterdepth"		"129"
+	}
+}

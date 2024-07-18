@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_cachoeira/c-3712_0_256"
+	}
+}

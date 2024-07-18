@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_overgrown/c-1467_1868_262"
+		"Proxies"
+		{
+		}
+	}
+}

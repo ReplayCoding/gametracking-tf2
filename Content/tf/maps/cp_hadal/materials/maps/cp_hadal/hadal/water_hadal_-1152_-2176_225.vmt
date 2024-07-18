@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/HADAL/WATER_HADAL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_hadal/c-1152_-2176_225"
+		"Proxies"
+		{
+		}
+	}
+}

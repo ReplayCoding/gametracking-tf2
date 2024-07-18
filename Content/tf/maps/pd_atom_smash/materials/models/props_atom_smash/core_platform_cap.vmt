@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_atom_smash/core_platform_cap"
+	"$bumpmap" "models/props_atom_smash/core_platform_cap_normal"
+	
+	"$phong" "1"
+	"$phongboost" ".1"
+	"$phongexponent" "80"
+	"$phongfresnelranges" "[3 5 8]"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[.25 .25 .25]"
+
+	"$selfillum" "1"
+	"$selfillummask" "models/props_atom_smash/core_platform_cap_mask"
+
+}

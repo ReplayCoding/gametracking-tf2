@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_atom_smash/doomsday_device"
+	"$bumpmap" "models/props_atom_smash/doomsday_device_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 
+	"$envmaptint" "[.2 .2 .2]"
+
+	
+	"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[3 5 8]"
+
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	"$selfillum" "1"
+	"$selfillummask" "models/props_atom_smash/doomsday_mask"
+}

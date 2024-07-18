@@ -1,0 +1,28 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "waterfx\caustics\caustic"
+	"$texture2" "waterfx\caustics\caustic_mask_hadal01"
+	
+	//%tooltexture TODO
+	
+	"$decal" 1
+	
+	"$surfaceprop" "no_decal"
+	"$additive" 1
+	"$texscale" "1.5"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 22.00
+		}
+		"TextureTransform"
+		{
+			"scaleVar" "$texscale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

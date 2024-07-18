@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_enclosure_final/c1100_-5330_49"
+	}
+}

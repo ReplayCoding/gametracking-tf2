@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+    "$basetexture"    "models/props_megaton/smoke_balls"
+    "$bumpmap" 	"models/props_megaton/smoke_balls_normal"
+
+    "$nocull" "1"
+    "$alphatest" "1"
+
+	$alphatestreference		0.5
+	//$color2 			"{185 185 185}"
+
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.1 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	//"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"	
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$basetexturetransform"
+            "texturescrollrate" .03
+            "texturescrollangle" 90
+        }
+    }
+
+
+
+}

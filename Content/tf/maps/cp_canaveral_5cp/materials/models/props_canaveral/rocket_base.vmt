@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_canaveral/rocket_base"
+	"$surfaceprop" "MetalPanel"
+	$phong 1
+	$phongexponent 5
+	$phongboost 1.0
+	$phongfresnelranges "[1 1 1]"
+}

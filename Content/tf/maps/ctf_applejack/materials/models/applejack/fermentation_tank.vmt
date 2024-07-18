@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/applejack/fermentation_tank"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "18"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	"$detail" "overlays/detail002"
+	"$detailscale" "5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

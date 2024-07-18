@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_cashworks/swamp/water/water_murky_176_-1856_91.vmt"
+	"insert"
+	{
+		"$waterdepth"		"27"
+	}
+}

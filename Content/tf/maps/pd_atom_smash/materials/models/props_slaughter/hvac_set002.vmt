@@ -1,0 +1,27 @@
+// ### This basic VMT was written based on the game/sdktools/python/site-packages/templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_slaughter/hvac_set002"
+	"$bumpmap" "models/props_slaughter/hvac_set001_normal"
+//	"$selfillum" "1"
+//	"$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
+//	"$lightwarptexture"	"models/lightwarps/robot_lightwarp"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 
+//	"$envmaptint" "[.10 .11 .13]"
+//	"$envmaptint" "[.41 .42 .46]"
+	"$envmaptint" "[.2 .2 .2]"
+
+	
+	"$phong" "1"
+	"$phongboost" "5"
+	"$phongexponent" "32"
+//	"$phongfresnelranges" "[3 5 8]"
+	"$phongfresnelranges" "[.6 2 5]"
+//	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+}
