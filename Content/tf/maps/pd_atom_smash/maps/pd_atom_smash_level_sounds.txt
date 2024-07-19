@@ -116,4 +116,15 @@
         "wave"    "vo/atom_smash/scientist_idle_11.mp3"
 
     }
+
+
+"Atom_VO.IdleNull"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        ".6"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+	
+	"wave"			"vo/null.mp3"
 }
