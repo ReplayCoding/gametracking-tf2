@@ -58,7 +58,7 @@ OnGameEvent_player_disconnect <- OnGameEvent_player_death;
 }
 ::CTFBot.GetItems <- CTFPlayer.GetItems;
 
-::CTFPlayer.Heal <- function(healing, dispalyOnHud = true)
+::CTFPlayer.Heal <- function(healing, removeDebuffs = true, dispalyOnHud = true)
 {
     local oldHP = this.GetHealth();
     local maxHP = this.GetMaxHealth();
@@ -71,5 +71,10 @@ OnGameEvent_player_disconnect <- OnGameEvent_player_death;
             entindex = this.entindex(),
             amount = newHP - oldHP
         });
+    if (removeDebuffs)
+    {
+        this.RemoveCond(Constants.ETFCond.TF_COND_BLEEDING);
+        this.RemoveCond(Constants.ETFCond.TF_COND_BURNING);
+    }
 }
 ::CTFBot.Heal <- CTFPlayer.Heal;

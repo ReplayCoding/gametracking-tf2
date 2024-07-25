@@ -13,6 +13,10 @@ PrecacheModel(BOTLER_MODEL_NOPACK);
 PrecacheModel(BOTLER_MODEL_DRINK);
 propModelId <- PrecacheModel(BOTLER_MODEL_PROP);
 
+propellor_hurt_1 <- Entities.FindByName(null, "propellor_hurt_1");
+propellor_hurt_2 <- Entities.FindByName(null, "propellor_hurt_2");
+helicopter_custom_dmg <- SpawnEntityFromTable("info_target", { classname = "helicopter" });
+
 function ThinkBotlers()
 {
     local anyNewBots = false;
@@ -117,6 +121,7 @@ function TickBotler()
                     hasPack = true;
                 });
                 packTimerTS = time + 10;
+                break;
             }
         }
 
@@ -175,6 +180,13 @@ function ThinkSmoothMovement()
 function OnScriptHook_OnTakeDamage(params)
 {
     local bot = params.const_entity;
+
+    //Helicopter blades kill icon
+    if (params.inflictor == propellor_hurt_1 || params.inflictor == propellor_hurt_2)
+    {
+        params.inflictor = helicopter_custom_dmg;
+        return;
+    }
 
     //Prop dynamics with the botler model
     if (GetPropInt(bot, "m_nModelIndex") == propModelId)

@@ -2,7 +2,7 @@
 {
   "playlooping"
   {
-    "wave"   "embargo/soundscape_casino.wav"
+    "wave"   "#*embargo/soundscape_casino.wav"
     "volume" "0.8"
   }
 }
@@ -13,7 +13,7 @@
  
   "playlooping"
   {
-    "wave"   ")embargo/soundscape_casino_outside.wav"
+    "wave"   "#)embargo/soundscape_casino_outside.wav"
     "volume" "1"
 	"position"	"0"
 	"soundlevel"	"150"

@@ -5,7 +5,7 @@ PrecacheSound(")embargo/embargo_helicopter_outro.mp3");
 //These 3 functions are used by map I/O
 function PlayMusic(path)
 {
-    path = "#*" + path;
+    path = "#" + path;
     PrecacheSound(path);
     EmitSoundEx({
         sound_name = path,
@@ -17,7 +17,7 @@ function PlayMusic(path)
 
 function StopMusic(path)
 {
-    path = "#*" + path;
+    path = "#" + path;
     PrecacheSound(path);
     EmitSoundEx({
         sound_name = path,

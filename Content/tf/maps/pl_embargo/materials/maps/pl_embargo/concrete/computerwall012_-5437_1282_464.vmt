@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/COMPUTERWALL012.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_embargo/c-5437_1282_464"
+	}
+}

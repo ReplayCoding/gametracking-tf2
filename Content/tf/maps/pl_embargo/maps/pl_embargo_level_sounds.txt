@@ -1038,3 +1038,55 @@
 		"wave"		"mvm/botler/heal_03.mp3"
 	}
 }
+
+
+"Announcer.AM_GameStarting01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting03"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting04"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting05"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
