@@ -1,0 +1,11 @@
+// ### This basic VMT was written based on the game/sdktools/python/site-packages/templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_megaton/megaton_radio"
+	"$basemapalphaphongmask" "1"
+	
+	"$phong" "1"
+	"$phongboost" "4"
+	"$phongexponent" "8"
+	"$phongfresnelranges"		"[.25 .5 1]"	
+}

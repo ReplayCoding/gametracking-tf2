@@ -44,5 +44,5 @@ function Disintegrate()
 	// Deal the damage with the weapon
     activator.TakeDamageCustom(self, activator, disintegrate_proxy_weapon, 
                                 Vector(0,0,0), Vector(0,0,0), 
-                                99999.0, 2080, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
+                                99999.0, 2048, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
 }

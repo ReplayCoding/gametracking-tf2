@@ -128,3 +128,475 @@
 	
 	"wave"			"vo/null.mp3"
 }
+
+// Making the Administrator Silent =================================================
+
+"Game.Stalemate"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Game.Overtime"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabledRandom"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"           
+    {
+    }
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds10seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds30seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds60seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds5seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds4seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds3seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds2seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds1seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled01"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled02"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled03"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled04"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+
+"Announcer.Success"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.Failure"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+        
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.ControlPointContested"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"
+    {
+    }
+}
+
+"ControlPoint.CaptureWarn"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.ControlPointContested_Neutral"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.CompGame1Begins60Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins30Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins10Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins05Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins04Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins03Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins02Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins01Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBeginsFight"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompFinalGameBeginsFight"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.AM_GameStarting01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting03"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting04"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
+"Announcer.AM_GameStarting05"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+	}
+}
