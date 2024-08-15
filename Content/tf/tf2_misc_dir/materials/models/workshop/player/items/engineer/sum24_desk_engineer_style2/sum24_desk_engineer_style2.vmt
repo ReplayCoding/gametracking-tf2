@@ -5,18 +5,14 @@
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phongexponenttexture"		"models/workshop/player/items/engineer/sum24_desk_engineer_style2/sum24_desk_engineer_style2_phongexponent"
 	"$phong"		"1"
-	"$phongexponent"		"0.000000"
-	"$phongboost"		"2.000000"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.100000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
-	"$rimmask"		"1"
-	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"0"
-	"$colortint_base"		"{ 72 56 56 }"
-	"$color2"		"{ 72 56 56 }"
-	"$colortint_tmp"		"[0 0 0]"
+	"$rimmask"		"0"
+	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -43,24 +39,13 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Multiply"
+		"Equals"
 		{
-			"srcVar1"		"$color2"
-			"srcVar2"		"$yellow"
+			"srcVar1"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}
