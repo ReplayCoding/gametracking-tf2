@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_laughter/trashcan_open"
+	"$bumpmap" "models/props_laughter/trashcan_open_normal"
+	"$bumpmapalphaphongmask"		"1"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "2.8"	
+	"$phongfresnelranges"	"[0 0.5 1]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "1"
+}

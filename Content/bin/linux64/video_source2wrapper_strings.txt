@@ -6,6 +6,13 @@ g_pMemAlloc
 __gxx_personality_v0
 __cxa_call_unexpected
 memset
+VideoPlaybackInitialize
+VideoPlaybackShutdown
+ThreadSleep
+memmove
+__cxa_atexit
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
 memcpy
 _SpewInfo
 _SpewMessage
@@ -17,17 +24,10 @@ _ExitOnFatalAssert
 _ZSt20__throw_system_errori
 DeleteVideoPlayer
 CreateVideoPlayer
-_ZTVN10__cxxabiv117__class_type_infoE
-_ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 __pthread_key_create
 pthread_mutex_unlock
 pthread_mutex_lock
-VideoPlaybackInitialize
-VideoPlaybackShutdown
-ThreadSleep
-memmove
-__cxa_atexit
 strtod
 strlen
 strcmp
@@ -124,6 +124,22 @@ u/UH
  ff.
 ` ff.
 ` ff.
+AUATI
+[A\A]]
+t$ 1
+t#H9
+D$0A
+[A\A]]
+A\A]]
+tKUH
+ATSH
+[A\]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 t4UH
 AWAVAUATI
 D9cL
@@ -139,11 +155,10 @@ AWAVAUATSH
 9WLI
 [A\A]A^A_]
 E 9E
-d-Yh
-o-<f
-`5v^
-h%b^
-`=A^
+o5nZ
+h=WV
+h%JV
+o=cU
 ] t4H
 ATSH
 e(t4H
@@ -207,22 +222,6 @@ R`I9
 @`L9
 R`I9
 @`L9
-AUATI
-[A\A]]
-t$ 1
-t#H9
-D$0A
-[A\A]]
-A\A]]
-tKUH
-ATSH
-[A\]
-AWAVAUI
-ATSH
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
 `Pf.
 G8#p(
 G8	p(
@@ -503,9 +502,9 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%p
-D;%T
-D9%h
+D9% 
+D;%d
+D9%x
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -613,9 +612,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -645,6 +641,7 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5^i
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -781,11 +778,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -1162,20 +1160,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -1200,6 +1194,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -1215,10 +1211,10 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
 AUE1
 ATE1
 A\D	
@@ -1395,28 +1391,6 @@ AUATUH
 |$ M
 []A\A]A^A_
 L;3r
-/data/src/video/source2_material.cpp
-Assertion Failed: unStrideU == unStrideV
-Assertion Failed: m_pVideoPlayer
-VideoCacheTextures
-UnlitGeneric
-$basetexture
-$nobasetexture
-$nofog
-$spriteorientation
-$translucent
-$nolod
-$nomip
-$gammacolorread
-14IBaseInterface
-19ITextureRegenerator
-14IVideoMaterial
-25IVideoPlayerVideoCallback
-25IVideoPlayerAudioCallback
-25IVideoPlayerEventCallback
-23CSource2WrapperMaterial
-ssssssssssssssss
-DDDDDDDDDDDDDDDD
 Source2Wrapper
 IVideoSubSystem002
 IEngineSoundClient003
@@ -1430,6 +1404,28 @@ Source2 Wrapper video subsystem failed to connect to missing a required system
 15CTier1AppSystemI15IVideoSubSystemLi0EE
 15CTier2AppSystemI15IVideoSubSystemLi0EE
 29CSource2WrapperVideoSubSystem
+?source2_material.cpp
+VideoCacheTextures
+UnlitGeneric
+$basetexture
+$nobasetexture
+$nofog
+$spriteorientation
+$translucent
+$nolod
+$nomip
+$gammacolorread
+Assertion Failed: unStrideU == unStrideV
+Assertion Failed: m_pVideoPlayer
+14IBaseInterface
+19ITextureRegenerator
+14IVideoMaterial
+25IVideoPlayerVideoCallback
+25IVideoPlayerAudioCallback
+25IVideoPlayerEventCallback
+23CSource2WrapperMaterial
+ssssssssssssssss
+DDDDDDDDDDDDDDDD
 {}()':
  game
  client
@@ -1492,7 +1488,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -1703,11 +1699,11 @@ MaterialSystemHardwareConfig012
 ;*3$"
 zPLR
 zPLR
-zPLR
-zPLR
-zPLR
 . ].
 .0V.
+zPLR
+zPLR
+zPLR
 zPLR
 zPLR
 r""\\

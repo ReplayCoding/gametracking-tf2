@@ -1,10 +1,20 @@
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_Z15mi_heap_try_newP9mi_heap_smb
+_ZNSt9bad_allocD1Ev@GLIBCXX_3.4
+_ZSt15get_new_handlerv@GLIBCXX_3.4.20
+_ZTISt9bad_alloc@GLIBCXX_3.4
+_ZTVSt9bad_alloc@GLIBCXX_3.4
+__cxa_allocate_exception@CXXABI_1.3
 __cxa_atexit@GLIBC_2.2.5
 __cxa_finalize@GLIBC_2.2.5
+__cxa_guard_acquire@CXXABI_1.3
+__cxa_guard_release@CXXABI_1.3
+__cxa_throw@CXXABI_1.3
 __environ@GLIBC_2.2.5
 __errno_location@GLIBC_2.2.5
 __gmon_start__
+__gxx_personality_v0@CXXABI_1.3
 __libc_calloc
 __libc_cfree
 __libc_free
@@ -16,12 +26,10 @@ __libc_valloc
 __lxstat64@GLIBC_2.2.5
 __lxstat@GLIBC_2.2.5
 __posix_memalign
-__stack_chk_fail@GLIBC_2.4
 __xmknod@GLIBC_2.2.5
 __xstat64@GLIBC_2.2.5
 __xstat@GLIBC_2.2.5
 _aligned_malloc
-abort@GLIBC_2.2.5
 access@GLIBC_2.2.5
 aligned_alloc
 calloc
@@ -70,7 +78,6 @@ mi_free_size_aligned
 mi_good_size
 mi_heap_alloc_new
 mi_heap_alloc_new_n
-mi_heap_calloc
 mi_heap_calloc_aligned
 mi_heap_calloc_aligned_at
 mi_heap_check_owned
@@ -102,7 +109,6 @@ mi_heap_rezalloc_aligned_at
 mi_heap_set_default
 mi_heap_strdup
 mi_heap_strndup
-mi_heap_try_new
 mi_heap_visit_blocks
 mi_heap_zalloc
 mi_heap_zalloc_aligned
@@ -204,6 +210,7 @@ realpath@GLIBC_2.3
 rename@GLIBC_2.2.5
 rmdir@GLIBC_2.2.5
 scandir@GLIBC_2.2.5
+sched_yield@GLIBC_2.2.5
 snprintf@GLIBC_2.2.5
 stderr@GLIBC_2.2.5
 stdout@GLIBC_2.2.5

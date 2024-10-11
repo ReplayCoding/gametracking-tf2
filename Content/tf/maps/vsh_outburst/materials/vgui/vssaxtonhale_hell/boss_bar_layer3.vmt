@@ -1,0 +1,18 @@
+"UnLitTwoTexture"
+{
+	"$baseTexture" "vgui\vssaxtonhale_hell\boss_bar_layer3_base"
+	"$texture2"    "effects/tiledfire/fireLayeredSlowTiled512"
+	"$additive" "1"
+	"$ignorez" 1
+	"%keywords" "tf"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 0
+		}
+	}
+}

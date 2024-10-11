@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SCROLLING_SOLID.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_blazehattan/c-1166_-2886_-176"
+		"Proxies"
+		{
+		}
+	}
+}

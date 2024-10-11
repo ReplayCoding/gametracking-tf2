@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"glass/glasswindow001b"
+	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" .5
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .3 .3 .3]"
+	"%keywords" "tf"
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 45 translate 0 0"
+	"$model" "1"
+	"$nocull" "1"
+}

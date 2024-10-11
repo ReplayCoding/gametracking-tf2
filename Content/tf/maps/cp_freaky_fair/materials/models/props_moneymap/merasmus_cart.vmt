@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_moneymap/merasmus_cart"
+	
+	"$basemapalphaphongmask" "1"
+	"$basemapalphaenvmapmask" 1 
+	
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"4.000000"
+	
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongwarptexture"  "models\weapons\v_bat\v_bat_phongwarp"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.25 .2 .15]"
+	
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "1"
+	"$phongfresnelranges" "[.3 2 1]"
+	
+	"$detail" "models/props_moneymap/merasmus_cart_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" .75
+	"$detailblendmode" 6
+}

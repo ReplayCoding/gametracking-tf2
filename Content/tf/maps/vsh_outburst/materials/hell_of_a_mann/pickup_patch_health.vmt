@@ -1,0 +1,22 @@
+"UnLitTwoTexture"
+{	
+	"$basetexture"	"hell_of_a_mann/pickup_patch_health"
+	"$texture2"    "effects/tiledfire/fireLayeredSlowTiled512"
+	"$additive" "1"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45
+		}
+	}
+}

@@ -20,16 +20,16 @@ if ( "InfectionLoaded" in getroottable() )
 ::flTimeLastSpawnSFX   <- 0.0;
 ::PDLogic              <- null;
 ::bSetupHasEnded       <- false;
+::bIsPayload           <- false;
 
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v2.2.1 - 14-10-2023";
+const VERSION       =  "v3.0.1 - 22/09/2024";
 
 ::INFECTION_CONVARS <-
 {
     "mp_autoteambalance"                   : 0,
     "mp_teams_unbalance_limit"             : 0,
-    "mp_disable_respawn_times"             : 1,
-    "mp_respawnwavetime"                   : 1,
+    "mp_disable_respawn_times"             : 0,
     "tf_classlimit"                        : 0,
     "mp_forcecamera"                       : 0,
     "sv_alltalk"                           : 1,
@@ -53,6 +53,8 @@ const VERSION       =  "v2.2.1 - 14-10-2023";
     "mp_tournament_readymode_countdown"    : 10,
     "mp_idledealmethod"                    : 0,
     "mp_tournament_stopwatch"              : 0,
+    "mp_tournament_redteamname"            : STRING_UI_TEAM_RED,
+    "mp_tournament_blueteamname"           : STRING_UI_TEAM_BLUE,
 };
 
 ::SetInfectionConvars <- function()
@@ -88,6 +90,8 @@ PrecacheScriptSound ( "Breakable.MatFlesh" );
 PrecacheScriptSound ( "Infection.DemoCharge" );
 PrecacheScriptSound ( "Infection.SoldierPounce" );
 PrecacheScriptSound ( "Infection.EngineerEMP" );
+PrecacheScriptSound ( "Infection.MedicZombieHeal" );
+PrecacheScriptSound ( "Infection.DemoChargeRamp" );
 
 PrecacheScriptSound ( "WeaponGrapplingHook.ImpactFlesh" );
 PrecacheScriptSound ( "Bounce.Flesh" );
@@ -175,6 +179,20 @@ arrZombieCosmeticModel <-
     PrecacheModel( MDL_ZOMBIE_PLAYER_MODEL_PYRO ),
     PrecacheModel( MDL_ZOMBIE_PLAYER_MODEL_SPY ),
     PrecacheModel( MDL_ZOMBIE_PLAYER_MODEL_ENGINEER ),
+];
+
+arrZombieCosmeticModelStr <-
+[
+    MDL_ZOMBIE_PLAYER_MODEL_SCOUT,
+    MDL_ZOMBIE_PLAYER_MODEL_SCOUT,
+    MDL_ZOMBIE_PLAYER_MODEL_SNIPER,
+    MDL_ZOMBIE_PLAYER_MODEL_SOLDIER,
+    MDL_ZOMBIE_PLAYER_MODEL_DEMOMAN,
+    MDL_ZOMBIE_PLAYER_MODEL_MEDIC,
+    MDL_ZOMBIE_PLAYER_MODEL_HEAVY,
+    MDL_ZOMBIE_PLAYER_MODEL_PYRO,
+    MDL_ZOMBIE_PLAYER_MODEL_SPY,
+    MDL_ZOMBIE_PLAYER_MODEL_ENGINEER,
 ];
 
 arrZombieFXWearable <-

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_murky/c-736_-2752_-896"
+		"Proxies"
+		{
+		}
+	}
+}

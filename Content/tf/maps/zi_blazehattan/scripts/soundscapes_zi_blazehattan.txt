@@ -1,0 +1,197 @@
+//Utilities
+"Util.StreetWar"
+{
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.5,0.75"
+		"pitch"		"90,105"	
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"		
+		"rndwave"
+		{
+			"wave"	"ambient/levels/streetwar/city_battle1.wav"
+			"wave"	"ambient/levels/streetwar/city_battle2.wav"
+			"wave"	"ambient/levels/streetwar/city_battle3.wav"
+			"wave"	"ambient/levels/streetwar/city_battle4.wav"
+			"wave"	"ambient/levels/streetwar/city_battle5.wav"
+			"wave"	"ambient/levels/streetwar/city_battle6.wav"
+			"wave"	"ambient/levels/streetwar/city_battle7.wav"
+			"wave"	"ambient/levels/streetwar/city_battle8.wav"
+			"wave"	"ambient/levels/streetwar/city_battle9.wav"
+			"wave"	"ambient/levels/streetwar/city_battle10.wav"
+
+			
+			"wave"	"ambient/levels/prison/inside_battle1.wav"
+			"wave"	"ambient/levels/prison/inside_battle2.wav"
+			"wave"	"ambient/levels/prison/inside_battle3.wav"
+			"wave"	"ambient/levels/prison/inside_battle4.wav"
+			"wave"	"ambient/levels/prison/inside_battle5.wav"
+			"wave"	"ambient/levels/prison/inside_battle6.wav"
+			"wave"	"ambient/levels/prison/inside_battle7.wav"
+			"wave"	"ambient/levels/prison/inside_battle8.wav"
+			"wave"	"ambient/levels/prison/inside_battle9.wav"
+		}
+		
+	}
+
+	"playrandom"
+	{
+		"time"		"3,15"
+		"volume"	"0.5,0.75"
+		"pitch"		"90,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"		
+		"rndwave"
+		{
+			"wave"	"ambient/levels/streetwar/city_battle11.wav"
+			"wave"	"ambient/levels/streetwar/city_battle12.wav"
+			//"wave"	"ambient/levels/streetwar/city_battle13.wav"
+			"wave"	"ambient/levels/streetwar/city_battle14.wav"
+			"wave"	"ambient/levels/streetwar/city_battle15.wav"
+			"wave"	"ambient/levels/streetwar/city_battle16.wav"
+			"wave"	"ambient/levels/streetwar/city_battle17.wav"
+			"wave"	"ambient/levels/streetwar/city_battle18.wav"
+			"wave"	"ambient/levels/streetwar/city_battle19.wav"
+		}
+		
+	}
+}
+
+"Util.Screams"
+{
+	"playrandom"
+	{
+		"time"		"8,15"
+		"volume"	"0.25,0.5"
+		"pitch"		"90,105"	
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"		
+		"rndwave"
+		{
+			"wave"	"ambient\halloween\female_scream_01.wav"
+			"wave"	"ambient\halloween\female_scream_02.wav"
+			"wave"	"ambient\halloween\female_scream_03.wav"
+			"wave"	"ambient\halloween\female_scream_04.wav"
+			"wave"	"ambient\halloween\female_scream_05.wav"
+			"wave"	"ambient\halloween\female_scream_06.wav"
+			"wave"	"ambient\halloween\female_scream_07.wav"
+			"wave"	"ambient\halloween\female_scream_08.wav"
+			"wave"	"ambient\halloween\female_scream_09.wav"
+			"wave"	"ambient\halloween\female_scream_10.wav"
+			
+			"wave"  "ambient\halloween\male_scream_03.wav"
+			"wave"  "ambient\halloween\male_scream_04.wav"
+			"wave"  "ambient\halloween\male_scream_05.wav"
+			"wave"  "ambient\halloween\male_scream_06.wav"
+			"wave"  "ambient\halloween\male_scream_07.wav"
+			"wave"  "ambient\halloween\male_scream_08.wav"
+			"wave"  "ambient\halloween\male_scream_09.wav"
+			"wave"  "ambient\halloween\male_scream_10.wav"
+			"wave"  "ambient\halloween\male_scream_11.wav"
+			"wave"  "ambient\halloween\male_scream_12.wav"
+			"wave"  "ambient\halloween\male_scream_13.wav"
+			"wave"  "ambient\halloween\male_scream_14.wav"
+			"wave"  "ambient\halloween\male_scream_15.wav"
+		}
+		
+	}
+}
+
+
+"ZHattan.General"
+{
+	"playsoundscape"
+	{
+		"name"	"Util.StreetWar"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name"	"Util.Screams"
+		"volume"	"0.6"
+	}
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient\fire\fire_med_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"wave"		"hacksaw/the_burning01.wav"
+	}
+	
+	"playlooping"
+	{  
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_outdoors.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"15,35"
+		"volume"	"0.75"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\machines\heli_pass1.wav"
+		}
+	}
+	
+		"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	"0.3"
+		"pitch"		"180"
+		"rndwave"
+		{
+			"wave"		"ambient\alarms\apc_alarm_pass1.wav"
+		}
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"soundlevel" 	"SNDLVL_85dB"
+		"position"		"7"
+		"wave"			"ambient/mvm_warehouse/warehouse_harbor.wav"	
+	}
+}
+
+"ZHattan.Inside"
+{
+	"playsoundscape"
+	{
+		"name"	"Util.StreetWar"
+		"volume"	".8"
+	}
+	"playsoundscape"
+	{
+		"name"	"Util.Screams"
+		"volume"	"0.5"
+	}
+	"playlooping"
+	{  
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_indoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\fire\fire_med_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".05"
+		"pitch"		"100"
+		"wave"		"hacksaw/the_burning01.wav"
+	}
+}

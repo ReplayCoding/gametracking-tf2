@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/OFFICE/WOODPANEL01C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_outburst/c8045_-4240_-7487"
+	}
+}

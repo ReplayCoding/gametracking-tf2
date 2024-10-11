@@ -1675,6 +1675,12 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_2nd_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่ชนะอันดับที่ 2 ใน AsiaFortress Liquid.tf Open ฤดูใบไม้ผลิ 2024"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd"				"อันดับที่ 3 AsiaFortress Liquid.tf Open"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่ชนะอันดับที่ 3 ใน AsiaFortress Liquid.tf Open ฤดูใบไม้ผลิ 2024"
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"อันดับที่ 1 AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นของทีม Xiao ซึ่งเป็นผู้ชนะ AsiaFortress Liquid.tf Invite ฤดูใบไม้ผลิ 2024"
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"อันดับที่ 2 AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นในทีม Ex Nihilo ซึ่งชนะอันดับที่ 2 ใน AsiaFortress Liquid.tf Invite ฤดูใบไม้ผลิ 2024"
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd"				"อันดับที่ 3 AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นในทีม United Beasts ซึ่งชนะอันดับที่ 3 ใน AsiaFortress Liquid.tf Invite ฤดูใบไม้ผลิ 2024"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant"				"ผู้เข้าร่วม AsiaFortress Liquid.tf Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่เข้าร่วมใน AsiaFortress Liquid.tf Invite ฤดูใบไม้ผลิ 2024"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"ผู้เข้าร่วม AsiaFortress Liquid.tf Open"
@@ -2821,6 +2827,7 @@
 "TF_TournamentMedal_TFArena_6v6_Bronze"					"เหรียญทองแดง TFArena"
 "TF_TournamentMedal_TFArena_6v6_EliteDivision_Bronze"		"อันดับที่ 3 TFArena Elite Division"
 "TF_TournamentMedal_TFArena_6v6_ExperiencedDivision_Bronze"	"อันดับที่ 3 TFArena Experienced Division"
+"TF_TournamentMedal_TFArena_6v6_RookieDivision_Bronze"		"อันดับที่ 3 TFArena Rookie Division"
 "TF_TournamentMedal_TFArena_6v6_Bronze_Cup1_Desc"		"อันดับที่ 3 TFArena 6v6 Arena Mode Cup 1"
 "TF_TournamentMedal_TFArena_6v6_Bronze_Cup2_Desc"		"อันดับที่ 3 TFArena 6v6 Arena Mode Cup 2"
 "TF_TournamentMedal_TFArena_6v6_Bronze_Cup3_Desc"		"อันดับที่สาม TFArena 6v6 Arena Mode Cup 3"
@@ -6066,6 +6073,10 @@
 "cp_spookeyridge_first"					"จุดยุทธศาสตร์แรก"
 "cp_spookeyridge_final"					"จุดยุทธศาสตร์สุดท้าย"
 "arena_lumberyard_event_sudden_death"	"รอบตัดสิน!"
+"arena_lumberyard_event_stop"			"เลิกเป็นพวกขี้แพ้ซะที"
+"arena_lumberyard_event_red_wins"		"ทีม RED ชนะรอบ!"
+"arena_lumberyard_event_blu_wins"		"ทีม BLU ชนะรอบ!"
+"arena_lumberyard_event_point_open"		"จุดนี้เปิดอยู่!"
 "cp_frostwatch_east"					"หอคอยทิศตะวันออก"
 "cp_frostwatch_west"					"หอคอยทิศตะวันตก"
 "cp_frostwatch_south"					"หอคอยทิศใต้"
@@ -6085,6 +6096,43 @@
 "cp_lavapit_final_C"					"จุดยุทธศาสตร์ C"
 "pl_corruption_asylum"					"Asylum"
 "zi_murky_infection"					"การติดเชื้อแฝงตัวอยู่ในพวกคุณ..."
+"arena_perks_1"                         "โหวตเลือกเพิร์กที่คุณต้องการให้ทีมของคุณได้รับ!\nเอฟเฟกต์จะคงอยู่จนกว่าทีมจะชนะ"
+"arena_perks_2"                         "เพิร์กที่คุณเลือกมาจนถึงตอนนี้จะปรากฏในจอแก้ว!"
+"arena_perks_message_bluvoted"          "ทีม BLU โหวตให้กับ:"
+"arena_perks_message_bluwins"           "ทีม BLU ชนะรอบ!"
+"arena_perks_message_redvoted"          "ทีม RED โหวตให้กับ:"
+"arena_perks_message_redwins"           "ทีม RED ชนะรอบ!"
+"arena_perks_message_latejoin"          "รอบปัจจุบันกำลังดำเนินอยู่"
+"arena_perks_skeleton_desc"             "เมื่อคุณตาย\nอัญเชิญโครงกระดูก\nของฝ่ายเราขึ้นมาได้!"
+"arena_perks_skeleton_name"             "Gravedigging"
+"arena_perks_haste_desc"                "คุณได้รับความเร็วในการเคลื่อนที่ +10%"
+"arena_perks_haste_name"                "Haste"
+"arena_perks_precision_desc"            "คุณได้เพิ่มความเร็วและลดการกระจาย\nของกระสุน +50%"
+"arena_perks_precision_name"            "Precision"
+"arena_perks_minitofull_desc"           "ตอนนี้มินิคริติคอลของคุณ\nจะกลายเป็นคริติคอลจัดเต็มแล้ว"
+"arena_perks_minitofull_name"           "Conversion"
+"arena_perks_reveal_desc"               "เมื่อคุณฆ่าศัตรูได้\nจะทำให้เปิดเผยตำแหน่งของศัตรู\n3 คนที่อยู่ใกล้ที่สุดเป็นระยะเวลา 5 วินาที"
+"arena_perks_reveal_name"               "Reveal"
+"arena_perks_mark_desc"                 "เมื่อคุณตาย\nผู้ที่ฆ่าคุณจะถูกทำเครื่องหมายแห่งความตาย\nเป็นระยะเวลา 6 วินาที"
+"arena_perks_mark_name"                 "Haunting"
+"arena_perks_resistance_desc"           "คุณได้รับความเสียหายน้อยลง 10%"
+"arena_perks_resistance_name"           "Resistance"
+"arena_perks_healing_desc"              "การรักษาทั้งหมด\nมีประสิทธิภาพเพิ่มขึ้นอีก 40%"
+"arena_perks_healing_name"              "Extra Provisions"
+"arena_perks_focus_desc"                "เมื่อปลดล็อคจุดแล้ว\nคุณจะได้รับอัตราการยึดครองจุด +1 หน่วย\nและความต้านทานความเสียหาย +20%"
+"arena_perks_focus_name"                "Stronghold"
+"arena_perks_quickfingers_desc"         "คุณได้รับความเร็วการยิง\nความเร็วการบรรจุกระสุน\nและความเร็วการสลับอาวุธเพิ่มขึ้น 15%"
+"arena_perks_quickfingers_name"         "Quickdraw"
+"arena_perks_killcrits_desc"            "เมื่อคุณฆ่าศัตรูได้\nคุณจะได้รับมินิคริติคอล\nเป็นระยะเวลา 2 วินาที!"
+"arena_perks_killcrits_name"            "Bloodlust"
+"arena_perks_honorable_desc"            "อาวุธระยะประชิดของคุณ\nสร้างความเสียหายเพิ่มขึ้นเป็น 2 เท่า"
+"arena_perks_honorable_name"            "Honorable Combat"
+"arena_perks_reserve_desc"              "คุณได้รับขนาดแมกกาซีน\nและการฟื้นฟูกระสุนและเหล็ก\nเพิ่มขึ้นอีก +50%"
+"arena_perks_reserve_name"              "Ammo Reserve"
+"arena_perks_revive_desc"               "คุณสามารถถูกชุบชีวิตโดย Medic ได้\nหนึ่งครั้งต่อรอบ"
+"arena_perks_revive_name"               "Second Chance"
+"arena_perks_cloak_desc"                "คุณเริ่มต้นมาด้วย\nระยะเวลาล่องหน 15 วินาที\n(การล่องหนจะสิ้นสุดลงหากโดนยิง)"
+"arena_perks_cloak_name"                "Cloaking"
 "koth_krampus_boss"						"KRAMPUS"
 "koth_krampus_spawn"					"FFCC22ปีนี้คุณดื้อน่าดู! เตรียมตัวเตรียมใจพบกับ KRAMPUS ได้เลย!"
 "koth_krampus_death"					"FFCC22KRAMPUS! ถูกกำราบแล้ว!"
@@ -10499,6 +10547,7 @@
 "TF_Tool_CustomTextureItem"		 "Decal Tool"
 "TF_Tool_CustomTextureItem_Desc"	 "เพิ่มรูปลอกแบบกำหนดเองใส่ไอเท็มที่รองรับ"
 "TF_Tool_BackpackExpander"		"Backpack Expander"
+"TF_Tool_BackpackExpander_Desc"	"เพิ่มช่องพิเศษ 100 ช่องแก่กระเป๋าของคุณ!\n(สูงสุด 4000 ช่อง)"
 "TF_Tool_AccountUpgradeToPremium"		"Upgrade to Premium Gift"
 "TF_Tool_AccountUpgradeToPremium_Desc"	"ส่งไอเท็มนี้ผ่านการแลกเปลี่ยนไปให้เพื่อนที่เป็นบัญชีฟรี เมื่อเขาใช้ไอเท็ม เขาจะถูกเปลี่ยนเป็นบัญชีพรีเมี่ยมโดยอัตโนมัติ และจะเพลินกับไอเท็มเสริม เช่น ช่องเพิ่มเติมของกระเป๋า"
 
@@ -13690,7 +13739,7 @@
 "TF_Armory_Item_Limited"			"ไอเท็มนี้สามารถหาได้ในร้านค้าในระยะเวลาจำกัดเท่านั้น! ไอเท็มนี้จะไม่สามารถหาได้จากการดรอปหรือเปิดกล่อง"
 "TF_Armory_Item_Limited_Holiday"	"ไอเท็มนี้วางขายเป็นเวลาจำกัด เฉพาะเทศกาลฮัลโลวีนนี้เท่านั้น!"
 "TF_Armory_Item_MapToken"			"เมื่อไอเท็มนี้ถูกซื้อแล้ว เงินที่ได้ทั้งหมด (ยอดสุทธิหลังหักภาษี) จะไปสู่สมาชิกชุมชนที่สร้างแผนที่โดยตรง\n\nเลเวลการเป็นสมาชิกจะเพิ่มขึ้นทุก 25 แสตมป์แผนที่\n\nWorld Traveler's Hat จะถูกมอบให้เมื่อซื้อแสตมป์แผนที่เป็นครั้งแรกอีกด้วย"
-"TF_Armory_Item_BackpackExpander"	"เมื่อใดที่ไอเท็มนี้ถูกใช้งาน มันจะเพิ่มช่องว่างพิเศษให้ 100 ช่องไปยังกระเป๋าของคุณ โปรดจำเอาไว้ว่าช่องว่างสูงสุดมีถึงแค่ 3000 ช่องเท่านั้น"
+"TF_Armory_Item_BackpackExpander"	"เมื่อใดที่ใช้งานไอเท็มนี้ กระเป๋าของคุณจะมีช่องว่างพิเศษเพิ่มขึ้น 100 ช่อง โปรดทราบว่าช่องว่างมีจำนวนสูงสุดแค่ 4000 ช่องเท่านั้น"
 "TF_Armory_Item_CanCustomizeTexture"	"คุณสามารถนำรูปภาพแบบกำหนดมาใช้บนไอเท็มนี้โดยใช้ Decal Tool ซื้อไอเท็มนี้และได้รับ Decal Tool ฟรีเพื่อเริ่มใช้งาน! รูปลอกจะถูกทำโดยการเลือกชุดสีขนาดเล็กจากศิลปะแบบ TF2 และปรับแต่งรูปของคุณให้เหมาะสมกับชุดสีนั้น"
 
 "TF_Armory_Item_StrangePart"		"ไอเท็มนี้คือชิ้นส่วน Strange (Strange Part) มันสามารถนำไปใช้กับไอเท็มชนิด Strange ที่คุณเป็นเจ้าของอยู่ได้หนึ่งชิ้น เปิดใช้งานมันเพื่อติดตามสถิติใหม่เพิ่มเติม"
@@ -13939,7 +13988,7 @@
 
 "IT_YourModel"		"โมเดลใหม่ของคุณ:"
 "IT_MDL_Files"		"ไฟล์โมเดล (*.mdl)"
-"IT_NoModel"		"<none selected>"
+"IT_NoModel"		"<ไม่ได้เลือกไว้>"
 "IT_ExistingItem"	"หรือไอเท็มที่มีอยู่:"
 "IT_SelectModel"	"เลือกโมเดล"
 "IT_ItemType"		"ประเภทไอเท็ม:"
@@ -17998,6 +18047,12 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 หมายเหตุอื่น:
 ยิงโดรนระเบิดของเอเลี่ยนเพื่อสังหารศัตรูหรือทำลายสิ่งก่อสร้างของ Engineer"
 
+"arena_perks_description"			"เป้าหมายภารกิจ:
+เพื่อชนะคะแนน กำจัดทีมศัตรูทั้งหมดหรือยึดจุดจุดยุทธศาสตร์ให้ได้
+ 
+หมายเหตุอื่น:
+เมื่อเริ่มต้นแต่ละรอบ ให้โหวตเลือกความสามารถพิเศษอันทรงพลังร่วมกับทีมของคุณ!"
+
 "koth_krampus_description"			"Frohe Krampus Nacht!
 
 เป้าหมายภารกิจ:
@@ -18142,6 +18197,8 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 "TF_Voice_Unavailable"				"การสื่อสารผ่านเสียงไม่พร้อมใช้งานสำหรับบัญชีนี้"
 
 "TF_Invalid_Inspect_Target"			"ตรวจสอบเป้าหมายไม่ถูกต้อง"
+
+"arena_perks_message_tie"		"เสมอกัน!"
 
 }
 }

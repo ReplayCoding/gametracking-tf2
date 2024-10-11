@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/vsh/player/hell_hale/eye"
+	"$basemapalphaphongmask" "1"
+    "$detail" 			"models/vsh/player/hell_hale/eye.vtf"	
+    "$detailscale" 		"1"
+    "$detailblendfactor" 	"1.0"
+    "$detailblendmode" 	"6"
+
+	// Cloaking
+	"$cloakPassEnabled" 	"1"
+
+	"Proxies"
+	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
+	}
+}

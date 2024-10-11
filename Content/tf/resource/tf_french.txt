@@ -1679,6 +1679,12 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_2nd_Spring2024"	"Décernée aux personnes qui ont obtenu la 2ᵉ place lors de la saison printanière 2024 d'AsiaFortress Liquid.tf Open."
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd"				"3ᵉ place - AsiaFortress Liquid.tf Open"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Spring2024"	"Décernée aux personnes qui ont obtenu la 3ᵉ place lors de la saison printanière 2024 d'AsiaFortress Liquid.tf Open."
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"1ʳᵉ place - AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Décernée aux membres de Xiao, l'équipe gagnante de la saison printanière 2024 d'AsiaFortress Liquid.tf Invite."
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"2ᵉ place - AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"Décernée aux membres d'Ex Nihilo, qui ont obtenu la 2ᵉ place lors de la saison printanière 2024 d'AsiaFortress Liquid.tf Invite."
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd"				"3ᵉ place - AsiaFortress Liquid.tf Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"Décernée aux membres d'United Beasts, qui ont obtenu la 3ᵉ place lors de la saison printanière 2024 d'AsiaFortress Liquid.tf Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant"				"Médaille de participation - AsiaFortress Liquid.tf Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2024"	"Décernée aux personnes qui ont participé à la saison printanière 2024 d'AsiaFortress Liquid.tf Invite."
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"Médaille de participation - AsiaFortress Liquid.tf Open"
@@ -11119,6 +11125,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_Tool_CustomTextureItem"		 "Outil de décalcomanie"
 "TF_Tool_CustomTextureItem_Desc"	 "Ajoutez une décalcomanie personnalisée aux objets compatibles."
 "TF_Tool_BackpackExpander"		"Agrandisseur d'Inventaire"
+"TF_Tool_BackpackExpander_Desc"	"Ajoute 100 nouveaux emplacements à votre inventaire !\n(4 000 emplacements max.)"
 "TF_Tool_AccountUpgradeToPremium"		"Cadeau d'amélioration premium"
 "TF_Tool_AccountUpgradeToPremium_Desc"	"Échangez cet objet avec un ami possédant un compte gratuit. Lorsqu'il l'utilisera, il se verra automatiquement octroyer un compte premium et profitera de tous les avantages de celui-ci, comme des emplacements supplémentaires dans son inventaire."
 
@@ -14474,7 +14481,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_Armory_Item_Limited"			"Cet objet n'est disponible dans le magasin que pour un temps limité ! Il n'est pas pour l'instant possible de le trouver normalement en jeu ou dans une caisse."
 "TF_Armory_Item_Limited_Holiday"	"Cet objet est uniquement disponible dans le magasin, pour une durée limitée à celle de cet évènement spécial !"
 "TF_Armory_Item_MapToken"			"Quand cet objet est acheté, tous les bénéfices iront directement à ceux qui ont créé la carte.\n\nLe niveau de membre pour une carte augmente pour 25 timbres de carte achetés.\n\nUn Chapeau de Globe-trotteur sera donné la première fois que n'importe quel timbre de carte sera acheté."
-"TF_Armory_Item_BackpackExpander"	"Utiliser cet objet rajoute 100 emplacements supplémentaires dans votre inventaire. Veuillez noter qu'il y a un maximum de 3000 emplacements."
+"TF_Armory_Item_BackpackExpander"	"Utiliser cet objet ajoute 100 emplacements supplémentaires à votre inventaire. Veuillez noter qu'il y a un maximum de 4 000 emplacements."
 "TF_Armory_Item_CanCustomizeTexture"	"Vous pouvez appliquer une image personnalisée sur cet objet en utilisant un outil de décalcomanie. Achetez cet objet et recevez un outil de décalcomanie GRATUIT pour essayer ! La décalcomanie est faite en réduisant la palette de couleurs de votre image pour l'adapter à l'univers de TF2."
 
 "TF_Armory_Item_StrangePart"		"Cet objet est une Pièce Étrange. Il peut être appliqué à une arme de type étrange qui vous appartient, lui permettant de suivre une statistique supplémentaire."
@@ -18637,7 +18644,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum24_botler_2000_style1"				"Avec boisson"
 "TF_sum24_botler_2000_style2"				"Sans boisson"
 "TF_sum24_brand_loyalist"				"Fidèle client" // ADD THE
-"TF_sum24_desk_engineer"				"Ingénieur cadre"
+"TF_sum24_desk_engineer"				"Ingénieur-cadre"
 "TF_sum24_desk_engineer_style1"				"Décontracté"
 "TF_sum24_desk_engineer_style2"				"Bureaucrate"
 "TF_sum24_desk_engineer_style3"				"Postulant"

@@ -1,0 +1,23 @@
+"UnLitTwoTexture"
+{
+    "$basetexture"    "overlays/patch666b"
+	"%tooltexture" "overlays/patch666"
+    "$texture2"       "effects/tiledfire/fireLayeredSlowTiled512"
+    "$additive"       "1"
+    "$decal"          "1"
+    "$decalscale"     "0.05"
+    "$translucent"    "1"
+    "$vertexcolor"    "1"
+    "$vertexalpha"    "1"
+    "%keywords"       "tf"
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$texture2transform"
+            "texturescrollrate" .05
+            "texturescrollangle" 45
+        }
+    }
+}

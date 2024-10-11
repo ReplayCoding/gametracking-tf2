@@ -35,6 +35,59 @@ function Main()
 };
 
 // changes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 22/09/2024 - v3.0.1 ------------------------------------------------------------------------------------------------- //
+// -- Added unique kill icons for Zombie arms and Zombie abilities                                                       //
+// -- Updated localization strings for Zombie abilities                                                                  //
+// 19/09/2024 - v3.0.0 BETA -------------------------------------------------------------------------------------------- //
+// -- General Changes                                                                                                    //
+// -- -- Removed "mp_respawnwavetime" from Infection convars, respawn wave time will now depend on map configuration     //
+// -- -- Changed team names to "Survivors" and "Zombies" (Instead of "RED" and "BLU")                                    //
+// -- -- -- Note: this change is only visible in casual mode or servers with mp_tournament set to 1                      //
+// -- -- Survivor Spies can now disguise as Zombie players                                                               //
+// -- -- Human Spy can now disguise as a Zombie and will be seen as a Zombie by the enemy team                           //
+// -- -- The Pomson 6000 now puts Zombie abilities on cooldown on hit                                                    //
+// -- -- Human Pyro can now destroy Zombie Engineer's EMP Grenade by hitting it with the Homewrecker                     //
+// -- -- Walking in to Sniper's Spit now consumes the Spycicle and prevents initial damage                               //
+// -- -- Standing in Sniper's Spit now emits additional sound effects on the players for better feedback                 //
+// -- Zombie Changes                                                                                                     //
+// -- -- Removed Out of combat speed buff from all Zombies                                                               //
+// -- -- Zombie Pyro                                                                                                     //
+// -- -- -- Zombie Pyro has a new ability - "Dragon's Breath"                                                            //
+// -- -- -- -- Fires a fireball in a line that explodes on impact                                                        //
+// -- -- -- -- The initial cast of the fireball can reflect projectiles and airblast enemies                             //
+// -- -- -- Zombie Pyro now deals mini-crits to burning players on melee hit                                             //
+// -- -- -- Zombie Pyro now creates a small explosion on death, knocking back enemies in a 125 hu radius                 //
+// -- -- Zombie Demoman                                                                                                  //
+// -- -- -- Added new sound effects to Zombie Demoman's Blast Charge ability                                             //
+// -- -- Zombie Heavy                                                                                                    //
+// -- -- -- Zombie Heavy's health reduced to 450 (from 600)                                                              //
+// -- -- -- Zombie Heavy now drops a Medium Health Kit on death                                                          //
+// -- -- Zombie Sniper                                                                                                   //
+// -- -- -- Zombie Sniper's Spit damage vs buildables is now reduced by half                                             //
+// -- -- -- Zombie Sniper's Spit now applies a screen overlay to players standing in the pool                            //
+// -- -- Zombie Medic                                                                                                    //
+// -- -- -- Zombie Medic now emits health like a dispenser to nearby Zombies                                             //
+// -- -- -- Zombie Medic can no longer attack while using Heal                                                           //
+// -- -- -- Added a new sound effect for Zombie Medic's Heal ability                                                     //
+// -- -- Zombie Spy                                                                                                      //
+// -- -- -- Zombie Spy no longer emits particle effects while cloaked                                                    //
+// -- Bug Fixes                                                                                                          //
+// -- -- Fixed a bug that allowed Zombie Demoman to survive his own Blast Charge (Thanks gasous nebule!)                 //
+// -- -- Fixed a bug that caused Zombie Demoman to not receive kill credit when killing players with Blast Charge        //
+// -- -- Fixed a bug that caused Zombies to not gib correctly                                                            //
+// -- -- Fixed a bug that caused Zombie cosmetics to persist on RED players after the round restarts                     //
+// -- -- Fixed a bug that caused Zombie Sniper's Spit Pool to nudge players slightly in certain circumstances            //
+// -- -- Fixed a bug that caused players to have the incorrect player skin when respawning at round start                //
+// -- -- Fixed a bug that would cause players to get stuck in spectate mode when attempting to join a game in progress   //
+// -- -- Fixed an issue with "game_text" entities not being correctly cleared after round reset                          //
+// -- -- -- Note: this was originally an issue on MacOS, which is no longer supported by Team Fortress 2                 //
+// -- -- Fixed various other bugs with performance, entity management, stability, visuals and sound.                     //
+// 22/06/2024 - v2.2.2 ------------------------------------------------------------------------------------------------- //
+// -- Added experimental Payload logic to Infection mode                                                                 //
+// -- -- Payload logic is automatically enabled when the PL hud is detected                                              //
+// -- -- Zombie spawns are enabled/disabled by proximity to the payload cart                                             //
+// -- -- Humans dying no longer adds time to the clock in payload mode                                                   //
+//                                                                                                                       //
 // 14/10/2023 - v2.2.1 ------------------------------------------------------------------------------------------------- //
 // -- If a game is in progress and there are no players on BLU team or RED team the game will now end.                   //
 // -- Fixed a bug that allowed Dead Ringer spies to die without triggering a round loss                                  //
@@ -111,6 +164,7 @@ ClearGameEventCallbacks();
 function OnPostSpawn()
 {
     AddThinkToEnt( self, "GameStateThink" );
+    IncludeScript( "infection/payload_logic.nut", root);
 }
 
 function OnGameEvent_teamplay_round_win( params )
@@ -133,6 +187,11 @@ function OnGameEvent_player_spawn( params )
     // we use the script overlay material for zombie ability hud
     // so let's make sure it's cleared whenever a player has respawned
     _hPlayer.SetScriptOverlayMaterial( "" );
+
+    // also set their playermodel back to normal
+    _hPlayer.SetCustomModelWithClassAnimations( arrTFClassPlayerModels[ _hPlayer.GetPlayerClass() ] );
+
+    // and reset infection specific vars
     _hPlayer.ResetInfectionVars();
 
     // game hasn't started, player should be a survivor
@@ -187,6 +246,8 @@ function OnGameEvent_player_spawn( params )
         // add the zombie cosmetics/skin modifications
         _hPlayer.GiveZombieCosmetics();
         _hPlayer.GiveZombieFXWearable();
+
+        SendGlobalGameEvent( "post_inventory_application", { userid = GetPlayerUserID(_hPlayer) });
 
         // make sure their health is correct
         _hPlayer.SetHealth ( _hPlayer.GetMaxHealth() );
@@ -298,6 +359,8 @@ function OnGameEvent_teamplay_setup_finished( params )
         _nextPlayer.GiveZombieCosmetics();
         _nextPlayer.GiveZombieFXWearable();
 
+        SendGlobalGameEvent( "post_inventory_application", { userid = GetPlayerUserID(_nextPlayer) });
+
         // add the pending zombie flag
         // the actual zombie conversion is handled in the player's think script
         _sc.m_iFlags <- ( ( _sc.m_iFlags | ZBIT_PENDING_ZOMBIE ) );
@@ -390,6 +453,12 @@ function OnGameEvent_teamplay_restart_round( params )
         _hNextPlayer.SetHealth( _hNextPlayer.GetMaxHealth() );
     };
 
+    local _hGameTextEntity = null;
+    while ( _hGameTextEntity = Entities.FindByClassname( _hGameTextEntity, "game_text" ) )
+    {
+        _hGameTextEntity.Destroy();
+    };
+
     return;
 };
 
@@ -408,8 +477,17 @@ function OnGameEvent_player_death( params )
     local _hPlayerTeam         =  _hPlayer.GetTeam();
     local _bIsEngineerWithEMP  =  ( _hPlayer.GetPlayerClass() == TF_CLASS_ENGINEER && _hPlayer.CanDoAct( ZOMBIE_ABILITY_CAST ) );
 
+    SetPropIntArray( _hPlayer, "m_nModelIndexOverrides", 0, 3 );
+
     if ( ::bGameStarted && _hPlayerTeam == TF_TEAM_BLUE ) // zombie has died
     {
+
+        if ( _iClassNum ==  TF_CLASS_MEDIC )
+        {
+            if ( _sc.m_hMedicDispenser )
+                _sc.m_hMedicDispenser.Destroy();
+        }
+
         // zombie engie with unused emp grenade drops a small ammo kit
         // so just use the one valve spawned for us
         if ( !_bIsEngineerWithEMP )
@@ -430,30 +508,21 @@ function OnGameEvent_player_death( params )
             _sc.m_hZombieAbility.CreateSpitball( true );
         };
 
-        // zombie pyro drops a gas jar and sets all nearby players on fire
-        if ( _hPlayer.GetPlayerClass() == TF_CLASS_PYRO )
-        {
-            local _hGas = SpawnEntityFromTable( "tf_projectile_jar_gas",
-            {
-                origin = _hPlayer.GetLocalOrigin(),
-            });
-
-            _hGas.SetOwner( _hPlayer );
-
+         if ( _hPlayer.GetPlayerClass() == TF_CLASS_PYRO )
+         {
             local _hNextPlayer = null;
-            while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 256 ) )
+            local _hKillicon = KilliconInflictor( KILLICON_PYRO_BREATH );
+
+            while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 125 ) )
             {
                 if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
                 {
-                    // trigger a 1 dmg attack from pyro on each player in the area
-                    // this will set them on fire.
-                    _hNextPlayer.TakeDamageEx( _hPlayer,
-                                               _hPlayer,
-                                               _hPlayer.GetActiveWeapon(),
-                                               Vector(0,0,0),
-                                               _hNextPlayer.GetLocalOrigin(), 1, ( DMG_CLUB ) )
+                    KnockbackPlayer           ( _hPlayer, _hNextPlayer, 210, 0.85, true );
+                    _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
                 };
             };
+
+            _hKillicon.Destroy();
 
             EmitSoundOn            ( SFX_PYRO_FIREBOMB, _hPlayer );
             DispatchParticleEffect ( "fireSmokeExplosion_track", _hPlayer.GetLocalOrigin(), Vector( 0, 0, 0 ) );
@@ -461,7 +530,15 @@ function OnGameEvent_player_death( params )
         else
         {
             // zombies (that aren't pyro) always create a small health kit on death
-            CreateSmallHealthKit( _hPlayer.GetOrigin() );
+            if ( _hPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS )
+            {
+                CreateMediumHealthKit( _hPlayer.GetOrigin() );
+            }
+            else
+            {
+                CreateSmallHealthKit( _hPlayer.GetOrigin() );
+            }
+
         };
 
         // ------------------------------------- //
@@ -511,10 +588,13 @@ function OnGameEvent_player_death( params )
         // hide our fx wearable to stop the particles from generating
         SetPropInt( _sc.m_hZombieFXWearable, "m_nRenderMode", kRenderNone );
 
+        // _sc.m_hZombieWearable.Kill();
+        // SendGlobalGameEvent( "post_inventory_application", { userid = GetPlayerUserID(_hPlayer) });
+
         try { _sc.m_hZombieFXWearable.Destroy() } catch ( e ) {}
 
         return; // zombie death event ends here
-    };
+    }
 
     if ( ::bGameStarted ) // if the game is started, a dying survivor becomes a zombie
     {
@@ -559,7 +639,7 @@ function OnGameEvent_player_death( params )
             _sc.m_bCanAddTime <- false;
         };
 
-        PlayGlobalBell( true );
+        PlayGlobalBell( false );
 
         local _hRoundTimer = Entities.FindByClassname( null, "team_round_timer" );
 
@@ -585,6 +665,9 @@ function OnGameEvent_player_death( params )
             EntFireByHandle( _hRoundTimer, "auto_countdown", "0", 0, null, null );
         }
 
+        if ( bIsPayload )
+            return; // don't add time to the round timer if it's a payload map
+
         EntFireByHandle( _hRoundTimer, "AddTime", ADDITIONAL_SEC_PER_PLAYER.tostring(), 0, null, null );
     };
 };
@@ -601,6 +684,18 @@ function OnScriptHook_OnTakeDamage( params )
     local _iWeaponIDX     =   0;
     local _szWeaponName   =   "none";
     local _iForceGibDmg   =   ( _hVictim.GetMaxHealth() + 20 );
+    local _szKillicon     =   "";
+
+    if ( _hVictim.GetName() == "engie_nade_physprop" )
+    {
+        if ( _hAttacker.GetClassname() == "player" ) // must check before trying to access active weapon
+        {
+            if ( _hAttacker.GetPlayerClass() == TF_CLASS_PYRO && _hAttacker.GetActiveWeapon().GetPropInt( STRING_NETPROP_ITEMDEF ) == 153 ) // homewrecker
+            {
+                _hVictim.GetScriptScope().m_bMustFizzle <- true;
+            }
+        }
+    }
 
     if ( _hVictim.GetClassname() != "player" || _hVictim.GetClassname() == "player" && _hVictim.GetHealth() <= 0 )
         return;
@@ -623,6 +718,9 @@ function OnScriptHook_OnTakeDamage( params )
         if ( _hVictim == _hAttacker && _hInflictor.GetClassname() == "tf_generic_bomb" )
             params.damage <- ( _iForceGibDmg );
 
+        if ( params.damage >= ( _hVictim.GetHealth() ) )
+            params.damage <- ( _iForceGibDmg );
+
         return;
     };
 
@@ -633,9 +731,13 @@ function OnScriptHook_OnTakeDamage( params )
         // ---------------------------------------------------------------------- //
         // On Zombie receives damage from player                                  //
         // ---------------------------------------------------------------------- //
-        // add DMG_NEVERGIB and DMG_BLAST to the damage bits
+        // add DMG_BLAST to the damage bits
         // to force the zombie to explode in to gibs
-        params.damage_type <- ( params.damage_type | DMG_NEVERGIB | DMG_BLAST );
+        if ( params.damage_type & ~DMG_BLAST )
+        {
+            // if the damage isn't already blast we add blast
+            params.damage_type <- ( _iOriginalDmgBits | DMG_BLAST | DMG_PREVENT_PHYSICS_FORCE );
+        }
 
         if ( _szWeaponName != "worldspawn" )
         {
@@ -643,9 +745,6 @@ function OnScriptHook_OnTakeDamage( params )
             // so only set this if it's not world damage
             _sc.m_fTimeLastHit <- Time();
         }
-
-        // remove out of combat buff
-        _hVictim.RemoveOutOfCombat();
 
         // ---------------------------------------------------------------------- //
         // make sure we're not modifying a weapon with a special kill attribute   //
@@ -661,12 +760,6 @@ function OnScriptHook_OnTakeDamage( params )
         {
             params.damage_type <- ( _iOriginalDmgBits );
         };
-
-        // // jarate causes critical hits on zombies
-        // if ( _hVictim.InCond( TF_COND_URINE ) )
-        // {
-        //     params.damage_type <- ( params.damage_type | DMG_ACID );
-        // };
 
         if ( _hVictim.GetPlayerClass() == TF_CLASS_PYRO && ( params.damage_type & DMG_BURN ) )
         {
@@ -707,7 +800,6 @@ function OnScriptHook_OnTakeDamage( params )
                     break;
 
                 case TF_CLASS_PYRO:
-
                     if ( _hVictim.GetPlayerClass() != TF_CLASS_PYRO )
                         return;
 
@@ -776,18 +868,8 @@ function OnScriptHook_OnTakeDamage( params )
          _hVictim.GetTeam() == TF_TEAM_RED &&
          _hAttacker.GetTeam() == TF_TEAM_BLUE )
     {
-        local _sc = _hAttacker.GetScriptScope();
 
-        // if ( _hVictim.GetPlayerClass() == TF_CLASS_DEMOMAN )
-        // {
-        //     // actually, you know what. let's not do this.
-        //     //reduce incoming damage from zombies for survivors
-        //     //when wearing a demoshield
-        //     // if ( _hVictim.HasThisWearable( "tf_wearable_demoshield" ) )
-        //     // {
-        //     //     params.damage <- ( params.damage * 0.5 );
-        //     // };
-        // };
+        local _sc = _hAttacker.GetScriptScope();
 
         // ----------------------------------------------------------- //
         // zombie heavy knock up effect                                //
@@ -815,6 +897,11 @@ function OnScriptHook_OnTakeDamage( params )
         // zombie pyro on-hit fire effect                              //
         // ----------------------------------------------------------- //
 
+        if ( _hVictim.InCond( TF_COND_BURNING ) && params.damage_type & DMG_CLUB )
+        {
+            _hAttacker.AddCondEx( TF_COND_OFFENSEBUFF, 0.1, _hAttacker )
+        }
+
         if ( _hAttacker.GetPlayerClass() == TF_CLASS_PYRO &&
              _hAttacker.GetTeam() == TF_TEAM_BLUE && params.damage_type & DMG_CLUB )
         {
@@ -839,12 +926,47 @@ function OnScriptHook_OnTakeDamage( params )
         if ( ( params.damage > _hVictim.GetHealth() ) &&
              ( params.damage_type & DMG_CLUB ) )
         {
+            // killicon switch
+            switch ( _hAttacker.GetPlayerClass() ) {
+                case TF_CLASS_SCOUT:
+                    _szKillicon = KILLICON_SCOUT_MELEE;
+                    break;
+                case TF_CLASS_SOLDIER:
+                    _szKillicon = KILLICON_SOLDIER_MELEE;
+                    break;
+                case TF_CLASS_PYRO:
+                    _szKillicon = KILLICON_PYRO_MELEE;
+                    break;
+                case TF_CLASS_DEMOMAN:
+                    _szKillicon = KILLICON_DEMOMAN_MELEE;
+                    break;
+                case TF_CLASS_HEAVYWEAPONS:
+                    _szKillicon = KILLICON_HEAVY_MELEE;
+                    break;
+                case TF_CLASS_ENGINEER:
+                    _szKillicon = KILLICON_ENGIE_MELEE;
+                    break;
+                case TF_CLASS_MEDIC:
+                    _szKillicon = KILLICON_MEDIC_MELEE;
+                    break;
+                case TF_CLASS_SNIPER:
+                    _szKillicon = KILLICON_SNIPER_MELEE;
+                    break;
+                case TF_CLASS_SPY:
+                    _szKillicon = KILLICON_SPY_MELEE;
+                    break;
+                default:
+                    _szKillicon = "unarmed_combat";
+                    break;
+            };
+
             SlayPlayerWithSpoofedIDX( _hAttacker,
                                       _hVictim,
                                       _hAttacker.GetActiveWeapon(),
                                       params.damage_force,
                                       params.damage_position,
-                                      ZOMBIE_SPOOF_WEAPON_IDX );
+                                      ZOMBIE_SPOOF_WEAPON_IDX,
+                                      _szKillicon );
 
             params.early_out <- true;
         };
@@ -855,6 +977,57 @@ function OnScriptHook_OnTakeDamage( params )
         _hAttacker.RemoveOutOfCombat();
         return;
     };
+};
+
+function OnGameEvent_player_hurt( params )
+{
+    local _hPlayer   = GetPlayerFromUserID ( params.userid );
+    local _hAttacker = GetPlayerFromUserID ( params.attacker );
+    local _sc        = _hPlayer.GetScriptScope();
+
+    local _iTeamNum  = _hPlayer.GetTeam();
+
+    if ( _iTeamNum == TF_TEAM_BLUE )
+    {
+        // on zombie death
+        if ( params.health <= 0 )
+        {
+            // force gibs on zombie death
+            SetPropInt          ( _hPlayer, "m_iPlayerSkinOverride", 0 );
+            _hPlayer.SetHealth  ( -20 ); // force overkill threshhold
+
+            _hPlayer.SetCustomModelWithClassAnimations( arrTFClassPlayerModels[ _hPlayer.GetPlayerClass() ] );
+        }
+        else if ( params.health >=  0 )
+        {
+            if ( _hAttacker == null )
+                return;
+
+            if ( _hAttacker.GetClassname() == "player" )
+            {
+                if ( _hAttacker.GetActiveWeapon().GetClassname() == "tf_weapon_drg_pomson" )
+                {
+                    local _flCooldownMod = DRG_RAYGUN_ZOMBIE_COOLDOWN_MOD;
+
+                    if ( _flCooldownMod == -1 )
+                    {
+                        _flCooldownMod = _sc.m_hZombieAbility.m_fAbilityCooldown;
+                    }
+
+                    _hPlayer.SetNextActTime( ZOMBIE_ABILITY_CAST, _flCooldownMod );
+                }
+            }
+        }
+    }
+    else if ( _iTeamNum == TF_TEAM_RED )
+    {
+        // on survivor death
+        if ( params.health <=  0 )
+        {
+            // clear script overlay material (probably imcookin green)
+            _hPlayer.SetScriptOverlayMaterial( "" );
+        }
+    }
 };
 
 function OnGameEvent_localplayer_pickup_weapon( params ) {};

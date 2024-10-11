@@ -1,52 +1,53 @@
+)5V1Q
 __gmon_start__
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 __cxa_finalize
 g_pMemAlloc
 __gxx_personality_v0
+__cxa_call_unexpected
 memset
-memcpy
-free
-__cxa_guard_acquire
-__cxa_atexit
-__cxa_guard_release
-Error
-memmove
-strlen
-Warning
-malloc
-calloc
-Plat_FloatTime
-Plat_IsInDebugSession
-raise
 ThreadGetCurrentId
 _ZNV16CThreadFastMutex4LockEyj
-HushAsserts
-__cxa_throw_bad_array_new_length
-strcmp
-g_Telemetry
-strcasecmp
-strcpy
-__cxa_call_unexpected
 _ZNK16CThreadLocalBase3GetEv
 ThreadSleep
 _ZN16CThreadLocalBase3SetEPv
 _ZN16CThreadLocalBaseD2Ev
+g_Telemetry
 _ZN10CVProfNode9ExitScopeEv
 g_VProfCurrentProfile
 _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode10EnterScopeEv
+Error
 _ZN16CThreadLocalBaseC2Ev
+raise
+strcasecmp
 _Z6DevMsgPKcz
+Warning
+memmove
+__cxa_atexit
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
+strcmp
+__cxa_throw_bad_array_new_length
 _Z10DevWarningPKcz
+memcpy
 DevMsg
 ThreadInMainThread
+__cxa_guard_acquire
 CommandLine_Tier0
+__cxa_guard_release
 __cxa_guard_abort
 Plat_MSTime
+strlen
+strcpy
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
+Plat_FloatTime
+Plat_IsInDebugSession
+HushAsserts
+free
+malloc
+calloc
 strtod
 strchr
 strtol
@@ -125,378 +126,6 @@ GLIBC_2.14
 GLIBC_2.3
 [A]L
 u/UH
-AVAUL
-ATSH
-T$ I
-T$(I
-T$0A
-IVPSt
-VPHY
-Lc L
-[A\A]A^A_]
-[A\A]A^A_]
-AUATI
-t*Icu
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVL
-AUATLc
-~-f.
-[A\A]A^A_]
-AWAVAUL
-|$4H
-D$ H
-D$(H
-D$0H
-D$8H
-|$0Lc
-t$8L
-[A\A]A^A_]
-t$<L
-AWAVL
-AUATA
-IcL$4
-IcV4Ic
-Icv8I
-IcFD
-([A\A]A^A_]
-E9~<
-([A\A]A^A_]
-ATE1
-{@E1
-odHc
-X[A\A]A^A_]
-X[A\A]A^A_]
-AWAVL
-AUATI
-X[A\A]A^A_]
-[A\A]]
-AWAVAUATSH
-D$ A
-[A\A]A^A_]
-AWAVI
-IcO4
-IcGPD
-IcW8H
-IcO4
-IcG8H
-IcGD
-Y^IcGL
-[A\A]A^A_]
-IcO4
-[A\A]A^A_]
-Hc@H
-AVAUA
-u@E1
-[A\A]A^A_]
-~yLc
-AWAVL
-ATSH
-[A\A]A^A_]
->tBA
-Hc@@H
-D$ A
-Mcl$\E
-D$ZA
-D$Z9
-T$ H
-T$(H
-T$0H
-T$8H
-T$@H
-T$HL
-T$ I
-T$(I
-T$0I
-T$8I
-T$@I
-T$HI
->tCA
-l$<I
-D$ I
-D$(I
-D$0I
-D$8A
-/tCI
-t$ D
-ATHc
-[A\A]A^]
-[A\A]A^]
-A\A]A^]
-[A\A]A^A_]
-A9\$ 
-[A\]
-~iUL
-~iUL
-T$PHc
-[A\]Hk
-AUATS
-[A\A]A^]
-AUATSHc
-[A\A]H
-T$01
-JcT*
-[A\A]H
-tKUH
-AWAVAUATSH
-g4Lc
-~AHcsPHc
-[A\A]A^A_]
-HcSPHc
- Lcx
-Hc;D
-xVHcCPL
- Lcp
-Hc;D
-SHcW@H
-u;HcWD
-t,Hc?H
-t1Ic
-HcCDHi
-[A\]H
-[A\]
-HcWL
-thUH
-[A\]
-Hc?H
-HcSLIc
-A\]H
-AUATLc
-[A\A]]
-JcT"
-[A\A]]
-x	D;
-| Hc
-[A\A]]
-AUATA
-u#Hc
-[A\A]]H
-u$HcB
-[A\A]]
-UpJcT"
-[A\A]]
-}6Hi
-AUATI
-[A\A]]
-[A\A]
-AUATI
-[A\A]]
-[A\A]
-uYHc
-[A\]
-[A\]
-AUATA
-uTHc
-[A\A]]
-[A\]
-[A\]H
-AVAUATS
-A\A]A^]
-A\A]A^]
-AUATS
-u'Hc
-A\A]]
-Jc|*
-[A\H
-AUE1
-[A\A]]
-AUE1
-[A\A]A^A_]
-t)9X v2H
-[A\]
-AUATA
-x8D;c }2H
-[A\A]]
-C@H9
-HcS 1
-ATSH
-R0JcL"
-|DHc
-[A\]H
-[A\]
-|DHc
-[A\]H
-tw[H
-[A\]H
-[A\]H
-RpHcT
-[A\]H
-[A\]Hc
-},Hi
-[A\]
-[A\]
-ATSH
-RPJct"
-A\]Hk
-\[A\]Hc
-uNHc
-[A\A]]
-ATSH
-[A\]
-JcL"
-A\]H
-[A\]Hc
-AUATSH
-[A\A]]
-~eUH
-[A\A]]
-AUATSH
-[A\A]]
-~MUH
-[A\A]]
-ATSH
-Jct"
-A\]H
-[A\]Hc
-t-9p v/
-AVAUI
-ATSH
-Ncd#
-0[A\A]A^A_]
-tlA#F4E
-A\A]A^]
-[HcA
-$A\L
-A]A^]
-D$ 1
-A#D$4E
-[A\]
-H9W8t
-H9G@
-AUATI
-[A\A]]
-[A\A]]
-[A\A]]
-AUATSH
-k`E9
-[A\A]]
-CXA9
-CxD9
-KPD)
-S`D)
-KpD)
-AWAVAUATI
-D;>u
-D;8u
-UUUUUUU
-IcD$
-IcD$
-IcD$
-[A\A]A^A_]
-IcD$
-IcD$
-IcT$
-IcL$ 
-A\A]]
-AUATSH
-[A\A]A^A_]
-AUATSH
-[A\A]A^]
-ATSH
-xTHc
-[A\A]]
-AVAUI
-ATSH
-Mcu E1
-[A\A]A^]
-[A\]
-[A\]
-AWAVL
-t*AW
->AZA[H
-AXAYL
-[A\A]A^A_]
-<FHc
-AVAUI
-A]A^H
-A[[I
-[A\A]A^A_]
-Ic7H
-D8(D
-|>(H
-taHc
-AWAVAUI
-A\A^A
-JcT!
-D;40u
-AXAYH
-[A\A]A^A_]
-uXIc
-AWAVAUATI
-t(SH
-A\A]H
-AZA[H
-KcL/
-[A\A]A^A_]
-AVAUATI
-A\A]H
-AZA[A
-Kct4
-[A\A]A^A_]
-AWAVAUATI
-t(SH
-A\A]H
-AZA[H
-4/IcV
-JcT*
-[A\A]A^A_]
-AVAUATSD
-[A\A]A^]
-A\A]A^]
-AWAVAUATI
-T$ 1
-uDfD
-([A\A]A^A_]
-AWAVAUI
-A^A_H
-[A]A
-D$@H
-[A\A]A^A_]
-D$89
-t$0A
-\$@I
-t$0H
-T$0H
-D$@I
-T$@I
-AWAVAUI
-A\A^A
-KcT7
-[A\A]A^A_]
-D$P9
-D$HA
-\$XI
-D$PH
-t$HH
-D$HA
-D$XI
-8XZH
-[A\A]A^A_]
-tS</
-[A\A]]
-AWAVAUATSH
-[A\A]A^A_]
-[A\]
-[A\]
-AVAUI
-[A\A]A^]
-t.f9
-AWAVAUI
-ATSH
-@f;L
-[A\A]A^A_]
-[A\A]]
-AWAVI
-AUATSH
-[A\A]A^A_]
-t'f;2u"fD
-t'f;r
-u!fD
-AWAVAUATSH
-;fA9
-fD;j
-[A\A]A^A_]
-fD;*t2
  ff.
 ` ff.
  ff.
@@ -1098,6 +727,7 @@ T$HH
 L$\I
 T$Hf
 tyw7
+tS</
 AUATSH
 [A\A]]
 tO;S
@@ -1111,7 +741,6 @@ AWfI
 AUfI
 A[XH
 AYAZ
-Lc%!
 [A\A]A^A_]
 G L9
 u>I9
@@ -1141,6 +770,8 @@ AUATfH
 l$@L
 t$HH
 [A\A]]
+[A\A]]
+AUATA
 [A\A]]
 tjf;2uefD
 tjf;r
@@ -1178,6 +809,376 @@ AUATSH
 fD;_
 [A\]
 fD;_
+T$PHc
+[A\]Hk
+AUATS
+[A\A]A^]
+AUATSHc
+[A\A]H
+T$01
+JcT*
+[A\A]H
+tKUH
+AWAVAUATSH
+g4Lc
+~AHcsPHc
+[A\A]A^A_]
+HcSPHc
+ Lcx
+Hc;D
+xVHcCPL
+ Lcp
+Hc;D
+SHcW@H
+u;HcWD
+t,Hc?H
+t1Ic
+HcCDHi
+[A\]H
+[A\]
+HcWL
+thUH
+[A\]
+Hc?H
+HcSLIc
+A\]H
+AUATLc
+[A\A]]
+JcT"
+[A\A]]
+x	D;
+| Hc
+[A\A]]
+AUATA
+u#Hc
+[A\A]]H
+u$HcB
+[A\A]]
+UpJcT"
+[A\A]]
+}6Hi
+AUATI
+[A\A]]
+[A\A]
+AUATI
+[A\A]]
+[A\A]
+uYHc
+[A\]
+[A\]
+AUATA
+uTHc
+[A\A]]
+[A\]
+[A\]H
+AVAUATS
+A\A]A^]
+A\A]A^]
+AUATS
+u'Hc
+A\A]]
+Jc|*
+[A\H
+AUE1
+[A\A]]
+AUE1
+[A\A]A^A_]
+t)9X v2H
+[A\]
+AUATA
+x8D;c }2H
+[A\A]]
+C@H9
+HcS 1
+ATSH
+R0JcL"
+|DHc
+[A\]H
+[A\]
+|DHc
+[A\]H
+tw[H
+[A\]H
+[A\]H
+RpHcT
+[A\]H
+[A\]Hc
+},Hi
+[A\]
+[A\]
+ATSH
+RPJct"
+A\]Hk
+\[A\]Hc
+uNHc
+[A\A]]
+ATSH
+[A\]
+JcL"
+A\]H
+[A\]Hc
+AUATSH
+[A\A]]
+~eUH
+[A\A]]
+AUATSH
+[A\A]]
+~MUH
+[A\A]]
+ATSH
+Jct"
+A\]H
+[A\]Hc
+t-9p v/
+AVAUI
+ATSH
+Ncd#
+0[A\A]A^A_]
+tlA#F4E
+A\A]A^]
+[HcA
+$A\L
+A]A^]
+D$ 1
+A#D$4E
+[A\]
+H9W8t
+H9G@
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+AUATSH
+k`E9
+[A\A]]
+CXA9
+CxD9
+KPD)
+S`D)
+KpD)
+AWAVAUATI
+D;>u
+D;8u
+UUUUUUU
+IcD$
+IcD$
+IcD$
+[A\A]A^A_]
+IcD$
+IcD$
+IcT$
+IcL$ 
+A\A]]
+AUATSH
+[A\A]A^A_]
+AUATSH
+[A\A]A^]
+ATSH
+xTHc
+[A\A]]
+AVAUI
+ATSH
+Mcu E1
+[A\A]A^]
+[A\]
+[A\]
+AWAVL
+t*AW
+>AZA[H
+AXAYL
+[A\A]A^A_]
+<FHc
+AVAUI
+A]A^H
+A[[I
+[A\A]A^A_]
+Ic7H
+D8(D
+|>(H
+taHc
+AWAVAUI
+A\A^A
+JcT!
+D;40u
+AXAYH
+[A\A]A^A_]
+uXIc
+AWAVAUATI
+t(SH
+A\A]H
+AZA[H
+KcL/
+[A\A]A^A_]
+AVAUATI
+A\A]H
+AZA[A
+Kct4
+[A\A]A^A_]
+AWAVAUATI
+t(SH
+A\A]H
+AZA[H
+4/IcV
+JcT*
+[A\A]A^A_]
+AVAUATSD
+[A\A]A^]
+A\A]A^]
+AWAVAUATI
+T$ 1
+uDfD
+([A\A]A^A_]
+AWAVAUI
+A^A_H
+[A]A
+D$@H
+[A\A]A^A_]
+D$89
+t$0A
+\$@I
+t$0H
+T$0H
+D$@I
+T$@I
+AWAVAUI
+A\A^A
+KcT7
+[A\A]A^A_]
+D$P9
+D$HA
+\$XI
+D$PH
+t$HH
+D$HA
+D$XI
+8XZH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+[A\]
+[A\]
+AVAUI
+[A\A]A^]
+t.f9
+AWAVAUI
+ATSH
+@f;L
+[A\A]A^A_]
+[A\A]]
+AWAVI
+AUATSH
+[A\A]A^A_]
+t'f;2u"fD
+t'f;r
+u!fD
+AWAVAUATSH
+;fA9
+fD;j
+[A\A]A^A_]
+fD;*t2
+AVAUL
+ATSH
+T$ I
+T$(I
+T$0A
+IVPSt
+VPHY
+Lc L
+[A\A]A^A_]
+[A\A]A^A_]
+AUATI
+t*Icu
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVL
+AUATLc
+~-f.
+[A\A]A^A_]
+AWAVAUL
+|$4H
+D$ H
+D$(H
+D$0H
+D$8H
+|$0Lc
+t$8L
+[A\A]A^A_]
+t$<L
+AWAVL
+AUATA
+IcL$4
+IcV4Ic
+Icv8I
+IcFD
+([A\A]A^A_]
+E9~<
+([A\A]A^A_]
+ATE1
+{@E1
+odHc
+X[A\A]A^A_]
+X[A\A]A^A_]
+AWAVL
+AUATI
+X[A\A]A^A_]
+[A\A]]
+AWAVAUATSH
+D$ A
+[A\A]A^A_]
+AWAVI
+IcO4
+IcGPD
+IcW8H
+IcO4
+IcG8H
+IcGD
+Y^IcGL
+[A\A]A^A_]
+IcO4
+[A\A]A^A_]
+Hc@H
+AVAUA
+u@E1
+[A\A]A^A_]
+~yLc
+AWAVL
+ATSH
+[A\A]A^A_]
+>tBA
+Hc@@H
+D$ A
+Mcl$\E
+D$ZA
+D$Z9
+T$ H
+T$(H
+T$0H
+T$8H
+T$@H
+T$HL
+T$ I
+T$(I
+T$0I
+T$8I
+T$@I
+T$HI
+>tCA
+l$<I
+D$ I
+D$(I
+D$0I
+D$8A
+/tCI
+t$ D
+ATHc
+[A\A]A^]
+[A\A]A^]
+A\A]A^]
+[A\A]A^A_]
+A9\$ 
+[A\]
+~iUL
+~iUL
 [A\A]A^A_]
 AWAVI
 tAE1
@@ -1475,9 +1476,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -1504,10 +1502,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%_:
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5~8
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1644,11 +1642,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -1726,13 +1725,9 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5nj
-o5-j
-o-Kj
 0[A\]
-o-Bc
-o-fc
-o%yc
+o=0d
+o50d
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -2029,20 +2024,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -2067,6 +2058,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -2082,10 +2075,10 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
 AWAVAUATSH
 ([A\A]A^A_]
 HcpH
@@ -2322,7 +2315,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95	
+H959
 T$(H
 |$ H
 D$(H
@@ -2375,6 +2368,187 @@ AUATUH
 |$ M
 []A\A]A^A_
 L;3r
+m_mutex
+datacache.cpp
+CDataCacheSection::Find
+Unaccounted
+(%s)%s
+CDataCache::Purge
+CDataCache::Flush
+CDataCacheSection::Unlock
+CDataCacheSection::GetNoTouch
+CDataCacheSection::Lock
+CDataCacheSection::FrameLock
+CDataCacheSection::Get
+CDataCacheSection::Add
+Duplicate add to data cache
+CTSListBase: Misaligned list
+CDataCacheSection::Remove
+CDataCacheSection::Purge
+CDataCacheSection::Flush
+CDataCache::EnsureCapacity
+unknown
+Locked %d
+Unknown cache section %s
+VDataCache003
+developer
+mem_force_flush
+DataCacheItem_t pool
+Size in MB.
+datacachesize
+CDataCacheSection::EndFrameLocking
+CDataCacheSection::EnsureCapacity
+Cannot find requested cache section "%s"
+	%16.16s : %12s : 0x%p, 0x%p, 0x%p : %s : %s
+Summary: %i resources total %s, %.2f %% of capacity
+Section [%s]: %i resources total %s, %.2f %% of limit (%s)
+Force cache flush of unlocked resources on every alloc
+/data/src/public/tier1/mempool.h
+FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!
+CUtlFixedMemory overflow!
+CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlRBTree overflow!
+10IAppSystem
+17IDataCacheSection
+10IDataCache
+17CDataCacheSection
+25CDataCacheSectionFastFind
+14CBaseAppSystemI10IDataCacheE
+15CTier0AppSystemI10IDataCacheE
+15CTier1AppSystemI10IDataCacheLi0EE
+15CTier2AppSystemI10IDataCacheLi0EE
+15CTier3AppSystemI10IDataCacheLi0EE
+12CDataManagerI15DataCacheItem_t19DataCacheItemData_tPS0_16CThreadFastMutexE
+10CDataCache
+8CFmtStrNILi256ELb0EE
+Bmodels/error.mdl
+VStudioDataCache005
+MDLCache004
+ModelData
+ModelMesh
+AnimBlock
+%s - %s
+.ani
+Failed to create %s
+MDLCache: Unload vcollide %s
+MDLCache: Alloc VTX %s
+MDLCache: Load studiomdl %s
+mdlcache.cpp
+CMDLCache::ReadMDLFile
+MDLCache: Load studiohdr %s
+GAME
+Failed to load %s!
+.dx80.vtx
+.dx90.vtx
+.sw.vtx
+CMDLCache::VerifyHeaders
+%s%s.mdl
+%s%s
+%s%s.vtx
+%s%s.vvd
+%s%s.phy
+CMDLCache:: Out of memory
+MDLCache: Alloc studiohdr %s
+MDLCache: Load VVD for %s
+MDLCache: Alloc VVD %s
+Unable to load corrupted map.
+Loading virtual model for %s
+m_AsyncMutex
+MDLCache: Free studiohdr %s
+MDLCache: Free VVD %s
+-no_compressed_vvds
+%s (block %i)
+Loading %s
+m_QueuedLoadingMutex
+.vmt
+Model textures
+Async
+Sync
+MDLCache: Begin load VTX %s
+MDLCache: Free studiohdr
+MDLCache: Free VVD
+MDLCache: Free VTX
+MDLCache: Begin load VVD %s
+CMDLCache::CacheVertexData
+studiodata_t pool
+r_rootlod
+mod_forcedata
+mod_test_not_available
+mod_test_mesh_not_available
+mod_test_verts_not_available
+mod_load_mesh_async
+mod_load_anims_async
+mod_load_vcollide_async
+mod_trace_load
+mod_lock_mdls_on_load
+mod_load_fakestall
+studiohdr
+studiohwdata
+vcollide
+animblock
+virtualmodel
+vertexes
+Error Index File for '%s' version %d should be %d
+Error Index File for '%s' checksum %d should be %d
+MDLCache: Unload studiomdl %s
+MDLCache: Data cache discard %s %s
+MDL %s was smaller than studiohdr_t
+Failed to read model %s from buffer!
+Model %s not a .MDL format file!
+Model %s has mismatched .vvd + .vtx files!
+MDLCache: Load VVD (verify) %s
+MDLCache: Load VTX (verify) %s
+CMDLCache:: Late preload of model '%s'
+Error Vertex File for '%s' id %d should be %d
+Error Vertex File for '%s' version %d should be %d
+Error Vertex File for '%s' checksum %d should be %d
+Warning: Attempted to free a locked resource.
+MDLCache: Free Anim block: %d
+MDLCache: %s needs to be recompiled
+MDLCache: Failed load of .VVD data for %s
+MDLCache: Failed load of .VTX data for %s
+MDLCache: Finish load anim block %s (block %i)
+MDLCache: Failed load anim block %s (block %i)
+MDLCache: Finish load vcollide for %s
+MDLCache: Failed load of .PHY data for %s
+Model %s not found and %s couldn't be loaded
+CMDLCache:: Error MDLCACHE_STUDIOHDR not present for '%s'
+CMDLCache::UnserializeVCollide
+MDLCache: %s load vcollide %s
+MDLCache: Begin load studiomdl %s
+CMDLCache::UnserializeAnimBlock
+MDLCache: Begin load Anim Block %s (block %i)
+Forces all model file data into cache on model load.
+Forces all ANI file loading to stall for specified ms
+g_AsyncInfoMapMutex
+9IMDLCache
+11IRefCounted
+16IStudioDataCache
+20CRefCountServiceBaseILb1E6CRefMTE
+16IDataCacheClient
+23CDefaultDataCacheClient
+8CFunctor
+12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
+14CBaseAppSystemI9IMDLCacheE
+15CTier0AppSystemI9IMDLCacheE
+15CTier1AppSystemI9IMDLCacheLi0EE
+15CTier2AppSystemI9IMDLCacheLi0EE
+15CTier3AppSystemI9IMDLCacheLi0EE
+9CMDLCache
+9CFunctor1IPFvP12ModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
+9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
+C[%8.3f] hitch on %s:%s:%d:%d
+[%8.3f] stall on %s:%s:%d:%d
+Invalid node
+<<null>>
+mod_load_showstall
+[%8.3f] stall blend %.2f on %s:%s:%d:%d
+Call to NULL CStudioHdr::GroupStudioHdr()
+Invalid index passed to CStudioHdr(%s)::GroupStudioHdr(): %d, but max is %d
+1 - show hitches , 2 - show stalls
+?m_Lock
+../public/studio_virtualmodel.cpp
+%s/%s : missmatched parent bones on "%s"
 swapcompactsurfaceheader_t
 legacysurfaceheader_t
 studiohdr_t
@@ -2445,7 +2619,6 @@ baseptr
 sznameindex
 movementindex
 Unknown bone type %d found!
-.ani
 solidCount
 checkSum
 vertCacheSize
@@ -2624,7 +2797,6 @@ szattachmentindex
 nextoffset
 numframes
 nummovements
-animblock
 numlocalhierarchy
 localhierarchyindex
 sectionindex
@@ -2850,185 +3022,6 @@ Shifting misaligned data block by %d bytes at pLinearBone->qalignmentindex
 Shifting misaligned data block by %d bytes at pStudioHdr2->m_nBoneFlexDriverIndex
 Shifting misaligned data block by %d bytes at pBoneFlexDriver->m_nControlIndex
 Alignment fixups failed on MDL swap!
-?[%8.3f] hitch on %s:%s:%d:%d
-[%8.3f] stall on %s:%s:%d:%d
-Invalid node
-<<null>>
-mod_load_showstall
-[%8.3f] stall blend %.2f on %s:%s:%d:%d
-Call to NULL CStudioHdr::GroupStudioHdr()
-Invalid index passed to CStudioHdr(%s)::GroupStudioHdr(): %d, but max is %d
-1 - show hitches , 2 - show stalls
-?m_Lock
-CUtlRBTree overflow!
-/data/src/public/studio_virtualmodel.cpp
-%s/%s : missmatched parent bones on "%s"
-m_mutex
-CDataCacheSection::Find
-Unaccounted
-(%s)%s
-CDataCache::Purge
-CDataCache::Flush
-CDataCacheSection::Unlock
-CDataCacheSection::GetNoTouch
-CDataCacheSection::Lock
-CDataCacheSection::FrameLock
-CDataCacheSection::Get
-CDataCacheSection::Add
-Duplicate add to data cache
-CTSListBase: Misaligned list
-CDataCacheSection::Remove
-CDataCacheSection::Purge
-CDataCacheSection::Flush
-CDataCache::EnsureCapacity
-unknown
-Locked %d
-Unknown cache section %s
-VDataCache003
-developer
-mem_force_flush
-DataCacheItem_t pool
-Size in MB.
-datacachesize
-/data/src/datacache/datacache.cpp
-CDataCacheSection::EndFrameLocking
-CDataCacheSection::EnsureCapacity
-Cannot find requested cache section "%s"
-	%16.16s : %12s : 0x%p, 0x%p, 0x%p : %s : %s
-Summary: %i resources total %s, %.2f %% of capacity
-Section [%s]: %i resources total %s, %.2f %% of limit (%s)
-Force cache flush of unlocked resources on every alloc
-/data/src/public/tier1/mempool.h
-FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted memory allocator)
-10IAppSystem
-17IDataCacheSection
-10IDataCache
-17CDataCacheSection
-25CDataCacheSectionFastFind
-14CBaseAppSystemI10IDataCacheE
-15CTier0AppSystemI10IDataCacheE
-15CTier1AppSystemI10IDataCacheLi0EE
-15CTier2AppSystemI10IDataCacheLi0EE
-15CTier3AppSystemI10IDataCacheLi0EE
-12CDataManagerI15DataCacheItem_t19DataCacheItemData_tPS0_16CThreadFastMutexE
-10CDataCache
-8CFmtStrNILi256ELb0EE
-Bmodels/error.mdl
-VStudioDataCache005
-MDLCache004
-ModelData
-ModelMesh
-AnimBlock
-%s - %s
-Failed to create %s
-MDLCache: Unload vcollide %s
-MDLCache: Alloc VTX %s
-MDLCache: Load studiomdl %s
-CMDLCache::ReadMDLFile
-MDLCache: Load studiohdr %s
-GAME
-Failed to load %s!
-.dx80.vtx
-.dx90.vtx
-.sw.vtx
-CMDLCache::VerifyHeaders
-%s%s.mdl
-%s%s
-%s%s.vtx
-%s%s.vvd
-%s%s.phy
-CMDLCache:: Out of memory
-MDLCache: Alloc studiohdr %s
-MDLCache: Load VVD for %s
-MDLCache: Alloc VVD %s
-Unable to load corrupted map.
-Loading virtual model for %s
-m_AsyncMutex
-MDLCache: Free studiohdr %s
-MDLCache: Free VVD %s
--no_compressed_vvds
-%s (block %i)
-Loading %s
-m_QueuedLoadingMutex
-.vmt
-Model textures
-Async
-Sync
-MDLCache: Begin load VTX %s
-MDLCache: Free studiohdr
-MDLCache: Free VVD
-MDLCache: Free VTX
-MDLCache: Begin load VVD %s
-CMDLCache::CacheVertexData
-studiodata_t pool
-r_rootlod
-mod_forcedata
-mod_test_not_available
-mod_test_mesh_not_available
-mod_test_verts_not_available
-mod_load_mesh_async
-mod_load_anims_async
-mod_load_vcollide_async
-mod_trace_load
-mod_lock_mdls_on_load
-mod_load_fakestall
-studiohdr
-studiohwdata
-vcollide
-virtualmodel
-vertexes
-Error Index File for '%s' version %d should be %d
-Error Index File for '%s' checksum %d should be %d
-MDLCache: Unload studiomdl %s
-MDLCache: Data cache discard %s %s
-/data/src/datacache/mdlcache.cpp
-MDL %s was smaller than studiohdr_t
-Failed to read model %s from buffer!
-Model %s not a .MDL format file!
-Model %s has mismatched .vvd + .vtx files!
-MDLCache: Load VVD (verify) %s
-MDLCache: Load VTX (verify) %s
-CMDLCache:: Late preload of model '%s'
-Error Vertex File for '%s' id %d should be %d
-Error Vertex File for '%s' version %d should be %d
-Error Vertex File for '%s' checksum %d should be %d
-Warning: Attempted to free a locked resource.
-MDLCache: Free Anim block: %d
-MDLCache: %s needs to be recompiled
-MDLCache: Failed load of .VVD data for %s
-MDLCache: Failed load of .VTX data for %s
-MDLCache: Finish load anim block %s (block %i)
-MDLCache: Failed load anim block %s (block %i)
-MDLCache: Finish load vcollide for %s
-MDLCache: Failed load of .PHY data for %s
-Model %s not found and %s couldn't be loaded
-CMDLCache:: Error MDLCACHE_STUDIOHDR not present for '%s'
-CMDLCache::UnserializeVCollide
-MDLCache: %s load vcollide %s
-MDLCache: Begin load studiomdl %s
-CMDLCache::UnserializeAnimBlock
-MDLCache: Begin load Anim Block %s (block %i)
-Forces all model file data into cache on model load.
-Forces all ANI file loading to stall for specified ms
-g_AsyncInfoMapMutex
-9IMDLCache
-11IRefCounted
-16IStudioDataCache
-20CRefCountServiceBaseILb1E6CRefMTE
-16IDataCacheClient
-23CDefaultDataCacheClient
-8CFunctor
-12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
-14CBaseAppSystemI9IMDLCacheE
-15CTier0AppSystemI9IMDLCacheE
-15CTier1AppSystemI9IMDLCacheLi0EE
-15CTier2AppSystemI9IMDLCacheLi0EE
-15CTier3AppSystemI9IMDLCacheLi0EE
-9CMDLCache
-9CFunctor1IPFvP12ModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
-9CFunctor1IPFvP19CleanupModelParts_tES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 {}()':
  game
  client
@@ -3062,7 +3055,7 @@ ConVarRef %s doesn't point to an existing ConVar
 16CDefaultAccessor
 12CEmptyConVar
 >*this
-/data/src/tier1/datamanager.cpp
+datamanager.cpp
 Data manager 'used' memory incorrect
 CUtlMultiList overflow! (exhausted index range)
 CUtlMultiList overflow! (exhausted memory allocator)
@@ -3078,7 +3071,7 @@ CreateInterface
  failed to dlopen %s error=%s
 16CDllDemandLoader
 Memory leak: mempool blocks left in memory: %d
-/data/src/tier1/mempool.cpp
+mempool.cpp
 0123456789ABCDEF
  bytes
 %i%s

@@ -10,11 +10,11 @@ memset
 _ZN10IDirect3D917CheckDeviceFormatEj11_D3DDEVTYPE10_D3DFORMATj16_D3DRESOURCETYPES1_
 _ZN10IDirect3D922CheckDepthStencilMatchEj11_D3DDEVTYPE10_D3DFORMATS1_S1_
 _ZN10IDirect3D915CheckDeviceTypeEj11_D3DDEVTYPE10_D3DFORMATS1_i
+CommandLine_Tier0
+memcpy
 __cxa_atexit
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
-CommandLine_Tier0
-memcpy
 __cxa_guard_acquire
 __cxa_guard_release
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -166,6 +166,47 @@ strncpy
 _ZNV16CThreadFastMutex4LockEyj
 COM_TimestampedLog
 qsort
+__ctype_b_loc
+strcpy
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+wcsncpy
+vswprintf
+vsnprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
+free
+_ZN17CThreadSpinRWLock11LockForReadEv
+_ZN17CThreadSpinRWLock10UnlockReadEv
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+_ZN12CThreadEventC1Eb
+_ZN17CThreadSyncObjectD2Ev
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN12CThreadEvent3SetEv
+_ZN13CThreadRWLock12LockForWriteEv
+_ZN13CThreadRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+_ZN17CThreadSpinRWLock11UnlockWriteEv
 stderr
 fprintf
 access
@@ -175,7 +216,6 @@ closedir
 strdup
 strcasestr
 getenv
-free
 __wrap_freopen
 __wrap_fopen
 __wrap_open
@@ -204,46 +244,6 @@ __wrap_utimes
 __wrap_realpath
 __wrap_mkdir
 __wrap_rmdir
-__ctype_b_loc
-strcpy
-towupper
-towlower
-__ctype_toupper_loc
-__ctype_tolower_loc
-wcsncpy
-vswprintf
-vsnprintf
-strncat
-wcsncat
-iswspace
-iconv_open
-iconv
-iconv_close
-chdir
-mbstowcs
-wcstombs
-Plat_localtime
-strftime
-strtoll
-strtoull
-cvar
-strtoul
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-pthread_mutexattr_init
-pthread_mutexattr_settype
-pthread_mutex_init
-_ZN12CThreadEventC1Eb
-_ZN17CThreadSyncObjectD2Ev
-pthread_mutex_destroy
-pthread_mutex_lock
-pthread_mutex_unlock
-_ZN13CThreadRWLock11WaitForReadEv
-_ZN12CThreadEvent3SetEv
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEj
-_ZN17CThreadSpinRWLock11UnlockWriteEv
 toupper
 SDL_GL_GetProcAddress
 SDL_GL_SetAttribute
@@ -334,11 +334,6 @@ GLIBC_2.7
 GLIBC_2.14
 GLIBC_2.3
 u/UH
-</tI<*
-[A\A]A^]
-"uUM
-A\A]A^]
-[A\A]A^]
  ff.
 ` ff.
  ff.
@@ -386,6 +381,11 @@ AWAVA
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+</tI<*
+[A\A]A^]
+"uUM
+A\A]A^]
+[A\A]A^]
 ATSL
 [A\]
 [A\]
@@ -626,7 +626,6 @@ E<IcE
 AUATA
 A;E t
 [A\A]]
-5i}	
 A\A]A^]
 A\A]A^]
 AWAVAUA
@@ -634,7 +633,7 @@ I9D$0
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-5%x	
+5Yw	
 H97t%H
 [A\A]A^A_]
 [A\A]]
@@ -647,7 +646,6 @@ A\A]A^]
 A\A]A^]
 ATSL
 C|[A\]
-5Uj	
 AUATSH
 xFHc
 A\A]A^]
@@ -655,14 +653,13 @@ AUATI
 l$0M
 \$0A
 [A\A]]
-56s	
+56r	
 C,H9
 [A\A]]
 H9w(t*H
 c([A\]
 AVAUATSH
 [A\A]A^]
-5xg	
 H97t
 AUATI
 D$(H
@@ -670,31 +667,34 @@ D$(H
 AVAUI
 ATSH
 [A\A]A^]
+5U[	
 ATSL
 [A\]
-5eZ	
 AWAVAUATSH
-5*b	
+5^a	
 D$(H
 [A\A]A^A_]
+=)\	
 AUATL
 A\A]]
-5&U	
 ATSH
 [A\]
+5uR	
 ATSL
 [A\]
 AWAVI
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
-50U	
+5dT	
 [A\A]A^A_]
 AVAUA
 J(fA
 A;F0t
 [A\A]A^]
 F0IcF$H
+D9%`
+D9-O
 ATSL
 [A\]
 A\A]]
@@ -704,7 +704,6 @@ AWAVA
 8[A\A]A^A_]
 AWAVA
 [A\A]A^A_]
-5_I	
 H97t%H
 ATSH
 [A\A]A^A_]
@@ -731,7 +730,6 @@ ATSH
 AWAVAUA
 [A\A]A^A_]
 [A\A]A^A_]
-5k8	
 H97t%H
 Gp~b
 [A\A]A^]
@@ -743,9 +741,9 @@ Gp~Y
 Ch[A\]
 AWAVAUATSH
 spfH
-o%U7	
-o-n6	
-5Cx	
+o%U6	
+o-n5	
+5#w	
 ([A\A]A^A_]
 [A\A]A^A_]
 <&A9
@@ -755,14 +753,13 @@ K8D)
 {@D)
 AWAVL
 AUATI
-%+1	
+%+0	
 D$8A
-D;->Y
-W%9/	
+W%9.	
 D$HLc
 D$(A
 [A\A]A^A_]
-%d,	
+%d+	
 Ic\$XH
 VUUU
 AVAUA
@@ -1451,7 +1448,7 @@ H[A\A]]
 AWAVAUATI
 \$XH
 tML9
-(=Qn
+(=Am
 [A\A]A^A_]
 [A\]
 [A\]
@@ -1587,7 +1584,6 @@ A\A]A^H
 [A\A]]
 A\]H
 AVAUATS
-Y%Z+
 [A\A]A^A_]
 AUATH
 @PH9
@@ -1825,20 +1821,19 @@ AUATI
 ATSH
 |*A84
 [A\A]A^A_]
-=.a	
-= a	
+=na	
+=`a	
 H97t%H
 AWAVA
 ~xMi
 [A\A]A^A_]
 H97t%H
 AWAVAUATI
-- ^	
--y]	
+-`^	
+=2i	
 [A\A]A^A_]
 H97t
 AUATA
--qf	
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1854,14 +1849,16 @@ AVE1
 [A\A]A^]
 [A\]
 AVAUATSH
-%,V	
+%lV	
 [A\A]A^]
 H97t
 AWAVAUA
+56S	
 [A\A]A^A_]
 [A\A]A^A_]
 H97t
 AWAVAUATSH
+%GZ	
 A\A]A^A_]
 AWAVAUA
 uXfE
@@ -1954,6 +1951,7 @@ uYLco
 [A\A]A^A_]
 @HH9
 @PH9
+=yt	
 u)UH
 ATSH
 A\A]A^]
@@ -2002,14 +2000,15 @@ D$HM
 AUATI
 \$pH
 [A\A]]
+=~\	
 AVAUATSH
 Mcf0Ic
 [A\A]A^A_]
 AUATSH
 HcV0H
 [A\A]A^A_]
-=pV	
-=LV	
+=`V	
+=<V	
 AVAUA
 E:~ u
 tyLck
@@ -2130,17 +2129,17 @@ t$HL
 |$0L
 [A\A]A^A_]
 D$HA
-=6'	
-=v&	
+=&'	
+=f&	
 AUATSH
-5{'	
+5k'	
 [A\A]]
 t(UH
 AUATH
 A\A]A^]
 A]A^]
-=e$	
-=K$	
+=U$	
+=;$	
 AWAVAUATS
 ([A\A]A^A_]
 AWAVAUATI
@@ -2170,7 +2169,7 @@ D$TA
 ATSH
 [A\A]]
 [A\A]]
-5{=	
+5+=	
 [A\A]A^]
 A\A]A^]
 [A\]
@@ -2403,9 +2402,9 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9% 
-D;%d
-D9%x
+D9%p
+D;%T
+D9%h
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -2483,49 +2482,6 @@ ATSH
 AWAVL
 AUATA
 [A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -2573,9 +2529,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -2602,10 +2555,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%/l
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5^J
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -2742,11 +2695,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -2826,10 +2780,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5Mv
-o-[v
 0[A\]
-o-bo
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -3126,20 +3077,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -3164,6 +3111,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -3179,10 +3128,10 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
 AWAVAUATSH
 ([A\A]A^A_]
 HcpH
@@ -3252,6 +3201,49 @@ s fD;{:H
 C fD
 t+E1
 C@s;
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 G0UA
 WLH)
 O@L9
@@ -3498,23 +3490,23 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5_[
-o%7T
-o%\I
-o%}F
+o5?Y
+o%<G
+o%]D
 tcf.
-o=4:
-o54:
-o-\7
+o-<5
+o=t2
 <WH9
-o%C1
+o%#/
+o-t/
 4GI9
+o5b+
 AWAVL
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
 AWAVAUATSH
-o=V"
+o=6 
 ~QHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -3577,8 +3569,8 @@ n@ATSH
 5UUUU
 [A\A]A^A_]
 4vD)
-o=8\
-o%#\
+o=xZ
+o%cZ
 [A\A]]
 u/[D
 A\A]A^]
@@ -3589,7 +3581,6 @@ AWAVAUATA
 [A\A]A^A_]
 t{fA
 AWAVAU
-(=&Z
 X[A\A]A^A_]
 AWAVAU
 X[A\A]A^A_]
@@ -3780,8 +3771,6 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(-*3
-(%*3
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
@@ -3853,9 +3842,7 @@ A9D$$
 [A\A]A^A_]
 AWAVA
 AUATSH
-o%Bh
 [A\A]A^A_]
-o=Hd
 ATSH
 0[A\]
  [A\]
@@ -3864,10 +3851,8 @@ ATSH
 AVAUL
 [A\A]A^]
 AWAVL
-W=gE
 8[A\A]A^A_]
 AWAVL
-W-zC
 8[A\A]A^A_]
  [A\]
  [A\]
@@ -3903,6 +3888,7 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
+X%e/
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -3910,13 +3896,13 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-X%*W
+Y%xT
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
-W=SS
+W=3Q
 [A\A]]
 A\A]]
 A\A]]
@@ -3929,9 +3915,8 @@ AUATI
 [A\A]A^A_]
 [A\]
 [A\]
-tYUH
-~-<<
 ~Z H
+tYUH
 AVAUL
  [A\A]A^]
 l$<D
@@ -3958,7 +3943,6 @@ AWAVL
 tOHc
 tGHc
 VUUU
-o5m~
 AUATL
 [A\A]]
  ucL
@@ -4043,6 +4027,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
+H95	
 T$(H
 |$ H
 D$(H
@@ -4097,12 +4082,6 @@ AUATUH
 L;3r
 {}()'
 {}()':
-ENABLE_VB_ALLOC_TRACKER must be 1 to enable VB mem alloc tracking
-Dump VB memory allocation stats.
-VBAllocTracker001
-mem_dumpvballocs
-15IVBAllocTracker
-15CVBAllocTracker
 -disallowhwmorph
 -noglslcontrolflow
 m_NumTextureStages
@@ -4229,7 +4208,6 @@ VERTEX_TEXCOORD_SIZE(%d,%d)
 CopyToMeshBuilder called on something other than a temp mesh.
 bad vertex size for material %s
 TexGroup_global_Static Indices
-/data/src/materialsystem/shaderapidx9/meshdx8.cpp
 CShaderAPIDX8::RenderPassWithVertexAndIndexBuffers
 Dx9Device()->DrawIndexedPrimitive
 CMeshMgr::DiscardVertexBuffers
@@ -4256,6 +4234,7 @@ failed to lock index buffer in CMeshDX8::LockIndexBuffer
 ERROR: dynamic meshes cannot use compressed vertices!
 Verts: (Vertex Format %llx)
 Indices: %d
+meshdx8.cpp
 CMeshDX8::UnlockMesh
 Unaccounted
 (%s)%s
@@ -4282,10 +4261,10 @@ Lock nFirstIndex
 GetDynamicMesh
 CMeshDX8::ModifyBegin
 too many indices for index buffer. . tell a programmer (%d>%d)
-/data/src/materialsystem/shaderapidx9/dynamicib.h
 D3DERR_INVALIDCALL - Index Buffer Lock Failed in %s on line %d(offset %d, size %d, flags 0x%x)
 D3DERR_DRIVERINTERNALERROR - Index Buffer Lock Failed in %s on line %d (offset %d, size %d, flags 0x%x)
 D3DERR_OUTOFVIDEOMEMORY - Index Buffer Lock Failed in %s on line %d (offset %d, size %d, flags 0x%x)
+dynamicib.h
 TexGroup_global_
 TexGroup_frame_
 TexGroup_global_Dynamic Verts
@@ -4299,9 +4278,6 @@ HandleLateCreation
 12CTempMeshDX8
 16CBufferedMeshDX8
 8CMeshMgr
-17IShaderDynamicAPI
-10IShaderAPI
-14CShaderAPIBase
 CShaderAPIDx8::TexWrap: unknown wrapMode
 CShaderAPIDx8::TexWrap: unknown coord
 CShaderAPIDx8::TexMinFilter: Unknown texFilterMode
@@ -4315,7 +4291,6 @@ Encountered a material with two passes that use different numbers of bones!
 Encountered a material with two passes that use different user data sizes!
 Encountered a material with two passes that use different texture coord sizes!
 Attempting to bind a vertex texture (%s) which was not created as a vertex texture!
-/data/src/materialsystem/shaderapidx9/shaderapidx8.cpp
 OcclusionQuery_GetNumPixelsRendered
 CShaderAPIDx8::ForceHardwareSync
 CShaderAPIDx8::CopyRenderTargetToTexture
@@ -4332,6 +4307,7 @@ Attempted to set too many flex weights! Max is %d
 If this value is not -1, the material system will limit the amount of texture memory it uses in a frame. Useful for identifying performance cliffs. The value is in kilobytes.
 Force frame syncing to lock a managed texture.
 -dxlevel
+shaderapidx8.cpp
 ModifyTexture
 TexUnlock
 CullMode: invalid cullMode
@@ -4422,7 +4398,10 @@ CShaderDeviceMgrBase::GetRecommendedConfigurationInfo: CPU speed: %d MHz, Proces
 20CShaderDeviceMgrBase
 17CShaderDeviceBase
 24CShaderAPIConVarAccessor
-5SetHardwareGammaRamp( %f )
+517IShaderDynamicAPI
+10IShaderAPI
+14CShaderAPIBase
+SetHardwareGammaRamp( %f )
 Driver Description :  %s
 Chipset version %d %d %d %d
 Display mode : %d x %d (%s)
@@ -4465,6 +4444,7 @@ m_bColorOnSecondStream: %s
 OpenGL
 mat_queue_mode
 init
+shaderdevicedx8.cpp
 D3DQueryGetData %t
 unspecified
 ReacquireResources
@@ -4532,7 +4512,6 @@ http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php
 mat_debugalttab: CShaderAPIDX8::AllocFrameSyncObjects
 D3DQUERYTYPE_EVENT not available on this driver
 mat_debugalttab: CShaderAPIDX8::FreeFrameSyncObjects
-/data/src/materialsystem/shaderapidx9/shaderdevicedx8.cpp
 Forcefully resetting device (%s), resources release level was %d.
 ReacquireResources has no effect, now at level %d.
 ReacquireResources being discarded is a bug: use IsDeactivated to check for a valid device.
@@ -4561,7 +4540,6 @@ Attempting set SRGBRead state on an invalid sampler (%d)!
 333?
 BlitVolumeBits: couldn't lock volume texture rect
 BlitVolumeBits: couldn't unlock volume texture rect
-/data/src/materialsystem/shaderapidx9/texturedx8.cpp
 CShaderAPIDX8::BlitTextureBits: couldn't lock texture rect
 CShaderAPIDX8::BlitTextureBits: couldn't unlock texture rect
 ShaderAPIDX8::CreateD3DTexture: Invalid color format!
@@ -4576,6 +4554,7 @@ LoadCubeTextureFromVTF: couldn't get texture level description
 LoadCubeTextureFromVTF: VTF dimensions do not match texture
 LoadTextureFromVTF: couldn't get texture level description
 LoadTextureFromVTF: VTF dimensions do not match texture
+texturedx8.cpp
 BlitSurfaceBits
 %s - D3DLockRect
 %s - ConvertImageFormat
@@ -4592,7 +4571,8 @@ LoadTextureFromVTF
 8CFunctor
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
 9CFunctor1IPFvP21IDirect3DBaseTexture9ES1_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
-/data/src/materialsystem/shaderapidx9/TransitionTable.cpp
+TransitionTable.cpp
+CTransitionTable::UseSnapshot
 CTransitionTable::FindIdenticalTransitionList
 CTransitionTable::ApplyTransitionList
 CTransitionTable::ApplyShaderState
@@ -4600,11 +4580,16 @@ CTransitionTable::PerformShadowStateOverrides
 CTransitionTable::ApplyTransition
 CTransitionTable::UseDefaultState
 **** WARNING: Transition table overflow. Grab Brian
-CTransitionTable::UseSnapshot
 /data/src/public/tier1/UtlSortVector.h
 Assertion Failed: !m_bNeedsSort
 16CTransitionTable
 GET4GET1
+ENABLE_VB_ALLOC_TRACKER must be 1 to enable VB mem alloc tracking
+Dump VB memory allocation stats.
+VBAllocTracker001
+mem_dumpvballocs
+15IVBAllocTracker
+15CVBAllocTracker
 ERROR
 D3DDECLUSAGE_POSITION
 D3DDECLUSAGE_BLENDINDICES
@@ -4772,7 +4757,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -4804,17 +4789,6 @@ LZMA stream: Unexpected LZMA properties size: %hu, expecting %u. Version mismatc
 If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
 Unrecognized LZMA data
 lzma_persistent_buffer
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -4985,9 +4959,19 @@ VProcessUtils001
 21CUtlCStringConversion
 19CUtlNoEscConversion
 CUtlLinkedList overflow! (exhausted index range)
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
                 Could not find required OpenGL entry point '%s'! Either your video card is unsupported, or your OpenGL driver needs to be updated.
 SDL_SetWindowGammaRamp failed: %d
-/data/src/appframework/sdlmgr.cpp
  ##### swap interval = %d     swap limit = %d #####
 GL_NVX_gpu_memory_info: Failed retrieving available GPU memory
 GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u
@@ -5000,6 +4984,7 @@ SDL_GL_LoadLibrary(NULL) failed: %s
 m_rawinput
 false
 SetWindowGrab( %s )
+sdlmgr.cpp
 ShowPixels
 -glmdisableclipplanes
 -glmenableclipplanes

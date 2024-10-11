@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_mannhattan_event\medic_wall_separator_skin2"  // <------change this	
+	
+	//"$bumpmap" "models\props_mannhattan_event\medic_wall_separator_normal"
+
+	"$phong" "1"
+	"$phongexponent" "10"	
+	"$phongboost" ".01"
+
+	"$phongfresnelranges"	"[.7 15 20]"
+}

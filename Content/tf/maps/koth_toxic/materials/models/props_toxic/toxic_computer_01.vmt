@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_toxic/toxic_computer_01"
+	"$surfaceprop"	"metal"
+	"$color2" "[ 0.8 0.8 0.8 ]"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

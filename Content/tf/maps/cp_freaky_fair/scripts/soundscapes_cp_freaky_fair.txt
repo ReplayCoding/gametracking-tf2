@@ -1,0 +1,232 @@
+"FreakyFair.Outside"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".2, .3"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{	
+		"time"			"16, 20"
+		"volume"		"0.2"
+		"pitch"			"100, 90"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient/voices/playground_memory.wav"
+		}
+	}
+}
+
+"FreakyFair.Inside"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".1, .2"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".666, 1"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}
+
+"FreakyFair.Spawn"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".1, .2"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".666, 1"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}

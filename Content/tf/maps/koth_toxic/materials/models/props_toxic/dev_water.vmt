@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+
+    "%tooltexture" "dev/tfwater_normal"
+    "%keywords" "tf"
+    "$basetexture" "custom/patagonia/water_blue_base_clear"
+	"$basetexturetransform" "center .5 .5 scale 0.5 0.5 rotate 0 translate 0 0"
+	
+    "$bumpmap" "water/tfwater001_normal"
+    "$normalmap" "water/tfwater001_normal"
+	
+    "$translucent" "0"
+    "$surfaceprop" "water"
+    "$envmap" "env_cubemap"
+    "$envmaptint"    "[0.2 0.2 0.2]"
+    "$envmapcontrast" ".5"
+    "$color2" "[0.35 0.35 0.35]"
+    "$normalmapalphaenvmapmask" "1"
+    "$bumpframe" "0"
+
+    "Proxies"
+    {
+        "AnimatedTexture"
+        {
+            "animatedtexturevar" "$bumpmap"
+            "animatedtextureframenumvar" "$bumpframe"
+            "animatedtextureframerate" 24.00
+        }
+    }
+}
+

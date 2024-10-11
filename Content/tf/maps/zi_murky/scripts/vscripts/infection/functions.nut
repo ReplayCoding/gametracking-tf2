@@ -140,10 +140,7 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
 
     if ( _hInflictor.IsPlayer() )
     {
-        if ( _hInflictor.GetHealth() <= _hInflictor.GetMaxHealth() || _hInflictor.GetHealth() < _flDmg )
-        {
-            _hInflictor.SetHealth( 1 );
-        }
+        _hInflictor.SetHealth( 1 );
     }
 
     local _hBomb = SpawnEntityFromTable( "tf_generic_bomb",
@@ -172,11 +169,10 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
     _hBomb.GetScriptScope     ().m_flKillTime <- ( Time() + 0.1 ).tofloat();
     _hBomb.GetScriptScope     ().m_hOwner     <- _hInflictor;
 
-    AddThinkToEnt( _hBomb, "DemomanBombThink" );
-
     _hPfxEnt.DispatchSpawn();
 
-    EntFireByHandle ( _hPfxEnt, "Start", "", -1, null, null )
+    EntFireByHandle ( _hPfxEnt, "Start",    "", -1, null, null )
+
     SetPropInt      ( _hBomb, "m_iTeamNum", TF_TEAM_BLUE );
     EmitSoundOn     ( "Breakable.MatFlesh", _hBomb );
     EmitSoundOn     ( "Halloween.Merasmus_Hiding_Explode", _hBomb );
@@ -186,6 +182,11 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
     _hBomb.SetTeam       ( TF_TEAM_BLUE );
     _hBomb.SetOrigin     ( _vecLocation );
     _hBomb.SetOwner      ( _hInflictor );
+
+    // EntFireByHandle ( _hBomb,   "Detonate", "", -1, _hInflictor, _hInflictor )
+    _hBomb.KeyValueFromString( "classname", KILLICON_DEMOMAN_BOOM );
+    _hBomb.TakeDamage(1, DMG_CLUB, _hInflictor)
+    _hInflictor.TakeDamage(1, DMG_NEVERGIB, _hInflictor)
     return;
 };
 
@@ -370,6 +371,25 @@ CreateSmallHealthKit <- function( _vecLocation )
     AddThinkToEnt( _hDroppedHealthkit, "KillMeThink" );
 }
 
+CreateMediumHealthKit <- function( _vecLocation )
+{
+    local _hDroppedHealthkit = SpawnEntityFromTable( "item_healthkit_medium",
+    {
+        origin          = _vecLocation,
+        AutoMaterialize = false,
+        StartDisabled   = false,
+    } );
+
+    _hDroppedHealthkit.ValidateScriptScope();
+
+    // zombie dropped health kits last for 20 seconds
+    _hDroppedHealthkit.GetScriptScope().m_flKillTime <- ( Time() + 20.0 );
+
+    _hDroppedHealthkit.SetMoveType( MOVETYPE_FLYGRAVITY, MOVECOLLIDE_FLY_BOUNCE );
+
+    AddThinkToEnt( _hDroppedHealthkit, "KillMeThink" );
+}
+
 PrintToChat <- function( _szMessage )
 {
     if ( typeof _szMessage != "string" || _szMessage == "" || _szMessage == null )
@@ -379,10 +399,12 @@ PrintToChat <- function( _szMessage )
     return;
 };
 
-SlayPlayerWithSpoofedIDX <- function( _hAttacker, _hVictim, _hAttackerWep, _vecDmgForce, _vecDmgPosition, _iIDX = ZOMBIE_SPOOF_WEAPON_IDX )
+SlayPlayerWithSpoofedIDX <-  function(_hAttacker, _hVictim, _hAttackerWep, _vecDmgForce, _vecDmgPosition, _iIDX = ZOMBIE_SPOOF_WEAPON_IDX, _szKillicon = "" )
 {
     if ( _hAttacker == null || _hVictim == null || _hAttackerWep == null )
         return;
+
+    local _hKillicon    = KilliconInflictor( _szKillicon );
 
     // --------------------------------------------------------------------------------------------- //
     // hacky function for technically killing a player with a different weapon to spoof the killicon //
@@ -394,12 +416,13 @@ SlayPlayerWithSpoofedIDX <- function( _hAttacker, _hVictim, _hAttackerWep, _vecD
          _hVictim.GetClassname() == "obj_teleporter" )
     {
         // get the existing IDX of the given weapon, so we can swap it back
-        local _iPreviousIDX = GetPropInt( _hAttacker.GetActiveWeapon(), STRING_NETPROP_ITEMDEF );
+     //   local _iPreviousIDX = GetPropInt( _hAttacker.GetActiveWeapon(), STRING_NETPROP_ITEMDEF );
+
 
         // hack in the IDX of the weapon we want to steal the killicon from
-        SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iIDX );
+     //   SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iIDX );
 
-        _hVictim.TakeDamageEx( _hAttacker, _hAttacker,
+        _hVictim.TakeDamageEx( _hKillicon, _hAttacker,
                                _hAttackerWep, _vecDmgForce,
                                _vecDmgPosition, 999, DMG_CLUB ); // using a goofy number is ok
                                                                  // because we've already removed
@@ -407,27 +430,28 @@ SlayPlayerWithSpoofedIDX <- function( _hAttacker, _hVictim, _hAttackerWep, _vecD
                                                                  // nobody's stranges will be ruined
 
         // set the IDX back
-        SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
-        return;
+     //   SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
     }
     else if ( _hVictim.GetClassname() == "player" )
     {
         _hVictim.SetHealth( 1 ); // prep the player to be slain
 
         // get the existing IDX of the given weapon, so we can swap it back
-        local _iPreviousIDX = GetPropInt( _hAttacker.GetActiveWeapon(), STRING_NETPROP_ITEMDEF );
+      //  local _iPreviousIDX = GetPropInt( _hAttacker.GetActiveWeapon(), STRING_NETPROP_ITEMDEF );
 
         // hack in the IDX of the weapon we want to steal the killicon from
         SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iIDX );
 
-        _hVictim.TakeDamageEx( _hAttacker, _hAttacker,
+        _hVictim.TakeDamageEx( _hKillicon, _hAttacker,
                                _hAttackerWep, _vecDmgForce,
-                               _vecDmgPosition, 1, DMG_CLUB );
+                               _vecDmgPosition, 1, DMG_CLUB | DMG_ALWAYSGIB );
 
         // set the IDX back
-        SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
-        return;
+      //  SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
     };
+
+    _hKillicon.Destroy();
+    return;
 };
 
 // --------------------------------------------------------------------------------------- //
@@ -524,7 +548,7 @@ CTFPlayer_GiveZombieAbility <- function()
             _sc.m_hZombieAbility <- CHeavyPassive( this );
             break;
         case TF_CLASS_PYRO:
-            _sc.m_hZombieAbility <- CPyroPassive( this );
+            _sc.m_hZombieAbility <- CPyroBlast( this );
             break;
         case TF_CLASS_SCOUT:
             _sc.m_hZombieAbility <- CScoutPassive( this );
@@ -571,71 +595,76 @@ CTFPlayer_SpawnEffect <- function()
 
 CTFPlayer_GiveZombieCosmetics <- function()
 {
-    local _sc = this.GetScriptScope();
 
-    if ( "m_hZombieWearable" in _sc && _sc.m_hZombieWearable != null && _sc.m_hZombieWearable.IsValid() )
-    _sc.m_hZombieWearable.Destroy();
+    local _iClassnum = this.GetPlayerClass();
 
-    local _zombieCosmetic  =  Entities.CreateByClassname( "tf_wearable" );
-    local _soulIDX         =  arrZombieCosmeticIDX[ this.GetPlayerClass() ];
+    this.SetCustomModelWithClassAnimations(szArrZombiePlayerModels[ _iClassnum ]);
 
-    _zombieCosmetic.AddAttribute ( "player skin override", 1, -1 );
-    SetPropInt                   ( this, "m_iPlayerSkinOverride", 1 );
+    // local _sc = this.GetScriptScope();
 
-    Entities.DispatchSpawn       ( _zombieCosmetic );
-    _zombieCosmetic.SetAbsOrigin ( this.GetLocalOrigin() );
-    _zombieCosmetic.SetAbsAngles ( this.GetLocalAngles() );
+    // if ( "m_hZombieWearable" in _sc && _sc.m_hZombieWearable != null && _sc.m_hZombieWearable.IsValid() )
+    // _sc.m_hZombieWearable.Destroy();
 
-    // Zombie Cosmetics NetProps // ----------------------------------------------------------------- //
-    SetPropInt    ( _zombieCosmetic, "m_iTeamNum",                                     this.GetTeam() );
-    SetPropInt    ( _zombieCosmetic, "m_AttributeManager.m_Item.m_iItemDefinitionIndex",     _soulIDX );
-    SetPropBool   ( _zombieCosmetic, "m_bValidatedAttachedEntity",                               true );
-    SetPropBool   ( _zombieCosmetic, "m_AttributeManager.m_Item.m_bInitialized",                 true );
-    SetPropEntity ( _zombieCosmetic, "m_hOwnerEntity",                                           this );
-    SetPropInt    ( _zombieCosmetic, "m_Collision.m_usSolidFlags",                                  4 );
-    SetPropInt    ( _zombieCosmetic, "m_nModelIndex", arrZombieCosmeticModel[ this.GetPlayerClass() ] );
-    // ---------------------------------------------------------------------------------------------- //
+    // local _zombieCosmetic  =  Entities.CreateByClassname( "tf_wearable" );
+    // local _soulIDX         =  arrZombieCosmeticIDX[ this.GetPlayerClass() ];
 
-    _zombieCosmetic.SetOwner( this );
+    // _zombieCosmetic.AddAttribute ( "player skin override", 1, -1 );
+    // SetPropInt                   ( this, "m_iPlayerSkinOverride", 1 );
 
-    SetPropInt      ( _zombieCosmetic, "m_fEffects", ( EF_BONEMERGE ) );
-    EntFireByHandle ( _zombieCosmetic, "SetParent",  "!activator", 0.0, this, this );
+    // Entities.DispatchSpawn       ( _zombieCosmetic );
+    // _zombieCosmetic.SetAbsOrigin ( this.GetLocalOrigin() );
+    // _zombieCosmetic.SetAbsAngles ( this.GetLocalAngles() );
 
-    _sc.m_hZombieWearable <- _zombieCosmetic;
-    return;
-};
+    // // Zombie Cosmetics NetProps // ----------------------------------------------------------------- //
+    // SetPropInt    ( _zombieCosmetic, "m_iTeamNum",                                     this.GetTeam() );
+    // SetPropInt    ( _zombieCosmetic, "m_AttributeManager.m_Item.m_iItemDefinitionIndex",     _soulIDX );
+    // SetPropBool   ( _zombieCosmetic, "m_bValidatedAttachedEntity",                               true );
+    // SetPropBool   ( _zombieCosmetic, "m_AttributeManager.m_Item.m_bInitialized",                 true );
+    // SetPropEntity ( _zombieCosmetic, "m_hOwnerEntity",                                           this );
+    // SetPropInt    ( _zombieCosmetic, "m_Collision.m_usSolidFlags",                                  4 );
+    // SetPropInt    ( _zombieCosmetic, "m_nModelIndex", arrZombieCosmeticModel[ this.GetPlayerClass() ] );
+    // // ---------------------------------------------------------------------------------------------- //
+
+    // _zombieCosmetic.SetOwner( this );
+
+    // SetPropInt      ( _zombieCosmetic, "m_fEffects", ( EF_BONEMERGE ) );
+    // EntFireByHandle ( _zombieCosmetic, "SetParent",  "!activator", 0.0, this, this );
+}
+
 
 CTFPlayer_GiveZombieFXWearable <- function()
 {
-    local _sc = this.GetScriptScope();
+  // local _sc = this.GetScriptScope();
 
-    if ( _sc.m_hZombieFXWearable != null && _sc.m_hZombieFXWearable.IsValid() )
-        _sc.m_hZombieFXWearable.Destroy();
+  // if ( _sc.m_hZombieFXWearable != null && _sc.m_hZombieFXWearable.IsValid() )
+  //     _sc.m_hZombieFXWearable.Destroy();
 
-    local _zombieFXWearable = Entities.CreateByClassname( "tf_wearable" );
+  // local _zombieFXWearable = Entities.CreateByClassname( "tf_wearable" );
 
-    Entities.DispatchSpawn         ( _zombieFXWearable );
-    _zombieFXWearable.SetAbsOrigin ( this.GetLocalOrigin() );
-    _zombieFXWearable.SetAbsAngles ( this.GetLocalAngles() );
+  // Entities.DispatchSpawn         ( _zombieFXWearable );
+  // _zombieFXWearable.SetAbsOrigin ( this.GetLocalOrigin() );
+  // _zombieFXWearable.SetAbsAngles ( this.GetLocalAngles() );
 
-    // Zombie FX Wearable NetProps
-    SetPropBool   ( _zombieFXWearable,  "m_bValidatedAttachedEntity", true );
-    SetPropBool   ( _zombieFXWearable,  "m_AttributeManager.m_Item.m_bInitialized", true );
-    SetPropEntity ( _zombieFXWearable,  "m_hOwnerEntity",  this );
-    SetPropInt    ( _zombieFXWearable,  "m_Collision.m_usSolidFlags", 4 );
-    SetPropInt    ( _zombieFXWearable,  "m_nModelIndex", arrZombieFXWearable[ this.GetPlayerClass() ] );
+  // // Zombie FX Wearable NetProps
+  // SetPropBool   ( _zombieFXWearable,  "m_bValidatedAttachedEntity", true );
+  // SetPropBool   ( _zombieFXWearable,  "m_AttributeManager.m_Item.m_bInitialized", true );
+  // SetPropEntity ( _zombieFXWearable,  "m_hOwnerEntity",  this );
+  // SetPropInt    ( _zombieFXWearable,  "m_Collision.m_usSolidFlags", 4 );
+  // SetPropInt    ( _zombieFXWearable,  "m_nModelIndex", arrZombieFXWearable[ this.GetPlayerClass() ] );
 
-    _zombieFXWearable.SetOwner( this );
+  // _zombieFXWearable.SetOwner( this );
 
-    SetPropInt      ( _zombieFXWearable, "m_fEffects", ( EF_BONEMERGE | EF_BONEMERGE_FASTCULL ) );
-    EntFireByHandle ( _zombieFXWearable, "SetParent", "!activator", 0.0, this, this );
+  // SetPropInt      ( _zombieFXWearable, "m_fEffects", ( EF_BONEMERGE | EF_BONEMERGE_FASTCULL ) );
+  // EntFireByHandle ( _zombieFXWearable, "SetParent", "!activator", 0.0, this, this );
 
-    _sc.m_hZombieFXWearable  <-  _zombieFXWearable;
+  // _sc.m_hZombieFXWearable  <-  _zombieFXWearable;
     return;
 };
 
 CTFPlayer_ApplyOutOfCombat <- function()
 {
+    return;
+
     if ( this.InCond( TF_COND_SHIELD_CHARGE ) ) // todo - hacky demoman fix
         return;
 
@@ -1035,6 +1064,10 @@ CTFPlayer_CanDoAct <- function( _iAct )
             break;
         case ZOMBIE_CAN_CLIENTPRINT:
             _temp = _sc.m_fTimeNextClientPrint;
+            break;
+        case SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY:
+            _temp = _sc.m_fTimeRemoveScreenOverlay;
+            break;
         default:
             return false;
     };
@@ -1113,15 +1146,11 @@ CTFPlayer_ProcessEventQueue <- function(  )
                 if ( "m_hTempEntity" in _sc && _sc.m_hTempEntity != null && _sc.m_hTempEntity.IsValid() )
                     _sc.m_hTempEntity.Destroy();
 
-                if ( "m_hZombieFXWearable" in _sc && _sc.m_hZombieFXWearable != null && _sc.m_hZombieFXWearable.IsValid() )
-                    _sc.m_hZombieFXWearable.Destroy();
-
-                this.GiveZombieFXWearable();
-
                 this.SetForcedTauntCam ( 0 );
                 this.RemoveCond        ( TF_COND_TAUNTING );
 
                 _sc.m_hZombieAbility.PutAbilityOnCooldown();
+                this.RemoveCustomAttribute ( "no_attack" );
                 break;
 
             case EVENT_SPY_RECLOAK:
@@ -1157,6 +1186,13 @@ CTFPlayer_ProcessEventQueue <- function(  )
 
                 _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_DEMOCHARGE );
                 _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_MUST_EXPLODE );
+                break;
+
+            case EVENT_RESET_ZOMBIE_WEP:
+
+                this.DestroyAllWeapons();
+                this.GiveZombieWeapon();
+                this.RemoveAmmo();
                 break;
 
             default:
@@ -1255,6 +1291,7 @@ CTFPlayer_ResetInfectionVars <- function()
     _sc.m_fTimeNextHealTick     <- 0.0;
     _sc.m_fTimeNextClientPrint  <- 0.0;
     _sc.m_fTimeLastHit          <- 0.0;
+    _sc.m_fTimeRemoveScreenOverlay <- 0.0;
 
     _sc.m_iCurrentAbilityType   <- 0;
     _sc.m_iAbilityState         <- 0;
@@ -1351,6 +1388,9 @@ CTFPlayer_HowLongUntilAct <- function( _iAct )
         case ZOMBIE_CAN_CLIENTPRINT:
             return ( _sc.m_fTimeNextClientPrint < 0 ? 0 : _sc.m_fTimeNextClientPrint - Time() );
 
+        case SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY:
+            return ( _sc.m_fTimeRemoveScreenOverlay < 0 ? 0 : _sc.m_fTimeRemoveScreenOverlay - Time() );
+
         default:
             return false;
     };
@@ -1405,6 +1445,9 @@ CTFPlayer_SetNextActTime <- function( _iAct, _fTime )
             break;
         case ZOMBIE_CAN_CLIENTPRINT:
             _sc.m_fTimeNextClientPrint <- ( _nextTime );
+            break;
+        case SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY:
+            _sc.m_fTimeRemoveScreenOverlay <- ( _nextTime );
             break;
         default:
             return false;
@@ -1472,4 +1515,52 @@ foreach ( key, value in this )
         CTFBot[ func_name ] <- value;
         delete this[ key ];
     }
+}
+
+KnockbackPlayer <-  function( _hInflictor, _hVictim, _flForceMultiplier = 500.0, _flUpwardForce =  0.25, _bRemoveOnGround = false )
+{
+    if ( _hInflictor == null || _hVictim == null )
+         return;
+
+    if ( _bRemoveOnGround )
+    {
+        _hVictim.RemoveFlag ( FL_ONGROUND );
+        SetPropEntity       ( _hVictim, "m_hGroundEntity", null );
+        _hVictim.AddCond    ( TF_COND_KNOCKED_INTO_AIR );
+    }
+
+    local _vecInflictorPos  = _hInflictor.GetOrigin();
+    local _vecVictimPos     = _hVictim.GetOrigin();
+    local _vecDirection     = _vecVictimPos - _vecInflictorPos;
+
+    local _vecLength = sqrt(( _vecDirection.x * _vecDirection.x ) +
+                            ( _vecDirection.y * _vecDirection.y ) +
+                            ( _vecDirection.z * _vecDirection.z ) );
+
+    if ( _vecLength > 0 )
+    {
+        _vecDirection.x /= _vecLength;
+        _vecDirection.y /= _vecLength;
+        _vecDirection.z /= _vecLength;
+    }
+
+    _vecDirection.z += _flUpwardForce;
+
+    local _vecImpulse = _vecDirection * _flForceMultiplier;
+
+    _hVictim.ApplyAbsVelocityImpulse( _vecImpulse );
+
+    local _vecAngularImpulse = Vector( RandomFloat( -50.0, 50.0 ), RandomFloat( -50.0, 50.0 ), RandomFloat( -50.0, 50.0 ) );
+    _hVictim.ApplyLocalAngularVelocityImpulse( _vecAngularImpulse );
+
+    return;
+};
+
+KilliconInflictor <-  function( _szKillIconName )
+{
+    local _hKillIcon = SpawnEntityFromTable( "point_template", {
+        classname = _szKillIconName
+    });
+
+    return _hKillIcon;
 }

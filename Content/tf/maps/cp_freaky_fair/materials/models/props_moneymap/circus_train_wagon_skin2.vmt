@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_moneymap/circus_train_wagon_skin2"
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.25 .2 .15]"
+	
+	//"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "1"
+	"$phongfresnelranges" "[.3 2 1]"
+}

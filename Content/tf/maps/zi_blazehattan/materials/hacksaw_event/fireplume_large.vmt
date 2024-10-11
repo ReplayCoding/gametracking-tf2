@@ -1,0 +1,18 @@
+"UnLitTwoTexture"
+{
+    "$basetexture"    "hacksaw_event/fire_gradient"
+    "$texture2"    "hacksaw_event/fire_scrolling"
+    "$additive" "1"
+      $selfillum 1
+    //"$nocull" "1"
+    "%keywords" "tf"
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$texture2transform"
+            "texturescrollrate" .07
+            "texturescrollangle" 90
+        }
+    }
+}

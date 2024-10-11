@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_darkmarsh/custom/darkmarsh/water_darkmarsh_visible_-5040_2816_-72.vmt"
+	"insert"
+	{
+		"$waterdepth"		"2"
+	}
+}

@@ -278,15 +278,16 @@ class CMedicHeal extends CZombieAbility
         this.m_hAbilityOwner.GiveZombieCosmetics();
 
         this.m_hAbilityOwner.SetForcedTauntCam  ( 1 );
+        this.m_hAbilityOwner.AddCustomAttribute ( "no_attack", 1, -1 );
         this.m_hAbilityOwner.AddEventToQueue    ( EVENT_KILL_TEMP_ENTITY, 2 ); // todo - const
         this.m_hAbilityOwner.AddEventToQueue    ( EVENT_PUT_ABILITY_ON_CD, INSTANT );
-
         this.m_hAbilityOwner.AddCondEx          ( TF_COND_INVULNERABLE_USER_BUFF, 1, this.m_hAbilityOwner );
         this.m_hAbilityOwner.AddCondEx          ( TF_COND_HALLOWEEN_QUICK_HEAL, 2, this.m_hAbilityOwner  );
+        EmitSoundOn                             ( SFX_ZMEDIC_HEAL, this.m_hAbilityOwner );
 
         EntFireByHandle    ( _d.m_hTempEntity, "SetParent", "!activator", 0, this.m_hAbilityOwner, this.m_hAbilityOwner );
         EntFireByHandle    ( _d.m_hTempEntity, "Start", "", 0.2, null, null );
-        EmitSoundOnClient  ( "WeaponMedigun.HealingWorld", this.m_hAbilityOwner );
+       // EmitSoundOnClient  ( "WeaponMedigun.HealingWorld", this.m_hAbilityOwner );
 
         local _hPlayer            = null;
         local _arrPlayersInRange  = [];
@@ -319,7 +320,7 @@ class CMedicHeal extends CZombieAbility
             _hNextPlayer.SpawnEffect();
 
             _hNextPlayer.AddCondEx ( TF_COND_INVULNERABLE_USER_BUFF, 1, this.m_hAbilityOwner );
-            _hNextPlayer.AddCondEx ( TF_COND_HALLOWEEN_QUICK_HEAL, 2, this.m_hAbilityOwner  );
+            _hNextPlayer.AddCondEx ( TF_COND_HALLOWEEN_QUICK_HEAL,   2, this.m_hAbilityOwner );
         };
 
         return;
@@ -512,8 +513,11 @@ class CEngineerSapperNade extends CZombieAbility
         _nadeEnt.SetSize       ( ( _nadeEnt.GetBoundingMins() * 1 ),
                                  ( _nadeEnt.GetBoundingMaxs() * 1 ) ); // todo - const
 
-        SetPropInt    ( _nadeEnt, "m_CollisionGroup", COLLISION_GROUP_PROJECTILE );
-        SetPropVector ( _nadeEnt, "m_vInitialVelocity ", _vecThrow );
+        SetPropInt      ( _nadeEnt, "m_CollisionGroup", COLLISION_GROUP_PROJECTILE );
+        SetPropVector   ( _nadeEnt, "m_vInitialVelocity ", _vecThrow );
+        SetPropInt      ( _nadeEnt, "m_takedamage", 1 );
+        _nadeEnt.KeyValueFromString ( "targetname", "engie_nade_physprop" );
+
 
         _nadeEnt.DispatchSpawn();
         //_nadeEnt.SetMoveType(MOVETYPE_WALK, MOVECOLLIDE_DEFAULT);
@@ -525,7 +529,8 @@ class CEngineerSapperNade extends CZombieAbility
             origin       = _angPos
         });
 
-        EntFireByHandle( _hPfxEnt,  "SetParent", "!activator",  0, _nadeEnt, _nadeEnt );
+        EntFireByHandle             ( _hPfxEnt,  "SetParent", "!activator",  0, _nadeEnt, _nadeEnt );
+       // _nadeEnt.KeyValueFromString ( "targetname", "engie_nade_physprop" );
 
         _nadeEnt.SetAngles           ( _fPitch, _fYaw, _fRoll );
         _nadeEnt.SetAngularVelocity  ( _fPitch, _fYaw, _fRoll );
@@ -544,6 +549,7 @@ class CEngineerSapperNade extends CZombieAbility
         _sc.m_hOwner       <-  this.m_hAbilityOwner;
         _sc.m_hPfx         <-  _hPfxEnt;
         _sc.m_bHasHitSolid <-  false;
+        _sc.m_bMustFizzle  <-  false;
 
         this.m_hAbilityOwner.ViewPunch( QAngle( -3, 0, 0 ) ); // todo - const
 
@@ -599,7 +605,7 @@ class CDemoCharge extends CZombieAbility
         this.m_hAbilityOwner.GiveZombieFXWearable();
         this.m_hAbilityOwner.GiveZombieCosmetics();
 
-        EmitSoundOn( "Weapon_StickyBombLauncher.ChargeUp", this.m_hAbilityOwner );
+        EmitSoundOn( SFX_DEMO_CHARGE_RAMP, this.m_hAbilityOwner );
 
         // todo - array
         this.m_hAbilityOwner.AddCond   ( TF_COND_CRITBOOSTED_PUMPKIN );
@@ -652,7 +658,7 @@ class CDemoCharge extends CZombieAbility
         local _d = this.m_hAbilityOwner.GetScriptScope();
 
         this.m_hAbilityOwner.RemoveCond  ( TF_COND_SHIELD_CHARGE );
-      //  this.m_hAbilityOwner.RemoveCond  ( TF_COND_INVULNERABLE_USER_BUFF );
+        this.m_hAbilityOwner.RemoveCond  ( TF_COND_INVULNERABLE_USER_BUFF );
         this.m_hAbilityOwner.RemoveCond  ( TF_COND_TAUNTING );
 
         this.PutAbilityOnCooldown();
@@ -701,7 +707,7 @@ class CPyroPassive extends CPassiveAbility
         this.m_hAbilityOwner     =  hAbilityOwner;
         this.m_iAbilityType      =  ZABILITY_PASSIVE;
         this.m_fAbilityCooldown  =  ACT_LOCKED;
-        this.m_szAbilityName     =  PYRO_PASSIVE_NAME;
+        this.m_szAbilityName     =  PYRO_BLAST_NAME;
      // this.m_arrAttribs        =  PYRO_PASSIVE_ATTRIBUTES;
      // this.m_arrTFConds        =  PYRO_PASSIVE_CONDS;
     };
@@ -712,7 +718,7 @@ class CHeavyPassive extends CPassiveAbility
     constructor( hAbilityOwner )
     {
         this.m_hAbilityOwner     =  hAbilityOwner;
-        this.m_iAbilityType      =  ZABILITY_PASSIVE;
+        this.m_iAbilityType      =  ZABILITY_THROWABLE;
         this.m_fAbilityCooldown  =  ACT_LOCKED;
         this.m_szAbilityName     =  HEAVY_PASSIVE_NAME;
      // this.m_arrAttribs        =  HEAVY_PASSIVE_ATTRIBUTES;
@@ -745,3 +751,61 @@ class CMedicPassive extends CPassiveAbility
      // this.m_arrTFConds        =  SCOUT_PASSIVE_CONDS;
     };
 };
+
+class CPyroBlast extends CZombieAbility
+{
+    constructor( hAbilityOwner )
+    {
+        this.m_hAbilityOwner     =  hAbilityOwner;
+        this.m_iAbilityType      =  ZABILITY_THROWABLE;
+        this.m_fAbilityCooldown  =  MIN_TIME_BETWEEN_PYRO_BLAST;
+        this.m_szAbilityName     =  PYRO_BLAST_NAME;
+    };
+
+    function AbilityCast()
+    {
+        if ( this.m_hAbilityOwner == null )
+            return;
+
+        local _sc = this.m_hAbilityOwner.GetScriptScope();
+
+        local _vecAngFwd    = this.m_hAbilityOwner.EyeAngles().Forward()*975;
+        local _vecAngOrigin = this.m_hAbilityOwner.EyePosition()+this.m_hAbilityOwner.EyeAngles().Forward()*32;
+        local _vecAngEye    = this.m_hAbilityOwner.EyeAngles();
+
+        // spawn the dragon's fury projectile
+        local _BallOfFlames = SpawnEntityFromTable( "tf_projectile_BallOfFire",
+        {
+            basevelocity = _vecAngFwd,
+            teamnum      = this.m_hAbilityOwner.GetTeam(),
+            origin       = _vecAngOrigin,
+            angles       = _vecAngEye
+        })
+
+        AddThinkToEnt          ( _BallOfFlames, "PyroFireballThink" );
+        _BallOfFlames.SetOwner ( this.m_hAbilityOwner );
+
+        local _dummyFlamer = Entities.CreateByClassname( "tf_weapon_flamethrower" );
+
+        SetPropInt  ( _dummyFlamer, "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 21 );
+        SetPropBool ( _dummyFlamer, "m_bValidatedAttachedEntity", true );
+        SetPropFloat( _dummyFlamer, "m_flNextSecondaryAttack", 0.0 );
+
+        _dummyFlamer.DispatchSpawn();
+
+        this.m_hAbilityOwner.Weapon_Equip( _dummyFlamer );
+
+        SetPropIntArray( this.m_hAbilityOwner, "m_iAmmo", 99, 1 );
+
+        _dummyFlamer.SecondaryAttack();
+
+        this.m_hAbilityOwner.DestroyAllWeapons();
+        this.m_hAbilityOwner.GiveZombieWeapon();
+        this.m_hAbilityOwner.RemoveAmmo();
+
+        this.m_hAbilityOwner.AddEventToQueue ( EVENT_PUT_ABILITY_ON_CD, INSTANT );
+        this.m_hAbilityOwner.AddEventToQueue ( EVENT_RESET_ZOMBIE_WEP,   0.01 );
+
+        return;
+    };
+}

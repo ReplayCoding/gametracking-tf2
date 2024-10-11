@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ISLAND_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_outburst/c299_454_1434"
+		"Proxies"
+		{
+		}
+	}
+}

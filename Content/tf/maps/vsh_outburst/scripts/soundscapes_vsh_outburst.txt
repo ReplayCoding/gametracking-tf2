@@ -1,0 +1,173 @@
+
+"HellOfAMann.Hell"
+{
+	"dsp"	"26"
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"	"98"
+		"wave"	"ambient\hell\hell_atmos.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"7, 12"
+		"volume"	"0.3"
+		"pitch"	"95, 105"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/hell\hell_rumbles_01.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_02.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_03.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_04.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_05.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_06.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_07.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"4, 10"
+		"volume"	".8, 1"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"hla/amb_laughs_07.mp3"
+			"wave"	"hla/amb_laughs_08.mp3"
+			"wave"	"hla/amb_laughs_10.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"4, 10"
+		"volume"	".8, 1"
+		"pitch"	"100"
+
+		"wave" "ambient/fire/fire_big_loop1.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"8, 16"
+		"volume"	"0.4"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\lair\rolling_thunder3.mp3"
+			"wave"	"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder3.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder2.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder1.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_rolling_thunder1.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"7, 11"
+		"volume"	".3, .5"
+		"pitch"	"80, 110"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/hallow01.mp3"
+			"wave"	"ambient_mp3/hallow02.mp3"
+			"wave"	"ambient_mp3/hallow03.mp3"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"pitch"	"100"
+		"wave"	"hla\amb_hell_mystic.wav"
+	}
+}
+
+"HellOfAMann.Tree"
+{
+	"dsp"	"26"
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"	"98"
+		"wave"	"ambient\hell\hell_atmos.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"7, 12"
+		"volume"	"0.2"
+		"pitch"	"95, 105"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/hell\hell_rumbles_01.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_02.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_03.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_04.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_05.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_06.mp3"
+			"wave"	"ambient_mp3/hell\hell_rumbles_07.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"4, 10"
+		"volume"	".8, 1"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"hla/amb_laughs_07.mp3"
+			"wave"	"hla/amb_laughs_08.mp3"
+			"wave"	"hla/amb_laughs_10.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"8, 16"
+		"volume"	"0.5"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\lair\rolling_thunder3.mp3"
+			"wave"	"ambient_mp3\lair\rolling_thunder2.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder3.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder2.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_vista_thunder1.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_rolling_thunder1.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"7, 11"
+		"volume"	".3, .5"
+		"pitch"	"80, 110"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3/hallow01.mp3"
+			"wave"	"ambient_mp3/hallow02.mp3"
+			"wave"	"ambient_mp3/hallow03.mp3"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"98"
+		"wave"	"hla\amb_hell_tree.wav"
+	}
+}

@@ -1137,11 +1137,11 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd"				"AsiaFortress Liquid.tf Open – Tredjeplass"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Spring2024"	"Tildelt spillerne som tok tredjeplassen i AsiaFortress Liquid.tf Spring 2024 Open"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"AsiaFortress Liquid.tf Invite – Førsteplass"
-"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Tildelt vinnerne av AsiaFortress Liquid.tf Spring 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Tildelt spillerne på Xiao, vinnerne av AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"AsiaFortress Liquid.tf Invite – Andreplass"
-"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"Tildelt spillere som tok andreplassen i AsiaFortress Liquid.tf Spring 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"Tildelt spillerne på Ex Nihilo, som tok andreplassen i AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd"				"AsiaFortress Liquid.tf Invite – Tredjeplass"
-"TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"Tildelt spillere som tok tredjeplassen i AsiaFortress Liquid.tf Spring 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"Tildelt spillerne på United Beasts, som tok tredjeplassen i AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant"				"AsiaFortress Liquid.tf Invite – Deltaker"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2024"	"Tildelt spillerne som deltok i AsiaFortress Liquid.tf Spring 2024 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf Open – Deltaker"
@@ -1484,6 +1484,7 @@
 "TF_TournamentMedal_TitaniumTank_Donator_Rainbow_2020"		"Titanium Tank 2020 – Kromatisk kardioide"
 "TF_TournamentMedal_TitaniumTank_Donator_Rainbow_2020_Desc"	"Takket være hele utvalget av spillere som deg, kommer vi til å overvinne denne pandemien, akkurat som du overvant endeløse bølger av morderiske roboter. Tildelt givere til Potato's MvM Servers kampanje for veldedighet!"
 
+"TF_TournamentMedal_RewindII_DonorT2"				"ESA Rewind II – Nivå 2-giver"
 "TF_TournamentMedal_Canteen_Crasher_Rust"				"Canteen Crasher 2018 – Rusten deltakermedalje"
 "TF_TournamentMedal_Canteen_Crasher_Rust_Desc"			"Som en belønning for å dukke opp gir vi deg noe vi fant i verktøyskuret vårt! Tildelt deltakere av den sammensatte MvM-konkurranse til \"Potato's MvM Server\"!"
 "TF_TournamentMedal_HolographicHarvest_Carbon"			"Holographic Harvest 2022 – Karbonkjærlighet"
@@ -2225,6 +2226,7 @@
 "TF_Wearable_Robot"			"Robot"
 "TF_Wearable_Lantern"		"Lanterne"
 "TF_Wearable_Bongos"		"Bongotrommer"
+"TF_Wearable_Tattoos"		"Tatoveringer"
 "TF_Wearable_Botkiller"		"Robotdrepende"
 "TF_Wearable_Hair"			"Hår"
 "TF_Wearable_Bones"			"Bein"
@@ -2239,11 +2241,17 @@
 "TF_Wearable_Bandages"		"Bandasjer"
 "TF_Wearable_Axe"			"Pynteøks"
 "TF_Wearable_Headset"		"Hodetelefoner"
+"TF_Wearable_GolfClubs"		"Golfkøller"
+"TF_Wearable_Refreshment"	"Forfriskning"
+"TF_Wearable_ChampionshipBelt"		"Mesterskapsbelte"
 "TF_Wearable_Glove"					"Hanske"
+"TF_Wearable_Bandolier"				"Bandolær"
 "TF_Wearable_Helmet"				"Hjelm"
 "TF_Wearable_Towel"					"Håndkle"
 "TF_Wearable_Coffin"				"Kiste"
 "TF_Wearable_Hooves"				"Hover"
+"TF_Wearable_EyeStalks"				"Øyestilker"
+"TF_Wearable_UndeadPet"				"Udødt kjæledyr"
 "TF_Wearable_SpookyCompanion"		"Skummel ledsager"
 "TF_Wearable_BirdHead"				"Fuglehode"
 "TF_Wearable_Tentacles"				"Tentakler"
@@ -2252,6 +2260,7 @@
 "TF_Wearable_ToolBelt"				"Verktøybelte"
 "TF_Wearable_Jacket"				"Jakke"
 "TF_Wearable_Balaclava"				"Finlandshette"
+"TF_Wearable_Holster"				"Hylster"
 "TF_Wearable_Pouch"					"Patrontaske"
 "TF_Wearable_Wingstick"				"Vingepinne"
 "TF_Wearable_Rose"					"Rose"
@@ -2312,6 +2321,9 @@
 "TF_Wearable_Headache"				"Hodepine"
 "TF_Wearable_Shroud"				"Kappe"
 "TF_Wearable_Butler"				"Butler"
+
+"TF_RobotPart_Type"	"Robotdel"
+"TF_CircuitBoard_Type"	"Kretskort"
 
 "TF_TauntEnabler_Laugh"		"Hån: Skadefryden"
 "TF_TauntEnabler_Laugh_Desc"	"Hån for alle klasser.\nDel en hjertelig latter med alle, bortsett fra den ene fyren du nettopp skjøt."
@@ -2402,6 +2414,9 @@
 "TF_Winger"			"Vingspiller" // ADD THE
 "TF_Atomizer"			"Atomkraft" // ADD THE
 "TF_BonkBoy"			"Bonk Boy"
+"TF_BonkBoy_Style_WithNoHat"	"Aerodynamisk klassiker"
+"TF_BonkBoy_Style_WithHat"		"Innstilt"
+
 "TF_CosaNostraCap"		"Cosa Nostra-hatt"
 "TF_CosaNostraCap_Desc"		"Om blikk kunne drepe ville denne fiffige hatten gjort hodet ditt medskyldig i drap."
 "TF_Enforcer"			"Håndhever" // ADD THE
@@ -2421,6 +2436,8 @@
 "TF_StatelySteelToe"		"Staselig ståltå"
 "TF_CopGlasses"			"Sikkerhetsbriller"
 "TF_CopHelmet"			"Purkens topplokk"
+"TF_CopHelmet_Style0"	"Fredsbevarer"
+"TF_CopHelmet_Style1"	"Lovløs"
 "TF_SteelJaw"			"Stor stålkjeve av sommermoro"
 "TF_SteelJaw_Desc"		"Wee! Det er sommer! Vi har det gøy!\nÅ GUD DEN ER BOLTET TIL HODET HANS!"
 "TF_Summer_Shades"		"Sommerbriller"
@@ -2635,6 +2652,7 @@
 "TF_TotalWarBundle"					"Total War-pakken"
 "TF_OculusRift_Promo"						"Oculus Rift Promo"
 "TF_RandomDroppablePaintPackage"		"Mann Co. Painting Set"
+"TF_HA_Pyro"			"Stammebein" // ADD THE
 "TF_SD_Sapper"		"Byråkratisk opptaker" // ADD THE
 "TF_SD_Minigun"		"Ilddrake" // ADD THE
 "TF_SD_Cleaver"		"Flyvende giljotin" // ADD THE
@@ -2650,8 +2668,10 @@
 "TF_SD_Helmet_Style0"	"Kollisjon"
 "TF_SD_Helmet_Style1"	"Flamme"
 "TF_SD_Helmet_Style2"	"Overstyring"
+"TF_XCOM_Hair_Desc"			"Hvis du noen gang planlegger å bekjempe romvesener, så er dette håret å ha. Romvesener er redd for kantete, møysommelige klippet hår, så bare synet av deg vil sende dem løpende tilbake til Mars. Eller, alternativt, tar vi helt feil og du kommer til å dø. Uansett, så kommer du til å se stilig ut."
 "TF_XCOM_Hair_Style0"		"Gul"
 "TF_XCOM_Hair_Style1"		"Brun"
+"TF_XCOM_Pyro"			"Område 451"
 "TF_Robot_Sandvich"		"Robo-Smørbrød" // ADD THE
 "TF_ThreeA_Badge"		"Triple A Badge" // ADD THE
 "TF_COH2_Badge_Style1"		"Russisk"
@@ -8569,6 +8589,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Tool_Gift_Global_Received"	"Levert gavekatapult-pakke"
 "TF_Tool_Gift_Global_Received_Desc"	"Denne pakken ble levert av en Gavekatapult fra en tilfeldig fremmed på nettet. Du kan åpne den fra ryggsekken!"
 "TF_Tool_BackpackExpander"		"Ryggsekkutvidelse"
+"TF_Tool_BackpackExpander_Desc"	"Legg til 100 ekstra plasser i ryggsekken!\n(maks 4000 plasser)"
 "TF_Tool_AccountUpgradeToPremium"		"Oppgrader til premium-gave"
 "TF_Tool_AccountUpgradeToPremium_Desc"	"Bytt denne gjenstanden til en venn med en gratiskonto. Når de bruker den, vil de automatisk bli konvertert til en premium-konto, og utnytte fordeler slik som ekstra plasser i ryggsekken"
 
@@ -11349,7 +11370,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Armory_Item_Limited"			"Denne gjenstanden er kun tilgjengelig i butikken for en begrenset periode! Gjenstanden er foreløpig ikke tilgjengelig som bytte eller fra kasser."
 "TF_Armory_Item_Limited_Holiday"	"Denne gjenstanden er bare tilgjengelig i butikken for en begrenset tid under denne høytidsbegivenheten!"
 "TF_Armory_Item_MapToken"			"Når denne gjenstanden kjøpes, går alle inntektene (etter ev. skatt) direkte til samfunnsmedlemmene som utviklet kartet.\n\nMedlemskapsnivået for et kart økes for hvert 25. kartfrimerke.\n\nDet gis også ut en Verdensreisendes hatt første gang det kjøpes et kartfrimerke."
-"TF_Armory_Item_BackpackExpander"	"Når denne gjenstanden brukes, legger den til 100 ekstra plasser i ryggsekken din. Legg merke til at det er maks 3000 plasser."
+"TF_Armory_Item_BackpackExpander"	"Når denne gjenstanden brukes, legger den til 100 ekstra plasser i ryggsekken din. Legg merke til at det er maks 4000 plasser."
 "TF_Armory_Item_CanCustomizeTexture"	"Du kan legge til et egendefinert bilde på denne gjenstanden ved hjelp av et gjenstandsmerke. Kjøper du denne gjenstanden, får du et GRATIS gjenstandsmerke for å komme i gang! Merket er lagd ved å velge en liten palett fra TF2-stilen og justere bildet slik at det passer den paletten."
 
 "TF_Armory_Item_StrangePart"		"Denne gjenstanden er en merkelig del. Den kan bli brukt på én gjenstand av merkelig kvalitet som du allerede eier, slik at den kan få ekstra statistikker."

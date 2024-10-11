@@ -59,16 +59,58 @@ _ZNV16CThreadFastMutex4LockEyj
 COM_TimestampedLog
 qsort
 __cxa_pure_virtual
+__ctype_b_loc
+strcasecmp
+memcmp
+strcpy
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+strncasecmp
+wcsncpy
+vswprintf
+vsnprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
+free
+_ZN17CThreadSpinRWLock11LockForReadEv
+_ZN17CThreadSpinRWLock10UnlockReadEv
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+_ZN12CThreadEventC1Eb
+_ZN17CThreadSyncObjectD2Ev
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN12CThreadEvent3SetEv
+_ZN13CThreadRWLock12LockForWriteEv
+_ZN13CThreadRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+_ZN17CThreadSpinRWLock11UnlockWriteEv
 stderr
 fprintf
 access
 __errno_location
 readdir64
-strcasecmp
 closedir
 strdup
 strcasestr
-free
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -96,48 +138,6 @@ __wrap_utime
 __wrap_utimes
 __wrap_realpath
 __wrap_rmdir
-__ctype_b_loc
-memcmp
-strcpy
-towupper
-towlower
-__ctype_toupper_loc
-__ctype_tolower_loc
-strncasecmp
-wcsncpy
-vswprintf
-vsnprintf
-strncat
-wcsncat
-iswspace
-iconv_open
-iconv
-iconv_close
-chdir
-mbstowcs
-wcstombs
-Plat_localtime
-strftime
-strtoll
-strtoull
-cvar
-strtoul
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-pthread_mutexattr_init
-pthread_mutexattr_settype
-pthread_mutex_init
-_ZN12CThreadEventC1Eb
-_ZN17CThreadSyncObjectD2Ev
-pthread_mutex_destroy
-pthread_mutex_lock
-pthread_mutex_unlock
-_ZN13CThreadRWLock11WaitForReadEv
-_ZN12CThreadEvent3SetEv
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEj
-_ZN17CThreadSpinRWLock11UnlockWriteEv
 _Z6ConMsgPKcz
 __dynamic_cast
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -252,8 +252,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95~l
-D95Ul
+D95nl
+D95El
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -423,9 +423,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%0
-D9%H
-D9%(
+D9% 
+D9%8
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -486,49 +485,6 @@ C D9
 sXHc
 C0E1
 0x'H
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -576,9 +532,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -605,10 +558,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5n
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -745,11 +698,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -829,13 +783,8 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5n8
-o5-8
-o-K8
+o5mU
 0[A\]
-o-B1
-o-f1
-o%y1
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1132,20 +1081,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -1170,6 +1115,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -1185,10 +1132,10 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
 AWAVAUATSH
 ([A\A]A^A_]
 HcpH
@@ -1258,6 +1205,49 @@ s fD;{:H
 C fD
 t+E1
 C@s;
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 `Pf.
 G8#p(
 G8	p(
@@ -1439,6 +1429,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
+H95)c
 T$(H
 |$ H
 D$(H
@@ -1554,7 +1545,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -1582,17 +1573,6 @@ m_mutex
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -1764,6 +1744,17 @@ VProcessUtils001
 19CUtlNoEscConversion
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlLinkedList overflow! (exhausted index range)
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
 {}()':
  game
  client
@@ -1795,7 +1786,7 @@ ConVarRef %s doesn't point to an existing ConVar
 20ConVar_ServerBounded
 16CDefaultAccessor
 12CEmptyConVar
-                
+                0
 ;*3$"
 zPLR
 zPLR

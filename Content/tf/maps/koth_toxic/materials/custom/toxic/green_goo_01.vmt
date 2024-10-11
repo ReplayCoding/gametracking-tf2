@@ -1,0 +1,35 @@
+"LightmappedGeneric"
+{
+
+    <dx90
+    {
+             "$fallbackmaterial" "water/water_hydro_cheap_dx80"
+    }
+
+    "%tooltexture" "dev/tfwater_normal"
+    "%keywords" "tf"
+    "$basetexture" "custom/patagonia/water_blue_base_clear"
+	
+    "$bumpmap" "water/tfwater001_normal"
+    "$normalmap" "water/tfwater001_normal"
+	
+    "$translucent" "0"
+    "$surfaceprop" "water"
+    "$envmap" "env_cubemap"
+    "$envmaptint"    "[0.1 0.3 0.1]"
+    "$envmapcontrast" ".5"
+    "$color" "[0.1 0.4 0.25]"
+    "$normalmapalphaenvmapmask" "1"
+    "$bumpframe" "0"
+
+    "Proxies"
+    {
+        "AnimatedTexture"
+        {
+            "animatedtexturevar" "$bumpmap"
+            "animatedtextureframenumvar" "$bumpframe"
+            "animatedtextureframerate" 24.00
+        }
+    }
+}
+

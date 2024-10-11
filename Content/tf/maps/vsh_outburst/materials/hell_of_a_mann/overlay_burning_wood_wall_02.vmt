@@ -1,0 +1,26 @@
+"UnLitTwoTexture"
+{
+    "$basetexture"  "hell_of_a_mann/overlay_burning_wood_wall_02.vtf"
+    "$texture2" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+    "$additive" "1"
+    "$texture2transform" "center .5 .5 scale .1 .1 rotate 0 translate 0 0"
+    "$decalscale" .35
+	"$translucent" "1"
+
+
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+    "$decal" 1
+    "%keywords" "tf"
+    "Proxies"
+    {
+            "TextureScroll"
+       	 	{
+            			"texturescrollvar" "$texture2transform"
+            			"texturescrollrate" .05
+            			"texturescrollangle" 90
+            }
+    }
+}
+
+

@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------- //
-// Infection - v1 								           // 
+// Infection - Version 2 - Workshop Release v2 - Last Edited: 16/09/2023                   //
 // --------------------------------------------------------------------------------------- //
 // Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)        //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
@@ -98,6 +98,31 @@
 		"wave"	"infection/spy_reveal_01.mp3"
 		"wave"	"infection/spy_reveal_02.mp3"
 		"wave"	"infection/spy_reveal_03.mp3"
+	}
+}
+
+"Infection.MedicZombieHeal"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/medic_zombie_heal.wav"
+	}
+}
+"Infection.DemoChargeRamp"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/demo_charge_rampup_01.wav"
+		"wave"	"infection/demo_charge_rampup_02.wav"
+		"wave"	"infection/demo_charge_rampup_03.wav"
 	}
 }
 

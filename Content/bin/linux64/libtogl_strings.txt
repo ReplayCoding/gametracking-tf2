@@ -17,31 +17,22 @@ g_pMemAlloc
 __gxx_personality_v0
 __cxa_call_unexpected
 memset
-_Z6ConMsgPKcz
-rand
-raise
-g_Telemetry
-memcpy
-__cxa_atexit
-g_ClockSpeed
-Warning
-strlen
-strcpy
-strstr
-__isoc99_sscanf
-CommandLine_Tier0
-sprintf
-GLMDecode
-putchar
 memmove
-Error
 Plat_IsInDebugSession
+Error
+raise
+strlen
 strchr
 strrchr
+memcpy
+sprintf
 modf
+strstr
+GLMDecode
 _ZN10IDirect3D9D2Ev
 _ZN10IDirect3D9D1Ev
 _ZN10IDirect3D9D0Ev
+CommandLine_Tier0
 _ZN18IDirect3DResource911SetPriorityEj
 _ZN21IDirect3DBaseTexture97GetTypeEv
 _ZN21IDirect3DBaseTexture913GetLevelCountEv
@@ -81,9 +72,11 @@ _ZN15IDirect3DQuery95IssueEj
 ThreadGetCurrentId
 _ZN15IDirect3DQuery97GetDataEPvjj
 g_ClockSpeedSecondsMultiplier
+Warning
 _ZN16IDirect3DDevice918CreateVertexBufferEjjj8_D3DPOOLPP22IDirect3DVertexBuffer9PPv
 _ZTV22IDirect3DVertexBuffer9
 _ZN22IDirect3DVertexBuffer94LockEjjPPvj
+g_Telemetry
 _ZN22IDirect3DVertexBuffer96UnlockEv
 _ZN22IDirect3DVertexBuffer916UnlockActualSizeEjPKv
 _ZN16IDirect3DDevice917CreateIndexBufferEjj10_D3DFORMAT8_D3DPOOLPP21IDirect3DIndexBuffer9PPv
@@ -100,6 +93,7 @@ _ZN16IDirect3DDevice911GetViewportEP13_D3DVIEWPORT9
 _ZN16IDirect3DDevice910BeginSceneEv
 _ZN16IDirect3DDevice98EndSceneEv
 _ZN16IDirect3DDevice916PrintObjectStatsERKNS_13ObjectStats_tE
+_Z6ConMsgPKcz
 _ZN16IDirect3DDevice918DumpStatsToConsoleEPK8CCommand
 _ZN16IDirect3DDevice910GetTextureEjPP21IDirect3DBaseTexture9
 _ZN16IDirect3DDevice918CreateRenderTargetEjj10_D3DFORMAT20_D3DMULTISAMPLE_TYPEjiPP17IDirect3DSurface9PPvPc
@@ -116,6 +110,7 @@ _ZN16IDirect3DDevice922GetDepthStencilSurfaceEPP17IDirect3DSurface9
 _ZN16IDirect3DDevice918GetFrontBufferDataEjP17IDirect3DSurface9
 _ZN16IDirect3DDevice917CreatePixelShaderEPKjPP21IDirect3DPixelShader9PKcPcS1_
 _ZTV21IDirect3DPixelShader9
+__isoc99_sscanf
 _ZN16IDirect3DDevice923SetPixelShaderNonInlineEP21IDirect3DPixelShader9
 _ZN16IDirect3DDevice932SetPixelShaderConstantFNonInlineEjPKfj
 _ZN16IDirect3DDevice923SetPixelShaderConstantBEjPKij
@@ -221,6 +216,7 @@ _ZN16IDirect3DDevice919GetRenderTargetDataEP17IDirect3DSurface9S1_
 _ZN16IDirect3DDevice920DrawIndexedPrimitiveE17_D3DPRIMITIVETYPEijjjj
 memcmp
 _ZN16IDirect3DDevice95ClearEjPK8_D3DRECTjjfj
+__cxa_atexit
 _ZN16IDirect3DDevice97PresentEPK5_RECTS2_PvPK7RGNDATA
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTS18IDirect3DResource9
@@ -255,6 +251,7 @@ _ZTI16IDirect3DDevice9
 stderr
 ToGLConnectLibraries
 ToGLDisconnectLibraries
+strcpy
 GetOpenGLEntryPoints
 ClearOpenGLEntryPoints
 free
@@ -278,6 +275,9 @@ system
 strcat
 strncmp
 GLMEndPIXEvent
+putchar
+g_ClockSpeed
+rand
 strtod
 strtol
 __dynamic_cast
@@ -304,6 +304,30 @@ _ZNV16CThreadFastMutex4LockEyj
 COM_TimestampedLog
 qsort
 __cxa_pure_virtual
+__ctype_b_loc
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+strncasecmp
+wcsncpy
+vswprintf
+vsnprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
 access
 __errno_location
 readdir64
@@ -339,30 +363,6 @@ __wrap_utimes
 __wrap_realpath
 __wrap_mkdir
 __wrap_rmdir
-__ctype_b_loc
-towupper
-towlower
-__ctype_toupper_loc
-__ctype_tolower_loc
-strncasecmp
-wcsncpy
-vswprintf
-vsnprintf
-strncat
-wcsncat
-iswspace
-iconv_open
-iconv
-iconv_close
-chdir
-mbstowcs
-wcstombs
-Plat_localtime
-strftime
-strtoll
-strtoull
-cvar
-strtoul
 toupper
 _ZGVbN2v_sin
 atan2f
@@ -471,218 +471,12 @@ GLIBC_2.3
 %2:	
 %*:	
 %":	
-5k}I
-=v~I
-5`~I
-=h!K
 u/UH
  ff.
 ` ff.
  ff.
 ` ff.
 ` ff.
-AVAUA
-@8w$t6H
-k$D8c%t7H
-c%[A\A]A^]
-ATSH
-[A\]
-C [A\]
-ATSH
-[A\]
-ATSH
-[A\]
-AWAVAUATSH
-([A\A]A^A_]
-='jI
-CHtM
-;[A\]
-AWAVAUATSH
-A9D$
-[A\A]A^A_]
-CPD8s@t
-[A\A]A^A_]
-9S<t
-CXE1
-AWAVAUI
-ATSH
-[A\A]A^A_]
-[A\A]A^A_]
-5u		
-C(E1
-K(Mc
-HcS8
-{0Ic
-{0Ic
-AWLc
-ATSH
-([A\A]A^A_]
-[A\]
-AWAVA
-[A\A]A^A_]
-t!M9,$u
-[A\A]A^]
-AWAVAUI
-ATSH
-[A\A]A^A_]
-A\A]A^A_]
-ATSH
-%FqI
-[A\]
-AWAVAUI
-L"(9]
-H[A\A]A^A_]
-AWAVAUATA
-%TmI
-[A\A]A^A_]
-5BlI
-AWAVAUATI
-IcD$@
-L$DA
-|$8H
-T$81
-[A\A]A^A_]
-IcL$ A
-T$$I
-AUATSH
-[A\A]]
-[A\A]]
-[A\A]A^]
-[A\A]A^]
-AWAVAUATSH
-[A\A]A^A_]
-)B`H
-AWAVI
-AUATI
-([A\A]A^A_]
--a]I
-AUATSH
-[A\A]]
-AVAUI
-[A\A]A^A_]
-C0Mc
-AUATSH
-[A\A]]
-G(Hc
-D$ H
-D$ L
-[A\A]]
-[A\A]]
-AUATE1
-[A\A]A^A_]
-AWAVAUATSH
-l$ M
-[A\A]A^A_]
-ATSH
-[A\]
-uJUH
-uXUH
-ATSH
-[A\]
-AUATI
-[A\A]]
-9W t
-[A\]
-AWAVAUATI
-3w81
-[A\A]A^A_]
-DXT3
-DXT5u
-L$$H
-YD$ M	
-DXT1
-YD$ M	
-A;T$
-A9t$
-A+T$
-YD$ H
-YD$ H
-YD$ H
-YD$$
-YD$ H
-YD$$
-YL$ H
-YD$ M	
-YD$$
-AUATSH
-t;Hk
-[A\A]]
-8[A\A]]
-tYUH
-AUATL
-[A\A]]
-IcILH
-ATSH
-t$ D
-[A\A]A^A_]
-AVAUA
-[A\A]A^]
-IcT$4H
-AWAVAUATI
-IcD$4
-9S$~
-[A\A]A^A_]
-IcT$4
-z`E1
--I5I
-tQHcE
-@t_H
-D$4H
-AVAUATSH
-A9F4
-t~[A\A]A^]
-AWAVI
-AUATSH
-xP9~
-T$ I
-l$4I
-T$(H
-T$8A
-F VD
-T$8E
-T$<Y^
-[A\A]A^A_]
-xT9~
-@X9F$
-FXLc
-D$$I
-\$0H
-D$8A
-D9h0
-h[A\A]A^A_]
-D9y@H
-HcqLH
-D$PI
-HcPL
-HcqLH
-D$h9
-D$`A
-\$pI
-D$pI
-T$pI
-t$x~
-AWAVAUATSH
-40fA
-t7Mk
-t00A
-[A\A]A^A_]
-n8fA
-v$A9E
-~(A9u
-F(PI
-AVAUL
-[A\A]A^]
-tef;0u`fD
-tef;p
-u_fD
-AVAUATSH
-9fA9
-txfD;i
-[A\A]A^]
-t:Hk
-fD;)tjD
-tUHk
-t=Hk
 4rtK
 cwgH
 [A\A]A^A_]
@@ -868,8 +662,6 @@ AVAUL
 A\A]A^]
 AVAUATA
 [A\A]A^]
-=ysH
-=9sH
 `w9H
 [A\A]A^A_]
 DXT5t
@@ -906,7 +698,6 @@ ATSH
 [A\]
 [A\A]A^]
 AUATI
--,iH
 [A\A]]
 AWAVA
 [A\A]A^A_]
@@ -956,21 +747,18 @@ t@H9
 AWAVL
 ATE1
 [A\A]A^A_]
+Y-+,
 AUATSH
 [A\A]]
 AUATL
 [A\A]]
 ATSL
 [A\]
-=q3H
-=J3H
 wnUH
 AUATSH
 [A\A]]
 [A\A]]
-%C1H
 [A\A]]
-%l-H
 AWAVAUATSH
 r@Lc
 uvA9
@@ -1142,8 +930,6 @@ t+UH
 AWAVAUI
 [A\A]A^A_]
 AUATH
-o=:A
-o57A
 [A\A]]
 AWAVAUATI
 [A\A]A^A_]
@@ -1206,7 +992,6 @@ AVAUATSH
 `[A\A]A^]
 `[A\A]A^]
 AWAVAUATSH
-=cIG
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -1223,9 +1008,7 @@ tuIcEL
 [A\A]A^]
 [A\A]A^]
 ATSH
-%v;G
 [A\A]]
-=EHG
 AWAVAUATI
 D$pM
 )D$`A
@@ -1254,20 +1037,10 @@ nE,H
 AWAVAUATI
 ([A\A]A^A_]
 AVAUATSH
--^+H
-=\*H
-=a*J
-=CBJ
-5a)H
-=%)H
 [A\A]A^]
 AUATSH
--g(H
 [A\A]]
-5*'H
 AVAUL
-='&H
--	&H
 [A\A]A^]
 AUE1
 [A\A]]
@@ -1330,6 +1103,202 @@ C fH
 AWAVAUATA
 I9t$(
 [A\A]A^A_]
+9W t
+[A\]
+AWAVAUATI
+3w81
+[A\A]A^A_]
+DXT3
+DXT5u
+L$$H
+YD$ M	
+DXT1
+YD$ M	
+A;T$
+A9t$
+A+T$
+YD$ H
+YD$ H
+YD$ H
+YD$$
+YD$ H
+YD$$
+YL$ H
+YD$ M	
+YD$$
+AUATSH
+t;Hk
+[A\A]]
+8[A\A]]
+tYUH
+AUATL
+[A\A]]
+IcILH
+ATSH
+t$ D
+[A\A]A^A_]
+AVAUA
+[A\A]A^]
+IcT$4H
+AWAVAUATI
+IcD$4
+9S$~
+[A\A]A^A_]
+IcT$4
+z`E1
+tQHcE
+@t_H
+D$4H
+AVAUATSH
+A9F4
+t~[A\A]A^]
+AWAVI
+AUATSH
+xP9~
+T$ I
+l$4I
+T$(H
+T$8A
+F VD
+T$8E
+T$<Y^
+[A\A]A^A_]
+xT9~
+@X9F$
+FXLc
+D$$I
+\$0H
+D$8A
+D9h0
+h[A\A]A^A_]
+D9y@H
+HcqLH
+D$PI
+HcPL
+HcqLH
+D$h9
+D$`A
+\$pI
+D$pI
+T$pI
+t$x~
+AWAVAUATSH
+40fA
+t7Mk
+t00A
+[A\A]A^A_]
+n8fA
+v$A9E
+~(A9u
+F(PI
+AVAUL
+[A\A]A^]
+tef;0u`fD
+tef;p
+u_fD
+AVAUATSH
+9fA9
+txfD;i
+[A\A]A^]
+t:Hk
+fD;)tjD
+tUHk
+t=Hk
+AWLc
+ATSH
+([A\A]A^A_]
+[A\]
+AWAVA
+[A\A]A^A_]
+t!M9,$u
+[A\A]A^]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+A\A]A^A_]
+ATSH
+[A\]
+AWAVAUI
+L"(9]
+H[A\A]A^A_]
+AWAVAUATA
+[A\A]A^A_]
+AWAVAUATI
+IcD$@
+L$DA
+|$8H
+T$81
+[A\A]A^A_]
+IcL$ A
+T$$I
+AUATSH
+[A\A]]
+[A\A]]
+[A\A]A^]
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+)B`H
+AWAVI
+AUATI
+([A\A]A^A_]
+AUATSH
+[A\A]]
+AVAUI
+[A\A]A^A_]
+C0Mc
+AUATSH
+[A\A]]
+G(Hc
+D$ H
+D$ L
+[A\A]]
+[A\A]]
+AUATE1
+[A\A]A^A_]
+AWAVAUATSH
+l$ M
+[A\A]A^A_]
+AVAUA
+@8w$t6H
+k$D8c%t7H
+c%[A\A]A^]
+ATSH
+[A\]
+C [A\]
+ATSH
+[A\]
+ATSH
+[A\]
+AWAVAUATSH
+([A\A]A^A_]
+CHtM
+;[A\]
+AWAVAUATSH
+A9D$
+[A\A]A^A_]
+=Y"L
+CPD8s@t
+[A\A]A^A_]
+9S<t
+CXE1
+AWAVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
+C(E1
+K(Mc
+HcS8
+{0Ic
+{0Ic
+ATSH
+[A\]
+uJUH
+uXUH
+ATSH
+[A\]
+AUATI
+[A\A]]
 AWAVAUATSD
 p $E
 QZ^&
@@ -1454,7 +1423,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95A
+D951
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1624,8 +1593,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%p
-D;%T
+D9%`
+D;%D
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1652,7 +1621,7 @@ ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
-%TcK
+%DcK
 AVAUATI
 [A\A]A^]
 [A\]
@@ -1687,58 +1656,6 @@ C D9
 sXHc
 C0E1
 0x'H
-AWAVAUATI
-[A\A]A^A_]
-=GrK
-</t%1
-=1qK
-AVAUI
-=QpK
-=$pK
-=moK
-=ioK
-=CoK
-[A\A]A^A_]
-=anK
-=!nK
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -1786,9 +1703,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -1818,7 +1732,6 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5><K
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1955,11 +1868,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -2336,20 +2250,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -2374,7 +2284,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
-=8{J
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -2390,10 +2301,53 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 AUE1
 ATE1
 A\D	
@@ -2409,13 +2363,13 @@ tBL)
 4'M9
 [A\A]A^A_]
 AUATL
-=P[J
-=2[J
-=rZJ
-=CZJ
-={YJ
-=SYJ
-=+YJ
+=nZJ
+=XZJ
+=BZJ
+=,ZJ
+='ZJ
+=[YJ
+=3YJ
 [A\A]]
 ATSH
 0[A\]
@@ -2425,11 +2379,13 @@ ATSH
 AVAUL
 [A\A]A^]
 AWAVL
-W=gd
+W=Gc
 8[A\A]A^A_]
 AWAVL
-W-zb
+W-Za
 8[A\A]A^A_]
+W%z`
+/=`^
  [A\]
  [A\]
 D$(A
@@ -2445,11 +2401,12 @@ A\A]]
 AVAUL
  [A\A]A^]
 [A\]
-X5!S
+X5lQ
  [A\]
  [A\]
 [A\A]]
 [A\A]]
+/%hE
 [A\]
 L$(A\]
 0[A\]
@@ -2465,10 +2422,7 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-Y-82
-Y=,2
-X%['
-X%i&
+X%I%
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -2493,8 +2447,8 @@ AUATI
 [A\A]A^A_]
 [A\]
 [A\]
-tYUH
 ~Z H
+tYUH
 AVAUL
  [A\A]A^]
 l$<D
@@ -2520,7 +2474,6 @@ AWAVL
 [A\A]A^A_]
 AWAVA
 AUATSH
--D~I
 [A\A]A^A_]
  ucL
 @uJL
@@ -2604,7 +2557,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95I
 T$(H
 |$ H
 D$(H
@@ -2657,79 +2609,6 @@ AUATUH
 |$ M
 []A\A]A^A_
 L;3r
-OpenGL Persistent buffer max offset :
-  Vertex buffer : %d bytes (%f MB) 
-  Index buffer : %d bytes (%f MB) 
-  Uniform buffer : %d bytes (%f MB) 
-  Pixel buffer : %d bytes (%f MB) 
-/data/src/togl/linuxwin/cglmbuffer.cpp
-gl_persistent_buffer_max_offset
-UnlockSubData
-UnlockUnmap
-gl_bufmode
-Shader Compile Time: %u ms (Count: %d) / Query: %u ms 
-Shader Link Time   : %u ms (Count: %d) / Query: %u ms 
-Could not write to program cache file!
-// trans#%d label:vs-file %s vs-index %d vs-combo %d
-// trans#%d label:ps-file %s ps-index %d ps-combo %d
-               Slow %s ( CGLMProgram @ %p, lang %s, name %d ) (%d times)
-CGLMShaderPair::SetProgramPair: Centroid masks differ at link time of vertex shader %s and pixel shader %s!
-Dump  stats shader compile time.
-programcache
-program_cache.cfg
-vs_static
-ps_static
-vs_dynamic
-ps_dynamic
-// trans#
--gl_time_shader_compiles
-Compile of "%s" Failed:
--gl_validate_shader_early
-%08X-%08X-%s
-compile: %s on GL name %d 
-GLSL
-vcbones
-vcscreen
-fb%d
-%cc[%i]
-flSRGBWrite
-sampler%d
-gl_paircache_rows_lg2
-gl_paircache_ways_lg2
-gl_shaderpair_cachelog
-gl_shader_compile_time_dump
-glm_cacheprograms
-NATIVE_INSTRUCTIONS
-NATIVE_TEMPORARIES
-NATIVE_PARAMETERS
-NATIVE_ATTRIBS
-NATIVE_ADDRESS_REGISTERS
-NATIVE_ALU_INSTRUCTIONS
-NATIVE_TEX_INSTRUCTIONS
-NATIVE_TEX_INDIRECTIONS
--!!ARBvp
--!!ARBfp
--//GLSLvp
--//GLSLfp
-gl_nullqueries
-%05d instances %08d bytes  %08d totbytes  %s
- == MSAA Tex %p %s : glTexImage2D for flat tex using intformat %s (%x)
- == MSAA Tex %p %s : MSAA RBO is intformat %s (%x)
- minimizing storage for tex '%s' [%s] 
-[%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
-If set, use power-of-two allocations for temporary texture memory during uploads. May help with fragmentation on certain systems caused by heavy churn of large allocations.
--disable_srgbtex
-3D  
-2D  
- SRGB
-CUtlRBTree overflow!
-gl_pow2_tempmem
-gl_texmsaalog
-gl_rt_forcergba
-gl_minimize_rt_tex
-gl_minimize_all_tex
-gl_minimize_tex_log
-gl_enabletexsubimage
 D3DToGL: GLSL translation error!
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 // Now we're storing the oN variables from the output dcl_ statements back into their GLSL equivalents.
@@ -2822,6 +2701,7 @@ vertex.attrib[14]
 _depth
 _sample
 .xyzw
+fb%d
 oTempT%d
 %s%d
 %s[int(va_r.%c) + %d]
@@ -2831,6 +2711,7 @@ centroid varying vec4 oT%d
 Invalid D3DSPR_ATTROUT index
 oC%d
 gl_FragData[%d]
+sampler%d
 aL%d
 temp_float16_xxx%d
 label%d
@@ -2901,6 +2782,7 @@ for( int i=0; i < %s; i++ )
 //HIGHWATERBONE-%i
 uniform vec4 %s[%d];
 uniform vec4 vcscreen;
+vcbones
 uniform int i%d ;
 const int i%d = %i;
 uniform float flSRGBWrite;
@@ -2946,6 +2828,7 @@ glGetString
 OpenGL %s (%s)
 %s (%s) %s - %dx%d
 -glmenabletrustmsaa
+linuxwin/dxabstract.cpp
 VB Lock
 VB Unlock
 VB UnlockActualSize
@@ -3000,6 +2883,7 @@ engine_post
 //HIGHWATERBONE-
 //ATTRIBMAP-
 %02x
+CUtlRBTree overflow!
 InternalRT0
 DrawIndexedPrimitive
 gl_batch_vis
@@ -3010,7 +2894,6 @@ Sampler object hash is full, increase cSamplerObjectHashSize
 ** IDirect3DQuery9::GetData: can't GetData before issue/start/stop
 IDirect3DQuery9::GetData: One or more queries have been created or released while this query was still issued! This scenario is not supported in GL.
 IDirect3DQuery9::GetData(): Occlusion query flush took %3.3fms!
-/data/src/togl/linuxwin/dxabstract.cpp
 vertexlit_and_unlit_generic_bump_ps
 vertexlit_and_unlit_generic_ps
 IDirect3DDevice9::CreatePixelShader: shaderapi's centroid mask (0x%08X) differs from mask derived from shader name (0x%08X) for shader %s
@@ -3035,7 +2918,7 @@ Must define GL_BATCH_PERF_ANALYSIS to use this feature
 22IDirect3DVertexShader9
 16IDirect3DDevice9
 Mb@?
-?Could not find required OpenGL entry point '%s'!
+Could not find required OpenGL entry point '%s'!
 ToGL was unable to access the required interfaces!
 PROBLEM: You appear to have OpenGL %d.%d.%d, but we need at least %d.%d.%d!
 This system %s the OpenGL extension %s.
@@ -3304,6 +3187,7 @@ UNDEFINED_BEHAVIOR
 PERFORMANCE
 base level inconsistent
 GL: [%s][%s][%s][%d]: %s
+linuxwin/glmgr.cpp
 GLMContext::MakeCurrent
 GLMContext::ReleaseCurrent
 m_fullscreen
@@ -3425,7 +3309,6 @@ preloadTex
 preload2DTex
 preload3DTex
 preloadCube
-/data/src/togl/linuxwin/glmgr.cpp
 -------------------------------- context caps for context %p
   m_osComboVersion: 0x%08x (%d.%d.%d)
 --------------------------------
@@ -3448,6 +3331,7 @@ UNKNOWNTYPE
 %s%s
 ############# GDB Detected
 [ID:%u FR:%u] %s
+linuxwin/glmgrbasics.cpp
 PIX %s
 Out of query handles!
 /usr/bin/bbedit %s %s
@@ -5444,7 +5328,6 @@ D3DFMT_UNKNOWN
 D3DDEVTYPE_HAL
 D3DDEVTYPE_REF
 %f %f %1.20f
-/data/src/togl/linuxwin/glmgrbasics.cpp
 Increase cMaxQueryZoneStackSize!
 96c7e9d2faf76b1148f7274afd684d4b.fsh
 Must define PIX_ENABLE and GL_TELEMETRY_GPU_ZONES to use this feature
@@ -5768,6 +5651,75 @@ FlushOutstandingQueries: %u
 Query handle error!
 Too many finished zones!
 %s [C:%u]
+%05d instances %08d bytes  %08d totbytes  %s
+ == MSAA Tex %p %s : glTexImage2D for flat tex using intformat %s (%x)
+ == MSAA Tex %p %s : MSAA RBO is intformat %s (%x)
+ minimizing storage for tex '%s' [%s] 
+[%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
+If set, use power-of-two allocations for temporary texture memory during uploads. May help with fragmentation on certain systems caused by heavy churn of large allocations.
+-disable_srgbtex
+3D  
+2D  
+ SRGB
+gl_pow2_tempmem
+gl_texmsaalog
+gl_rt_forcergba
+gl_minimize_rt_tex
+gl_minimize_all_tex
+gl_minimize_tex_log
+gl_enabletexsubimage
+Shader Compile Time: %u ms (Count: %d) / Query: %u ms 
+Shader Link Time   : %u ms (Count: %d) / Query: %u ms 
+Could not write to program cache file!
+// trans#%d label:vs-file %s vs-index %d vs-combo %d
+// trans#%d label:ps-file %s ps-index %d ps-combo %d
+               Slow %s ( CGLMProgram @ %p, lang %s, name %d ) (%d times)
+CGLMShaderPair::SetProgramPair: Centroid masks differ at link time of vertex shader %s and pixel shader %s!
+Dump  stats shader compile time.
+programcache
+program_cache.cfg
+vs_static
+ps_static
+vs_dynamic
+ps_dynamic
+// trans#
+-gl_time_shader_compiles
+Compile of "%s" Failed:
+-gl_validate_shader_early
+%08X-%08X-%s
+compile: %s on GL name %d 
+GLSL
+vcscreen
+%cc[%i]
+flSRGBWrite
+gl_paircache_rows_lg2
+gl_paircache_ways_lg2
+gl_shaderpair_cachelog
+gl_shader_compile_time_dump
+glm_cacheprograms
+NATIVE_INSTRUCTIONS
+NATIVE_TEMPORARIES
+NATIVE_PARAMETERS
+NATIVE_ATTRIBS
+NATIVE_ADDRESS_REGISTERS
+NATIVE_ALU_INSTRUCTIONS
+NATIVE_TEX_INSTRUCTIONS
+NATIVE_TEX_INDIRECTIONS
+-!!ARBvp
+-!!ARBfp
+-//GLSLvp
+-//GLSLfp
+OpenGL Persistent buffer max offset :
+  Vertex buffer : %d bytes (%f MB) 
+  Index buffer : %d bytes (%f MB) 
+  Uniform buffer : %d bytes (%f MB) 
+  Pixel buffer : %d bytes (%f MB) 
+gl_persistent_buffer_max_offset
+linuxwin/cglmbuffer.cpp
+UnlockSubData
+UnlockUnmap
+gl_bufmode
+5gl_nullqueries
 {}()':
  game
  client
@@ -5829,7 +5781,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -5856,17 +5808,6 @@ m_mutex
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -6035,6 +5976,17 @@ VProcessUtils001
 18CUtlCharConversion
 21CUtlCStringConversion
 19CUtlNoEscConversion
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
 VFileSystem022
 VMaterialSystem081
 InputSystemVersion001
@@ -6053,7 +6005,7 @@ Ga=o
 .M;R
 NAUU
 ?~?a`
-o@@j
+o@`k
 ;*3$"
 zPLR
 zPLR
@@ -6065,9 +6017,6 @@ zPLR
 zPLR
 zPLR
 . X.
-DXT1
-DXT3
-DXT5
 &YA1
 &YA1
 &YA1
@@ -6085,6 +6034,9 @@ ATI2
 ATI1
 &YA1
 &YA1
+DXT1
+DXT3
+DXT5
 &YA1
 &YA1
 &YA1

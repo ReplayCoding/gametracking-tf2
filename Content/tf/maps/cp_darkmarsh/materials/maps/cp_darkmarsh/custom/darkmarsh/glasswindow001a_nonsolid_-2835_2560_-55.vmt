@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/DARKMARSH/GLASSWINDOW001A_NONSOLID.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_darkmarsh/c-2835_2560_-55"
+	}
+}

@@ -1,0 +1,29 @@
+patch
+{
+	include "materials/models/vsh/player/hell_hale/saxton_shared.vmt"
+	
+	insert
+	{
+		"$basetexture" 		"models/vsh/player/hell_hale/saxton_head"
+		"$bumpmap"     		"models/vsh/player/hell_hale/saxton_head_normal"
+
+		"$detail" 			"models/vsh/player/hell_hale/saxton_head_emissive"	
+		"$detailscale" 		"1"
+		"$detailblendfactor" 	"1.0"
+		"$detailblendmode" 	"6"
+
+		//"$basemapalphaphongmask" "0"
+
+		"$phong" 		"1"
+		"$phongexponent" "5"
+		"$phongboost" 		"0.005"	
+		"$lightwarptexture" 		"models/player/pyro/pyro_lightwarp"
+		"$phongfresnelranges"	"[.3 1 8]"
+
+		"$rimlight" 		"1"
+		"$rimlightexponent" 		"3"
+		"$rimlightboost" 		"1"
+		"$rimmask" 		"1"
+		//"$phongtint" "[25 .1 .1]"
+	}
+}

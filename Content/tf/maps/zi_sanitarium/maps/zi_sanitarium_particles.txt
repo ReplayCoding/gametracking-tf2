@@ -1,6 +1,6 @@
 particles_manifest
 {
-	file	"!particles/asylum_particles.pcf"
-	file	"!particles/vineyard_rain.pcf"
-	file    "!particles/infection_particles.pcf"
+      "file"    "!particles\infection_particles.pcf"
+      "file"    "!particles\vineyard_rain.pcf"
+      "file"    "!particles\asylum_particles.pcf"
 }

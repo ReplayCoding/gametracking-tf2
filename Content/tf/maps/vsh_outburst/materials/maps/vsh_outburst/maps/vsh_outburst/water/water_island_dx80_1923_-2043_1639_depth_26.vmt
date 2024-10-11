@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/vsh_outburst/water/water_island_dx80_1923_-2043_1639.vmt"
+	"insert"
+	{
+		"$waterdepth"		"26"
+	}
+}

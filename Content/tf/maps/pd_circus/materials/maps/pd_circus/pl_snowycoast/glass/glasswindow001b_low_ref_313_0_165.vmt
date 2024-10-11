@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_SNOWYCOAST/GLASS/GLASSWINDOW001B_LOW_REF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_circus/c313_0_165"
+	}
+}

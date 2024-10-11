@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/DARKMARSH/GOTHIC_WINDOW01_GLASS_MARSH.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_darkmarsh/c-3824_2592_712"
+	}
+}

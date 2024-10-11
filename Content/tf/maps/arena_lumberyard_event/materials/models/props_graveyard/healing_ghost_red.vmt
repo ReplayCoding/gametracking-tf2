@@ -1,0 +1,60 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_graveyard/healing_ghost"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0.5
+	"$detailblendmode" 1
+
+	//"$bumpmap" "models/props_graveyard/healing_ghost_normal"
+	"$nocull" "1"
+
+	"$selfillum" "1"
+	"$selfillumtint" "[10 0 0]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[2 1 .1]"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"	"[0 0 20]"
+
+	"$rimlight" "1"												
+	"$rimlightexponent" "1"
+	"$rimlightboost" "10"	
+
+"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 12
+		}
+		"Sine"
+		{
+			"sinemin" "0.25"
+			"sinemax" "0.5"
+			"sineperiod" "4"
+			"resultVar" "$selfillumtint[1]"
+		}
+		"Sine"
+		{
+			"sinemin" "0.3"
+			"sinemax" "0.4"
+			"sineperiod" "4.2"
+			"resultVar" "$selfillumtint[2]"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" -.08
+			"texturescrollangle" 45
+		}
+	
+
+
+	}
+}
+

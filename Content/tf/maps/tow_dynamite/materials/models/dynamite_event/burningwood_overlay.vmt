@@ -1,0 +1,20 @@
+"UnlitTwoTexture"
+{
+	"$basetexture"		"hacksaw_event/overlay_burning_wood"
+	"$texture2"		"hacksaw_event/fire_scrolling"
+	"$additive"		"1"
+	"$scale" ".25"
+	"$translucent"		"1"
+	"$vertexalpha"		"1"
+	"%keywords"		"tf"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$texture2transform"
+			"texturescrollrate"		"0.070000"
+			"texturescrollangle"		"90"
+		}
+	}
+	"$model"		"1"
+}

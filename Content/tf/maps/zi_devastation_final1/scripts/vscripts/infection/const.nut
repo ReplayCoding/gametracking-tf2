@@ -27,6 +27,8 @@ const MIN_TIME_BETWEEN_MEDIC_HEAL      = 7;     // Ability Cooldown  - Medic Hea
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_DEMO_CHARGE     = 6;     // Ability Cooldown  - Demo Charge Cast    //
 // --------------------------------------------------------------------------------------- //
+const MIN_TIME_BETWEEN_PYRO_BLAST      = 5;     // Ability Cooldown  - Pyro Blast Cast     //
+// --------------------------------------------------------------------------------------- //
 /////////////////////////////////////////////////////////////////////////////////////////////
 // Game mode values |--------------------------------------------------------------------- //
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -195,7 +197,7 @@ ZOMBIE_PLAYER_ATTRIBS <- [ /////////////////////////////////////////////////////
 ],                                                    //                                   //
 [// attributes for heavyweapons zombie  -------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 300, -1 ],            //                                   //
+["hidden maxhealth non buffed", 150, -1 ],            //                                   //
 ["move speed penalty", 0.90, -1 ],                    //                                   //
 ["dmg bonus vs buildings", 100, -1 ],                 //                                   //
 ],                                                    //                                   //
@@ -230,6 +232,11 @@ const ENGIE_EMP_BUILDING_RETHINK_TIME  = 0.1;   // How often the EMP'd building 
 // --------------------------------------------------------------------------------------- //
 const HEAVY_KNOCK_BACK_FORCE           = 125;   // knock back force on heavy punch         //
 // --------------------------------------------------------------------------------------- //
+
+const DRG_RAYGUN_ZOMBIE_COOLDOWN_MOD = 3; // 3 seconds, set to -1 for full ability cooldown
+
+const ZOMBIE_MEDIC_DISPENSER_RANGE = 128;
+const ROMEVISION_ATTRIBUTE_IDX = 4;
 
 SNIPER_SPIT_ZONE_ENTS <-
 {
@@ -270,7 +277,7 @@ arrHUDTextClassXOffsets <-
     -0.0045, // demoman
     0.023,   // medic
     0.008,   // heavy
-    0.004,   // pyro
+    -0.017,   // pyro
     0.020,   // spy
     -0.006,  // engineer
 ];
@@ -315,6 +322,34 @@ szArrZombieAbilityUI <-
     "vgui/infection/zability_pyro_",
     "vgui/infection/zability_spy_",
     "vgui/infection/zability_engineer_",
+];
+
+idxArrZombiePlayerModels <-
+[
+    PrecacheModel("models/player/scout_infected.mdl"),
+    PrecacheModel("models/player/scout_infected.mdl"),
+    PrecacheModel("models/player/sniper_infected.mdl"),
+    PrecacheModel("models/player/soldier_infected.mdl"),
+    PrecacheModel("models/player/demo_infected.mdl"),
+    PrecacheModel("models/player/medic_infected.mdl"),
+    PrecacheModel("models/player/heavy_infected.mdl"),
+    PrecacheModel("models/player/pyro_infected.mdl"),
+    PrecacheModel("models/player/spy_infected.mdl"),
+    PrecacheModel("models/player/engineer_infected.mdl"),
+];
+
+szArrZombiePlayerModels <-
+[
+    "models/player/scout_infected.mdl",
+    "models/player/scout_infected.mdl",
+    "models/player/sniper_infected.mdl",
+    "models/player/soldier_infected.mdl",
+    "models/player/demo_infected.mdl",
+    "models/player/medic_infected.mdl",
+    "models/player/heavy_infected.mdl",
+    "models/player/pyro_infected.mdl",
+    "models/player/spy_infected.mdl",
+    "models/player/engineer_infected.mdl",
 ];
 
 const MDL_ZOMBIE_VIEW_MODEL_SCOUT          = "models/player/infection/v_models/v_infected_scout.mdl";
@@ -365,6 +400,11 @@ const FX_SPIT_IMPACT          = "zombie_spit_impact";
 const FX_ZOMBIE_SPAWN         = "zombie_spawn_parent";
 const FX_TF_STOMP_TEXT        = "stomp_text";
 const FX_MEDIC_HEAL           = "zombie_heal_parent";
+const FX_FIREBALL_FIREBALL    = "zombie_fireball_fireball";
+const FX_FIREBALL_SMOKEBALL   = "zombie_fireball_smokeball";
+const FX_FIREBALL_SMOKEPUFF   = "zombie_fireball_smokepuff";
+const FX_FIREBALL_TRAIL       = "zombie_fireball_trail";
+const FX_ZOMBIE_FIREBALL      = "zombie_fireball";
 
 const SFX_ZOMBIE_SPIT_START   = "Infection.SniperSpitStart";
 const SFX_ZOMBIE_SPIT_END     = "Infection.SniperSpitEnd";
@@ -377,6 +417,41 @@ const SFX_SPIT_MISS           = "Mud.StepRight";
 const SFX_SPY_REVEAL_ONCAST   = "Infection.SpyReveal";
 const SFX_ABILITY_USE         = "Halloween.Merasmus_Spell";
 const SFX_PYRO_FIREBOMB       = "Halloween.spell_fireball_impact";
+const SFX_DEMO_CHARGE_RAMP    = "Infection.DemoChargeRamp";
+const SFX_ZMEDIC_HEAL         = "Infection.MedicZombieHeal";
+
+const KILLICON_SCOUT_MELEE      = "infection_scout";
+const KILLICON_SOLDIER_MELEE    = "infection_soldier";
+const KILLICON_PYRO_MELEE       = "infection_pyro";
+const KILLICON_PYRO_BREATH      = "firedeath";
+const KILLICON_DEMOMAN_MELEE    = "infection_demoman";
+const KILLICON_DEMOMAN_BOOM     = "soldier_taunt";
+const KILLICON_HEAVY_MELEE      = "infection_heavy";
+const KILLICON_ENGIE_MELEE      = "infection_engineer";
+const KILLICON_ENGIE_EMP        = "infection_emp";
+const KILLICON_MEDIC_MELEE      = "infection_medic";
+const KILLICON_SNIPER_MELEE     = "infection_sniper";
+const KILLICON_SNIPER_SPITPOOL  = "infection_acid_puddle";
+const KILLICON_SNIPER_SPIT      = "infection_acid_ball";
+const KILLICON_SPY_MELEE        = "unarmed_combat";
+
+// debug icons
+//const KILLICON_SCOUT_MELEE      = "megaton";
+//const KILLICON_SOLDIER_MELEE    = "piranha";
+//const KILLICON_PYRO_MELEE       = "helicopter";
+//const KILLICON_PYRO_BREATH      = "firedeath";
+//const KILLICON_DEMOMAN_MELEE    = "crocodile";
+//const KILLICON_DEMOMAN_BOOM     = "taunt_soldier";
+//const KILLICON_HEAVY_MELEE      = "krampus_ranged";
+//const KILLICON_ENGIE_MELEE      = "krampus_melee";
+//const KILLICON_ENGIE_EMP        = "resurfacer";
+//const KILLICON_MEDIC_MELEE      = "salmann";
+//const KILLICON_SNIPER_MELEE     = "shark";
+//const KILLICON_SNIPER_SPITPOOL  = "gas_blast";
+//const KILLICON_SNIPER_SPIT      = "hot_hand";
+//const KILLICON_SPY_MELEE        = "unarmed_combat";
+
+const MAT_SPIT_OVERLAY  = "effects/imcookin_green";
 
 const STRING_NETPROP_ITEMDEF  = "m_AttributeManager.m_Item.m_iItemDefinitionIndex";
 
@@ -406,6 +481,7 @@ const ZOMBIE_KILL_GLOW             = 7;
 const ZOMBIE_REMOVE_HEALRING       = 8;
 const ZOMBIE_CAN_CLIENTPRINT       = 9;
 const ZOMBIE_CAN_SENTIENTDERGE     = 10;
+const SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY = 11;
 
 const EVENT_SNIPER_SPITBALL        = 1;
 const EVENT_ENTER_SPY_REVEAL       = 2;
@@ -422,6 +498,7 @@ const EVENT_KILL_TEMP_ENTITY       = 12;
 const EVENT_DEMO_CHARGE_RESET      = 13;
 const EVENT_SPY_RECLOAK            = 14;
 const EVENT_SPY_SWAP_CLOAK         = 15;
+const EVENT_RESET_ZOMBIE_WEP       = 16;
 
 const ZBIT_PARTICLE_HACK           = 0x1;
 const ZBIT_PENDING_ZOMBIE          = 0x2;

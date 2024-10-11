@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "custom/darkmarsh/gothic_fence_flat01"
+	//"$alphatest" "1"
+	
+	$translucent	1
+	$distancealpha	1
+	
+	$softedges		1
+	$edgesoftnessstart	.5
+	$edgesoftnessend	.46
+	$scaleedgesoftnessbasedonscreenres 1
+	
+	"$nocull" "1"
+}

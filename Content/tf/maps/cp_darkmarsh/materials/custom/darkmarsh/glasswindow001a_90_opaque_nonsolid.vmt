@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+                "%CompileNonSolid" 1
+	"$baseTexture" "custom/darkmarsh/glasswindow001a_opaque"
+	"$envmapmask"		"custom/darkmarsh/glasswindow001a_opaque_envmapmask"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+	"$envmaptint" "[ .5 .5 .5]"
+}

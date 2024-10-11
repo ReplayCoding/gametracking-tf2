@@ -6,6 +6,7 @@ COM_TimestampedLog
 CallAssertFailedNotifyFunc
 CatchAndWriteMiniDump
 ColorSpewMessage
+ColorSpewMessage2
 CommandLine_Tier0
 ConColorMsg
 ConDColorMsg
@@ -70,9 +71,12 @@ Plat_DebugString
 Plat_EndWatchdogTimer
 Plat_ExitProcess
 Plat_FastVerifyHardwareKey
+Plat_FileExists
 Plat_FloatTime
 Plat_GetCommandLine
 Plat_GetCommandLineA
+Plat_GetEnv
+Plat_GetExecutablePath
 Plat_GetMemPageSize
 Plat_GetPagedPoolInfo
 Plat_GetWatchdogTime
@@ -88,7 +92,9 @@ Plat_USTime
 Plat_VerifyHardwareKey
 Plat_VerifyHardwareKeyDriver
 Plat_VerifyHardwareKeyPrompt
+Plat_chdir
 Plat_ctime
+Plat_getwd
 Plat_gmtime
 Plat_localtime
 Plat_timegm
@@ -343,6 +349,7 @@ access@GLIBC_2.2.5
 alarm@GLIBC_2.2.5
 backtrace@GLIBC_2.2.5
 backtrace_symbols@GLIBC_2.2.5
+chdir@GLIBC_2.2.5
 chmod@GLIBC_2.2.5
 chown@GLIBC_2.2.5
 clock_gettime@GLIBC_2.17
@@ -381,6 +388,7 @@ g_VProfSignalSpike
 g_dwClockSpeed
 g_pMemAlloc
 g_pVCR
+getcwd@GLIBC_2.2.5
 getenv@GLIBC_2.2.5
 getloadavg@GLIBC_2.2.5
 gettimeofday@GLIBC_2.2.5
@@ -461,6 +469,7 @@ strdup@GLIBC_2.2.5
 strerror@GLIBC_2.2.5
 strlen@GLIBC_2.2.5
 strncasecmp@GLIBC_2.2.5
+strncat@GLIBC_2.2.5
 strncpy@GLIBC_2.2.5
 strpbrk@GLIBC_2.2.5
 strrchr@GLIBC_2.2.5

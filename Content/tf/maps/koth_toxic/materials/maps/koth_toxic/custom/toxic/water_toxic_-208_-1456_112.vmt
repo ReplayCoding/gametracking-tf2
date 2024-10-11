@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/TOXIC/WATER_TOXIC.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_toxic/c-208_-1456_112"
+		"Proxies"
+		{
+		}
+	}
+}

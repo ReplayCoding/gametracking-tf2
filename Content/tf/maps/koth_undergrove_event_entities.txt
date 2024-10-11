@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 15
+Revision: 16
 {
 "world_maxs" "4608 2176 692"
 "world_mins" "-4608 -15360 -15072"
@@ -8,7 +8,7 @@ Revision: 15
 "detailvbsp" "detail_2fort.vbsp"
 "detailmaterial" "detail/detailsprites_2fort"
 "classname" "worldspawn"
-"mapversion" "4453"
+"mapversion" "4493"
 "hammerid" "1"
 }
 {
@@ -20,8 +20,8 @@ Revision: 15
 "filtername" "filter_red_players_and_ghosts"
 "classname" "trigger_multiple"
 "hammerid" "1048028"
-"OnStartTouchAll" "door_red_large_1,Open,,0,-1"
-"OnEndTouchAll" "door_red_large_1,Close,,0,-1"
+"OnStartTouchAll" "door_red_large_1Open0-1"
+"OnEndTouchAll" "door_red_large_1Close0-1"
 }
 {
 "model" "*2"
@@ -87,8 +87,8 @@ Revision: 15
 "filtername" "filter_red_players_and_ghosts"
 "classname" "trigger_multiple"
 "hammerid" "1048043"
-"OnStartTouchAll" "door_red_smallA_1,Open,,0,-1"
-"OnEndTouchAll" "door_red_smallA_1,Close,,0,-1"
+"OnStartTouchAll" "door_red_smallA_1Open0-1"
+"OnEndTouchAll" "door_red_smallA_1Close0-1"
 }
 {
 "model" "*4"
@@ -1651,7 +1651,7 @@ Revision: 15
 "hammerid" "1233241"
 }
 {
-"origin" "-557.808 45.0528 64"
+"origin" "-557.808 29.0528 64"
 "spawnflags" "0"
 "_zero_percent_distance" "436"
 "_quadratic_attn" "1"
@@ -2314,20 +2314,6 @@ Revision: 15
 "angles" "0 180 0"
 "classname" "info_particle_system"
 "hammerid" "1386643"
-}
-{
-"origin" "557.808 45.0528 64"
-"spawnflags" "0"
-"_zero_percent_distance" "436"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "232 198 125 20"
-"_fifty_percent_distance" "184"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "1386713"
 }
 {
 "origin" "536 -268 62.0594"
@@ -7723,6 +7709,20 @@ Revision: 15
 "hammerid" "3831039"
 }
 {
+"origin" "557.808 29.0528 64"
+"spawnflags" "0"
+"_zero_percent_distance" "436"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "232 198 125 20"
+"_fifty_percent_distance" "184"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "3974979"
+}
+{
 "model" "*140"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -7744,8 +7744,8 @@ Revision: 15
 "filtername" "filter_blue_players_and_ghosts"
 "classname" "trigger_multiple"
 "hammerid" "108732"
-"OnStartTouchAll" "door_blu_large_1,Open,,0,-1"
-"OnEndTouchAll" "door_blu_large_1,Close,,0,-1"
+"OnStartTouchAll" "door_blu_large_1Open0-1"
+"OnEndTouchAll" "door_blu_large_1Close0-1"
 }
 {
 "model" "*142"
@@ -7790,8 +7790,8 @@ Revision: 15
 "filtername" "filter_blue_players_and_ghosts"
 "classname" "trigger_multiple"
 "hammerid" "108752"
-"OnStartTouchAll" "door_blu_smallA_1,Open,,0,-1"
-"OnEndTouchAll" "door_blu_smallA_1,Close,,0,-1"
+"OnStartTouchAll" "door_blu_smallA_1Open0-1"
+"OnEndTouchAll" "door_blu_smallA_1Close0-1"
 }
 {
 "model" "*145"
@@ -9030,9 +9030,9 @@ Revision: 15
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "528970"
-"OnMapSpawn" "tonemap_global,SetAutoExposureMin,.5,0,-1"
-"OnMapSpawn" "tonemap_global,SetAutoExposureMax,1,0,-1"
-"OnMapSpawn" "tonemap_global,SetBloomScale,.6,0,-1"
+"OnMapSpawn" "tonemap_globalSetAutoExposureMin.50-1"
+"OnMapSpawn" "tonemap_globalSetAutoExposureMax10-1"
+"OnMapSpawn" "tonemap_globalSetBloomScale.60-1"
 }
 {
 "origin" "-1184 -848 160"
@@ -11635,15 +11635,15 @@ Revision: 15
 "area_cap_point" "cp_koth"
 "classname" "trigger_capture_area"
 "hammerid" "1030113"
-"OnCapTeam2" "cp_koth_prop,Skin,2,0,-1"
-"OnCapTeam1" "cp_koth_prop,Skin,1,0,-1"
-"OnCapTeam2" "koth_gamerules,SetBlueKothClockActive,,0,-1"
-"OnCapTeam2" "koth_gamerules,SetBlueTeamRespawnWaveTime,8,0,-1"
-"OnCapTeam2" "koth_gamerules,SetRedTeamRespawnWaveTime,4,0,-1"
-"OnCapTeam1" "koth_gamerules,SetRedKothClockActive,,0,-1"
-"OnCapTeam1" "koth_gamerules,SetRedTeamRespawnWaveTime,8,0,-1"
-"OnCapTeam1" "koth_gamerules,SetBlueTeamRespawnWaveTime,4,0,-1"
-"OnEndCap" "minibattle_event_active_check,Test,,0,-1"
+"OnCapTeam2" "cp_koth_propSkin20-1"
+"OnCapTeam1" "cp_koth_propSkin10-1"
+"OnCapTeam2" "koth_gamerulesSetBlueKothClockActive0-1"
+"OnCapTeam2" "koth_gamerulesSetBlueTeamRespawnWaveTime80-1"
+"OnCapTeam2" "koth_gamerulesSetRedTeamRespawnWaveTime40-1"
+"OnCapTeam1" "koth_gamerulesSetRedKothClockActive0-1"
+"OnCapTeam1" "koth_gamerulesSetRedTeamRespawnWaveTime80-1"
+"OnCapTeam1" "koth_gamerulesSetBlueTeamRespawnWaveTime40-1"
+"OnEndCap" "minibattle_event_active_checkTest0-1"
 }
 {
 "origin" "0 -128 192"
@@ -11657,12 +11657,13 @@ Revision: 15
 {
 "origin" "0 -128 224"
 "targetname" "koth_gamerules"
+"ropes_holiday_lights_allowed" "1"
 "hud_type" "0"
 "ctf_overtime" "1"
 "classname" "tf_gamerules"
 "hammerid" "1030117"
-"OnWonByTeam1" "postgame_minibattle_cancel_rl,Trigger,,0,-1"
-"OnWonByTeam2" "postgame_minibattle_cancel_rl,Trigger,,0,-1"
+"OnWonByTeam1" "postgame_minibattle_cancel_rlTrigger0-1"
+"OnWonByTeam2" "postgame_minibattle_cancel_rlTrigger0-1"
 }
 {
 "origin" "-16 -128 240"
@@ -11677,10 +11678,10 @@ Revision: 15
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "1030121"
-"OnMultiNewRound" "koth_gamerules,SetBlueTeamRespawnWaveTime,6,0,-1"
-"OnMultiNewRound" "koth_gamerules,SetRedTeamRespawnWaveTime,6,0,-1"
-"OnMultiNewRound" "koth_gamerules,SetRedTeamGoalString,#koth_undergrove_event_objective,0,-1"
-"OnMultiNewRound" "koth_gamerules,SetBlueTeamGoalString,#koth_undergrove_event_objective,0,-1"
+"OnMultiNewRound" "koth_gamerulesSetBlueTeamRespawnWaveTime60-1"
+"OnMultiNewRound" "koth_gamerulesSetRedTeamRespawnWaveTime60-1"
+"OnMultiNewRound" "koth_gamerulesSetRedTeamGoalString#koth_undergrove_event_objective0-1"
+"OnMultiNewRound" "koth_gamerulesSetBlueTeamGoalString#koth_undergrove_event_objective0-1"
 }
 {
 "origin" "16 -128 240"
@@ -12835,7 +12836,7 @@ Revision: 15
 "respawn_time" "15"
 "random_rotation" "1"
 "entity_name" "tf_pumpkin_bomb"
-"entity_count" "4"
+"entity_count" "6"
 "drop_to_ground" "1"
 "classname" "entity_spawn_manager"
 "hammerid" "1205336"
@@ -16076,13 +16077,13 @@ Revision: 15
 "hammerid" "1418213"
 }
 {
-"origin" "-890 -440 0"
+"origin" "-960 -452 68"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
 "hammerid" "1468286"
 }
 {
-"origin" "-88 712 -40"
+"origin" "-88 720 -40"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
 "hammerid" "1468339"
@@ -16136,13 +16137,13 @@ Revision: 15
 "hammerid" "1508662"
 }
 {
-"origin" "88 -240 -64"
+"origin" "92 -248 -64"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
 "hammerid" "1468404"
 }
 {
-"origin" "-208 -1120 120"
+"origin" "-240 -1048 120"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
 "hammerid" "1524548"
@@ -16220,22 +16221,10 @@ Revision: 15
 "hammerid" "1662264"
 }
 {
-"origin" "890 -440 0"
-"spawn_manager_name" "pumpkinManager"
-"classname" "entity_spawn_point"
-"hammerid" "1662312"
-}
-{
 "origin" "496 -680 -16"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
 "hammerid" "1662314"
-}
-{
-"origin" "208 -1120 120"
-"spawn_manager_name" "pumpkinManager"
-"classname" "entity_spawn_point"
-"hammerid" "1662316"
 }
 {
 "origin" "784 1252 128"
@@ -16249,22 +16238,22 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1712138"
-"OnTrigger" "clock_minibattle_event_rl,Trigger,,0,-1"
-"OnTrigger" "clock_bong0_sfx,PlaySound,,0,-1"
-"OnTrigger" "clock_bong1_sfx,PlaySound,,1,-1"
-"OnTrigger" "clock_bong0_sfx,PlaySound,,2,-1"
-"OnTrigger" "clock_bong1_sfx,PlaySound,,3,-1"
-"OnTrigger" "clock_bong0_sfx,PlaySound,,4,-1"
-"OnTrigger" "clock_bong1_sfx,PlaySound,,5,-1"
-"OnTrigger" "clock_bong0_sfx,PlaySound,,6,-1"
-"OnTrigger" "clock_bong1_sfx,PlaySound,,7,-1"
-"OnTrigger" "clockface,Enable,,0,-1"
-"OnTrigger" "particle_bats,Start,,0,-1"
-"OnTrigger" "particle_bats,Stop,,7.5,-1"
-"OnTrigger" "clock_event_begin_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_event_active_check,SetValue,1,0,-1"
-"OnTrigger" "clock_tower,Skin,2,0,-1"
+"OnTrigger" "clock_minibattle_event_rlTrigger0-1"
+"OnTrigger" "clock_bong0_sfxPlaySound0-1"
+"OnTrigger" "clock_bong1_sfxPlaySound1-1"
+"OnTrigger" "clock_bong0_sfxPlaySound2-1"
+"OnTrigger" "clock_bong1_sfxPlaySound3-1"
+"OnTrigger" "clock_bong0_sfxPlaySound4-1"
+"OnTrigger" "clock_bong1_sfxPlaySound5-1"
+"OnTrigger" "clock_bong0_sfxPlaySound6-1"
+"OnTrigger" "clock_bong1_sfxPlaySound7-1"
+"OnTrigger" "clockfaceEnable0-1"
+"OnTrigger" "particle_batsStart0-1"
+"OnTrigger" "particle_batsStop7.5-1"
+"OnTrigger" "clock_event_begin_sfxPlaySound0-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_event_active_checkSetValue10-1"
+"OnTrigger" "clock_towerSkin20-1"
 }
 {
 "origin" "0 704 512"
@@ -16272,23 +16261,23 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1712146"
-"OnTrigger" "clock_hand,SetAnimation,strikes_1,6.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_2,14,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_3,21.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_4,29,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_5,36.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_12,89,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_6,44,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_7,51.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_8,59,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_9,66.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_10,74,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_11,81.5,-1"
-"OnTrigger" "clock_event_rl,Trigger,,90,-1"
-"OnTrigger" "clockface,Disable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Enable,,59,-1"
-"OnTrigger" "minibattle_countdown_text_main,Display,,60,-1"
-"OnTrigger" "minibattle_countdown_counter,SetValue,30,59,-1"
+"OnTrigger" "clock_handSetAnimationstrikes_16.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_214-1"
+"OnTrigger" "clock_handSetAnimationstrikes_321.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_429-1"
+"OnTrigger" "clock_handSetAnimationstrikes_536.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_1289-1"
+"OnTrigger" "clock_handSetAnimationstrikes_644-1"
+"OnTrigger" "clock_handSetAnimationstrikes_751.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_859-1"
+"OnTrigger" "clock_handSetAnimationstrikes_966.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_1074-1"
+"OnTrigger" "clock_handSetAnimationstrikes_1181.5-1"
+"OnTrigger" "clock_event_rlTrigger90-1"
+"OnTrigger" "clockfaceDisable0-1"
+"OnTrigger" "minibattle_countdown_timerEnable59-1"
+"OnTrigger" "minibattle_countdown_text_mainDisplay60-1"
+"OnTrigger" "minibattle_countdown_counterSetValue3059-1"
 }
 {
 "origin" "112 1024 192"
@@ -16441,9 +16430,9 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1742460"
-"OnTrigger" "teleport_particle_eject,Stop,,0.5,-1"
-"OnTrigger" "teleport_particle_eject,Start,,0,-1"
-"OnTrigger" "teleport_eject_sound,PlaySound,,0,-1"
+"OnTrigger" "teleport_particle_ejectStop0.5-1"
+"OnTrigger" "teleport_particle_ejectStart0-1"
+"OnTrigger" "teleport_eject_soundPlaySound0-1"
 }
 {
 "origin" "-3.63353e-05 -784 460"
@@ -16498,11 +16487,11 @@ Revision: 15
 "origin" "0 -842 450"
 "classname" "trigger_multiple"
 "hammerid" "1742611"
-"OnTrigger" "!activator,SetHealth,-1000,0,-1"
-"OnTrigger" "magnet_fall_eject,Enable,,0,-1"
-"OnTrigger" "magnet_fall_eject,Disable,,1,-1"
-"OnTrigger" "long_fall_trigger_hurt_backup,Enable,,0,-1"
-"OnTrigger" "long_fall_trigger_hurt_backup,Disable,,1,-1"
+"OnTrigger" "!activatorSetHealth-10000-1"
+"OnTrigger" "magnet_fall_ejectEnable0-1"
+"OnTrigger" "magnet_fall_ejectDisable1-1"
+"OnTrigger" "long_fall_trigger_hurt_backupEnable0-1"
+"OnTrigger" "long_fall_trigger_hurt_backupDisable1-1"
 }
 {
 "model" "*234"
@@ -16604,21 +16593,21 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "1762753"
-"OnTrigger" "clock_tick_01_minibattle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_portal_summon_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_forfeit_rl,Trigger,,30,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,26,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,27,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,28,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,29,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,30,-1"
-"OnTrigger" "minibattle_waiting_block,Enable,,0,-1"
-"OnTrigger" "minibattle_visualizer_*,Enable,,0,-1"
-"OnTrigger" "minibattle_text_display_trigger,Enable,,0,-1"
-"OnTrigger" "join_0b_0r,StartOverlays,,0,-1"
-"OnTrigger" "minibattle_player_count_rl,Enable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Enable,,0,-1"
-"OnTrigger" "minibattle_countdown_text_change,Display,,0,-1"
+"OnTrigger" "clock_tick_01_minibattle_rlTrigger0-1"
+"OnTrigger" "minibattle_portal_summon_rlTrigger0-1"
+"OnTrigger" "minibattle_forfeit_rlTrigger30-1"
+"OnTrigger" "clock_tick_sfxPlaySound26-1"
+"OnTrigger" "clock_tick_sfxPlaySound27-1"
+"OnTrigger" "clock_tick_sfxPlaySound28-1"
+"OnTrigger" "clock_tick_sfxPlaySound29-1"
+"OnTrigger" "clock_tick_sfxPlaySound30-1"
+"OnTrigger" "minibattle_waiting_blockEnable0-1"
+"OnTrigger" "minibattle_visualizer_*Enable0-1"
+"OnTrigger" "minibattle_text_display_triggerEnable0-1"
+"OnTrigger" "join_0b_0rStartOverlays0-1"
+"OnTrigger" "minibattle_player_count_rlEnable0-1"
+"OnTrigger" "minibattle_countdown_timerEnable0-1"
+"OnTrigger" "minibattle_countdown_text_changeDisplay0-1"
 }
 {
 "origin" "-32 736 512"
@@ -16926,7 +16915,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "1937174"
-"OnEntitySpawned" "portal_sprite_09,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_09ShowSprite0-1"
 }
 {
 "origin" "-768 896 192"
@@ -16938,7 +16927,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "1937244"
-"OnEntitySpawned" "portal_sprite_11,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_11ShowSprite0-1"
 }
 {
 "model" "*237"
@@ -16948,7 +16937,7 @@ Revision: 15
 "origin" "0 8 -3936"
 "classname" "trigger_multiple"
 "hammerid" "1267870"
-"OnTrigger" "tele_tunnel_boss_laugh_2,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_2PlaySound0-1"
 }
 {
 "origin" "48 -48 -4614.3"
@@ -16981,7 +16970,7 @@ Revision: 15
 "origin" "0 8 -6496"
 "classname" "trigger_multiple"
 "hammerid" "1267876"
-"OnTrigger" "tele_tunnel_boss_laugh_3,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_3PlaySound0-1"
 }
 {
 "origin" "32 16 -7174.35"
@@ -17014,7 +17003,7 @@ Revision: 15
 "origin" "0 8 -7392"
 "classname" "trigger_multiple"
 "hammerid" "1267882"
-"OnTrigger" "tele_tunnel_boss_laugh_4,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_4PlaySound0-1"
 }
 {
 "origin" "-32 -48 -8070.35"
@@ -17047,7 +17036,7 @@ Revision: 15
 "origin" "0 8 -9184"
 "classname" "trigger_multiple"
 "hammerid" "1267888"
-"OnTrigger" "tele_tunnel_boss_laugh_5,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_5PlaySound0-1"
 }
 {
 "origin" "-32 16 -9862.3"
@@ -17080,7 +17069,7 @@ Revision: 15
 "origin" "0 8 -9920"
 "classname" "trigger_multiple"
 "hammerid" "1267894"
-"OnTrigger" "tele_tunnel_boss_laugh_6,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_6PlaySound0-1"
 }
 {
 "origin" "48 -32 -10598.3"
@@ -17113,7 +17102,7 @@ Revision: 15
 "origin" "0 8 -10944"
 "classname" "trigger_multiple"
 "hammerid" "1267900"
-"OnTrigger" "tele_tunnel_boss_laugh_7,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_7PlaySound0-1"
 }
 {
 "origin" "-16 16 -11622.3"
@@ -17146,7 +17135,7 @@ Revision: 15
 "origin" "0 8 -11520"
 "classname" "trigger_multiple"
 "hammerid" "1267906"
-"OnTrigger" "tele_tunnel_boss_laugh_8,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_8PlaySound0-1"
 }
 {
 "origin" "-32 -64 -12198.3"
@@ -17179,7 +17168,7 @@ Revision: 15
 "origin" "0 8 -13056"
 "classname" "trigger_multiple"
 "hammerid" "1267912"
-"OnTrigger" "tele_tunnel_boss_laugh_10,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_10PlaySound0-1"
 }
 {
 "origin" "-16 64 -13734.3"
@@ -17212,7 +17201,7 @@ Revision: 15
 "origin" "0 8 -13696"
 "classname" "trigger_multiple"
 "hammerid" "1267918"
-"OnTrigger" "tele_tunnel_boss_laugh_9,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_boss_laugh_9PlaySound0-1"
 }
 {
 "origin" "0 0 -15014.3"
@@ -17291,7 +17280,7 @@ Revision: 15
 "origin" "0 8 -5088"
 "classname" "trigger_multiple"
 "hammerid" "1267930"
-"OnTrigger" "tele_tunnel_ghostmoan_3,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_3PlaySound0-1"
 }
 {
 "origin" "-32 -16 -6150.35"
@@ -17347,7 +17336,7 @@ Revision: 15
 "origin" "0 8 -2336"
 "classname" "trigger_multiple"
 "hammerid" "1267939"
-"OnTrigger" "tele_tunnel_ghostmoan_2,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_2PlaySound0-1"
 }
 {
 "model" "*248"
@@ -17357,7 +17346,7 @@ Revision: 15
 "origin" "0 8 -5600"
 "classname" "trigger_multiple"
 "hammerid" "1267942"
-"OnTrigger" "tele_tunnel_ghostmoan_4,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_4PlaySound0-1"
 }
 {
 "origin" "64 0 -6662.35"
@@ -17390,7 +17379,7 @@ Revision: 15
 "origin" "0 8 -7904"
 "classname" "trigger_multiple"
 "hammerid" "1267948"
-"OnTrigger" "tele_tunnel_ghostmoan_5,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_5PlaySound0-1"
 }
 {
 "origin" "-32 48 -8966.35"
@@ -17423,7 +17412,7 @@ Revision: 15
 "origin" "0 8 -8672"
 "classname" "trigger_multiple"
 "hammerid" "1267954"
-"OnTrigger" "tele_tunnel_ghostmoan_6,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_6PlaySound0-1"
 }
 {
 "origin" "-32 -48 -9734.3"
@@ -17456,7 +17445,7 @@ Revision: 15
 "origin" "0 8 -11232"
 "classname" "trigger_multiple"
 "hammerid" "1267960"
-"OnTrigger" "tele_tunnel_ghostmoan_7,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_7PlaySound0-1"
 }
 {
 "origin" "48 16 -12294.3"
@@ -17489,7 +17478,7 @@ Revision: 15
 "origin" "0 8 -13280"
 "classname" "trigger_multiple"
 "hammerid" "1267966"
-"OnTrigger" "tele_tunnel_ghostmoan_8,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_8PlaySound0-1"
 }
 {
 "origin" "-32 0 -14342.3"
@@ -18300,7 +18289,7 @@ Revision: 15
 "origin" "0 8 -14912"
 "classname" "trigger_multiple"
 "hammerid" "1268186"
-"OnTrigger" "teleport_eject_relay,Trigger,,0,-1"
+"OnTrigger" "teleport_eject_relayTrigger0-1"
 }
 {
 "origin" "0 0 -2776"
@@ -18374,7 +18363,7 @@ Revision: 15
 "origin" "0.01 8.01 -1056"
 "classname" "trigger_multiple"
 "hammerid" "1268209"
-"OnTrigger" "tele_tunnel_ghostmoan_1,PlaySound,,0,-1"
+"OnTrigger" "tele_tunnel_ghostmoan_1PlaySound0-1"
 }
 {
 "model" "*257"
@@ -18385,7 +18374,7 @@ Revision: 15
 "origin" "0 8 -396"
 "classname" "trigger_multiple"
 "hammerid" "1268212"
-"OnTrigger" "!activator,SpeakResponseConcept,HalloweenLongFall,0,-1"
+"OnTrigger" "!activatorSpeakResponseConceptHalloweenLongFall0-1"
 }
 {
 "origin" "0 0 -1229.1"
@@ -18531,14 +18520,14 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2024005"
-"OnTrigger" "portal_summon_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_redside_portal_summon,PickRandomShuffle,,0,-1"
-"OnTrigger" "minibattle_blueside_portal_summon,PickRandomShuffle,,0,-1"
-"OnTrigger" "portal_spawn_rl*,Trigger,,29.9,-1"
-"OnTrigger" "minibattle_blueside_portal_summon,PickRandomShuffle,,0.01,-1"
-"OnTrigger" "minibattle_redside_portal_summon,PickRandomShuffle,,0.01,-1"
-"OnTrigger" "minibattle_mid_portal_summon,PickRandom,,0,-1"
-"OnTrigger" "portal_sprite*,HideSprite,,30,-1"
+"OnTrigger" "portal_summon_sfxPlaySound0-1"
+"OnTrigger" "minibattle_redside_portal_summonPickRandomShuffle0-1"
+"OnTrigger" "minibattle_blueside_portal_summonPickRandomShuffle0-1"
+"OnTrigger" "portal_spawn_rl*Trigger29.9-1"
+"OnTrigger" "minibattle_blueside_portal_summonPickRandomShuffle0.01-1"
+"OnTrigger" "minibattle_redside_portal_summonPickRandomShuffle0.01-1"
+"OnTrigger" "minibattle_mid_portal_summonPickRandom0-1"
+"OnTrigger" "portal_sprite*HideSprite30-1"
 }
 {
 "origin" "-1392 -288 64"
@@ -18550,7 +18539,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024869"
-"OnEntitySpawned" "portal_sprite_07,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_07ShowSprite0-1"
 }
 {
 "origin" "-1984 -160 64"
@@ -18562,7 +18551,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024884"
-"OnEntitySpawned" "portal_sprite_10,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_10ShowSprite0-1"
 }
 {
 "origin" "-560 352 96"
@@ -18574,7 +18563,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024924"
-"OnEntitySpawned" "portal_sprite_08,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_08ShowSprite0-1"
 }
 {
 "origin" "768 896 192"
@@ -18586,7 +18575,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024946"
-"OnEntitySpawned" "portal_sprite_01,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_01ShowSprite0-1"
 }
 {
 "origin" "560 352 96"
@@ -18598,7 +18587,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024948"
-"OnEntitySpawned" "portal_sprite_05,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_05ShowSprite0-1"
 }
 {
 "origin" "960 -1136 64"
@@ -18610,7 +18599,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024950"
-"OnEntitySpawned" "portal_sprite_03,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_03ShowSprite0-1"
 }
 {
 "origin" "1392 -288 64"
@@ -18622,7 +18611,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024952"
-"OnEntitySpawned" "portal_sprite_02,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_02ShowSprite0-1"
 }
 {
 "origin" "1984 -160 64"
@@ -18634,31 +18623,31 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2024954"
-"OnEntitySpawned" "portal_sprite_04,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_04ShowSprite0-1"
 }
 {
 "origin" "0 680 464"
 "targetname" "minibattle_redside_portal_summon"
 "classname" "logic_case"
 "hammerid" "2024989"
-"OnCase01" "portal_spawn_01,ForceSpawn,,0,-1"
-"OnCase02" "portal_spawn_02,ForceSpawn,,0,-1"
-"OnCase03" "portal_spawn_03,ForceSpawn,,0,-1"
-"OnCase04" "portal_spawn_04,ForceSpawn,,0,-1"
-"OnCase05" "portal_spawn_05,ForceSpawn,,0,-1"
-"OnCase06" "portal_spawn_06,ForceSpawn,,0,-1"
+"OnCase01" "portal_spawn_01ForceSpawn0-1"
+"OnCase02" "portal_spawn_02ForceSpawn0-1"
+"OnCase03" "portal_spawn_03ForceSpawn0-1"
+"OnCase04" "portal_spawn_04ForceSpawn0-1"
+"OnCase05" "portal_spawn_05ForceSpawn0-1"
+"OnCase06" "portal_spawn_06ForceSpawn0-1"
 }
 {
 "origin" "0 680 448"
 "targetname" "minibattle_blueside_portal_summon"
 "classname" "logic_case"
 "hammerid" "2025000"
-"OnCase06" "portal_spawn_12,ForceSpawn,,0,-1"
-"OnCase05" "portal_spawn_11,ForceSpawn,,0,-1"
-"OnCase04" "portal_spawn_10,ForceSpawn,,0,-1"
-"OnCase03" "portal_spawn_09,ForceSpawn,,0,-1"
-"OnCase02" "portal_spawn_08,ForceSpawn,,0,-1"
-"OnCase01" "portal_spawn_07,ForceSpawn,,0,-1"
+"OnCase06" "portal_spawn_12ForceSpawn0-1"
+"OnCase05" "portal_spawn_11ForceSpawn0-1"
+"OnCase04" "portal_spawn_10ForceSpawn0-1"
+"OnCase03" "portal_spawn_09ForceSpawn0-1"
+"OnCase02" "portal_spawn_08ForceSpawn0-1"
+"OnCase01" "portal_spawn_07ForceSpawn0-1"
 }
 {
 "origin" "-1584 624 192"
@@ -18670,7 +18659,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2025040"
-"OnEntitySpawned" "portal_sprite_12,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_12ShowSprite0-1"
 }
 {
 "origin" "1584 616 192"
@@ -18682,7 +18671,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "2025054"
-"OnEntitySpawned" "portal_sprite_06,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_06ShowSprite0-1"
 }
 {
 "origin" "0 680 432"
@@ -18691,10 +18680,10 @@ Revision: 15
 "spawnflags" "2"
 "classname" "logic_relay"
 "hammerid" "2025100"
-"OnTrigger" "minibattle_player_counter_red*,Add,1,0,-1"
-"OnTrigger" "minibattle_player_count_rl,Trigger,,0,-1"
-"OnTrigger" "counter_red_debug_join,GetValue,,0.05,-1"
-"OnTrigger" "counter_red_debug_join,Add,1,0,-1"
+"OnTrigger" "minibattle_player_counter_red*Add10-1"
+"OnTrigger" "minibattle_player_count_rlTrigger0-1"
+"OnTrigger" "counter_red_debug_joinGetValue0.05-1"
+"OnTrigger" "counter_red_debug_joinAdd10-1"
 }
 {
 "origin" "0 680 416"
@@ -18703,10 +18692,10 @@ Revision: 15
 "spawnflags" "2"
 "classname" "logic_relay"
 "hammerid" "2025116"
-"OnTrigger" "minibattle_player_count_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_player_counter_blue*,Add,1,0,-1"
-"OnTrigger" "counter_blu_debug_join,GetValue,,0.05,-1"
-"OnTrigger" "counter_blu_debug_join,Add,1,0,-1"
+"OnTrigger" "minibattle_player_count_rlTrigger0-1"
+"OnTrigger" "minibattle_player_counter_blue*Add10-1"
+"OnTrigger" "counter_blu_debug_joinGetValue0.05-1"
+"OnTrigger" "counter_blu_debug_joinAdd10-1"
 }
 {
 "origin" "-16 656 480"
@@ -18715,10 +18704,10 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2092751"
-"OnTrigger" "clock_hand,SetAnimation,strikes_4,7,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_3,5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_2,3,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_1,1,-1"
+"OnTrigger" "clock_handSetAnimationstrikes_47-1"
+"OnTrigger" "clock_handSetAnimationstrikes_35-1"
+"OnTrigger" "clock_handSetAnimationstrikes_23-1"
+"OnTrigger" "clock_handSetAnimationstrikes_11-1"
 }
 {
 "origin" "-16 656 464"
@@ -18727,11 +18716,11 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2092767"
-"OnTrigger" "clock_hand,SetAnimation,strikes_8,7,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_7,5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_6,3,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_5,1,-1"
-"OnTrigger" "clock_tick_01_minibattle_rl,CancelPending,,0,-1"
+"OnTrigger" "clock_handSetAnimationstrikes_87-1"
+"OnTrigger" "clock_handSetAnimationstrikes_75-1"
+"OnTrigger" "clock_handSetAnimationstrikes_63-1"
+"OnTrigger" "clock_handSetAnimationstrikes_51-1"
+"OnTrigger" "clock_tick_01_minibattle_rlCancelPending0-1"
 }
 {
 "origin" "-16 656 448"
@@ -18740,18 +18729,18 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2092769"
-"OnTrigger" "clock_hand,SetAnimation,strikes_12,9,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_11,6.5,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_10,4,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_9,1.5,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,10,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,9,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,6,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,7,-1"
-"OnTrigger" "clock_tick_sfx,PlaySound,,8,-1"
-"OnTrigger" "clock_event_over_sfx,PlaySound,,10,-1"
-"OnTrigger" "minibattle_event_active_check,SetValue,0,10,-1"
-"OnTrigger" "clock_tick_02_minibattle_rl,CancelPending,,0,-1"
+"OnTrigger" "clock_handSetAnimationstrikes_129-1"
+"OnTrigger" "clock_handSetAnimationstrikes_116.5-1"
+"OnTrigger" "clock_handSetAnimationstrikes_104-1"
+"OnTrigger" "clock_handSetAnimationstrikes_91.5-1"
+"OnTrigger" "clock_tick_sfxPlaySound10-1"
+"OnTrigger" "clock_tick_sfxPlaySound9-1"
+"OnTrigger" "clock_tick_sfxPlaySound6-1"
+"OnTrigger" "clock_tick_sfxPlaySound7-1"
+"OnTrigger" "clock_tick_sfxPlaySound8-1"
+"OnTrigger" "clock_event_over_sfxPlaySound10-1"
+"OnTrigger" "minibattle_event_active_checkSetValue010-1"
+"OnTrigger" "clock_tick_02_minibattle_rlCancelPending0-1"
 }
 {
 "origin" "0 680 400"
@@ -18760,35 +18749,35 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2094784"
-"OnTrigger" "clock_hand_minibattle_forfeit,SetAnimation,strikes_9,0,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,SetAnimation,strikes_10,2,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,SetAnimation,strikes_11,4,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,SetAnimation,strikes_12,6,-1"
-"OnTrigger" "minibattle_forfeit_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_forfeit_text,Display,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Enable,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Disable,,0.01,-1"
-"OnTrigger" "minibattle_logic_reset_rl,Trigger,,4,-1"
-"OnTrigger" "underworld_wipe,Enable,,0.05,-1"
-"OnTrigger" "underworld_wipe,Disable,,0.06,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,Alpha,255,0,-1"
-"OnTrigger" "clock_hand,Alpha,0,0,-1"
-"OnTrigger" "minibattle_event_active_check,SetValue,0,8,-1"
-"OnTrigger" "clock_hand,Alpha,255,8,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,Alpha,0,8,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_12,0,-1"
-"OnTrigger" "clock_hand_minibattle_forfeit,SetAnimation,strikes_8,8,-1"
-"OnTrigger" "minibattle_end_boost,Disable,,1,-1"
-"OnTrigger" "minibattle_end_boost,Enable,,0,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Disable,,0.02,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Enable,,0,-1"
-"OnTrigger" "clock_tick_01_minibattle_rl,CancelPending,,0,-1"
-"OnTrigger" "clock_event_over_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_heal,Enable,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,0.02,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_player_count_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_text_display_trigger,Disable,,0,-1"
+"OnTrigger" "clock_hand_minibattle_forfeitSetAnimationstrikes_90-1"
+"OnTrigger" "clock_hand_minibattle_forfeitSetAnimationstrikes_102-1"
+"OnTrigger" "clock_hand_minibattle_forfeitSetAnimationstrikes_114-1"
+"OnTrigger" "clock_hand_minibattle_forfeitSetAnimationstrikes_126-1"
+"OnTrigger" "minibattle_forfeit_sfxPlaySound0-1"
+"OnTrigger" "minibattle_forfeit_textDisplay0-1"
+"OnTrigger" "minibattle_end_tp_*Enable0-1"
+"OnTrigger" "minibattle_end_tp_*Disable0.01-1"
+"OnTrigger" "minibattle_logic_reset_rlTrigger4-1"
+"OnTrigger" "underworld_wipeEnable0.05-1"
+"OnTrigger" "underworld_wipeDisable0.06-1"
+"OnTrigger" "clock_hand_minibattle_forfeitAlpha2550-1"
+"OnTrigger" "clock_handAlpha00-1"
+"OnTrigger" "minibattle_event_active_checkSetValue08-1"
+"OnTrigger" "clock_handAlpha2558-1"
+"OnTrigger" "clock_hand_minibattle_forfeitAlpha08-1"
+"OnTrigger" "clock_handSetAnimationstrikes_120-1"
+"OnTrigger" "clock_hand_minibattle_forfeitSetAnimationstrikes_88-1"
+"OnTrigger" "minibattle_end_boostDisable1-1"
+"OnTrigger" "minibattle_end_boostEnable0-1"
+"OnTrigger" "minibattle_exit_particle_triggerDisable0.02-1"
+"OnTrigger" "minibattle_exit_particle_triggerEnable0-1"
+"OnTrigger" "clock_tick_01_minibattle_rlCancelPending0-1"
+"OnTrigger" "clock_event_over_sfxPlaySound0-1"
+"OnTrigger" "minibattle_healEnable0-1"
+"OnTrigger" "minibattle_healDisable0.02-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_player_count_rlDisable0-1"
+"OnTrigger" "minibattle_text_display_triggerDisable0-1"
 }
 {
 "origin" "16 680 400"
@@ -18878,53 +18867,53 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2129424"
-"OnTrigger" "minibattle_player_counter_red*,SetValue,0,0,-1"
-"OnTrigger" "minibattle_player_counter_blue*,SetValue,0,0,-1"
-"OnTrigger" "minibattle_red_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_blue_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_visualizer_*,Disable,,0,-1"
-"OnTrigger" "minibattle_waiting_block,Disable,,0,-1"
-"OnTrigger" "clockface,Disable,,0,-1"
-"OnTrigger" "clockface,Skin,3,0,-1"
-"OnTrigger" "minibattle_slot_available_test*,SetValue,1,0,-1"
-"OnTrigger" "join*,StopOverlays,,0,-1"
-"OnTrigger" "minibattle_player_count_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_countdown_counter,SetValue,30,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Disable,,0,-1"
-"OnTrigger" "dead*,StopOverlays,,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_player_count_rl,CancelPending,,0,-1"
-"OnTrigger" "check_should_disable_blue_tp,SetValue,1,0,-1"
-"OnTrigger" "set_name_blue_a,Enable,,0,-1"
-"OnTrigger" "set_name_red_a,Enable,,0,-1"
-"OnTrigger" "set_name_red_b,Disable,,0,-1"
-"OnTrigger" "set_name_blue_b,Disable,,0,-1"
-"OnTrigger" "set_name_blue_c,Disable,,0,-1"
-"OnTrigger" "set_name_red_c,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_countdown_display_trigger,Disable,,0,-1"
-"OnTrigger" "minibattle_cage_particle_*,Stop,,0,-1"
-"OnTrigger" "minibattle_begin_countdown_display_trigger,Disable,,0,-1"
-"OnTrigger" "underworld_wipe,Disable,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_lockinplace,DisableAndEndTouch,,0,-1"
-"OnTrigger" "underworld_wipe,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_tp*,Disable,,0,-1"
-"OnTrigger" "minibattle_cage_block,Disable,,0,-1"
-"OnTrigger" "minibattle_cage,Disable,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,0,-1"
-"OnTrigger" "counter_red_debug_join,GetValue,,0.05,-1"
-"OnTrigger" "counter_blu_debug_join,GetValue,,0.05,-1"
-"OnTrigger" "counter_red_debug_join,SetValue,0,0,-1"
-"OnTrigger" "counter_blu_debug_join,SetValue,0,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_blue*,SetValue,0,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_red,SetValue,0,0,-1"
-"OnTrigger" "counter_blu_debug_dead,SetValue,0,0,-1"
-"OnTrigger" "counter_red_debug_dead,SetValue,0,0,-1"
-"OnTrigger" "counter_red_debug_dead,GetValue,,0.05,-1"
-"OnTrigger" "counter_blu_debug_dead,GetValue,,0.05,-1"
-"OnTrigger" "check_should_disable_red_tp,SetValue,1,0,-1"
-"OnTrigger" "clock_tower,Skin,0,0,-1"
+"OnTrigger" "minibattle_player_counter_red*SetValue00-1"
+"OnTrigger" "minibattle_player_counter_blue*SetValue00-1"
+"OnTrigger" "minibattle_red_win_rlDisable0-1"
+"OnTrigger" "minibattle_blue_win_rlDisable0-1"
+"OnTrigger" "minibattle_visualizer_*Disable0-1"
+"OnTrigger" "minibattle_waiting_blockDisable0-1"
+"OnTrigger" "clockfaceDisable0-1"
+"OnTrigger" "clockfaceSkin30-1"
+"OnTrigger" "minibattle_slot_available_test*SetValue10-1"
+"OnTrigger" "join*StopOverlays0-1"
+"OnTrigger" "minibattle_player_count_rlDisable0-1"
+"OnTrigger" "minibattle_countdown_counterSetValue300-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_player_count_battle_rlDisable0-1"
+"OnTrigger" "dead*StopOverlays0-1"
+"OnTrigger" "minibattle_player_count_battle_rlCancelPending0-1"
+"OnTrigger" "minibattle_player_count_rlCancelPending0-1"
+"OnTrigger" "check_should_disable_blue_tpSetValue10-1"
+"OnTrigger" "set_name_blue_aEnable0-1"
+"OnTrigger" "set_name_red_aEnable0-1"
+"OnTrigger" "set_name_red_bDisable0-1"
+"OnTrigger" "set_name_blue_bDisable0-1"
+"OnTrigger" "set_name_blue_cDisable0-1"
+"OnTrigger" "set_name_red_cDisable0-1"
+"OnTrigger" "minibattle_begin_countdown_display_triggerDisable0-1"
+"OnTrigger" "minibattle_cage_particle_*Stop0-1"
+"OnTrigger" "minibattle_begin_countdown_display_triggerDisable0-1"
+"OnTrigger" "underworld_wipeDisable0-1"
+"OnTrigger" "minibattle_healDisable0-1"
+"OnTrigger" "minibattle_begin_lockinplaceDisableAndEndTouch0-1"
+"OnTrigger" "underworld_wipeDisable0-1"
+"OnTrigger" "minibattle_begin_tp*Disable0-1"
+"OnTrigger" "minibattle_cage_blockDisable0-1"
+"OnTrigger" "minibattle_cageDisable0-1"
+"OnTrigger" "minibattle_healDisable0-1"
+"OnTrigger" "counter_red_debug_joinGetValue0.05-1"
+"OnTrigger" "counter_blu_debug_joinGetValue0.05-1"
+"OnTrigger" "counter_red_debug_joinSetValue00-1"
+"OnTrigger" "counter_blu_debug_joinSetValue00-1"
+"OnTrigger" "minibattle_player_counter_battle_blue*SetValue00-1"
+"OnTrigger" "minibattle_player_counter_battle_redSetValue00-1"
+"OnTrigger" "counter_blu_debug_deadSetValue00-1"
+"OnTrigger" "counter_red_debug_deadSetValue00-1"
+"OnTrigger" "counter_red_debug_deadGetValue0.05-1"
+"OnTrigger" "counter_blu_debug_deadGetValue0.05-1"
+"OnTrigger" "check_should_disable_red_tpSetValue10-1"
+"OnTrigger" "clock_towerSkin00-1"
 }
 {
 "origin" "0 -128 240"
@@ -18941,11 +18930,11 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "2183121"
-"OnTrigger" "clock_hand,SetAnimation,strikes_12,6,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_11,4,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_10,2,-1"
-"OnTrigger" "clock_hand,SetAnimation,strikes_9,0,-1"
-"OnTrigger" "minibattle_event_active_check,SetValue,0,6,-1"
+"OnTrigger" "clock_handSetAnimationstrikes_126-1"
+"OnTrigger" "clock_handSetAnimationstrikes_114-1"
+"OnTrigger" "clock_handSetAnimationstrikes_102-1"
+"OnTrigger" "clock_handSetAnimationstrikes_90-1"
+"OnTrigger" "minibattle_event_active_checkSetValue06-1"
 }
 {
 "origin" "-16 640 464"
@@ -19079,7 +19068,7 @@ Revision: 15
 "max" "30"
 "classname" "math_counter"
 "hammerid" "2413074"
-"OutValue" "minibattle_countdown_case,InValue,,0,-1"
+"OutValue" "minibattle_countdown_caseInValue0-1"
 }
 {
 "origin" "64 680 464"
@@ -19102,22 +19091,22 @@ Revision: 15
 "Case01" "1"
 "classname" "logic_case"
 "hammerid" "2413089"
-"OnCase01" "minibattle_countdown_text_change,AddOutput,message 1,0,-1"
-"OnCase02" "minibattle_countdown_text_change,AddOutput,message 2,0,-1"
-"OnCase03" "minibattle_countdown_text_change,AddOutput,message 3,0,-1"
-"OnCase04" "minibattle_countdown_text_change,AddOutput,message 4,0,-1"
-"OnCase05" "minibattle_countdown_text_change,AddOutput,message 5,0,-1"
-"OnCase06" "minibattle_countdown_text_change,AddOutput,message 6,0,-1"
-"OnCase07" "minibattle_countdown_text_change,AddOutput,message 7,0,-1"
-"OnCase08" "minibattle_countdown_text_change,AddOutput,message 8,0,-1"
-"OnCase09" "minibattle_countdown_text_change,AddOutput,message 9,0,-1"
-"OnCase10" "minibattle_countdown_text_change,AddOutput,message 10,0,-1"
-"OnCase11" "minibattle_countdown_text_change,AddOutput,message 11,0,-1"
-"OnCase12" "minibattle_countdown_text_change,AddOutput,message 12,0,-1"
-"OnCase13" "minibattle_countdown_text_change,AddOutput,message 13,0,-1"
-"OnCase14" "minibattle_countdown_text_change,AddOutput,message 14,0,-1"
-"OnCase15" "minibattle_countdown_text_change,AddOutput,message 15,0,-1"
-"OnCase16" "minibattle_countdown_text_change,AddOutput,message 16,0,-1"
+"OnCase01" "minibattle_countdown_text_changeAddOutputmessage 10-1"
+"OnCase02" "minibattle_countdown_text_changeAddOutputmessage 20-1"
+"OnCase03" "minibattle_countdown_text_changeAddOutputmessage 30-1"
+"OnCase04" "minibattle_countdown_text_changeAddOutputmessage 40-1"
+"OnCase05" "minibattle_countdown_text_changeAddOutputmessage 50-1"
+"OnCase06" "minibattle_countdown_text_changeAddOutputmessage 60-1"
+"OnCase07" "minibattle_countdown_text_changeAddOutputmessage 70-1"
+"OnCase08" "minibattle_countdown_text_changeAddOutputmessage 80-1"
+"OnCase09" "minibattle_countdown_text_changeAddOutputmessage 90-1"
+"OnCase10" "minibattle_countdown_text_changeAddOutputmessage 100-1"
+"OnCase11" "minibattle_countdown_text_changeAddOutputmessage 110-1"
+"OnCase12" "minibattle_countdown_text_changeAddOutputmessage 120-1"
+"OnCase13" "minibattle_countdown_text_changeAddOutputmessage 130-1"
+"OnCase14" "minibattle_countdown_text_changeAddOutputmessage 140-1"
+"OnCase15" "minibattle_countdown_text_changeAddOutputmessage 150-1"
+"OnCase16" "minibattle_countdown_text_changeAddOutputmessage 160-1"
 }
 {
 "origin" "80 680 464"
@@ -19138,20 +19127,20 @@ Revision: 15
 "Case01" "17"
 "classname" "logic_case"
 "hammerid" "2413098"
-"OnCase14" "minibattle_countdown_text_change,AddOutput,message 30,0,-1"
-"OnCase13" "minibattle_countdown_text_change,AddOutput,message 29,0,-1"
-"OnCase12" "minibattle_countdown_text_change,AddOutput,message 28,0,-1"
-"OnCase11" "minibattle_countdown_text_change,AddOutput,message 27,0,-1"
-"OnCase10" "minibattle_countdown_text_change,AddOutput,message 26,0,-1"
-"OnCase09" "minibattle_countdown_text_change,AddOutput,message 25,0,-1"
-"OnCase08" "minibattle_countdown_text_change,AddOutput,message 24,0,-1"
-"OnCase07" "minibattle_countdown_text_change,AddOutput,message 23,0,-1"
-"OnCase06" "minibattle_countdown_text_change,AddOutput,message 22,0,-1"
-"OnCase05" "minibattle_countdown_text_change,AddOutput,message 21,0,-1"
-"OnCase04" "minibattle_countdown_text_change,AddOutput,message 20,0,-1"
-"OnCase03" "minibattle_countdown_text_change,AddOutput,message 19,0,-1"
-"OnCase02" "minibattle_countdown_text_change,AddOutput,message 18,0,-1"
-"OnCase01" "minibattle_countdown_text_change,AddOutput,message 17,0,-1"
+"OnCase14" "minibattle_countdown_text_changeAddOutputmessage 300-1"
+"OnCase13" "minibattle_countdown_text_changeAddOutputmessage 290-1"
+"OnCase12" "minibattle_countdown_text_changeAddOutputmessage 280-1"
+"OnCase11" "minibattle_countdown_text_changeAddOutputmessage 270-1"
+"OnCase10" "minibattle_countdown_text_changeAddOutputmessage 260-1"
+"OnCase09" "minibattle_countdown_text_changeAddOutputmessage 250-1"
+"OnCase08" "minibattle_countdown_text_changeAddOutputmessage 240-1"
+"OnCase07" "minibattle_countdown_text_changeAddOutputmessage 230-1"
+"OnCase06" "minibattle_countdown_text_changeAddOutputmessage 220-1"
+"OnCase05" "minibattle_countdown_text_changeAddOutputmessage 210-1"
+"OnCase04" "minibattle_countdown_text_changeAddOutputmessage 200-1"
+"OnCase03" "minibattle_countdown_text_changeAddOutputmessage 190-1"
+"OnCase02" "minibattle_countdown_text_changeAddOutputmessage 180-1"
+"OnCase01" "minibattle_countdown_text_changeAddOutputmessage 170-1"
 }
 {
 "origin" "48 680 480"
@@ -19162,8 +19151,8 @@ Revision: 15
 "RefireTime" "1"
 "classname" "logic_timer"
 "hammerid" "2413140"
-"OnTimer" "minibattle_countdown_counter,Subtract,1,0,-1"
-"OnTimer" "minibattle_countdown_text_change,Display,,0.05,-1"
+"OnTimer" "minibattle_countdown_counterSubtract10-1"
+"OnTimer" "minibattle_countdown_text_changeDisplay0.05-1"
 }
 {
 "origin" "64 680 480"
@@ -19245,7 +19234,7 @@ Revision: 15
 "InitialValue" "0"
 "classname" "logic_branch"
 "hammerid" "2473587"
-"OnFalse" "clock_event_rl,Trigger,,0,-1"
+"OnFalse" "clock_event_rlTrigger0-1"
 }
 {
 "origin" "459 758 497"
@@ -19320,11 +19309,11 @@ Revision: 15
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "2563693"
-"OnMapSpawn" "clock_hand_minibattle_forfeit,SetAnimation,strikes_8,0,-1"
-"OnMapSpawn" "clock_hand_minibattle_forfeit,Alpha,0,0,-1"
-"OnMultiNewRound" "join*,StopOverlays,,0,-1"
-"OnMultiNewRound" "portal_sprite*,HideSprite,,0,-1"
-"OnMultiNewRound" "dead*,StopOverlays,,0,-1"
+"OnMapSpawn" "clock_hand_minibattle_forfeitSetAnimationstrikes_80-1"
+"OnMapSpawn" "clock_hand_minibattle_forfeitAlpha00-1"
+"OnMultiNewRound" "join*StopOverlays0-1"
+"OnMultiNewRound" "portal_sprite*HideSprite0-1"
+"OnMultiNewRound" "dead*StopOverlays0-1"
 }
 {
 "model" "*262"
@@ -19335,7 +19324,7 @@ Revision: 15
 "origin" "0 0 256"
 "classname" "trigger_multiple"
 "hammerid" "2593490"
-"OnStartTouch" "minibattle_portal_summon_text,Display,,0,-1"
+"OnStartTouch" "minibattle_portal_summon_textDisplay0-1"
 }
 {
 "origin" "-1368 -56 56"
@@ -19825,8 +19814,8 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3027073"
-"OnTrigger" "minibattle_player_counter_red,GetValue,,0.2,-1"
-"OnTrigger" "join*,StopOverlays,,0.1,-1"
+"OnTrigger" "minibattle_player_counter_redGetValue0.2-1"
+"OnTrigger" "join*StopOverlays0.1-1"
 }
 {
 "origin" "-84 640 480"
@@ -19837,8 +19826,8 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3027081"
-"OnGetValue" "minibattle_player_counter_compare_red,SetValueCompare,,0,-1"
-"OnUser1" "case_red_debug_join,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_compare_redSetValueCompare0-1"
+"OnUser1" "case_red_debug_joinInValue0-1"
 }
 {
 "origin" "-84 624 480"
@@ -19849,24 +19838,24 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3027102"
-"OnCase01" "minibattle_player_counter_blue_01,GetValue,,0,-1"
-"OnCase02" "minibattle_player_counter_blue_02,GetValue,,0,-1"
-"OnCase03" "minibattle_player_counter_blue_03,GetValue,,0,-1"
-"OnCase04" "minibattle_player_counter_blue_04,GetValue,,0,-1"
-"OnCase01" "portal_tp_red_a*,Enable,,0,-1"
-"OnCase02" "portal_tp_red_a*,Disable,,0,-1"
-"OnCase03" "portal_red_full*,Disable,,0,-1"
-"OnCase02" "check_should_disable_red_tp,SetValue,1,0,-1"
-"OnCase03" "check_should_disable_red_tp,SetValue,0,0,-1"
-"OnCase04" "portal_red_full*,Enable,,0,-1"
-"OnCase04" "portal_tp_red*,Disable,,0,-1"
-"OnCase01" "portal_tp_red_b*,Disable,,0,-1"
-"OnCase01" "portal_tp_red_c*,Disable,,0,-1"
-"OnCase02" "portal_tp_red_b*,Enable,,0,-1"
-"OnCase02" "portal_tp_red_c*,Disable,,0,-1"
-"OnCase03" "portal_tp_red_c*,Enable,,0,-1"
-"OnCase03" "portal_tp_red_b*,Disable,,0,-1"
-"OnCase03" "portal_tp_red_a*,Disable,,0,-1"
+"OnCase01" "minibattle_player_counter_blue_01GetValue0-1"
+"OnCase02" "minibattle_player_counter_blue_02GetValue0-1"
+"OnCase03" "minibattle_player_counter_blue_03GetValue0-1"
+"OnCase04" "minibattle_player_counter_blue_04GetValue0-1"
+"OnCase01" "portal_tp_red_a*Enable0-1"
+"OnCase02" "portal_tp_red_a*Disable0-1"
+"OnCase03" "portal_red_full*Disable0-1"
+"OnCase02" "check_should_disable_red_tpSetValue10-1"
+"OnCase03" "check_should_disable_red_tpSetValue00-1"
+"OnCase04" "portal_red_full*Enable0-1"
+"OnCase04" "portal_tp_red*Disable0-1"
+"OnCase01" "portal_tp_red_b*Disable0-1"
+"OnCase01" "portal_tp_red_c*Disable0-1"
+"OnCase02" "portal_tp_red_b*Enable0-1"
+"OnCase02" "portal_tp_red_c*Disable0-1"
+"OnCase03" "portal_tp_red_c*Enable0-1"
+"OnCase03" "portal_tp_red_b*Disable0-1"
+"OnCase03" "portal_tp_red_a*Disable0-1"
 }
 {
 "origin" "-120 600 480"
@@ -19877,8 +19866,8 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3027212"
-"OnGetValue" "minibattle_player_counter_compare_blue_01,SetValueCompare,,0,-1"
-"OnUser1" "case_blu_debug_join,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_compare_blue_01SetValueCompare0-1"
+"OnUser1" "case_blu_debug_joinInValue0-1"
 }
 {
 "origin" "-120 584 480"
@@ -19889,24 +19878,24 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3027214"
-"OnCase01" "join_0b_0r,StartOverlays,,0,-1"
-"OnCase02" "join_1b_0r,StartOverlays,,0,-1"
-"OnCase03" "join_2b_0r,StartOverlays,,0,-1"
-"OnCase04" "join_3b_0r,StartOverlays,,0,-1"
-"OnCase03" "portal_blue_full*,Disable,,0,-1"
-"OnCase02" "check_should_disable_blue_tp,SetValue,1,0,-1"
-"OnCase03" "check_should_disable_blue_tp,SetValue,0,0,-1"
-"OnCase03" "portal_tp_blue_c*,Enable,,0,-1"
-"OnCase03" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase02" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase02" "portal_tp_blue_b*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_c*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_c*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_a*,Enable,,0,-1"
-"OnCase04" "portal_blue_full*,Enable,,0,-1"
-"OnCase04" "portal_tp_blue*,Disable,,0,-1"
+"OnCase01" "join_0b_0rStartOverlays0-1"
+"OnCase02" "join_1b_0rStartOverlays0-1"
+"OnCase03" "join_2b_0rStartOverlays0-1"
+"OnCase04" "join_3b_0rStartOverlays0-1"
+"OnCase03" "portal_blue_full*Disable0-1"
+"OnCase02" "check_should_disable_blue_tpSetValue10-1"
+"OnCase03" "check_should_disable_blue_tpSetValue00-1"
+"OnCase03" "portal_tp_blue_c*Enable0-1"
+"OnCase03" "portal_tp_blue_b*Disable0-1"
+"OnCase03" "portal_tp_blue_a*Disable0-1"
+"OnCase02" "portal_tp_blue_a*Disable0-1"
+"OnCase02" "portal_tp_blue_b*Enable0-1"
+"OnCase02" "portal_tp_blue_c*Disable0-1"
+"OnCase01" "portal_tp_blue_c*Disable0-1"
+"OnCase01" "portal_tp_blue_b*Disable0-1"
+"OnCase01" "portal_tp_blue_a*Enable0-1"
+"OnCase04" "portal_blue_full*Enable0-1"
+"OnCase04" "portal_tp_blue*Disable0-1"
 }
 {
 "origin" "-96 600 480"
@@ -19917,8 +19906,8 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3027259"
-"OnGetValue" "minibattle_player_counter_compare_blue_02,SetValueCompare,,0,-1"
-"OnUser1" "case_blu_debug_join,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_compare_blue_02SetValueCompare0-1"
+"OnUser1" "case_blu_debug_joinInValue0-1"
 }
 {
 "origin" "-96 584 480"
@@ -19929,24 +19918,24 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3027261"
-"OnCase01" "join_0b_1r,StartOverlays,,0,-1"
-"OnCase02" "join_1b_1r,StartOverlays,,0,-1"
-"OnCase03" "join_2b_1r,StartOverlays,,0,-1"
-"OnCase04" "join_3b_1r,StartOverlays,,0,-1"
-"OnCase03" "portal_blue_full*,Disable,,0,-1"
-"OnCase02" "check_should_disable_blue_tp,SetValue,1,0,-1"
-"OnCase03" "check_should_disable_blue_tp,SetValue,0,0,-1"
-"OnCase04" "portal_tp_blue*,Disable,,0,-1"
-"OnCase04" "portal_blue_full*,Enable,,0,-1"
-"OnCase03" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_c*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_c*,Disable,,0,-1"
-"OnCase02" "portal_tp_blue_b*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_a*,Enable,,0,-1"
-"OnCase01" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_c*,Disable,,0,-1"
+"OnCase01" "join_0b_1rStartOverlays0-1"
+"OnCase02" "join_1b_1rStartOverlays0-1"
+"OnCase03" "join_2b_1rStartOverlays0-1"
+"OnCase04" "join_3b_1rStartOverlays0-1"
+"OnCase03" "portal_blue_full*Disable0-1"
+"OnCase02" "check_should_disable_blue_tpSetValue10-1"
+"OnCase03" "check_should_disable_blue_tpSetValue00-1"
+"OnCase04" "portal_tp_blue*Disable0-1"
+"OnCase04" "portal_blue_full*Enable0-1"
+"OnCase03" "portal_tp_blue_a*Disable0-1"
+"OnCase03" "portal_tp_blue_b*Disable0-1"
+"OnCase03" "portal_tp_blue_c*Enable0-1"
+"OnCase02" "portal_tp_blue_c*Disable0-1"
+"OnCase02" "portal_tp_blue_b*Enable0-1"
+"OnCase02" "portal_tp_blue_a*Disable0-1"
+"OnCase01" "portal_tp_blue_a*Enable0-1"
+"OnCase01" "portal_tp_blue_b*Disable0-1"
+"OnCase01" "portal_tp_blue_c*Disable0-1"
 }
 {
 "origin" "-72 600 480"
@@ -19957,8 +19946,8 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3027263"
-"OnGetValue" "minibattle_player_counter_compare_blue_03,SetValueCompare,,0,-1"
-"OnUser1" "case_blu_debug_join,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_compare_blue_03SetValueCompare0-1"
+"OnUser1" "case_blu_debug_joinInValue0-1"
 }
 {
 "origin" "-72 584 480"
@@ -19969,24 +19958,24 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3027265"
-"OnCase01" "join_0b_2r,StartOverlays,,0,-1"
-"OnCase02" "join_1b_2r,StartOverlays,,0,-1"
-"OnCase03" "join_2b_2r,StartOverlays,,0,-1"
-"OnCase04" "join_3b_2r,StartOverlays,,0,-1"
-"OnCase03" "portal_blue_full*,Disable,,0,-1"
-"OnCase02" "check_should_disable_blue_tp,SetValue,1,0,-1"
-"OnCase03" "check_should_disable_blue_tp,SetValue,0,0,-1"
-"OnCase04" "portal_tp_blue*,Disable,,0,-1"
-"OnCase04" "portal_blue_full*,Enable,,0,-1"
-"OnCase03" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_c*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_c*,Disable,,0,-1"
-"OnCase02" "portal_tp_blue_b*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_a*,Enable,,0,-1"
-"OnCase01" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_c*,Disable,,0,-1"
+"OnCase01" "join_0b_2rStartOverlays0-1"
+"OnCase02" "join_1b_2rStartOverlays0-1"
+"OnCase03" "join_2b_2rStartOverlays0-1"
+"OnCase04" "join_3b_2rStartOverlays0-1"
+"OnCase03" "portal_blue_full*Disable0-1"
+"OnCase02" "check_should_disable_blue_tpSetValue10-1"
+"OnCase03" "check_should_disable_blue_tpSetValue00-1"
+"OnCase04" "portal_tp_blue*Disable0-1"
+"OnCase04" "portal_blue_full*Enable0-1"
+"OnCase03" "portal_tp_blue_a*Disable0-1"
+"OnCase03" "portal_tp_blue_b*Disable0-1"
+"OnCase03" "portal_tp_blue_c*Enable0-1"
+"OnCase02" "portal_tp_blue_c*Disable0-1"
+"OnCase02" "portal_tp_blue_b*Enable0-1"
+"OnCase02" "portal_tp_blue_a*Disable0-1"
+"OnCase01" "portal_tp_blue_a*Enable0-1"
+"OnCase01" "portal_tp_blue_b*Disable0-1"
+"OnCase01" "portal_tp_blue_c*Disable0-1"
 }
 {
 "origin" "-48 600 480"
@@ -19997,8 +19986,8 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3027267"
-"OnGetValue" "minibattle_player_counter_compare_blue_04,SetValueCompare,,0,-1"
-"OnUser1" "case_blu_debug_join,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_compare_blue_04SetValueCompare0-1"
+"OnUser1" "case_blu_debug_joinInValue0-1"
 }
 {
 "origin" "-48 584 480"
@@ -20009,33 +19998,33 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3027269"
-"OnCase01" "join_0b_3r,StartOverlays,,0,-1"
-"OnCase02" "join_1b_3r,StartOverlays,,0,-1"
-"OnCase03" "join_2b_3r,StartOverlays,,0,-1"
-"OnCase04" "join_3b_3r,StartOverlays,,0,-1"
-"OnCase04" "minibattle_text_display_trigger,Disable,,0,-1"
-"OnCase04" "clock_minibattle_event_rl,CancelPending,,0,-1"
-"OnCase04" "clock_tick_02_minibattle_rl,Trigger,,0,-1"
-"OnCase04" "portal_spawn_rl*,Trigger,,0,-1"
-"OnCase04" "minibattle_begin_rl,Trigger,,0.01,-1"
-"OnCase04" "minibattle_player_count_rl,Disable,,0,-1"
-"OnCase04" "minibattle_countdown_timer,Disable,,0,-1"
-"OnCase04" "minibattle_countdown_counter,SetValue,30,0,-1"
-"OnCase04" "portal_sprite*,HideSprite,,0,-1"
-"OnCase03" "portal_blue_full*,Disable,,0,-1"
-"OnCase02" "check_should_disable_blue_tp,SetValue,1,0,-1"
-"OnCase03" "check_should_disable_blue_tp,SetValue,0,0,-1"
-"OnCase04" "portal_tp_blue*,Disable,,0,-1"
-"OnCase04" "portal_blue_full*,Enable,,0,-1"
-"OnCase03" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase03" "portal_tp_blue_c*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_c*,Disable,,0,-1"
-"OnCase02" "portal_tp_blue_b*,Enable,,0,-1"
-"OnCase02" "portal_tp_blue_a*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_a*,Enable,,0,-1"
-"OnCase01" "portal_tp_blue_b*,Disable,,0,-1"
-"OnCase01" "portal_tp_blue_c*,Disable,,0,-1"
+"OnCase01" "join_0b_3rStartOverlays0-1"
+"OnCase02" "join_1b_3rStartOverlays0-1"
+"OnCase03" "join_2b_3rStartOverlays0-1"
+"OnCase04" "join_3b_3rStartOverlays0-1"
+"OnCase04" "minibattle_text_display_triggerDisable0-1"
+"OnCase04" "clock_minibattle_event_rlCancelPending0-1"
+"OnCase04" "clock_tick_02_minibattle_rlTrigger0-1"
+"OnCase04" "portal_spawn_rl*Trigger0-1"
+"OnCase04" "minibattle_begin_rlTrigger0.01-1"
+"OnCase04" "minibattle_player_count_rlDisable0-1"
+"OnCase04" "minibattle_countdown_timerDisable0-1"
+"OnCase04" "minibattle_countdown_counterSetValue300-1"
+"OnCase04" "portal_sprite*HideSprite0-1"
+"OnCase03" "portal_blue_full*Disable0-1"
+"OnCase02" "check_should_disable_blue_tpSetValue10-1"
+"OnCase03" "check_should_disable_blue_tpSetValue00-1"
+"OnCase04" "portal_tp_blue*Disable0-1"
+"OnCase04" "portal_blue_full*Enable0-1"
+"OnCase03" "portal_tp_blue_a*Disable0-1"
+"OnCase03" "portal_tp_blue_b*Disable0-1"
+"OnCase03" "portal_tp_blue_c*Enable0-1"
+"OnCase02" "portal_tp_blue_c*Disable0-1"
+"OnCase02" "portal_tp_blue_b*Enable0-1"
+"OnCase02" "portal_tp_blue_a*Disable0-1"
+"OnCase01" "portal_tp_blue_a*Enable0-1"
+"OnCase01" "portal_tp_blue_b*Disable0-1"
+"OnCase01" "portal_tp_blue_c*Disable0-1"
 }
 {
 "origin" "-80 688 416"
@@ -20098,7 +20087,7 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "3077578"
-"OnEntitySpawned" "portal_sprite_13,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_13ShowSprite0-1"
 }
 {
 "origin" "0 1264 40"
@@ -20110,15 +20099,15 @@ Revision: 15
 "angles" "0 0 0"
 "classname" "env_entity_maker"
 "hammerid" "3077602"
-"OnEntitySpawned" "portal_sprite_14,ShowSprite,,0,-1"
+"OnEntitySpawned" "portal_sprite_14ShowSprite0-1"
 }
 {
 "origin" "0 680 480"
 "targetname" "minibattle_mid_portal_summon"
 "classname" "logic_case"
 "hammerid" "3077614"
-"OnCase01" "portal_spawn_13,ForceSpawn,,0,-1"
-"OnCase02" "portal_spawn_14,ForceSpawn,,0,-1"
+"OnCase01" "portal_spawn_13ForceSpawn0-1"
+"OnCase02" "portal_spawn_14ForceSpawn0-1"
 }
 {
 "origin" "-204 664 480"
@@ -20127,9 +20116,9 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3129016"
-"OnTrigger" "minibattle_player_counter_battle_red,GetValue,,0.2,-1"
-"OnTrigger" "dead*,StopOverlays,,0.1,-1"
-"OnTrigger" "join*,StopOverlays,,0.1,-1"
+"OnTrigger" "minibattle_player_counter_battle_redGetValue0.2-1"
+"OnTrigger" "dead*StopOverlays0.1-1"
+"OnTrigger" "join*StopOverlays0.1-1"
 }
 {
 "origin" "-204 640 480"
@@ -20140,8 +20129,8 @@ Revision: 15
 "max" "3"
 "classname" "math_counter"
 "hammerid" "3129018"
-"OnGetValue" "minibattle_player_counter_case_battle_red,InValue,,0,-1"
-"OnUser1" "case_red_debug_dead,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_case_battle_redInValue0-1"
+"OnUser1" "case_red_debug_deadInValue0-1"
 }
 {
 "origin" "-204 624 480"
@@ -20152,10 +20141,10 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3129020"
-"OnCase01" "minibattle_player_counter_battle_blue_01,GetValue,,0,-1"
-"OnCase02" "minibattle_player_counter_battle_blue_02,GetValue,,0,-1"
-"OnCase03" "minibattle_player_counter_battle_blue_03,GetValue,,0,-1"
-"OnCase04" "minibattle_player_counter_battle_blue_04,GetValue,,0,-1"
+"OnCase01" "minibattle_player_counter_battle_blue_01GetValue0-1"
+"OnCase02" "minibattle_player_counter_battle_blue_02GetValue0-1"
+"OnCase03" "minibattle_player_counter_battle_blue_03GetValue0-1"
+"OnCase04" "minibattle_player_counter_battle_blue_04GetValue0-1"
 }
 {
 "origin" "-216 600 480"
@@ -20166,8 +20155,8 @@ Revision: 15
 "max" "3"
 "classname" "math_counter"
 "hammerid" "3129022"
-"OnGetValue" "minibattle_player_counter_case_battle_blue_02,InValue,,0,-1"
-"OnUser1" "case_blu_debug_dead,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_case_battle_blue_02InValue0-1"
+"OnUser1" "case_blu_debug_deadInValue0-1"
 }
 {
 "origin" "-216 584 480"
@@ -20178,10 +20167,10 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3129024"
-"OnCase01" "dead_0b_1r,StartOverlays,,0,-1"
-"OnCase02" "dead_1b_1r,StartOverlays,,0,-1"
-"OnCase03" "dead_2b_1r,StartOverlays,,0,-1"
-"OnCase04" "dead_3b_1r,StartOverlays,,0,-1"
+"OnCase01" "dead_0b_1rStartOverlays0-1"
+"OnCase02" "dead_1b_1rStartOverlays0-1"
+"OnCase03" "dead_2b_1rStartOverlays0-1"
+"OnCase04" "dead_3b_1rStartOverlays0-1"
 }
 {
 "origin" "-240 584 480"
@@ -20192,10 +20181,10 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3129026"
-"OnCase01" "join_3b_3r,StartOverlays,,0,-1"
-"OnCase02" "dead_1b_0r,StartOverlays,,0,-1"
-"OnCase03" "dead_2b_0r,StartOverlays,,0,-1"
-"OnCase04" "dead_3b_0r,StartOverlays,,0,-1"
+"OnCase01" "join_3b_3rStartOverlays0-1"
+"OnCase02" "dead_1b_0rStartOverlays0-1"
+"OnCase03" "dead_2b_0rStartOverlays0-1"
+"OnCase04" "dead_3b_0rStartOverlays0-1"
 }
 {
 "origin" "-240 600 480"
@@ -20206,8 +20195,8 @@ Revision: 15
 "max" "3"
 "classname" "math_counter"
 "hammerid" "3129028"
-"OnGetValue" "minibattle_player_counter_case_battle_blue_01,InValue,,0,-1"
-"OnUser1" "case_blu_debug_dead,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_case_battle_blue_01InValue0-1"
+"OnUser1" "case_blu_debug_deadInValue0-1"
 }
 {
 "origin" "-192 600 480"
@@ -20218,8 +20207,8 @@ Revision: 15
 "max" "3"
 "classname" "math_counter"
 "hammerid" "3129030"
-"OnGetValue" "minibattle_player_counter_case_battle_blue_03,InValue,,0,-1"
-"OnUser1" "case_blu_debug_dead,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_case_battle_blue_03InValue0-1"
+"OnUser1" "case_blu_debug_deadInValue0-1"
 }
 {
 "origin" "-192 584 480"
@@ -20230,10 +20219,10 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3129032"
-"OnCase01" "dead_0b_2r,StartOverlays,,0,-1"
-"OnCase02" "dead_1b_2r,StartOverlays,,0,-1"
-"OnCase03" "dead_2b_2r,StartOverlays,,0,-1"
-"OnCase04" "dead_3b_2r,StartOverlays,,0,-1"
+"OnCase01" "dead_0b_2rStartOverlays0-1"
+"OnCase02" "dead_1b_2rStartOverlays0-1"
+"OnCase03" "dead_2b_2rStartOverlays0-1"
+"OnCase04" "dead_3b_2rStartOverlays0-1"
 }
 {
 "origin" "-168 584 480"
@@ -20244,10 +20233,10 @@ Revision: 15
 "Case01" "0"
 "classname" "logic_case"
 "hammerid" "3129034"
-"OnCase01" "dead_0b_3r,StartOverlays,,0,-1"
-"OnCase02" "dead_1b_3r,StartOverlays,,0,-1"
-"OnCase03" "dead_2b_3r,StartOverlays,,0,-1"
-"OnCase04" "dead_3b_3r,StartOverlays,,0,-1"
+"OnCase01" "dead_0b_3rStartOverlays0-1"
+"OnCase02" "dead_1b_3rStartOverlays0-1"
+"OnCase03" "dead_2b_3rStartOverlays0-1"
+"OnCase04" "dead_3b_3rStartOverlays0-1"
 }
 {
 "origin" "-168 600 480"
@@ -20258,8 +20247,8 @@ Revision: 15
 "max" "3"
 "classname" "math_counter"
 "hammerid" "3129036"
-"OnGetValue" "minibattle_player_counter_case_battle_blue_04,InValue,,0,-1"
-"OnUser1" "case_blu_debug_dead,InValue,,0,-1"
+"OnGetValue" "minibattle_player_counter_case_battle_blue_04InValue0-1"
+"OnUser1" "case_blu_debug_deadInValue0-1"
 }
 {
 "origin" "-216 616 416"
@@ -20543,7 +20532,7 @@ Revision: 15
 "origin" "0 0 263.35"
 "classname" "trigger_multiple"
 "hammerid" "3296098"
-"OnStartTouch" "minibattle_begin_text,Display,,0,-1"
+"OnStartTouch" "minibattle_begin_textDisplay0-1"
 }
 {
 "model" "*264"
@@ -20553,11 +20542,11 @@ Revision: 15
 "origin" "0 0 307.37"
 "classname" "trigger_multiple"
 "hammerid" "3343958"
-"OnStartTouch" "join*,StartOverlays,,0,-1"
-"OnStartTouch" "dead*,StartOverlays,,0,-1"
-"OnStartTouch" "dead*,StopOverlays,,0.1,-1"
-"OnStartTouch" "join*,StopOverlays,,0.1,-1"
-"OnStartTouch" "!self,Disable,,0.1,-1"
+"OnStartTouch" "join*StartOverlays0-1"
+"OnStartTouch" "dead*StartOverlays0-1"
+"OnStartTouch" "dead*StopOverlays0.1-1"
+"OnStartTouch" "join*StopOverlays0.1-1"
+"OnStartTouch" "!selfDisable0.1-1"
 }
 {
 "origin" "3.05176e-05 -10640 -5432"
@@ -20970,14 +20959,14 @@ Revision: 15
 "filtername" "filter_red"
 "classname" "trigger_multiple"
 "hammerid" "3428846"
-"OnEndTouchAll" "minibattle_blue_win_rl,Trigger,,0,-1"
-"OnEndTouch" "minibattle_detect_red_death_rl,Trigger,,0,-1"
-"OnEndTouch" "counter_red_debug_join,GetValue,,0.05,-1"
-"OnEndTouch" "counter_red_debug_join,Subtract,1,0,-1"
-"OnEndTouch" "minibattle_player_count_rl,Trigger,,0,-1"
-"OnEndTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnEndTouch" "minibattle_player_counter_red*,Subtract,1,0,-1"
-"OnEndTouchAll" "minibattle_red_win_rl,Disable,,0,-1"
+"OnEndTouchAll" "minibattle_blue_win_rlTrigger0-1"
+"OnEndTouch" "minibattle_detect_red_death_rlTrigger0-1"
+"OnEndTouch" "counter_red_debug_joinGetValue0.05-1"
+"OnEndTouch" "counter_red_debug_joinSubtract10-1"
+"OnEndTouch" "minibattle_player_count_rlTrigger0-1"
+"OnEndTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnEndTouch" "minibattle_player_counter_red*Subtract10-1"
+"OnEndTouchAll" "minibattle_red_win_rlDisable0-1"
 }
 {
 "model" "*277"
@@ -20989,14 +20978,14 @@ Revision: 15
 "filtername" "filter_blu"
 "classname" "trigger_multiple"
 "hammerid" "3428849"
-"OnEndTouchAll" "minibattle_red_win_rl,Trigger,,0,-1"
-"OnEndTouch" "minibattle_detect_blue_death_rl,Trigger,,0,-1"
-"OnEndTouch" "counter_blu_debug_join,GetValue,,0.05,-1"
-"OnEndTouch" "counter_blu_debug_join,Subtract,1,0,-1"
-"OnEndTouch" "minibattle_player_counter_blue*,Subtract,1,0,-1"
-"OnEndTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnEndTouch" "minibattle_player_count_rl,Trigger,,0,-1"
-"OnEndTouchAll" "minibattle_blue_win_rl,Disable,,0,-1"
+"OnEndTouchAll" "minibattle_red_win_rlTrigger0-1"
+"OnEndTouch" "minibattle_detect_blue_death_rlTrigger0-1"
+"OnEndTouch" "counter_blu_debug_joinGetValue0.05-1"
+"OnEndTouch" "counter_blu_debug_joinSubtract10-1"
+"OnEndTouch" "minibattle_player_counter_blue*Subtract10-1"
+"OnEndTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnEndTouch" "minibattle_player_count_rlTrigger0-1"
+"OnEndTouchAll" "minibattle_blue_win_rlDisable0-1"
 }
 {
 "model" "*278"
@@ -21008,8 +20997,8 @@ Revision: 15
 "filtername" "minibattle_filter_red_c"
 "classname" "trigger_teleport"
 "hammerid" "3428852"
-"OnStartTouch" "minibattle_exit_red_c_particle,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_exit_red_c_particle,Start,,0,-1"
+"OnStartTouch" "minibattle_exit_red_c_particleStop0.2-1"
+"OnStartTouch" "minibattle_exit_red_c_particleStart0-1"
 }
 {
 "model" "*279"
@@ -21021,8 +21010,8 @@ Revision: 15
 "filtername" "minibattle_filter_blue_a"
 "classname" "trigger_teleport"
 "hammerid" "3428855"
-"OnStartTouch" "minibattle_exit_blue_a_particle,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_exit_blue_a_particle,Start,,0,-1"
+"OnStartTouch" "minibattle_exit_blue_a_particleStop0.2-1"
+"OnStartTouch" "minibattle_exit_blue_a_particleStart0-1"
 }
 {
 "model" "*280"
@@ -21089,8 +21078,8 @@ Revision: 15
 "filtername" "minibattle_filter_red_b"
 "classname" "trigger_teleport"
 "hammerid" "3428872"
-"OnStartTouch" "minibattle_exit_red_b_particle,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_exit_red_b_particle,Start,,0,-1"
+"OnStartTouch" "minibattle_exit_red_b_particleStop0.2-1"
+"OnStartTouch" "minibattle_exit_red_b_particleStart0-1"
 }
 {
 "model" "*286"
@@ -21102,8 +21091,8 @@ Revision: 15
 "filtername" "minibattle_filter_red_a"
 "classname" "trigger_teleport"
 "hammerid" "3428875"
-"OnStartTouch" "minibattle_exit_red_a_particle,Start,,0,-1"
-"OnStartTouch" "minibattle_exit_red_a_particle,Stop,,0.2,-1"
+"OnStartTouch" "minibattle_exit_red_a_particleStart0-1"
+"OnStartTouch" "minibattle_exit_red_a_particleStop0.2-1"
 }
 {
 "model" "*287"
@@ -21141,8 +21130,8 @@ Revision: 15
 "filtername" "minibattle_filter_blue_b"
 "classname" "trigger_teleport"
 "hammerid" "3428884"
-"OnStartTouch" "minibattle_exit_blue_b_particle,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_exit_blue_b_particle,Start,,0,-1"
+"OnStartTouch" "minibattle_exit_blue_b_particleStop0.2-1"
+"OnStartTouch" "minibattle_exit_blue_b_particleStart0-1"
 }
 {
 "model" "*290"
@@ -21154,8 +21143,8 @@ Revision: 15
 "filtername" "minibattle_filter_blue_c"
 "classname" "trigger_teleport"
 "hammerid" "3428887"
-"OnStartTouch" "minibattle_exit_blue_c_particle,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_exit_blue_c_particle,Start,,0,-1"
+"OnStartTouch" "minibattle_exit_blue_c_particleStop0.2-1"
+"OnStartTouch" "minibattle_exit_blue_c_particleStart0-1"
 }
 {
 "model" "*291"
@@ -21192,7 +21181,7 @@ Revision: 15
 "damage" "-500"
 "classname" "trigger_hurt"
 "hammerid" "3428914"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
 }
 {
 "model" "*294"
@@ -21203,7 +21192,7 @@ Revision: 15
 "origin" "0 -11776 -5392"
 "classname" "trigger_multiple"
 "hammerid" "3428917"
-"OnStartTouch" "minibattle_begin_countdown_rl,Trigger,,0,-1"
+"OnStartTouch" "minibattle_begin_countdown_rlTrigger0-1"
 }
 {
 "model" "*295"
@@ -21278,10 +21267,10 @@ Revision: 15
 "spawnflags" "2"
 "classname" "logic_relay"
 "hammerid" "3428929"
-"OnTrigger" "minibattle_player_count_battle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_red,Add,1,0,-1"
-"OnTrigger" "counter_red_debug_dead,GetValue,,0.05,-1"
-"OnTrigger" "counter_red_debug_dead,Add,1,0,-1"
+"OnTrigger" "minibattle_player_count_battle_rlTrigger0-1"
+"OnTrigger" "minibattle_player_counter_battle_redAdd10-1"
+"OnTrigger" "counter_red_debug_deadGetValue0.05-1"
+"OnTrigger" "counter_red_debug_deadAdd10-1"
 }
 {
 "origin" "96 -13072 -5392"
@@ -21290,10 +21279,10 @@ Revision: 15
 "spawnflags" "2"
 "classname" "logic_relay"
 "hammerid" "3428931"
-"OnTrigger" "minibattle_player_count_battle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_blue*,Add,1,0,-1"
-"OnTrigger" "counter_blu_debug_dead,GetValue,,0.05,-1"
-"OnTrigger" "counter_blu_debug_dead,Add,1,0,-1"
+"OnTrigger" "minibattle_player_count_battle_rlTrigger0-1"
+"OnTrigger" "minibattle_player_counter_battle_blue*Add10-1"
+"OnTrigger" "counter_blu_debug_deadGetValue0.05-1"
+"OnTrigger" "counter_blu_debug_deadAdd10-1"
 }
 {
 "origin" "96 -13088 -5408"
@@ -21333,36 +21322,36 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3428938"
-"OnTrigger" "minibattle_win_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_win_red_text,Display,,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Disable,,0.01,-1"
-"OnTrigger" "minibattle_win_kritz_trigger_red,DisableAndEndTouch,,10,-1"
-"OnTrigger" "clock_tick_03_minibattle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Enable,,1.02,-1"
-"OnTrigger" "minibattle_end_tp_*,Disable,,1.03,-1"
-"OnTrigger" "minibattle_begin_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_text_sequence_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_logic_reset_rl,Trigger,,10,-1"
-"OnTrigger" "underworld_wipe,Disable,,2.06,-1"
-"OnTrigger" "underworld_wipe,Enable,,2.05,-1"
-"OnTrigger" "minibattle_kritz_sfx,PlaySound,,0,-1"
-"OnTrigger" "clockface,Skin,0,0,-1"
-"OnTrigger" "minibattle_end_boost,Disable,,3,-1"
-"OnTrigger" "minibattle_end_boost,Enable,,1,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Disable,,1.04,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Enable,,1.02,-1"
-"OnTrigger" "minibattle_red_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_blue_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_win_kritz_trigger_red,Enable,,0,-1"
-"OnTrigger" "minibattle_heal,Enable,,1.01,-1"
-"OnTrigger" "minibattle_heal,Disable,,1.03,-1"
-"OnTrigger" "minibattle_detect_red_death_rl,Disable,,0.1,-1"
-"OnTrigger" "minibattle_detect_blue_death_rl,Disable,,0.1,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "clock_tower,Skin,3,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_blue*,SetValue,3,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Trigger,,0,-1"
+"OnTrigger" "minibattle_win_sfxPlaySound0-1"
+"OnTrigger" "minibattle_win_red_textDisplay0-1"
+"OnTrigger" "minibattle_player_count_battle_rlDisable0.01-1"
+"OnTrigger" "minibattle_win_kritz_trigger_redDisableAndEndTouch10-1"
+"OnTrigger" "clock_tick_03_minibattle_rlTrigger0-1"
+"OnTrigger" "minibattle_end_tp_*Enable1.02-1"
+"OnTrigger" "minibattle_end_tp_*Disable1.03-1"
+"OnTrigger" "minibattle_begin_rlCancelPending0-1"
+"OnTrigger" "minibattle_text_sequence_rlCancelPending0-1"
+"OnTrigger" "minibattle_logic_reset_rlTrigger10-1"
+"OnTrigger" "underworld_wipeDisable2.06-1"
+"OnTrigger" "underworld_wipeEnable2.05-1"
+"OnTrigger" "minibattle_kritz_sfxPlaySound0-1"
+"OnTrigger" "clockfaceSkin00-1"
+"OnTrigger" "minibattle_end_boostDisable3-1"
+"OnTrigger" "minibattle_end_boostEnable1-1"
+"OnTrigger" "minibattle_exit_particle_triggerDisable1.04-1"
+"OnTrigger" "minibattle_exit_particle_triggerEnable1.02-1"
+"OnTrigger" "minibattle_red_win_rlDisable0-1"
+"OnTrigger" "minibattle_blue_win_rlDisable0-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_win_kritz_trigger_redEnable0-1"
+"OnTrigger" "minibattle_healEnable1.01-1"
+"OnTrigger" "minibattle_healDisable1.03-1"
+"OnTrigger" "minibattle_detect_red_death_rlDisable0.1-1"
+"OnTrigger" "minibattle_detect_blue_death_rlDisable0.1-1"
+"OnTrigger" "minibattle_begin_text_display_triggerDisable0-1"
+"OnTrigger" "clock_towerSkin30-1"
+"OnTrigger" "minibattle_player_counter_battle_blue*SetValue30-1"
+"OnTrigger" "minibattle_player_count_battle_rlTrigger0-1"
 }
 {
 "origin" "128 -13088 -5392"
@@ -21442,28 +21431,28 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3428948"
-"OnTrigger" "minibattle_stalemate_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_stalemate_text,Display,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Enable,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Disable,,1,-1"
-"OnTrigger" "clock_tick_03_minibattle_stalemate_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_logic_reset_rl,Trigger,,4,-1"
-"OnTrigger" "underworld_wipe,Enable,,0.05,-1"
-"OnTrigger" "underworld_wipe,Disable,,0.06,-1"
-"OnTrigger" "minibattle_end_boost,Enable,,0,-1"
-"OnTrigger" "minibattle_end_boost,Disable,,1,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Enable,,0,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Disable,,0.02,-1"
-"OnTrigger" "clock_event_over_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,0.02,-1"
-"OnTrigger" "minibattle_heal,Enable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_blue_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_red_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_detect_red_death_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_detect_blue_death_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_rl,CancelPending,,0,-1"
+"OnTrigger" "minibattle_stalemate_sfxPlaySound0-1"
+"OnTrigger" "minibattle_stalemate_textDisplay0-1"
+"OnTrigger" "minibattle_end_tp_*Enable0-1"
+"OnTrigger" "minibattle_end_tp_*Disable1-1"
+"OnTrigger" "clock_tick_03_minibattle_stalemate_rlTrigger0-1"
+"OnTrigger" "minibattle_logic_reset_rlTrigger4-1"
+"OnTrigger" "underworld_wipeEnable0.05-1"
+"OnTrigger" "underworld_wipeDisable0.06-1"
+"OnTrigger" "minibattle_end_boostEnable0-1"
+"OnTrigger" "minibattle_end_boostDisable1-1"
+"OnTrigger" "minibattle_exit_particle_triggerEnable0-1"
+"OnTrigger" "minibattle_exit_particle_triggerDisable0.02-1"
+"OnTrigger" "clock_event_over_sfxPlaySound0-1"
+"OnTrigger" "minibattle_healDisable0.02-1"
+"OnTrigger" "minibattle_healEnable0-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_blue_win_rlDisable0-1"
+"OnTrigger" "minibattle_red_win_rlDisable0-1"
+"OnTrigger" "minibattle_detect_red_death_rlDisable0-1"
+"OnTrigger" "minibattle_detect_blue_death_rlDisable0-1"
+"OnTrigger" "minibattle_begin_text_display_triggerDisable0-1"
+"OnTrigger" "minibattle_begin_rlCancelPending0-1"
 }
 {
 "origin" "160 -13104 -5408"
@@ -21495,36 +21484,36 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3428953"
-"OnTrigger" "minibattle_win_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_win_blue_text,Display,,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Disable,,0.01,-1"
-"OnTrigger" "minibattle_win_kritz_trigger_blue,DisableAndEndTouch,,10,-1"
-"OnTrigger" "clock_tick_03_minibattle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Disable,,1.03,-1"
-"OnTrigger" "minibattle_end_tp_*,Enable,,1.02,-1"
-"OnTrigger" "minibattle_text_sequence_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_begin_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_logic_reset_rl,Trigger,,10,-1"
-"OnTrigger" "underworld_wipe,Enable,,2.05,-1"
-"OnTrigger" "underworld_wipe,Disable,,2.06,-1"
-"OnTrigger" "minibattle_kritz_sfx,PlaySound,,0,-1"
-"OnTrigger" "clockface,Skin,1,0,-1"
-"OnTrigger" "minibattle_end_boost,Disable,,3,-1"
-"OnTrigger" "minibattle_end_boost,Enable,,1,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Disable,,1.04,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Enable,,1.02,-1"
-"OnTrigger" "minibattle_blue_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_red_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_win_kritz_trigger_blue,Enable,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,1.03,-1"
-"OnTrigger" "minibattle_heal,Enable,,1.01,-1"
-"OnTrigger" "minibattle_detect_blue_death_rl,Disable,,0.1,-1"
-"OnTrigger" "minibattle_detect_red_death_rl,Disable,,0.1,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "clock_tower,Skin,4,0,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Trigger,,0,-1"
-"OnTrigger" "minibattle_player_counter_battle_red*,SetValue,3,0,-1"
+"OnTrigger" "minibattle_win_sfxPlaySound0-1"
+"OnTrigger" "minibattle_win_blue_textDisplay0-1"
+"OnTrigger" "minibattle_player_count_battle_rlDisable0.01-1"
+"OnTrigger" "minibattle_win_kritz_trigger_blueDisableAndEndTouch10-1"
+"OnTrigger" "clock_tick_03_minibattle_rlTrigger0-1"
+"OnTrigger" "minibattle_end_tp_*Disable1.03-1"
+"OnTrigger" "minibattle_end_tp_*Enable1.02-1"
+"OnTrigger" "minibattle_text_sequence_rlCancelPending0-1"
+"OnTrigger" "minibattle_begin_rlCancelPending0-1"
+"OnTrigger" "minibattle_logic_reset_rlTrigger10-1"
+"OnTrigger" "underworld_wipeEnable2.05-1"
+"OnTrigger" "underworld_wipeDisable2.06-1"
+"OnTrigger" "minibattle_kritz_sfxPlaySound0-1"
+"OnTrigger" "clockfaceSkin10-1"
+"OnTrigger" "minibattle_end_boostDisable3-1"
+"OnTrigger" "minibattle_end_boostEnable1-1"
+"OnTrigger" "minibattle_exit_particle_triggerDisable1.04-1"
+"OnTrigger" "minibattle_exit_particle_triggerEnable1.02-1"
+"OnTrigger" "minibattle_blue_win_rlDisable0-1"
+"OnTrigger" "minibattle_red_win_rlDisable0-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_win_kritz_trigger_blueEnable0-1"
+"OnTrigger" "minibattle_healDisable1.03-1"
+"OnTrigger" "minibattle_healEnable1.01-1"
+"OnTrigger" "minibattle_detect_blue_death_rlDisable0.1-1"
+"OnTrigger" "minibattle_detect_red_death_rlDisable0.1-1"
+"OnTrigger" "minibattle_begin_text_display_triggerDisable0-1"
+"OnTrigger" "clock_towerSkin40-1"
+"OnTrigger" "minibattle_player_count_battle_rlTrigger0-1"
+"OnTrigger" "minibattle_player_counter_battle_red*SetValue30-1"
 }
 {
 "origin" "-16 -11776 -5296"
@@ -21555,68 +21544,68 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3428958"
-"OnTrigger" "minibattle_heal,Enable,,0,-1"
-"OnTrigger" "minibattle_heal,Disable,,0.05,-1"
-"OnTrigger" "minibattle_cage,Enable,,0,-1"
-"OnTrigger" "minibattle_cage_block,Enable,,0,-1"
-"OnTrigger" "minibattle_cage_block,Disable,,4,-1"
-"OnTrigger" "minibattle_cage,Disable,,4,-1"
-"OnTrigger" "minibattle_begin_sfx,PlaySound,,4,-1"
-"OnTrigger" "minibattle_cage_particle_*,Start,,4,-1"
-"OnTrigger" "minibattle_cage_particle_*,Stop,,4.2,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Enable,,4,-1"
-"OnTrigger" "minibattle_stalemate_rl,Trigger,,34,-1"
-"OnTrigger" "minibattle_blue_win_rl,Enable,,0.15,-1"
-"OnTrigger" "minibattle_red_win_rl,Enable,,0.15,-1"
-"OnTrigger" "minibattle_waiting_block,Disable,,0,-1"
-"OnTrigger" "minibattle_visualizer_*,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_tp*,Enable,,0,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,1,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,2,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,3,-1"
-"OnTrigger" "underworld_wipe,Enable,,0,-1"
-"OnTrigger" "underworld_wipe,Disable,,0.05,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,34,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,33,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,32,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,31,-1"
-"OnTrigger" "clock_tick_underworld_sfx,PlaySound,,30,-1"
-"OnTrigger" "minibattle_begin_lockinplace,Enable,,0.1,-1"
-"OnTrigger" "minibattle_begin_lockinplace,DisableAndEndTouch,,4,-1"
-"OnTrigger" "minibattle_begin_tp*,Disable,,0.05,-1"
-"OnTrigger" "minibattle_countdown_timer,Enable,,4,-1"
-"OnTrigger" "minibattle_countdown_text_change,Display,,4,-1"
-"OnTrigger" "minibattle_player_count_battle_rl,Enable,,0.1,-1"
-"OnTrigger" "minibattle_player_counter_battle_blue*,SetValue,0,0.1,-1"
-"OnTrigger" "minibattle_player_counter_battle_red,SetValue,0,0.1,-1"
-"OnTrigger" "minibattle_begin_text,Display,,4,-1"
-"OnTrigger" "minibattle_begin_countdown_display_trigger,Enable,,1,-1"
-"OnTrigger" "minibattle_beginning_text,Display,,0,-1"
-"OnTrigger" "minibattle_detect_blue_death_rl,Enable,,0.15,-1"
-"OnTrigger" "minibattle_detect_red_death_rl,Enable,,0.15,-1"
-"OnTrigger" "counter_red_debug_dead,GetValue,,0.15,-1"
-"OnTrigger" "counter_blu_debug_dead,GetValue,,0.15,-1"
-"OnTrigger" "counter_red_debug_dead,SetValue,0,0.1,-1"
-"OnTrigger" "counter_blu_debug_dead,SetValue,0,0.1,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_1,6,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_2,8.5,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_3,11,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_4,13.5,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_5,16,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_6,18.5,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_7,21,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_8,23.5,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_9,26,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_10,28.5,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_11,31,-1"
-"OnTrigger" "clock_hand_underworld,SetAnimation,strikes_12,33.5,-1"
-"OnTrigger" "minibattle_begin_overworld_sfx,PlaySound,,0,-1"
-"OnTrigger" "minibattle_sfx_blue*,PlaySound,,0,-1"
-"OnTrigger" "minibattle_sfx_red*,PlaySound,,0,-1"
-"OnTrigger" "minibattle_cage_particle_red*,Start,,0,-1"
-"OnTrigger" "minibattle_cage_particle_blue*,Start,,0,-1"
-"OnTrigger" "minibattle_cage_particle_blue*,Stop,,0.2,-1"
-"OnTrigger" "minibattle_cage_particle_red*,Stop,,0.2,-1"
+"OnTrigger" "minibattle_healEnable0-1"
+"OnTrigger" "minibattle_healDisable0.05-1"
+"OnTrigger" "minibattle_cageEnable0-1"
+"OnTrigger" "minibattle_cage_blockEnable0-1"
+"OnTrigger" "minibattle_cage_blockDisable4-1"
+"OnTrigger" "minibattle_cageDisable4-1"
+"OnTrigger" "minibattle_begin_sfxPlaySound4-1"
+"OnTrigger" "minibattle_cage_particle_*Start4-1"
+"OnTrigger" "minibattle_cage_particle_*Stop4.2-1"
+"OnTrigger" "minibattle_begin_text_display_triggerEnable4-1"
+"OnTrigger" "minibattle_stalemate_rlTrigger34-1"
+"OnTrigger" "minibattle_blue_win_rlEnable0.15-1"
+"OnTrigger" "minibattle_red_win_rlEnable0.15-1"
+"OnTrigger" "minibattle_waiting_blockDisable0-1"
+"OnTrigger" "minibattle_visualizer_*Disable0-1"
+"OnTrigger" "minibattle_begin_tp*Enable0-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound1-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound2-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound3-1"
+"OnTrigger" "underworld_wipeEnable0-1"
+"OnTrigger" "underworld_wipeDisable0.05-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound34-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound33-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound32-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound31-1"
+"OnTrigger" "clock_tick_underworld_sfxPlaySound30-1"
+"OnTrigger" "minibattle_begin_lockinplaceEnable0.1-1"
+"OnTrigger" "minibattle_begin_lockinplaceDisableAndEndTouch4-1"
+"OnTrigger" "minibattle_begin_tp*Disable0.05-1"
+"OnTrigger" "minibattle_countdown_timerEnable4-1"
+"OnTrigger" "minibattle_countdown_text_changeDisplay4-1"
+"OnTrigger" "minibattle_player_count_battle_rlEnable0.1-1"
+"OnTrigger" "minibattle_player_counter_battle_blue*SetValue00.1-1"
+"OnTrigger" "minibattle_player_counter_battle_redSetValue00.1-1"
+"OnTrigger" "minibattle_begin_textDisplay4-1"
+"OnTrigger" "minibattle_begin_countdown_display_triggerEnable1-1"
+"OnTrigger" "minibattle_beginning_textDisplay0-1"
+"OnTrigger" "minibattle_detect_blue_death_rlEnable0.15-1"
+"OnTrigger" "minibattle_detect_red_death_rlEnable0.15-1"
+"OnTrigger" "counter_red_debug_deadGetValue0.15-1"
+"OnTrigger" "counter_blu_debug_deadGetValue0.15-1"
+"OnTrigger" "counter_red_debug_deadSetValue00.1-1"
+"OnTrigger" "counter_blu_debug_deadSetValue00.1-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_16-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_28.5-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_311-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_413.5-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_516-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_618.5-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_721-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_823.5-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_926-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_1028.5-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_1131-1"
+"OnTrigger" "clock_hand_underworldSetAnimationstrikes_1233.5-1"
+"OnTrigger" "minibattle_begin_overworld_sfxPlaySound0-1"
+"OnTrigger" "minibattle_sfx_blue*PlaySound0-1"
+"OnTrigger" "minibattle_sfx_red*PlaySound0-1"
+"OnTrigger" "minibattle_cage_particle_red*Start0-1"
+"OnTrigger" "minibattle_cage_particle_blue*Start0-1"
+"OnTrigger" "minibattle_cage_particle_blue*Stop0.2-1"
+"OnTrigger" "minibattle_cage_particle_red*Stop0.2-1"
 }
 {
 "origin" "176 -13088 -5408"
@@ -21624,10 +21613,10 @@ Revision: 15
 "spawnflags" "2"
 "classname" "logic_relay"
 "hammerid" "3428960"
-"OnTrigger" "minibattle_begin_fight_text,Display,,3,-1"
-"OnTrigger" "minibattle_begin_countdown1_text,Display,,2,-1"
-"OnTrigger" "minibattle_begin_countdown2_text,Display,,1,-1"
-"OnTrigger" "minibattle_begin_countdown3_text,Display,,0,-1"
+"OnTrigger" "minibattle_begin_fight_textDisplay3-1"
+"OnTrigger" "minibattle_begin_countdown1_textDisplay2-1"
+"OnTrigger" "minibattle_begin_countdown2_textDisplay1-1"
+"OnTrigger" "minibattle_begin_countdown3_textDisplay0-1"
 }
 {
 "origin" "176 -13088 -5392"
@@ -21792,7 +21781,7 @@ Revision: 15
 "origin" "0 -11776 -4896"
 "classname" "trigger_multiple"
 "hammerid" "3428986"
-"OnStartTouch" "!activator,SetFogController,fog_underworld,0,-1"
+"OnStartTouch" "!activatorSetFogControllerfog_underworld0-1"
 }
 {
 "origin" "16 -11776 -5296"
@@ -21844,7 +21833,7 @@ Revision: 15
 "origin" "0 0 307.37"
 "classname" "trigger_multiple"
 "hammerid" "3448648"
-"OnStartTouch" "!activator,SetFogController,fog_overworld,0,-1"
+"OnStartTouch" "!activatorSetFogControllerfog_overworld0-1"
 }
 {
 "model" "*298"
@@ -21856,16 +21845,16 @@ Revision: 15
 "filtername" "filter_red"
 "classname" "trigger_teleport"
 "hammerid" "3449576"
-"OnStartTouch" "portal_entrance_particle_red,Stop,,0.2,-1"
-"OnStartTouch" "portal_entrance_particle_red,Start,,0,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "minibattle_red_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname red_a,0,-1"
-"OnStartTouch" "minibattle_cage_particle_red_a,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_cage_particle_red_a,Start,,0,-1"
-"OnStartTouch" "minibattle_sfx_red_a,PlaySound,,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
+"OnStartTouch" "portal_entrance_particle_redStop0.2-1"
+"OnStartTouch" "portal_entrance_particle_redStart0-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "minibattle_red_assign_slotTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname red_a0-1"
+"OnStartTouch" "minibattle_cage_particle_red_aStop0.2-1"
+"OnStartTouch" "minibattle_cage_particle_red_aStart0-1"
+"OnStartTouch" "minibattle_sfx_red_aPlaySound0-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
 }
 {
 "model" "*299"
@@ -21877,16 +21866,16 @@ Revision: 15
 "filtername" "filter_blu"
 "classname" "trigger_teleport"
 "hammerid" "3449579"
-"OnStartTouch" "minibattle_blue_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Start,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname blue_a,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_a,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_sfx_blue_a,PlaySound,,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_a,Start,,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
+"OnStartTouch" "minibattle_blue_assign_slotTrigger0-1"
+"OnStartTouch" "portal_entrance_particle_blueStart0-1"
+"OnStartTouch" "portal_entrance_particle_blueStop0.2-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname blue_a0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_aStop0.2-1"
+"OnStartTouch" "minibattle_sfx_blue_aPlaySound0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_aStart0-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
 }
 {
 "origin" "-2336 -1728 -1024"
@@ -21894,19 +21883,19 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3449582"
-"OnTrigger" "!self,Kill,,0,-1"
-"OnTrigger" "portal_tp_blue,Kill,,0,-1"
-"OnTrigger" "portal_entrance_particle_red,Kill,,0,-1"
-"OnTrigger" "portal_tp_red_a,Kill,,0,-1"
-"OnTrigger" "portal_particle,Kill,,0,-1"
-"OnTrigger" "portal_red_full,Kill,,0,-1"
-"OnTrigger" "portal_blue_full,Kill,,0,-1"
-"OnTrigger" "portal_entrance_particle_blue,Kill,,0,-1"
-"OnTrigger" "portal_tp_red_b,Kill,,0,-1"
-"OnTrigger" "portal_tp_red_c,Kill,,0,-1"
-"OnTrigger" "portal_tp_blue_c,Kill,,0,-1"
-"OnTrigger" "portal_tp_blue_b,Kill,,0,-1"
-"OnTrigger" "portal_tp_blue_a,Kill,,0,-1"
+"OnTrigger" "!selfKill0-1"
+"OnTrigger" "portal_tp_blueKill0-1"
+"OnTrigger" "portal_entrance_particle_redKill0-1"
+"OnTrigger" "portal_tp_red_aKill0-1"
+"OnTrigger" "portal_particleKill0-1"
+"OnTrigger" "portal_red_fullKill0-1"
+"OnTrigger" "portal_blue_fullKill0-1"
+"OnTrigger" "portal_entrance_particle_blueKill0-1"
+"OnTrigger" "portal_tp_red_bKill0-1"
+"OnTrigger" "portal_tp_red_cKill0-1"
+"OnTrigger" "portal_tp_blue_cKill0-1"
+"OnTrigger" "portal_tp_blue_bKill0-1"
+"OnTrigger" "portal_tp_blue_aKill0-1"
 }
 {
 "origin" "-2336 -1728 -1056"
@@ -21950,8 +21939,8 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3449651"
-"OnTrigger" "check_should_disable_blue_tp,Test,,0,-1"
-"OnTrigger" "check_should_disable_red_tp,Test,,0,-1"
+"OnTrigger" "check_should_disable_blue_tpTest0-1"
+"OnTrigger" "check_should_disable_red_tpTest0-1"
 }
 {
 "origin" "-2400 -1728 -1064"
@@ -21959,7 +21948,7 @@ Revision: 15
 "InitialValue" "0"
 "classname" "logic_branch"
 "hammerid" "3449653"
-"OnTrue" "portal_tp_red*,Disable,,0,-1"
+"OnTrue" "portal_tp_red*Disable0-1"
 }
 {
 "origin" "-2400 -1728 -1048"
@@ -21967,7 +21956,7 @@ Revision: 15
 "InitialValue" "0"
 "classname" "logic_branch"
 "hammerid" "3449655"
-"OnTrue" "portal_tp_blue*,Disable,,0,-1"
+"OnTrue" "portal_tp_blue*Disable0-1"
 }
 {
 "origin" "-2336 -1728 -1056"
@@ -22014,7 +22003,7 @@ Revision: 15
 "filtername" "filter_red"
 "classname" "trigger_multiple"
 "hammerid" "3449724"
-"OnStartTouch" "minibattle_team_full_text,Display,,0,-1"
+"OnStartTouch" "minibattle_team_full_textDisplay0-1"
 }
 {
 "model" "*301"
@@ -22026,7 +22015,7 @@ Revision: 15
 "filtername" "filter_blu"
 "classname" "trigger_multiple"
 "hammerid" "3449727"
-"OnStartTouch" "minibattle_team_full_text,Display,,0,-1"
+"OnStartTouch" "minibattle_team_full_textDisplay0-1"
 }
 {
 "origin" "-2336 -1728 -1056"
@@ -22055,16 +22044,16 @@ Revision: 15
 "filtername" "filter_red"
 "classname" "trigger_teleport"
 "hammerid" "3483462"
-"OnStartTouch" "portal_entrance_particle_red,Stop,,0.2,-1"
-"OnStartTouch" "portal_entrance_particle_red,Start,,0,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "minibattle_red_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname red_b,0,-1"
-"OnStartTouch" "minibattle_cage_particle_red_b,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_cage_particle_red_b,Start,,0,-1"
-"OnStartTouch" "minibattle_sfx_red_b,PlaySound,,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
+"OnStartTouch" "portal_entrance_particle_redStop0.2-1"
+"OnStartTouch" "portal_entrance_particle_redStart0-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "minibattle_red_assign_slotTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname red_b0-1"
+"OnStartTouch" "minibattle_cage_particle_red_bStop0.2-1"
+"OnStartTouch" "minibattle_cage_particle_red_bStart0-1"
+"OnStartTouch" "minibattle_sfx_red_bPlaySound0-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
 }
 {
 "model" "*303"
@@ -22076,16 +22065,16 @@ Revision: 15
 "filtername" "filter_red"
 "classname" "trigger_teleport"
 "hammerid" "3483471"
-"OnStartTouch" "portal_entrance_particle_red,Stop,,0.2,-1"
-"OnStartTouch" "portal_entrance_particle_red,Start,,0,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "minibattle_red_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname red_c,0,-1"
-"OnStartTouch" "minibattle_cage_particle_red_c,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_sfx_red_c,PlaySound,,0,-1"
-"OnStartTouch" "minibattle_cage_particle_red_c,Start,,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
+"OnStartTouch" "portal_entrance_particle_redStop0.2-1"
+"OnStartTouch" "portal_entrance_particle_redStart0-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "minibattle_red_assign_slotTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname red_c0-1"
+"OnStartTouch" "minibattle_cage_particle_red_cStop0.2-1"
+"OnStartTouch" "minibattle_sfx_red_cPlaySound0-1"
+"OnStartTouch" "minibattle_cage_particle_red_cStart0-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
 }
 {
 "model" "*304"
@@ -22097,16 +22086,16 @@ Revision: 15
 "filtername" "filter_blu"
 "classname" "trigger_teleport"
 "hammerid" "3483615"
-"OnStartTouch" "minibattle_blue_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Start,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname blue_b,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_b,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_sfx_blue_b,PlaySound,,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_b,Start,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
+"OnStartTouch" "minibattle_blue_assign_slotTrigger0-1"
+"OnStartTouch" "portal_entrance_particle_blueStart0-1"
+"OnStartTouch" "portal_entrance_particle_blueStop0.2-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname blue_b0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_bStop0.2-1"
+"OnStartTouch" "minibattle_sfx_blue_bPlaySound0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_bStart0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
 }
 {
 "model" "*305"
@@ -22118,16 +22107,16 @@ Revision: 15
 "filtername" "filter_blu"
 "classname" "trigger_teleport"
 "hammerid" "3483627"
-"OnStartTouch" "minibattle_blue_assign_slot,Trigger,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Start,,0,-1"
-"OnStartTouch" "portal_entrance_particle_blue,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_tp_temp_disable,Trigger,,0,-1"
-"OnStartTouch" "!activator,AddOutput,targetname blue_c,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_c,Stop,,0.2,-1"
-"OnStartTouch" "minibattle_sfx_blue_c,PlaySound,,0,-1"
-"OnStartTouch" "minibattle_cage_particle_blue_c,Start,,0,-1"
-"OnStartTouch" "!activator,ExtinguishPlayer,,0,-1"
-"OnStartTouch" "!activator,SetHealth,500,0,-1"
+"OnStartTouch" "minibattle_blue_assign_slotTrigger0-1"
+"OnStartTouch" "portal_entrance_particle_blueStart0-1"
+"OnStartTouch" "portal_entrance_particle_blueStop0.2-1"
+"OnStartTouch" "minibattle_tp_temp_disableTrigger0-1"
+"OnStartTouch" "!activatorAddOutputtargetname blue_c0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_cStop0.2-1"
+"OnStartTouch" "minibattle_sfx_blue_cPlaySound0-1"
+"OnStartTouch" "minibattle_cage_particle_blue_cStart0-1"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+"OnStartTouch" "!activatorSetHealth5000-1"
 }
 {
 "model" "*306"
@@ -22138,7 +22127,7 @@ Revision: 15
 "origin" "0 -11776 -4880"
 "classname" "trigger_multiple"
 "hammerid" "3483885"
-"OnStartTouch" "minibattle_begin_text,Display,,0,-1"
+"OnStartTouch" "minibattle_begin_textDisplay0-1"
 }
 {
 "origin" "-2336 -1632 -1120"
@@ -22146,8 +22135,8 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3483995"
-"OnTrigger" "minibattle_red_assign_2_slots_a,Trigger,,0,-1"
-"OnTrigger" "minibattle_red_assign_2_slots_b,Trigger,,0,-1"
+"OnTrigger" "minibattle_red_assign_2_slots_aTrigger0-1"
+"OnTrigger" "minibattle_red_assign_2_slots_bTrigger0-1"
 }
 {
 "origin" "-2304 -1632 -1120"
@@ -22155,7 +22144,7 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3484005"
-"OnTrigger" "minibattle_red_assign_slot,Trigger,,0,-1"
+"OnTrigger" "minibattle_red_assign_slotTrigger0-1"
 }
 {
 "origin" "-2304 -1648 -1120"
@@ -22163,7 +22152,7 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3484009"
-"OnTrigger" "minibattle_red_assign_slot,Trigger,,0,-1"
+"OnTrigger" "minibattle_red_assign_slotTrigger0-1"
 }
 {
 "origin" "-2336 -1584 -1120"
@@ -22171,8 +22160,8 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3484039"
-"OnTrigger" "minibattle_blue_assign_2_slots_a,Trigger,,0,-1"
-"OnTrigger" "minibattle_blue_assign_2_slots_b,Trigger,,0,-1"
+"OnTrigger" "minibattle_blue_assign_2_slots_aTrigger0-1"
+"OnTrigger" "minibattle_blue_assign_2_slots_bTrigger0-1"
 }
 {
 "origin" "-2304 -1600 -1120"
@@ -22180,7 +22169,7 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3484041"
-"OnTrigger" "minibattle_blue_assign_slot,Trigger,,0,-1"
+"OnTrigger" "minibattle_blue_assign_slotTrigger0-1"
 }
 {
 "origin" "-2304 -1584 -1120"
@@ -22188,7 +22177,7 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3484043"
-"OnTrigger" "minibattle_blue_assign_slot,Trigger,,0,-1"
+"OnTrigger" "minibattle_blue_assign_slotTrigger0-1"
 }
 {
 "origin" "160 -13136 -5408"
@@ -22196,31 +22185,31 @@ Revision: 15
 "spawnflags" "0"
 "classname" "logic_relay"
 "hammerid" "3500999"
-"OnTrigger" "minibattle_end_tp_*,Enable,,0,-1"
-"OnTrigger" "minibattle_end_tp_*,Disable,,1,-1"
-"OnTrigger" "minibattle_logic_reset_rl,Trigger,,0,-1"
-"OnTrigger" "underworld_wipe,Enable,,0.05,-1"
-"OnTrigger" "underworld_wipe,Disable,,0.06,-1"
-"OnTrigger" "minibattle_end_boost,Enable,,0,-1"
-"OnTrigger" "minibattle_end_boost,Disable,,1,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Enable,,0,-1"
-"OnTrigger" "minibattle_exit_particle_trigger,Disable,,0.02,-1"
-"OnTrigger" "minibattle_heal,Disable,,0.02,-1"
-"OnTrigger" "minibattle_heal,Enable,,0,-1"
-"OnTrigger" "minibattle_countdown_timer,Disable,,0,-1"
-"OnTrigger" "minibattle_blue_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_red_win_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_detect_red_death_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_detect_blue_death_rl,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_rl,CancelPending,,0,-1"
-"OnTrigger" "clock_event_rl,CancelPending,,0,-1"
-"OnTrigger" "portal_spawn_rl*,Trigger,,0,-1"
-"OnTrigger" "minibattle_begin_text_override,Display,,0.05,-1"
-"OnTrigger" "clock_minibattle_event_rl,CancelPending,,0,-1"
-"OnTrigger" "minibattle_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "minibattle_begin_text_display_trigger,Disable,,0,-1"
-"OnTrigger" "portal_sprite*,HideSprite,,0,-1"
+"OnTrigger" "minibattle_end_tp_*Enable0-1"
+"OnTrigger" "minibattle_end_tp_*Disable1-1"
+"OnTrigger" "minibattle_logic_reset_rlTrigger0-1"
+"OnTrigger" "underworld_wipeEnable0.05-1"
+"OnTrigger" "underworld_wipeDisable0.06-1"
+"OnTrigger" "minibattle_end_boostEnable0-1"
+"OnTrigger" "minibattle_end_boostDisable1-1"
+"OnTrigger" "minibattle_exit_particle_triggerEnable0-1"
+"OnTrigger" "minibattle_exit_particle_triggerDisable0.02-1"
+"OnTrigger" "minibattle_healDisable0.02-1"
+"OnTrigger" "minibattle_healEnable0-1"
+"OnTrigger" "minibattle_countdown_timerDisable0-1"
+"OnTrigger" "minibattle_blue_win_rlDisable0-1"
+"OnTrigger" "minibattle_red_win_rlDisable0-1"
+"OnTrigger" "minibattle_detect_red_death_rlDisable0-1"
+"OnTrigger" "minibattle_detect_blue_death_rlDisable0-1"
+"OnTrigger" "minibattle_begin_text_display_triggerDisable0-1"
+"OnTrigger" "minibattle_begin_rlCancelPending0-1"
+"OnTrigger" "clock_event_rlCancelPending0-1"
+"OnTrigger" "portal_spawn_rl*Trigger0-1"
+"OnTrigger" "minibattle_begin_text_overrideDisplay0.05-1"
+"OnTrigger" "clock_minibattle_event_rlCancelPending0-1"
+"OnTrigger" "minibattle_text_display_triggerDisable0-1"
+"OnTrigger" "minibattle_begin_text_display_triggerDisable0-1"
+"OnTrigger" "portal_sprite*HideSprite0-1"
 }
 {
 "origin" "144 -11840 -5600"
@@ -22233,9 +22222,9 @@ Revision: 15
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "3517731"
-"OnMapSpawn" "tonemap_global,SetAutoExposureMin,.5,0,-1"
-"OnMapSpawn" "tonemap_global,SetAutoExposureMax,1,0,-1"
-"OnMapSpawn" "tonemap_global,SetBloomScale,.6,0,-1"
+"OnMapSpawn" "tonemap_globalSetAutoExposureMin.50-1"
+"OnMapSpawn" "tonemap_globalSetAutoExposureMax10-1"
+"OnMapSpawn" "tonemap_globalSetBloomScale.60-1"
 }
 {
 "origin" "112 -11840 -5600"
@@ -22266,7 +22255,7 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3568308"
-"OutValue" "minibattle_player_counter_compare_red_overflow,SetValueCompare,,0,-1"
+"OutValue" "minibattle_player_counter_compare_red_overflowSetValueCompare0-1"
 }
 {
 "origin" "-84 624 512"
@@ -22275,8 +22264,8 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568310"
-"OnGreaterThan" "minibattle_team_full_text,Display,,0,-1"
-"OnGreaterThan" "!activator,AddOutput,origin 1368 -56 52,0,-1"
+"OnGreaterThan" "minibattle_team_full_textDisplay0-1"
+"OnGreaterThan" "!activatorAddOutputorigin 1368 -56 520-1"
 }
 {
 "origin" "-84 584 512"
@@ -22285,8 +22274,8 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568426"
-"OnGreaterThan" "minibattle_team_full_text,Display,,0,-1"
-"OnGreaterThan" "!activator,AddOutput,origin -1368 -56 52,0,-1"
+"OnGreaterThan" "minibattle_team_full_textDisplay0-1"
+"OnGreaterThan" "!activatorAddOutputorigin -1368 -56 520-1"
 }
 {
 "origin" "-84 600 512"
@@ -22297,7 +22286,7 @@ Revision: 15
 "max" "16"
 "classname" "math_counter"
 "hammerid" "3568428"
-"OutValue" "minibattle_player_counter_compare_blue_overflow,SetValueCompare,,0,-1"
+"OutValue" "minibattle_player_counter_compare_blue_overflowSetValueCompare0-1"
 }
 {
 "origin" "-100 624 480"
@@ -22306,9 +22295,9 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568642"
-"OnGreaterThan" "minibattle_player_counter_case_red,InValue,3,0,-1"
-"OnEqualTo" "minibattle_player_counter_case_red,InValue,,0,-1"
-"OnLessThan" "minibattle_player_counter_case_red,InValue,,0,-1"
+"OnGreaterThan" "minibattle_player_counter_case_redInValue30-1"
+"OnEqualTo" "minibattle_player_counter_case_redInValue0-1"
+"OnLessThan" "minibattle_player_counter_case_redInValue0-1"
 }
 {
 "origin" "-120 600 496"
@@ -22317,9 +22306,9 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568689"
-"OnLessThan" "minibattle_player_counter_case_blue_01,InValue,,0,-1"
-"OnGreaterThan" "minibattle_player_counter_case_blue_01,InValue,3,0,-1"
-"OnEqualTo" "minibattle_player_counter_case_blue_01,InValue,,0,-1"
+"OnLessThan" "minibattle_player_counter_case_blue_01InValue0-1"
+"OnGreaterThan" "minibattle_player_counter_case_blue_01InValue30-1"
+"OnEqualTo" "minibattle_player_counter_case_blue_01InValue0-1"
 }
 {
 "origin" "-96 600 496"
@@ -22328,9 +22317,9 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568762"
-"OnLessThan" "minibattle_player_counter_case_blue_02,InValue,,0,-1"
-"OnGreaterThan" "minibattle_player_counter_case_blue_02,InValue,3,0,-1"
-"OnEqualTo" "minibattle_player_counter_case_blue_02,InValue,,0,-1"
+"OnLessThan" "minibattle_player_counter_case_blue_02InValue0-1"
+"OnGreaterThan" "minibattle_player_counter_case_blue_02InValue30-1"
+"OnEqualTo" "minibattle_player_counter_case_blue_02InValue0-1"
 }
 {
 "origin" "-72 600 496"
@@ -22339,9 +22328,9 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568764"
-"OnLessThan" "minibattle_player_counter_case_blue_03,InValue,,0,-1"
-"OnGreaterThan" "minibattle_player_counter_case_blue_03,InValue,3,0,-1"
-"OnEqualTo" "minibattle_player_counter_case_blue_03,InValue,,0,-1"
+"OnLessThan" "minibattle_player_counter_case_blue_03InValue0-1"
+"OnGreaterThan" "minibattle_player_counter_case_blue_03InValue30-1"
+"OnEqualTo" "minibattle_player_counter_case_blue_03InValue0-1"
 }
 {
 "origin" "-48 600 496"
@@ -22350,9 +22339,9 @@ Revision: 15
 "CompareValue" "3"
 "classname" "logic_compare"
 "hammerid" "3568766"
-"OnLessThan" "minibattle_player_counter_case_blue_04,InValue,,0,-1"
-"OnGreaterThan" "minibattle_player_counter_case_blue_04,InValue,3,0,-1"
-"OnEqualTo" "minibattle_player_counter_case_blue_04,InValue,,0,-1"
+"OnLessThan" "minibattle_player_counter_case_blue_04InValue0-1"
+"OnGreaterThan" "minibattle_player_counter_case_blue_04InValue30-1"
+"OnEqualTo" "minibattle_player_counter_case_blue_04InValue0-1"
 }
 {
 "model" "*307"
@@ -22583,6 +22572,78 @@ Revision: 15
 "hammerid" "3923775"
 }
 {
+"origin" "-1612 220 36"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3957795"
+}
+{
+"origin" "-416 312 24"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3957813"
+}
+{
+"origin" "-560 616 296"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3957844"
+}
+{
+"origin" "-512 74 56"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3957876"
+}
+{
+"origin" "416 312 24"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974994"
+}
+{
+"origin" "560 616 296"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974992"
+}
+{
+"origin" "1612 220 36"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974990"
+}
+{
+"origin" "240 -1048 120"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974988"
+}
+{
+"origin" "960 -452 68"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974986"
+}
+{
+"origin" "512 74 56"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3974984"
+}
+{
+"origin" "-300 156 88"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3975030"
+}
+{
+"origin" "300 156 88"
+"spawn_manager_name" "pumpkinManager"
+"classname" "entity_spawn_point"
+"hammerid" "3975048"
+}
+{
 "origin" "-655.642 -13663.1 -5172"
 "start_active" "1"
 "flag_as_weather" "0"
@@ -22596,7 +22657,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -111 0"
 "classname" "info_particle_system"
-"hammerid" "3923781"
+"hammerid" "3975054"
 }
 {
 "angles" "-0 -111 0"
@@ -22614,7 +22675,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3923846"
+"hammerid" "3975119"
 }
 {
 "origin" "-655.642 -9888.93 -5172"
@@ -22630,7 +22691,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 111 0"
 "classname" "info_particle_system"
-"hammerid" "3923852"
+"hammerid" "3975125"
 }
 {
 "angles" "-0 111 0"
@@ -22648,7 +22709,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3923917"
+"hammerid" "3975190"
 }
 {
 "origin" "655.642 -9888.93 -5172"
@@ -22664,7 +22725,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 69 0"
 "classname" "info_particle_system"
-"hammerid" "3923923"
+"hammerid" "3975196"
 }
 {
 "angles" "-0 69 0"
@@ -22682,7 +22743,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3923988"
+"hammerid" "3975261"
 }
 {
 "origin" "655.642 -13663.1 -5172"
@@ -22698,7 +22759,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -69 0"
 "classname" "info_particle_system"
-"hammerid" "3923994"
+"hammerid" "3975267"
 }
 {
 "angles" "-0 -69 0"
@@ -22716,7 +22777,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924059"
+"hammerid" "3975332"
 }
 {
 "origin" "-1583 -12176 -5172"
@@ -22730,12 +22791,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3924065"
+"hammerid" "3975338"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "-1583 -12176 -5160"
 "style" "0"
 "spawnflags" "0"
@@ -22750,7 +22811,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924130"
+"hammerid" "3975403"
 }
 {
 "origin" "-1585 -12576 -5156"
@@ -22766,7 +22827,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3924136"
+"hammerid" "3975409"
 }
 {
 "angles" "-0 -5.00896e-06 0"
@@ -22784,7 +22845,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924201"
+"hammerid" "3975474"
 }
 {
 "origin" "-1535 -11296 -5172"
@@ -22798,12 +22859,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3924207"
+"hammerid" "3975480"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "-1535 -11296 -5160"
 "style" "0"
 "spawnflags" "0"
@@ -22818,7 +22879,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924272"
+"hammerid" "3975545"
 }
 {
 "origin" "-1569 -10960 -5156"
@@ -22834,7 +22895,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3924278"
+"hammerid" "3975551"
 }
 {
 "angles" "-0 -5.00896e-06 0"
@@ -22852,7 +22913,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924343"
+"hammerid" "3975616"
 }
 {
 "origin" "1583 -11376 -5172"
@@ -22868,7 +22929,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 1.00179e-05 0"
 "classname" "info_particle_system"
-"hammerid" "3924349"
+"hammerid" "3975622"
 }
 {
 "angles" "-0 1.00179e-05 0"
@@ -22886,7 +22947,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924414"
+"hammerid" "3975687"
 }
 {
 "origin" "1585 -10976 -5156"
@@ -22900,12 +22961,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3924420"
+"hammerid" "3975693"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "1585 -10976 -5144"
 "style" "0"
 "spawnflags" "0"
@@ -22920,7 +22981,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924485"
+"hammerid" "3975758"
 }
 {
 "origin" "1535 -12256 -5172"
@@ -22936,7 +22997,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 1.00179e-05 0"
 "classname" "info_particle_system"
-"hammerid" "3924491"
+"hammerid" "3975764"
 }
 {
 "angles" "-0 1.00179e-05 0"
@@ -22954,7 +23015,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924556"
+"hammerid" "3975829"
 }
 {
 "origin" "1569 -12592 -5156"
@@ -22968,12 +23029,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3924562"
+"hammerid" "3975835"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "1569 -12592 -5144"
 "style" "0"
 "spawnflags" "0"
@@ -22988,7 +23049,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924627"
+"hammerid" "3975900"
 }
 {
 "origin" "153.55 -11607 -5452.18"
@@ -23004,7 +23065,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.49983 -0.0393504 5.00155"
 "classname" "info_particle_system"
-"hammerid" "3924633"
+"hammerid" "3975906"
 }
 {
 "angles" "-4.49983 -0.0393504 5.00155"
@@ -23022,7 +23083,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924698"
+"hammerid" "3975971"
 }
 {
 "origin" "169.711 -11929.9 -5452.18"
@@ -23038,7 +23099,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.49983 -106.461 5.00155"
 "classname" "info_particle_system"
-"hammerid" "3924704"
+"hammerid" "3975977"
 }
 {
 "angles" "-4.49983 -106.461 5.00155"
@@ -23056,7 +23117,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924769"
+"hammerid" "3976042"
 }
 {
 "angles" "-0 93.5 0"
@@ -23074,7 +23135,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924794"
+"hammerid" "3976067"
 }
 {
 "angles" "-0 93.5 0"
@@ -23093,7 +23154,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3924830"
+"hammerid" "3976103"
 }
 {
 "origin" "707 -10656 -5240"
@@ -23109,7 +23170,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3924836"
+"hammerid" "3976109"
 }
 {
 "origin" "707 -10656 -5228"
@@ -23126,7 +23187,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924901"
+"hammerid" "3976174"
 }
 {
 "origin" "973 -10952 -5240"
@@ -23140,12 +23201,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3924907"
+"hammerid" "3976180"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "973 -10952 -5228"
 "style" "0"
 "spawnflags" "0"
@@ -23160,7 +23221,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924972"
+"hammerid" "3976245"
 }
 {
 "angles" "-4.29297 -19.3917 4.02498"
@@ -23178,7 +23239,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3924997"
+"hammerid" "3976270"
 }
 {
 "angles" "-4.29297 -19.3917 4.02498"
@@ -23197,7 +23258,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3925033"
+"hammerid" "3976306"
 }
 {
 "origin" "897 -11976 -5332"
@@ -23211,12 +23272,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3925039"
+"hammerid" "3976312"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "897 -11976 -5320"
 "style" "0"
 "spawnflags" "0"
@@ -23231,7 +23292,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925104"
+"hammerid" "3976377"
 }
 {
 "origin" "951 -11576 -5332"
@@ -23247,7 +23308,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3925110"
+"hammerid" "3976383"
 }
 {
 "origin" "951 -11576 -5320"
@@ -23264,7 +23325,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925175"
+"hammerid" "3976448"
 }
 {
 "origin" "331.252 -11279.4 -5348.05"
@@ -23280,7 +23341,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0.93603 80.0354 -0.706491"
 "classname" "info_particle_system"
-"hammerid" "3925181"
+"hammerid" "3976454"
 }
 {
 "angles" "-0.93603 80.0354 -0.706491"
@@ -23298,7 +23359,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925246"
+"hammerid" "3976519"
 }
 {
 "angles" "5.90611 86.3345 1.11202"
@@ -23316,7 +23377,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925271"
+"hammerid" "3976544"
 }
 {
 "angles" "5.90611 86.3345 1.11202"
@@ -23335,7 +23396,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3925307"
+"hammerid" "3976580"
 }
 {
 "origin" "325.43 -12275.9 -5348.05"
@@ -23351,7 +23412,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0.93603 -80.0354 -0.706491"
 "classname" "info_particle_system"
-"hammerid" "3925313"
+"hammerid" "3976586"
 }
 {
 "angles" "-0.93603 -80.0354 -0.706491"
@@ -23369,7 +23430,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925378"
+"hammerid" "3976651"
 }
 {
 "origin" "979 -12612 -5240"
@@ -23385,7 +23446,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 1.00179e-05 0"
 "classname" "info_particle_system"
-"hammerid" "3925384"
+"hammerid" "3976657"
 }
 {
 "angles" "-0 1.00179e-05 0"
@@ -23403,7 +23464,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925449"
+"hammerid" "3976722"
 }
 {
 "angles" "-3.33782 -72.4693 -1.05366"
@@ -23421,7 +23482,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925474"
+"hammerid" "3976747"
 }
 {
 "angles" "-3.33782 -72.4693 -1.05366"
@@ -23440,7 +23501,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3925510"
+"hammerid" "3976783"
 }
 {
 "origin" "713 -12908 -5240"
@@ -23454,12 +23515,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3925516"
+"hammerid" "3976789"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "713 -12908 -5228"
 "style" "0"
 "spawnflags" "0"
@@ -23474,7 +23535,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925581"
+"hammerid" "3976854"
 }
 {
 "angles" "-0 86.5 0"
@@ -23492,7 +23553,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925606"
+"hammerid" "3976879"
 }
 {
 "angles" "-0 86.5 0"
@@ -23511,7 +23572,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3925642"
+"hammerid" "3976915"
 }
 {
 "origin" "-703 -10640 -5240"
@@ -23525,12 +23586,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3925648"
+"hammerid" "3976921"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "-703 -10640 -5228"
 "style" "0"
 "spawnflags" "0"
@@ -23545,7 +23606,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925713"
+"hammerid" "3976986"
 }
 {
 "origin" "-977 -10944 -5240"
@@ -23561,7 +23622,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3925719"
+"hammerid" "3976992"
 }
 {
 "angles" "-0 5.00896e-06 0"
@@ -23579,7 +23640,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925784"
+"hammerid" "3977057"
 }
 {
 "origin" "-889 -11968 -5332"
@@ -23595,7 +23656,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3925790"
+"hammerid" "3977063"
 }
 {
 "angles" "-0 -5.00896e-06 0"
@@ -23613,7 +23674,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925855"
+"hammerid" "3977128"
 }
 {
 "origin" "-943 -11576 -5332"
@@ -23627,12 +23688,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3925861"
+"hammerid" "3977134"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-943 -11576 -5320"
 "style" "0"
 "spawnflags" "0"
@@ -23647,7 +23708,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925926"
+"hammerid" "3977199"
 }
 {
 "origin" "-977.01 -12609 -5240"
@@ -23661,12 +23722,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3925932"
+"hammerid" "3977205"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "-977.01 -12609 -5228"
 "style" "0"
 "spawnflags" "0"
@@ -23681,7 +23742,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3925997"
+"hammerid" "3977270"
 }
 {
 "angles" "-0 -86.5 0"
@@ -23699,7 +23760,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926022"
+"hammerid" "3977295"
 }
 {
 "angles" "-0 -86.5 0"
@@ -23718,7 +23779,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3926058"
+"hammerid" "3977331"
 }
 {
 "origin" "-713 -12896 -5240"
@@ -23734,7 +23795,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3926064"
+"hammerid" "3977337"
 }
 {
 "angles" "-0 -5.00896e-06 0"
@@ -23752,7 +23813,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926129"
+"hammerid" "3977402"
 }
 {
 "origin" "-325.43 -11276.1 -5348.05"
@@ -23768,7 +23829,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0.93603 99.9646 -0.706491"
 "classname" "info_particle_system"
-"hammerid" "3926135"
+"hammerid" "3977408"
 }
 {
 "angles" "-0.93603 99.9646 -0.706491"
@@ -23786,7 +23847,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926200"
+"hammerid" "3977473"
 }
 {
 "origin" "-331.252 -12272.6 -5348.05"
@@ -23802,7 +23863,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0.93603 -99.9646 -0.706491"
 "classname" "info_particle_system"
-"hammerid" "3926206"
+"hammerid" "3977479"
 }
 {
 "angles" "-0.93603 -99.9646 -0.706491"
@@ -23820,7 +23881,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926271"
+"hammerid" "3977544"
 }
 {
 "angles" "5.90611 -93.6655 1.11202"
@@ -23838,7 +23899,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926296"
+"hammerid" "3977569"
 }
 {
 "angles" "5.90611 -93.6655 1.11202"
@@ -23857,7 +23918,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3926332"
+"hammerid" "3977605"
 }
 {
 "origin" "-153.55 -11945 -5452.18"
@@ -23873,7 +23934,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.49983 179.961 5.00155"
 "classname" "info_particle_system"
-"hammerid" "3926338"
+"hammerid" "3977611"
 }
 {
 "angles" "-4.49983 179.961 5.00155"
@@ -23891,7 +23952,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926403"
+"hammerid" "3977676"
 }
 {
 "origin" "-169.711 -11622.1 -5452.18"
@@ -23907,7 +23968,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.49983 73.539 5.00155"
 "classname" "info_particle_system"
-"hammerid" "3926409"
+"hammerid" "3977682"
 }
 {
 "angles" "-4.49983 73.539 5.00155"
@@ -23925,7 +23986,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926474"
+"hammerid" "3977747"
 }
 {
 "origin" "-370.354 -12852.2 -5332.58"
@@ -23941,7 +24002,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.28242 -176.732 0.995697"
 "classname" "info_particle_system"
-"hammerid" "3926480"
+"hammerid" "3977753"
 }
 {
 "angles" "-4.28242 -176.732 0.995697"
@@ -23959,7 +24020,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926545"
+"hammerid" "3977818"
 }
 {
 "origin" "-370.013 -10685.8 -5332.58"
@@ -23975,7 +24036,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.28242 176.732 0.995697"
 "classname" "info_particle_system"
-"hammerid" "3926551"
+"hammerid" "3977824"
 }
 {
 "angles" "-4.28242 176.732 0.995697"
@@ -23993,7 +24054,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926616"
+"hammerid" "3977889"
 }
 {
 "origin" "85 -12928 -5300"
@@ -24007,12 +24068,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "3926622"
+"hammerid" "3977895"
 }
 {
-"angles" "-0 -180 0"
+"angles" "-0 180 0"
 "origin" "85 -12928 -5288"
 "style" "0"
 "spawnflags" "0"
@@ -24027,7 +24088,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926687"
+"hammerid" "3977960"
 }
 {
 "origin" "-81 -10628 -5300"
@@ -24043,7 +24104,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3926693"
+"hammerid" "3977966"
 }
 {
 "origin" "-81 -10628 -5288"
@@ -24060,7 +24121,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926758"
+"hammerid" "3978031"
 }
 {
 "angles" "-4.29297 160.608 4.02498"
@@ -24078,7 +24139,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926783"
+"hammerid" "3978056"
 }
 {
 "angles" "-4.29297 160.608 4.02498"
@@ -24097,7 +24158,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3926819"
+"hammerid" "3978092"
 }
 {
 "origin" "370.354 -10695.8 -5332.58"
@@ -24113,7 +24174,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.28242 3.26782 0.995697"
 "classname" "info_particle_system"
-"hammerid" "3926825"
+"hammerid" "3978098"
 }
 {
 "angles" "-4.28242 3.26782 0.995697"
@@ -24131,7 +24192,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926890"
+"hammerid" "3978163"
 }
 {
 "origin" "370.013 -12862.2 -5332.58"
@@ -24147,7 +24208,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-4.28242 -3.26782 0.995697"
 "classname" "info_particle_system"
-"hammerid" "3926896"
+"hammerid" "3978169"
 }
 {
 "angles" "-4.28242 -3.26782 0.995697"
@@ -24165,7 +24226,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3926961"
+"hammerid" "3978234"
 }
 {
 "origin" "-85 -12928 -5300"
@@ -24181,7 +24242,7 @@ Revision: 15
 "cpoint1_parent" "0"
 "angles" "-0 -5.00896e-06 0"
 "classname" "info_particle_system"
-"hammerid" "3926967"
+"hammerid" "3978240"
 }
 {
 "angles" "-0 -5.00896e-06 0"
@@ -24199,7 +24260,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927032"
+"hammerid" "3978305"
 }
 {
 "origin" "97 -10628 -5300"
@@ -24213,12 +24274,12 @@ Revision: 15
 "cpoint3_parent" "0"
 "cpoint2_parent" "0"
 "cpoint1_parent" "0"
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "3927038"
+"hammerid" "3978311"
 }
 {
-"angles" "-0 180 0"
+"angles" "-0 -180 0"
 "origin" "97 -10628 -5288"
 "style" "0"
 "spawnflags" "0"
@@ -24233,7 +24294,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927103"
+"hammerid" "3978376"
 }
 {
 "angles" "-1.0626 129.865 -6.63886"
@@ -24252,7 +24313,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927149"
+"hammerid" "3978422"
 }
 {
 "angles" "-1.0626 129.865 -6.63886"
@@ -24270,7 +24331,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927186"
+"hammerid" "3978459"
 }
 {
 "angles" "-0 90 -3"
@@ -24289,7 +24350,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927232"
+"hammerid" "3978505"
 }
 {
 "angles" "-0 90 -3"
@@ -24307,7 +24368,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927269"
+"hammerid" "3978542"
 }
 {
 "angles" "1.0626 60.135 -6.63886"
@@ -24326,7 +24387,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927315"
+"hammerid" "3978588"
 }
 {
 "angles" "1.0626 60.135 -6.63886"
@@ -24344,7 +24405,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927352"
+"hammerid" "3978625"
 }
 {
 "angles" "-0 -90 -3"
@@ -24363,7 +24424,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927398"
+"hammerid" "3978671"
 }
 {
 "angles" "-0 -90 -3"
@@ -24381,7 +24442,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927435"
+"hammerid" "3978708"
 }
 {
 "angles" "1.0626 -119.865 -6.63886"
@@ -24400,7 +24461,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927481"
+"hammerid" "3978754"
 }
 {
 "angles" "1.0626 -119.865 -6.63886"
@@ -24418,7 +24479,7 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927518"
+"hammerid" "3978791"
 }
 {
 "angles" "-1.0626 -50.135 -6.63886"
@@ -24437,7 +24498,7 @@ Revision: 15
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "3927564"
+"hammerid" "3978837"
 }
 {
 "angles" "-1.0626 -50.135 -6.63886"
@@ -24455,6 +24516,6 @@ Revision: 15
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "3927601"
+"hammerid" "3978874"
 }
  

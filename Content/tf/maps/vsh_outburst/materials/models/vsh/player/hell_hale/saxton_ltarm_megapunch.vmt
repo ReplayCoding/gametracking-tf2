@@ -1,0 +1,15 @@
+patch
+{
+	include 	"materials/models/vsh/player/hell_hale/saxton_body.vmt"
+
+	insert
+	{	
+		"$EmissiveBlendEnabled" 		"1"	
+		"$EmissiveBlendStrength" 		"1"	
+		"$EmissiveBlendTexture" 		"vgui/white"
+		"$EmissiveBlendBaseTexture" 	"models/vsh/player/hell_hale/saxton_ltarm_megapunch"
+		"$EmissiveBlendFlowTexture" 	"vgui/white"
+		"$EmissiveBlendTint" 		"[1 1.25 6.5]"
+		"$EmissiveBlendScrollVector"		"[0 0]" 	
+	}
+}

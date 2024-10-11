@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/TOXIC/GREEN_GOO_01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_toxic/c-80_168_8432"
+		"Proxies"
+		{
+		}
+	}
+}

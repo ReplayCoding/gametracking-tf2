@@ -1,13 +1,16 @@
+/6RK
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 __cxa_finalize
+g_pMemAlloc
+__gxx_personality_v0
+__cxa_call_unexpected
+memset
 strstr
 CommandLine_Tier0
 setenv
-g_pMemAlloc
-__gxx_personality_v0
 getcwd
 strlen
 getenv
@@ -22,8 +25,6 @@ fclose
 strcpy
 qsort
 memcpy
-__cxa_call_unexpected
-memset
 stderr
 fputs
 GetSpewOutputGroup
@@ -84,6 +85,31 @@ g_Telemetry
 ThreadGetCurrentId
 _ZNV16CThreadFastMutex4LockEyj
 __cxa_pure_virtual
+__ctype_b_loc
+memcmp
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+strncasecmp
+wcsncpy
+vswprintf
+vsnprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
+free
 fprintf
 access
 __errno_location
@@ -91,7 +117,6 @@ readdir64
 closedir
 strdup
 strcasestr
-free
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -118,30 +143,6 @@ __wrap_utimes
 __wrap_realpath
 __wrap_mkdir
 __wrap_rmdir
-__ctype_b_loc
-memcmp
-towupper
-towlower
-__ctype_toupper_loc
-__ctype_tolower_loc
-strncasecmp
-wcsncpy
-vswprintf
-vsnprintf
-strncat
-wcsncat
-iswspace
-iconv_open
-iconv
-iconv_close
-mbstowcs
-wcstombs
-Plat_localtime
-strftime
-strtoll
-strtoull
-cvar
-strtoul
 toupper
 VStdLib_GetICVarFactory
 SDL_GL_GetProcAddress
@@ -228,6 +229,11 @@ GLIBC_2.14
 GLIBC_2.3
 $ORIGIN
 u/UH
+ ff.
+` ff.
+ ff.
+` ff.
+` ff.
 AWAVAUI
 @8H9
 B8I9
@@ -335,11 +341,6 @@ B8I9
 ATSH
 [A\]
 A9\$
- ff.
-` ff.
- ff.
-` ff.
-` ff.
 AUATI
 tWw5
 [A\A]]
@@ -570,6 +571,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
+D95e
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -739,10 +741,10 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%`}
-D;%D}
-D9%x{
+D9%@}
+D;%$}
 D9%X{
+D9%8{
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -803,49 +805,6 @@ C D9
 sXHc
 C0E1
 0x'H
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -893,9 +852,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -925,6 +881,7 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5^X
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1061,11 +1018,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -1143,10 +1101,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o%"j
 0[A\]
-o=`c
-o5`c
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1443,20 +1398,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -1481,6 +1432,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -1496,10 +1449,53 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 AUE1
 ATE1
 A\D	
@@ -2097,7 +2093,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -2125,17 +2121,6 @@ m_mutex
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -2302,6 +2287,17 @@ VEngineCvar004
 18CUtlCharConversion
 21CUtlCStringConversion
 19CUtlNoEscConversion
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
                 Unknown
 (Unknown)
 CREATION
@@ -2322,7 +2318,6 @@ Unable to load %s
 17CSteamApplication
 Could not find required OpenGL entry point '%s'! Either your video card is unsupported, or your OpenGL driver needs to be updated.
 SDL_SetWindowGammaRamp failed: %d
-/data/src/appframework/sdlmgr.cpp
  ##### swap interval = %d     swap limit = %d #####
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlLinkedList overflow! (exhausted index range)
@@ -2337,6 +2332,7 @@ SDL_GL_LoadLibrary(NULL) failed: %s
 m_rawinput
 false
 SetWindowGrab( %s )
+sdlmgr.cpp
 ShowPixels
 -glmdisableclipplanes
 -glmenableclipplanes

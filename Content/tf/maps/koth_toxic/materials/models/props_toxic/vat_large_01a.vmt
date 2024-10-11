@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/props_toxic/vat_large_01a"
+	"$surfaceprop"	"metal"
+	"$color2" "[ 3 3 3 ]"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

@@ -12,6 +12,12 @@ PlayerThink <- function()
     if ( GetPropInt( self, "m_lifeState" ) != 0 )
         return; // no need to think when we're dead
 
+    if ( self.GetPlayerClass() == 0 )
+    {
+        self.SetPlayerClass( TF_CLASS_SCOUT );
+        self.ForceRegenerateAndRespawn();
+    };
+
     // make sure we always have crits as last man standing
     if ( m_bLastManStanding && !self.InCond( TF_COND_CRITBOOSTED ) && self.GetTeam() == TF_TEAM_RED )
     {
@@ -23,6 +29,64 @@ PlayerThink <- function()
     {
         self.AddCond( TF_COND_OFFENSEBUFF );
     };
+
+    // spy garbage
+    if ( self.GetPlayerClass() == TF_CLASS_SPY )
+    {
+        if ( self.GetTeam() == TF_TEAM_RED )
+        {
+            // --------------------------------------------------------------------- //
+            // spoofing disguises for zombie players                                 //
+            // --------------------------------------------------------------------- //
+            // here we use romevision so we can let red players disguise as zombies  //
+            // and be seen correctly as zombies on the pov of other zombies.         //
+            // as far as i can figure out, the "m_Shared.m_nModelIndexOverrides" 3 is//
+            // the index of the model the player will be seen as by enemy players    //
+            // in romevision specifically. so we set that to the appropriate zombie  //
+            // model index if the player is disguised as a zombie.                   //
+            // --------------------------------------------------------------------- //
+            if ( self.InCond( TF_COND_DISGUISED ) )
+            {
+                local _iDisguiseClass = GetPropInt     ( self, "m_Shared.m_nDisguiseClass" );
+                local _iDisguiseTeam  = GetPropInt     ( self, "m_Shared.m_nDisguiseTeam" );
+
+                if (_iDisguiseTeam == TF_TEAM_BLUE && GetPropIntArray( self, "m_nModelIndexOverrides", 3 ) != idxArrZombiePlayerModels[ _iDisguiseClass ] )
+                {
+                    SetPropIntArray( self, "m_nModelIndexOverrides", idxArrZombiePlayerModels[ _iDisguiseClass ], 3 );
+                }
+            }
+            else
+            {
+                if ( GetPropIntArray( self, "m_nModelIndexOverrides", 3 ) != 0 )
+                {
+                    SetPropIntArray( self, "m_nModelIndexOverrides", 0, 3 );
+                }
+            }
+        }
+
+        // for blue spies we set their model to the regular spy model when they're invisible
+        // this prevents them from emitting a bunch of particles
+        if ( self.GetTeam() == TF_TEAM_BLUE )
+        {
+            if ( self.IsFullyInvisible() )
+            {
+                if ( !( m_iFlags & ZBIT_PARTICLE_HACK ) )
+                {
+                    self.SetCustomModelWithClassAnimations( "models/player/spy.mdl" );
+                    m_iFlags = ( m_iFlags | ZBIT_PARTICLE_HACK );
+                }
+            }
+            else
+            {
+                if ( m_iFlags & ( ZBIT_PARTICLE_HACK ) )
+                {
+                    self.SetCustomModelWithClassAnimations( "models/player/spy_infected.mdl" );
+                    m_iFlags = ( m_iFlags & ~ZBIT_PARTICLE_HACK );
+                };
+            }
+        }
+    }
+
 
     if ( m_iFlags != 0 || m_iFlags == ( ZBIT_SURVIVOR ) )
     {
@@ -41,11 +105,71 @@ PlayerThink <- function()
                                                             HIDEHUD_BUILDING_STATUS  |
                                                             HIDEHUD_CLOAK_AND_FEIGN  |
                                                             HIDEHUD_PIPES_AND_CHARGE ));
+
+                // applying romevision to all zombie players
+                // allows us to spoof disguises for human spies (from the pov of zombies)
+                self.AddCustomAttribute( "vision opt in flags", 4, -1 );
+
                 self.DestroyAllWeapons();
                 self.GiveZombieWeapon();
                 self.AddZombieAttribs();
                 self.SpawnEffect();
                 self.RemoveAmmo();
+
+                if ( self.GetPlayerClass() == TF_CLASS_MEDIC )
+                {
+                    local _me = self;
+
+                    local _hDispenserTouchTrigger = SpawnEntityFromTable( "dispenser_touch_trigger", {
+                        origin = _me.GetOrigin(),
+                        spawnflags = 1,
+                    });
+
+                    _hDispenserTouchTrigger.KeyValueFromString( "targetname", "zmedic_dispenser_trigger" );
+
+                    _hDispenserTouchTrigger.SetSize   ( Vector( -ZOMBIE_MEDIC_DISPENSER_RANGE,
+                                                                -ZOMBIE_MEDIC_DISPENSER_RANGE,
+                                                                -ZOMBIE_MEDIC_DISPENSER_RANGE ),
+                                                        Vector( ZOMBIE_MEDIC_DISPENSER_RANGE,
+                                                                ZOMBIE_MEDIC_DISPENSER_RANGE,
+                                                                ZOMBIE_MEDIC_DISPENSER_RANGE ) )
+                    _hDispenserTouchTrigger.SetSolid( 2 )
+
+                    local _hDispenser = SpawnEntityFromTable( "pd_dispenser", {
+                        origin = _me.GetOrigin() + Vector( 0, 0, 55 ),
+                        spawnflags = 4,
+                        teamnum = _me.GetTeam(),
+                        touch_trigger = "zmedic_dispenser_trigger",
+                    })
+
+                    _hDispenser.KeyValueFromString              ( "targetname", "" );
+                    _hDispenserTouchTrigger.KeyValueFromString  ( "targetname", "" );
+                    _hDispenser.AcceptInput                     ( "SetParent", "!activator", self, self );
+                    _hDispenserTouchTrigger.AcceptInput         ( "SetParent", "!activator", self, self );
+
+                    m_hMedicDispenser             <- _hDispenser;
+                    m_hMedicDispenserTouchTrigger <- _hDispenserTouchTrigger;
+                }
+
+                if ( self.GetPlayerClass() ==  TF_CLASS_PYRO )
+                {
+                //     local _hBomb = SpawnEntityFromTable( "tf_generic_bomb",
+                //     {
+                //         explode_particle = "fireSmokeExplosion_track"
+                //         sound            = SFX_PYRO_FIREBOMB,
+                //         damage           = 10,
+                //         radius           = 256,
+                //         friendlyfire     = "0",
+                //     });
+
+                //     _hBomb.SetOwner     ( self );
+                //     _hBomb.SetAbsOrigin ( self.GetOrigin() );
+                //     _hBomb.AcceptInput  ( "SetParent", "!activator", self, self );
+
+                //     AddThinkToEnt( _hBomb, "PyroBombThink" );
+
+                //    m_hPyroBomb <- _hBomb;
+                }
 
                 SetPropFloat        ( m_hZombieWep, "m_flNextSecondaryAttack", FLT_MAX );
                 SetPropBool         ( self, "m_Shared.m_bShieldEquipped", false );
@@ -292,7 +416,7 @@ PlayerThink <- function()
             // passive self healing                                                           //
             // ------------------------------------------------------------------------------ //
 
-            if ( m_fTimeLastHit < ( Time() - 5.0 ) && !( m_iFlags & ZBIT_MUST_EXPLODE ) )
+            if (1 == 0 && m_fTimeLastHit < (Time() - 5.0) && !(m_iFlags & ZBIT_MUST_EXPLODE))
             {
                 if ( ( m_fTimeNextHealTick <= Time() ) && ( self.GetHealth() < self.GetMaxHealth() ) )
                 {
@@ -312,30 +436,21 @@ PlayerThink <- function()
 
             if  ( self.InCond( TF_COND_TAUNTING ) && !( m_iFlags & ZBIT_PARTICLE_HACK ) )
             {
-                // destroy current particle/cosmetic to avoid duplicates on other player's view
-            if ( m_hZombieFXWearable != null && m_hZombieFXWearable.IsValid() )
-                 m_hZombieFXWearable.Destroy();
+            //     // destroy current particle/cosmetic to avoid duplicates on other player's view
+            // if ( m_hZombieFXWearable != null && m_hZombieFXWearable.IsValid() )
+            //      m_hZombieFXWearable.Destroy();
 
-            if ( m_hZombieWearable != null && m_hZombieWearable.IsValid() )
-                m_hZombieWearable.Destroy();
+            // if ( m_hZombieWearable != null && m_hZombieWearable.IsValid() )
+            //     m_hZombieWearable.Destroy();
 
-                // create new ones now that the player can see themselves
-                self.GiveZombieFXWearable();
-                self.GiveZombieCosmetics();
+            //     // create new ones now that the player can see themselves
+            //     self.GiveZombieFXWearable();
+            //     self.GiveZombieCosmetics();
 
                 m_iFlags = ( m_iFlags | ZBIT_PARTICLE_HACK );
             };
 
             // ------------------------------------------------------------------------------ //
-
-            if ( m_iFlags & ( ZBIT_PARTICLE_HACK ) && !( self.InCond( TF_COND_TAUNTING ) ) )
-            {
-                // destroy current particle/cosmetic to avoid pfx showing in first person
-                m_hZombieFXWearable.Destroy();
-                self.GiveZombieFXWearable();
-
-                m_iFlags = ( m_iFlags & ~ZBIT_PARTICLE_HACK );
-            };
 
             if ( m_iFlags & ZBIT_SOLDIER_IN_POUNCE )
             {
@@ -503,7 +618,6 @@ PlayerThink <- function()
             // ------------------------------------------------------------------------------ //
             // generic zombie viewmodel behaviour                                             //
             // ------------------------------------------------------------------------------ //
-
             if ( _hPlayerVM.GetSequence() == _refSeq )
             {
                 local _drawSeq = _hPlayerVM.LookupSequence( "draw" );
@@ -526,6 +640,13 @@ PlayerThink <- function()
             SetPropBool         ( self, "m_bGlowEnabled", false );
             self.SetNextActTime ( ZOMBIE_KILL_GLOW, ACT_LOCKED );
             m_iFlags          = ( m_iFlags & ~ZBIT_REVEALED_BY_SPY );
+        };
+
+        // clear imcookin from player once they leave zombie spit
+        if ( self.GetScriptOverlayMaterial() != "" && m_iFlags & ( ZBIT_SURVIVOR ) &&
+             self.CanDoAct( SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY ))
+        {
+            self.SetScriptOverlayMaterial( "" );
         };
 
     };
@@ -591,10 +712,14 @@ SniperSpitThink <- function()
                     if ( _tblTrace.enthit.GetTeam() == TF_TEAM_BLUE )
                         return SNIPER_SPIT_RETHINK_TIME;
 
+                    local _hKillIcon = KilliconInflictor( KILLICON_SNIPER_SPIT );
+
                     // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
-                    SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
-                    _tblTrace.enthit.TakeDamage  ( SNIPER_SPIT_POP_DAMAGE, DMG_BURN, m_hOwner );
-                    SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
+                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
+                    _tblTrace.enthit.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, DMG_BURN );
+                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
+
+                    _hKillIcon.Destroy();
 
                     // if the player is standing on the ground
                     // update: now does this whenever a player is hit (hence the 0==0)
@@ -792,7 +917,7 @@ SniperSpitThink <- function()
             {
                 if ( _szInput == "building" )
                 {
-                    _hNextTargetEntity.TakeDamage( SNIPER_SPIT_ZONE_DAMAGE, DMG_BURN, m_hOwner );
+                    _hNextTargetEntity.TakeDamage( ( SNIPER_SPIT_ZONE_DAMAGE / 2 ) , DMG_BURN, m_hOwner);
                     continue;
                 };
 
@@ -825,21 +950,37 @@ SniperSpitThink <- function()
                 // deal a bit more damage to players in the zone on impact
                 if ( !m_bDealtPopDmg )
                 {
+                    local _hKillIcon = KilliconInflictor( KILLICON_SNIPER_SPITPOOL );
                     // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
-                    SetPropInt( m_hOwner.GetActiveWeapon(), STRING_NETPROP_ITEMDEF, TF_IDX_GRAPPLING_HOOK );
-                    _hNextPlayer.TakeDamage( SNIPER_SPIT_POP_DAMAGE, DMG_BURN, m_hOwner );
-                    SetPropInt( m_hOwner.GetActiveWeapon(), STRING_NETPROP_ITEMDEF, ZOMBIE_WEAPON_IDX[ TF_CLASS_SNIPER ] );
+                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
+                    _hNextPlayer.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
+                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
+                    _hKillIcon.Destroy();
 
-                    EmitSoundOnClient("TFPlayer.FirePain", _hNextPlayer)
+                    EmitSoundOnClient("TFPlayer.FirePain", _hNextPlayer);
 
                     DispatchParticleEffect  ( FX_SPIT_HIT_PLAYER, _vecPlayerOrigin, Vector( 0, 0, 0 ) );
                     continue;
                 };
 
+                if ( _hNextPlayer.GetScriptOverlayMaterial() == "" && GetPropInt( _hNextPlayer, "m_lifeState" ) == 0)
+                {
+                    _hNextPlayer.SetScriptOverlayMaterial( MAT_SPIT_OVERLAY );
+                }
+
+                EmitSoundOnClient( "TFPlayer.FirePain", _hNextPlayer );
+
+                // set the overlay clear time to slightly longer than zone rethink so it doesn't flicker
+                _hNextPlayer.SetNextActTime( SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY, ( SNIPER_SPIT_ZONE_RETHINK_TIME + 0.15 ) );
+
+                local _hKillIcon = KilliconInflictor( KILLICON_SNIPER_SPITPOOL );
+
                 // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
-                SetPropInt              ( m_hOwner.GetActiveWeapon(), STRING_NETPROP_ITEMDEF, TF_IDX_GRAPPLING_HOOK );
-                _hNextPlayer.TakeDamage ( SNIPER_SPIT_ZONE_DAMAGE, DMG_BURN, m_hOwner );
-                SetPropInt              ( m_hOwner.GetActiveWeapon(), STRING_NETPROP_ITEMDEF, ZOMBIE_WEAPON_IDX[ TF_CLASS_SNIPER ] );
+                //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
+                _hNextPlayer.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
+                //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
+
+                _hKillIcon.Destroy();
 
                 DispatchParticleEffect  ( FX_SPIT_HIT_PLAYER, _vecPlayerOrigin, Vector( 0, 0, 0 ) );
             };
@@ -862,6 +1003,15 @@ SniperSpitThink <- function()
 
 EngieEMPThink <- function ()
 {
+    if ( m_bMustFizzle )
+    {
+        SetPropInt             ( self, "m_takedamage", 0 );
+        DispatchParticleEffect ( FX_EMP_SPARK, self.GetOrigin(), self.GetAngles() );
+        EmitSoundOn            ( SFX_EMP_EXPLODE, self );
+        self.Destroy();
+        return -1;
+    }
+
     local _tblTraceLine =
     {
         start   = self.GetOrigin(),
@@ -1044,7 +1194,12 @@ EngieEMPThink <- function ()
                 SetPropBool   ( _buildable, "m_bDisabled",  true );
                 AddThinkToEnt ( _buildable, "BuildableEMPThink" );
 
-                _buildable.TakeDamage( 110, DMG_CLUB, m_hOwner );
+                local _hKillicon = KilliconInflictor( KILLICON_ENGIE_EMP );
+
+                // _buildable.TakeDamage( 110, DMG_CLUB, m_hOwner );
+                _buildable.TakeDamageEx( _hKillicon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), m_hOwner.GetOrigin(), 110, DMG_CLUB );
+
+                _hKillicon.Destroy();
 
             };
         };
@@ -1099,27 +1254,6 @@ ZombieWearableThink <- function()
     };
 };
 
-DemomanBombThink <- function()
-{
-    // annoying think script to fix some stupid nonsense with sentries
-
-    if ( m_flKillTime < Time() )
-    {
-        try
-        {
-            self.TakeDamage( 1, DMG_CLUB, m_hOwner );
-        }
-        catch (e)
-        {
-            self.Destroy();
-        }
-
-        return;
-    };
-
-    return 0.01;
-};
-
 GameStateThink <- function()
 {
     local _iNumRedPlayers = PlayerCount( TF_TEAM_RED );
@@ -1146,4 +1280,16 @@ GameStateThink <- function()
     };
 
     return 0.5;
+}
+
+PyroFireballThink <-  function()
+{
+    local _vecOrigin  =  self.GetLocalOrigin()
+    local _angAngles  =  self.GetAbsAngles();
+    local _vecAngles  =  Vector( _angAngles.x, _angAngles.y, _angAngles.z );
+
+    DispatchParticleEffect( FX_FIREBALL_SMOKEBALL,  _vecOrigin, _vecAngles );
+    DispatchParticleEffect( FX_FIREBALL_TRAIL,      _vecOrigin, _vecAngles );
+
+    return 0.03;
 }

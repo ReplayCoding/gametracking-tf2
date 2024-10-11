@@ -3,12 +3,17 @@ __gmon_start__
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 __cxa_finalize
-strstr
-CommandLine_Tier0
 g_pMemAlloc
 __gxx_personality_v0
-getcwd
+__cxa_call_unexpected
+memset
 strlen
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+__isoc99_sscanf
+strstr
+CommandLine_Tier0
+getcwd
 getenv
 Warning
 memmove
@@ -21,14 +26,7 @@ fclose
 strcpy
 qsort
 memcpy
-__cxa_call_unexpected
-memset
-iswspace
-_ZTVN10__cxxabiv117__class_type_infoE
-_ZTVN10__cxxabiv120__si_class_type_infoE
-__isoc99_sscanf
 __cxa_atexit
-Plat_FloatTime
 strcasecmp
 wcscmp
 wcsncpy
@@ -46,6 +44,7 @@ KeyValuesSystem
 COM_TimestampedLog
 g_pVCR
 Plat_MSTime
+Plat_FloatTime
 statfs64
 Plat_GetCommandLine
 SDL_SetClipboardText
@@ -56,6 +55,7 @@ SDL_free
 fork
 unsetenv
 execlp
+iswspace
 ThreadGetCurrentId
 _ZN10CVProfNode9ExitScopeEv
 g_Telemetry
@@ -85,42 +85,6 @@ wcstoll
 _Z6DevMsgPKcz
 _ZNV16CThreadFastMutex4LockEyj
 __cxa_pure_virtual
-stderr
-fprintf
-access
-__errno_location
-readdir64
-closedir
-strdup
-strcasestr
-__wrap_freopen
-strpbrk
-__wrap_fopen
-__wrap_open
-__wrap_open64
-__wrap_stat
-__wrap_stat64
-__wrap_lstat
-__wrap_scandir
-__wrap_opendir
-__wrap___xstat
-__wrap___lxstat
-__wrap___lxstat64
-__wrap_chmod
-__wrap_chown
-__wrap_lchown
-__wrap_symlink
-__wrap_link
-__wrap_mknod
-__wrap_mount
-__wrap_unlink
-__wrap_mkfifo
-__wrap_rename
-__wrap_utime
-__wrap_utimes
-__wrap_realpath
-__wrap_mkdir
-__wrap_rmdir
 __ctype_b_loc
 memcmp
 towupper
@@ -159,6 +123,42 @@ _ZN13CThreadRWLock12LockForWriteEv
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN17CThreadSpinRWLock16SpinLockForWriteEj
 _ZN17CThreadSpinRWLock11UnlockWriteEv
+stderr
+fprintf
+access
+__errno_location
+readdir64
+closedir
+strdup
+strcasestr
+__wrap_freopen
+strpbrk
+__wrap_fopen
+__wrap_open
+__wrap_open64
+__wrap_stat
+__wrap_stat64
+__wrap_lstat
+__wrap_scandir
+__wrap_opendir
+__wrap___xstat
+__wrap___lxstat
+__wrap___lxstat64
+__wrap_chmod
+__wrap_chown
+__wrap_lchown
+__wrap_symlink
+__wrap_link
+__wrap_mknod
+__wrap_mount
+__wrap_unlink
+__wrap_mkfifo
+__wrap_rename
+__wrap_utime
+__wrap_utimes
+__wrap_realpath
+__wrap_mkdir
+__wrap_rmdir
 toupper
 __pthread_key_create
 pthread_once
@@ -185,6 +185,76 @@ GLIBC_2.7
 GLIBC_2.14
 GLIBC_2.3
 u/UH
+ ff.
+` ff.
+ ff.
+` ff.
+` ff.
+t^UH
+[A\A]]
+<$E1
+[A\]
+D$(A
+D$,A
+A\A]A^]
+L$,A
+T$(H
+A\A]A^]
+ATSH
+@[A\]
+AVAUI
+A\A]A^]
+P XZ
+AWAVAUATSH
+D9s ~dI
+R`D9s 
+D9s0
+P`D9s0
+([A\A]A^A_]
+P XL
+\$(I
+[A\]
+AUATI
+[A\A]]
+AUATI
+\$(M
+l$hH
+[A\A]]
+AVAUI
+([A\A]A^A_]
+AWAVAUI
+8[A\A]A^A_]
+AUATI
+[A\A]]
+ATSH
+[A\A]]
+AWAVL
+h[A\A]A^A_]
+@ H9
+@ H9
+D$@H
+AVAUI
+[A\A]A^]
+CI[A\A]A^]
+A\A]]
+A\A]]
+AUATI
+[A\A]]
+ATSH
+h[A\A]A^A_]
+@ L9
+@ H9
+D$0H
+AUATI
+[A\A]]
+s$E1
+[A\A]]
+C8[A\]
+[A\A]]
+AWAVAUATSH
+X[A\A]A^A_]
+AWAVI
+8[A\A]A^A_]
 </tI<*
 [A\A]A^]
 "uUM
@@ -297,89 +367,6 @@ B8I9
 ATSH
 [A\]
 A9\$
- ff.
-` ff.
- ff.
-` ff.
-` ff.
-AWAVI
-AUATSH
-ntbf
-[A\A]A^A_]
-AWAVI
-AUATSH
-"tiA9
-[A\A]A^A_]
-AWAVA
-AUATI
-A+L$$I
-[A\A]A^A_]
-A+T$$I
-A+T$$I
-[A\A]A^A_]
-A+T$$I
-A\A]A^A_]
-AWAVA
-AUATI
-A+L$$I
-t2<"u
-([A\A]A^A_]
-A+T$$I
-A+T$$I
-([A\A]A^A_]
-A+T$$I
-A\A]A^A_]
-t^UH
-[A\A]]
-<$E1
-[A\]
-D$(A
-D$,A
-A\A]A^]
-L$,A
-T$(H
-A\A]A^]
-ATSH
-@[A\]
-AVAUI
-A\A]A^]
-P XZ
-AWAVAUATSH
-D9s ~dI
-R`D9s 
-D9s0
-P`D9s0
-([A\A]A^A_]
-P XL
-\$(I
-[A\]
-AUATI
-[A\A]]
-AUATI
-\$(M
-l$hH
-[A\A]]
-AVAUI
-([A\A]A^A_]
-AWAVAUI
-8[A\A]A^A_]
-[A\A]]
-AWAVAUATSH
-X[A\A]A^A_]
-AWAVI
-8[A\A]A^A_]
-AUATI
-[A\A]]
-ATSH
-h[A\A]A^A_]
-@ L9
-@ H9
-D$0H
-AUATI
-[A\A]]
-s$E1
-[A\A]]
-C8[A\]
 tEHi
 t%Hi
 t%Hi
@@ -524,8 +511,6 @@ t%H9
 so;w$
 tIHi
 t1Hi
-t![A\]
-t*Hc
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATI
@@ -588,20 +573,6 @@ ATSH
 AWAVI
 [A\A]A^A_]
 A]A^A_]H
-AUATI
-[A\A]]
-ATSH
-[A\A]]
-AWAVL
-h[A\A]A^A_]
-@ H9
-@ H9
-D$@H
-AVAUI
-[A\A]A^]
-CI[A\A]A^]
-A\A]]
-A\A]]
 P8]H
 ATSH
 AWAVAUATSH
@@ -647,21 +618,24 @@ C8E1
 t#D9
 D9"t
 [A\A]]
+AWAVAUATI
+[A\A]A^A_]
+~:U1
+A9T$
+[A\]
 t{UH
 [A\A]]
 [A\A]]
-AUATSH
+AWAVI
+ATSH
 A\A]A^A_]
+d$(M
 ~:U1
 A9T$
 [A\]
 AUATL
 [A\A]]
 [A\A]]
-AWAVAUATSH
-d$(M
-[A\A]A^A_]
-d$(M
 AVAUL
 D9c8vz
 SLA9
@@ -674,10 +648,12 @@ AWAVAUATI
 AWAVL
 ATSH
 ([A\A]A^A_]
-ATSH
+AWAVAUI
+d$(M
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATI
+~oHc
 @HH9
 [A\A]A^A_]
 tS</
@@ -743,6 +719,33 @@ u3E1
 [A\A]A^A_]
 AUATH
 [A\A]]
+AWAVI
+AUATSH
+ntbf
+[A\A]A^A_]
+AWAVI
+AUATSH
+"tiA9
+[A\A]A^A_]
+AWAVA
+AUATI
+A+L$$I
+[A\A]A^A_]
+A+T$$I
+A+T$$I
+[A\A]A^A_]
+A+T$$I
+A\A]A^A_]
+AWAVA
+AUATI
+A+L$$I
+t2<"u
+([A\A]A^A_]
+A+T$$I
+A+T$$I
+([A\A]A^A_]
+A+T$$I
+A\A]A^A_]
 ATSH
 [A\A]A^]
 AWAVAUATS1
@@ -920,6 +923,8 @@ P0I9
 |$@H
 A\A]A^]
 A\A]A^]
+t![A\]
+t*Hc
 `Pf.
 G8#p(
 G8	p(
@@ -1041,8 +1046,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95n
-D95E
+D95Q
+D95.
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1212,8 +1217,7 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9% 
-D9%8
+D;%d
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1274,49 +1278,6 @@ C D9
 sXHc
 C0E1
 0x'H
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -1364,9 +1325,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -1393,10 +1351,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5^
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1533,11 +1491,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -1617,10 +1576,13 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5]=
-o-{=
+o5^Y
+o-;Y
+o%rY
 0[A\]
-o-r6
+o-2R
+o-VR
+o%iR
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1917,20 +1879,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -1955,6 +1913,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -1970,10 +1930,10 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
 AWAVAUATSH
 ([A\A]A^A_]
 HcpH
@@ -2043,6 +2003,49 @@ s fD;{:H
 C fD
 t+E1
 C@s;
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 AUE1
 ATE1
 A\D	
@@ -2195,6 +2198,31 @@ AUATUH
 |$ M
 []A\A]A^A_
 L;3r
+.pic
+N4vgui6IImageE
+N4vgui6BitmapE
+color
+offset
+0 0 0 0
+inset
+%d %d %d %d
+Left
+Right
+Bottom
+backgroundtype
+N4vgui7IBorderE
+N4vgui6BorderE
+vgui/%s
+src_corner_height
+src_corner_width
+draw_corner_height
+draw_corner_width
+paintfirst
+19ScalableImageBorder
+?tiled
+11ImageBorder
+15FileImageStream
+22FileImageStream_Memory
 {}()'
 {}()':
 game_lv
@@ -2268,26 +2296,6 @@ Tried to add %s as a search path.
 This is probably not what you intended.
 Check %s for more info
 Can't find steam app user info.
-.pic
-N4vgui6IImageE
-N4vgui6BitmapE
-color
-offset
-0 0 0 0
-inset
-%d %d %d %d
-Left
-Right
-Bottom
-backgroundtype
-N4vgui7IBorderE
-N4vgui6BorderE
-15FileImageStream
-22FileImageStream_Memory
-vgui/%s
-tiled
-paintfirst
-11ImageBorder
 (no name)
 CursorExited
 CursorEntered
@@ -2478,12 +2486,7 @@ Tick
 %s : (%s (%s) - > %s (%s)) )
 N4vgui16IMessageListenerE
 N4vgui16CMessageListenerE
-src_corner_height
-src_corner_width
-draw_corner_height
-draw_corner_width
-19ScalableImageBorder
-?<Unknown font>
+<Unknown font>
 Scheme: %s (%s)
 %s%s-%s
 korean
@@ -2491,9 +2494,14 @@ tchinese
 schinese
 japanese
 thai
+Borders
+bordertype
+scalable_image
+BaseBorder
 ReloadFontGlyphs(): Start
 Fonts
 ReloadFontGlyphs(): End
+isproportional
 yres
 italic
 underline
@@ -2512,23 +2520,20 @@ scanlines
 scalex
 scaley
 weight
-Borders
-BaseBorder
-bordertype
-scalable_image
 CustomFontFiles
 BitmapFontFiles
 font
 range
 %x %x
+only
 CScheme::LoadFromFile( %s )
 BaseSettings
 Colors
 Name
 default
+Scheme
 cl_hud_minmode
 _vrmode
-Scheme
 VGUI_Scheme010
 vgui_spew_fonts
 Border.Bright
@@ -2716,7 +2721,8 @@ SDL_SetClipboardText failed: %s
 N4vgui7ISystemE
 7CSystem
 MbP?
->@Delete
+>@%u
+Delete
 ShutdownRequest
 -vguimessages
 VEngineClient014
@@ -2724,7 +2730,7 @@ MatSystemSurface008
 Secondary
 Primary
 command
-/data/src/vgui2/src/vgui.cpp
+vgui.cpp
 surface()->RunFrame()
 Unaccounted
 (%s)%s
@@ -2756,7 +2762,7 @@ Panel '%s/%s' has invalid client: %p.
 N4vgui6VPanelE
 N4vgui6IPanelE
 13VPanelWrapper
- game
+? game
  client
  archive
  notify
@@ -2819,7 +2825,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -2846,17 +2852,6 @@ m_mutex
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -3026,6 +3021,17 @@ VProcessUtils001
 18CUtlCharConversion
 21CUtlCStringConversion
 19CUtlNoEscConversion
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
                 VMaterialSystem081
 InputSystemVersion001
 NetworkSystemVersion001

@@ -1,0 +1,60 @@
+"UnlitGeneric"
+{
+  "$baseTexture"   "tug_of_war/capture_highlight"
+  "$translucent"   "1"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+
+  "$cheapWaterStartDistance" "0.0"
+  "$cheapWaterEndDistance"   "0.0"
+
+  "$almostZero"  "0.01"
+  "$alphaMax"    "0.65"
+  "$two"         "3"
+
+  "$isActive"    "0.0"
+  "$currentTime" "0.0"
+  "$lastTime"    "0.0"
+
+  "Proxies"
+  {
+    "WaterLOD"
+    {
+    }
+    "CurrentTime"
+    {
+      "resultVar" "$currentTime" 
+    }
+    "Frac"
+    {
+      "srcVar1"      "$cheapWaterStartDistance"
+      "resultVar"    "$isActive"
+    }
+    "LessOrEqual"
+    {
+      "srcVar1"      "$isActive"
+      "srcVar2"      "$almostZero"
+      "resultVar"    "$lastTime"
+      "greaterVar"   "$currentTime"
+      "LessEqualVar" "$lastTime"
+    }
+    "Subtract"
+    {
+      "srcVar1"      "$currentTime"
+      "srcVar2"      "$lastTime"
+      "resultVar"    "$alpha"
+    }
+    "Multiply"
+    {
+      "srcVar1"      "$alpha"
+      "srcVar2"      "$two"
+      "resultVar"    "$alpha"
+    }
+    "Subtract"
+    {
+      "srcVar1"      "$alphaMax"
+      "srcVar2"      "$alpha"
+      "resultVar"    "$alpha"
+    }
+  }
+}

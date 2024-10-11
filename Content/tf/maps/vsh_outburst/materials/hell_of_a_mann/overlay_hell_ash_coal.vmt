@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+    "$basetexture"  "hell_of_a_mann/overlay_hell_ash_coal.vtf"
+    "$detail"  "hell_of_a_mann/overlay_hell_ash_coal_detail.vtf"
+    $basetexturetransform center .5 .5 scale 0.3 0.3 rotate 0 translate 0 0
+    "$detailblendmode" 1
+    $detailscale 1
+	"$translucent" "1"
+
+
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+    "$decal" 1
+    "%keywords" "tf"
+}
+
+

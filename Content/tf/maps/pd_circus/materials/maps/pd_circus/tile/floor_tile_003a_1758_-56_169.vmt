@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_003A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_circus/c1758_-56_169"
+	}
+}

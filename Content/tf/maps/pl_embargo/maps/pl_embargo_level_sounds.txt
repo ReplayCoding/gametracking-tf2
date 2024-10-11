@@ -108,6 +108,32 @@
 		"wave"	"mvm/agent_96/countdown10_03.mp3"
 	}
 }
+"Embargo.Countdown.10a.RED"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mvm/el_comandante/countdown10_01.mp3"
+		"wave"	"mvm/el_comandante/countdown10_02.mp3"
+	}
+}
+"Embargo.Countdown.10a.BLU"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"mvm/agent_96/countdown10_02.mp3"
+		"wave"	"mvm/agent_96/countdown10_03.mp3"
+	}
+}
 "Embargo.Countdown.5.RED"
 {
 	"channel"		"CHAN_VOICE2"

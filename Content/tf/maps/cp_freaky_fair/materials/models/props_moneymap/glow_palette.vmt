@@ -1,0 +1,16 @@
+Unlitgeneric
+{
+    "$basetexture"    "models/props_moneymap/glow_palette"
+    $model 1
+    //$selfillum 1
+	
+	"Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$basetexturetransform"
+            "texturescrollrate" .2
+            "texturescrollangle" 90
+        }
+    }
+}

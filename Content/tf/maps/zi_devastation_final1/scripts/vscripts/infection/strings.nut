@@ -14,6 +14,8 @@ const STRING_UI_CHAT_FIRST_WAVE_MSG        = " has become INFECTED!";   // #tf_z
 const STRING_UI_AND                        = "and";
 const STRING_UI_ZOMBIE_INSTRUCTION         = "#tf_zi_ui_zombie_instruction"
 const STRING_UI_ZOMBIE_INSTRUCTION_PASSIVE = "#tf_zi_ui_zombie_instruction_passive"
+const STRING_UI_TEAM_BLUE                  = "tf_zi_team_blue";
+const STRING_UI_TEAM_RED                   = "tf_zi_team_red";
 
 const SCOUT_PASSIVE_NAME                   = "#tf_zi_scout_passive_name"
 const PYRO_PASSIVE_NAME                    = "#tf_zi_pyro_passive_name"
@@ -25,6 +27,7 @@ const MEDIC_HEAL_NAME                      = "#tf_zi_medic_heal_name"
 const SNIPER_SPIT_NAME                     = "#tf_zi_sniper_spit_name"
 const SOLDIER_POUNCE_NAME                  = "#tf_zi_soldier_pounce_name"
 const SPY_REVEAL_NAME                      = "#tf_zi_spy_reveal_name"
+const PYRO_BLAST_NAME                      = "#tf_zi_pyro_blast_name"
 
 const SCOUT_PASSIVE_DESC                   = "";
 const PYRO_PASSIVE_DESC                    = "";

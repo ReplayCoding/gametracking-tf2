@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_toxic/custom/toxic/water_toxic_-208_1440_96.vmt"
+	"insert"
+	{
+		"$waterdepth"		"144"
+	}
+}

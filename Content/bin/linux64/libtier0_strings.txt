@@ -1,4 +1,3 @@
-^4d|
 Q@h2
 @0-8At
 IX'V
@@ -23,80 +22,43 @@ g_pMemAlloc
 __gxx_personality_v0
 __cxa_call_unexpected
 memset
-stderr
-fprintf
-access
-__errno_location
-readdir64
-strcasecmp
-strcmp
-closedir
-strlen
-strdup
-tolower
-strcasestr
-__cxa_guard_acquire
-getenv
-__cxa_guard_release
 strncpy
-free
-__wrap_freopen
-strpbrk
-__wrap_fopen
-__wrap_fopen64
-__wrap_open
-__wrap_open64
-__wrap_stat
-__wrap_stat64
-__wrap_lstat
-__wrap_scandir
-__wrap_opendir
-__wrap___xstat
-__wrap___lxstat
-__wrap___xstat64
-__wrap___lxstat64
-__wrap_chmod
-__wrap_chown
-__wrap_lchown
-__wrap_symlink
-__wrap_link
-__wrap_mknod
-__wrap_mount
-__wrap_unlink
-__wrap_mkfifo
-__wrap_rename
-__wrap_utime
-__wrap_utimes
-__wrap_realpath
-__wrap_mkdir
-__wrap_rmdir
 AreAllAssertsDisabled
 SetAllAssertsDisabled
 SetAssertDialogParent
 GetAssertDialogParent
 ShouldUseNewAssertDialog
+__cxa_guard_acquire
 Plat_GetCommandLine
 strstr
+__cxa_guard_release
 __cxa_guard_abort
 DoNewAssertDialog
 g_Telemetry
 ThreadGetCurrentId
 isatty
+stderr
+fprintf
+getenv
 backtrace
 backtrace_symbols
 strrchr
+free
 Plat_IsInDebugSession
 _ZNV16CThreadFastMutex4LockEyj
 dlopen
 dlsym
+strlen
 strcpy
 memcpy
 strtod
 strtol
 CommandLine_Tier0
+__wrap_fopen64
 fgetc
 fclose
 isspace
+tolower
 memmove
 strcat
 __cxa_atexit
@@ -115,11 +77,12 @@ usleep
 strtoll
 GetCPUUsage
 getloadavg
+DefaultSpewFunc
+_ZNK16CThreadLocalBase3GetEv
 vsnprintf
 _ZN16CThreadLocalBase3SetEPv
 raise
 _ZN16CThreadLocalBaseD2Ev
-DefaultSpewFunc
 DefaultSpewFuncAbortOnAsserts
 GetSpewOutputFunc
 _AssertValidReadPtr
@@ -127,7 +90,6 @@ _AssertValidWritePtr
 _AssertValidReadWritePtr
 AssertValidStringPtr
 GetSpewOutputGroup
-_ZNK16CThreadLocalBase3GetEv
 GetSpewOutputLevel
 GetSpewOutputColor
 _SpewInfo
@@ -136,6 +98,7 @@ IsSpewActive
 _SpewMessage
 _DSpewMessage
 ColorSpewMessage
+ColorSpewMessage2
 MsgV
 WarningV
 LogV
@@ -167,11 +130,13 @@ CrackSmokingCompiler
 Plat_SimpleLog
 COM_TimestampedLog
 Plat_FloatTime
+__wrap_unlink
 SetAssertFailedNotifyFunc
 CallAssertFailedNotifyFunc
 _ZN16CThreadLocalBaseC2Ev
 dlclose
 VoidFnPtrLookup_Tier0
+strcmp
 _ZN15CClockSpeedInit4InitEv
 g_ClockSpeed
 g_dwClockSpeed
@@ -204,6 +169,7 @@ Plat_timegm
 Plat_localtime
 localtime_r
 vtune
+__wrap_open64
 Plat_DebugString
 Plat_SetCommandLine
 feof
@@ -221,6 +187,16 @@ Plat_EndWatchdogTimer
 Plat_GetWatchdogTime
 Plat_SetWatchdogHandlerFunction
 SecureRandomBytes
+__errno_location
+Plat_getwd
+getcwd
+strncat
+Plat_chdir
+Plat_GetEnv
+Plat_GetExecutablePath
+readlink
+Plat_FileExists
+__wrap___xstat64
 InitPME
 ShutdownPME
 ReportProgress
@@ -229,6 +205,8 @@ Plat_VerifyHardwareKey
 Plat_VerifyHardwareKeyDriver
 Plat_VerifyHardwareKeyPrompt
 Plat_FastVerifyHardwareKey
+Plat_GetMemPageSize
+Plat_GetPagedPoolInfo
 GetCallStack
 GetCallStack_Fast
 SetStackTranslationSymbolSearchPath
@@ -250,8 +228,6 @@ _ZN25CStackTop_CopyParentStackD1Ev
 _ZN30CStackTop_ReferenceParentStack28ReleaseParentStackReferencesEv
 EncodeBinaryToString
 DecodeBinaryFromString
-Plat_GetMemPageSize
-Plat_GetPagedPoolInfo
 Plat_SetHardwareDataBreakpoint
 Plat_ApplyHardwareDataBreakpointsToNewThread
 _ZN17CThreadSyncObject13AssertUseableEv
@@ -437,7 +413,38 @@ _ZN9CVProfile8SumTimesEPKci
 _ZSt17__throw_bad_allocv
 _ZN9CVProfile12OutputReportEiPKci
 g_VProfSignalSpike
-readlink
+access
+readdir64
+strcasecmp
+closedir
+strdup
+strcasestr
+__wrap_freopen
+strpbrk
+__wrap_fopen
+__wrap_open
+__wrap_stat
+__wrap_stat64
+__wrap_lstat
+__wrap_scandir
+__wrap_opendir
+__wrap___xstat
+__wrap___lxstat
+__wrap___lxstat64
+__wrap_chmod
+__wrap_chown
+__wrap_lchown
+__wrap_symlink
+__wrap_link
+__wrap_mknod
+__wrap_mount
+__wrap_mkfifo
+__wrap_rename
+__wrap_utime
+__wrap_utimes
+__wrap_realpath
+__wrap_mkdir
+__wrap_rmdir
 __strcpy_chk
 __strcat_chk
 __printf_chk
@@ -472,49 +479,6 @@ u/UH
  ff.
 ` ff.
 ` ff.
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AWAVA
 ATSH
 ?AZA[H
@@ -574,11 +538,12 @@ ATE1
 "tdA
 A\A]A^A_]
 [A\A]A^A_]
-AWAVAUI
+AWAVI
 ATSH
-t2<"u
+K<@u	E
+t+<"u
 [A\A]A^A_]
-t>H;
+tVL9
 AWAVAUATSH
 8 u 
 8[A\A]A^A_]
@@ -604,6 +569,7 @@ AUATSH
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
+[A\]
 AWAVA
 ATSH
 [A\A]A^A_]
@@ -620,6 +586,7 @@ t HcE
 [A\A]]
 [A\A]]
 AUATI
+;=#	
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -807,7 +774,6 @@ AWAVAUATSH
 [A\A]A^A_]
  -steam
 AVAUATH
-D9%M
 A\A]A^]
 AVAUATSH
 [A\A]A^]
@@ -861,7 +827,6 @@ AWAVA
 t H9p H
 H9w 
 X[A\A]A^A_]
-H;5[r
 AWAVAUI
 XZtII
 [A\A]A^A_]
@@ -913,6 +878,49 @@ D$ I
 L$ H
 G(M)
 [A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 ATSH
 libTelemI
 etryX64
@@ -1003,7 +1011,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H9596
 T$(H
 |$ H
 D$(H
@@ -1056,21 +1063,11 @@ AUATUH
 |$ M
 []A\A]A^A_
 L;3r
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 -mpi_worker
 Break
 Corefile
 autoMutex__
+assert_dialog.cpp
 -noassert
 POSIX_ASSERT_BACKTRACE
 ASSERT: %s:%i: %s
@@ -1086,7 +1083,6 @@ File: %s
 Line: %i
 Expr: %s
 Assertion Failed
-/data/src/tier0/assert_dialog.cpp
 [1;33mASSERT:
 [0m 
 [1;31m%s
@@ -1107,7 +1103,8 @@ physical id
 Unable to determine CPU Frequency
 CPU_MHZ
 /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq
-C%s (%d) : 
+[38;2;%d;%d;%dm%s
+%s (%d) : 
 unknown
 developer
 fatalassert_%s_%d
@@ -1135,18 +1132,19 @@ uname -m
 x86_64
 -nowatchdog
 /dev/urandom
+platform_posix.cpp
+/proc/self/exe
 WatchDog! Server took too long to process (probably infinite loop).
-/data/src/tier0/platform_posix.cpp
 Assertion Failed: s_dev_urandom_fd >= 0
 Assertion Failed: urandom_result > 0 || ( urandom_result < 0 && errno == EINTR )
 TracerPid:
 >CreateSimpleThread: pthread_create failed. Someone not calling pthread_detach() or pthread_join. Ret:%d
-/data/src/tier0/threadtools.cpp
 Illegal termination of worker thread! Threads must negotiate an end to the thread before the CThread object is destroyed.
 Thread failed to respond, probably exited
 pthread_setname_np
 Out of thread local storage!
 m_Lock
+threadtools.cpp
 Thread(0x%p/0x%x)
 Thread failed to initialize
 7CThread
@@ -1202,7 +1200,7 @@ Shutting down telemetry.
 MainThrd
 localhost
 FILE
-Jun 25 202421:57:15
+Oct  6 202417:59:51
 %s: %s
  Avg Time/Frame (ms)
 Root
@@ -1275,7 +1273,17 @@ Average %.2f fps, %.2f ms per frame
 |  |  |  |  |  |  |  |  |  |  |  |  
 |  |  |  |  |  |  |  |  |  |  |  |  |  
 vector::_M_realloc_insert
-MbP?/proc/self/exe
+MbP?true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
 c.so
 Attempting to load %s
 Telemetry: Loading %s...
@@ -1389,6 +1397,7 @@ _ZN13CThreadRWLock11WaitForReadEv
 unlink@GLIBC_2.2.5
 _Z10ConWarningPKcz
 _ZTI7CThread
+Plat_chdir
 __cxa_allocate_exception@CXXABI_1.3
 _ZN17CThreadSyncObjectD2Ev
 __wrap_rename
@@ -1397,6 +1406,7 @@ send@GLIBC_2.2.5
 g_pMemAlloc
 _ZN17CThreadSpinRWLock16SpinLockForWriteEj
 _ZN9CVProfile13ResetCountersE14CounterGroup_t
+getcwd@GLIBC_2.2.5
 strncpy@GLIBC_2.2.5
 localtime_r@GLIBC_2.2.5
 _ZSt20__throw_length_errorPKc@GLIBCXX_3.4
@@ -1410,6 +1420,7 @@ abort@GLIBC_2.2.5
 TelemetrySetLevel
 dlerror@GLIBC_2.2.5
 _ZN25CStackTop_CopyParentStackD1Ev
+ColorSpewMessage2
 Plat_EndWatchdogTimer
 _ZN17CCallStackStorageC1EPFiPPviiEj
 pthread_create@GLIBC_2.2.5
@@ -1432,10 +1443,12 @@ __cxa_guard_abort@CXXABI_1.3
 _ZN7CThread7GetNameEv
 __cxa_guard_release@CXXABI_1.3
 Plat_VerifyHardwareKeyDriver
+Plat_GetEnv
 _ZN13CWorkerThreadC1Ev
 pthread_attr_setstacksize@GLIBC_2.2.5
 _ZN16CThreadLocalBaseC2Ev
 pthread_setschedparam@GLIBC_2.2.5
+strncat@GLIBC_2.2.5
 Plat_VerifyHardwareKeyPrompt
 HushAsserts
 _ZN12CThreadEvent5CheckEv
@@ -1595,6 +1608,7 @@ _ZN30CStackTop_ReferenceParentStackC1EPKPvi
 pthread_key_delete@GLIBC_2.2.5
 __wrap_link
 TelemetryTick
+Plat_FileExists
 Plat_IsInDebugSession
 _ZN9CVProfile38RegisterNumBudgetGroupsChangedCallBackEPFvvE
 Plat_GetCommandLine
@@ -1617,6 +1631,7 @@ __cxa_throw_bad_array_new_length@CXXABI_1.3.8
 DefaultSpewFuncAbortOnAsserts
 __xstat64@GLIBC_2.2.5
 ZeroMemory
+Plat_GetExecutablePath
 MsgV
 __wrap_fopen
 fprintf@GLIBC_2.2.5
@@ -1630,6 +1645,7 @@ dlopen@GLIBC_2.2.5
 _ZN16CThreadLocalBaseD2Ev
 _ZN13CWorkerThread11WaitForCallEjPj
 pthread_mutex_lock@GLIBC_2.2.5
+chdir@GLIBC_2.2.5
 vtune
 backtrace@GLIBC_2.2.5
 backtrace_symbols@GLIBC_2.2.5
@@ -1655,6 +1671,7 @@ _ZN10CVProfNode5PauseEv
 feof@GLIBC_2.2.5
 _ZN7CThread4StopEi
 GetMemoryInformation
+Plat_getwd
 fgetc@GLIBC_2.2.5
 fgets@GLIBC_2.2.5
 _ZN17CThreadSyncObject13AssertUseableEv

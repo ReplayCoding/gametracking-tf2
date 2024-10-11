@@ -165,6 +165,31 @@ wcstoll
 __isoc99_sscanf
 strncpy
 qsort
+__ctype_b_loc
+memcmp
+towupper
+towlower
+__ctype_toupper_loc
+__ctype_tolower_loc
+strncasecmp
+wcsncpy
+vswprintf
+strncat
+wcsncat
+iswspace
+iconv_open
+iconv
+iconv_close
+chdir
+mbstowcs
+wcstombs
+Plat_localtime
+strftime
+strtoll
+strtoull
+cvar
+strtoul
+free
 stderr
 fprintf
 access
@@ -174,7 +199,6 @@ closedir
 strdup
 strcasestr
 getenv
-free
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -204,30 +228,6 @@ __wrap_utimes
 __wrap_realpath
 __wrap_mkdir
 __wrap_rmdir
-__ctype_b_loc
-memcmp
-towupper
-towlower
-__ctype_toupper_loc
-__ctype_tolower_loc
-strncasecmp
-wcsncpy
-vswprintf
-strncat
-wcsncat
-iswspace
-iconv_open
-iconv
-iconv_close
-chdir
-mbstowcs
-wcstombs
-Plat_localtime
-strftime
-strtoll
-strtoull
-cvar
-strtoul
 __pthread_key_create
 pthread_once
 malloc
@@ -248,6 +248,7 @@ CXXABI_1.3
 GLIBC_2.7
 GLIBC_2.14
 GLIBC_2.3
+)%e.
 u/UH
  ff.
 ` ff.
@@ -571,10 +572,21 @@ AXAYA
 Hc3L
 [A\A]A^A_]
 I+G(L
+AWAVAUATSH
+A[A^H
+AYAZA
+[A\A]A^A_]
+I+M(I
+I+E(L
 AVAUATI
 fD;(tyH
 [A\A]A^A_]
 t.f9
+AWAVAUATSH
+AZA[D
+AXAY
+u:E1
+[A\A]A^A_]
 AWAVAUL
 ATSH
 [A\A]A^A_]
@@ -583,12 +595,21 @@ ATSH
 fD; t^H
 [A\A]A^A_]
 [A\A]A^]
+AWAVL
+AUATA
+>AZA[H
+AXAYD
+[A\A]A^A_]
 AVAUATI
 tqE9l$
 tDfD9
 fD;/t0H
 A;\$
 [A\A]A^]
+AVAUATSD
+A\A]A^]
+tQ9W
+t+f9
 tjf;2uefD
 tjf;r
 udfD
@@ -605,6 +626,17 @@ fD;*trH
 AWAVAUI
 ATSH
 uSfD
+[A\A]A^A_]
+tef;0u`fD
+tef;p
+u_fD
+AVAUATSH
+9fA9
+txfD;i
+[A\A]A^]
+fD;)tjD
+AUATSH
+uHfE
 [A\A]A^A_]
 ATSH
 [A\]
@@ -760,8 +792,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95~
-D95U
+D951
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -931,9 +962,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%0
-D9%H
-D9%(
+D9%`
+D;%D
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1016,49 +1046,6 @@ t$ E1
 tGUH
 H97v
 7H+w
-AWAVAUATI
-[A\A]A^A_]
-</t%1
-AVAUI
-[A\A]A^A_]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\]
-[A\]
-[A\]
-[A\A]A^]
-ATSH
-[A\]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\]
-[A\A]]
-[A\A]]
-AVAUATI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
-[A\A]]
-AWAVL
-AUATI
-[A\A]A^A_]
-ATSH
-[A\]
-[A\]
-AVAUATI
-[A\A]A^]
-[A\]
-[A\]
-[A\]
-[A\]
-ATSH
-[A\]
 AVMc
 xzD9
 }ID)
@@ -1106,9 +1093,6 @@ AUATSH
 <Eu,
 ~.Hc
 AWAVAUATSH
-t:E1
-[A\A]A^A_]
-AWAVAUATSH
 tIIc
 [A\A]A^A_]
 ATLc
@@ -1135,10 +1119,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%_`
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5nv
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1275,11 +1259,12 @@ AUATI
 t"HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-8HcA
-x2Lc
-tYHcE
-8[A\A]A^A_]
+AWAVI
+AUATI
+(HcA
+x3Lc
+tUHcE
+([A\A]A^A_]
 A\A]A^A_]H
 AWAVAUATI
 <$L9
@@ -1654,20 +1639,16 @@ AUATSH
 [A\A]]
 A\A]]
 A\A]]
-AVAUATI
-x}D9
-[A\A]A^]
-[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+>tVH
 AVAUI
 ATSH
 D8"u
 [A\A]A^]
 [A\A]A^]
-AWAVAUATL
-X[A\A]A^A_]
 AVAUL
 A\A]A^]
 AUATI
@@ -1692,6 +1673,8 @@ AWAVI
 AWAVI
 ATSH
 [A\A]A^A_]
+AWAVAUI
+X[A\A]A^A_]
 t	H)
 AVAUATSH
 ubE1
@@ -1707,10 +1690,53 @@ AUATSH
 [A\A]A^A_]
 6tXL
 7upH
-AVAUI
+AWAVAUI
 ATSH
 [A\A]A^A_]
-@u"I
+@u(H
+AWAVAUATI
+[A\A]A^A_]
+</t%1
+AVAUI
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\]
+[A\]
+[A\]
+[A\A]A^]
+ATSH
+[A\]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\]
+[A\A]]
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
+[A\A]]
+AWAVL
+AUATI
+[A\A]A^A_]
+ATSH
+[A\]
+[A\]
+AVAUATI
+[A\A]A^]
+[A\]
+[A\]
+[A\]
+[A\]
+ATSH
+[A\]
 AWAVAUI
 ATSH
 tBL)
@@ -1853,10 +1879,10 @@ AUATUH
 []A\A]A^A_
 L;3r
 g_ThreadMutexCoroutineMgr
+coroutine.cpp
 (main)
 (no name set)
 test string
-/data/src/vstdlib/coroutine.cpp
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlLinkedList overflow! (exhausted index range)
 (none)
@@ -1868,7 +1894,7 @@ no FCVAR_DONTRECORD
 Usage:  find <string>
 FCVAR_NEVER_AS_STRING
 CCvar::FindVar
-/data/src/vstdlib/cvar.cpp
+cvar.cpp
 Unaccounted
 (%s)%s
 find
@@ -1895,6 +1921,7 @@ N5CCvar21CCVarIteratorInternalE
 5CCvar
 Forced execute test failed!
 m_SuspendMutex
+jobthread.cpp
 YieldWait
 %s(%d) SPINNING %t
 TestForcedExecute
@@ -1904,7 +1931,12 @@ ThreadPoolTest:     NO Sleep
 IOJobX
 CmpJobX
 %s%d
-/data/src/vstdlib/jobthread.cpp
+/data/src/public/vstdlib/jobthread.h
+Execute
+%s %s %d
+m_mutex
+CJob::DoAbort
+/data/src/public/tier0/tslist.h
 CThreadPool::RemoveJob not implemented right now
 Attempted to add job to job queue that has already been completed
 Cannot add a thread job already committed to another thread pool
@@ -1915,12 +1947,6 @@ ThreadPoolTest:     Non-distribute
 ThreadPoolTest:     Distribute
 ThreadPoolTest: Jobs doing work
 Defaulting to limit of 3 worker threads, use -threads on command line if want more
-/data/src/public/vstdlib/jobthread.h
-Execute
-%s %s %d
-m_mutex
-CJob::DoAbort
-/data/src/public/tier0/tslist.h
 %s PeekCall():%d
 %s !PeekCall()
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!
@@ -1942,12 +1968,31 @@ Glob
 N14ThreadPoolTest9CCountJobE
 N14ThreadPoolTest15CExecuteTestJobE
 N14ThreadPoolTest22CExecuteTestExecuteJobE
+KeyValuesSystem.cpp
 Out of keyvalue string space
 %s::%s
-/data/src/vstdlib/KeyValuesSystem.cpp
+english
+GAMECONSOLESPLITSCREEN
+GAMECONSOLEGUEST
+ENGLISH
+JAPANESE
+GERMAN
+FRENCH
+SPANISH
+ITALIAN
+KOREAN
+TCHINESE
+PORTUGUESE
+SCHINESE
+POLISH
+RUSSIAN
+TURKISH
+CVAR_
+cl_language
 CKeyValuesSystem::LoadFileKeyValuesFromCache(%s%s%s): Begin
 CKeyValuesSystem::LoadFileKeyValuesFromCache(%s%s%s): End / Hit
 CKeyValuesSystem::LoadFileKeyValuesFromCache(%s%s%s): End / Miss
+KV Conditional: Unknown symbol %s
 CKeyValuesSystem::m_HashItemMemPool
 CUtlRBTree overflow!
 16IKeyValuesSystem
@@ -2011,7 +2056,7 @@ win2003
 winVista
 win7
 win2008
-/data/src/vstdlib/random.cpp
+random.cpp
 CUniformRandomStream had an array overrun: tried to write to element %d of 0..31. Contact Tom or Elan.
 20IUniformRandomStream
 20CUniformRandomStream
@@ -2076,7 +2121,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-/data/src/tier1/KeyValues.cpp
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -2104,20 +2149,9 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
 Memory leak: mempool blocks left in memory: %d
-/data/src/tier1/mempool.cpp
+mempool.cpp
 Total used memory:      %d
 Total committed memory: %d
-true
-false 
-(%zu) Descend: %s, (%s), %s
-	(%zu) comparing %s with %s
-ENABLE_PATHMATCH
-DBG_PATHMATCH
-Lowered '%s' -> '%s'
-Breaking '%s' in '%s'
-Matched '%s' -> '%s'
-Unmatched %s
-(%zu) readdir failed to find '%s' in '%s'
 0123456789ABCDEF
  bytes
 %i%s
@@ -2284,6 +2318,17 @@ VProcessUtils001
 18CUtlCharConversion
 21CUtlCStringConversion
 19CUtlNoEscConversion
+true
+false 
+(%zu) Descend: %s, (%s), %s
+	(%zu) comparing %s with %s
+ENABLE_PATHMATCH
+DBG_PATHMATCH
+Lowered '%s' -> '%s'
+Breaking '%s' in '%s'
+Matched '%s' -> '%s'
+Unmatched %s
+(%zu) readdir failed to find '%s' in '%s'
 ;*3$"
 zPLR
 zPLR

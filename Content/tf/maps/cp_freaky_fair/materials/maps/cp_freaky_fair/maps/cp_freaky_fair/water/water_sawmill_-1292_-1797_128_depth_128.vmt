@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_freaky_fair/water/water_sawmill_-1292_-1797_128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"128"
+	}
+}

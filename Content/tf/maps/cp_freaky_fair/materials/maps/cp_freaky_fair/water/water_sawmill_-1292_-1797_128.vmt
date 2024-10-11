@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_freaky_fair/c-1292_-1797_128"
+		"Proxies"
+		{
+		}
+	}
+}

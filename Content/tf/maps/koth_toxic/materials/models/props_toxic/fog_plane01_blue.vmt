@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_viaduct_event/fog_plane01"
+	$translucent 1
+	$additive 1
+	"$model" "1"
+	"$color2" "[ .7 .7 .7 ]"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.02
+			"texturescrollangle" 0
+		}
+	}
+}

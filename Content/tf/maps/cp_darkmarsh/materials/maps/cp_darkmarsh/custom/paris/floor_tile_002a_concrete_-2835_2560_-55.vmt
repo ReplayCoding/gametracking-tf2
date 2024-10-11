@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/PARIS/FLOOR_TILE_002A_CONCRETE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_darkmarsh/c-2835_2560_-55"
+	}
+}

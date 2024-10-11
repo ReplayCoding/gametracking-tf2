@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "hell_of_a_mann/hell_tree_04"
+    "$basetexturetransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0"
+	"$surfaceprop" "wood"
+	"$bumpmap" "hell_of_a_mann/hell_tree_normal"
+	"$detail" "overlays/detail004"
+	"$detailscale" "2.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}
