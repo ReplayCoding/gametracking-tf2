@@ -35,6 +35,10 @@ function Main()
 };
 
 // changes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 11/10/2024 - v3.0.2 ------------------------------------------------------------------------------------------------- //
+// -- Fixed missing overlay material for Sniper's Spit ability                                                           //
+// -- Fixed missing particle effects for Pyro's Dragon's Breath ability                                                  //
+// -- Fixed a bug that would cause players to get stuck in spectate mode when attempting to join a game in progress      //
 // 22/09/2024 - v3.0.1 ------------------------------------------------------------------------------------------------- //
 // -- Added unique kill icons for Zombie arms and Zombie abilities                                                       //
 // -- Updated localization strings for Zombie abilities                                                                  //

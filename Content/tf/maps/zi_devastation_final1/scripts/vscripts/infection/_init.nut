@@ -23,7 +23,7 @@ if ( "InfectionLoaded" in getroottable() )
 ::bIsPayload           <- false;
 
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v3.0.1 - 22/09/2024";
+const VERSION       =  "v3.0.2 - 11/10/2024";
 
 ::INFECTION_CONVARS <-
 {
@@ -35,7 +35,7 @@ const VERSION       =  "v3.0.1 - 22/09/2024";
     "sv_alltalk"                           : 1,
     "mp_scrableteams_auto"                 : 0,
     "mp_scrambleteams_auto_windifference"  : 0,
-    "mp_humans_must_join_team"             : "red",
+    "mp_humans_must_join_team"             : "any",
     "tf_weapon_criticals"                  : 1,
     "tf_forced_holiday"                    : 2,
     "tf_dropped_weapon_lifetime"           : 0,
