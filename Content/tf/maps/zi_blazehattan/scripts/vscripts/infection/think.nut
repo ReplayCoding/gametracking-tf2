@@ -120,6 +120,15 @@ PlayerThink <- function()
                 {
                     local _me = self;
 
+                    local _hExistingDispenser = null;
+                    while ( _hExistingDispenser = Entities.FindByClassname( _hExistingDispenser, "pd_dispenser" ) )
+                    {
+                        if ( _hExistingDispenser.GetOwner() == _me )
+                        {
+                            _hExistingDispenser.Destroy();
+                        };
+                    };
+
                     local _hDispenserTouchTrigger = SpawnEntityFromTable( "dispenser_touch_trigger", {
                         origin = _me.GetOrigin(),
                         spawnflags = 1,
@@ -146,6 +155,7 @@ PlayerThink <- function()
                     _hDispenserTouchTrigger.KeyValueFromString  ( "targetname", "" );
                     _hDispenser.AcceptInput                     ( "SetParent", "!activator", self, self );
                     _hDispenserTouchTrigger.AcceptInput         ( "SetParent", "!activator", self, self );
+                    _hDispenser.SetOwner( _me );
 
                     m_hMedicDispenser             <- _hDispenser;
                     m_hMedicDispenserTouchTrigger <- _hDispenserTouchTrigger;

@@ -87,14 +87,11 @@ function SpawnSpell(location)
 //=========================================================================
 
 lastIgniteTS <- []; lastIgniteTS.resize(MAX_CLIENTS + 1, Time() + 99999);
-lastIgniteTicks <- []; lastIgniteTicks.resize(MAX_CLIENTS + 1, 3);
+lastIgniteTicks <- []; lastIgniteTicks.resize(MAX_CLIENTS + 1, 1);
 
 for (local trigger_ignite = null; trigger_ignite = Entities.FindByClassname(trigger_ignite, "trigger_ignite");)
 {
     SetPropBool(trigger_ignite, "m_bForcePurgeFixedupStrings", true);
-
-    //trigger_ignite.RemoveSolidFlags(4);
-    //trigger_ignite.SetCollisionGroup(COLLISION_GROUP_BREAKABLE_GLASS);
 
     SetPropBool(SpawnEntityFromTable("func_nobuild", {
         origin = trigger_ignite.GetOrigin(),
@@ -113,9 +110,9 @@ dynamiteEvents.OnScriptHook_OnTakeDamage <- function(params)
     {
         local playerIndex = player.entindex();
         local time = Time();
-        if (time - lastIgniteTS[playerIndex] > 1)
-            lastIgniteTicks[playerIndex] = 3;
-        lastIgniteTicks[playerIndex] = clampCeiling(20, lastIgniteTicks[playerIndex] + 1.01);
+        if (time - lastIgniteTS[playerIndex] > 2)
+            lastIgniteTicks[playerIndex] = 1;
+        lastIgniteTicks[playerIndex] = clampCeiling(20, lastIgniteTicks[playerIndex] * 1.02);
         params.damage *= lastIgniteTicks[playerIndex];
         lastIgniteTS[playerIndex] = time;
     }
@@ -192,7 +189,7 @@ dynamiteEvents.OnGameEvent_player_death <- function(params)
     }
     foreach(crumpkin in crumpkins)
     {
-        if (!RandomInt(0, 1))
+        if (RandomInt(0, 2) && GetPropInt(tf_gamerules, "m_iRoundState") != GR_STATE_TEAM_WIN)
             SpawnSpell(crumpkin.GetOrigin());
         crumpkin.Kill();
     }

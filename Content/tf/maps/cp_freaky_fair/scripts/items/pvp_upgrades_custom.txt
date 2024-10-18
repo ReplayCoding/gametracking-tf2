@@ -185,7 +185,7 @@
 			"attribute" 	"engy sentry fire rate increased"
 			"icon"		"achievements/tf_engineer_sentry_kill_lifetime_grind"
 			"increment"	"-0.1"
-			"cap"		"0.7"
+			"cap"		"0.8"
 			"cost"		"350"
 		}
 		"1.22"
@@ -201,7 +201,7 @@
 			"attribute"	"engy disposable sentries"
 			"icon"		"achievements/tf_engineer_freezecam_sentry"
 			"increment"	"1"
-			"cap"		"4"
+			"cap"		"3"
 			"cost"		"500"
 		}
 		"1.24"
@@ -216,8 +216,8 @@
 		{
 			"attribute"	"applies snare effect"
 			"icon"		"achievements/tf_sniper_jarate_extinguish"
-			"increment"	"-0.35"			// only 1 increment
-			"cap"		"0.65"			// 
+			"increment"	"-0.25"			// only 1 increment
+			"cap"		"0.75"			// 
 			"cost"		"200"
 		}
 		"1.26"
@@ -225,8 +225,8 @@
 			"attribute"	"charge recharge rate increased"
 			"icon"		"achievements/tf_demoman_charge_kill"
 			"increment"	"1.0"
-			"cap"		"5.0"
-			"cost"		"150"
+			"cap"		"3.0"
+			"cost"		"250"
 		}
 		"1.27"
 		{
@@ -278,7 +278,7 @@
 		}
 		"1.33"
 		{
-			"attribute"	"critboost on kill"	// attrib to hook
+			"attribute"	"tag__eotlearlysupport"	// CRITS ON KILL
 			"icon"		"achievements/tf_soldier_kill_spy_killer"
 			"increment"	"1"				
 			"cap"		"2"			
@@ -314,7 +314,7 @@
 			"icon"		"achievements/tf_demoman_kill_x_with_directpipe"
 			"increment"	"1"
 			"cap"		"3"
-			"cost"		"350"
+			"cost"		"450"
 		}
 		//"1.38"
 		//{
@@ -330,7 +330,7 @@
 			"icon"		"achievements/tf_scout_stun_scout_with_their_ball"
 			"increment"	"1"				// percent
 			"cap"		"1"				// percent
-			"cost"		"500"			// first tier points/credits cost
+			"cost"		"300"			// first tier points/credits cost
 		}
 		"1.41"
 		{
@@ -369,8 +369,8 @@
 			"attribute"	"rocket specialist"
 			"icon"		"achievements/tf_soldier_kill_airborne_target_while_airborne"
 			"increment"	"1"
-			"cap"		"4"
-			"cost"		"300"
+			"cap"		"3"
+			"cost"		"450"
 		}
 		"1.46"
 		{
@@ -402,7 +402,7 @@
 			"icon"		"achievements/tf_soldier_kill_airborne_with_direct_hit"
 			"increment"	"1"			// 
 			"cap"		"1"			// 
-			"cost"		"600"
+			"cost"		"750"
 		}
 		"1.50"
 		{
@@ -423,10 +423,10 @@
 		"1.52"
 		{
 			"attribute"	"tag__eotlearlysupport" //Previously explode on ignite.
-			"icon"		"achievements/tf_demoman_achieve_progress3" //replace icon!
-			"increment"	"0.5"			// 
-			"cap"		"2"			// 
-			"cost"		"400"
+			"icon"		"achievements/tf_sniper_kill_invis_spy" //replace icon!
+			"increment"	"5"			// 
+			"cap"		"15"			// 
+			"cost"		"300"
 		}
 		
 		// CANTEENS
@@ -536,8 +536,8 @@
 		{
 			"attribute"	"dmg taken from crit reduced"
 			"icon"		"achievements/tf_soldier_shoot_mult_crits"
-			"increment"	"-0.3"
-			"cap"		"0.1"
+			"increment"	"-0.25"
+			"cap"		"0.25"
 			"cost"		"150"
 		}
 		"5"

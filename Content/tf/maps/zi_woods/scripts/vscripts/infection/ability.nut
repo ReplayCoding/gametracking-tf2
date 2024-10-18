@@ -718,7 +718,7 @@ class CHeavyPassive extends CPassiveAbility
     constructor( hAbilityOwner )
     {
         this.m_hAbilityOwner     =  hAbilityOwner;
-        this.m_iAbilityType      =  ZABILITY_THROWABLE;
+        this.m_iAbilityType      =  ZABILITY_PASSIVE;
         this.m_fAbilityCooldown  =  ACT_LOCKED;
         this.m_szAbilityName     =  HEAVY_PASSIVE_NAME;
      // this.m_arrAttribs        =  HEAVY_PASSIVE_ATTRIBUTES;

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_sawmill_event/water/water_soulmill_02_257_5578_5462.vmt"
+	"insert"
+	{
+		"$waterdepth"		"120"
+	}
+}

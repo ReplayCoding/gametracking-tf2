@@ -35,6 +35,12 @@ function Main()
 };
 
 // changes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 14/10/2024 - v3.0.3 ------------------------------------------------------------------------------------------------- //
+// -- Reduced Zombie Engineer's EMP Grenade Cooldown from 10 seconds to 9 seconds                                        //
+// -- Adjusted Zombie Pyro's death explosion to briefly ignite players hit by the blast                                  //
+// -- Fixed a bug that allowed Zombie Medic to spawn infinite dispenser entities (Thanks Psychicpie!)                    //
+// -- Fixed Zombie Heavy's ability appearing as an active instead of a passive on the HUD (Thanks NeoDement!)            //
+// -- Fixed a bug that caused Zombie Heavy's knockback to trigger on afterburn when quickly swapping from Pyro to Heavy  //
 // 11/10/2024 - v3.0.2 ------------------------------------------------------------------------------------------------- //
 // -- Fixed missing overlay material for Sniper's Spit ability                                                           //
 // -- Fixed missing particle effects for Pyro's Dragon's Breath ability                                                  //
@@ -522,7 +528,7 @@ function OnGameEvent_player_death( params )
                 if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
                 {
                     KnockbackPlayer           ( _hPlayer, _hNextPlayer, 210, 0.85, true );
-                    _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
+                    _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_CLUB | DMG_PREVENT_PHYSICS_FORCE ) );
                 };
             };
 
@@ -879,7 +885,7 @@ function OnScriptHook_OnTakeDamage( params )
         // zombie heavy knock up effect                                //
         // ----------------------------------------------------------- //
 
-        if ( _hAttacker.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS && _hAttacker.GetTeam() == TF_TEAM_BLUE )
+        if ( _hAttacker.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS && _hAttacker.GetTeam() == TF_TEAM_BLUE && params.damage_type & DMG_CLUB )
         {
             if ( !_hVictim || _hVictim.GetClassname() != "player" )
                 return;

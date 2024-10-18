@@ -14,7 +14,7 @@ const MIN_TIME_BETWEEN_VIEWPUNCH       = 3;     // Internal Cooldown - viewpunch
 const MIN_TIME_BETWEEN_VO              = 1;     // Internal Cooldown - zombie vo emit      //
 const MIN_TIME_BETWEEN_CONVERT         = 0.1;   // Internal Cooldown - Apply zombie ents   //
 // --------------------------------------------------------------------------------------- //
-const MIN_TIME_BETWEEN_ENGIE_EMP_THROW = 10;    // Ability Cooldown  - Engie EMP Cast      //
+const MIN_TIME_BETWEEN_ENGIE_EMP_THROW = 9;     // Ability Cooldown  - Engie EMP Cast      //
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_SPIT_START_END  = 0.5;   // Ability Delay     - Sniper Spit Channel //
 const MIN_TIME_BETWEEN_SPIT_CAST       = 5;     // Ability Cooldown  - Sniper Spit Cast    //

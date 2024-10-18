@@ -1421,6 +1421,8 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_2nd_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季公開賽中獲得亞軍的選手"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd"				"AsiaFortress Liquid.tf 公開賽季軍"
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季公開賽中獲得季軍的選手"
+"TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf 公開賽參賽獎"
+"TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季公開賽的參賽選手"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"AsiaFortress Liquid.tf 邀請賽冠軍"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"授予 AsiaFortress Liquid.tf 2024 年春季邀請賽冠軍隊伍 Xiao 的選手"
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"AsiaFortress Liquid.tf 邀請賽亞軍"
@@ -1429,18 +1431,15 @@
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季邀請賽中獲得季軍隊伍 United Beasts 的選手"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant"				"AsiaFortress Liquid.tf 邀請賽參賽獎"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季邀請賽的參賽選手"
-"TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf 公開賽參賽獎"
-"TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"授予在 AsiaFortress Liquid.tf 2024 年春季公開賽的參賽選手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st"				"AsiaFortress Liquid.tf Highlander 公開賽冠軍"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st_Summer2024"		"授予 AsiaFortress Liquid.tf Highlander 2024 年夏季公開賽冠軍選手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_2nd"				"AsiaFortress Liquid.tf Highlander 公開賽亞軍"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_2nd_Summer2024"		"授予在 AsiaFortress Liquid.tf Highlander 2024 年夏季公開賽中獲得亞軍的選手"
-"TF_TournamentMedal_AF_Liquidtf_Highlander_Open_3rd"				"AsiaFortress Liquid.tf Highlander 公開賽季軍"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_3rd_Summer2024"		"授予在 AsiaFortress Liquid.tf Highlander 2024 年夏季公開賽中獲得季軍的選手"
-"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant"				"AsiaFortress Liquid.tf Highlander 邀請賽參賽獎"
-"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Summer2024"	"授予在 AsiaFortress Liquid.tf Highlander 2024 年夏季邀請賽中的參賽選手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_Participant"				"AsiaFortress Liquid.tf Highlander 公開賽參賽獎"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_Participant_Summer2024"		"授予在 AsiaFortress Liquid.tf Highlander 2024 年夏季公開賽中的參賽選手"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant"				"AsiaFortress Liquid.tf Highlander 邀請賽參賽獎"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Summer2024"	"授予在 AsiaFortress Liquid.tf Highlander 2024 年夏季邀請賽中的參賽選手"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf 傭兵混戰獎"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"MCM 倫敦 2024 年 5 月"
 																				   
@@ -2123,7 +2122,6 @@
 "TF_TournamentMedal_CLTF2_4v4_Division5_Silver"			"CLTF2 4v4 第五組亞軍"
 "TF_TournamentMedal_CLTF2_4v4_Division5_Bronze"			"CLTF2 4v4 第五組季軍"
 "TF_TournamentMedal_CLTF2_4v4_Division5_Participant"	"CLTF2 4v4 第五組參賽獎"
-
 "TF_TournamentMedal_TFArena_6v6_Gold"					"TFArena 金牌"
 "TF_TournamentMedal_TFArena_6v6_Gold_Cup1_Desc"			"TFArena 6v6 競技場盃 1 組冠軍"
 "TF_TournamentMedal_TFArena_6v6_Gold_Cup2_Desc"			"TFArena 6v6 競技場盃 2 組冠軍"
@@ -2217,16 +2215,10 @@
 "TF_TournamentMedal_Blapature2017"			"Blapature Co. 貢獻者"
 "TF_TournamentMedal_Blapature2017_Desc"		"最好的果醬是酪梨做的。感謝您支持 Blapature Co. Summer Jam 2017！"
 
-"TF_TournamentMedal_Firmware_Star"					"2023 韌體狂熱行動公司之星"
-"TF_TournamentMedal_Magnetic_Fiendish_2024"				"磁力混戰行動 2024 年 Fiendish Fuchsite"
 "TF_TournamentMedal_Magnetic_Fiendish_2024_Desc"		"灰碎石公司一定是把資金用光了，機器人開始掉落這些東西，而不是它們通常會掉落的金錢。這麼多個都被找回了，但是我想如果您自己留一個，公司也不會發現。此獎項授予 Moonlight MvM 春季慈善賽事的玩家！"
-"TF_TournamentMedal_Magnetic_Megalomaniacal_2024"		"磁力混戰行動 2024 年 Megalomaniacal Mastodon"
 "TF_TournamentMedal_Magnetic_Megalomaniacal_2024_Desc"	"您設了個陷阱給灰碎石公司那些狡猾的生意人跳，他們還真的一個不漏的全面中計了。情報顯示他們至今還在消化他們失敗的消息。此獎項授予 Moonlight MvM 春季慈善賽事的玩家！"
-"TF_TournamentMedal_Magnetic_Humanitarian_2024"			"磁力混戰行動 2024 年 Humanitarian Hiddenite"
 "TF_TournamentMedal_Magnetic_Humanitarian_2024_Desc"	"名稱帶有「Hiddenite」（隱藏版）大概讓您覺得這個寶石特別稀有。不過事實上並非如此，名稱只是來自某個姓「Hidden」的人。不過還是有很多人想要這個寶石，因此您最好把它藏起來。獎項授予 Moonlight MvM 春季慈善賽事的捐贈者！"
-"TF_TournamentMedal_Magnetic_Barely_2024"				"磁力混戰行動 2024 年 Barely Benign Bismutotantalite"
 "TF_TournamentMedal_Magnetic_Barely_2024_Desc"			"我們的科學家在關於這寶石的名稱該怎麼發音一事上無法達成共識。他們找了語言學家來幫忙，但語言學家彼此之間還爭論得更大聲。不過有件事大家真的都同意：他們從沒見過像這樣的寶石。獎項授予 Moonlight MvM 春季慈善賽事的捐贈者！"
-"TF_TournamentMedal_Magnetic_Treasured_2024"			"磁力混戰行動 2024 年 Treasured Tourmaline"
 "TF_TournamentMedal_Magnetic_Treasured_2024_Desc"		"您戴上的寶石閃耀光芒\n能量從頭到腳貫穿心房\n您的慷慨無遠弗屆\n受您恩惠五內銘謝！\n獎項授予 Moonlight MvM 春季慈善賽事的捐贈者！"
 
 "TF_TournamentMedal_Osmium_Ordinance_Pyrite"			"鋨金鐵律 2024 年 Pyrite Pint"
@@ -4081,10 +4073,6 @@
 "koth_cascade_authors"			"Evan 'Defcon' LeBlanc\nAlex 'FGD5' Stewart\nLiam 'Diva Dan' Moffitt"
 "plr_hacksaw_event_authors"		"Liam 'Diva Dan' Moffitt\nViscaedis\nAl 'Square' Rodgers\nE-Arkham\nSeb 'Tianes' Necula\nBenjamin 'blaholtzen' Blåholtz\nAeon 'Void' Bollig\nJuniper\nAlex 'FGD5' Stewart"
 "ctf_crasher_authors"			"Lauren 'Yrrzy' Godfrey\nAse 'pont' Kirkham\nLiam 'Diva Dan' Moffitt\nBenjamin 'Benjamoose' Rudman\nKimberly 'iiboharz' Riswick\nFreyja"
-"vsh_tinyrock_authors"			"Jess 'Muddy' Dabbs\nLizard of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nMaxim 'VellyVice' Streltsov\nJames 'McGuinnsBook' McGuinn\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons"
-"vsh_distillery_authors"		"Phe\nLizard Of Oz\nSonoma 'Sono' Bryer\nSzabó 'Maxxy' Attila\nMatthew 'MegapiemanPHD' Simmons\nStuffy 360\nJason 'Yaki' Herman\nMaxim 'VellyVice' Streltsov\nJames 'McGuinnsBook' McGuinn\nJoaquim 'JPRAS' Silva\nAeon 'Void' Bollig"
-"vsh_skirmish_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig\nLouie 'bakscratch' Turner"
-"vsh_nucleus_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig"
 "koth_snowtower_authors"		"Aeon 'Void' Bollig\nAl 'Square' Rodgers\nEArkham\nKeldos\nKrazyZark\nMaxime 'fubar' Dupuis\nTim 'sedisocks' BL\nZach 'Exactol' Matuson"
 "koth_krampus_authors"			"Artur Eichmann\nJoel 'zythe_' Morscher\nPhe\nLizard Of Oz\nsky\nLothudus\nParker 'razoldon'\nIlia 'dotflare'\nYiming 'Coolchou' Zhao\nBen 'doctorsteen' Meyer\nLerd\nHirschVA"
 "ctf_haarp_authors"				"Andrew 'Dr. Spud' Thompson\nFay L. 'nineaxis' Fabry\nAlex 'Rexy' Kreeger\nJim 'Timberghost' Wiser"
@@ -4097,7 +4085,6 @@
 "pl_camber_authors"				"Louie 'bakscratch' Turner\nNick 'nickybakes' Baker\nLiam 'Diva Dan' Moffitt"
 "pl_embargo_authors"			"João 'Hoppkins' Marcos\nPatrick 'Zeus' Hennessy\nRodrigo 'Rapoza Dynamica' Carneri\nTorkil 'TheLazerSofa' Malvik Bidtnes\nLizard Of Oz\nVasilis 'Billo' Chatzikostas\nMaksim 'Velly' Streltsov\nSzabó 'Maxxy' Attila\nElian 'iron' Rodriguez\nSarah Jane Eve\nChandler 'OctoBlitz' Dunaway\nAlex 'FGD5' Stewart\nNick 'nickybakes' Baker\nAudionexx"
 "pl_odyssey_authors"			"Evan 'Defcon' LeBlanc\nNickolas 'KrazyZark' Fenech\nFreyja\nSarexicus"
-"koth_megaton_authors"			"Aeon 'Void' Bollig\nJuniper\nLiam 'Diva Dan' Moffitt\nSky\nFreyja\nDonhonk"
 "koth_cachoeira_authors"		"Aleksei 'Fiddleford' Istomin\nRhafael 'Rhamkin' Oliveira\nTorkil 'TheLazerSofa' Malvik Bidtnes\nRodrigo 'Rapoza Dynamica' Carneri\nPatrick 'Zeus' Hennessy\nOperabay\nSzabó 'Maxxy' Attila\nJonathan 'Setry' Gitlits\nArtemy 'FlowerShopGuy' Maltsev\nJustin 'Kerpongle' Lindstrom\nNickolas 'krazyZark' Fenech\n'Rito\nJuniper"
 "cp_overgrown_authors"			"Harlen 'UEAKCrash' Linke\nPearForceOne\nJuniper\nAeon 'Void' Bollig\nErik 'Colteh' Coltey\nFreyja\nE-Arkham"
 "cp_hadal_authors"				"Juha 'Jusa' Kuoppala\nMaxime 'Fubar' Dupuis"
@@ -4105,7 +4092,6 @@
 "pd_atom_smash_authors"			"Aeon 'Void' Bollig\nJuniper\nMike 'CornetTheory' Hillard\nLiam 'Diva Dan' Moffitt\nSky\nFreyja\nZoey\nBenjamin 'blaholtzen' Blåholtz\nPearForceOne\nTim 'SediSocks' BL"
 "cp_canaveral_5cp_authors"		"Jesse 'Custard1' Budd\nPatrick 'Zeus' Hennessy\nWilliam 'Cheesypuff' Bartley-Bolster\nBrandon 'Bonk Nickeltoon' Koller\nBailey 'Glitch' Hodges\nNickolas 'krazyZark' Fenech\nLouie 'bakscratch' Turner"
 "cp_burghausen_authors"			"Christoph 'Gadget' Manschitz"
-
 "TF_YourStats"					"您的狀態"
 "TF_DuckPromoList"				"擁有 11 種樣式的全職業飾品\n-在鐵道盡頭期間記錄您的活動資料\n-登上排行榜並與您的好友們一較高下\n-銷售盈餘將資助給鐵道盡頭的製作團隊"
 "TF_GetDucky"					"行鴨運"
@@ -4340,7 +4326,6 @@
 "TF_MapToken_RumbleEvent_AdText"	"-購買此物品以贊助 Gravestone 社群地圖的製作者。"
 "TF_Map_MonsterBash"				"Monster Bash"
 "TF_MapToken_MonsterBash"			"地圖郵票 - Monster Bash"
-"TF_MapToken_MonsterBash_Desc"		"玩家破壞模式地圖\n\n由 Aeon 'Void' Bollig\nFuzzymellow\nPEAR\nDonhonk\nHarlen 'UEAKCrash' Linke\nTim 'SediSocks' BL\nLiam 'Diva Dan' Moffitt\nJennifer 'NeoDement' Burnett\n和 Erik Colteh 製作\n\n購買此物品以贊助 Monster Bash 社群地圖製作者。馬上來表達您的支持吧！"
 "TF_MapToken_MonsterBash_AdText"	"-購買此物品以贊助 Monster Bash 社群地圖的製作者。"
 "TF_Map_Slasher"				"Slasher"
 "TF_MapToken_Slasher"			"地圖郵票 - Slasher"
@@ -4413,7 +4398,6 @@
 "TF_MapToken_Odyssey_AdText"		"-購買此物品以贊助 Odyssey 社群地圖的製作者。"
 "TF_Map_Megaton"					"Megaton"
 "TF_MapToken_Megaton"				"地圖郵票－Megaton"
-"TF_MapToken_Megaton_Desc"			"山丘之王地圖\n\n由 Aeon 'Void' Bollig、Juniper、Liam 'Diva Dan' Moffitt、Sky、Freyja 和 Donhonk 製作\n\n購買此物品以贊助 Megaton 社群地圖製作者。馬上來表達您的支持吧！"
 "TF_MapToken_Megaton_AdText"		"-購買此物品以贊助 Megaton 社群地圖的製作者。"
 "TF_Map_Cachoeira"					"Cachoeira"
 "TF_MapToken_Cachoeira"				"地圖郵票 - Cachoeira"
@@ -4443,7 +4427,6 @@
 "TF_MapToken_Burghausen"			"地圖郵票 - Burghausen"
 "TF_MapToken_Burghausen_Desc"		"中世紀攻擊／防守控制點地圖\n\n由 Christoph 'Gadget' Manschitz 製作\n\n購買此物品以贊助 Burghausen 社群地圖製作者。馬上來表達您的支持吧！"
 "TF_MapToken_Burghausen_AdText"		"-購買此物品以贊助 Burghausen 社群地圖製作者。"
-
 "TF_Map_Unknown"				"找不到地圖！"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -4579,7 +4562,6 @@
 "TF_Map_AtomSmash_StrangePrefix"		" 原子的"
 "TF_Map_Canaveral_StrangePrefix"		" 軌道的"
 "TF_Map_Burghausen_StrangePrefix"		" 封建的"
-
 "TF_MapDonationLevel_Bronze"	"銅牌："
 "TF_MapDonationLevel_Silver"	"銀牌："
 "TF_MapDonationLevel_Gold"	"金牌："
@@ -5113,7 +5095,6 @@
 "cp_hadal_c"							"C 區"
 "cp_hadal_core"							"主核心"
 "cp_hadal_a"							"A 區"
-
 // Win panel strings
 "Winpanel_Team1"			"隊伍"
 "Winpanel_Team2"			"隊伍"
@@ -5392,7 +5373,6 @@
 "GameType_Community_Update"		"外星入侵"
 "GameType_TerritorialControl"	"地區控制"
 "GameType_ZI"					"喪屍感染（社群）"
-
 "TF_MMCat_SpecialEvents"		"特別活動"
 "TF_MMCat_Core"				"核心遊戲模式"
 "TF_MMCat_Alternative"		"其它的遊戲模式"
@@ -8104,7 +8084,6 @@
 "TF_StrangeFilter_CommunityMapCanaveral_Desc"		"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，該數據只會在玩家於 Canaveral 時記錄。"
 "TF_StrangeFilter_CommunityMapBurghausen"			"奇異過濾器：Burghausen（社群）"
 "TF_StrangeFilter_CommunityMapBurghausen_Desc"		"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，該數據只會在玩家於 Burghausen 時記錄。"
-
 "TF_StrangeFilter_Map2fort"				"奇異過濾器：2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，武器的數據只會在玩家於 2Fort 時記錄。"
 "TF_StrangeFilter_MapDustbowl"				"奇異過濾器：Dustbowl"
@@ -10216,7 +10195,9 @@
 "Attrib_Particle347"			"蝴蝶季節"
 "Attrib_Particle348"			"精神迷幻"
 "Attrib_Particle349"			"蠱惑之蟲"
-
+"Attrib_Particle357"			"惡毒蝙蝠"
+"Attrib_Particle358"			"狂野烏鴉"
+"Attrib_Particle359"			"歡樂白鴿"
 // Weapon Unusual
 "Attrib_Particle701"			"炙熱化學"
 "Attrib_Particle702"			"同位素"
@@ -10308,7 +10289,7 @@
 "Attrib_Particle3171"		"櫻花祝福"
 "Attrib_Particle3172"		"櫻花祝福"
 "Attrib_Particle3173"		"暴力紫羅蘭"
-
+"Attrib_Particle3183"		"大雨"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"連殺效果：%s1"
@@ -15558,6 +15539,7 @@ ________________________________________
 "TF_dec20_particulate_protector"	"飛沫守護者"
 "TF_dec20_particulate_protector_style0"	"有帽"
 "TF_dec20_particulate_protector_style1"	"無帽"
+"TF_hwn2021_scariest_mask"			"史上最恐怖的面具" // ADD THE
 "TF_hwn2021_hook_line_thinker"		"魚鉤穿腦" // ADD THE
 "TF_dec21_el_fiestibrero"			"墨西哥寬邊帽"
 "TF_sum22_kazan_karategi"		"火山空手道服"
@@ -15717,7 +15699,9 @@ ________________________________________
 "TF_sum24_scorched_stompers"			"焦土踐踏者"
 "TF_sum24_scorched_stompers_style1"			"迷彩"
 "TF_sum24_scorched_stompers_style2"			"無迷彩"
-
+"TF_hwn2024_sear_seer"					"熾熱先知"
+"TF_hwn2024_sear_seer_style4"				"黃昏 - 無護目鏡"
+"TF_hwn2024_school_nuisance"			"校園公害"
 "TF_KathmanHairdo"             "加德滿都髮型" // ADD THE
 "TF_KathmanHairdo_Desc"        "這個從史前時代蓬巴杜髮型由艾德蒙希拉蕊爵士於珠穆朗瑪峰發現。當下他也突然發現，他拉了自己的褲子。"
 "TF_HimalayanHairShirt"        "喜馬拉雅毛茸茸襯衫" // ADD THE
@@ -16353,12 +16337,16 @@ E)－藍隊可在任何時候搶下這點以獲得勝利
 "TF_Voice_Unavailable"				"此帳戶無法使用語音通訊。"
 
 "tf_zi_scout_passive_name"				"速度惡魔"
-"tf_zi_pyro_passive_name"				"地獄之子"
 "tf_zi_heavy_passive_name"				"坦克"
 "tf_zi_demo_charge_name"				"爆炸衝刺"
 "tf_zi_medic_heal_name"					"治療"
 "tf_zi_sniper_spit_name"				"吐酸"
 "tf_zi_soldier_pounce_name"				"躍升"
+"tf_zi_spy_reveal_name"					"揭露"
 "tf_zi_intro_welcome"					"歡迎來到喪屍感染！"
+"tf_zi_team_red"						"倖存者"
+"tf_zi_team_blue"						"喪屍"
+"tf_zi_pyro_blast_name"					"龍息" 
+
 }
 }

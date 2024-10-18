@@ -2,49 +2,49 @@
 {
 	"1"
 	{
-		"string"	"Welcome to Dynamite!"
+		"string"	"#tow_dynamite_welcome"
 		"start"		"0"
 		"length"	"3.9"
 	}
 	"2"
 	{
-		"string"	"Dynamite is a Tug of War map"
+		"string"	"#tow_dynamite_part1"
 		"start"		"4"
 		"length"	"5.9"
 	}
 	"3"
 	{
-		"string"	"To push the cart, stand on it until you own the cart"
+		"string"	"#tow_dynamite_part2"
 		"start"		"10"
 		"length"	"3.9"
 	}
 	"4"
 	{
-		"string"	"Either team can push the cart into the enemy team's base"
+		"string"	"#tow_dynamite_part3"
 		"start"		"14"
 		"length"	"3.9"
 	}
 	"5"
 	{
-		"string"	"When the cart reaches either team's base, jump pads will be enabled" 
+		"string"	"#tow_dynamite_part4" 
 		"start"		"18"
 		"length"	"3.9"
 	}
 	"6"
 	{
-		"string"	"So watch out!"
+		"string"	"#tow_dynamite_part5"
 		"start"		"24"
 		"length"	"2.9"
 	}
 	"7"
 	{
-		"string"	"Killing an opponent may drop a jumping spell to boost one's height"
+		"string"	"#tow_dynamite_part6"
 		"start"		"27"
 		"length"	"5.9"
 	}
 	"8"
 	{
-		"string"	"Your team must escort the cart to the enemy's base and defend it until your team's timer runs out" 
+		"string"	"#tow_dynamite_part7" 
 		"start"		"33"
 		"length"	"6.9"
 	}
