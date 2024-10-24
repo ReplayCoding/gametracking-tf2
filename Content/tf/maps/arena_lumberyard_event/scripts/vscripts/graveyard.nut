@@ -1,6 +1,6 @@
 local gamerules = Entities.FindByClassname(null, "tf_gamerules");
 local game_timer = Entities.FindByClassname(null, "team_round_timer");
-local pd_logic = Entities.FindByClassname(null, "tf_logic_player_destruction"); 
+local pd_logic = Entities.FindByClassname(null, "tf_logic_player_destruction");
 
 Convars.SetValue("tf_weapon_criticals", 0);
 
@@ -81,7 +81,7 @@ const TF_TEAM_BLUE = 3
         foreach(crumpkin in crumpkins)
 		{
             crumpkin.Kill();
-			ClientPrint(null, 3, "killed crumpkin!")
+			// ClientPrint(null, 3, "killed crumpkin!")
 		}
     }
 };
@@ -91,12 +91,12 @@ function becomeGhost(player)
 {
 	//print("success")
 	local team = player.GetTeam()
-	
+
 	//Give condition
 	player.AddCond(77)
 	player.AddCond(114)
 	player.RemovePlayerWearables();
-	
+
 	//Change the player's model
 	if (team == TF_TEAM_BLUE)
 	{
@@ -114,24 +114,24 @@ function becomeGhost(player)
 			NetProps.SetPropIntArray(player, "m_nModelIndexOverrides", ghost_index_red, i)
 		}
 	}
-	
+
 	player.SetModelScale(0.3, 0)									//Set model scale
 	player.SetScriptOverlayMaterial("effects/ghost_overlay.vmt")	//Set screen overlay
-	
-	//Create dispenser trigger volume and parent it to the player	
+
+	//Create dispenser trigger volume and parent it to the player
 	local dispenser_range = SpawnEntityFromTable("dispenser_touch_trigger", {
-		origin = player.GetOrigin(), 
+		origin = player.GetOrigin(),
 		spawnflags = 1,
 	})
 	dispenser_range.SetSize(Vector(-128, -128, -128), Vector(128, 128, 128))
 	dispenser_range.SetSolid(2)
 	dispenser_range.KeyValueFromString("targetname", "ghost_heal_trigger")
-	
+
 	player.GetScriptScope().dispenser_range <- dispenser_range
-	
+
 	//Create the dispenser entity and give it the aforementioned volume
 	local dispenser = SpawnEntityFromTable("pd_dispenser", {
-		origin = player.GetOrigin() + Vector(0, 0, 24), 
+		origin = player.GetOrigin() + Vector(0, 0, 24),
 		spawnflags = 4,
 		teamnum = team,
 		touch_trigger = "ghost_heal_trigger"
@@ -149,7 +149,7 @@ function unBecomeGhost(player)
 	player.RemoveCond(114)
 	player.SetCustomModel("")
 	for (local i = 0; i < 4; i++)
-	{			
+	{
 		NetProps.SetPropIntArray(player, "m_nModelIndexOverrides", 0, i)
 	}
 	player.SetModelScale(1, 0)
@@ -167,7 +167,7 @@ function GetPlayers(team)
     for (local i = 1; i <= MaxClients().tointeger(); i++)
     {
         local player = PlayerInstanceFromIndex(i);
-		
+
 		if (player == null)
 			continue
 		if (team != null && player.GetTeam() != team)
@@ -188,11 +188,14 @@ function CheckWinState()		//checks win state and also for last men standing
 		return
 	local red_players = GetPlayers(TF_TEAM_RED)
 	local blue_players = GetPlayers(TF_TEAM_BLUE)
-	
+
 	if(red_players.len() == 1 && red_lockout == 0)			//red has a last man standing
 	{
-		red_players[0].AddCond(19)			//award mini crits
-		//red_players[0].RollRareSpell()		//award a rare 
+		local playerScriptScope = red_players[0].GetScriptScope();
+		playerScriptScope.IsLastMan = true; /* add last man bool to script scope */
+
+		red_players[0].AddCond(16)			//award mini crits
+		//red_players[0].RollRareSpell()		//award a rare
 		ClientPrint(null, 3, "\x07FF3F3F" + NetProps.GetPropString(red_players[0], "m_szNetname") + string_last_player_standing)
 		gamerules.AcceptInput("PlayVOBlue", "Graveyard.LastManEnemy", null, null)
 		gamerules.AcceptInput("PlayVORed", "Graveyard.LastManAlly", null, null)
@@ -200,14 +203,17 @@ function CheckWinState()		//checks win state and also for last men standing
 	}
 	if(blue_players.len() == 1 && blue_lockout == 0)			//blue has a last man standing
 	{
-		blue_players[0].AddCond(19)			//award mini crits
+		local playerScriptScope = blue_players[0].GetScriptScope();
+		playerScriptScope.IsLastMan = true; /* add last man bool to script scope */
+
+		blue_players[0].AddCond(16)			//award mini crits
 		//blue_players[0].RollRareSpell()		//award a rare spell
 		ClientPrint(null, 3, "\x0799CCFF" + NetProps.GetPropString(blue_players[0], "m_szNetname") + string_last_player_standing)
 		gamerules.AcceptInput("PlayVOBlue", "Graveyard.LastManAlly", null, null)
 		gamerules.AcceptInput("PlayVORed", "Graveyard.LastManEnemy", null, null)
 		blue_lockout = 1
 	}
-	if (red_players.len() == 0 && blue_players.len() == 0)		//both teams are dead at the same time 
+	if (red_players.len() == 0 && blue_players.len() == 0)		//both teams are dead at the same time
 	{
 		local winner = SpawnEntityFromTable("game_round_win", {
 		force_map_reset = 1,
@@ -260,10 +266,10 @@ function OnGameEvent_player_death(params)
 		return
 	if(params.death_flags & 32)		//return if death is dead ringer
 		return
-	local player = GetPlayerFromUserID(params.userid)	
+	local player = GetPlayerFromUserID(params.userid)
 	becomeGhost(player)								//turn the dead guy into a ghost
 	EmitSoundOnClient("Graveyard.YouDied", player)		//do the merasmus taunt voice
-	CheckWinState()	
+	CheckWinState()
 }
 
 
@@ -275,7 +281,7 @@ function OnGameEvent_player_disconnect(params)
 	EntFireByHandle(self,"runscriptcode","CheckWinState()",0.1,null,null)	//delay the check for winstate
 }
 
-//A player joins a team. Detach any existing traits they may have. 
+//A player joins a team. Detach any existing traits they may have.
 function OnGameEvent_player_spawn(params)
 {
 	local player = GetPlayerFromUserID(params.userid)
@@ -307,9 +313,22 @@ function OnGameEvent_teamplay_setup_finished(params)
 	setup_finished = true
 	foreach(player in all_players)
 	{
+		local scriptScope = player.GetScriptScope();
+		scriptScope.IsLastMan <- false;  /* harry */
+		AddThinkToEnt(player, "PlayerThink")
 		player.AddCond(76)
 	}
 	CheckWinState()
+}
+
+PlayerThink <-  function()
+{
+	if (IsLastMan /*&& !self.InCond(16)*/)
+	{
+		this.AddCond(16)
+	};
+
+	return 0.01;
 }
 
 ClearGameEventCallbacks()

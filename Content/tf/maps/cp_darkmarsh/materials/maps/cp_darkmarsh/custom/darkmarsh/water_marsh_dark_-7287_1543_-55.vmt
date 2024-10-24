@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/DARKMARSH/WATER_MARSH_DARK.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_darkmarsh/c-7287_1543_-55"
+		"Proxies"
+		{
+		}
+	}
+}

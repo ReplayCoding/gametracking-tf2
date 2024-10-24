@@ -12049,7 +12049,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "Attrib_MaxHealthDrain"					"Reduz a vida máxima enquanto o item estiver ativo"
 "Attrib_ImpactPushback"					"Empurra inimigos para trás quando aterras (força e raio com base na velocidade)"
 "Attrib_ImpactStun"						"Atordoa inimigos quando aterras"
-"Attrib_ThermalThrusterAirLaunch"		"Permite reimpulsionar-te enquanto estiveres já a voar"
+"Attrib_ThermalThrusterAirLaunch"		"Permite reativar propulsor no ar"
 "Attrib_ChargeMeterRateMult"			"Taxa de recarga %s1% mais rápida"
 "Attrib_ChargeMeterRateMult_shortdesc"	"%s1% de taxa de recarga"
 "Attrib_ExplodeOnIgnite"				"Inimigos afetados explodem quando atacados"
@@ -12114,7 +12114,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "Attrib_AppliesSnareEffect_shortdesc"			"%s1% de velocidade do alvo"
 "Attrib_BleedingDuration_shortdesc"				"+%s1s de sangramento ao acertar"
 "Attrib_SRifleChargeRate_Increased_shortdesc"	"+%s1% de velocidade de carga"
-"Attrib_ExplosiveSniperShot_shortdesc"			"Headshot Explosivo"
+"Attrib_ExplosiveSniperShot_shortdesc"			"Headshot explosivo"
 
 // Spy
 "Attrib_RoboSapper_shortdesc"					"Potência do Sapador"
@@ -12157,10 +12157,10 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 
 // Demo
 "Attrib_ChargeImpactDamageIncreased_shortdesc"	"+%s1% de dano da investida"
-"Attrib_ChargeRechargeRateIncreased_shortdesc"	"+%s1% Rec. Carga"
+"Attrib_ChargeRechargeRateIncreased_shortdesc"	"+%s1% de taxa de recarga da investida"
 
 // Scout
-"Attrib_MarkForDeath_shortdesc"					"Bola Marca Alvo"
+"Attrib_MarkForDeath_shortdesc"					"Bola marca alvo"
 
 // Halloween Merasmus Hat
 "Attrib_Merasmus_Hat_Level"						"Merasmus morto a nível %s1"

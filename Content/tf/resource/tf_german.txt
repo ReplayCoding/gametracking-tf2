@@ -5297,7 +5297,6 @@
 "TF_MapToken_CursedCove"			"Kartenbriefmarke – Cursed Cove"
 "TF_MapToken_CursedCove_Desc"		"Eine Spielerzerstörungskarte\n\nErstellt von Louie „bakscratch“ Turner, Juha „Jusa“ Kuoppala, Sean „boomsta“ Troehler, Jordan „Hex“ LeBlanc, EmNudge, Zach „Exactol“ Matuson, Nick „Bobby BodyOdor“ Baker, Duncan „Magnus“ Welch, Nathan „Yacan1“ Dadey, Roniña „Py-Bun“ Rodriguez, Stiffy360 und Deacon\n\nDurch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Cursed Cove direkt unterstützt. Zeigen Sie Ihre Unterstützung noch heute!"
 "TF_MapToken_CursedCove_AdText"		"-Durch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Cursed Cove direkt unterstützt."
-"TF_Map_Laughter"				"Lachen"
 "TF_MapToken_Laughter"			"Kartenbriefmarke – Laughter"
 "TF_MapToken_Laughter_Desc"		"Eine King-of-the-Hill-Karte\n\nErstellt von Aeon „Void“ Bollig, Liam „Diva Dan“ Moffitt, Fuzzymellow und Zoey „Sexy Robot“ Smith\n\nDurch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Laughter direkt unterstützt. Zeigen Sie Ihre Unterstützung noch heute!"
 "TF_MapToken_Laughter_AdText"	"-Durch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Laughter direkt unterstützt."
@@ -11017,6 +11016,11 @@
 
 "halloween2023_event_footer"			"Während des Scream-Fortress-Events erhalten alle neuen ungewöhnlichen Gegenstände einen Halloween-2023-Effekt"
 
+"halloween2024_collection_name"			"Schreckliche-Schatzkiste-Kollektion"
+"halloween2024_collection_case"			"Schreckliche Schatzkiste"
+"halloween2024_collection_case_desc"	"Diese Kiste ist verschlossen und es wird ein\nSchreckliche-Schatzkiste-Schlüssel zum Öffnen benötigt.\n\nEnthält einen von der Community erstellten Gegenstand\naus der Schreckliche-Schatzkiste-Kollektion."
+"halloween2024_collection_key"			"Schreckliche-Schatzkiste-Schlüssel"
+"halloween2024_collection_key_desc"		"Wird benötigt, um die Schreckliche Schatzkiste zu öffnen."
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -17613,9 +17617,12 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_taunt_unleashed_rage"					"Verspottung: Entfesselte Wut"
 "TF_taunt_unleashed_rage_Desc"				"Von der Community erstellte Verspottung für alle Klassen"
 "TF_taunt_unleashed_rage_AdText"			"-Von der Community erstellte Verspottung für alle Klassen"
+"TF_taunt_crushing_defeat"					"Verspottung: Vernichtende Niederlage"
 "TF_taunt_crushing_defeat_Desc"				"Von der Community erstellte Heavy-Verspottung"
 "TF_taunt_crushing_defeat_AdText"			"-Von der Community erstellte Heavy-Verspottung"
+"TF_taunt_peace_out"						"Verspottung: Friede sei mit dir, Bruder"
 "TF_taunt_peace_out_AdText"					"-Von der Community erstellte Scout-Verspottung"
+"TF_taunt_commending_clap"					"Verspottung: Anerkennendes Klatschen"
 "TF_taunt_commending_clap_Desc"				"Von der Community erstellte Verspottung für alle Klassen"
 "TF_taunt_commending_clap_AdText"			"-Von der Community erstellte Verspottung für alle Klassen"
 "TF_taunt_the_punchline_Desc"				"Von der Community erstellte Spy-Verspottung"
@@ -19489,6 +19496,10 @@ Spieler mit dem meisten gesammeltem Australium im jeweiligen Team versorgen Team
 "tf_zi_intro_part3"						"Falls Sie es zulassen, müssen Sie damit rechnen, selbst infiziert zu werden …"
 "tf_zi_intro_part4"						"Sobald die Vorbereitung endet, verwandelt sich ein Teil des menschlichen Teams sofort in ZOMBIES!"
 "tf_zi_intro_part5"						"Als Zombie: Infizieren Sie alle menschlichen Spieler, um zu gewinnen!"
+"tf_zi_team_red"						"Überlebende"
+"tf_zi_team_blue"						"Zombies"
+"tf_zi_pyro_blast_name"					"Drachenatem" 
+
 "arena_perks_message_tie"		"Unentschieden!"
 
 }

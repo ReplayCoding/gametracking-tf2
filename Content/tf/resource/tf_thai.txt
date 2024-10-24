@@ -6112,7 +6112,7 @@
 "pd_watergate_objective"				"เก็บและส่งเบียร์ไปยังลำแสง UFO เพื่อรับแต้มคะแนน!"
 "pd_monster_bash_objective"				"เก็บชิ้นส่วนร่างกายที่ตกอยู่และนำไปใส่เครื่อง Reanimator เพื่อรับแต้มคะแนน!"
 "pd_monster_bash_message"				"โล่ป้องกันแตกแล้ว - รีบไปฝากคะแนนของคุณ!"
-"pd_pit_of_death_event_objective"		"เก็บและส่งวิญญาณที่หลอกหลอนไปนรกเพื่อรับแต้มคะแนน!"
+"pd_pit_of_death_event_objective"		"เก็บและส่งวิญญาณที่หลอกหลอนไป Underworld เพื่อรับแต้มคะแนน!"
 "pd_cursed_cove_objective"				"เก็บและส่งวิญญาณไปยังตู้ล็อกเกอร์"
 "pd_cursed_cove_message1"				"โซนกำลังหดตัว!"
 "pd_cursed_cove_message2"				"รีบออกจากตู้ล็อกเกอร์!"
@@ -9148,7 +9148,7 @@
 "KillEaterEvent_TauntingPlayerKills"			"สังหารผู้เล่นที่กำลังเยาะเย้ย"
 
 "KillEaterEvent_HalloweenOverworldKills"		"สังหารในงานเทศกาล"
-"KillEaterEvent_HalloweenUnderworldKills"		"สังหารในนรกของงานเทศกาล"
+"KillEaterEvent_HalloweenUnderworldKills"		"สังหารใน Carnival Underworld"
 "KillEaterEvent_HalloweenMinigamesWon"			"ชนะเกมในงานเทศกาล"
 
 "KillEaterEvent_PlayerWearingUnusualKill"			"สังหารผู้เล่นที่สวมใส่ Unusual"
@@ -11474,7 +11474,7 @@
 "Attrib_AppliesSnareEffect_shortdesc"			"ลดความเร็วของเป้าหมาย %s1%"
 "Attrib_BleedingDuration_shortdesc"				"เป้าหมายเลือดไหล +%s1s"
 "Attrib_SRifleChargeRate_Increased_shortdesc"	"ชาร์จเร็วขึ้น %s1%"
-"Attrib_ExplosiveSniperShot_shortdesc"			"ระเบิดรอบ ๆ เมื่อยิงโดนศีรษะ"
+"Attrib_ExplosiveSniperShot_shortdesc"			"ระเบิดเมื่อยิงหัว"
 
 // Spy
 "Attrib_RoboSapper_shortdesc"					"พลังของ Sapper ต่อหุ่นยนต์"
@@ -14025,7 +14025,7 @@
 
 "TF_Halloween_Eyeball_Boss_Killers"			"%player% เป็นผู้ปราบ MONOCULUS!\n"
 "TF_Halloween_Eyeball_Boss_Stun"	"%player% ได้สตัน MONOCULUS!\n"
-"TF_Halloween_Underworld"	"%s1 หนีจากนรกมาได้!\n"
+"TF_Halloween_Underworld"	"%s1 หนีจาก Underworld มาได้!\n"
 "TF_Halloween_Loot_Island"	"%s1 ได้ไปถึง Loot Island!\n"
 
 "TF_Halloween_Merasmus_Appeared"		"MERASMUS! ได้ปรากฎแล้ว!\n"
@@ -15566,7 +15566,7 @@
 "TF_ImportFile_AnimationSourceFileType"	"*.smd,*.dmx,*.fbx"
 "TF_ImportFile_SelectAnimationVCD"	"เลือกแอนิเมชัน VCD"
 "TF_ImportFile_AnimationVCDFileType"	"*.vcd"
-"TF_ImportFile_ModelDetails"	"%triangleCount% สามเหลี่ยม, %materialCount% แมททีเรียล"
+"TF_ImportFile_ModelDetails"	"%triangleCount% สามเหลี่ยม, %materialCount% วัสดุ"
 "TF_ImportFile_SelectMaterial"	"เลือกวัสดุ"
 "TF_ImportFile_MaterialFileType"	"*.tga,*.psd"
 "TF_ImportFile_MaterialDetails"	"%width%x%height% %channels% ช่องสี"
@@ -15585,18 +15585,18 @@
 "TF_ImportFile_BuildFailedNoModels"	"คุณต้องเลือกหนึ่งโมเดล"
 "TF_ImportFile_BuildFailedNumLODMismatch" "จำนวนระดับของรายละเอียดไม่ตรงกัน! ทุกอาชีพต้องมีจำนวนระดับของลายละเอียดที่เท่ากัน"
 "TF_ImportFile_BuildFailedNoMaterials"	"ข้อมูลสกินไม่มีเทกเจอร์! ข้อมูลสกินทั้งหมดต้องมีการกำหนดเทกเจอร์ไว้"
-"TF_ImportFile_BuildFailedNumMaterialMismatch"	"จำนวนแมททีเรียลไม่ตรงกัน! โมเดลที่มีระดับของรายละเอียดเดียวกันต้องมีจำนวนแมททีเรียลเท่ากัน"
+"TF_ImportFile_BuildFailedNumMaterialMismatch"	"จำนวนวัสดุไม่ตรงกัน! โมเดลที่มีระดับของรายละเอียดเดียวกันต้องมีจำนวนวัสดุเท่ากัน"
 "TF_ImportFile_BuildFailedNoBackpackIcon"	"คุณต้องระบุไอคอนของกระเป๋า"
 "TF_ImportFile_BuildFailedBadName"	"ชื่อไอเท็มของคุณต้องประกอบด้วยคำภาษาอังกฤษตั้งแต่หนึ่งคำขึ้นไป"
 "TF_ImportFile_BuildFailedBadType"	"ประเภทไอเท็มที่ไม่รู้จัก"
 "TF_ImportFile_BuildFailedBadModel"	"ไม่สามารถโหลดโมเดล %file%"
-"TF_ImportFile_BuildFailedBadMaterialType" "โมเดลมีแมททีเรียลมากเกินไป (รองรับถึง 2 แมททีเรียลเท่านั้น)"
-"TF_ImportFile_BuildFailedBadMaterial"	"ไม่สามารถโหลดแมททีเรียล %file% ได้"
-"TF_ImportFile_BuildFailedMaterialMissingShader"	"แมททีเรียล %file% ไม่มีเชดเดอร์ VertexlitGeneric"
-"TF_ImportFile_BuildFailedMaterialMissingCloak"	"แมททีเรียล %file% ไม่มีเอฟเฟกต์ล่องหน (ดู standard.vmt สำหรับตัวอย่าง)"
-"TF_ImportFile_BuildFailedMaterialMissingBurning"	"แมททีเรียล %file% ไม่มีเอฟเฟกต์ติดไฟ (ดู standard.vmt สำหรับตัวอย่าง)"
-"TF_ImportFile_BuildFailedMaterialMissingJarate"	"แมททีเรียล %file% ไม่มีเอฟเฟกต์ Jarate (ดู standard.vmt สำหรับตัวอย่าง)"
-"TF_ImportFile_BuildFailedMaterialMissingPaintable"	"แมททีเรียล %file% ไม่มีพารามิเตอร์ที่พิมพ์ได้ (ดู standard.vmt สำหรับตัวอย่าง)"
+"TF_ImportFile_BuildFailedBadMaterialType" "โมเดลมีวัสดุมากเกินไป (รองรับถึง 2 วัสดุเท่านั้น)"
+"TF_ImportFile_BuildFailedBadMaterial"	"ไม่สามารถโหลดวัสดุ %file% ได้"
+"TF_ImportFile_BuildFailedMaterialMissingShader"	"วัสดุ %file% ไม่มีเชดเดอร์ VertexlitGeneric"
+"TF_ImportFile_BuildFailedMaterialMissingCloak"	"วัสดุ %file% ไม่มีเอฟเฟกต์ล่องหน (ดู standard.vmt สำหรับตัวอย่าง)"
+"TF_ImportFile_BuildFailedMaterialMissingBurning"	"วัสดุ %file% ไม่มีเอฟเฟกต์ติดไฟ (ดู standard.vmt สำหรับตัวอย่าง)"
+"TF_ImportFile_BuildFailedMaterialMissingJarate"	"วัสดุ %file% ไม่มีเอฟเฟกต์ Jarate (ดู standard.vmt สำหรับตัวอย่าง)"
+"TF_ImportFile_BuildFailedMaterialMissingPaintable"	"วัสดุ %file% ไม่มีพารามิเตอร์ที่พิมพ์ได้ (ดู standard.vmt สำหรับตัวอย่าง)"
 "TF_ImportFile_BuildFailedMissingModel" "%class% ไม่มีโมเดลความละเอียดสูง"
 "TF_ImportFile_BuildFailedNeedMoreLOD"	"%file% มีความซับซ้อนมากเกินไป ต้องระบุ %lod%"
 "TF_ImportFile_BuildFailedComplexModel"	"โมเดล %file% มี %count% สามเหลี่ยม สามารถมีได้สูงสุดถึง %limit% สามเหลี่ยม"
@@ -15613,8 +15613,8 @@
 "TF_ImportFile_LoadFailed"		"การโหลดล้มเหลว"
 "TF_ImportFile_LoadFailedBadFile"	"ไม่สามารถโหลด %file%"
 "TF_ImportFile_LoadFailedTooManyBones"	"ไม่สามารถโหลด %file% ได้ \nเนื่องจากมี %count% กระดูกแบบกำหนดเอง สามารถมีได้สูงสุดถึง %limit% กระดูกแบบกำหนดเอง \nกระดูกแบบกำหนดเอง: %custom_bones%"
-"TF_ImportFile_LoadFailedTooManyMaterials"	"ไม่สามารถโหลด %file% ได้ \nเนื่องจากมี %count% แมททีเรียล สามารถมีได้สูงสุดถึง %limit% แมททีเรียล"
-"TF_ImportFile_LoadFailedMaterialCountMismatch"	"ไม่สามารถโหลด %file% ได้ \nจำนวนแมททีเรียลไม่ตรงกับระดับของรายละเอียด"
+"TF_ImportFile_LoadFailedTooManyMaterials"	"ไม่สามารถโหลด %file% ได้ \nเนื่องจากมี %count% วัสดุ สามารถมีได้สูงสุดถึง %limit% วัสดุ"
+"TF_ImportFile_LoadFailedMaterialCountMismatch"	"ไม่สามารถโหลด %file% ได้ \nจำนวนวัสดุไม่ตรงกับระดับของรายละเอียด"
 "TF_ImportFile_LoadFailedBadIconResolution"	"ไม่สามารถโหลด %file% ได้ \nความละเอียดไอคอนต้องเป็น 512x512"
 "TF_ImportFile_LoadFailedImageNot32Bits"	"รูปภาพไอคอนต้องเป็น 32-บิต รวม alpha mask ที่เป็นขอบของไอคอน"
 "TF_ImportFile_LoadFailedImageDoesNotFitInsideSafeZone"	"ภาพไอคอนไม่พอดีกับขอบด้านในของโซนปลอดภัยที่ 512x328 ไอคอนกระเป๋าจะถูกครอปจากด้านบนสุดและล่างสุดให้เหลือ 512x328 ด้านบนและด้านล่างนอก 512x92 พิกเซล ในมาส์กดิฟฟิวส์และมาส์กแอลฟาต้องเป็นสีดำ (RGBA 0 0 0 0)"
@@ -15651,13 +15651,13 @@
 "TF_ImportFile_OptionsExplanation_Title"	"ตัวเลือก"
 "TF_ImportFile_OptionsExplanation_Text"		"ดูที่ตัวละครของคุณในท่าโพสที่มีสไตล์!"
 "TF_ImportFile_AdvancedExplanation_Title"	"ขั้นสูง"
-"TF_ImportFile_AdvancedExplanation_Text"	"สำหรับการทำงานขั้นสูง คุณสามารถปรับแต่งพารามิเตอร์ของโมเดลและแมททีเรียลแล้วใช้ปุ่มรีเฟรชเพื่อดูการเปลี่ยนแปลง"
+"TF_ImportFile_AdvancedExplanation_Text"	"สำหรับการทำงานขั้นสูง คุณสามารถปรับแต่งพารามิเตอร์ของโมเดลและวัสดุแล้วใช้ปุ่มรีเฟรชเพื่อดูการเปลี่ยนแปลง"
 "TF_ImportFile_Verify"			"ยืนยัน"
 "TF_ItemSkinType_0"				"ทุกทีม"
 "TF_ItemSkinType_1"				"ทีมที่ระบุไว้"
 "TF_ImportFile_SwapVMT"			"สลับ VMT"
 "TF_ImportFile_Warning"			"ระวัง!"
-"TF_ImportFile_Warning_BaseAlphaMask"	"มาส์กแอลฟาฐานไม่สามารถใช้งานในแมททีเรียลที่ใช้นอร์มอลแมพ หรือใช้มาส์กแอลฟานอร์มอลแมพแทน"
+"TF_ImportFile_Warning_BaseAlphaMask"	"มาส์กแอลฟาฐานไม่สามารถใช้งานในวัสดุที่ใช้นอร์มอลแมพ หรือใช้มาส์กแอลฟานอร์มอลแมพแทน"
 "TF_ImportFile_NotCompatible"	"เนื้อหาของคุณอาจจะไม่รองรับกับเวอร์ชันปัจจุบันของเครื่องมือนำเข้า กรุณาตรวจสอบและอัปเดตเนื้อหาของคุณ"
 //
 // GAME-SPECIFIC REPLAY STRINGS
@@ -17726,7 +17726,7 @@
 "TF_dec23_lazy_lounger"					"Lazy Lounger"
 "TF_dec23_slumber_slacks"				"Slumber Slacks"
 "TF_dec23_clue_hairdo"					"Clue Hairdo"
-"TF_dec23_clue_hairdo_style1"				"เปิดคดี"
+"TF_dec23_clue_hairdo_style1"				"Case Open"
 "TF_dec23_clue_hairdo_style2"				"ไขคดี"
 "TF_dec23_clue_hairdo_style3"				"หลุดคดี"
 "TF_dec23_sleuth_suit"					"Sleuth Suit"
@@ -18326,7 +18326,7 @@ BLU: คุ้มกัน Redmond Mann ไปเหวนรก!
 RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 
 "pd_pit_of_death_event_description"			"เป้าหมายภารกิจ:
-เพื่อชนะคะแนน เก็บและส่งวิญญาณที่หลอกหลอนไปนรก
+เพื่อชนะคะแนน เก็บและส่งวิญญาณที่หลอกหลอนไป Underworld
 
 หมายเหตุอื่น:
 ผู้เล่นทิ้งวิญญาณเมื่อพวกเขาถูกสังหาร
@@ -18522,6 +18522,16 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 
 "TF_Invalid_Inspect_Target"			"ตรวจสอบเป้าหมายไม่ถูกต้อง"
 
+"tf_zi_ui_passive"						"ติดตัว"
+"tf_zi_ui_zombie_instruction_passive"	"                         ตอนนี้คุณเป็นซอมบี้\n                 ความสามารถติดตัวของคุณถูกเปิดใช้งานแล้ว"
+"tf_zi_scout_passive_name"				"Speed Demon"
+"tf_zi_heavy_passive_name"				"The Tank"
+"tf_zi_medic_passive_name"				"Healing Aura"
+"tf_zi_engie_emp_name"					"EMP Grenade"
+"tf_zi_demo_charge_name"				"Blast Charge"
+"tf_zi_sniper_spit_name"				"Spit"
+"tf_zi_soldier_pounce_name"				"Pounce"
+"tf_zi_spy_reveal_name"					"Reveal"
 "tf_zi_team_red"						"ผู้รอดชีวิต"
 "tf_zi_team_blue"						"ซอมบี้"
 "tf_zi_pyro_blast_name"					"Dragon's Breath" 

@@ -2,16 +2,14 @@
 {
 	"$basetexture"		"models/workshop/player/items/engineer/hwn2024_delldozer/hwn2024_delldozer_1_color"
 	"$bumpmap"		"models/workshop/player/items/engineer/hwn2024_delldozer/hwn2024_delldozer_1_normal"
-	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
-	"$phongexponenttexture"		"models/workshop/player/items/engineer/hwn2024_delldozer/hwn2024_delldozer_1_phongexponent"
+	"$lightwarptexture"		"models/buildables/sentry1/sentry1_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"7.000000"
-	"$phongboost"		"3.000000"
+	"$phongexponent"		"15.000000"
+	"$phongboost"		"2.000000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
-	"$rimlightboost"		"2.000000"
-	"$rimmask"		"1"
+	"$rimlightboost"		"1.500000"
 	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
@@ -22,8 +20,11 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"0"
+		"$selfillum"		"1"
 	}
+	"$selfillumtint"		"[1.000000 1.000000 1.000000]"
+	"$selfIllumFresnel"		"1"
+	"$selfIllumFresnelMinMaxExp"		"[.5 7.5 10]"
 	"proxies"
 	{
 		"invis"

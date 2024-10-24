@@ -10445,6 +10445,7 @@
 // Halloween 2024 Unusual
 "Attrib_Particle350"			"유령 불꽃"
 "Attrib_Particle351"			"은하계 불꽃"
+"Attrib_Particle356"			"귀신들린 안개"
 "Attrib_Particle357"			"박쥐"
 "Attrib_Particle358"			"까마귀"
 "Attrib_Particle359"			"비둘기"
@@ -15808,27 +15809,38 @@
 "TF_sum24_scorched_stompers_style1"			"위장 무늬"
 "TF_sum24_scorched_stompers_style2"			"무늬 없음"
 
+"TF_hwn2024_fleet_commander"			"함대 사령관"
+"TF_hwn2024_fleet_commander_style1"			"지휘관"
+"TF_hwn2024_fleet_commander_style2"			"선장"
 "TF_hwn2024_spider_sights"				"거미 눈"
 "TF_hwn2024_shadow_shroud"				"그림자 쓰개"
 "TF_hwn2024_shadow_shroud_style1"			"습격자"
 "TF_hwn2024_shadow_shroud_style2"			"암행자"
 "TF_hwn2024_witch_doctor"				"주술 치료사" // ADD THE
+"TF_hwn2024_surgeon_general"			"외과 과장" // ADD THE
 "TF_hwn2024_sear_seer"					"센 불의 선지자"
 "TF_hwn2024_sear_seer_style1"				"여명"
 "TF_hwn2024_sear_seer_style2"				"여명 - 렌즈 없음"
 "TF_hwn2024_sear_seer_style3"				"황혼"
 "TF_hwn2024_sear_seer_style4"				"황혼 - 렌즈 없음"
+"TF_hwn2024_chiromancers"				"손금술사의 도구"
 "TF_hwn2024_chiromancers_style1"			"책 있음"
 "TF_hwn2024_chiromancers_style2"			"책 없음"
 "TF_hwn2024_school_nuisance"			"교정의 민폐덩어리"
 "TF_hwn2024_strikeout"					"스트라이크아웃" // ADD THE
 "TF_hwn2024_hellish_overlord"			"지옥의 군주"
+"TF_hwn2024_strigoi_stare"				"스트리고이의 시선"
 "TF_hwn2024_strigoi_stare_style1"			"양식 1"
 "TF_hwn2024_strigoi_stare_style2"			"양식 2"
 "TF_hwn2024_strigoi_stare_style3"			"양식 3"
 "TF_hwn2024_dusk_duster"				"땅거미 코트"
 "TF_hwn2024_dusk_duster_style1"				"노을"
 "TF_hwn2024_dusk_duster_style2"				"황혼"
+"TF_hwn2024_contaminated_carryall"		"오염된 배낭"
+"TF_hwn2024_delldozer"					"델도저"
+"TF_hwn2024_delldozer_style1"				"재창조"
+"TF_hwn2024_delldozer_style2"				"재개조"
+"TF_hwn2024_delldozer_style3"				"재설계"
 "TF_hwn2024_badlands_bandido_style1"		"두건 있음"
 "TF_hwn2024_badlands_bandido_style2"		"두건 없음"
 "TF_hwn2024_defaced_style1"					"오른쪽"
@@ -16332,8 +16344,20 @@ RED는 점령 지점을 수비할 경우 승리합니다. BLU는 제한 시간 �
 추가 내용:
 각 팀에서 가장 많은 오스트레일륨을 모은 플레이어는 주변의 팀원에게 체력과 탄약을 자동으로 제공하지만, 자신의 위치가 적 팀에게 노출됩니다."
 
+"tow_dynamite_description"			"줄다리기
+
+목표:
+수레를 적 기지까지 호위하세요. 시간이 끝날 때까지 방어하세요. 수레 위에 올라서면 수레를 밀 수 있습니다.
+
+기타 참고 사항:
+적이 수레 위에 올라서서 수레를 막을 수 있습니다."
+
+"TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"우버 물약"
+"TF_hwn2024_Freaky_Fair_Giant_Potion"    			"거인 물약"
+"TF_hwn2024_Freaky_Fair_Buster_Potion"    	    	"호박 파괴자 물약"
 "TF_hwn2024_Freaky_Fair_Healing_Potion"    			"치료 물약"
 "TF_hwn2024_Freaky_Fair_Ghost_Potion"    	    	"유령 물약"
+"TF_hwn2024_Freaky_Fair_Rtd_Potion"    	    		"`주사위 굴리기` 물약"
 "TF_hwn2024_Freaky_Fair_Extra_Attrib1"    	    	"Freaky Fair 추가 속성 1"
 "TF_hwn2024_Freaky_Fair_Extra_Attrib2"    	    	"Freaky Fair 추가 속성 2"
 
@@ -16428,7 +16452,16 @@ RED는 점령 지점을 수비할 경우 승리합니다. BLU는 제한 시간 �
 "TF_Disconnected"					"연결 끊김"
 "TF_Invalid_Inspect_Target"			"유효하지 않은 조사 대상"
 
+"tf_zi_ui_crits"						"치명타"
+"tf_zi_ui_minicrits"					"소형 치명타"
+"tf_zi_ui_passive"						"패시브"
+"tf_zi_ui_casting"						"시전 중..."
+"tf_zi_ui_ready"						"준비 완료!"
+"tf_zi_ui_zombie_instruction"			"                         당신은 이제 좀비입니다!\n          보조 공격 키를 눌러 능력을 시전하세요."
+"tf_zi_ui_zombie_instruction_passive"	"                         당신은 이제 좀비입니다!\n          패시브 능력이 활성화되었습니다."
+"tf_zi_scout_passive_name"				"속도광"
 "tf_zi_heavy_passive_name"				"탱크"
+"tf_zi_medic_passive_name"				"치료 오라"
 "tf_zi_engie_emp_name"					"EMP 수류탄"
 "tf_zi_demo_charge_name"				"폭발 돌격"
 "tf_zi_sniper_spit_name"				"침 뱉기"
