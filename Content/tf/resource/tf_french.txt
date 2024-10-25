@@ -3359,7 +3359,6 @@
 "TF_Wearable_Headache"				"Lame de tête"
 "TF_Wearable_Shroud"				"Tabar"
 "TF_Wearable_Butler"				"Robot"
-
 "TF_RobotPart_Type"	"Pièce robotique"
 "TF_CircuitBoard_Type"	"Circuit imprimé"
 
@@ -6465,8 +6464,6 @@
 "arena_lumberyard_event_blu_buffed"		"LE DERNIER MEMBRE DE BLU a reçu un BONUS !"
 "arena_lumberyard_event_red_buffed"		"LE DERNIER MEMBRE DE RED a reçu un BONUS !"
 "arena_lumberyard_event_skeleton"		"LE ROI SQUELETTE VIENT D'APPARAITRE QUELQUE PART !"
-"arena_lumberyard_event_heal"			"\\x07FF69B4VOUS AVEZ PÉRI ! \\x07FBECCBVous êtes un \\x07FF69B4FANTÔME\\x07FBECCB. Soignez votre équipe !"
-"arena_lumberyard_event_spell"			"\\x07FBECCBA \\x07FF69B4Un sort rare \\x07FBECCBAapparait quelque part !"
 "ctf_crasher_objective"					"Escortez votre géant jusqu'à la porte ennemie !"
 "ctf_crasher_giant_down"				"Notre géant s'est fait descendre, la bombe réapparait !"
 "ctf_crasher_new_giant"					"Nous avons un nouveau géant !"
@@ -12414,9 +12411,6 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Attrib_Particle354"			"Frankencharge"
 "Attrib_Particle355"			"Peste fantôme"
 "Attrib_Particle356"			"Fumée maudite"
-"Attrib_Particle357"			"Chauvesouris"
-"Attrib_Particle358"			"Nuée de corbeaux"
-"Attrib_Particle359"			"Envol de colombes"
 "Attrib_Particle360"			"Gazinière d'artifice"
 "Attrib_Particle361"			"Gazinière d'artifice"
 "Attrib_Particle362"			"Über ardent"
@@ -16366,7 +16360,6 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "AbuseReport_Discard"	"Annuler"
 "AbuseReport_SaveForLater"	"Plus tard"
 "AbuseReport_SelectOne"	"-- choisir --"
-
 "AbuseReport_Notification"	"Signalement d'abus prêt à l'envoi"
 "AbuseReport_Notification_Help"	"Appuyez sur [ %cl_trigger_first_notification% ] pour SOUMETTRE DÈS MAINTENANT.\nAppuyer sur [ %cl_decline_first_notification% ] pour SOUMETTRE PLUS TARD."
 
@@ -19700,10 +19693,6 @@ les adversaires peuvent bloquer la charge utile en se positionnant dessus."
 "vsh_end_this"						"Finissez-en avant la fin du temps imparti !"
 
 "tf_zi_ui_survivor_die"					" s'est fait infecter par "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB s'est fait infecter par \\x0738F3AB%s\\x07FBECCB !"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB s'est fait infecter !"
-"tf_zi_ui_last_survivor_minicrit"		"\\x07FBECCB%d ENCORE EN VIE ! \\x07FFD700%s\\x07FBECCB activés !"
-"tf_zi_ui_last_survivor_crit"			"IL NE RESTE PLUS QUE \\x07FF3F3F%s\\x07FBECCB ! \\x0716FD1D%s\\x07FBECCB activés !"
 "tf_zi_ui_crits"						"COUPS CRITIQUES"
 "tf_zi_ui_minicrits"					"MINI-CRITS"
 "tf_zi_ui_first_wave_msg_plural"		" sont maintenant des ZOMBIES !"

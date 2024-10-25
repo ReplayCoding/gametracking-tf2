@@ -22,8 +22,11 @@ if ( "InfectionLoaded" in getroottable() )
 ::bSetupHasEnded       <- false;
 ::bIsPayload           <- false;
 
+::bNewFirstWaveBehaviour <- false;
+::bNoPyroExplosionMod    <- false;
+
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v3.0.3 - 14/10/2024";
+const VERSION       =  "v3.0.4 - 24/10/2024";
 
 ::INFECTION_CONVARS <-
 {

@@ -328,6 +328,11 @@ ShouldZombiesWin <- function( _hPlayer )
                     _hNextPlayer.GetScriptScope().m_bLastManStanding <- true;
                     _hNextPlayer.GetScriptScope().m_bLastThree       <- false;
 
+                    if (_hNextPlayer.GetPlayerClass() == TF_CLASS_SOLDIER || _hNextPlayer.GetPlayerClass() == TF_CLASS_DEMOMAN)
+                    {
+                        local _bDestroyedParachuteResult = _hNextPlayer.HasThisWeapon( 1101, true );
+                    }
+
                     _hNextPlayer.AddCond( TF_COND_CRITBOOSTED );
                 };
             };
@@ -460,7 +465,7 @@ SlayPlayerWithSpoofedIDX <-  function(_hAttacker, _hVictim, _hAttackerWep, _vecD
 // usage: _playerHandle.<functionName>( _args );                                           //
 // --------------------------------------------------------------------------------------- //
 
-CTFPlayer_HasThisWeapon <- function( _WeaponIndentity )
+CTFPlayer_HasThisWeapon <-  function( _WeaponIndentity, _bDeleteItemOnFind = false )
 {
     for ( local i = 0; i < TF_WEAPON_COUNT; i++ )
     {
@@ -473,6 +478,11 @@ CTFPlayer_HasThisWeapon <- function( _WeaponIndentity )
         {
             if ( _hNextWeapon.GetClassname() == _WeaponIndentity )
             {
+                if ( _bDeleteItemOnFind )
+                {
+                    _hNextWeapon.Destroy();
+                }
+
                 return true;
             };
         }
@@ -480,6 +490,11 @@ CTFPlayer_HasThisWeapon <- function( _WeaponIndentity )
         {
             if ( GetPropInt( _hNextWeapon, STRING_NETPROP_ITEMDEF ) == _WeaponIndentity )
             {
+                if ( _bDeleteItemOnFind )
+                {
+                    _hNextWeapon.Destroy();
+                }
+
                 return true;
             };
         };
@@ -1270,6 +1285,7 @@ CTFPlayer_ResetInfectionVars <- function()
     _sc.m_bLastManStanding      <- false;
     _sc.m_bZombieHUDInitialized <- false;
     _sc.m_bLastThree            <- false;
+    _sc.m_bStandingOnSpit       <- false;
 
     _sc.m_hZombieWep            <- null;
     _sc.m_hZombieArms           <- null;
@@ -1279,6 +1295,7 @@ CTFPlayer_ResetInfectionVars <- function()
     _sc.m_hTempEntity           <- null;
     _sc.m_hHUDText              <- null;
     _sc.m_hHUDTextAbilityName   <- null;
+    _sc.m_hLinkedSpitPool       <- null;
 
     _sc.m_fTimeNextCast         <- 0.0;
     _sc.m_fTimeNextTalk         <- 0.0;
@@ -1309,10 +1326,7 @@ CTFPlayer_ModifyJumperWeapons <- function()
         {
             local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 1 );
 
-            if ( GetPropInt( _hWeapon, STRING_NETPROP_ITEMDEF ) != 237 )
-                return;
-
-            _hWeapon.AddAttribute ( "maxammo primary reduced", 0.01, -1 );
+            _hWeapon.AddAttribute ( "maxammo primary reduced", 0.0, -1 );
             SetPropIntArray       ( this, "m_iAmmo", 0, 1 );
 
             _hWeapon.ReapplyProvision();
@@ -1324,9 +1338,6 @@ CTFPlayer_ModifyJumperWeapons <- function()
     {
         if ( this.HasThisWeapon( 265 ) ) // sticky jumper
         {
-            if ( GetPropInt( _hWeapon, STRING_NETPROP_ITEMDEF ) != 265 )
-                return;
-
             local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 2 );
 
             _hWeapon.AddAttribute ( "hidden secondary max ammo penalty", 0.02, -1 );
@@ -1500,6 +1511,68 @@ CTFPlayer_ClearZombieEntities <- function()
 
     return;
 };
+
+CTFPlayer_AlreadyInSpit <-  function()
+{
+    local _sc = this.GetScriptScope();
+
+    return _sc.m_bStandingOnSpit;
+}
+
+CTFPlayer_GetLinkedSpitPoolEnt <- function()
+{
+   // printl("Getting linked spit pool entity from player...")
+    local _sc = this.GetScriptScope();
+
+    if ( !_sc.m_bStandingOnSpit )
+        return null;
+
+    if ( _sc.m_hLinkedSpitPool != null && _sc.m_hLinkedSpitPool.IsValid() )
+        return _sc.m_hLinkedSpitPool;
+
+    return null;
+}
+
+CTFPlayer_SetLinkedSpitPoolEnt <- function( _hSpitPool )
+{
+    local _sc = this.GetScriptScope();
+
+    if ( _hSpitPool == null || !_hSpitPool.IsValid() )
+        return;
+
+   // printl("Setting linked spit pool entity for player...")
+
+    _sc.m_bStandingOnSpit = true;
+    _sc.m_hLinkedSpitPool = _hSpitPool;
+    return;
+}
+
+CTFPlayer_ClearSpitStatus <- function()
+{
+    local _sc = this.GetScriptScope();
+
+   // printl("Clearing spit status for player...")
+
+    _sc.m_bStandingOnSpit = false;
+    _sc.m_hLinkedSpitPool = null;
+    return;
+}
+
+CTFPlayer_GetWeaponHandle <- function( _szWeaponClassname )
+{
+    for ( local i = 0; i < TF_WEAPON_COUNT; i++ )
+    {
+        local _hNextWeapon = GetPropEntityArray( this, "m_hMyWeapons", i )
+
+        if ( _hNextWeapon == null )
+            continue;
+
+        if ( _hNextWeapon.GetClassname() == _szWeaponClassname )
+            return _hNextWeapon;
+    };
+
+    return null;
+}
 
 // --------------------------------------------------------------------------------------- //
 // Since CTFBot inherits from CTFPlayer_ before VScripts run, we need to manually put these //

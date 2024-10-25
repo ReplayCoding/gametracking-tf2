@@ -3360,7 +3360,6 @@
 "TF_Wearable_Headache"				"fejfájás"
 "TF_Wearable_Shroud"				"köpönyeg"
 "TF_Wearable_Butler"				"komornyik"
-
 "TF_RobotPart_Type"	"Robotalkatrész"
 "TF_CircuitBoard_Type"	"Nyomtatott áramkör"
 
@@ -6473,8 +6472,6 @@
 "arena_lumberyard_event_blu_buffed"		"A BLU csapat UTOLSÓ JÁTÉKOSA most FELERŐSÖDÖTT!"
 "arena_lumberyard_event_red_buffed"		"A RED csapat UTOLSÓ JÁTÉKOSA most FELERŐSÖDÖTT!"
 "arena_lumberyard_event_skeleton"		"A CSONTVÁZKIRÁLY VÉLETLENSZERŰEN MEGJELENT!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4MEGHALTÁL! \\x07FF69B4SZELLEM\\x07FBECCBként\\x07FBECCB gyógyítsd a csapatod!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBEgy \\x07FF69B4ritka varázslat \\x07FBECCBjelenik meg véletlenszerű helyen!"
 "ctf_crasher_objective"					"Kísérjétek az óriásotokat az ellenség kapujához!"
 "ctf_crasher_giant_down"				"Az óriásunk elesett, a bomba újraszületik!"
 "ctf_crasher_new_giant"					"Új óriásunk van!"
@@ -12423,9 +12420,6 @@
 "Attrib_Particle354"			"Frankentöltve"
 "Attrib_Particle355"			"Fantompestis"
 "Attrib_Particle356"			"Kísértő köd"
-"Attrib_Particle357"			"Dermesztő denevérek"
-"Attrib_Particle358"			"Hálátlan hollók"
-"Attrib_Particle359"			"Gyönyörű gerlék"
 "Attrib_Particle360"			"Perzselő tűzhely"
 "Attrib_Particle361"			"Perzselő tűzhely"
 "Attrib_Particle362"			"Überláng"
@@ -16375,7 +16369,6 @@
 "AbuseReport_Discard"	"Elvetés"
 "AbuseReport_SaveForLater"	"Befejezés később"
 "AbuseReport_SelectOne"	"-- válassz --"
-
 "AbuseReport_Notification"	"A szabálytalanság-jelentés elküldésre kész"
 "AbuseReport_Notification_Help"	"A(z) [ %cl_trigger_first_notification% ] megnyomásával MOST ELKÜLDÖD.\nA(z) [ %cl_decline_first_notification% ] megnyomásával KÉSŐBB KÜLDÖD EL."
 
@@ -19779,10 +19772,6 @@ Az ellenfél ráállva meg tudja állítani a kocsit."
 "vsh_end_this"						"Fejezd be, mielőtt lejár az idő!"
 
 "tf_zi_ui_survivor_die"					" tőle kapta a fertőzést: "
-"tf_zi_ui_infect_msg"					"\\x0738F3AB%s\\x07FBECCB megfertőzte \\x07FF3F3F%s\\x07FBECCB játékost!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB megfertőződött!"
-"tf_zi_ui_last_survivor_minicrit"		"\\x07FBECCB%d TÚLÉLŐ MARADT! Mostantól \\x07FFD700%s\\x07FBECCB képességük van!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB AZ UTOLSÓ TÚLÉLŐ! Mostantól \\x0716FD1D%s\\x07FBECCB képessége van!"
 "tf_zi_ui_crits"						"KRITIKUS TALÁLAT"
 "tf_zi_ui_minicrits"					"MINI-KRIT"
 "tf_zi_ui_first_wave_msg_plural"		" MEGFERTŐZŐDÖTT!"

@@ -3285,7 +3285,6 @@
 "TF_Wearable_Headache"				"Kopfschmerzen"
 "TF_Wearable_Shroud"				"Wappenumhang"
 "TF_Wearable_Butler"				"Diener"
-
 "TF_RobotPart_Type"	"Roboterteil"
 "TF_CircuitBoard_Type"	"Leiterplatine"
 
@@ -16152,7 +16151,6 @@ ________________________________________
 "AbuseReport_Discard"	"Verwerfen"
 "AbuseReport_SaveForLater"	"Später fertigstellen"
 "AbuseReport_SelectOne"	"-- Auswählen --"
-
 "AbuseReport_Notification"	"Verstoßmeldung bereit zum Senden"
 "AbuseReport_Notification_Help"	"Drücken Sie [ %cl_trigger_first_notification% ] zum SOFORTIGEN ABSENDEN.\nDrücken Sie [ %cl_decline_first_notification% ], um SPÄTER ZU SENDEN."
 
@@ -19466,10 +19464,6 @@ Spieler mit dem meisten gesammeltem Australium im jeweiligen Team versorgen Team
 "vsh_end_this"						"Bringen Sie es zu Ende, bevor die Zeit abläuft!"
 
 "tf_zi_ui_survivor_die"					" wurde infiziert von "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB wurde von \\x0738F3AB%s\\x07FBECCB infiziert!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB wurde infiziert!"
-"tf_zi_ui_last_survivor_minicrit"		"\\x07FBECCB%d ÜBERLEBENDE SIND ÜBRIG! Sie erhalten jetzt \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB IST DER LETZTE ÜBERLEBENDE und erhält jetzt \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"KRITISCHE TREFFER"
 "tf_zi_ui_minicrits"					"MINI-KRITS"
 "tf_zi_ui_first_wave_msg_plural"		" wurden INFIZIERT!"

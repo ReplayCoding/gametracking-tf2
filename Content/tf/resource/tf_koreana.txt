@@ -2126,7 +2126,6 @@
 "TF_Wearable_Gambeson"				"갬비슨"
 "TF_Wearable_Medkit"				"장식용 의료 키트"
 "TF_Wearable_Butler"				"버틀러"
-
 "TF_RobotPart_Type"	"로봇 부품"
 "TF_CircuitBoard_Type"	"회로판"
 
@@ -5027,7 +5026,6 @@
 "arena_lumberyard_event_point_open"		"거점이 열렸습니다!"
 "arena_lumberyard_event_blu_buffed"		"BLU의 마지막 플레이어가 버프를 받았습니다!"
 "arena_lumberyard_event_red_buffed"		"RED의 마지막 플레이어가 버프를 받았습니다!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4죽었습니다! \\x07FBECCB이제 \\x07FF69B4유령으로서\\x07FBECCB 팀을 치료하세요!"
 "ctf_helltrain_event_red_objective"		"BLU의 석탄 코어를 탈취하여 승리하세요!"
 "ctf_helltrain_event_blu_objective"		"RED의 석탄 코어를 탈취하여 승리하세요!"
 "cp_frostwatch_east"					"동쪽 감시탑"
@@ -10446,9 +10444,6 @@
 "Attrib_Particle350"			"유령 불꽃"
 "Attrib_Particle351"			"은하계 불꽃"
 "Attrib_Particle356"			"귀신들린 안개"
-"Attrib_Particle357"			"박쥐"
-"Attrib_Particle358"			"까마귀"
-"Attrib_Particle359"			"비둘기"
 "Attrib_Particle360"			"타오르는 화구"
 "Attrib_Particle361"			"타오르는 화구"
 // Weapon Unusual
@@ -14128,7 +14123,6 @@
 "AbuseReport_Discard"	"버리기"
 "AbuseReport_SaveForLater"	"나중에 완료"
 "AbuseReport_SelectOne"	"-- 선택 --"
-
 "AbuseReport_Notification"	"신고 보고서 제출 준비 완료"
 "AbuseReport_Notification_Help"	"지금 제출하시려면 [ %cl_trigger_first_notification% ] 단추를 누르십시오.\n나중에 제출하시려면 [ %cl_decline_first_notification% ] 단추를 누르십시오."
 

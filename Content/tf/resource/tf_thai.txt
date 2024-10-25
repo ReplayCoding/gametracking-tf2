@@ -3251,7 +3251,6 @@
 "TF_Wearable_Headache"				"หมวกชวนปวดหัว"
 "TF_Wearable_Shroud"				"ผ้าคลุม"
 "TF_Wearable_Butler"				"หุ่นยนต์บริกร"
-
 "TF_RobotPart_Type"	"ชิ้นส่วนหุ่นยนต์"
 "TF_CircuitBoard_Type"	"แผงวงจร"
 
@@ -6234,8 +6233,6 @@
 "arena_lumberyard_event_red_wins"		"ทีม RED ชนะรอบ!"
 "arena_lumberyard_event_blu_wins"		"ทีม BLU ชนะรอบ!"
 "arena_lumberyard_event_point_open"		"จุดนี้เปิดอยู่!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4คุณตายแล้ว! \\x07FBECCBเป็น \\x07FF69B4ผี\\x07FBECCB รักษาทีมของคุณ!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBA \\x07FF69B4เวทมนตร์หายาก \\x07FBECCBเป็นจุดเกิดในตำแหน่งแบบสุ่ม!"
 "cp_frostwatch_east"					"หอคอยทิศตะวันออก"
 "cp_frostwatch_west"					"หอคอยทิศตะวันตก"
 "cp_frostwatch_south"					"หอคอยทิศใต้"
@@ -11816,9 +11813,6 @@
 "Attrib_Particle354"			"Frankencharged"
 "Attrib_Particle355"			"Phantom Plague"
 "Attrib_Particle356"			"Haunting Haze"
-"Attrib_Particle357"			"ค้างคาว"
-"Attrib_Particle358"			"Ravens"
-"Attrib_Particle359"			"Doves"
 "Attrib_Particle360"			"Searing Stove"
 "Attrib_Particle361"			"Searing Stove"
 "Attrib_Particle362"			"Über Blaze"
@@ -15680,7 +15674,6 @@
 "AbuseReport_Discard"	"ละทิ้ง"
 "AbuseReport_SaveForLater"	"ทำให้เสร็จสิ้นในภายหลัง"
 "AbuseReport_SelectOne"	"-- เลือก --"
-
 "AbuseReport_Notification"	"รายงานการกระทำผิดพร้อมที่จะส่งแล้ว"
 "AbuseReport_Notification_Help"	"กด [ %cl_trigger_first_notification% ] เพื่อ ส่งเดี๋ยวนี้ \nกด [ %cl_decline_first_notification% ] เพื่อ ส่งภายหลัง"
 

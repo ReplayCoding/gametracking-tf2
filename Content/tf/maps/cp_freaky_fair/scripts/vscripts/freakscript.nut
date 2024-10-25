@@ -1,33 +1,35 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 ///											BLOOD MONEY											   ///
 ///								Script and assets created by Diva Dan				               ///
-///   This script enables MVM style potionType stations, with kills giving a team money to spend.  ///
+///   This script enables MVM style potionType stations, with kills giving a team money to spend.	   ///
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ForceEnableUpgrades(2)
 local GameRules = Entities.FindByClassname(null, "tf_gamerules")
 local MAX_CLIENTS = MaxClients().tointeger()
 
 ::DebugPrint <- function(message) { if (developer() > 0) {printl(message)} }
+::DebugClientPrint <- function(message) { if (developer() > 0) { ClientPrint(null, HUD_PRINTTALK, message); } }
 
 function SpoofTournamentReady()
 {
 	// 0 - not ready
 	// 1 - ready
 	local ready_state = 1
-
+	
 	local red_check = false
 	local blue_check = false
-
+	
 	for (local i = 1; i <= MAX_CLIENTS; i++)
 	{
 		local player = PlayerInstanceFromIndex(i)
 		if (!player)
 			continue
-
+			
 		local team = player.GetTeam()
 		if (!(team & 2))
 			continue
-
+		
 		if (team == 2)
 		{
 			if (red_check)
@@ -40,12 +42,12 @@ function SpoofTournamentReady()
 				continue
 			blue_check = true
 		}
-
+		
 		if (NetProps.GetPropBoolArray(GameRules, "m_bTeamReady", team))
 			continue
-
+		
 		NetProps.SetPropBoolArray(GameRules, "m_bTeamReady", ready_state == 1, team)
-
+		
 		SendGlobalGameEvent("tournament_stateupdate",
 		{
 			userid = player.entindex(),
@@ -53,9 +55,9 @@ function SpoofTournamentReady()
 			namechange = 0,
 			oldname = " ",
 			newname = " ",
-
+			
 		})
-
+	
 		if (ready_state == 0)
 		{
 			NetProps.SetPropFloat(GameRules, "m_flRestartRoundTime", -1.0)
@@ -84,14 +86,14 @@ const REDGHOSTMODEL = "models/props_halloween/ghost_no_hat_red.mdl";
 const BLUGHOSTMODEL = "models/props_halloween/ghost_no_hat.mdl";
 const POTIONCANTBEUSEDSOUND = "replay/cameracontrolerror.wav";
 
-const BLASTRESIST = "dmg taken from blast reduced";
-const BULLETSRESIST = "dmg taken from bullets reduced";
-const CRITRESIST = "dmg taken from crit reduced";
-const FIRERESIST = "dmg taken from fire reduced";
-const HEALTHREGEN = "health regen";
-const METALREGEN = "metal regen";
-const MOVESPEED = "move speed bonus";
-const JUMPHEIGHT = "increased jump height";
+"dmg taken from blast reduced";
+"dmg taken from bullets reduced";
+"dmg taken from crit reduced";
+"dmg taken from fire reduced";
+"health regen";
+"metal regen";
+"move speed bonus";
+"increased jump height";
 
 const SPOOFVALUE = 69420;
 
@@ -112,16 +114,93 @@ const printEventDetails = true;
 
 ::POTIONNOISERANGE <- 1024;
 
+::UPGRADEABLEWEAPONATTRIBS <- [
+	"damage bonus",
+	"fire rate bonus",
+	"melee attack rate bonus",
+	"clip size bonus upgrade",
+	"maxammo primary increased",
+	"maxammo secondary increased",
+	"maxammo grenades1 increased",
+	"maxammo metal increased",
+	"bleeding duration",
+	"heal on kill",
+	"projectile penetration",
+	"projectile penetration heavy",
+	"bidirectional teleport",
+	"SRifle Charge rate increased",
+	"effect bar recharge rate increased",
+	"ubercharge rate bonus",
+	"engy building health bonus",
+	"engy sentry fire rate increased",
+	"engy dispenser radius increased",
+	"engy disposable sentries",
+	"airblast pushback scale",
+	"applies snare effect",
+	"charge recharge rate increased",
+	"uber duration bonus",
+	"weapon burn dmg increased",
+	"weapon burn time increased",
+	"increase buff duration",
+	"Projectile speed increased",
+	"faster reload rate",
+	"tag__eotlearlysupport",
+	"attack projectiles",
+	"generate rage on damage",
+	"explosive sniper shot",
+	"mark for death",
+	"clip size upgrade atomic",
+	"overheal expert",
+	"mad milk syringes",
+	"rocket specialist",
+	"healing mastery",
+	"generate rage on heal",
+	"damage force reduction",
+	"falling_impact_radius_stun",
+	"thermal_thruster_air_launch",
+	"mult_item_meter_charge_rate",
+	"tag__eotlearlysupport",
+	"freaky fair kritz potion",
+	"freaky fair uber potion",
+	"freaky fair giant potion",
+	"freaky fair buster potion",
+	"freaky fair healing potion",
+	"freaky fair ghost potion",
+	"freaky fair ammo potion",
+	"freaky fair rtd potion",
+	"dmg taken from fire reduced",
+	"dmg taken from blast reduced",
+	"dmg taken from bullets reduced",
+	"dmg taken from crit reduced",
+	"move speed bonus",
+	"health regen",
+	"metal regen",
+	"increased jump height",
+]
+
+::CHARACTERUPGRADESATTRIBS <- {
+	"dmg taken from blast reduced" :	1,
+	"dmg taken from bullets reduced" :	1,
+	"dmg taken from crit reduced" :		1,
+	"dmg taken from fire reduced" :		1,
+	"health regen" :					0,
+	"metal regen" :						0,
+	"move speed bonus" :				1,
+	"increased jump height" :			1,
+}
+
+
+local encounteredWeaponsTrackedDefaultAttributes = {}
+
 local banks = { [TF_TEAM_RED] = 0, [TF_TEAM_BLU] = 0 }
 local lobbySize = 0; //amount of players currently in the lobby
 local playersData = {};
-local firstSpawnOfInitialSpawnWaveisDueToHappen = true;
 
 local canteenTable = {
 	"freaky fair kritz potion" : 				{"potionType": "kritz", 		"cost": 400,	"message": "has used a " + EFFECTPRINTCOLOUR + "KRITZ" + DEFAULTPRINTCOLOUR + " Potion"},
 	"freaky fair uber potion" : 				{"potionType": "uber", 			"cost": 400,	"message": "has used a " + EFFECTPRINTCOLOUR + "UBER" + DEFAULTPRINTCOLOUR + " Potion"},
 	"freaky fair giant potion" :	 			{"potionType": "giant", 		"cost": 300,	"message": "has used a " + EFFECTPRINTCOLOUR + "GIANT" + DEFAULTPRINTCOLOUR + " Potion and is now HUGE!"},
-	"freaky fair buster potion" :				{"potionType": "buster", 		"cost": 300,	"message": "has used a " + EFFECTPRINTCOLOUR + "SENTRY BUSTER" + DEFAULTPRINTCOLOUR + " Potion"},
+	"freaky fair buster potion" :				{"potionType": "buster", 		"cost": 300,	"message": "has used a " + EFFECTPRINTCOLOUR + "PUMPKIN BUSTER" + DEFAULTPRINTCOLOUR + " Potion"},
 	"freaky fair healing potion" : 				{"potionType": "healing",	 	"cost": 200,	"message": "has used a " + EFFECTPRINTCOLOUR + "HEALING" + DEFAULTPRINTCOLOUR + " Potion and has healed themselves and the people around them"},
 	"freaky fair ghost potion" : 				{"potionType": "ghost", 		"cost": 200,	"message": "has used a " + EFFECTPRINTCOLOUR + "GHOST" + DEFAULTPRINTCOLOUR + " Potion. Haunting!"},
 	"freaky fair ammo potion" : 				{"potionType": "ammo", 			"cost": 50, 	"message": "has used a " + EFFECTPRINTCOLOUR + "AMMO" + DEFAULTPRINTCOLOUR + " Potion"},
@@ -130,19 +209,8 @@ local canteenTable = {
 
 ::DebugDrawHull <- function(trace, from_r, from_g, from_b, to_r, to_g, to_b, alpha, duration)
 {
-	DebugDrawBox(trace.start, trace.hullmin, trace.hullmax, from_r, from_g, from_b, alpha, duration)
-	DebugDrawBox(trace.end, trace.hullmin, trace.hullmax, to_r, to_g, to_b, alpha, duration)
-}
-
-local defCharacterUpgrades = {
-	[BLASTRESIST] =		1,
-	[BULLETSRESIST] =	1,
-	[CRITRESIST] =		1,
-	[FIRERESIST] =		1,
-	[HEALTHREGEN] =		0,
-	[METALREGEN] =		0,
-	[MOVESPEED] =		1,
-	[JUMPHEIGHT] =		1,
+    DebugDrawBox(trace.start, trace.hullmin, trace.hullmax, from_r, from_g, from_b, alpha, duration)
+    DebugDrawBox(trace.end, trace.hullmin, trace.hullmax, to_r, to_g, to_b, alpha, duration)    
 }
 
 local rtdEffects = [
@@ -194,7 +262,7 @@ local rtdEffects = [
 	},
 	"giant": {
 		"behaviour": function(params)
-		{
+		{ 
 			params.player.AddCondEx(TF_COND_HALLOWEEN_GIANT,  params.duration, params.player);
 		},
 		"resetBehaviour": function(params) {},
@@ -202,15 +270,15 @@ local rtdEffects = [
 		{
 			local table = {
 				start = player.GetOrigin(),
-				end = player.GetOrigin(),
-				hullmin = Vector(-24.5,-24.5,0)*1.75,
-				hullmax = Vector(24.5,24.5,98)*1.75,
+				end = player.GetOrigin(), 
+				hullmin = Vector(-24.5,-24.5,0)*1.75, 
+				hullmax = Vector(24.5,24.5,98)*1.75, 
 				ignore=player
 			}
 
 			TraceHull(table);
 
-			// DebugPrint("table.hit: " + table.hit)
+			DebugPrint("table.hit: " + table.hit)
 
 			return !table.hit;
 		},
@@ -250,10 +318,11 @@ local rtdEffects = [
 	},
 	"ghost": {	//Ghost
 		"behaviour": function(params)
-		{
+		{ 
 			params.player.AddCondEx(TF_COND_HALLOWEEN_GHOST_MODE,  params.duration, params.player);
 			params.player.RemoveSolidFlags(FSOLID_NOT_SOLID)
 			params.player.SetSolid(SOLID_BBOX)
+
 			params.player.GetScriptScope().timeLastSpooked = Time();
 
 			AddThinkToEnt(params.player, "GhostThink")
@@ -289,7 +358,7 @@ local rtdEffects = [
 		"playerTLK": "",
 		"soundsOnUse": ["player/invuln_off_vaccinator.wav"],
 	},
-	"mfd": {
+	"mfd": {	
 		"behaviour": function(params) { params.player.AddCondEx(TF_COND_MARKEDFORDEATH,  params.duration, params.player); },
 		"resetBehaviour": function(params) { }
 		"requirementsCheck": function(player) { return true; },
@@ -299,7 +368,7 @@ local rtdEffects = [
 		"playerTLK": "TLK_PLAYER_NEGATIVE",
 		"soundsOnUse": ["weapons/samurai/TF_marked_for_death_indicator.wav"],
 	},
-	"frozen": {
+	"frozen": {	
 		"behaviour": function(params) { params.player.AddCondEx(TF_COND_FREEZE_INPUT,  params.duration, params.player); },
 		"resetBehaviour": function(params) { }
 		"requirementsCheck": function(player) { return true; },
@@ -309,7 +378,7 @@ local rtdEffects = [
 		"playerTLK": "TLK_PLAYER_NEGATIVE",
 		"soundsOnUse": ["weapons/icicle_freeze_victim_01.wav",]
 	},
-	"lowGrav": {
+	"lowGrav": {	
 		"behaviour": function(params) { params.player.SetGravity(0.2); },
 		"resetBehaviour": function(params) { params.player.SetGravity(1); },
 		"requirementsCheck": function(player) { return true; },
@@ -329,10 +398,10 @@ local rtdEffects = [
 		"playerTLK": "TLK_MAGIC_GRAVITY",
 		"soundsOnUse": ["lowgravitydown.wav"],
 	},
-	"1000 health": {
-		"behaviour": function(params) {
+	"1000 health": {	
+		"behaviour": function(params) { 
 			params.player.AddCustomAttribute("max health additive bonus", 1000 - params.player.GetMaxHealth(), params.duration);
-			params.player.SetHealth(1000);
+			params.player.SetHealth(1000); 
 		},
 		"resetBehaviour": function(params) { }
 		"requirementsCheck": function(player) { return true; },
@@ -342,9 +411,9 @@ local rtdEffects = [
 		"playerTLK": "TLK_PLAYER_TAUNT2`",
 		"soundsOnUse": ["1000health.wav"],
 	},
-	"1 health": {
-		"behaviour": function(params) {
-			params.player.SetHealth(1);
+	"1 health": {	
+		"behaviour": function(params) { 
+			params.player.SetHealth(1); 
 		},
 		"resetBehaviour": function(params) { }
 		"requirementsCheck": function(player) { return true; },
@@ -373,7 +442,7 @@ local rtdEffects = [
 		"behaviour": function(params) { Entities.DispatchSpawn(params.player); },
 		"resetBehaviour": function(params) { }
 		"requirementsCheck": function(player) { return true; },
-		"duration": 0,
+		"duration": 5,
 		"message": "and has RESPAWNED!",
 		"canDisguiseDuring": true,
 		"playerTLK": "TLK_PLAYER_JEERS",
@@ -401,12 +470,12 @@ local rtdEffects = [
 	},
 	"midas": {
 		"behaviour": function(params)
-		{
-			foreach (weapon in GetPlayerWeapons(params.player)) { weapon.AddAttribute("turn to gold", 1, params.duration); }
+		{ 
+			foreach (weapon in GetPlayerWeapons(params.player, true)) { weapon.AddAttribute("turn to gold", 1, params.duration); }
 		},
 		"resetBehaviour": function(params)
-		{
-			foreach (weapon in GetPlayerWeapons(params.player)) { weapon.RemoveAttribute("turn to gold"); }
+		{ 
+			foreach (weapon in GetPlayerWeapons(params.player, true)) { weapon.RemoveAttribute("turn to gold"); }
 		},
 		"requirementsCheck": function(player) { return true; },
 		"duration": 10,
@@ -448,49 +517,45 @@ function CreatePlayerEntry(player)
 	local entry = playersData[GetPlayerSteamID(player)] <- {
 		"teamData": {
 			[TF_TEAM_RED] = {
-				[TF_CLASS_SCOUT] =			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SOLDIER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_PYRO] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_DEMOMAN] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_HEAVYWEAPONS] = 	{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_ENGINEER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_MEDIC] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SNIPER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SPY] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
+				[TF_CLASS_SCOUT] =			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SOLDIER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_PYRO] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_DEMOMAN] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_HEAVYWEAPONS] = 	{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_ENGINEER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_MEDIC] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SNIPER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SPY] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
 			},
 			[TF_TEAM_BLU] = {
-				[TF_CLASS_SCOUT] =			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SOLDIER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_PYRO] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_DEMOMAN] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_HEAVYWEAPONS] = 	{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_ENGINEER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_MEDIC] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SNIPER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
-				[TF_CLASS_SPY] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "refundOnSpawn": true,
-				"characterUpgrades": {[BLASTRESIST] = defCharacterUpgrades[BLASTRESIST], [BULLETSRESIST] = defCharacterUpgrades[BULLETSRESIST], [CRITRESIST] = defCharacterUpgrades[CRITRESIST], [FIRERESIST] = defCharacterUpgrades[FIRERESIST], [HEALTHREGEN] = defCharacterUpgrades[HEALTHREGEN], [METALREGEN] = defCharacterUpgrades[METALREGEN], [MOVESPEED] = defCharacterUpgrades[MOVESPEED], [JUMPHEIGHT] = defCharacterUpgrades[JUMPHEIGHT]}},
+				[TF_CLASS_SCOUT] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SOLDIER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_PYRO] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_DEMOMAN] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_HEAVYWEAPONS] = 	{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_ENGINEER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_MEDIC] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SNIPER] = 		{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
+				[TF_CLASS_SPY] = 			{"canteenCharges": 0, "refundableAmountSpent": 0, "nonRefundableAmountSpent": 0, "characterUpgrades": {}, "weaponsUsedSinceLastRefund": {}, "spawnedAsThisYetThisRound": false},
 			},
 		},
+		"currentClass": player.GetPlayerClass(),
+		"currentTeam": player.GetTeam(),
+		"isFullySpawned": false,
+		"isRefunding": false,
 	};
-
+	
 	return entry;
+}
+
+function GetAllDroppedWeapons()
+{
+	local droppedWeapons = [];
+	for (local droppedWeapon; droppedWeapon = Entities.FindByClassname(droppedWeapon, "tf_dropped_weapon");)
+	{
+		droppedWeapons.push(droppedWeapon);
+	}
+	return droppedWeapons;
 }
 
 function GetPlayerEntry(player) { return playersData[GetPlayerSteamID(player)]; }
@@ -504,7 +569,10 @@ function GetClassEntry(player, playerClass = -1, playerTeam = -1)
 
 function GetPlayerCanteen(player)
 {
-	for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer()) { if (item.GetClassname() == "tf_powerup_bottle") { return item; }; }
+	for (local item = player.FirstMoveChild(); item != null; item = item.NextMovePeer())
+	{
+		if (item.GetClassname() == "tf_powerup_bottle") { return item; };
+	}
 	return null;
 }
 
@@ -515,14 +583,12 @@ function GetCanteenCharges(canteen)
 }
 
 function SetCanteenCharges(canteen, amount)
-{
+{ 
 	if (canteen == null) { return; }
 	if (amount < 0) amount = 0;
 	if (amount > 3) amount = 3;
 	NetProps.SetPropInt(canteen, "m_usNumCharges", amount);
 }
-
-function GetPlayerName(player){ return NetProps.GetPropString(player, "m_szNetname") }
 
 function GetPlayerSteamID(player) //If the player doesn't have a steamid stored in their script scope
 {
@@ -539,20 +605,13 @@ function GetPlayerSteamID(player) //If the player doesn't have a steamid stored 
 function CreatePlayerScriptScopeAndVariables(player)
 {
 	player.ValidateScriptScope();
-	player.GetScriptScope().currentClass <- 0;
-	player.GetScriptScope().currentTeam <- 0;
-	player.GetScriptScope().currency <- 0;
-	player.GetScriptScope().isFullySpawned <- false;
-	player.GetScriptScope().isRefunding <- false;
-	player.GetScriptScope().weaponIds <- [];
-
 	player.GetScriptScope().buttonsLast <- 0;
 	player.GetScriptScope().buttons <- 0;
 	player.GetScriptScope().isInMvmUpgradeStationTrigger <- false;
 	player.GetScriptScope().timeLastPlayedUpgradeVoiceline <- 0;
 	player.GetScriptScope().currentEffect <- "none";
 	player.GetScriptScope().isInAnEffect <- false;
-
+	
 	player.GetScriptScope().busterWearable <- null;
 	player.GetScriptScope().busterProp <- null;
 	player.GetScriptScope().bustingSequenceActive <- false;
@@ -560,7 +619,9 @@ function CreatePlayerScriptScopeAndVariables(player)
 	player.GetScriptScope().timeLastSpooked <- 0;
 }
 
-::GetPlayerWeapons <- function(player)
+function GetPlayerName(player){ return NetProps.GetPropString(player, "m_szNetname") }
+
+::GetPlayerWeapons <- function(player, includeWearables = false)
 {
 	local weapons = [];
 	for (local i = 0; i < MAX_WEAPONS; i++)
@@ -569,6 +630,12 @@ function CreatePlayerScriptScopeAndVariables(player)
 		if (weapon == null) continue
 		weapons.push(weapon);
 	}
+
+	if (includeWearables)
+	{
+		for (local wearable = player.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer()) { if (wearable.GetClassname() == "tf_wearable_demoshield" || wearable.GetClassname() == "tf_wearable_razorback") { weapons.push(wearable); } }
+	}
+	
 	return weapons;
 }
 
@@ -602,18 +669,19 @@ function RefundPlayerUpgrades(player)
 {
 	local playerEntry = GetPlayerEntry(player);
 	local classEntry = GetClassEntry(player);
-	player.GetScriptScope().isRefunding = true;
-	classEntry["canteenCharges"] = 0;
-	classEntry["refundableAmountSpent"] = 0;
-
-	player.GrantOrRemoveAllUpgrades(true, false);
-	local params = {"player": player, "classEntry": classEntry}
-	player.SetCurrency(CalculateClassCurrencyLevel(player));
-	SetCanteenCharges(GetPlayerCanteen(player), classEntry["canteenCharges"]);
-	player.GetScriptScope().isRefunding = false;
+	playerEntry["isRefunding"] = true;
+	
+	classEntry["canteenCharges"] = 0; SetCanteenCharges(GetPlayerCanteen(player), classEntry["canteenCharges"]);
+	classEntry["refundableAmountSpent"] = 0; player.SetCurrency(CalculateClassCurrencyLevel(player));
+	classEntry["weaponsUsedSinceLastRefund"].clear();
+	classEntry["characterUpgrades"].clear();
+	
+	foreach (weapon in GetPlayerWeapons(player, true)) { SetWeaponToDefaultAttributes(weapon); classEntry["weaponsUsedSinceLastRefund"][GetWeaponId(weapon)] <- {}; }
+	SetPlayerToDefaultAttributes(player, false);
+	
+	playerEntry["isRefunding"] = false;
 }
 
-function SetPlayerCurrencyToCalculatedLevel() { activator.SetCurrency(CalculateClassCurrencyLevel(activator)); }
 ::SetPlayerWeaponsVisible <- function(player, state) { foreach(weapon in GetPlayerWeapons(player)) if (state) weapon.EnableDraw(); else weapon.DisableDraw(); }
 ::SetPlayerCosmeticsVisible <- function(player, state) { foreach(wearable in GetPlayerWearables(player)) { if (state) wearable.EnableDraw(); else wearable.DisableDraw(); } }
 
@@ -641,23 +709,23 @@ function SetPlayerCurrencyToCalculatedLevel() { activator.SetCurrency(CalculateC
 	{
 		player.SetMoveType(MOVETYPE_WALK, MOVECOLLIDE_DEFAULT)
 		player.GetScriptScope().bustingSequenceActive = false;
-
+		
 		player.RemoveCustomAttribute("damage force reduction")
 		player.RemoveCustomAttribute("override footstep sound set")
 		player.RemoveCustomAttribute("no_attack")
 		player.RemoveCustomAttribute("voice pitch scale")
 		player.RemoveCustomAttribute("disable weapon switch")
 		player.RemoveCustomAttribute("max health additive bonus")
-
+		
 		SetPlayerCosmeticsVisible(player, true);
 		SetPlayerWeaponsVisible(player, true);
 		if (player.IsAlive()){ player.SetHealth(player.GetMaxHealth()); }
 		player.SetForcedTauntCam(0);
 		NetProps.SetPropInt(player, "m_nRenderMode", Constants.ERenderMode.kRenderNormal);
 		StopAmbientSoundOn(BUSTERIDLESOUND, player);
-
+		
 		if (player.GetScriptScope().busterWearable != null) {  player.GetScriptScope().busterWearable.Kill(); player.GetScriptScope().busterWearable = null; }
-		if (player.GetScriptScope().busterProp != null) {  player.GetScriptScope().busterProp.Kill(); player.GetScriptScope().busterProp = null; }
+		if (player.GetScriptScope().busterProp != null) {  player.GetScriptScope().busterProp.Kill(); player.GetScriptScope().busterProp = null; } 
 	}
 }
 
@@ -670,7 +738,7 @@ function SetPlayerCurrencyToCalculatedLevel() { activator.SetCurrency(CalculateC
 	wearable.SetTeam(player.GetTeam())
 	wearable.DispatchSpawn()
 	wearable.KeyValueFromString("classname", "sentrybuster_wearable")
-	wearable.AcceptInput("SetParent", "!activator", player, player)
+	wearable.AcceptInput("SetParent", "!activator", player, player) 
 	NetProps.SetPropInt(wearable, "m_fEffects", 129)
 	return wearable;
 }
@@ -689,16 +757,12 @@ function SetPlayerCurrencyToCalculatedLevel() { activator.SetCurrency(CalculateC
 function AwardCreditsToTeam(team, amount)
 {
 	banks[team] += amount;
-	foreach(player in GetPlayers(team))
-	{
-		if (!player.GetScriptScope().isInMvmUpgradeStationTrigger) { player.SetCurrency(CalculateClassCurrencyLevel(player)); }
-		else { CalculateClassCurrencyLevel(player); }
-	}
+	foreach(player in GetPlayers(team)) { player.SetCurrency(CalculateClassCurrencyLevel(player)); }
 }
 
-function CalculateClassCurrencyLevel(player, entryOverride = null)
-{
-	local classEntry = entryOverride == null ? GetClassEntry(player) : entryOverride;
+function CalculateClassCurrencyLevel(player)
+{ 
+	local classEntry = GetClassEntry(player);
 	return banks[player.GetTeam()] - (classEntry["nonRefundableAmountSpent"] + classEntry["refundableAmountSpent"])
 }
 
@@ -721,7 +785,7 @@ function ApplyEffectOnPlayer(player, effect)
 	local sound = effectEntry["soundsOnUse"].len() > 0 ? effectEntry["soundsOnUse"][RandomInt(0, effectEntry["soundsOnUse"].len() - 1)] : "";
 
 	if (sound != "")
-	{
+	{ 
 		for(local noiseRecipient; noiseRecipient = Entities.FindByClassnameWithin(noiseRecipient, "player", player.GetOrigin(), POTIONNOISERANGE);)
 		{
 			EmitSoundEx({
@@ -731,11 +795,7 @@ function ApplyEffectOnPlayer(player, effect)
 			filter_type = RECIPIENT_FILTER_SINGLE_PLAYER})
 		}
 	}
-}
 
-
-function GiveNegativeCanteenUseFeedback(player, canteen)
-{
 	if (effectEntry["playerTLK"] != "") { player.AcceptInput("SpeakResponseConcept", effectEntry["playerTLK"] + " randomnum:100", null, null) }
 
 	player.GetScriptScope().isInAnEffect = true;
@@ -793,56 +853,171 @@ function GetPotionEffect(player, canteenType)
 
 function SetPlayerIsInMvmUpgradeStationTrigger(state) { activator.GetScriptScope().isInMvmUpgradeStationTrigger <- state; }
 
-function ManuallyCalculatePlayerCurrencyDelta(player, entryOverride = null)
+function PrecacheStep()
 {
-	local classEntry = entryOverride == null ? GetClassEntry(player) : entryOverride;
-	local delta;
-	if (entryOverride != null) { delta = CalculateClassCurrencyLevel(player) - player.GetCurrency(); }
-	else { delta = CalculateClassCurrencyLevel(player, classEntry) - player.GetScriptScope().currency; }
-	//delta =-300 - 0
-	classEntry["refundableAmountSpent"] += delta;
-}
+	PrecacheModel(REDGHOSTMODEL);
+	PrecacheModel(BLUGHOSTMODEL);
+	PrecacheModel(BUSTERMODEL);
+	PrecacheSound(BUSTEREXPLODESOUND);
+	PrecacheSound(BUSTERSPINSOUND);
+	PrecacheSound(BUSTERIDLESOUND);
+	PrecacheSound(POTIONCANTBEUSEDSOUND);
+	PrecacheScriptSound("Announcer.MVM_Bonus");
+	PrecacheScriptSound("Announcer.MVM_Bonus");
+	PrecacheScriptSound("MVM.MoneyPickup");
+	PrecacheScriptSound("MVM.SentryBusterStep");
 
-function ManuallySetCurrencyLevelOnPlayer() { activator.SetCurrency(CalculateClassCurrencyLevel(activator)); }
-
-function GetAllCharacterUpgradesOnPlayer(player)
-{
-	DebugPrint("GETTNG UPGRADES")
-	local classEntry = GetClassEntry(player);
-
-	foreach (upgrade, value in classEntry["characterUpgrades"])
+	for (local i = 1; i <= 9; i++)
 	{
-		local returnedValue = player.GetCustomAttribute(upgrade, SPOOFVALUE);
-		local printValue = value;
-		local printReturnedValue = returnedValue;
-		if (value == defCharacterUpgrades[upgrade]) { printValue = "DEFAULT VALUE"}
-		if (returnedValue == SPOOFVALUE) { printReturnedValue = "ATTRIB NOT ON PLAYER"}
-		DebugPrint(GetShortenedPlayerAttributeName(upgrade) + " E " + printValue + " P " + printReturnedValue);
+		PrecacheScriptSound("MoneyMap.Upgraded." + GetClassNameFromIndex(i));
+		PrecacheScriptSound("MoneyMap.UpgradedCanteen." + GetClassNameFromIndex(i));
+	}
 
-		if (returnedValue == SPOOFVALUE) { classEntry["characterUpgrades"][upgrade] = defCharacterUpgrades[upgrade]; continue; } //Player doesn't have this attribute. Record the default value. Leave this instance of the loop
-		classEntry["characterUpgrades"][upgrade] = returnedValue; //Player has this attribute. Record its value
+	foreach (sound in SCREAMSOUNDS) { PrecacheSound(sound); }
+
+	foreach (effect, effectEntry in effectsTable) { foreach (sound in effectEntry["soundsOnUse"])
+		{
+			PrecacheSound(sound);
+		}
 	}
 }
 
-function SetAllCharacterUpgradesOnPlayer(player = null) //Uses activator. Don't tell anyone.
+function PlayUpgradeVoiceline(player, canteenWasBought)
 {
-	DebugPrint("SETTNG UPGRADES")
-	local player = player == null ? activator : player;
-	local classEntry = GetClassEntry(player);
+	DebugClientPrint("VOICELINE PLAYING " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
+	local soundName = "MoneyMap.Upgraded" + (canteenWasBought ? "Canteen." : ".") + GetClassNameFromIndex(player.GetPlayerClass());
+				
+	DebugPrint(soundName)
+	
+	EmitSoundEx({
+		sound_name = soundName,
+		origin = player.GetCenter(),
+		entity = player,
+		speaker_entity = player
+	})
+	
+	player.GetScriptScope().timeLastPlayedUpgradeVoiceline <- Time();
+}
 
-	foreach (upgrade, value in classEntry["characterUpgrades"])
+function GetAttributesIncludedInUpgradeFileOnWeapon(weapon, compareAgainstDefaultValues)
+{
+	local attribValues = {}
+	local weaponId = GetWeaponId(weapon);
+	foreach (attribute in UPGRADEABLEWEAPONATTRIBS) //Only get the attributes that are upgradeable in the MVM trigger
 	{
-		local returnedValue = player.GetCustomAttribute(upgrade, SPOOFVALUE);
-		local printValue = value;
-		local printReturnedValue = returnedValue;
-		if (value == defCharacterUpgrades[upgrade]) { printValue = "DEFAULT VALUE"}
-		if (returnedValue == SPOOFVALUE) { printReturnedValue = "ATTRIB NOT ON PLAYER"}
-		DebugPrint(GetShortenedPlayerAttributeName(upgrade) + " E " + printValue + " P " + printReturnedValue);
-
-		if (returnedValue == SPOOFVALUE) { classEntry["characterUpgrades"][upgrade] = defCharacterUpgrades[upgrade]; continue; } //Player doesn't have this attribute. Don't record any value for it. Leave this instance of the loop
-		if (returnedValue == defCharacterUpgrades[upgrade]) { player.RemoveCustomAttribute(upgrade); continue } //If its set to the default of this value. Remove it as it might as well not be present on the player. Fixes hud stuff in menu. Leave this instance of the loop
-		player.AddCustomAttribute(upgrade, value, -1); //If the player has the attribute and it's not the default value, set it to the value in the class entry
+		local grabbedValue = weapon.GetAttribute(attribute, SPOOFVALUE);
+		if (grabbedValue != SPOOFVALUE) //If there's something there.
+		{
+			if (compareAgainstDefaultValues) //If you're comparing against default values
+			{ 
+				local attributeExistsInDefaultAttribs = attribute in encounteredWeaponsTrackedDefaultAttributes[weaponId]; 
+				if (!attributeExistsInDefaultAttribs || grabbedValue != encounteredWeaponsTrackedDefaultAttributes[weaponId][attribute]) { attribValues[attribute] <- grabbedValue; } //If the attribute doesn't exist in the default attribs list, or the value is different, record it
+			}
+			else { attribValues[attribute] <- grabbedValue; }
+		}
 	}
+	return attribValues;
+}
+
+function SetWeaponToDefaultAttributes(weapon) { foreach (attribute in UPGRADEABLEWEAPONATTRIBS) { weapon.RemoveAttribute(attribute); } }
+
+function SetWeaponToAttributes(weapon, attributes) //Specific attributes list
+{
+	foreach (attribute in UPGRADEABLEWEAPONATTRIBS) //General attributes list
+	{
+		if (!(attribute in attributes)) { weapon.RemoveAttribute(attribute); }
+		else { weapon.AddAttribute(attribute, attributes[attribute], -1); }
+	}
+}
+
+function GetAttributesIncludedInUpgradeFileOnPlayer(player)
+{
+	local attribValues = {}
+	local classEntry = GetClassEntry(player);
+	foreach (attrib, value in CHARACTERUPGRADESATTRIBS)
+	{
+		local returnedValue = player.GetCustomAttribute(attrib, SPOOFVALUE);
+		if (returnedValue != SPOOFVALUE) { classEntry["characterUpgrades"][attrib] <- returnedValue; } //If the player has an attrib applied. Record it
+		else if (attrib in classEntry["characterUpgrades"]) { delete classEntry["characterUpgrades"][attrib]; } //If the player doesn't have the attrib applied, but it's in their attribs list, remove it
+	}
+	return attribValues;
+}
+
+function SetPlayerToDefaultAttributes(player, tickDelay)
+{
+	if (tickDelay)
+	{
+		foreach (attrib, value in CHARACTERUPGRADESATTRIBS)
+		{
+			EntFireByHandle(self, "RunScriptCode", "activator.AddCustomAttribute(" + @"""" + attrib + @""", " + value + ", 0)", 0, player, null);
+			EntFireByHandle(self, "RunScriptCode", "activator.RemoveCustomAttribute(" + @"""" + attrib + @""")", 0, player, null);
+		}
+	}
+	else
+	{
+		foreach (attrib, value in CHARACTERUPGRADESATTRIBS)
+		{
+			player.AddCustomAttribute(attrib, value, 0);
+			player.RemoveCustomAttribute(attrib);
+		}
+	}
+	
+}
+
+function SetPlayerToAttributes(player, attributes, tickDelay)
+{
+	if (tickDelay)
+	{
+		foreach (attrib, value in CHARACTERUPGRADESATTRIBS) //CLEAR UPGRADES BEFORE ADDING 
+		{
+			EntFireByHandle(self, "RunScriptCode", "activator.AddCustomAttribute(" + @"""" + attrib + @""", " + value + ", 0)", 0, player, null);
+			EntFireByHandle(self, "RunScriptCode", "activator.RemoveCustomAttribute(" + @"""" + attrib + @""")", 0, player, null);
+		}
+
+		foreach (attrib, value in attributes)
+		{
+			EntFireByHandle(self, "RunScriptCode", "activator.AddCustomAttribute(" + @"""" + attrib + @""", " + value + ", 0)", -1, player, null);
+		}
+	}
+	else
+	{
+		foreach (attrib, value in CHARACTERUPGRADESATTRIBS) //CLEAR UPGRADES BEFORE ADDING 
+		{
+			player.AddCustomAttribute(attrib, value, 0);
+			player.RemoveCustomAttribute(attrib);
+		}
+
+		foreach (attrib, value in attributes)
+		{
+			player.AddCustomAttribute(attrib, value, -1);
+		}
+	}
+}
+
+function GetWeaponId(weapon) { return NetProps.GetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex"); }
+
+function PrintPlayerWeaponInfo(player)
+{
+	local classEntry = GetClassEntry(player);
+	foreach (weaponId, weaponEntry in classEntry["weaponsUsedSinceLastRefund"])
+	{
+		DebugClientPrint("WEAPON " + weaponId);
+		foreach (attrib, value in classEntry["weaponsUsedSinceLastRefund"][weaponId])
+		{
+			DebugClientPrint("--ATTRIB " + attrib + ": " + value);
+		}
+	}
+}
+
+::ForceKillPlayer <- function(player)
+{
+	player.AddCond(75)
+	local brush = Entities.CreateByClassname("func_brush")
+	brush.DispatchSpawn()
+	brush.SetAbsOrigin(player.GetOrigin())
+	brush.SetSolid(2)
+	player.RemoveCond(75)
+	brush.Kill()
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -852,118 +1027,136 @@ local EventsID = UniqueString()
 getroottable()[EventsID] <-
 {
 	// Cleanup events on round restart. Do not remove this event.
-	OnGameEvent_scorestats_accumulated_update = function(_) { ForceEnableUpgrades(2); firstSpawnOfInitialSpawnWaveisDueToHappen = true; delete getroottable()[EventsID] }
-
+	OnGameEvent_scorestats_accumulated_update = function(_)
+	{ 
+		DebugClientPrint("ROUND RESET " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
+		if (printEventDetails) { DebugPrint("SCORESTATS ACCUMULATED UPDATE - " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState())); }
+		banks[TF_TEAM_BLU] = STARTINGCREDITS;
+		banks[TF_TEAM_RED] = STARTINGCREDITS;
+		playersData.clear();
+		ForceEnableUpgrades(2)
+	}
+	
 	//Every time it validates your inventory. Note that this happens BEFORE the player spawn event, as well as Round Start.
 	OnGameEvent_post_inventory_application = function(params)  //FIRE ORDER ON NEW ROUND : 1 // FIRE ORDER ON PLAYER JOIN : 2
 	{
+		//#region PREAMBLE
+		DebugClientPrint("POST INV APP " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
+		local player = GetPlayerFromUserID(params.userid); 	
 		local eventMessage = "POST INVENTORY APPLICATION EVENT - " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState());
 		if (GetRoundState() == GR_STATE_PREGAME) { eventMessage += " - SKIPPED!"; }
 		if (printEventDetails) { DebugPrint(eventMessage); }
 		if (GetRoundState() == GR_STATE_PREGAME) return; //If this is being called before the game starts, return
-		if (GetRoundState() == GR_STATE_PREROUND) //If this is being called before the round starts
-		{
-			if (firstSpawnOfInitialSpawnWaveisDueToHappen) //Only called once per round starting
-			{
-				playersData.clear();
-				firstSpawnOfInitialSpawnWaveisDueToHappen = false;
-				banks[TF_TEAM_RED] = STARTINGCREDITS; banks[TF_TEAM_BLU] = STARTINGCREDITS;
-				ForceEnableUpgrades(2)
-			}
-		}
-
-		local player = GetPlayerFromUserID(params.userid);
-		if (!PlayerEntryExists(player)) { CreatePlayerEntry(player); }
+		if (!PlayerEntryExists(player)) { CreatePlayerEntry(player); DebugClientPrint("--CREATING PLAYER ENTRY " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));  } //If the player doesn't have an entry, return. THIS OCCURS WHEN A PLAYER JOINS AN EXISTENT ROUND. IT'S THEN CREATED IN THE POST INV EVENT
 		local canteen = GetPlayerCanteen(player);
 		local playerEntry = GetPlayerEntry(player);
-		local classEntry = GetClassEntry(player);
-		local playerIsSameClassAsLastInventoryUpdate = player.GetPlayerClass() == player.GetScriptScope().currentClass;
-		local playerHasDifferentWeaponsThanLastTime = false;
-		local weaponIds = [];
+		local classEntry = GetClassEntry(player); 
+		//#endregion
 
-		foreach (weapon in GetPlayerWeapons(player)) { weaponIds.push(NetProps.GetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex")); }
-		if (playerIsSameClassAsLastInventoryUpdate) { for (local i = 0; i < weaponIds.len(); i++) { if (player.GetScriptScope().weaponIds[i] != weaponIds[i]) { playerHasDifferentWeaponsThanLastTime = true; break; } } }
-		if (playerHasDifferentWeaponsThanLastTime && playerIsSameClassAsLastInventoryUpdate) { RefundPlayerUpgrades(player); }
+		foreach (weapon in GetPlayerWeapons(player, true))
+		{ 
+			local weaponId = GetWeaponId(weapon);
+			if (!(weaponId in encounteredWeaponsTrackedDefaultAttributes))
+			{ 
+				DebugClientPrint("--ENCOUNTERED NEW WEAPON " + weaponId);
+				encounteredWeaponsTrackedDefaultAttributes[weaponId] <- GetAttributesIncludedInUpgradeFileOnWeapon(weapon, false); //Put the default attributes of any weapon not yet encountered in a big database that gets conserved across rounds	
+			} 
 
-		player.GetScriptScope().weaponIds = weaponIds;
+			if (!(weaponId in classEntry["weaponsUsedSinceLastRefund"])) //If the weapon hasn't been used since the last refund, add it to the list of weapons used since the last refund by the player. And reset it. 
+			{
+				DebugClientPrint("--SETTING WEAPON TO DEFAULT ATTRIBUTES " + weaponId);
+				SetWeaponToDefaultAttributes(weapon);
+				classEntry["weaponsUsedSinceLastRefund"][weaponId] <- {};
+			}
+		}
 
-		local playerIsExchangingMoneyNormally = player.GetScriptScope().isFullySpawned && !player.GetScriptScope().isRefunding //Fully Spawned, Not Refunding
-
-		if (playerIsExchangingMoneyNormally)
+		local playerHasInteractedWithMvmTrigger = false;
+		local playerIsExchangingMoneyInTrigger = playerEntry["isFullySpawned"] && !playerEntry["isRefunding"] && player.GetScriptScope().isInMvmUpgradeStationTrigger
+		if (playerIsExchangingMoneyInTrigger) //THIS EXISTS SO THAT NOTHING HAPPENS IF THE PLAYER HAS JUST SPAWNED. AS THIS EVENT IS USED ALONGSIDE THE PLAYER SPAWNING
 		{
-			DebugPrint("----------------------------------------")
-			DebugPrint("PLAYER EXCHANGING MONEY IN A REGULAR WAY")
-			DebugPrint("----------------------------------------")
-			local classEntry = GetClassEntry(player);
+			DebugClientPrint("--MVM TRIGGER PURCHASE " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
 			local delta = CalculateClassCurrencyLevel(player) - player.GetCurrency();
+			local canteenWasBought = canteen != null ? classEntry["canteenCharges"] < GetCanteenCharges(canteen) : false;
+			local voicelineShouldPlay = delta > 0 && Chance(UPGRADEVOICELINECHANCE) && (Time() - player.GetScriptScope().timeLastPlayedUpgradeVoiceline > VOICELINECOOLDOWN)
 			classEntry["refundableAmountSpent"] += delta; //Record the amount just spent/refunded as the amount added/removed from the refundable balance
 
-			local voicelineShouldBePlayed = player.GetScriptScope().isInMvmUpgradeStationTrigger && Chance(UPGRADEVOICELINECHANCE) && delta > 0 && (Time() - player.GetScriptScope().timeLastPlayedUpgradeVoiceline > VOICELINECOOLDOWN)
-
-			if (voicelineShouldBePlayed)
-			{
-				local canteenWasBought = canteen != null ? classEntry["canteenCharges"] < GetCanteenCharges(canteen) : false;
-				local soundName = "MoneyMap.Upgraded" + (canteenWasBought ? "Canteen." : ".") + GetClassNameFromIndex(player.GetPlayerClass());
-
-				EmitSoundEx({
-					sound_name = soundName,
-					origin = player.GetCenter(),
-					entity = player,
-					speaker_entity = player
-				})
-
-				player.GetScriptScope().timeLastPlayedUpgradeVoiceline <- Time();
-			}
-
+			if (voicelineShouldPlay) { PlayUpgradeVoiceline(player, canteenWasBought) }
 			if (canteen != null) { classEntry["canteenCharges"] = GetCanteenCharges(canteen) } //Update the canteen charges to the new value. If the player has a canteen, it will be set to the canteen's charges. If not, it will be set to whatever their current listing is.
+			playerHasInteractedWithMvmTrigger = true;
 		}
-
-		if (player.GetScriptScope().isFullySpawned) { GetAllCharacterUpgradesOnPlayer(player); }
-
-		player.GetScriptScope().currency = player.GetCurrency();
-	}
-
-	OnGameEvent_player_changeclass = function(params)
-	{
-		local player = GetPlayerFromUserID(params.userid)
-		player.RemoveCustomAttribute("disable weapon switch") //For when the player was a buster and they change class. Makes them able to switch to their weapon immediately, so civilianing doesn't occur after being a sentry buster
-		if (player.GetScriptScope().isFullySpawned)
+		
+		local playerIsLeavingMvmTriggerWithoutHavingAcceptedChanges = CalculateClassCurrencyLevel(player) - player.GetCurrency() != 0 && !player.GetScriptScope().isInMvmUpgradeStationTrigger && playerEntry["isFullySpawned"] && !playerEntry["isRefunding"];
+		if (playerIsLeavingMvmTriggerWithoutHavingAcceptedChanges)
 		{
-			ManuallyCalculatePlayerCurrencyDelta(player,  GetClassEntry(player, player.GetScriptScope().currentClass, player.GetScriptScope().currentTeam));
+			local delta = CalculateClassCurrencyLevel(player) - player.GetCurrency();
+			classEntry["refundableAmountSpent"] += delta;
+			DebugClientPrint("--MVM TRIGGER NONPURCHASE " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
+			if (canteen != null) { classEntry["canteenCharges"] = GetCanteenCharges(canteen) } //Update the canteen charges to the new value. If the player has a canteen, it will be set to the canteen's charges. If not, it will be set to whatever their current listing is.
+			playerHasInteractedWithMvmTrigger = true;
 		}
-	}
+		
+		if (playerHasInteractedWithMvmTrigger)
+		{
+			GetAttributesIncludedInUpgradeFileOnPlayer(player);
+			foreach (weapon in GetPlayerWeapons(player, true)) { classEntry["weaponsUsedSinceLastRefund"][GetWeaponId(weapon)] = GetAttributesIncludedInUpgradeFileOnWeapon(weapon, true); }
+		}
+		else 
+		{
+			DebugClientPrint("--SETTING WEAPON + PLAYER ATTRIBUTES INSIDE OF POST INV APP " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState()));
+			SetPlayerToAttributes(player, classEntry["characterUpgrades"], true);
+			foreach (weapon in GetPlayerWeapons(player, true)) { SetWeaponToAttributes(weapon, classEntry["weaponsUsedSinceLastRefund"][GetWeaponId(weapon)]); }
+			SetCanteenCharges(canteen, classEntry["canteenCharges"]);
+		}
 
-	OnGameEvent_player_spawn = function(params) //FIRE ORDER ON NEW ROUND : 2 // FIRE ORDER ON PLAYER JOIN : 1, 3 // FIRE ORDER ON PLAYER RESPAWN
+		DebugClientPrint("--Calc " + CalculateClassCurrencyLevel(player));
+		DebugClientPrint("--Get " + player.GetCurrency());
+		DebugClientPrint("--isInMvmStation " + player.GetScriptScope().isInMvmUpgradeStationTrigger);
+		DebugClientPrint("--isFullySpawned " + playerEntry["isFullySpawned"]);
+		DebugClientPrint("--canteenCharges " + classEntry["canteenCharges"]);
+	}
+	
+	OnGameEvent_player_spawn = function(params) //FIRE ORDER ON NEW ROUND : 2 // FIRE ORDER ON PLAYER JOIN : 1, 3
 	{
+		//#region PREAMBLE
 		local eventMessage = "PLAYER SPAWN EVENT - " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState());
 		if (GetRoundState() == GR_STATE_PREGAME) { eventMessage += " - SKIPPED!"; }
 		if (printEventDetails) { DebugPrint(eventMessage); }
 		if (GetRoundState() == GR_STATE_PREGAME || params.team == 0) { CreatePlayerScriptScopeAndVariables(GetPlayerFromUserID(params.userid)); return; } //If this is being called before the game starts, OR if the player hasn't been assigned a team. return
-
 		local player = GetPlayerFromUserID(params.userid);
-		if (!PlayerEntryExists(player)) { return; } //If the player doesn't have an entry, return. THIS OCCURS WHEN A PLAYER JOINS AN EXISTENT ROUND. IT'S THEN CREATED IN THE POST INV EVENT
 		local playerEntry = GetPlayerEntry(player);
 		local classEntry = GetClassEntry(player);
 		local canteen = GetPlayerCanteen(player);
-		local playerIsADifferentClass = player.GetScriptScope().currentClass != params["class"];
+		//#endregion
 
 		ResetAllEffectsOnPlayer(player);
-		EntFireByHandle(self, "RunScriptCode", "SetAllCharacterUpgradesOnPlayer()", 0, player, null)
 
-		player.GetScriptScope().currentTeam = params["team"];
-		player.GetScriptScope().currentClass = params["class"];
-		player.GetScriptScope().isFullySpawned = true;
-
-		if (classEntry["refundOnSpawn"]) { RefundPlayerUpgrades(player); classEntry["refundOnSpawn"] = false; return; }
-
+		playerEntry["currentTeam"] = params["team"];
+		playerEntry["currentClass"] = params["class"];
+		playerEntry["isFullySpawned"] = true;
+		
 		player.SetCurrency(CalculateClassCurrencyLevel(player));
-		SetCanteenCharges(GetPlayerCanteen(player), classEntry["canteenCharges"]);
+		SetCanteenCharges(canteen, classEntry["canteenCharges"]);
 	}
 
-	OnGameEvent_scorestats_accumulated_update = function(params)
+	OnGameEvent_player_changeclass = function(params) //For when the player was a buster and they change class. Makes them able to switch to their weapon so civilianing doesn't occur after being a sentry buster
+	{ 
+		local player = GetPlayerFromUserID(params.userid);
+		if (!(PlayerEntryExists(player))) { return; } //Before players initally spawn, they 'change class'. Nullify this situation
+		local playerEntry = GetPlayerEntry(player);
+		playerEntry["isFullySpawned"] = false;
+		player.RemoveCustomAttribute("disable weapon switch") //For being a sentry buster. If you switch class while a sentry buster the attrib has to be unapplied.
+	} 
+	
+	OnGameEvent_teamplay_round_start = function(params) //FIRE ORDER ON NEW ROUND : 3
 	{
-		if (printEventDetails) { DebugPrint("SCORESTATS ACCUMULATED UPDATE - " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState())); }
-		firstSpawnOfInitialSpawnWaveisDueToHappen = true;
+		if (printEventDetails) { DebugPrint("ROUND START EVENT - " + Time() + " - " + GetRoundStateNameFromIndex(GetRoundState())); }
+		local statsEntity = Entities.FindByClassname(null, "tf_mann_vs_machine_stats");
+		if (statsEntity != null) statsEntity.Destroy();
+
+		Convars.SetValue("tf_mvm_respec_enabled", 1);
+		Convars.SetValue("tf_mvm_respec_limit", 0);
+		Convars.SetValue("tf_mvm_respec_credit_goal", 1);
+		Convars.SetValue("tf_dropped_weapon_lifetime", 0);
 	}
 
 	OnGameEvent_player_team = function(params)
@@ -976,21 +1169,24 @@ getroottable()[EventsID] <-
 
 	OnGameEvent_player_used_powerup_bottle = function(params)
 	{
+		//#region PREAMBLE
 		if (printEventDetails) { DebugPrint("PLAYER USED POWERUP BOTTLE EVENT"); }
 		local player = PlayerInstanceFromIndex(params.player);
-		local playerCanUsePotions = !player.InCond(TF_COND_STEALTHED) && !player.InCond(TF_COND_STEALTHED_BLINK) && !player.InCond(TF_COND_SHIELD_CHARGE) && player.GetScriptScope().isInAnEffect == false && NetProps.GetPropBool(player, "m_Shared.m_bFeignDeathReady") == false;
-		if (!playerCanUsePotions) { GiveNegativeCanteenUseFeedback(player, GetPlayerCanteen(player)); return;}
+		local classEntry = GetClassEntry(player);
 		local canteen = GetPlayerCanteen(player);
-		local canteenType = canteenTable[GetCanteenHandshakeAttribute(canteen)]["potionType"];
+		local canteenType = canteenTable[GetCanteenHandshakeAttribute(canteen)]["potionType"];	
 		local effect = GetPotionEffect(player, canteenType);
-		if (effect == "none") { GiveNegativeCanteenUseFeedback(player, canteen); return; }
+		local playerCantUsePotion = player.InCond(TF_COND_STEALTHED) || player.InCond(TF_COND_STEALTHED_BLINK) || player.InCond(TF_COND_SHIELD_CHARGE) || player.GetScriptScope().isInAnEffect || NetProps.GetPropBool(player, "m_Shared.m_bFeignDeathReady") || effect == "none" || player.GetScriptScope().bustingSequenceActive;
+		//If the player is cloaked, or is in an effect, or is feigning death, or the effect is none, or the player is a sentry buster. They cannot use a potiion
+		
+		//#endregion
 
+		if (playerCantUsePotion) { GiveNegativeCanteenUseFeedback(player, GetPlayerCanteen(player)); return;}
 		if (player.InCond(TF_COND_DISGUISED) || player.InCond(TF_COND_DISGUISING) || player.InCond(TF_COND_DISGUISE_WEARINGOFF)) { player.RemoveDisguise() }
 		ApplyEffectOnPlayer(player, effect);
 		local PLAYERPRINTCOLOUR = player.GetTeam() == TF_TEAM_RED ? REDPRINTCOLOUR : BLUPRINTCOLOUR;
-		local printedMessage = (PLAYERPRINTCOLOUR + GetPlayerName(player) + DEFAULTPRINTCOLOUR + " " + canteenTable[GetCanteenHandshakeAttribute(canteen)]["message"] + " " + effectsTable[effect]["message"]);
+		local printedMessage = (PLAYERPRINTCOLOUR + GetPlayerName(player) + DEFAULTPRINTCOLOUR + " " + canteenTable[GetCanteenHandshakeAttribute(canteen)]["message"] + " " + effectsTable[effect]["message"]); 
 		ClientPrint(null, HUD_PRINTTALK, printedMessage);
-		local classEntry = GetClassEntry(player);
 		local potionEntry = canteenTable[GetCanteenHandshakeAttribute(canteen)];
 		classEntry["nonRefundableAmountSpent"] += potionEntry["cost"];
 		classEntry["refundableAmountSpent"] -= potionEntry["cost"];
@@ -999,14 +1195,16 @@ getroottable()[EventsID] <-
 
 	OnGameEvent_player_death = function(params)
 	{
+		//#region PREAMBLE
 		if (printEventDetails) { DebugPrint("PLAYER DEATH EVENT"); }
-		if ((params.attacker == null && !params.attacker.IsPlayer()) || params.death_flags & 32) { DebugPrint("returning inside death event"); return; }
+		if ((params.attacker == null && !params.attacker.IsPlayer()) || params.death_flags & 32 || params.weapon == "worldspawn") { DebugPrint("returning inside death event"); return; }
 		local player = GetPlayerFromUserID(params.userid);
 		local playerEntry = GetPlayerEntry(player);
-		local killerTeam = GetPlayerFromUserID(params.attacker).GetTeam();
+		local killerTeam = GetPlayerFromUserID(params.attacker).GetTeam(); 
+		//#endregion
 
 		SetPlayerIsASentryBuster(player, false);
-		player.GetScriptScope().isFullySpawned = false;
+		playerEntry["isFullySpawned"] = false;
 
 		if (killerTeam > 1 && killerTeam != player.GetTeam()) //check that the killer isnt spectate, and that the killer isn't from their own team
 		{
@@ -1014,12 +1212,10 @@ getroottable()[EventsID] <-
 			DispatchParticleEffect("env_grinder_oilspray_cash", player.GetLocalOrigin(), Vector(0,90,0) );
 			player.EmitSound("MVM.MoneyPickup");
 		}
-
-		ManuallyCalculatePlayerCurrencyDelta(player, GetClassEntry(player,  player.GetScriptScope().currentClass, player.GetScriptScope().currentTeam));
 	}
 
 	OnScriptHook_OnTakeDamage = function(params) { if (params.inflictor != null && params.inflictor.GetClassname() == "entity_medigun_shield") { params.damage <- 0; } }
-}
+} 
 
 local EventsTable = getroottable()[EventsID]
 __CollectGameEventCallbacks(EventsTable)
@@ -1035,7 +1231,6 @@ foreach (name, callback in EventsTable) EventsTable[name] = callback.bindenv(thi
 	local buttonsReleased = buttonsChanged & (~buttons)
 
 	local playerIsToInitateASpookingSequence = Time() - player.GetScriptScope().timeLastSpooked >= GHOSTSPOOKDELAY;
-
 	if (playerIsToInitateASpookingSequence) { InitiatePlayerSpookingSequence(player); }
 
 	return -1;
@@ -1059,7 +1254,7 @@ foreach (name, callback in EventsTable) EventsTable[name] = callback.bindenv(thi
 		if (playerInRange.GetTeam() == spookAttackTargetTeam) { enemyPlayersInRange.push(playerInRange); }
 
 	foreach (enemyPlayer in enemyPlayersInRange)
-	{
+	{ 
 		enemyPlayer.StunPlayer(1.5, 0.4, 64 | 128, player);
 
 		EmitSoundEx({
@@ -1068,7 +1263,6 @@ foreach (name, callback in EventsTable) EventsTable[name] = callback.bindenv(thi
 			entity = enemyPlayer,
 			speaker_entity = enemyPlayer
 		})
-
 	}
 }
 
@@ -1099,7 +1293,7 @@ foreach (name, callback in EventsTable) EventsTable[name] = callback.bindenv(thi
 {
 	StopAmbientSoundOn(BUSTERIDLESOUND, player);
 	player.GetScriptScope().bustingSequenceActive = true;
-	player.GetScriptScope().busterWearable.Kill();
+	if (player.GetScriptScope().busterWearable != null) { player.GetScriptScope().busterWearable.Kill();}
 	player.GetScriptScope().busterWearable = null;
 	player.GetScriptScope().busterProp = CreateBusterProp(player);
 	player.SetMoveType(MOVETYPE_NONE, MOVECOLLIDE_DEFAULT)
@@ -1132,7 +1326,7 @@ foreach (name, callback in EventsTable) EventsTable[name] = callback.bindenv(thi
 
 	foreach (enemyPlayer in enemyPlayersInRange) enemyPlayer.TakeDamage(5000, DMG_ALWAYSGIB, player);
 	foreach (enemyBuilding in enemyBuildingsInRange) enemyBuilding.TakeDamage(5000, DMG_ALWAYSGIB, player);
-	player.TakeDamage(5000, DMG_GENERIC, player)
+	ForceKillPlayer(player);
 }
 
 function GetClassNameFromIndex(index)
@@ -1206,28 +1400,28 @@ function GetShortenedPlayerAttributeName(attribute)
 }
 
 function PrintAllPlayerEntries(sourceMessage = "")
-{
+{ 
 	ClientPrint(null, HUD_PRINTCONSOLE, "--------------------------------------------------");
 	ClientPrint(null, HUD_PRINTCONSOLE, "PRINTING ALL PLAYER ENTRIES " + sourceMessage.toupper());
 	ClientPrint(null, HUD_PRINTCONSOLE, "--------------------------------------------------");
-	foreach(player in GetPlayers()) { PrintPlayerEntry(player, sourceMessage); }
+	foreach(playerEntry in playersData) { PrintPlayerEntry(playerEntry, sourceMessage); }
 	ClientPrint(null, HUD_PRINTCONSOLE, "");
 	ClientPrint(null, HUD_PRINTCONSOLE, "--------------------------------------------------");
 }
 
-function PrintPlayerEntry(player, sourceMessage = "")
+function PrintPlayerEntry(playerEntry, sourceMessage = "")
 {
-	ClientPrint(null, HUD_PRINTCONSOLE, "Player team: " + GetTeamNameFromIndex(player.GetScriptScope().currentTeam));
-	ClientPrint(null, HUD_PRINTCONSOLE, "Current Player Class: " + GetClassNameFromIndex(player.GetScriptScope().currentClass));
-	PrintPlayerTeamEntry(GetPlayerEntry(player)["teamData"][TF_TEAM_RED], "TF_TEAM_RED - " + banks[TF_TEAM_RED], player.GetScriptScope().currentClass, player.GetScriptScope().currentTeam == TF_TEAM_RED);
-	PrintPlayerTeamEntry(GetPlayerEntry(player)["teamData"][TF_TEAM_BLU], "TF_TEAM_BLU - " + banks[TF_TEAM_BLU], player.GetScriptScope().currentClass, player.GetScriptScope().currentTeam == TF_TEAM_BLU);
+	ClientPrint(null, HUD_PRINTCONSOLE, "Player team: " + GetTeamNameFromIndex(playerEntry["currentTeam"]));
+	ClientPrint(null, HUD_PRINTCONSOLE, "Current Player Class: " + GetClassNameFromIndex(playerEntry["currentClass"]));
+	PrintPlayerTeamEntry(playerEntry["teamData"][TF_TEAM_RED], "TF_TEAM_RED - " + banks[TF_TEAM_RED], playerEntry["currentClass"], playerEntry["currentTeam"] == TF_TEAM_RED);
+	PrintPlayerTeamEntry(playerEntry["teamData"][TF_TEAM_BLU], "TF_TEAM_BLU - " + banks[TF_TEAM_BLU], playerEntry["currentClass"], playerEntry["currentTeam"] == TF_TEAM_BLU);
 }
 
 function PrintPlayerTeamEntry(teamEntry, sourceMessage = "", currentClass = -1, isPlayersCurrentTeam = false)
 {
 	ClientPrint(null, HUD_PRINTCONSOLE, "");
 	ClientPrint(null, HUD_PRINTCONSOLE, sourceMessage);
-
+	
 	foreach(classNum, entry in teamEntry)
 	{
 		local currencyMessage = "";
@@ -1238,53 +1432,15 @@ function PrintPlayerTeamEntry(teamEntry, sourceMessage = "", currentClass = -1, 
 		currencyMessage += " canteenCharges: " + entry["canteenCharges"];
 		currencyMessage += " refundable: " + entry["refundableAmountSpent"];
 		currencyMessage += " nonRefundable: " + entry["nonRefundableAmountSpent"];
-		currencyMessage += " refundOnSpawn: " + entry["refundOnSpawn"];
-
-		if (isPlayersCurrentTeam && currentClass == classNum) { currencyMessage += "<---------------"; }
-
+		
+		if (isPlayersCurrentTeam && currentClass == classNum)
+		{ 
+			currencyMessage += "<---------------";
+		}
 		ClientPrint(null, HUD_PRINTCONSOLE, currencyMessage)
 		ClientPrint(null, HUD_PRINTCONSOLE, "")
 	}
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//Initial Setup Per-Server//
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function PrecacheStep()
-{
-	PrecacheModel(REDGHOSTMODEL);
-	PrecacheModel(BLUGHOSTMODEL);
-	PrecacheModel(BUSTERMODEL);
-	PrecacheSound(BUSTEREXPLODESOUND);
-	PrecacheSound(BUSTERSPINSOUND);
-	PrecacheSound(BUSTERIDLESOUND);
-	PrecacheSound(POTIONCANTBEUSEDSOUND);
-	PrecacheScriptSound("Announcer.MVM_Bonus");
-	PrecacheScriptSound("Announcer.MVM_Bonus");
-	PrecacheScriptSound("MVM.MoneyPickup");
-	PrecacheScriptSound("MVM.SentryBusterStep");
-
-	for (local i = 1; i <= 9; i++)
-	{
-		PrecacheScriptSound("MoneyMap.Upgraded." + GetClassNameFromIndex(i));
-		PrecacheScriptSound("MoneyMap.UpgradedCanteen." + GetClassNameFromIndex(i));
-	}
-
-	foreach (sound in SCREAMSOUNDS) { PrecacheSound(sound); }
-
-	foreach (effect, effectEntry in effectsTable) { foreach (sound in effectEntry["soundsOnUse"])
-		{
-			PrecacheSound(sound);
-		}
-	}
-}
-
 PrecacheStep();
-
-local statsEntity = Entities.FindByClassname(null, "tf_mann_vs_machine_stats");
-if (statsEntity != null) statsEntity.Destroy();
-Convars.SetValue("tf_mvm_respec_enabled", 1);
-Convars.SetValue("tf_mvm_respec_limit", 0);
-Convars.SetValue("tf_mvm_respec_credit_goal", 1);
-Convars.SetValue("tf_dropped_weapon_lifetime", 0);
+ForceEnableUpgrades(2);

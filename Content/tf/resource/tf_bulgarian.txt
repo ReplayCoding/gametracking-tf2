@@ -3377,7 +3377,6 @@
 "TF_Wearable_Headache"				"Главоболие"
 "TF_Wearable_Shroud"				"Покров"
 "TF_Wearable_Butler"				"Иконом"
-
 "TF_RobotPart_Type"	"Роботска част"
 "TF_CircuitBoard_Type"	"Платка"
 
@@ -6636,8 +6635,6 @@
 "arena_lumberyard_event_blu_buffed"		"ПОСЛЕДНИЯТ ИГРАЧ на СИНИТЕ вече е ПОДСИЛЕН!"
 "arena_lumberyard_event_red_buffed"		"ПОСЛЕДНИЯТ ИГРАЧ на ЧЕРВЕНИТЕ вече е ПОДСИЛЕН!"
 "arena_lumberyard_event_skeleton"		"КРАЛЯТ НА СКЕЛЕТИТЕ СЕ ПОЯВИ ПРОИЗВОЛНО!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4УМРЯХТЕ! \\x07FBECCBКато \\x07FF69B4ПРИЗРАК\\x07FBECCB, лекувайте своя отбор!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBПоявява се \\x07FF69B4рядко заклинание \\x07FBECCBна произволно местонахождение!"
 "ctf_crasher_objective"					"Съпроводете Вашия гигант до вражеската порта!"
 "ctf_crasher_giant_down"				"Гигантът ни е повален, бомбата се преражда!"
 "ctf_crasher_new_giant"					"Имаме нов гигант!"
@@ -12593,9 +12590,6 @@
 "Attrib_Particle354"			"Франкенщайнов заряд"
 "Attrib_Particle355"			"Фантомна чума"
 "Attrib_Particle356"			"Обладана мараня"
-"Attrib_Particle357"			"Прилепи"
-"Attrib_Particle358"			"Гарвани"
-"Attrib_Particle359"			"Гълъби"
 "Attrib_Particle360"			"Изпепеляваща печка"
 "Attrib_Particle361"			"Изпепеляваща печка"
 "Attrib_Particle362"			"Убер възпламенено"
@@ -16563,7 +16557,6 @@
 "AbuseReport_Discard"	"Отмяна"
 "AbuseReport_SaveForLater"	"Довършване по-късно"
 "AbuseReport_SelectOne"	"— избиране —"
-
 "AbuseReport_Notification"	"Докладът за злоупотреба е готов да бъде подаден"
 "AbuseReport_Notification_Help"	"Натиснете [ %cl_trigger_first_notification% ] за ПОДАВАНЕ СЕГА.\nPress [ %cl_decline_first_notification% ] за ПОДАВАНЕ ПОСЛЕ."
 
@@ -20102,10 +20095,6 @@ E) — Сините могат да превземат тази точка по 
 "vsh_end_this"						"Сложете край на това, преди времето да изтече!"
 
 "tf_zi_ui_survivor_die"					" беше инфектиран(а) от "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB беше инфектиран(а) от \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB беше инфектиран(а)!"
-"tf_zi_ui_last_survivor_minicrit"		"ОСТАВАТ \\x07FBECCB%d ОЦЕЛЯВАЩИ! Те вече разполагат с \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB Е ПОСЛЕДНИЯТ ОЦЕЛЯВАЩ! Вече разполага с \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"КРИТИЧНИ УДАРИ"
 "tf_zi_ui_minicrits"					"МИНИ КРИТИЧНИ УДАРИ"
 "tf_zi_ui_first_wave_msg_plural"		" станаха ИНФЕКТИРАНИ!"

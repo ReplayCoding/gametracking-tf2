@@ -2823,7 +2823,6 @@
 "TF_Wearable_Cauldron"				"大锅"
 "TF_Wearable_Fish"					"鱼"
 "TF_Wearable_Butler"				"管家"
-
 "TF_RobotPart_Type"	"机器人部件"
 "TF_CircuitBoard_Type"	"电路板"
 
@@ -4623,9 +4622,9 @@
 "TF_MountainLab"				"Mountain Lab"
 "TF_MapToken_MountainLab"		"地图邮票 - Mountain Lab"
 "TF_MapToken_MountainLab_Desc"	"一张攻防型控制点地图\n\n由 Valentin '3DNJ' Levillain 制作\n\n购买此物品来直接赞助 Mountain Lab 社区地图制作者。快来表示你的支持吧！"
-"TF_ManorEvent"					"Mann Manor"
-"TF_MapToken_ManorEvent"		"地图邮票 - Mann Manor"
-"TF_MapToken_ManorEvent_Desc"	"一张攻防型控制点地图\n\n由 Tim 'YM' Johnson、Alex 'Rexy' Kreeger 制作\n\\购买此物品来直接赞助 Mann Manor 社区地图制作者。快来表示你的支持吧！"
+"TF_ManorEvent"					"曼恩断头庄"
+"TF_MapToken_ManorEvent"		"地图邮票 - 曼恩断头庄"
+"TF_MapToken_ManorEvent_Desc"	"一张攻防型控制点模式地图\n\n由 Tim 'YM' Johnson 与 Alex 'Rexy' Kreeger 制作\n\n购买此物品来直接赞助曼恩断头庄社区地图制作者。快来表示你的支持吧！"
 "TF_Nightfall"					"Nightfall"
 "TF_MapToken_Nightfall"			"地图邮票 - Nightfall"
 "TF_MapToken_Nightfall_Desc"	"一张推车竞赛模式地图\n\n由Aaron 'Psy' Garcha和Paul Good制作。\n\n购买此物品来直接赞助 Nightfall 社区地图制作者。快来表示你的支持吧！"
@@ -7279,7 +7278,7 @@
 "TF_HALLOWEEN_BOSS_KILL_MELEE_NAME"             "击破！"
 "TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"             "夺得脱缰的无头骑士的闹鬼金属。"
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"           "蒙面侠"
-"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "在 Mann Manor 地图中夺得摄魂石像鬼。"
+"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "在曼恩断头庄中收集一个摄魂石像鬼。"
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "Sackston Hale"
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_DESC"           "制造出萨克斯顿.霍尔面具。"
 "TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"脱缰的无头骑士"
@@ -8446,8 +8445,8 @@
 "TF_StrangeFilter_CommunityMapWatchtower_Desc"		"添加此奇异过滤器到奇异品质的物品并选择其中一项数据后，该物品的得分数据将只会在地图 Watchtower 上记录。"
 "TF_StrangeFilter_CommunityMapOffblast"				"奇异过滤器：Offblast（社区）"
 "TF_StrangeFilter_CommunityMapOffblast_Desc"		"添加此奇异过滤器到奇异品质的物品并选择其中一项数据后，该物品的得分数据将只会在地图 Offblast 上记录。"
-"TF_StrangeFilter_CommunityMapManorEvent"			"奇异过滤器：Mann Manor（社区）"
-"TF_StrangeFilter_CommunityMapManorEvent_Desc"		"添加此奇异过滤器到奇异品质的物品并选择其中一项数据后，该物品的得分数据将只会在地图 Mann Manor 上记录。"
+"TF_StrangeFilter_CommunityMapManorEvent"			"奇异过滤器：曼恩断头庄（社区）"
+"TF_StrangeFilter_CommunityMapManorEvent_Desc"		"添加此奇异过滤器到奇异品质的物品并选择其中一项数据后，该物品的得分数据将只会在地图曼恩断头庄上记录。"
 "TF_StrangeFilter_CommunityMapProcess"				"奇异过滤器：Process（社区）"
 "TF_StrangeFilter_CommunityMapProcess_Desc"			"添加此奇异过滤器到奇异品质的物品并选择其中一项数据后，该物品的得分数据将只会在地图 Process 上记录。"
 "TF_StrangeFilter_CommunityMapStandin"				"奇异过滤器：Standin（社区）"
@@ -10735,9 +10734,6 @@
 "Attrib_Particle347"			"蝴蝶热季"
 "Attrib_Particle348"			"精神迷幻"
 "Attrib_Particle349"			"迷人飞虫"
-"Attrib_Particle357"			"邪恶吸血鬼"
-"Attrib_Particle358"			"饥饿黑鸦"
-"Attrib_Particle359"			"欢愉白鸽"
 // Weapon Unusual
 "Attrib_Particle701"			"炽热发烟"
 "Attrib_Particle702"			"绿色辐射"
@@ -14521,7 +14517,6 @@
 "AbuseReport_Discard"	"丢弃"
 "AbuseReport_SaveForLater"	"稍后完成"
 "AbuseReport_SelectOne"	"-- 选择 --"
-
 "AbuseReport_Notification"	"违规报告完成提交准备"
 "AbuseReport_Notification_Help"	"按下 [ %cl_trigger_first_notification% ] 立刻提交举报。\n按下 [ %cl_decline_first_notification% ] 暂不提交。"
 
@@ -17275,12 +17270,14 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 每支队伍中拥有最多澳元素的玩家会给附近的队友提供生命值和弹药，但他们的位置会被暴露给敌人。"
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"爆击药水"
+"TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"超能冲锋药水"
 "TF_hwn2024_Freaky_Fair_Giant_Potion"    			"巨人药水"
 "TF_hwn2024_Freaky_Fair_Buster_Potion"    	    	"南瓜毁灭者药水"
 "TF_hwn2024_Freaky_Fair_Healing_Potion"    			"治疗药水"
 "TF_hwn2024_Freaky_Fair_Ghost_Potion"    	    	"幽灵药水"
 "TF_hwn2024_Freaky_Fair_Ammo_Potion"    	    	"弹药填充药水"
 "TF_hwn2024_Freaky_Fair_Rtd_Potion"    	    		"“掷骰子”药水"
+"TF_hwn2024_Freaky_Fair_Relentless_Potion"    		"无尽药水"
 "TF_hwn2024_Freaky_Fair_Extra_Attrib1"    	    	"额外的怪奇闹市属性 1"
 "TF_hwn2024_Freaky_Fair_Extra_Attrib2"    	    	"额外的怪奇闹市属性 2"
 

@@ -752,6 +752,7 @@ class CMedicPassive extends CPassiveAbility
     };
 };
 
+
 class CPyroBlast extends CZombieAbility
 {
     constructor( hAbilityOwner )

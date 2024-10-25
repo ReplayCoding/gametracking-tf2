@@ -3333,7 +3333,6 @@
 "TF_Wearable_Headache"				"Ból głowy"
 "TF_Wearable_Shroud"				"Peleryna"
 "TF_Wearable_Butler"				"Lokaj"
-
 "TF_RobotPart_Type"	"Robotyczna część"
 "TF_CircuitBoard_Type"	"Obwód drukowany"
 
@@ -6425,8 +6424,6 @@
 "arena_lumberyard_event_blu_buffed"		"Ostatni gracz drużyny BLU jest teraz wzmocniony!"
 "arena_lumberyard_event_red_buffed"		"Ostatni gracz drużyny RED jest teraz wzmocniony!"
 "arena_lumberyard_event_skeleton"		"KRÓL SZKIELETÓW POJAWIŁ SIĘ ZNIENACKA!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4NIE ŻYJESZ! \\x07FBECCBBędąc \\x07FF69B4DUCHEM\\x07FBECCB, lecz swoją drużynę!"
-"arena_lumberyard_event_spell"			"\\x07FF69B4Rzadkie zaklęcie \\x07FBECCBpojawi się w losowym miejscu!"
 "ctf_crasher_objective"					"Eskortuj swojego giganta do wrogich wrót!"
 "ctf_crasher_giant_down"				"Nasz gigant poległ – bomba odnawia się!"
 "ctf_crasher_new_giant"					"Mamy nowego giganta!"
@@ -12321,9 +12318,6 @@
 "Attrib_Particle354"			"frankennaładowany"
 "Attrib_Particle355"			"przywidziana plaga"
 "Attrib_Particle356"			"nawiedzona mgła"
-"Attrib_Particle357"			"nietoperze"
-"Attrib_Particle358"			"kruki"
-"Attrib_Particle359"			"gołębie"
 "Attrib_Particle360"			"palący palnik"
 "Attrib_Particle361"			"palący palnik"
 "Attrib_Particle362"			"überżar"
@@ -16271,7 +16265,6 @@
 "AbuseReport_Discard"	"Odrzuć"
 "AbuseReport_SaveForLater"	"Dokończ później"
 "AbuseReport_SelectOne"	"-- wybierz --"
-
 "AbuseReport_Notification"	"Zgłoszenie nadużycia gotowe do przesłania"
 "AbuseReport_Notification_Help"	"Wciśnij [ %cl_trigger_first_notification% ], by ZGŁOSIĆ TERAZ.\nWciśnij [ %cl_decline_first_notification% ], by ZGŁOSIĆ PÓŹNIEJ."
 
@@ -19596,10 +19589,6 @@ Przeciwnicy mogą zablokować ładunek, stając na nim."
 "vsh_end_this"						"Zakończ to, zanim czas się skończy!"
 
 "tf_zi_ui_survivor_die"					" ulega infekcji ze strony gracza "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB ulega infekcji ze strony gracza \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"Gracz \\x07FF3F3F%s\\x07FBECCB ulega infekcji!"
-"tf_zi_ui_last_survivor_minicrit"		"POZOSTAŁO \\x07FBECCB%d OCALAŁYCH! Zadają teraz obrażenia \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB JEST OSTATNIM OCALAŁYM! Zadaje teraz obrażenia \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"KRYTYCZNE"
 "tf_zi_ui_minicrits"					"MINIKRYTYCZNE"
 "tf_zi_ui_first_wave_msg_plural"		" został ZAINFEKOWANY!"

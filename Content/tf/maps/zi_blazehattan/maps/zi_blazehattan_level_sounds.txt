@@ -1,10 +1,10 @@
 // --------------------------------------------------------------------------------------- //
-// Infection - Version 2 - Workshop Release v2 - Last Edited: 16/09/2023                   //
+// Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
-// Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)        //
+// All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
 // --------------------------------------------------------------------------------------- //
-// Infection _level_sounds.txt								   // 
+// Infection _level_sounds.txt								   							   //
 // --------------------------------------------------------------------------------------- //
 
 "Infection.EMP_Grenade_Beep"
@@ -33,9 +33,9 @@
 	"soundlevel" 	"SNDLVL_110dB"
 	"rndwave"
 	{
-		"wave"	"infection/demo_charge_01.mp3"
-		"wave"	"infection/demo_charge_02.mp3"
-		"wave"	"infection/demo_charge_03.mp3"
+		"wave"	"infection/demo_charge_01.wav"
+		"wave"	"infection/demo_charge_02.wav"
+		"wave"	"infection/demo_charge_03.wav"
 	}
 }
 
@@ -47,10 +47,10 @@
 	"soundlevel" 	"SNDLVL_110dB"
 	"rndwave"
 	{
-		"wave"	"infection/engineer_emp_01.mp3"
-		"wave"	"infection/engineer_emp_02.mp3"
-		"wave"	"infection/engineer_emp_03.mp3"
-		"wave"	"infection/engineer_emp_04.mp3"
+		"wave"	"infection/engineer_emp_01.wav"
+		"wave"	"infection/engineer_emp_02.wav"
+		"wave"	"infection/engineer_emp_03.wav"
+		"wave"	"infection/engineer_emp_04.wav"
 	}
 }
 
@@ -60,7 +60,7 @@
 	"volume"	"1.0"
 	"pitch"		"100"
 	"soundlevel" 	"SNDLVL_110dB"
-	"wave"		"infection/sniper_spit_start.mp3"
+	"wave"		"infection/sniper_spit_start.wav"
 }
 
 "Infection.SniperSpitEnd"
@@ -69,7 +69,7 @@
 	"volume"	"1.0"
 	"pitch"		"100"
 	"soundlevel" 	"SNDLVL_110dB"
-	"wave"		"infection/sniper_spit_end.mp3"
+	"wave"		"infection/sniper_spit_end.wav"
 }
 
 "Infection.SoldierPounce"
@@ -80,10 +80,10 @@
 	"soundlevel" 	"SNDLVL_110dB"
 	"rndwave"
 	{
-		"wave"	"infection/soldier_pounce_01.mp3"
-		"wave"	"infection/soldier_pounce_02.mp3"
-		"wave"	"infection/soldier_pounce_03.mp3"
-		"wave"	"infection/soldier_pounce_04.mp3"
+		"wave"	"infection/soldier_pounce_01.wav"
+		"wave"	"infection/soldier_pounce_02.wav"
+		"wave"	"infection/soldier_pounce_03.wav"
+		"wave"	"infection/soldier_pounce_04.wav"
 	}
 }
 
@@ -95,9 +95,9 @@
 	"soundlevel" 	"SNDLVL_110dB"
 	"rndwave"
 	{
-		"wave"	"infection/spy_reveal_01.mp3"
-		"wave"	"infection/spy_reveal_02.mp3"
-		"wave"	"infection/spy_reveal_03.mp3"
+		"wave"	"infection/spy_reveal_01.wav"
+		"wave"	"infection/spy_reveal_02.wav"
+		"wave"	"infection/spy_reveal_03.wav"
 	}
 }
 

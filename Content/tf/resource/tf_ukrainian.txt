@@ -3359,7 +3359,6 @@
 "TF_Wearable_Headache"				"Головний біль"
 "TF_Wearable_Shroud"				"Накидка"
 "TF_Wearable_Butler"				"Дворецький"
-
 "TF_RobotPart_Type"	"Частина робота"
 "TF_CircuitBoard_Type"	"Плата"
 
@@ -6465,8 +6464,6 @@
 "arena_lumberyard_event_blu_buffed"		"ОСТАННІЙ ГРАВЕЦЬ команди СИНІХ тепер ПОСИЛЕНИЙ!"
 "arena_lumberyard_event_red_buffed"		"ОСТАННІЙ ГРАВЕЦЬ команди ЧЕРВОНИХ тепер ПОСИЛЕНИЙ!"
 "arena_lumberyard_event_skeleton"		"У ВИПАДКОВОМУ МІСЦІ З’ЯВИВСЯ КОРОЛЬ СКЕЛЕТІВ!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4ВИ ЗАГИНУЛИ! \\x07FBECCBЯк \\x07FF69B4ПРИВИД\\x07FBECCB лікуйте свою команду!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBA \\x07FF69B4Рідкісне заклинання \\x07FBECCBз’являється у випадковому місці!"
 "ctf_crasher_objective"					"Проведіть вашого велета до ворожої брами!"
 "ctf_crasher_giant_down"				"Наш велет поліг, з’являється бомба!"
 "ctf_crasher_new_giant"					"Маємо нового велета!"
@@ -12414,9 +12411,6 @@
 "Attrib_Particle354"			"Франкенструм"
 "Attrib_Particle355"			"Фантомна чума"
 "Attrib_Particle356"			"Примарна параноя"
-"Attrib_Particle357"			"Кажани"
-"Attrib_Particle358"			"Ворони"
-"Attrib_Particle359"			"Голуби"
 "Attrib_Particle360"			"Полум’я плити"
 "Attrib_Particle361"			"Полум’я плити"
 "Attrib_Particle362"			"Потужна пожежа"
@@ -16365,7 +16359,6 @@
 "AbuseReport_Discard"	"Скасувати"
 "AbuseReport_SaveForLater"	"Закінчити пізніше"
 "AbuseReport_SelectOne"	"-- виберіть --"
-
 "AbuseReport_Notification"	"Повідомлення про порушення готове до надсилання"
 "AbuseReport_Notification_Help"	"Натисніть [ %cl_trigger_first_notification% ], щоб НАДІСЛАТИ ЗАРАЗ.\nНатисніть [ %cl_decline_first_notification% ], щоб НАДІСЛАТИ ЗГОДОМ."
 
@@ -19694,10 +19687,6 @@ E) — Сині можуть захопити цю точку в будь яки
 "vsh_end_this"						"Завершіть до спливання часу!"
 
 "tf_zi_ui_survivor_die"					" заражається від "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB заражається від \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB заражається!"
-"tf_zi_ui_last_survivor_minicrit"		"\\x07FBECCB%d УЦІЛІЛИХ ЛИШИЛОСЯ! Тепер вони мають \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB ОСТАННІЙ УЦІЛІЛИЙ! Тепер він має \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"КРИТИЧНІ УДАРИ"
 "tf_zi_ui_minicrits"					"МІНІ-КРИТИ"
 "tf_zi_ui_first_wave_msg_plural"		" ЗАРАЖАЄТЬСЯ!"

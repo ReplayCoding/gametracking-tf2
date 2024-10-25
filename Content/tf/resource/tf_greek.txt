@@ -3364,7 +3364,6 @@
 "TF_Wearable_Headache"				"Πονοκέφαλος"
 "TF_Wearable_Shroud"				"Σάβανο"
 "TF_Wearable_Butler"				"Μπάτλερ"
-
 "TF_RobotPart_Type"	"Μέρος του ρομπότ"
 "TF_CircuitBoard_Type"	"Ηλεκτρονική πλακέτα"
 
@@ -6478,8 +6477,6 @@
 "arena_lumberyard_event_blu_buffed"		"Ο ΤΕΛΕΥΤΑΙΟΣ ΠΑΙΚΤΗΣ των BLU είναι τώρα ΕΠΑΥΞΗΜΕΝΟΣ!"
 "arena_lumberyard_event_red_buffed"		"Ο ΤΕΛΕΥΤΑΙΟΣ ΠΑΙΚΤΗΣ των RED είναι τώρα ΕΠΑΥΞΗΜΕΝΟΣ!"
 "arena_lumberyard_event_skeleton"		"Ο ΒΑΣΙΛΙΑΣ ΤΩΝ ΣΚΕΛΕΤΩΝ ΑΝΑΒΙΩΣΕ!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4ΠΕΘΑΝΑΤΕ! \\x07FBECCBΩς \\x07FF69B4ΦΑΝΤΑΣΜΑ\\x07FBECCB, θεραπεύστε την ομάδα σας!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBΈνα \\x07FF69B4Σπάνιο Ξόρκι \\x07FBECCBεμφανίζεται σε μια τυχαία τοποθεσία!"
 "ctf_crasher_objective"					"Συνοδέψτε τον γίγαντά σας στην εχθρική πύλη!"
 "ctf_crasher_giant_down"				"Ο γίγαντάς μας έπεσε, η βόμβα αναβιώνει!"
 "ctf_crasher_new_giant"					"Έχουμε ένα νέο γίγαντα!"
@@ -12428,9 +12425,6 @@
 "Attrib_Particle354"			"Frankencharged"
 "Attrib_Particle355"			"Phantom Plague"
 "Attrib_Particle356"			"Haunting Haze"
-"Attrib_Particle357"			"Bats"
-"Attrib_Particle358"			"Ravens"
-"Attrib_Particle359"			"Doves"
 "Attrib_Particle360"			"Searing Stove"
 "Attrib_Particle361"			"Searing Stove"
 "Attrib_Particle362"			"Über Blaze"
@@ -16383,7 +16377,6 @@
 "AbuseReport_Discard"	"Απόρριψη"
 "AbuseReport_SaveForLater"	"Ολοκλήρωση αργότερα"
 "AbuseReport_SelectOne"	"-- επιλογή --"
-
 "AbuseReport_Notification"	"Έκθεση κατάχρησης έτοιμη για υποβολή"
 "AbuseReport_Notification_Help"	"Πατήστε [ %cl_trigger_first_notification% ] για να ΑΠΟΣΤΕΙΛΕΤΕ ΤΩΡΑ.\nΠατήστε [ %cl_decline_first_notification% ] για να ΑΠΟΣΤΕΙΛΕΤΕ ΑΡΓΟΤΕΡΑ."
 
@@ -19676,10 +19669,6 @@ RED: Σταματήστε τους BLU! Πάρτε πίσω το σώμα του
 "vsh_end_this"						"Λήξτε το, πριν τελειώσει ο χρόνος!"
 
 "tf_zi_ui_survivor_die"					" μολύνθηκε από "
-"tf_zi_ui_infect_msg"					"Ο παίκτης \\x07FF3F3F%s\\x07FBECCB μολύνθηκε από τον παίκτη \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"Ο παίκτης \\x07FF3F3F%s\\x07FBECCB μολύνθηκε!"
-"tf_zi_ui_last_survivor_minicrit"		"ΠΑΡΑΜΕΝΟΥΝ \\x07FBECCB%d ΕΠΙΖΩΝΤΕΣ! Έχουν τώρα \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"Ο παίκτης \\x07FF3F3F%s\\x07FBECCB ΕΙΝΑΙ Ο ΤΕΛΕΥΤΑΙΟΣ ΕΠΙΖΩΝ! Έχει τώρα \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"ΚΑΙΡΙΑ ΧΤΥΠΗΜΑΤΑ"
 "tf_zi_ui_minicrits"					"ΜΙΝΙ ΚΑΙΡΙΑ"
 "tf_zi_ui_first_wave_msg_plural"		" έχει ΜΟΛΥΝΘΕΙ!"

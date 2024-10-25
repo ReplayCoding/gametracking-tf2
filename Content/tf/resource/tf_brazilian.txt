@@ -3360,7 +3360,6 @@
 "TF_Wearable_Headache"				"Dor de Cabeça"
 "TF_Wearable_Shroud"				"Sudário"
 "TF_Wearable_Butler"				"Mordomo"
-
 "TF_RobotPart_Type"	"Peça de Robô"
 "TF_CircuitBoard_Type"	"Placa de Circuito"
 
@@ -6466,8 +6465,6 @@
 "arena_lumberyard_event_blu_buffed"		"O ÚLTIMO JOGADOR DA EQUIPE BLU ESTÁ FORTALECIDO!"
 "arena_lumberyard_event_red_buffed"		"O ÚLTIMO JOGADOR DA EQUIPE RED ESTÁ FORTALECIDO!"
 "arena_lumberyard_event_skeleton"		"O REI ESQUELETO APARECEU INESPERADAMENTE!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4VOCÊ MORREU! \\x07FBECCBComo um \\x07FF69B4FANTASMA\\x07FBECCB, cure a sua equipe!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBUm \\x07FF69B4feitiço raro \\x07FBECCBapareceu em um local aleatório!"
 "ctf_crasher_objective"					"Escolte o gigante até o portão da equipe inimiga!"
 "ctf_crasher_giant_down"				"O nosso gigante morreu — a bomba está regenerando!"
 "ctf_crasher_new_giant"					"Temos um gigante novo!"
@@ -12414,9 +12411,6 @@
 "Attrib_Particle354"			"Frankarregado"
 "Attrib_Particle355"			"Praga fantasma"
 "Attrib_Particle356"			"Névoa assombrada"
-"Attrib_Particle357"			"Morcegos"
-"Attrib_Particle358"			"Corvos"
-"Attrib_Particle359"			"Pombas"
 "Attrib_Particle360"			"Fogão flamejante"
 "Attrib_Particle361"			"Fogão flamejante"
 "Attrib_Particle362"			"Überraios"
@@ -16365,7 +16359,6 @@
 "AbuseReport_Discard"	"Descartar"
 "AbuseReport_SaveForLater"	"Concluir depois"
 "AbuseReport_SelectOne"	"-- selecione --"
-
 "AbuseReport_Notification"	"Denúncia de abuso pronta para envio"
 "AbuseReport_Notification_Help"	"Pressione [ %cl_trigger_first_notification% ] para ENVIAR AGORA.\nPressione [ %cl_decline_first_notification% ] para ENVIAR MAIS TARDE."
 
@@ -19713,10 +19706,6 @@ Membros da equipe inimiga podem impedir que a carga explosiva se mova subindo ne
 "vsh_end_this"						"Acabe com isto antes que o tempo acabe!"
 
 "tf_zi_ui_survivor_die"					" foi infectado(a) por "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB foi infectado(a) por \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB foi infectado(a)!"
-"tf_zi_ui_last_survivor_minicrit"		"RESTAM \\x07FBECCB%d SOBREVIVENTES! Os humanos agora têm \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"\\x07FF3F3F%s\\x07FBECCB É O ÚLTIMO DE PÉ! Os humanos agora têm \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"100% DE CRÍTICOS"
 "tf_zi_ui_minicrits"					"100% DE MINICRITS"
 "tf_zi_ui_first_wave_msg_plural"		" agora são ZUMBIS!"

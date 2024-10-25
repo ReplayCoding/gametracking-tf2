@@ -3359,7 +3359,6 @@
 "TF_Wearable_Headache"				"Головная боль"
 "TF_Wearable_Shroud"				"Накидка"
 "TF_Wearable_Butler"				"Дворецкий"
-
 "TF_RobotPart_Type"	"Запчасть робота"
 "TF_CircuitBoard_Type"	"Печатная плата"
 
@@ -6472,8 +6471,6 @@
 "arena_lumberyard_event_blu_buffed"		"ПОСЛЕДНИЙ ИГРОК СИНИХ УСИЛЕН!"
 "arena_lumberyard_event_red_buffed"		"ПОСЛЕДНИЙ ИГРОК КРАСНЫХ УСИЛЕН!"
 "arena_lumberyard_event_skeleton"		"В СЛУЧАЙНОМ МЕСТЕ ПОЯВИЛСЯ КОРОЛЬ СКЕЛЕТОВ!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4ВЫ УМЕРЛИ! \\x07FBECCBИграя за \\x07FF69B4ПРИВИДЕНИЕ\\x07FBECCB, лечите свою команду!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBГде-то появилось \\x07FF69B4редкое заклинание\\x07FBECCB!"
 "ctf_crasher_objective"					"Сопроводите своего гиганта к вражеским воротам!"
 "ctf_crasher_giant_down"				"Наш гигант пал! Скоро бомба появится вновь!"
 "ctf_crasher_new_giant"					"У нас новый гигант!"
@@ -12423,9 +12420,6 @@
 "Attrib_Particle354"			"Франкеншторм"
 "Attrib_Particle355"			"Трупный туман"
 "Attrib_Particle356"			"Проклятая пелена"
-"Attrib_Particle357"			"Мыши-мучители"
-"Attrib_Particle358"			"Вороватые вороны"
-"Attrib_Particle359"			"Грациозные голуби"
 "Attrib_Particle360"			"Пылающая плита"
 "Attrib_Particle361"			"Пылающая плита"
 "Attrib_Particle362"			"Убер-запал"
@@ -16379,7 +16373,6 @@
 "AbuseReport_Discard"	"Отмена"
 "AbuseReport_SaveForLater"	"Отправить позже"
 "AbuseReport_SelectOne"	"-- выбрать --"
-
 "AbuseReport_Notification"	"Жалоба готова к отправке"
 "AbuseReport_Notification_Help"	"Нажмите [ %cl_trigger_first_notification% ], чтобы ОТПРАВИТЬ СЕЙЧАС.\nНажмите [ %cl_decline_first_notification% ], чтобы ОТПРАВИТЬ ПОЗЖЕ."
 
@@ -19765,10 +19758,6 @@ E: Синие могут захватить эту точку в любой мо
 "vsh_end_this"						"Закончите бой до истечения времени!"
 
 "tf_zi_ui_survivor_die"					" заражается от "
-"tf_zi_ui_infect_msg"					"\\x07FF3F3F%s\\x07FBECCB заражается от \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"\\x07FF3F3F%s\\x07FBECCB заражается!"
-"tf_zi_ui_last_survivor_minicrit"		"\\x07FBECCBОСТАЛОСЬ %d ВЫЖИВШИХ! Теперь у них \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"ОСТАЛСЯ ПОСЛЕДНИЙ ВЫЖИВШИЙ! \\x07FF3F3F%s\\x07FBECCB получает \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"КРИТЫ"
 "tf_zi_ui_minicrits"					"МИНИ-КРИТЫ"
 "tf_zi_ui_first_wave_msg_plural"		" ЗАРАЗИЛИСЬ!"

@@ -151,7 +151,7 @@ ZOMBIE_PLAYER_CONDS <- [ ///////////////////////////////////////////////////////
 ],                                              //                                         //
 [// TF_CONDs applied to heavyweapons zombie ---------------------------------------------- //
     TF_COND_NO_KNOCKBACK,                       // cannot be knocked back                  //
-    TF_COND_DEFENSEBUFF,                        // battalion's backup effect               //
+    TF_COND_DEFENSEBUFF_NO_CRIT_BLOCK,          // battalion's backup effect w/o crit block//
 ],                                              //                                         //
 [// TF_CONDs applied to pyro zombie ------------------------------------------------------ //
 ],                                              //                                         //
@@ -197,12 +197,13 @@ ZOMBIE_PLAYER_ATTRIBS <- [ /////////////////////////////////////////////////////
 ],                                                    //                                   //
 [// attributes for heavyweapons zombie  -------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
-["hidden maxhealth non buffed", 150, -1 ],            //                                   //
+["hidden maxhealth non buffed", 225, -1 ],            //                                   //
 ["move speed penalty", 0.90, -1 ],                    //                                   //
 ["dmg bonus vs buildings", 100, -1 ],                 //                                   //
 ],                                                    //                                   //
 [// attributes for pyro zombie  ---------------------------------------------------------- //
 ["SPELL: set Halloween footstep type", 4552221, -1 ], // corrupted green footsteps         //
+["hidden maxhealth non buffed", 75, -1 ],            //                                   //
 ],                                                    //                                   //
 [// attributes for spy zombie  ----------------------------------------------------------- //
 ["hidden maxhealth non buffed", 25, -1 ],             //                                   //
@@ -405,6 +406,7 @@ const FX_FIREBALL_SMOKEBALL   = "zombie_fireball_smokeball";
 const FX_FIREBALL_SMOKEPUFF   = "zombie_fireball_smokepuff";
 const FX_FIREBALL_TRAIL       = "zombie_fireball_trail";
 const FX_ZOMBIE_FIREBALL      = "zombie_fireball";
+const FX_FLAMER               = "flamethrower_blue";
 
 const SFX_ZOMBIE_SPIT_START   = "Infection.SniperSpitStart";
 const SFX_ZOMBIE_SPIT_END     = "Infection.SniperSpitEnd";

@@ -3146,7 +3146,6 @@
 "TF_Wearable_Gambeson"				"Gambeson"
 "TF_Wearable_Medkit"				"Süslü İlkyardım Kiti"
 "TF_Wearable_Butler"				"Uşak"
-
 "TF_RobotPart_Type"	"Robot Parçası"
 "TF_CircuitBoard_Type"	"Devre Kartı"
 
@@ -6075,8 +6074,6 @@
 "arena_lumberyard_event_blu_buffed"		"BLU'nun SON OYUNCUSU GÜÇLENDİ!"
 "arena_lumberyard_event_red_buffed"		"RED'in SON OYUNCUSU GÜÇLENDİ!"
 "arena_lumberyard_event_skeleton"		"İSKELET KRAL BİR ANDA CANLANIVERDİ!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4ÖLDÜN! \\x07FF69B4HAYALET \\x07FBECCBolarak \\x07FBECCB takımını iyileştir!"
-"arena_lumberyard_event_spell"			"\\x07FBECCBBir \\x07FF69B4Nadir Büyü \\x07FBECCBrastgele bir yerde ortaya çıkıyor!"
 "pd_farmageddon_objective"				"Diğer takımdan yabani ot öldürücü topla ve bal kabağı canavarının içine bırak!"
 "cp_frostwatch_east"					"Doğu Gözcü Kulesi"
 "cp_frostwatch_west"					"Batı Gözcü Kulesi"
@@ -11741,9 +11738,6 @@
 "Attrib_Particle354"			"Frankenşarj"
 "Attrib_Particle355"			"Hayalet Vebası"
 "Attrib_Particle356"			"Lanetli Duman"
-"Attrib_Particle357"			"Yarasalar"
-"Attrib_Particle358"			"Kuzgunlar"
-"Attrib_Particle359"			"Güvercinler"
 "Attrib_Particle360"			"Kavurucu Ocak"
 "Attrib_Particle361"			"Kavurucu Ocak"
 "Attrib_Particle362"			"Über Alev"
@@ -15638,7 +15632,6 @@ Kapasitesini genişletmek için çanta genişletici satın alabilirsiniz."
 "AbuseReport_Discard"	"Sil"
 "AbuseReport_SaveForLater"	"Sonra Tamamla"
 "AbuseReport_SelectOne"	"-- seç --"
-
 "AbuseReport_Notification"	"Kötüye Kullanım Raporu Gönderilmek için Hazır"
 "AbuseReport_Notification_Help"	"ŞİMDİ YOLLAmak için [ %cl_trigger_first_notification% ] tuşuna bas.\nSONRA YOLLAmak için [ %cl_decline_first_notification% ] tuşuna bas."
 

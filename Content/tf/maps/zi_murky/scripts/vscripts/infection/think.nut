@@ -657,6 +657,7 @@ PlayerThink <- function()
              self.CanDoAct( SURVIVOR_CAN_CLEAR_SCRIPT_SCREEN_OVERLAY ))
         {
             self.SetScriptOverlayMaterial( "" );
+            self.ClearSpitStatus();
         };
 
     };
@@ -955,23 +956,24 @@ SniperSpitThink <- function()
                 if ( _hNextPlayer == null || _hNextPlayer.GetTeam() == TF_TEAM_BLUE )
                     continue; // redundant
 
-                local _vecPlayerOrigin = _hNextPlayer.GetOrigin();
-
-                // deal a bit more damage to players in the zone on impact
-                if ( !m_bDealtPopDmg )
+                // prevent spit pool stacking
+                if ( _hNextPlayer.AlreadyInSpit() )
                 {
-                    local _hKillIcon = KilliconInflictor( KILLICON_SNIPER_SPITPOOL );
-                    // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
-                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
-                    _hNextPlayer.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
-                    //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
-                    _hKillIcon.Destroy();
+                    local _playerExistingSpitEnt = _hNextPlayer.GetLinkedSpitPoolEnt();
 
-                    EmitSoundOnClient("TFPlayer.FirePain", _hNextPlayer);
+                    if ( _playerExistingSpitEnt != self )
+                    {
+                        // printl("player is already standing in spit, ignoring this player")
+                        continue;
+                    }
+                }
+                else
+                {
+                   // printl("Player has no linked spit ent, this ent is now their linked spit" );
+                    _hNextPlayer.SetLinkedSpitPoolEnt( self );
+                }
 
-                    DispatchParticleEffect  ( FX_SPIT_HIT_PLAYER, _vecPlayerOrigin, Vector( 0, 0, 0 ) );
-                    continue;
-                };
+                local _vecPlayerOrigin = _hNextPlayer.GetOrigin();
 
                 if ( _hNextPlayer.GetScriptOverlayMaterial() == "" && GetPropInt( _hNextPlayer, "m_lifeState" ) == 0)
                 {
@@ -985,10 +987,7 @@ SniperSpitThink <- function()
 
                 local _hKillIcon = KilliconInflictor( KILLICON_SNIPER_SPITPOOL );
 
-                // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
-                //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
-                _hNextPlayer.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
-                //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
+                _hNextPlayer.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_ZONE_DAMAGE, ( DMG_BURN | DMG_PREVENT_PHYSICS_FORCE ) );
 
                 _hKillIcon.Destroy();
 

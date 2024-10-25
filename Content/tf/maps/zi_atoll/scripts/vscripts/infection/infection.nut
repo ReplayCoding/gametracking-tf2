@@ -35,6 +35,24 @@ function Main()
 };
 
 // changes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 24/10/2024 - v3.0.4 ------------------------------------------------------------------------------------------------- //
+// -- General
+// -- -- Re-encoded all Zombie Infection sound effects as .WAV
+// -- -- -- This fixes issues with sound effects not playing correctly and spewing errors in the console
+// -- Bug fixes
+// -- -- Fixed a bug that caused Sniper's Spit Pool to deal much more damage than intended
+// -- -- Fixed a bug that caused team names to not display correctly when playing on mp_tournament mode
+// -- -- Fixed a bug where Engineer would sometimes scream like a charging Demoman while throwing an EMP Grenade
+// -- Zombie Changes
+// -- -- Sniper's Spit Pool damage vs Survivors no longer stacks when standing in multiple zones
+// -- -- Zombie Heavy is no longer immune to Critical Hits
+// -- -- Zombie Heavy's max health raised to 525 (from 450)
+// -- -- Zombie Pyro's max health raised to 250 (from 175)
+// -- -- Zombie Pyro now drops a medium health kit on death
+// -- Survivor Changes
+// -- -- Crossbow weapons no longer have a flat damage multiplier against Zombies
+// -- -- The B.A.S.E Jumper can no longer be deployed if you are one of the last three survivors
+// -- -- Jumper Weapons can no longer store reserve ammunition
 // 14/10/2024 - v3.0.3 ------------------------------------------------------------------------------------------------- //
 // -- Reduced Zombie Engineer's EMP Grenade Cooldown from 10 seconds to 9 seconds                                        //
 // -- Adjusted Zombie Pyro's death explosion to briefly ignite players hit by the blast                                  //
@@ -204,6 +222,11 @@ function OnGameEvent_player_spawn( params )
     // and reset infection specific vars
     _hPlayer.ResetInfectionVars();
 
+    if ( _hPlayer.GetPlayerClass() ==  TF_CLASS_DEMOMAN || _hPlayer.GetPlayerClass() == TF_CLASS_SOLDIER )
+    {
+        _hPlayer.ModifyJumperWeapons();
+    }
+
     // game hasn't started, player should be a survivor
     if ( !::bGameStarted )
     {
@@ -282,156 +305,159 @@ function OnGameEvent_teamplay_setup_finished( params )
     // select players to become zombies                   //
     // -------------------------------------------------- //
 
-    if ( ( _iPlayerCountRed <= 1 ) && ( DEBUG_MODE < 1 ) )
+    if ( !bNewFirstWaveBehaviour )
     {
-        // not enough players, force game over
-        local _hGameWin = SpawnEntityFromTable( "game_round_win",
+        if ( ( _iPlayerCountRed <= 1 ) && ( DEBUG_MODE < 1 ) )
         {
-            win_reason      = "0",
-            force_map_reset = "1",
-            TeamNum         = "2", // TF_TEAM_RED
-            switch_teams    = "0"
-        });
-
-        EntFireByHandle( _hGameWin, "RoundWin", "", 0, null, null );
-        ::bGameStarted <- false;
-        return;
-    }
-    else if ( _numStartingZombies == -1 )
-    {
-        if ( _iPlayerCountRed <= 4 )
-        {
-            _numStartingZombies = 1;
-        }
-        else if ( _iPlayerCountRed <= 8 )
-        {
-            _numStartingZombies = 2;
-        }
-        else if ( _iPlayerCountRed <= 12 )
-        {
-            _numStartingZombies = 3;
-        }
-        else if ( _iPlayerCountRed < 18 )
-        {
-            _numStartingZombies = 4;
-        }
-        else // 18 or more players
-        {
-            _numStartingZombies = RoundUp( _iPlayerCountRed / STARTING_ZOMBIE_FAC );
-        }
-    }
-
-    local _szZombieNetNames  =  "";
-    local _zombieArr         =  GetRandomPlayers( _numStartingZombies );
-
-    if ( _zombieArr.len() == 0 )
-        return;
-
-    // ------------------------------------------ //
-    // convert the picked players to zombies      //
-    // ------------------------------------------ //
-
-    for ( local i = 0; i < _zombieArr.len(); i++ )
-    {
-        local _id          =  GetPlayerUserID     ( _zombieArr[ i ] );
-        local _nextPlayer  =  GetPlayerFromUserID ( _id );
-
-        if ( _nextPlayer == null )
-            continue;
-
-        local _sc = _nextPlayer.GetScriptScope();
-
-        // ------------------------------------------- //
-        // make sure heavy doesn't get stuck in t-pose //
-        // ------------------------------------------- //
-
-        if ( _nextPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS )
-        {
-            if ( _nextPlayer.GetActiveWeapon().GetClassname() == "tf_weapon_minigun" )
+            // not enough players, force game over
+            local _hGameWin = SpawnEntityFromTable( "game_round_win",
             {
-                SetPropInt( _nextPlayer.GetActiveWeapon(), "m_iWeaponState", 0 );
-            };
-        };
+                win_reason      = "0",
+                force_map_reset = "1",
+                TeamNum         = "2", // TF_TEAM_RED
+                switch_teams    = "0"
+            });
 
-        // remove player conditions that will cause problems
-        // when switching to zombie
-        _nextPlayer.ClearProblematicConds();
-
-        // reset all gamemode specific variables
-        _nextPlayer.ResetInfectionVars();
-
-        ChangeTeamSafe( _nextPlayer, TF_TEAM_BLUE, false );
-
-        // remove all of the player's existing items
-        _nextPlayer.RemovePlayerWearables();
-
-        // add the zombie cosmetics/skin modifications
-        _nextPlayer.GiveZombieCosmetics();
-        _nextPlayer.GiveZombieFXWearable();
-
-        SendGlobalGameEvent( "post_inventory_application", { userid = GetPlayerUserID(_nextPlayer) });
-
-        // add the pending zombie flag
-        // the actual zombie conversion is handled in the player's think script
-        _sc.m_iFlags <- ( ( _sc.m_iFlags | ZBIT_PENDING_ZOMBIE ) );
-
-        // don't delay zombie conversion when the player is alive.
-        _nextPlayer.SetNextActTime ( ZOMBIE_BECOME_ZOMBIE, INSTANT );
-        _nextPlayer.SetNextActTime ( ZOMBIE_ABILITY_CAST, 0.1 );
-
-        // ------------------------------------------- //
-        // build string for chat notification          //
-        // ------------------------------------------- //
-
-        if ( i == 0 ) // first player in the message
-        {
-            _szZombieNetNames = "\x07FF3F3F" + NetName( _nextPlayer ) + "\x07FBECCB";
+            EntFireByHandle( _hGameWin, "RoundWin", "", 0, null, null );
+            ::bGameStarted <- false;
+            return;
         }
-        else if ( i ==  ( _zombieArr.len() - 1 ) ) // last player in the message
+        else if ( _numStartingZombies == -1 )
         {
-            if ( _zombieArr.len() > 1 )
+            if ( _iPlayerCountRed <= 4 )
             {
-                _szZombieNetNames += ( "\x07FBECCB " + STRING_UI_AND + " \x07FF3F3F" );
+                _numStartingZombies = 1;
             }
-            else
+            else if ( _iPlayerCountRed <= 8 )
             {
-                _szZombieNetNames += ( "\x07FBECCB, \x07FF3F3F" );
+                _numStartingZombies = 2;
+            }
+            else if ( _iPlayerCountRed <= 12 )
+            {
+                _numStartingZombies = 3;
+            }
+            else if ( _iPlayerCountRed < 18 )
+            {
+                _numStartingZombies = 4;
+            }
+            else // 18 or more players
+            {
+                _numStartingZombies = RoundUp( _iPlayerCountRed / STARTING_ZOMBIE_FAC );
+            }
+        }
+
+        local _szZombieNetNames  =  "";
+        local _zombieArr         =  GetRandomPlayers( _numStartingZombies );
+
+        if ( _zombieArr.len() == 0 )
+            return;
+
+        // ------------------------------------------ //
+        // convert the picked players to zombies      //
+        // ------------------------------------------ //
+
+        for ( local i = 0; i < _zombieArr.len(); i++ )
+        {
+            local _id          =  GetPlayerUserID     ( _zombieArr[ i ] );
+            local _nextPlayer  =  GetPlayerFromUserID ( _id );
+
+            if ( _nextPlayer == null )
+                continue;
+
+            local _sc = _nextPlayer.GetScriptScope();
+
+            // ------------------------------------------- //
+            // make sure heavy doesn't get stuck in t-pose //
+            // ------------------------------------------- //
+
+            if ( _nextPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS )
+            {
+                if ( _nextPlayer.GetActiveWeapon().GetClassname() == "tf_weapon_minigun" )
+                {
+                    SetPropInt( _nextPlayer.GetActiveWeapon(), "m_iWeaponState", 0 );
+                };
             };
 
-            _szZombieNetNames += ( NetName( _nextPlayer ) + "\x07FBECCB" );
+            // remove player conditions that will cause problems
+            // when switching to zombie
+            _nextPlayer.ClearProblematicConds();
+
+            // reset all gamemode specific variables
+            _nextPlayer.ResetInfectionVars();
+
+            ChangeTeamSafe( _nextPlayer, TF_TEAM_BLUE, false );
+
+            // remove all of the player's existing items
+            _nextPlayer.RemovePlayerWearables();
+
+            // add the zombie cosmetics/skin modifications
+            _nextPlayer.GiveZombieCosmetics();
+            _nextPlayer.GiveZombieFXWearable();
+
+            SendGlobalGameEvent( "post_inventory_application", { userid = GetPlayerUserID(_nextPlayer) });
+
+            // add the pending zombie flag
+            // the actual zombie conversion is handled in the player's think script
+            _sc.m_iFlags <- ( ( _sc.m_iFlags | ZBIT_PENDING_ZOMBIE ) );
+
+            // don't delay zombie conversion when the player is alive.
+            _nextPlayer.SetNextActTime ( ZOMBIE_BECOME_ZOMBIE, INSTANT );
+            _nextPlayer.SetNextActTime ( ZOMBIE_ABILITY_CAST, 0.1 );
+
+            // ------------------------------------------- //
+            // build string for chat notification          //
+            // ------------------------------------------- //
+
+            if ( i == 0 ) // first player in the message
+            {
+                _szZombieNetNames = "\x07FF3F3F" + NetName( _nextPlayer ) + "\x07FBECCB";
+            }
+            else if ( i ==  ( _zombieArr.len() - 1 ) ) // last player in the message
+            {
+                if ( _zombieArr.len() > 1 )
+                {
+                    _szZombieNetNames += ( "\x07FBECCB " + STRING_UI_AND + " \x07FF3F3F" );
+                }
+                else
+                {
+                    _szZombieNetNames += ( "\x07FBECCB, \x07FF3F3F" );
+                };
+
+                _szZombieNetNames += ( NetName( _nextPlayer ) + "\x07FBECCB" );
+            }
+            else // players in the middle get commas
+            {
+                _szZombieNetNames += ( "\x07FBECCB, \x07FF3F3F" + NetName( _nextPlayer ) + "\x07FBECCB" );
+            };
+        };
+
+        local _szFirstInfectedAnnounceMSG = "";
+
+        if ( _zombieArr.len() > 1 ) // set the first infected announce message
+        {
+            _szFirstInfectedAnnounceMSG = format( _szZombieNetNames +
+                                                STRING_UI_CHAT_FIRST_WAVE_MSG_PLURAL );
         }
-        else // players in the middle get commas
+        else
         {
-            _szZombieNetNames += ( "\x07FBECCB, \x07FF3F3F" + NetName( _nextPlayer ) + "\x07FBECCB" );
+            _szFirstInfectedAnnounceMSG = format( _szZombieNetNames +
+                                                STRING_UI_CHAT_FIRST_WAVE_MSG );
         };
-    };
 
-    local _szFirstInfectedAnnounceMSG = "";
+        local _hNextRespawnRoom = null;
+        while ( _hNextRespawnRoom = Entities.FindByClassname( _hNextRespawnRoom, "func_respawnroom" ) )
+        {
+            if ( _hNextRespawnRoom && _hNextRespawnRoom.GetTeam() == TF_TEAM_RED )
+            {
+                EntFireByHandle( _hNextRespawnRoom, "SetInactive", "", 0.0, null, null );
+            };
+        };
 
-    if ( _zombieArr.len() > 1 ) // set the first infected announce message
-    {
-        _szFirstInfectedAnnounceMSG = format( _szZombieNetNames +
-                                              STRING_UI_CHAT_FIRST_WAVE_MSG_PLURAL );
+        PlayGlobalBell( false );
+
+        // show the first infected announce message to all players
+        PrintToChat( _szFirstInfectedAnnounceMSG );
     }
-    else
-    {
-        _szFirstInfectedAnnounceMSG = format( _szZombieNetNames +
-                                              STRING_UI_CHAT_FIRST_WAVE_MSG );
-    };
-
-    local _hNextRespawnRoom = null;
-    while ( _hNextRespawnRoom = Entities.FindByClassname( _hNextRespawnRoom, "func_respawnroom" ) )
-    {
-        if ( _hNextRespawnRoom && _hNextRespawnRoom.GetTeam() == TF_TEAM_RED )
-        {
-            EntFireByHandle( _hNextRespawnRoom, "SetInactive", "", 0.0, null, null );
-        };
-    };
-
-    PlayGlobalBell( false );
-
-    // show the first infected announce message to all players
-    PrintToChat( _szFirstInfectedAnnounceMSG );
 };
 
 function OnGameEvent_teamplay_broadcast_audio( params )
@@ -523,23 +549,28 @@ function OnGameEvent_player_death( params )
             local _hNextPlayer = null;
             local _hKillicon = KilliconInflictor( KILLICON_PYRO_BREATH );
 
-            while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 125 ) )
+            CreateMediumHealthKit( _hPlayer.GetOrigin() );
+
+            if ( !::bNoPyroExplosionMod )
             {
-                if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
+                while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 125 ) )
                 {
-                    KnockbackPlayer           ( _hPlayer, _hNextPlayer, 210, 0.85, true );
-                    _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_CLUB | DMG_PREVENT_PHYSICS_FORCE ) );
+                    if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
+                    {
+                        KnockbackPlayer           ( _hPlayer, _hNextPlayer, 210, 0.85, true );
+                        _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_CLUB | DMG_PREVENT_PHYSICS_FORCE ) );
+                    };
                 };
-            };
 
-            _hKillicon.Destroy();
+                _hKillicon.Destroy();
 
-            EmitSoundOn            ( SFX_PYRO_FIREBOMB, _hPlayer );
-            DispatchParticleEffect ( "fireSmokeExplosion_track", _hPlayer.GetLocalOrigin(), Vector( 0, 0, 0 ) );
+                EmitSoundOn            ( SFX_PYRO_FIREBOMB, _hPlayer );
+                DispatchParticleEffect ( "fireSmokeExplosion_track", _hPlayer.GetLocalOrigin(), Vector( 0, 0, 0 ) );
+            }
+
         }
         else
         {
-            // zombies (that aren't pyro) always create a small health kit on death
             if ( _hPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS )
             {
                 CreateMediumHealthKit( _hPlayer.GetOrigin() );
@@ -706,10 +737,10 @@ function OnScriptHook_OnTakeDamage( params )
             }
         }
     }
-
     if ( _hVictim.GetClassname() != "player" || _hVictim.GetClassname() == "player" && _hVictim.GetHealth() <= 0 )
         return;
 
+    // nasty stuff here //
     try{ _szWeaponName = params.weapon.GetClassname() }
     catch( e ){};
 
@@ -786,7 +817,8 @@ function OnScriptHook_OnTakeDamage( params )
 
                     if ( _szWeaponName == "tf_weapon_compound_bow" )
                     {
-                        params.damage <- ( params.damage * 2 );
+                        // no longer modified
+                        params.damage <- ( params.damage );
                     };
 
                     break;
@@ -795,7 +827,8 @@ function OnScriptHook_OnTakeDamage( params )
 
                     if ( _szWeaponName == "tf_weapon_crossbow" )
                     {
-                        params.damage <- ( params.damage * 3 );
+                        // no longer modified
+                        params.damage <- ( params.damage );
                     };
 
                     break;

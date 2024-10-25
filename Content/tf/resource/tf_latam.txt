@@ -3359,7 +3359,6 @@
 "TF_Wearable_Headache"				"Dolor de Cabeza"
 "TF_Wearable_Shroud"				"Tabardo"
 "TF_Wearable_Butler"				"Mayordomo"
-
 "TF_RobotPart_Type"	"Parte Robótica"
 "TF_CircuitBoard_Type"	"Panel de Circuitos"
 
@@ -6466,8 +6465,6 @@
 "arena_lumberyard_event_blu_buffed"		"¡El ÚLTIMO JUGADOR de BLU está POTENCIADO!"
 "arena_lumberyard_event_red_buffed"		"¡El ÚLTIMO JUGADOR de RED está POTENCIADO!"
 "arena_lumberyard_event_skeleton"		"¡EL REY ESQUELETO HA APARECIDO ALEATORIAMENTE!"
-"arena_lumberyard_event_heal"			"\\x07FF69B4¡HAS MUERTO! \\x07FBECCBAComo \\x07FF69B4FANTASMA\\x07FBECCB, ¡cura a tu equipo!"
-"arena_lumberyard_event_spell"			"\\x07FBECCB¡Un \\x07FF69B4hechizo raro \\x07FBECCBestá apareciendo en un lugar aleatorio!"
 "ctf_crasher_objective"					"¡Escolta a tu gigante al portón del enemigo!"
 "ctf_crasher_giant_down"				"¡Nuestro Gigante ha caído, la Bomba se está regenerando!"
 "ctf_crasher_new_giant"					"¡Tenemos un nuevo gigante!"
@@ -12413,9 +12410,6 @@
 "Attrib_Particle354"			"Frankencargado"
 "Attrib_Particle355"			"Peste fantasmal"
 "Attrib_Particle356"			"Neblina nocturna"
-"Attrib_Particle357"			"Murciélagos"
-"Attrib_Particle358"			"Cuervos"
-"Attrib_Particle359"			"Palomas"
 "Attrib_Particle360"			"Estufa encendida"
 "Attrib_Particle361"			"Estufa encendida"
 "Attrib_Particle362"			"Superllama"
@@ -16364,7 +16358,6 @@
 "AbuseReport_Discard"	"Descartar"
 "AbuseReport_SaveForLater"	"Finalizar luego"
 "AbuseReport_SelectOne"	"--seleccionar--"
-
 "AbuseReport_Notification"	"Informe de abuso listo para enviar"
 "AbuseReport_Notification_Help"	"Presiona [ %cl_trigger_first_notification% ] para ENVIAR AHORA.\nPresiona [ %cl_decline_first_notification% ] para ENVIAR MÁS TARDE."
 
@@ -19693,10 +19686,6 @@ Los enemigos pueden bloquear la vagoneta si se ponen encima de ella."
 "vsh_end_this"						"¡Acaba con esto antes de que se acabe el tiempo!"
 
 "tf_zi_ui_survivor_die"					" fue infectado por "
-"tf_zi_ui_infect_msg"					"¡\\x07FF3F3F%s\\x07FBECCB fue infectado por \\x0738F3AB%s\\x07FBECCB!"
-"tf_zi_ui_infect_solo_msg"				"¡\\x07FF3F3F%s\\x07FBECCB fue infectado!"
-"tf_zi_ui_last_survivor_minicrit"		"¡QUEDAN \\x07FBECCB%d SUPERVIVIENTES! ¡Ahora tienen \\x07FFD700%s\\x07FBECCB!"
-"tf_zi_ui_last_survivor_crit"			"¡SOLO QUEDA \\x07FF3F3F%s\\x07FBECCB! ¡Ahora tiene \\x0716FD1D%s\\x07FBECCB!"
 "tf_zi_ui_crits"						"CRÍTICOS"
 "tf_zi_ui_minicrits"					"MINICRÍTICOS"
 "tf_zi_ui_first_wave_msg_plural"		" ahora son ZOMBIS"
