@@ -816,6 +816,10 @@
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Silver"						"ETF2L Highlander Open 3 – Sølvmedalje"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Bronze"						"ETF2L Highlander Open 3 – Bronsemedalje"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Participation"				"ETF2L Highlander Open 3 – Deltakermedalje"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Gold"						"ETF2L Highlander Open 4 – Gullmedalje"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Silver"						"ETF2L Highlander Open 4 – Sølvmedalje"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Bronze"						"ETF2L Highlander Open 4 – Bronsemedalje"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Participation"				"ETF2L Highlander Open 4 – Deltakermedalje"
 "TF_TournamentMedal_OzFortress_Premier_First_Place"						"ozfortress Sixes Premier – Førsteplass"
 "TF_TournamentMedal_OzFortress_Premier_Second_Place"					"ozfortress Sixes Premier – Andreplass"
 "TF_TournamentMedal_OzFortress_Premier_Third_Place"						"ozfortress Sixes Premier – Tredjeplass"
@@ -2367,6 +2371,8 @@
 "TF_Wearable_Headache"				"Hodepine"
 "TF_Wearable_Shroud"				"Kappe"
 "TF_Wearable_Butler"				"Butler"
+"TF_Wearable_Wound"					"Sår"
+
 "TF_RobotPart_Type"	"Robotdel"
 "TF_CircuitBoard_Type"	"Kretskort"
 
@@ -3059,6 +3065,7 @@
 "TF_LoyaltyReward_Desc"		"Fra en annen æra."
 "TF_SpiralSallet"			"Spiral-stridshjelm" // ADD THE
 "TF_SpiralSallet_Desc"		"Mindre kjente fakta: i sjakk flyttes riddere over andre brikker ved hjelp av raketthopping."
+"TF_ScoutPrepShirt"			"Lærenem" // ADD THE
 "TF_PyroCandle"				"Voksveiviser" // ADD THE
 "TF_ShootManyRobotsPack"		"The Scrap Pack" // ADD THE
 "TF_EngineerChaps_Style0"	"Tan"
@@ -3423,6 +3430,7 @@
 "koth_los_muertos_authors"		"Elián \"iron\" Rodríguez\nRyan \"Chill\" Foy\nMatthew \"Panckakebro\" Hiller"
 "cp_ambush_event_authors"		"Tomi \"ICS\" Uurainen\nTony \"Hakk1tus\" Hakala"
 "pl_terror_event_authors"		"Tomi \"ICS\" Uurainen"
+"arena_lumberyard_event_authors"	"Liam \"Diva Dan\" Moffitt\nBenjamin \"blaholtzen\" Blåholtz\nAlex \"FGD5\" Stewart\nSeb \"Tianes\" Necula\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew \"Panckakebro\" Hiller\nElián \"iron\" Rodríguez\nPhe\nRyan \"Chill\" Foy\nDenis \"xB33\" Varchulik\nWilliam \"Cheesypuff\" Bartley-Bolster\nOliver \"OverPovered\" Pennanen"
 "pl_breadspace_authors"			"Bailey \"Glitch\" Hodges\nJesse \"Custard1\" Budd\nAlberto \"Petachepas\" Zarzuela\nJonas \"Grambee\" Carson\nDylan \"doggoh\" Lee\nOliver \"OverPovered\" Pennanen\nChristoph \"Gadget\" Manschitz\nPeter \"Tabby\" Bryant\nWilliam \"Cheesypuff\" Bartley-Bolster\nKirill \"Le Bruhe?\" Ruzanov\nHugh \"HueZee_\" Madoc Schneider\nBrandon \"Brantopias\" Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi \"ICS\" Uurainen\nTyler \"Yyler\" King\nAlex \"MaccyF\" MacFarquhar"
@@ -4670,6 +4678,8 @@
 "arena_lumberyard_event_blu_buffed"		"BLUs SISTE SPILLER er nå STYRKET!"
 "arena_lumberyard_event_red_buffed"		"REDs SISTE SPILLER er nå STYRKET!"
 "arena_lumberyard_event_skeleton"		"SKJELETTKONGEN HAR TILFELDIGVIS OPPSTÅTT!"
+"arena_lumberyard_event_heal"			"FF69B4DU DØDE! FBECCBHelbred laget som et FF69B4SPØKELSEFBECCB!"
+"arena_lumberyard_event_spell"			"FBECCBEn FF69B4sjelden formel FBECCBdukker opp på et tilfeldig sted!"
 "ctf_crasher_objective"					"Følg lagets kjempe til fiendens port!"
 "ctf_crasher_giant_down"				"Kjempen vår er nede for telling – bomben dukker opp igjen!"
 "ctf_crasher_new_giant"					"Vi har en ny kjempe!"
@@ -5044,6 +5054,12 @@
 "Cant_cap_disguised"		"Kan ikke erobre punktet\n    når du er forkledt."
 "Cant_cap_invuln"		"Kan ikke erobre punktet\n  når du er usårbar."
 "Cant_cap_stunned"		"Kan ikke erobre punktet\n når du er satt ut av spill."
+
+// Robot Destruction Strings
+"TF_RD_RobotsUnderAttack"	"ROBOTENE er UNDER ANGREP!"
+"TF_RD_RedFinale"			"RED vinner om:"
+"TF_RD_BlueFinale"			"BLU vinner om:"
+
 // Invade strings
 "TF_Invade_FlagReturned"		"FLAGGET er returnert!"
 "TF_Invade_PlayerPickup"		"Du PLUKKET OPP FLAGGET!\n\nTa det med til FIENDENS BASE!"
@@ -7385,6 +7401,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "ToolCustomizeTextureBrowseDialogTitle"	"Velg egendefinert bildefil."
 "ToolCustomizeTextureConfirmWarning" "Denne handlingen vil konsumere gjenstandsmerket ditt, og kan ikke angres.\n\nBildet ditt må følge Steams abonnementsavtale. Opplasting av bilder som inneholder støtende eller krenkende materiale kan føre til fjerning av bildet eller gjenstanden. Ingen tilbakebetaling eller erstatning vil bli tilbudt.\n\nHvis du er usikker om det er greit, ikke last det opp."
 "ToolCustomizeTexturePleaseWait" "Vent mens merket påføres."
+"ToolCustomizeTextureFilter" "Filter:"
 "ToolDecodeInProgress"    	"Åpner byttet"
 "ToolGiftWrapConfirm"		  "Er du sikker på at du vil pakke inn denne gjenstanden med gavepapir?"
 "ToolGiftWrapConfirmStrange"  "Er du sikker på at du vil pakke inn denne gjenstanden med gavepapir?\n\nPoengsummer på merkelige gjenstander vil bli tilbakestilt til 0 når pakket inn."
@@ -8244,7 +8261,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "RI_Tp"					"Pollett"
 "RI_T"					"Pollett"
 "RI_SIc"				", 1 våpen fra sett"
-"RO_SH"					"spesifikk del av Sett-hodeplagg"
+"RO_SH"					"spesifikt hodeplagg fra sett"
 "RI_HHg"				"Hjemsøkt Hodeplagg"
 // Craft items
 // Key names are sent over the net, so we use short names
@@ -8736,6 +8753,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Tool_Gift_Global_Desc"		"Denne Gavekatapulten er ladet og klar for levering. Bruk den fra ryggsekken for å levere innholdet til en tilfeldig spiller på nett."
 "TF_Tool_Gift_Global_Received"	"Levert gavekatapult-pakke"
 "TF_Tool_Gift_Global_Received_Desc"	"Denne pakken ble levert av en Gavekatapult fra en tilfeldig fremmed på nettet. Du kan åpne den fra ryggsekken!"
+"TF_Tool_CustomTextureItem"		 "Overføringsverktøy"
 "TF_Tool_BackpackExpander"		"Ryggsekkutvidelse"
 "TF_Tool_BackpackExpander_Desc"	"Legg til 100 ekstra plasser i ryggsekken!\n(maks 4000 plasser)"
 "TF_Tool_AccountUpgradeToPremium"		"Oppgrader til premium-gave"
@@ -8814,6 +8832,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Set_Scout_Winter_2011"			"Santa's Little Accomplice"
 "TF_Set_HiddenDetective"			"Eliminere det umulige"
 "TF_Set_Heavy_Fairy"				"Grand Duchess"
+"TF_Scout_PublicEnemy"				"Samfunnsfienden"
+"TF_Set_ScoutDog"					"Bulldoggen fra Boston"
 "TF_Date_GMT"					" GMT"			// deprecated!
 
 "Econ_DateFormat"				"%day% (%hour%:%min%:%sec%)"
@@ -9692,6 +9712,9 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Attrib_Particle354"			"Frankenladet"
 "Attrib_Particle355"			"Fantompest"
 "Attrib_Particle356"			"Hjemsøkt tåke"
+"Attrib_Particle357"			"Vonde vampyrer"
+"Attrib_Particle358"			"Rovlystne ravner"
+"Attrib_Particle359"			"Dristige duer"
 "Attrib_Particle360"			"Ovnglød"
 "Attrib_Particle361"			"Ovnglød"
 "Attrib_Particle362"			"Überflamme"
@@ -10102,7 +10125,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_ScoutMedallion_Desc"	"En ulv, ingen måne. Samle alle tre!"
 
 "TF_UllapoolCaber_Desc"			"Skotsk ansiktsfjerner.\nEn edru person ville kastet den...\n\nDet første treffet forårsaker en eksplosjon."
-"TF_BuffaloSteak_Desc"			"Etter inntak økes bevegelseshastigheten, angrep blir minikritiske og spilleren kan kun bruke nærkampvåpen. Varer i 16 sekunder.\nAlt-skyt: Del med en venn (middels førstehjelpssett)\n\nHvem trenger vel brød?"
+"TF_BuffaloSteak_Desc"			"Etter inntak økes bevegelseshastigheten, angrep blir minikritiske og spilleren kan kun bruke nærkampvåpen. Varer i 16 sekunder.\nAlt-skyt: Del med en venn (middels helsepakke)\n\nHvem trenger vel brød?"
 "TF_TreasureHat_1_Desc"			"Fortjent ved å fullføre fem oppgaver i 'The Great Steam Treasure Hunt'"
 "TF_TreasureHat_2_Desc"			"Fortjent ved å fullføre 15 oppgaver i 'The Great Steam Treasure Hunt'"
 "TF_TreasureHat_3_Desc"			"Fortjent ved å fullføre 28 oppgaver i 'The Great Steam Treasure Hunt'"
@@ -11219,6 +11242,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_CollectionCrafting_NoItem"	"Ingen gjenstand"
 "TF_CollectionCrafting_NoUnusual"	"Ingen uvanlige gjenstander tillatt"
 "TF_CollectionCrafting_Submit" "Send inn"
+"TF_CollectionCrafting_Send" "Send"
 "TF_CollectionCrafting_ApplyStamp" "Påfør\nfrimerke\nher"
 "TF_CollectionCrafting_AttachItem"	"Legg ved gjenstand her"
 "TF_CollectionCrafting_WaitingForResponse" "Venter på svar..."
@@ -11596,11 +11620,11 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 //  = 0x03 (ETX) - Use the item set color from this point forward
 //  = 0x04 (EOT) - Link start - NOTE: If link is combined with a color change, the link start symbol should be AFTER the color change symbol
 //
-"TF_Armory_Item_Attrib_OnHit"		"Dette våpenet har et VED TREFF-attributt. Effekten av dette attributtet utløses hver gang våpenet skader en fiende. Fiendtlige Spyer som er forkledd som en av dine lagkamerater, er unntaket: De utløser ikke denne effekten, selv om de blir skadd."
-"TF_Armory_Item_Attrib_OnKill"		"Dette våpenet har et VED DRAP-attributt. Effekten av dette attributtet utløses hver gang våpenet gir en fiende dødsstøtet."
-"TF_Armory_Item_Attrib_OnWearer"	"Denne gjenstanden har et PÅ BÆRER-attributt. Effekten av dette attributtet brukes på spilleren hver gang denne gjenstanden er i oppakningen, selv når gjenstanden ikke er det aktive våpenet."
-"TF_Armory_Item_Attrib_CloakType"	"Denne gjenstanden endrer SPY-USYNLIGHETEN. Når en Spy er utstyrt med denne gjenstanden i oppakningen, endres usynligheten i henhold til det som står oppført i attributtbeskrivelsen."
-"TF_Armory_Item_Attrib_OnActive"	"Dette våpenet har PÅ BÆRER-attributter som bare gjelder når det er AKTIVT. Mens de fleste På bærer-attributtene gjelder når spilleren er utstyrt med denne gjenstanden i oppakningen, gjelder disse attributtene bare når våpenet er spillerens aktive våpen."
+"TF_Armory_Item_Attrib_OnHit"		"Dette våpenet har en egenskap VED TREFF. Denne egenskapen utløses hver gang våpenet skader en fiende. En fiendtlig Spy forkledd som en lagkamerat, er et unntak: De utløser ikke denne effekten, selv om de blir skadd."
+"TF_Armory_Item_Attrib_OnKill"		"Dette våpenet har en egenskap VED DRAP. Denne egenskapen utløses hver gang våpenet gir en fiende dødsstøtet."
+"TF_Armory_Item_Attrib_OnWearer"	"Denne gjenstanden har en egenskap FOR BÆREREN. Denne egenskapen gjelder for spilleren når gjenstanden er i oppakningen, selv når gjenstanden ikke er det aktive våpenet."
+"TF_Armory_Item_Attrib_CloakType"	"Denne gjenstanden endrer USYNLIGHET. Når en Spy er utstyrt med denne gjenstanden i oppakningen, endres usynligheten i henhold til det som står oppført i egenskapsbeskrivelsen."
+"TF_Armory_Item_Attrib_OnActive"	"Dette våpenet har egenskaper FOR BÆREREN som bare gjelder når våpenet er AKTIVT. Vanligvis gjelder egenskaper for bæreren når spilleren er utstyrt med gjenstanden i oppakningen, men disse egenskapene gjelder bare når våpenet er spillerens aktive våpen."
 "TF_Armory_Item_Attrib_NoCrits"		"Dette våpenet kan ikke utføre TILFELDIGE KRITISKE TREFF. Vanlige våpen har mulighet til å utføre tilfeldige kritiske treff, men dette har det ikke. Andre gjenstander og effekter som forårsaker kritiske treff, som Kritzkrieg, kan likevel tvinge dette våpenet til å utføre kritiske treff."
 "TF_Armory_Item_Attrib_Bleed"		"Dette våpenet gjør at fiender som er skadd av det, BLØR. Blødende spillere mister helse hvert sekund i det spesifiserte tidsrommet. Blødningen stopper hvis den blødende spilleren på en eller annen måte helbredes."
 
@@ -11648,6 +11672,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Armory_Item_Limited_Holiday"	"Denne gjenstanden er bare tilgjengelig i butikken for en begrenset tid under denne høytidsbegivenheten!"
 "TF_Armory_Item_MapToken"			"Når denne gjenstanden kjøpes, går alle inntektene (etter ev. skatt) direkte til samfunnsmedlemmene som utviklet kartet.\n\nMedlemskapsnivået for et kart økes for hvert 25. kartfrimerke.\n\nDet gis også ut en Verdensreisendes hatt første gang det kjøpes et kartfrimerke."
 "TF_Armory_Item_BackpackExpander"	"Når denne gjenstanden brukes, legger den til 100 ekstra plasser i ryggsekken din. Legg merke til at det er maks 4000 plasser."
+"TF_Armory_Item_CanCustomizeTexture"	"Du kan legge til et egendefinert bilde på denne gjenstanden ved hjelp av et overføringsverktøy. Kjøper du denne gjenstanden, får du et GRATIS overføringsverktøy for å komme i gang! Merket lages ved å velge en liten palett fra TF2-stilen og justere bildet slik at det passer den paletten."
+
 "TF_Armory_Item_StrangePart"		"Denne gjenstanden er en merkelig del. Den kan bli brukt på én gjenstand av merkelig kvalitet som du allerede eier, slik at den kan få ekstra statistikker."
 
 "TF_PassiveAttribs"					"Gjeldende attributter på bæreren:"
@@ -12013,9 +12039,15 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_PVE_Buyback"		"Trykk \"%use_action_slot_item%\" for å betale %s1 kreditt for UMIDDELBAR GJENOPPLIVNING!"
 "TF_PVE_Upgraded_Player"	"%player% har kjøpt oppgraderingen %upgrade%."
 "TF_PVE_Upgraded_Item"		"%player% har kjøp oppgraderingen %upgrade% for sin %item%."
+"TF_PVE_Player_BuyBack"		"%player% har kjøpt seg tilbake i spillet igjen for \"%credits%\" kreditt!"
 "TF_PVE_No_Powerup_Bottle"	"Du har ingen hjelpefeltflaske på deg!\n\nFeltflasker kan aktiveres ved å trykke \"%use_action_slot_item%\", og kan gi nyttige effekter slik som ekstra skade og usårbarhet.\n\nDu kan få en ved å fullføre et hvilket som helst Mann vs. Maskin-oppdrag, eller konstruere en med skrapmetall som er til overs!"
 "TF_PVE_Unequipped_Powerup_Bottle"	"Du har ingen hjelpefeltflaske på deg!\n\nFeltflasker kan aktiveres ved å trykke \"%use_action_slot_item%\", og kan gi nyttige effekter slik som ekstra skade og usårbarhet.\n\nUtstyr den på kampplassen nå!"
 "TF_PVE_Quick_Equip_Bottle"	"Utstyr nå"
+"TF_PVE_Player_UsedCritsBottle"		"%player% har brukt en feltflaske med KRITISKE TREFF!"
+"TF_PVE_Player_UsedUberBottle"		"%player% har brukt en feltflaske med ÜBERLADNING!"
+"TF_PVE_Player_UsedRecallBottle"	"%player% har brukt en feltflaske med RETRETT!"
+"TF_PVE_Player_UsedRefillAmmoBottle" "%player% har brukt en feltflaske med AMMUNISJONSPÅFYLL!"
+"TF_PVE_Player_UsedBuildingUpgrade"	"%player% har brukt en feltflaske med BYGNINGSOPPGRADERING!"
 "TF_PVE_Server_Message_Reset" 		"Laster inn neste oppdrag om %s1 sekunder..."
 "TF_PVE_Server_Message_ResetNoS" 	"Laster inn neste oppdrag om %s1 sekund..."
 "TF_PVE_Server_Message_Kick" 		"Avslutter til hovedmenyen om %s1 sekunder …"
@@ -12200,6 +12232,11 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_Friends_JoinParty"					"Bli med i gruppe"
 "TF_Friends_JoinServer"					"Bli med i spill"
 "TF_Friends_SendMessage"				"Send melding"
+"TF_Friends_JoinRequest_Incoming"				"%other% ønsker å bli med i gruppen din."
+"TF_Friends_InviteRequest_Incoming"				"%other% har invitert deg til gruppen sin."
+"TF_Friends_InviteRequest_Outgoing"				"Inviterer %other% til gruppen."
+"TF_Friends_JoinRequest_Outgoing"				"Ber om å få bli med i gruppen til %other%."
+
 "TF_Matchmaking_RollingQueue_NewRematch_GCFail" "Kunne ikke starte den nye kampen. Gå inn i matchmaking-køen på nytt."
 "TF_Matchmaking_RollingQueue_Requeue"	"Nei, finn en ny kamp"
 "TF_Matchmaking_RollingQueue_JoinNow"	"Bli med nå"
@@ -12407,6 +12444,9 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 
 "TF_Competitive_Rank_13"				"Dødsgrossist"
 "TF_Competitive_RankNumber"				"Rang %s1"
+"TF_Competitive_RankTooltipTitle"		"Konkurranserang"
+"TF_Competitive_RankTooltipDesc"		"Spillere får merker ved å spille konkurransekamper. Disse merkene gjenspeiler den aktuelle konkurranserangen. Merkene er kun synlige for spillere ved kampslutt i konkurransekamper."
+
 "TF_Casual_CoreTitle"					"Hovedspillmoduser"
 "TF_Casual_AltTitle"					"Alternative spillmoduser"
 "TF_Casual_ViewMaps"					"Vis kart"
@@ -12821,6 +12861,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "AbuseReport_Discard"	"Forkast"
 "AbuseReport_SaveForLater"	"Fullfør senere"
 "AbuseReport_SelectOne"	"– velg –"
+"AbuseReport_UploadScreenshot"	"Skjermbilde viser misbruk, last det opp med rapport."
+
 "AbuseReport_Notification"	"Misbruksrapporten er klar til å sendes inn"
 "AbuseReport_Notification_Help"	"Trykk [ %cl_trigger_first_notification% ] for å SENDE NÅ.\nTrykk [ %cl_decline_first_notification% ] for å SENDE SENERE."
 
@@ -13011,6 +13053,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_fall2013_brimfull_of_bullets_style1"		"Onde"
 "TF_fall2013_brimfull_of_bullets_style2"		"Grusomme"
 "TF_hw2013_second_opinion"		"Dobbel dose" // ADD THE
+"TF_hw2013_horrifying_hound_hood"		"Hundehode" // ADD THE
+"TF_hw2013_terrifying_terrier_trousers"		"Hundehoser" // ADD THE
 "TF_xms2013_spy_jacket_style3"		"Mørk"
 "TF_xms2013_spy_jacket_style4"		"Lys"
 "TF_sbox2014_knight_helmet_style0"	"Åpen"
@@ -13057,7 +13101,26 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_hwn2015_firebug_mask"		"Insektstrekk"
 "TF_hwn2015_bargain_bicorne"	"Røverkjøpt sjørøverhatt"
 "TF_hwn2015_bargain_britches"	"Røverkjøpt piratbukse"
+
+"TF_bak_arkham_cowl"			"Arkham-maske"
+"TF_bak_firefly"				"Ildflue" // ADD THE
+"TF_bak_batarm"					"Slagmannens skinne"
+"TF_bak_hood_of_sorrows"		"Sorgens hette" // ADD THE
+"TF_bak_fear_monger"			"Skremselsmaker"
+"TF_bak_pocket_villains"		"Lommeskurker"
 "TF_bak_caped_crusader"			"Kappekledd korsfarer" // ADD THE
+"TF_bak_caped_crusader_style1"		"Selvtekt"
+"TF_bak_caped_crusader_style2"		"Lagspiller"
+"TF_bak_buttler"				"Butlerspenne"
+"TF_bak_teufort_knight"			"Teufort Knight"
+"TF_bak_sidekicks_side_slick"	"Sleikens sideskill"
+"TF_bak_sidekicks_side_slick_style1_NoHat"	"Stil 1 (uten hatt)"
+"TF_bak_sidekicks_side_slick_style1_Hat"	"Stil 1 (med hatt)"
+"TF_bak_sidekicks_side_slick_style2_NoHat"	"Stil 2 (uten hatt)"
+"TF_bak_sidekicks_side_slick_style2_Hat"	"Stil 2 (med hatt)"
+"TF_bak_bat_backup"				"Vingens vikar" // ADD THE
+"TF_bak_crook_combatant"		"Kjeltringklapper"
+"TF_bak_batbelt"				"Batbelte"
 "TF_dec15_patriot_peak_Style0"					"Med hodetelefoner"
 "TF_dec15_patriot_peak_Style1"					"Uten hodetelefoner"
 "TF_may16_patriots_pouches_style1"		"Normal"
@@ -13219,6 +13282,7 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_FortifiedCompound"				"Trimmet trinsebue" // ADD THE
 "TF_ClassicSniperRifle"				"Klassiker" // ADD THE
 "TF_NostromoNapalmer"			"Nostromo-napalmkaster" // ADD THE
+"TF_Set_bak_sixties_sidekick"				"Sekstitallets svenn"
 "TF_pocket_raiders_Style2"					"Horus"
 "TF_brimstone_hat"						"Brimstone"
 "TF_brimstone_Style_WithHat"				"Hatt"
@@ -14437,7 +14501,7 @@ Andre merknader:
 RED må forsvare basen sin. Hindre BLU fra å sikre en dataterminal ved å stå nær den."
 
 "pd_galleria_description"			"Mål:
-Plukk opp «gavene» fra falne fiender og ta dem med til «treet» i midten for å få poeng. Gavene kan ikke leveres mens ismaskinen er i gang. Laget med flest leverte gaver vinner kampen.
+Plukk opp \"gavene\" fra falne fiender og ta dem med til \"treet\" i midten for å få poeng. Gavene kan ikke leveres mens ismaskinen er i gang. Laget med flest leverte gaver vinner kampen.
 
 Andre merknader:
 Spillere med flest gaver utstråler helse og ammunisjon til lagkamerater i nærheten, men fienden får vite posisjonen deres."
@@ -14537,6 +14601,10 @@ Fiender kan blokkere nyttelasten ved å komme nærme den."
 "vsh_end_this"						"Avslutt dette før tiden utløper!"
 
 "tf_zi_ui_survivor_die"					" ble smittet av "
+"tf_zi_ui_infect_msg"					"FF3F3F%sFBECCB ble smittet av 38F3AB%sFBECCB!"
+"tf_zi_ui_infect_solo_msg"				"FF3F3F%sFBECCB ble smittet!"
+"tf_zi_ui_last_survivor_minicrit"		"FBECCB%d OVERLEVENDE IGJEN! De har nå FFD700%sFBECCB!"
+"tf_zi_ui_last_survivor_crit"			"FF3F3F%sFBECCB ER DEN SISTE I LIVE! De har nå 16FD1D%sFBECCB!"
 "tf_zi_ui_crits"						"KRITISKE TREFF"
 "tf_zi_ui_minicrits"					"MINIKRIT"
 "tf_zi_ui_first_wave_msg_plural"		" ble SMITTET!"
@@ -14566,6 +14634,16 @@ Fiender kan blokkere nyttelasten ved å komme nærme den."
 "tf_zi_team_red"						"Overlevende"
 "tf_zi_team_blue"						"Zombier"
 "tf_zi_pyro_blast_name"					"Dragens pust" 
+
+"tow_dynamite_welcome"					"Velkommen til Dynamite!"
+"tow_dynamite_part1"					"Dynamite er et kart for dragkamp."
+"tow_dynamite_part2"					"Stå på vognen inntil laget eier den for å dytte den."
+"tow_dynamite_part3"					"Begge lag kan dytte vognen inn i fiendelagets base."
+"tow_dynamite_part4"					"Når vognen når basen til et lag, aktiveres hoppeputer." 
+"tow_dynamite_part5"					"Så se opp!"
+"tow_dynamite_part6"					"Når du dreper en fiende, slippes muligens en spretten formel for å kunne hoppe høyere."
+"tow_dynamite_part7"					"Laget må eskorter vognen til fiendens base og forsvare den inntil lagets tid utløper." 
+"tow_setup_goal"						"Ta kontroll over vognen og eskorter den til fiendens base. Hold den der inntil tiden utløper."
 
 "arena_perks_message_tie"		"Det er uavgjort!"
 

@@ -1140,6 +1140,10 @@
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Silver"						"ETF2L Highlander Open 3 - srebrny medal"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Bronze"						"ETF2L Highlander Open 3 - brązowy medal"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Participation"				"ETF2L Highlander Open 3 – uczestnik"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Gold"						"ETF2L Highlander Open 4 – złoty medal"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Silver"						"ETF2L Highlander Open 4 – srebrny medal"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Bronze"						"ETF2L Highlander Open 4 – brązowy medal"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Participation"				"ETF2L Highlander Open 4 – uczestnik"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Gold"				"ETF2L Fresh Meat Challenge - złoty medal"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Silver"			"ETF2L Fresh Meat Challenge - srebrny medal"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Bronze"			"ETF2L Fresh Meat Challenge - brązowy medal"
@@ -3333,6 +3337,8 @@
 "TF_Wearable_Headache"				"Ból głowy"
 "TF_Wearable_Shroud"				"Peleryna"
 "TF_Wearable_Butler"				"Lokaj"
+"TF_Wearable_Wound"					"Rana"
+
 "TF_RobotPart_Type"	"Robotyczna część"
 "TF_CircuitBoard_Type"	"Obwód drukowany"
 
@@ -5045,6 +5051,7 @@
 "koth_los_muertos_authors"		"Elián „iron” Rodríguez\nRyan „Chill” Foy\nMatthew „Panckakebro” Hiller"
 "cp_ambush_event_authors"		"Tomi „ICS” Uurainen\nTony „Hakk1tus” Hakala"
 "pl_terror_event_authors"		"Tomi „ICS” Uurainen"
+"arena_lumberyard_event_authors"	"Liam „Diva Dan” Moffitt\nBenjamin „blaholtzen” Blåholtz\nAlex „FGD5” Stewart\nSeb „Tianes” Necula\nAeon „Void” Bollig\nErik „Colteh” Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew „Panckakebro” Hiller\nElián „iron” Rodríguez\nPhe\nRyan „Chill” Foy\nDenis „xB33” Varchulik\nWilliam „Cheesypuff” Bartley-Bolster\nOliver „OverPovered” Pennanen"
 "pl_breadspace_authors"			"Bailey „Glitch” Hodges\nJesse „Custard1” Budd\nAlberto „Petachepas” Zarzuela\nJonas „Grambee” Carson\nDylan „doggoh” Lee\nOliver „OverPovered” Pennanen\nChristoph „Gadget” Manschitz\nPeter „Tabby” Bryant\nWilliam „Cheesypuff” Bartley-Bolster\nKirył „Le Bruhe?” Ruzanow\nHugh „HueZee_” Madoc Schneider\nBrandon „Brantopias” Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi „ICS” Uurainen\nTyler „Yyler” King\nAlex „MaccyF” MacFarquhar"
@@ -5683,7 +5690,7 @@
 "TF_MapToken_FreakyFair_AdText"		"– Zakup tego przedmiotu bezpośrednio wspiera twórców mapy społeczności Freaky Fair."
 "TF_Map_Dynamite"					"Dynamite"
 "TF_MapToken_Dynamite"				"Znaczek mapy –Dynamite"
-"TF_MapToken_Dynamite_Desc"			"Mapa typu „Wojenna przepychanka (społeczności)”\n\nAutorzy: Will Alfred, Jordan „Ismac” La Rose, Lizard of Oz, Aydan, Neal „Blade x64” Smart i Liam „Diva Dan” Moffitt\n\nZakup tego przedmiotu bezpośrednio wspiera twórców mapy społeczności Dynamite. Okaż swoje wsparcie już dziś!"
+"TF_MapToken_Dynamite_Desc"			"Mapa typu „Przepychanka (społeczności)”\n\nAutorzy: Will Alfred, Jordan „Ismac” La Rose, Lizard of Oz, Aydan, Neal „Blade x64” Smart i Liam „Diva Dan” Moffitt\n\nZakup tego przedmiotu bezpośrednio wspiera twórców mapy społeczności Dynamite. Okaż swoje wsparcie już dziś!"
 "TF_MapToken_Dynamite_AdText"		"– Zakup tego przedmiotu bezpośrednio wspiera twórców mapy społeczności Dynamite."
 "TF_Map_Circus"						"Circus"
 "TF_MapToken_Circus"				"Znaczek mapy – Circus"
@@ -6424,6 +6431,8 @@
 "arena_lumberyard_event_blu_buffed"		"Ostatni gracz drużyny BLU jest teraz wzmocniony!"
 "arena_lumberyard_event_red_buffed"		"Ostatni gracz drużyny RED jest teraz wzmocniony!"
 "arena_lumberyard_event_skeleton"		"KRÓL SZKIELETÓW POJAWIŁ SIĘ ZNIENACKA!"
+"arena_lumberyard_event_heal"			"FF69B4NIE ŻYJESZ! FBECCBBędąc FF69B4DUCHEMFBECCB, lecz swoją drużynę!"
+"arena_lumberyard_event_spell"			"FF69B4Rzadkie zaklęcie FBECCBpojawi się w losowym miejscu!"
 "ctf_crasher_objective"					"Eskortuj swojego giganta do wrogich wrót!"
 "ctf_crasher_giant_down"				"Nasz gigant poległ – bomba odnawia się!"
 "ctf_crasher_new_giant"					"Mamy nowego giganta!"
@@ -6933,7 +6942,7 @@
 "GameType_TerritorialControl"	"Kontrola terytorialna"
 "GameType_VSH"					"VS Saxton Hale (społeczności)"
 "GameType_ZI"					"Zaraza zombie (społeczności)"
-"GameType_TOW"					"Wojenna przepychanka (społeczności)"
+"GameType_TOW"					"Przepychanka (społeczności)"
 
 "TF_MMCat_SpecialEvents"		"Wydarzenia specjalne"
 "TF_MMCat_Core"				"Główne tryby gry"
@@ -9240,6 +9249,7 @@
 "ToolCustomizeTextureBrowseDialogTitle"	"Wybierz niestandardowy obraz."
 "ToolCustomizeTextureConfirmWarning" "Ta akcja zużyje twoją naklejkę i nie będzie mogła zostać cofnięta.\n\nWybrany obraz musi być zgodny z Umową użytkownika Steam. Użycie obrazu zawierającego treści obraźliwe lub w inny sposób naruszającego Umowę może skutkować usunięciem samego obrazu lub całego przedmiotu. W takim przypadku nie będą oferowane zwroty kosztów lub naklejki.\n\nJeśli nie wiesz, czy twój obraz jest odpowiedni, nie wgrywaj go."
 "ToolCustomizeTexturePleaseWait" "Poczekaj na nałożenie naklejki."
+"ToolCustomizeTextureFilter" "Filtr:"
 "ToolDecodeInProgress"    	"Odpakowywanie twojego łupu"
 "ToolRedeemingPass"    		"Używanie przepustki"
 "ToolGiftWrapConfirm"		  "Czy na pewno chcesz zapakować ten przedmiot?"
@@ -12318,6 +12328,9 @@
 "Attrib_Particle354"			"frankennaładowany"
 "Attrib_Particle355"			"przywidziana plaga"
 "Attrib_Particle356"			"nawiedzona mgła"
+"Attrib_Particle357"			"wściekłe wampiry"
+"Attrib_Particle358"			"wygłodniałe wrony"
+"Attrib_Particle359"			"gołębia gloria"
 "Attrib_Particle360"			"palący palnik"
 "Attrib_Particle361"			"palący palnik"
 "Attrib_Particle362"			"überżar"
@@ -14009,6 +14022,7 @@
 "TF_CollectionCrafting_Paintkit_NotCraftableYet" "Barwy wojenne nie mogą być obecnie używane do wytworzenia kolekcji"
 
 "TF_CollectionCrafting_Submit" "Wyślij"
+"TF_CollectionCrafting_Send" "Wyślij"
 "TF_CollectionCrafting_ApplyStamp" "Przyklej\ntu\nznaczek"
 "TF_CollectionCrafting_TitleJoke0" "Zmęczony przedmiotami zawalającymi twój plecak? Czemu nie PRZEHANDLOWAĆ? Od teraz możesz zamienić tę CIENIZNĘ na COŚ LEPSZEGO RZĘDU!"
 "TF_CollectionCrafting_SaxtonMessage" "„Jeśli dziesięć naszych produktów\nnie zadowala cię w 100%, jeden\nzadowoli cię na 1000%!\n\nTo podstawy geografii!”"
@@ -16265,6 +16279,8 @@
 "AbuseReport_Discard"	"Odrzuć"
 "AbuseReport_SaveForLater"	"Dokończ później"
 "AbuseReport_SelectOne"	"-- wybierz --"
+"AbuseReport_UploadScreenshot"	"Zrzut ekranu obrazuje nadużycie. Prześlij je razem ze zgłoszeniem."
+
 "AbuseReport_Notification"	"Zgłoszenie nadużycia gotowe do przesłania"
 "AbuseReport_Notification_Help"	"Wciśnij [ %cl_trigger_first_notification% ], by ZGŁOSIĆ TERAZ.\nWciśnij [ %cl_decline_first_notification% ], by ZGŁOSIĆ PÓŹNIEJ."
 
@@ -18820,7 +18836,7 @@
 "TF_hwn2024_chiromancers"				"Przyrządy proroka"
 "TF_hwn2024_chiromancers_style1"			"Z księgą"
 "TF_hwn2024_chiromancers_style2"			"Bez księgi"
-"TF_hwn2024_school_nuisance"			"Szkolna niedogodność"
+"TF_hwn2024_school_nuisance"			"Uciążliwy uczeń"
 "TF_hwn2024_strikeout"					"Wynaturzone wyautowanie" // ADD THE
 "TF_hwn2024_hellish_overlord"			"Diabelski dominator"
 "TF_hwn2024_strigoi_stare"				"Spojrzenie strzygonia"
@@ -19461,7 +19477,7 @@ Zbieraj kapsuły z australium z ciał pokonanych wrogów i dostarcz je do centra
 Inne uwagi:
 Gracze posiadający największą liczbę kapsuł z australium w drużynie będą uzupełniać zdrowie i amunicję pobliskim sojusznikom, a ich lokalizacja będzie widoczna dla wrogów."
 
-"tow_dynamite_description"			"Wojenna przepychanka
+"tow_dynamite_description"			"Przepychanka
 
 Cel:
 Eskortuj ładunek do bazy nieprzyjaciela i broń go, dopóki licznik czasu twojej drużyny nie dojdzie do zera. Stań na ładunku, by go poruszyć.
@@ -19589,6 +19605,10 @@ Przeciwnicy mogą zablokować ładunek, stając na nim."
 "vsh_end_this"						"Zakończ to, zanim czas się skończy!"
 
 "tf_zi_ui_survivor_die"					" ulega infekcji ze strony gracza "
+"tf_zi_ui_infect_msg"					"FF3F3F%sFBECCB ulega infekcji z rąk gracza 38F3AB%sFBECCB!"
+"tf_zi_ui_infect_solo_msg"				"FF3F3F%sFBECCB ulega infekcji!"
+"tf_zi_ui_last_survivor_minicrit"		"POZOSTAŁO FBECCB%d OCALAŁYCH! Zadają teraz obrażenia FFD700%sFBECCB!"
+"tf_zi_ui_last_survivor_crit"			"FF3F3F%sFBECCB JEST OSTATNIM OCALAŁYM! Zadaje teraz obrażenia 16FD1D%sFBECCB!"
 "tf_zi_ui_crits"						"KRYTYCZNE"
 "tf_zi_ui_minicrits"					"MINIKRYTYCZNE"
 "tf_zi_ui_first_wave_msg_plural"		" został ZAINFEKOWANY!"
@@ -19618,6 +19638,16 @@ Przeciwnicy mogą zablokować ładunek, stając na nim."
 "tf_zi_team_red"						"Ocalali"
 "tf_zi_team_blue"						"Zombie"
 "tf_zi_pyro_blast_name"					"Smoczy oddech" 
+
+"tow_dynamite_welcome"					"Witamy w Dynamite!"
+"tow_dynamite_part1"					"Dynamite jest mapą typu Przepychanka."
+"tow_dynamite_part2"					"Aby móc pchać wózek, stój na nim, aż go przejmiesz."
+"tow_dynamite_part3"					"Obydwie drużyny mogą pchać wózek do bazy przeciwnika."
+"tow_dynamite_part4"					"Gdy wózek dojedzie do czyjejś bazy, zostaną aktywowane platformy do wyskoku." 
+"tow_dynamite_part5"					"A więc uważaj!"
+"tow_dynamite_part6"					"Po zabiciu przeciwnika może pojawić się zaklęcie wzmacniające skok, by ponieść cię wyżej."
+"tow_dynamite_part7"					"Twoja drużyna musi eskortować wózek do bazy wroga i bronić go, dopóki licznik czasu twojej drużyny nie dojdzie do zera." 
+"tow_setup_goal"						"Przejmij kontrolę nad wózkiem i eskortuj go do bazy wroga. Utrzymaj tam go, dopóki licznik czasu nie dojdzie do zera."
 
 "arena_perks_message_tie"		"Remis!"
 

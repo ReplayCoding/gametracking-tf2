@@ -1324,27 +1324,59 @@ CTFPlayer_ModifyJumperWeapons <- function()
     {
         if ( this.HasThisWeapon( 237 ) ) // rocket jumper
         {
-            local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 1 );
+            /*local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 1 );
 
             _hWeapon.AddAttribute ( "maxammo primary reduced", 0.0, -1 );
             SetPropIntArray       ( this, "m_iAmmo", 0, 1 );
 
             _hWeapon.ReapplyProvision();
-            return;
+            return;*/
+			for ( local i = 0; i < TF_WEAPON_COUNT; i++ )
+            {
+                local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", i )
+                
+                if ( _hWeapon == null )
+                    return;
+                    
+                if ( GetPropInt( _hWeapon, STRING_NETPROP_ITEMDEF ) != 237 )
+                    continue;
+    
+                _hWeapon.AddAttribute ( "maxammo primary reduced", 0.01, -1 );
+                SetPropIntArray       ( this, "m_iAmmo", 0, 1 );
+    
+                _hWeapon.ReapplyProvision();
+                return;
+            }
         };
     };
 
     if ( this.GetPlayerClass() == TF_CLASS_DEMOMAN )
     {
         if ( this.HasThisWeapon( 265 ) ) // sticky jumper
-        {
-            local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 2 );
+        {			
+            /*local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", 2 );
 
             _hWeapon.AddAttribute ( "hidden secondary max ammo penalty", 0.02, -1 );
             SetPropIntArray       ( this, "m_iAmmo", 0, 2 );
 
             _hWeapon.ReapplyProvision();
-            return;
+            return;*/
+			for ( local i = 0; i < TF_WEAPON_COUNT; i++ )
+            {
+                local _hWeapon = GetPropEntityArray( this, "m_hMyWeapons", i )
+                
+                if ( _hWeapon == null )
+                    return;
+            
+                if ( GetPropInt( _hWeapon, STRING_NETPROP_ITEMDEF ) != 265 )
+                    continue;
+
+                _hWeapon.AddAttribute ( "hidden secondary max ammo penalty", 0.02, -1 );
+                SetPropIntArray       ( this, "m_iAmmo", 0, 2 );
+
+                _hWeapon.ReapplyProvision();
+                return;
+            }
         };
     };
 };

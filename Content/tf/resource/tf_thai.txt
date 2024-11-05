@@ -1140,6 +1140,10 @@
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Silver"						"เหรียญเงิน ETF2L Highlander Open 3"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Bronze"						"เหรียญทองแดง ETF2L Highlander Open 3"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Participation"				"เหรียญการมีส่วนร่วม ETF2L Highlander Open 3"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Gold"						"เหรียญทอง ETF2L Highlander Open 4"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Silver"						"เหรียญเงิน ETF2L Highlander Open 4"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Bronze"						"เหรียญทองแดง ETF2L Highlander Open 4"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Participation"				"เหรียญการมีส่วนร่วม ETF2L Highlander Open 4"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Gold"				"เหรียญทอง ETF2L Fresh Meat Challenge"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Silver"			"เหรียญเงิน ETF2L Fresh Meat Challenge"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Bronze"			"เหรียญทองแดง ETF2L Fresh Meat Challenge"
@@ -3251,6 +3255,8 @@
 "TF_Wearable_Headache"				"หมวกชวนปวดหัว"
 "TF_Wearable_Shroud"				"ผ้าคลุม"
 "TF_Wearable_Butler"				"หุ่นยนต์บริกร"
+"TF_Wearable_Wound"					"บาดแผล"
+
 "TF_RobotPart_Type"	"ชิ้นส่วนหุ่นยนต์"
 "TF_CircuitBoard_Type"	"แผงวงจร"
 
@@ -4231,7 +4237,7 @@
 "TF_LoyaltyReward_Desc"		"จากยุคอื่น"
 "TF_SpiralSallet"			"The Spiral Sallet" // ADD THE
 "TF_SpiralSallet_Desc"		"เกร็ดความรู้: อัศวินในหมากรุกเดินทางข้ามตัวหมากอื่นโดยการ Rocket Jump"
-"TF_ScoutPrepShirt"			"The Fast Learner" // ADD THE
+"TF_ScoutPrepShirt"			"Fast Learner" // ADD THE
 "TF_ScoutPrepShirt_Desc" 	"อ่านหนังสือ – หรืออย่างน้อยดูเหมือนว่าคุณทำได้ – ด้วยชุดการศึกษาวินเทจนี้ เป็น B.M.O.C. (นักศึกษาปากกล้าในมหาวิทยาลัย) ของไอวีลีกสมมติของคุณ!"
 "TF_CowboyBoots"			"The Teufort Tooth Kicker" // ADD THE
 "TF_CowboyBoots_Desc"		"รองเท้าเหล็กทรงสุนัขเหล่านี้ถูกออกแบบทางวิทยาศาสตร์ (ในอุโมงค์ลม) โดยหน่วยงานที่สำคัญที่สุดในอเมริกาเพื่อการเตะปากให้พอดีในปากของคนโง่อย่างสมบูรณ์แบบ"
@@ -4956,6 +4962,7 @@
 "koth_los_muertos_authors"		"Elián 'iron' Rodríguez\nRyan 'Chill' Foy\nMatthew 'Panckakebro' Hiller"
 "cp_ambush_event_authors"		"Tomi 'ICS' Uurainen\nTony 'Hakk1tus' Hakala"
 "pl_terror_event_authors"		"Tomi 'ICS' Uurainen"
+"arena_lumberyard_event_authors"	"Liam \"Diva Dan\" Moffitt\nBenjamin \"blaholtzen\" Blåholtz\nAlex \"FGD5\" Stewart\nSeb \"Tianes\" Necula\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew 'Panckakebro' Hiller\nElián 'iron' Rodríguez\nPhe\nRyan 'Chill' Foy\nDenis 'xB33' Varchulik\nWilliam 'Cheesypuff' Bartley-Bolster\nOliver 'OverPovered' Pennanen"
 "pl_breadspace_authors"			"Bailey 'Glitch' Hodges\nJesse 'Custard1' Budd\nAlberto 'Petachepas' Zarzuela\nJonas 'Grambee' Carson\nDylan 'doggoh' Lee\nOliver 'OverPovered' Pennanen\nChristoph 'Gadget' Manschitz\nPeter 'Tabby' Bryant\nWilliam 'Cheesypuff' Bartley-Bolster\nKirill 'Le Bruhe?' Ruzanov\nHugh 'HueZee_' Madoc Schneider\nBrandon 'Brantopias' Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi 'ICS' Uurainen\nTyler 'Yyler' King\nAlex 'MaccyF' MacFarquhar"
@@ -6233,6 +6240,8 @@
 "arena_lumberyard_event_red_wins"		"ทีม RED ชนะรอบ!"
 "arena_lumberyard_event_blu_wins"		"ทีม BLU ชนะรอบ!"
 "arena_lumberyard_event_point_open"		"จุดนี้เปิดอยู่!"
+"arena_lumberyard_event_heal"			"FF69B4คุณตายแล้ว! FBECCBขณะเป็นFF69BผีFBECCB รักษาทีมของคุณ!"
+"arena_lumberyard_event_spell"			"FBECCBA FF69B4เวทมนตร์หายาก FBECCBจะเกิดในตำแหน่งแบบสุ่ม!"
 "cp_frostwatch_east"					"หอคอยทิศตะวันออก"
 "cp_frostwatch_west"					"หอคอยทิศตะวันตก"
 "cp_frostwatch_south"					"หอคอยทิศใต้"
@@ -8610,7 +8619,7 @@
 "TF_MAPS_SNAKEWATER_WIN_ROUNDS_NAME"				"Snakewater Salesman"
 "TF_MAPS_SNAKEWATER_WIN_ROUNDS_DESC"				"ชนะ 141 รอบ"
 "TF_MAPS_SNAKEWATER_PUSH_BACK_AND_WIN_NAME"			"Snakebit"
-"TF_MAPS_SNAKEWATER_PUSH_BACK_AND_WIN_DESC"			"ชนะรอบการแข่งในขณะที่ทีมศัตรูได้พยายามที่จะยึดครองจุดยุทธศาสตร์สุดท้ายของคุณ"
+"TF_MAPS_SNAKEWATER_PUSH_BACK_AND_WIN_DESC"			"ชนะรอบในขณะที่ทีมศัตรูได้พยายามที่จะยึดครองจุดยุทธศาสตร์สุดท้ายของคุณ"
 "TF_MAPS_SNAKEWATER_TEAM_KILL_NAME"					"The Snakeout"
 "TF_MAPS_SNAKEWATER_TEAM_KILL_DESC"					"กำจัดทีมอื่นด้วยผู้เล่น 12 คนหรือมากกว่าในเซิร์ฟเวอร์"
 "TF_MAPS_SNAKEWATER_DOUBLE_AIR_DEATHS_NAME"			"Mutually Air-Sured-Destruction"
@@ -8622,7 +8631,7 @@
 "TF_MAPS_POWERHOUSE_WIN_ROUNDS_NAME"				"The Power and the Glory"
 "TF_MAPS_POWERHOUSE_WIN_ROUNDS_DESC"				"ชนะ 142 รอบ"
 "TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_NAME"			"Balance of Power"
-"TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_DESC"			"ชนะรอบการแข่งในขณะที่ทีมศัตรูได้พยายามที่จะยึดครองจุดยุทธศาสตร์สุดท้ายของคุณ"
+"TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_DESC"			"ชนะรอบในขณะที่ทีมศัตรูได้พยายามที่จะยึดครองจุดยุทธศาสตร์สุดท้ายของคุณ"
 "TF_MAPS_POWERHOUSE_FAST_FINAL_CAP_NAME"			"Power Trip"
 "TF_MAPS_POWERHOUSE_FAST_FINAL_CAP_DESC"			"ยึดครองจุดยุทธศาสตร์สุดท้ายภายใน 15 วินาทีของทีมของคุณที่ยึดครองจุดยุทธศาสตร์ก่อนหน้า"
 "TF_MAPS_POWERHOUSE_KILL_CAPPING_PLAYER_NAME"		"Power Down"
@@ -8959,7 +8968,7 @@
 "ToolStrangeRestrictionApplyConfirm"	"คุณแน่ใจหรือว่าคุณต้องการเพิ่ม Strange Filter นี้แก่\nไอเท็มนี้?\n\nคะแนนปัจจุบันสำหรับสถิติ '%stat_name%'\nของคุณจะถูกรีเซ็ตเป็น 0 หากสถิตินี้ถูกเพิ่มผ่าน Strange\nPart คุณจะไม่สามารถลบ Filter ออกโดยไม่\nลบ Strange Part ออกเช่นกัน"
 "ToolCardUpgradeApplyConfirm"		 "คุณแน่ใจหรือไม่ว่าคุณต้องการร่ายมนตร์นี้ใส่ไอเท็มนี้? มนตร์ทั้งหมด\nจะอยู่ได้เพียงจนกว่ากิจกรรมฮาโลวีนจะสิ้นสุดลงในวันที่ 12 พฤศจิกายน\n 2014\n\nจำไว้ว่า: ไอเท็มชิ้นเดียวสามารถมี\nมนตร์ได้จำกัดจำนวน %subject_item_def_name% ของคุณมี %remaining_upgrade_card_slots% ว่างจาก %slot_singular_plural% ที่เหลืออยู่"
 "TransmogrifyUpgradeApplyConfirm"	"คุณแน่ใจหรือว่าคุณต้องการ Transmogrify ไอเท็มนี้? มันจะl\nทำลายไอเท็มในขณะนี้และแทนที่มันด้วยไอเท็มใหม่\nที่อาชีพ %output_class% สามารถใช้ได้"
-"SpellbookPageApplyConfirm"			"คุณแน่ใจหรือว่าคุณต้องการใส่หน้านี้ในคัมภีร์เวทนี้?\nมันจะทำลายหน้าคัมภีร์และอัปเกรด\nคัมภีร์เวทของคุณ"
+"SpellbookPageApplyConfirm"			"คุณแน่ใจหรือว่าคุณต้องการใส่หน้านี้ในคัมภีร์เวทมนตร์นี้?\nมันจะทำลายหน้าคัมภีร์และอัปเกรด\nคัมภีร์เวทมนตร์ของคุณ"
 "ToolStrangifierConfirm" 			"คุณแน่ใจหรือว่าต้องการทำไอเท็มนี้เป็น Strange?"
 "ToolKillStreakifierConfirm" 		"คุณแน่ใจว่าคุณค้องการทำให้สิ่งนี้เป็นไอเท็ม Killstreak?"
 "ToolFestivizerConfirm" 			"คุณแน่ใจหรือไม่ว่าคุณต้องการ Festivize ไอเท็มนี้?"
@@ -8996,6 +9005,7 @@
 "ToolCustomizeTextureBrowseDialogTitle"	"เลือกไฟล์ภาพแบบกำหนดเอง"
 "ToolCustomizeTextureConfirmWarning" "การกระทำนี้จะใช้ Decal Tool ของคุณและไม่สามารถยกเลิกได้\n\nรูปของคุณต้องเป็นไปตามข้อตกลงการสมัครสมาชิกของ Steam การอัปโหลดรูปที่ประกอบไปด้วยความรุนแรงหรือมีเนื้อหาที่ละเมิดลิขสิทธิ์ อาจส่งผลให้เกิดการลบรูปหรือไอเท็ม จะไม่มีข้อเสนอการขอคืนเงินหรือการแทนที่ไอเท็ม\n\nถ้าคุณไม่แน่ใจว่ารูปนั้นโอเค อย่าอัปโหลดมัน"
 "ToolCustomizeTexturePleaseWait" "กรุณารอสักครู่ในขณะที่นำรูปลอกของคุณมาใช้งานอยู่"
+"ToolCustomizeTextureFilter" "ตัวกรอง:"
 "ToolDecodeInProgress"    	"กำลังเปิดสิ่งที่คุณได้"
 "ToolRedeemingPass"    		"ใช้งานบัตรผ่านของคุณ"
 "ToolGiftWrapConfirm"		  "คุณแน่ใจหรือไม่ว่าต้องการห่อของขวัญไอเท็มนี้?"
@@ -11813,6 +11823,9 @@
 "Attrib_Particle354"			"Frankencharged"
 "Attrib_Particle355"			"Phantom Plague"
 "Attrib_Particle356"			"Haunting Haze"
+"Attrib_Particle357"			"Vicious Vampires"
+"Attrib_Particle358"			"Ravenous Ravens"
+"Attrib_Particle359"			"Delightful Doves"
 "Attrib_Particle360"			"Searing Stove"
 "Attrib_Particle361"			"Searing Stove"
 "Attrib_Particle362"			"Über Blaze"
@@ -12012,8 +12025,8 @@
 "Attrib_KillStreakTier"			"Killstreaks ทำงาน"
 
 // Halloween Spell Names
-"TF_SpellBook_EquipAction"	"ไม่ได้สวมใส่คัมภีร์เวท ยอมรับเพื่อสวมใส่คัมภีร์เวทของคุณในช่องแอ็คชันเพื่อเก็บคาถา"
-"TF_SpellBook_Equip"		"สวมใส่คัมภีร์เวทในช่องแอ็คชันของคุณเพื่อเลือกใช้"
+"TF_SpellBook_EquipAction"	"ไม่ได้สวมใส่คัมภีร์เวทมนตร์ ยอมรับเพื่อสวมใส่คัมภีร์เวทมนตร์ของคุณในช่องแอ็คชันเพื่อเก็บคาถา"
+"TF_SpellBook_Equip"		"สวมใส่คัมภีร์เวทมนตร์ในช่องแอ็คชันของคุณเพื่อเลือกใช้"
 "TF_Spell_Action" 			"[%use_action_slot_item%] เพื่อร่าย"
 "TF_Spell_Fireball"			"Fireball"
 "TF_Spell_Bats"				"Swarm of Bats"
@@ -12099,7 +12112,7 @@
 "TF_TheHolyMackerel"			"The Holy Mackerel"	// ADD THE
 "TF_MadMilk"				"Mad Milk"
 "TF_Weapon_RocketLauncher_Jump"		"The Rocket Jumper"	// ADD THE
-"TF_Weapon_StickyBomb_Jump"		"The Sticky Jumper"	// ADD THE
+"TF_Weapon_StickyBomb_Jump"		"Sticky Jumper"	// ADD THE
 "TF_Unique_FryingPan"		"The Frying Pan"	// ADD THE
 "TF_Gold_FryingPan"			"Golden Frying Pan"
 "TF_HalloweenBoss_Axe"			"The Horseless Headless Horsemann's Headtaker"	// ADD THE
@@ -12228,7 +12241,7 @@
 "TF_Weapon_SelfAwareBeautyMark_desc" "\nได้แรงบันดาลใจจากภาพยนตร์ TF2 'Expiration Date'"
 "TF_Weapon_MutatedMilk"				"Mutated Milk"
 "TF_Weapon_MutatedMilk_desc" 		"ผู้เล่นฟื้นฟูพลังชีวิต 60% จากความเสียหายที่ทำได้แก่ศัตรูที่โชกด้วยนม\n\nได้แรงบันดาลใจจากภาพยนตร์ TF2 'Expiration Date'"
-"TF_Weapon_BaseJumper"				"The B.A.S.E. Jumper" // ADD THE
+"TF_Weapon_BaseJumper"				"B.A.S.E. Jumper" // ADD THE
 "TF_Weapon_BaseJumper_Desc"			"กดปุ่ม 'กระโดด' ในอากาศเพื่อใช้งาน\nร่มชูชีพที่ใช้งานลดความเร็วจากการตก"
 "TF_Weapon_BackScatter"				"The Back Scatter" // ADD THE
 "Attrib_BackAttackMinicrits"		"มินิคริติคอลเป้าหมายเมื่อยิงที่หลังของพวกเขาจากระยะใกล้"
@@ -13439,6 +13452,7 @@
 "TF_CollectionCrafting_Paintkit_NotCraftableYet" "ชุดลงสียังไม่สามารถใช้งานได้ในการประดิษฐ์ชุดสะสม"
 
 "TF_CollectionCrafting_Submit" "ส่งจดหมาย"
+"TF_CollectionCrafting_Send" "ส่ง"
 "TF_CollectionCrafting_ApplyStamp" "ติด\nแสตมป์\nที่นี่"
 "TF_CollectionCrafting_TitleJoke0" "เบื่อหน่ายกับไอเท็มที่คุณไม่อยากได้เกลื่อนในช่องเก็บของของคุณหรือเปล่า? ทำไมไม่เอาไปแลกดูละ? ตอนนี้คุณสามารถเปลี่ยนไอเท็มดรอปที่ไม่ต้องการเป็นไอเท็มขั้นสูงได้แล้ว!"
 "TF_CollectionCrafting_SaxtonMessage" "\"หากคุณไม่พอใจ 100%\nกับสิบผลิตภัณฑ์ของเรา\nคุณจะพอใจ 1000% กับชิ้นนี้แน่!\n\nมันเป็นของมาตรฐานทางภูมิศาสตร์!\""
@@ -13498,17 +13512,17 @@
 "TF_HighFive_Hint"			"กด '%taunt%' หน้าผู้เล่นนี้เพื่อเข้าร่วมการเยาะเย้ย"
 
 // Halloween 2013.
-"TF_Spellbook_Type"				"คัมภีร์เวท\n"
+"TF_Spellbook_Type"				"คัมภีร์เวทมนตร์\n"
 "TF_UnfilledSpellbook"			"Unfilled Fancy Spellbook"
-"TF_UnfilledSpellbook_Desc"		"\nนี่เป็นคัมภีร์เวทที่ดูดี แต่มันยังขาดหน้าคัมภีร์! เมื่อคุณมีหน้าคัมภีร์มากพอ คุณจะสามารถสวมใส่มันและใช้มันเพื่อร่ายคาถาได้"
+"TF_UnfilledSpellbook_Desc"		"\nนี่เป็นคัมภีร์เวทมนตร์ที่ดูดี แต่มันยังขาดหน้าคัมภีร์! เมื่อคุณมีหน้าคัมภีร์มากพอ คุณจะสามารถสวมใส่มันและใช้มันเพื่อร่ายคาถาได้"
 "TF_FancySpellbook"				"Fancy Spellbook"
-"TF_FancySpellbook_Desc"		"\nนี่เป็นคัมภีร์เวทที่ดูดี เต็มไปด้วยหน้าต่าง ๆ ที่คุณเก็บไว้ แต่คุณไม่สามารถมีพลังเวทมากเกินไป..."
+"TF_FancySpellbook_Desc"		"\nนี่เป็นคัมภีร์เวทมนตร์ที่ดูดี เต็มไปด้วยหน้าต่าง ๆ ที่คุณเก็บไว้ แต่คุณไม่สามารถมีพลังเวทมากเกินไป..."
 "TF_Spellbook_Basic"			"Spellbook Magazine"
 "TF_Spellbook_Basic_Desc"		"\nรุ่นโบราณของนิตยสารรายสามเดือนของผู้ใช้เวทมตร์\nเจออยู่หลังตู้เสื้อผ้า มันบรรจุเวทมนตร์มากพอที่จะทำงานให้สำเร็จ\n\nสวมใส่เพื่อเปิดใช้งานการเก็บและการร่ายคาถา"
 
-"TF_SpellbookPage_Type"			"หน้าคัมภีร์เวท"
+"TF_SpellbookPage_Type"			"หน้าคัมภีร์เวทมนตร์"
 "TF_SpellbookPage"				"Spellbook Page"
-"TF_SpellbookPage_Desc"			"หน้าคัมภีร์เวทนี้ยังมีพลังงานเวทมนตร์เหลือบ้าง\n\nถ้าคุณมีคัมภีร์เวทใด ๆ อยู่ใกล้ คุณสามารถใส่หน้านี้ลงจากกระเป๋าของคุณ"
+"TF_SpellbookPage_Desc"			"หน้าคัมภีร์เวทมนตร์นี้ยังมีพลังงานเวทมนตร์เหลือบ้าง\n\nถ้าคุณมีคัมภีร์เวทมนตร์ใด ๆ อยู่ใกล้ คุณสามารถใส่หน้านี้ลงจากกระเป๋าของคุณ"
 
 "TF_ServerEnchantmentType"		"คาถาเซิร์ฟเวอร์"
 "TF_Eternaween"					"Enchantment: Eternaween"
@@ -15674,6 +15688,8 @@
 "AbuseReport_Discard"	"ละทิ้ง"
 "AbuseReport_SaveForLater"	"ทำให้เสร็จสิ้นในภายหลัง"
 "AbuseReport_SelectOne"	"-- เลือก --"
+"AbuseReport_UploadScreenshot"	"ภาพหน้าจอแสดงการกระทำผิด โปรดอัปโหลดภาพพร้อมกับรายงาน"
+
 "AbuseReport_Notification"	"รายงานการกระทำผิดพร้อมที่จะส่งแล้ว"
 "AbuseReport_Notification_Help"	"กด [ %cl_trigger_first_notification% ] เพื่อ ส่งเดี๋ยวนี้ \nกด [ %cl_decline_first_notification% ] เพื่อ ส่งภายหลัง"
 
@@ -16408,7 +16424,7 @@
 "TF_hw2013_golden_crisp_locks"		"The Crispy Golden Locks" // ADD THE
 "TF_hw2013_scorched_skirt"		"The Scorched Skirt" // ADD THE
 "TF_hw2013_wandering_soul"		"The Accursed Apparition" // ADD THE
-"TF_hw2013_horrifying_hound_hood"		"The Hound's Hood" // ADD THE
+"TF_hw2013_horrifying_hound_hood"		"Hound's Hood" // ADD THE
 "TF_hw2013_terrifying_terrier_trousers"		"The Terrier Trousers" // ADD THE
 "TF_hw2013_bunny_mann"		"The Horrific Head of Hare" // ADD THE
 "TF_hw2013_leather_face"		"The Snaggletoothed Stetson" // ADD THE
@@ -18515,6 +18531,10 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 
 "TF_Invalid_Inspect_Target"			"ตรวจสอบเป้าหมายไม่ถูกต้อง"
 
+"tf_zi_ui_infect_msg"					"FF3F3F%sFBECCB ติดเชื้อโดย 38F3AB%sFBECCB!"
+"tf_zi_ui_infect_solo_msg"				"FF3F3F%sFBECCB ติดเชื้อ!"
+"tf_zi_ui_last_survivor_minicrit"		"FBECCBผู้รอดชีวิตคงเหลือ %d คน! ตอนนี้พวกเขามี FFD700%sFBECCB!"
+"tf_zi_ui_last_survivor_crit"			"FF3F3F%sFBECCB คือผู้รอดชีวิตคนสุดท้าย! ตอนนี้พวกเขามี 16FD1D%sFBECCB!"
 "tf_zi_ui_passive"						"ติดตัว"
 "tf_zi_ui_zombie_instruction_passive"	"                         ตอนนี้คุณเป็นซอมบี้\n                 ความสามารถติดตัวของคุณถูกเปิดใช้งานแล้ว"
 "tf_zi_scout_passive_name"				"Speed Demon"
@@ -18528,6 +18548,16 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 "tf_zi_team_red"						"ผู้รอดชีวิต"
 "tf_zi_team_blue"						"ซอมบี้"
 "tf_zi_pyro_blast_name"					"Dragon's Breath" 
+
+"tow_dynamite_welcome"					"ยินดีต้อนรับสู่ Dynamite!"
+"tow_dynamite_part1"					"Dynamite คือแผนที่ Tug of War"
+"tow_dynamite_part2"					"หากต้องการดันรถเข็น ให้ยืนอยู่บนรถจนกว่าคุณจะกลายเป็นเจ้าของรถเข็น"
+"tow_dynamite_part3"					"แต่ละทีมสามารถดันรถเข็นไปยังฐานของทีมศัตรูได้"
+"tow_dynamite_part4"					"เมื่อรถเข็นถูกดันไปถึงฐานของทีมศัตรูแล้ว แท่นกระโดดจะถูกเปิดใช้งาน" 
+"tow_dynamite_part5"					"ดังนั้นระวังไว้ให้ดี!"
+"tow_dynamite_part6"					"การสังหารฝ่ายตรงข้ามอาจดรอปเวทมนตร์กระโดดเพื่อบูสต์การกระโดดสูงได้"
+"tow_dynamite_part7"					"ทีมของคุณต้องคุ้มกันรถเข็นไปยังฐานของศัตรูและป้องกันมันจนกว่าเวลาของทีมจะหมดลง" 
+"tow_setup_goal"						"ยึดครองรถเข็นและคุ้มกันมันไปยังฐานของศัตรู ยึดรถเข็นไว้ที่นั่นจนกว่าเวลาจะหมดลง"
 
 "arena_perks_message_tie"		"เสมอกัน!"
 

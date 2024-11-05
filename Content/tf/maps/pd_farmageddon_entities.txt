@@ -6200,8 +6200,8 @@ Revision: 11895
 "classname" "env_entity_maker"
 "hammerid" "2538337"
 "OnEntitySpawned" "z0_zombie_neutralSetModelmodels/bots/farmageddon/scarecrow.mdl0-1"
-"OnEntitySpawned" "z0_zombie_neutralAddOutputHealth 5000-1"
-"OnEntitySpawned" "z0_zombie_neutralAddOutputMaxHealth 5000-1"
+"OnEntitySpawned" "z0_zombie_neutralAddOutputHealth 3500-1"
+"OnEntitySpawned" "z0_zombie_neutralAddOutputMaxHealth 3500-1"
 }
 {
 "origin" "636 1770 -108"
@@ -15213,8 +15213,8 @@ Revision: 11895
 "classname" "env_entity_maker"
 "hammerid" "2538421"
 "OnEntitySpawned" "z1_zombie_neutralSetModelmodels/bots/farmageddon/scarecrow.mdl0-1"
-"OnEntitySpawned" "z1_zombie_neutralAddOutputMaxHealth 5000-1"
-"OnEntitySpawned" "z1_zombie_neutralAddOutputHealth 5000-1"
+"OnEntitySpawned" "z1_zombie_neutralAddOutputMaxHealth 3500-1"
+"OnEntitySpawned" "z1_zombie_neutralAddOutputHealth 3500-1"
 }
 {
 "origin" "636 2410 -108"
@@ -15335,8 +15335,8 @@ Revision: 11895
 "classname" "env_entity_maker"
 "hammerid" "2538562"
 "OnEntitySpawned" "z2_zombie_neutralSetModelmodels/bots/farmageddon/scarecrow.mdl0-1"
-"OnEntitySpawned" "z2_zombie_neutralAddOutputMaxHealth 5000-1"
-"OnEntitySpawned" "z2_zombie_neutralAddOutputHealth 5000-1"
+"OnEntitySpawned" "z2_zombie_neutralAddOutputMaxHealth 3500-1"
+"OnEntitySpawned" "z2_zombie_neutralAddOutputHealth 3500-1"
 }
 {
 "origin" "864 2521 86"
@@ -15457,8 +15457,8 @@ Revision: 11895
 "classname" "env_entity_maker"
 "hammerid" "2538606"
 "OnEntitySpawned" "z3_zombie_neutralSetModelmodels/bots/farmageddon/scarecrow.mdl0-1"
-"OnEntitySpawned" "z3_zombie_neutralAddOutputMaxHealth 5000-1"
-"OnEntitySpawned" "z3_zombie_neutralAddOutputHealth 5000-1"
+"OnEntitySpawned" "z3_zombie_neutralAddOutputMaxHealth 3500-1"
+"OnEntitySpawned" "z3_zombie_neutralAddOutputHealth 3500-1"
 }
 {
 "origin" "864 1637 86"

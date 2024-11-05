@@ -222,7 +222,7 @@ function OnGameEvent_player_spawn( params )
     // and reset infection specific vars
     _hPlayer.ResetInfectionVars();
 
-    if ( _hPlayer.GetPlayerClass() ==  TF_CLASS_DEMOMAN || _hPlayer.GetPlayerClass() == TF_CLASS_SOLDIER )
+    if ( (_hPlayer.GetPlayerClass() ==  TF_CLASS_DEMOMAN || _hPlayer.GetPlayerClass() == TF_CLASS_SOLDIER) && _hPlayer.GetTeam() == TF_TEAM_RED )
     {
         _hPlayer.ModifyJumperWeapons();
     }

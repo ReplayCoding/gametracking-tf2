@@ -1140,6 +1140,10 @@
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Silver"						"Серебряная медаль третьей открытой лиги ETF2L Highlander"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Bronze"						"Бронзовая медаль третьей открытой лиги ETF2L Highlander"
 "TF_TournamentMedal_ETF2L_Highlander_Open3_Participation"				"Медаль участника третьей открытой лиги ETF2L Highlander"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Gold"						"Золотая медаль четвёртой открытой лиги ETF2L Highlander"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Silver"						"Серебряная медаль четвёртой открытой лиги ETF2L Highlander"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Bronze"						"Бронзовая медаль четвёртой открытой лиги ETF2L Highlander"
+"TF_TournamentMedal_ETF2L_Highlander_Open4_Participation"				"Медаль участника четвёртой открытой лиги ETF2L Highlander"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Gold"				"Золотая медаль ETF2L Fresh Meat Challenge"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Silver"			"Серебряная медаль ETF2L Fresh Meat Challenge"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Bronze"			"Бронзовая медаль ETF2L Fresh Meat Challenge"
@@ -3359,6 +3363,8 @@
 "TF_Wearable_Headache"				"Головная боль"
 "TF_Wearable_Shroud"				"Накидка"
 "TF_Wearable_Butler"				"Дворецкий"
+"TF_Wearable_Wound"					"Рана"
+
 "TF_RobotPart_Type"	"Запчасть робота"
 "TF_CircuitBoard_Type"	"Печатная плата"
 
@@ -5073,6 +5079,7 @@
 "koth_los_muertos_authors"		"Элиан \"iron\" Родригез\nРайан \"Chill\" Фой\nМэттью \"Panckakebro\" Хиллер"
 "cp_ambush_event_authors"		"Томи \"ICS\" Уурайнен\nТони \"Hakk1tus\" Хакала"
 "pl_terror_event_authors"		"Томи \"ICS\" Уурайнен"
+"arena_lumberyard_event_authors"	"Лиам \"Diva Dan\" Моффитт\nБенджамин \"blaholtzen\" Блогольц\nАлекс \"FGD5\" Стюарт\nСэб \"Tianes\" Некьюла\nЭон \"Void\" Боллиг\nЭрик \"Colteh\" Колти\nJuniper"
 "pl_coal_event_authors"			"Мэттью \"Panckakebro\" Хиллер\nЭлиан \"iron\" Родригез\nPhe\nРайан \"Chill\" Фой\nДенис \"xB33\" Варчулик\nУилльям \"Cheesypuff\" Бартли-Болстер\nОливер \"OverPovered\" Пеннанен"
 "pl_breadspace_authors"			"Бэйли \"Glitch\" Оджес\nДжесси \"Custard1\" Бадд\nАльберто \"Petachepas\" Зарзуэла\nДжонас \"Grambee\" Карсон\nДилан \"doggoh\" Ли\nОливер \"OverPovered\" Пеннанен\nКристоф \"Gadget\" Маншиц\nПитер \"Tabby\" Брайант\nУилльям \"Cheesypuff\" Бартли-Болстер\nКирилл \"Le Bruhe?\" Рузанов\nХью \"HueZee_\" Мадок Шнейдер\nБрэндон \"Brantopias\" Синкович\nhuman1"
 "pl_chilly_authors"				"Томи \"ICS\" Уурайнен\nТайлер \"Yyler\" Кинг\nАлекс \"MaccyF\" Макфаркар"
@@ -6004,7 +6011,7 @@
 "Duck_Streak"			"%s1
 "
 
-"SpecialScore_Count"		"передал бутылки! x%s1"
+"SpecialScore_Count"		"доставляет груз! x%s1"
 "TeamLeader_Kill"		"убил лидера команды"
 
 "TF_OK"				"OK"
@@ -6471,6 +6478,8 @@
 "arena_lumberyard_event_blu_buffed"		"ПОСЛЕДНИЙ ИГРОК СИНИХ УСИЛЕН!"
 "arena_lumberyard_event_red_buffed"		"ПОСЛЕДНИЙ ИГРОК КРАСНЫХ УСИЛЕН!"
 "arena_lumberyard_event_skeleton"		"В СЛУЧАЙНОМ МЕСТЕ ПОЯВИЛСЯ КОРОЛЬ СКЕЛЕТОВ!"
+"arena_lumberyard_event_heal"			"FF69B4ВЫ УМЕРЛИ! FBECCBИграя за FF69B4ПРИВИДЕНИЕFBECCB, лечите свою команду!"
+"arena_lumberyard_event_spell"			"FBECCBA FBECCBГде-то появилось FF69B4редкое заклинаниеFBECCB!"
 "ctf_crasher_objective"					"Сопроводите своего гиганта к вражеским воротам!"
 "ctf_crasher_giant_down"				"Наш гигант пал! Скоро бомба появится вновь!"
 "ctf_crasher_new_giant"					"У нас новый гигант!"
@@ -7009,7 +7018,7 @@
 
 // Gravelpit intro
 
-"Intro_attack_defense_intro"		"Это карта режима \"Захват/Удержание точек\", \nСиние должны захватывать точки, а Красные — мешать им это сделать."
+"Intro_attack_defense_intro"		"Это карта режима \"Захват/Удержание точек\", \nСиние должны захватывать точки, а Красные - мешать им это сделать."
 "Intro_attack_defense_capping"		"Чтобы захватить контрольную точку, Синие должны встать около неё.\nНа экране отображается прогресс захвата."
 "Intro_attack_defense_cap_a"		"Синие должны захватить точку А..."
 "Intro_attack_defense_cap_b"		"а также точку В.  \nСиние могут захватывать точки в любой последовательности."
@@ -7785,39 +7794,39 @@
 
 // Intro Movies
 
-"TF_IM_WellCTF_Intro"	"Well (CTF) — это карта режима \"Захват флага\""
+"TF_IM_WellCTF_Intro"	"Well (CTF) - это карта режима \"Захват флага\""
 "TF_IM_WellCTF_ToWin"	"Чтобы получать очки, крадите вражеские разведданные и относите их на свою базу"
 "TF_IM_WellCTF_IntelDrop"	"Брошенный дипломат вернётся на свою базу через 60 секунд"
 
-"TF_IM_2Fort_Intro"		"2Fort — это карта режима \"Захват флага\""
+"TF_IM_2Fort_Intro"		"2Fort - это карта режима \"Захват флага\""
 "TF_IM_2Fort_ToWin"	"Чтобы получать очки, крадите вражеские разведданные и относите их на свою базу"
 "TF_IM_2Fort_IntelStatus"	"Состояние и местонахождение обоих дипломатов показывается внизу экрана"
 "TF_IM_2Fort_IntelDrop"	"Брошенный дипломат вернётся на свою базу через 60 секунд"
 
-"TF_IM_Gravelpit_Intro"	"Gravel Pit — это карта режима \"Захват/удержание точек\""
+"TF_IM_Gravelpit_Intro"	"Gravel Pit - это карта режима \"Захват/удержание точек\""
 "TF_IM_Gravelpit_RedWin"	"Чтобы победить, Красным надо защитить свои контрольные точки"
 "TF_IM_Gravelpit_BlueWin"	"Чтобы победить, Синим надо захватить все контрольные точки до истечения времени"
 
-"TF_IM_Dustbowl_Intro"	"Dustbowl – это карта режима \"Захват/удержание точек\""
+"TF_IM_Dustbowl_Intro"	"Dustbowl - это карта режима \"Захват/удержание точек\""
 "TF_IM_Dustbowl_ToWin"	"Чтобы победить, Синие должны пройти через три этапа"
 "TF_IM_Dustbowl_Stages"	"На каждом этапе есть две контрольные точки"
 
-"TF_IM_Hydro_Intro"	"Hydro — это карта режима \"Контроль территории\""
+"TF_IM_Hydro_Intro"	"Hydro - это карта режима \"Контроль территории\""
 "TF_IM_Hydro_ToWin"	"Одна из команд должна завладеть всеми шестью контрольными точками"
 "TF_IM_Hydro_ToWin2"	"В начале игры у каждой команды по три территории"
 "TF_IM_Hydro_Stages"	"Карта разбита на три этапа, по две контрольные точки на каждом"
 "TF_IM_Hydro_CP"		"Чтобы занять территорию, захватите контрольную точку врага"
 
-"TF_IM_Well_Intro"		"Well (CP) — это карта режима \"Контрольные точки\""
-"TF_IM_Granary_Intro"	"Granary — это карта режима \"Контрольные точки\""
-"TF_IM_Badlands_Intro"	"Badlands — это карта режима \"Контрольные точки\""
+"TF_IM_Well_Intro"		"Well (CP) - это карта режима \"Контрольные точки\""
+"TF_IM_Granary_Intro"	"Granary - это карта режима \"Контрольные точки\""
+"TF_IM_Badlands_Intro"	"Badlands - это карта режима \"Контрольные точки\""
 
 "TF_IM_CP_ToWin"		"Для победы одна из команд должна завладеть всеми контрольными точками"
 "TF_IM_CP_Capture"	"Чтобы захватить контрольную точку, нужно находиться в зоне захвата, пока точка не станет вашей"
 "TF_IM_CP_TimeAdd"	"После захвата точки вы получаете дополнительное время"
 "TF_IM_CP_Locked"	"Заблокированные контрольные точки захватывать нельзя"
 
-"TF_IM_Goldrush_Intro"	"Gold Rush — это карта режима \"Сопровождение\", состоящая из 3 этапов"
+"TF_IM_Goldrush_Intro"	"Gold Rush - это карта режима \"Сопровождение\", состоящая из 3 этапов"
 "TF_IM_Goldrush_BlueWin"	"Синие победят, если дотолкают вагонетку до последнего пункта Красных, пока не истекло время"
 "TF_IM_Goldrush_RedWin"	"Красные победят, если не дадут дотолкать вагонетку до своего последнего пункта"
 "TF_IM_Goldrush_MoveCart"	"Вагонетка движется вперед, пока хотя бы один игрок из команды Синих находится рядом"
@@ -7825,7 +7834,7 @@
 "TF_IM_Goldrush_RollsBack"	"Если вагонетка не сдвинется с места в течение 30 секунд, то она покатится назад"
 "TF_IM_Goldrush_TimeAdd"	"Как только вагонетка достигает следующего пункта, добавляется дополнительное время"
 
-"TF_IM_Basin_Intro"	 "Badwater Basin — это карта режима \"Сопровождение\", состоящая из 1 этапа"
+"TF_IM_Basin_Intro"	 "Badwater Basin - это карта режима \"Сопровождение\", состоящая из 1 этапа"
 "TF_IM_Basin_BlueWin"	 "Синие победят, если дотолкают вагонетку до последнего пункта Красных, пока не истекло время"
 "TF_IM_Basin_RedWin"	 "Красные победят, если не дадут дотолкать вагонетку до своего последнего пункта"
 "TF_IM_Basin_MoveCart"	 "Вагонетка движется вперёд, пока хотя бы один игрок из команды Синих находится рядом"
@@ -9287,6 +9296,7 @@
 "ToolCustomizeTextureBrowseDialogTitle"	"Выберите требуемое изображение."
 "ToolCustomizeTextureConfirmWarning" "Это действие необратимо и израсходует наклейку.\n\nВаше изображение должно соответствовать условиям соглашения подписчика Steam. Если оно оскорбительно или нарушает закон, то изображение или предмет могут быть удалены без какого-либо возмещения.\n\nНе загружайте изображение, если не уверены, что оно подойдёт."
 "ToolCustomizeTexturePleaseWait" "Подождите, пока ваша наклейка наносится."
+"ToolCustomizeTextureFilter" "Фильтр:"
 "ToolDecodeInProgress"    	"Ящик открывается"
 "ToolRedeemingPass"    		"Активация пропуска"
 "ToolGiftWrapConfirm"		  "Вы уверены, что хотите завернуть этот предмет в подарочную упаковку?"
@@ -10896,10 +10906,8 @@
 
 "TF_ToughBreakCase01"						"Кейс \"Пироландия\""
 "TF_ToughBreakCase01_Desc"                  "Этот кейс закрыт. Чтобы его открыть,\nнеобходим отпускной ключ\n\nСодержит предмет из коллекции \"Пироландия\""
-"TF_ToughBreakCase01_AdText"                "- Входит в кампанию \"Тяжёлый отпуск\"\n- Может содержать оружие странного или необычного типа"
 "TF_ToughBreakCase02"                       "Кейс \"Летучий отряд\""
 "TF_ToughBreakCase02_Desc"                  "Этот кейс закрыт. Чтобы его открыть,\nнеобходим отпускной ключ\n\nСодержит предмет из коллекции \"Летучий отряд\""
-"TF_ToughBreakCase02_AdText"                "- Входит в кампанию \"Тяжёлый отпуск\"\n- Может содержать оружие странного или необычного типа"
 "TF_Tool_ToughBreakKey"					    "Отпускной ключ"
 "TF_Tool_ToughBreakKey_Desc"				"Отпирает кейсы \"Пироландия\" и \"Летучий отряд\"."
 "TF_Tool_ToughBreakKey_AdText"              "- Отпирает кейсы \"Пироландия\" и \"Летучий отряд\"\n- Может содержать оружие странного или необычного типа"
@@ -12420,6 +12428,9 @@
 "Attrib_Particle354"			"Франкеншторм"
 "Attrib_Particle355"			"Трупный туман"
 "Attrib_Particle356"			"Проклятая пелена"
+"Attrib_Particle357"			"Мыши-мучители"
+"Attrib_Particle358"			"Вороватые вороны"
+"Attrib_Particle359"			"Грациозные голуби"
 "Attrib_Particle360"			"Пылающая плита"
 "Attrib_Particle361"			"Пылающая плита"
 "Attrib_Particle362"			"Убер-запал"
@@ -14115,6 +14126,7 @@
 "TF_CollectionCrafting_Paintkit_NotCraftableYet" "Наборы красок пока что нельзя использовать в ковке коллекций"
 
 "TF_CollectionCrafting_Submit" "Отправить"
+"TF_CollectionCrafting_Send" "Отправить"
 "TF_CollectionCrafting_ApplyStamp" "Место\nдля\nмарки"
 "TF_CollectionCrafting_TitleJoke0" "Надоели лишние предметы? Так почему бы не ВЕРНУТЬ их? Отдавай свои ХЛОПУШКИ, получай МОДНЫЕ ПУШКИ!"
 "TF_CollectionCrafting_SaxtonMessage" "\"Если десятью нашими товарами\nвы довольны не на все 100%,\nто один устроит на все 1000%!\n\nВсё по правилам\nгеографии!\""
@@ -14840,7 +14852,6 @@
 "TF_Trial_MainMenu_Upsell_Soldier"  "Это магазин Манн Ко! У них есть огромное количество убийственных вещичек, одобренных лично МНОЮ! Ой, а ещё там есть всякие шляпы, и они просто ПРЕКРАСНЫ! Бегом! ПОКУПАТЬ! ПОКУПАТЬ! ПОКУПАТЬ!"
 "TF_Trial_MainMenu_Upsell_Heavy"    "Это магазин Манн Ко. Покупайте или не покупайте, Пулеметчику все равно. Может быть, со шляпой твоя маленькая голова будет смотреться не такой бестолковой. Но это не моя проблема."
 "TF_Trial_MainMenu_Upsell_Spy"      " Господа. Вы долго трудились и заслуживаете выглядеть лучше всех. Почему бы не побаловать себя качественными вещами, которые подчеркивают вашу фигуру?"
-"TF_Trial_MainMenu_Upsell_Medic"    "Клятва Гиппократа гласит: \"Не навреди\" Но многие забывают следующую строчку: \"Купи шляпу в магазине Манн Ко\"."
 "TF_Trial_MainMenu_Upsell_Pyro"     "MMMФ-MФ-MMMMMФMMФ-МАГАЗИН МАНН КО! MMMMMФ-MMMMФ-MMМФMMФ-ШЛЯПЫ! MMMФ-MФ-MMMФ-MФ-ПРЕДМЕТЫ! МММММФММФ-МММФ-МФММФММФ-ОГОНЬ!"
 "TF_Trial_MainMenu_Upsell_Demoman"  "У тебя найдется достаточно ума, чтобы надеть шляпу на свою голову? Ужас! Как тебе не стыдно ходить с этой лысой головой?! Ради Бога, пойди купи уже себе шляпу в магазине Манн Ко!"
 "TF_Trial_MainMenu_Upsell_Scout"    "Я знаю, что ты думаешь: \"Ничего себе красавчик! Где же он закупается?\". В магазине Манн Ко, конечно! Нет денег? Так найди работу и возвращайся."
@@ -16373,6 +16384,8 @@
 "AbuseReport_Discard"	"Отмена"
 "AbuseReport_SaveForLater"	"Отправить позже"
 "AbuseReport_SelectOne"	"-- выбрать --"
+"AbuseReport_UploadScreenshot"	"Скриншот с нарушением; приложите его к жалобе."
+
 "AbuseReport_Notification"	"Жалоба готова к отправке"
 "AbuseReport_Notification_Help"	"Нажмите [ %cl_trigger_first_notification% ], чтобы ОТПРАВИТЬ СЕЙЧАС.\nНажмите [ %cl_decline_first_notification% ], чтобы ОТПРАВИТЬ ПОЗЖЕ."
 
@@ -19758,6 +19771,10 @@ E: Синие могут захватить эту точку в любой мо
 "vsh_end_this"						"Закончите бой до истечения времени!"
 
 "tf_zi_ui_survivor_die"					" заражается от "
+"tf_zi_ui_infect_msg"					"FF3F3F%sFBECCB заражается от игрока 38F3AB%sFBECCB!"
+"tf_zi_ui_infect_solo_msg"				"FBECCBИгрок FF3F3F%sFBECCB заражён!"
+"tf_zi_ui_last_survivor_minicrit"		"FBECCBОСТАЛОСЬ %d ВЫЖИВШИХ! Теперь у них FFD700%sFBECCB!"
+"tf_zi_ui_last_survivor_crit"			"FBECCBИГРОК FF3F3F%sFBECCB - ПОСЛЕДНИЙ ВЫЖИВШИЙ! ОН ПОЛУЧАЕТ 16FD1D%sFBECCB!"
 "tf_zi_ui_crits"						"КРИТЫ"
 "tf_zi_ui_minicrits"					"МИНИ-КРИТЫ"
 "tf_zi_ui_first_wave_msg_plural"		" ЗАРАЗИЛИСЬ!"
@@ -19787,6 +19804,16 @@ E: Синие могут захватить эту точку в любой мо
 "tf_zi_team_red"						"Выжившие"
 "tf_zi_team_blue"						"Зомби"
 "tf_zi_pyro_blast_name"					"Дыхание дракона" 
+
+"tow_dynamite_welcome"					"Добро пожаловать на карту Dynamite!"
+"tow_dynamite_part1"					"Dynamite - это карта режима \"Переталкивание груза\""
+"tow_dynamite_part2"					"Чтобы начать толкать вагонетку, стойте на ней, пока она не станет вашей"
+"tow_dynamite_part3"					"Каждая из команд может дотолкать вагонетку до вражеской базы"
+"tow_dynamite_part4"					"Когда вагонетка окажется на чьей-либо базе, активируются прыжковые платформы" 
+"tow_dynamite_part5"					"Так что берегите голову!"
+"tow_dynamite_part6"					"С убитого врага может выпасть заклинание взрывного прыжка, позволяющее забраться повыше"
+"tow_dynamite_part7"					"Ваша команда победит, если дотолкает вагонетку до вражеской базы и будет защищать её, пока не истечёт время" 
+"tow_setup_goal"						"Захватите вагонетку и дотолкайте её до вражеской базы. Удерживайте её, пока не истечёт время."
 
 "arena_perks_message_tie"		"Ничья!"
 
