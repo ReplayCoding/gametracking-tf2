@@ -186,7 +186,7 @@
 "GameUI_PrecacheResources"	"讀取遊戲資源..."
 "GameUI_ParseBaseline"		"分析遊戲資訊..."
 "GameUI_StartingServer"	"正在啟動區域遊戲伺服器..."
-"GameUI_DisplayMode"		"Display Mode"
+"GameUI_DisplayMode"		"顯示模式"
 "GameUI_Fullscreen"		"全螢幕"
 "GameUI_AspectRatio"		"畫面長寬比"
 "GameUI_AspectNormal"		"一般 (4:3)"
@@ -338,7 +338,6 @@
 "GameUI_LoadWarning"		"你確定要載入嗎？\n所有未儲存的進度將會遺失。"
 "GameUI_ConfirmNewGame_Title"	"新遊戲"
 "GameUI_NewGameWarning"		"你確定要開始新遊戲嗎？\n所有未儲存的進度將會遺失。"
-
 "GameUI_RandomMap"		"< 隨機地圖 >"
 "GameUI_RetryingConnectionToServer"	"重新連線至伺服器..."
 "GameUI_RetryingConnectionToServer2"	"重新連線至伺服器 (2)..."
@@ -520,7 +519,6 @@
 "GameUI_AdjustGamma"		"調整亮度等級..."
 "GameUI_AdjustGamma_Title"	"調整亮度等級"
 
-"GameUI_DisplayMode"		"顯示模式"
 "GameUI_DisplayTV"		"電視"
 "GameUI_DisplayMonitor"		"電腦螢幕"
 
@@ -925,5 +923,24 @@
 "GameUI_Confirm"				"確認"
 "GameUI_HDContent"				"若可能的話，讀取高畫質內容"
 "GameUI_HDRestartRequired_Info" 	"您做出的變更必須重新啟動遊戲後才會生效。"
+
+"GameUI_HalfLife2"	"戰慄時空 2"
+"GameUI_HalfLife2Multiplayer"	"多人連線"
+
+"GameUI_EpisodeOne"	"首部曲"
+"GameUI_EpisodeTwo"	"二部曲"
+"GameUI_SettingOff"	"關閉"
+"GameUI_SettingAdvanced"	"進階"
+"GameUI_ClassicEffects_Off"	"已停用"
+"GameUI_ClassicEffects_On"	"已啟用"
+"GameUI_Workshop_Upload_Content" "內容"
+"GameUI_Workshop_Play" "執行"
+"GameUI_Workshop_Expansion_HL2" "戰慄時空 2"
+"GameUI_Workshop_Expansion_Episode1" "戰慄時空 2：首部曲"
+"GameUI_Workshop_Expansion_Episode2" "戰慄時空 2：二部曲"
+"GameUI_Workshop_LoadGame" "讀取遊戲"
+"GameUI_SteamShare_AchievementProgress" "成就進度"
+"GameUI_SteamShare_Tooltip_ChapterDeaths" "死亡數"
+"GameUI_SteamShare_Tooltip_GameModeLoading" "讀取中…"
 } 
 }

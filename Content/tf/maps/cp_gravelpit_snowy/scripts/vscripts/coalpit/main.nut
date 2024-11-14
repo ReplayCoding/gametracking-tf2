@@ -18,7 +18,7 @@ function checkHolidays()
 	// Rick May ///////////////////////////////////////////////////
 	if(timetable.day == 8 && timetable.month == 4)
 	{
-		SpawnEntityFromTable("entity_soldier_statue", { origin = "-4625 664 -512" });
+		DoEntFire("relay_rickmay", "Trigger", "0", 0, null, null);
 		printl("Enabled Rick May tribute");
 	}
 	///////////////////////////////////////////////////////////////
@@ -32,10 +32,10 @@ function checkHolidays()
 	///////////////////////////////////////////////////////////////
 
 	// Halloween //////////////////////////////////////////////////
-	if(timetable.month == 10)
+	if(IsHolidayActive(2) || IsHolidayActive(9))
 	{
 		DoEntFire("relay_halloween", "Trigger", "0", 0, null, null);
-		printl("Enabled Halloween props");
+		printl("Enabled Halloween/Full Moon props");
 	}
 	///////////////////////////////////////////////////////////////
 

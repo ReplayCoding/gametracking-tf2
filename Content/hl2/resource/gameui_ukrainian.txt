@@ -186,7 +186,7 @@
 "GameUI_PrecacheResources"	"Завантаження ігрових ресурсів…"
 "GameUI_ParseBaseline"		"Обробка даних гри…"
 "GameUI_StartingServer"	"Запуск локального сервера гри…"
-"GameUI_DisplayMode"		"Display Mode"
+"GameUI_DisplayMode"		"Режим екрана"
 "GameUI_Fullscreen"		"На весь екран"
 "GameUI_AspectRatio"		"Формат екрана"
 "GameUI_AspectNormal"		"Звичайний, 4:3"
@@ -338,7 +338,6 @@
 "GameUI_LoadWarning"		"Ви дійсно бажаєте завантажити гру?\nНезбережені дані будуть утрачені."
 "GameUI_ConfirmNewGame_Title"	"НОВА ГРА"
 "GameUI_NewGameWarning"		"Ви дійсно бажаєте розпочати нову гру?\nНезбережені дані будуть утрачені."
-
 "GameUI_RandomMap"		"< Випадкова мапа >"
 "GameUI_RetryingConnectionToServer"	"Повторна спроба підключення до сервера…"
 "GameUI_RetryingConnectionToServer2"	"Повторна спроба підключення до сервера (2)…"
@@ -520,7 +519,6 @@
 "GameUI_AdjustGamma"		"Рівень яскравості…"
 "GameUI_AdjustGamma_Title"	"НАЛАШТУВАННЯ ЯСКРАВОСТІ"
 
-"GameUI_DisplayMode"		"Режим показу"
 "GameUI_DisplayTV"		"Телевізор"
 "GameUI_DisplayMonitor"		"Монітор комп’ютера"
 
@@ -925,5 +923,23 @@
 "GameUI_Confirm"				"ПІДТВЕРДИТИ"
 "GameUI_HDContent"				"Завантажувати HD-вміст, якщо є"
 "GameUI_HDRestartRequired_Info" 	"Необхідно перезапустити гру для задіяння зроблених вами змін."
+
+"GameUI_HalfLife2"	"Half-Life 2"
+"GameUI_HalfLife2Multiplayer"	"Мережева гра"
+
+"GameUI_EpisodeOne"	"Episode One"
+"GameUI_EpisodeTwo"	"Episode Two"
+"GameUI_Gamepad"	"Ґеймпад"
+
+"GameUI_ClassicEffects_Off"	"Вимкнено"
+"GameUI_ClassicEffects_On"	"Увімкнено"
+"GameUI_Workshop_Upload_Title" "Назва"
+"GameUI_Workshop_Upload_Description" "Опис"
+"GameUI_Workshop_Play" "Грати"
+"GameUI_Workshop_Expansion_HL2" "Half-Life 2"
+"GameUI_Workshop_Expansion_Episode1" "Half-Life 2: Episode 1"
+"GameUI_Workshop_Expansion_Episode2" "Half-Life 2: Episode 2"
+"GameUI_SteamShare_AchievementProgress" "Хід здобуття досягнень"
+"GameUI_SteamShare_Tooltip_ChapterDeaths" "Смертей"
 } 
 }

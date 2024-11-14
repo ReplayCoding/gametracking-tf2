@@ -186,7 +186,6 @@
 "GameUI_PrecacheResources"	"Đang tải tài nguyên trò chơi..."
 "GameUI_ParseBaseline"		"Phân tích thông tin trận đấu..."
 "GameUI_StartingServer"	"Đang khởi động máy chủ cục bộ..."
-"GameUI_DisplayMode"		"Display Mode"
 "GameUI_Fullscreen"		"Toàn màn hình"
 "GameUI_AspectRatio"		"Tỉ lệ khung hình"
 "GameUI_AspectNormal"		"Bình thường (4:3)"
@@ -338,7 +337,6 @@
 "GameUI_LoadWarning"		"Bạn có chắc chắn muốn nạp không?\nTất cả tiến trình chưa được lưu sẽ bị mất."
 "GameUI_ConfirmNewGame_Title"	"TRÒ CHƠI MỚI"
 "GameUI_NewGameWarning"		"Bạn có chắc chắn muốn bắt đầu phiên chơi mới?\nTất cả tiến trình chưa được lưu sẽ bị mất."
-
 "GameUI_RandomMap"		"< Bản đồ ngẫu nhiên >"
 "GameUI_RetryingConnectionToServer"	"Đang thử lại kết nối tới máy chủ..."
 "GameUI_RetryingConnectionToServer2"	"Đang thử lại kết nối tới máy chủ (2)..."
@@ -520,7 +518,6 @@
 "GameUI_AdjustGamma"		"Điều chỉnh độ sáng..."
 "GameUI_AdjustGamma_Title"	"ĐIỀU CHỈNH ĐỘ SÁNG"
 
-"GameUI_DisplayMode"		"Chế độ hiển thị"
 "GameUI_DisplayTV"		"Màn hình TV"
 "GameUI_DisplayMonitor"		"Màn hình máy tính"
 
@@ -925,5 +922,6 @@
 "GameUI_Confirm"				"XÁC NHẬN"
 "GameUI_HDContent"				"Nạp nội dung HD nếu có thể"
 "GameUI_HDRestartRequired_Info" 	"Trò chơi cần được khởi động lại để những thay đổi bạn vừa làm có hiệu lực."
+"GameUI_SteamShare_AchievementProgress" "Tiến độ thành tựu"
 } 
 }
