@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+    $basetexture "models/props_patagonia/argentum_pickup"
+    $bumpmap "models/props_patagonia/argentum_pickup_n"
+
+    "$phongtint" "[.4 .4 .4]"
+    "$phong" "1"
+    "$phongexponent" "10"
+
+
+    "$envmap" "cubemaps/cubemap_sheen002" 
+    "$envmapcontrast" .5
+    "$envmapsaturation" 0
+    "$envmaptint" "[.05 .05 .05]"
+
+
+    "$phongboost" "2"
+//    "$lightwarptexture" "models/weapons/c_models/c_ambassador/c_ambassador_lightwarp"
+    "$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+    "$phongfresnelranges"    "[.25 .5 1]"
+    "$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
+
+    "$rimlight" "1"
+    "$rimlightexponent" "8"
+    "$rimlightboost" "10"
+}

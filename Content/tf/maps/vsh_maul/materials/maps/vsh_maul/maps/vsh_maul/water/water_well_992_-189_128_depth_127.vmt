@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/vsh_maul/water/water_well_992_-189_128.vmt"
+	"insert"
+	{
+		"$waterdepth"		"127"
+	}
+}

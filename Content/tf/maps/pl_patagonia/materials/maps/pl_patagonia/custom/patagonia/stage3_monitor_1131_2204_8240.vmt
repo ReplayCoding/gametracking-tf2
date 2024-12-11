@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/PATAGONIA/STAGE3_MONITOR.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_patagonia/c1131_2204_8240"
+	}
+}

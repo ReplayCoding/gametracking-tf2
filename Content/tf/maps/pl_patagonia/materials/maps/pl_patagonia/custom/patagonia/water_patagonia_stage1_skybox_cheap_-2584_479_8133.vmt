@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/PATAGONIA/WATER_PATAGONIA_STAGE1_SKYBOX_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_patagonia/c-2584_479_8133"
+		"Proxies"
+		{
+		}
+	}
+}

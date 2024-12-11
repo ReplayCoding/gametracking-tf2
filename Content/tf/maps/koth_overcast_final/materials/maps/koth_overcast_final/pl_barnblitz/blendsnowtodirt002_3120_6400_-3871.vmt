@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_BARNBLITZ/BLENDSNOWTODIRT002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_overcast_final/c3120_6400_-3871"
+	}
+}

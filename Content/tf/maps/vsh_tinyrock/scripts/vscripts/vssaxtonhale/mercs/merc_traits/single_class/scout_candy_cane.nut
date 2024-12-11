@@ -34,7 +34,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         healthKit.SetVelocity(Vector(RandomFloat(-50, 50), RandomFloat(-50, 50), 250));
         RunWithDelay2(this, 30, function(healthKit)
         {
-            totalHealthKits--;
+            vsh_vscript.totalHealthKits--;
             if (healthKit != null && healthKit.IsValid())
                 healthKit.Kill();
         }, healthKit);

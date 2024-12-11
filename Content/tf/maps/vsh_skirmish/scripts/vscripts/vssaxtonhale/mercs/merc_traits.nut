@@ -16,14 +16,12 @@ Include("/mercs/merc_traits/all_class/airborne_minicrits.nut");
 Include("/mercs/merc_traits/all_class/last_mann_standing.nut");
 Include("/mercs/merc_traits/all_class/melee_buffs.nut");
 Include("/mercs/merc_traits/all_class/melee_wall_climb.nut");
-Include("/mercs/merc_traits/all_class/burst_damage_nerf.nut");
 Include("/mercs/merc_traits/all_class/no_pyrovision.nut");
 
 Include("/mercs/merc_traits/single_class/spy_backstab.nut");
 Include("/mercs/merc_traits/single_class/demo_katana.nut");
 Include("/mercs/merc_traits/single_class/demo_shield.nut");
 Include("/mercs/merc_traits/single_class/demo_head_collecting.nut");
-Include("/mercs/merc_traits/single_class/demo_scottres_nerf.nut");
 Include("/mercs/merc_traits/single_class/engineer_sentry.nut");
 Include("/mercs/merc_traits/single_class/heavy_minigun_nerf.nut");
 Include("/mercs/merc_traits/single_class/heavy_natasha_nerf.nut");

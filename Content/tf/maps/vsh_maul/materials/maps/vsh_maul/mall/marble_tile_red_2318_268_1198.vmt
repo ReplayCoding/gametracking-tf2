@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/MARBLE_TILE_RED.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_maul/c2318_268_1198"
+	}
+}

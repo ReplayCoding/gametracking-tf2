@@ -949,8 +949,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95^
-D955
+D95Q
+D95.
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1120,7 +1120,7 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%(
+D;%d
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1177,8 +1177,8 @@ C D9
 sXHc
 C0E1
 0x'H
-t	L9%\
-L9%y
+t	L9%,
+L9%I
 ?LZMA
 ?LZMAt
 ?LZMAt
@@ -2133,15 +2133,15 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-Y-@u
-Y=4u
-X%bB
-X-6?
-X%mi
-/-Z`
+Y-Pu
+Y=Du
+X%2B
+X%}i
+/-j`
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
+W% K
 AWAVL
 H[A\A]A^A_]
 AUATL
@@ -2165,16 +2165,15 @@ AUATI
 [A\]
 ~Z H
 tYUH
-~-@)
-~%8)
+~-P)
+~%H)
 AWAVA
 AUATSH
-(={(
-o=~(
 [A\A]A^A_]
-(=3$
 (=*$
-o=$$
+(=C$
+(=:$
+o=4$
 AUATL
 [A\A]]
 AWAVI
@@ -2951,6 +2950,7 @@ gamebin
 download
 game_write
 mod_write
+|appid_
 |gameinfo_path|
 |all_source_engine_paths|
 GAMEBIN
@@ -2978,6 +2978,7 @@ FileSystem_GetExecutableDir failed.
 Should not be using filesystem_steam anymore!
 FileSystem_LoadSearchPaths: Invalid parameters specified.
 Bad -insert_search_path - Can't resolve pathname for '%s'
+Appid based mounting is not supported on non-engine DLL projects.
 FileSystem_AddLoadedSearchPath - Can't resolve pathname for '%s'
 Tried to add %s as a search path.
 This is probably not what you intended.

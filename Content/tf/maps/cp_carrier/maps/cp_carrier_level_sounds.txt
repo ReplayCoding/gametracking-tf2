@@ -1,0 +1,103 @@
+"Announcer.Carrier_Destroyed"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave" "vo/mvm_bomb_back01.mp3"
+		"wave" "vo/mvm_bomb_back02.mp3"
+		"wave" "vo/mvm_bomb_reset01.mp3"
+		"wave" "vo/mvm_bomb_reset02.mp3"
+		"wave" "vo/mvm_bomb_reset03.mp3"
+	}
+}
+
+"Announcer.Carrier_Alert_Red"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_cart_defender_finalwarning4.mp3"
+		"wave"	"vo/mvm_bomb_alerts03.mp3"
+		"wave"	"vo/mvm_bomb_alerts04.mp3"
+		"wave"	"vo/mvm_bomb_alerts05.mp3"
+		"wave"	"vo/mvm_bomb_alerts08.mp3"
+		"wave"	"vo/mvm_bomb_alerts09.mp3"
+		"wave"	"vo/mvm_bomb_alerts10.mp3"
+		"wave"	"vo/mvm_bomb_alerts11.mp3"
+		"wave"	"vo/mvm_bomb_alerts12.mp3"
+		"wave"	"vo/mvm_bomb_alerts13.mp3"
+		"wave"	"vo/mvm_bomb_alerts14.mp3"
+	}
+}
+
+"Announcer.Carrier_Alert_Blue"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_cart_attacker_warning1.mp3"
+		"wave"	"vo/announcer_cart_attacker_warning2.mp3"
+		"wave"	"vo/announcer_cart_attacker_warning4.mp3"
+	}
+}
+
+"MVM.GiantHeavyStep"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_45dB"
+	"rndwave"
+	{
+	}
+}
+
+"MVM.GiantHeavyStep2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"rndwave"
+	{
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
+	}
+}
+
+"MVM.GiantHeavyStep3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.2"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"rndwave"
+	{
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
+	}
+}

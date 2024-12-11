@@ -1046,8 +1046,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95Q
-D95.
+D95!
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1217,7 +1216,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D;%d
+D9%P
+D;%4
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1351,10 +1351,11 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%o
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5^
+Lc5.
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1576,13 +1577,10 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5^Y
-o-;Y
-o%rY
+o5MY
+o-kY
 0[A\]
-o-2R
-o-VR
-o%iR
+o-bR
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -2262,6 +2260,7 @@ gamebin
 download
 game_write
 mod_write
+|appid_
 |gameinfo_path|
 |all_source_engine_paths|
 GAMEBIN
@@ -2291,6 +2290,7 @@ FileSystem_GetExecutableDir failed.
 Should not be using filesystem_steam anymore!
 FileSystem_LoadSearchPaths: Invalid parameters specified.
 Bad -insert_search_path - Can't resolve pathname for '%s'
+Appid based mounting is not supported on non-engine DLL projects.
 FileSystem_AddLoadedSearchPath - Can't resolve pathname for '%s'
 Tried to add %s as a search path.
 This is probably not what you intended.

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDSNOWTOCOBBLE001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_cutter/c512_-640_128"
+	}
+}

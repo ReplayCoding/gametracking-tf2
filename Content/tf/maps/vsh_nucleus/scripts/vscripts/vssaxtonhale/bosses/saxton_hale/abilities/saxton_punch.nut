@@ -45,8 +45,16 @@ class SaxtonPunchTrait extends BossTrait
 
     function OnDamageDealt(victim, params)
     {
-        if (!IsCollateralDamage(params.damage_type) && player != victim && Perform(victim))
+        if (params.damage_custom == 9)
+        {
+            params.inflictor = custom_dmg_hale_taunt;
+            params.damage_stats = 0;
+        }
+        else if (!IsCollateralDamage(params.damage_type) && player != victim && Perform(victim))
+        {
+            params.inflictor = custom_dmg_saxton_punch;
             params.damage_type = DMG_BLAST;
+        }
     }
 
     function Perform(victim)
@@ -77,7 +85,7 @@ class SaxtonPunchTrait extends BossTrait
                 if (!target.IsPlayer())
                     damage *= 2;
                 target.TakeDamageEx(
-                    boss,
+                    custom_dmg_saxton_punch_aoe,
                     boss,
                     boss.GetActiveWeapon(),
                     deltaVector * 1250,

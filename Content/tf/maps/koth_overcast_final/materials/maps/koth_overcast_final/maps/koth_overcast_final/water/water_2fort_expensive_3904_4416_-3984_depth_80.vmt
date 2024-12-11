@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_overcast_final/water/water_2fort_expensive_3904_4416_-3984.vmt"
+	"insert"
+	{
+		"$waterdepth"		"80"
+	}
+}

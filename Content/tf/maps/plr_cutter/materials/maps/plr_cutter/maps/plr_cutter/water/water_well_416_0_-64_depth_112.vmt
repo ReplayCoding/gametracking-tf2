@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/plr_cutter/water/water_well_416_0_-64.vmt"
+	"insert"
+	{
+		"$waterdepth"		"112"
+	}
+}

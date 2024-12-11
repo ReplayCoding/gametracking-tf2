@@ -11,6 +11,16 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
+::custom_dmg_melee <- SpawnEntityFromTable("info_target", { classname = "hale_punch" });
+::custom_dmg_melee_collateral <- SpawnEntityFromTable("info_target", { classname = "hale_punch_collateral" });
+::custom_dmg_stomp <- SpawnEntityFromTable("info_target", { classname = "hale_stomp" });
+::custom_dmg_hale_taunt <- SpawnEntityFromTable("info_target", { classname = "hale_taunt" });
+::custom_dmg_slam <- SpawnEntityFromTable("info_target", { classname = "hale_slam" });
+::custom_dmg_slam_collateral <- SpawnEntityFromTable("info_target", { classname = "hale_slam_collateral" });
+::custom_dmg_saxton_punch <- SpawnEntityFromTable("info_target", { classname = "hale_megapunch" });
+::custom_dmg_saxton_punch_aoe <- SpawnEntityFromTable("info_target", { classname = "hale_megapunch_collateral" });
+::custom_dmg_charge <- SpawnEntityFromTable("info_target", { classname = "hale_charge" });
+
 ::saxton_model_path <- "models/vsh/player/hell_hale.mdl";
 ::saxton_aura_model_path <- "models/vsh/player/items/vsh_effect_body_aura.mdl"
 ::saxton_viewmodel_path <- "models/vsh/weapons/c_models/c_hell_hale_arms.mdl"
@@ -57,8 +67,10 @@ class SaxtonHale extends Boss
         player.AddCustomAttribute("cannot pick up intelligence", 1, -1);
         player.AddCustomAttribute("patient overheal penalty", 1, -1);
         player.AddCustomAttribute("health from packs decreased", 0, -1);
-        player.AddCustomAttribute("damage force reduction", 0.75, -1);
+        player.AddCustomAttribute("damage force reduction", 0.35, -1);
         player.AddCustomAttribute("dmg taken from crit reduced", 0.75, -1);
+        player.AddCustomAttribute("dmg taken from blast increased", 1.5, -1);
+        player.AddCustomAttribute("dmg taken from fire increased", 1.5, -1);
 
         player.AddCond(TF_COND_CANNOT_SWITCH_FROM_MELEE);
     }

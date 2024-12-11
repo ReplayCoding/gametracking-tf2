@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_GLACIER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_penguin_peak/c-1792_2048_-640"
+		"Proxies"
+		{
+		}
+	}
+}

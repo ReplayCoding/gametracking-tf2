@@ -13,6 +13,7 @@
 
 characterTraitsClasses.push(class extends CharacterTrait
 {
+    primary = null;
     function CanApply()
     {
         return player.GetPlayerClass() == TF_CLASS_HEAVY;
@@ -20,8 +21,12 @@ characterTraitsClasses.push(class extends CharacterTrait
 
     function OnApply()
     {
-        local primary = player.GetWeaponBySlot(TF_WEAPONSLOTS.PRIMARY);
-        if (primary != null)
-            primary.AddAttribute("damage bonus HIDDEN", 0.6, -1);
+        primary = player.GetWeaponBySlot(TF_WEAPONSLOTS.PRIMARY);
+    }
+
+    function OnDamageDealt(victim, params)
+    {
+        if (params.weapon == primary && player.IsCritBoosted())
+            params.damage *= 0.6;
     }
 });

@@ -11,11 +11,24 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-::CalcBossMaxHealth <- function(mercCount)
+::CalcBossMaxHealth <- function(enemyCount)
 {
-    if (mercCount < 2)
+    //Thanks Megascatterbomb for the new health formula!
+    local linearCutoff = 23;
+    if (enemyCount < 2)
         return 1000;
-    local unrounded = mercCount * mercCount * API_GetFloat("health_factor") + (mercCount < 6 ? 1300 : 2000);
+    local unrounded;
+    if (enemyCount <= linearCutoff)
+    {
+        local constant = 2800 * clampCeiling(1.0, 0.3 + (enemyCount / 10.0));
+        unrounded = enemyCount * enemyCount * 45 + constant;
+    }
+    else
+    {
+        local baseHealth = 26600;
+        local increment = 2000;
+        unrounded = baseHealth + (increment * (enemyCount - linearCutoff));
+    }
     return floor(unrounded / 100) * 100;
 }
 

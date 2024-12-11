@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CP_MANOR/WOOD_FLOOR01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_carrier/c4784_-2800_-304"
+	}
+}

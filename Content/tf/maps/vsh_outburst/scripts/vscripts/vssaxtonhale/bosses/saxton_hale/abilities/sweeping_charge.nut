@@ -207,7 +207,7 @@ class SweepingChargeTrait extends BossTrait
                 else
                     bashedByHale.push(target);
                 target.TakeDamageEx(
-                    boss,
+                    custom_dmg_charge,
                     boss,
                     boss.GetActiveWeapon(),
                     deltaVector * 1250,

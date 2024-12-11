@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/OFFICE/WOODPANEL01C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_maul/c-200_499_328"
+	}
+}

@@ -1,0 +1,19 @@
+UnlitGeneric
+{
+    "$basetexture" 		"models\props_mall/cinema_sign_sprite"
+    "$translucent" "1"
+    $model 1
+    
+    "$alpha" "0"
+    
+    "Proxies"
+    {
+        "Sine"
+        {
+            "resultVar" "$alpha"
+            "sineperiod" "2"
+            "sinemin" "0.05"
+            "sinemax" "1"
+        }
+    }
+}

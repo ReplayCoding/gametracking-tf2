@@ -1,0 +1,42 @@
+"UnlitGeneric"
+{
+  "$translucent"   "1"
+  "$baseTexture"   "hud/carrier_boss_bar2"
+  "$vertexcolor"   "1"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+  
+  "$cheapWaterStartDistance" "0.0"
+  "$cheapWaterEndDistance"   "0.0"
+  
+  "$zero"       "0"
+  "$offset_on"  "0"
+  "$offset_off" "0.5"
+  
+  "$center"     "[0.0 0.0]"
+  "$scale"      "[1.0 0.5]"
+  "$translate"  "[0.0 0.0]"
+  
+  "Proxies"
+  {
+    "WaterLOD"
+    {
+    }
+    "LessOrEqual"
+    {
+      "srcVar1"      "$cheapWaterStartDistance"
+      "srcVar2"      "$zero"
+      "resultVar"    "$translate[1]"
+      "greaterVar"   "$offset_on"
+      "LessEqualVar" "$offset_off"
+    }
+    "TextureTransform"
+    {
+      "translateVar" "$translate"
+      "scaleVar"     "$scale"
+      "centerVar"    "$center"
+      "resultVar"    "$basetexturetransform"
+    }
+  }
+}
+

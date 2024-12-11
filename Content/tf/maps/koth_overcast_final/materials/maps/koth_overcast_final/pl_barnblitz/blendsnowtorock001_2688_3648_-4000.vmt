@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PL_BARNBLITZ/BLENDSNOWTOROCK001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_overcast_final/c2688_3648_-4000"
+	}
+}

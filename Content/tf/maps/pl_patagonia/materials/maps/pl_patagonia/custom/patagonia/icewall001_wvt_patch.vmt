@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"custom/patagonia/icewall002a"
+	"%keywords"		"tf"
+	"$surfaceprop"		"dirt"
+	"$detail"		"overlays/detail004"
+	"$detailscale"		"1.200000"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+	"$envmap"		"cubemaps\cubemap_sheen002"
+	"$envmapcontrast"		"0.100000"
+	"$envmapsaturation"		"1"
+	"$envmaptint"		"[ .3 .3 .3 ]"
+	"$envmapmask"		"custom/patagonia/icewall002_specular"
+}

@@ -9958,25 +9958,25 @@
 
 "TF_ItemDynamicRecipe_Use"	"Inspecionar"
 "TF_ItemDynamicRecipeTool"	"Receita"
-"TF_ItemDynamicRecipe_Desc"	"Ao usar os itens listados como reagentes com este Kit de Química, você receberá os itens listados como produtos."
-"TF_ItemDynamic_Recipe_Inputs"	"Os itens a seguir são os reagentes necessários:"
+"TF_ItemDynamicRecipe_Desc"	"Ao adicionar todos os componentes, você receberá os itens listados como produtos."
+"TF_ItemDynamic_Recipe_Inputs"	"Estes são os componentes necessários:"
 "TF_ItemDynamic_Recipe_No_Partial_Completion" "Esta receita não pode completada parcialmente."
-"TF_ItemDynamic_Recipe_Outputs"	"Ao consumir os reagentes, você receberá os produtos a seguir:"
+"TF_ItemDynamic_Recipe_Outputs"	"Ao adicionar todos os componentes, você receberá os seguintes itens:"
 "TF_ItemDynamic_Recipe_QuestObjectives"	"Os objetivos a seguir devem ser cumpridos."
 
 "Dynamic_Recipe_Outputs_Not_Tradable" "(Os itens não serão trocáveis nem comercializáveis)"
-"Dynamic_Recipe_Outputs_Not_Complete" "Resultará em:"
+"Dynamic_Recipe_Outputs_Not_Complete" "Produtos:"
 "Dynamic_Recipe_Outputs_No_Partial_Complete" "Deve consumir todos de uma vez:"
 "Dynamic_Recipe_Matching_Items"	"Itens compatíveis:"
 "Dynamic_Recipe_No_Matching_Items" "Não há itens compatíveis na sua mochila"
-"Dynamic_Recipe_Untradable_Text" "Um ou mais reagentes não são trocáveis. Como consequência, este %s1 e quaisquer produtos também não serão trocáveis nem comercializáveis. Tem certeza de que deseja continuar?"
-"Dynamic_Recipe_Partial_Completion_Warning"	"Os reagentes serão consumidos pelo %s1.\nIsso não pode ser desfeito."
+"Dynamic_Recipe_Untradable_Text" "Um ou mais componentes não são trocáveis. Como consequência, este %s1 e os itens resultantes também não serão trocáveis nem comercializáveis. Tem certeza de que deseja continuar?"
+"Dynamic_Recipe_Partial_Completion_Warning"	"Os componentes serão consumidos pelo %s1.\nIsso não pode ser desfeito."
 "Dynamic_Recipe_Untradable_Checkbox" "Exibir itens não trocáveis"
 
 
 "Dynamic_Recipe_Response_Success"	"Sucesso!"
 "Dynamic_Recipe_Response_Invalid"	"Falha:\n\nSolicitação inválida"
-"Dynamic_Recipe_Response_NoMatch"	"Erro:\n\nUm ou mais reagentes inválidos"
+"Dynamic_Recipe_Response_NoMatch"	"Erro:\n\nUm ou mais componentes inválidos"
 "Dynamic_Recipe_Response_Default"	"Falha:\n\nFalha na solicitação"
 
 "TF_StorePromotionPackage"		"Pacote da Loja Mann Co."
@@ -10293,7 +10293,7 @@
 "CraftUpdate_Failed"	"Falha ao fabricar:\n\nO servidor de fabricação está indisponível."
 "CraftUpdate_Denied"	"Você não tem privilégios suficientes para fabricar."
 
-"Craft_Recipe_Inputs"	"Consumirá:"
+"Craft_Recipe_Inputs"	"Componentes:"
 "Craft_Recipe_Outputs"	"Criará:"
 "Craft_PremiumRecipe"	"A sua conta gratuita não pode usar este projeto Premium."
 "Craft_Recipe_Custom"	"Projeto personalizado"
@@ -14356,6 +14356,12 @@
 "TF_MM_RankUpMatch"		"Partida de promoção!\nVença para subir de classificação!"
 "TF_MM_PlacementMatch"	"Partida classificatória!\nVença para receber a sua classificação!"
 "TF_MM_AlreadyQueued" "Você já está na fila deste modo."
+"TF_MM_Queue_Error_Title"	"Matchmaking error"
+"TF_MM_Queue_Error_Ping_Text"	"Não foi possível se comunicar com nenhuma região da criação de partidas. Acesse o link abaixo para consultar possíveis soluções."
+"TF_MM_Queue_Error_Ping_URL"	"https://help.steampowered.com/faqs/view/669A-2F68-D1D1-A5EC"
+"TF_MM_Queue_Error_Title"	"Erro com a criação de partidas"
+"TF_MM_Queue_Error_VACIssue_Text"	"Não foi possível estabelecer uma conexão aos servidores antitrapaça (VAC) do Steam. Acesse o link abaixo para consultar possíveis soluções."
+"TF_MM_Queue_Error_VACIssue_URL"	"https://help.steampowered.com/faqs/view/22C0-03D0-AE4B-04E8"
 
 "TF_Quickplay_PlayNow"			"Jogar agora!"
 "TF_Quickplay_ShowServers"		"Exibir servidores"
@@ -17076,7 +17082,7 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_jul13_uncivil_servant_Desc"			"\"Homens chiques são bonitos, mas fracos! Você é um idiota forte e fedorento. Leve o que lhe é de direito!\" (Descrição traduzida do alemão.)"
 "TF_jul13_border_armor"			"O Motoqueiro Marxista" // ADD THE
 "TF_jul13_border_armor_Desc"			"\"Estou indo em direção à sua cidadezinha.\""
-"TF_jul13_pyro_towel"			"O Pyro Privilegiado" // ADD THE
+"TF_jul13_pyro_towel"			"Pyro com Privilégios" // ADD THE
 "TF_jul13_pyro_towel_Desc"			"Hoje, a fortaleza é toda sua. Você merece."
 "TF_jul13_se_headset"			"O Visor Virtual" // ADD THE
 "TF_jul13_se_headset_Desc"			"Faça uma boa ação pegando uma enxaqueca. (99% da receita da comunidade será revertida à SpecialEffect, uma instituição de caridade dedicada a ajudar jogadores deficientes a voltar a jogar.)"
@@ -19705,6 +19711,9 @@ Membros da equipe inimiga podem impedir que a carga explosiva se mova subindo ne
 "TF_DataCenter_ord"				"Chicago, EUA"
 "TF_DataCenter_waw"				"Varsóvia, Polônia"
 "TF_DataCenter_jnb"				"Joanesburgo, África do Sul"
+"TF_DataCenter_eze"				"Buenos Aires, Argentina"
+"TF_DataCenter_lhr"				"Londres, Inglaterra"
+"TF_DataCenter_seo"				"Seul, Coreia do Sul"
 "TF_DataCenter_bt1"				"Beta 1"
 "TF_DataCenter_bt2"				"Beta 2"
 "TF_DataCenter_dum"				"Dumm1"

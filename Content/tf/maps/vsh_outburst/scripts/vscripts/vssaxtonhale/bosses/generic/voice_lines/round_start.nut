@@ -42,7 +42,7 @@ function PlayRoundStartVO()
         PlayAnnouncerVO(boss, "round_start_extralong");
         return;
     }
-    if (API_GetBool("long_setup_lines") && !RandomInt(0, 10))
+    if (false)
         PlayAnnouncerVO(boss, "round_start_long");
     else
     {

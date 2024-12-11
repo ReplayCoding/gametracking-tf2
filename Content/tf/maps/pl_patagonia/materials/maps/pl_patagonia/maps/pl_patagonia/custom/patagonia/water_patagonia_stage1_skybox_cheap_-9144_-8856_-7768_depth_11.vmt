@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_patagonia/custom/patagonia/water_patagonia_stage1_skybox_cheap_-9144_-8856_-7768.vmt"
+	"insert"
+	{
+		"$waterdepth"		"11"
+	}
+}

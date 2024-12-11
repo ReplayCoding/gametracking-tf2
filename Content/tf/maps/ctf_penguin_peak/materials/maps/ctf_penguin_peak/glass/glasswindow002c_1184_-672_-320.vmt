@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_penguin_peak/c1184_-672_-320"
+	}
+}

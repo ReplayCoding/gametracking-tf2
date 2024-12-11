@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_christmas/bauble"
+	"$bumpmap" 				"Models/effects/flat_normal"
+	"$surfaceprop" 			"metal"
+	
+	"$color2"				"{177 31 31}"
+	"$blendtintbybasealpha"	"1"
+	
+	"$envmap"				"env_cubemap"
+	"$envmaptint"			"[.3 .1 .1]"
+	
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"	
+	"$phongtint"			"{177 31 31}"
+	"$halflambert"	"1"
+	"$phongfresnelranges"	"[.1 .5 2]"
+
+	
+}

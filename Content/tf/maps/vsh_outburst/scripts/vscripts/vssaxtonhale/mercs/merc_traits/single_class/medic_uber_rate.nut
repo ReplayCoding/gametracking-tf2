@@ -15,17 +15,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 {
     function CanApply()
     {
-        return player.GetPlayerClass() != TF_CLASS_MEDIC;
-    }
-
-    function OnDamageDealt(victim, params)
-    {
-        if (params.damage_type & 128)
-        {
-            local melee = player.GetWeaponBySlot(TF_WEAPONSLOTS.MELEE);
-            if (WeaponIs(melee, "ubersaw") || WeaponIs(melee, "ubersaw_xmas"))
-                RunWithDelay("AddPropFloat(activator.GetWeaponBySlot(TF_WEAPONSLOTS.SECONDARY), `m_flChargeLevel`, 0.25)", player, 0);
-        }
+        return player.GetPlayerClass() == TF_CLASS_MEDIC;
     }
 
     function OnApply()

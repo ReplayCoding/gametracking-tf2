@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_patagonia/custom/patagonia/water_patagonia_stage1_map_cheap_2104_8440_-6728.vmt"
+	"insert"
+	{
+		"$waterdepth"		"192"
+	}
+}

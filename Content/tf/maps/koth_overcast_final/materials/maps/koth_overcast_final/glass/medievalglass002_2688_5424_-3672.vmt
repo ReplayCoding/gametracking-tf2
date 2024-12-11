@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/MEDIEVALGLASS002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_overcast_final/c2688_5424_-3672"
+	}
+}

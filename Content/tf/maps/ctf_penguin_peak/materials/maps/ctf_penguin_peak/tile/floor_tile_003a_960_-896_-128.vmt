@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_003A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_penguin_peak/c960_-896_-128"
+	}
+}

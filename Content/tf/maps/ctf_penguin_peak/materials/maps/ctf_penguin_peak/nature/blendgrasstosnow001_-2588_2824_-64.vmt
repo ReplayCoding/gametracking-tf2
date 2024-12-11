@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDGRASSTOSNOW001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_penguin_peak/c-2588_2824_-64"
+	}
+}

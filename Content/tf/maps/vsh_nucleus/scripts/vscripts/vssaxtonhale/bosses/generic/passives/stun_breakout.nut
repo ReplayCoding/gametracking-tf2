@@ -75,7 +75,7 @@ class StunBreakoutTrait extends BossTrait
         boss.RemoveCond(TF_COND_TAUNTING);
         boss.Yeet(Vector(0,0,800));
 
-        DispatchParticleEffect("hammer_impact_button", boss.GetOrigin() + Vector(0,0,20), Vector(0,0,0));
+        DispatchParticleEffect("vsh_mighty_slam", boss.GetOrigin() + Vector(0,0,20), Vector(0,0,0));
         EmitSoundOn("vsh_sfx.boss_slam_impact", boss);
 
         CreateAoE(boss.GetCenter(), 400,

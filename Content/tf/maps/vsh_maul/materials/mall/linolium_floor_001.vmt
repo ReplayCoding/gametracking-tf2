@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "mall/linolium_floor_001"	
+	"$bumpmap" "mall/linolium_floor_normal"
+
+
+	"$envmap" "env_cubemap"
+
+   	 "$surfaceprop" "concrete"
+
+	"$envmaptint"	"[.2 .2 .2]"
+	"$envmapcontrast"	".5"
+	"$fresnelreflection"	".2"
+
+	"%keywords" "tf, zeus"
+}

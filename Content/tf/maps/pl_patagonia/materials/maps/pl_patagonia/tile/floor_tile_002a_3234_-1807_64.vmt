@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_patagonia/c3234_-1807_64"
+	}
+}

@@ -1,6 +1,8 @@
 particles_manifest
 {
-	"file"	"!particles/particles_vsh.pcf"
+	file	"!particles/particles_vsh_overrides.pcf"
+	file	"!particles/particles_vsh_auras.pcf"
+	file	"!particles/particles_vsh_abilities.pcf"
 
 	"file"	"!particles/hightower_explosion.pcf"
 	"file"	"!particles/slaughter_fx.pcf"

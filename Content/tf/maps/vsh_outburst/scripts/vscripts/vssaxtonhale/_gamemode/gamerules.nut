@@ -102,23 +102,18 @@ function SpawnHelperEntities()
         });
 
     pd_logic = SpawnEntityFromTable("tf_logic_player_destruction", {
-        blue_respawn_time = 9999,
-        finale_length = 999999,
-        flag_reset_delay = 60,
-        heal_distance = 0,
-        min_points = 255,
-        points_per_player = 0,
-        red_respawn_time = 0,
+        finale_length = 9999,
+        min_points = 1024,
         targetname = "pd_logic",
         res_file = "resource/ui/vsh_hud_hell.res"
     });
-
-    local auto = SpawnEntityFromTable("logic_auto", {
-        spawnflags = 1,
-        "OnMultiNewRound#1": "pd_logic,SetPointsOnPlayerDeath,0,0,-1",
-        "OnMultiNewRound#2": "pd_logic,EnableMaxScoreUpdating,,0,-1",
-        "OnMultiNewRound#3": "pd_logic,DisableMaxScoreUpdating,,5,-1",
-    });
+    pd_logic.AddFlag(4194304);
+    pd_logic.AcceptInput("SetPointsOnPlayerDeath", "0", null, null);
+    pd_logic.AcceptInput("EnableMaxScoreUpdating", "0", null, null);
+    pd_logic.AcceptInput("DisableMaxScoreUpdating", "0", null, null);
+    SetPropInt(pd_logic, "m_nBlueScore", 0);
+    SetPropInt(pd_logic, "m_nBlueTargetPoints", 0);
+    SetPropInt(pd_logic, "m_nMaxPoints", 1024);
 
     team_round_timer = SpawnEntityFromTable("team_round_timer", {
         targetname = "team_round_timer",

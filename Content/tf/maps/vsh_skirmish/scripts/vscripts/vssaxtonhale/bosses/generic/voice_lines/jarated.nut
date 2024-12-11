@@ -20,7 +20,7 @@ class JaratedVoiceLine extends BossVoiceLine
 
     function OnTickAlive(timeDelta)
     {
-        if (boss.GetCondDuration(TF_COND_URINE) > 6 && RandomInt(1, 3) == 1)
+        if (boss.GetCondDuration(TF_COND_URINE) > 6 && !RandomInt(0, 5))
             return PlayAnnouncerVO(boss, "jarated");
     }
 };

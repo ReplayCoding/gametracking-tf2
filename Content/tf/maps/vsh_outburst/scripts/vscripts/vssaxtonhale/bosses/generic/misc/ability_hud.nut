@@ -15,8 +15,6 @@
 
 class AbilityHudTrait extends BossTrait
 {
-    game_text_tip_1 = null;
-    game_text_tip_2 = null;
     game_text_charge = null;
     game_text_punch = null;
     game_text_slam = null;
@@ -40,38 +38,6 @@ class AbilityHudTrait extends BossTrait
 
     function OnApply()
     {
-        game_text_tip_1 = SpawnEntityFromTable("game_text",
-        {
-            color = "255 255 255",
-            color2 = "0 0 0",
-            channel = 3,
-            effect = 0,
-            fadein = 0,
-            fadeout = 0,
-            fxtime = 0,
-            holdtime = 9999,
-            message = "Hold 'Reload'",
-            spawnflags = 0,
-            x = 0.665,
-            y = 0.955
-        });
-
-        game_text_tip_2 = SpawnEntityFromTable("game_text",
-        {
-            color = "255 255 255",
-            color2 = "0 0 0",
-            channel = 5,
-            effect = 0,
-            fadein = 0,
-            fadeout = 0,
-            fxtime = 0,
-            holdtime = 9999,
-            message = "Hold 'Crouch'",
-            spawnflags = 0,
-            x = 0.88,
-            y = 0.955
-        });
-
         game_text_charge = SpawnEntityFromTable("game_text",
         {
             color = "255 255 255",
@@ -85,7 +51,7 @@ class AbilityHudTrait extends BossTrait
             message = "0",
             spawnflags = 0,
             x = 0.67,
-            y = 0.91
+            y = 0.939
         });
 
         game_text_punch = SpawnEntityFromTable("game_text",
@@ -101,7 +67,7 @@ class AbilityHudTrait extends BossTrait
             message = "0",
             spawnflags = 0,
             x = 0.778,
-            y = 0.91
+            y = 0.939
         });
 
         game_text_slam = SpawnEntityFromTable("game_text",
@@ -117,12 +83,7 @@ class AbilityHudTrait extends BossTrait
             message = "0",
             spawnflags = 0,
             x = 0.885,
-            y = 0.91
-        });
-
-        RunWithDelay2(this, 0.2, function () {
-            EntFireByHandle(game_text_tip_1, "Display", "", 0, boss, boss);
-            EntFireByHandle(game_text_tip_2, "Display", "", 0, boss, boss);
+            y = 0.939
         });
     }
 
@@ -143,11 +104,15 @@ class AbilityHudTrait extends BossTrait
             for(; i <= 100; i+=13)
                 progressBarText += "▱";
             progressBarTexts.push(progressBarText);
-            if (percentage >= 100)
-                overlay += "on_";
+            if (percentage >= 100 && (!(ability instanceof vsh_vscript.MightySlamTrait) || braveJumpCharges > 1))
+                overlay += "1";
             else
-                overlay += "off_";
+                overlay += "0";
         }
+        if (braveJumpCharges >= 2)
+            overlay += "0";
+        else
+            overlay += cos(Time() * 12) < 0 ? "1" : "2";
 
         EntFireByHandle(game_text_charge, "AddOutput", "message "+progressBarTexts[0], 0, boss, boss);
         EntFireByHandle(game_text_charge, "Display", "", 0, boss, boss);
@@ -157,9 +122,6 @@ class AbilityHudTrait extends BossTrait
 
         EntFireByHandle(game_text_slam, "AddOutput", "message "+progressBarTexts[2], 0, boss, boss);
         EntFireByHandle(game_text_slam, "Display", "", 0, boss, boss);
-
-        EntFireByHandle(game_text_tip_1, "Display", "", 0, boss, boss);
-        EntFireByHandle(game_text_tip_2, "Display", "", 0, boss, boss);
 
         player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" + overlay);
     }
@@ -172,11 +134,6 @@ class AbilityHudTrait extends BossTrait
         EntFireByHandle(game_text_punch, "Display", "", 0, boss, boss);
         EntFireByHandle(game_text_slam, "AddOutput", "message ", 0, boss, boss);
         EntFireByHandle(game_text_slam, "Display", "", 0, boss, boss);
-
-        EntFireByHandle(game_text_tip_1, "AddOutput", "message ", 0, boss, boss);
-        EntFireByHandle(game_text_tip_1, "Display", "", 0, boss, boss);
-        EntFireByHandle(game_text_tip_2, "AddOutput", "message ", 0, boss, boss);
-        EntFireByHandle(game_text_tip_2, "Display", "", 0, boss, boss);
 
         player.SetScriptOverlayMaterial("");
     }

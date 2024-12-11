@@ -21,15 +21,26 @@ enum BOSS_JUMP_STATUS
     DOUBLE_JUMPED = 3
 };
 
+::braveJumpCharges <- 4;
+
 class BraveJumpTrait extends BossTrait
 {
     jumpForce = API_GetFloat("jump_force");
     jumpStatus = BOSS_JUMP_STATUS.WALKING;
     voiceLinePlayed = 0;
+    shouldNotifyJump = true;
     lastTimeJumped = Time();
+
+    jumpSpamForwardVel = [0.1, 0.3, 0.7, 1.0, 1.0];
+    jumpSpamUpwardVel =  [0.5, 0.5, 0.7, 1.0, 1.0];
+    jumpSpamGrav =       [0.9, 0.7, 0.8, 1.0, 1.0];
+    jumpSpamStates =     [2, 1, 1, 0, 0];
+    jumpSpamCooloff =    [4.0, 4.0, 3.0, 2.0, 2.0];
+    charges = 4;
 
     function OnFrameTickAlive()
     {
+        local time = Time();
         local buttons = GetPropInt(boss, "m_nButtons");
 
         if (!boss.IsOnGround())
@@ -40,29 +51,43 @@ class BraveJumpTrait extends BossTrait
                 jumpStatus = BOSS_JUMP_STATUS.CAN_DOUBLE_JUMP;
         }
         else
+        {
+            if (jumpStatus == BOSS_JUMP_STATUS.DOUBLE_JUMPED)
+            {
+                boss.SetGravity(1);
+                lastTimeJumped = time;
+            }
             jumpStatus = BOSS_JUMP_STATUS.WALKING;
+        }
 
         if (buttons & IN_JUMP && jumpStatus == BOSS_JUMP_STATUS.CAN_DOUBLE_JUMP)
         {
-            if (!IsRoundSetup() && Time() - voiceLinePlayed > 1.5)
+            if (!IsRoundSetup() && time - voiceLinePlayed > 1.5)
             {
-                voiceLinePlayed = Time();
-                EmitPlayerVO(boss, "jump");
+                voiceLinePlayed = time;
+                if (charges > 0)
+                    EmitPlayerVO(boss, "jump");
             }
 
             jumpStatus = BOSS_JUMP_STATUS.DOUBLE_JUMPED;
             Perform();
+            charges = clampFloor(0, charges - 1);
+            braveJumpCharges = charges;
         }
 
-        if (Time() > lastTimeJumped + API_GetInt("setup_length") + 30)
-        {
+        if (shouldNotifyJump && time > lastTimeJumped + API_GetInt("setup_length") + 30)
             NotifyJump();
+        if (time - lastTimeJumped >= jumpSpamCooloff[charges])
+        {
+            charges = 4;
+            braveJumpCharges = 4;
         }
     }
 
     function Perform()
     {
-        lastTimeJumped = Time() + 9999;
+        shouldNotifyJump = false;
+        lastTimeJumped = Time() + 99;
 
         local buttons = GetPropInt(boss, "m_nButtons");
         local eyeAngles = boss.EyeAngles();
@@ -88,8 +113,10 @@ class BraveJumpTrait extends BossTrait
         newVelocity.x = forward.x * forwardmove + left.x * sidemove;
         newVelocity.y = forward.y * forwardmove + left.y * sidemove;
         newVelocity.Norm();
-        newVelocity *= 300;
-        newVelocity.z = jumpForce
+        newVelocity *= 300 * jumpSpamForwardVel[charges];
+        newVelocity.z = jumpForce * jumpSpamUpwardVel[charges];
+
+        boss.SetGravity(jumpSpamGrav[charges]);
 
         local currentVelocity = boss.GetAbsVelocity();
         if (currentVelocity.z < 300)
@@ -101,7 +128,6 @@ class BraveJumpTrait extends BossTrait
 
     function NotifyJump()
     {
-        lastTimeJumped = Time() + 9999;
         local text_tf = SpawnEntityFromTable("game_text_tf", {
             message = "#ClassTips_1_2",
             icon = "ico_notify_flag_moving_alt",

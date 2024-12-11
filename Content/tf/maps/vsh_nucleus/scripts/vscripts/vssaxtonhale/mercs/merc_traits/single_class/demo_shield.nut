@@ -25,7 +25,10 @@ characterTraitsClasses.push(class extends CharacterTrait
         local wearable = null;
         while (wearable = Entities.FindByClassname(wearable, "tf_wearable_demo*"))
             if (wearable.GetOwner() == player)
+            {
+                wearable.EnableDraw();
                 return true;
+            }
         return false;
     }
 
@@ -38,13 +41,14 @@ characterTraitsClasses.push(class extends CharacterTrait
             return;
 
         wasDestroyed = true;
-        params.damage = 0;
+        player.AddCondEx(TF_COND_PREVENT_DEATH, 0, null);
+        params.damage *= 0.5;
 
         local wearable = null;
         while (wearable = Entities.FindByClassname(wearable, "tf_wearable_demo*"))
             if (wearable.GetOwner() == player)
             {
-                wearable.Kill();
+                wearable.DisableDraw();
                 break;
             }
 

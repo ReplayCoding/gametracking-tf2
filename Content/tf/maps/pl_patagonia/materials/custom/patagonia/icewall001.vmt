@@ -1,0 +1,26 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "custom/patagonia/icewall002a"
+	"$basetexture2" "custom/patagonia/icewall002"
+	//"$normalmap" "Nature/rockwall003_normal"
+  	//"$ssbump" "1"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+	
+	
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	
+	//"$color" "[.6 .6 .6]"
+	
+	"$envmap" "cubemaps\cubemap_sheen002"
+	"$envmapcontrast" ".1"
+	"$envmapsaturation" "1"
+	"$envmaptint" "[ .3 .3 .3 ]"
+	//"$nodiffusebumplighting" "1"
+	"$envmapmask"		"custom/patagonia/icewall002_specular"
+	
+	
+}

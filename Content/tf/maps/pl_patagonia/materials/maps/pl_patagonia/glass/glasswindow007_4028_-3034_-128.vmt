@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW007.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_patagonia/c4028_-3034_-128"
+	}
+}

@@ -39,7 +39,7 @@ class MightySlamTrait extends BossTrait
                 meter = 0;
             }
         }
-        if (!boss.IsOnGround() && (boss.GetFlags() & FL_DUCKING))
+        if (!boss.IsOnGround() && (boss.GetFlags() & FL_DUCKING) && braveJumpCharges > 1)
             Weightdown();
         else if (inUse && !(boss.GetFlags() & FL_DUCKING))
         {
@@ -103,10 +103,10 @@ class MightySlamTrait extends BossTrait
                     damage *= 0.9;
                 if (!target.IsPlayer())
                     damage *= 2;
-                if (damage <= 30 && target.GetMaxHealth() <= 30)
+                if (damage <= 30 && target.GetHealth() <= 30)
                     return; // We don't want to have people on low health die because Hale just Slammed a mile away.
                 target.TakeDamageEx(
-                    bossLocal,
+                    custom_dmg_slam_collateral,
                     bossLocal,
                     weapon,
                     deltaVector * 1250,

@@ -560,6 +560,7 @@
 		"item_url"	"demoman"
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
 		"holiday_restriction"	"christmas"
+		"weight"	"20"
 	}
 	"hwn24_hale"
 	{
@@ -574,5 +575,13 @@
 		"item_url"	"demoman"
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
 		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"winter2024_hale"
+	{
+		"image"	"../console/characters/community/xms2024_hale"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"christmas"
+		"weight"	"60"
 	}
 }

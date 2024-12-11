@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "water\waterfall002"
+	"$surfaceprop"	"water"
+	"$model" "1"
+	"$translucent" "1"
+	"$nodecal" "1"
+	"%keywords" "tf"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.45
+			"texturescrollangle" 90
+		}
+	}
+}

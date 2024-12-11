@@ -1,0 +1,12 @@
+patch
+{
+	include 	"materials/models/vsh/player/saxton_hale/saxton_fist.vmt"
+	
+	insert
+	{
+		"$detail" 			"models/vsh/player/saxton_hale/saxton_fist_megapunch"	
+		"$detailscale" 		"1"
+		"$detailblendfactor" 	"1"
+		"$detailblendmode" 	"6"
+	}
+}

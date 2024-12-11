@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_patagonia/switchhouse_levers"
+//	"$phongtint" "[.2 .2 .2]"
+	"$phong" "1"
+	"$phongexponent" "1"
+
+
+
+	"$phongboost" ".1"	
+//	"$lightwarptexture" "models/weapons/c_models/c_ambassador/c_ambassador_lightwarp"
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+
+	"$phongfresnelranges"	"[.25 .5 1]"
+//	"$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
+                "$phongalbedotint" "1"
+}

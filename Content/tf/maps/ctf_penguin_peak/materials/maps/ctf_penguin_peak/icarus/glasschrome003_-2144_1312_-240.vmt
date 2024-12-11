@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ICARUS/GLASSCHROME003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_penguin_peak/c-2144_1312_-240"
+	}
+}

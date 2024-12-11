@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MALL/WOODPANEL01A_TRIM.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_maul/c1357_-1690_328"
+	}
+}

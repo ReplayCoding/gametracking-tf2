@@ -60,11 +60,10 @@ function TickBossBar(boss)
         bossBarTicker++;
         SetPropInt(pd_logic, "m_nBlueScore", 0);
         SetPropInt(pd_logic, "m_nBlueTargetPoints", 0);
-        return
+        return;
     }
-    local barValue = clampCeiling(boss.GetHealth(), boss.GetMaxHealth());
-    SetPropInt(pd_logic, "m_nBlueScore", barValue);
+    local barValue = floor(clamp(1024.0 * boss.GetHealth() / boss.GetMaxHealth(), 1, 1024));
+    SetPropInt(pd_logic, "m_nBlueScore", boss.GetHealth());
     SetPropInt(pd_logic, "m_nBlueTargetPoints", barValue);
-    SetPropInt(pd_logic, "m_nMaxPoints", boss.GetMaxHealth());
     SetPropInt(pd_logic, "m_nRedScore", GetAliveMercCount());
 }

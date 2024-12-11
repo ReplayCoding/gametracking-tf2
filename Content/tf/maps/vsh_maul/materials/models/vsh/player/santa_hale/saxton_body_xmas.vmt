@@ -1,0 +1,26 @@
+patch
+{
+	include 	"materials/models/vsh/player/santa_hale/saxton_shared.vmt"
+	
+	insert
+	{
+		"$basetexture" 		"models/vsh/player/santa_hale/saxton_body_xmas"
+		"$bumpmap" 		"models/vsh/player/santa_hale/saxton_body_xmas_normal"
+
+		//"$detail" 		"effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+		//"$detailscale" 		"5"
+		//"$detailblendfactor" 	"0.0"
+		//"$detailblendmode" 	"6"
+
+		"$phong" 		"1"
+		"$phongexponent" "5"
+		"$phongboost" 		"1.5"	
+        "$phongalbedotint" "1"
+		"$lightwarptexture" 		"models/player/pyro/pyro_lightwarp"
+		"$phongfresnelranges"	"[.3 5 2]"
+
+		"$rimlight" 		"1"
+		"$rimlightexponent" 		"4"
+		"$rimlightboost" 		"2"
+	}
+}

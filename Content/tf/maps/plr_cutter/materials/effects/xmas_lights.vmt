@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture"	"effects/xmas_lights"
+	"$AlphaTest" "1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "10"
+		}
+	}
+}

@@ -36,7 +36,7 @@ function PlayRoundStartVO()
     local boss = GetRandomBossPlayer();
     if (boss == null)
         return;
-    if (API_GetBool("long_setup_lines") && RandomInt(1, 10) <= 4)
+    if (API_GetBool("long_setup_lines") && RandomInt(1, 10) <= 3)
         PlayAnnouncerVO(boss, "round_start_long");
     else
     {

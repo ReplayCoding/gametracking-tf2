@@ -21,14 +21,20 @@ characterTraitsClasses.push(class extends CustomVoiceLine
     lastTimePlayedLine = {};
     climbLineTimesPlayed = [0];
     wallClimbListener = null;
+    usingBFB = false;
 
     function OnApply()
     {
         wallClimbListener = AddListener("wall_climb", 0, OnWallClimb, this);
+        local primary = player.GetWeaponBySlot(0);
+        usingBFB = primary && primary.GetAttribute("hype resets on jump", 0);
     }
 
     function OnWallClimb(otherPlayer, streak, quickFixLink)
     {
+        if (usingBFB)
+            SetPropFloat(player, "m_Shared.m_flHypeMeter", clampFloor(GetPropFloat(player, "m_Shared.m_flHypeMeter") - 20, 0));
+
         if (quickFixLink || player != otherPlayer || !ShouldPlayVoiceLine())
             return;
 

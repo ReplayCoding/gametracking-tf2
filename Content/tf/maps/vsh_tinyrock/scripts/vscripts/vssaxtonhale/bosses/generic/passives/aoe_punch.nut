@@ -18,13 +18,14 @@ class AoEPunchTrait extends BossTrait
         if (IsCollateralDamage(params.damage_type))
             return;
         local damage = params.damage;
+        params.inflictor = custom_dmg_melee;
 
         CreateAoE(victim.GetCenter(), 75,
             function(target, deltaVector, distance) {
                 if (target == victim)
                     return;
                 target.TakeDamageEx(
-                    boss,
+                    custom_dmg_melee_collateral,
                     boss,
                     boss.GetActiveWeapon(),
                     deltaVector * 450,

@@ -1,3 +1,4 @@
+|Ey+
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -422,9 +423,8 @@ $.tgaA
 .tga1
 AWAVAUATSH
 [A\A]A^A_]
-(=wz
 AYAZ
-W%Po
+W%po
 AYAZE
 PxHc
 HcHHA)
@@ -556,8 +556,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95n
-D95E
+D95a
+D95>
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -727,8 +727,7 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9% 
-D9%8
+D;%t
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -862,10 +861,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%O~
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5>{
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1486,7 +1485,6 @@ AUE1
 ATE1
 A\D	
 A]A^]
-o5|p
 t%Hc
 [A\]
 ~&Ai
@@ -1501,24 +1499,22 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5OY
-o%'R
-o%LG
-o%mD
+o%WR
+o%|G
 tcf.
-o=$8
-o5$8
-o-L5
+o=T8
+o5T8
+o-|5
 <WH9
-o%3/
+o%c/
 4GI9
-o5r+
+o-!-
 AWAVL
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
 AWAVAUATSH
-o=F 
+o=v 
 ~QHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1655,6 +1651,7 @@ AVAUATSH
 A\A]A^]
 AVAUATSH
 [A\A]A^]
+(%+s
 A\A]A^]
 AVAUATE1
 [A\A]A^A_]
@@ -1738,8 +1735,9 @@ A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(-:>
-(%:>
+o=L8
+(-j>
+(%j>
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
@@ -1964,17 +1962,18 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%SJ
-Y5<>
-Y-9=
+X%sJ
+Y5\>
+Y-Y=
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
+W% (
 AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-X%2C
+X%bC
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
@@ -1994,15 +1993,13 @@ AUATI
 [A\]
 ~Z H
 tYUH
-~-8,
-~%0,
+~-h,
+~%`,
 AWAVA
 AUATSH
-(=k+
-(=}+
 [A\A]A^A_]
-(=#'
-o=t!
+(=:'
+(=S'
 ATSL
 [A\]
 ATSL
@@ -2457,6 +2454,7 @@ gamebin
 download
 game_write
 mod_write
+|appid_
 |gameinfo_path|
 |all_source_engine_paths|
 GAMEBIN
@@ -2486,6 +2484,7 @@ FileSystem_GetExecutableDir failed.
 Should not be using filesystem_steam anymore!
 FileSystem_LoadSearchPaths: Invalid parameters specified.
 Bad -insert_search_path - Can't resolve pathname for '%s'
+Appid based mounting is not supported on non-engine DLL projects.
 FileSystem_AddLoadedSearchPath - Can't resolve pathname for '%s'
 Tried to add %s as a search path.
 This is probably not what you intended.
@@ -2960,7 +2959,7 @@ Breaking '%s' in '%s'
 Matched '%s' -> '%s'
 Unmatched %s
 (%zu) readdir failed to find '%s' in '%s'
-                ^o
+                .o
 ????????????????
 %d %d
 -1.000000

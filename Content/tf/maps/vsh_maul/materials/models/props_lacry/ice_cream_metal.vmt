@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_lacry/ice_cream_metal"
+	"$surfaceprop"	"metal"
+	
+	"$phong"	"1"
+	"$phongboost"	"2"
+	"$phongexponent"	"5"
+	"$phongfresnelranges"	"[0.1 .5 1]"
+	"$bumpmap"	"models/effects/flat_normal"
+	"$halflambert"	"1"
+	
+	"$rimlight"	"1"
+	"$rimlightboost"	".2"
+	"$rimlightexponent"	"2"
+}
+
+// Made by Lacry
+// https://tf2maps.net/downloads/lacry-pack.14646/

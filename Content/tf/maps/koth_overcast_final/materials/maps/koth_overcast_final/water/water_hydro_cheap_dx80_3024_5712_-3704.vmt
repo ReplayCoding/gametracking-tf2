@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP_DX80.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_overcast_final/c3024_5712_-3704"
+		"Proxies"
+		{
+		}
+	}
+}

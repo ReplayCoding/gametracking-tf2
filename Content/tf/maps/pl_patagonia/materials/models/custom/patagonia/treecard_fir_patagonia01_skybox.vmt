@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "custom/patagonia/treecard_fir_patagonia01_skybox"
+	
+	"$nocull" 1
+	$alphatest 1
+	$alphatestreference ".5"
+	
+	//$halflambert 1
+	
+	"$color2" "[ 2 2 2 ]"
+	
+	
+}

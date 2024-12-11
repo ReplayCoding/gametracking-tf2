@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/patagonia/firbranch02_singlemat_alt01"
+	
+	"$nocull" 1
+	$alphatest 1
+	$alphatestreference ".5"
+	
+	$halflambert 1
+	
+	$treeSway                         "1"
+	$treeSwayHeight                   "400"
+	$treeSwayStartHeight              "0"
+	$treeSwayRadius                   "400"
+	$treeSwayStartRadius              "0.0"
+	$treeSwaySpeed                    "1"
+	$treeSwayStrength                 "4"
+	$treeSwayScrumbleSpeed            "10"
+	$treeSwayScrumbleStrength         "1"
+	$treeSwayScrumbleFrequency        "8000"
+	$treeSwayFalloffExp               "2"
+	$treeSwayScrumbleFalloffExp       "1"
+	$treeSwaySpeedHighWindMultiplier  ".2"
+	$treeSwaySpeedLerpStart           "1000.0"
+	$treeSwaySpeedLerpEnd             "2500.0"
+	$treeSwayStatic 1
+}

@@ -5,7 +5,7 @@
 ::KRAMPUS_HEALTH_BASE <- 3000;
 ::KRAMPUS_HEALTH_ADD_PER_PLAYER <- 350;
 ::KRAMPUS_MODEL <- "models/bots/krampus.mdl";
-::KRAMPUS_SCALE <- 1.4;
+::KRAMPUS_SCALE <- 1.0;
 ::KRAMPUS_FIRST_SPAWN_DELAY <- 20;
 ::KRAMPUS_ANIM_RATE <- 0.8;
 ::COAL_MODEL <- "models/krampus_coal.mdl";

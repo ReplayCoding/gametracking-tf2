@@ -22,7 +22,7 @@ PrecacheScriptSound("saxton_hale.dash_a")
 PrecacheScriptSound("saxton_hale.dash_b")
 PrecacheScriptSound("saxton_hale.dash_c")
 
-::saxton_dash_effect_model_path <- "models/player/items/vsh_dash_effect.mdl"
+::saxton_dash_effect_model_path <- "models/vsh/player/items/vsh_dash_effect.mdl"
 PrecacheModel(saxton_dash_effect_model_path);
 
 class SweepingChargeTrait extends BossTrait
@@ -207,7 +207,7 @@ class SweepingChargeTrait extends BossTrait
                 else
                     bashedByHale.push(target);
                 target.TakeDamageEx(
-                    boss,
+                    custom_dmg_charge,
                     boss,
                     boss.GetActiveWeapon(),
                     deltaVector * 1250,

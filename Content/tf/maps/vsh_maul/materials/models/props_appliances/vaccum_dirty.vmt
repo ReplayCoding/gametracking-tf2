@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_appliances/vaccum_diffuse_dirty"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/props_appliances/vaccum_specular_dirty"
+}

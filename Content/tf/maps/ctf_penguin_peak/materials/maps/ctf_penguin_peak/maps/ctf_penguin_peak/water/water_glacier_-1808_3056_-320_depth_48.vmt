@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_penguin_peak/water/water_glacier_-1808_3056_-320.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

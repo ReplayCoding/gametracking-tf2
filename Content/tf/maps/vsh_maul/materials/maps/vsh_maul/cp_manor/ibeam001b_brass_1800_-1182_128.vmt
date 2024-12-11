@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CP_MANOR/IBEAM001B_BRASS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_maul/c1800_-1182_128"
+	}
+}

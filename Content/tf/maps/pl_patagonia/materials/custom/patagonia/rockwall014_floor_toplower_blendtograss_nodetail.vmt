@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "custom/patagonia/rockwall014_floor_toplower"
+	"$basetexture2" "Nature/grass_07"
+	"$surfaceprop"    "concrete"
+	"$surfaceprop2"  "dirt"	
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+}

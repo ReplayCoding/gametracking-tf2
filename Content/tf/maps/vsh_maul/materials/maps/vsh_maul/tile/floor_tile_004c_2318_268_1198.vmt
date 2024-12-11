@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_004C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/vsh_maul/c2318_268_1198"
+	}
+}

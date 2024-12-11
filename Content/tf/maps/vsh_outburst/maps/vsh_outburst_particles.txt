@@ -1,6 +1,8 @@
 particles_manifest
 {
-	file	"!particles/particles_vsh_hell.pcf"
+	file	"!particles/particles_vsh_overrides.pcf"
+	file	"!particles/particles_vsh_auras.pcf"
+	file	"!particles/particles_vsh_abilities.pcf"
 	file	"!particles/hell_of_a_mann.pcf"
 	file	"!particles/fire_01.pcf"
 }

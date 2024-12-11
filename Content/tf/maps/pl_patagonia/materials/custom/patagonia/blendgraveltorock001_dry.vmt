@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "custom/asylum/dirtground_canyon4"
+	"$basetexture2" "winter/rockground010"
+	
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "dirt"
+	
+	"$blendmodulatetexture" "Nature/dirtground003_blendmask"
+	
+	"%keywords" "tf"
+	//"%tooltexture" "winter/blendgraveltograss001_tooltexture"
+}

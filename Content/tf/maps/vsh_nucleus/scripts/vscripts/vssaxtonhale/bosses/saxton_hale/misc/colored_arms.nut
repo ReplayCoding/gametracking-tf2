@@ -11,10 +11,10 @@
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
 //=========================================================================
 
-hale_aura_red_off <- "models/player/items/vsh_effect_ltarm_aura.mdl"
-hale_aura_blue_off <- "models/player/items/vsh_effect_rtarm_aura.mdl"
-hale_aura_red_on <- "models/player/items/vsh_effect_ltarm_aura_megapunch.mdl"
-hale_aura_blue_on <- "models/player/items/vsh_effect_rtarm_aura_chargedash.mdl"
+hale_aura_red_off <- "models/vsh/player/items/vsh_effect_ltarm_aura.mdl"
+hale_aura_blue_off <- "models/vsh/player/items/vsh_effect_rtarm_aura.mdl"
+hale_aura_red_on <- "models/vsh/player/items/vsh_effect_ltarm_aura_megapunch.mdl"
+hale_aura_blue_on <- "models/vsh/player/items/vsh_effect_rtarm_aura_chargedash.mdl"
 
 PrecacheModel(hale_aura_red_off);
 PrecacheModel(hale_aura_blue_off);

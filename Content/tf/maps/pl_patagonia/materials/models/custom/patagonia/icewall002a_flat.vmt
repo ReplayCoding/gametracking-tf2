@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "custom/patagonia/icewall002a"
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"	
+	"$envmap" "cubemaps\cubemap_sheen002"
+	"$envmapcontrast" ".1"
+	"$envmapsaturation" "1"
+	"$envmaptint" "[ .3 .3 .3 ]"
+	"$envmapmask"		"custom/patagonia/icewall002_specular"
+}

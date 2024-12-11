@@ -13,6 +13,7 @@
 
 PrecacheClassVoiceLines("medic_dead")
 PrecacheClassVoiceLines("no_medic")
+PrecacheArbitrarySound("soldier.no_medic_rare")
 
 characterTraitsClasses.push(class extends CustomVoiceLine
 {
@@ -25,6 +26,8 @@ characterTraitsClasses.push(class extends CustomVoiceLine
 
         if (MedicsAtStart() > 0)
             return EmitPlayerVODelayed(player, "medic_dead", 0);
+        else if (!RandomInt(0, 99) && player.GetPlayerClass() == TF_CLASS_SOLDIER)
+            return EmitPlayerVODelayed(player, "no_medic_rare", 0);
         else
             return EmitPlayerVODelayed(player, "no_medic", 0);
     }

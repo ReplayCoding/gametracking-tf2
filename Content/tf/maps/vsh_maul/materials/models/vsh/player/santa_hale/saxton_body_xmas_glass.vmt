@@ -1,0 +1,22 @@
+patch
+{
+	include 	"materials/models/vsh/player/santa_hale/saxton_shared.vmt"
+	
+	insert
+	{
+		"$basetexture" 		"models/vsh/player/santa_hale/saxton_body_xmas_glass"
+		//"$basemapalphaphongmask" "1"
+        "$translucent" "1"
+        "$additive" 1
+		"$phong" 		"1"
+		"$phongexponent" "25"
+        "$color2" "[.75 0.75 0.75]"
+		"$phongboost" 		"2"	
+		"$lightwarptexture" 		"models/player/pyro/pyro_lightwarp"
+		"$phongfresnelranges"	"[.3 5 2]"
+
+		"$rimlight" 		"1"
+		"$rimlightexponent" 		"4"
+		"$rimlightboost" 		"2"
+	}
+}

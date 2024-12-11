@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR006.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_overcast_final/c3168_8128_-4030"
+	}
+}
