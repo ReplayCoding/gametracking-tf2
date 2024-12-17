@@ -4044,7 +4044,6 @@
 "TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"ユーバーチャージを使って 5 秒以内に 2 人のチームメイトを素早く蘇生する。"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"ロボットフラッシュ"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_DESC"				"ロケットスペシャリストでアップグレード中にロケット一発で 5 人の敵を倒す。"
-"TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_NAME"				"信管を外されて"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_DESC"				"ロケットスペシャリストでアップグレード中に 50 体のロボットを機能不全にする。"
 
 // Doomsday Achievements
@@ -4072,9 +4071,6 @@
 "TF_MAPS_DOOMSDAY_DEFEND_CARRIER_DESC"				"オーストラリウムを運んでいるプレイヤーにダメージを与えた敵を3秒以内に倒す。"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_NAME"			"Doomsday Milestone"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_DESC"			"Doomsday パック内で 7 つの実績を達成する。"
-
-// Standin Achievement
-"TF_MAPS_STANDIN_WIN_ROUNDS_NAME"					"Stand And Deliver"
 "TF_MAPS_STANDIN_WIN_ROUNDS_DESC"					"ラウンドを 139 勝する。"
 
 // Process Achievement
@@ -5334,7 +5330,6 @@
 "TF_Amputator"				"Amputator"	// ADD THE
 "TF_TreasureHat_1"			"賞金帽子"
 "TF_TreasureHat_2"			"宝の帽子"
-"TF_TreasureHat_3"			"紛れも無い富と名声の帽子"
 "TF_Ali_Babas_Wee_Booties"		"Ali Baba's Wee Booties"
 "TF_Weapon_Flaregun_Detonator_Desc"	"第 2 武器: フレア弾を爆破。.\nこの武器は使用していない時に自動でリロードします。"
 "TF_Tomislav"				"Tomislav"
@@ -6370,7 +6365,6 @@
 "TF_MM_QueueState_LeaveQueue" "%s1 キューから抜ける"
 "TF_MM_JoinPartyLobby_Join"	"参加"
 "TF_MM_KickFromParty"	"パーティーから追放"
-"TF_MM_Queue_Error_Title"	"Matchmaking error"
 "TF_Quickplay_PlayNow"			"今すぐプレイ!"
 "TF_Quickplay_ShowServers"		"サーバーを表示"
 "TF_Quickplay_Connect"			"接続"
@@ -7028,7 +7022,6 @@ ________________________________________
 "TF_MvM_VoucherExplanation_Title"	"チーム分配クーポン"
 "TF_MvM_VoucherExplanation_Text"	"チーム分配クーポンを使用すると、ミッション完了時にあなたとチームメイトに一つのランダムな追加アイテムドロップを獲得します。 複数のプレイヤーがクーポンを有効化した場合、全てのプレイヤーは各クーポン毎にアイテムを一つ獲得します。"
 
-"TF_MvM_UpgradeExplanation_Title"	"クラスと武器アップグレード"
 "TF_MvM_UpgradeExplanation_Text"	"ミッションの途中にクラスを変更した場合、あなたのアップグレードは前回アップグレードされたクラスを同じままとなります。このレンチアイコンは、既にアップグレードされたクラスを示します。これらのアップグレードはクラス間でトレードは出来ませんが、あなたが元のクラスに戻った場合には維持されます。\n\n武器アップグレードも同様です。ミッションの途中に武器装備を変更すると、あなたがその武器を再装備したときにアップグレードは維持されたままとなります。"
 
 "TF_MvM_RequiresTicket_Title"	"チケットが必要です"

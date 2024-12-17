@@ -223,9 +223,9 @@
 "ClassTips_3_7_Icon"		"/achievements/tf_soldier_buff_teammates.vmt"
 // Demo
 "ClassTips_4_Count"			"7"
-"ClassTips_4_1"				"จุดชนวน Stickybomb ของคุณเมื่อศัตรูอยู่ใกล้พวกมัน!"
+"ClassTips_4_1"				"จุดชนวนระเบิดเหนียวของคุณเมื่อศัตรูอยู่ใกล้พวกมัน!"
 "ClassTips_4_1_Icon"		"/pve/chalf_circle.vmt"
-"ClassTips_4_2"				"Stickybomb Jump โดยยืนบน Stickybomb และกระโดดเมื่อคุณจุดชนวนมัน!"
+"ClassTips_4_2"				"การกระโดดด้วยระเบิดเหนียวโดยยืนบนระเบิดเหนียวและกระโดดเมื่อคุณจุดชนวนมัน!"
 "ClassTips_4_2_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_4_3_MvM"			"== ใน Mann vs. Machine =="
 "ClassTips_4_4_MvM"			"อัปเกรดการสร้างความเสียหายจากอาวุธของคุณ!"
@@ -497,7 +497,7 @@
 "TF_ClassSkill_Spy"				"Spy: ล่องหน/หยุดล่องหน"
 "TF_ClassSkill_Spy_LastDisguise"	"Spy: ปลอมตัวเหมือนครั้งล่าสุดที่ทำมา"
 "TF_ClassSkill_Spy_DisguiseTeam"	"Spy: สลับฝ่ายที่จะปลอมตัว"
-"TF_ClassSkill_Demoman"			"Demoman: จุดระเบิด Stickybomb"
+"TF_ClassSkill_Demoman"			"Demoman: จุดชนวนระเบิดเหนียว"
 "TF_Call_For_Medic"			"เรียกหา Medic"
 "TF_Call_For_Help"			"ขอความช่วยเหลือ"
 "TF_DropFlag"				"ที้งกระเป๋าเอกสาร"
@@ -569,7 +569,7 @@
 "TF_Weapon_FlameThrower_desc"	"หลังถูกเผาจะลดการรักษาของปืน Medi Gun และเอฟเฟกต์การป้องกันของโล่\nการโจมตีรอง: ปล่อยระเบิดอากาศที่ผลักศัตรูและลูกกระสุน และดับไฟให้เพื่อนร่วมทีมที่ติดไฟได้"
 "TF_Weapon_GrenadeLauncher"	"Grenade Launcher"
 "TF_Weapon_PipebombLauncher"	"Stickybomb Launcher"
-"TF_Weapon_PipebombLauncher_desc"	"การโจมตีรอง: จุดระเบิด Stickybomb ทั้งหมด"
+"TF_Weapon_PipebombLauncher_desc"	"การโจมตีรอง: จุดชนวนระเบิดเหนียวทั้งหมด"
 "TF_Weapon_Knife"		"Knife"
 "TF_Weapon_Knife_desc"	"โจมตีศัตรูจากด้านหลังเพื่อแทงหลังพวกเขาสำหรับการสังหารในการโจมตีครั้งเดียว"
 "TF_Weapon_Medikit"		"กล่องพยาบาล"
@@ -2421,8 +2421,6 @@
 "TF_TournamentMedal_PASSTime_Federation_Season4_2nd_Desc"				"ฟังนะ ทหารรับจ้างทั้งหลาย คุณเอาชีวิตรอดจากสนามรบที่คนอื่นพ่ายแพ้มาแล้ว ทักษะ ทีมเวิร์ก ความภักดี และสายสัมพันธ์กับทีมของคุณทำให้คุณโดดเด่น จงภูมิใจในตัวเอง คุณสมควรได้รับคำยกย่องจากการเตะบอลลูกนั้นได้อย่างน่าทึ่ง เยี่ยมมาก!\n\nรางวัลที่มอบให้แก่ผู้ชนะอันดับ 2 ของ PASS Time Federation ฤดูกาลที่ 4 - ภูมิภาคยุโรป"
 "TF_TournamentMedal_PASSTime_Federation_Season4_3rd_Desc"				"รู้สึกหวาดหวั่นหรือเปล่า? ไม่ต้องกลัว! คุณคือคนที่ฉุดตัวเองกลับมาจากหายนะได้ คุณลุยข้ามอุปสรรคทุกอย่างได้หมดแล้ว ไม่ว่าจะเป็นฝุ่น กิ่งไม้ เหงื่อ และ... จรวดเหรอ? ไม่แน่ใจว่าทำไมวัตถุระเบิดจึงเป็นส่วนหนึ่งของกีฬา แต่ช่างเถอะ คุณเอาชนะมันได้หมดทุกอย่างแล้วนะแชมป์!\n\nรางวัลที่มอบให้แก่ผู้ชนะอันดับ 3 ของ PASS Time Federation ฤดูกาลที่ 4 - ภูมิภาคยุโรป"
 "TF_TournamentMedal_PASSTime_Federation_Season4_Participant_Desc"		"คุณอาจเคยเห็นคนเตะ ต่อย หรือกระทั่งเคี้ยวลูกบอล... ยี้ ไม่ว่าจะมีอะไรในทีวี คุณก็ตัดสินใจลองทั้งนั้น (จริง ๆ นะ) แล้วคุณก็ทำสำเร็จ! คุณแสดงให้ทุกคนเห็นว่าคุณไม่ใช่คนตาขาว แต่เป็นทหารรับจ้างที่ทุ่มเทเต็มที่สุดตัว!\n\nรางวัลที่มอบให้แก่ผู้เข้าร่วม PASS Time Federation ฤดูกาลที่ 4 - ภูมิภาคยุโรป"
-"TF_TournamentMedal_PASSTime_Federation_Season4_Staff_Desc"				"ไม่ว่าคุณจะส่งเสียงเชียร์ จัดการ หรือทำให้ทุกอย่างเป็นไปอย่างราบรื่น สิ่งที่คุณทุ่มเทก็สร้างความแตกต่างให้เห็นได้ชัดเจน คุณช่วยให้ PASS Time ประสบความสำเร็จ และจะเป็นที่จดจำในฐานะฮีโร่ตัวจริงของเกม ขอบคุณนะสหายที่ทุ่มเททำงานอย่างขันแข็ง!\n\nรางวัลที่มอบให้แก่อาสาสมัคร PASS Time Federation ฤดูกาลที่ 4 - ภูมิภาคยุโรป"
-
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_1st"			"อันดับที่ 1 Chapelaria Highlander Gladiator"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_2nd"			"อันดับที่ 2 Chapelaria Highlander Gladiator"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_3rd"			"อันดับที่ 3 Chapelaria Highlander Gladiator"
@@ -3635,11 +3633,7 @@
 "TF_Bundle_EqualizerEscape"			"The Pickaxe Pack"
 "TF_Bundle_EqualizerEscape_Desc"	"ประกอบไปด้วย Equalizer และ Escape Plan:"
 
-"TF_Bundle_LW_Weapons"				"Love And War Weapons Bundle"
-"TF_Bundle_LW_Weapons_Desc"			"ประกอบไปด้วยอาวุธใหม่ครบเซ็ตจากอัปเดต Love And War:"
-"TF_Bundle_LW_Taunts"				"Love And War Taunts Bundle"
 "TF_Bundle_LW_Taunts_Desc"			"เฉลิมฉลองกับเพื่อนของคุณและทรมานศัตรูของคุณด้วยการเยาะเย้ย 15 ท่านี้:"
-"TF_Bundle_LW_Cosmetics"			"Love And War Cosmetics Bundle"
 "TF_Bundle_LW_Cosmetics_Desc"		"ของตกแต่งใหม่ทั้งหมด 44 ชิ้นในชุดเดียว มันใหญ่มากจนเกือบไม่พอ:"
 
 "TF_Bundle_Summer2012_UrbanProfessional"		"Urban Professional Bundle"
@@ -4041,7 +4035,7 @@
 "TF_TheHolyMackerel_Desc"	"การโดนตีด้วยปลาเป็นเรื่องน่าสมเพช"
 "TF_MadMilk_Desc"		"ผู้เล่นฟื้นฟูพลังชีวิต 60% จากความเสียหายที่ทำได้\nแก่ศัตรูที่โชกด้วยนม\nมีประโยชน์สำหรับการดับไฟ"
 "TF_Weapon_RocketLauncher_Jump_Desc" "Rocket Launcher พิเศษสำหรับการเรียนรู้\nเคล็ดลับและรูปแบบของการ Rocket jump\nอาวุธนี้ไม่ทำความเสียหาย"
-"TF_Weapon_StickyBomb_Jump_Desc" "Stickybomb Launcher พิเศษที่ไม่สร้างความเสียหาย สำหรับการเรียนรู้เคล็ดลับและรูปแบบของการ Stickybomb jump"
+"TF_Weapon_StickyBomb_Jump_Desc" "Stickybomb Launcher พิเศษที่ไม่สร้างความเสียหาย สำหรับการเรียนรู้เคล็ดลับและรูปแบบของการกระโดดด้วยระเบิดเหนียว"
 "TF_Wrangler_Desc"		"ควบคุม Sentry Gun ของคุณด้วยมือ\nSentry Gun ที่ควบคุมด้วยมือได้โล่ที่ลด\nความเสียหายและการซ่อมแซม 66%\nSentry Gun หยุดการทำงาน 3 วินาทีหลังจากหยุดการควบคุมด้วยมือ"
 "TF_ScoutBombingRun"		"Bombing Run"
 "TF_ScoutBombingRun_Desc"	"ตายจากด้านบน!"
@@ -4703,7 +4697,7 @@
 "TF_CronesDome"						"The Crone's Dome" // ADD THE
 "TF_CronesDome_Desc"				"หลายร้อยปี ผู้หญิงส่วนมากถูกเอาไปเล่ากันสนุกสนามว่าเป็นแม่มด (ทำยา มีหูด ถูกเผาทั้งเป็น) ในขณะที่ผู้ชายได้แต่ยืนอยู่ข้างสนาม ไม่อีกต่อไป! สวมหมวก Crone's Dome มองส่องผ่านกระจกผีสิงดูสิ"
 
-"TF_Executioner"					"The Executioner" // ADD THE
+"TF_Executioner"					"Executioner" // ADD THE
 "TF_Executioner_Desc"				"การเป็นเพชฌฆาตมันมีอะไรที่มากกว่าการสังหารคน บางครั้งคุณก็ต้องทรมานพวกเขาก่อน เคล็ดลับ: เพื่อให้น่าสนใจขึ้น ทำไมคุณไม่ลองทรมานใครบางคนจนกว่าพวกจะตะโกนคำพูดลับขึ้นมาล่ะ? (คำใบ้: คำพูดลับก็คือ \"อิสรภาพ\")"
 
 "TF_Bonedolier"						"The Bonedolier" // ADD THE
@@ -4844,8 +4838,6 @@
 "TF_SplendidScreen_Style1"	"คลาสสิก"
 "TF_SplendidScreen_Style2"	"หนาม"
 "TF_SplendidScreen_Style3"	"ลูกธนู"
-"TF_SplendidScreen_Style4"	"หนามและลูกธนู"
-
 "TF_Pyromancer_Style1"		"ดั้งเดิม"
 "TF_Pyromancer_Style2"		"ลงสีทั้งหมด"
 "TF_Pyromancer_Style3"		"ลงสีอย่างมีสไตล์"
@@ -4977,7 +4969,6 @@
 "koth_cascade_authors"			"Evan 'Defcon' LeBlanc\nAlex 'FGD5' Stewart\nLiam 'Diva Dan' Moffitt"
 "cp_altitude_authors"			"Evan 'Defcon' LeBlanc\nAlex 'FGD5' Stewart\nLiam 'Diva Dan' Moffitt"
 "ctf_doublecross_snowy_authors"		"Harlen 'UEAKCrash' Linke\nAeon 'Void' Bollig\nJuniper\nFreyja\nZoey Smith"
-"koth_sawmill_event_authors"	"Eric 'Erk' Browning\nAeon 'Void' Bollig\nJuniper\nAlex 'FGD5' Stewart"
 "ctf_helltrain_event_authors"	"Matthew 'Panckakebro' Hiller\nElián 'iron' Rodríguez\nPhe\nDenis 'xB33' Varchulik\nRyan 'Chill' Foy\nCaleb 'Pixenal' Dawson\nWilliam 'Cheesypuff' Bartley-Bolster\nBattoign\nBailey 'Glitch2' Hodges\nEmNudge\nOliver 'OverPovered' Pennanen\nJames 'Piratefoodog' Russell"
 "plr_hacksaw_event_authors"		"Liam 'Diva Dan' Moffitt\nViscaedis\nAl 'Square' Rodgers\nE-Arkham\nSeb 'Tianes' Necula\nBenjamin 'blaholtzen' Blåholtz\nAeon 'Void' Bollig\nJuniper\nAlex 'FGD5' Stewart"
 "ctf_crasher_authors"			"Lauren 'Yrrzy' Godfrey\nAse 'pont' Kirkham\nLiam 'Diva Dan' Moffitt\nBenjamin 'Benjamoose' Rudman\nKimberly 'iiboharz' Riswick\nFreyja"
@@ -4985,7 +4976,6 @@
 "cp_spookeyridge_authors"		"Harlen 'UEAKCrash' Linke\nJoshua 'HeyYou' Harris\nSeth 'xzzy' Graham\nPearForceOne\nFissionMetroid101\nAl 'Square' Rodgers\nLiam 'Diva Dan' Moffitt"
 "cp_frostwatch_authors"			"Elián 'iron' Rodríguez\nRyan 'Chill' Foy\nTristan 'Alox' Haguet\nBattoign\nLouie 'bakscratch' Turner"
 "pl_frostcliff_authors"			"Tomi 'ICS' Uurainen"
-"pl_rumford_event_authors"		"Neil 'Nesman' Stottler\nEric 'Erk' Browning\nAeon 'Void' Bollig\nLouie 'bakscratch' Turner\nAlex 'FGD5' Stewart\nPatrick 'Zeus' Hennessy\nIzotope"
 "ctf_frosty_authors"			"Valentin 'ElectroSheep' Levillain\nSimon 'Em' Aublet"
 "cp_gravelpit_snowy_authors"	"Aaron 'Aar' Pearson\nJoel 'zythe_' Morscher\nLauren 'Yrrzy' Godfrey\nLiam 'Diva Dan' Moffitt\nHarlen 'UEAKCrash' Linke"
 "koth_sharkbay_authors"			"Vasilis 'Billo' Chatzikostas\nPatrick 'Zeus' Hennessy\nSeb 'Tianes' Necula\nBenjamin 'blaholtzen' Blåholtz\nNickolas 'KrazyZark' Fenech"
@@ -5005,7 +4995,6 @@
 "pd_mannsylvania_authors"		"Phe\nArtemy 'FlowerShopGuy' Maltsev\nSonoma 'Sono' Bryer\nMatthew 'MegapiemanPHD' Simmons\nOliver 'OverPovered' Pennanen\nKirill 'BadassCook' Ruzanov"
 "cp_degrootkeep_rats_authors"	"Aeon 'Void' Bollig\nJuniper\nHarlen 'UEAKCrash' Linke\nZoey Smith\nAlex 'Rexy' Kreeger"
 "pl_spineyard_authors"			"Matthew 'Panckakebro' Hiller\nElián 'iron' Rodríguez\nDenis 'xB33' Varchulik\nNorman 'Mikusch' Masanek"
-"pl_corruption_authors"			"Eric 'Erk' Browning\nMatthew 'MegapiemanPHD' Simmons\nRhafael 'Rhamkin' Oliveira\nMatthew 'Panckakebro' Hiller\nVasilis 'Billo' Chatzikostas"
 "zi_murky_authors"				"Harry 'Harry' Colquhoun\nLiam 'Diva Dan' Moffitt\nE-Arkham"
 "zi_atoll_authors"				"Patrik 'Nat-Tea' Naplava\nEmil Sharafeev\nDanni 'AttaKat' Bestford\nBen 'Squishy' Dowman\nJesse 'Custard1' Budd\nAlex 'Zz' Elliott\nLiam 'Diva Dan' Moffitt\nHarry 'Harry' Colquhoun"
 "zi_woods_authors"				"George 'I dinne ken' Norman\nHarry 'Harry' Colquhoun\nLiam 'Diva Dan' Moffitt\nStuffy360\nAeon 'Void' Bollig\nEmil Sharafeev"
@@ -5029,7 +5018,6 @@
 "cp_hadal_authors"				"Juha \"Jusa\" Kuoppala\nMaxime \"Fubar\" Dupuis"
 "ctf_applejack_authors"			"Rhafael \"Rhamkin\" Oliveira\nAl \"Square\" Rodgers\nYiming \"Coolchou\" Zhao\nAlex \"FGD5\" Stewart\nAeon \"Void\" Bollig"
 "pd_atom_smash_authors"			"Aeon \"Void\" Bollig\nJuniper\nMike \"CornetTheory\" Hillard\nLiam \"Diva Dan\" Moffitt\nSky\nFreyja\nZoey\nBenjamin \"blaholtzen\" Blåholtz\nPearForceOne\nTim \"SediSocks\" BL"
-"cp_canaveral_5cp_authors"		"Jesse \"Custard1\" Budd\nPatrick \"Zeus\" Hennessy\nWilliam \"Cheesypuff\" Bartley-Bolster\nBrandon \"Bonk Nickeltoon\" Koller\nBailey \"Glitch\" Hodges\nNickolas \"krazyZark\" Fenech\nLouie \"bakscratch\" Turner"
 "cp_burghausen_authors"			"Christoph \"Gadget\" Manschitz"
 "koth_toxic_authors"			"Matthew \"Panckakebro\" Hiller\nElián \"iron\" Rodríguez\nDenis \"xB33\" Varchulik\nPhe\nStuffy360\nLouie \"bakscratch\" Turner"
 "cp_darkmarsh_authors"			"Elián \"iron\" Rodríguez\nMatthew \"Panckakebro\" Hiller\nRyan \"Chill\" Foy"
@@ -5038,7 +5026,6 @@
 "pd_circus_authors"				"Liam \"Diva Dan\" Moffitt\nAeon \"Void\" Bollig\ndonhonk"
 "vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó \"Maxxy\" Attila\nMaksim \"VellyVice\" Streltsov\nMatthew \"MegapiemanPHD\" Simmons\nJames M.\nJason \"Yaki\" Herman\nJoaquim \"JPRAS\" Silva\nStuffy360"
 "zi_blazehattan_authors"		"Emil Sharafeev\nPatrik \"Nat-Tea\" Naplava\nAeon \"Void\" Bollig\nLiam \"Diva Dan\" Moffitt\nHarry \"Harry\" Colquhoun"
-
 "TF_YourStats"					"สถิติของคุณ"
 "TF_DuckPromoList"				"-ของตกแต่งของทุกอาชีพพร้อมสิบเอ็ดรูปแบบ\n-ติดตามสถานะของคุณระหว่างกิจกรรม End of the Line\n-ดูกระดานผู้นำและแข่งขันกับเพื่อนของคุณ\n-การขายช่วยเหลือทีม End of the Line"
 "TF_GetDucky"					"ซื้อเจ้าเป็ด"
@@ -5373,7 +5360,6 @@
 "TF_MapToken_Doublefrost_AdText"	"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Doublefrost โดยตรง"
 "TF_Map_SoulMill"					"Soul-Mill"
 "TF_MapToken_SoulMill"				"แสตมป์แผนที่ - Soul-Mill"
-"TF_MapToken_SoulMill_Desc"			"แผนที่ King of the Hill\n\nสร้างโดย Eric 'Erk' Browning, Aeon 'Void' Bollig, Juniper และ Alex 'FGD5' Stewart\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Soul-Mill โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_MapToken_SoulMill_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Soul-Mill โดยตรง"
 "TF_Map_Helltrain"					"Helltrain"
 "TF_MapToken_Helltrain"				"แสตมป์แผนที่ - Helltrain"
@@ -5405,7 +5391,6 @@
 "TF_MapToken_Frostcliff_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Frostcliff โดยตรง"
 "TF_Map_Rumford"					"Rumford"
 "TF_MapToken_Rumford"				"แสตมป์แผนที่ - Rumford"
-"TF_MapToken_Rumford_Desc"			"แผนที่ Payload\n\nสร้างโดย Neil 'Nesman' Stottler, Eric 'Erk' Browning, Aeon 'Void' Bollig, Louie 'bakscratch' Turner, Alex 'FGD5' Stewart, Patrick 'Zeus' Hennessy และ Izotope\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Rumford โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_MapToken_Rumford_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Rumford โดยตรง"
 "TF_Map_Frosty"						"Frosty"
 "TF_MapToken_Frosty"				"แสตมป์แผนที่ - Rumford"
@@ -5449,7 +5434,6 @@
 "TF_MapToken_Hardwood_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Hardwood โดยตรง"
 "TF_Map_PelicanPeak"				"Pelican Peak"
 "TF_MapToken_PelicanPeak"			"แสตมป์แผนที่ - Pelican Peak"
-"TF_MapToken_PelicanPeak_Desc"		"แผนที่ Capture the Flag\n\nสร้างโดย Chris \"Another Bad Pun\" Williams, Bec \"phi\" Ailes, James \"chin\" Hayes, Eric \"Erk\" Browning, Liam \"Diva Dan\" Moffitt, Stuffy360, Aeon \"Void\" Bollig, Nickolas \"KrazyZark\" Fenech และ Emil Sharafeev\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Pelican Peak โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_MapToken_PelicanPeak_AdText"	"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Pelican Peak โดยตรง"
 "TF_Map_Selbyen"					"Selbyen"
 "TF_MapToken_Selbyen"				"แสตมป์แผนที่ - Selbyen"
@@ -5490,7 +5474,6 @@
 "TF_MapToken_Spineyard_Desc"		"แผนที่ Payload\n\nสร้างโดย Matthew \"Panckakebro\" Hiller, Elián \"iron\"' Rodríguez, Denis \"xB33\" Varchulik และ Norman \"Mikusch\" Masanek\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Spineyard โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_Map_Corruption"					"Corruption"
 "TF_MapToken_Corruption"			"แสตมป์แผนที่ - Corruption"
-"TF_MapToken_Corruption_Desc"		"แผนที่ Payload\n\nสร้างโดย Eric \"Erk\" Browning, Matthew \"MegapiemanPHD\" Simmons, Rhafael \"Rhamkin\" Oliveira, Matthew \"Panckakebro\" Hiller และ Vasilis \"Billo\" Chatzikostas\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Corruption โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_Map_Murky"						"Murky"
 "TF_MapToken_Murky"					"แสตมป์แผนที่ - Murky"
 "TF_Map_Atoll"						"Atoll"
@@ -5583,33 +5566,18 @@
 "TF_MapToken_Burghausen_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Burghausen โดยตรง"
 "TF_Map_Toxic"						"Toxic"
 "TF_MapToken_Toxic"					"แสตมป์แผนที่ - Toxic"
-"TF_MapToken_Toxic_Desc"			"แผนที่ King of the Hill\n\nสร้างโดย Matthew \"Panckakebro\" Hiller, Elián \"iron\" Rodríguez, Denis \"xB33\" Varchulik, Phe, Stuffy360 และ Louie \"bakscratch\" Turner\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Toxic โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Toxic_AdText"			"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Toxic โดยตรง"
 "TF_Map_Darkmarsh"					"Darkmarsh"
 "TF_MapToken_Darkmarsh"				"แสตมป์แผนที่ - Darkmarsh"
-"TF_MapToken_Darkmarsh_Desc"		"แผนที่ Attack/Defend Control Point\n\nสร้างโดย Elián \"iron\" Rodríguez, Matthew \"Panckakebro\" Hiller และ Ryan \"Chill\" Foy\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Darkmarsh โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Darkmarsh_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Darkmarsh โดยตรง"
 "TF_Map_FreakyFair"					"Freaky Fair"
 "TF_MapToken_FreakyFair"			"แสตมป์แผนที่ - Freaky Fair"
-"TF_MapToken_FreakyFair_Desc"		"แผนที่ Control Point\n\nสร้างโดย Emil Sharafeev, George \"I dinne ken\" Norman, Liam \"Diva Dan\" Moffitt, Patrik \"Nat-Tea\" Naplava, Aeon \"Void\" Bollig, Wilson, Stuffy360 และ Ranily\n\nการสั่งซื้อไอเท็มนี้จะช่วยเหลือผู้สร้างแผนที่ Freaky Fair โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_FreakyFair_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Freaky Fair โดยตรง"
 "TF_Map_Dynamite"					"Dynamite"
 "TF_MapToken_Dynamite"				"แสตมป์แผนที่ - Dynamite"
-"TF_MapToken_Dynamite_Desc"			"แผนที่ Tug of War (ชุมชน)\n\nสร้างโดย Will Alfred, Jordan \"Ismac\" La Rose, Lizard Of Oz, Haau, Aydan, Neal \"Blade x64\" Smart และ Liam \"Diva Dan\" Moffitt\n\nการสั่งซื้อไอเท็มนี้จะช่วยเหลือผู้สร้างแผนที่ชุมชน Dynamite โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Dynamite_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Dynamite โดยตรง"
 "TF_Map_Circus"						"Circus"
 "TF_MapToken_Circus"				"แสตมป์แผนที่ - Circus"
-"TF_MapToken_Circus_Desc"			"แผนที่ Player Destruction\n\nสร้างโดย Liam \"Diva Dan\" Moffitt, Aeon \"Void\" Bollig และ donhonk\n\nการสั่งซื้อไอเท็มนี้จะช่วยเหลือผู้สร้างแผนที่ Circus โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Circus_AdText"			"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Circus โดยตรง"
 "TF_Map_Outburst"					"Outburst"
 "TF_MapToken_Outburst"				"แสตมป์แผนที่ - Outburst"
-"TF_MapToken_Outburst_Desc"			"แผนที่ Versus Saxton Hale (ชุมชน)\n\nสร้างโดย Lizard Of Oz, Phe, Szabó \"Maxxy\" Attila, Maksim \"VellyVice\" Streltsov, Matthew \"MegapiemanPHD\" Simmons, James M., Jason \"Yaki\" Herman, Joaquim \"JPRAS\" Silva และ Stuffy360\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Outburst โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Outburst_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Outburst โดยตรง"
 "TF_Map_Blazehattan"				"Blazehattan"
 "TF_MapToken_Blazehattan"			"แสตมป์แผนที่ - Blazehattan"
-"TF_MapToken_Blazehattan_Desc"		"แผนที่ Zombie Infection (ชุมชน)\n\nสร้างโดย Emil Sharafeev, Patrik \"Nat-Tea\" Naplava, Aeon \"Void\" Bollig, Liam \"Diva Dan\" Moffitt และ Harry \"Harry\" Colquhoun\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Blazehattan โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
-"TF_MapToken_Blazehattan_AdText"	"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Blazehattan โดยตรง"
-
 "TF_Map_Unknown"				"ไม่พบแผนที่!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -5774,7 +5742,6 @@
 "TF_Map_Circus_StrangePrefix"			" Funny"
 "TF_Map_Outburst_StrangePrefix"			" Evil"
 "TF_Map_Blazehattan_StrangePrefix"		" Blazing"
-
 "TF_MapDonationLevel_Bronze"	"ทองแดง:"
 "TF_MapDonationLevel_Silver"	"เงิน:"
 "TF_MapDonationLevel_Gold"	"ทอง:"
@@ -6282,7 +6249,7 @@
 "arena_perks_haste_name"                "Haste"
 "arena_perks_precision_desc"            "คุณได้เพิ่มความเร็วและลดการกระจาย\nของกระสุน +50%"
 "arena_perks_precision_name"            "Precision"
-"arena_perks_minitofull_desc"           "ตอนนี้มินิคริติคอลของคุณ\nจะกลายเป็นคริติคอลจัดเต็มแล้ว"
+"arena_perks_minitofull_desc"           "ตอนนี้มินิคริติคอลของคุณ\nจะกลายเป็นฟูลคริติคอลแล้ว"
 "arena_perks_minitofull_name"           "Conversion"
 "arena_perks_reveal_desc"               "เมื่อคุณฆ่าศัตรูได้\nจะทำให้เปิดเผยตำแหน่งของศัตรู\n3 คนที่อยู่ใกล้ที่สุดเป็นระยะเวลา 5 วินาที"
 "arena_perks_reveal_name"               "Reveal"
@@ -6418,7 +6385,6 @@
 "pl_odyssey_steps"						"ทางขั้นระดับ"
 "tow_dynamite_coupling"					"ช่วงต่อขนส่งสินค้า"
 "tow_dynamite_flatcar"					"รถบรรทุกพื้นเรียบ"
-
 // Win panel strings
 "Winpanel_Team1"			"ทีม"
 "Winpanel_Team2"			"ทีม"
@@ -6970,10 +6936,10 @@
 "Tip_4_Count"				"27"
 "Tip_4_1"				"เมื่อเล่นเป็น Demoman ตอนกำลังใช้ปืน Stickybomb Launcher กด %attack% เพื่อยิง Stickybomb และจากนั้นกด %attack2% เพื่อระเบิดพวกมันในภายหลัง"
 "Tip_4_2"				"เมื่อเป็น Demoman เมื่อคุณใช้ Stickybomb Launcher หรือ Scottish Resistance โปรดทราบว่ายิ่งคุณกดปุ่มยิงนานเท่าไร กระสุนจะไปไกลมากขึ้นเท่านั้น"
-"Tip_4_3"				"เมื่อเล่นเป็น Demoman จุดระเบิด Stickybomb ของคุณในขณะที่คุณกระโดดข้ามมันเพื่อผลักดันให้ตัวของคุณพุ่งไปยังทิศทางที่ต้องการ"
+"Tip_4_3"				"เมื่อเล่นเป็น Demoman จุดชนวนระเบิดเหนียวของคุณในขณะที่คุณกระโดดข้ามมันเพื่อผลักดันให้ตัวของคุณพุ่งไปยังทิศทางที่ต้องการ"
 "Tip_4_4"				"เมื่อเล่นเป็น Demoman ยิง Stickybomb ไปยังกำแพงและเพดานในที่ที่ศัตรูยากจะสังเกตเห็น"
-"Tip_4_5"				"เมื่อเล่นเป็น Demoman คุณสามารถจุดระเบิด Stickybomb ด้วย %attack2% เมื่อใดก็ได้ โดยไม่คำนึงถึงอาวุธที่คุณกำลังใช้ในขณะนั้น"
-"Tip_4_6"				"เมื่อเล่นเป็น Demoman ขณะย่อตัวเมื่อเตรียมตัวที่จะ Stickybomb Jump เพื่อให้ได้ความสูงที่สูงที่สุด"
+"Tip_4_5"				"เมื่อเล่นเป็น Demoman คุณสามารถจุดชนวนระเบิดเหนียวด้วย %attack2% เมื่อใดก็ได้ โดยไม่คำนึงถึงอาวุธที่คุณกำลังใช้ในขณะนั้น"
+"Tip_4_6"				"เมื่อเล่นเป็น Demoman ขณะย่อตัวเมื่อเตรียมตัวที่จะกระโดดด้วยระเบิดเหนียวเพื่อให้ได้ความสูงที่สูงที่สุด"
 "Tip_4_7"				"เมื่อเป็น Demoman ใช้ Grenade Launcher ของคุณกับการต่อสู้โดยตรง ระเบิดจะระเบิดเมื่อกระแทกศัตรูนอกจากว่าพวกมันแตะพื้นก่อน"
 "Tip_4_8"				"เมื่อเป็น Demoman Bottle ของคุณทำความเสียหายเท่ากันไม่ว่าจะแตกหรือไม่"
 "Tip_4_9"				"เมื่อเล่นเป็น Demoman ปืน Scottish Resistance นั้นดีสำหรับการป้องกัน วาง Stickybomb หลายกลุ่มเพื่อป้องกันขอบเขตได้ นอกจากนี้ Stickybomb ของคุณยังสามารถทำลาย Stickybomb ของศัตรูได้อีกด้วย!"
@@ -8327,7 +8293,7 @@
 "TF_DEMOMAN_CRIT_SWORD_KILL_NAME"		"Beat Me Up, Scotty"
 "TF_DEMOMAN_CRIT_SWORD_KILL_DESC"		"สังหารศัตรู 5 คนด้วยการฟันที่ติด Critical จาก Eyelander"
 "TF_DEMOMAN_AIR_BURST_KILLS_NAME"		"Something Stickied This Way Comes"
-"TF_DEMOMAN_AIR_BURST_KILLS_DESC"		"สังหารผู้เล่นอื่น 30 คนด้วยการจุดระเบิด Stickybomb กลางอากาศ"
+"TF_DEMOMAN_AIR_BURST_KILLS_DESC"		"สังหารผู้เล่นอื่น 30 คนด้วยการจุดชนวนระเบิดเหนียวกลางอากาศ"
 "TF_DEMOMAN_STICKYJUMP_CAP_NAME"		"The High Road"
 "TF_DEMOMAN_STICKYJUMP_CAP_DESC"		"Sticky Jump ไปที่จุดยุทธศาสตร์และยึดมันได้สำเร็จ"
 "TF_DEMOMAN_FREEZECAM_SMILE_NAME"		"Bloody Merry"
@@ -8341,7 +8307,7 @@
 "TF_DEMOMAN_STICKJUMP_DISTANCE_NAME"		"Highland Fling"
 "TF_DEMOMAN_STICKJUMP_DISTANCE_DESC"		"ทำ Sticky Jump ที่ไกลที่สุดเท่าที่เป็นไปได้"
 "TF_DEMOMAN_KILL3_WITH_DETONATION_NAME"		"Pipebagger"
-"TF_DEMOMAN_KILL3_WITH_DETONATION_DESC"		"สังหารผู้เล่นอย่างน้อยสามคนด้วยการจุดระเบิด Stickybomb เพียงครั้งเดียว"
+"TF_DEMOMAN_KILL3_WITH_DETONATION_DESC"		"สังหารผู้เล่นอย่างน้อยสามคนด้วยการจุดชนวนระเบิดเหนียวเพียงครั้งเดียว"
 "TF_DEMOMAN_KILLXSAPPINGSPIES_NAME"		"Spynal Tap"
 "TF_DEMOMAN_KILLXSAPPINGSPIES_DESC"		"สังหาร Spy 20 คนภายใน 5 วินาทีของพวกเขาขณะกำลัง Sap สิ่งก่อสร้างฝ่ายมิตร"
 "TF_DEMOMAN_KILL3_WITH_PIPE_SETUPS_NAME"	"Sticky Thump"
@@ -8586,7 +8552,6 @@
 "TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"ใช้ ÜberCharge 1 ครั้งเพื่อชุบชีวิตเพื่อนร่วมทีม 2 คนอย่างรวดเร็วภายใน 5 วินาที"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"Robot Flush"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_DESC"				"สังหารหุ่นยนต์ 5 ตัวด้วยจรวดนัดเดียวในขณะที่อัปเกรดด้วย Rocket Specialist"
-"TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_NAME"				"Dazed And Defused"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_DESC"				"สตันหุ่นยนต์ 50 ตัวในขณะที่อัปเกรดด้วย Rocket Specialist"
 
 // Doomsday Achievements
@@ -8614,9 +8579,6 @@
 "TF_MAPS_DOOMSDAY_DEFEND_CARRIER_DESC"				"สังหารผู้เล่นที่ทำความเสียหายกับผู้ถือ Australium ใน 3 วินาทีสุดท้าย"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_NAME"			"Doomsday Milestone"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_DESC"			"บรรลุ 7 เป้าหมายของรางวัลความสำเร็จในหมวด Doomsday"
-
-// Standin Achievement
-"TF_MAPS_STANDIN_WIN_ROUNDS_NAME"					"Stand And Deliver"
 "TF_MAPS_STANDIN_WIN_ROUNDS_DESC"					"ชนะ 139 รอบ"
 
 // Process Achievement
@@ -9475,7 +9437,6 @@
 "TF_StrangeFilter_CommunityMapOutburst_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ Outburst เท่านั้น"
 "TF_StrangeFilter_CommunityMapBlazehattan"			"ตัวกรอง Strange: Blazehattan (ชุมชน)"
 "TF_StrangeFilter_CommunityMapBlazehattan_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ Blazehattan เท่านั้น"
-
 "TF_StrangeFilter_Map2fort"				"ตัวกรอง Strange: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ 2Fort เท่านั้น"
 "TF_StrangeFilter_MapDustbowl"				"ตัวกรอง Strange: Dustbowl"
@@ -10336,7 +10297,6 @@
 "Winter2023Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Winter 2023:"
 "Summer2024Cosmetics_collection"			"ชุดสะสมของตกแต่ง Summer 2024"
 "Summer2024Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Summer 2024:"
-
 "Footer_GunMettleCosmetics"					"ไอเท็มที่ได้มีโอกาสเป็นหมวก Gun Mettle ชนิด Strange หรือ Unusual"
 "TF_GunMettleCosmeticCase"					"กล่องของตกแต่ง Gun Mettle"
 "TF_GunMettleCosmeticCase_desc"				"กล่องนี้ถูกล็อคอยู่และต้องใช้\nกุญแจของตกแต่ง Gun Mettle เพื่อเปิด\n\nบรรจุไอเท็มที่สร้างโดยชุมชน\nจากชุดสะสมของตกแต่ง Gun Mettle"
@@ -11584,7 +11544,6 @@
 "Attrib_Particle43"			"Knifestorm"
 "Attrib_Particle44"			"Misty Skull"
 "Attrib_Particle45"			"Harvest Moon"
-"Attrib_Particle46"			"It's A Secret To Everybody"
 "Attrib_Particle47"			"Stormy 13th Hour"
 
 "Attrib_Particle56"			"Kill-a-Watt"
@@ -11615,7 +11574,6 @@
 "Attrib_Particle79"			"Darkblaze"
 "Attrib_Particle80"			"Demonflame"
 
-"Attrib_Particle81"			"Bonzo The All-Gnawing"
 "Attrib_Particle82"			"Amaranthine"
 "Attrib_Particle83"			"Stare From Beyond"
 "Attrib_Particle84"			"The Ooze"
@@ -11639,8 +11597,6 @@
 
 // Halloween 2015 Unusual
 "Attrib_Particle100"			"Death by Disco"
-"Attrib_Particle101"			"It's a mystery to everyone"
-"Attrib_Particle102"			"It's a puzzle to me "
 "Attrib_Particle103"			"Ether Trail"
 "Attrib_Particle104"			"Nether Trail"
 "Attrib_Particle105"			"Ancient Eldritch"
@@ -11838,7 +11794,6 @@
 "Attrib_Particle361"			"Searing Stove"
 "Attrib_Particle362"			"Über Blaze"
 "Attrib_Particle363"			"Über Blaze"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
@@ -12006,7 +11961,6 @@
 "Attrib_Particle3182"		"Confetti Celebration"
 "Attrib_Particle3183"		"Heavy Rain"
 "Attrib_Particle3184"		"Pumpkin Patch"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -12142,7 +12096,6 @@
 "TF_FistsOfSteel"			"The Fists of Steel" // ADD THE
 "TF_TreasureHat_1"			"Bounty Hat"
 "TF_TreasureHat_2"			"Treasure Hat"
-"TF_TreasureHat_3"			"Hat of Undeniable Wealth And Respect"
 "TF_TreasureHat_3_Style"	"H.O.U.W.A.R."
 "TF_Unique_RiftFireAxe"		"Sharpened Volcano Fragment"
 "TF_Unique_RiftFireMace"		"The Sun-on-a-Stick" // ADD THE
@@ -13057,7 +13010,7 @@
 "TR_Locked_AttackDefense"	"จะถูกปลดล็อคหลังจากสำเร็จการฝึกอาชีพทหาร"
 
 "TR_ClassInfo_Soldier"		"Soldier เป็นอาชีพที่ดีในการบุกและการป้องกันโดยมีอาวุธหลักเป็น Rocket Launcher เขาสามารถทำความเสียหายเป็นจำนวนมากได้ในเวลาสั้น ๆ แต่ต้องไม่ลืมที่จะบรรจุกระสุน Rocket Launcher ของเขาให้เต็มตลอดเวลาหรือถูกทำให้ตกใจ"
-"TR_ClassInfo_Demoman"		"เนื่องจากเป็นผู้เชี่ยวชาญด้านระเบิด เขาสามารถใช้ระเบิดที่กระดอนเพื่อโจมตีเป้าหมายทางอ้อมได้ ใช้ Stickybomb เพื่อวางกับดักสำหรับศัตรูหรือทำลาย Sentry Gun ที่ป้องกันไว้อย่างดี"
+"TR_ClassInfo_Demoman"		"เนื่องจากเป็นผู้เชี่ยวชาญด้านระเบิด เขาสามารถใช้ระเบิดที่กระดอนเพื่อโจมตีเป้าหมายทางอ้อมได้ ใช้ระเบิดเหนียวเพื่อวางกับดักสำหรับศัตรูหรือทำลาย Sentry Gun ที่ป้องกันไว้อย่างดี"
 "TR_ClassInfo_Spy"			"Spy ปฏิบัติการแตกต่างจากอาชีพอื่นโดยเลือกการซ่อนตัวและสร้างความประหลาดใจแทนที่การสู้แบบตัวต่อตัว  บทบาทของพวกเขาวนเวียนกับการสังหารเป้าหมายสำคัญเช่น Medic หรือทำลายตำแหน่ง Sentry Gun"
 "TR_ClassInfo_Engineer"		"ใช้ Sentry gun Teleporter เพื่อเคลื่อนย้ายเพื่อนร่วมทีมไปแนวหน้าอย่างรวดเร็วและ Dispenser ให้พลังชีวิตและกระสุน Engineer เป็นส่วนสำคัญส่วนหนึ่งของทุกทีม"
 
@@ -13231,7 +13184,7 @@
 "TR_DemoRush_SentryTitle"	"การทำลาย Sentry Gun"
 "TR_DemoRush_Sentry"		"ปืน STICKYBOMB LAUNCHER เหมาะสำหรับทำลาย Sentry Gun ที่วางอยู่ข้างหน้าขวางเส้นทางของทีมคุณอยู่"
 "TR_DemoRush_SentryMultiple"	"ใช้ STICKYBOMB LAUNCHER เพื่อวางระเบิดหลายลูกใกล้ Sentry Gun ได้ จุดระเบิดพวกมันโดยใช้ %attack2%"
-"TR_DemoRush_SentryEngineer"	"ด้วยการจุดระเบิด STICKYBOMB หลายลูกพร้อมกัน สามารถขัดขวางสกิลในการซ่อมแซมสิ่งก่อสร้างของ Engineer ได้"
+"TR_DemoRush_SentryEngineer"	"ด้วยการจุดชนวนระเบิดเหนียวหลายลูกพร้อมกัน สามารถขัดขวางสกิลในการซ่อมแซมสิ่งก่อสร้างของ Engineer ได้"
 "TR_DemoRush_SentryDoor"	"ประตูจะเปิดในขณะนี้และยอมให้คุณและทีมของคุณเข็นรถไปสู่ชัยชนะ"
 
 "TR_DemoRush_CombatHint1Title"	"เคล็ดลับลูกระเบิด"
@@ -13328,7 +13281,7 @@
 "TF_IM_Target_Welcome"		"การเลือกอาวุธและการฝึกยิงเป้าหมาย!"
 "TF_IM_Target_WeaponSwitch"	"เปลี่ยนเป็นอาวุธที่กำหนดแล้วโจมตีเป้าหมาย"
 "TF_IM_Target_Reload"		"บรรจุกระสุนบ่อย ๆ ! ใช้เวลาเพื่อบรรจุกระสุนอาวุธให้เสร็จสิ้น"
-"TF_IM_TargetDemo_Sticky"	"สามารถวางและจุดระเบิด Stickybomb หลายลูกได้"
+"TF_IM_TargetDemo_Sticky"	"สามารถวางและจุดชนวนระเบิดเหนียวหลายลูกได้"
 "TF_IM_TargetDemo_Distance"	"เล็งสูงขึ้นเพื่อให้ลูกระเบิดโค้งได้ไกลขึ้น"
 "TF_IM_TargetSpy_Intro"		"Spy มีความสามารถเฉพาะตัวหลายอย่าง รวมถึงการล่องหนและการปลอมตัว"
 "TF_IM_TargetSpy_Cloak"		"การล่องหนทำให้ศัตรูของ Spy มองไม่เห็นพวกเขา"
@@ -13692,10 +13645,9 @@
 "TF_MM_RankUpMatch"		"แมตช์จัดอันดับ!\nคุณจะเพิ่มอันดับได้ หากทีมของคุณชนะ!"
 "TF_MM_PlacementMatch"	"แมตช์จัดอันดับ!\nคุณจะเพิ่มอันดับได้ หากทีมของคุณชนะ!"
 "TF_MM_AlreadyQueued" "คุณได้อยู่ในคิวของโหมดนี้อยู่แล้ว"
-"TF_MM_Queue_Error_Title"	"Matchmaking error"
+"TF_MM_Queue_Error_Title"	"ข้อผิดพลาดในการค้นหาแมตช์"
 "TF_MM_Queue_Error_Ping_Text"	"ไม่สามารถติดต่อภูมิภาคใด ๆ เพื่อค้นหาแมตช์ได้ โปรดเยี่ยมชมลิงก์ด้านล่างนี้เพื่อดูข้อมูลการแก้ไขปัญหา"
 "TF_MM_Queue_Error_Ping_URL"	"https://help.steampowered.com/faqs/view/669A-2F68-D1D1-A5EC"
-"TF_MM_Queue_Error_Title"	"ข้อผิดพลาดในการค้นหาแมตช์"
 "TF_MM_Queue_Error_VACIssue_Text"	"ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ VAC ของ Steam ได้ โปรดไปที่ลิงก์ด้านล่างนี้เพื่อดูข้อมูลการแก้ไขปัญหา"
 "TF_MM_Queue_Error_VACIssue_URL"	"https://help.steampowered.com/faqs/view/22C0-03D0-AE4B-04E8"
 
@@ -14610,7 +14562,6 @@
 "TF_MvM_VoucherExplanation_Title"	"Squad Surplus Voucher"
 "TF_MvM_VoucherExplanation_Text"	"การใช้บัตรกำนัล Squad Surplus (Squad Surplus Voucher) จะทำให้ได้รับไอเท็มเพิ่มเติมแบบสุ่มแก่คุณและเพื่อนร่วมทีมแต่ละคนเมื่อภารกิจจบ ถ้าผู้เล่นหลายคนใช้งานบัตรกำนัล ผู้เล่นทุกคนจะได้รับไอเท็มจากแต่ละบัตรกำนัล"
 
-"TF_MvM_UpgradeExplanation_Title"	"การอัปเกรดอาชีพและอาวุธ"
 "TF_MvM_UpgradeExplanation_Text"	"หากคุณเปลี่ยนอาชีพระหว่างภารกิจ การอัปเกรดของคุณจะยังคงอยู่ในอาชีพอัปเกรดก่อนหน้านี้ ไอคอนประแจนี้จะแสดงถึงอาชีพที่ได้ถูกอัปเกรดแล้ว แม้ว่าการอัปเกรดเหล่านั้นจะไม่สามารถถ่ายโอนระหว่างอาชีพอื่นก็ตาม ผู้เล่นควรจะกลับสู่อาชีพที่ถูกอัปเกรดแล้ว\n\nการอัปเกรดอาวุธก็ใช้งานในระบบวิธีเดียวกัน หากคุณเปลี่ยนชุดอุปกรณ์อาวุธของคุณระหว่างภารกิจ การอัปเกรดของคุณจะยังคงอยู่ในอาวุธเหล่านั้น คุณควรกลับไปใช้อาวุธที่ถูกอัปเกรดแล้ว"
 
 "TF_MvM_RequiresTicket_Title"	"ต้องใช้ตั๋ว"
@@ -15061,7 +15012,7 @@
 "Tip_MvM_3_1"		"เคล็ดลับ: อัปเกรดแรงอัดอากาศเพื่อผลักหุ่นยนต์ที่กำลังถือระเบิดลงเหวเพื่อรีเซ็ตระเบิดหรือเพิ่มระยะทาง"
 
 "Tip_MvM_4_Count"	"1"
-"Tip_MvM_4_1"		"เคล็ดลับ: อัปเกรดความเสียหายของ Stickybomb เพื่อทำลายเป้าหมายสำคัญในทันทีด้วยกับดัก Stickybomb ที่รุนแรง"
+"Tip_MvM_4_1"		"เคล็ดลับ: อัปเกรดความเสียหายของระเบิดเหนียวเพื่อทำลายเป้าหมายสำคัญในทันทีด้วยกับดักระเบิดเหนียวที่รุนแรง"
 
 "Tip_MvM_5_Count"	"1"
 "Tip_MvM_5_1"		"เคล็ดลับ: ซื้ออัปเกรดความโกรธ (Rage) เพื่อผลักศัตรูถอยเมื่อคุณยิงพวกมัน"
@@ -15907,7 +15858,6 @@
 
 "TF_BrutalBouffant"			"The Brütal Bouffant" // ADD THE
 "TF_BrutalBouffant_Desc"		"ผมรองทรงยาวและจอนผมแบบเฮฟวี่เมทัลสำหรับทุกชนชั้นนี้ ทำด้วยมือจากผมของแฟนเพลงขาร็อคเฮฟวี่เมทัลแห่งไอซ์แลนด์ ถักทอด้วยเข็มนิตติ้งหัวเวทมนตร์ที่ลงมหาคาถาเร้นลับ และจดหมายอากาศส่งตรงจากนรก"
-"TF_ShredAlert"				"The Shred Alert" // ADD THE
 "TF_TauntDemomanNuke"		"ท่าเยาะเย้ย: Spent Well Spirits"
 "TF_TauntDemomanNuke_Desc"	"ท่าเยาะเย้ย Demoman"
 "TF_TauntDemomanWoohoo"		"ท่าเยาะเย้ย: Oblooterated"
@@ -16681,7 +16631,6 @@
 "TF_sf14_fowl_fists"                    "The Fowl Fists" // ADD THE
 "TF_sf14_talon_trotters"                "The Talon Trotters" // ADD THE
 "TF_sf14_scout_hunter_head"             "The Head Hunter" // ADD THE
-"TF_sf14_scout_hunter_arm"              "The Claws And Infect"  // ADD THE
 "TF_sf14_scout_hunter_legs"             "The Crazy Legs"  // ADD THE
 "TF_sf14_ghost_of_spies_checked_past"   "The Ghost of Spies Checked Past"  // ADD THE
 "TF_sf14_hooded_haunter_classes"        "The Hooded Haunter" // ADD THE
@@ -17644,7 +17593,6 @@
 "TF_hwn2021_twisted_topper"			"Twisted Topper"
 "TF_hwn2021_twisted_topper_style0"		"Bow Tie"
 "TF_hwn2021_twisted_topper_style1"		"No Bow Tie"
-"TF_hwn2021_beanie_all_gnawing"		"Beanie The All-Gnawing"
 "TF_hwn2021_eyequarium"				"Eyequarium"
 "TF_hwn2021_eyequarium_style0"			"Spring Water"
 "TF_hwn2021_eyequarium_style0_nohat"	"Spring Water (ไม่มีหมวก)"
@@ -17873,7 +17821,6 @@
 "TF_hwn2024_defaced"					"Defaced Detonator"
 "TF_hwn2024_defaced_style1"					"Right Side"
 "TF_hwn2024_defaced_style2"					"Left Side"
-
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "ทรงผม Pompadour ยุคก่อนประวัติศาสตร์นี้ถูกตัดเป็นครั้งแรกโดย Sir Edmund Hillary บนเนินเขาเอเวอเรสต์ ตามมาด้วยการที่ Hillary สังเกตุเห็นว่าตัวเองขี้แตกคากางเกงของเขา"
 "TF_HimalayanHairShirt"        "Himalayan Hair Shirt" // ADD THE
@@ -18495,7 +18442,7 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 
 "TF_Passtime_Goal"					"ประตู"
 "TF_Passtime_InPassRange"			"ในระยะส่ง"
-"TF_Passtime_CarrierName"			"ผู้ถือ: %s1"
+"TF_Passtime_CarrierName"			"ผู้ขนส่ง: %s1"
 
 "TF_LobbyContainer_Help"			"ช่วยเหลือ"
 "TF_LobbyContainer_Ping"			"การตั้งค่าปิง"
@@ -18519,7 +18466,6 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 "TF_DataCenter_syd"				"ซิดนีย์ ออสเตรเลีย"
 "TF_DataCenter_dxb"				"ดูไบ สหรัฐอาหรับเอมิเรตส์"
 "TF_DataCenter_bom"				"มุมไบ อินเดีย"
-"TF_DataCenter_maa"				"เจนไน อินเดีย"
 "TF_DataCenter_ord"				"ชิคาโก สหรัฐอเมริกา"
 "TF_DataCenter_waw"				"วอร์ซอ โปแลนด์"
 "TF_DataCenter_jnb"				"โจฮันเนสเบิร์ก แอฟริกาใต้"

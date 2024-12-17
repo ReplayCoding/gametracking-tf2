@@ -32,16 +32,15 @@ characterTraitsClasses.push(class extends CustomVoiceLine
 
     function OnWallClimb(otherPlayer, streak, quickFixLink)
     {
+        if (usingBFB)
+            SetPropFloat(player, "m_Shared.m_flHypeMeter", clampFloor(GetPropFloat(player, "m_Shared.m_flHypeMeter") - 20, 0));
+
         if (quickFixLink || player != otherPlayer || !ShouldPlayVoiceLine())
             return;
 
         local inverseChance = climbLineTimesPlayed[0]++ < 3 ? 3 : 5;
         if (player.GetPlayerClass() == TF_CLASS_SCOUT)
-        {
             inverseChance *= 2;
-            if (usingBFB)
-                SetPropFloat(player, "m_Shared.m_flHypeMeter", clampFloor(GetPropFloat(player, "m_Shared.m_flHypeMeter") - 20, 0));
-        }
         if (RandomInt(0, inverseChance) == 0)
         {
             lastTimePlayedLine[player] <- Time();

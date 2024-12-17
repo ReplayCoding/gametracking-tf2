@@ -2312,8 +2312,6 @@
 "TF_TournamentMedal_PASSTime_Federation_Season4_2nd_Desc"				"Oletko kuulolla, palkkasoturi? Selvisit taistelukentällä, jolla monet ovat kaatuneet. Taitosi, tiimityöskentelysi, uskollisuutesi ja siteesi tiimikavereihin erottaa sinut joukosta. Pidä lippu korkealla – olet ansainnut kaiken saamasi kunnioituksen potkimalla palloa. Hienoa työtä!\n\nMyönnetty palkintona PASS Time Federationin 4. kauden Euroopan alueen toisen sijan voittajille."
 "TF_TournamentMedal_PASSTime_Federation_Season4_3rd_Desc"				"Ahdistaako? Ei huolta! Selvitit tiesi turnauksen loppuun kunnialla. Raivasit tieltäsi kaikki esteet — pölyn, oksankarahkat, hien ja... raketit? Kuka tietää, miksi räjähteet ovat osa urheilua, mutta onko sillä väliä? Päihitit kaikki!\n\nMyönnetty palkintona PASS Time Federationin 4. kauden Euroopan alueen kolmannen sijan voittajille."
 "TF_TournamentMedal_PASSTime_Federation_Season4_Participant_Desc"		"Olet ehkä nähnyt ihmisten potkivan, lyövän tai jopa purevan palloa. Yök. Mitä televisiossa näkyikään, päätit kokeilla sitä (kirjaimellisesti) ja onnistuit. Osoitit kaikille, ettet ole pelkuri vaan palkkasoturi, joka todella antoi kaikkensa!\n\nMyönnetty palkintona PASS Time Federationin 4. kauden Euroopan alueen osallistujille."
-"TF_TournamentMedal_PASSTime_Federation_Season4_Staff_Desc"				"Riippumatta siitä hurrasitko, järjestitkö vai pidit langat käsissäsi, omistautumisesi oli ainutlaatuisen tärkeää. Autoit tekemään PASS Timesta menestyksekkään, ja sinut muistetaan pelin todellisena sankarina. Kiitos kaikesta avustasi!\n\nMyönnetty palkintona PASS Time Federationin 4. kauden Euroopan alueen vapaaehtoisille."
-
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_1st"			"Chapelaria Highlander Gladiator – 1. sija"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_2nd"			"Chapelaria Highlander Gladiator – 2. sija"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_3rd"			"Chapelaria Highlander Gladiator – 3. sija"
@@ -3462,11 +3460,7 @@ Yritä hetken kuluttua uudelleen."
 "TF_Bundle_EqualizerEscape"			"Hakkupakkaus"
 "TF_Bundle_EqualizerEscape_Desc"	"Sisältää Tasoittajan sekä Pakosuunnitelman:"
 
-"TF_Bundle_LW_Weapons"				"Love And War -asepaketti"
-"TF_Bundle_LW_Weapons_Desc"			"Sisältää koko Love And War -päivityksen uuden asevalikoiman:"
-"TF_Bundle_LW_Taunts"				"Love And War -pilkkapaketti"
 "TF_Bundle_LW_Taunts_Desc"			"Bailaa ystäviesi kanssa ja tee vihollisesi hulluksi näillä viidellätoista pilkalla:"
-"TF_Bundle_LW_Cosmetics"			"Love And War -kosmetiikkapaketti"
 "TF_Bundle_LW_Cosmetics_Desc"		"Kaikki neljäkymmentäneljä uutta kosmeettista esinettä yhdessä paketissa, joka on niin iso että se juuri ja juuri mahtuu tähän:"
 
 "TF_Bundle_Summer2012_UrbanProfessional"		"Kaupunkiammattilainen-paketti"
@@ -4668,8 +4662,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_SplendidScreen_Style1"	"Klassinen"
 "TF_SplendidScreen_Style2"	"Piikki"
 "TF_SplendidScreen_Style3"	"Nuoli"
-"TF_SplendidScreen_Style4"	"Piikki ja nuoli"
-
 "TF_Pyromancer_Style1"		"Alkuperäinen"
 "TF_Pyromancer_Style2"		"Täysvärjäys"
 "TF_Pyromancer_Style3"		"Tyylikäs maalaus"
@@ -4825,7 +4817,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "cp_hadal_authors"				"Juha \"Jusa\" Kuoppala\nMaxime \"Fubar\" Dupuis"
 "ctf_applejack_authors"			"Rhafael \"Rhamkin\" Oliveira\nAl \"Square\" Rodgers\nYiming \"Coolchou\" Zhao\nAlex \"FGD5\" Stewart\nAeon \"Void\" Bollig"
 "pd_atom_smash_authors"			"Aeon \"Void\" Bollig\nJuniper\nMike \"CornetTheory\" Hillard\nLiam \"Diva Dan\" Moffitt\nSky\nFreyja\nZoey\nBenjamin \"blaholtzen\" Blåholtz\nPearForceOne\nTim \"SediSocks\" BL"
-"cp_canaveral_5cp_authors"		"Jesse \"Custard1\" Budd\nPatrick \"Zeus\" Hennessy\nWilliam \"Cheesypuff\" Bartley-Bolster\nBrandon \"Bonk Nickeltoon\" Koller\nBailey \"Glitch\" Hodges\nNickolas \"krazyZark\" Fenech\nLouie \"bakscratch\" Turner"
 "cp_burghausen_authors"			"Christoph \"Gadget\" Manschitz"
 "koth_toxic_authors"			"Matthew \"Panckakebro\" Hiller\nElián \"iron\" Rodríguez\nDenis \"xB33\" Varchulik\nPhe\nStuffy360\nLouie \"bakscratch\" Turner"
 "cp_darkmarsh_authors"			"Elián \"iron\" Rodríguez\nMatthew \"Panckakebro\" Hiller\nRyan \"Chill\" Foy"
@@ -4834,7 +4825,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "pd_circus_authors"				"Liam \"Diva Dan\" Moffitt\nAeon \"Void\" Bollig\ndonhonk"
 "vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó \"Maxxy\" Attila\nMaksim \"VellyVice\" Streltsov\nMatthew \"MegapiemanPHD\" Simmons\nJames M.\nJason \"Yaki\" Herman\nJoaquim \"JPRAS\" Silva\nStuffy360"
 "zi_blazehattan_authors"		"Emil Sharafeev\nPatrik \"Nat-Tea\" Naplava\nAeon \"Void\" Bollig\nLiam \"Diva Dan\" Moffitt\nHarry \"Harry\" Colquhoun"
-
 "TF_YourStats"					"Tilastosi"
 "TF_DuckPromoList"				"-Kaikkien luokkien kosmeettinen esine yhdellätoista tyylillä\n-Seuraa tilastojasi End of the Line -tapahtuman aikana\n-Tarkastele pistetaulukoita ja kilpaile kaverien kanssa\n-Ostamalla tuet End of the Line -tiimiä"
 "TF_GetDucky"					"Nyt ankkailemaan"
@@ -5289,33 +5279,18 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_MapToken_Burghausen_AdText"		"– Tämän tuotteen myyntitulot tukevat suoraan Burghausen-yhteisökartan tekijöitä."
 "TF_Map_Toxic"						"Toxic"
 "TF_MapToken_Toxic"					"Karttamerkki – Toxic"
-"TF_MapToken_Toxic_Desc"			"Kukkulan kuningas -kartta\n\ntekijöiltä Matthew \"Panckakebro\" Hiller, Elián \"iron\" Rodríguez, Denis \"xB33\" Varchulik, Phe, Stuffy360 ja Louie \"bakscratch\" Turner.\n\nOstamalla tämän esineen tuet suoraan Toxic-yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Toxic_AdText"			"-Ostamalla tämän esineen tuet suoraan Toxic-yhteisökartan tekijöitä."
 "TF_Map_Darkmarsh"					"Darkmarsh"
 "TF_MapToken_Darkmarsh"				"Karttamerkki – Darkmarsh"
-"TF_MapToken_Darkmarsh_Desc"		"Komentopisteen hyökkäys- ja puolustuskartta\n\ntekijöiltä Elián \"iron\" Rodríguez, Matthew \"Panckakebro\" Hiller ja Ryan \"Chill\" Foy.\n\n-Ostamalla tämän esineen tuet suoraan Toxic-yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Darkmarsh_AdText"		"– Tämän tuotteen myyntitulot tukevat suoraan Darkmarsh-yhteisökartan tekijöitä."
 "TF_Map_FreakyFair"					"Freaky Fair"
 "TF_MapToken_FreakyFair"			"Karttamerkki – Freaky Fair"
-"TF_MapToken_FreakyFair_Desc"		"Komentopistekartta\n\ntekijöiltä Emil Sharafeev, George \"I dinne ken\" Norman, Liam \"Diva Dan\" Moffitt, Patrik \"Nat-Tea\" Naplava, Aeon \"Void\" Bollig, Wilson, Stuffy360 ja Ranily.\n\nOstamalla tämän esineen tuet suoraan Freaky Fair -yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_FreakyFair_AdText"		"-Ostamalla tämän esineen tuet suoraan Freaky Fair -yhteisökartan tekijöitä."
 "TF_Map_Dynamite"					"Dynamite"
 "TF_MapToken_Dynamite"				"Karttamerkki – Dynamite"
-"TF_MapToken_Dynamite_Desc"			"Köydenveto-kartta (yhteisön luoma)\n\ntekijöiltä Will Alfred, Jordan \"Ismac\" La Rose, Lizard Of Oz, Haau, Aydan, Neal \"Blade x64\" Smart ja Liam \"Diva Dan\" Moffitt.\n\nOstamalla tämän esineen tuet suoraan Dynamite -yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Dynamite_AdText"		"-Ostamalla tämän esineen tuet suoraan Dynamite-yhteisökartan tekijöitä."
 "TF_Map_Circus"						"Circus"
 "TF_MapToken_Circus"				"Karttamerkki – Circus"
-"TF_MapToken_Circus_Desc"			"Pelaajan tuho -kartta\n\ntekijöiltä Liam \"Diva Dan\" Moffitt, Aeon \"Void\" Bollig ja donhonk.\n\nOstamalla tämän esineen tuet suoraan Circus-yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Circus_AdText"			"-Ostamalla tämän esineen tuet suoraan Circus-yhteisökartan tekijöitä."
 "TF_Map_Outburst"					"Outburst"
 "TF_MapToken_Outburst"				"Karttamerkki – Outburst"
-"TF_MapToken_Outburst_Desc"			"Halen höykytys -kartta (yhteisön luoma)\n\ntekijöiltä Lizard Of Oz, Phe, Szabó \"Maxxy\" Attila, Maksim \"VellyVice\" Streltsov, Matthew \"MegapiemanPHD\" Simmons, James M., Jason \"Yaki\" Herman, Joaquim \"JPRAS\" Silva ja Stuffy360.\n\nOstamalla tämän esineen tuet suoraan Outburst-yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Outburst_AdText"		"-Ostamalla tämän esineen tuet suoraan Outburst-yhteisökartan tekijöitä."
 "TF_Map_Blazehattan"				"Blazehattan"
 "TF_MapToken_Blazehattan"			"Karttamerkki – Blazehattan"
-"TF_MapToken_Blazehattan_Desc"		"Zombiepidemia-kartta (yhteisön luoma)\n\ntekijöiltä Emil Sharafeev, Patrik \"Nat-Tea\" Naplava, Aeon \"Void\" Bollig, Liam \"Diva Dan\" Moffitt ja Harry \"Harry\" Colquhoun.\n\nOstamalla tämän esineen tuet suoraan Blazehattan-yhteisökartan tekijöitä. Osoita tukesi jo tänään!"
-"TF_MapToken_Blazehattan_AdText"	"-Ostamalla tämän esineen tuet suoraan Blazehattan-yhteisökartan tekijöitä."
-
 "TF_Map_Unknown"				"Karttaa ei löytynyt!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -5477,7 +5452,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_Map_Circus_StrangePrefix"			" Funny"
 "TF_Map_Outburst_StrangePrefix"			" Evil"
 "TF_Map_Blazehattan_StrangePrefix"		" Blazing"
-
 "TF_MapDonationLevel_Bronze"	"Pronssi:"
 "TF_MapDonationLevel_Silver"	"Hopea:"
 "TF_MapDonationLevel_Gold"	"Kulta:"
@@ -6081,7 +6055,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "pl_odyssey_steps"						"Portaat"
 "tow_dynamite_coupling"					"Vaunukytkentä"
 "tow_dynamite_flatcar"					"Avovaunu"
-
 // Win panel strings
 "Winpanel_Team1"			"TIIMI"
 "Winpanel_Team2"			"Tiimi"
@@ -8244,7 +8217,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"Elvytä 2 tiimikaveria 5 sekunnissa yhdellä ylilatauksella."
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"Robottivärisuora"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_DESC"				"Tuhoa 50 robottia, kun rakettimestaripäivitys on käytössä."
-"TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_NAME"				"Halki, poikki ja tainnoksiin"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_DESC"				"Tainnuta 50 vihollista, kun rakettimestari-päivitys on käytössä."
 
 // Doomsday Achievements
@@ -8272,9 +8244,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_MAPS_DOOMSDAY_DEFEND_CARRIER_DESC"				"Tapa vihollinen, joka on vahingoittanut Australiumin kantajaa viimeisen 3 sekunnin sisällä."
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_NAME"			"Tuomionpäivä-merkkipaalu"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_DESC"			"Saavuta 7 Tuomionpäivä-paketin saavutusta."
-
-// Standin Achievement
-"TF_MAPS_STANDIN_WIN_ROUNDS_NAME"					"Kolmen pisteen voitto"
 "TF_MAPS_STANDIN_WIN_ROUNDS_DESC"					"Voita 139 erää."
 
 // Process Achievement
@@ -9135,7 +9104,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_StrangeFilter_CommunityMapOutburst_Desc"		"Lisäämällä tämän kummallisen suodattimen kummalliseen esineeseen ja valitsemalla yhden seurattavan asian voit rajoittaa seuratut asiat karttaan Outburst."
 "TF_StrangeFilter_CommunityMapBlazehattan"			"Kummallinen suodatin: Blazehattan (yhteisö)"
 "TF_StrangeFilter_CommunityMapBlazehattan_Desc"		"Lisäämällä tämän kummallisen suodattimen kummalliseen esineeseen ja valitsemalla yhden seurattavan asian voit rajoittaa seuratut asiat karttaan Blazehattan."
-
 "TF_StrangeFilter_Map2fort"				"Kummallinen suodatin: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Lisäämällä tämän kummallisen suodattimen kummalliseen aseeseen ja valitsemalla yhden seurattavan asian voit rajoittaa seuratut asiat karttaan 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Kummallinen suodatin: Dustbowl"
@@ -10000,7 +9968,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Winter2023Cosmetics_collection_desc"		"Talven 2023 kosmeettiset esineet:"
 "Summer2024Cosmetics_collection"			"Kesän 2024 kosmetiikkakokoelma"
 "Summer2024Cosmetics_collection_desc"		"Kesän 2024 kosmetiikkaesineet:"
-
 "Footer_GunMettleCosmetics"					"Saattaa sisältää kummallisen esineen tai epätavallisen Gun Mettle -hatun"
 "TF_GunMettleCosmeticCase"					"Gun Mettle -kosmetiikkapakkaus"
 "TF_GunMettleCosmeticCase_desc"				"Tämä salkku on lukittu, ja sen avaamiseen\n vaaditaan Gun Mettle -kosmetiikka-avain.\nSisältää yhteisön tekemän esineen\nGun Mettle -kosmetiikkakokoelmasta."
@@ -11247,7 +11214,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle43"			"Veitsimyrsky"
 "Attrib_Particle44"			"Utuinen kallo"
 "Attrib_Particle45"			"Punainen täysikuu"
-"Attrib_Particle46"			"Olkoon se salaisuus kaikille"
 "Attrib_Particle47"			"Synkkä ja myrskyinen"
 
 "Attrib_Particle56"			"Hattiwatti"
@@ -11278,7 +11244,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle79"			"Pimeä loimu"
 "Attrib_Particle80"			"Kiirastuli"
 
-"Attrib_Particle81"			"Kaikenkaluava Bonzo"
 "Attrib_Particle82"			"Utelias usva"
 "Attrib_Particle83"			"Haudantakainen haritus"
 "Attrib_Particle84"			"Klöntin paluu"
@@ -11302,8 +11267,6 @@ Tämä näyttää hyvältä. Todella terävää."
 
 // Halloween 2015 Unusual
 "Attrib_Particle100"			"Peilipallo pääkallopaikalla"
-"Attrib_Particle101"			"Se on mysteeri kaikille"
-"Attrib_Particle102"			"Se on mysteeri minulle"
 "Attrib_Particle103"			"Eteerinen elämys"
 "Attrib_Particle104"			"Manalan vana"
 "Attrib_Particle105"			"Iänikuisen vanha"
@@ -11476,7 +11439,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle361"			"Lieden liekki"
 "Attrib_Particle362"			"Überroihu"
 "Attrib_Particle363"			"Überroihu"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Kuuma"
 "Attrib_Particle702"			"Isotooppi"
@@ -11626,7 +11588,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle3182"		"Kultainen konfettisade"
 "Attrib_Particle3183"		"Kaatosade"
 "Attrib_Particle3184"		"Kurpitsafarmari"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Tappoputki: %s1"
@@ -11765,7 +11726,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_FistsOfSteel"			"Teräsnyrkit" // ADD THE
 "TF_TreasureHat_1"			"Palkkiohattu"
 "TF_TreasureHat_2"			"Aarrehattu"
-"TF_TreasureHat_3"			"Kiistämättömän vaurauden ja kunnian hattu"
 "TF_TreasureHat_3_Style"	"H.O.U.W.A.R."
 "TF_Unique_RiftFireAxe"		"Teroitettu tulivuoren kappale"
 "TF_Unique_RiftFireMace"		"Tähtitikku" // ADD THE
@@ -13318,10 +13278,9 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_MM_RankUpMatch"		"Sijoitusottelu!\nTasosi nousee, jos tiimisi voittaa!"
 "TF_MM_PlacementMatch"	"Sijoitusottelu!\nAnsaitset tasosi, jos tiimisi voittaa!"
 "TF_MM_AlreadyQueued" "Jonotat jo tätä pelimuotoa."
-"TF_MM_Queue_Error_Title"	"Matchmaking error"
+"TF_MM_Queue_Error_Title"	"Pelihakuvirhe"
 "TF_MM_Queue_Error_Ping_Text"	"Yhteenkään pelihakualueeseen ei saatu yhteyttä. Katso vianmääritystiedot alla olevasta linkistä."
 "TF_MM_Queue_Error_Ping_URL"	"https://help.steampowered.com/faqs/view/669A-2F68-D1D1-A5EC"
-"TF_MM_Queue_Error_Title"	"Pelihakuvirhe"
 "TF_MM_Queue_Error_VACIssue_Text"	"Steamin VAC-palvelimiin ei voitu muodostaa yhteyttä. Vianmääritystiedot löytyvät alla olevasta linkistä."
 "TF_MM_Queue_Error_VACIssue_URL"	"https://help.steampowered.com/faqs/view/22C0-03D0-AE4B-04E8"
 
@@ -14237,7 +14196,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_MvM_VoucherExplanation_Title"	"Kimppakupongit"
 "TF_MvM_VoucherExplanation_Text"	"Kimppakupongin käyttäminen palkitsee sinut ja tiimikaverisi ylimääräisellä esineellä suoritettuanne tehtävän onnistuneesti. Jos useampi pelaaja käyttää kupongin, kaikki pelaajat saavat ylimääräisen esineen jokaista kuponkia kohti."
 
-"TF_MvM_UpgradeExplanation_Title"	"Luokka- ja aseparannukset"
 "TF_MvM_UpgradeExplanation_Text"	"Jos vaihdat luokkaa tehtävän aikana, päivityksesi säilyvät. Luokat, joita on jo päivitetty, merkitään jakoavaimella. Nämä päivitykset eivät siirry luokkien välillä, mutta säilyvät siltä varalta että vaihdat takaisin.\n\nAsepäivitykset toimivat samalla tavalla. Jos vaihdat aseita tehtävän aikana, aseet säilyttävät päivityksensä, kunnes käytät niitä taas."
 
 "TF_MvM_RequiresTicket_Title"	"Lipuke vaaditaan"
@@ -15536,7 +15494,6 @@ Tämä näyttää hyvältä. Todella terävää."
 
 "TF_BrutalBouffant"			"Brütaali takatukka" // ADD THE
 "TF_BrutalBouffant_Desc"		"Tämä joka luokalle sopiva, brutaalisti muhkea pulisonki-takatukka-yhdistelmä on käsin keritty islantilaisten moshaajien leteistä, kudottu okkultismissa tärkeillä riimukuvioiduilla kutimilla ja lennätetty suoraan helvetistä."
-"TF_ShredAlert"				"Riffiritari" // ADD THE
 "TF_TauntDemomanNuke"		"Pilkka: Väkijuomajytky"
 "TF_TauntDemomanNuke_Desc"	"Demon pilkka"
 "TF_TauntDemomanWoohoo"		"Pilkka: Kippis"
@@ -16314,7 +16271,6 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sf14_fowl_fists"                    "Kanan käpälät" // ADD THE
 "TF_sf14_talon_trotters"                "Linnun läpsyttimet" // ADD THE
 "TF_sf14_scout_hunter_head"             "Päänpopsija" // ADD THE
-"TF_sf14_scout_hunter_arm"              "Saastuneen silpojat"  // ADD THE
 "TF_sf14_scout_hunter_legs"             "Hullummoiset hyppyttäjät"  // ADD THE
 "TF_sf14_ghost_of_spies_checked_past"   "Vakoojavainaa"  // ADD THE
 "TF_sf14_hooded_haunter_classes"        "Huputettu hirmu" // ADD THE
@@ -16709,6 +16665,9 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_taunt_the_punchline"					"Pilkka: Puujalkavitsi (The Punchline)"
 "TF_taunt_the_punchline_Desc"				"Yhteisön luoma pilkka Spylle"
 "TF_taunt_the_punchline_AdText"				"-Yhteisön luoma pilkka Spylle"
+"TF_taunt_curtain_call"						"Pilkka: Kiitos ja kumarrus"
+"TF_taunt_peace"							"Pilkka: Rauhan asialla"
+"TF_taunt_forehead_slice"					"Pilkka: Kallokierre"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Happihuppu"	// ADD THE
@@ -17488,7 +17447,6 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_hwn2024_defaced"					"Puolikas pyromaani"
 "TF_hwn2024_defaced_style1"					"Oikea puoli"
 "TF_hwn2024_defaced_style2"					"Vasen puoli"
-
 "TF_KathmanHairdo"             "Kathman-tukka" // ADD THE
 "TF_KathmanHairdo_Desc"        "Tämän esihistoriallisen pompadourin löysi ensimmäisenä Sir Edmund Hillary kavutessaan Mount Everestin jyrkänteillä. Pian tämän jälkeen Hillary löysi myös vetelät housuistaan."
 "TF_HimalayanHairShirt"        "Himalajan karvapaita" // ADD THE
@@ -18119,7 +18077,6 @@ Viholliset voivat torjua pommilastin seisomalla sen päällä."
 "TF_DataCenter_syd"				"Sydney, Australia"
 "TF_DataCenter_dxb"				"Dubai, Arabiemiirikunnat"
 "TF_DataCenter_bom"				"Mumbai, Intia"
-"TF_DataCenter_maa"				"Chennai, Intia"
 "TF_DataCenter_ord"				"Chicago, USA"
 "TF_DataCenter_waw"				"Varsova, Puola"
 "TF_DataCenter_jnb"				"Johannesburg, Etelä-Afrikka"
