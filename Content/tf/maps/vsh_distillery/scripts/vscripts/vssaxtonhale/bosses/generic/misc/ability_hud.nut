@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 ::hudAbilityInstances <- {};
@@ -104,7 +105,7 @@ class AbilityHudTrait extends BossTrait
             for(; i <= 100; i+=13)
                 progressBarText += "▱";
             progressBarTexts.push(progressBarText);
-            if (percentage >= 100 && (!(ability instanceof vsh_vscript.MightySlamTrait) || braveJumpCharges > 1))
+            if (percentage >= 100)
                 overlay += "1";
             else
                 overlay += "0";

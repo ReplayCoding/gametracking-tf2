@@ -3,15 +3,14 @@
 	"$basetexture" "arctic/rockwall012_ice"
 	"$basetexture2" "nature/snow_full001"
 	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
-	"$bumpmap2" "coalpit/no_nrm"
+	"$bumpmap2" "Nature/snow_full001_normal"
 	"$bumpmap" "Nature/rockwall009_height-ssbump"
 	"$ssbump" "1"
-	"$surfaceprop" "ice"
-	"$surfaceprop2" "snow"
+	"$surfaceprop" "snow"
 	"%tooltexture" "arctic/rockwall012_ice_preview"
 	"$normalmapalphaenvmapmask" 1
-	//$envmap "env_cubemap"	
-	$envmaptint "[0.5 0.5 0.5]"
+	$envmap "env_cubemap"	
+	$envmaptint "[0.25 0.25 0.25]"
 
 	"%keywords" "tf"
 }

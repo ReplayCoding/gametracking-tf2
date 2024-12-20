@@ -1736,6 +1736,12 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่เข้าร่วมใน AsiaFortress Liquid.tf Highlander Invite ฤดูหนาว 2024"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf Mercenary Mashup"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"MCM London พฤษภาคม 2024"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_1st"				"อันดับที่ 1 AsiaFortress Liquid.tf Newbie Cup"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_2nd"				"อันดับที่ 2 AsiaFortress Liquid.tf Newbie Cup"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_3rd"				"อันดับที่ 3 AsiaFortress Liquid.tf Newbie Cup"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"ผู้เข้าร่วม AsiaFortress Liquid.tf Newbie Cup"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"โค้ช AsiaFortress Liquid.tf Newbie Cup"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
 																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 Winner"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 Participant"
@@ -5026,6 +5032,7 @@
 "pd_circus_authors"				"Liam \"Diva Dan\" Moffitt\nAeon \"Void\" Bollig\ndonhonk"
 "vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó \"Maxxy\" Attila\nMaksim \"VellyVice\" Streltsov\nMatthew \"MegapiemanPHD\" Simmons\nJames M.\nJason \"Yaki\" Herman\nJoaquim \"JPRAS\" Silva\nStuffy360"
 "zi_blazehattan_authors"		"Emil Sharafeev\nPatrik \"Nat-Tea\" Naplava\nAeon \"Void\" Bollig\nLiam \"Diva Dan\" Moffitt\nHarry \"Harry\" Colquhoun"
+"koth_overcast_final_authors"	"Slowmotion Milk\nEthan Stokes\nDr Vlad Crazy"
 "TF_YourStats"					"สถิติของคุณ"
 "TF_DuckPromoList"				"-ของตกแต่งของทุกอาชีพพร้อมสิบเอ็ดรูปแบบ\n-ติดตามสถานะของคุณระหว่างกิจกรรม End of the Line\n-ดูกระดานผู้นำและแข่งขันกับเพื่อนของคุณ\n-การขายช่วยเหลือทีม End of the Line"
 "TF_GetDucky"					"ซื้อเจ้าเป็ด"
@@ -5578,6 +5585,15 @@
 "TF_MapToken_Outburst"				"แสตมป์แผนที่ - Outburst"
 "TF_Map_Blazehattan"				"Blazehattan"
 "TF_MapToken_Blazehattan"			"แสตมป์แผนที่ - Blazehattan"
+"TF_MapToken_Fortezza"				"แสตมป์แผนที่ - Fortezza"
+"TF_Map_PenguinPeak"				"Penguin Peak"
+"TF_MapToken_PenguinPeak"			"แสตมป์แผนที่ - Penguin Peak"
+"TF_Map_Patagonia"					"Patagonia"
+"TF_MapToken_Patagonia"				"แสตมป์แผนที่ - Patagonia"
+"TF_Map_Cutter"						"Cutter"
+"TF_MapToken_Cutter"				"แสตมป์แผนที่ - Cutter"
+"TF_Map_Maul"						"Maul"
+"TF_MapToken_Maul"					"แสตมป์แผนที่ - Maul"
 "TF_Map_Unknown"				"ไม่พบแผนที่!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6430,6 +6446,7 @@
 "pl_odyssey_steps"						"ทางขั้นระดับ"
 "tow_dynamite_coupling"					"ช่วงต่อขนส่งสินค้า"
 "tow_dynamite_flatcar"					"รถบรรทุกพื้นเรียบ"
+"ctf_penguin_peak_team_goal"			"ขโมยกระเป๋าเอกสารข่าวกรองจากฐานทัพของศัตรู"
 // Win panel strings
 "Winpanel_Team1"			"ทีม"
 "Winpanel_Team2"			"ทีม"
@@ -8093,7 +8110,7 @@
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"สังหารศัตรู 15 คนที่กำลังยืนบนจุดยุทธศาสตร์ของพวกเขา"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"High Value Target"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"แทงหลังศัตรูที่กำลังครองเกมเพื่อนร่วมทีมของคุณ 3 คนหรือมากกว่า"
-"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"Come in From the Cold"
+"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"Come in from the Cold"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"ได้การสังหารล้างแค้นด้วยการแทงหลัง"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"Wetwork"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"แทงศัตรูจนตายในขณะที่อยู่ภายใต้ผลของ Jarate"
@@ -8263,7 +8280,7 @@
 "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_DESC" "สังหารศัตรู 20 คนด้วย Equalizer ในขณะที่คุณมีพลังชีวิตต่ำกว่า 25 หน่วย"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_NAME"		"For Whom the Shell Trolls"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_DESC"		"ยิงจรวดอัดให้ศัตรูลอยขึ้นไปบนฟ้า และยิงซ้ำให้ตายด้วยปืนลูกซองก่อนที่เขาจะลงพื้น"
-"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"Death From Below"
+"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"Death from Below"
 "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_DESC"	"สังหารศัตรูที่อยู่กลางอากาศ 10 คนด้วย Direct Hit"
 "TF_SOLDIER_FREEZECAM_TAUNT_NAME"		"Worth a Thousand Words"
 "TF_SOLDIER_FREEZECAM_TAUNT_DESC"		"ยิงสลุต 21 นัดให้ศัตรูของคุณเห็นผ่านมุมกล้องหยุดจอ"
@@ -9482,6 +9499,10 @@
 "TF_StrangeFilter_CommunityMapOutburst_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ Outburst เท่านั้น"
 "TF_StrangeFilter_CommunityMapBlazehattan"			"ตัวกรอง Strange: Blazehattan (ชุมชน)"
 "TF_StrangeFilter_CommunityMapBlazehattan_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ Blazehattan เท่านั้น"
+"TF_StrangeFilter_CommunityMapOvercast"				"ตัวกรอง Strange: Overcast (ชุมชน)"
+"TF_StrangeFilter_CommunityMapFortezza"				"ตัวกรอง Strange: Fortezza (ชุมชน)"
+"TF_StrangeFilter_CommunityMapPatagonia"			"ตัวกรอง Strange: Patagonia (ชุมชน)"
+"TF_StrangeFilter_CommunityMapMaul"				"ตัวกรอง Strange: Maul (ชุมชน)"
 "TF_StrangeFilter_Map2fort"				"ตัวกรอง Strange: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ 2Fort เท่านั้น"
 "TF_StrangeFilter_MapDustbowl"				"ตัวกรอง Strange: Dustbowl"
@@ -10080,6 +10101,7 @@
 "TF_StockingStuffer_2020"			"Gift-Stuffed Stocking 2020"
 "TF_StockingStuffer_2021"			"Gift-Stuffed Stocking 2021"
 "TF_StockingStuffer_2023"			"ถุงเท้าใส่ของขวัญ 2023"
+"TF_StockingStuffer_2024"			"Gift-Stuffed Stocking 2024"
 "TF_StockingStuffer_Desc"		"บรรจุสิ่งของหลายประเภทสำหรับเหล่าทหารรับจ้างตัวน้อยที่ดี"
 
 "TF_WinterCrate"			"Festive Winter Crate"
@@ -10342,6 +10364,9 @@
 "Winter2023Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Winter 2023:"
 "Summer2024Cosmetics_collection"			"ชุดสะสมของตกแต่ง Summer 2024"
 "Summer2024Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Summer 2024:"
+"Winter2024Cosmetics_collection"				"ชุดสะสมของตกแต่ง Winter 2024"
+"Winter2024Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Winter 2024:"
+
 "Footer_GunMettleCosmetics"					"ไอเท็มอาจเป็นหมวก Gun Mettle ชนิด Strange หรือ Unusual"
 "TF_GunMettleCosmeticCase"					"กล่องของตกแต่ง Gun Mettle"
 "TF_GunMettleCosmeticCase_desc"				"กล่องนี้ถูกล็อคอยู่และต้องใช้\nกุญแจของตกแต่ง Gun Mettle เพื่อเปิด\n\nบรรจุไอเท็มที่สร้างโดยชุมชน\nจากชุดสะสมของตกแต่ง Gun Mettle"
@@ -10449,6 +10474,12 @@
 "TF_Tool_Summer2024CosmeticKey"				"กุญแจของตกแต่ง Summer 2024"
 "TF_Tool_Summer2024CosmeticKey_desc"			"ใช้เพื่อเปิดกล่องของตกแต่ง Summer 2024"
 "TF_Tool_Summer2024CosmeticKey_AdText"		"-ใช้เพื่อเปิดกล่องของตกแต่ง Summer 2024\n-ไอเท็มอาจเป็นหมวก Summer 2024 ชนิด Strange หรือ Unusual"
+
+"TF_Winter2024CosmeticCase"					"กล่องของตกแต่ง Winter 2024"
+"TF_Winter2024CosmeticCase_AdText"			"-บรรจุของตกแต่งจากชุมชน\n-ต้องใช้กุญแจของตกแต่ง Winter 2024 เพื่อเปิด\n-ไอเท็มอาจเป็นหมวก Winter 2024 ชนิด Strange หรือ Unusual"
+"TF_Tool_Winter2024CosmeticKey"				"กุญแจของตกแต่ง Winter 2024"
+"TF_Tool_Winter2024CosmeticKey_desc"			"ใช้เพื่อเปิดกล่องของตกแต่ง Winter 2024"
+"TF_Tool_Winter2024CosmeticKey_AdText"		"-ใช้เพื่อเปิดกล่องของตกแต่ง Winter 2024\n-ไอเท็มอาจเป็นหมวก Winter 2024 ชนิด Strange หรือ Unusual"
 
 "Footer_RainyDayCosmetics"					"ไอเท็มอาจเป็นหมวก Rainy Day ชนิด Strange หรือ Unusual"
 "TF_RainyDayCosmeticCase"					"กล่องของตกแต่ง Rainy Day"
@@ -11589,6 +11620,7 @@
 "Attrib_Particle43"			"Knifestorm"
 "Attrib_Particle44"			"Misty Skull"
 "Attrib_Particle45"			"Harvest Moon"
+"Attrib_Particle46"			"It's a Secret to Everybody"
 "Attrib_Particle47"			"Stormy 13th Hour"
 
 "Attrib_Particle56"			"Kill-a-Watt"
@@ -11619,8 +11651,9 @@
 "Attrib_Particle79"			"Darkblaze"
 "Attrib_Particle80"			"Demonflame"
 
+"Attrib_Particle81"			"Bonzo the All-Gnawing"
 "Attrib_Particle82"			"Amaranthine"
-"Attrib_Particle83"			"Stare From Beyond"
+"Attrib_Particle83"			"Stare from Beyond"
 "Attrib_Particle84"			"The Ooze"
 "Attrib_Particle85"			"Ghastly Ghosts Jr"
 "Attrib_Particle86"			"Haunted Phantasm Jr"
@@ -11642,6 +11675,8 @@
 
 // Halloween 2015 Unusual
 "Attrib_Particle100"			"Death by Disco"
+"Attrib_Particle101"			"It's a Mystery to Everyone"
+"Attrib_Particle102"			"It's a Puzzle to Me"
 "Attrib_Particle103"			"Ether Trail"
 "Attrib_Particle104"			"Nether Trail"
 "Attrib_Particle105"			"Ancient Eldritch"
@@ -11779,6 +11814,7 @@
 "Attrib_Particle221"			"Ardent Antlers"
 "Attrib_Particle222"			"Ardent Antlers"
 "Attrib_Particle223"			"Festive Lights"
+"Attrib_Particle263"			"Forever and Forever!"
 "Attrib_Particle277"			"Tainted Frost"
 // Smissmas 2023 Unusual
 "Attrib_Particle309"			"Icestruck"
@@ -11839,6 +11875,18 @@
 "Attrib_Particle361"			"Searing Stove"
 "Attrib_Particle362"			"Über Blaze"
 "Attrib_Particle363"			"Über Blaze"
+
+// Smissmas 2024 Unusual
+"Attrib_Particle364"			"Sizzling"
+"Attrib_Particle365"			"Crystal Crown"
+"Attrib_Particle366"			"Crystal Crown"
+"Attrib_Particle367"			"Halcyon Halo"
+"Attrib_Particle368"			"Ghosts of Smissmas Time"
+"Attrib_Particle369"			"Aurora Skies"
+"Attrib_Particle370"			"Shining Bokeh"
+"Attrib_Particle371"			"Playful Aurora"
+"Attrib_Particle372"			"Frisky Morning"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
@@ -12006,6 +12054,18 @@
 "Attrib_Particle3182"		"Confetti Celebration"
 "Attrib_Particle3183"		"Heavy Rain"
 "Attrib_Particle3184"		"Pumpkin Patch"
+
+// Smissmas 2024 Unusual Taunts
+"Attrib_Particle3185"		"Snowy Day"
+"Attrib_Particle3186"		"Snowy Spirit"
+"Attrib_Particle3187"		"Snowy Spirit"
+"Attrib_Particle3188"		"Lavender Sensation"
+"Attrib_Particle3189"		"Verdant Phenomenon"
+"Attrib_Particle3190"		"Award Winning"
+"Attrib_Particle3191"		"Award Winning"
+"Attrib_Particle3192"		"Operatic Triumph"
+"Attrib_Particle3193"		"Tangled Lights"
+
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -12141,6 +12201,7 @@
 "TF_FistsOfSteel"			"The Fists of Steel" // ADD THE
 "TF_TreasureHat_1"			"Bounty Hat"
 "TF_TreasureHat_2"			"Treasure Hat"
+"TF_TreasureHat_3"			"Hat of Undeniable Wealth and Respect"
 "TF_TreasureHat_3_Style"	"H.O.U.W.A.R."
 "TF_Unique_RiftFireAxe"		"Sharpened Volcano Fragment"
 "TF_Unique_RiftFireMace"		"The Sun-on-a-Stick" // ADD THE
@@ -15743,7 +15804,7 @@
 
 "TF_DailyMapStampRewardHat"			"Philateler"
 "TF_DailyMapStampRewardHat_Desc"	"ขอแสดงความยินดีด้วยกับการสนับสนุนผู้ทำแผนที่ชุมชนใน TF2 ผ่านแสตมป์แผนที่มากกว่าผู้เล่นอื่นเมื่อวานนี้! สวมสิ่งนี้ด้วยความภาคภูมิใจก่อนที่มันจะเปลี่ยนมือในวันพรุ่งนี้!"
-"TF_DailyGiftGiverRewardHat"		"Gifting Man From Gifting Land"
+"TF_DailyGiftGiverRewardHat"		"Gifting Man from Gifting Land"
 "TF_DailyGiftGiverRewardHat_Desc"	"ขอแสดงความยินดีด้วยกับการส่งของขวัญที่มากกว่าผู้เล่นใด ๆ ใน TF2 เมื่อวานนี้! สวมสิ่งนี้ด้วยความภาคภูมิใจก่อนที่มันจะเปลี่ยนมือในวันพรุ่งนี้!"
 "TF_DailyDuelWinnerRewardHat"		"Dueler"
 "TF_DailyDuelWinnerRewardHat_Desc"	"ขอแสดงความยินดีด้วยกับการชนะการดวลที่มากกว่าผู้เล่นใด ๆ ใน TF2 เมื่อวานนี้! สวมสิ่งนี้ด้วยความภาคภูมิใจก่อนที่มันจะเปลี่ยนมือในวันพรุ่งนี้!"
@@ -15903,6 +15964,7 @@
 
 "TF_BrutalBouffant"			"The Brütal Bouffant" // ADD THE
 "TF_BrutalBouffant_Desc"		"ผมรองทรงยาวและจอนผมแบบเฮฟวี่เมทัลสำหรับทุกชนชั้นนี้ ทำด้วยมือจากผมของแฟนเพลงขาร็อคเฮฟวี่เมทัลแห่งไอซ์แลนด์ ถักทอด้วยเข็มนิตติ้งหัวเวทมนตร์ที่ลงมหาคาถาเร้นลับ และจดหมายอากาศส่งตรงจากนรก"
+"TF_ShredAlert"				"ท่าเยาะเย้ย: Shred Alert"
 "TF_TauntDemomanNuke"		"ท่าเยาะเย้ย: Spent Well Spirits"
 "TF_TauntDemomanNuke_Desc"	"ท่าเยาะเย้ย Demoman"
 "TF_TauntDemomanWoohoo"		"ท่าเยาะเย้ย: Oblooterated"
@@ -15963,7 +16025,7 @@
 "TF_TauntAllClassKart"				"ท่าเยาะเย้ย: The Victory Lap"
 "TF_secondrate_sorcery"		"ท่าเยาะเย้ย: Second Rate Sorcery"
 "TF_taunt_scotsmans_stagger"	"ท่าเยาะเย้ย: Scotsmann's Stagger"
-"TF_taunt_scotsmans_stagger_AdText"	"-ท่าเยาะเย้ย Demoman ถูกสร้างโดยชุมชน\n-เกือบหมดสติและล่องลอยไปกับตัวเอง แต่ก็ยังคงอันตรายอยู่ดี!"
+"TF_taunt_scotsmans_stagger_AdText"	"-ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น\n-เกือบหมดสติและล่องลอยไปกับตัวเอง แต่ก็ยังคงอันตรายอยู่ดี!"
 
 "TF_taunt_didgeridrongo"		"ท่าเยาะเย้ย: Didgeridrongo"
 "TF_taunt_didgeridrongo_AdText"		"-ท่าเยาะเย้ย Sniper ที่ชุมชนสร้างขึ้น\n-เล่นเพลงไปจนกว่าพวกเขาจะไม่ลืม!"
@@ -16676,6 +16738,7 @@
 "TF_sf14_fowl_fists"                    "The Fowl Fists" // ADD THE
 "TF_sf14_talon_trotters"                "The Talon Trotters" // ADD THE
 "TF_sf14_scout_hunter_head"             "The Head Hunter" // ADD THE
+"TF_sf14_scout_hunter_arm"              "Claws and Infect"  // ADD THE
 "TF_sf14_scout_hunter_legs"             "The Crazy Legs"  // ADD THE
 "TF_sf14_ghost_of_spies_checked_past"   "The Ghost of Spies Checked Past"  // ADD THE
 "TF_sf14_hooded_haunter_classes"        "The Hooded Haunter" // ADD THE
@@ -16986,8 +17049,8 @@
 "TF_taunt_the_trackmans_touchdown_AdText"	"-ท่าเยาะเย้ย Scout ถูกสร้างโดยชุมชน"
 
 "TF_taunt_the_pooped_deck"					"ท่าเยาะเย้ย: The Pooped Deck"
-"TF_taunt_the_pooped_deck_Desc"				"ท่าเยาะเย้ย Demoman ถูกสร้างโดยชุมชน\n\nกดปุ่มยิงหลักและปุ่มยิงรองจะแสดงท่าทางแตกต่างกันไป"
-"TF_taunt_the_pooped_deck_AdText"			"-ท่าเยาะเย้ย Demoman ถูกสร้างโดยชุมชน\n-การยิงหลักและยิงรองจะแสดงท่าแฟลร์ที่แตกต่างกัน"
+"TF_taunt_the_pooped_deck_Desc"				"ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น\n\nกดปุ่มยิงหลักและปุ่มยิงรองจะแสดงท่าทางแตกต่างกันไป"
+"TF_taunt_the_pooped_deck_AdText"			"-ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น\n-การยิงหลักและยิงรองจะแสดงท่าแฟลร์ที่แตกต่างกัน"
 "TF_taunt_time_out_therapy"					"ท่าเยาะเย้ย: Time Out Therapy"
 "TF_taunt_time_out_therapy_Desc"			"ท่าเยาะเย้ย Medic ถูกสร้างโดยชุมชน"
 "TF_taunt_time_out_therapy_AdText"			"-ท่าเยาะเย้ย Medic ถูกสร้างโดยชุมชน"
@@ -17006,7 +17069,7 @@
 "TF_taunt_the_fist_bump_AdText"				"-ท่าเยาะเย้ยทุกคลาสถูกสร้างโดยชุมชน"
 "TF_taunt_shipwheel"						"ท่าเยาะเย้ย: The Drunken Sailor"
 "TF_Taunt_shipwheel_Desc"					"ท่าเยาะเย้ย Demoman\n\nกดปุ่มยิงหลักและปุ่มยิงรองจะแสดงท่าทางแตกต่างกันไป"
-"TF_Taunt_shipwheel_AdText"					"-ท่าเยาะเย้ย Demoman ถูกสร้างโดยชุมชน\n-การยิงหลักและยิงรองจะแสดงท่าแฟลร์ที่แตกต่างกัน"
+"TF_Taunt_shipwheel_AdText"					"-ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น\n-การยิงหลักและยิงรองจะแสดงท่าแฟลร์ที่แตกต่างกัน"
 "TF_taunt_the_profane_puppeteer"			"ท่าเยาะเย้ย: The Profane Puppeteer"
 "TF_taunt_the_profane_puppeteer_Desc"		"ท่าเยาะเย้ย Soldier ที่ชุมชนสร้างขึ้น"
 "TF_taunt_the_profane_puppeteer_AdText"		"-ท่าเยาะเย้ย Soldier ที่ชุมชนสร้างขึ้น"
@@ -17058,6 +17121,15 @@
 "TF_taunt_the_punchline"					"ท่าเยาะเย้ย: The Punchline"
 "TF_taunt_the_punchline_Desc"				"ท่าเยาะเย้ย Spy ที่ชุมชนสร้างขึ้น"
 "TF_taunt_the_punchline_AdText"				"-ท่าเยาะเย้ย Spy ที่ชุมชนสร้างขึ้น"
+"TF_taunt_curtain_call"						"ท่าเยาะเย้ย: Curtain Call"
+"TF_taunt_curtain_call_Desc"				"ท่าเยาะเย้ย Spy ที่ชุมชนสร้างขึ้น"
+"TF_taunt_curtain_call_AdText"				"-ท่าเยาะเย้ย Spy ที่ชุมชนสร้างขึ้น"
+"TF_taunt_peace"							"ท่าเยาะเย้ย: Peace!"
+"TF_taunt_peace_Desc"						"ท่าเยาะเย้ยทุกอาชีพที่ชุมชนสร้างขึ้น"
+"TF_taunt_peace_AdText"						"-ท่าเยาะเย้ยทุกอาชีพที่ชุมชนสร้างขึ้น"
+"TF_taunt_forehead_slice"					"ท่าเยาะเย้ย: Fore-Head Slice"
+"TF_taunt_forehead_slice_Desc"				"ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น"
+"TF_taunt_forehead_slice_AdText"			"-ท่าเยาะเย้ย Demoman ที่ชุมชนสร้างขึ้น"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"The Breather Bag"	// ADD THE
@@ -17638,6 +17710,7 @@
 "TF_hwn2021_twisted_topper"			"Twisted Topper"
 "TF_hwn2021_twisted_topper_style0"		"Bow Tie"
 "TF_hwn2021_twisted_topper_style1"		"No Bow Tie"
+"TF_hwn2021_beanie_all_gnawing"		"Beanie the All-Gnawing"
 "TF_hwn2021_eyequarium"				"Eyequarium"
 "TF_hwn2021_eyequarium_style0"			"Spring Water"
 "TF_hwn2021_eyequarium_style0_nohat"	"Spring Water (ไม่มีหมวก)"
@@ -17866,6 +17939,11 @@
 "TF_hwn2024_defaced"					"Defaced Detonator"
 "TF_hwn2024_defaced_style1"					"Right Side"
 "TF_hwn2024_defaced_style2"					"Left Side"
+
+"TF_dec24_dapper_noel"					"Dapper Noel"
+"TF_dec24_necroprancer"					"Necroprancer" // ADD THE
+"TF_dec24_consiglieres_coverup_style1"		"ถุงมือ"
+"TF_dec24_consiglieres_coverup_style2"		"ไม่มีถุงมือ"
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "ทรงผม Pompadour ยุคก่อนประวัติศาสตร์นี้ถูกตัดเป็นครั้งแรกโดย Sir Edmund Hillary บนเนินเขาเอเวอเรสต์ ตามมาด้วยการที่ Hillary สังเกตุเห็นว่าตัวเองขี้แตกคากางเกงของเขา"
 "TF_HimalayanHairShirt"        "Himalayan Hair Shirt" // ADD THE
@@ -18511,6 +18589,7 @@ RED: หยุด BLU! นำร่างของ Redmond กลับมา!"
 "TF_DataCenter_syd"				"ซิดนีย์ ออสเตรเลีย"
 "TF_DataCenter_dxb"				"ดูไบ สหรัฐอาหรับเอมิเรตส์"
 "TF_DataCenter_bom"				"มุมไบ อินเดีย"
+"TF_DataCenter_bom2"				"มุมไบ อินเดีย"
 "TF_DataCenter_ord"				"ชิคาโก สหรัฐอเมริกา"
 "TF_DataCenter_waw"				"วอร์ซอ โปแลนด์"
 "TF_DataCenter_jnb"				"โจฮันเนสเบิร์ก แอฟริกาใต้"

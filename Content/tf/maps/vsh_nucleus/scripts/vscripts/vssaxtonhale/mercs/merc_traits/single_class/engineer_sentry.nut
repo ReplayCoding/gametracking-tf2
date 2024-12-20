@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 characterTraitsClasses.push(class extends CharacterTrait
@@ -25,7 +26,7 @@ characterTraitsClasses.push(class extends CharacterTrait
     {
         if (params.inflictor != null && params.inflictor.GetClassname() == "obj_sentrygun" && player != victim)
         {
-            //Nerfing damage and knockback by 40%.
+            //Nerfing damage and knockback by 50%.
             //There's an attribute that gives sentry resistance, but it doesn't give knockback res
             params.damage *= 0.5;
             lastHitSentry = params.inflictor;

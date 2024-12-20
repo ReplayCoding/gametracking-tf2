@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 characterTraitsClasses.push(class extends CharacterTrait
@@ -21,7 +22,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 
     function OnDamageDealt(victim, params)
     {
-        if (!victim.IsPlayer() || victim.IsOnGround())
+        if (!victim.IsPlayer() || victim.IsOnGround() || victim.GetWaterLevel() >= 2 || victim == player)
             return;
         if (WeaponIs(params.weapon, "direct_hit") || WeaponIs(params.weapon, "reserve_shooter"))
             params.crit_type = 1;

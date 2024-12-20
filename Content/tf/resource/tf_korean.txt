@@ -1631,7 +1631,6 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"AsiaFortress Liquid.tf 2024년 겨울 하이랜더 초대 디비전에 참가한 플레이어에게 수여됩니다."
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf 용병 매시업"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"MCM 런던 2024년 5월"
-																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6대6 경기 우승자"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6대6 경기 참가상"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4대4 경기 우승자"
@@ -6787,7 +6786,6 @@
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"적군의 점령 지점에 있는 적군 15명을 처치하십시오."
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"고가치표적"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"아군 3명 이상을 제압하고 있는 적을 백스탭으로 처치하십시오."
-"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"지옥에서 돌아온 스파이"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"백스탭으로 적수에게 복수하십시오."
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"궂은 일"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"병수도로 젖어 있는 동안 적을 근접 무기로 죽이십시오."
@@ -6957,7 +6955,6 @@
 "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_DESC" "체력이 25 미만인 상태에서 등가교환기로 적군 20명을 처치하십시오."
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_NAME"		"누구를 위하여 산탄은 구르나"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_DESC"		"적군을 로켓으로 띄운 후 그 적이 땅에 떨어지기 전에 산탄총으로 처치하십시오."
-"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"바닥에서 죽음을"
 "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_DESC"	"직격포로 공중에 있는 적군 10명을 사살하십시오."
 "TF_SOLDIER_FREEZECAM_TAUNT_NAME"		"백문이 불여일견"
 "TF_SOLDIER_FREEZECAM_TAUNT_DESC"		"산탄총 도발로 적에게 예포를 표하십시오."
@@ -10217,7 +10214,6 @@
 "Attrib_Particle80"			"악마의 불꽃"
 
 "Attrib_Particle82"			"죽지 않는 자줏빛"
-"Attrib_Particle83"			"저승에서의 시선"
 "Attrib_Particle84"			"분비물"
 "Attrib_Particle85"			"무시무시한 유령 주니어"
 "Attrib_Particle86"			"저주 받은 혼령 2세"
@@ -10457,6 +10453,8 @@
 "Attrib_Particle359"			"즐거운 비둘기"
 "Attrib_Particle360"			"타오르는 화구"
 "Attrib_Particle361"			"타오르는 화구"
+"Attrib_Particle369"			"오로라 하늘"
+"Attrib_Particle371"			"장난스러운 오로라"
 // Weapon Unusual
 "Attrib_Particle701"			"뜨거운 열기"
 "Attrib_Particle702"			"동위 원소"
@@ -14181,7 +14179,6 @@
 "Econ_Store_PurchaseType_Standard"				"%s1"
 "TF_DailyMapStampRewardHat"			"우표수집가"
 "TF_DailyMapStampRewardHat_Desc"	"어제 다른 사람들 보다 더 많이 맵 후원 우표를 사서 맵 제작 커뮤니티를 후원하신 것을 축하합니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!"
-"TF_DailyGiftGiverRewardHat"		"선물 나라에서 온 기부천사"
 "TF_DailyGiftGiverRewardHat_Desc"	"어제 그 누구보다 더 많은 선물을 나눠주신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!"
 "TF_DailyDuelWinnerRewardHat"		"결투자"
 "TF_DailyDuelWinnerRewardHat_Desc"	"어제 그 누구보다 더 많이 결투에서 승리하신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!"
@@ -15862,6 +15859,10 @@
 "TF_hwn2024_badlands_bandido_style2"		"두건 없음"
 "TF_hwn2024_defaced_style1"					"오른쪽"
 "TF_hwn2024_defaced_style2"					"왼쪽"
+
+"TF_dec24_dapper_noel"					"산타 변장"
+"TF_dec24_necroprancer"					"사슴뿔 모자" // ADD THE
+"TF_dec24_consiglieres_coverup_style2"		"장갑 없음"
 "TF_HimalayanHairShirt"        "히말라야 털옷" // ADD THE
 "TF_HimalayanHairShirt_Desc"   "모두가 수염을 좋아하는데, 왜 수염은 얼굴에만 나나요? 이 숱 많은 털옷은 팔과 몸통을 위한 수염과도 같습니다."
 "TF_AbominableSnowPants"       "흉측한 설상 바지" // ADD THE

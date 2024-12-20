@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 hitStreak <- {};
@@ -17,7 +18,8 @@ ignoreWallClimb <- [
     "tf_bot",
     "obj_sentrygun",
     "obj_dispenser",
-    "obj_teleporter"
+    "obj_teleporter",
+    "func_button"
 ]
 
 function MeleeWallClimb_Hit(params)
@@ -64,7 +66,7 @@ function MeleeClimb_Perform(player, quickFixLink = false)
                 return;
             local medigun = otherPlayer.GetWeaponBySlot(TF_WEAPONSLOTS.SECONDARY);
             if (!WeaponIs(medigun,"quick_fix"))
-                return;
+                continue;
             local target = GetPropEntity(medigun, "m_hHealingTarget");
             if (target == player)
                 return MeleeClimb_Perform(otherPlayer, true);

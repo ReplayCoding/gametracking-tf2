@@ -1740,7 +1740,6 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"Concedida aos participantes da Divisão de Convidadas de Highlander da temporada de inverno de 2024 da AsiaFortress Liquid.tf."
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf Mercenary Mashup"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"MCM - Londres - Maio de 2024"
-																				   
 "TF_RETF2_EE22_6v6_Winner"					"Vencedor - 6x6 - RETF2 EE22"
 "TF_RETF2_EE22_6v6_Participant"				"Participante - 6x6 - RETF2 EE22"
 "TF_RETF2_EE22_4v4_Winner"					"Vencedor - 4x4 - RETF2 EE22"
@@ -2459,6 +2458,8 @@
 "TF_TournamentMedal_PASSTime_Federation_Season4_2nd_Desc"				"Atenção, mercenário! Você sobreviveu ao campo de batalha onde outros pereceram. A sua habilidade, trabalho em equipe, lealdade e entrosamento com a sua equipe diferenciam você dos demais. Mantenha a cabeça erguida: você conquistou todo o respeito ao chutar aquela bola. Parabéns!\n\nConcedida a quem ficou em segundo lugar na quarta temporada da região europeia da PASS Time Federation."
 "TF_TournamentMedal_PASSTime_Federation_Season4_3rd_Desc"				"Está se sentindo como se estivesse na beira de um penhasco? Não tenha medo! Foi você quem se puxou de volta para terra firme. Você chutou todo e qualquer obstáculo no seu caminho — areia, galhos, suor e... foguetes? Não sabemos por que temos explosivos em um esporte, mas e daí? Você acabou com todos eles!\n\nConcedida a quem ficou em terceiro lugar na quarta temporada da região europeia da PASS Time Federation."
 "TF_TournamentMedal_PASSTime_Federation_Season4_Participant_Desc"		"Você talvez tenha visto algumas pessoas chutarem, espancarem ou até mesmo mastigarem a bola... eca! Não importa o que estava passando na TV, você queria experimentar! Você mostrou a todo mundo que não é covarde, mas sim um mercenário que deu o seu melhor!\n\nConcedida a quem participou da quarta temporada da região europeia da PASS Time Federation."
+"TF_TournamentMedal_PASSTime_Federation_Season4_Staff_Desc"				"Não importa se você torceu, organizou ou manteve tudo funcionando, a sua dedicação fez toda a diferença. Você fez o torneio ser um sucesso e ficará na história como um dos verdadeiros heróis do jogo. Obrigado pelo seu trabalho árduo, camarada!\n\nConcedida a quem ajudou na organização da quarta temporada da região europeia da PASS Time Federation."
+
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_1st"			"Primeiro Lugar - Highlander - Divisão Gladiator - Chapelaria"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_2nd"			"Segundo Lugar - Highlander - Divisão Gladiator - Chapelaria"
 "TF_TournamentMedal_Chapelaria_Highlander_Gladiator_3rd"			"Terceiro Lugar - Highlander - Divisão Gladiator - Chapelaria"
@@ -3745,6 +3746,8 @@
 "TF_Bundle_EqualizerEscape"			"O Pacote de Picaretas"
 "TF_Bundle_EqualizerEscape_Desc"	"Inclui o Compensador e o Plano de Fuga:"
 
+"TF_Bundle_LW_Weapons"				"Pacote de Armas Amor e Guerra"
+"TF_Bundle_LW_Weapons_Desc"			"Inclui o conjunto completo de armas com novos atributos da atualização Amor e Guerra:"
 "TF_Bundle_LW_Taunts_Desc"			"Celebre com os seus amigos e tormente os seus inimigos com estas 15 provocações:"
 "TF_Bundle_LW_Cosmetics_Desc"		"Todos os 44 novos itens cosméticos em um pacote tão grande que mal encaixa tudo:"
 
@@ -8333,7 +8336,6 @@
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"Mate 15 inimigos que estejam em pé num ponto de controle que eles possuam."
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"Alvo de Alto Valor"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"Esfaqueie um inimigo que esteja dominando 3 ou mais dos seus aliados nas costas."
-"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"Vingança Fria"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"Esfaqueie um nêmesis nas costas."
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"Faça Sol, Faça Chuva"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"Esfaqueie um inimigo até a morte enquanto está sob a influência do Jarratê."
@@ -8503,7 +8505,6 @@
 "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_DESC" "Mate 20 inimigos com seu Compensador enquanto você tem menos de 25 de vida."
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_NAME"		"Por Quem as Balas Trollam"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_DESC"		"Jogue um adversário no ar com um foguete e então mate-o com a escopeta antes que ele pouse."
-"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"Sai de Cima"
 "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_DESC"	"Mate 10 adversários que estejam no ar com o Tiro Certo."
 "TF_SOLDIER_FREEZECAM_TAUNT_NAME"		"Vale Mais Que Mil Palavras"
 "TF_SOLDIER_FREEZECAM_TAUNT_DESC"		"Dê ao inimigo uma foto da sua salva de tiros."
@@ -12076,7 +12077,6 @@
 "Attrib_Particle80"			"Chama demoníaca"
 
 "Attrib_Particle82"			"Amarantino"
-"Attrib_Particle83"			"Olhar do além"
 "Attrib_Particle84"			"O Pantanoso"
 "Attrib_Particle85"			"Fantasminhas fantasmagóricos"
 "Attrib_Particle86"			"Fantasminha assombrado"
@@ -16380,7 +16380,6 @@
 
 "TF_DailyMapStampRewardHat"			"Filatelista"
 "TF_DailyMapStampRewardHat_Desc"	"Parabéns por apoiar a comunidade de criação de mapas para o TF2 comprando selos de mapa mais que qualquer um no dia de ontem! Vista isso com orgulho antes que mude de dono amanhã!"
-"TF_DailyGiftGiverRewardHat"		"Presenteador da Terra dos Presenteadores"
 "TF_DailyGiftGiverRewardHat_Desc"	"Parabéns por dar mais presentes ontem que qualquer outro jogador de TF2! Vista isso com orgulho antes que mude de dono amanhã!"
 "TF_DailyDuelWinnerRewardHat"		"Duelista"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Parabéns por vencer mais duelos ontem do que qualquer outro jogador de TF2! Vista isso com orgulho antes que mude de dono amanhã!"
@@ -18882,6 +18881,7 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_hwn2024_defaced"					"Detonador Descarado"
 "TF_hwn2024_defaced_style1"					"Lado direito"
 "TF_hwn2024_defaced_style2"					"Lado esquerdo"
+"TF_dec24_scrooge_mcdoc"				"Doutor Patinhas"
 "TF_KathmanHairdo"             "O Corte de Catmandu" // ADD THE
 "TF_KathmanHairdo_Desc"        "Esta cabeleira pré-histórica foi descoberta pelo Sir Edmund Hillary nas encostas do Everest, seguida pela descoberta, também por Hillary, de que havia acabado de sujar as próprias calças."
 "TF_HimalayanHairShirt"        "A Veste do Evereste" // ADD THE

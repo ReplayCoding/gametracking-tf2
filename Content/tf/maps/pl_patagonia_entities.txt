@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 18426
+Revision: 19626
 {
 "world_maxs" "14336 15296 8852"
 "world_mins" "-15296 -14096 -15296"
@@ -11,7 +11,7 @@ Revision: 18426
 "detailmaterial" "detail/detailsprites_trainyard"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "18426"
+"mapversion" "19626"
 "hammerid" "1"
 }
 {
@@ -1987,7 +1987,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 79 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853663"
 }
@@ -1998,7 +1998,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 89 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853667"
 }
@@ -2009,7 +2009,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 67 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853671"
 }
@@ -2020,7 +2020,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 53 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853675"
 }
@@ -2031,7 +2031,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 37 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853679"
 }
@@ -2042,7 +2042,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 23 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853683"
 }
@@ -2053,7 +2053,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 75 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853688"
 }
@@ -2064,7 +2064,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 83 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853692"
 }
@@ -2075,7 +2075,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 64 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853696"
 }
@@ -2086,7 +2086,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 51 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853700"
 }
@@ -2097,7 +2097,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 39 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853704"
 }
@@ -2108,7 +2108,7 @@ Revision: 18426
 "StartDisabled" "1"
 "spawnflags" "511"
 "model" "models/editor/playerstart.mdl"
-"angles" "0 45 0"
+"angles" "0 26 0"
 "classname" "info_player_teamspawn"
 "hammerid" "853708"
 }
@@ -2779,7 +2779,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1000"
+"_light" "255 255 255 1200"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "65"
@@ -2794,7 +2794,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1000"
+"_light" "255 255 255 1200"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "65"
@@ -2809,7 +2809,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1000"
+"_light" "255 255 255 1200"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "65"
@@ -2877,7 +2877,7 @@ Revision: 18426
 "hammerid" "1433902"
 }
 {
-"origin" "-2150 -20 8504"
+"origin" "-2150 -20 8516"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -2892,7 +2892,7 @@ Revision: 18426
 "hammerid" "1433927"
 }
 {
-"origin" "-2328 -20 8504"
+"origin" "-2328 -20 8516"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -3829,7 +3829,7 @@ Revision: 18426
 "hammerid" "1437044"
 }
 {
-"origin" "-346 -3226 8230"
+"origin" "-346 -3226 8226"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -3842,7 +3842,7 @@ Revision: 18426
 "hammerid" "1437067"
 }
 {
-"origin" "-466 -3106 8230"
+"origin" "-466 -3106 8226"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -3855,7 +3855,7 @@ Revision: 18426
 "hammerid" "1437075"
 }
 {
-"origin" "-214 -3094 8230"
+"origin" "-214 -3094 8226"
 "angles" "-90 270 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -3868,7 +3868,7 @@ Revision: 18426
 "hammerid" "1437084"
 }
 {
-"origin" "-334 -2974 8230"
+"origin" "-334 -2974 8226"
 "angles" "-90 270 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -4378,7 +4378,7 @@ Revision: 18426
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_ammopack_full"
+"classname" "item_ammopack_medium"
 "hammerid" "1305021"
 }
 {
@@ -6059,25 +6059,10 @@ Revision: 18426
 "hammerid" "3481613"
 }
 {
-"origin" "3907.5 790 48"
-"targetname" "stage2_movingtrain_signal_light"
-"style" "32"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 15"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3547849"
-}
-{
 "origin" "3894 776.5 48"
-"targetname" "stage2_movingtrain_signal_light"
+"targetname" "stage2_movingtrain_signal_sprite02_light"
 "style" "32"
-"spawnflags" "0"
+"spawnflags" "1"
 "defaultstyle" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -6090,9 +6075,9 @@ Revision: 18426
 }
 {
 "origin" "3862 835.5 48"
-"targetname" "stage2_movingtrain_signal_light"
+"targetname" "stage2_movingtrain_signal_sprite02_light"
 "style" "32"
-"spawnflags" "0"
+"spawnflags" "1"
 "defaultstyle" "0"
 "_quadratic_attn" "1"
 "_linear_attn" "0"
@@ -6102,21 +6087,6 @@ Revision: 18426
 "_constant_attn" "0"
 "classname" "light"
 "hammerid" "3547857"
-}
-{
-"origin" "3848.5 822 48"
-"targetname" "stage2_movingtrain_signal_light"
-"style" "32"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 15"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3547861"
 }
 {
 "origin" "1372.76 -3895.44 8016.24"
@@ -6439,62 +6409,6 @@ Revision: 18426
 "angles" "0 225 0"
 "classname" "prop_dynamic"
 "hammerid" "3480075"
-}
-{
-"origin" "5206.5 1204.12 -272"
-"style" "0"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 15"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3744809"
-}
-{
-"origin" "5225.6 1204.12 -272"
-"style" "0"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 15"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3744816"
-}
-{
-"origin" "5225.6 1419.88 -272"
-"style" "0"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 10"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3744880"
-}
-{
-"origin" "5206.5 1419.88 -272"
-"style" "0"
-"spawnflags" "0"
-"defaultstyle" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 138 3 10"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "3744887"
 }
 {
 "origin" "1644 7120 -6400"
@@ -9499,6 +9413,36 @@ Revision: 18426
 "hammerid" "3448187"
 }
 {
+"origin" "3907.5 790 48"
+"targetname" "stage2_movingtrain_signal_sprite01_light"
+"style" "33"
+"spawnflags" "1"
+"defaultstyle" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "237 138 3 15"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "3547849"
+}
+{
+"origin" "3848.5 822 48"
+"targetname" "stage2_movingtrain_signal_sprite01_light"
+"style" "33"
+"spawnflags" "1"
+"defaultstyle" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "237 138 3 15"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "3547861"
+}
+{
 "origin" "462 4306 -6128"
 "targetname" "stage1_path_42"
 "target" "stage1_path_43"
@@ -9533,15 +9477,6 @@ Revision: 18426
 "env_spark_name" "mspl_cartsparks"
 "classname" "team_train_watcher"
 "hammerid" "1258040"
-}
-{
-"origin" "5568 1079 -113"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 75"
-"classname" "light"
-"hammerid" "1340401"
 }
 {
 "origin" "3351 207 -110"
@@ -9632,9 +9567,7 @@ Revision: 18426
 "OnStart" "mspl_watcher3Disable0-1"
 "OnStart" "welcome_point_stage3Disable0-1"
 "OnStart" "camera_stage3_*Disable0-1"
-"OnStart" "mspl_cart_dynamicEnable0-1"
-"OnStart" "mspl_cartKill0-1"
-"OnStart" "mspl_constraintBreak0-1"
+"OnStart" "mspl_cartEnable0-1"
 "OnStart" "delete_ents_in_stage1_relayTrigger0-1"
 "OnStart" "fog_controllerSetStartDist10000-1"
 "OnStart" "fog_controllerSetEndDist70000-1"
@@ -9646,6 +9579,11 @@ Revision: 18426
 "OnStart" "soundscapes_stage3Disabled0-1"
 "OnStart" "soundscapes_stage2Enable0-1"
 "OnStart" "mspl_flashinglightStop0-1"
+"OnStart" "tonemap_globalSetBloomScale0.30-1"
+"OnStart" "stage2_redspawn01_deletestickiesDisable0.1-1"
+"OnStart" "bot_nest_cap_a_2Enable0-1"
+"OnStart" "stage2_redspawn02_trainrail_doors_blockerDisable1-1"
+"OnStart" "stage2_trainrail_shuttersClose1-1"
 }
 {
 "origin" "2984 -3736 -312"
@@ -9660,7 +9598,7 @@ Revision: 18426
 }
 {
 "origin" "-2208 5648 -5680"
-"targetname" "mspl_cart_dynamic"
+"targetname" "mspl_cart"
 "StartDisabled" "1"
 "spawnflags" "0"
 "solid" "0"
@@ -9672,7 +9610,7 @@ Revision: 18426
 "physdamagescale" "0.1"
 "parentname" "mspl_train"
 "modelscale" "1.0"
-"model" "models/props_trainyard/bomb_cart.mdl"
+"model" "models/props_patagonia/bomb_argentum.mdl"
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -9721,14 +9659,15 @@ Revision: 18426
 {
 "model" "*1"
 "TeamNum" "0"
-"targetname" "stage2_redspawn01_resupply01_triggers"
+"targetname" "stage2_redspawn01_resupply01_trigger"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "1504 1520 -224"
+"origin" "1536 1520 -224"
 "associatedmodel" "stage2_redspawn01_resupply01"
 "angles" "0 0 0"
 "classname" "func_regenerate"
 "hammerid" "856790"
+"OnEndTouchAll" "stage2_redspawn01_resupply01EnableCollision0-1"
 }
 {
 "origin" "1512 1456 -43"
@@ -9785,9 +9724,9 @@ Revision: 18426
 "origin" "32 -352 -13908"
 "targetname" "current_skycamera_stage3"
 "scale" "16"
-"fogstart" "-50000"
-"fogmaxdensity" "0.9"
-"fogend" "30000"
+"fogstart" "0"
+"fogmaxdensity" "0.85"
+"fogend" "12000"
 "fogenable" "1"
 "fogdir" "1 0 0"
 "fogcolor2" "255 255 255"
@@ -9816,7 +9755,7 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -9972,7 +9911,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "10 -2506 8184"
+"origin" "-56 -2480 8184"
 "movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -10019,7 +9958,7 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -10569,8 +10508,8 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "852263"
-"OnPass" "stage2_last_container_door01Open31"
-"OnPass" "stage2_last_container_door02Open31"
+"OnPass" "stage2_last_container_door01Open21"
+"OnPass" "stage2_last_container_door02Open21"
 }
 {
 "origin" "154.76 3971.56 6790.41"
@@ -10643,13 +10582,14 @@ Revision: 18426
 "OnMultiNewRound" "mspl_gamerulesSetBlueTeamRespawnWaveTime20-1"
 "OnMapSpawn" "tonemap_globalSetAutoExposureMin0.70-1"
 "OnMapSpawn" "tonemap_globalSetAutoExposureMax0.90-1"
-"OnMapSpawn" "tonemap_globalSetBloomScale0.20-1"
+"OnNewGame" "tonemap_globalSetBloomScale0.40-1"
 "OnNewGame" "stage1_skycamera_makerFireUser10-1"
 "OnMapSpawn" "current_skycamera_template_stage2AddOutputclassname sky_camera0-1"
 "OnMapSpawn" "current_skycamera_templateAddOutputclassname sky_camera0-1"
 "OnMapSpawn" "current_skycamera_template_stage3AddOutputclassname sky_camera0-1"
 "OnMapSpawn" "stage3_radar_top001_rot01Start0-1"
 "OnMultiNewRound" "mspl_gamerulesSetRedTeamRespawnWaveTime80-1"
+"OnMapSpawn" "birdSetAnimationIdle010-1"
 }
 {
 "origin" "2995.56 -1280.65 -336"
@@ -10663,7 +10603,7 @@ Revision: 18426
 "hammerid" "1068927"
 }
 {
-"origin" "-802.756 -1643.38 -14000"
+"origin" "1273.34 780 -13140"
 "targetname" "stage1_dynamic_props"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -10689,7 +10629,7 @@ Revision: 18426
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "0 304 0"
+"angles" "0 212.5 0"
 "classname" "prop_dynamic"
 "hammerid" "1275609"
 }
@@ -10714,26 +10654,13 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "38086"
-"OnPass" "stage1_cap2_relayTrigger0-1"
+"OnPass" "stage1_cap2_relayTrigger01"
 "OnPass" "mspl_cartsparksStopSpark0-1"
-"OnPass" "mspl_watcher1SetTrainCanRecede10-1"
-"OnPass" "mspl_constraintBreak0-1"
-"OnPass" "mspl_cartKill0-1"
-"OnPass" "stage1_fakecart_propEnable0-1"
-"OnPass" "stage1_fakecart_tracktrainSetSpeed0.10-1"
-"OnPass" "stage1_fakecart_flashinglightStart0-1"
-}
-{
-"model" "*15"
-"StartDisabled" "0"
-"speed" "250"
-"spawnflags" "1"
-"pushdir" "0 90 0"
-"origin" "-440 2024 7824"
-"angles" "0 0 0"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "1787171"
+"OnPass" "mspl_watcher1SetTrainCanRecede101"
+"OnPass" "mspl_cartDisable01"
+"OnPass" "stage1_fakecart_propEnable01"
+"OnPass" "stage1_fakecart_tracktrainSetSpeed0.101"
+"OnPass" "stage1_fakecart_flashinglightStart01"
 }
 {
 "origin" "274 4780 -6128"
@@ -10808,7 +10735,7 @@ Revision: 18426
 "hammerid" "852806"
 }
 {
-"origin" "5692 -348 37"
+"origin" "5695.5 -351.5 65"
 "pitch" "-90"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
@@ -10968,19 +10895,19 @@ Revision: 18426
 "targetname" "stage2_path_163"
 "target" "stage2_path_164"
 "speed" "0"
-"spawnflags" "32"
+"spawnflags" "0"
 "radius" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "849501"
-"OnPass" "stage2_cap4SetOwner30.2-1"
-"OnPass" "mspl_trainStop0-1"
-"OnPass" "stage2_cap3_relayTrigger0-1"
-"OnPass" "mspl_pushzoneDisable0-1"
-"OnPass" "stage2_cap4_relayTrigger0-1"
-"OnPass" "mspl_watcher2SetSpeedForwardModifier10-1"
+"OnPass" "stage2_cap4SetOwner30.21"
+"OnPass" "mspl_trainStop01"
+"OnPass" "stage2_cap3_relayTrigger01"
+"OnPass" "mspl_pushzoneDisable01"
+"OnPass" "stage2_cap4_relayTrigger01"
+"OnPass" "mspl_watcher2SetSpeedForwardModifier101"
 }
 {
 "origin" "4344.49 992.504 -306"
@@ -11082,12 +11009,12 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "855864"
-"OnPass" "stage2_cap2SetOwner30.2-1"
+"OnPass" "stage2_cap2SetOwner30.21"
 "OnPass" "stage2_cap2_relayTrigger01"
 "OnPass" "mspl_cartsparksStopSpark0-1"
 }
 {
-"model" "*16"
+"model" "*15"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -11181,12 +11108,12 @@ Revision: 18426
 "hammerid" "1437937"
 }
 {
-"model" "*17"
+"model" "*16"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_cap3_shortcut_door"
-"speed" "64"
-"spawnpos" "1"
+"speed" "20"
+"spawnpos" "0"
 "spawnflags" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -11206,9 +11133,11 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "856769"
+"OnFullyClosed" "stage2_cap3_shortcut_door_dontgetstuckEnable0-1"
+"OnFullyClosed" "stage2_cap3_shortcut_door_dontgetstuckDisable0.1-1"
 }
 {
-"model" "*18"
+"model" "*17"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_red"
 "StartDisabled" "0"
@@ -11270,7 +11199,7 @@ Revision: 18426
 "hammerid" "856945"
 }
 {
-"model" "*19"
+"model" "*18"
 "wait" "0"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -11298,7 +11227,7 @@ Revision: 18426
 "classname" "path_track"
 "hammerid" "859465"
 "OnPass" "mspl_cartsparksStopSpark0-1"
-"OnPass" "stage2_sightlineblocker_relayTrigger0-1"
+"OnPass" "stage2_sightlineblocker_relayTrigger01"
 }
 {
 "origin" "1285 4440 -6254.3"
@@ -11312,7 +11241,7 @@ Revision: 18426
 "hammerid" "755481"
 }
 {
-"origin" "5568 1289 -280"
+"origin" "5568 1290 -280"
 "pitch" "-90"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
@@ -11482,7 +11411,7 @@ Revision: 18426
 "hammerid" "849226"
 }
 {
-"model" "*20"
+"model" "*19"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door03a"
@@ -11501,7 +11430,7 @@ Revision: 18426
 "ignoredebris" "0"
 "health" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -11634,7 +11563,7 @@ Revision: 18426
 "hammerid" "849033"
 }
 {
-"model" "*21"
+"model" "*20"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn01_visualizer"
 "StartDisabled" "0"
@@ -11687,7 +11616,6 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
-"LightingOrigin" "stage2_sightlineblocker01_doors02_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -11726,10 +11654,10 @@ Revision: 18426
 "hammerid" "776394"
 }
 {
-"model" "*22"
+"model" "*21"
 "StartDisabled" "0"
 "spawnflags" "3"
-"origin" "-776 2080 7512"
+"origin" "-776 2080 7489.07"
 "nodmgforce" "1"
 "damagetype" "32"
 "damagemodel" "0"
@@ -11740,7 +11668,7 @@ Revision: 18426
 "hammerid" "1787857"
 }
 {
-"origin" "5568 1079 -280"
+"origin" "5568 1078 -280"
 "pitch" "-90"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
@@ -11811,7 +11739,7 @@ Revision: 18426
 "hammerid" "1439346"
 }
 {
-"model" "*23"
+"model" "*22"
 "wait" "0"
 "targetname" "stage1_endcap_woodbarrier_dontgetstuck"
 "StartDisabled" "1"
@@ -11822,20 +11750,6 @@ Revision: 18426
 "classname" "trigger_multiple"
 "hammerid" "777839"
 "OnTrigger" "!activatorSetHealth-10000-1"
-}
-{
-"origin" "5568 1289 -97"
-"pitch" "-90"
-"angles" "-90 0 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 300"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "80"
-"classname" "light_spot"
-"hammerid" "1340370"
 }
 {
 "origin" "2796 -1794 -336"
@@ -11905,7 +11819,7 @@ Revision: 18426
 "hammerid" "639684"
 }
 {
-"model" "*24"
+"model" "*23"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors01a"
 "speed" "100"
@@ -11921,7 +11835,7 @@ Revision: 18426
 "lip" "2"
 "ignoredebris" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -11987,12 +11901,12 @@ Revision: 18426
 "OnPass" "mspl_watcher2SetSpeedForwardModifier10-1"
 }
 {
-"model" "*25"
+"model" "*24"
 "TeamNum" "0"
-"targetname" "stage2_redspawn01_resupply01_triggers"
+"targetname" "stage2_redspawn01_resupply03_trigger"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "1472 1520 -224"
+"origin" "1520 916 -224"
 "associatedmodel" "stage2_redspawn01_resupply03"
 "angles" "0 0 0"
 "classname" "func_regenerate"
@@ -12224,7 +12138,7 @@ Revision: 18426
 "hammerid" "849444"
 }
 {
-"model" "*26"
+"model" "*25"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_water_analogs"
@@ -12375,15 +12289,6 @@ Revision: 18426
 "hammerid" "1068897"
 }
 {
-"origin" "256 4544 7008"
-"targetname" "stage3_secretbase_destruction_explosion_particles"
-"start_active" "0"
-"effect_name" "explosion_silo"
-"angles" "0 270 0"
-"classname" "info_particle_system"
-"hammerid" "1637549"
-}
-{
 "origin" "-3880 5616 -5792"
 "style" "0"
 "spawnflags" "0"
@@ -12429,7 +12334,7 @@ Revision: 18426
 "hammerid" "1086950"
 }
 {
-"model" "*27"
+"model" "*26"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage1_cap2_powerup_rail"
@@ -12491,7 +12396,7 @@ Revision: 18426
 "hammerid" "859773"
 }
 {
-"model" "*28"
+"model" "*27"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door04a"
@@ -12510,7 +12415,7 @@ Revision: 18426
 "ignoredebris" "0"
 "health" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -12532,7 +12437,7 @@ Revision: 18426
 "physdamagescale" "1.0"
 "parentname" "stage1_fakecart_tracktrain"
 "modelscale" "1.0"
-"model" "models/props_trainyard/bomb_cart.mdl"
+"model" "models/props_patagonia/bomb_argentum.mdl"
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -12703,7 +12608,7 @@ Revision: 18426
 "hammerid" "1437841"
 }
 {
-"model" "*29"
+"model" "*28"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap2_arrows_screenarrow01_offblocker"
@@ -12730,7 +12635,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 2000"
+"_light" "255 255 255 2200"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "70"
@@ -12814,7 +12719,7 @@ Revision: 18426
 "hammerid" "855533"
 }
 {
-"model" "*30"
+"model" "*29"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn01_visualizer"
 "StartDisabled" "0"
@@ -12897,7 +12802,7 @@ Revision: 18426
 "hammerid" "848917"
 }
 {
-"model" "*31"
+"model" "*30"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_red"
 "StartDisabled" "0"
@@ -12959,13 +12864,6 @@ Revision: 18426
 "ctf_overtime" "1"
 "classname" "tf_gamerules"
 "hammerid" "1258052"
-}
-{
-"portalnumber" "30"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "848907"
 }
 {
 "origin" "1880 4832 -6420"
@@ -13070,7 +12968,7 @@ Revision: 18426
 "targetname" "stage2_occluders"
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "3011292"
+"hammerid" "3011290"
 }
 {
 "occludernumber" "11"
@@ -13078,18 +12976,10 @@ Revision: 18426
 "targetname" "stage2_occluders"
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "3011290"
-}
-{
-"occludernumber" "12"
-"model" ""
-"targetname" "stage2_occluders"
-"StartActive" "1"
-"classname" "func_occluder"
 "hammerid" "3011284"
 }
 {
-"occludernumber" "13"
+"occludernumber" "12"
 "model" ""
 "targetname" "stage2_sightlineblocker01_occluder"
 "StartActive" "1"
@@ -13097,35 +12987,35 @@ Revision: 18426
 "hammerid" "3011282"
 }
 {
-"occludernumber" "14"
+"occludernumber" "13"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011276"
 }
 {
-"occludernumber" "15"
+"occludernumber" "14"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011264"
 }
 {
-"occludernumber" "16"
+"occludernumber" "15"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011260"
 }
 {
-"occludernumber" "17"
+"occludernumber" "16"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011255"
 }
 {
-"occludernumber" "18"
+"occludernumber" "17"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13133,7 +13023,7 @@ Revision: 18426
 "hammerid" "3011249"
 }
 {
-"occludernumber" "19"
+"occludernumber" "18"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13141,7 +13031,7 @@ Revision: 18426
 "hammerid" "3011242"
 }
 {
-"occludernumber" "20"
+"occludernumber" "19"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13149,7 +13039,7 @@ Revision: 18426
 "hammerid" "3011240"
 }
 {
-"occludernumber" "21"
+"occludernumber" "20"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13157,35 +13047,35 @@ Revision: 18426
 "hammerid" "3011234"
 }
 {
-"occludernumber" "22"
+"occludernumber" "21"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011232"
 }
 {
-"occludernumber" "23"
+"occludernumber" "22"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011230"
 }
 {
-"occludernumber" "24"
+"occludernumber" "23"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011221"
 }
 {
-"occludernumber" "25"
+"occludernumber" "24"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011219"
 }
 {
-"occludernumber" "26"
+"occludernumber" "25"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13193,7 +13083,7 @@ Revision: 18426
 "hammerid" "3011209"
 }
 {
-"occludernumber" "27"
+"occludernumber" "26"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13201,7 +13091,7 @@ Revision: 18426
 "hammerid" "3011205"
 }
 {
-"occludernumber" "28"
+"occludernumber" "27"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13209,14 +13099,14 @@ Revision: 18426
 "hammerid" "3011197"
 }
 {
-"occludernumber" "29"
+"occludernumber" "28"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011195"
 }
 {
-"occludernumber" "30"
+"occludernumber" "29"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13224,14 +13114,14 @@ Revision: 18426
 "hammerid" "3011193"
 }
 {
-"occludernumber" "31"
+"occludernumber" "30"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011191"
 }
 {
-"occludernumber" "32"
+"occludernumber" "31"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13239,28 +13129,28 @@ Revision: 18426
 "hammerid" "3011186"
 }
 {
-"occludernumber" "33"
+"occludernumber" "32"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011178"
 }
 {
-"occludernumber" "34"
+"occludernumber" "33"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011174"
 }
 {
-"occludernumber" "35"
+"occludernumber" "34"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011172"
 }
 {
-"occludernumber" "36"
+"occludernumber" "35"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13380,7 +13270,7 @@ Revision: 18426
 "hammerid" "632837"
 }
 {
-"portalnumber" "31"
+"portalnumber" "30"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1431161"
@@ -13410,7 +13300,7 @@ Revision: 18426
 "OnPass" "mspl_watcher2SetSpeedForwardModifier10-1"
 }
 {
-"model" "*32"
+"model" "*31"
 "wait" "0"
 "targetname" "stage2_sightlineblocker01_dontgetstuck"
 "StartDisabled" "1"
@@ -13422,20 +13312,20 @@ Revision: 18426
 "OnTrigger" "!activatorSetHealth-10000-1"
 }
 {
-"portalnumber" "32"
+"portalnumber" "31"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437799"
 }
 {
-"portalnumber" "33"
+"portalnumber" "32"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849084"
 }
 {
-"portalnumber" "34"
+"portalnumber" "33"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13471,7 +13361,7 @@ Revision: 18426
 "hammerid" "2066046"
 }
 {
-"model" "*33"
+"model" "*32"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn02_visualizer"
 "StartDisabled" "1"
@@ -13540,7 +13430,7 @@ Revision: 18426
 "hammerid" "1067992"
 }
 {
-"portalnumber" "35"
+"portalnumber" "34"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13663,7 +13553,7 @@ Revision: 18426
 "hammerid" "38099"
 }
 {
-"model" "*34"
+"model" "*33"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_redspawn01_resupply_signs_blocker01"
@@ -13813,7 +13703,7 @@ Revision: 18426
 "hammerid" "1433375"
 }
 {
-"portalnumber" "36"
+"portalnumber" "35"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13854,6 +13744,7 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
+"LightingOrigin" "stage1_endcap_woodbarrier_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -13892,7 +13783,7 @@ Revision: 18426
 "hammerid" "860880"
 }
 {
-"model" "*35"
+"model" "*34"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -13921,7 +13812,7 @@ Revision: 18426
 "OnFullyOpen" "stage2_cap2_arrows_door01_propKill0-1"
 }
 {
-"portalnumber" "37"
+"portalnumber" "36"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430102"
@@ -13954,7 +13845,7 @@ Revision: 18426
 "hammerid" "708713"
 }
 {
-"portalnumber" "38"
+"portalnumber" "37"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13976,7 +13867,7 @@ Revision: 18426
 "OnTrigger" "mspl_trainSetSpeedForwardModifier11-1"
 }
 {
-"model" "*36"
+"model" "*35"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door01a"
@@ -13987,7 +13878,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "210 -2306 8104"
+"origin" "144 -2280 8104"
 "movedir" "90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -14014,7 +13905,7 @@ Revision: 18426
 "hammerid" "1069269"
 }
 {
-"portalnumber" "39"
+"portalnumber" "38"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -14031,7 +13922,7 @@ Revision: 18426
 "hammerid" "1437987"
 }
 {
-"model" "*37"
+"model" "*36"
 "WaveHeight" "3.0"
 "targetname" "stage1_water_analogs"
 "startposition" "0"
@@ -14047,11 +13938,11 @@ Revision: 18426
 "hammerid" "1150260"
 }
 {
-"model" "*38"
+"model" "*37"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
-"origin" "1768 -1200 -817.68"
+"origin" "1768 -1200 -785.68"
 "nodmgforce" "1"
 "damagetype" "32"
 "damagemodel" "0"
@@ -14074,7 +13965,7 @@ Revision: 18426
 "hammerid" "1258157"
 }
 {
-"model" "*39"
+"model" "*38"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -14117,10 +14008,10 @@ Revision: 18426
 "hammerid" "441341"
 }
 {
-"origin" "-2224 5904.16 -5584"
+"origin" "-2280 5912 -5480"
 "targetname" "mspl_capturebell"
 "spawnflags" "49"
-"radius" "1250"
+"radius" "1024"
 "pitchstart" "100"
 "pitch" "100"
 "message" "Hud.EndRoundScored"
@@ -14129,7 +14020,7 @@ Revision: 18426
 "hammerid" "1258048"
 }
 {
-"model" "*40"
+"model" "*39"
 "wait" "0"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -14217,13 +14108,13 @@ Revision: 18426
 "hammerid" "1072348"
 }
 {
-"portalnumber" "40"
+"portalnumber" "39"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437682"
 }
 {
-"model" "*41"
+"model" "*40"
 "wait" "0"
 "targetname" "stage2_redspawn01_change_killredplayers"
 "StartDisabled" "1"
@@ -14245,7 +14136,7 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "857282"
-"OnPass" "stage2_cap3SetOwner30.2-1"
+"OnPass" "stage2_cap3SetOwner30.21"
 "OnPass" "mspl_cartsparksStopSpark0-1"
 "OnPass" "stage2_cap3_relayTrigger01"
 }
@@ -14346,7 +14237,7 @@ Revision: 18426
 "hammerid" "658497"
 }
 {
-"portalnumber" "41"
+"portalnumber" "40"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430318"
@@ -14363,7 +14254,7 @@ Revision: 18426
 "OnPass" "mspl_watcher3SetSpeedForwardModifier10-1"
 }
 {
-"model" "*42"
+"model" "*41"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14374,7 +14265,7 @@ Revision: 18426
 "hammerid" "1437778"
 }
 {
-"portalnumber" "42"
+"portalnumber" "41"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -14472,7 +14363,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "8"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -14480,7 +14371,7 @@ Revision: 18426
 "hammerid" "859270"
 }
 {
-"model" "*43"
+"model" "*42"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -14532,7 +14423,7 @@ Revision: 18426
 "hammerid" "857660"
 }
 {
-"model" "*44"
+"model" "*43"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door04b"
@@ -14551,7 +14442,7 @@ Revision: 18426
 "ignoredebris" "0"
 "health" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -14634,7 +14525,7 @@ Revision: 18426
 "hammerid" "859078"
 }
 {
-"model" "*45"
+"model" "*44"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -14646,7 +14537,7 @@ Revision: 18426
 "hammerid" "850008"
 }
 {
-"portalnumber" "43"
+"portalnumber" "42"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437795"
@@ -14663,7 +14554,7 @@ Revision: 18426
 "hammerid" "1436870"
 }
 {
-"model" "*46"
+"model" "*45"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -14709,7 +14600,7 @@ Revision: 18426
 "hammerid" "855590"
 }
 {
-"model" "*47"
+"model" "*46"
 "TeamNum" "3"
 "targetname" "stage2_bluespawn02"
 "StartDisabled" "0"
@@ -14730,7 +14621,7 @@ Revision: 18426
 "hammerid" "1701732"
 }
 {
-"model" "*48"
+"model" "*47"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -14779,7 +14670,7 @@ Revision: 18426
 "hammerid" "1610850"
 }
 {
-"portalnumber" "44"
+"portalnumber" "43"
 "target" "stage3_cap1_flankdoor02"
 "StartOpen" "0"
 "classname" "func_areaportal"
@@ -14861,7 +14752,7 @@ Revision: 18426
 "hammerid" "742502"
 }
 {
-"portalnumber" "45"
+"portalnumber" "44"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -14924,7 +14815,7 @@ Revision: 18426
 "hammerid" "860370"
 }
 {
-"portalnumber" "46"
+"portalnumber" "45"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437781"
@@ -15005,7 +14896,7 @@ Revision: 18426
 "hammerid" "856205"
 }
 {
-"model" "*49"
+"model" "*48"
 "TeamNum" "2"
 "targetname" "stage2_redspawn01"
 "StartDisabled" "0"
@@ -15017,7 +14908,7 @@ Revision: 18426
 "hammerid" "1123593"
 }
 {
-"model" "*50"
+"model" "*49"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door02"
@@ -15103,7 +14994,6 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
-"LightingOrigin" "stage2_sightlineblocker01_doors01_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -15147,7 +15037,7 @@ Revision: 18426
 "hammerid" "1699873"
 }
 {
-"portalnumber" "47"
+"portalnumber" "46"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15269,7 +15159,7 @@ Revision: 18426
 "hammerid" "1663651"
 }
 {
-"origin" "5568 1079 -296"
+"origin" "5568 1078 -296"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -15278,7 +15168,7 @@ Revision: 18426
 "hammerid" "850814"
 }
 {
-"model" "*51"
+"model" "*50"
 "TeamNum" "2"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -15311,7 +15201,6 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
-"LightingOrigin" "stage2_sightlineblocker01_doors01_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -15326,6 +15215,7 @@ Revision: 18426
 "origin" "3748 1860 -223"
 "targetname" "stage2_path_105"
 "target" "stage2_path_106"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -15343,7 +15233,7 @@ Revision: 18426
 "hammerid" "1436249"
 }
 {
-"model" "*52"
+"model" "*51"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap3_arrows_screenarrow01_offblocker"
@@ -15389,11 +15279,11 @@ Revision: 18426
 "hammerid" "2271296"
 }
 {
-"model" "*53"
+"model" "*52"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "6752 704 -1056"
+"origin" "6752 704 -1000"
 "nodmgforce" "1"
 "damagetype" "32"
 "damagemodel" "0"
@@ -15471,8 +15361,12 @@ Revision: 18426
 "angles" "0 90 0"
 "classname" "path_track"
 "hammerid" "38416"
-"OnPass" "mspl_watcher1SetTrainCanRecede001"
-"OnPass" "stage1_mine_elevatorOpen01"
+"OnPass" "mspl_trainSetSpeed0.2501"
+"OnPass" "stage1_mine_elevatorSetParentmspl_train01"
+"OnPass" "mspl_timerPause01"
+"OnPass" "mspl_pushzoneDisableAndEndTouch01"
+"OnPass" "mspl_flashinglight_triggerDisableAndEndTouch01"
+"OnPass" "mspl_cartsparksStopSpark0-1"
 "OnPass" "mspl_timerPause01"
 }
 {
@@ -15518,7 +15412,7 @@ Revision: 18426
 "hammerid" "1258091"
 }
 {
-"portalnumber" "48"
+"portalnumber" "47"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15547,7 +15441,7 @@ Revision: 18426
 "hammerid" "777702"
 }
 {
-"portalnumber" "49"
+"portalnumber" "48"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15575,13 +15469,6 @@ Revision: 18426
 "hammerid" "755491"
 }
 {
-"portalnumber" "50"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "848903"
-}
-{
 "origin" "-1172 5201 -6015"
 "targetname" "stage1_path_14"
 "target" "stage1_path_15"
@@ -15601,12 +15488,6 @@ Revision: 18426
 "OnTrigger" "stage2_bluespawn01_playerspawnsKill0-1"
 }
 {
-"portalnumber" "51"
-"StartOpen" "1"
-"classname" "func_areaportal"
-"hammerid" "2033053"
-}
-{
 "origin" "2546.46 1106.32 -224"
 "targetname" "stage2_path_93"
 "target" "stage2_path_94"
@@ -15620,7 +15501,7 @@ Revision: 18426
 "origin" "3360 1472 -415"
 "targetname" "stage2_path_103"
 "target" "stage2_path_104"
-"spawnflags" "32"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -15653,7 +15534,7 @@ Revision: 18426
 "hammerid" "770145"
 }
 {
-"model" "*54"
+"model" "*53"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15745,7 +15626,7 @@ Revision: 18426
 "hammerid" "2271665"
 }
 {
-"model" "*55"
+"model" "*54"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window01"
@@ -15786,21 +15667,7 @@ Revision: 18426
 "OnPass" "stage2_path_122DisablePath0-1"
 }
 {
-"origin" "5568 1079 -97"
-"pitch" "-90"
-"angles" "-90 0 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 300"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "80"
-"classname" "light_spot"
-"hammerid" "1340393"
-}
-{
-"portalnumber" "52"
+"portalnumber" "49"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15818,7 +15685,7 @@ Revision: 18426
 "hammerid" "756208"
 }
 {
-"model" "*56"
+"model" "*55"
 "TeamNum" "2"
 "targetname" "stage3_redspawn01"
 "StartDisabled" "0"
@@ -15830,7 +15697,7 @@ Revision: 18426
 "hammerid" "1431101"
 }
 {
-"portalnumber" "53"
+"portalnumber" "50"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15848,7 +15715,7 @@ Revision: 18426
 "hammerid" "1440231"
 }
 {
-"model" "*57"
+"model" "*56"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -15931,12 +15798,12 @@ Revision: 18426
 "hammerid" "789294"
 }
 {
-"model" "*58"
+"model" "*57"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
 "spawnflags" "2"
-"Solidity" "1"
+"Solidity" "0"
 "solid_to_enemies" "1"
 "respawnroomname" "stage2_redspawn01"
 "rendermode" "0"
@@ -15952,7 +15819,7 @@ Revision: 18426
 "hammerid" "859396"
 }
 {
-"portalnumber" "54"
+"portalnumber" "51"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16014,7 +15881,7 @@ Revision: 18426
 "hammerid" "1433773"
 }
 {
-"model" "*59"
+"model" "*58"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -16065,7 +15932,7 @@ Revision: 18426
 "OnPass" "stage2_sightlineblocker01_doors01aClose0-1"
 }
 {
-"model" "*60"
+"model" "*59"
 "wait" "0"
 "targetname" "stage2_bluespawn02_door_triggers"
 "StartDisabled" "1"
@@ -16081,7 +15948,7 @@ Revision: 18426
 "OnEndTouchAll" "stage2_bluespawn02_door02Close0-1"
 }
 {
-"model" "*61"
+"model" "*60"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -16116,7 +15983,7 @@ Revision: 18426
 "hammerid" "618567"
 }
 {
-"portalnumber" "55"
+"portalnumber" "52"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439446"
@@ -16248,7 +16115,7 @@ Revision: 18426
 "hammerid" "743093"
 }
 {
-"portalnumber" "56"
+"portalnumber" "53"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16264,7 +16131,7 @@ Revision: 18426
 "hammerid" "2062503"
 }
 {
-"origin" "-1262.6 -1257.98 -13632.4"
+"origin" "2382.09 -1670 -13274"
 "targetname" "stage1_dynamic_props"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -16290,7 +16157,7 @@ Revision: 18426
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "0 52 0"
+"angles" "0 110.5 0"
 "classname" "prop_dynamic"
 "hammerid" "1275601"
 }
@@ -16309,7 +16176,7 @@ Revision: 18426
 "hammerid" "856023"
 }
 {
-"model" "*62"
+"model" "*61"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors02b"
 "speed" "100"
@@ -16325,7 +16192,7 @@ Revision: 18426
 "lip" "2"
 "ignoredebris" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -16353,7 +16220,6 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
-"LightingOrigin" "stage2_sightlineblocker01_doors02_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -16365,7 +16231,7 @@ Revision: 18426
 "hammerid" "849354"
 }
 {
-"model" "*63"
+"model" "*62"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -16377,7 +16243,7 @@ Revision: 18426
 "hammerid" "1787219"
 }
 {
-"model" "*64"
+"model" "*63"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_redspawn01_resupply_signs_blocker02"
@@ -16438,7 +16304,7 @@ Revision: 18426
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 45 0"
-"classname" "item_ammopack_full"
+"classname" "item_ammopack_medium"
 "hammerid" "859297"
 }
 {
@@ -16457,14 +16323,13 @@ Revision: 18426
 "targetname" "stage2_path_162"
 "target" "stage2_path_163"
 "speed" "0"
-"spawnflags" "32"
+"spawnflags" "0"
 "radius" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "859247"
-"OnPass" "mspl_watcher2SetSpeedForwardModifier0.60-1"
 }
 {
 "origin" "256 4544 7340"
@@ -16512,7 +16377,7 @@ Revision: 18426
 "hammerid" "853734"
 }
 {
-"portalnumber" "57"
+"portalnumber" "54"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16545,7 +16410,7 @@ Revision: 18426
 "hammerid" "1430720"
 }
 {
-"portalnumber" "58"
+"portalnumber" "55"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16586,11 +16451,13 @@ Revision: 18426
 "OnPass" "mspl_pushzoneCaptureCurrentCP01"
 "OnPass" "stage3_cap1_modelSkin101"
 "OnPass" "stage3_path_54DisablePath01"
-"OnPass" "camera_stage3_A_RedDisable0-1"
-"OnPass" "camera_stage3_B_RedEnable0-1"
-"OnPass" "camera_stage3_B_BlueEnable0-1"
+"OnPass" "camera_stage3_A_RedDisable01"
+"OnPass" "camera_stage3_B_RedEnable01"
+"OnPass" "camera_stage3_B_BlueEnable01"
 "OnPass" "stage3_cap1_flankdoor01Open01"
 "OnPass" "stage3_cap1_flankdoor02Open01"
+"OnPass" "bot_nest_cap_a_3Disable01"
+"OnPass" "bot_nest_cap_b_3Enable01"
 }
 {
 "origin" "-1298 -2056 8460"
@@ -16618,12 +16485,12 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 20"
+"_light" "255 255 255 40"
 "classname" "light"
 "hammerid" "2925871"
 }
 {
-"model" "*65"
+"model" "*64"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -16647,8 +16514,17 @@ Revision: 18426
 "angles" "0 90 0"
 "classname" "path_track"
 "hammerid" "1288555"
-"OnPass" "stage1_path_77DisablePath0-1"
+"OnPass" "stage1_path_77DisablePath01"
 "OnPass" "mspl_cartsparksStopSpark0-1"
+"OnPass" "mspl_trainStop01"
+"OnPass" "mspl_pushzoneEnable11"
+"OnPass" "mspl_pushzoneTouchTest1.11"
+"OnPass" "mspl_flashinglight_triggerTouchTest1.11"
+"OnPass" "mspl_flashinglight_triggerEnable11"
+"OnPass" "stage1_mine_elevatorClearParent0.11"
+"OnPass" "stage1_mine_elevator_descend_clipEnable01"
+"OnPass" "mspl_timerResume11"
+"OnPass" "stage1_path_78EnablePath11"
 }
 {
 "origin" "1292 4718 -6335.7"
@@ -16663,7 +16539,7 @@ Revision: 18426
 "OnPass" "stage1_path_61DisablePath0-1"
 }
 {
-"portalnumber" "59"
+"portalnumber" "56"
 "TranslucencyLimit" "0.0"
 "target" "ap_window01"
 "PortalVersion" "1"
@@ -16678,19 +16554,19 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 20"
+"_light" "255 255 255 40"
 "classname" "light"
 "hammerid" "2925863"
 }
 {
-"portalnumber" "60"
+"portalnumber" "57"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776208"
 }
 {
-"origin" "5664 1088 -408"
+"origin" "5564 1456 -408"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -16721,7 +16597,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 20"
+"_light" "255 255 255 40"
 "classname" "light"
 "hammerid" "2925855"
 }
@@ -16838,7 +16714,7 @@ Revision: 18426
 "hammerid" "777726"
 }
 {
-"portalnumber" "61"
+"portalnumber" "58"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16910,7 +16786,7 @@ Revision: 18426
 "hammerid" "1436209"
 }
 {
-"model" "*66"
+"model" "*65"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -16955,7 +16831,7 @@ Revision: 18426
 "hammerid" "1435586"
 }
 {
-"model" "*67"
+"model" "*66"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door01"
@@ -16967,7 +16843,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1036 1538 8224"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -16992,7 +16868,7 @@ Revision: 18426
 "hammerid" "2925735"
 }
 {
-"model" "*68"
+"model" "*67"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17125,7 +17001,7 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "856783"
-"OnPass" "stage2_cap1SetOwner30.2-1"
+"OnPass" "stage2_cap1SetOwner30.21"
 "OnPass" "mspl_cartsparksStopSpark0-1"
 "OnPass" "stage2_cap1_relayTrigger01"
 }
@@ -17167,7 +17043,7 @@ Revision: 18426
 "hammerid" "849380"
 }
 {
-"origin" "-2150 -20 8480"
+"origin" "-2150 -20 8492"
 "spawnflags" "0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -17177,7 +17053,7 @@ Revision: 18426
 "hammerid" "2925617"
 }
 {
-"origin" "-2328 -20 8480"
+"origin" "-2328 -20 8492"
 "spawnflags" "0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -17200,7 +17076,7 @@ Revision: 18426
 "hammerid" "858812"
 }
 {
-"model" "*69"
+"model" "*68"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window02"
@@ -17216,20 +17092,20 @@ Revision: 18426
 "hammerid" "727551"
 }
 {
-"portalnumber" "62"
+"portalnumber" "59"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437807"
 }
 {
-"portalnumber" "63"
+"portalnumber" "60"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849100"
 }
 {
-"portalnumber" "64"
+"portalnumber" "61"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437809"
@@ -17262,7 +17138,7 @@ Revision: 18426
 "hammerid" "1103297"
 }
 {
-"portalnumber" "65"
+"portalnumber" "62"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17330,7 +17206,7 @@ Revision: 18426
 "OnPass" "mspl_watcher3SetSpeedForwardModifier0.60-1"
 }
 {
-"model" "*70"
+"model" "*69"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17339,25 +17215,6 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_regenerate"
 "hammerid" "1437451"
-}
-{
-"origin" "2419.54 700.659 47"
-"style" "0"
-"spawnflags" "0"
-"pitch" "-90"
-"defaultstyle" "0"
-"angles" "-90 63.5 0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255  1600"
-"_inner_cone" "30"
-"_exponent" "1"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "859127"
 }
 {
 "origin" "-1955 532 8493"
@@ -17472,7 +17329,7 @@ Revision: 18426
 "hammerid" "1437382"
 }
 {
-"portalnumber" "66"
+"portalnumber" "63"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17552,14 +17409,14 @@ Revision: 18426
 "hammerid" "1431546"
 }
 {
-"portalnumber" "67"
+"portalnumber" "64"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "854636"
 }
 {
-"portalnumber" "68"
+"portalnumber" "65"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437811"
@@ -17602,7 +17459,7 @@ Revision: 18426
 "OnPass" "stage1_fakecart_tracktrainSetSpeed0.20-1"
 }
 {
-"model" "*71"
+"model" "*70"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17626,7 +17483,7 @@ Revision: 18426
 "hammerid" "1437752"
 }
 {
-"model" "*72"
+"model" "*71"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -17655,7 +17512,7 @@ Revision: 18426
 "OnFullyOpen" "stage2_cap3_arrows_door01_propKill0-1"
 }
 {
-"model" "*73"
+"model" "*72"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17692,7 +17549,7 @@ Revision: 18426
 "OnUser1" "current_skycameraKill0-1"
 }
 {
-"model" "*74"
+"model" "*73"
 "TeamNum" "3"
 "targetname" "stage3_bluespawn01"
 "StartDisabled" "0"
@@ -17730,7 +17587,7 @@ Revision: 18426
 "hammerid" "1437763"
 }
 {
-"model" "*75"
+"model" "*74"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17755,7 +17612,7 @@ Revision: 18426
 "hammerid" "861118"
 }
 {
-"model" "*76"
+"model" "*75"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_redspawn01_visualizer"
 "StartDisabled" "0"
@@ -17776,7 +17633,7 @@ Revision: 18426
 "hammerid" "471268"
 }
 {
-"portalnumber" "69"
+"portalnumber" "66"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17796,6 +17653,8 @@ Revision: 18426
 "OnTrigger" "stage2_redspawn01_disable_relayTrigger0-1"
 "OnTrigger" "stage2_redspawn02_enable_relayTrigger0-1"
 "OnTrigger" "stage2_cap1_arrows_door01Open0-1"
+"OnTrigger" "bot_nest_cap_a_2Disable0-1"
+"OnTrigger" "bot_nest_cap_b_2Enable0-1"
 }
 {
 "origin" "-1051 4883 -6064"
@@ -17809,7 +17668,7 @@ Revision: 18426
 "hammerid" "743375"
 }
 {
-"model" "*77"
+"model" "*76"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -17830,7 +17689,7 @@ Revision: 18426
 "hammerid" "2063818"
 }
 {
-"model" "*78"
+"model" "*77"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_blue"
 "StartDisabled" "1"
@@ -17863,12 +17722,12 @@ Revision: 18426
 "OnTrigger" "mspl_timerPause0-1"
 "OnTrigger" "mspl_trainTeleportToPathTrackstage2_path_10-1"
 "OnTrigger" "stage1_cap2_powerup_railOpen0-1"
-"OnTrigger" "mspl_cartKill0-1"
-"OnTrigger" "mspl_constraintBreak0-1"
+"OnTrigger" "mspl_cartDisable0-1"
 "OnTrigger" "stage1_fakecart_sparksStartSpark0-1"
+"OnTrigger" "bot_nest_cap_b_1Disable0-1"
 }
 {
-"model" "*79"
+"model" "*78"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -17942,6 +17801,7 @@ Revision: 18426
 "OnTrigger" "mspl_pushzoneCaptureCurrentCP0-1"
 "OnTrigger" "stage2_cap4_train_whistlePlaySound10-1"
 "OnTrigger" "stage2_cap4_train_whistle_particleStart10-1"
+"OnTrigger" "bot_nest_cap_d_2Disable0-1"
 }
 {
 "origin" "-584 -2449 7985"
@@ -17991,14 +17851,14 @@ Revision: 18426
 "hammerid" "2925375"
 }
 {
-"portalnumber" "70"
+"portalnumber" "67"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849088"
 }
 {
-"model" "*80"
+"model" "*79"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -18109,7 +17969,7 @@ Revision: 18426
 "OnPass" "mspl_watcher3SetSpeedForwardModifier10-1"
 }
 {
-"model" "*81"
+"model" "*80"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door02"
@@ -18121,7 +17981,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1711 1087 -208"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -18222,7 +18082,7 @@ Revision: 18426
 "hammerid" "1070230"
 }
 {
-"model" "*82"
+"model" "*81"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -18247,7 +18107,7 @@ Revision: 18426
 "hammerid" "1072322"
 }
 {
-"model" "*83"
+"model" "*82"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -18258,7 +18118,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "-1328 510 8507"
+"origin" "-1328 512 8507"
 "invert_exclusion" "0"
 "effects" "0"
 "disablereceiveshadows" "0"
@@ -18294,7 +18154,7 @@ Revision: 18426
 "hammerid" "853759"
 }
 {
-"portalnumber" "71"
+"portalnumber" "68"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439450"
@@ -18340,7 +18200,7 @@ Revision: 18426
 "hammerid" "1431065"
 }
 {
-"portalnumber" "72"
+"portalnumber" "69"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -18383,7 +18243,7 @@ Revision: 18426
 "hammerid" "553804"
 }
 {
-"model" "*84"
+"model" "*83"
 "WaveHeight" "3.0"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -18451,7 +18311,7 @@ Revision: 18426
 "hammerid" "1435303"
 }
 {
-"model" "*85"
+"model" "*84"
 "TeamNum" "3"
 "targetname" "stage2_bluespawn01"
 "StartDisabled" "0"
@@ -18680,7 +18540,7 @@ Revision: 18426
 "hammerid" "1072409"
 }
 {
-"model" "*86"
+"model" "*85"
 "TeamNum" "2"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -18705,7 +18565,7 @@ Revision: 18426
 "OnPass" "mspl_flashinglightStop0-1"
 }
 {
-"model" "*87"
+"model" "*86"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -18726,7 +18586,7 @@ Revision: 18426
 "hammerid" "1440094"
 }
 {
-"model" "*88"
+"model" "*87"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door02"
@@ -18738,7 +18598,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1236 1538 8224"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -18753,7 +18613,7 @@ Revision: 18426
 "hammerid" "1440027"
 }
 {
-"model" "*89"
+"model" "*88"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -18842,7 +18702,7 @@ Revision: 18426
 "hammerid" "2925106"
 }
 {
-"model" "*90"
+"model" "*89"
 "wait" "0"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -18906,22 +18766,13 @@ Revision: 18426
 "hammerid" "2925098"
 }
 {
-"origin" "4419 691 -31"
+"origin" "4419 691 -23"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
 "_light" "255 255 255 50"
 "classname" "light"
 "hammerid" "2925060"
-}
-{
-"origin" "4630 826 56"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 50"
-"classname" "light"
-"hammerid" "2925052"
 }
 {
 "origin" "4260 828 -344"
@@ -18935,33 +18786,6 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "item_ammopack_small"
 "hammerid" "1791870"
-}
-{
-"origin" "4858 598 56"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 50"
-"classname" "light"
-"hammerid" "2925044"
-}
-{
-"origin" "5329 79 136"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 50"
-"classname" "light"
-"hammerid" "2924998"
-}
-{
-"origin" "5471 -63 136"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 50"
-"classname" "light"
-"hammerid" "2924990"
 }
 {
 "origin" "3649 -97 20"
@@ -19025,7 +18849,7 @@ Revision: 18426
 "hammerid" "754144"
 }
 {
-"origin" "5692 -348 17"
+"origin" "5695.5 -351.5 45"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -19085,6 +18909,7 @@ Revision: 18426
 "pressuredelay" "0"
 "physdamagescale" "1.0"
 "PerformanceMode" "0"
+"parentname" "stage2_redspawn01_hidelockers"
 "modelscale" "1.0"
 "model" "models/props_gameplay/resupply_locker.mdl"
 "MinAnimTime" "5"
@@ -19102,7 +18927,7 @@ Revision: 18426
 "hammerid" "852211"
 }
 {
-"model" "*91"
+"model" "*90"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -19124,7 +18949,7 @@ Revision: 18426
 "hammerid" "1106018"
 }
 {
-"portalnumber" "73"
+"portalnumber" "70"
 "TranslucencyLimit" "0.0"
 "target" "ap_window02"
 "PortalVersion" "1"
@@ -19134,7 +18959,7 @@ Revision: 18426
 "hammerid" "727547"
 }
 {
-"portalnumber" "74"
+"portalnumber" "71"
 "TranslucencyLimit" "0.0"
 "target" "ap_window03"
 "PortalVersion" "1"
@@ -19196,7 +19021,7 @@ Revision: 18426
 "OnPass" "mspl_cartsparksStopSpark0-1"
 }
 {
-"model" "*92"
+"model" "*91"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -19216,7 +19041,7 @@ Revision: 18426
 "hammerid" "1795393"
 }
 {
-"model" "*93"
+"model" "*92"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door03"
@@ -19243,13 +19068,13 @@ Revision: 18426
 "hammerid" "859748"
 }
 {
-"portalnumber" "75"
+"portalnumber" "72"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "2033060"
 }
 {
-"portalnumber" "76"
+"portalnumber" "73"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -19372,7 +19197,7 @@ Revision: 18426
 "hammerid" "1151559"
 }
 {
-"portalnumber" "77"
+"portalnumber" "74"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437797"
@@ -19405,7 +19230,7 @@ Revision: 18426
 "hammerid" "441301"
 }
 {
-"model" "*94"
+"model" "*93"
 "vrad_brush_cast_shadows" "0"
 "volume" "10"
 "texframeindex" "0"
@@ -19424,18 +19249,6 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_rotating"
 "hammerid" "2059302"
-}
-{
-"model" "*95"
-"StartDisabled" "0"
-"speed" "400"
-"spawnflags" "1"
-"pushdir" "0 90 0"
-"origin" "256 2298 7875"
-"angles" "0 0 0"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "1788218"
 }
 {
 "origin" "-870 -1019 8272"
@@ -19480,14 +19293,14 @@ Revision: 18426
 "hammerid" "1412428"
 }
 {
-"portalnumber" "78"
+"portalnumber" "75"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "727851"
 }
 {
-"origin" "5664 1288 -248"
+"origin" "5592 988 -248"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -19495,12 +19308,12 @@ Revision: 18426
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 0 0"
+"angles" "0 90 0"
 "classname" "item_ammopack_medium"
 "hammerid" "849831"
 }
 {
-"portalnumber" "79"
+"portalnumber" "76"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -19556,7 +19369,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "8"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -19573,7 +19386,7 @@ Revision: 18426
 "hammerid" "1380404"
 }
 {
-"origin" "5664 1336 -248"
+"origin" "5544 988 -248"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -19581,7 +19394,7 @@ Revision: 18426
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 0 0"
+"angles" "0 90 0"
 "classname" "item_healthkit_small"
 "hammerid" "861110"
 }
@@ -19713,20 +19526,6 @@ Revision: 18426
 "hammerid" "789352"
 }
 {
-"model" "*96"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "4512 -112 -32"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "1"
-"AllowSentry" "0"
-"AllowDispenser" "1"
-"classname" "func_nobuild"
-"hammerid" "3065813"
-}
-{
 "origin" "3140 2444 -16"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19778,7 +19577,7 @@ Revision: 18426
 "hammerid" "2924854"
 }
 {
-"model" "*97"
+"model" "*94"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -19793,7 +19592,7 @@ Revision: 18426
 "origin" "-260 3974 -5848"
 "movedir" "-90 0 0"
 "loopmovesound" "0"
-"lip" "8"
+"lip" "-4"
 "ignoredebris" "0"
 "forceclosed" "0"
 "effects" "0"
@@ -19802,6 +19601,7 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "294067"
+"OnFullyOpen" "!selfKill0-1"
 }
 {
 "origin" "1512 1456 -66"
@@ -19869,7 +19669,7 @@ Revision: 18426
 "OnTrigger" "stage2_sightlineblocker01_occluderActivate0-1"
 }
 {
-"model" "*98"
+"model" "*95"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage1_random_brushes"
@@ -20011,9 +19811,11 @@ Revision: 18426
 "OnTrigger" "stage1_pickupsKill0-1"
 "OnTrigger" "stage1_random_brushesKill0-1"
 "OnTrigger" "stage1_spotlightsKill0-1"
+"OnTrigger" "bot_nest_cap_a_1Kill0-1"
+"OnTrigger" "bot_nest_cap_b_1Kill0-1"
 }
 {
-"model" "*99"
+"model" "*96"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -20070,7 +19872,7 @@ Revision: 18426
 "hammerid" "1071595"
 }
 {
-"model" "*100"
+"model" "*97"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door01"
@@ -20152,7 +19954,7 @@ Revision: 18426
 "hammerid" "2924741"
 }
 {
-"model" "*101"
+"model" "*98"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -20230,7 +20032,7 @@ Revision: 18426
 "OnPass" "mspl_watcher2SetSpeedForwardModifier0.90-1"
 }
 {
-"model" "*102"
+"model" "*99"
 "TeamNum" "2"
 "targetname" "stage1_redspawn01"
 "StartDisabled" "0"
@@ -20286,7 +20088,7 @@ Revision: 18426
 "hammerid" "857810"
 }
 {
-"portalnumber" "80"
+"portalnumber" "77"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437813"
@@ -20349,7 +20151,7 @@ Revision: 18426
 "hammerid" "854824"
 }
 {
-"model" "*103"
+"model" "*100"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -20369,7 +20171,7 @@ Revision: 18426
 "hammerid" "2136201"
 }
 {
-"model" "*104"
+"model" "*101"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -20388,7 +20190,7 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -20414,7 +20216,7 @@ Revision: 18426
 "hammerid" "2924689"
 }
 {
-"model" "*105"
+"model" "*102"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -20454,7 +20256,7 @@ Revision: 18426
 "hammerid" "1438037"
 }
 {
-"portalnumber" "81"
+"portalnumber" "78"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20473,20 +20275,6 @@ Revision: 18426
 "_cone" "70"
 "classname" "light_spot"
 "hammerid" "707196"
-}
-{
-"origin" "4858 598 76"
-"pitch" "-90"
-"angles" "-90 315 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 2200"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "854035"
 }
 {
 "origin" "5216 1208 -280"
@@ -20512,7 +20300,7 @@ Revision: 18426
 "hammerid" "857488"
 }
 {
-"portalnumber" "82"
+"portalnumber" "79"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20566,7 +20354,7 @@ Revision: 18426
 "hammerid" "754982"
 }
 {
-"portalnumber" "83"
+"portalnumber" "80"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20645,7 +20433,7 @@ Revision: 18426
 "hammerid" "2924515"
 }
 {
-"portalnumber" "84"
+"portalnumber" "81"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439731"
@@ -20722,7 +20510,7 @@ Revision: 18426
 "hammerid" "859761"
 }
 {
-"portalnumber" "85"
+"portalnumber" "82"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20817,7 +20605,7 @@ Revision: 18426
 "hammerid" "754184"
 }
 {
-"model" "*106"
+"model" "*103"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors01b"
 "speed" "100"
@@ -20833,14 +20621,14 @@ Revision: 18426
 "lip" "2"
 "ignoredebris" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "849308"
 }
 {
-"model" "*107"
+"model" "*104"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door02a"
@@ -20851,7 +20639,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "10 -2506 8104"
+"origin" "-56 -2480 8104"
 "movedir" "90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -20988,7 +20776,7 @@ Revision: 18426
 "hammerid" "1434564"
 }
 {
-"model" "*108"
+"model" "*105"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door02"
@@ -21066,7 +20854,7 @@ Revision: 18426
 "hammerid" "742131"
 }
 {
-"portalnumber" "86"
+"portalnumber" "83"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21110,6 +20898,7 @@ Revision: 18426
 "model" "models/props_gameplay/door_slide_large_dynamic.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
+"LightingOrigin" "stage1_redspawn01_doors_lighting"
 "fadescale" "1"
 "fademindist" "-1"
 "ExplodeRadius" "0"
@@ -21140,7 +20929,7 @@ Revision: 18426
 "hammerid" "2924208"
 }
 {
-"model" "*109"
+"model" "*106"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door01"
@@ -21167,7 +20956,7 @@ Revision: 18426
 "hammerid" "859559"
 }
 {
-"portalnumber" "87"
+"portalnumber" "84"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21222,7 +21011,7 @@ Revision: 18426
 "hammerid" "857081"
 }
 {
-"portalnumber" "88"
+"portalnumber" "85"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21361,14 +21150,14 @@ Revision: 18426
 "hammerid" "2924023"
 }
 {
-"portalnumber" "89"
+"portalnumber" "86"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849092"
 }
 {
-"portalnumber" "90"
+"portalnumber" "87"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21528,13 +21317,13 @@ Revision: 18426
 "hammerid" "2757260"
 }
 {
-"portalnumber" "91"
+"portalnumber" "88"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437783"
 }
 {
-"model" "*110"
+"model" "*107"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door01b"
@@ -21545,7 +21334,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "210 -2306 8184"
+"origin" "144 -2280 8184"
 "movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -21600,7 +21389,7 @@ Revision: 18426
 "hammerid" "2378091"
 }
 {
-"portalnumber" "92"
+"portalnumber" "89"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21657,7 +21446,7 @@ Revision: 18426
 "hammerid" "1437670"
 }
 {
-"portalnumber" "93"
+"portalnumber" "90"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21677,7 +21466,7 @@ Revision: 18426
 "OnTrigger" "stage2_redspawn01_door01_propSetAnimationopen0.1-1"
 "OnTrigger" "stage2_redspawn01_door_triggers_redKill0.1-1"
 "OnTrigger" "stage2_redspawn01Disable0-1"
-"OnTrigger" "stage2_redspawn01_resupply01_triggersDisable0-1"
+"OnTrigger" "stage2_redspawn01_resupply03_triggerKill0-1"
 "OnTrigger" "stage2_redspawn01_visualizersDisable0-1"
 "OnTrigger" "stage2_redspawn01_playerspawnsKill0.1-1"
 "OnTrigger" "stage2_redspawn01_door03Close0-1"
@@ -21689,7 +21478,10 @@ Revision: 18426
 "OnTrigger" "stage2_redspawn01_disable_teleportDisable0.1-1"
 "OnTrigger" "stage2_redspawn01_resupply01Disable0-1"
 "OnTrigger" "stage2_redspawn01_resupply02Disable0-1"
-"OnTrigger" "stage2_redspawn01_resupply03Disable0-1"
+"OnTrigger" "stage2_redspawn01_resupply03Kill0-1"
+"OnTrigger" "stage2_redspawn01_resupply02_triggerDisable0-1"
+"OnTrigger" "stage2_redspawn01_resupply01_triggerDisable0-1"
+"OnTrigger" "stage2_redspawn01_hidelockersOpen0-1"
 }
 {
 "origin" "-993 4792 -6064"
@@ -21868,7 +21660,7 @@ Revision: 18426
 "hammerid" "856121"
 }
 {
-"model" "*111"
+"model" "*108"
 "wait" "-1"
 "targetname" "stage3_secretbase_glacier_destroyed_silo_door01"
 "speed" "15"
@@ -21884,7 +21676,7 @@ Revision: 18426
 "lip" "-950"
 "ignoredebris" "0"
 "forceclosed" "0"
-"dmg" "0"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -21910,14 +21702,14 @@ Revision: 18426
 "hammerid" "662087"
 }
 {
-"portalnumber" "94"
+"portalnumber" "91"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "727862"
 }
 {
-"model" "*112"
+"model" "*109"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_redspawn01_door03_blocker"
@@ -22039,6 +21831,10 @@ Revision: 18426
 "OnTrigger" "stage2_movingtrain_whistle_particleKill0-1"
 "OnTrigger" "stage2_blockingtrain01_sparksKill0-1"
 "OnTrigger" "stage2_movingtrain_sparksKill0-1"
+"OnTrigger" "bot_nest_cap_a_2Kill0-1"
+"OnTrigger" "bot_nest_cap_b_2Kill0-1"
+"OnTrigger" "bot_nest_cap_c_2Kill0-1"
+"OnTrigger" "bot_nest_cap_d_2Kill0-1"
 }
 {
 "origin" "256 3816 7896"
@@ -22084,7 +21880,7 @@ Revision: 18426
 "hammerid" "860460"
 }
 {
-"model" "*113"
+"model" "*110"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_blue"
 "StartDisabled" "1"
@@ -22175,6 +21971,9 @@ Revision: 18426
 "OnTrigger" "stage2_cap2_switchboardSkin11-1"
 "OnTrigger" "stage2_cap2_switchboard_electricityStart0-1"
 "OnTrigger" "stage2_cap2_switchboard_electricityStop3-1"
+"OnTrigger" "bot_nest_cap_b_2Disable0-1"
+"OnTrigger" "bot_nest_cap_c_2Enable0-1"
+"OnTrigger" "stage2_cap3_shortcut_doorOpen0-1"
 }
 {
 "origin" "4584 1480 -264"
@@ -22204,7 +22003,7 @@ Revision: 18426
 "hammerid" "789110"
 }
 {
-"model" "*114"
+"model" "*111"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer"
 "StartDisabled" "0"
@@ -22298,7 +22097,7 @@ Revision: 18426
 "hammerid" "1437461"
 }
 {
-"model" "*115"
+"model" "*112"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -22323,7 +22122,7 @@ Revision: 18426
 "hammerid" "1070411"
 }
 {
-"model" "*116"
+"model" "*113"
 "wait" "-1"
 "targetname" "stage3_secretbase_glacier_destroyed_silo_door02"
 "speed" "1.5"
@@ -22358,7 +22157,7 @@ Revision: 18426
 "hammerid" "742154"
 }
 {
-"model" "*117"
+"model" "*114"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22426,7 +22225,7 @@ Revision: 18426
 "hammerid" "1440081"
 }
 {
-"portalnumber" "95"
+"portalnumber" "92"
 "targetname" "stage1_cap1_doorflank01_areaportal"
 "StartOpen" "0"
 "PortalVersion" "1"
@@ -22434,7 +22233,7 @@ Revision: 18426
 "hammerid" "727872"
 }
 {
-"model" "*118"
+"model" "*115"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22484,7 +22283,7 @@ Revision: 18426
 "OnCapTeam2" "camera_stage2_B_RedDisable0-1"
 }
 {
-"portalnumber" "96"
+"portalnumber" "93"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -22545,7 +22344,7 @@ Revision: 18426
 "OnPass" "stage1_path_30DisablePath0-1"
 }
 {
-"model" "*119"
+"model" "*116"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors02a"
 "speed" "100"
@@ -22561,7 +22360,7 @@ Revision: 18426
 "lip" "2"
 "ignoredebris" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -22616,7 +22415,7 @@ Revision: 18426
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 315 0"
-"classname" "item_ammopack_full"
+"classname" "item_ammopack_medium"
 "hammerid" "849859"
 }
 {
@@ -22651,7 +22450,7 @@ Revision: 18426
 "hammerid" "1439943"
 }
 {
-"model" "*120"
+"model" "*117"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_cap2_flankdoor01"
@@ -22676,9 +22475,10 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "856250"
+"OnFullyOpen" "nav_recomputeRecomputeBlockers1-1"
 }
 {
-"model" "*121"
+"model" "*118"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22693,7 +22493,7 @@ Revision: 18426
 "OnEndTouchAll" "stage3_redspawn01_door03Close0-1"
 }
 {
-"portalnumber" "97"
+"portalnumber" "94"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -22710,7 +22510,7 @@ Revision: 18426
 "hammerid" "1791247"
 }
 {
-"model" "*122"
+"model" "*119"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door02"
@@ -22762,7 +22562,7 @@ Revision: 18426
 "hammerid" "1635082"
 }
 {
-"origin" "5568 1289 -296"
+"origin" "5568 1290 -296"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
@@ -22845,6 +22645,7 @@ Revision: 18426
 "model" "models/props_gameplay/door_slide_large_dynamic.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
+"LightingOrigin" "stage1_redspawn01_doors_lighting"
 "fadescale" "1"
 "fademindist" "-1"
 "ExplodeRadius" "0"
@@ -23000,7 +22801,7 @@ Revision: 18426
 "hammerid" "1072421"
 }
 {
-"origin" "2104.2 -495.723 -13490.8"
+"origin" "-3374 -3336 -12516"
 "targetname" "stage1_dynamic_props"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -23015,7 +22816,7 @@ Revision: 18426
 "pressuredelay" "0"
 "physdamagescale" "1.0"
 "PerformanceMode" "0"
-"modelscale" "3"
+"modelscale" "4"
 "model" "models/props_skybox/skybox_dome03_front.mdl"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -23026,7 +22827,7 @@ Revision: 18426
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"angles" "0 182.5 0"
+"angles" "0 35.5 0"
 "classname" "prop_dynamic"
 "hammerid" "1275605"
 }
@@ -23044,27 +22845,6 @@ Revision: 18426
 "hammerid" "1088963"
 }
 {
-"model" "*123"
-"vrad_brush_cast_shadows" "0"
-"texframeindex" "0"
-"targetname" "stage2_random_brushes"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "2477 672 38"
-"invert_exclusion" "0"
-"effects" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_brush"
-"hammerid" "861124"
-}
-{
 "origin" "3140 2444 5"
 "pitch" "-90"
 "angles" "-90 315 0"
@@ -23077,15 +22857,6 @@ Revision: 18426
 "_cone" "70"
 "classname" "light_spot"
 "hammerid" "2757343"
-}
-{
-"origin" "5568 1289 -113"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 75"
-"classname" "light"
-"hammerid" "1340382"
 }
 {
 "origin" "-2224 5901 -5552"
@@ -23230,7 +23001,7 @@ Revision: 18426
 "hammerid" "850017"
 }
 {
-"model" "*124"
+"model" "*120"
 "targetname" "mspl_dispenser"
 "spawnflags" "1"
 "parentname" "mspl_train"
@@ -23240,7 +23011,7 @@ Revision: 18426
 "hammerid" "1258085"
 }
 {
-"origin" "1904 5664 -6576"
+"origin" "1904 5656 -6576"
 "targetname" "stage1_path_78"
 "target" "stage1_path_79"
 "spawnflags" "1"
@@ -23283,7 +23054,7 @@ Revision: 18426
 "hammerid" "707288"
 }
 {
-"model" "*125"
+"model" "*121"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "2stage_redspawn01_door01"
@@ -23295,14 +23066,14 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "898 1968 8320"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
 "ignoredebris" "0"
 "health" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -23310,7 +23081,7 @@ Revision: 18426
 "hammerid" "1438511"
 }
 {
-"model" "*126"
+"model" "*122"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door04"
@@ -23366,7 +23137,7 @@ Revision: 18426
 "hammerid" "1103809"
 }
 {
-"model" "*127"
+"model" "*123"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -23390,7 +23161,7 @@ Revision: 18426
 "hammerid" "1104551"
 }
 {
-"portalnumber" "98"
+"portalnumber" "95"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "776425"
@@ -23419,7 +23190,7 @@ Revision: 18426
 "hammerid" "1072336"
 }
 {
-"portalnumber" "99"
+"portalnumber" "96"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -23436,7 +23207,7 @@ Revision: 18426
 "hammerid" "2926151"
 }
 {
-"portalnumber" "100"
+"portalnumber" "97"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -23454,27 +23225,6 @@ Revision: 18426
 "hammerid" "2065376"
 }
 {
-"model" "*128"
-"vrad_brush_cast_shadows" "1"
-"texframeindex" "0"
-"targetname" "stage2_random_brushes"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "5664 -144 176"
-"invert_exclusion" "0"
-"effects" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_brush"
-"hammerid" "1339713"
-}
-{
 "origin" "2001.64 423.859 -398"
 "targetname" "stage2_path_70"
 "target" "stage2_path_71"
@@ -23488,7 +23238,7 @@ Revision: 18426
 "hammerid" "1072385"
 }
 {
-"model" "*129"
+"model" "*124"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -23510,20 +23260,6 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "func_respawnroomvisualizer"
 "hammerid" "1104555"
-}
-{
-"origin" "5471 -63.0005 156"
-"pitch" "-90"
-"angles" "-90 0 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1200"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "849538"
 }
 {
 "origin" "-416 1696 8072"
@@ -23550,7 +23286,7 @@ Revision: 18426
 "hammerid" "1430969"
 }
 {
-"origin" "3562 -3494 -256"
+"origin" "3738 -3274 -256"
 "targetname" "stage2_bluespawn01_resupply02"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -23576,7 +23312,7 @@ Revision: 18426
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "1"
-"angles" "0 45 0"
+"angles" "0 315 0"
 "classname" "prop_dynamic"
 "hammerid" "859403"
 }
@@ -23649,14 +23385,14 @@ Revision: 18426
 "OnPass" "stage1_fakecart_sparksStopSpark0-1"
 }
 {
-"portalnumber" "101"
+"portalnumber" "98"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849078"
 }
 {
-"model" "*130"
+"model" "*125"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_endcap_woodbarrier_clip"
 "StartDisabled" "0"
@@ -23713,7 +23449,7 @@ Revision: 18426
 "OnTrigger" "stage2_bluespawn02_playerspawnsKill0.1-1"
 }
 {
-"portalnumber" "102"
+"portalnumber" "99"
 "TranslucencyLimit" "0"
 "target" "stage2_apwindow01"
 "PortalVersion" "1"
@@ -23786,7 +23522,7 @@ Revision: 18426
 "hammerid" "1431880"
 }
 {
-"model" "*131"
+"model" "*126"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage1_redspawn01_door02"
@@ -23798,7 +23534,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1996 6640 -6352"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -23813,7 +23549,7 @@ Revision: 18426
 "hammerid" "472483"
 }
 {
-"model" "*132"
+"model" "*127"
 "wait" "0"
 "targetname" "stage2_bluespawn01_door_triggers"
 "StartDisabled" "1"
@@ -23890,7 +23626,7 @@ Revision: 18426
 "hammerid" "1472756"
 }
 {
-"model" "*133"
+"model" "*128"
 "wait" "-1"
 "targetname" "stage3_cap1_flankdoor01"
 "speed" "10"
@@ -23943,14 +23679,14 @@ Revision: 18426
 "hammerid" "1380453"
 }
 {
-"portalnumber" "103"
+"portalnumber" "100"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849096"
 }
 {
-"model" "*134"
+"model" "*129"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_trainrail_doors_blocker"
 "StartDisabled" "1"
@@ -23961,11 +23697,11 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "3804 740 -64"
+"origin" "3804 740 -80"
 "invert_exclusion" "0"
 "InputFilter" "0"
 "disableshadows" "1"
-"disablereceiveshadows" "0"
+"disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_brush"
 "hammerid" "848964"
@@ -23990,14 +23726,14 @@ Revision: 18426
 "hammerid" "1258066"
 }
 {
-"portalnumber" "104"
+"portalnumber" "101"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848923"
 }
 {
-"model" "*135"
+"model" "*130"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap2_arrows_screenarrow02_offblocker"
@@ -24018,7 +23754,7 @@ Revision: 18426
 "hammerid" "1732007"
 }
 {
-"portalnumber" "105"
+"portalnumber" "102"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437791"
@@ -24034,7 +23770,7 @@ Revision: 18426
 "hammerid" "1380134"
 }
 {
-"model" "*136"
+"model" "*131"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -24059,7 +23795,7 @@ Revision: 18426
 "hammerid" "1439568"
 }
 {
-"model" "*137"
+"model" "*132"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door01"
@@ -24071,7 +23807,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1628 1456 -208"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -24105,7 +23841,7 @@ Revision: 18426
 "hammerid" "440499"
 }
 {
-"model" "*138"
+"model" "*133"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -24137,7 +23873,7 @@ Revision: 18426
 "hammerid" "743213"
 }
 {
-"portalnumber" "106"
+"portalnumber" "103"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437839"
@@ -24161,7 +23897,7 @@ Revision: 18426
 "hammerid" "789483"
 }
 {
-"model" "*139"
+"model" "*134"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_sightlineblocker_flag_sign_door"
@@ -24189,7 +23925,7 @@ Revision: 18426
 "hammerid" "849279"
 }
 {
-"portalnumber" "107"
+"portalnumber" "104"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437815"
@@ -24209,7 +23945,7 @@ Revision: 18426
 "hammerid" "440507"
 }
 {
-"portalnumber" "108"
+"portalnumber" "105"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437644"
@@ -24256,13 +23992,13 @@ Revision: 18426
 "hammerid" "1438077"
 }
 {
-"origin" "4419 691 -11"
+"origin" "4419 691 -3"
 "pitch" "-90"
 "angles" "-90 0 0"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1000"
+"_light" "255 255 255 1300"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "70"
@@ -24280,7 +24016,7 @@ Revision: 18426
 "hammerid" "1430443"
 }
 {
-"portalnumber" "109"
+"portalnumber" "106"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24391,7 +24127,7 @@ Revision: 18426
 "hammerid" "1088973"
 }
 {
-"model" "*140"
+"model" "*135"
 "wheels" "50"
 "volume" "10"
 "velocitytype" "1"
@@ -24423,7 +24159,7 @@ Revision: 18426
 "hammerid" "1705067"
 }
 {
-"model" "*141"
+"model" "*136"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window03"
@@ -24449,7 +24185,7 @@ Revision: 18426
 "hammerid" "1430413"
 }
 {
-"model" "*142"
+"model" "*137"
 "targetname" "stage2_apwindow01"
 "rendermode" "0"
 "renderfx" "0"
@@ -24481,7 +24217,7 @@ Revision: 18426
 "hammerid" "2065202"
 }
 {
-"portalnumber" "110"
+"portalnumber" "107"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24524,20 +24260,20 @@ Revision: 18426
 "hammerid" "1438027"
 }
 {
-"portalnumber" "111"
+"portalnumber" "108"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849108"
 }
 {
-"portalnumber" "112"
+"portalnumber" "109"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437803"
 }
 {
-"portalnumber" "113"
+"portalnumber" "110"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24593,13 +24329,13 @@ Revision: 18426
 "OnCapTeam2" "camera_stage2_A_BlueDisable0-1"
 }
 {
-"portalnumber" "114"
+"portalnumber" "111"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437785"
 }
 {
-"portalnumber" "115"
+"portalnumber" "112"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437817"
@@ -24619,20 +24355,20 @@ Revision: 18426
 "hammerid" "859781"
 }
 {
-"portalnumber" "116"
+"portalnumber" "113"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776261"
 }
 {
-"portalnumber" "117"
+"portalnumber" "114"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437819"
 }
 {
-"model" "*143"
+"model" "*138"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -24644,28 +24380,7 @@ Revision: 18426
 "hammerid" "707328"
 }
 {
-"model" "*144"
-"vrad_brush_cast_shadows" "1"
-"texframeindex" "0"
-"targetname" "stage2_random_brushes"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "5400 8 228"
-"invert_exclusion" "0"
-"effects" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_brush"
-"hammerid" "1365039"
-}
-{
-"portalnumber" "118"
+"portalnumber" "115"
 "target" "stage3_cap1_flankdoor01"
 "StartOpen" "0"
 "classname" "func_areaportal"
@@ -24731,6 +24446,10 @@ Revision: 18426
 "OnTrigger" "stage2_cap3_arrows_door01Open0-1"
 "OnTrigger" "stage2_cap4_train_particlesStart2-1"
 "OnTrigger" "stage2_cap4_train_startup_soundPlaySound2-1"
+"OnTrigger" "bot_nest_cap_c_2Disable0-1"
+"OnTrigger" "bot_nest_cap_d_2Enable0-1"
+"OnTrigger" "stage2_cap3_arrow_breakBreak0-1"
+"OnTrigger" "stage2_cap3_arrow_break_propKill0-1"
 }
 {
 "origin" "-1159 -742 8112"
@@ -24743,7 +24462,7 @@ Revision: 18426
 "hammerid" "1435423"
 }
 {
-"portalnumber" "119"
+"portalnumber" "116"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24760,20 +24479,20 @@ Revision: 18426
 "hammerid" "1433572"
 }
 {
-"portalnumber" "120"
+"portalnumber" "117"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "727841"
 }
 {
-"portalnumber" "121"
+"portalnumber" "118"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437821"
 }
 {
-"portalnumber" "122"
+"portalnumber" "119"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437823"
@@ -24793,12 +24512,12 @@ Revision: 18426
 "hammerid" "857836"
 }
 {
-"model" "*145"
+"model" "*139"
 "wait" "0"
 "targetname" "stage2_redspawn02_trainrail_dontgetstuck"
 "StartDisabled" "1"
 "spawnflags" "1"
-"origin" "3804 740 -80"
+"origin" "3804 738 -80"
 "angles" "0 0 0"
 "classname" "trigger_multiple"
 "hammerid" "848968"
@@ -24813,7 +24532,7 @@ Revision: 18426
 "hammerid" "1009493"
 }
 {
-"portalnumber" "123"
+"portalnumber" "120"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437825"
@@ -24894,7 +24613,7 @@ Revision: 18426
 "hammerid" "777491"
 }
 {
-"portalnumber" "124"
+"portalnumber" "121"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24915,13 +24634,13 @@ Revision: 18426
 "OnPass" "stage2_sightlineblocker01_dontgetstuckDisable0-1"
 }
 {
-"portalnumber" "125"
+"portalnumber" "122"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439448"
 }
 {
-"model" "*146"
+"model" "*140"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door03"
@@ -24962,14 +24681,14 @@ Revision: 18426
 "hammerid" "770030"
 }
 {
-"portalnumber" "126"
+"portalnumber" "123"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848962"
 }
 {
-"model" "*147"
+"model" "*141"
 "TeamNum" "3"
 "targetname" "stage1_bluespawn01"
 "StartDisabled" "0"
@@ -25003,7 +24722,7 @@ Revision: 18426
 "hammerid" "860876"
 }
 {
-"model" "*148"
+"model" "*142"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_last_container_door01"
@@ -25174,18 +24893,6 @@ Revision: 18426
 "hammerid" "855759"
 }
 {
-"model" "*149"
-"StartDisabled" "0"
-"speed" "400"
-"spawnflags" "1"
-"pushdir" "0 0 0"
-"origin" "256 2298 7878.5"
-"angles" "0 0 0"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "1788239"
-}
-{
 "origin" "1880 4832 -6436"
 "style" "0"
 "spawnflags" "0"
@@ -25200,7 +24907,7 @@ Revision: 18426
 "hammerid" "789155"
 }
 {
-"portalnumber" "127"
+"portalnumber" "124"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437793"
@@ -25299,7 +25006,7 @@ Revision: 18426
 "hammerid" "1439003"
 }
 {
-"model" "*150"
+"model" "*143"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn02_visualizer"
 "StartDisabled" "1"
@@ -25332,14 +25039,14 @@ Revision: 18426
 "OnPass" "stage3_path_103EnablePath0-1"
 }
 {
-"portalnumber" "128"
+"portalnumber" "125"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776245"
 }
 {
-"model" "*151"
+"model" "*144"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn01_visualizer"
 "StartDisabled" "0"
@@ -25428,7 +25135,7 @@ Revision: 18426
 "hammerid" "38049"
 }
 {
-"model" "*152"
+"model" "*145"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -25447,7 +25154,7 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -25455,7 +25162,7 @@ Revision: 18426
 "OnFullyOpen" "stage1_bluespawn_doors01_propKill0-1"
 }
 {
-"model" "*153"
+"model" "*146"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -25474,33 +25181,34 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "1104356"
 }
 {
-"model" "*154"
+"model" "*147"
 "TeamNum" "0"
-"targetname" "stage2_redspawn01_resupply01_triggers"
+"targetname" "stage2_redspawn01_resupply02_trigger"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "1778 966 -224"
+"origin" "1792 994 -224"
 "associatedmodel" "stage2_redspawn01_resupply02"
 "angles" "0 0 0"
 "classname" "func_regenerate"
 "hammerid" "855836"
+"OnEndTouchAll" "stage2_redspawn01_resupply02EnableCollision0-1"
 }
 {
-"portalnumber" "129"
+"portalnumber" "126"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848948"
 }
 {
-"model" "*155"
+"model" "*148"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer"
 "StartDisabled" "0"
@@ -25521,38 +25229,31 @@ Revision: 18426
 "hammerid" "859263"
 }
 {
-"portalnumber" "130"
+"portalnumber" "127"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430316"
 }
 {
-"model" "*156"
+"model" "*149"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator"
-"startposition" "0.0"
-"speed" "22.5"
-"spawnflags" "0"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "2"
+"solidbsp" "1"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1904 5456 -6384"
-"movedistance" "240"
-"movedir" "90 0 0"
+"invert_exclusion" "0"
 "effects" "0"
-"disablereceiveshadows" "0"
-"blockdamage" "99999"
+"disablereceiveshadows" "1"
 "angles" "0 0 0"
-"classname" "func_movelinear"
+"classname" "func_brush"
 "hammerid" "602078"
-"OnFullyOpen" "stage1_path_78EnablePath0-1"
-"OnFullyOpen" "stage1_mine_elevator_descend_clipEnable11"
-"OnFullyOpen" "mspl_pushzoneEnable0.3-1"
-"OnFullyOpen" "mspl_pushzoneDisable01"
-"OnFullyOpen" "mspl_timerResume0-1"
-"OnFullyOpen" "mspl_pushzoneTouchTest0.51"
 }
 {
 "origin" "146 -2242 8256"
@@ -25679,7 +25380,7 @@ Revision: 18426
 "hammerid" "1437907"
 }
 {
-"origin" "2000 -480 -224"
+"origin" "2022 -138 -216"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -25737,12 +25438,12 @@ Revision: 18426
 "hammerid" "857452"
 }
 {
-"model" "*157"
+"model" "*150"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
 "spawnflags" "2"
-"Solidity" "1"
+"Solidity" "0"
 "solid_to_enemies" "1"
 "respawnroomname" "stage2_redspawn01"
 "rendermode" "0"
@@ -25799,14 +25500,14 @@ Revision: 18426
 "hammerid" "1432789"
 }
 {
-"portalnumber" "131"
+"portalnumber" "128"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776444"
 }
 {
-"model" "*158"
+"model" "*151"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_red"
 "StartDisabled" "0"
@@ -25822,21 +25523,7 @@ Revision: 18426
 "OnStartTouchAll" "stage2_redspawn01_door01_propSetAnimationopen0-1"
 }
 {
-"origin" "5804 1468 -176"
-"pitch" "0"
-"angles" "0 180 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 300"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "80"
-"classname" "light_spot"
-"hammerid" "852157"
-}
-{
-"model" "*159"
+"model" "*152"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -25906,7 +25593,7 @@ Revision: 18426
 "hammerid" "2923822"
 }
 {
-"model" "*160"
+"model" "*153"
 "wait" "0"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -26022,6 +25709,7 @@ Revision: 18426
 "pressuredelay" "0"
 "physdamagescale" "1.0"
 "PerformanceMode" "0"
+"parentname" "stage2_redspawn01_hidelockers"
 "modelscale" "1.0"
 "model" "models/props_gameplay/resupply_locker.mdl"
 "MinAnimTime" "5"
@@ -26052,7 +25740,7 @@ Revision: 18426
 "hammerid" "1070834"
 }
 {
-"portalnumber" "132"
+"portalnumber" "129"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26079,7 +25767,7 @@ Revision: 18426
 "hammerid" "1433480"
 }
 {
-"model" "*161"
+"model" "*154"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -26090,7 +25778,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "895 -1879 8240"
+"origin" "0 -2336 8400"
 "invert_exclusion" "0"
 "effects" "0"
 "disablereceiveshadows" "0"
@@ -26140,20 +25828,6 @@ Revision: 18426
 "hammerid" "1069324"
 }
 {
-"origin" "5329 78.9995 156"
-"pitch" "-90"
-"angles" "-90 0 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1200"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "857738"
-}
-{
 "origin" "-912 -48 8368"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -26163,7 +25837,7 @@ Revision: 18426
 "hammerid" "1438255"
 }
 {
-"model" "*162"
+"model" "*155"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage1_redspawn01_door01"
@@ -26175,7 +25849,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1872 6380 -6352"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -26291,7 +25965,7 @@ Revision: 18426
 "hammerid" "2824058"
 }
 {
-"portalnumber" "133"
+"portalnumber" "130"
 "target" "stage2_cap2_flankdoor01"
 "StartOpen" "0"
 "PortalVersion" "1"
@@ -26335,7 +26009,7 @@ Revision: 18426
 "hammerid" "1430650"
 }
 {
-"model" "*163"
+"model" "*156"
 "wait" "0"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -26361,7 +26035,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "8"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -26382,7 +26056,7 @@ Revision: 18426
 "hammerid" "1070857"
 }
 {
-"model" "*164"
+"model" "*157"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -26471,7 +26145,7 @@ Revision: 18426
 "hammerid" "658524"
 }
 {
-"portalnumber" "134"
+"portalnumber" "131"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26511,16 +26185,20 @@ Revision: 18426
 "OnTrigger" "stage2_redspawn01_door02_propSetAnimationclose0-1"
 "OnTrigger" "stage2_redspawn01SetTeam30-1"
 "OnTrigger" "stage2_redspawn01Enable0.1-1"
-"OnTrigger" "stage2_redspawn01_resupply01_triggersEnable0-1"
 "OnTrigger" "stage2_redspawn01_visualizersEnable0-1"
 "OnTrigger" "stage2_bluespawn03_playerspawnsEnable0-1"
 "OnTrigger" "stage2_redspawn01_change_killredplayersEnable0-1"
 "OnTrigger" "stage2_redspawn01_change_killredplayersKill2-1"
 "OnTrigger" "stage2_redspawn01_resupply_signsSkin40-1"
 "OnTrigger" "stage2_redspawn01_resupply_signs_blocker01Kill0-1"
-"OnTrigger" "stage2_redspawn01_resupply03Enable0-1"
 "OnTrigger" "stage2_redspawn01_resupply02Enable0-1"
 "OnTrigger" "stage2_redspawn01_resupply01Enable0-1"
+"OnTrigger" "stage2_redspawn01_deletestickiesEnable0-1"
+"OnTrigger" "stage2_redspawn01_resupply01_triggerEnable0-1"
+"OnTrigger" "stage2_redspawn01_resupply02_triggerEnable0-1"
+"OnTrigger" "stage2_redspawn01_resupply01_triggerAddOutputOnStartTouchAll stage2_redspawn01_resupply01:DisableCollision::0:10-1"
+"OnTrigger" "stage2_redspawn01_resupply02_triggerAddOutputOnStartTouchAll stage2_redspawn01_resupply02:DisableCollision::0:10-1"
+"OnTrigger" "stage2_redspawn01_hidelockersClose0-1"
 }
 {
 "origin" "972.62 4095.02 -6212.3"
@@ -26545,7 +26223,7 @@ Revision: 18426
 "hammerid" "1430453"
 }
 {
-"portalnumber" "135"
+"portalnumber" "132"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26611,7 +26289,7 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "38046"
-"OnPass" "stage1_cap1_relayTrigger0-1"
+"OnPass" "stage1_cap1_relayTrigger01"
 "OnPass" "mspl_cartsparksStopSpark0-1"
 }
 {
@@ -26634,7 +26312,7 @@ Revision: 18426
 "hammerid" "1180140"
 }
 {
-"model" "*165"
+"model" "*158"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn02_door01"
@@ -26760,7 +26438,7 @@ Revision: 18426
 "hammerid" "1070812"
 }
 {
-"model" "*166"
+"model" "*159"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -26800,7 +26478,7 @@ Revision: 18426
 "hammerid" "742525"
 }
 {
-"model" "*167"
+"model" "*160"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -26814,7 +26492,7 @@ Revision: 18426
 "hammerid" "1150274"
 }
 {
-"portalnumber" "136"
+"portalnumber" "133"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439112"
@@ -26846,6 +26524,8 @@ Revision: 18426
 "OnSetupFinished" "stage1_gates_relayTrigger0-1"
 "OnSetupFinished" "stage2_gates_relayTrigger0-1"
 "OnSetupFinished" "stage3_gates_relayTrigger0-1"
+"On1SecRemain" "stage1_mine_elevator_addtime_branchTest0-1"
+"On2MinRemain" "mspl_2minPlaySound0-1"
 }
 {
 "origin" "879 4664 -5933"
@@ -26874,7 +26554,7 @@ Revision: 18426
 "OnPass" "stage2_path_101DisablePath0-1"
 }
 {
-"portalnumber" "137"
+"portalnumber" "134"
 "targetname" "stage2_trainrail_shutters_areaportal"
 "StartOpen" "1"
 "PortalVersion" "1"
@@ -26892,7 +26572,7 @@ Revision: 18426
 "_light" "253 243 208 800"
 "_AmbientScaleHDR" "1"
 "_ambientHDR" "-1 -1 -1 1"
-"_ambient" "124 138 203 300"
+"_ambient" "124 138 203 350"
 "classname" "light_environment"
 "hammerid" "737130"
 }
@@ -26985,6 +26665,10 @@ Revision: 18426
 "OnTrigger" "camera_stage1_A_redDisable0-1"
 "OnTrigger" "camera_stage1_B_redEnable0-1"
 "OnTrigger" "camera_stage1_B_blueEnable0-1"
+"OnTrigger" "bot_nest_cap_a_1Disable0-1"
+"OnTrigger" "bot_nest_cap_b_1Enable0-1"
+"OnTrigger" "stage1_mine_elevator_addtime_branchSetValue11-1"
+"OnTrigger" "mspl_timerAddOutputOn5MinRemain mspl_5min:PlaySound::0:-10-1"
 }
 {
 "origin" "-2208 5904 -5632"
@@ -27010,14 +26694,12 @@ Revision: 18426
 "OnStart" "welcome_point_stage3Enable0-1"
 "OnStart" "camera_stage3_A_BlueEnable0-1"
 "OnStart" "camera_stage3_A_RedEnable0-1"
-"OnStart" "mspl_constraintBreak0-1"
-"OnStart" "mspl_cartKill0-1"
-"OnStart" "mspl_cart_dynamicEnable0-1"
+"OnStart" "mspl_cartEnable0-1"
 "OnStart" "delete_ents_in_stage2_relayTrigger0-1"
 "OnStart" "delete_ents_in_stage1_relayTrigger0-1"
-"OnStart" "fog_controllerSetStartDist10000-1"
-"OnStart" "fog_controllerSetMaxDensity0.70-1"
-"OnStart" "fog_controllerSetEndDist40000-1"
+"OnStart" "fog_controllerSetStartDist00-1"
+"OnStart" "fog_controllerSetMaxDensity0.850-1"
+"OnStart" "fog_controllerSetEndDist120000-1"
 "OnStart" "stage2_movingtrain_startmoving_relayDisable0-1"
 "OnStart" "stage2_movingtrain_tracktrainTeleportToPathTrackstage2_movingtrain_spawnpoint0-1"
 "OnStart" "stage2_movingtrain_signal_timerDisable0-1"
@@ -27027,6 +26709,8 @@ Revision: 18426
 "OnStart" "soundscapes_stage3Enable0-1"
 "OnStart" "soundscapes_stage2Disabled0-1"
 "OnStart" "mspl_flashinglightStop0-1"
+"OnStart" "tonemap_globalSetBloomScale0.10-1"
+"OnStart" "bot_nest_cap_a_3Enable0-1"
 }
 {
 "origin" "3544 232 -120"
@@ -27068,7 +26752,7 @@ Revision: 18426
 "hammerid" "1429941"
 }
 {
-"model" "*168"
+"model" "*161"
 "wait" "0"
 "targetname" "stage2_bluespawn02_door_triggers"
 "StartDisabled" "1"
@@ -27084,7 +26768,7 @@ Revision: 18426
 "OnEndTouchAll" "stage2_bluespawn02_door01Close0-1"
 }
 {
-"portalnumber" "138"
+"portalnumber" "135"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439444"
@@ -27135,7 +26819,7 @@ Revision: 18426
 "hammerid" "856912"
 }
 {
-"model" "*169"
+"model" "*162"
 "wait" "-1"
 "targetname" "stage3_cap1_flankdoor02"
 "speed" "10"
@@ -27203,7 +26887,7 @@ Revision: 18426
 "hammerid" "756433"
 }
 {
-"model" "*170"
+"model" "*163"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door03a"
@@ -27214,7 +26898,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "-410 -2990 8104"
+"origin" "-476 -2964 8104"
 "movedir" "90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -27273,7 +26957,7 @@ Revision: 18426
 "hammerid" "742870"
 }
 {
-"model" "*171"
+"model" "*164"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -27303,26 +26987,12 @@ Revision: 18426
 "hammerid" "1437927"
 }
 {
-"origin" "4630 826 76"
-"pitch" "-90"
-"angles" "-90 315 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 2200"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "853994"
-}
-{
-"model" "*172"
+"model" "*165"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
 "spawnflags" "2"
-"Solidity" "1"
+"Solidity" "0"
 "solid_to_enemies" "1"
 "respawnroomname" "stage2_redspawn01"
 "rendermode" "0"
@@ -27338,7 +27008,7 @@ Revision: 18426
 "hammerid" "1123189"
 }
 {
-"model" "*173"
+"model" "*166"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door03"
@@ -27350,7 +27020,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1392 836 -208"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -27365,7 +27035,7 @@ Revision: 18426
 "hammerid" "1123192"
 }
 {
-"model" "*174"
+"model" "*167"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -27383,7 +27053,7 @@ Revision: 18426
 "origin" "3648 1760 -223"
 "targetname" "stage2_path_104"
 "target" "stage2_path_105"
-"spawnflags" "32"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -27498,7 +27168,7 @@ Revision: 18426
 "hammerid" "1071016"
 }
 {
-"model" "*175"
+"model" "*168"
 "targetname" "stage2_bluespawn02_door_blockers"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -27516,7 +27186,7 @@ Revision: 18426
 "hammerid" "856261"
 }
 {
-"model" "*176"
+"model" "*169"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -27582,7 +27252,7 @@ Revision: 18426
 "hammerid" "1430567"
 }
 {
-"model" "*177"
+"model" "*170"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -27670,7 +27340,7 @@ Revision: 18426
 "hammerid" "696649"
 }
 {
-"model" "*178"
+"model" "*171"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -27689,7 +27359,7 @@ Revision: 18426
 "ignoredebris" "0"
 "forceclosed" "1"
 "effects" "0"
-"dmg" "99999"
+"dmg" "1000"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_door"
@@ -27697,7 +27367,7 @@ Revision: 18426
 "OnFullyOpen" "stage1_bluespawn_doors02_propKill0-1"
 }
 {
-"model" "*179"
+"model" "*172"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator_detail"
@@ -27719,7 +27389,7 @@ Revision: 18426
 "hammerid" "768743"
 }
 {
-"model" "*180"
+"model" "*173"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door03"
@@ -27731,7 +27401,7 @@ Revision: 18426
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "origin" "1378 880 8224"
-"movedir" "90 0 0"
+"movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -27746,7 +27416,7 @@ Revision: 18426
 "hammerid" "1438647"
 }
 {
-"model" "*181"
+"model" "*174"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn02_door02"
@@ -27794,7 +27464,7 @@ Revision: 18426
 "hammerid" "1088198"
 }
 {
-"model" "*182"
+"model" "*175"
 "TeamNum" "2"
 "targetname" "stage2_redspawn02"
 "StartDisabled" "0"
@@ -27809,6 +27479,7 @@ Revision: 18426
 "origin" "3019.94 1131.94 -367"
 "targetname" "stage2_path_100"
 "target" "stage2_path_101"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -27882,31 +27553,8 @@ Revision: 18426
 "classname" "path_track"
 "hammerid" "853786"
 "OnPass" "mspl_cartsparksStopSpark0-1"
-"OnPass" "stage2_sightlineblocker_relay2Trigger0-1"
+"OnPass" "stage2_sightlineblocker_relay2Trigger01"
 "OnPass" "mspl_pushzoneTouchTest11"
-}
-{
-"origin" "5776 1468 -176"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 40"
-"classname" "light"
-"hammerid" "860476"
-}
-{
-"model" "*183"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "-776 2080 7744"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "1787188"
 }
 {
 "origin" "5472 336 -424"
@@ -27922,7 +27570,7 @@ Revision: 18426
 "hammerid" "859630"
 }
 {
-"portalnumber" "139"
+"portalnumber" "136"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -27953,14 +27601,14 @@ Revision: 18426
 "hammerid" "857827"
 }
 {
-"portalnumber" "140"
+"portalnumber" "137"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849051"
 }
 {
-"model" "*184"
+"model" "*176"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator_descend_clip"
@@ -28077,7 +27725,7 @@ Revision: 18426
 "hammerid" "1068229"
 }
 {
-"model" "*185"
+"model" "*177"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door03b"
@@ -28088,7 +27736,7 @@ Revision: 18426
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "-410 -2990 8184"
+"origin" "-476 -2964 8184"
 "movedir" "-90 0 0"
 "loopmovesound" "0"
 "locked_sentence" "0"
@@ -28118,7 +27766,7 @@ Revision: 18426
 "hammerid" "850434"
 }
 {
-"model" "*186"
+"model" "*178"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_redspawn01_visualizer"
 "StartDisabled" "0"
@@ -28170,7 +27818,7 @@ Revision: 18426
 "OnPass" "stage2_last_container_door01SetSpeed152-1"
 }
 {
-"model" "*187"
+"model" "*179"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door01"
@@ -28200,7 +27848,7 @@ Revision: 18426
 "hammerid" "855638"
 }
 {
-"portalnumber" "141"
+"portalnumber" "138"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437801"
@@ -28219,7 +27867,7 @@ Revision: 18426
 "hammerid" "1071640"
 }
 {
-"model" "*188"
+"model" "*180"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door03b"
@@ -28238,7 +27886,7 @@ Revision: 18426
 "ignoredebris" "0"
 "health" "0"
 "forceclosed" "1"
-"dmg" "99999"
+"dmg" "1000"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -28246,38 +27894,38 @@ Revision: 18426
 "hammerid" "857789"
 }
 {
-"portalnumber" "142"
+"portalnumber" "139"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437805"
 }
 {
-"portalnumber" "143"
+"portalnumber" "140"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437837"
 }
 {
-"portalnumber" "144"
+"portalnumber" "141"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849065"
 }
 {
-"portalnumber" "145"
+"portalnumber" "142"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437835"
 }
 {
-"portalnumber" "146"
+"portalnumber" "143"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437833"
 }
 {
-"model" "*189"
+"model" "*181"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -28311,7 +27959,7 @@ Revision: 18426
 "hammerid" "856498"
 }
 {
-"model" "*190"
+"model" "*182"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_water_analogs"
@@ -28367,13 +28015,13 @@ Revision: 18426
 "OnCapTeam2" "mspl_pushzoneSetControlPointstage3_cap101"
 }
 {
-"portalnumber" "147"
+"portalnumber" "144"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437831"
 }
 {
-"portalnumber" "148"
+"portalnumber" "145"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437829"
@@ -28414,13 +28062,6 @@ Revision: 18426
 "hammerid" "309117"
 }
 {
-"portalnumber" "149"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "848905"
-}
-{
 "origin" "-2021 -2356 8096"
 "targetname" "stage3_path_20"
 "target" "stage3_path_21"
@@ -28455,7 +28096,6 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "857241"
-"OnPass" "mspl_watcher2SetSpeedForwardModifier10-1"
 }
 {
 "origin" "-2208 5904.16 -5600"
@@ -28481,7 +28121,6 @@ Revision: 18426
 "OnStart" "camera_stage2_*Disable0-1"
 "OnStart" "camera_stage3_*Disable0-1"
 "OnStart" "mspl_trainTeleportToPathTrackstage1_path_10-1"
-"OnStart" "mspl_cart_dynamicDisable0-1"
 "OnStart" "fog_controllerSetStartDist00-1"
 "OnStart" "fog_controllerSetMaxDensity0.80-1"
 "OnStart" "fog_controllerSetEndDist90000-1"
@@ -28492,15 +28131,18 @@ Revision: 18426
 "OnStart" "soundscapes_stage3Disabled0-1"
 "OnStart" "soundscapes_stage1Enable0-1"
 "OnStart" "mspl_flashinglightStop0-1"
+"OnStart" "tonemap_globalSetBloomScale0.40-1"
+"OnStart" "bot_nest_cap_a_1Enable0-1"
+"OnStart" "mspl_cartEnable0-1"
 }
 {
-"portalnumber" "150"
+"portalnumber" "146"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437827"
 }
 {
-"portalnumber" "151"
+"portalnumber" "147"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -28534,30 +28176,16 @@ Revision: 18426
 "hammerid" "1732577"
 }
 {
-"model" "*191"
+"model" "*183"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "1904 5664 -6096"
+"origin" "288 2048 8672"
 "DestroyBuildings" "0"
 "angles" "0 0 0"
-"AllowTeleporters" "1"
+"AllowTeleporters" "0"
 "AllowSentry" "0"
-"AllowDispenser" "1"
-"classname" "func_nobuild"
-"hammerid" "3065763"
-}
-{
-"model" "*192"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "-312 -1992 8408"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "1"
-"AllowSentry" "0"
-"AllowDispenser" "1"
+"AllowDispenser" "0"
 "classname" "func_nobuild"
 "hammerid" "3066271"
 }
@@ -28572,7 +28200,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "8"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -28695,7 +28323,7 @@ Revision: 18426
 "hammerid" "3149235"
 }
 {
-"origin" "-3592 5808 -5984"
+"origin" "-3552 6144 -5920"
 "targetname" "soundscapes_stage1"
 "soundscape" "patagonia.deepinside1"
 "radius" "512"
@@ -29023,7 +28651,7 @@ Revision: 18426
 "hammerid" "3149933"
 }
 {
-"origin" "1832 6792 -6184"
+"origin" "1832 6776 -6200"
 "targetname" "soundscapes_stage1"
 "soundscape" "patagonia.deepinside1"
 "radius" "512"
@@ -29458,7 +29086,7 @@ Revision: 18426
 "hammerid" "3150893"
 }
 {
-"origin" "5432 1312 -88"
+"origin" "5432 1312 -96"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.outside2"
 "radius" "512"
@@ -29466,7 +29094,7 @@ Revision: 18426
 "hammerid" "3150914"
 }
 {
-"origin" "5704 1040 -88"
+"origin" "5704 1040 -96"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.outside2"
 "radius" "512"
@@ -29474,23 +29102,7 @@ Revision: 18426
 "hammerid" "3150928"
 }
 {
-"origin" "5832 1468 -248"
-"targetname" "soundscapes_stage2"
-"soundscape" "patagonia.outside2"
-"radius" "512"
-"classname" "env_soundscape"
-"hammerid" "3150939"
-}
-{
-"origin" "5808 1468 -248"
-"targetname" "soundscapes_stage2"
-"soundscape" "patagonia.industrial2"
-"radius" "512"
-"classname" "env_soundscape"
-"hammerid" "3150956"
-}
-{
-"origin" "5680 1040 -88"
+"origin" "5680 1040 -96"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.industrial2"
 "radius" "512"
@@ -29498,7 +29110,7 @@ Revision: 18426
 "hammerid" "3150970"
 }
 {
-"origin" "5456 1312 -88"
+"origin" "5456 1312 -96"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.industrial2"
 "radius" "512"
@@ -29514,7 +29126,7 @@ Revision: 18426
 "hammerid" "3151000"
 }
 {
-"origin" "5456 1088 -272"
+"origin" "5456 1088 -280"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.industrial2"
 "radius" "512"
@@ -29578,7 +29190,7 @@ Revision: 18426
 "hammerid" "3151127"
 }
 {
-"origin" "5218 -50 112"
+"origin" "5224 -56 208"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.outside2"
 "radius" "512"
@@ -29586,7 +29198,7 @@ Revision: 18426
 "hammerid" "3151145"
 }
 {
-"origin" "5240 -28 112"
+"origin" "5246 -34 208"
 "targetname" "soundscapes_stage2"
 "soundscape" "patagonia.industrial2"
 "radius" "512"
@@ -30114,7 +29726,7 @@ Revision: 18426
 "hammerid" "3152277"
 }
 {
-"model" "*193"
+"model" "*184"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -30135,7 +29747,7 @@ Revision: 18426
 "hammerid" "3153029"
 }
 {
-"model" "*194"
+"model" "*185"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "rendermode" "0"
@@ -30150,16 +29762,16 @@ Revision: 18426
 "hammerid" "3153222"
 }
 {
-"model" "*195"
+"model" "*186"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "-1860 824 8400"
+"origin" "-1136 960 8368"
 "effects" "0"
-"disablereceiveshadows" "0"
+"disablereceiveshadows" "1"
 "angles" "0 0 0"
 "classname" "func_illusionary"
 "hammerid" "3181668"
@@ -30188,7 +29800,7 @@ Revision: 18426
 "hammerid" "3182794"
 }
 {
-"occludernumber" "37"
+"occludernumber" "36"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -30200,7 +29812,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 238 211 25"
+"_light" "255 238 211 20"
 "classname" "light"
 "hammerid" "3217588"
 }
@@ -30211,7 +29823,7 @@ Revision: 18426
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 238 211 400"
+"_light" "255 238 211 300"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "80"
@@ -30219,14 +29831,7 @@ Revision: 18426
 "hammerid" "3217595"
 }
 {
-"occludernumber" "38"
-"model" ""
-"StartActive" "1"
-"classname" "func_occluder"
-"hammerid" "3220995"
-}
-{
-"model" "*196"
+"model" "*187"
 "StartDisabled" "0"
 "SpeedMax" "6"
 "SpawnRate" "15"
@@ -30268,7 +29873,7 @@ Revision: 18426
 "hammerid" "3283047"
 }
 {
-"model" "*197"
+"model" "*188"
 "wheels" "1024"
 "volume" "10"
 "velocitytype" "1"
@@ -30300,7 +29905,7 @@ Revision: 18426
 "hammerid" "3283051"
 }
 {
-"model" "*198"
+"model" "*189"
 "StartDisabled" "0"
 "spawnflags" "1099"
 "parentname" "stage2_movingtrain_tracktrain"
@@ -30314,7 +29919,7 @@ Revision: 18426
 "hammerid" "3283059"
 }
 {
-"model" "*199"
+"model" "*190"
 "wait" "6"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -30848,19 +30453,18 @@ Revision: 18426
 "OnTrigger" "stage2_redspawn02_trainrail_door03Close3-1"
 "OnTrigger" "stage2_redspawn02_trainrail_door04Close3-1"
 "OnTrigger" "stage2_redspawn02_trainrail_doors_blockerEnable6-1"
-"OnTrigger" "stage2_redspawn02_trainrail_dontgetstuckEnable6-1"
-"OnTrigger" "stage2_redspawn02_trainrail_dontgetstuckKill6.1-1"
 "OnTrigger" "stage2_redspawn02_trainrail_close_propSkin40-1"
 "OnTrigger" "stage2_redspawn02_trainrail_doors_alertStopSound6-1"
 "OnTrigger" "stage2_redspawn02_trainrail_close_propSetAnimationidle6-1"
 "OnTrigger" "stage2_trainrail_shutters_propEnable8-1"
 "OnTrigger" "stage2_trainrail_shuttersOpen8-1"
 "OnTrigger" "stage2_cap2_flankdoor01Open8-1"
-"OnTrigger" "stage2_movingtrain_signal_lightTurnOff0-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite02_lightTurnOff0-1"
 "OnTrigger" "stage2_redspawn02_visualizer_traindoorKill8-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite01_lightTurnOff0-1"
 }
 {
-"model" "*200"
+"model" "*191"
 "wheels" "1024"
 "volume" "10"
 "velocitytype" "1"
@@ -31240,7 +30844,7 @@ Revision: 18426
 "OnTrigger" "stage2_movingtrain_visualizersKill10-1"
 }
 {
-"model" "*201"
+"model" "*192"
 "TeamNum" "0"
 "targetname" "stage2_movingtrain_nobuild"
 "StartDisabled" "0"
@@ -31383,7 +30987,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "16"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -31401,7 +31005,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "16"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -31419,7 +31023,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "16"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -31437,7 +31041,7 @@ Revision: 18426
 "renderamt" "255"
 "model" "sprites/light_glow01.spr"
 "HDRColorScale" "1.0"
-"GlowProxySize" "16"
+"GlowProxySize" "7"
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "angles" "0 0 0"
@@ -31459,6 +31063,10 @@ Revision: 18426
 "OnTrigger" "stage2_movingtrain_signal_sprite01bShowSprite0-1"
 "OnTrigger" "stage2_movingtrain_signal_sprite02bHideSprite1-1"
 "OnTrigger" "stage2_movingtrain_signal_sprite02bShowSprite0.5-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite01_lightTurnOn0-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite01_lightTurnOff0.5-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite02_lightTurnOn0.5-1"
+"OnTrigger" "stage2_movingtrain_signal_sprite02_lightTurnOff1-1"
 }
 {
 "origin" "3878 806 48"
@@ -31506,13 +31114,13 @@ Revision: 18426
 "hammerid" "3412512"
 }
 {
-"model" "*202"
+"model" "*193"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_trainrail_shutters"
 "speed" "50"
-"spawnpos" "0"
+"spawnpos" "1"
 "spawnflags" "12"
 "rendermode" "10"
 "renderfx" "0"
@@ -31540,6 +31148,11 @@ Revision: 18426
 "OnFullyOpen" "stage2_redspawn02_trainrail_door03Kill0-1"
 "OnFullyOpen" "stage2_redspawn02_trainrail_door04Kill0-1"
 "OnFullyOpen" "stage2_redspawn02_trainrail_door_propsKill0-1"
+"OnFullyOpen" "nav_avoid1Enable0.5-1"
+"OnFullyOpen" "nav_recomputeRecomputeBlockers1-1"
+"OnFullyClosed" "nav_recomputeRecomputeBlockers1-1"
+"OnFullyOpen" "stage2_redspawn02_trainrail_dontgetstuckEnable0-1"
+"OnFullyOpen" "stage2_redspawn02_trainrail_dontgetstuckKill0.1-1"
 }
 {
 "origin" "3776 768 -80"
@@ -31549,7 +31162,7 @@ Revision: 18426
 "hammerid" "3412592"
 }
 {
-"model" "*203"
+"model" "*194"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_stopped_platformbrush"
@@ -31570,7 +31183,7 @@ Revision: 18426
 "hammerid" "3441541"
 }
 {
-"model" "*204"
+"model" "*195"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_stopped_platformbrush"
@@ -31591,7 +31204,7 @@ Revision: 18426
 "hammerid" "3441551"
 }
 {
-"model" "*205"
+"model" "*196"
 "wait" "0"
 "targetname" "stage2_movingtrain_stopped_dontgetstuck"
 "StartDisabled" "1"
@@ -31731,7 +31344,7 @@ Revision: 18426
 "hammerid" "3442171"
 }
 {
-"model" "*206"
+"model" "*197"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_bluespawn02_signs_blocker"
@@ -31752,7 +31365,7 @@ Revision: 18426
 "hammerid" "3443005"
 }
 {
-"model" "*207"
+"model" "*198"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -31775,7 +31388,7 @@ Revision: 18426
 "hammerid" "3445744"
 }
 {
-"model" "*208"
+"model" "*199"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -31927,43 +31540,7 @@ Revision: 18426
 "hammerid" "3480898"
 }
 {
-"origin" "-2224 5648 -5616"
-"targetname" "mspl_constraint"
-"spawnflags" "1"
-"attach2" "mspl_cart"
-"attach1" "mspl_train"
-"angles" "0 0 0"
-"classname" "phys_constraint"
-"hammerid" "1877819"
-}
-{
-"origin" "-2208 5648 -5680"
-"targetname" "mspl_cart"
-"spawnflags" "6"
-"skin" "0"
-"shadowcastdist" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"physdamagescale" "0.1"
-"nodamageforces" "0"
-"modelscale" "1.0"
-"model" "models/props_trainyard/bomb_cart.mdl"
-"minhealthdmg" "0"
-"massScale" "0"
-"inertiaScale" "1.0"
-"health" "0"
-"forcetoenablemotion" "0"
-"fadescale" "0"
-"fademindist" "-1"
-"disableshadows" "1"
-"Damagetype" "0"
-"damagetoenablemotion" "0"
-"angles" "0 180 0"
-"classname" "prop_physics_override"
-"hammerid" "1877821"
-}
-{
-"model" "*209"
+"model" "*200"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -31984,7 +31561,7 @@ Revision: 18426
 "hammerid" "3547258"
 }
 {
-"model" "*210"
+"model" "*201"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -32040,7 +31617,7 @@ Revision: 18426
 "hammerid" "3547929"
 }
 {
-"model" "*211"
+"model" "*202"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -32060,7 +31637,7 @@ Revision: 18426
 "hammerid" "3548094"
 }
 {
-"model" "*212"
+"model" "*203"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -32154,7 +31731,7 @@ Revision: 18426
 "hammerid" "3282911"
 }
 {
-"occludernumber" "39"
+"occludernumber" "37"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -32162,7 +31739,7 @@ Revision: 18426
 "hammerid" "3739323"
 }
 {
-"occludernumber" "40"
+"occludernumber" "38"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
@@ -32191,7 +31768,7 @@ Revision: 18426
 "hammerid" "3740486"
 }
 {
-"occludernumber" "41"
+"occludernumber" "39"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -32215,7 +31792,7 @@ Revision: 18426
 "hammerid" "3744753"
 }
 {
-"occludernumber" "42"
+"occludernumber" "40"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -32223,7 +31800,7 @@ Revision: 18426
 "hammerid" "3802366"
 }
 {
-"model" "*213"
+"model" "*204"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "4258 146 -80"
@@ -32237,12 +31814,13 @@ Revision: 18426
 "hammerid" "3802617"
 }
 {
-"model" "*214"
+"model" "*205"
 "targetname" "stage2_redspawn01_disable_teleport"
 "target" "stage2_redspawn01_disable_teleport_dest"
 "StartDisabled" "1"
 "spawnflags" "1"
 "origin" "1556 1188 -56"
+"filtername" "filter_red"
 "angles" "0 0 0"
 "classname" "trigger_teleport"
 "hammerid" "3802661"
@@ -32257,7 +31835,7 @@ Revision: 18426
 "hammerid" "3802727"
 }
 {
-"occludernumber" "43"
+"occludernumber" "41"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -32265,7 +31843,7 @@ Revision: 18426
 "hammerid" "3011319"
 }
 {
-"model" "*215"
+"model" "*206"
 "StartDisabled" "0"
 "SpeedMax" "12"
 "SpawnRate" "50"
@@ -32311,7 +31889,7 @@ Revision: 18426
 "hammerid" "3860378"
 }
 {
-"model" "*216"
+"model" "*207"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -32332,7 +31910,7 @@ Revision: 18426
 "hammerid" "3891868"
 }
 {
-"model" "*217"
+"model" "*208"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -32447,29 +32025,13 @@ Revision: 18426
 "hammerid" "3896359"
 }
 {
-"portalnumber" "152"
+"portalnumber" "148"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "3898633"
 }
 {
-"origin" "5368 1640 -344"
-"targetname" "stage2_sightlineblocker01_doors01_lighting"
-"spawnflags" "0"
-"angles" "0 0 0"
-"classname" "info_target"
-"hammerid" "3930659"
-}
-{
-"origin" "5320 1032 -344"
-"targetname" "stage2_sightlineblocker01_doors02_lighting"
-"spawnflags" "0"
-"angles" "0 0 0"
-"classname" "info_target"
-"hammerid" "3930670"
-}
-{
-"model" "*218"
+"model" "*209"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_visualizers"
@@ -32502,7 +32064,7 @@ Revision: 18426
 "hammerid" "3944331"
 }
 {
-"model" "*219"
+"model" "*210"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer_traindoor"
 "StartDisabled" "0"
@@ -32832,17 +32394,16 @@ Revision: 18426
 "OnPass" "mspl_trainKill0-1"
 "OnPass" "mspl_pushzoneCaptureCurrentCP0-1"
 "OnPass" "mspl_flashinglightStop0-1"
-"OnPass" "mspl_cartKill0-1"
+"OnPass" "mspl_cartDisable0-1"
 "OnPass" "mspl_pushzoneDisable0-1"
 "OnPass" "mspl_dispenserDisable0-1"
-"OnPass" "mspl_constraintBreak0-1"
 "OnPass" "mspl_flashinglightKill0-1"
 "OnPass" "stage3_fakecart_flashinglightStart0-1"
 "OnPass" "stage3_fakecart_tracktrainSetSpeed0.050-1"
 "OnPass" "stage3_fakecart_propEnable0-1"
 }
 {
-"model" "*220"
+"model" "*211"
 "targetname" "stage3_fakecart_hurt"
 "StartDisabled" "1"
 "spawnflags" "3"
@@ -32858,8 +32419,8 @@ Revision: 18426
 "hammerid" "3944855"
 }
 {
-"model" "*221"
-"wheels" "50"
+"model" "*212"
+"wheels" "0"
 "volume" "10"
 "velocitytype" "1"
 "targetname" "stage3_fakecart_tracktrain"
@@ -32903,7 +32464,7 @@ Revision: 18426
 "physdamagescale" "1.0"
 "parentname" "stage3_fakecart_tracktrain"
 "modelscale" "1.0"
-"model" "models/props_trainyard/bomb_cart.mdl"
+"model" "models/props_patagonia/bomb_argentum.mdl"
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
@@ -32949,6 +32510,7 @@ Revision: 18426
 "minhealthdmg" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
+"LightingOrigin" "stage1_endcap_woodbarrier_lighting"
 "fadescale" "1.0"
 "fademindist" "-1"
 "effects" "0"
@@ -32960,7 +32522,7 @@ Revision: 18426
 "hammerid" "488800"
 }
 {
-"model" "*222"
+"model" "*213"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -33042,7 +32604,7 @@ Revision: 18426
 "hammerid" "3945746"
 }
 {
-"model" "*223"
+"model" "*214"
 "wait" "0"
 "targetname" "mspl_flashinglight_trigger"
 "spawnflags" "1"
@@ -33065,5 +32627,2141 @@ Revision: 18426
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "3947733"
+}
+{
+"model" "*215"
+"TeamNum" "2"
+"targetname" "stage2_redspawn01_deletestickies"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1556 1188 376"
+"angles" "0 0 0"
+"classname" "func_nogrenades"
+"hammerid" "4044446"
+}
+{
+"origin" "1912 6488 -6344"
+"targetname" "stage1_redspawn01_doors_lighting"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "4044939"
+}
+{
+"origin" "1904 6160 -6544"
+"targetname" "stage1_endcap_woodbarrier_lighting"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "4044945"
+}
+{
+"origin" "1884 6504 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045191"
+}
+{
+"origin" "1884 6648 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045222"
+}
+{
+"origin" "1884 6904 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045226"
+}
+{
+"origin" "1684 6904 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045230"
+}
+{
+"origin" "1684 7124 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045234"
+}
+{
+"origin" "1884 7124 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045238"
+}
+{
+"origin" "1884 7344 -6156"
+"spawnflags" "1"
+"scale" "1"
+"rendermode" "9"
+"rendercolor" "255 249 228"
+"renderamt" "200"
+"model" "sprites/light_glow03.spr"
+"HDRColorScale" "1.0"
+"GlowProxySize" "8"
+"framerate" "10.0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "4045246"
+}
+{
+"origin" "-640 5728 -5912"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 0 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137910"
+}
+{
+"origin" "-496 4960 -6000"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 210 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137913"
+}
+{
+"origin" "-352 4600 -6112"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 150 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137916"
+}
+{
+"origin" "-408 4512 -5920"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 150 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137919"
+}
+{
+"origin" "-840 5400 -5856"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 45 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137922"
+}
+{
+"origin" "-1152 4152 -6216"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_1"
+"sticky" "0"
+"StartDisabled" "0"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 15 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137925"
+}
+{
+"origin" "3220 -440 -206"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137928"
+}
+{
+"origin" "3518 -2968 -249.071"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 135 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137931"
+}
+{
+"origin" "3228 -1638 -336"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137934"
+}
+{
+"origin" "3226 -1808 2"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 210 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137937"
+}
+{
+"origin" "3682.57 -927.799 -252.143"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137940"
+}
+{
+"origin" "2423.71 -432.413 -254.96"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 255 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137943"
+}
+{
+"origin" "3096 -1356 -383.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137946"
+}
+{
+"origin" "2794 -678 -94"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 150 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137949"
+}
+{
+"origin" "2547.1 -1578 76"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 90 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137952"
+}
+{
+"origin" "3226 -2224 -256.878"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 135 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137955"
+}
+{
+"origin" "2574 -1980 80"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 300 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137958"
+}
+{
+"origin" "-1770 -94 8320.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 330 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137961"
+}
+{
+"origin" "-1161.95 37.4723 8256.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 255 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137964"
+}
+{
+"origin" "-312 -2195.15 8160.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137967"
+}
+{
+"origin" "-757.484 -996.493 8228.88"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 330 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137970"
+}
+{
+"origin" "-1894 -1636 8224.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 240 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137973"
+}
+{
+"origin" "-2472.12 -994.893 8256.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 315 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137976"
+}
+{
+"origin" "-2216 224 8320.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 0 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137979"
+}
+{
+"origin" "-1817.52 -868.473 8256.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 30 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137982"
+}
+{
+"origin" "-632.07 -800 8219.37"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137985"
+}
+{
+"origin" "-1468 -2658 8192.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 135 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137988"
+}
+{
+"origin" "-800 -1528 8225.57"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 210 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137991"
+}
+{
+"origin" "1184 5056 -6336"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 90 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137994"
+}
+{
+"origin" "1872 4880 -6574"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 90 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4137997"
+}
+{
+"origin" "2256 5682 -6604"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138000"
+}
+{
+"origin" "2208 5902 -6414"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138003"
+}
+{
+"origin" "2768 5504 -6272"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 210 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138006"
+}
+{
+"origin" "2360 4680 -6408"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 45 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138009"
+}
+{
+"origin" "1164 5714 -6528"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 345 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138012"
+}
+{
+"origin" "1384 5056 -6160"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 345 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138015"
+}
+{
+"origin" "2255.68 -104.997 -415.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 30 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138018"
+}
+{
+"origin" "1746.22 167.604 -367.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 345 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138021"
+}
+{
+"origin" "1554 -352 -478"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 60 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138024"
+}
+{
+"origin" "3099.43 191.15 -255.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138027"
+}
+{
+"origin" "1947.95 1112.02 -271.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 270 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138030"
+}
+{
+"origin" "2726 498 -271.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 270 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138033"
+}
+{
+"origin" "2130 662 -271.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 270 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138036"
+}
+{
+"origin" "651.069 1888.65 8256.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 210 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138039"
+}
+{
+"origin" "-634.565 1713.5 8352.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 0 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138042"
+}
+{
+"origin" "-282.074 310.445 8255.57"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 120 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138045"
+}
+{
+"origin" "492 86 8258.84"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 120 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138048"
+}
+{
+"origin" "-286.626 1947.33 8064.25"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 345 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138051"
+}
+{
+"origin" "596 950 8288.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 150 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138054"
+}
+{
+"origin" "33.1505 750.03 8288.25"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 30 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138057"
+}
+{
+"origin" "2483.52 1296 -273.497"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 45 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138060"
+}
+{
+"origin" "3729.56 1484.09 -191.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138063"
+}
+{
+"origin" "4592.74 1870 -271.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138066"
+}
+{
+"origin" "4323.13 1719.3 -271.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 120 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138069"
+}
+{
+"origin" "3260 1530 -223.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 15 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138072"
+}
+{
+"origin" "3009.25 2082.89 -527.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 315 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138075"
+}
+{
+"origin" "3771.38 2831.11 -271.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 285 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138078"
+}
+{
+"origin" "3494 1972 -207.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 255 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138081"
+}
+{
+"origin" "4684.06 387.066 -223.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 285 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138084"
+}
+{
+"origin" "5662 490 -447.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 180 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138087"
+}
+{
+"origin" "5107.43 187.013 -335.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 75 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138090"
+}
+{
+"origin" "5128 -210 -223.75"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138093"
+}
+{
+"origin" "5124.27 -15.3918 -50"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 165 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138096"
+}
+{
+"origin" "4418 24 -69.382"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 15 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138099"
+}
+{
+"origin" "4960 936 -255.75"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"sticky" "0"
+"StartDisabled" "1"
+"sequence" "5"
+"rangehelper" "1100"
+"angles" "0 0 0"
+"classname" "bot_hint_sentrygun"
+"hammerid" "4138102"
+}
+{
+"origin" "-872 5192 -6048"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_1"
+"StartDisabled" "0"
+"angles" "0 270 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138246"
+}
+{
+"origin" "-392 4104 -6240"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_1"
+"StartDisabled" "0"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138248"
+}
+{
+"origin" "-616 5264 -5856"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_1"
+"StartDisabled" "0"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138250"
+}
+{
+"origin" "-960 4440 -6176"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_1"
+"StartDisabled" "0"
+"angles" "0 270 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138252"
+}
+{
+"origin" "2892 -1502 1.90735e-06"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138254"
+}
+{
+"origin" "3252 -614 -208"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138256"
+}
+{
+"origin" "2708.63 -1540 -382"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 15 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138258"
+}
+{
+"origin" "1860 -388 -222"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 30 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138260"
+}
+{
+"origin" "3692 -398 -238"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 270 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138262"
+}
+{
+"origin" "2280 -1714 80"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_2"
+"StartDisabled" "1"
+"angles" "0 315 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138264"
+}
+{
+"origin" "-1838 -700 8258"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138266"
+}
+{
+"origin" "-2108 72 8322"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138268"
+}
+{
+"origin" "-290.528 -783.715 8176"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138270"
+}
+{
+"origin" "-2212 -520 8258"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 270 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138272"
+}
+{
+"origin" "-826 74 8258"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138274"
+}
+{
+"origin" "-2228 168 8067.4"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138276"
+}
+{
+"origin" "-708 -1738 8225.57"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_a_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138278"
+}
+{
+"origin" "1756 4822 -6570"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 30 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138280"
+}
+{
+"origin" "1042 5550 -6480"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 30 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138282"
+}
+{
+"origin" "2986 5556 -6272"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138284"
+}
+{
+"origin" "938 5216 -6354"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 285 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138286"
+}
+{
+"origin" "2450 5876 -6616"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138288"
+}
+{
+"origin" "2736 5200 -6416"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138290"
+}
+{
+"origin" "1936 4440 -6376"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138292"
+}
+{
+"origin" "1208 5344 -6160"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_1"
+"StartDisabled" "1"
+"angles" "0 300 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138294"
+}
+{
+"origin" "3072.08 787.586 -254"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 225 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138296"
+}
+{
+"origin" "2660.64 924.56 -478"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138298"
+}
+{
+"origin" "2082 -152 -222"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 255 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138300"
+}
+{
+"origin" "1710.08 -604 -386"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 120 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138302"
+}
+{
+"origin" "1766.08 1262.69 -270.151"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 330 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138304"
+}
+{
+"origin" "1892 -206 -414"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 300 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138306"
+}
+{
+"origin" "2288 630 -270"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_2"
+"StartDisabled" "1"
+"angles" "0 330 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138308"
+}
+{
+"origin" "38.95 337 8260.73"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138310"
+}
+{
+"origin" "448 1472.64 8290"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 270 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138312"
+}
+{
+"origin" "624 -16 8266.72"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138314"
+}
+{
+"origin" "-576 2004 8066"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138316"
+}
+{
+"origin" "-638.88 1261.99 8162"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138318"
+}
+{
+"origin" "-87.1695 507.616 8290"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_b_3"
+"StartDisabled" "1"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138320"
+}
+{
+"origin" "4762.54 1402 -254"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"StartDisabled" "1"
+"angles" "0 180 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138322"
+}
+{
+"origin" "4784 1732 -414"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_c_2"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138324"
+}
+{
+"origin" "3655.75 2576.09 -270"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"StartDisabled" "1"
+"angles" "0 90 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138326"
+}
+{
+"origin" "3344 1342 -222"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"StartDisabled" "1"
+"angles" "0 135 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138328"
+}
+{
+"origin" "3600 2362 -526"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_c_2"
+"StartDisabled" "1"
+"angles" "0 135 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138330"
+}
+{
+"origin" "4938 602 -222"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 225 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138332"
+}
+{
+"origin" "5320 -188 -222"
+"TeamNum" "2"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 225 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138334"
+}
+{
+"origin" "5840 1004 -254"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138336"
+}
+{
+"origin" "6054.88 234.658 -444"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 240 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138338"
+}
+{
+"origin" "4811.45 986.221 -480"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 0 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138340"
+}
+{
+"origin" "5264 80 -222"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 315 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138342"
+}
+{
+"origin" "4638 1050 -254"
+"TeamNum" "3"
+"targetname" "bot_nest_cap_d_2"
+"StartDisabled" "1"
+"angles" "0 315 0"
+"classname" "bot_hint_teleporter_exit"
+"hammerid" "4138344"
+}
+{
+"origin" "5329 79 230"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 30"
+"classname" "light"
+"hammerid" "4271834"
+}
+{
+"origin" "5329 79 252"
+"pitch" "-90"
+"angles" "-90 315 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 1500"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4271841"
+}
+{
+"origin" "5471 -63 252"
+"pitch" "-90"
+"angles" "-90 315 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 1500"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4271885"
+}
+{
+"origin" "5471 -63 230"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 30"
+"classname" "light"
+"hammerid" "4271893"
+}
+{
+"origin" "4857 599 202"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 50"
+"classname" "light"
+"hammerid" "4273384"
+}
+{
+"origin" "4857 599 224"
+"pitch" "-90"
+"angles" "-90 315 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 2000"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4273391"
+}
+{
+"origin" "4631 825 172"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 50"
+"classname" "light"
+"hammerid" "4273415"
+}
+{
+"origin" "4631 825 194"
+"pitch" "-90"
+"angles" "-90 315 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 2000"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4273422"
+}
+{
+"origin" "4327.75 599.75 16"
+"targetname" "stage2_cap3_arrow_break_prop"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"modelscale" "0.7"
+"model" "models/props_trainyard/train_billboard001.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1"
+"fademindist" "-1"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"angles" "0 45 -180"
+"classname" "prop_dynamic"
+"hammerid" "4273453"
+}
+{
+"model" "*216"
+"vrad_brush_cast_shadows" "0"
+"texframeindex" "0"
+"targetname" "stage2_cap3_arrow_break"
+"spawnflags" "3073"
+"rendermode" "10"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"propdata" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "2"
+"origin" "4320 592 16"
+"minhealthdmg" "0"
+"material" "2"
+"health" "0"
+"gibdir" "0 0 0"
+"explosion" "0"
+"effects" "0"
+"disablereceiveshadows" "1"
+"angles" "0 0 0"
+"classname" "func_breakable"
+"hammerid" "4273488"
+}
+{
+"origin" "5199 257 160"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 75"
+"classname" "light"
+"hammerid" "4277828"
+}
+{
+"origin" "5199 257 176"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 300"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "4277835"
+}
+{
+"origin" "5057 399 160"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 75"
+"classname" "light"
+"hammerid" "4277882"
+}
+{
+"origin" "5057 399 176"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 300"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "4277889"
+}
+{
+"model" "*217"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "3056 -3856 -240"
+"condition" "24"
+"angles" "0 0 0"
+"classname" "trigger_remove_tf_player_condition"
+"hammerid" "4278299"
+"OnStartTouch" "!activatorExtinguishPlayer0-1"
+}
+{
+"portalnumber" "149"
+"StartOpen" "1"
+"PortalVersion" "1"
+"classname" "func_areaportal"
+"hammerid" "4278566"
+}
+{
+"origin" "5568 1290 -60"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 1000"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4286750"
+}
+{
+"origin" "5568 1290 -82"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 30"
+"classname" "light"
+"hammerid" "4286758"
+}
+{
+"origin" "5568 1078 -60"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 1000"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "4286791"
+}
+{
+"origin" "5568 1078 -82"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 30"
+"classname" "light"
+"hammerid" "4286803"
+}
+{
+"origin" "5564 1456 -280"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 300"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "4287268"
+}
+{
+"origin" "5564 1456 -296"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 75"
+"classname" "light"
+"hammerid" "4287276"
+}
+{
+"origin" "5776 1408 -144"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 40"
+"classname" "light"
+"hammerid" "4287299"
+}
+{
+"origin" "5804 1408 -144"
+"pitch" "0"
+"angles" "0 180 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 300"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "4287306"
+}
+{
+"origin" "5032 736 -288"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 300"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "4320445"
+}
+{
+"origin" "5032 736 -304"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 75"
+"classname" "light"
+"hammerid" "4320453"
+}
+{
+"model" "*218"
+"StartDisabled" "0"
+"speed" "300"
+"spawnflags" "1"
+"pushdir" "0 0 0"
+"origin" "256 2298 7878.5"
+"angles" "0 0 0"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "4358405"
+}
+{
+"model" "*219"
+"StartDisabled" "0"
+"speed" "300"
+"spawnflags" "1"
+"pushdir" "0 90 0"
+"origin" "256 2298 7875"
+"angles" "0 0 0"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "4358409"
+}
+{
+"origin" "1832 5384 -6264"
+"startdisabled" "1"
+"attach2" "stage1_mine_elevator"
+"attach1" "mspl_train"
+"classname" "logic_collision_pair"
+"hammerid" "4389549"
+}
+{
+"origin" "1832 5400 -6264"
+"startdisabled" "1"
+"attach2" "stage1_mine_elevator_descend_clip"
+"attach1" "mspl_train"
+"classname" "logic_collision_pair"
+"hammerid" "4389601"
+}
+{
+"model" "*220"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "3056 -3856 -240"
+"condition" "27"
+"angles" "0 0 0"
+"classname" "trigger_remove_tf_player_condition"
+"hammerid" "4389847"
+}
+{
+"model" "*221"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "3056 -3856 -240"
+"condition" "123"
+"angles" "0 0 0"
+"classname" "trigger_remove_tf_player_condition"
+"hammerid" "4389856"
+}
+{
+"origin" "5537.44 -4310.37 -48.2393"
+"texframeindex" "0"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"modelscale" "1.25"
+"model" "models/weapons/w_crowbar.mdl"
+"minhealthdmg" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1.0"
+"fademindist" "1400"
+"fademaxdist" "1600"
+"effects" "0"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"body" "0"
+"angles" "6.44525 199.484 48.9239"
+"classname" "prop_dynamic"
+"hammerid" "4421600"
+}
+{
+"origin" "4888 -968 -72"
+"targetname" "bird_yelp"
+"spawnflags" "48"
+"SourceEntityName" "bird_train"
+"radius" "60000"
+"pitchstart" "100"
+"pitch" "100"
+"message" "npc/crow/alert1.wav"
+"health" "10"
+"classname" "ambient_generic"
+"hammerid" "4421687"
+}
+{
+"origin" "4880 -960 -128"
+"texframeindex" "0"
+"targetname" "bird"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "250 184 57"
+"renderamt" "255"
+"RandomAnimation" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"parentname" "bird_train"
+"modelscale" "3"
+"model" "models/pigeon.mdl"
+"minhealthdmg" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1.0"
+"fademindist" "-1"
+"effects" "0"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"body" "0"
+"angles" "0 0 0"
+"classname" "prop_dynamic"
+"hammerid" "4421660"
+}
+{
+"origin" "4894 -960 -112"
+"targetname" "bird_particles"
+"start_active" "0"
+"parentname" "bird_train"
+"effect_name" "unusual_meteor_shower_parent_orange"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "4421696"
+}
+{
+"model" "*222"
+"wheels" "100"
+"vrad_brush_cast_shadows" "0"
+"volume" "10"
+"velocitytype" "0"
+"texframeindex" "0"
+"targetname" "bird_train"
+"target" "bird_path_1"
+"startspeed" "300"
+"speed" "0"
+"spawnflags" "522"
+"rendermode" "10"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "4880 -960 -112"
+"orientationtype" "1"
+"MoveSoundMinTime" "0"
+"MoveSoundMinPitch" "60"
+"MoveSoundMaxTime" "0"
+"MoveSoundMaxPitch" "200"
+"ManualSpeedChanges" "0"
+"ManualDecelSpeed" "0"
+"ManualAccelSpeed" "0"
+"height" "0"
+"effects" "0"
+"dmg" "0"
+"disablereceiveshadows" "1"
+"bank" "0"
+"angles" "0 0 0"
+"classname" "func_tracktrain"
+"hammerid" "4421993"
+}
+{
+"origin" "4880 -960 -112"
+"targetname" "bird_path_1"
+"target" "bird_path_2"
+"spawnflags" "0"
+"orientationtype" "2"
+"model" "models/empty.mdl"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "4422005"
+}
+{
+"origin" "4392 -472 -24"
+"targetname" "bird_path_2"
+"target" "bird_path_3"
+"sides" ""
+"orientationtype" "1"
+"model" "models/empty.mdl"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "4422019"
+}
+{
+"origin" "3752 -872 -136"
+"targetname" "bird_path_3"
+"target" "bird_path_4"
+"sides" ""
+"orientationtype" "1"
+"model" "models/empty.mdl"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "4422039"
+}
+{
+"origin" "7304 -7160 2344"
+"targetname" "bird_path_4"
+"orientationtype" "1"
+"model" "models/empty.mdl"
+"angles" "0 0 0"
+"classname" "path_track"
+"hammerid" "4422056"
+"OnPass" "bird_trainStop0-1"
+"OnPass" "birdcageKill0-1"
+"OnPass" "birdKill0-1"
+"OnPass" "bird_particlesStop0-1"
+}
+{
+"origin" "4889.93 -960 -106.468"
+"texframeindex" "0"
+"targetname" "birdcage"
+"StartDisabled" "1"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "186 255 0"
+"renderamt" "255"
+"RandomAnimation" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"parentname" "bird_train"
+"modelscale" "1.0"
+"model" "models/player/items/pyro/fwk_pyro_birdcage.mdl"
+"minhealthdmg" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1.0"
+"fademindist" "-1"
+"effects" "0"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"body" "0"
+"angles" "17.6896 8.77875 -0.977694"
+"classname" "prop_dynamic"
+"hammerid" "4422084"
+}
+{
+"model" "*223"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "4832 -912 -72"
+"angles" "0 0 0"
+"classname" "trigger_once"
+"hammerid" "4422131"
+"OnTrigger" "bird_trainSetSpeed13-1"
+"OnTrigger" "bird_yelpPlaySound3-1"
+"OnTrigger" "bird_particlesStart3-1"
+"OnTrigger" "birdcageEnable3-1"
+"OnTrigger" "birdSetAnimationFly013-1"
+"OnTrigger" "bird_yelpPlaySound8-1"
+"OnTrigger" "bird_yelpPlaySound15-1"
+}
+{
+"origin" "4880 -952 -40"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 20"
+"classname" "light"
+"hammerid" "4422199"
+}
+{
+"origin" "5399.7 182.68 -366.473"
+"texframeindex" "0"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"modelscale" "1.25"
+"model" "models/weapons/w_crowbar.mdl"
+"minhealthdmg" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1.0"
+"fademindist" "800"
+"fademaxdist" "800"
+"effects" "0"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"body" "0"
+"angles" "-0.917533 -69.2259 50.9385"
+"classname" "prop_dynamic"
+"hammerid" "4423324"
+}
+{
+"model" "*224"
+"teamToBlock" "-1"
+"origin" "248 2224 7936"
+"angles" "0 0 0"
+"affectsFlow" "0"
+"classname" "func_nav_blocker"
+"hammerid" "4423809"
+}
+{
+"occludernumber" "42"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4487336"
+}
+{
+"model" "*225"
+"team" "-2"
+"targetname" "nav_avoid1"
+"tags" "scout soldier pyro demoman heavyweapons engineer medic sniper spy"
+"start_disabled" "1"
+"origin" "3784 760 -168"
+"angles" "0 0 0"
+"classname" "func_nav_avoid"
+"hammerid" "4487432"
+}
+{
+"origin" "3352 1048 8"
+"targetname" "nav_recompute"
+"classname" "tf_point_nav_interface"
+"hammerid" "4487480"
+}
+{
+"occludernumber" "43"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4615312"
+}
+{
+"origin" "-344 4728 -6056"
+"targetname" "stage1_mine_elevator_addtime_branch"
+"classname" "logic_branch"
+"hammerid" "4615492"
+"OnTrue" "stage1_path_77AddOutputOnPass mspl_timer:SetTime:6:0:10-1"
+}
+{
+"origin" "-2280 5912 -5496"
+"targetname" "mspl_5min"
+"spawnflags" "49"
+"radius" "1024"
+"pitchstart" "100"
+"pitch" "100"
+"message" "Announcer.RoundEnds5minutes"
+"health" "10"
+"classname" "ambient_generic"
+"hammerid" "4615523"
+}
+{
+"origin" "-2280 5912 -5512"
+"targetname" "mspl_2min"
+"spawnflags" "49"
+"radius" "1024"
+"pitchstart" "100"
+"pitch" "100"
+"message" "Announcer.RoundEnds2minutes"
+"health" "10"
+"classname" "ambient_generic"
+"hammerid" "4615533"
+}
+{
+"model" "*226"
+"wait" "0"
+"targetname" "stage2_cap3_shortcut_door_dontgetstuck"
+"StartDisabled" "1"
+"spawnflags" "1"
+"origin" "4236 828 -160"
+"angles" "0 0 0"
+"classname" "trigger_multiple"
+"hammerid" "4646937"
+"OnTrigger" "!activatorSetHealth-10000-1"
+}
+{
+"model" "*227"
+"TeamNum" "0"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "3040 -3824 -112"
+"DestroyBuildings" "0"
+"angles" "0 0 0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "4678263"
+}
+{
+"model" "*228"
+"TeamNum" "0"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1554 1188 248"
+"DestroyBuildings" "0"
+"angles" "0 0 0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "4678395"
+}
+{
+"model" "*229"
+"wait" "-1"
+"vrad_brush_cast_shadows" "0"
+"texframeindex" "0"
+"targetname" "stage2_redspawn01_hidelockers"
+"speed" "5000"
+"spawnpos" "0"
+"spawnflags" "4108"
+"rendermode" "10"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1768 936 -223.48"
+"movedir" "90 0 0"
+"loopmovesound" "0"
+"lip" "0"
+"ignoredebris" "0"
+"forceclosed" "1"
+"effects" "0"
+"dmg" "0"
+"disablereceiveshadows" "1"
+"angles" "0 0 0"
+"classname" "func_door"
+"hammerid" "4678470"
 }
  

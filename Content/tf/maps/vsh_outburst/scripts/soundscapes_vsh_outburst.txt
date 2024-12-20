@@ -36,9 +36,9 @@
 
 		"rndwave"
 		{
-			"wave"	"hla/amb_laughs_07.mp3"
-			"wave"	"hla/amb_laughs_08.mp3"
-			"wave"	"hla/amb_laughs_10.mp3"
+			"wave"	"hla1/amb_laughs_07.mp3"
+			"wave"	"hla1/amb_laughs_08.mp3"
+			"wave"	"hla1/amb_laughs_10.mp3"
 		}
 	}
 
@@ -86,7 +86,7 @@
 	{
 		"volume"	"0.7"
 		"pitch"	"100"
-		"wave"	"hla\amb_hell_mystic.wav"
+		"wave"	"hla1\amb_hell_mystic.wav"
 	}
 }
 
@@ -127,9 +127,9 @@
 
 		"rndwave"
 		{
-			"wave"	"hla/amb_laughs_07.mp3"
-			"wave"	"hla/amb_laughs_08.mp3"
-			"wave"	"hla/amb_laughs_10.mp3"
+			"wave"	"hla1/amb_laughs_07.mp3"
+			"wave"	"hla1/amb_laughs_08.mp3"
+			"wave"	"hla1/amb_laughs_10.mp3"
 		}
 	}
 
@@ -168,6 +168,6 @@
 	{
 		"volume"	"1"
 		"pitch"	"98"
-		"wave"	"hla\amb_hell_tree.wav"
+		"wave"	"hla1\amb_hell_tree.wav"
 	}
 }

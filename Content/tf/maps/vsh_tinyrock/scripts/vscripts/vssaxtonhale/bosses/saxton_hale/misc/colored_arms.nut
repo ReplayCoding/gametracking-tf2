@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 hale_aura_red_off <- "models/vsh/player/items/vsh_effect_ltarm_aura.mdl"

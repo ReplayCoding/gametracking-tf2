@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 ::custom_dmg_melee <- SpawnEntityFromTable("info_target", { classname = "hale_punch" });
@@ -67,10 +68,10 @@ class SaxtonHale extends Boss
         player.AddCustomAttribute("cannot pick up intelligence", 1, -1);
         player.AddCustomAttribute("patient overheal penalty", 1, -1);
         player.AddCustomAttribute("health from packs decreased", 0, -1);
-        player.AddCustomAttribute("damage force reduction", 0.35, -1);
+        player.AddCustomAttribute("damage force reduction", 0.75, -1);
         player.AddCustomAttribute("dmg taken from crit reduced", 0.75, -1);
         player.AddCustomAttribute("dmg taken from blast increased", 1.5, -1);
-        player.AddCustomAttribute("dmg taken from fire increased", 1.5, -1);
+        player.AddCustomAttribute("dmg taken from fire increased", 1.25, -1);
 
         player.AddCond(TF_COND_CANNOT_SWITCH_FROM_MELEE);
     }

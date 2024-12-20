@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 foreach (c in [
@@ -26,12 +27,10 @@ foreach (c in [
 
 ::TF_TEAM_UNASSIGNED <- TEAM_UNASSIGNED;
 ::TF_TEAM_SPECTATOR <- TEAM_SPECTATOR;
-
 ::TF_TEAM_MERC <- TF_TEAM_BLUE;
 ::TF_TEAM_MERCS <- TF_TEAM_BLUE;
 ::TF_TEAM_BOSS <- TF_TEAM_RED;
 ::TF_TEAM_BOSSES <- TF_TEAM_RED;
-
 ::TF_CLASS_HEAVY <- TF_CLASS_HEAVYWEAPONS;
 ::MAX_PLAYERS <- MaxClients().tointeger();
 

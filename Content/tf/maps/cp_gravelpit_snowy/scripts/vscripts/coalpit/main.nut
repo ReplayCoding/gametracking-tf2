@@ -2,15 +2,13 @@
 // Coal Pit Script //
 /////////////////////
 
-ClearGameEventCallbacks();
-
 local statue = null
 while (statue = Entities.FindByClassname(statue, "entity_soldier_statue"))
 {
 	DoEntFire("entity_soldier_statue", "Kill", "0", 0, null, null);					//prevent duplicate statues from taking up edicts
 }
 
-function checkHolidays()
+function checkCoalPitHolidays()
 {
 	local timetable = {}
 	LocalTime(timetable)
@@ -48,6 +46,4 @@ function checkHolidays()
 	///////////////////////////////////////////////////////////////
 }
 
-checkHolidays();
-
-__CollectGameEventCallbacks(this);
+checkCoalPitHolidays();

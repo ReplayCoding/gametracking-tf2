@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 PrecacheClassVoiceLines("wall_climb")
@@ -32,15 +33,23 @@ characterTraitsClasses.push(class extends CustomVoiceLine
 
     function OnWallClimb(otherPlayer, streak, quickFixLink)
     {
-        if (usingBFB)
-            SetPropFloat(player, "m_Shared.m_flHypeMeter", clampFloor(GetPropFloat(player, "m_Shared.m_flHypeMeter") - 20, 0));
+        if (player != otherPlayer)
+            return;
 
-        if (quickFixLink || player != otherPlayer || !ShouldPlayVoiceLine())
+        if (usingBFB)
+        {
+            SetPropFloat(player, "m_Shared.m_flHypeMeter", clampFloor(GetPropFloat(player, "m_Shared.m_flHypeMeter") - 20, 0));
+            player.AddCustomAttribute("move speed bonus", 1.001, 0.1);
+        }
+
+        if (quickFixLink || !ShouldPlayVoiceLine())
             return;
 
         local inverseChance = climbLineTimesPlayed[0]++ < 3 ? 3 : 5;
         if (player.GetPlayerClass() == TF_CLASS_SCOUT)
+        {
             inverseChance *= 2;
+        }
         if (RandomInt(0, inverseChance) == 0)
         {
             lastTimePlayedLine[player] <- Time();

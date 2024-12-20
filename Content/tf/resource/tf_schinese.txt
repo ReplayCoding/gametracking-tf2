@@ -1598,7 +1598,6 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"此奖项颁发给在 AsiaFortress Liquid.tf 2024 冬季全编制邀请赛中参赛的选手"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf 佣兵混搭奖"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"2024 年 5 月 伦敦 MCM"
-																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 胜出者"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 参赛者"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 冠军"
@@ -7411,7 +7410,6 @@
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"杀死 15 个站在其控制点的敌人。"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"重要目标"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"背刺正控制己方 3 名或 3 名以上队友的敌人。"
-"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"死神复仇"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"用背刺的方式复仇杀敌。"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"暗杀"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"在被瓶手道击中时，用近战武器消灭一个敌人。"
@@ -7581,7 +7579,6 @@
 "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_DESC" "在生命值少于 25 的情况下用十字镐杀死 20 名敌人。"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_NAME"		"枪声为谁而鸣"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_DESC"		"使用火箭弹将敌人炸飞，并在落地之前使用霰弹枪杀死他们。"
-"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"死神在身下"
 "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_DESC"	"使用精确打击者杀死 10 名正在空中的敌人。"
 "TF_SOLDIER_FREEZECAM_TAUNT_NAME"		"无言胜有言"
 "TF_SOLDIER_FREEZECAM_TAUNT_DESC"		"送敌人一张你在鸣枪敬礼的定格照。"
@@ -10834,7 +10831,6 @@
 "Attrib_Particle80"			"恶魔之火"
 
 "Attrib_Particle82"			"不朽之灵"
-"Attrib_Particle83"			"坟墓之眼"
 "Attrib_Particle84"			"泥中有眼"
 "Attrib_Particle85"			"紫色小鬼魂"
 "Attrib_Particle86"			"青色小鬼魂"
@@ -10968,6 +10964,10 @@
 "Attrib_Particle361"			"灼热炉火"
 "Attrib_Particle362"			"超能炫光"
 "Attrib_Particle363"			"超能炫光"
+"Attrib_Particle369"			"极地夜空"
+"Attrib_Particle371"			"欢腾极光"
+"Attrib_Particle372"			"蓬勃朝气"
+
 // Weapon Unusual
 "Attrib_Particle701"			"炽热发烟"
 "Attrib_Particle702"			"绿色辐射"
@@ -14813,7 +14813,6 @@
 
 "TF_DailyMapStampRewardHat"			"集邮者"
 "TF_DailyMapStampRewardHat_Desc"	"恭喜你在昨天对TF2社区地图制作者的支持比任何的TF2玩家还要多！在它明天易主之前，自豪地戴上它吧。"
-"TF_DailyGiftGiverRewardHat"		"来自礼物王国的尚礼者"
 "TF_DailyGiftGiverRewardHat_Desc"	"恭喜你昨天的礼物赠送数比任何的TF2玩家还要多！在它明天易主之前，自豪地戴上它吧。"
 "TF_DailyDuelWinnerRewardHat"		"决斗者"
 "TF_DailyDuelWinnerRewardHat_Desc"	"恭喜你昨天的决斗获胜数比任何的TF2玩家还要多！在它明天易主之前，自豪地戴上它吧。"
@@ -17062,6 +17061,10 @@
 "TF_hwn2024_defaced"					"半脸爆客"
 "TF_hwn2024_defaced_style1"					"右半边脸"
 "TF_hwn2024_defaced_style2"					"左半边脸"
+
+"TF_dec24_dapper_noel"					"盛装庆节"
+"TF_dec24_necroprancer"					"亡骇飞鹿" // ADD THE
+"TF_dec24_scrooge_mcdoc"				"守财奴麦克大夫"
 "TF_KathmanHairdo"             "加德满都发型" // ADD THE
 "TF_KathmanHairdo_Desc"        "这个从史前时代流传下来的蓬巴杜发型，是由埃德蒙.希拉里在珠峰附近首现发现的。他在当时还有另一个发现，那就是他自己拉了裤子。"
 "TF_HimalayanHairShirt"        "喜马拉雅长毛衬衫" // ADD THE

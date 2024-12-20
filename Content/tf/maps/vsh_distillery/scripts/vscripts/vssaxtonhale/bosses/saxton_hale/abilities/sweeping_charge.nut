@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 PrecacheScriptSound("vsh_sfx.hale_charge");
@@ -194,7 +195,7 @@ class SweepingChargeTrait extends BossTrait
         boss.SetAbsVelocity(haleForwardDirection*force)
         triggerCatapult.SetAbsOrigin(boss.GetCenter());
 
-        CreateAoEAABB(boss.GetCenter() + forwardOffset, Vector(-65, -65, -30), Vector(65, 65, 130),
+        CreateAoEAABB(boss.GetCenter() + forwardOffset, Vector(-65, -65, -80), Vector(65, 65, 130),
             function (target, deltaVector, distance) {
                 if (bashedByHale.find(target) != null)
                     return;

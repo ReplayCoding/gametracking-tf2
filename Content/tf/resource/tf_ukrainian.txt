@@ -1740,7 +1740,6 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"Нагорода гравцям за участь в «AsiaFortress Liquid.tf Highlander Invite» зимового сезону 2024 року."
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"Учасник «AsiaFortress Liquid.tf Mercenary Mashup»"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"Учасник травневого «MCM London» 2024 року"
-																				   
 "TF_RETF2_EE22_6v6_Winner"					"Переможець RETF2 EE22 6v6"
 "TF_RETF2_EE22_6v6_Participant"				"Учасник RETF2 EE22 6v6"
 "TF_RETF2_EE22_4v4_Winner"					"Переможець RETF2 EE22 4v4"
@@ -5097,6 +5096,7 @@
 "cp_reckoner_authors"			"Бек «phi» Айлз\nКімберлі «iiboharz» Різвік\nFreyja\nE-Arkham\nМаксім «Fubar» Дюпюї\nЗої Сміт\nЄн «NeoDement» Бернетт\nАл «Square» Роджерс\n'Rito\nАлекс «Rexy» Кріґер\nСебастіан Ґрус"
 "cp_sulfur_authors"				"Freyja\nE-Arkham\nSarexicus\n'Rito\ndonhonk\nКімберлі «iiboharz» Різвік\nЛорен «Yrrzy» Ґодфрі\nМаксім «Fubar» Дюпюї"
 "cp_hardwood_final_authors"		"Бен «Squishy» Довмен\nЕміль Шарафеєв\nFaye\nPuinguin\nЛіам «Diva Dan» Моффітт\nE-Arkham\nРоман «FanCyy» Малашкевич"
+"ctf_pelican_peak_authors"		"Кріс «Another Bad Pun» Вільямс\nБек «phi» Айлз\nДжеймс «chin» Гаєс\nЕрік «erk» Браунінґ\nЛіам «Diva Dan» Моффітт\nStuffy360\nЕон «Void» Болліґ\nНіколас «KrazyZark» Фенек\nЕміль Шарафеєв"
 "pd_selbyen_authors"			"Джоел «zythe_» Моршер\nРафаель «Rhamkin» Олівейра\nАлекс «FGD5» Стюарт\nБенджамін «blaholtzen» Блоголц\nМетью «MegapiemanPHD» Сіммонс\nLo-fi Longcat"
 "vsh_tinyrock_authors"			"Джесс «Muddy» Дабс\nLizard of Oz\nДжейсон «Yaki» Герман\nШабо «Maxxy» Аттіла\nМаксим «VellyVice» Стрельцов\nДжеймс M.\nХоакім «JPRAS» Сільва\nМетью «MegapiemanPHD» Сіммонс"
 "vsh_distillery_authors"		"Phe\nLizard Of Oz\nСонома «Sono» Браєр\nШабо «Maxxy» Аттіла\nМетью «MegapiemanPHD» Сіммонс\nStuffy 360\nДжейсон «Yaki» Герман\nМаксим «VellyVice» Стрельцов\nДжеймс M.\nХоакім «JPRAS» Сільва\nЕон «Void» Болліґ"
@@ -5547,6 +5547,7 @@
 "TF_MapToken_Hardwood_AdText"		"-Придбавши цей предмет, ви безпосередньо підтримуєте авторів мапи Hardwood."
 "TF_Map_PelicanPeak"				"Pelican Peak"
 "TF_MapToken_PelicanPeak"			"Марка мапи — Pelican Peak"
+"TF_MapToken_PelicanPeak_Desc"		"Мапа режиму «Захоплення прапора»\n\nАвтори: Кріс «Another Bad Pun» Вільямс, Бек «phi» Айлз, Джеймс «chin» Гаєс, Ерік «erk» Браунінґ, Ліам «Diva Dan» Моффітт, Stuffy360, Еон «Void» Болліґ, Ніколас «KrazyZark» Фенек і Еміль Шарафеєв\n\nКупівля цього предмета буде прямою підтримкою авторів мапи Pelican Peak. Покажіть вашу підтримку сьогодні!"
 "TF_MapToken_PelicanPeak_AdText"	"-Придбавши цей предмет, ви безпосередньо підтримуєте авторів мапи Pelican Peak."
 "TF_Map_Selbyen"					"Selbyen"
 "TF_MapToken_Selbyen"				"Марка мапи — Selbyen"
@@ -6666,6 +6667,8 @@
 "pl_odyssey_steps"						"східці"
 "tow_dynamite_coupling"					"зчеплення вантажів"
 "tow_dynamite_flatcar"					"платформу"
+"cp_fortezza_gate"						"Брама"
+"ctf_penguin_peak_team_goal"			"Викрадіть дипломат із документами з ворожої бази."
 // Win panel strings
 "Winpanel_Team1"			"КОМАНДА"
 "Winpanel_Team2"			"Команда"
@@ -8332,7 +8335,6 @@
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"Убийте 15 ворогів, коли вони стоять на власній контрольній точці."
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"Цінна здобич"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"Убийте ударом у спину ворога, який домінує над 3 і більше вашими союзниками."
-"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"Шпигун, що прийшов з холоду"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"Помстіться ударом у спину."
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"Вогка робота"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"Убийте ворога, поки облиті банкарате."
@@ -8502,7 +8504,6 @@
 "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_DESC" "Убийте 20 ворогів Зрівнювачем, коли у вас менше 25 одиниць здоров’я."
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_NAME"		"По кому постріл"
 "TF_SOLDIER_BOUNCE_THEN_SHOTGUN_DESC"		"Підкиньте ворога у повітря ракетою і до приземлення застрельте його з доробовика."
-"TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_NAME"	"Смерть знизу"
 "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_DESC"	"Убийте 10 ворогів у повітрі за допомогою Прямого влучання."
 "TF_SOLDIER_FREEZECAM_TAUNT_NAME"		"Замість тисячі слів"
 "TF_SOLDIER_FREEZECAM_TAUNT_DESC"		"Дозвольте ворогу зафіксувати ваш почесний салют."
@@ -12076,7 +12077,6 @@
 "Attrib_Particle80"			"Демонічне полум’я"
 
 "Attrib_Particle82"			"Нев’янучий"
-"Attrib_Particle83"			"Потойбічний погляд"
 "Attrib_Particle84"			"Мул"
 "Attrib_Particle85"			"Маленькі моторошні привиди"
 "Attrib_Particle86"			"Примарний Фантазм-молодший"
@@ -16380,7 +16380,6 @@
 
 "TF_DailyMapStampRewardHat"			"Філателіст"
 "TF_DailyMapStampRewardHat_Desc"	"Наші вітання! Вчора ви придбали більше марок для підтримки спільноти творців мап TF2, ніж будь-який інший гравець! Носіть з гордістю, перш ніж це перейде завтра в інші руки!"
-"TF_DailyGiftGiverRewardHat"		"Щедра людина зі щедрих країв"
 "TF_DailyGiftGiverRewardHat_Desc"	"Вітаємо! Вчора ви зробили більше дарунків, ніж будь-який інший гравець у TF2! Носіть із гордістю, доки капелюх не перейде до іншого гравця завтра!"
 "TF_DailyDuelWinnerRewardHat"		"Дуелянт"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Вітаємо! Вчора ви виграли більше дуелей, ніж будь-який інший гравець у TF2! Носіть з гордістю, доки капелюх не перейде до іншого гравця завтра!"
@@ -18883,6 +18882,8 @@
 "TF_hwn2024_defaced"					"Підступний підрив"
 "TF_hwn2024_defaced_style1"					"Правий бік"
 "TF_hwn2024_defaced_style2"					"Лівий бік"
+
+"TF_dec24_dapper_noel"					"Чепурний Миколай"
 "TF_KathmanHairdo"             "Зачіска із Катманду" // ADD THE
 "TF_KathmanHairdo_Desc"        "Цей доісторичний помпадур уперше був помічений сером Едмундом Гіларі на схилах Евересту, який одразу після цього надзюрив у штани."
 "TF_HimalayanHairShirt"        "Гімалайська кудлата сорочка" // ADD THE

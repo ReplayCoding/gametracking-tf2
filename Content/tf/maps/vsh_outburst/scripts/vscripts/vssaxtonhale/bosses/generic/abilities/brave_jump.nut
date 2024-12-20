@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 PrecacheClassVoiceLines("jump")
@@ -21,7 +22,7 @@ enum BOSS_JUMP_STATUS
     DOUBLE_JUMPED = 3
 };
 
-::braveJumpCharges <- 4;
+::braveJumpCharges <- 5;
 
 class BraveJumpTrait extends BossTrait
 {
@@ -31,12 +32,12 @@ class BraveJumpTrait extends BossTrait
     shouldNotifyJump = true;
     lastTimeJumped = Time();
 
-    jumpSpamForwardVel = [0.1, 0.3, 0.7, 1.0, 1.0];
-    jumpSpamUpwardVel =  [0.5, 0.5, 0.7, 1.0, 1.0];
-    jumpSpamGrav =       [0.9, 0.7, 0.8, 1.0, 1.0];
-    jumpSpamStates =     [2, 1, 1, 0, 0];
-    jumpSpamCooloff =    [4.0, 4.0, 3.0, 2.0, 2.0];
-    charges = 4;
+    jumpSpamForwardVel = [0.1, 0.3, 0.7, 1.0, 1.0, 1.0];
+    jumpSpamUpwardVel =  [0.5, 0.5, 0.7, 1.0, 1.0, 1.0];
+    jumpSpamGrav =       [0.9, 0.7, 0.8, 1.0, 1.0, 1.0];
+    jumpSpamStates =     [2, 1, 1, 0, 0, 0];
+    jumpSpamCooloff =    [4.0, 4.0, 3.0, 3.0, 2.0, 2.0];
+    charges = 5;
 
     function OnFrameTickAlive()
     {
@@ -79,8 +80,8 @@ class BraveJumpTrait extends BossTrait
             NotifyJump();
         if (time - lastTimeJumped >= jumpSpamCooloff[charges])
         {
-            charges = 4;
-            braveJumpCharges = 4;
+            charges = 5;
+            braveJumpCharges = 5;
         }
     }
 

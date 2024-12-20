@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ARCTIC/ROCKWALL012_ICE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_gravelpit_snowy/c-1887_-37_-321"
+	}
+}

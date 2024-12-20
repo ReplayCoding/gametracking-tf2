@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 class AoEPunchTrait extends BossTrait
@@ -17,22 +18,6 @@ class AoEPunchTrait extends BossTrait
     {
         if (IsCollateralDamage(params.damage_type))
             return;
-        local damage = params.damage;
         params.inflictor = custom_dmg_melee;
-
-        CreateAoE(victim.GetCenter(), 75,
-            function(target, deltaVector, distance) {
-                if (target == victim)
-                    return;
-                target.TakeDamageEx(
-                    custom_dmg_melee_collateral,
-                    boss,
-                    boss.GetActiveWeapon(),
-                    deltaVector * 450,
-                    boss.GetOrigin(),
-                    damage / 2,
-                    1);
-            }
-            function(target, deltaVector, distance) {});
     }
 };

@@ -9,6 +9,7 @@
 //  MegapiemanPHD - Saxton Hale and Gray Mann voice acting.
 //  James McGuinn - Mercenaries voice acting for custom lines.
 //  Yakibomb - give_tf_weapon script bundle (used for Hale's first-person hands model).
+//  Phe - game design assistance.
 //=========================================================================
 
 PrecacheArbitrarySound("vsh_sfx.boss_slam_impact");
@@ -39,7 +40,7 @@ class MightySlamTrait extends BossTrait
                 meter = 0;
             }
         }
-        if (!boss.IsOnGround() && (boss.GetFlags() & FL_DUCKING) && braveJumpCharges > 1)
+        if (!boss.IsOnGround() && (boss.GetFlags() & FL_DUCKING))
             Weightdown();
         else if (inUse && !(boss.GetFlags() & FL_DUCKING))
         {
@@ -53,7 +54,7 @@ class MightySlamTrait extends BossTrait
             inUse = false;
             SetItemId(boss.GetActiveWeapon(), 5);
             boss.SetGravity(1);
-            if (meter >= 0 && lastFrameDownVelocity < -300)
+            if (meter >= 0 && lastFrameDownVelocity < (braveJumpCharges > 0 ? -300 : -500))
                 Perform();
             else
                 BossPlayViewModelAnim(boss, "f_idle");
