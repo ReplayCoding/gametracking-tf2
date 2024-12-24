@@ -2756,9 +2756,16 @@
 "TF_TournamentMedal_Anniversary_Annihilation_Dastardly"					"Anniversary Annihilation 2022 – Diabolischer Diamant"
 "TF_TournamentMedal_Anniversary_Annihilation_Dastardly_Desc"			"Um den legendären verfluchten Diamanten ranken sich unzählige Mythen. Dies ist aber nicht jener Diamant, sondern nur etwas, das unsere speziell ausgebildeten Trüffelschweine in einer Diamantenmine in Arkansas erschnüffelt haben. Verliehen an Spender zugunsten der Sommer-Wohltätigkeitstour von Moonlight MvM!"
 "TF_TournamentMedal_Ghoulish_Corrupted_2024"							"Ghoulish Gambit 2024 – Korrumpierter Kristall"
+"TF_TournamentMedal_Ghoulish_Corrupted_2024_Desc"						"Dieser Edelstein pulsiert durch eine seltsame Kraft in Ihrer Hand. Ein Teil von Ihnen denkt, dass Sie die Finger davon lassen sollten. Ein stilvollerer Teil von Ihnen findet, dass er echt schick an Ihrer Brust aussehen würde. Verliehen an Spender zugunsten der Wohltätigkeitsaktion während der Operation Ghoulish Gambit von Potato MvM."
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024"							"Ghoulish Gambit 2024 – Unkorrumpierter Kristall"
+"TF_TournamentMedal_Ghoulish_Uncorrupted_2024_Desc"						"Dieser Edelstein ist makellos und unbeschädigt, da er vor den Zombies und Robotern in Sicherheit gebracht wurde. Bewahren Sie ihn gut auf, denn es ist nicht einfach, an einen solchen heranzukommen. Verliehen an Spender zugunsten der Wohltätigkeitsaktion während der Operation Ghoulish Gambit von Potato MvM."
 "TF_TournamentMedal_Ghoulish_Mostly_2024"								"Ghoulish Gambit 2024 – Größtenteils korrumpierter Kristall"
+"TF_TournamentMedal_Ghoulish_Mostly_2024_Desc"							"Gut gegen Böse, Licht gegen Dunkelheit, Yin gegen Yang … Nun, eine der in diesem Edelstein eingefangenen Seelen hieß tatsächlich Yang. Wir glauben, dass die andere Craig hieß. Verliehen an Spender zugunsten der Wohltätigkeitsaktion während der Operation Ghoulish Gambit von Potato MvM."
+"TF_TournamentMedal_Ghoulish_Haunted_2024"								"Ghoulish Gambit 2024 – Spukiger Panzer"
+"TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"Dieses Ding wäre wahrscheinlich viel schauerlicher, wenn ihnen die lila Farbe nicht ausgegangen wäre. Verliehen an Spieler der Operation Ghoulish Gambit von Potato MvM."
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"Ghoulish Gambit 2024 – Giftige Kartoffel"
+"TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"Ein äußerst verdorbenes Schmuckstück, dessen bloße Nähe bereits Ihren Verstand vergiftet. Sie sollten es auf gar keinen Fall verzehren oder es wird auch Ihre Eingeweide zerfressen. Verliehen an Spieler der Operation Ghoulish Gambit von Potato MvM."
+
 "TF_TournamentMedal_FruitMixes_Gold"				"Fruit Mixes Highlander – Goldmedaille"
 "TF_TournamentMedal_FruitMixes_Silver"				"Fruit Mixes Highlander – Silbermedaille"
 "TF_TournamentMedal_FruitMixes_Bronze"				"Fruit Mixes Highlander – Bronzemedaille"
@@ -4967,6 +4974,8 @@
 "TF_SplendidScreen_Style1"	"Klassisch"
 "TF_SplendidScreen_Style2"	"Stachel"
 "TF_SplendidScreen_Style3"	"Pfeil"
+"TF_SplendidScreen_Style4"	"Stachel und Pfeil"
+
 "TF_Pyromancer_Style1"		"Original"
 "TF_Pyromancer_Style2"		"Volltonfarbe"
 "TF_Pyromancer_Style3"		"Stilvolle Färbung"
@@ -5988,6 +5997,7 @@
 "TF_Map_Fortezza_StrangePrefix"			" Staubig"
 "TF_Map_PenguinPeak_StrangePrefix"		" Rutschig"
 "TF_Map_Patagonia_StrangePrefix"		" Argentinisch"
+"TF_Map_Cutter_StrangePrefix"			" Einschneidend"
 "TF_Map_Maul_StrangePrefix"				" Überteuert"
 
 "TF_MapDonationLevel_Bronze"	"Bronze:"
@@ -8927,6 +8937,7 @@
 "TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"Benutzen Sie eine Überladung, um innerhalb von 5 Sekunden schnell 2 Kameraden wiederzubeleben."
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"Robot Flush"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_DESC"				"Töten Sie 5 Roboter mit einer einzigen Rakete, während Sie das Upgrade Raketenspezialist besitzen."
+"TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_NAME"				"Betäubt und entschärft"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_DESC"				"Betäuben Sie 50 Roboter, während Sie das Upgrade Raketenspezialist besitzen."
 
 // Doomsday Achievements
@@ -8954,6 +8965,9 @@
 "TF_MAPS_DOOMSDAY_DEFEND_CARRIER_DESC"				"Töten Sie einen Gegner, der dem Träger des Australiums innerhalb der letzten 3 Sekunden Schaden zugefügt hat."
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_NAME"			"Doomsday-Meilenstein"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_DESC"			"Erfüllen Sie 7 Errungenschaften des Doomsday-Pakets."
+
+// Standin Achievement
+"TF_MAPS_STANDIN_WIN_ROUNDS_NAME"					"Stillge-Standin!"
 "TF_MAPS_STANDIN_WIN_ROUNDS_DESC"					"Gewinnen Sie 139 Runden."
 
 // Process Achievement
@@ -10949,6 +10963,8 @@
 
 "Footer_Winter2024Cosmetics"					"Inhalt könnte seltsam oder ein ungewöhnlicher Hut (Winter 2024) sein"
 "TF_Winter2024CosmeticCase"					"Kosmetikakiste (Winter 2024)"
+"TF_Winter2024CosmeticCase_desc"				"Diese Kiste ist verschlossen und es wird ein\nKosmetikaschlüssel (Winter 2024) zum Öffnen benötigt.\n\nEnthält einen von der Community erstellten Gegenstand\naus der Kosmetikakollektion (Winter 2024)."
+"TF_Winter2024CosmeticCase_AdText"			"-Enthält Communitykosmetika\n-Es wird ein Kosmetikaschlüssel (Winter 2024) zum Öffnen benötigt\n-Inhalt könnte seltsam oder ein ungewöhnlicher Hut (Winter 2024) sein"
 "TF_Tool_Winter2024CosmeticKey"				"Kosmetikaschlüssel (Winter 2024)"
 "TF_Tool_Winter2024CosmeticKey_desc"			"Wird benötigt, um eine Kosmetikakiste (Winter 2024) zu öffnen"
 "TF_Tool_Winter2024CosmeticKey_AdText"		"-Wird benötigt, um eine Kosmetikakiste (Winter 2024) zu öffnen.\n-Inhalt könnte seltsam oder ein ungewöhnlicher Hut (Winter 2024) sein."
@@ -12194,6 +12210,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "Attrib_Particle79"			"Dunkelbrand"
 "Attrib_Particle80"			"Dämonenflamme"
 
+"Attrib_Particle81"			"Bonzo der Allfressende"
 "Attrib_Particle82"			"Unvergänglich"
 "Attrib_Particle83"			"Starrblick aus dem Jenseits"
 "Attrib_Particle84"			"Der Schleim"
@@ -12519,6 +12536,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "Attrib_Particle367"			"Halkyonischer Heiligenschein"
 "Attrib_Particle368"			"Geister der Smissmas-Zeit"
 "Attrib_Particle369"			"Polarlichthimmel"
+"Attrib_Particle370"			"Brillantes Bokeh"
 "Attrib_Particle371"			"Verspieltes Polarlicht"
 "Attrib_Particle372"			"Munterer Morgen"
 
@@ -12744,6 +12762,15 @@ verkleiden Sie sich schnell als Ihr Opfer"
 
 // Smissmas 2024 Unusual Taunts
 "Attrib_Particle3185"		"Verschneiter Tag"
+"Attrib_Particle3186"		"Verschneiter Geist"
+"Attrib_Particle3187"		"Verschneiter Geist"
+"Attrib_Particle3188"		"Violetter Sinneseindruck"
+"Attrib_Particle3189"		"Grüne Erscheinung"
+"Attrib_Particle3190"		"Preisgekrönt"
+"Attrib_Particle3191"		"Preisgekrönt"
+"Attrib_Particle3192"		"Erfolgreiche Uraufführung"
+"Attrib_Particle3193"		"Verworrene Weihnachtsbeleuchtung"
+
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -17479,6 +17506,7 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_sf14_fowl_fists"                    "Die Geflügelfäuste" // ADD THE
 "TF_sf14_talon_trotters"                "Die Fangfüße" // ADD THE
 "TF_sf14_scout_hunter_head"             "Der Head-Hunter" // ADD THE
+"TF_sf14_scout_hunter_arm"              "Die Krallen des Infizierten"  // ADD THE
 "TF_sf14_scout_hunter_legs"             "Die verrückten Beine"  // ADD THE
 "TF_sf14_ghost_of_spies_checked_past"   "Der Geist der vergangenen Spychecks"  // ADD THE
 "TF_sf14_hooded_haunter_classes"        "Der vermummte Verfolger" // ADD THE
@@ -18581,6 +18609,7 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_hwn2021_twisted_topper"			"Hochgefährlicher Hut"
 "TF_hwn2021_twisted_topper_style0"		"Fliege"
 "TF_hwn2021_twisted_topper_style1"		"Keine Fliege"
+"TF_hwn2021_beanie_all_gnawing"		"Beanie der Allfressende"
 "TF_hwn2021_eyequarium"				"Augquarium"
 "TF_hwn2021_eyequarium_style0"			"Quellwasser"
 "TF_hwn2021_eyequarium_style0_nohat"	"Quellwasser (Kein Hut)"
@@ -19098,15 +19127,30 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_dec24_necroprancer"					"Der Nekrudolph" // ADD THE
 "TF_dec24_necroprancer_style1"				"Nase"
 "TF_dec24_necroprancer_style2"				"Keine Nase"
+"TF_dec24_battle_music"					"Die Kampfkopfhörer" // ADD THE
 "TF_dec24_hot_spaniel"					"Flauschige Fliegermütze"
+"TF_dec24_frostbite_fit"				"Frostige Wintertracht"
+"TF_dec24_laire_filteure"				"L’aire Filteure"
+"TF_dec24_poleur_voyeur"				"Poleur Voyeur"
+"TF_dec24_poleur_voyeur_style1"				"Verhüllt"
+"TF_dec24_poleur_voyeur_style2"				"Enthüllt"
+"TF_dec24_le_frosteaux"					"Le Frosteaux"
 "TF_dec24_scrooge_mcdoc"				"Dagobert Doc"
+"TF_dec24_checkered_past"				"Die bewegte Vergangenheit" // ADD THE
 "TF_dec24_consiglieres_coverup"			"Bemäntelung des Consiglieres"
 "TF_dec24_consiglieres_coverup_style1"		"Handschuhe"
 "TF_dec24_consiglieres_coverup_style2"		"Keine Handschuhe"
+"TF_dec24_crimbo_cap"					"Die Weihnachtskappe" // ADD THE
+"TF_dec24_triple_jumper"				"Der Dreisprungpulli" // ADD THE
+"TF_dec24_polar_charger"				"Polare Pelzmütze"
 "TF_dec24_polar_charger_style1"				"Normal"
+"TF_dec24_polar_charger_style2"				"Tarnfarbe"
+"TF_dec24_polar_charger_style3"				"Tarnfarbe (keine Maske)"
 "TF_dec24_polar_charger_style4"				"Keine Maske"
 "TF_dec24_field_fatigues"				"Winterkampfanzug"
 "TF_dec24_field_fatigues_style1"			"Normal"
+"TF_dec24_field_fatigues_style2"			"Tarnfarbe"
+"TF_dec24_cossack_camo"					"Kosaken-Tarnfarben"
 "TF_dec24_cossack_camo_style1"				"Farbiger Schal"
 "TF_dec24_cossack_camo_style2"				"Farbiger Pelz"
 "TF_dec24_battle_balaclava"				"Kampfsturmhaube"
@@ -19971,5 +20015,7 @@ Wenn das gegnerische Team den Kontrollpunkt erobert, bleibt die Uhr Ihres Teams 
 "TF_IM_VSH_ToWin1"				"Um zu gewinnen, müssen Sie das gegnerische Team eliminieren …"
 "TF_IM_VSH_ToWin2"				"… oder den Kontrollpunkt erobern, der im Verlauf der Runde aktiviert wird."
 "TF_IM_VSH_Notes1"				"Saxton Hale hat einzigartige Fähigkeiten, um Söldner auszuschalten."
+"TF_IM_VSH_Notes2"				"Erneutes Spawnen ist nicht möglich, also besser nicht sterben!"
+
 }
 }

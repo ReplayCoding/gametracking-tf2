@@ -1,9 +1,9 @@
 "VertexLitGeneric"
 {
-	"$basetexture"		"models/workshop/player/items/engineer/dec24_bucks_brim_style3/dec24_bucks_brim_style3_1_blue_color"
-	"$bumpmap"		"models/workshop/player/items/engineer/dec24_bucks_brim_style3/dec24_bucks_brim_style3_normal"
+	"$basetexture"		"models/workshop/player/items/engineer/dec24_westcoat_style3/dec24_westcoat_style3_1_blue_color"
+	"$bumpmap"		"models/workshop/player/items/engineer/dec24_westcoat_style3/dec24_westcoat_style3_1_normal"
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
-	"$phongexponenttexture"		"models/workshop/player/items/engineer/dec24_bucks_brim_style3/dec24_bucks_brim_style3_phongexponent"
+	"$phongexponenttexture"		"models/workshop/player/items/engineer/dec24_westcoat_style3/dec24_westcoat_style3_1_phongexponent"
 	"$phong"		"1"
 	"$phongexponent"		"20.000000"
 	"$phongboost"		"0.500000"
@@ -12,8 +12,11 @@
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
 	"$rimmask"		"1"
-	"$phongalbedotint"		"1"
-	"$color2"		"{ 253 242 213 }"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 220 182 142 }"
+	"$color2"		"{ 220 182 142 }"
+	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -23,10 +26,8 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"1"
+		"$selfillum"		"0"
 	}
-	"$selfillumtint"		"[5.490196 5.490196 5.490196]"
-	"$selfillummask"		"models/workshop/player/items/engineer/dec24_bucks_brim_style3/dec24_bucks_brim_style3_illum"
 	"proxies"
 	{
 		"invis"
@@ -42,13 +43,24 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"		"$yellow"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}

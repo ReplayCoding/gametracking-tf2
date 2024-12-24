@@ -12389,6 +12389,10 @@
 "Attrib_Particle361"			"Полум’я плити"
 "Attrib_Particle362"			"Потужна пожежа"
 "Attrib_Particle363"			"Потужна пожежа"
+"Attrib_Particle369"			"Сяйво Аврори"
+"Attrib_Particle371"			"Грайливе сяйво"
+"Attrib_Particle372"			"Бадьорий ранок"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Жар"
 "Attrib_Particle702"			"Ізотоп"
@@ -17790,6 +17794,12 @@
 "TF_taunt_the_punchline"					"Кепкування: Жарт"
 "TF_taunt_the_punchline_Desc"				"Створене спільнотою кепкування шпигуна"
 "TF_taunt_the_punchline_AdText"				"-Створене спільнотою кепкування шпигуна"
+"TF_taunt_curtain_call_Desc"				"Створене спільнотою кепкування шпигуна"
+"TF_taunt_curtain_call_AdText"				"-Створене спільнотою кепкування шпигуна"
+"TF_taunt_peace_Desc"						"Створене спільнотою кепкування для всіх класів"
+"TF_taunt_peace_AdText"						"-Створене спільнотою кепкування для всіх класів"
+"TF_taunt_forehead_slice_Desc"				"Створене спільнотою кепкування підривника"
+"TF_taunt_forehead_slice_AdText"			"-Створене спільнотою кепкування підривника"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Дихальна торба"	// ADD THE
@@ -18884,6 +18894,13 @@
 "TF_hwn2024_defaced_style2"					"Лівий бік"
 
 "TF_dec24_dapper_noel"					"Чепурний Миколай"
+"TF_dec24_necroprancer"					"Некролень" // ADD THE
+"TF_dec24_necroprancer_style1"				"З носом"
+"TF_dec24_scrooge_mcdoc"				"Скрудж МакДок"
+"TF_dec24_consiglieres_coverup"			"Прикриття консильєрі"
+"TF_dec24_polar_charger_style4"				"Без маски"
+"TF_dec24_cossack_camo_style2"				"Пофарбоване хутро"
+"TF_dec24_commanding_style1"				"Бойова свиня"
 "TF_KathmanHairdo"             "Зачіска із Катманду" // ADD THE
 "TF_KathmanHairdo_Desc"        "Цей доісторичний помпадур уперше був помічений сером Едмундом Гіларі на схилах Евересту, який одразу після цього надзюрив у штани."
 "TF_HimalayanHairShirt"        "Гімалайська кудлата сорочка" // ADD THE
@@ -19616,6 +19633,7 @@ E) — Сині можуть захопити цю точку в будь яки
 "TF_LobbyContainer_CustomPingButton"	"Особливий ліміт пінґу"
 "TF_LobbyContainer_CustomPingDesc"	"Пошук матчу знайде кращий матч, який відповідає цьому пінґу. Нижче показані регіони, які втрапляють у цей ліміт пінґу."
 "TF_DataCenter_eat"				"Сієтл, США"
+"TF_DataCenter_mwh"				"Сієтл, США"
 "TF_DataCenter_lax"				"Лос-Анджелес, США"
 "TF_DataCenter_iad"				"Стерлінг, США"
 "TF_DataCenter_atl"				"Атланта, США"
@@ -19713,5 +19731,6 @@ E) — Сині можуть захопити цю точку в будь яки
 
 "arena_perks_message_tie"		"Нічия!"
 
+"TF_IM_VSH_ToWin2"				"…або захопити контрольну точку, яка стане доступною протягом раунду"
 }
 }

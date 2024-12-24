@@ -11953,7 +11953,7 @@
 "Attrib_RageOnHeal"						"Acumula energía curando a tus compañeros de equipo. Cuando la barra esté completamente cargada, pulsa la tecla de ataque especial para activar un escudo antiproyectiles frontal."
 "Attrib_HealingReceivedBonus"			"+%s1 % de bonificación de curación de todas las fuentes"
 "Attrib_HealingReceivedPenalty"			"-%s1 % de curación de todas las fuentes"
-"Attrib_HealingFromMedics_Negative"		"-%s1 % de curación procedente de un Medic"
+"Attrib_HealingFromMedics_Negative"		"%s1 % de curación procedente de un Medic"
 "Attrib_AfterburnImmunity"				"Inmune a las quemaduras"
 "Attrib_TauntParticles"					"Efectos extra al burlarse"
 "Attrib_CallingCardOnKill"				"Deja una Tarjeta de Visita sobre tus víctimas"
@@ -19769,6 +19769,15 @@ Escolta la vagoneta hasta la base enemiga y defiéndela hasta que se agote el ti
 
 Información adicional:
 Los enemigos pueden bloquear la vagoneta subiéndose a ella."
+
+"koth_overcast_final_description"			"Objetivo:
+Captura el punto de control de alrededor del faro y defiéndelo hasta que se agote el tiempo de tu equipo.
+
+Información adicional:
+El punto de control no puede capturarse mientras está bloqueado.
+Si el enemigo captura el punto de control, el temporizador de tu equipo se detendrá hasta que vuelvas a capturarlo."
+
+
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"Poción de críticos"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Poción de invulnerabilidad"
