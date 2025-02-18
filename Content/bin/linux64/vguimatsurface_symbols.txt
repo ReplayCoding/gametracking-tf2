@@ -20,13 +20,14 @@ FT_Request_Size
 FT_Select_Charmap
 FT_Select_Size
 FT_Set_Pixel_Sizes
-FcConfigGetCurrent
+FcConfigAppFontAddFile
+FcConfigSetCurrent
 FcConfigSubstitute
 FcDefaultSubstitute
 FcFontList
 FcFontMatch
 FcFontSetDestroy
-FcInit
+FcInitLoadConfigAndFonts
 FcObjectSetAdd
 FcObjectSetCreate
 FcObjectSetDestroy
@@ -38,6 +39,7 @@ FcPatternGetString
 GetCPUInformation
 HushAsserts
 KeyValuesSystem
+Log
 Msg
 Plat_FloatTime
 Plat_IsInDebugSession
@@ -46,6 +48,7 @@ RandomFloat
 SDL_CreateSystemCursor
 SDL_GetMouseState
 SDL_GetWindowSize
+SDL_setenv
 ShouldUseNewAssertDialog
 ThreadGetCurrentId
 Warning
@@ -54,6 +57,7 @@ _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _SpewInfo
 _SpewMessage
+_Z10DevWarningPKcz
 _Z11ConColorMsgRK5ColorPKcz
 _Z6ConMsgPKcz
 _Z6DevMsgPKcz
@@ -229,7 +233,6 @@ realpath@GLIBC_2.3
 rename@GLIBC_2.2.5
 rmdir@GLIBC_2.2.5
 scandir@GLIBC_2.2.5
-setlocale@GLIBC_2.2.5
 sin@GLIBC_2.2.5
 sincosf@GLIBC_2.2.5
 sinf@GLIBC_2.2.5

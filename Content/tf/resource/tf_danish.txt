@@ -12209,6 +12209,7 @@
 
 "Attrib_Particle81"			"Bonzo den Altgnavende"
 "Attrib_Particle82"			"Evig"
+"Attrib_Particle83"			"Hinsides Stirren"
 "Attrib_Particle84"			"Slammet"
 "Attrib_Particle85"			"Spøgelsesagtige Spøgelser Jr."
 "Attrib_Particle86"			"Hjemsøgt Spøgelse Jr."
@@ -16541,6 +16542,7 @@
 
 "TF_DailyMapStampRewardHat"			"Filatelisten"
 "TF_DailyMapStampRewardHat_Desc"	"Tillykke med at have gjort mere i går for at støtte TF2-baneskaber-fællesskabet gennem banefrimærker end nogen anden! Bær denne med stolthed før den skifter hænder i morgen!"
+"TF_DailyGiftGiverRewardHat"		"En Givende Mand fra Et Givende Land"
 "TF_DailyGiftGiverRewardHat_Desc"	"Tillykke med at have givet flere gaver i går end nogen anden TF2-spiller! Bær denne med stolthed før den skifter hænder i morgen!"
 "TF_DailyDuelWinnerRewardHat"		"Duellisten"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Tillykke med at have vundet flere dueller i går end nogen anden TF2-spiller! Bær denne med stolthed før den skifter hænder i morgen!"
@@ -19613,6 +19615,52 @@ For at få et point skal du indsamle og aflevere ukrudtsmiddel inde i det store 
 
 Andre bemærkninger:
 Spillere og Fugleskræmsler efterlader ukrudtsmiddel, når de dør. Store dunke tæller for 2 point, mens små dunke tæller for 1. Spillere kan ikke aflevere ukrudtsmiddel i afleveringsområdet samtidig med modstanderholdet."
+
+"arena_lumberyard_event_description"		"Mål:
+Tilintetgør hele modstanderholdet eller overtag kontrolpunktet for at få et point.
+
+Andre bemærkninger:
+Spillere bliver til spøgelser, når de dør, som kan helbrede holdkammerater ved at flyve tæt på dem.
+
+Den sidste person tilbage på et hold vil blive stærkere.
+
+Kontrolpunktet starter med at være låst og låses op senere i hver kamp.
+
+Når et af holdene får point, genoplives alle spillere.
+
+Det første hold, som får 4 point, vinder."
+
+"pd_snowville_event_description"			"Mål:
+Dræb fjender og indsaml deres gaver. Aflever gaverne til slæden, når den kommer forbi! Aflever flere gaver end dine modstandere!
+
+Andre bemærkninger:
+Spillerne med flest gaver fra hvert hold er så gavmilde, at de også giver helbred og ammunition til holdkammerater i nærheden!"
+
+"pd_monster_bash_description"			"Mål:
+Indsaml spande med stumper fra dræbte fjender, og aflever dem til indsamlingszonen i midten for at score point. Point kan ikke indsamles, når midterskjoldet er oppe. Det hold, der afleverer flest spande, vinder spillet. 
+
+Andre bemærkninger: 
+De spillere, som har flest spande på hvert hold, vil helbrede og give ammunition til holdkammerater i nærheden, men deres position vil også være synlig for fjender."
+
+"pd_cursed_cove_event_description"			"Mål:
+Saml sjæle fra dræbte fjender og aflever dem i Davy Jones' Locker for at score point. Hans skib sejler igennem banen med jævne mellemrum. Den, der har flest sjæle på hvert hold, helbreder og giver ammunition til holdkammerater i nærheden.
+
+Andre bemærkninger:
+Du kan forhindre fjender i at aflevere sjæle ved at hoppe ind i Locker-området, når de prøver at deponere dem."
+
+"koth_slasher_description"			"Mål:
+Erobr kontrolpunktet og forsvar det, indtil dit holds ur løber ud.
+
+Pas på ROULETTEN!
+Se din frygt i øjnene med levn fra tidligere halloweens med nye trusler hvert 3. minut. Store trusler vil sætte uret på pause for begge hold.
+
+Gå igennem Den Anden Verden for at få sjældne besværgelser og kraftfulde buffs."
+
+"ctf_crasher_description"			"Mål:
+Eskorter Kæmpen til fjendernes byport for at få point.
+
+Andre bemærkninger:
+Saml dit holds bombe op for at blive til en Kæmpe, og vis vej til fjendernes byport. Hvert hold kan have én Kæmpe ad gangen."
 
 "pl_frostcliff_description"			"Mål:
 Eskorter lastvognen til fjendens base. Stå nær vognen for at skubbe den.

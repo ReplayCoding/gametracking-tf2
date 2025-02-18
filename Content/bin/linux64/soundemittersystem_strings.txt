@@ -37,6 +37,8 @@ getcwd
 dlsym
 KeyValuesSystem
 isspace
+CommandLine_Tier0
+getenv
 tolower
 wcslen
 __cxa_throw_bad_array_new_length
@@ -347,6 +349,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
+D95!^
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -389,7 +392,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -516,8 +518,10 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%0
-D;%t
+D9%P
+D;%4
+D9%h
+D9%H
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -604,8 +608,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -651,10 +654,11 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%o
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5n
+Lc5.
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -743,7 +747,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -787,8 +791,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -876,11 +880,9 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o%2D
 0[A\]
-o=p=
-o5p=
-o%)=
+o=@<
+o5@<
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1320,9 +1322,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -1343,8 +1347,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -1352,9 +1355,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -1480,7 +1482,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95Ys
 T$(H
 |$ H
 D$(H
@@ -1681,6 +1682,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -1924,7 +1930,7 @@ ConVarRef %s doesn't point to an existing ConVar
 20ConVar_ServerBounded
 16CDefaultAccessor
 12CEmptyConVar
-                
+                0
 ;*3$"
 zPLR
 zPLR
@@ -1991,6 +1997,7 @@ strcpy@GLIBC_2.2.5
 vswprintf@GLIBC_2.2.5
 __isoc99_sscanf@GLIBC_2.7
 COM_TimestampedLog
+CommandLine_Tier0
 RandomFloat
 _ZN13CThreadRWLock11UnlockWriteEv
 __ctype_b_loc@GLIBC_2.3
@@ -1999,6 +2006,7 @@ __dynamic_cast@CXXABI_1.3
 DevMsg
 pthread_mutex_destroy@GLIBC_2.2.5
 free@GLIBC_2.2.5
+getenv@GLIBC_2.2.5
 towupper@GLIBC_2.2.5
 ThreadGetCurrentId
 strncasecmp@GLIBC_2.2.5

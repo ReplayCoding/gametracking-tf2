@@ -1,3 +1,5 @@
+SBKQ
+K]5a
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -42,6 +44,7 @@ Warning
 __cxa_guard_acquire
 __cxa_guard_release
 __cxa_guard_abort
+CommandLine_Tier0
 strtol
 strtod
 tolower
@@ -252,8 +255,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95nl
-D95El
+D95^l
+D955l
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -296,7 +299,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -423,8 +425,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9% 
-D9%8
+D9%P
+D;%4
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -511,8 +513,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -558,7 +559,6 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
@@ -650,7 +650,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -694,8 +694,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -783,8 +783,13 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 0[A\]
-o5mU
+o5nT
+o5-T
+o-KT
 0[A\]
+o-BM
+o-fM
+o%yM
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1269,9 +1274,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -1292,8 +1299,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -1301,9 +1307,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -1429,7 +1434,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95)c
+H95)a
 T$(H
 |$ H
 D$(H
@@ -1531,6 +1536,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -1786,7 +1796,7 @@ ConVarRef %s doesn't point to an existing ConVar
 20ConVar_ServerBounded
 16CDefaultAccessor
 12CEmptyConVar
-                0
+                
 ;*3$"
 zPLR
 zPLR
@@ -1889,6 +1899,7 @@ __xstat@GLIBC_2.2.5
 lchown@GLIBC_2.2.5
 COM_TimestampedLog
 freopen@GLIBC_2.2.5
+CommandLine_Tier0
 _ZN13CThreadRWLock11UnlockWriteEv
 __ctype_b_loc@GLIBC_2.3
 strcasecmp@GLIBC_2.2.5

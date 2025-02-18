@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW008A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_fortezza/c952_3248_256"
+	}
+}

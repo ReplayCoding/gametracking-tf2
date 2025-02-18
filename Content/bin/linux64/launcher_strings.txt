@@ -1,3 +1,4 @@
+bnMNp
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -313,14 +314,6 @@ AVAUI
 AVAUATSH
 [A\A]A^]
 ~-Hc
-@PH9
-RPH9
-@PH9
-RPH9
-@PH9
-RPH9
-@PH9
-RPH9
 @(H9
 R(H9
 @(H9
@@ -329,6 +322,14 @@ R(H9
 R(H9
 @(H9
 R(H9
+@PH9
+RPH9
+@PH9
+RPH9
+@PH9
+RPH9
+@PH9
+RPH9
 @8H9
 B8I9
 @8L9
@@ -480,9 +481,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -503,8 +506,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -512,9 +514,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -614,7 +615,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -741,7 +741,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%({
+D9%P
+D;%4
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -828,8 +829,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -875,11 +875,9 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%o[
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5.X
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -968,7 +966,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -1012,8 +1010,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -1100,6 +1098,8 @@ AWAVAUATSH
 ATSH
 0[A\]
 0[A\]
+o-R~
+o-v~
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -1683,6 +1683,8 @@ ATSH
 CpIc
 VUUUD
 [A\A]A^A_]
+AUATSH
+[A\A]]
 AUATL
 [A\A]]
 AUATL
@@ -1842,6 +1844,7 @@ game_hd
 -tempcontent
 %s_tempcontent
 _english
+SDK_EXEC_DIR
 -game
 -vproject
 VProject
@@ -1891,6 +1894,22 @@ SteamAppUser
 config\SteamAppData.vdf
 AutoLoginUser
 SteamAppId
+Half-Life 2
+Half-Life 2: Deathmatch
+Half-Life 2: Lost Coast
+Counter-Strike: Source
+Day of Defeat: Source
+Half-Life: Source
+Half-Life Deathmatch: Source
+Team Fortress 2
+Portal
+Portal 2
+Left 4 Dead
+Left 4 Dead 2
+Alien Swarm
+Source SDK Base 2007
+Source SDK Base 2006
+Source SDK (Legacy)
 bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
@@ -1910,12 +1929,14 @@ Tried to add %s as a search path.
 This is probably not what you intended.
 Check %s for more info
 Can't find steam app user info.
+Source SDK Base 2013 Multiplayer
+Source SDK Base 2013 Singleplayer
 engine.so
 VCvarQuery001
 inputsystem.so
 InputSystemVersion001
 materialsystem.so
-VMaterialSystem081
+VMaterialSystem082
 datacache.so
 VDataCache003
 MDLCache004
@@ -2079,6 +2100,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS

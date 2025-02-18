@@ -1,3 +1,4 @@
+Fa@a
 95T(
 __gmon_start__
 _ITM_deregisterTMCloneTable
@@ -29,12 +30,12 @@ fclose
 stderr
 fprintf
 strcasecmp
-sprintf
 fread
 fseek
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
 getcwd
+sprintf
 __wrap_mkdir
 __wrap___xstat64
 strcat
@@ -46,13 +47,13 @@ getenv
 ftell
 __errno_location
 strerror
-tempnam
-free
 __wrap_unlink
 malloc
+free
 isalpha
 isalnum
-tmpnam
+mkstemps64
+fdopen
 fseeko64
 ftello64
 fflush
@@ -191,9 +192,9 @@ GLIBC_2.27
 GLIBC_2.22
 GLIBC_2.7
 GLIBC_2.14
+GLIBC_2.11
 GLIBC_2.3
-5dzW
-5|yV
+56zV
 u/UH
  ff.
 ` ff.
@@ -202,14 +203,14 @@ u/UH
 ` ff.
 8[A\A]A^A_]
 [A\A]A^A_]
-%1lW
+%QmW
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
 8[A\A]A^A_]
-5\gW
+5|hW
 xyIc
 ([A\A]A^A_]
 [A\A]A^A_]
@@ -242,14 +243,14 @@ AUATSH
 `(f.
 `0f.
 s%f;O
-AWAVAUATI
+AWAVAUM
 prpd
 hlpd
 tlpd
 [A\A]A^A_]
 prps
-[A\A]L
-A^A_]
+8tKH
+[A\A]A^A_]
 AWAVH
 ([A\A]A^A_]
 ~[Hc
@@ -265,17 +266,20 @@ AVAUL
 A\]H
 ;VBSPt
 [A\]
-5.(h
-5/o^
-5NnH
+5^)h
+5_p^
+5~oH
+5EoB
+53	w
 AWAVI
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSHc
 [A\A]A^A_]
 [A\A]A^A_]
-5xd^
-5<dS
+5L h
+5leS
+50eH
 9prpdu
 :tlpdt$
 :tlpdu
@@ -322,6 +326,7 @@ AUE1
 8D9-
 [A\A]]
 AUATSH
+0~XM
 8[A\A]A^A_]
 AWAVAUATSH
 x/Hc
@@ -339,6 +344,7 @@ A\A]A^]
 AUATSH
 >PSBVH
 [A\A]A^A_]
+5>;B
 AWAVAUATSH
 8VBSPH
 [A\A]A^A_]
@@ -421,13 +427,13 @@ AWAVM
 t&Hc
 AUATI
 HcPlH
-5egV
-5%gU
-5}fU
+5ehU
+5/hU
+5?X'
 [A\A]]
-=y^U
+5+aV
+56aV
 AWAVAUI
-D95A\V
 8prpsu
 8prpdu
 u Hc
@@ -509,7 +515,9 @@ ATSHc
 [A\A]A^A_]
 ATSH
 [A\A]A^A_]
-AUATE1
+AWLc
+ATE1
+B;L>
 [A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
@@ -537,7 +545,9 @@ AWAVA
 ATSHc
 #=TUU
 [A\A]A^A_]
-AUATE1
+AWLc
+ATE1
+B;L>
 [A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
@@ -581,18 +591,19 @@ AUAT
 AUATI
 A\A]]
 AUATSH
-D9%y
 [A\A]]
 A\A]]
 `0ff.
 A\A]]
 A\A]]
-Hc=q
+Hc=B
 AVAUI
+D95j
 [A\A]A^]
 [A\A]A^]
 AWAVH
 ATSH
+D95z
 [A\A]A^A_]
 AWAVI
 AUATSH
@@ -701,14 +712,6 @@ AVAUI
 AVAUATSH
 [A\A]A^]
 ~-Hc
-@PH9
-RPH9
-@PH9
-RPH9
-@PH9
-RPH9
-@PH9
-RPH9
 @(H9
 R(H9
 @(H9
@@ -717,6 +720,14 @@ R(H9
 R(H9
 @(H9
 R(H9
+@PH9
+RPH9
+@PH9
+RPH9
+@PH9
+RPH9
+@PH9
+RPH9
 @8H9
 B8I9
 @8L9
@@ -764,7 +775,6 @@ ATSH
 [A\A]]
 A\A]]
 [A\A]A^A_]
-A\A]A^]
 AWAVI
 [A\A]A^A_]
 @0H9
@@ -884,8 +894,9 @@ AWAVI
 A\A]A^]
 `[A\A]A^]
 t( H
-AWAVAUI
-A\A]A^A_]
+AVAUI
+A\A]A^]
+A\A]A^]
 AVAUATI
 T$ B
 T$$E
@@ -949,8 +960,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95Q
-D95.
+D95e-
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -993,7 +1003,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -1177,8 +1186,8 @@ C D9
 sXHc
 C0E1
 0x'H
-t	L9%,
-L9%I
+t	L9%4
+L9%Q
 ?LZMA
 ?LZMAt
 ?LZMAt
@@ -1221,8 +1230,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -1271,6 +1279,7 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5>
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1359,7 +1368,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -1403,8 +1412,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -2010,9 +2019,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -2033,8 +2044,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -2042,9 +2052,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -2133,15 +2142,14 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-Y-Pu
-Y=Du
-X%2B
-X%}i
-/-j`
+X%'=
+X-v;
+X%-h
+/-K_
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
-W% K
+W%nJ
 AWAVL
 H[A\A]A^A_]
 AUATL
@@ -2151,6 +2159,7 @@ u0Mc
 [A\A]A^A_]
 C/L)
 AULc
+W=C?
 [A\A]]
 A\A]]
 A\A]]
@@ -2165,15 +2174,16 @@ AUATI
 [A\]
 ~Z H
 tYUH
-~-P)
-~%H)
+~-|)
+~5^)
+(%G'
 AWAVA
 AUATSH
+(=;'
+(=M'
+(=D'
+o=>'
 [A\A]A^A_]
-(=*$
-(=C$
-(=:$
-o=4$
 AUATL
 [A\A]]
 AWAVI
@@ -2918,6 +2928,7 @@ game_hd
 -tempcontent
 %s_tempcontent
 _english
+SDK_EXEC_DIR
 -game
 -vproject
 VProject
@@ -2965,6 +2976,22 @@ SteamAppUser
 config\SteamAppData.vdf
 AutoLoginUser
 SteamAppId
+Half-Life 2
+Half-Life 2: Deathmatch
+Half-Life 2: Lost Coast
+Counter-Strike: Source
+Day of Defeat: Source
+Half-Life: Source
+Half-Life Deathmatch: Source
+Team Fortress 2
+Portal
+Portal 2
+Left 4 Dead
+Left 4 Dead 2
+Alien Swarm
+Source SDK Base 2007
+Source SDK Base 2006
+Source SDK (Legacy)
 bOnlyUseDirectoryName=1 and pDirectoryName=NULL.
 Setup file '%s' doesn't exist in subdirectory '%s'.
 Check your -game parameter or VCONFIG setting.
@@ -2984,13 +3011,14 @@ Tried to add %s as a search path.
 This is probably not what you intended.
 Check %s for more info
 Can't find steam app user info.
+Source SDK Base 2013 Multiplayer
+Source SDK Base 2013 Singleplayer
 filesystem_stdio
 %s_l_%d.lmp
 ReadFileToBuffer(): Error opening %s: %s
 script file exceeded MAX_INCLUDES
 unknown macro token "%s" in %s
 unknown variable token "%s" in %s
-mgd_
 Macro expand overflow
 Token too large on line %i
 memory buffer
@@ -3031,7 +3059,7 @@ centralDirectorySize
 startOfCentralDirOffset
 commentLength
 %d_%d_%d_%d_%d.tmp
-_%s.tmp
+_fstXXXXXX.tmp
 Zip: Failed decompressing LZMA data
 Unsupported compression type in Zip file: %u
 ZIP Output overshot buffer estimate: Estimated %i, actual %i
@@ -3069,6 +3097,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -3112,7 +3145,9 @@ m_mutex
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
 LZMA Decompression failed (%i)
+LZMA Decompression overflowed (%zu > %zu)
 LZMA stream: Unexpected LZMA properties size: %hu, expecting %u. Version mismatch?
+LZMA Decompression overflowed (read: %zu > %zu or write: %zu > %zu)
 If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
 Unrecognized LZMA data
 lzma_persistent_buffer
@@ -3334,7 +3369,7 @@ Ga=o
 .M;R
 NAUU
 ?~?a`
-o@VMaterialSystem081
+o@VMaterialSystem082
 InputSystemVersion001
 NetworkSystemVersion001
 DebugTextureInfo001
@@ -3432,11 +3467,11 @@ iconv_open@GLIBC_2.2.5
 Error
 __wrap_open
 strtod@GLIBC_2.2.5
+mkstemps64@GLIBC_2.11
 _ZN13CThreadRWLock12LockForWriteEv
 __wrap_mkdir
 iconv_close@GLIBC_2.2.5
 strftime@GLIBC_2.2.5
-tmpnam@GLIBC_2.2.5
 memcpy@GLIBC_2.14
 scandir64@GLIBC_2.2.5
 wcslen@GLIBC_2.2.5
@@ -3461,6 +3496,7 @@ lchown@GLIBC_2.2.5
 COM_TimestampedLog
 isalnum@GLIBC_2.2.5
 acosf@GLIBC_2.2.5
+fdopen@GLIBC_2.2.5
 freopen@GLIBC_2.2.5
 CommandLine_Tier0
 _ZN13CThreadRWLock11UnlockWriteEv
@@ -3525,7 +3561,6 @@ wcstoll@GLIBC_2.2.5
 __pthread_key_create@GLIBC_2.2.5
 access@GLIBC_2.2.5
 _Z6ConMsgPKcz
-tempnam@GLIBC_2.2.5
 __wrap_freopen
 __wrap___xstat
 pow@GLIBC_2.29

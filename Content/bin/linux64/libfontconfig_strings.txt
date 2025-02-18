@@ -1,0 +1,3768 @@
+*4@ I
+H"dp
++zcy
+3`<!
+;wzI
+XKy@
+s6y|
+y b$L1
+asec
+E#F~'
+LJB&)
+wF_j
+9>Ka$R<
+Kpm_
+'`U"
+jPbq
+`_,0
+''t#
+<t/S{p+u
++`=7
+rV;:
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+strlen
+malloc
+memcpy
+strcpy
+FcAtomicCreate
+fdopen
+getpid
+fclose
+unlink
+__errno_location
+time
+rmdir
+mkdir
+FcAtomicLock
+FcAtomicNewFile
+FcAtomicOrigFile
+rename
+FcAtomicReplaceOrig
+FcAtomicDeleteNew
+FcAtomicUnlock
+free
+FcAtomicDestroy
+strdup
+access
+fwrite
+getenv
+strtoull
+strerror
+stderr
+read
+memset
+__fxstat64
+pthread_mutex_init
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutex_destroy
+FcDirCacheCreateUUID
+utimes
+FcDirCacheDeleteUUID
+FcDirCacheUnlink
+munmap
+mmap64
+posix_fadvise64
+memchr
+FcDirCacheUnload
+FcDirCacheLoad
+FcDirCacheLoadFile
+FcDirCacheValid
+calloc
+chmod
+perror
+opendir
+readdir64
+__xstat64
+closedir
+FcDirCacheClean
+fcntl64
+FcCacheDir
+FcCacheCopySet
+FcCacheSubdir
+FcCacheNumSubdir
+FcCacheNumFont
+FcCacheCreateTagFile
+stpcpy
+strcat
+FcRuleDestroy
+putchar
+puts
+fputc
+FcConfigCreate
+FcConfigDestroy
+FcConfigReference
+FcConfigUptoDate
+strcmp
+FcConfigBuildFonts
+FcConfigSetCurrent
+FcConfigGetCurrent
+FcConfigGetConfigDirs
+FcConfigGetFontDirs
+strncmp
+FcConfigGetCacheDirs
+FcConfigGetConfigFiles
+FcConfigGetCache
+FcConfigGetFonts
+FcConfigSetFontSetFilter
+FcBlanksCreate
+FcBlanksDestroy
+FcBlanksAdd
+FcBlanksIsMember
+FcConfigGetBlanks
+FcConfigGetRescanInterval
+FcConfigSetRescanInterval
+FcConfigGetRescanInverval
+FcConfigSetRescanInverval
+FcConfigAddRule
+FcConfigSubstituteWithPat
+FcConfigSubstitute
+FcConfigHome
+strchr
+FcConfigEnableHome
+strncpy
+FcConfigGetFilename
+FcConfigFilename
+FcConfigAppFontAddDir
+FcConfigAppFontAddFile
+FcConfigAppFontClear
+FcConfigAcceptFont
+FcConfigAcceptFilter
+FcConfigGetSysRoot
+FcConfigSetSysRoot
+FcConfigFileInfoIterInit
+FcConfigFileInfoIterNext
+dcgettext
+FcConfigFileInfoIterGet
+memmove
+realloc
+FcCharSetCreate
+FcCharSetNew
+FcCharSetDestroy
+FcCharSetAddChar
+FcCharSetDelChar
+FcCharSetCopy
+FcCharSetEqual
+FcCharSetIntersect
+FcCharSetUnion
+FcCharSetMerge
+FcCharSetSubtract
+FcCharSetHasChar
+FcCharSetIntersectCount
+FcCharSetCount
+FcCharSetSubtractCount
+FcCharSetIsSubset
+FcCharSetNextPage
+FcCharSetFirstPage
+FcCharSetCoverage
+__ctype_b_loc
+strtol
+snprintf
+memcmp
+open64
+mkostemp64
+initstate_r
+random_r
+readlink
+stdout
+FcValuePrint
+FcPatternPrint
+FcFontSetPrint
+default_langs
+FcGetDefaultLangs
+strrchr
+FcDefaultSubstitute
+FcFileIsDir
+__lxstat64
+fflush
+FcFileScan
+qsort
+FcDirScan
+FcDirCacheRescan
+FcDirCacheRead
+FcDirSave
+vfprintf
+strpbrk
+FcPatternFormat
+FT_Select_Charmap
+FT_Get_First_Char
+FT_Get_Next_Char
+FT_Get_Advance
+FT_Get_Sfnt_Table
+FT_Select_Size
+fontconfig_ft2_new_face_substitute
+FT_New_Face
+FT_Get_Char_Index
+FcFreeTypeCharIndex
+FT_Load_Glyph
+FcFreeTypeCharSet
+FT_Done_MM_Var
+FT_Get_MM_Var
+FT_Get_Sfnt_Name_Count
+FT_Get_Postscript_Name
+FT_Load_Sfnt_Table
+FT_Get_Sfnt_Name
+strstr
+FT_Get_PS_Font_Info
+FT_Get_BDF_Property
+FT_Get_X11_Font_Format
+FcFreeTypeQueryFace
+FT_Init_FreeType
+FT_Done_Face
+FT_Done_FreeType
+FcFreeTypeQuery
+FT_Set_Var_Design_Coordinates
+FcFreeTypeQueryAll
+FcFreeTypeCharSetAndSpacing
+FcFontSetCreate
+FcFontSetDestroy
+FcFontSetAdd
+FcGetVersion
+FcInitLoadConfig
+FcInitLoadConfigAndFonts
+FcInit
+FcFini
+FcInitReinitialize
+FcInitBringUptoDate
+FcLangNormalize
+FcLangGetCharSet
+FcGetLangs
+FcLangSetCreate
+FcLangSetDestroy
+FcLangSetCopy
+FcLangSetAdd
+FcLangSetDel
+FcLangSetHasLang
+FcLangSetCompare
+FcLangSetHash
+FcLangSetEqual
+FcLangSetContains
+FcLangSetGetLangs
+FcLangSetUnion
+FcLangSetSubtract
+FcObjectSetCreate
+FcObjectSetAdd
+FcObjectSetDestroy
+FcObjectSetVaBuild
+FcObjectSetBuild
+FcFontSetList
+FcFontList
+sprintf
+__assert_fail
+FcFontRenderPrepare
+FcFontSetMatch
+FcFontMatch
+FcFontSetSortDestroy
+FcFontSetSort
+FcFontSort
+FcMatrixCopy
+FcMatrixEqual
+FcMatrixMultiply
+FcMatrixRotate
+FcMatrixScale
+FcMatrixShear
+FcNameRegisterObjectTypes
+FcNameUnregisterObjectTypes
+FcNameGetObjectType
+FcNameRegisterConstants
+FcNameUnregisterConstants
+FcNameGetConstant
+FcNameGetConstantFor
+FcNameConstant
+__isoc99_sscanf
+strtod
+FcNameParse
+FcNameUnparse
+other_types
+abort
+FcPatternCreate
+FcValueDestroy
+FcValueSave
+FcValueEqual
+FcPatternDestroy
+FcPatternObjectCount
+FcPatternEqual
+FcPatternHash
+FcPatternEqualSubset
+FcPatternAdd
+FcPatternAddWeak
+FcPatternDel
+FcPatternRemove
+FcPatternAddInteger
+FcPatternAddDouble
+FcPatternAddString
+FcPatternAddMatrix
+FcPatternAddBool
+FcPatternAddCharSet
+FcPatternAddFTFace
+FcPatternAddLangSet
+FcPatternAddRange
+FcPatternGetWithBinding
+FcPatternGet
+FcPatternGetInteger
+FcPatternGetDouble
+FcPatternGetString
+FcPatternGetMatrix
+FcPatternGetBool
+FcPatternGetCharSet
+FcPatternGetFTFace
+FcPatternGetLangSet
+FcPatternGetRange
+FcPatternDuplicate
+FcPatternReference
+FcPatternVaBuild
+FcPatternBuild
+FcPatternFilter
+FcPatternIterStart
+FcPatternIterNext
+FcPatternIterEqual
+FcPatternFindIter
+FcPatternIterIsValid
+FcPatternIterGetObject
+FcPatternIterValueCount
+FcPatternIterGetValue
+FcRangeCreateDouble
+FcRangeCreateInteger
+FcRangeDestroy
+FcRangeCopy
+FcRangeGetDouble
+FcScandir
+fstatfs64
+FcStrCopy
+FcStrPlus
+FcStrFree
+FcStrCmp
+FcStrStr
+FcUtf8ToUcs4
+FcUtf8Len
+FcUcs4ToUtf8
+FcStrDowncase
+FcStrCmpIgnoreCase
+FcStrStrIgnoreCase
+FcUtf16ToUcs4
+FcUtf16Len
+FcStrBuildFilename
+FcStrDirname
+FcStrBasename
+realpath
+getcwd
+FcStrCopyFilename
+FcStrSetCreate
+FcStrSetMember
+FcStrSetEqual
+FcStrSetAdd
+FcStrSetAddFilename
+FcStrSetDel
+FcStrSetDestroy
+FcStrListCreate
+FcStrListFirst
+FcStrListNext
+FcStrListDone
+FcWeightFromOpenTypeDouble
+FcWeightToOpenTypeDouble
+FcWeightFromOpenType
+FcWeightToOpenType
+XML_GetCurrentLineNumber
+XML_ParserCreate
+XML_SetUserData
+XML_SetDoctypeDeclHandler
+XML_SetElementHandler
+XML_SetCharacterDataHandler
+XML_GetBuffer
+XML_ParseBuffer
+XML_GetErrorCode
+XML_ErrorString
+XML_ParserFree
+strerror_r
+localeconv
+symlink
+FcConfigParseAndLoad
+FcConfigParseAndLoadFromMemory
+libfreetype.so.6
+libexpat.so.1
+libpthread.so.0
+libc.so.6
+libfontconfig.so.1
+GLIBC_2.2.5
+GLIBC_2.28
+GLIBC_2.14
+GLIBC_2.3
+GLIBC_2.7
+u/UH
+AVAUI
+ATUS
+.NEW
+.LCK
+]A\A]A^
+AUATUH
+.TMP-XXXH
+[]A\A]
+[]A\A]
+H+D$XH=X
+[]A\A]
+AVAUATUSD
+p $E
+QZ^&
+A]A^	
+AUATUH
+[]A\A]
+]A\A]
+AUATUH
+]A\A]A^
+]A\A]A^
+AVAUA
+ATUH
+[]A\A]A^
+[]A\A]A^
+H9C0u
+E`H9
+AVAUATUH
+[]A\A]A^A_
+-le64.caH
+che-f
+AWAVAUI
+D$0H
+D$ L
+t$(H
+t$ H
+D$ L
+t$ f
+D$8H
+T$HI
+D$@H
+|$`D
+L$8L
+D$hI
+T$XA
+\$pH
+T$xA
+D$hH
+|$`I
+|$xH	
+\$pI	
+D$hH
+L$8L
+T$HL
+\$`I
+L$@A
+L$8I
+t$XI	
+t$hI
+40I	
+-le64.caI
+L$8H
+o4$A
+che-f
+D$0L
+Dl$ 
+t$(L
+D$0H
+[]A\A]A^A_
+l$ E1
+l$ H
+AWAVAUI
+T$8H
+L$ L
+D$PH
+D$`L
+D$PH
+D$HL
+L$ L
+D$HH
+L$@H
+D$0H
+D$0L
+D$ H
+[]A\A]A^A_
+AUATUH
+xCHc
+H9(w
+T$ H
+T$(H
+T$0H
+T$8H
+T$@H
+T$HH
+T$PH
+T$XH
+T$`H
+T$hH
+T$pH
+T$xH
+[]A\A]
+AVAUE1
+t$ L
+]A\A]A^
+D$hH
+t$pL
+D$xH
+AWE1
+AUATUSH
+D$`L
+[]A\A]A^A_
+ATUSH
+xJHc
+[]A\
+[]A\
+AUATUSH
+[]A\A]
+xBIc
+L;(v
+$H;(
+D$ H;(
+D$(H;(
+D$0H;(
+D$8H;(
+D$@H;(
+D$HH;(
+D$PH;(
+D$XH;(urH
+D$`H;(uXH
+D$hH;(u>H
+D$pH;(u$H
+D$xH;(u
+AWAVAUATUSH
+t$8L
+H9C u
+H9K(u
+uXH9s0u
+U`H9S8u
+I;E0u/A
+t$4H
+l$ H
+d$(I
+L9$$
+[]A\A]A^A_
+l$ L
+d$(I
+Hc1H
+tAL9
+AWAVAUI
+tHL;}
+[]A\A]A^A_
+<$H	
+t?I9
+[]A\A]A^A_
+AUATUH
+xMHc
+[]A\A]
+ATUSH
+[]A\
+[]A\
+AUATUH
+xNHc
+[]A\A]
+[]A\A]
+ATUH
+[]A\
+AVAUI
+]A\A]A^
+ATE1
+]A\A]
+ATUH
+[]A\A]A^A_
+tYH)
+t?H)
+~PE1
+[]A\A]
+AVAUATUSH
+[]A\A]A^A_
+l$ L
+t$`H
+xIHc
+oD$`
+AWAVAUATI
+D$(H
+D$ D
+L$(H
+D$ L
+D$ L
+[]A\A]A^A_
+D$ L
+AVAUATI
+\$ H
+[]A\A]A^
+AUATUSH
+[]A\A]
+AUATUH
+]A\A]A^
+]A\A]A^
+AVAUATUS
+]A\A]A^
+[]A\A]A^
+AUATI
+[]A\A]
+AVAUI
+ATUH
+t-H9
+[]A\A]A^
+[]A\A]A^
+ATE1
+/u2H
+]A\A]
+]A\A]
+AWAVE
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+tkUH
+AVAUATUSH
+D$@H
+D$HH
+D$PH
+D$XH
+\$ I
+l$8E1
+D$pI
+D$|H
+[]A\A]A^A_
+AUATUH
+]A\A]
+AWAVAUATUH
+D$ H
+H+EpH
+H+D$ H
+H+EpH
+H+D$ H
+H+EpH
+H+D$ E1
+D$ H
+D$ A
+[]A\A]A^A_
+uEE1
+H+D$ H
+H+D$ H
+AWAVAUATI
+T$(H
+L$ L
+\$8H
+l$HH
+|$@E
+t$PE
+t$8H
+D$(H
+t$,H
+~zE1
+|$ L
+9k ~
+[]A\A]A^A_
+l$XE1
+|$HE1
+|$01
+|$01
+AWAVAUATUSH
+([]A\A]A^A_
+[]A\A]A^A_
+([]A\A]A^A_
+AUATUH
+]A\A]
+]A\A]
+AUATUH
+>/u	H
+[]A\A]
+]A\A]
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+`[]A\
+[]A\A]
+]A\A]
+	u#fI
+[]A\
+<$	L
+t$ 1
+AWAVAUATUSH
+T$8D
+T$HH
+|$0H
+|$@H
+D$ H
+T$(H
+[]A\A]A^A_
+T$8D
+|$0H
+t$8H
+L$PH
+|$@H
+t$HH
+D$ H
+|$ H
+D$ H
+D$0H
+|$0H
+D$0H
+t$8I
+D$ H
+D$0H
+D$8f
+D$0H
+XD$8
+D$ 	
+D$ H
+D$ H
+D$ H
+L$ L
+D$0H
+D$0H
+D$8f
+o\$0
+)\$ 
+D$8f
+L$81
+L$ L
+D$(f
+D$(H
+D$(H
+D$(f
+D$(H
+D$(H
+AWAVAUATUSH
+$t\D
+[]A\A]A^A_
+AWAVAUATUSH
+D$HH
+D$8H
+D$PH
+|$hH
+D$hH
+D$(H
+t$`H
+D$XH
+t$`H
+D$XH
+t$`H
+|$81
+|$HH
+|$PH
+D$PH
+L$(H
+L$(H
+l$(L
+t$ L
+t$(L
+t$ I
+L$(H
+l$HI
+D$8D
+L$(H
+D$HH
+D$8H
+L$(D
+D$HH
+D$8D
+L$(H
+D$HH
+D$8D
+L$(H
+D$0H
+D$hH
+D$(u%A
+D$0H
+ED$(H
+D$(H
+D$8Hc
+|$0H
+D$@H
+l$HM
+D$ H
+D$pM
+|$xM
+D$ H
+D$@H9X
+D$XH
+t$`H
+D$HH
+D$(A
+D$@H9X
+D$@I
+D$PL
+D$PL
+|$8A
+[]A\A]A^A_
+L#t$ A
+|$HE1
+/.caf
+/.configH
+/.local/
+sharH
+AUATUS
+]A\A]A^
+]A\A]A^
+AWAVAUATUH
+[]A\A]A^A_
+@0ontsE1
+ATE1
+[]A\
+AUATUSH
+[]A\A]
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+tl[D
+]A\A]A^
+utE1
+A\A]A^
+]A\A]A^
+ATUH
+EG@H
+]A\A]
+[]A\A]
+[]A\A]
+EGPH
+[]A\A]
+[]A\A]
+AVAUI
+ATUSH
+[]A\A]A^
+A]A^
+]A\A]A^
+ATUH
+tkUH
+[]A\
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+[]A\
+AWAVI
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+[]A\A]A^A_
+ATUSD
+wt%vG
+Gw&f
+#2uF
+pt"v7
+tOHc
+t[UH
+ATUH
+f;<NtivG
+x5Hc
+]A\A]A^
+t4ATA
+Bt4v
+}UHc
+AWAVAUATUSH
+l$ H
+|$0A
+D$ H
+T$0H
+L$89
+D$ H
+[]A\A]A^A_
+L$<H
+T$<H
+|$8L
+AWAVAUATUSH
+t$ L
+t$0H
+t$ H
+l$0M
+t$(D
+T$8D9
+A;D$
+l$0L
+|$ E1
+[]A\A]A^A_
+A;D$
+D$<L
+D$<H
+L$0H
+|$0M
+l$0I
+T$(I
+D$,H
+T$ I
+D$<H
+T$ I
+t$ H
+L$0H
+AVAUATUH
+t$H9
+f94Ot
+]A\A]A^
+[]A\A]A^
+f94W
+AWAVAUATUSH
+t$ H
+|$0A
+\$ H
+t$(;t$8sxL
+}/Hc
+T$(H
+[]A\A]A^A_
+|$0D
+D$<H
+}zHc
+D$<H
+t$8H
+zt(v
+AWAVAUATUSH
+[]A\A]A^A_
+t$ I
+D$0H
+l$ M
+l$ M
+t$0M
+T$89
+\$(H
+AWAVAUATE1
+t$ I
+l$ H
+HcD$,D
+l$,H
+D$(A
+D;l$
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+t$ H
+D$0H
+L$(;L$8
+D$(H
+L$,H
+D$ H
+L$(;L$8
+l$0A
+[]A\
+[]A\
+thHc
+AWAVI
+AUATUSH
+D$8H
+t$8H
+t$8I
+t$8H
+ t"I
+t$(f
+f;<N
+t$(A
+[]A\A]A^A_
+t$8H
+AWAVAUI
+ATUSH
+d$ f
+[]A\A]A^A_
+AWAVAUI
+ATUSH
+E3|$
+E3|$
+E3|$
+E3|$
+E3|$
+E3|$
+E3|$
+I3|$
+I34$H	
+I3t$
+I3|$
+D$ M
+D$(I
+[]A\A]A^A_
+tvHc
+T$ D
+AUATI
+[]A\A]
+AUATUH
+t H;h
+[]A\A]
+[]A\A]
+AVAUATUSH
+[]A\A]A^A_
+tyL)
+T$0t8H
+T$0D
+D$ H
+AUATU
+]A\D
+t9E1
+]A\A]
+AWAVAUATI
+[]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+E9l$
+[]A\A]A^A_
+AVAUATUH
+([]A\A]A^A_
+L94$u
+A9D$
+AWAVAUATUSH
+H9\$
+D"t$
+8[]A\A]A^A_
+\$(I
+l$ I
+D$ D9`
+[]A\A]A^A_
+AWAVAUATI
+[]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+H;(t4H
+[]A\A]A^A_
+E9l$
+AWAVAUATI
+[]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+E9l$
+[]A\A]A^A_
+AWAVAUATUSH
+~nE1
+[]A\A]A^A_
+ATUSH
+[]A\
+AWAVAUATUSH
+|$ H
+t$(H
+H;\$
+~vIc
+L;t$ t
+H;l$(tSH
+[]A\A]A^A_
+H9\$
+8[]A\A]A^A_
+ATUSH
+)wgIc
+[]A\
+[]A\
+ATU1
+[]A\A]
+[]A\
+ATUSH
+[]A\A]
+ATUSH
+]A\A]
+[]A\A]
+ATS1
+AVAUATUH
+d$0L
+L$ 1
+t$PL
+l$@1
+D$(1
+YD$(
+h[]A\A]A^A_
+^D$(
+h[]A\A]A^A_
+T$PH
+L$XH
+T$PH
+L$XH
+T$PH
+L$XH
+D$PH
+t$PL
+*D$H
+|$(L
+XD$P
+AWAVAUI
+t$ H
+D$8%
+|$ H
+[]A\A]A^A_
+8/t)L
+8/t3M
+[]A\A]A^A_
+<$/L
+ATE1
+A\A]A^A_
+AWAVI
+4$H=
+[]A\A]A^A_
+AWAVAUATUH
+A\A]A^A_
+A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AWAVAUI
+ATUSH
+uoE1
+[]A\A]A^A_
+]A\A]
+t$(H
+T$0H
+L$8L
+D$@L
+)D$P
+)L$`
+)T$p
+D$ H
+<\tV</v:<9v
+<@v2<Zv
+<`v*
+H+71
+tVA8
+H+71
+@:2t7H
+t0H)
+:{t>H
+<}txH
+<\u@
+<\t]<{u
+t+H)
+AWAVAUATA
+:|tHH
+[]A\A]A^A_
+'tJL
+<&tD
+AWAVAUATUH
+<%tw<\u3
+[]A\A]A^A_
+%tZM
+:{tcI
+<?w-<"
+l$@L
+t$PH
+Hc\$
+t$ M
+t$ H
+\$8H
+l$ H
+D$(1
+d$?tiI
+L$(L
+T$ H
+D$4E
+\$8H
+l$ D
+d$?H
+D$(I;G
+T$PE1
+L$XJ
+\$8H
+l$ D
+d$?H
+D$(I;G
+t$PL
+t$PH
+I+71
+t$PH
+\$8L
+l$ D
+ATfH
+D$ =
+D$(L
+D$(H
+:{t0H
+tqH)
+:}tNH
+tOH)
+ATE1
+D$ =
+D$(L
+]A\A]A^
+D$(H
+]A\A]A^
+AUATUSH
+[]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+fD9l$
+otlayoutH
+AUATUH
+cinuH
+bmysH
+[]A\A]A^A_
+ATUH
+AWAVAUATU
+bmysH
+bmystIE9
+[]A\A]A^A_
+cinuE1
+AWAVAUATUH
+cinuH
+cinu
+bmysH
+bmysA
+ltuo
+bmyst
+[]A\A]A^A_
+AWAVAUI
+ATUSH
+T$@H
+L$0L
+D$8L
+L$ H
+[]A\A]A^A_
+H=zspo
+@ H=htdw
+H=thgwu
+T$xE
+x zspou
+D$ H
+D$`H
+D$hL
+D$ZH
+D$PH
+D$XA
+D$PH
+fliSH
+SOPGL
+BUSGL
+|N;\$
+|$`1
+tVvr
+;D$Hw
+;D$Hr
+T$`K
+D$Xf
+\$HL
+\$HH
+9\$\
+D$Zf;
+;D$D
+D$xE
+D$pH
+D$pH
+L$xE
+D$pH
+\$|L
+|$hH
+T$H9P
+t$|L
+@ H=htdw
+H=thgw
+H=zspota
+t$xD
+D$@H
+D$`H
+d$`1
+D$ H
+L$`H
+D$hH
+D$`H
+mgpfL
+z\uZL
+D$0H
+bmys
+D$8H
+|$(1
+wt1L
+\$8H
+\$0H
+ tvcL
+perpL
+mgpfL
+ tvcL
+perpL
+zOuM
+AUATA
+[]A\A]
+]A\A]
+AVAUATI
+|$8E1
+|$8L
+|$PD
+|$0L
+D$HM
+L$@L
+|$PD
+|$HH
+|$@H
+|$0H
+t$XH
+|$8H
+L$ L
+|$8H
+|$0D
+t$XH
+|$0H
+|$PH
+[]A\A]A^A_
+|$01
+T$XA
+:H98t
+|$0L
+t$XD
+tSUH
+[]A\
+h Hc
+AUATUSH
+tIL)
+~9E1
+E9.~
+]A\A]A^
+AWAVAUI
+ATUSH
+A;\$
+$A9m
+A9,$
+[]A\A]A^A_
+tKATUH
+H9>t	
+H9>t	
+H9>u
+H9>t
+[]A\
+H9>t	
+AUATI
+[]A\A]A^A_
+tCfI
+[]A\
+]A\A]A^
+]A\A]
+[]A\A]
+AVAUI
+[]A\A]A^
+[]A\A]A^
+AVAUATI
+]A\A]A^
+]A\A]A^
+/fontconH
+]A\A]
+HcExH
+EpL)
+A\A]
+AWAVAUATUH
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+wr<UtuE1
+<-trE
+v|E1
+wx<D
+AWAVAUI
+ATUH
+[]A\A]A^A_
+<-u+
+AWAVAUATUSH
+|$(H
+D$0H
+|$LH
+A9D$
+t$(I
+t$(H
+\$PH
+T$ H
+d$8M
+T$ H
+d$8H
+D$0H
+x[]A\A]A^A_
+t Mc
+[]A\A]A^
+ATUS
+[]A\
+ATUSH
+[]A\
+AWAVAUI
+ATUH
+[]A\A]A^A_
+AVAUATUH
+G #F 
+G$#F$
+G(#F(
+G,#F,
+M A!
+#s 	
+M$A!
+#s$	
+M(A!
+#s(	
+U,A!
+t	#s,	
+]A\A]A^
+]A\A]A^
+A;D$
+D$0I
+T$4I
+T$PI
+\$PH
+t1Hc
+~#Hc
+AWAVAUI
+ATUSH
+A;D$
+[]A\A]A^A_
+AVAUATI
+L9l$
+t Ic
+([]A\A]A^A_
+V 9W u=
+V$9W$u0
+N(9O(u#
+F,9G,u
+AWAVI
+AUATUSH
+D9|$
+[]A\A]A^A_
+AVAUI
+ATUS
+]A\A]A^
+AUATUH
+[]A\A]
+A;D$
+AUATUH
+A;D$
+[]A\A]
+AWAVAUATE1
+[]A\A]A^A_
+AWAVI
+AUE1
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+ATUSH
+D9.tkxI
+[]A\A]A^A_
+[]A\A]A^A_
+tKUH
+ATUH
+[]A\
+[]A\
+ATUH
+D$pH
+t$(H
+D$ H
+T$0H
+L$8L
+D$@L
+A9,$I
+AWAVAUATI
+L$`L
+D$hH
+l$HH
+D$xH
+D$HH
+D$@H
+L$89
+L$8L
+|$@H
+L$`H
+|$`1
+D$PH
+D$@L
+A9,$
+D$XH
+D$XA9F
+D$XA
+L$89
+D$HH9D$x
+l$pH
+D$(H
+\$0I
+l$0f
+T$PH
+l$pL
+[]A\A]A^A_
+T$PH
+D$PH
+T$PH
+[]A\
+[]A\
+ATUH
+[]A\A]
+[]A\A]
+[]A\A]f
+ATUH
+[]A\A]
+[]A\A]f
+[]A\A]
+ATUSL
+[]A\
+[]A\
+[]A\
+ATUSH
+[]A\
+ATUSH
+AWE1
+AUATUH
+tfE1
+[]A\A]A^A_
+AWAVAUATUSH
+|$LH
+T$(H
+L$ L
+D$@L
+L$8H
+L$HL
+9L$4
+t$ E1
+*L$0
+D$0dH
+[]A\A]A^A_
+D$0dH
+L$@H
+t8HcD$HH
+9D$4
+HcD$4
+D$8H
+[]A\A]A^A_
+D$ 1
+d$PA
+*L$0
+[]A\A]A^A_
+AUATUSH
+L$ L
+D$(H
+~[E1
+}@9]
+X[]A\A]A^A_
+t$(L
+t$(L
+L$8M
+\$4M
+AVAUATUH
+D$HH
+l$(L
+D$8H
+D$(H
+D$ H
+D$(H;D$8
+t$(H
+;D$ 
+oT$P
+o\$`H
+od$p
+\$0H
+[]A\A]A^A_
+AWAVAUATUSH
+L$8L
+D$PL
+|$(I
+D$@I
+d$<H
+L$hH
+\$`H)
+D$HH
+D$XI
+D$xH
+D$ M
+D$(L
+D$ H
+D$(H;D$0
+\$XH
+D$`H
+|$xL
+L+l$HH
+l$ E
+T$hH
+\$ E
+D$ H
+\$<H
+l$@D
+L94$
+/H`v
+D$(L
+T$(H
+|$HE1
+[]A\A]A^A_
+[]A\A]A^A_
+t$<H
+t$0H
+L$8E
+D$ 1
+$$E1
+d$XL
+$$t7H
+D$PH
+AWAVAUATUSH
+|$xH
+t$PH
+D$8H
+D$0H
+T$@H
+D$`H
+D$hH
+D$`H
+D$HH
+\$pA
+L$hE1
+|$@L
+9L$Xu!
+D$,I
+L$HH
+L$ H#T$
+|$8H	
+D$PL
+d$01
+T$PH
+D$8H
+[]A\A]A^A_
+|$PH
+\$81
+\$HE1
+l$XD
+L$@H
+\$HH
+l$XM
+\$81
+|$@H
+D$,H
+D$ H
+|$81
+|$8H
+AWAVAUATUH
+A\A]A^A_
+A\A]A^A_
+AUATUH
+]A\A]
+AUATUH
+L$@H
+]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+t+SH
+z7u5
+z)u'
+AUATI
+$[]<
+A\A]A^
+6wEH
+ATUSH
+[]A\
+<t$H
+[]A\A]
+[]A\A]
+<t4H
+A\A]A^
+]A\A]A^
+<t4H
+[[]A
+A]A^
+]A\A]A^
+AWAVAUI
+<tLI
+[]A\A]A^A_
+<tgH
+us<1to
+ftM<0tI<d
+u'<2t#E1
+<ou<
+<nt4<ft
+<ru A
+AWAVAUATUH
+l$+H
+D$+<,uWH
+[]A\A]A^A_
+D$+t
+<_u 
+D$+<:
+D$@H
+T$8L
+*D$,
+D$XM
+D$XH
+\$PL
+|$XL
+D$+<,
+D$XH
+|$`L
+L$xL
+L$hL
+D$pH
+)T$`
+)\$p
+D$XL
+t$XL
+T$XL
+|$0H
+L9d$0t
+D$+<,t
+*D$,
+*L$`
+t$HL
+D$XH
+AUATI
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+AVAUATUSH
+7tmI
+[]A\A]A^A_
+AVAUI
+ATUSH
+[]A\A]A^
+AUATE1
+>w9L
+[]A\A]
+ATUH
+>wLL
+[]A\
+[]A\
+[]A\
+AWAVAUATUH
+[]A\A]A^A_
+AVAUATUSH
+]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+	u;H
+$Ic}
+T$ H
+[]A\A]
+ATUH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVI
+ATUSH
+E9,,
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+t7E1
+[]A\A]A^A_
+AWAVAUATUSH
+E37H
+[]A\A]A^A_
+AWAVAUATUSH
+xmE1
+<	A)
+t<E1
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVE
+[]A\A]A^A_
+AWAVE
+[]A\A]A^A_
+AVAUI
+ATUH
+]A\A]A^
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+USfH
+[]A\A]
+[]A\A]
+AUATI
+USfH
+[]A\A]
+[]A\A]
+AVAUA
+]A\A]A^
+]A\A]A^
+AVAUATI
+]A\A]A^
+A]A^
+AVAUATI
+]A\A]A^
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+AUATI
+]A\A]A^
+AVAUATI
+]A\A]A^
+AUATI
+[]A\A]
+[]A\A]
+AUATI
+]A\A]A^
+AVAUATI
+]A\A]A^
+AUATI
+]A\A]A^
+AVAUATI
+]A\A]A^
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\
+[]A\
+[]A\
+u&fH
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+AWAVAUATUSH
+|$(H
+,$H	
+D$ 9
+L$(H
+8[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AWAVAUATUSH
+t$8H
+T$@H
+L$HL
+D$PL
+)D$`
+)L$p
+D$ H
+D$0H
+D$(H
+[]A\A]A^A_
+D$ H
+T$ H
+D$ A
+D$ I
+D$ I
+D$ I
+D$ I
+D$ I
+D$ I
+D$ I
+D$ I
+D$ I
+D$ A
+D$ I
+D$ I
+D$ A
+D$ I
+D$ I
+T$ H
+AWAVAUE1
+ATUSH
+t$(H
+D$(H
+L$$;
+Lcl$$H
+8[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUH
+t>x,
+[]A\A]A^A_
+[]A\A]A^A_
+ATUSH
+[]A\
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUATUH
+teL)
+~oE1
+[]A\A]A^A_
+zfud
+AUH1
+ATUSH
+D$ I9E0
+t$0L
+\$0L
+d$8H
+X[]A\A]A^A_
+[]A\A]A^A_
+Hcl$
+D$(H
+D$(I
+E I9
+D$ A
+D$ I;E0
+H;2t3H
+H;2t3H
+AWAVAUI
+ATUSH
+D$ I9E0
+t$0L
+\$0L
+d$8H
+X[]A\A]A^A_
+[]A\A]A^A_
+D$(H
+D$(I
+E I9
+D$ A
+D$ I;E0
+H;2t3H
+AWAVAUATUSH
+([]A\A]A^A_
+AVAUATUSH
+|$ H
+t$0H
+D$8H
+[]A\A]A^A_
+D$PD
+l$HH
+D$PH=DM
+\$ H
+D$HH
+t$ H
+T$(L
+d$hL
+D$HD
+H9l$
+|$HE
+D$0H
+D$HL
+H=DM
+AWAVAULc
+ATUH
+}QE)
+[]A\A]A^A_
+[]A\A]A^A_
+ATUS
+t#Hc
+]A\A]A^
+<*t1<?
+[]A\
+t^H9
+tBD8
+[]A\
+[]A\
+[]A\
+[]A\
+ATUH
+[]A\
+AWAVAUATUSH
+<$H9
+t$8H
+D$0H
+D$8M
+\$8D
+t:A8
+X[]A\A]A^A_
+T$0D
+|$0D
+[]A\A]A^A_
+ATUH
+l$(H
+D$ H
+D$(H
+[]A\A]
+t$(H
+D$ H
+D$(H
+ATUH
+l$(H
+D$ H
+D$(H
+[]A\A]
+[]A\A]
+AWAVI
+AUATI
+d$(H
+D$ H
+D$(H
+u\D9
+tCHc
+</v7<9vK<@v/<ZvC<`v'
+</w8
+[]A\A]A^A_
+ATU1
+[]A\A]
+t$(H
+D$ H
+D$(H
+t*@8
+AUATUSH
+D$(D
+[]A\A]A^
+oL$ H
+D$PH
+D$@H
+D$@H
+D$HH
+T$HD
+D$`H
+D$hH
+[]A\A]A^
+T$@D
+~5E1
+[]A\
+ATE1
+u*Hco
+[]A\
+[]A\
+AUATUSH
+[]A\A]
+e@Ic
+[]A\A]
+AUATUSH
+]A\A]A^
+e@Ic
+t Lck
+A\A]A^
+AWAVAUL
+ATUH
+tuLc}
+[]A\A]A^A_
+s@Ic
+AWLc
+AVAUN
+49M9
+49M9
+[]A\A]A^A_
+C@Hc
+AWAVAUATUSH
+t$HH
+T$PH
+L$XL
+D$`L
+L$hH
+D$0H
+D$@H
+D$8f
+T$(H
+D$0H
+T$0H
+[]A\A]A^A_
+D$0H
+T$0H
+L9<$u
+t?L9
+L9|$
+AUATUSH
+<~t]</
+[]A\A]
+/taH
+AUATUH
+?/tTI
+]A\A]
+]A\A]
+AUATUH
+[]A\A]
+[]A\A]
+[]A\
+]A\A]
+]A\A]
+Hc\$
+tbHcD$
+[]A\A]A^A_
+Hc\$
+HcD$
+[]A\A]A^A_
+AVAUATI
+>~tAH
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+AVAUATUSH
+D$pH
+[]A\A]A^A_
+AUATUH
+[]A\A]
+[]A\A]
+AWAVI
+<$~tYL
+[]A\A]A^A_
+A\A]A^A_
+tQATUH
+~5Hc
+tkUH
+ATUH
+L$8L
+D$@L
+)D$P
+)L$`
+)T$p
+{0tb
+[]A\
+L$8L
+D$@L
+)D$P
+)L$`
+)T$p
+{0t\
+AVAUI
+A9\$
+]A\A]A^
+AUATUH
+[]A\A]A^A_
+]A\A]A^A_
+(wEHcD
+[]A\A]
+[]A\A]
+A\A]
+ATUSH
+[]A\
+[]A\
+AUATUH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+)D$0fI
+[]A\A]A^A_
+D$XH
+D$XH
+D$PH
+D$PH
+T$XH
+D$PH
+D$PH
+T$XH
+AWAVAUATI
+|$ 1
+[]A\A]A^A_
+0<	w
+Ict$
+A9\$
+ATUH
+[]A\
+AVAUL
+ATE1
+[]A\A]A^
+]A\A]A^
+AWE1
+AUATI
+$H9E
+[]A\A]A^A_
+|$ H
+|$ H
+$H9E
+|$ H
+|$ H
+|$ H
+|$ H
+|$ H
+|$ H
+AWE1
+AUATI
+$H9E
+|$ H
+|$ H
+$H9E
+[]A\A]A^A_
+|$ H
+|$ H
+|$ H
+|$ H
+|$ H
+|$ H
+$H9E
+[]A\A]A^A_
+AVAUATUH
+[]A\A]A^
+]A\A]A^
+A]A^
+AUATUSH
+I9D$
+[]A\A]
+[]A\A]
+ATUH
+(w0H
+ATUSH
+[]A\
+AWAVAUATUH
+U 9B8}
+([]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+]A\A]A^A_
+ATUH
+(w(H
+thAWI
+AVAUATUSH
+6w2H
+[]A\A]A^A_
+l$@L
+l$@L
+D$/M
+l$@I
+)D$@H
+L$Hf
+7H9p
+t$@L
+D$@1
+nT$ f
+W ;B8
+t$@H
+d$0f
+t$@1
+H9D$@
+D$@L
+t$@H
+D$HH
+D$HH
+D$HH
+D$@	
+D$HH
+t$<9
+D$@L
+t$0L
+T$<f
+l$@L
+t$8L
+\$8H
+t#fI
+D$ H
+D$@H
+D$ L
+t$ H
+|$ H
+l$ M
+AUATUH
+[]A\A]
+[]A\A]
+AWAVAUI
+{@E1
+C@H=fctt
+C@L9
+[]A\A]A^A_
+C@H=fctt
+C@H=fctt
+UUUUUUUUH
+33333333H)
+FcCacheTimeValid dir "%s" cache checksum %d.%ld dir checksum %d.%ld
+Unable to create CACHEDIR.TAG at %s
+Fontconfig: SOURCE_DATE_EPOCH invalid
+Fontconfig: SOURCE_DATE_EPOCH: strtoull: %s: %llu
+Fontconfig: SOURCE_DATE_EPOCH has trailing garbage
+cache fallbacks to: %s (dir: %s)
+cache: %s (dir: %s%s%s%s%s%s)
+Fontconfig error: not freed %p (dir: %s, refcount %d)
+FcDirCacheWriteDir dir "%s" file "%s"
+Fontconfig error: No writable cache directories
+Fontconfig error: %s: out of memory
+%s: not cleaning %s cache directory
+Fontconfig error: %s: allocation failure
+%s: %s: missing directory: %s 
+CACHEDIR.TAG
+Created CACHEDIR.TAG at %s
+SOURCE_DATE_EPOCH
+.uuid
+, salt: 
+ (mapped to 
+Unable to revert mtime: %s
+FONTCONFIG_USE_MMAP
+write cache
+unwritable
+non-existent
+%s: cleaning cache directory
+-le64.cache-9
+%s: invalid cache file: %s
+Signature: 8a477f597d28d172789f06886806bc55
+# This file is a cache directory tag created by fontconfig.
+# For information about cache directory tags, see:
+#       http://www.brynosaurus.com/cachedir/
+0123456789abcdef
+Prepend
+Append
+Not adding
+position not on list
+%s list before 
+%s list after 
+FONTCONFIG_SYSROOT
+adding fonts from %s
+ (salt: 
+%s -> %s%s%s%s
+Reset font directories!
+FcConfigSubstitute 
+Rule Set: %s
+FcConfigSubstitute test 
+No match
+FcConfigSubstitute edit
+FcConfigSubstitute done
+XDG_CACHE_HOME
+XDG_CONFIG_HOME
+XDG_DATA_HOME
+XDG_DATA_DIRS
+/usr/local/share
+/usr/share
+fonts.conf
+FONTCONFIG_FILE
+FONTCONFIG_PATH
+Add Rule(kind:%d, name: %s) 
+fontconfig-conf
+No description
+fontconfig
+Fontconfig warning: FcPattern object %s does not accept value
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: <name> tag has target="font" in a <match target="pattern">.
+Fontconfig warning: Unable to initialize config and retry limit exceeded. sysroot functionality may not work as expected.
+/mnt/Code/josh_s2_pango/build_linux64/dist/etc/f%x
+charsets %d -> %d leaves %d -> %d
+langset (alloc error)
+True
+False
+ [marker] 
+<unknown>
+<void>
+%d(i)
+%g(f)
+[%g %g; %g %g]
+%04x:
+ %08x
+face
+[%g %g]
+ [marker]
+Null pattern
+	%s:
+	%s: (None) -> 
+ -> (None)
+Integer
+String
+Matrix
+Range
+Bool
+CharSet
+LangSet
+Field
+Const
+Assign
+AssignReplace
+PrependFirst
+AppendLast
+Delete
+DeleteAll
+Quest
+(ignore blanks)
+NotEqual
+Less
+LessEqual
+More
+MoreEqual
+NotContains
+Plus
+Minus
+Times
+Divide
+Comma
+Floor
+Ceil
+Round
+Trunc
+Listing
+Invalid
+true
+false
+(%g, %g)
+langset:
+(pattern) 
+(font) 
+ quest 
+ colon 
+Not 
+Floor 
+Ceil 
+Round 
+Trunc 
+pattern 
+scan 
+any 
+all 
+not_first 
+Edit %s 
+[test]
+[edit]
+FontSet %d of %d
+Font %d 
+FC_DEBUG
+FC_DEBUG=%s
+Pattern has %d elts (size %d)
+Pattern has %d elts (size %d), %d elts (size %d)
+FC_LANG
+LC_ALL
+LC_CTYPE
+/proc/self/exe
+XDG_CURRENT_DESKTOP
+en-us
+Fontconfig error: out of memory in %s
+FcGetDesktopName
+R@	Scanning file %s...
+Final font pattern:
+	Scanning dir %s
+cache scan dir %s
+Fontconfig: Pattern format error: 
+format ended while expecting '%c'
+"%{file|basename|cescape}" %{index} "%{-file{%{=unparse|cescape}}}"
+%{file:-<unknown filename>|basename}: "%{family[0]:-<unknown family>}" "%{style[0]:-<unknown style>}"
+%{?file{%{file}: }}%{-file{%{=unparse}}}
+%{[]family{font(%{family|downcase|delete( )})
+}}%{[]lang{font(:lang=%{lang|downcase|translate(_,-)})
+expected non-negative number at %d
+expected identifier at %d
+expected character data at %d
+expected '%c' at %d
+downcase
+basename
+dirname
+cescape
+shescape
+'\''
+xmlescape
+&amp;
+&lt;
+&gt;
+delete
+translate
+unknown converter "%s"
+unparse
+fccat
+fcmatch
+fclist
+pkgkit
+unknown builtin "%s"
+UCS-2BE
+UTF-16BE
+ASCII
+ISO-8859-1
+MACINTOSH
+(null)
+Regular
+unknown
+WOFF
+SFNT
+WOFF2
+using FreeType family "%s"
+using FreeType style "%s"
+using filename for family %s
+*** Has hint:
+    fpgm table: %s
+    cvt table: %s
+    prep table: %s
+    prep size: %lu
+	Type1 weight %s maps to %g
+FOUNDRY
+RELATIVE_SETWIDTH
+SETWIDTH_NAME
+	setwidth %s maps to %g
+	Style %s maps to weight %g
+	Style %s maps to width %g
+	Style %s maps to slant %d
+SPACING
+PIXEL_SIZE
+ttable:Silf 
+shadow
+caps
+antiqua
+romansc
+embosed
+dunhill
+italic
+kursiv
+oblique
+ultracondensed
+extracondensed
+semicondensed
+normal
+semiexpanded
+extraexpanded
+ultraexpanded
+extended
+thin
+extralight
+ultralight
+demilight
+semilight
+book
+regular
+demibold
+demi
+semibold
+extrabold
+superbold
+ultrabold
+ultrablack
+superblack
+extrablack
+<ultra
+heavy
+Adobe
+adobe
+Bigelow
+Bitstream
+bitstream
+Gnat
+culmus
+Iorsh
+HanYang System
+hanyang
+Font21
+hwan
+Linotype
+linotype
+LINOTYPE-HELL
+Microsoft
+microsoft
+Monotype
+monotype
+Omega
+omega
+Tiro Typeworks
+tiro
+XFree86
+xfree86
+Xorg
+xorg
+found family (n %2d p %d e %d l 0x%04x)
+found full   (n %2d p %d e %d l 0x%04x)
+found style  (n %2d p %d e %d l 0x%04x) 
+applying default style Regular
+	os2 weight class %d multiplier %g maps to weight %g
+	os2 width class %d multiplier %g maps to width %g
+complex_ features in this font: %s
+	Style %s maps to decorative %d
+International Typeface Corporation
+()/<>[]{}	
+cinubmys
+d"e"
+ 9 : 
+SJIS-WIN
+ASCII
+zh-tw
+zh-cn
+zh-tw
+zh-cn
+zh-hk
+zh-sg
+zh-mo
+	 en
+	$en
+	(en
+	,en
+	0en
+	4en
+	<en
+	@en
+	Den
+	Hen
+UTF-16BE
+MACINTOSH
+SJIS
+UTF-16BE
+UTF-16BE
+SJIS-WIN
+GB18030
+BIG-5
+Wansung
+Johab
+UTF-16BE
+ASCII
+UTF-16BE
+ISO-8859-1
+zh-cn
+zh-tw
+<fontconfig>	<dir>/usr/share/fonts</dir>
+	<dir>/usr/local/share/fonts</dir>
+  <dir prefix="xdg">fonts</dir>  <cachedir>/mnt/Code/josh_s2_pango/build_linux64/dist/var/cache/fontconfig</cachedir>  <cachedir prefix="xdg">fontconfig</cachedir>  <include ignore_missing="yes">/mnt/Code/josh_s2_pango/build_linux64/dist/etc/fonts/conf.d</include>  <include ignore_missing="yes" prefix="xdg">fontconfig/conf.d</include>  <include ignore_missing="yes" prefix="xdg">fontconfig/fonts.conf</include></fontconfig>
+/mnt/Code/josh_s2_pango/build_linux64/dist/share/fontconfig/conf.avail
+Fontconfig warning: no <cachedir> elements found. Check configuration.
+/mnt/Code/josh_s2_pango/build_linux64/dist/var/cache/fontconfig
+Fontconfig warning: adding <cachedir>%s</cachedir>
+Fontconfig warning: adding <cachedir prefix="xdg">fontconfig</cachedir>
+Fontconfig error: out of memory
+C.UTF-8
+C.utf8
+POSIX
+normalized: %s -> %s
+Unable to normalize %s
+font charset
+%s charset
+%s(%u) 
+ %04x
+FcLangSet 
+ contains 
+	Missing bitmap %s
+	Missing string %s
+Checking the existence of %s.orth
+Fontconfig warning: ignoring %s: not a valid region tag
+Fontconfig warning: ignoring %s: not a valid language tag
+az-az
+az-ir
+ber-dz
+ber-ma
+ku-am
+ku-iq
+ku-ir
+ku-tr
+mn-cn
+mn-mn
+pa-pk
+pap-an
+pap-aw
+ps-af
+ps-pk
+ti-er
+ti-et
+und-zmth
+und-zsye
+zh-cn
+zh-hk
+zh-mo
+zh-sg
+zh-tw
+_}{w
+S5|D~
+D]GW
+B 	%B 	%
+B"	dB"	d
+"2 "
+@` !
+1@IB
+]u?/
+$ P 
+j02^
+BcSX
+!Ft2
+	0PP
+nK*&
+2Jq]
+9@Qx,)
+	,a0
+familylang
+fullname
+fullnamelang
+stylelang
+ %s: %g 
+Match 
+Score
+Best score
+FC_DBG_MATCH_FILTER
+Add 
+First font 
+wdth
+wght
+opsz
+    
+../src/fcmatch.c
+pat != NULL
+font != NULL
+variable != FcDontCare
+v.type == FcTypeDouble
+%4s=%g
+sets != NULL
+p != NULL
+result != NULL
+Sort 
+Font %s:%s matches language %d
+IA__FcFontSort
+IA__FcFontSetSort
+IA__FcFontMatch
+IA__FcFontSetMatch
+IA__FcFontRenderPrepare
+B}T.
+?Fontconfig error: Unexpected constant name `%s' used for object `%s': should be `%s'
+%lg %lg %lg %lg
+[%lg %lg]
+[%s %[^]]]
+%g %g %g %g
+\-:,
+\=_:,
+weight
+roman
+slant
+proportional
+spacing
+dual
+mono
+charcell
+rgba
+vrgb
+vbgr
+hintnone
+hintstyle
+hintslight
+hintmedium
+hintfull
+antialias
+hinting
+verticallayout
+autohint
+globaladvance
+outline
+scalable
+minspace
+embolden
+embeddedbitmap
+decorative
+lcdnone
+lcdfilter
+lcddefault
+lcdlight
+lcdlegacy
+aspect
+pixelsize
+foundry
+file
+index
+rasterizer
+scale
+charwidth
+charheight
+matrix
+fontversion
+capability
+fontformat
+fontfeatures
+prgname
+hash
+postscriptname
+color
+symbol
+fontvariations
+variable
+fonthashint
+order
+desktop
+namedinstance
+fontwrapper
+?Fontconfig error: No object ID to assign
+?????????????????????????????????????????????????????????????????????????????????????????????????
+?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+hash
+size
+charset
+scalable
+slant
+lang
+desktop
+spacing
+antialias
+postscriptname
+matrix
+outline
+hintstyle
+file
+rgba
+hinting
+charheight
+weight
+autohint
+family
+prgname
+namelang
+variable
+familylang
+aspect
+fonthashint
+minspace
+fullname
+lcdfilter
+namedinstance
+width
+fullnamelang
+decorative
+verticallayout
+scale
+color
+embolden
+capability
+order
+rasterizer
+style
+index
+pixelsize
+charwidth
+stylelang
+embeddedbitmap
+fontversion
+symbol
+fontformat
+fontvariations
+fontfeatures
+foundry
+globaladvance
+fontwrapper
+Raw pattern:
+Serialized pattern:
+../src/fcserialize.c
+FcSerializeUncheckedSet
+fffiflffifflstst
+../src/fcweight.c
+dx > 0 && dy >= 0 && x1 <= x && x <= x2
+lerp
+assign
+assign_replace
+prepend
+prepend_first
+append
+append_last
+delete
+delete_all
+not_eq
+less
+less_eq
+more
+more_eq
+contains
+not_contains
+fontconfig
+cachedir
+cache
+include
+config
+match
+alias
+description
+remap-dir
+reset-dirs
+rescan
+prefer
+accept
+default
+family
+selectfont
+acceptfont
+rejectfont
+glob
+pattern
+patelt
+test
+edit
+double
+string
+matrix
+range
+bool
+charset
+langset
+name
+const
+not_eq
+less
+less_eq
+more
+more_eq
+contains
+not_contains
+plus
+minus
+times
+divide
+floor
+ceil
+round
+trunc
+error
+Fontconfig %s: line %d: 
+Fontconfig %s: 
+out of memory
+invalid doctype "%s"
+warning
+relative
+its:
+unknown element "%s"
+number
+string
+bool
+FT_Face
+void
+saw %s, expected %s
+invalid constant used : %s
+mismatching element
+invalid attribute '%s'
+Loading
+Scanning
+load
+	%s config file from %s
+cannot get parse buffer
+Cannot %s config file from %s
+	%s config file from %s done
+No such file: 
+No such realfile: 
+Cannot open config dir "%s"
+	Scanning config dir %s
+Unable to open 
+non-family
+binding
+weak
+strong
+same
+invalid binding "%s"
+missing family in alias
+bad alias
+prefix
+salt
+ignore_missing
+"%s" is not known boolean
+deprecated
+conf.d
+target
+font
+invalid match target "%s"
+invalid match element
+domain
+Missing as-path in remap-dir
+as-path
+Unable to reset fonts dirs
+non-integer rescan
+invalid test target "%s"
+missing test name
+not_first
+invalid test qual "%s"
+compare
+invalid test compare "%s"
+ignore-blanks
+missing test expression
+missing edit name
+mode
+invalid edit mode "%s"
+"%s": not a valid integer
+"%s": not a valid double
+too many elements in range
+invalid element in range
+invalid range
+invalid character: 0x%04x
+invalid element in charset
+invalid langset: %s
+invalid element in langset
+Home is disabled
+bad font selector
+unknown pattern element
+missing pattern element name
+unknown pattern element %d
+invalid name target "%s"
+Fontconfig %s: "%s", line %d: 
+Use of ambiguous path in <%s> element. please add prefix="cwd" if current behavior is desired.
+failed reading config file: %s: %s (errno %d)
+Cannot %s config file "%s": %s
+Cannot %s default config file: %s
+Having multiple <family> in <alias> isn't supported and may not work as expected
+empty font directory name ignored
+out of memory; cannot add directory %s
+empty cache directory name ignored
+out of memory; cannot add cache directory %s
+reading configurations from %s is deprecated. please move it to %s manually
+<match target="scan"> cannot edit user-defined object "%s"
+No <test> nor <edit> elements in <match>
+empty font directory name for remap ignored
+out of memory; cannot create remap data for %s as %s
+invalid test ignore-blanks "%s"
+Having multiple values in <test> isn't supported and may not work as expected
+Expression doesn't take any effects for delete and delete_all
+Missing values in matrix element
+wrong number of matrix elements
+;*3$"
+GCC: (SteamRT 10.3.0-3+steamrt3.1+bsrt3.1) 10.3.0
+fccfg.c
+copy_string
+FamilyTableAdd
+FcConfigDel
+FcConfigFileExists
+FcDestroyAsRule
+IA__FcConfigDestroy.part.0
+_fcConfig
+FcConfigAdd.isra.0
+FcConfigPromote.isra.0
+FcDestroyAsRuleSet
+IA__FcConfigReference.part.0
+FcConfigCompareValue.cold
+FcConfigEvaluate
+FcConfigValues
+IA__FcConfigSubstituteWithPat.part.0
+_FcConfigHomeEnabled
+fcinit.c
+FcInitLoadOwnConfig.cold
+fcpat.c
+IA__FcValueEqual.cold
+FcPatternObjectAddWithBinding.constprop.0
+fcrange.c
+FcRangeCompare.cold
+fcstr.c
+FcStrCanonAbsoluteFilename
+IA__FcUtf8ToUcs4.part.0
+_FcStrSetInsert
+FcStrCaseWalkerLong
+fcCaseFold
+fcCaseFoldChars
+IA__FcStrBuildFilename.cold
+fcxml.c
+FcEndDoctypeDecl
+FcExprDestroy
+FcSortCmpStr
+FcConfigMessage.constprop.0
+FcCharacterData
+FcStartDoctypeDecl
+FcConfigMessage.constprop.1
+_get_real_paths_from_prefix
+fcElementMap
+FcStartElement
+FcTypecheckValue
+FcTypecheckExpr
+FcVStackPopAndDestroy
+FcPStackPop.isra.0
+FcConfigParseAndLoadFromMemoryInternal
+FcEndElement
+_FcConfigParse
+FcParseString
+FcParseFamilies
+FcPopBinary
+FcParseBinary
+FcParseUnary
+FcPopExpr
+FcParseAlias
+FcParseAlias.cold
+fcModeOps
+fcCompareOps
+__fc_userdir
+__fc_userconf
+warn_confd.0
+warn_conf.1
+FcEndElement.cold
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.0
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+fcatomic.c
+fccache.c
+MD5Transform
+FcCacheTimeValid
+FcDirCacheCreateTagFile.part.0
+cache_tag_contents.2
+FcDirChecksum.isra.0
+FcDirCacheValidateHelper
+FcDirCacheBasenameUUID.isra.0
+FcDirCacheBasenameMD5.isra.0
+bin2hex
+FcDirCacheProcess
+FcCacheInsert
+cache_lock
+fcCacheMaxLevel
+fcCacheChains
+FcDirCacheMapFd
+static_status.0
+FcDirCacheMapHelper
+fccharset.c
+FcCharSetPutLeaf
+IA__FcCharSetIsSubset.part.0
+FcCharSetIterSet
+FcCharSetIterSet.constprop.0
+fccompat.c
+initialized.2
+fcrandbuf.0
+statebuf.1
+fcdbg.c
+fcdefault.c
+default_lang
+default_prgname
+default_desktop_name
+__FUNCTION__.0
+FcBoolDefaults
+fcdir.c
+cmpstringp
+fcformat.c
+message
+read_word
+read_chars
+expect_char
+skip_subexpr
+interpret_convert
+interpret_expr
+interpret_subexpr
+FcPatternFormatToBuf
+fcfreetype.c
+name_mapping_cmp
+compareulong
+FcSfntNameTranscode
+fcFtEncoding
+fcMacRomanNonASCIIToUnicode
+fcMacRomanFake
+GetScriptTags
+addtag
+FcFreeTypeSpacing
+FcCodePageRange
+s_FT_New_Face
+fcFontEncodings
+FcFreeTypeQueryFaceInternal
+platform_order
+nameid_order
+FcNoticeFoundries
+fcFtLanguage
+exclusive_chars.0
+weightConsts
+CSWTCH.195
+decorativeConsts
+widthConsts
+slantConsts
+CSWTCH.196
+fcfs.c
+fcptrlist.c
+fchash.c
+FcHashTableAddInternal
+fclang.c
+FcLangSetIndex
+fcLangData
+fcLangCharSetRanges
+FcLangSetContainsLang
+fcLangCountrySets
+fclist.c
+FcGetDefaultObjectLangIndex
+FcListPatternMatchAny.part.0
+fcmatch.c
+FcSortCompare
+FcCompareSize
+FcCompareRange
+FcCompareNumber
+FcComparePostScript
+FcCompareLang
+FcCompareCharSet
+FcCompareString
+FcCompareFilename
+FcCompareFamily
+FcCompareDataInit
+FcCompareValueList.constprop.0
+FcCompare
+_FcMatchers
+FcFontSetMatchInternal
+IA__FcFontSetSort.part.0
+FcCompareBool
+__PRETTY_FUNCTION__.0
+__PRETTY_FUNCTION__.1
+__PRETTY_FUNCTION__.3
+__PRETTY_FUNCTION__.4
+__PRETTY_FUNCTION__.5
+fcmatrix.c
+fcname.c
+FcNameFindNext
+FcObjects
+_FcBaseConstants
+fcobjs.c
+_FcObjectLookupOtherTypeByName
+next_id
+asso_values.0
+wordlist.1
+FcObjectTypeNamePool_contents
+fcserialize.c
+FcSerializeUncheckedSet
+fcstat.c
+FcDirChecksumScandirFilter
+FcDirChecksumScandirSorter
+fcweight.c
+lerp.part.0
+IA__FcWeightToOpenTypeDouble.part.0
+ftglue.c
+__FRAME_END__
+FcCharSetSerializeAlloc
+IA__FcCharSetDestroy
+FcConfigGlobAdd
+IA__FcPatternGetInteger
+FcPatternObjectGetBool
+IA__FcPatternAddInteger
+FcObjectFini
+IA__FcDirCacheUnlink
+IA__FcConfigSetRescanInverval
+IA__FcObjectSetDestroy
+IA__FcFontSetPrint
+FcPatternObjectListAdd
+IA__FcLangSetUnion
+IA__FcConfigGetConfigDirs
+IA__FcGetLangs
+IA__FcWeightToOpenType
+IA__FcConfigAcceptFont
+IA__FcBlanksCreate
+FcConfigPathFini
+FcPatternObjectAddString
+IA__FcBlanksIsMember
+IA__FcMatrixScale
+FcPatternIterGetValues
+FcCharSetPrint
+IA__FcPatternAddString
+FcStat
+FcRuleSetReference
+FcHashTableRemove
+FcConfigAcceptFilename
+FcOpen
+IA__FcPatternAddWeak
+IA__FcStrCopy
+IA__FcStrPlus
+IA__FcPatternAddDouble
+FcStrHashIgnoreCase
+IA__FcMatrixEqual
+IA__FcPatternCreate
+FcConfigAllocExpr
+IA__FcStrListNext
+FcPatternObjectAddDouble
+FcStrRealPath
+IA__FcInitLoadConfig
+IA__FcNameRegisterObjectTypes
+FcNameConstantWithObjectCheck
+FcRuleSetAddDescription
+FcDebugVal
+IA__FcMatrixMultiply
+IA__FcConfigAppFontAddFile
+FcDirCacheCreateTagFile
+FcStrBufChar
+FcSerializePtr
+IA__FcConfigAcceptFilter
+FcPtrListIterInitAtLast
+IA__FcConfigGetRescanInverval
+IA__FcRangeCreateDouble
+FcLangSetPrint
+IA__FcLangSetGetLangs
+IA__FcStrSetDestroy
+IA__FcRangeDestroy
+IA__FcPatternPrint
+IA__FcCharSetMerge
+IA__FcConfigGetSysRoot
+FcPatternObjectGetString
+FcPatternObjectAddWithBinding
+IA__FcValueSave
+FcOpPrint
+IA__FcFreeTypeCharSet
+FcGetDesktopName
+FcPtrListDestroy
+FcStrSetAddTriple
+FcCacheObjectReference
+IA__FcPatternAddMatrix
+FcStrSetDeleteAll
+IA__FcPatternGetRange
+IA__FcDirCacheRescan
+IA__FcFontSetMatch
+IA__FcObjectSetAdd
+IA__FcPatternIterNext
+IA__FcMatrixShear
+IA__FcStrSetMember
+FcCacheFini
+IA__FcPatternFormat
+FcConfigFini
+FcStrContainsWord
+FcPatternObjectAddInteger
+IA__FcFreeTypeCharIndex
+FcPatternObjectAdd
+IA__FcWeightFromOpenType
+FcObjectValidType
+ftglue_stream_frame_exit
+FcPatternSerializeAlloc
+IA__FcCharSetDelChar
+FcPatternAppend
+IA__FcPatternIterValueCount
+FcEditPrint
+IA__FcPatternObjectCount
+IA__FcStrCmpIgnoreCase
+_fini
+IA__FcLangSetCreate
+IA__FcFreeTypeQueryAll
+FcFontSetSerializeAlloc
+FcObjectName
+IA__FcConfigFileInfoIterInit
+IA__FcConfigSetFontSetFilter
+IA__FcConfigFileInfoIterGet
+IA__FcRangeCopy
+IA__FcPatternGetMatrix
+FcAlignSize
+IA__FcFontSetList
+FcPtrListIterNext
+FcConfigAddCache
+IA__FcPatternAddLangSet
+FcObjectLookupBuiltinIdByName
+FcStrSetCreateEx
+IA__FcPatternRemove
+FcMatrixFree
+IA__FcUtf16ToUcs4
+IA__FcUtf8ToUcs4
+IA__FcInitBringUptoDate
+IA__FcCharSetHasChar
+IA__FcPatternDestroy
+FcSerializeDestroy
+IA__FcAtomicNewFile
+FcNameUnparseCharSet
+FcConfigInit
+FcEditDestroy
+FcTestPrint
+FcCharSetFreezerDestroy
+FcPatternSerialize
+IA__FcBlanksDestroy
+FcObjectLookupIdByName
+FcPatternPrint2
+FcFreeTypeIsExclusiveLang
+IA__FcInitReinitialize
+IA__FcConfigFileInfoIterNext
+IA__FcStrStrIgnoreCase
+FcPatternIterGetObjectId
+FcConfigAddConfigDir
+IA__FcFontSetCreate
+IA__FcConfigFilename
+FcConfigMapSalt
+IA__FcPatternAddRange
+FcConfigAddBlank
+IA__FcConfigGetBlanks
+IA__FcConfigHome
+IA__FcConfigEnableHome
+FcTestDestroy
+IA__FcCacheCopySet
+FcReadLink
+IA__FcConfigGetFonts
+IA__FcStrSetDel
+IA__FcDirCacheRead
+IA__FcUcs4ToUtf8
+FcHashTableFind
+FcStatChecksum
+FcConfigMapFontPath
+IA__FcCacheNumFont
+FcFontSetDeserialize
+IA__FcPatternEqualSubset
+IA__FcDirCacheUnload
+FcObjectFromName
+FcConfigAddConfigFile
+FcStrBufDestroy
+IA__FcDirCacheClean
+IA__FcAtomicDeleteNew
+FcStrSerializeAlloc
+IA__FcWeightToOpenTypeDouble
+FcStrTripleSecond
+IA__FcPatternFilter
+FcSerializeCreate
+FcValueListSerializeAlloc
+FcPatternObjectInsertElt
+FcGetPrgname
+FcLangSetPromote
+FcRuleSetCreate
+IA__FcFreeTypeQueryFace
+FcStrBufInit
+FcFileIsLink
+IA__FcLangSetCompare
+IA__FcNameGetObjectType
+IA__FcDirCacheLoad
+FcPatternObjectGetDouble
+IA__FcCharSetSubtractCount
+IA__FcAtomicDestroy
+FcSerializeAlloc
+FcHashTableAdd
+IA__FcNameUnregisterObjectTypes
+IA__FcMatrixCopy
+FcConfigRealFilename
+FcStrSetMemberAB
+FcDefaultFini
+FcNameUnparseValueList
+IA__FcPatternGetDouble
+IA__FcInit
+FcDirCacheScan
+IA__FcLangSetHash
+IA__FcFontRenderPrepare
+FcConfigPatternsAdd
+FcCharSetFreeze
+IA__FcConfigGetFontDirs
+FcStrLastSlash
+FcNameBool
+ftglue_stream_frame_enter
+FcRangeCompare
+FcValuePrintWithPosition
+FcIsFsMtimeBroken
+FcCharSetSerialize
+FcStrSetAddFilenamePairWithSalt
+IA__FcStrSetEqual
+IA__FcLangSetCopy
+FcLangSetSerialize
+IA__FcCharSetNew
+FcStrBufString
+IA__FcFreeTypeCharSetAndSpacing
+IA__FcStrCopyFilename
+FcPatternObjectGetRange
+FcValueListPrint
+IA__FcLangSetHasLang
+IA__FcStrSetAddFilename
+FcGetDefaultLang
+IA__FcConfigSetRescanInterval
+__dso_handle
+IA__FcMatrixRotate
+IA__FcRangeCreateInteger
+IA__FcPatternGet
+IA__FcUtf8Len
+IA__FcConfigGetRescanInterval
+FcIsFsMmapSafe
+FcRangePromote
+FcConfigResetFontDirs
+FcStrSetAddLangs
+FcPtrListCreate
+FcStrTripleThird
+FcConfigXdgConfigHome
+IA__FcConfigGetCacheDirs
+FcRuleSetEnable
+FcPatternCacheRewriteFile
+IA__FcStrListCreate
+FcConfigSetFonts
+FcNameUnparseLangSet
+FcCacheObjectDereference
+IA__FcConfigSetCurrent
+FcLangSetSerializeAlloc
+FcNameParseCharSet
+IA__FcCharSetIsSubset
+FcFontSetSerialize
+IA__FcFreeTypeQuery
+IA__FcGetVersion
+IA__FcCharSetEqual
+IA__FcDirSave
+IA__FcLangSetDel
+FcNameUnparseEscaped
+FcStrCanonFilename
+FcStringHash
+FcDirCacheBuild
+FcMakeTempfile
+IA__FcFontSort
+IA__FcStrListFirst
+IA__FcConfigGetCache
+FcRuleSetAdd
+FcStrMatchIgnoreCaseAndDelims
+IA__FcPatternIterEqual
+IA__FcPatternIterIsValid
+FcRangeSerializeAlloc
+IA__FcConfigGetCurrent
+FcPatternPosition
+IA__FcPatternReference
+IA__FcPatternAddBool
+IA__FcCharSetCreate
+FcStrHashIgnoreBlanksAndCase
+ftglue_stream_seek
+FcConfigAddFontDir
+IA__FcCharSetCoverage
+IA__FcFontSetSortDestroy
+FcRangeHash
+FcStrBufData
+FcValueListDuplicate
+__popcountdi2
+IA__FcObjectSetBuild
+IA__FcPatternHash
+IA__FcValuePrint
+FcHashStrCopy
+IA__FcConfigUptoDate
+IA__FcDefaultSubstitute
+ftglue_face_goto_table
+FcSerializeReserve
+IA__FcWeightFromOpenTypeDouble
+FcValueListCreate
+IA__FcStrBuildFilename
+FcObjectLookupOtherNameById
+IA__FcConfigAppFontAddDir
+IA__FcConfigDestroy
+FcNameParseLangSet
+FcPatternObjectFindElt
+FcConfigAddCacheDir
+IA__FcBlanksAdd
+FcDirCacheLock
+IA__FcStrFree
+IA__FcDirScan
+IA__FcConfigBuildFonts
+FcValueListPrepend
+IA__FcPatternGetFTFace
+FcStrBufDone
+IA__FcConfigReference
+IA__FcLangSetDestroy
+IA__FcStrListDone
+FcPatternFindObjectIter
+IA__FcNameUnregisterConstants
+IA__FcPatternBuild
+FcConfigXdgCacheHome
+FcDirCacheWrite
+FcRandom
+IA__FcConfigGetConfigFiles
+IA__FcAtomicOrigFile
+IA__FcObjectSetCreate
+IA__FcConfigGetFilename
+IA__FcLangSetContains
+FcPtrListIterGetValue
+FcPatternObjectGetWithBinding
+IA__FcFileScan
+IA__FcStrDirname
+IA__FcPatternGetWithBinding
+FcInitLoadOwnConfigAndFonts
+IA__FcLangSetEqual
+IA__FcConfigSubstitute
+FcListPatternMatchAny
+IA__FcValueEqual
+IA__FcDirCacheCreateUUID
+FcRangeSerialize
+IA__FcLangSetAdd
+FcPatternObjectGet
+FcValueListDestroy
+FcCacheAllocate
+FcObjectLookupOtherTypeById
+IA__FcCacheNumSubdir
+FcPatternObjectAddRange
+FcNameUnparseValue
+IA__FcPatternDel
+IA__FcPatternFindIter
+IA__FcPatternGetString
+IA__FcCharSetAddChar
+IA__FcCharSetIntersectCount
+IA__FcCacheCreateTagFile
+IA__FcDirCacheValid
+IA__FcUtf16Len
+IA__FcPatternGetBool
+IA__FcStrStr
+_DYNAMIC
+IA__FcStrSetAdd
+FcPatternObjectAddBool
+FcHashTableReplace
+IA__FcDirCacheDeleteUUID
+FcPtrListIterIsValid
+ftglue_stream_pos
+IA__FcFini
+FcDirScanConfig
+FcStrContainsIgnoreBlanksAndCase
+FcIdentityMatrix
+IA__FcAtomicLock
+IA__FcNameRegisterConstants
+FcFreeTypeLangSet
+IA__FcFontSetSort
+IA__FcPatternIterGetObject
+IA__FcFileIsDir
+FcConfigXdgDataHome
+FcPtrListIterInit
+FcCharSetFreezerCreate
+IA__FcStrBasename
+FcValueListPrintWithPosition
+FcHashTableCreate
+IA__FcPatternAddFTFace
+FcPatternObjectDel
+IA__FcAtomicUnlock
+FcStrContainsIgnoreCase
+FcStrSerialize
+IA__FcObjectSetVaBuild
+FcConfigXdgDataDirs
+FcStrCmpIgnoreBlanksAndCase
+IA__FcCharSetIntersect
+FcRulePrint
+FcRangeIsInRange
+IA__FcPatternEqual
+IA__FcFontList
+FcPatternObjectAddLangSet
+FcMakeDirectory
+IA__FcNameGetConstant
+IA__FcValueDestroy
+IA__FcConfigAppFontClear
+IA__FcPatternGetCharSet
+FcSerializeOffset
+IA__FcAtomicReplaceOrig
+IA__FcStrCmp
+FcHashTableDestroy
+IA__FcAtomicCreate
+IA__FcGetDefaultLangs
+IA__FcCharSetNextPage
+FcConfigCompareValue
+IA__FcConfigParseAndLoad
+IA__FcCharSetCount
+IA__FcPatternIterStart
+IA__FcConfigParseAndLoadFromMemory
+FcCharSetPromote
+IA__FcRangeGetDouble
+FcDirCacheRebuild
+FcValueListAppend
+IA__FcConfigSetSysRoot
+FcPtrListIterAdd
+__GNU_EH_FRAME_HDR
+FcObjectGetSet
+__TMC_END__
+FcStrBufDoneStatic
+IA__FcLangGetCharSet
+IA__FcDirCacheLoadFile
+_GLOBAL_OFFSET_TABLE_
+IA__FcLangSetSubtract
+FcStrGlobMatch
+FcStrIsAbsoluteFilename
+FcPtrListIterRemove
+IA__FcCharSetCopy
+FcFileIsFile
+IA__FcPatternIterGetValue
+IA__FcFontMatch
+FcStrUsesHome
+FcPatternObjectGetInteger
+IA__FcStrSetCreate
+FcPatternObjectAddCharSet
+IA__FcFontSetAdd
+FcDirCacheReference
+IA__FcCharSetFirstPage
+IA__FcConfigSubstituteWithPat
+FcLangCompare
+IA__FcPatternAddCharSet
+FcFileScanConfig
+IA__FcPatternAdd
+FcValueListSerialize
+IA__FcNameParse
+FcRuleSetDestroy
+FcValuePrintFile
+FcValueCanonicalize
+IA__FcNameGetConstantFor
+FcInitDebug
+FcExprPrint
+IA__FcConfigCreate
+IA__FcLangNormalize
+IA__FcNameUnparse
+IA__FcPatternGetLangSet
+_init
+IA__FcCharSetUnion
+IA__FcNameConstant
+IA__FcStrDowncase
+FcCharSetFindLeafCreate
+FcConfigParseOnly
+IA__FcPatternVaBuild
+IA__FcFontSetDestroy
+IA__FcPatternDuplicate
+IA__FcInitLoadConfigAndFonts
+FcInitLoadOwnConfig
+FcDirCacheUnlock
+IA__FcCharSetSubtract
+FT_Get_Sfnt_Name_Count
+getenv@GLIBC_2.2.5
+XML_GetBuffer
+free@GLIBC_2.2.5
+putchar@GLIBC_2.2.5
+abort@GLIBC_2.2.5
+XML_GetErrorCode
+__errno_location@GLIBC_2.2.5
+unlink@GLIBC_2.2.5
+strncpy@GLIBC_2.2.5
+FT_Load_Glyph
+strncmp@GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+stdout@GLIBC_2.2.5
+FT_Get_X11_Font_Format
+strcpy@GLIBC_2.2.5
+FT_Load_Sfnt_Table
+FT_Get_Postscript_Name
+mkdir@GLIBC_2.2.5
+puts@GLIBC_2.2.5
+qsort@GLIBC_2.2.5
+XML_SetDoctypeDeclHandler
+XML_ParserCreate
+strtod@GLIBC_2.2.5
+localeconv@GLIBC_2.2.5
+readlink@GLIBC_2.2.5
+XML_GetCurrentLineNumber
+getpid@GLIBC_2.2.5
+fstatfs64@GLIBC_2.2.5
+fclose@GLIBC_2.2.5
+__xstat64@GLIBC_2.2.5
+opendir@GLIBC_2.2.5
+FT_Done_Face
+stpcpy@GLIBC_2.2.5
+FT_Done_FreeType
+rmdir@GLIBC_2.2.5
+dcgettext@GLIBC_2.2.5
+strlen@GLIBC_2.2.5
+FT_Set_Var_Design_Coordinates
+FT_Done_MM_Var
+strchr@GLIBC_2.2.5
+FT_Get_Advance
+FcScandir
+pthread_mutex_destroy@GLIBC_2.2.5
+symlink@GLIBC_2.2.5
+snprintf@GLIBC_2.2.5
+strrchr@GLIBC_2.2.5
+FT_Init_FreeType
+__assert_fail@GLIBC_2.2.5
+XML_SetCharacterDataHandler
+memset@GLIBC_2.2.5
+XML_ParserFree
+FT_Get_First_Char
+getcwd@GLIBC_2.2.5
+FcRuleDestroy
+mkostemp64@GLIBC_2.7
+FT_Get_PS_Font_Info
+XML_SetUserData
+closedir@GLIBC_2.2.5
+fputc@GLIBC_2.2.5
+memchr@GLIBC_2.2.5
+FT_Select_Charmap
+FT_Get_Sfnt_Table
+read@GLIBC_2.2.5
+memcmp@GLIBC_2.2.5
+strtoull@GLIBC_2.2.5
+utimes@GLIBC_2.2.5
+calloc@GLIBC_2.2.5
+__fxstat64@GLIBC_2.2.5
+strcmp@GLIBC_2.2.5
+random_r@GLIBC_2.2.5
+FT_Get_MM_Var
+__gmon_start__
+strtol@GLIBC_2.2.5
+realpath@GLIBC_2.3
+XML_ParseBuffer
+memcpy@GLIBC_2.14
+time@GLIBC_2.2.5
+strerror_r@GLIBC_2.2.5
+mmap64@GLIBC_2.2.5
+pthread_mutex_unlock@GLIBC_2.2.5
+malloc@GLIBC_2.2.5
+fflush@GLIBC_2.2.5
+__isoc99_sscanf@GLIBC_2.7
+default_langs
+strpbrk@GLIBC_2.2.5
+FT_Select_Size
+realloc@GLIBC_2.2.5
+fdopen@GLIBC_2.2.5
+munmap@GLIBC_2.2.5
+FT_Get_Char_Index
+XML_ErrorString
+chmod@GLIBC_2.2.5
+open64@GLIBC_2.2.5
+fcntl64@GLIBC_2.28
+memmove@GLIBC_2.2.5
+readdir64@GLIBC_2.2.5
+access@GLIBC_2.2.5
+XML_SetElementHandler
+FT_Get_Next_Char
+perror@GLIBC_2.2.5
+rename@GLIBC_2.2.5
+vfprintf@GLIBC_2.2.5
+FcCacheDir
+FcConfigAddRule
+__lxstat64@GLIBC_2.2.5
+strcat@GLIBC_2.2.5
+other_types
+sprintf@GLIBC_2.2.5
+fwrite@GLIBC_2.2.5
+fontconfig_ft2_new_face_substitute
+posix_fadvise64@GLIBC_2.2.5
+_ITM_registerTMCloneTable
+FcCacheSubdir
+strdup@GLIBC_2.2.5
+initstate_r@GLIBC_2.2.5
+strerror@GLIBC_2.2.5
+pthread_mutex_init@GLIBC_2.2.5
+FT_Get_BDF_Property
+__cxa_finalize@GLIBC_2.2.5
+strstr@GLIBC_2.2.5
+pthread_mutex_lock@GLIBC_2.2.5
+FT_Get_Sfnt_Name
+__ctype_b_loc@GLIBC_2.3
+stderr@GLIBC_2.2.5
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.comment

@@ -157,6 +157,7 @@ strstr
 getcwd
 dlsym
 KeyValuesSystem
+getenv
 tolower
 wcslen
 wcstol
@@ -215,7 +216,6 @@ readdir64
 closedir
 strdup
 strcasestr
-getenv
 __wrap_freopen
 __wrap_fopen
 __wrap_open
@@ -288,6 +288,7 @@ SDL_GetError
 SDL_WasInit
 SDL_GetCurrentVideoDriver
 SDL_HideWindow
+setlocale
 SDL_Init
 SDL_GL_LoadLibrary
 SDL_SetWindowTitle
@@ -583,6 +584,7 @@ AWAVA
 [A\A]A^A_]
 S D9
 H97t%H
+=Q~	
 tgUH
 {8fH
 [A\]
@@ -594,6 +596,7 @@ AUATI
 l$0M
 \$0H
 [A\A]]
+5&w	
 VUUUH
 AUATI
 A\A]A^]
@@ -603,6 +606,7 @@ ATSH
 H97t%H
 VUUUI
 [A\A]A^A_]
+5{t	
 H97t%H
 AUATSH
 A;E<tRA
@@ -610,7 +614,7 @@ E<IcE
 [A\A]]
 [A\A]]
 AVAUATSH
-8H;=
+8H;=G
 W(L9
 A;D$<t
 D$<IcD$
@@ -623,9 +627,11 @@ S(H;
 A;E<t
 [A\A]]
 E<IcE
+D9%}
 AUATA
 A;E t
 [A\A]]
+5Ml	
 A\A]A^]
 A\A]A^]
 AWAVAUA
@@ -633,7 +639,7 @@ I9D$0
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-5Yw	
+5	g	
 H97t%H
 [A\A]A^A_]
 [A\A]]
@@ -646,6 +652,7 @@ A\A]A^]
 A\A]A^]
 ATSL
 C|[A\]
+5eY	
 AUATSH
 xFHc
 A\A]A^]
@@ -653,13 +660,13 @@ AUATI
 l$0M
 \$0A
 [A\A]]
-56r	
 C,H9
 [A\A]]
 H9w(t*H
 c([A\]
 AVAUATSH
 [A\A]A^]
+5\V	
 H97t
 AUATI
 D$(H
@@ -667,34 +674,31 @@ D$(H
 AVAUI
 ATSH
 [A\A]A^]
-5U[	
 ATSL
 [A\]
+5uI	
 AWAVAUATSH
-5^a	
 D$(H
 [A\A]A^A_]
-=)\	
 AUATL
 A\A]]
+56D	
 ATSH
 [A\]
-5uR	
+=aH	
+5%B	
 ATSL
 [A\]
 AWAVI
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
-5dT	
 [A\A]A^A_]
 AVAUA
 J(fA
 A;F0t
 [A\A]A^]
 F0IcF$H
-D9%`
-D9-O
 ATSL
 [A\]
 A\A]]
@@ -702,8 +706,10 @@ A\A]]
 AWAVA
 8[A\A]A^A_]
 8[A\A]A^A_]
+=a8	
 AWAVA
 [A\A]A^A_]
+5C8	
 H97t%H
 ATSH
 [A\A]A^A_]
@@ -712,6 +718,7 @@ CpI9
 [A\A]A^A_]
 L;c`H
 [A\]
+=u.	
 [A\]
 AWAVI
 AUATSH
@@ -730,6 +737,7 @@ ATSH
 AWAVAUA
 [A\A]A^A_]
 [A\A]A^A_]
+5O'	
 H97t%H
 Gp~b
 [A\A]A^]
@@ -741,9 +749,8 @@ Gp~Y
 Ch[A\]
 AWAVAUATSH
 spfH
-o%U6	
-o-n5	
-5#w	
+%s&	
+5ch	
 ([A\A]A^A_]
 [A\A]A^A_]
 <&A9
@@ -753,13 +760,10 @@ K8D)
 {@D)
 AWAVL
 AUATI
-%+0	
 D$8A
-W%9.	
 D$HLc
 D$(A
 [A\A]A^A_]
-%d+	
 Ic\$XH
 VUUU
 AVAUA
@@ -860,6 +864,7 @@ D$HH
 ATSH
 [A\]
 [A\]
+[A\]
 AUATI
 [A\A]]
 [A\A]]
@@ -877,7 +882,9 @@ AWAVI
 [A\A]A^A_]
 [A\A]A^A_]
 C8[A\]
+[A\]
 W(E1
+[A\]
 @(Hi
 AUATLc
 [A\A]]
@@ -887,12 +894,14 @@ t7UH
 @(Hi
 @(Hi
 [A\]H
+`PUH
+t7UH
+[A\]
 [A\]H
 A]]H
 [A\]
 A\A]A^]
 A\A]A^]
-[A\]
 [A\A]]
 [A\A]]
 A\A]A^H
@@ -921,6 +930,7 @@ AUATSH
 AWAVAUATS
 t	E9
 X[A\A]A^A_]
+[A\]
 ATSL
 tT[H
 [A\]
@@ -928,12 +938,16 @@ tT[H
 $[A\]
 ttH;vxA
 teUH
-AWAVAUI
-u	I9
-R@Ic
-8[A\A]A^A_]
 t_UH
 [A\]
+AVAUI
+[A\A]A^A_]
+u	L9#
+#xvA
+D$`t
+t$#H
+$uc9C
+|$(H
 AULc
 [A]]
 [A]]
@@ -947,19 +961,19 @@ teUH
 ATLc
 [A\A]]
 [A\A]]
-AWAVI
-u=Hc
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVI
-u=Hc
-[A\A]A^A_]
-[A\A]A^A_]
 AVAUATSH
 H;IxI
 nU f
 @[A\A]A^]
 @[A\A]A^]
+AWAVI
+u=Hc
+[A\A]A^A_]
+([A\A]A^A_]
+AWAVI
+u=Hc
+[A\A]A^A_]
+([A\A]A^A_]
 ATLc
 [A\]
 t6f.
@@ -967,57 +981,51 @@ t6f.
 AUATI
 [A\A]]
 [A\A]]
-AWAVAUI
-ATSH
-([A\A]A^A_]
-([A\A]A^A_]
 AWAVI
 AULc
 tnL9
 [A\A]A^A_]
 AWAVAUI
 ATSH
-x[A\A]A^A_]
-x[A\A]A^A_]
-AWAVA
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVAUI
 ATSH
-h[A\A]A^A_]
-h[A\A]A^A_]
-AWAVI
-u=Hc
 [A\A]A^A_]
-[A\A]A^A_]
-tgUH
-AWAVAUATSH
-t3E1
-([A\A]A^A_]
-AWAVI
-u=Hc
-[A\A]A^A_]
-[A\A]A^A_]
+AWAVAUI
+x[A\A]A^A_]
+x[A\A]A^A_]
 H;vx
 H;[x
-AWAVAUI
-([A\A]A^A_]
-([A\A]A^A_]
-A\A]]
-A\A]]
-[A\]
-[A\]
-AWAVL
-ATSH
+AWAVI
+u=Hc
 [A\A]A^A_]
-:~;=
-AWAVL
-AUATSH
+:wz9
+([A\A]A^A_]
+AWAVAUATSH
+t/E1
+([A\A]A^A_]
+AWAVAUI
+8[A\A]A^A_]
+8[A\A]A^A_]
+A\A]]
+A\A]]
+[A\]
+[A\]
+AWAVI
+u=Hc
+[A\A]A^A_]
+:wz9
 ([A\A]A^A_]
 AVAUATSH
 [A\A]A^]
 [A\A]A^]
-AUE1
-8[A\A]A^A_]
-uQE9
+AWAVL
+AUATI
 [A\A]A^A_]
+AWAVL
+AUATSH
+([A\A]A^A_]
 AUATI
 [A\A]]
 ATSH
@@ -1026,13 +1034,16 @@ H97t
 ATSH
 w#tf
 [A\]
+AVAUI
+ATSH
+[A\A]A^A_]
+[A\A]A^A_]
 AWAVL
 AUATI
-X[A\A]A^A_]
-X[A\A]A^A_]
-:~s=
-X[A\A]A^A_]
-X[A\A]A^A_]
+h[A\A]A^A_]
+h[A\A]A^A_]
+h[A\A]A^A_]
+h[A\A]A^A_]
 AWAVAUL
 h[A\A]A^A_]
 [A\]
@@ -1071,10 +1082,6 @@ tHUH
 tHUH
 [A\]
 tHUH
-[A\]
-[A\]
-[A\]
-[A\]
 [A\]
 [A\]
 [A\]
@@ -1212,14 +1219,15 @@ AWAVAUATI
 8[A\A]A^A_]
 AVAUA
 A]A^A_]
-ATSH
+AVAUATSH
 tOIc
 tNIc
-[A\]H
-AWAVAUI
-ATLc
+[A\A]H
+8A^]H
+AWAVAULc
+9sHtl
 [A\A]A^A_]
-9CHt"
+9CHt#
 CP9CL
 [A\A]A^A_]
 AUATI
@@ -1281,17 +1289,16 @@ u	[A\]
 AWAVH
 t	 I
 [A\A]A^A_]
-9~}A
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATI
+([A\A]A^A_]
 [A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
+([A\A]A^A_]
 A\A]A^A_]A
 AWAVAUL
 h[A\A]A^A_]
-:t/D9
+:t-E9
 [A\]
 [A\]
 [A\]
@@ -1355,22 +1362,22 @@ AUATA
 [A\A]]
 [A\]
 AWAVAUATI
-([A\A]A^A_]
-([A\A]A^A_]
+8[A\A]A^A_]
+8[A\A]A^A_]
 AUATI
 [A\A]A^A_]
 [A\A]A^A_]
-AVAUL
-8[A\A]A^A_]
-:~[=
+H[A\A]A^A_]
 AVAUI
 [A\A]A^]
 AUATI
 [A\A]]
 AWAVI
+AUATI
 [A\A]A^A_]
 PxH9
 JxfH
+[A\A]A^A_]
 ATSH
 l$TfE
 t$VfA
@@ -1448,7 +1455,8 @@ H[A\A]]
 AWAVAUATI
 \$XH
 tML9
-(=Am
+(-%d
+(5 d
 [A\A]A^A_]
 [A\]
 [A\]
@@ -1465,17 +1473,14 @@ A\A]A^]
 AUATI
 [A\A]]
 [A\]
-AWLc
 AVAUE
-uIIi
 [A\A]A^A_]
-:~3=
 [A\A]A^A_]
 ATSH
 [A\]
 AWAVAUATI
-H[A\A]A^A_]
-H[A\A]A^A_]
+8[A\A]A^A_]
+8[A\A]A^A_]
 AVLc
 ATSH
 [A\A^]
@@ -1485,11 +1490,12 @@ H97t%H
 AWAVI
 u=Hc
 [A\A]A^A_]
-[A\A]A^A_]
+:wz9
+([A\A]A^A_]
 AWAVI
 u=Hc
 [A\A]A^A_]
-[A\A]A^A_]
+([A\A]A^A_]
 H;@xtBH
 G L9
 u;I9
@@ -1521,8 +1527,8 @@ H97u
 [A\]
 [A\]
 [A\]H
-AVAUI
-[A\A]A^]
+ATSH
+[A\A]]
 AUATL
 \$(H
 T$4I
@@ -1555,14 +1561,14 @@ AWAVI
 AUATSH
 [A\A]A^A_]
 [A\]
-[A\]
 AWAVI
 AUATA
 ([A\A]A^A_]
 ([A\A]A^A_]
 AUATI
 X[A\A]]
-AVAUATI
+AWAVM
+AUATI
 [A\A]A^A_]
 [A\A]A^]
 Y~SUH
@@ -1584,6 +1590,7 @@ A\A]A^H
 [A\A]]
 A\]H
 AVAUATS
+Y%*#
 [A\A]A^A_]
 AUATH
 @PH9
@@ -1773,6 +1780,8 @@ AVAUI
 ATSH
 [A\A]A^]
 L8HH
+ttHc
+GET4
 [A\]
 AVAUL
 ATSD
@@ -1821,16 +1830,14 @@ AUATI
 ATSH
 |*A84
 [A\A]A^A_]
-=na	
-=`a	
 H97t%H
 AWAVA
 ~xMi
+=%c	
 [A\A]A^A_]
 H97t%H
 AWAVAUATI
--`^	
-=2i	
+=ra	
 [A\A]A^A_]
 H97t
 AUATA
@@ -1849,23 +1856,24 @@ AVE1
 [A\A]A^]
 [A\]
 AVAUATSH
-%lV	
+%UO	
 [A\A]A^]
 H97t
 AWAVAUA
-56S	
+5vK	
 [A\A]A^A_]
 [A\A]A^A_]
 H97t
 AWAVAUATSH
-%GZ	
+%;Q	
 A\A]A^A_]
 AWAVAUA
 uXfE
 [A\A]A^A_]
 H97t%H
-AWAVAUATSH
-$t^A
+AWAVI
+AUATSH
+GET4
 [A\A]A^A_]
 H97t%H
 AUATSH
@@ -1933,6 +1941,9 @@ AUATSH
 |* H
 [A\A]]
 AVAUATSH
+-&~	
+-`}	
+-Y}	
 T  H
 [A\A]A^A_]
 tEE1
@@ -1940,18 +1951,22 @@ t";2u
 t*;r
 AWAVAUATI
 [A\A]A^A_]
+5~z	
 AUATSH
 ([A\A]]
-AWAVAUATI
+AWAVI
+AUATSH
 ([A\A]A^A_]
 ([A\A]A^A_]
-AWAVAUATI
-uYLco
+([A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 @HH9
 @PH9
-=yt	
+=)l	
 u)UH
 ATSH
 A\A]A^]
@@ -2000,15 +2015,13 @@ D$HM
 AUATI
 \$pH
 [A\A]]
-=~\	
+=.T	
 AVAUATSH
 Mcf0Ic
 [A\A]A^A_]
 AUATSH
 HcV0H
 [A\A]A^A_]
-=`V	
-=<V	
 AVAUA
 E:~ u
 tyLck
@@ -2105,6 +2118,8 @@ ATSH
 [A\A]A^]
 I9D$
 I9D$
+=F&	
+=6&	
 `Pf.
 G8#p(
 G8	p(
@@ -2126,20 +2141,17 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
-=&'	
-=f&	
+uGf.
 AUATSH
-5k'	
 [A\A]]
 t(UH
 AUATH
 A\A]A^]
 A]A^]
-=U$	
-=;$	
 AWAVAUATS
 ([A\A]A^A_]
 AWAVAUATI
@@ -2154,8 +2166,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -2163,13 +2174,12 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
-5+=	
+5{4	
 [A\A]A^]
 A\A]A^]
 [A\]
@@ -2275,7 +2285,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -2402,9 +2411,10 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%p
-D;%T
-D9%h
+D9%@
+D;%$
+D9%X
+D9%8
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -2465,7 +2475,7 @@ C D9
 sXHc
 C0E1
 0x'H
-t	L9%
+t	L9%d~
 ?LZMA
 ?LZMAt
 ?LZMAt
@@ -2508,8 +2518,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -2555,10 +2564,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%/l
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5n^
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -2647,7 +2656,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -2691,8 +2700,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -3387,6 +3396,8 @@ ATSH
 CpIc
 VUUUD
 [A\A]A^A_]
+AUATSH
+[A\A]]
 AUATL
 [A\A]]
 AUATL
@@ -3490,23 +3501,22 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5?Y
-o%<G
-o%]D
+o5_O
+o%7H
+o%\=
+o%}:
 tcf.
-o-<5
-o=t2
+o=4.
+o54.
+o-\+
 <WH9
-o%#/
-o-t/
+o%C%
 4GI9
-o5b+
 AWAVL
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
 AWAVAUATSH
-o=6 
 ~QHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -3519,6 +3529,7 @@ AWAVAUATSH
 ~GLcM
 [A\A]A^A_]
 AWAVAUATSH
+o=!	
 ~QHc
 [A\A]A^A_]
 AWAVI
@@ -3569,8 +3580,8 @@ n@ATSH
 5UUUU
 [A\A]A^A_]
 4vD)
-o=xZ
-o%cZ
+o=XN
+o%CN
 [A\A]]
 u/[D
 A\A]A^]
@@ -3587,8 +3598,8 @@ X[A\A]A^A_]
 AVAUATA
 	w7D
 [A\A]A^A_]
-|tiE
-ujf%
+|tqE
+urf%
 [A\A]A^A_]
 A]A^A_]
 A]A^A_]
@@ -3771,6 +3782,8 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
+(-*'
+(%*'
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
@@ -3798,6 +3811,7 @@ AUATA
 [A\A]A^A_]
 AWAVE
 t[;]
+o-t	
 [A\A]A^A_]
 AWAVI
 AUATI
@@ -3832,6 +3846,7 @@ AWAVAUATS
 [A\A]A^A_]
 AVAUM
 ATSH
+Y%[v
 [A\A]A^A_]
 AWAVAUATI
 ^K,D
@@ -3842,18 +3857,24 @@ A9D$$
 [A\A]A^A_]
 AWAVA
 AUATSH
+o%bZ
 [A\A]A^A_]
+o=hV
 ATSH
 0[A\]
  [A\]
  [A\]
+W%P?
 ~_ D
 AVAUL
 [A\A]A^]
 AWAVL
+W=77
 8[A\A]A^A_]
 AWAVL
+W-J5
 8[A\A]A^A_]
+W%j4
  [A\]
  [A\]
 D$(A
@@ -3888,7 +3909,6 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%e/
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -3896,13 +3916,12 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-Y%xT
+Y%HJ
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
-W=3Q
 [A\A]]
 A\A]]
 A\A]]
@@ -3917,6 +3936,7 @@ AUATI
 [A\]
 ~Z H
 tYUH
+~-p/
 AVAUL
  [A\A]A^]
 l$<D
@@ -3943,6 +3963,8 @@ AWAVL
 tOHc
 tGHc
 VUUU
+o5gq
+o5Mp
 AUATL
 [A\A]]
  ucL
@@ -4027,7 +4049,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95	
 T$(H
 |$ H
 D$(H
@@ -4306,6 +4327,7 @@ ShaderAPIDX8::CreateDepthStencilSurface: D3DERR_OUTOFVIDEOMEMORY
 Attempted to set too many flex weights! Max is %d
 If this value is not -1, the material system will limit the amount of texture memory it uses in a frame. Useful for identifying performance cliffs. The value is in kilobytes.
 Force frame syncing to lock a managed texture.
+Force-on toggle for testing radial fog on/off. -1 = default. 0 = force off. 1 = force on. This is not a cheat for the joy of playing with this set on if a player wants the new behaviour on old maps.
 -dxlevel
 shaderapidx8.cpp
 ModifyTexture
@@ -4350,6 +4372,7 @@ ShaderApi030
 ShaderDevice001
 DebugTextureInfo001
 mat_alphacoverage
+r_radialfog_force
 r_pixelfog
 CShaderAPIDx8::SetVertexDecl
 CUtlFixedMemory overflow!
@@ -4387,6 +4410,7 @@ GlobalMemoryStatus: %llu
 pVidMemKeyValues
 ConVar.mat_picmip
 ConVar.mat_dxlevel
+ConVar.r_lightmap_bicubic
 final config:
 ShaderShadow010
 ShaderAPIDx10 was unable to access the required interfaces!
@@ -4583,7 +4607,6 @@ CTransitionTable::UseDefaultState
 /data/src/public/tier1/UtlSortVector.h
 Assertion Failed: !m_bNeedsSort
 16CTransitionTable
-GET4GET1
 ENABLE_VB_ALLOC_TRACKER must be 1 to enable VB mem alloc tracking
 Dump VB memory allocation stats.
 VBAllocTracker001
@@ -4630,7 +4653,9 @@ D3DDECLMETHOD_LOOKUPPRESAMPLED
 %d: Stream: %d, Offset: %d, Type: %s, Method: %s, Usage: %s, UsageIndex: %d
  ERROR: failed to create vertex decl for vertex format 0x%08llX! You'll probably see messed-up mesh rendering - to diagnose, build shaderapidx9.dll in debug.
 Num Pixel Shaders = %d Vertex Shaders=%d
+***** Invalid vertex shader index (out of range) for %s (%d of %d).
 !!!!!Using invalid shader combo!!!!!  Consult a programmer and tell them to build debug materialsystem.dll and stdshader*.dll.  Run with "mat_bufferprimitives 0" and look for CMaterial in the call stack and see what m_pDebugName is.  You are likely using a shader combo that has been skipped.
+***** Invalid pixel shader index (out of range) for %s (%d of %d).
 Shader %s is the wrong version %d, expecting %d
 Could not write to program cache file!
 Could not load program cache file %s
@@ -4643,8 +4668,8 @@ Could not find base GL shader cache file
 Could not find user GL shader cache file
 Precache: Took %d ms, Vertex %d, Pixel %d
 Total Combos:%9d Static:%9d Dynamic:%7d SeekTable:%7d Ver:%d '%s'
-vsh 0x%8.8x: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
-psh 0x%8.8x: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
+vsh 0x%p: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
+psh 0x%p: static combo:%9d dynamic combos:%6d refcount:%4d "%s"
 Total unique vertex shaders: %d
 Total unique pixel shaders: %d
  unrecognized shader compression type = file corrupt?
@@ -4743,6 +4768,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -4785,7 +4815,9 @@ m_mutex
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
 LZMA Decompression failed (%i)
+LZMA Decompression overflowed (%zu > %zu)
 LZMA stream: Unexpected LZMA properties size: %hu, expecting %u. Version mismatch?
+LZMA Decompression overflowed (read: %zu > %zu or write: %zu > %zu)
 If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
 Unrecognized LZMA data
 lzma_persistent_buffer
@@ -5086,7 +5118,7 @@ NAUU
 ?~?a`
 4fff>fff>fff>fff>
 VFileSystem022
-VMaterialSystem081
+VMaterialSystem082
 InputSystemVersion001
 NetworkSystemVersion001
 COLORCORRECTION_VERSION_1
@@ -5264,6 +5296,7 @@ wcstombs@GLIBC_2.2.5
 _ZN16IDirect3DDevice918CreateVertexShaderEPKjPP22IDirect3DVertexShader9PKcPc
 __wrap___lxstat64
 __cxa_atexit@GLIBC_2.2.5
+setlocale@GLIBC_2.2.5
 SDL_Init
 _ZGVbN2vv_pow@GLIBC_2.22
 __wrap_realpath

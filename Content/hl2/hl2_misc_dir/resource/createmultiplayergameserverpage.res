@@ -53,4 +53,24 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 	}
+	"EnableSteamNetworkingCheck"
+	{
+		"ControlName"		"CheckButton"
+		"fieldName"		"EnableSteamNetworkingCheck"
+		"xpos"		"16"
+		"ypos"		"50"
+		"wide"		"200"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"5"
+		"textHidden"		"0"
+		"editable"		"0"
+		"maxchars"		"-1"
+		"NumericInputOnly"		"0"
+		"unicode"		"0"
+		"labelText" "#Start_Server_SteamNetworking"
+	}
 }

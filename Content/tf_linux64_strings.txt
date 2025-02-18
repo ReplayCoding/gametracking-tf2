@@ -4,14 +4,17 @@ dlsym
 dlopen
 close
 read
+fopen
 puts
 getpid
 printf
 strtol
 strstr
 stderr
+readlink
 fwrite
 sleep
+fopen64
 __libc_start_main
 libmimalloc.so
 libdl.so.2
@@ -26,6 +29,7 @@ AWAVAUATSH
 []A\A]A^A_
 open
 /proc/self/status
+/proc/self/exe
 bin/linux64/launcher.so
 Failed to load the launcher
 LauncherMain
@@ -47,12 +51,17 @@ main
 __dso_handle
 _dl_relocate_static_pie
 sleep@GLIBC_2.2.5
+readlink@GLIBC_2.2.5
+fopen64@GLIBC_2.2.5
 __TMC_END__
+fopen@GLIBC_2.2.5
 stderr@GLIBC_2.2.5
 __data_start
 _end
 strtol@GLIBC_2.2.5
+__wrap_fopen
 read@GLIBC_2.2.5
+_Z10GetExePathPcm
 getpid@GLIBC_2.2.5
 dlopen@GLIBC_2.2.5
 __bss_start
@@ -61,6 +70,7 @@ __libc_csu_init
 __libc_csu_fini
 dlsym@GLIBC_2.2.5
 __libc_start_main@GLIBC_2.2.5
+__wrap_fopen64
 __gmon_start__
 fwrite@GLIBC_2.2.5
 close@GLIBC_2.2.5

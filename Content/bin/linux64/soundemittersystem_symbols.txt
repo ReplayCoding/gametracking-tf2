@@ -1,4 +1,5 @@
 COM_TimestampedLog
+CommandLine_Tier0
 CreateInterface
 DevMsg
 Error
@@ -59,6 +60,7 @@ free@GLIBC_2.2.5
 g_Telemetry
 g_pMemAlloc
 getcwd@GLIBC_2.2.5
+getenv@GLIBC_2.2.5
 iconv@GLIBC_2.2.5
 iconv_close@GLIBC_2.2.5
 iconv_open@GLIBC_2.2.5

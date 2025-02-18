@@ -93,6 +93,7 @@ KeyValuesSystem
 DevMsg
 isspace
 __cxa_guard_abort
+getenv
 tolower
 wcstol
 wcstoll
@@ -130,7 +131,6 @@ readdir64
 closedir
 strdup
 strcasestr
-getenv
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -2956,9 +2956,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -2979,8 +2981,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -2988,9 +2989,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -3056,7 +3056,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95A
+D95u
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -3099,7 +3099,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -3176,20 +3175,20 @@ AWAVI
 [A\A]A^A_]
 AWAVI
 AUATI
-5At	
+5Ar	
 @ L9
-5	t	
+5	r	
 [A\A]A^A_]
 @ H9
-=os	
+=oq	
 @ L9
 @ L9
-=_r	
+=_p	
 @ L9
 @ L9
 @ L9
 @ L9
-=up	
+=un	
 [A\]
 t E1
 D$(A
@@ -3231,9 +3230,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%p
-D;%T
-=s$	
+D;%t
+=s"	
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -3247,11 +3245,13 @@ AWAVA
 x[A\A]A^A_]
 [A\A]A^A_]
 AWAVI
-5x~	
-5i~	
+5~}	
+5k}	
+5x|	
+5i|	
 [(Y^H
 [(XZH
-5#}	
+5#{	
 A\A]A^A_]
 [A\A]A^A_]
 A[~6I
@@ -3323,8 +3323,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -3338,6 +3337,7 @@ tS<0t\<'t;H
 AUATSH
 <.t6
 [A\A]]
+-!a	
 	w(f
 [A\D
 [A\A]]
@@ -3370,6 +3370,7 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
@@ -3397,12 +3398,11 @@ AUATI
 [A\A]]
  [A\A]A^]
 AWAVA
-=/J	
-51J	
+=oH	
+5qH	
 ([A\A]A^A_]
 AWAVAUI
 ATLc
-5}I	
 ([A\A]A^A_]
 ([A\A]A^A_]
 ATLc
@@ -3430,13 +3430,11 @@ A\A]A^]
 AVAUI
 ~R[L
 A\A]A^]
-5VA	
 [A\A]A^]
 ~.Hc
 t	<\u
 AUATSH
 [A\A]]
-5]?	
 ~ Hc
 A\A]A^]
 A]A^]
@@ -3463,12 +3461,11 @@ AVLc
 [A\A]A^]
 [A\A]A^A_]
 [A\A]A^A_]
-=E;	
-=!;	
+=a9	
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -3478,7 +3475,7 @@ A\A]A^]
 AWAVL
 ~pH9
 [A\A]A^A_]
-5/,	
+5o*	
 AUATL
 [A\A]]
 [A\A]]
@@ -3497,9 +3494,7 @@ uUMc
 tP<[
 [A\A]A^A_]
 u0Hc
-5q#	
 ty;]
-5`(	
 th~.
 t-E1
 < v^<
@@ -3515,8 +3510,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -4058,9 +4053,9 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%Wb
-Y5Pl
-Y-Mk
+X%ra
+X-F^
+/-vi
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -4068,13 +4063,12 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-X%:d
-Y%(d
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
+W=Sw
 [A\A]]
 A\A]]
 A\A]]
@@ -4195,15 +4189,16 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o%=[
-o%kX
-o%gR
+o5qq
+o%KV
+o-eS
+o%GP
 tcf.
-o=TI
+o=4G
 <WH9
-o-TF
+o-4D
 4GI9
-o5BB
+o5"@
 AWAVL
 [A\A]A^A_]
 AWAVL
@@ -4287,8 +4282,9 @@ X[A\A]A^A_]
 AVAUATA
 	w7D
 [A\A]A^A_]
-|tiE
-ujf%
+|tqE
+urf%
+X=(O
 [A\A]A^A_]
 A]A^A_]
 A]A^A_]
@@ -4345,7 +4341,7 @@ AVAUATSH
 A\A]A^]
 AVAUATSH
 [A\A]A^]
-(%K}
+(%+{
 A\A]A^]
 AVAUATE1
 [A\A]A^A_]
@@ -4472,13 +4468,12 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(-:?
-(%ZG
+(%:E
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
 AVAUI
-o=Y;
+o=99
 A\A]A^A_]
 A\A]A^A_]
 [A\A]A^A_]
@@ -4502,14 +4497,11 @@ AUATA
 [A\A]A^A_]
 AWAVE
 t[;]
-o5n+
-o-4*
-o%x)
-o%V)
-o-0)
-o=!)
-o5_(
-o=&&
+o5N)
+o%X'
+o%6'
+o-u&
+o5?&
 [A\A]A^A_]
 AWAVI
 AUATI
@@ -4593,13 +4585,15 @@ AUATSH
 [A\A]]
 [A\]
  A\A]]
-Lc%o
+Lc%s
+Lc%/
 A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 [A\]H
 P8]H
 [A\]
+/%:/
 AWAVAUATSH
 E9i 
 ~;E9
@@ -4675,7 +4669,7 @@ A9G
 G1@t
 AVAUATSH
 RGBAL
-|	A9
+t	D9
 \E0D
 A9_$
 G8fH
@@ -4907,6 +4901,8 @@ L9(t
 L9(t
 A\A]]
 AWAVAUATI
+o=r(
+o5t(
 \$lE
 \$lA9
 [A\A]A^A_]
@@ -5458,7 +5454,7 @@ AWAVAUATSH
 8[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-o%Y|
+o%9z
 AVAUATI
 ]0tp
 [A\A]A^]
@@ -6269,7 +6265,7 @@ iTXt
 ;sTr
 AWAVAUATSH
 [A\A]A^A_]
-o-mI
+o-MG
 AWAVAUATSH
 [A\A]A^A_]
 IENDH
@@ -6492,7 +6488,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95)
 T$(H
 |$ H
 D$(H
@@ -7531,6 +7526,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -7747,7 +7747,7 @@ Matched '%s' -> '%s'
 Unmatched %s
 (%zu) readdir failed to find '%s' in '%s'
                 VFileSystem022
-VMaterialSystem081
+VMaterialSystem082
 InputSystemVersion001
 NetworkSystemVersion001
 DebugTextureInfo001
@@ -7764,6 +7764,7 @@ Ga=o
 .M;R
 NAUU
 ?~?a`
+o@5n
 DXT1DXT3DXT5
 DXT1
 INTZRAWZDF16DF24NULLATI2ATI1DXT1DXT5UNKNOWN

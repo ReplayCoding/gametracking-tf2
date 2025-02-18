@@ -1,3 +1,4 @@
+qcQWe
 __gmon_start__
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -51,6 +52,8 @@ isspace
 __cxa_guard_acquire
 __cxa_guard_release
 __cxa_guard_abort
+CommandLine_Tier0
+getenv
 tolower
 wcslen
 wcstol
@@ -122,24 +125,19 @@ GLIBC_2.22
 GLIBC_2.7
 GLIBC_2.14
 GLIBC_2.3
-=k{C
--7{C
--0{C
-=A^C
-5'^C
-=XJC
-5EJC
+-W{C
+-P{C
+=a^C
+5G^C
+=xJC
+5eJC
 =EIC
 5/IC
 =pHC
 5SHC
-=E_C
-5*_C
-=q`C
-5W`C
-5{_C
-=vaC
-%blC
+=e_C
+5J_C
+5w`C
 u/UH
  ff.
 ` ff.
@@ -147,6 +145,7 @@ u/UH
 ` ff.
 ` ff.
 AUATSH
+%;1D
 <$E1
 <$E1
 <$E1
@@ -229,6 +228,8 @@ AWAVAUATSH
 [A\]
 AWAVAUATSH
 [A\A]A^A_]
+o5k;
+o-o;
 SIcQ
 t-Hc
 [A\]
@@ -484,7 +485,6 @@ C0s@
 AWAVAUE
 t+f9C
 fA9D$
-%|sB
 ~<D;e
 |..fA
 h[A\A]A^A_]
@@ -541,7 +541,7 @@ H97t%H
 AWAVI
 AUATSH
 C fA
-HcFLL
+LcfLL
 Mc|$
 8IDSV
 HcP8
@@ -550,16 +550,15 @@ HcP<
 GtIcD$
 T$TH
 D$0L
-tLcXLH
-p$HcV
-P$IcB
--V}	
+tLc@LH
+A$Ic@
+w$HcV
+G$Ic@
 [A\A]A^A_]
 8IDSV
--?s	
-=!s	
--Xp	
-=Vn	
+-ip	
+=Wn	
+-!n	
 AWAVAUI
 ATSH
 D<.f
@@ -568,7 +567,8 @@ D$$A
 t$&I
 D$ H
 ([A\A]A^A_]
-5`g	
+5pg	
+5#g	
 AWAVAUATSH
 McGLM
 8IDSVu
@@ -578,15 +578,17 @@ Hcx<H
 UtIc
 8IDCV
 HcP8
-5Zc	
--Vc	
-%)c	
+5jc	
+-fc	
+%9c	
+=#c	
 [A\A]A^A_]
 AUATSH
 B% H
 [A\A]A^A_]
 B% H
 [A\A]A^A_]
+5 S	
 H97t%H
 Hw3H
 AWAVAUATSH
@@ -607,11 +609,11 @@ AWAVAUA
 ATSH
 t]H;P
 S@H9P
-=)D	
+=9D	
 D$ E
 [A\A]A^A_]
 tTLc
-=RC	
+=bC	
 V t.H
 r:f.
 scf;w
@@ -630,22 +632,20 @@ AWAVAUA
 ATSH
 t]H;P
 S@H9P
-=Y=	
+=i=	
 [A\A]A^A_]
 tTLc
 A\A]]
 A\A]]
 tOE1
 W s"
-=y:	
 AUATSD
 A\A]A^]
 tOE1
-=u8	
 AUATSD
 A\A]A^]
 tOE1
-=i5	
+=y5	
 YH,L
 Y@,L
 ~yUH
@@ -663,7 +663,7 @@ Hcx<H
 JtIcE
 8[A\A]A^A_]
 8[A\A]A^A_]
-=)#	
+=9#	
 [A\A]A^A_]
 AWAVA
 8IDSVu
@@ -779,14 +779,12 @@ HcF0H
 AWAVAUATI
 +@ Hc
 [A\A]A^A_]
-?UE1
 ATSH
 +@ Hc
 [A\A]A^A_]
 AWAVAUATI
 +@ Hc
 [A\A]A^A_]
-?UE1
 ATSH
 +@ Hc
 [A\A]A^A_]
@@ -843,21 +841,21 @@ YH(I
 [A\A]A^A_]
 AVAUI
 ATSL
-5\=A
 +@ Ic
 YH(I
 [A\A]A^A_]
 AUATSL
+5Y9A
 YH(I
 [A\A]A^A_]
 AVAUI
 ATSL
+5	4A
 +X0Ic
 YH(I
 [A\A]A^A_]
 AVAUI
 ATSL
-5!-A
 YH(I
 [A\A]A^A_]
 AVAUI
@@ -865,30 +863,26 @@ ATSL
 YH(I
 [A\A]A^A_]
 AUATSL
-5$"A
 +@ Ic
 [A\A]A^A_]
 AUATSL
-%1|A
 +X0Ic
 [A\A]A^A_]
 AUATSL
 [A\A]A^A_]
 AVAUE
 ATSL
--JsA
 +@ Ic
 [A\A]A^A_]
 AUATSL
 [A\A]A^A_]
 AVAUE
 ATSL
--*jA
 +X0Ic
 [A\A]A^A_]
 AVAUE
 ATSL
--zeA
+-xgA
 [A\A]A^A_]
 AVAUE
 ATSL
@@ -995,21 +989,15 @@ Hcp<H
 StIcG
 [A\A]A^A_]
 3A9t
-5;U	
-5-U	
 H97t%H
-5OT	
-5bS	
-5TS	
 AWAVAUATSH
 E#g A#_$A
 A#_ A
 E#g$
 H[A\A]A^A_]
-%{TA
+%KWA
 <$E1
 [A\]
-=2w@
 AVE1
 AUE1
 YALH
@@ -1020,7 +1008,7 @@ AUATL
 AWAVL
 ATSH
 [A\A]A^A_]
-5F_@
+=lb@
 ([A\A]A^A_]
 AWAVAUI
 T$(L
@@ -1031,7 +1019,6 @@ D$(L
 |$(H
 [A\A]A^A_]
 AWAVAUATI
--O.	
 <VHc
 A9EH
 Ic]LH
@@ -1068,20 +1055,22 @@ AWAVAUATSH
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-W-7g
-W-td
-W-qc
-W-Ta
-W-g^
-W-G[
-W-7X
-W-TV
-W-gS
-W-DG
-W-$D
-W-d<
-W%D-
-W-C'
+W-Dj
+W-Ai
+W-gc
+W-ta
+W-T^
+W-D[
+W-gX
+W-tV
+W-TO
+W-\N
+W-$;
+W%46
+W-$2
+W%D.
+W-M)
+W-#!
 Yt$ 
 Yt$4
 YT$H
@@ -1110,19 +1099,19 @@ YD$
 Yt$4
 YT$H
 ([A\A]]
-W%K&
 Yt$4
 YT$H
 ([A\A]]
+W%K	
 stUH
 ([A\A]]
 Yt$ 
 Yt$4
 YT$H
 ([A\A]]
-W--\
-W-CW
-W-HI
+W-sa
+W-C_
+W-Z;
 Yt$ 
 Yt$4
 YT$H
@@ -1167,8 +1156,7 @@ ATSH
 VUUU
 VUUUH
 VUUUH
-Y-`W
-Y%\W
+Y5!Y
 VUUUH
 VUUU
 VUUU
@@ -1176,8 +1164,8 @@ u&fA
 u%fA
 [A\A]A^A_]
 VUUUH
-=f"<
-=V"<
+=6%<
+=&%<
 `Pf.
 G8#p(
 G8	p(
@@ -1199,10 +1187,13 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
+-DB<
 [A\A]]
 t(UH
 AUATH
@@ -1222,8 +1213,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -1231,13 +1221,12 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
+%>3<
 [A\A]]
 [A\A]]
-5[0<
 [A\A]A^]
 A\A]A^]
 [A\]
@@ -1290,7 +1279,9 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95!
+D95q
+D95N
+D95%
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1333,7 +1324,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -1460,8 +1450,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%P
-D;%4
+D9%@
+D;%$
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1484,12 +1474,12 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUL
--~z;
+-n{;
 ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
-%4y;
+%$z;
 AVAUATI
 [A\A]A^]
 [A\]
@@ -1550,8 +1540,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -1688,7 +1677,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -1732,8 +1721,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -1790,7 +1779,7 @@ A+D$$I
 A+D$$I
 A+D$$I
 ATSH
-=0!;
+=0";
 [A\]
 AUATA
 [A\A]]
@@ -2190,13 +2179,12 @@ tBL)
 [A\A]A^A_]
 AWAVA
 AUATSH
-(={y
-o%BX
+o=oY
+(={z
+o=na
 [A\A]A^A_]
-o=HT
-(=3u
-(=*u
-o=T\
+(=3v
+(=*v
 ATSH
 0[A\]
  [A\]
@@ -2205,10 +2193,8 @@ ATSH
 AVAUL
 [A\A]A^]
 AWAVL
-W=W5
 8[A\A]A^A_]
 AWAVL
-W-j3
 8[A\A]A^A_]
  [A\]
  [A\]
@@ -2225,12 +2211,12 @@ A\A]]
 AVAUL
  [A\A]A^]
 [A\]
-X5IF
+X5dF
  [A\]
  [A\]
 [A\A]]
 [A\A]]
-Y%+;
+/%H"
 [A\]
 L$(A\]
 0[A\]
@@ -2246,7 +2232,7 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-Y-t%
+Y-$&
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -2295,28 +2281,37 @@ C8[A\]
 HA\A]A^]
 HA\A]A^]
 AWAVL
+X5.~
+Y5 ~
+X5P|
+Y5B|
+X5vz
+Y5hz
 [A\A]A^A_]
 tOHc
 tGHc
 VUUU
-o5mn
 AUATL
-=r":
-=\":
-=F":
-=0":
-=W":
-=:":
-=c!:
-=;!:
+=t#:
+=^#:
+=H#:
+=2#:
+=s":
+=K":
+=#":
 [A\A]]
 AUATL
-=l :
+=@!:
+=J!:
+=,!:
+=&!:
+=| :
 =f :
-=8 :
-=" :
+=P :
+=: :
 =$ :
-=> :
+=L :
+== :
 [A\A]]
  ucL
 @uJL
@@ -2400,6 +2395,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
+H95y
 T$(H
 |$ H
 D$(H
@@ -2672,6 +2668,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -2892,7 +2893,7 @@ NAUU
 ?~?a`
 4fff>fff>fff>fff>
 VFileSystem022
-VMaterialSystem081
+VMaterialSystem082
 InputSystemVersion001
 NetworkSystemVersion001
 DebugTextureInfo001
@@ -2999,6 +3000,7 @@ vswprintf@GLIBC_2.2.5
 __isoc99_sscanf@GLIBC_2.7
 COM_TimestampedLog
 acosf@GLIBC_2.2.5
+CommandLine_Tier0
 RandomFloat
 __ctype_b_loc@GLIBC_2.3
 strcasecmp@GLIBC_2.2.5
@@ -3007,6 +3009,7 @@ __dynamic_cast@CXXABI_1.3
 DevMsg
 free@GLIBC_2.2.5
 pthread_once
+getenv@GLIBC_2.2.5
 towupper@GLIBC_2.2.5
 ThreadGetCurrentId
 strncasecmp@GLIBC_2.2.5

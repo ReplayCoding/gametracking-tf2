@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 19626
+Revision: 20198
 {
 "world_maxs" "14336 15296 8852"
 "world_mins" "-15296 -14096 -15296"
@@ -11,31 +11,8 @@ Revision: 19626
 "detailmaterial" "detail/detailsprites_trainyard"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "19626"
+"mapversion" "20198"
 "hammerid" "1"
-}
-{
-"origin" "2296 728 -320"
-"pitch" "-90"
-"angles" "-90 0 0"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 600"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "80"
-"classname" "light_spot"
-"hammerid" "2032069"
-}
-{
-"origin" "2296 728 -336"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 75"
-"classname" "light"
-"hammerid" "2032077"
 }
 {
 "origin" "2394 952 -320"
@@ -3057,7 +3034,7 @@ Revision: 19626
 "hammerid" "1434541"
 }
 {
-"origin" "-512 1946 8278"
+"origin" "-512 1954 8278"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -3072,7 +3049,7 @@ Revision: 19626
 "hammerid" "1434818"
 }
 {
-"origin" "-320 1946 8278"
+"origin" "-320 1954 8278"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -3087,7 +3064,7 @@ Revision: 19626
 "hammerid" "1434834"
 }
 {
-"origin" "-320 1758 8278"
+"origin" "-320 1750 8278"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -3102,7 +3079,7 @@ Revision: 19626
 "hammerid" "1434850"
 }
 {
-"origin" "-512 1758 8278"
+"origin" "-512 1750 8278"
 "spawnflags" "0"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -10661,6 +10638,7 @@ Revision: 19626
 "OnPass" "stage1_fakecart_propEnable01"
 "OnPass" "stage1_fakecart_tracktrainSetSpeed0.101"
 "OnPass" "stage1_fakecart_flashinglightStart01"
+"OnPass" "stage1_cap1SetOwner30.21"
 }
 {
 "origin" "274 4780 -6128"
@@ -11740,16 +11718,19 @@ Revision: 19626
 }
 {
 "model" "*22"
-"wait" "0"
 "targetname" "stage1_endcap_woodbarrier_dontgetstuck"
 "StartDisabled" "1"
-"spawnflags" "67"
+"spawnflags" "3"
 "parentname" "stage1_fakecart_tracktrain"
 "origin" "1960 5968 -6392"
+"nodmgforce" "0"
+"damagetype" "16"
+"damagemodel" "0"
+"damagecap" "20"
+"damage" "600"
 "angles" "0 0 0"
-"classname" "trigger_multiple"
+"classname" "trigger_hurt"
 "hammerid" "777839"
-"OnTrigger" "!activatorSetHealth-10000-1"
 }
 {
 "origin" "2796 -1794 -336"
@@ -12346,7 +12327,7 @@ Revision: 19626
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "2145 5839.5 -6617"
+"origin" "1958 5842 -6616"
 "loopmovesound" "0"
 "locked_sentence" "0"
 "lip" "0"
@@ -12354,7 +12335,7 @@ Revision: 19626
 "health" "0"
 "forceclosed" "0"
 "dmg" "0"
-"distance" "120"
+"distance" "60"
 "disableshadows" "1"
 "disablereceiveshadows" "1"
 "angles" "0 0 0"
@@ -12991,31 +12972,24 @@ Revision: 19626
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "3011276"
+"hammerid" "3011264"
 }
 {
 "occludernumber" "14"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "3011264"
+"hammerid" "3011260"
 }
 {
 "occludernumber" "15"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "3011260"
-}
-{
-"occludernumber" "16"
-"model" ""
-"StartActive" "1"
-"classname" "func_occluder"
 "hammerid" "3011255"
 }
 {
-"occludernumber" "17"
+"occludernumber" "16"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13023,7 +12997,7 @@ Revision: 19626
 "hammerid" "3011249"
 }
 {
-"occludernumber" "18"
+"occludernumber" "17"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13031,7 +13005,7 @@ Revision: 19626
 "hammerid" "3011242"
 }
 {
-"occludernumber" "19"
+"occludernumber" "18"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13039,7 +13013,7 @@ Revision: 19626
 "hammerid" "3011240"
 }
 {
-"occludernumber" "20"
+"occludernumber" "19"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13047,35 +13021,35 @@ Revision: 19626
 "hammerid" "3011234"
 }
 {
-"occludernumber" "21"
+"occludernumber" "20"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011232"
 }
 {
-"occludernumber" "22"
+"occludernumber" "21"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011230"
 }
 {
-"occludernumber" "23"
+"occludernumber" "22"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011221"
 }
 {
-"occludernumber" "24"
+"occludernumber" "23"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011219"
 }
 {
-"occludernumber" "25"
+"occludernumber" "24"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13083,7 +13057,7 @@ Revision: 19626
 "hammerid" "3011209"
 }
 {
-"occludernumber" "26"
+"occludernumber" "25"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -13091,22 +13065,14 @@ Revision: 19626
 "hammerid" "3011205"
 }
 {
-"occludernumber" "27"
-"model" ""
-"targetname" "stage2_occluders"
-"StartActive" "1"
-"classname" "func_occluder"
-"hammerid" "3011197"
-}
-{
-"occludernumber" "28"
+"occludernumber" "26"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011195"
 }
 {
-"occludernumber" "29"
+"occludernumber" "27"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13114,14 +13080,14 @@ Revision: 19626
 "hammerid" "3011193"
 }
 {
-"occludernumber" "30"
+"occludernumber" "28"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011191"
 }
 {
-"occludernumber" "31"
+"occludernumber" "29"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13129,28 +13095,28 @@ Revision: 19626
 "hammerid" "3011186"
 }
 {
-"occludernumber" "32"
+"occludernumber" "30"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011178"
 }
 {
-"occludernumber" "33"
+"occludernumber" "31"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011174"
 }
 {
-"occludernumber" "34"
+"occludernumber" "32"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "3011172"
 }
 {
-"occludernumber" "35"
+"occludernumber" "33"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -13325,14 +13291,7 @@ Revision: 19626
 "hammerid" "849084"
 }
 {
-"portalnumber" "33"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "849086"
-}
-{
-"origin" "-416 384 8305"
+"origin" "-416 384 8304"
 "targetname" "stage3_path_81"
 "target" "stage3_path_82"
 "spawnflags" "0"
@@ -13430,7 +13389,7 @@ Revision: 19626
 "hammerid" "1067992"
 }
 {
-"portalnumber" "34"
+"portalnumber" "33"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13583,18 +13542,6 @@ Revision: 19626
 "hammerid" "1380417"
 }
 {
-"origin" "-32 352 8270"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"modelscale" "1.0"
-"fadescale" "1.0"
-"fademindist" "-1"
-"AutoMaterialize" "1"
-"angles" "0 0 0"
-"classname" "item_healthkit_small"
-"hammerid" "1431496"
-}
-{
 "origin" "1404 880 8224"
 "targetname" "stage3_redspawn01_door03_prop"
 "StartDisabled" "0"
@@ -13703,7 +13650,7 @@ Revision: 19626
 "hammerid" "1433375"
 }
 {
-"portalnumber" "35"
+"portalnumber" "34"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13812,7 +13759,7 @@ Revision: 19626
 "OnFullyOpen" "stage2_cap2_arrows_door01_propKill0-1"
 }
 {
-"portalnumber" "36"
+"portalnumber" "35"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430102"
@@ -13845,7 +13792,7 @@ Revision: 19626
 "hammerid" "708713"
 }
 {
-"portalnumber" "37"
+"portalnumber" "36"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13905,7 +13852,7 @@ Revision: 19626
 "hammerid" "1069269"
 }
 {
-"portalnumber" "38"
+"portalnumber" "37"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -13965,35 +13912,6 @@ Revision: 19626
 "hammerid" "1258157"
 }
 {
-"model" "*38"
-"wait" "-1"
-"vrad_brush_cast_shadows" "0"
-"texframeindex" "0"
-"targetname" "stage2_cap2_arrows_door02"
-"speed" "25"
-"spawnpos" "0"
-"spawnflags" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "3202.5 834.5 -178.5"
-"noise2" "doors/garage_stop1.wav"
-"noise1" "doors/doormove7.wav"
-"movedir" "90 0 0"
-"loopmovesound" "0"
-"lip" "-16"
-"ignoredebris" "0"
-"forceclosed" "0"
-"effects" "0"
-"dmg" "1000"
-"disablereceiveshadows" "1"
-"angles" "0 0 0"
-"classname" "func_door"
-"hammerid" "1706517"
-"OnFullyOpen" "stage2_cap2_arrows_door02_propKill0-1"
-}
-{
 "origin" "1616 3728 -5917"
 "style" "0"
 "spawnflags" "0"
@@ -14020,7 +13938,7 @@ Revision: 19626
 "hammerid" "1258048"
 }
 {
-"model" "*39"
+"model" "*38"
 "wait" "0"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -14108,13 +14026,13 @@ Revision: 19626
 "hammerid" "1072348"
 }
 {
-"portalnumber" "39"
+"portalnumber" "38"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437682"
 }
 {
-"model" "*40"
+"model" "*39"
 "wait" "0"
 "targetname" "stage2_redspawn01_change_killredplayers"
 "StartDisabled" "1"
@@ -14237,7 +14155,7 @@ Revision: 19626
 "hammerid" "658497"
 }
 {
-"portalnumber" "40"
+"portalnumber" "39"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430318"
@@ -14254,7 +14172,7 @@ Revision: 19626
 "OnPass" "mspl_watcher3SetSpeedForwardModifier10-1"
 }
 {
-"model" "*41"
+"model" "*40"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14265,7 +14183,7 @@ Revision: 19626
 "hammerid" "1437778"
 }
 {
-"portalnumber" "41"
+"portalnumber" "40"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -14371,7 +14289,7 @@ Revision: 19626
 "hammerid" "859270"
 }
 {
-"model" "*42"
+"model" "*41"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -14423,7 +14341,7 @@ Revision: 19626
 "hammerid" "857660"
 }
 {
-"model" "*43"
+"model" "*42"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door04b"
@@ -14525,7 +14443,7 @@ Revision: 19626
 "hammerid" "859078"
 }
 {
-"model" "*44"
+"model" "*43"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -14537,7 +14455,7 @@ Revision: 19626
 "hammerid" "850008"
 }
 {
-"portalnumber" "42"
+"portalnumber" "41"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437795"
@@ -14554,7 +14472,7 @@ Revision: 19626
 "hammerid" "1436870"
 }
 {
-"model" "*45"
+"model" "*44"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -14600,7 +14518,7 @@ Revision: 19626
 "hammerid" "855590"
 }
 {
-"model" "*46"
+"model" "*45"
 "TeamNum" "3"
 "targetname" "stage2_bluespawn02"
 "StartDisabled" "0"
@@ -14621,7 +14539,7 @@ Revision: 19626
 "hammerid" "1701732"
 }
 {
-"model" "*47"
+"model" "*46"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -14670,7 +14588,7 @@ Revision: 19626
 "hammerid" "1610850"
 }
 {
-"portalnumber" "43"
+"portalnumber" "42"
 "target" "stage3_cap1_flankdoor02"
 "StartOpen" "0"
 "classname" "func_areaportal"
@@ -14752,44 +14670,11 @@ Revision: 19626
 "hammerid" "742502"
 }
 {
-"portalnumber" "44"
+"portalnumber" "43"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848927"
-}
-{
-"origin" "1954.59 5840 -6616"
-"targetname" "stage1_cap2_powerup_rail_prop"
-"StartDisabled" "0"
-"spawnflags" "0"
-"solid" "0"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"parentname" "stage1_cap2_powerup_rail"
-"modelscale" "1.0"
-"model" "models/props_barnblitz/track_switchflag_bb.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "700"
-"fademaxdist" "800"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "1"
-"angles" "0 180 -74"
-"classname" "prop_dynamic"
-"hammerid" "1705397"
 }
 {
 "origin" "-1328 641 8304"
@@ -14815,7 +14700,7 @@ Revision: 19626
 "hammerid" "860370"
 }
 {
-"portalnumber" "45"
+"portalnumber" "44"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437781"
@@ -14896,7 +14781,7 @@ Revision: 19626
 "hammerid" "856205"
 }
 {
-"model" "*48"
+"model" "*47"
 "TeamNum" "2"
 "targetname" "stage2_redspawn01"
 "StartDisabled" "0"
@@ -14908,7 +14793,7 @@ Revision: 19626
 "hammerid" "1123593"
 }
 {
-"model" "*49"
+"model" "*48"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door02"
@@ -15037,7 +14922,7 @@ Revision: 19626
 "hammerid" "1699873"
 }
 {
-"portalnumber" "46"
+"portalnumber" "45"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15168,7 +15053,7 @@ Revision: 19626
 "hammerid" "850814"
 }
 {
-"model" "*50"
+"model" "*49"
 "TeamNum" "2"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -15233,7 +15118,7 @@ Revision: 19626
 "hammerid" "1436249"
 }
 {
-"model" "*51"
+"model" "*50"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap3_arrows_screenarrow01_offblocker"
@@ -15279,7 +15164,7 @@ Revision: 19626
 "hammerid" "2271296"
 }
 {
-"model" "*52"
+"model" "*51"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15412,7 +15297,7 @@ Revision: 19626
 "hammerid" "1258091"
 }
 {
-"portalnumber" "47"
+"portalnumber" "46"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15441,7 +15326,7 @@ Revision: 19626
 "hammerid" "777702"
 }
 {
-"portalnumber" "48"
+"portalnumber" "47"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15534,7 +15419,7 @@ Revision: 19626
 "hammerid" "770145"
 }
 {
-"model" "*53"
+"model" "*52"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15626,7 +15511,7 @@ Revision: 19626
 "hammerid" "2271665"
 }
 {
-"model" "*54"
+"model" "*53"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window01"
@@ -15667,7 +15552,7 @@ Revision: 19626
 "OnPass" "stage2_path_122DisablePath0-1"
 }
 {
-"portalnumber" "49"
+"portalnumber" "48"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15685,7 +15570,7 @@ Revision: 19626
 "hammerid" "756208"
 }
 {
-"model" "*55"
+"model" "*54"
 "TeamNum" "2"
 "targetname" "stage3_redspawn01"
 "StartDisabled" "0"
@@ -15697,7 +15582,7 @@ Revision: 19626
 "hammerid" "1431101"
 }
 {
-"portalnumber" "50"
+"portalnumber" "49"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15715,7 +15600,7 @@ Revision: 19626
 "hammerid" "1440231"
 }
 {
-"model" "*56"
+"model" "*55"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -15798,7 +15683,7 @@ Revision: 19626
 "hammerid" "789294"
 }
 {
-"model" "*57"
+"model" "*56"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -15819,7 +15704,7 @@ Revision: 19626
 "hammerid" "859396"
 }
 {
-"portalnumber" "51"
+"portalnumber" "50"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -15881,7 +15766,7 @@ Revision: 19626
 "hammerid" "1433773"
 }
 {
-"model" "*58"
+"model" "*57"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -15932,7 +15817,7 @@ Revision: 19626
 "OnPass" "stage2_sightlineblocker01_doors01aClose0-1"
 }
 {
-"model" "*59"
+"model" "*58"
 "wait" "0"
 "targetname" "stage2_bluespawn02_door_triggers"
 "StartDisabled" "1"
@@ -15948,7 +15833,7 @@ Revision: 19626
 "OnEndTouchAll" "stage2_bluespawn02_door02Close0-1"
 }
 {
-"model" "*60"
+"model" "*59"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -15983,7 +15868,7 @@ Revision: 19626
 "hammerid" "618567"
 }
 {
-"portalnumber" "52"
+"portalnumber" "51"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439446"
@@ -16090,7 +15975,7 @@ Revision: 19626
 "angles" "0 90 0"
 "classname" "team_control_point"
 "hammerid" "38084"
-"OnCapTeam2" "mspl_pushzoneSetControlPointstage2_cap10-1"
+"OnCapTeam2" "mspl_pushzoneSetControlPointstage2_cap10.1-1"
 }
 {
 "origin" "2893 -1299 -336"
@@ -16115,7 +16000,7 @@ Revision: 19626
 "hammerid" "743093"
 }
 {
-"portalnumber" "53"
+"portalnumber" "52"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16176,7 +16061,7 @@ Revision: 19626
 "hammerid" "856023"
 }
 {
-"model" "*61"
+"model" "*60"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors02b"
 "speed" "100"
@@ -16231,7 +16116,7 @@ Revision: 19626
 "hammerid" "849354"
 }
 {
-"model" "*62"
+"model" "*61"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -16243,7 +16128,7 @@ Revision: 19626
 "hammerid" "1787219"
 }
 {
-"model" "*63"
+"model" "*62"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_redspawn01_resupply_signs_blocker02"
@@ -16304,7 +16189,7 @@ Revision: 19626
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 45 0"
-"classname" "item_ammopack_medium"
+"classname" "item_ammopack_small"
 "hammerid" "859297"
 }
 {
@@ -16377,7 +16262,7 @@ Revision: 19626
 "hammerid" "853734"
 }
 {
-"portalnumber" "54"
+"portalnumber" "53"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16406,11 +16291,11 @@ Revision: 19626
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_ammopack_medium"
+"classname" "item_ammopack_full"
 "hammerid" "1430720"
 }
 {
-"portalnumber" "55"
+"portalnumber" "54"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16490,7 +16375,7 @@ Revision: 19626
 "hammerid" "2925871"
 }
 {
-"model" "*64"
+"model" "*63"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -16539,7 +16424,7 @@ Revision: 19626
 "OnPass" "stage1_path_61DisablePath0-1"
 }
 {
-"portalnumber" "56"
+"portalnumber" "55"
 "TranslucencyLimit" "0.0"
 "target" "ap_window01"
 "PortalVersion" "1"
@@ -16559,7 +16444,7 @@ Revision: 19626
 "hammerid" "2925863"
 }
 {
-"portalnumber" "57"
+"portalnumber" "56"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16714,7 +16599,7 @@ Revision: 19626
 "hammerid" "777726"
 }
 {
-"portalnumber" "58"
+"portalnumber" "57"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -16786,7 +16671,7 @@ Revision: 19626
 "hammerid" "1436209"
 }
 {
-"model" "*65"
+"model" "*64"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -16831,7 +16716,7 @@ Revision: 19626
 "hammerid" "1435586"
 }
 {
-"model" "*66"
+"model" "*65"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door01"
@@ -16868,7 +16753,7 @@ Revision: 19626
 "hammerid" "2925735"
 }
 {
-"model" "*67"
+"model" "*66"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17076,7 +16961,7 @@ Revision: 19626
 "hammerid" "858812"
 }
 {
-"model" "*68"
+"model" "*67"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window02"
@@ -17092,20 +16977,20 @@ Revision: 19626
 "hammerid" "727551"
 }
 {
-"portalnumber" "59"
+"portalnumber" "58"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437807"
 }
 {
-"portalnumber" "60"
+"portalnumber" "59"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849100"
 }
 {
-"portalnumber" "61"
+"portalnumber" "60"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437809"
@@ -17138,7 +17023,7 @@ Revision: 19626
 "hammerid" "1103297"
 }
 {
-"portalnumber" "62"
+"portalnumber" "61"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17206,7 +17091,7 @@ Revision: 19626
 "OnPass" "mspl_watcher3SetSpeedForwardModifier0.60-1"
 }
 {
-"model" "*69"
+"model" "*68"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17235,34 +17120,6 @@ Revision: 19626
 "_light" "255 255 255 30"
 "classname" "light"
 "hammerid" "2925545"
-}
-{
-"origin" "3204 836 -178"
-"targetname" "stage2_cap2_arrows_door02_prop"
-"StartDisabled" "0"
-"spawnflags" "0"
-"solid" "0"
-"skin" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"parentname" "stage2_cap2_arrows_door02"
-"modelscale" "0.71"
-"model" "models/props_trainyard/train_billboard001.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"disableshadows" "1"
-"DisableBoneFollowers" "1"
-"angles" "0 225 0"
-"classname" "prop_dynamic"
-"hammerid" "1706493"
 }
 {
 "origin" "140 185.37 8304"
@@ -17329,7 +17186,7 @@ Revision: 19626
 "hammerid" "1437382"
 }
 {
-"portalnumber" "63"
+"portalnumber" "62"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17409,14 +17266,14 @@ Revision: 19626
 "hammerid" "1431546"
 }
 {
-"portalnumber" "64"
+"portalnumber" "63"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "854636"
 }
 {
-"portalnumber" "65"
+"portalnumber" "64"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437811"
@@ -17459,7 +17316,7 @@ Revision: 19626
 "OnPass" "stage1_fakecart_tracktrainSetSpeed0.20-1"
 }
 {
-"model" "*70"
+"model" "*69"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17483,7 +17340,7 @@ Revision: 19626
 "hammerid" "1437752"
 }
 {
-"model" "*71"
+"model" "*70"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -17512,7 +17369,7 @@ Revision: 19626
 "OnFullyOpen" "stage2_cap3_arrows_door01_propKill0-1"
 }
 {
-"model" "*72"
+"model" "*71"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -17549,7 +17406,7 @@ Revision: 19626
 "OnUser1" "current_skycameraKill0-1"
 }
 {
-"model" "*73"
+"model" "*72"
 "TeamNum" "3"
 "targetname" "stage3_bluespawn01"
 "StartDisabled" "0"
@@ -17587,7 +17444,7 @@ Revision: 19626
 "hammerid" "1437763"
 }
 {
-"model" "*74"
+"model" "*73"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17612,7 +17469,7 @@ Revision: 19626
 "hammerid" "861118"
 }
 {
-"model" "*75"
+"model" "*74"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_redspawn01_visualizer"
 "StartDisabled" "0"
@@ -17633,7 +17490,7 @@ Revision: 19626
 "hammerid" "471268"
 }
 {
-"portalnumber" "66"
+"portalnumber" "65"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -17668,7 +17525,7 @@ Revision: 19626
 "hammerid" "743375"
 }
 {
-"model" "*76"
+"model" "*75"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -17689,7 +17546,7 @@ Revision: 19626
 "hammerid" "2063818"
 }
 {
-"model" "*77"
+"model" "*76"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_blue"
 "StartDisabled" "1"
@@ -17727,7 +17584,7 @@ Revision: 19626
 "OnTrigger" "bot_nest_cap_b_1Disable0-1"
 }
 {
-"model" "*78"
+"model" "*77"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -17851,14 +17708,7 @@ Revision: 19626
 "hammerid" "2925375"
 }
 {
-"portalnumber" "67"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "849088"
-}
-{
-"model" "*79"
+"model" "*78"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -17969,7 +17819,7 @@ Revision: 19626
 "OnPass" "mspl_watcher3SetSpeedForwardModifier10-1"
 }
 {
-"model" "*80"
+"model" "*79"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door02"
@@ -18082,7 +17932,7 @@ Revision: 19626
 "hammerid" "1070230"
 }
 {
-"model" "*81"
+"model" "*80"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -18105,26 +17955,6 @@ Revision: 19626
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "1072322"
-}
-{
-"model" "*82"
-"vrad_brush_cast_shadows" "1"
-"texframeindex" "0"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-1328 512 8507"
-"invert_exclusion" "0"
-"effects" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_brush"
-"hammerid" "1430361"
 }
 {
 "origin" "3600 2256 -200"
@@ -18154,7 +17984,7 @@ Revision: 19626
 "hammerid" "853759"
 }
 {
-"portalnumber" "68"
+"portalnumber" "66"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439450"
@@ -18200,7 +18030,7 @@ Revision: 19626
 "hammerid" "1431065"
 }
 {
-"portalnumber" "69"
+"portalnumber" "67"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -18243,7 +18073,7 @@ Revision: 19626
 "hammerid" "553804"
 }
 {
-"model" "*83"
+"model" "*81"
 "WaveHeight" "3.0"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -18311,7 +18141,7 @@ Revision: 19626
 "hammerid" "1435303"
 }
 {
-"model" "*84"
+"model" "*82"
 "TeamNum" "3"
 "targetname" "stage2_bluespawn01"
 "StartDisabled" "0"
@@ -18337,7 +18167,7 @@ Revision: 19626
 "hammerid" "855458"
 }
 {
-"origin" "4976 512 -216"
+"origin" "4909 683 -216"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -18345,7 +18175,7 @@ Revision: 19626
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 315 0"
+"angles" "0 45 0"
 "classname" "item_healthkit_medium"
 "hammerid" "857923"
 }
@@ -18540,7 +18370,7 @@ Revision: 19626
 "hammerid" "1072409"
 }
 {
-"model" "*85"
+"model" "*83"
 "TeamNum" "2"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -18565,7 +18395,7 @@ Revision: 19626
 "OnPass" "mspl_flashinglightStop0-1"
 }
 {
-"model" "*86"
+"model" "*84"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -18586,7 +18416,7 @@ Revision: 19626
 "hammerid" "1440094"
 }
 {
-"model" "*87"
+"model" "*85"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door02"
@@ -18613,7 +18443,7 @@ Revision: 19626
 "hammerid" "1440027"
 }
 {
-"model" "*88"
+"model" "*86"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -18702,7 +18532,7 @@ Revision: 19626
 "hammerid" "2925106"
 }
 {
-"model" "*89"
+"model" "*87"
 "wait" "0"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -18867,19 +18697,6 @@ Revision: 19626
 "hammerid" "2924962"
 }
 {
-"origin" "5440 304 -424"
-"targetname" "stage2_pickups"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"modelscale" "1.0"
-"fadescale" "1.0"
-"fademindist" "-1"
-"AutoMaterialize" "1"
-"angles" "0 135 0"
-"classname" "item_healthkit_small"
-"hammerid" "859548"
-}
-{
 "origin" "2200 6583 -6204"
 "style" "0"
 "spawnflags" "0"
@@ -18927,7 +18744,7 @@ Revision: 19626
 "hammerid" "852211"
 }
 {
-"model" "*90"
+"model" "*88"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -18949,7 +18766,7 @@ Revision: 19626
 "hammerid" "1106018"
 }
 {
-"portalnumber" "70"
+"portalnumber" "68"
 "TranslucencyLimit" "0.0"
 "target" "ap_window02"
 "PortalVersion" "1"
@@ -18959,7 +18776,7 @@ Revision: 19626
 "hammerid" "727547"
 }
 {
-"portalnumber" "71"
+"portalnumber" "69"
 "TranslucencyLimit" "0.0"
 "target" "ap_window03"
 "PortalVersion" "1"
@@ -19021,7 +18838,7 @@ Revision: 19626
 "OnPass" "mspl_cartsparksStopSpark0-1"
 }
 {
-"model" "*91"
+"model" "*89"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -19041,7 +18858,7 @@ Revision: 19626
 "hammerid" "1795393"
 }
 {
-"model" "*92"
+"model" "*90"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door03"
@@ -19068,13 +18885,13 @@ Revision: 19626
 "hammerid" "859748"
 }
 {
-"portalnumber" "72"
+"portalnumber" "70"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "2033060"
 }
 {
-"portalnumber" "73"
+"portalnumber" "71"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -19197,7 +19014,7 @@ Revision: 19626
 "hammerid" "1151559"
 }
 {
-"portalnumber" "74"
+"portalnumber" "72"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437797"
@@ -19230,7 +19047,7 @@ Revision: 19626
 "hammerid" "441301"
 }
 {
-"model" "*93"
+"model" "*91"
 "vrad_brush_cast_shadows" "0"
 "volume" "10"
 "texframeindex" "0"
@@ -19293,7 +19110,7 @@ Revision: 19626
 "hammerid" "1412428"
 }
 {
-"portalnumber" "75"
+"portalnumber" "73"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -19313,7 +19130,7 @@ Revision: 19626
 "hammerid" "849831"
 }
 {
-"portalnumber" "76"
+"portalnumber" "74"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -19577,7 +19394,7 @@ Revision: 19626
 "hammerid" "2924854"
 }
 {
-"model" "*94"
+"model" "*92"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -19669,7 +19486,7 @@ Revision: 19626
 "OnTrigger" "stage2_sightlineblocker01_occluderActivate0-1"
 }
 {
-"model" "*95"
+"model" "*93"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage1_random_brushes"
@@ -19815,7 +19632,7 @@ Revision: 19626
 "OnTrigger" "bot_nest_cap_b_1Kill0-1"
 }
 {
-"model" "*96"
+"model" "*94"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -19872,7 +19689,7 @@ Revision: 19626
 "hammerid" "1071595"
 }
 {
-"model" "*97"
+"model" "*95"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door01"
@@ -19924,18 +19741,6 @@ Revision: 19626
 "OnPass" "stage2_path_110DisablePath0-1"
 }
 {
-"origin" "-2080 -44 8328"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"modelscale" "1.0"
-"fadescale" "1.0"
-"fademindist" "-1"
-"AutoMaterialize" "1"
-"angles" "0 0 0"
-"classname" "item_healthkit_small"
-"hammerid" "1431444"
-}
-{
 "origin" "1464 1092 -80"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -19954,7 +19759,7 @@ Revision: 19626
 "hammerid" "2924741"
 }
 {
-"model" "*98"
+"model" "*96"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -20032,7 +19837,7 @@ Revision: 19626
 "OnPass" "mspl_watcher2SetSpeedForwardModifier0.90-1"
 }
 {
-"model" "*99"
+"model" "*97"
 "TeamNum" "2"
 "targetname" "stage1_redspawn01"
 "StartDisabled" "0"
@@ -20088,7 +19893,7 @@ Revision: 19626
 "hammerid" "857810"
 }
 {
-"portalnumber" "77"
+"portalnumber" "75"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437813"
@@ -20151,7 +19956,7 @@ Revision: 19626
 "hammerid" "854824"
 }
 {
-"model" "*100"
+"model" "*98"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -20171,7 +19976,7 @@ Revision: 19626
 "hammerid" "2136201"
 }
 {
-"model" "*101"
+"model" "*99"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -20216,7 +20021,7 @@ Revision: 19626
 "hammerid" "2924689"
 }
 {
-"model" "*102"
+"model" "*100"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -20256,7 +20061,7 @@ Revision: 19626
 "hammerid" "1438037"
 }
 {
-"portalnumber" "78"
+"portalnumber" "76"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20300,7 +20105,7 @@ Revision: 19626
 "hammerid" "857488"
 }
 {
-"portalnumber" "79"
+"portalnumber" "77"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20354,7 +20159,7 @@ Revision: 19626
 "hammerid" "754982"
 }
 {
-"portalnumber" "80"
+"portalnumber" "78"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20433,7 +20238,7 @@ Revision: 19626
 "hammerid" "2924515"
 }
 {
-"portalnumber" "81"
+"portalnumber" "79"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439731"
@@ -20488,19 +20293,6 @@ Revision: 19626
 "hammerid" "748615"
 }
 {
-"origin" "3584 -272 48"
-"targetname" "stage2_pickups"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"modelscale" "1.0"
-"fadescale" "1.0"
-"fademindist" "-1"
-"AutoMaterialize" "1"
-"angles" "0 180 0"
-"classname" "item_healthkit_small"
-"hammerid" "856584"
-}
-{
 "origin" "3872 128 -336"
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
@@ -20510,7 +20302,7 @@ Revision: 19626
 "hammerid" "859761"
 }
 {
-"portalnumber" "82"
+"portalnumber" "80"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20605,7 +20397,7 @@ Revision: 19626
 "hammerid" "754184"
 }
 {
-"model" "*103"
+"model" "*101"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors01b"
 "speed" "100"
@@ -20628,7 +20420,7 @@ Revision: 19626
 "hammerid" "849308"
 }
 {
-"model" "*104"
+"model" "*102"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door02a"
@@ -20776,7 +20568,7 @@ Revision: 19626
 "hammerid" "1434564"
 }
 {
-"model" "*105"
+"model" "*103"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door02"
@@ -20854,7 +20646,7 @@ Revision: 19626
 "hammerid" "742131"
 }
 {
-"portalnumber" "83"
+"portalnumber" "81"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -20929,7 +20721,7 @@ Revision: 19626
 "hammerid" "2924208"
 }
 {
-"model" "*106"
+"model" "*104"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_door01"
@@ -20956,7 +20748,7 @@ Revision: 19626
 "hammerid" "859559"
 }
 {
-"portalnumber" "84"
+"portalnumber" "82"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21011,7 +20803,7 @@ Revision: 19626
 "hammerid" "857081"
 }
 {
-"portalnumber" "85"
+"portalnumber" "83"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21043,7 +20835,7 @@ Revision: 19626
 "_quadratic_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 1000"
+"_light" "255 255 255 1200"
 "_inner_cone" "30"
 "_exponent" "1"
 "_cone" "65"
@@ -21150,18 +20942,11 @@ Revision: 19626
 "hammerid" "2924023"
 }
 {
-"portalnumber" "86"
+"portalnumber" "84"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849092"
-}
-{
-"portalnumber" "87"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "848925"
 }
 {
 "origin" "-3574 6004 -5800"
@@ -21317,13 +21102,13 @@ Revision: 19626
 "hammerid" "2757260"
 }
 {
-"portalnumber" "88"
+"portalnumber" "85"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437783"
 }
 {
-"model" "*107"
+"model" "*105"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door01b"
@@ -21389,7 +21174,7 @@ Revision: 19626
 "hammerid" "2378091"
 }
 {
-"portalnumber" "89"
+"portalnumber" "86"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21442,11 +21227,11 @@ Revision: 19626
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 45 0"
-"classname" "item_healthkit_full"
+"classname" "item_healthkit_medium"
 "hammerid" "1437670"
 }
 {
-"portalnumber" "90"
+"portalnumber" "87"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -21660,7 +21445,7 @@ Revision: 19626
 "hammerid" "856121"
 }
 {
-"model" "*108"
+"model" "*106"
 "wait" "-1"
 "targetname" "stage3_secretbase_glacier_destroyed_silo_door01"
 "speed" "15"
@@ -21702,14 +21487,14 @@ Revision: 19626
 "hammerid" "662087"
 }
 {
-"portalnumber" "91"
+"portalnumber" "88"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "727862"
 }
 {
-"model" "*109"
+"model" "*107"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_redspawn01_door03_blocker"
@@ -21808,8 +21593,6 @@ Revision: 19626
 "OnTrigger" "stage2_bluespawn02_visualizerKill0-1"
 "OnTrigger" "stage2_bluespawn01_visualizerKill0-1"
 "OnTrigger" "stage2_cap2_arrows_screenarrow01_offblockerKill0-1"
-"OnTrigger" "stage2_cap2_arrows_door02Kill0-1"
-"OnTrigger" "stage2_cap2_arrows_door02_propKill0-1"
 "OnTrigger" "stage2_cap2_arrows_door01Kill0-1"
 "OnTrigger" "stage2_cap2_arrows_door01_propKill0-1"
 "OnTrigger" "stage2_random_triggersKill0-1"
@@ -21880,7 +21663,7 @@ Revision: 19626
 "hammerid" "860460"
 }
 {
-"model" "*110"
+"model" "*108"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_blue"
 "StartDisabled" "1"
@@ -21962,7 +21745,6 @@ Revision: 19626
 "OnTrigger" "stage2_bluespawn02_enable_relayTrigger0-1"
 "OnTrigger" "stage2_bluespawn01_disable_relayTrigger0-1"
 "OnTrigger" "stage2_cap2_arrows_door01Open0-1"
-"OnTrigger" "stage2_cap2_arrows_door02Open0-1"
 "OnTrigger" "stage2_cap2_arrows_screenarrow01_offblockerEnable0-1"
 "OnTrigger" "stage2_cap2_arrows_screenarrow02_offblockerKill0-1"
 "OnTrigger" "stage2_movingtrain_path_stopAddOutputOnPass stage2_movingtrain_stopmoving_relay:Trigger::0:-10-1"
@@ -22003,7 +21785,7 @@ Revision: 19626
 "hammerid" "789110"
 }
 {
-"model" "*111"
+"model" "*109"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer"
 "StartDisabled" "0"
@@ -22097,7 +21879,7 @@ Revision: 19626
 "hammerid" "1437461"
 }
 {
-"model" "*112"
+"model" "*110"
 "TeamNum" "3"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -22122,7 +21904,7 @@ Revision: 19626
 "hammerid" "1070411"
 }
 {
-"model" "*113"
+"model" "*111"
 "wait" "-1"
 "targetname" "stage3_secretbase_glacier_destroyed_silo_door02"
 "speed" "1.5"
@@ -22157,7 +21939,7 @@ Revision: 19626
 "hammerid" "742154"
 }
 {
-"model" "*114"
+"model" "*112"
 "TeamNum" "3"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22225,7 +22007,7 @@ Revision: 19626
 "hammerid" "1440081"
 }
 {
-"portalnumber" "92"
+"portalnumber" "89"
 "targetname" "stage1_cap1_doorflank01_areaportal"
 "StartOpen" "0"
 "PortalVersion" "1"
@@ -22233,7 +22015,7 @@ Revision: 19626
 "hammerid" "727872"
 }
 {
-"model" "*115"
+"model" "*113"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22283,7 +22065,7 @@ Revision: 19626
 "OnCapTeam2" "camera_stage2_B_RedDisable0-1"
 }
 {
-"portalnumber" "93"
+"portalnumber" "90"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -22344,7 +22126,7 @@ Revision: 19626
 "OnPass" "stage1_path_30DisablePath0-1"
 }
 {
-"model" "*116"
+"model" "*114"
 "wait" "-1"
 "targetname" "stage2_sightlineblocker01_doors02a"
 "speed" "100"
@@ -22406,7 +22188,7 @@ Revision: 19626
 "hammerid" "755764"
 }
 {
-"origin" "4944 480 -216"
+"origin" "4941 651 -216"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -22414,7 +22196,7 @@ Revision: 19626
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 315 0"
+"angles" "0 45 0"
 "classname" "item_ammopack_medium"
 "hammerid" "849859"
 }
@@ -22450,7 +22232,7 @@ Revision: 19626
 "hammerid" "1439943"
 }
 {
-"model" "*117"
+"model" "*115"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_cap2_flankdoor01"
@@ -22478,7 +22260,7 @@ Revision: 19626
 "OnFullyOpen" "nav_recomputeRecomputeBlockers1-1"
 }
 {
-"model" "*118"
+"model" "*116"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22493,7 +22275,7 @@ Revision: 19626
 "OnEndTouchAll" "stage3_redspawn01_door03Close0-1"
 }
 {
-"portalnumber" "94"
+"portalnumber" "91"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -22510,7 +22292,7 @@ Revision: 19626
 "hammerid" "1791247"
 }
 {
-"model" "*119"
+"model" "*117"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door02"
@@ -23001,7 +22783,7 @@ Revision: 19626
 "hammerid" "850017"
 }
 {
-"model" "*120"
+"model" "*118"
 "targetname" "mspl_dispenser"
 "spawnflags" "1"
 "parentname" "mspl_train"
@@ -23054,7 +22836,7 @@ Revision: 19626
 "hammerid" "707288"
 }
 {
-"model" "*121"
+"model" "*119"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "2stage_redspawn01_door01"
@@ -23081,7 +22863,7 @@ Revision: 19626
 "hammerid" "1438511"
 }
 {
-"model" "*122"
+"model" "*120"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door04"
@@ -23137,7 +22919,7 @@ Revision: 19626
 "hammerid" "1103809"
 }
 {
-"model" "*123"
+"model" "*121"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -23161,7 +22943,7 @@ Revision: 19626
 "hammerid" "1104551"
 }
 {
-"portalnumber" "95"
+"portalnumber" "92"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "776425"
@@ -23190,7 +22972,7 @@ Revision: 19626
 "hammerid" "1072336"
 }
 {
-"portalnumber" "96"
+"portalnumber" "93"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -23207,7 +22989,7 @@ Revision: 19626
 "hammerid" "2926151"
 }
 {
-"portalnumber" "97"
+"portalnumber" "94"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -23238,7 +23020,7 @@ Revision: 19626
 "hammerid" "1072385"
 }
 {
-"model" "*124"
+"model" "*122"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -23272,18 +23054,6 @@ Revision: 19626
 "angles" "0 0 0"
 "classname" "item_ammopack_medium"
 "hammerid" "1432014"
-}
-{
-"origin" "72 1376 8296"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"modelscale" "1.0"
-"fadescale" "1.0"
-"fademindist" "-1"
-"AutoMaterialize" "1"
-"angles" "0 0 0"
-"classname" "item_healthkit_small"
-"hammerid" "1430969"
 }
 {
 "origin" "3738 -3274 -256"
@@ -23385,14 +23155,14 @@ Revision: 19626
 "OnPass" "stage1_fakecart_sparksStopSpark0-1"
 }
 {
-"portalnumber" "98"
+"portalnumber" "95"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849078"
 }
 {
-"model" "*125"
+"model" "*123"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_endcap_woodbarrier_clip"
 "StartDisabled" "0"
@@ -23449,7 +23219,7 @@ Revision: 19626
 "OnTrigger" "stage2_bluespawn02_playerspawnsKill0.1-1"
 }
 {
-"portalnumber" "99"
+"portalnumber" "96"
 "TranslucencyLimit" "0"
 "target" "stage2_apwindow01"
 "PortalVersion" "1"
@@ -23522,7 +23292,7 @@ Revision: 19626
 "hammerid" "1431880"
 }
 {
-"model" "*126"
+"model" "*124"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage1_redspawn01_door02"
@@ -23549,7 +23319,7 @@ Revision: 19626
 "hammerid" "472483"
 }
 {
-"model" "*127"
+"model" "*125"
 "wait" "0"
 "targetname" "stage2_bluespawn01_door_triggers"
 "StartDisabled" "1"
@@ -23626,7 +23396,7 @@ Revision: 19626
 "hammerid" "1472756"
 }
 {
-"model" "*128"
+"model" "*126"
 "wait" "-1"
 "targetname" "stage3_cap1_flankdoor01"
 "speed" "10"
@@ -23679,14 +23449,14 @@ Revision: 19626
 "hammerid" "1380453"
 }
 {
-"portalnumber" "100"
+"portalnumber" "97"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849096"
 }
 {
-"model" "*129"
+"model" "*127"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_trainrail_doors_blocker"
 "StartDisabled" "1"
@@ -23726,14 +23496,14 @@ Revision: 19626
 "hammerid" "1258066"
 }
 {
-"portalnumber" "101"
+"portalnumber" "98"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848923"
 }
 {
-"model" "*130"
+"model" "*128"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap2_arrows_screenarrow02_offblocker"
@@ -23754,7 +23524,7 @@ Revision: 19626
 "hammerid" "1732007"
 }
 {
-"portalnumber" "102"
+"portalnumber" "99"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437791"
@@ -23770,7 +23540,7 @@ Revision: 19626
 "hammerid" "1380134"
 }
 {
-"model" "*131"
+"model" "*129"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -23795,7 +23565,7 @@ Revision: 19626
 "hammerid" "1439568"
 }
 {
-"model" "*132"
+"model" "*130"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door01"
@@ -23841,7 +23611,7 @@ Revision: 19626
 "hammerid" "440499"
 }
 {
-"model" "*133"
+"model" "*131"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -23873,7 +23643,7 @@ Revision: 19626
 "hammerid" "743213"
 }
 {
-"portalnumber" "103"
+"portalnumber" "100"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437839"
@@ -23897,7 +23667,7 @@ Revision: 19626
 "hammerid" "789483"
 }
 {
-"model" "*134"
+"model" "*132"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_sightlineblocker_flag_sign_door"
@@ -23925,7 +23695,7 @@ Revision: 19626
 "hammerid" "849279"
 }
 {
-"portalnumber" "104"
+"portalnumber" "101"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437815"
@@ -23945,7 +23715,7 @@ Revision: 19626
 "hammerid" "440507"
 }
 {
-"portalnumber" "105"
+"portalnumber" "102"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437644"
@@ -24016,7 +23786,7 @@ Revision: 19626
 "hammerid" "1430443"
 }
 {
-"portalnumber" "106"
+"portalnumber" "103"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24127,7 +23897,7 @@ Revision: 19626
 "hammerid" "1088973"
 }
 {
-"model" "*135"
+"model" "*133"
 "wheels" "50"
 "volume" "10"
 "velocitytype" "1"
@@ -24159,7 +23929,7 @@ Revision: 19626
 "hammerid" "1705067"
 }
 {
-"model" "*136"
+"model" "*134"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "ap_window03"
@@ -24185,7 +23955,7 @@ Revision: 19626
 "hammerid" "1430413"
 }
 {
-"model" "*137"
+"model" "*135"
 "targetname" "stage2_apwindow01"
 "rendermode" "0"
 "renderfx" "0"
@@ -24217,7 +23987,7 @@ Revision: 19626
 "hammerid" "2065202"
 }
 {
-"portalnumber" "107"
+"portalnumber" "104"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24260,20 +24030,20 @@ Revision: 19626
 "hammerid" "1438027"
 }
 {
-"portalnumber" "108"
+"portalnumber" "105"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849108"
 }
 {
-"portalnumber" "109"
+"portalnumber" "106"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437803"
 }
 {
-"portalnumber" "110"
+"portalnumber" "107"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24329,13 +24099,13 @@ Revision: 19626
 "OnCapTeam2" "camera_stage2_A_BlueDisable0-1"
 }
 {
-"portalnumber" "111"
+"portalnumber" "108"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437785"
 }
 {
-"portalnumber" "112"
+"portalnumber" "109"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437817"
@@ -24355,20 +24125,20 @@ Revision: 19626
 "hammerid" "859781"
 }
 {
-"portalnumber" "113"
+"portalnumber" "110"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776261"
 }
 {
-"portalnumber" "114"
+"portalnumber" "111"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437819"
 }
 {
-"model" "*138"
+"model" "*136"
 "TeamNum" "3"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
@@ -24380,7 +24150,7 @@ Revision: 19626
 "hammerid" "707328"
 }
 {
-"portalnumber" "115"
+"portalnumber" "112"
 "target" "stage3_cap1_flankdoor01"
 "StartOpen" "0"
 "classname" "func_areaportal"
@@ -24462,7 +24232,7 @@ Revision: 19626
 "hammerid" "1435423"
 }
 {
-"portalnumber" "116"
+"portalnumber" "113"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24479,20 +24249,20 @@ Revision: 19626
 "hammerid" "1433572"
 }
 {
-"portalnumber" "117"
+"portalnumber" "114"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "727841"
 }
 {
-"portalnumber" "118"
+"portalnumber" "115"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437821"
 }
 {
-"portalnumber" "119"
+"portalnumber" "116"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437823"
@@ -24512,16 +24282,19 @@ Revision: 19626
 "hammerid" "857836"
 }
 {
-"model" "*139"
-"wait" "0"
+"model" "*137"
 "targetname" "stage2_redspawn02_trainrail_dontgetstuck"
 "StartDisabled" "1"
-"spawnflags" "1"
-"origin" "3804 738 -80"
+"spawnflags" "3"
+"origin" "3796 746 -80"
+"nodmgforce" "1"
+"damagetype" "1"
+"damagemodel" "0"
+"damagecap" "20"
+"damage" "1000"
 "angles" "0 0 0"
-"classname" "trigger_multiple"
+"classname" "trigger_hurt"
 "hammerid" "848968"
-"OnTrigger" "!activatorSetHealth-10000-1"
 }
 {
 "origin" "0 -320 -13864"
@@ -24532,7 +24305,7 @@ Revision: 19626
 "hammerid" "1009493"
 }
 {
-"portalnumber" "120"
+"portalnumber" "117"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437825"
@@ -24594,7 +24367,7 @@ Revision: 19626
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 45 0"
-"classname" "item_ammopack_full"
+"classname" "item_ammopack_medium"
 "hammerid" "1430774"
 }
 {
@@ -24613,7 +24386,7 @@ Revision: 19626
 "hammerid" "777491"
 }
 {
-"portalnumber" "121"
+"portalnumber" "118"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -24634,13 +24407,13 @@ Revision: 19626
 "OnPass" "stage2_sightlineblocker01_dontgetstuckDisable0-1"
 }
 {
-"portalnumber" "122"
+"portalnumber" "119"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439448"
 }
 {
-"model" "*140"
+"model" "*138"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door03"
@@ -24681,14 +24454,14 @@ Revision: 19626
 "hammerid" "770030"
 }
 {
-"portalnumber" "123"
+"portalnumber" "120"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "848962"
 }
 {
-"model" "*141"
+"model" "*139"
 "TeamNum" "3"
 "targetname" "stage1_bluespawn01"
 "StartDisabled" "0"
@@ -24722,7 +24495,7 @@ Revision: 19626
 "hammerid" "860876"
 }
 {
-"model" "*142"
+"model" "*140"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_last_container_door01"
@@ -24907,7 +24680,7 @@ Revision: 19626
 "hammerid" "789155"
 }
 {
-"portalnumber" "124"
+"portalnumber" "121"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437793"
@@ -25002,11 +24775,11 @@ Revision: 19626
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_healthkit_medium"
+"classname" "item_healthkit_full"
 "hammerid" "1439003"
 }
 {
-"model" "*143"
+"model" "*141"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn02_visualizer"
 "StartDisabled" "1"
@@ -25039,14 +24812,14 @@ Revision: 19626
 "OnPass" "stage3_path_103EnablePath0-1"
 }
 {
-"portalnumber" "125"
+"portalnumber" "122"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776245"
 }
 {
-"model" "*144"
+"model" "*142"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_bluespawn01_visualizer"
 "StartDisabled" "0"
@@ -25128,6 +24901,7 @@ Revision: 19626
 "origin" "-283 4784 -6055"
 "targetname" "stage1_path_29"
 "target" "stage1_path_30"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -25135,7 +24909,7 @@ Revision: 19626
 "hammerid" "38049"
 }
 {
-"model" "*145"
+"model" "*143"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -25162,7 +24936,7 @@ Revision: 19626
 "OnFullyOpen" "stage1_bluespawn_doors01_propKill0-1"
 }
 {
-"model" "*146"
+"model" "*144"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -25188,7 +24962,7 @@ Revision: 19626
 "hammerid" "1104356"
 }
 {
-"model" "*147"
+"model" "*145"
 "TeamNum" "0"
 "targetname" "stage2_redspawn01_resupply02_trigger"
 "StartDisabled" "0"
@@ -25201,14 +24975,7 @@ Revision: 19626
 "OnEndTouchAll" "stage2_redspawn01_resupply02EnableCollision0-1"
 }
 {
-"portalnumber" "126"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "848948"
-}
-{
-"model" "*148"
+"model" "*146"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer"
 "StartDisabled" "0"
@@ -25229,13 +24996,13 @@ Revision: 19626
 "hammerid" "859263"
 }
 {
-"portalnumber" "127"
+"portalnumber" "123"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1430316"
 }
 {
-"model" "*149"
+"model" "*147"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator"
@@ -25380,7 +25147,7 @@ Revision: 19626
 "hammerid" "1437907"
 }
 {
-"origin" "2022 -138 -216"
+"origin" "2030 -134 -216"
 "targetname" "stage2_pickups"
 "rendercolor" "255 255 255"
 "renderamt" "255"
@@ -25438,7 +25205,7 @@ Revision: 19626
 "hammerid" "857452"
 }
 {
-"model" "*150"
+"model" "*148"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -25500,14 +25267,14 @@ Revision: 19626
 "hammerid" "1432789"
 }
 {
-"portalnumber" "128"
+"portalnumber" "124"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "776444"
 }
 {
-"model" "*151"
+"model" "*149"
 "wait" "0"
 "targetname" "stage2_redspawn01_door_triggers_red"
 "StartDisabled" "0"
@@ -25523,7 +25290,7 @@ Revision: 19626
 "OnStartTouchAll" "stage2_redspawn01_door01_propSetAnimationopen0-1"
 }
 {
-"model" "*152"
+"model" "*150"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -25593,7 +25360,7 @@ Revision: 19626
 "hammerid" "2923822"
 }
 {
-"model" "*153"
+"model" "*151"
 "wait" "0"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -25740,7 +25507,7 @@ Revision: 19626
 "hammerid" "1070834"
 }
 {
-"portalnumber" "129"
+"portalnumber" "125"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -25767,7 +25534,7 @@ Revision: 19626
 "hammerid" "1433480"
 }
 {
-"model" "*154"
+"model" "*152"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -25837,7 +25604,7 @@ Revision: 19626
 "hammerid" "1438255"
 }
 {
-"model" "*155"
+"model" "*153"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage1_redspawn01_door01"
@@ -25965,7 +25732,7 @@ Revision: 19626
 "hammerid" "2824058"
 }
 {
-"portalnumber" "130"
+"portalnumber" "126"
 "target" "stage2_cap2_flankdoor01"
 "StartOpen" "0"
 "PortalVersion" "1"
@@ -26009,7 +25776,7 @@ Revision: 19626
 "hammerid" "1430650"
 }
 {
-"model" "*156"
+"model" "*154"
 "wait" "0"
 "targetname" "stage2_random_triggers"
 "StartDisabled" "0"
@@ -26056,7 +25823,7 @@ Revision: 19626
 "hammerid" "1070857"
 }
 {
-"model" "*157"
+"model" "*155"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -26145,7 +25912,7 @@ Revision: 19626
 "hammerid" "658524"
 }
 {
-"portalnumber" "131"
+"portalnumber" "127"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26223,7 +25990,7 @@ Revision: 19626
 "hammerid" "1430453"
 }
 {
-"portalnumber" "132"
+"portalnumber" "128"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26291,6 +26058,7 @@ Revision: 19626
 "hammerid" "38046"
 "OnPass" "stage1_cap1_relayTrigger01"
 "OnPass" "mspl_cartsparksStopSpark0-1"
+"OnPass" "stage1_cap1SetOwner30.21"
 }
 {
 "origin" "1871.95 6104.25 -6208.71"
@@ -26312,7 +26080,7 @@ Revision: 19626
 "hammerid" "1180140"
 }
 {
-"model" "*158"
+"model" "*156"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn02_door01"
@@ -26438,7 +26206,7 @@ Revision: 19626
 "hammerid" "1070812"
 }
 {
-"model" "*159"
+"model" "*157"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -26478,7 +26246,7 @@ Revision: 19626
 "hammerid" "742525"
 }
 {
-"model" "*160"
+"model" "*158"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -26492,7 +26260,7 @@ Revision: 19626
 "hammerid" "1150274"
 }
 {
-"portalnumber" "133"
+"portalnumber" "129"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439112"
@@ -26554,7 +26322,7 @@ Revision: 19626
 "OnPass" "stage2_path_101DisablePath0-1"
 }
 {
-"portalnumber" "134"
+"portalnumber" "130"
 "targetname" "stage2_trainrail_shutters_areaportal"
 "StartOpen" "1"
 "PortalVersion" "1"
@@ -26572,7 +26340,7 @@ Revision: 19626
 "_light" "253 243 208 800"
 "_AmbientScaleHDR" "1"
 "_ambientHDR" "-1 -1 -1 1"
-"_ambient" "124 138 203 350"
+"_ambient" "124 138 203 400"
 "classname" "light_environment"
 "hammerid" "737130"
 }
@@ -26645,7 +26413,8 @@ Revision: 19626
 "angles" "0 0 0"
 "classname" "team_control_point"
 "hammerid" "38061"
-"OnCapTeam2" "mspl_pushzoneSetControlPointstage1_cap20-1"
+"OnCapTeam2" "mspl_pushzoneSetControlPointstage1_cap20.1-1"
+"OnCapTeam2" "stage1_path_27DisablePath0-1"
 }
 {
 "origin" "-344 4728 -6040"
@@ -26655,13 +26424,11 @@ Revision: 19626
 "hammerid" "627601"
 "OnTrigger" "stage1_cap1_doorflank01Open0-1"
 "OnTrigger" "stage1_cap1_doorflank01_areaportalOpen0-1"
-"OnTrigger" "stage1_cap1SetOwner30.11"
-"OnTrigger" "mspl_capturebellPlaySound01"
-"OnTrigger" "mspl_pushzoneCaptureCurrentCP01"
-"OnTrigger" "stage1_path_27DisablePath01"
-"OnTrigger" "mspl_timerAddTeamTime3 36001"
+"OnTrigger" "mspl_capturebellPlaySound0-1"
+"OnTrigger" "mspl_pushzoneCaptureCurrentCP0-1"
+"OnTrigger" "mspl_timerAddTeamTime3 3600-1"
 "OnTrigger" "mspl_cartsparksStopSpark0-1"
-"OnTrigger" "stage1_cap1_modelSkin101"
+"OnTrigger" "stage1_cap1_modelSkin10-1"
 "OnTrigger" "camera_stage1_A_redDisable0-1"
 "OnTrigger" "camera_stage1_B_redEnable0-1"
 "OnTrigger" "camera_stage1_B_blueEnable0-1"
@@ -26752,7 +26519,7 @@ Revision: 19626
 "hammerid" "1429941"
 }
 {
-"model" "*161"
+"model" "*159"
 "wait" "0"
 "targetname" "stage2_bluespawn02_door_triggers"
 "StartDisabled" "1"
@@ -26768,7 +26535,7 @@ Revision: 19626
 "OnEndTouchAll" "stage2_bluespawn02_door01Close0-1"
 }
 {
-"portalnumber" "135"
+"portalnumber" "131"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1439444"
@@ -26819,7 +26586,7 @@ Revision: 19626
 "hammerid" "856912"
 }
 {
-"model" "*162"
+"model" "*160"
 "wait" "-1"
 "targetname" "stage3_cap1_flankdoor02"
 "speed" "10"
@@ -26887,7 +26654,7 @@ Revision: 19626
 "hammerid" "756433"
 }
 {
-"model" "*163"
+"model" "*161"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door03a"
@@ -26939,6 +26706,7 @@ Revision: 19626
 "origin" "-399 4784 -6055"
 "targetname" "stage1_path_27"
 "target" "stage1_path_28"
+"spawnflags" "0"
 "orientationtype" "1"
 "model" "models/empty.mdl"
 "angles" "0 0 0"
@@ -26957,12 +26725,12 @@ Revision: 19626
 "hammerid" "742870"
 }
 {
-"model" "*164"
+"model" "*162"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
-"Solidity" "2"
+"Solidity" "1"
 "solidbsp" "0"
 "rendermode" "0"
 "renderfx" "0"
@@ -26987,7 +26755,7 @@ Revision: 19626
 "hammerid" "1437927"
 }
 {
-"model" "*165"
+"model" "*163"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -27008,7 +26776,7 @@ Revision: 19626
 "hammerid" "1123189"
 }
 {
-"model" "*166"
+"model" "*164"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn01_door03"
@@ -27035,7 +26803,7 @@ Revision: 19626
 "hammerid" "1123192"
 }
 {
-"model" "*167"
+"model" "*165"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -27168,7 +26936,7 @@ Revision: 19626
 "hammerid" "1071016"
 }
 {
-"model" "*168"
+"model" "*166"
 "targetname" "stage2_bluespawn02_door_blockers"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -27186,7 +26954,7 @@ Revision: 19626
 "hammerid" "856261"
 }
 {
-"model" "*169"
+"model" "*167"
 "targetname" "stage1_random_triggers"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -27252,7 +27020,7 @@ Revision: 19626
 "hammerid" "1430567"
 }
 {
-"model" "*170"
+"model" "*168"
 "WaveHeight" "3.0"
 "startposition" "0"
 "speed" "100"
@@ -27340,7 +27108,7 @@ Revision: 19626
 "hammerid" "696649"
 }
 {
-"model" "*171"
+"model" "*169"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -27367,7 +27135,7 @@ Revision: 19626
 "OnFullyOpen" "stage1_bluespawn_doors02_propKill0-1"
 }
 {
-"model" "*172"
+"model" "*170"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator_detail"
@@ -27389,7 +27157,7 @@ Revision: 19626
 "hammerid" "768743"
 }
 {
-"model" "*173"
+"model" "*171"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_redspawn01_door03"
@@ -27416,7 +27184,7 @@ Revision: 19626
 "hammerid" "1438647"
 }
 {
-"model" "*174"
+"model" "*172"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn02_door02"
@@ -27464,7 +27232,7 @@ Revision: 19626
 "hammerid" "1088198"
 }
 {
-"model" "*175"
+"model" "*173"
 "TeamNum" "2"
 "targetname" "stage2_redspawn02"
 "StartDisabled" "0"
@@ -27570,7 +27338,7 @@ Revision: 19626
 "hammerid" "859630"
 }
 {
-"portalnumber" "136"
+"portalnumber" "132"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -27601,14 +27369,14 @@ Revision: 19626
 "hammerid" "857827"
 }
 {
-"portalnumber" "137"
+"portalnumber" "133"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849051"
 }
 {
-"model" "*176"
+"model" "*174"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage1_mine_elevator_descend_clip"
@@ -27725,7 +27493,7 @@ Revision: 19626
 "hammerid" "1068229"
 }
 {
-"model" "*177"
+"model" "*175"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage3_bluespawn01_door03b"
@@ -27766,7 +27534,7 @@ Revision: 19626
 "hammerid" "850434"
 }
 {
-"model" "*178"
+"model" "*176"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage1_redspawn01_visualizer"
 "StartDisabled" "0"
@@ -27818,7 +27586,7 @@ Revision: 19626
 "OnPass" "stage2_last_container_door01SetSpeed152-1"
 }
 {
-"model" "*179"
+"model" "*177"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_redspawn02_trainrail_door01"
@@ -27848,7 +27616,7 @@ Revision: 19626
 "hammerid" "855638"
 }
 {
-"portalnumber" "138"
+"portalnumber" "134"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437801"
@@ -27867,7 +27635,7 @@ Revision: 19626
 "hammerid" "1071640"
 }
 {
-"model" "*180"
+"model" "*178"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "stage2_bluespawn01_door03b"
@@ -27894,38 +27662,38 @@ Revision: 19626
 "hammerid" "857789"
 }
 {
-"portalnumber" "139"
+"portalnumber" "135"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437805"
 }
 {
-"portalnumber" "140"
+"portalnumber" "136"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437837"
 }
 {
-"portalnumber" "141"
+"portalnumber" "137"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "849065"
 }
 {
-"portalnumber" "142"
+"portalnumber" "138"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437835"
 }
 {
-"portalnumber" "143"
+"portalnumber" "139"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437833"
 }
 {
-"model" "*181"
+"model" "*179"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage3_redspawn01_visualizers"
 "StartDisabled" "0"
@@ -27959,7 +27727,7 @@ Revision: 19626
 "hammerid" "856498"
 }
 {
-"model" "*182"
+"model" "*180"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_water_analogs"
@@ -28015,13 +27783,13 @@ Revision: 19626
 "OnCapTeam2" "mspl_pushzoneSetControlPointstage3_cap101"
 }
 {
-"portalnumber" "144"
+"portalnumber" "140"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437831"
 }
 {
-"portalnumber" "145"
+"portalnumber" "141"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437829"
@@ -28136,13 +27904,13 @@ Revision: 19626
 "OnStart" "mspl_cartEnable0-1"
 }
 {
-"portalnumber" "146"
+"portalnumber" "142"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "1437827"
 }
 {
-"portalnumber" "147"
+"portalnumber" "143"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -28176,7 +27944,7 @@ Revision: 19626
 "hammerid" "1732577"
 }
 {
-"model" "*183"
+"model" "*181"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -29726,7 +29494,7 @@ Revision: 19626
 "hammerid" "3152277"
 }
 {
-"model" "*184"
+"model" "*182"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -29747,7 +29515,7 @@ Revision: 19626
 "hammerid" "3153029"
 }
 {
-"model" "*185"
+"model" "*183"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "rendermode" "0"
@@ -29760,21 +29528,6 @@ Revision: 19626
 "angles" "0 0 0"
 "classname" "func_illusionary"
 "hammerid" "3153222"
-}
-{
-"model" "*186"
-"vrad_brush_cast_shadows" "0"
-"texframeindex" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "-1136 960 8368"
-"effects" "0"
-"disablereceiveshadows" "1"
-"angles" "0 0 0"
-"classname" "func_illusionary"
-"hammerid" "3181668"
 }
 {
 "origin" "256 3816 7848"
@@ -29800,7 +29553,7 @@ Revision: 19626
 "hammerid" "3182794"
 }
 {
-"occludernumber" "36"
+"occludernumber" "34"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -29831,7 +29584,7 @@ Revision: 19626
 "hammerid" "3217595"
 }
 {
-"model" "*187"
+"model" "*184"
 "StartDisabled" "0"
 "SpeedMax" "6"
 "SpawnRate" "15"
@@ -29873,7 +29626,7 @@ Revision: 19626
 "hammerid" "3283047"
 }
 {
-"model" "*188"
+"model" "*185"
 "wheels" "1024"
 "volume" "10"
 "velocitytype" "1"
@@ -29905,7 +29658,7 @@ Revision: 19626
 "hammerid" "3283051"
 }
 {
-"model" "*189"
+"model" "*186"
 "StartDisabled" "0"
 "spawnflags" "1099"
 "parentname" "stage2_movingtrain_tracktrain"
@@ -29919,7 +29672,7 @@ Revision: 19626
 "hammerid" "3283059"
 }
 {
-"model" "*190"
+"model" "*187"
 "wait" "6"
 "StartDisabled" "0"
 "spawnflags" "3"
@@ -30462,9 +30215,10 @@ Revision: 19626
 "OnTrigger" "stage2_movingtrain_signal_sprite02_lightTurnOff0-1"
 "OnTrigger" "stage2_redspawn02_visualizer_traindoorKill8-1"
 "OnTrigger" "stage2_movingtrain_signal_sprite01_lightTurnOff0-1"
+"OnTrigger" "nav_avoid1Enable0.5-1"
 }
 {
-"model" "*191"
+"model" "*188"
 "wheels" "1024"
 "volume" "10"
 "velocitytype" "1"
@@ -30844,7 +30598,7 @@ Revision: 19626
 "OnTrigger" "stage2_movingtrain_visualizersKill10-1"
 }
 {
-"model" "*192"
+"model" "*189"
 "TeamNum" "0"
 "targetname" "stage2_movingtrain_nobuild"
 "StartDisabled" "0"
@@ -31114,7 +30868,7 @@ Revision: 19626
 "hammerid" "3412512"
 }
 {
-"model" "*193"
+"model" "*190"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -31152,7 +30906,7 @@ Revision: 19626
 "OnFullyOpen" "nav_recomputeRecomputeBlockers1-1"
 "OnFullyClosed" "nav_recomputeRecomputeBlockers1-1"
 "OnFullyOpen" "stage2_redspawn02_trainrail_dontgetstuckEnable0-1"
-"OnFullyOpen" "stage2_redspawn02_trainrail_dontgetstuckKill0.1-1"
+"OnFullyOpen" "stage2_redspawn02_trainrail_dontgetstuckKill2-1"
 }
 {
 "origin" "3776 768 -80"
@@ -31162,7 +30916,7 @@ Revision: 19626
 "hammerid" "3412592"
 }
 {
-"model" "*194"
+"model" "*191"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_stopped_platformbrush"
@@ -31183,7 +30937,7 @@ Revision: 19626
 "hammerid" "3441541"
 }
 {
-"model" "*195"
+"model" "*192"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_stopped_platformbrush"
@@ -31204,7 +30958,7 @@ Revision: 19626
 "hammerid" "3441551"
 }
 {
-"model" "*196"
+"model" "*193"
 "wait" "0"
 "targetname" "stage2_movingtrain_stopped_dontgetstuck"
 "StartDisabled" "1"
@@ -31344,7 +31098,7 @@ Revision: 19626
 "hammerid" "3442171"
 }
 {
-"model" "*197"
+"model" "*194"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_bluespawn02_signs_blocker"
@@ -31365,7 +31119,7 @@ Revision: 19626
 "hammerid" "3443005"
 }
 {
-"model" "*198"
+"model" "*195"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -31388,7 +31142,7 @@ Revision: 19626
 "hammerid" "3445744"
 }
 {
-"model" "*199"
+"model" "*196"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -31540,7 +31294,7 @@ Revision: 19626
 "hammerid" "3480898"
 }
 {
-"model" "*200"
+"model" "*197"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -31561,7 +31315,7 @@ Revision: 19626
 "hammerid" "3547258"
 }
 {
-"model" "*201"
+"model" "*198"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "targetname" "stage2_random_brushes"
@@ -31617,7 +31371,7 @@ Revision: 19626
 "hammerid" "3547929"
 }
 {
-"model" "*202"
+"model" "*199"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -31637,7 +31391,7 @@ Revision: 19626
 "hammerid" "3548094"
 }
 {
-"model" "*203"
+"model" "*200"
 "vrad_brush_cast_shadows" "1"
 "texframeindex" "0"
 "StartDisabled" "0"
@@ -31731,7 +31485,7 @@ Revision: 19626
 "hammerid" "3282911"
 }
 {
-"occludernumber" "37"
+"occludernumber" "35"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -31739,7 +31493,7 @@ Revision: 19626
 "hammerid" "3739323"
 }
 {
-"occludernumber" "38"
+"occludernumber" "36"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
@@ -31768,7 +31522,7 @@ Revision: 19626
 "hammerid" "3740486"
 }
 {
-"occludernumber" "39"
+"occludernumber" "37"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -31792,7 +31546,7 @@ Revision: 19626
 "hammerid" "3744753"
 }
 {
-"occludernumber" "40"
+"occludernumber" "38"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -31800,7 +31554,7 @@ Revision: 19626
 "hammerid" "3802366"
 }
 {
-"model" "*204"
+"model" "*201"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "4258 146 -80"
@@ -31814,7 +31568,7 @@ Revision: 19626
 "hammerid" "3802617"
 }
 {
-"model" "*205"
+"model" "*202"
 "targetname" "stage2_redspawn01_disable_teleport"
 "target" "stage2_redspawn01_disable_teleport_dest"
 "StartDisabled" "1"
@@ -31835,7 +31589,7 @@ Revision: 19626
 "hammerid" "3802727"
 }
 {
-"occludernumber" "41"
+"occludernumber" "39"
 "model" ""
 "targetname" "stage1_occluders"
 "StartActive" "1"
@@ -31843,7 +31597,7 @@ Revision: 19626
 "hammerid" "3011319"
 }
 {
-"model" "*206"
+"model" "*203"
 "StartDisabled" "0"
 "SpeedMax" "12"
 "SpawnRate" "50"
@@ -31889,7 +31643,7 @@ Revision: 19626
 "hammerid" "3860378"
 }
 {
-"model" "*207"
+"model" "*204"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -31910,7 +31664,7 @@ Revision: 19626
 "hammerid" "3891868"
 }
 {
-"model" "*208"
+"model" "*205"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "startposition" "0.0"
@@ -32025,13 +31779,13 @@ Revision: 19626
 "hammerid" "3896359"
 }
 {
-"portalnumber" "148"
+"portalnumber" "144"
 "StartOpen" "1"
 "classname" "func_areaportal"
 "hammerid" "3898633"
 }
 {
-"model" "*209"
+"model" "*206"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_movingtrain_visualizers"
@@ -32064,7 +31818,7 @@ Revision: 19626
 "hammerid" "3944331"
 }
 {
-"model" "*210"
+"model" "*207"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stage2_redspawn02_visualizer_traindoor"
 "StartDisabled" "0"
@@ -32403,7 +32157,7 @@ Revision: 19626
 "OnPass" "stage3_fakecart_propEnable0-1"
 }
 {
-"model" "*211"
+"model" "*208"
 "targetname" "stage3_fakecart_hurt"
 "StartDisabled" "1"
 "spawnflags" "3"
@@ -32419,7 +32173,7 @@ Revision: 19626
 "hammerid" "3944855"
 }
 {
-"model" "*212"
+"model" "*209"
 "wheels" "0"
 "volume" "10"
 "velocitytype" "1"
@@ -32522,7 +32276,7 @@ Revision: 19626
 "hammerid" "488800"
 }
 {
-"model" "*213"
+"model" "*210"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -32604,7 +32358,7 @@ Revision: 19626
 "hammerid" "3945746"
 }
 {
-"model" "*214"
+"model" "*211"
 "wait" "0"
 "targetname" "mspl_flashinglight_trigger"
 "spawnflags" "1"
@@ -32629,7 +32383,7 @@ Revision: 19626
 "hammerid" "3947733"
 }
 {
-"model" "*215"
+"model" "*212"
 "TeamNum" "2"
 "targetname" "stage2_redspawn01_deletestickies"
 "StartDisabled" "0"
@@ -33926,11 +33680,11 @@ Revision: 19626
 "hammerid" "4138330"
 }
 {
-"origin" "4938 602 -222"
+"origin" "4976 592 -222"
 "TeamNum" "2"
 "targetname" "bot_nest_cap_d_2"
 "StartDisabled" "1"
-"angles" "0 225 0"
+"angles" "0 135 0"
 "classname" "bot_hint_teleporter_exit"
 "hammerid" "4138332"
 }
@@ -33953,7 +33707,7 @@ Revision: 19626
 "hammerid" "4138336"
 }
 {
-"origin" "6054.88 234.658 -444"
+"origin" "6080 256 -444"
 "TeamNum" "3"
 "targetname" "bot_nest_cap_d_2"
 "StartDisabled" "1"
@@ -34108,7 +33862,7 @@ Revision: 19626
 "hammerid" "4273453"
 }
 {
-"model" "*216"
+"model" "*213"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "targetname" "stage2_cap3_arrow_break"
@@ -34179,7 +33933,7 @@ Revision: 19626
 "hammerid" "4277889"
 }
 {
-"model" "*217"
+"model" "*214"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "3056 -3856 -240"
@@ -34190,7 +33944,7 @@ Revision: 19626
 "OnStartTouch" "!activatorExtinguishPlayer0-1"
 }
 {
-"portalnumber" "149"
+"portalnumber" "145"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -34312,7 +34066,7 @@ Revision: 19626
 "hammerid" "4320453"
 }
 {
-"model" "*218"
+"model" "*215"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -34324,7 +34078,7 @@ Revision: 19626
 "hammerid" "4358405"
 }
 {
-"model" "*219"
+"model" "*216"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -34352,7 +34106,7 @@ Revision: 19626
 "hammerid" "4389601"
 }
 {
-"model" "*220"
+"model" "*217"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "3056 -3856 -240"
@@ -34362,7 +34116,7 @@ Revision: 19626
 "hammerid" "4389847"
 }
 {
-"model" "*221"
+"model" "*218"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "3056 -3856 -240"
@@ -34448,17 +34202,17 @@ Revision: 19626
 "hammerid" "4421660"
 }
 {
-"origin" "4894 -960 -112"
+"origin" "4894 -960 -96"
 "targetname" "bird_particles"
 "start_active" "0"
 "parentname" "bird_train"
-"effect_name" "unusual_meteor_shower_parent_orange"
+"effect_name" "unusual_storm_knives"
 "angles" "0 0 0"
 "classname" "info_particle_system"
 "hammerid" "4421696"
 }
 {
-"model" "*222"
+"model" "*219"
 "wheels" "100"
 "vrad_brush_cast_shadows" "0"
 "volume" "10"
@@ -34570,7 +34324,7 @@ Revision: 19626
 "hammerid" "4422084"
 }
 {
-"model" "*223"
+"model" "*220"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "4832 -912 -72"
@@ -34626,7 +34380,7 @@ Revision: 19626
 "hammerid" "4423324"
 }
 {
-"model" "*224"
+"model" "*221"
 "teamToBlock" "-1"
 "origin" "248 2224 7936"
 "angles" "0 0 0"
@@ -34635,7 +34389,7 @@ Revision: 19626
 "hammerid" "4423809"
 }
 {
-"occludernumber" "42"
+"occludernumber" "40"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -34643,7 +34397,7 @@ Revision: 19626
 "hammerid" "4487336"
 }
 {
-"model" "*225"
+"model" "*222"
 "team" "-2"
 "targetname" "nav_avoid1"
 "tags" "scout soldier pyro demoman heavyweapons engineer medic sniper spy"
@@ -34660,7 +34414,7 @@ Revision: 19626
 "hammerid" "4487480"
 }
 {
-"occludernumber" "43"
+"occludernumber" "41"
 "model" ""
 "targetname" "stage2_occluders"
 "StartActive" "1"
@@ -34699,7 +34453,7 @@ Revision: 19626
 "hammerid" "4615533"
 }
 {
-"model" "*226"
+"model" "*223"
 "wait" "0"
 "targetname" "stage2_cap3_shortcut_door_dontgetstuck"
 "StartDisabled" "1"
@@ -34711,7 +34465,7 @@ Revision: 19626
 "OnTrigger" "!activatorSetHealth-10000-1"
 }
 {
-"model" "*227"
+"model" "*224"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -34725,7 +34479,7 @@ Revision: 19626
 "hammerid" "4678263"
 }
 {
-"model" "*228"
+"model" "*225"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -34739,7 +34493,7 @@ Revision: 19626
 "hammerid" "4678395"
 }
 {
-"model" "*229"
+"model" "*226"
 "wait" "-1"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
@@ -34763,5 +34517,391 @@ Revision: 19626
 "angles" "0 0 0"
 "classname" "func_door"
 "hammerid" "4678470"
+}
+{
+"origin" "-2080 -44 8328"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"modelscale" "1.0"
+"fadescale" "1.0"
+"fademindist" "-1"
+"AutoMaterialize" "1"
+"angles" "0 0 0"
+"classname" "item_healthkit_medium"
+"hammerid" "4741343"
+}
+{
+"origin" "5440 304 -424"
+"targetname" "stage2_pickups"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"modelscale" "1.0"
+"fadescale" "1.0"
+"fademindist" "-1"
+"AutoMaterialize" "1"
+"angles" "0 135 0"
+"classname" "item_healthkit_medium"
+"hammerid" "4741362"
+}
+{
+"portalnumber" "146"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773120"
+}
+{
+"portalnumber" "147"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773124"
+}
+{
+"portalnumber" "148"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773143"
+}
+{
+"portalnumber" "149"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773146"
+}
+{
+"portalnumber" "150"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773154"
+}
+{
+"portalnumber" "151"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773210"
+}
+{
+"portalnumber" "152"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773235"
+}
+{
+"portalnumber" "153"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773250"
+}
+{
+"portalnumber" "154"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4773293"
+}
+{
+"portalnumber" "155"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4836074"
+}
+{
+"origin" "1954.64 5832.06 -6598.79"
+"texframeindex" "0"
+"targetname" "stage1_cap2_powerup_rail_prop"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"physdamagescale" "1.0"
+"PerformanceMode" "0"
+"parentname" "stage1_cap2_powerup_rail"
+"modelscale" "1.0"
+"model" "models/props_wasteland/tram_lever01.mdl"
+"minhealthdmg" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1.0"
+"fademindist" "-1"
+"effects" "0"
+"disableshadows" "1"
+"DisableBoneFollowers" "1"
+"body" "0"
+"angles" "30 270 0"
+"classname" "prop_dynamic"
+"hammerid" "4836555"
+}
+{
+"occludernumber" "42"
+"model" ""
+"targetname" "stage1_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4839645"
+}
+{
+"origin" "-524 -102 8328"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"modelscale" "1.0"
+"fadescale" "1.0"
+"fademindist" "-1"
+"AutoMaterialize" "1"
+"angles" "0 0 0"
+"classname" "item_ammopack_full"
+"hammerid" "4840171"
+}
+{
+"occludernumber" "43"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4872101"
+}
+{
+"portalnumber" "156"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872184"
+}
+{
+"portalnumber" "157"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872189"
+}
+{
+"portalnumber" "158"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872191"
+}
+{
+"portalnumber" "159"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872193"
+}
+{
+"portalnumber" "160"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872578"
+}
+{
+"portalnumber" "161"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872585"
+}
+{
+"portalnumber" "162"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872594"
+}
+{
+"portalnumber" "163"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872755"
+}
+{
+"portalnumber" "164"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872760"
+}
+{
+"portalnumber" "165"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4872778"
+}
+{
+"occludernumber" "44"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4872813"
+}
+{
+"occludernumber" "45"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4872842"
+}
+{
+"occludernumber" "46"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4904257"
+}
+{
+"occludernumber" "47"
+"model" ""
+"targetname" "stage2_occluders"
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4912975"
+}
+{
+"occludernumber" "48"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4913370"
+}
+{
+"origin" "2296 728 -320"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 1000"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "80"
+"classname" "light_spot"
+"hammerid" "2032069"
+}
+{
+"origin" "2296 728 -336"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 75"
+"classname" "light"
+"hammerid" "2032077"
+}
+{
+"origin" "64 1376 8296"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"modelscale" "1.0"
+"fadescale" "1.0"
+"fademindist" "-1"
+"AutoMaterialize" "1"
+"angles" "0 0 0"
+"classname" "item_healthkit_full"
+"hammerid" "1430969"
+}
+{
+"origin" "-476 -102 8328"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"modelscale" "1.0"
+"fadescale" "1.0"
+"fademindist" "-1"
+"AutoMaterialize" "1"
+"angles" "0 0 0"
+"classname" "item_healthkit_medium"
+"hammerid" "4914282"
+}
+{
+"model" "*227"
+"vrad_brush_cast_shadows" "0"
+"texframeindex" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "-448 1136 8368"
+"effects" "0"
+"disablereceiveshadows" "1"
+"angles" "0 0 0"
+"classname" "func_illusionary"
+"hammerid" "4945947"
+}
+{
+"portalnumber" "166"
+"StartOpen" "1"
+"classname" "func_areaportal"
+"hammerid" "4946479"
+}
+{
+"occludernumber" "49"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "4946502"
+}
+{
+"origin" "5057 399 32"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 400"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "60"
+"classname" "light_spot"
+"hammerid" "5207955"
+}
+{
+"origin" "5057 399 8"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 20"
+"classname" "light"
+"hammerid" "5207978"
+}
+{
+"origin" "5199 257 8"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 20"
+"classname" "light"
+"hammerid" "5207995"
+}
+{
+"origin" "5199 257 32"
+"angles" "-90 0 0"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 400"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "60"
+"classname" "light_spot"
+"hammerid" "5208002"
+}
+{
+"model" "*228"
+"StartDisabled" "0"
+"speed" "200"
+"spawnflags" "1"
+"pushdir" "90 0 0"
+"origin" "-268 3500 -6032"
+"angles" "0 0 0"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "5462821"
+}
+{
+"model" "*229"
+"StartDisabled" "0"
+"speed" "200"
+"spawnflags" "1"
+"pushdir" "0 270 0"
+"origin" "-268 3500 -6032"
+"angles" "0 0 0"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "5462917"
 }
  

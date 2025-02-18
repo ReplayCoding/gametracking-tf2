@@ -1,4 +1,5 @@
 _IO_stdin_used
+_Z10GetExePathPcm
 __TMC_END__
 __bss_start
 __data_start
@@ -7,6 +8,8 @@ __gmon_start__
 __libc_csu_fini
 __libc_csu_init
 __libc_start_main@GLIBC_2.2.5
+__wrap_fopen
+__wrap_fopen64
 _dl_relocate_static_pie
 _edata
 _end
@@ -17,12 +20,15 @@ close@GLIBC_2.2.5
 data_start
 dlopen@GLIBC_2.2.5
 dlsym@GLIBC_2.2.5
+fopen64@GLIBC_2.2.5
+fopen@GLIBC_2.2.5
 fwrite@GLIBC_2.2.5
 getpid@GLIBC_2.2.5
 main
 printf@GLIBC_2.2.5
 puts@GLIBC_2.2.5
 read@GLIBC_2.2.5
+readlink@GLIBC_2.2.5
 sleep@GLIBC_2.2.5
 stderr@GLIBC_2.2.5
 strstr@GLIBC_2.2.5

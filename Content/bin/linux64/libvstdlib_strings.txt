@@ -1,3 +1,4 @@
+-nUQzO
 S* "
 0>7p
 __gmon_start__
@@ -158,6 +159,7 @@ getcwd
 dlsym
 DevMsg
 isspace
+getenv
 wcslen
 __cxa_throw_bad_array_new_length
 wcstol
@@ -198,7 +200,6 @@ readdir64
 closedir
 strdup
 strcasestr
-getenv
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -248,7 +249,6 @@ CXXABI_1.3
 GLIBC_2.7
 GLIBC_2.14
 GLIBC_2.3
-)%e.
 u/UH
  ff.
 ` ff.
@@ -695,9 +695,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -718,8 +720,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -727,9 +728,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -763,6 +763,8 @@ AUE1
 ATE1
 A\D	
 A]A^]
+o-!F
+o%)F
 t%Hc
 [A\]
 ~&Ai
@@ -792,7 +794,6 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D951
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -835,7 +836,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -962,8 +962,7 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%`
-D;%D
+D9%(
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1072,8 +1071,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -1122,7 +1120,6 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5nv
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1211,7 +1208,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -1255,8 +1252,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -2107,6 +2104,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS

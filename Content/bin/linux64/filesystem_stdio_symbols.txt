@@ -110,7 +110,6 @@ __cxa_call_unexpected@CXXABI_1.3
 __cxa_end_catch@CXXABI_1.3
 __cxa_finalize@GLIBC_2.2.5
 __cxa_free_exception@CXXABI_1.3
-__cxa_get_exception_ptr@CXXABI_1.3.1
 __cxa_guard_abort@CXXABI_1.3
 __cxa_guard_acquire@CXXABI_1.3
 __cxa_guard_release@CXXABI_1.3
@@ -178,6 +177,7 @@ dlopen@GLIBC_2.2.5
 dlsym@GLIBC_2.2.5
 exp@GLIBC_2.29
 fclose@GLIBC_2.2.5
+fdopen@GLIBC_2.2.5
 feof@GLIBC_2.2.5
 ferror@GLIBC_2.2.5
 fflush@GLIBC_2.2.5
@@ -223,6 +223,7 @@ memmove@GLIBC_2.2.5
 memset@GLIBC_2.2.5
 mkdir@GLIBC_2.2.5
 mkfifo@GLIBC_2.2.5
+mkstemps64@GLIBC_2.11
 mount@GLIBC_2.2.5
 open64@GLIBC_2.2.5
 open@GLIBC_2.2.5
@@ -275,7 +276,6 @@ symlink@GLIBC_2.2.5
 sysconf@GLIBC_2.2.5
 time@GLIBC_2.2.5
 times@GLIBC_2.2.5
-tmpnam@GLIBC_2.2.5
 tolower@GLIBC_2.2.5
 toupper@GLIBC_2.2.5
 towlower@GLIBC_2.2.5

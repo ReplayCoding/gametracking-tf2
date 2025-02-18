@@ -293,6 +293,7 @@ dlsym
 KeyValuesSystem
 DevMsg
 isspace
+getenv
 tolower
 wcslen
 __cxa_throw_bad_array_new_length
@@ -334,7 +335,6 @@ readdir64
 closedir
 strdup
 strcasestr
-getenv
 __wrap_freopen
 strpbrk
 __wrap_fopen
@@ -718,17 +718,18 @@ ATSL
 AWAVAUI
 #B`t
 [A\A]A^A_]
-AUATA
+AUATS
+[A\A]]
 [A\A]]
 AUATI
 [A\A]]
 AWAVL
 D30I
 [A\A]A^A_]
-ATSH
-[A\A]]
-[A\A]]
-[A\A]]
+AVAUATS
+A\A]A^]
+:wlA9
+[A\A]A^]
 AUATI
 [A\A]]
 AUATI
@@ -747,7 +748,7 @@ t@H9
 AWAVL
 ATE1
 [A\A]A^A_]
-Y-+,
+(=G?
 AUATSH
 [A\A]]
 AUATL
@@ -761,7 +762,6 @@ AUATSH
 [A\A]]
 AWAVAUATSH
 r@Lc
-uvA9
 [A\A]A^A_]
 AWAVAUATSH
 t5f9
@@ -1037,8 +1037,10 @@ nE,H
 AWAVAUATI
 ([A\A]A^A_]
 AVAUATSH
+D9%*
 [A\A]A^]
 AUATSH
+D9%$
 [A\A]]
 AVAUL
 [A\A]A^]
@@ -1077,7 +1079,7 @@ AVAUATSH
 ([A\A]A^A_]
 AUATSH
 [A\A]]
-D9%2
+D9%B
 [A\A]]
 [A\A]]
 AUATSH
@@ -1277,7 +1279,7 @@ CHtM
 AWAVAUATSH
 A9D$
 [A\A]A^A_]
-=Y"L
+=q!L
 CPD8s@t
 [A\A]A^A_]
 9S<t
@@ -1333,9 +1335,11 @@ D$Xu
 AWAVAUI
 (HcWP
 t$HL
+D$pH
 |$0L
 [A\A]A^A_]
 D$HA
+uGf.
 AUATSH
 [A\A]]
 t(UH
@@ -1356,8 +1360,7 @@ d$8I
 IcT$PI
 t$@H
 |$\D
-T$pE
-\$xM
+T$|E
 |$H1
 l$(I
 D$XH
@@ -1365,9 +1368,8 @@ D$XH
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
-/D$psEI
+/D$|sRI
 D$TA
-/D$xw
 ATSH
 [A\A]]
 [A\A]]
@@ -1423,7 +1425,7 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D951
+D95u
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1466,7 +1468,6 @@ t+UH
 O(H9
 AUATSH
 [A\A]]
-A\A]]
 A\A]]
 AVAUATSH
 D$ IcD
@@ -1593,8 +1594,8 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%`
-D;%D
+D;%t~K
+%;{K
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -1621,7 +1622,7 @@ ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
-%DcK
+%t`K
 AVAUATI
 [A\A]A^]
 [A\]
@@ -1682,8 +1683,7 @@ AWAVAUATSH
 [A\A]A^A_]
 ATSH
 [A\A]]
-AVAUI
-ATStLH
+AUATStLH
 A\A]A^]
 [A\A]A^]
 ~,Hc
@@ -1729,6 +1729,7 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
+Lc%?[K
 TUUUv
 [A\A]A^]
 AWAVAUATI
@@ -1820,7 +1821,7 @@ AVLc
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-ATSH
+ATLc
 ATSH
 [A\A]A^A_]
 AUATI
@@ -1864,8 +1865,8 @@ AUATSH
 AVAUI
 [A\A]A^]
 AWAVI
-AUATI
-t"HcE
+ATSH
+t#HcE
 8[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
@@ -2363,13 +2364,16 @@ tBL)
 4'M9
 [A\A]A^A_]
 AUATL
-=nZJ
-=XZJ
-=BZJ
-=,ZJ
-='ZJ
-=[YJ
-=3YJ
+=xWJ
+=bWJ
+=LWJ
+=6WJ
+= WJ
+=GWJ
+=*WJ
+={VJ
+=SVJ
+=+VJ
 [A\A]]
 ATSH
 0[A\]
@@ -2379,13 +2383,10 @@ ATSH
 AVAUL
 [A\A]A^]
 AWAVL
-W=Gc
+W=w`
 8[A\A]A^A_]
 AWAVL
-W-Za
 8[A\A]A^A_]
-W%z`
-/=`^
  [A\]
  [A\]
 D$(A
@@ -2401,12 +2402,11 @@ A\A]]
 AVAUL
  [A\A]A^]
 [A\]
-X5lQ
+X51O
  [A\]
  [A\]
 [A\A]]
 [A\A]]
-/%hE
 [A\]
 L$(A\]
 0[A\]
@@ -2422,7 +2422,9 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%I%
+Y-H.
+Y=<.
+X%y"
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -5767,6 +5769,11 @@ CreateInterface
 developer
 "		"
 0x%016llX
+-nogamepadui
+-gamepadui
+SteamDeck
+SteamTenFoot
+$DECK
 $X360
 $WIN32
 $WINDOWS
@@ -5988,7 +5995,7 @@ Matched '%s' -> '%s'
 Unmatched %s
 (%zu) readdir failed to find '%s' in '%s'
 VFileSystem022
-VMaterialSystem081
+VMaterialSystem082
 InputSystemVersion001
 NetworkSystemVersion001
 DebugTextureInfo001
@@ -6005,7 +6012,7 @@ Ga=o
 .M;R
 NAUU
 ?~?a`
-o@`k
+o@ n
 ;*3$"
 zPLR
 zPLR
