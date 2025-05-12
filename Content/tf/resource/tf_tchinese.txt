@@ -653,7 +653,7 @@
 "TF_Weapon_FireballLauncher"	"火焰噴射器"
 "TF_Weapon_DragonsFury"	"龍之怒" // ADD THE
 "TF_Weapon_DragonsFury_Desc"	"強力的單發火焰噴射器，連續命中將加速裝填並追加額外傷害。"
-"TF_Weapon_DragonsFury_NeutralDesc"	"主要和次要開火皆共用一個壓力槽。\n\n主要開火：發射一個會短暫點燃敵人、一飛快的投射物\n\n次要開火：釋放壓縮氣爆推開敵人和反彈投射物，及為著火的隊友滅火。"
+"TF_Weapon_DragonsFury_NeutralDesc"	"主要和次要攻擊皆共用一個壓力槽。\n\n主要攻擊：發射一個會短暫點燃敵人、一飛快的投射物\n\n次要攻擊：釋放壓縮氣爆推開敵人和反彈投射物，及為著火的隊友滅火。"
 "TF_Weapon_DragonsFury_PositiveDesc"	"對燃燒中的敵人造成 300% 傷害\n擊中時於再壓力量表累積 50% 計量"
 "TF_Weapon_DragonsFury_NegativeDesc"	"次要開火時 -50% 壓力量表"
 "TF_ThermalThruster"			"熱能推進器" // ADD THE
@@ -7594,7 +7594,7 @@
 "Hydro_defend_RED_base"		"準備防守紅隊基地！"
 
 // Chapter titles used for commentary loading
-"GAMEUI_Commentary_Console_Explanation"	"「評論內容」包含 Valve 研發團隊的評論。 如果要停止內容，請瞄準任一氣球圖示並按下「主要開火」按鈕。"
+"GAMEUI_Commentary_Console_Explanation"	"「評論內容」包含 Valve 研發團隊的評論。 如果要停止內容，請瞄準任一氣球圖示並按下「主要攻擊」按鈕。"
 "tf_Chapter1_Title"		"Hydro"
 "tf_Chapter2_Title"		"Gravel Pit"
 "tf_Chapter3_Title"		"Well"
