@@ -163,11 +163,6 @@ __wrap_realpath
 __wrap_mkdir
 __wrap_rmdir
 toupper
-SDL_GL_GetProcAddress
-SDL_GL_SetAttribute
-SDL_GL_CreateContext
-SDL_GL_MakeCurrent
-SDL_GL_DeleteContext
 SDL_WarpMouseInWindow
 SDL_GetWindowSize
 SDL_GetNumVideoDisplays
@@ -177,22 +172,27 @@ SDL_SetWindowPosition
 SDL_SetWindowSize
 SDL_ShowWindow
 SDL_RaiseWindow
-SDL_SetWindowFullscreen
-SDL_SetWindowGrab
-SDL_DestroyWindow
-SetAssertDialogParent
 SDL_RWFromFile
 SDL_LoadBMP_RW
 SDL_SetWindowIcon
 SDL_FreeSurface
 SDL_WaitEventTimeout
 SDL_SetWindowGammaRamp
+SDL_SetWindowGrab
 SDL_SetRelativeMouseMode
 SDL_ShowCursor
 SDL_SetCursor
 SDL_GetWindowGrab
-SDL_GL_UnloadLibrary
+SDL_GL_MakeCurrent
+SDL_GL_DeleteContext
+SDL_GL_SetAttribute
+SDL_GL_CreateContext
+SDL_GL_GetProcAddress
+SDL_SetWindowFullscreen
+SDL_DestroyWindow
+SetAssertDialogParent
 SDL_QuitSubSystem
+SDL_GL_UnloadLibrary
 SDL_GL_SetSwapInterval
 stdout
 fflush
@@ -328,45 +328,11 @@ A\A]A^]
 A\A]A^]
 A\A]A^]
 AUATSH
-5~~	
-5}~	
-5~~	
-5r~	
-5t~	
-5k~	
-5=~	
-5F~	
-5H~	
-5L~	
-5V~	
-5Z~	
-5d~	
-5p~	
-=l~	
-=q~	
-5x~	
-5I~	
-5?~	
-5>~	
-5<~	
-5>~	
-5;~	
-5<~	
-5=~	
-5A~	
-5~}	
-5t}	
-5z}	
-5t}	
-5r}	
-5v}	
-5v}	
 A\A]]
 [A\A]]
 AWAVL
 A\A]A^A_]
 [A\A]A^A_]
-5wz	
 A\A]]
 AWAVAUI
 [A\A]A^A_]
@@ -374,10 +340,6 @@ AUATSH
 [A\A]A^A_]
 AUATI
 [A\A]]
-={x	
-=5x	
-=gw	
-=%w	
 AWAVAUATI
 CLt;@
 K`Hc
@@ -410,11 +372,12 @@ t$pH
 |$xH
 D$XH
 D$`H
-5^a	
+5np	
+5&o	
 [A\A]A^A_]
-5'_	
-54^	
-5T]	
+57n	
+5Dm	
+5dl	
 [A\A]A^A_]
 ]TtCI
 [A\A]]
@@ -437,7 +400,7 @@ D$5H
 [A\]H
 [A\]
 A\A]]
-=8W	
+=Hf	
 A\A]]
 AWHc
 A\A]A^A_]
@@ -445,10 +408,10 @@ A\A]A^A_]
 AWAVAUATI
 CLt<
 K`Hc
--T]	
+-dl	
 CDHc
 [A\A]A^A_]
-- [	
+-0j	
 Gp~r
 [A\A]A^]
 [A\]H
@@ -495,14 +458,14 @@ AWAVAUI
 l$(A
 |$0A
 @HH9
-5,C	
+5<R	
 H97t
 AWAVAUATSH
 [A\A]A^A_]
 VUUU
-5SD	
+5cS	
 H97t
-5i8	
+5yG	
 H97t
 AVAUATSH
 [A\A]A^]
@@ -510,7 +473,7 @@ x0Hc
 H97t
 AUATI
 [A\A]]
-=Y;	
+=iJ	
 [A\A]]
 AWAVE1
 ATSH
@@ -519,29 +482,29 @@ ATSH
 AWAVAUA
 [A\A]A^A_]
 [A\A]A^A_]
-=E2	
+=UA	
 [A\A]A^A_]
-=!2	
+=1A	
 C([A\A]A^]
 AWAVE1
 AUATSH
 [A\A]A^A_]
-=;0	
-590	
+=K?	
+5I?	
 AWAVA
 [A\A]A^A_]
 H97t%H
 ATSH
 [A\]
 [A\]
-51(	
+5A7	
 9w,t;UH
 [A\]
 [A\]
-5E.	
+5U=	
 |$ L
 |$$A
-5T0	
+5d?	
 D$8A
 [A\A]A^A_]
 D$@I
@@ -549,14 +512,13 @@ ATSL
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-=\&	
+=l5	
 [A\A]A^A_]
 AWAVA
 [A\A]A^A_]
 S D9
 H97t%H
-=q"	
-=Q 	
+=a/	
 tGUH
 {8fH
 [A\]
@@ -567,14 +529,18 @@ ATfH
 ATSL
 8[A\A]A^A_]
 8[A\A]A^A_]
+5e'	
+=<(	
 AWAVA
 [A\A]A^A_]
+56,	
 H97t%H
 ATSH
 [A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
+5s%	
 H97t%H
 |$0H
 t$0L
@@ -872,7 +838,7 @@ t7UH
 @(Hi
 tGUE1
 AWAVATSH
-W-@^
+W-Pm
 u?fA
 0[A\A^A_]
 @(Hi
@@ -1365,10 +1331,11 @@ I9L$
 I9D$
 H[A\A]]
 AWAVAUATSH
+(=#T
 tPL9
-o-\:
-(5c5
-(=F5
+o-lI
+(5sD
+(=VD
 [A\A]A^A_]
 [A\]
 [A\]
@@ -1672,12 +1639,13 @@ AUATSH
 [A\A]]
 AVAUI
 ATSH
+5']	
 [A\A]A^]
 [A\]
 GET4A
 [A\]
 AUATSH
--#L	
+-3[	
 [A\A]]
 [A\A]]
 [A\]
@@ -1707,17 +1675,17 @@ AUATI
 ATSH
 |*A84
 [A\A]A^A_]
-=N9	
-=@9	
+=^H	
+=PH	
 H97t%H
 AWAVA
 ~xMi
-=%@	
+=5O	
 [A\A]A^A_]
 H97t%H
 AWAVAUATI
--H6	
-=j>	
+-XE	
+=zM	
 [A\A]A^A_]
 H97t
 AUATA
@@ -1739,11 +1707,13 @@ AVAUATSH
 [A\A]A^]
 H97t
 AWAVAUA
+5&;	
 [A\A]A^A_]
 [A\A]A^A_]
 H97t
 AWAVAUATSH
 ~@E1
+%&?	
 A\A]A^A_]
 AWAVAUA
 uXfE
@@ -1818,17 +1788,18 @@ t>Hc
 $tHA
 [A\]
 AVAUATSH
-=Z_	
+=jn	
 T  H
 [A\A]A^A_]
 tEE1
--g^	
-=6^	
+-wm	
+=Fm	
 t";2u
 t*;r
 AWAVAUATI
 [A\A]A^A_]
 [A\]
+=)j	
 ATSL
 [A\]
 ATSL
@@ -1842,7 +1813,7 @@ AWAVI
 AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-=)O	
+=9^	
 ATSH
 A\A]A^]
 AWAVL
@@ -1982,6 +1953,7 @@ A\A]]
 A\Hc
 ATSH
 [A\A]A^]
+=v"	
 `Pf.
 G8#p(
 G8	p(
@@ -2009,11 +1981,9 @@ D$pH
 D$HA
 uGf.
 AUATSH
--D1	
+-T@	
 [A\A]]
 t(UH
-=L		
-=<		
 AUATH
 A\A]A^]
 A]A^]
@@ -2042,7 +2012,7 @@ D$TA
 /D$|sRI
 D$TA
 ATSH
-%>"	
+%N1	
 [A\A]]
 [A\A]]
 [A\A]A^]
@@ -2108,7 +2078,8 @@ AUATtsH
 @ H9
 A\A]]
 AWAVAUI
-D95A
+D95Q
+D95.
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2277,9 +2248,9 @@ D$"E1
 AWAVI
 t+ATM
 ~uE1
-D9%pv
-D;%Tv
-D9%ht
+D9% 
+D;%d
+D9%x
 xGHc
 [A\A]A^A_]
 AWAVAUATSH
@@ -2654,8 +2625,7 @@ AWAVAUATSH
 ATSH
 0[A\]
 0[A\]
-o-"{
-o%I{
+o-&d
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -3168,10 +3138,6 @@ tBL)
 4'M9
 4'M9
 [A\A]A^A_]
-ATSH
-[A\A]A^A_]
-|$(A\]
-t*UH
 <@E1
 ,tC~
 [A\A]A^A_]
@@ -3207,13 +3173,6 @@ P8H9
 uNA9
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVAUI
-D$|D9
-D$|H
-|$(H
-[A\A]A^A_]
-E;l$|A
-[A\A]A^A_]
 @0H9
 @(H9
 A\A]A^A_]
@@ -3223,6 +3182,18 @@ PHA9
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+[A\]
+t'L9c
+[A\]
+|$(A\]
+ATSH
+[A\A]A^A_]
+@8H9
+AWAVAUI
+ATSH
+C|D9
+[A\A]A^A_]
+D;k|A
 AWAVA
 E9t$
 ~vIc
@@ -3259,6 +3230,7 @@ AWAVL
 [A\A]A^A_]
 ATSL
 ATSH
+~.E1
 CpIc
 VUUUD
 [A\A]A^A_]
@@ -3367,12 +3339,15 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o%gA
+o%gI
 tcf.
-o=d'
-o5d'
+o=d/
+o5d/
 <WH9
+o%s&
 4GI9
+o-1$
+o=.#
 AWAVL
 [A\A]A^A_]
 AWAVL
@@ -3440,7 +3415,7 @@ n@ATSH
 5UUUU
 [A\A]A^A_]
 4vD)
-o=(N
+o=(V
 [A\A]]
 u/[D
 A\A]A^]
@@ -3451,7 +3426,7 @@ AWAVAUATA
 [A\A]A^A_]
 t{fA
 AWAVAU
-(=6I
+(=6Q
 X[A\A]A^A_]
 AWAVAU
 X[A\A]A^A_]
@@ -3516,7 +3491,7 @@ AVAUATSH
 A\A]A^]
 AVAUATSH
 [A\A]A^]
-(%+b
+(%+j
 A\A]A^]
 AVAUATE1
 [A\A]A^A_]
@@ -3643,8 +3618,8 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(-Z 
-(%Z 
+(-Z(
+(%Z(
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
@@ -3672,6 +3647,7 @@ AUATA
 [A\A]A^A_]
 AWAVE
 t[;]
+o-Z	
 [A\A]A^A_]
 AWAVI
 AUATI
@@ -3706,7 +3682,7 @@ AWAVAUATS
 [A\A]A^A_]
 AVAUM
 ATSH
-Y%{q
+Y%{y
 [A\A]A^A_]
 AWAVAUATI
 ^K,D
@@ -3717,15 +3693,15 @@ A9D$$
 [A\A]A^A_]
 AWAVA
 AUATSH
-o%2Z
+o%2b
 [A\A]A^A_]
-o=8V
+o=8^
 ATSH
 0[A\]
  [A\]
  [A\]
-W% ?
-W%Z>
+W% G
+W%ZF
 ~_ D
 AVAUL
 [A\A]A^]
@@ -3733,7 +3709,7 @@ AWAVL
 8[A\A]A^A_]
 AWAVL
 8[A\A]A^A_]
-W%:4
+W%:<
  [A\]
  [A\]
 D$(A
@@ -3768,7 +3744,7 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%e 
+X%e(
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -3776,13 +3752,13 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-Y%xC
+Y%xK
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
-W=3@
+W=3H
 [A\A]]
 A\A]]
 A\A]]
@@ -3823,7 +3799,7 @@ AWAVL
 tOHc
 tGHc
 VUUU
-o57q
+o57y
 AUATL
 [A\A]]
  ucL
@@ -4855,20 +4831,11 @@ Breaking '%s' in '%s'
 Matched '%s' -> '%s'
 Unmatched %s
 (%zu) readdir failed to find '%s' in '%s'
-                Could not find required OpenGL entry point '%s'! Either your video card is unsupported, or your OpenGL driver needs to be updated.
-SDL_SetWindowGammaRamp failed: %d
- ##### swap interval = %d     swap limit = %d #####
-GL_NVX_gpu_memory_info: Failed retrieving available GPU memory
-GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u
-GL_ATI_meminfo: Failed retrieving available GPU memory
-GL_ATI_meminfo: GL_TEXTURE_FREE_MEMORY_ATI: Total Free: %i, Largest Avail: %i, Total Aux: %i, Largest Aux Avail: %i
-Failed to create SDL window: %s
-Failed to create GL context: %s
-SDL_Init(SDL_INIT_VIDEO) failed: %s
-SDL_GL_LoadLibrary(NULL) failed: %s
-m_rawinput
+                m_rawinput
 false
 SetWindowGrab( %s )
+-vulkan
+-dx9
 sdlmgr.cpp
 ShowPixels
 -glmdisableclipplanes
@@ -4897,8 +4864,6 @@ SDL fullscreen display index.
 sdl_displayindex
 grab/ungrab window.
 grab_window
--vulkan
--dx9
 glGetString
 glGetIntegerv
 -gl_dump_strings
@@ -4911,6 +4876,17 @@ SDL video target is '%s'
 -nomousegrab
 -mousegrab
 CreateGameWindow failed
+SDL_SetWindowGammaRamp failed: %d
+Could not find required OpenGL entry point '%s'! Either your video card is unsupported, or your OpenGL driver needs to be updated.
+ ##### swap interval = %d     swap limit = %d #####
+GL_NVX_gpu_memory_info: Failed retrieving available GPU memory
+GL_NVX_gpu_memory_info: Total Dedicated: %u, Total Avail: %u, Current Avail: %u
+GL_ATI_meminfo: Failed retrieving available GPU memory
+GL_ATI_meminfo: GL_TEXTURE_FREE_MEMORY_ATI: Total Free: %i, Largest Avail: %i, Total Aux: %i, Largest Aux Avail: %i
+Failed to create SDL window: %s
+Failed to create GL context: %s
+SDL_Init(SDL_INIT_VIDEO) failed: %s
+SDL_GL_LoadLibrary(NULL) failed: %s
 12ILauncherMgr
 12GLMDisplayDB
 7CSDLMgr

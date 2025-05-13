@@ -53,12 +53,12 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 	}
-	"EnableSteamNetworkingCheck"
+	"VisibilityType"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"EnableSteamNetworkingCheck"
+		"ControlName"		"ComboBox"
+		"fieldName"		"VisibilityType"
 		"xpos"		"16"
-		"ypos"		"50"
+		"ypos"		"74"
 		"wide"		"200"
 		"tall"		"24"
 		"autoResize"		"0"
@@ -71,6 +71,25 @@
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
-		"labelText" "#Start_Server_SteamNetworking"
+	}
+	"VisibilityLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"VisibilityLabel"
+		"xpos"		"16"
+		"ypos"		"50"
+		"wide"		"200"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#Server_Visibility"
+		"textAlignment"		"west"
+		"associate"		"MapList"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
 	}
 }
