@@ -1,0 +1,32 @@
+"Rubber.StepLeft"
+{
+	"soundlevel"		"SNDLVL_70dB"
+	"pitch"			"85,95"
+	"volume"			".15"
+	"rndwave"
+	{
+		"wave"		"physics\plaster\ceiling_tile_step1.wav"
+		"wave"		"physics\plaster\ceiling_tile_step3.wav"
+	}
+}
+
+"Rubber.StepRight"
+{
+	"soundlevel"		"SNDLVL_70dB"
+	"pitch"			"85,95"
+	"volume"			".15"
+	"rndwave"
+	{
+		"wave"		"physics\plaster\ceiling_tile_step2.wav"
+		"wave"		"physics\plaster\ceiling_tile_step4.wav"
+	}
+}
+"Player.AmbientUnderWater"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.1"
+	"pitch" 	"100"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"water\underwater.wav"
+}

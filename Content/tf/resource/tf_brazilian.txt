@@ -5109,7 +5109,7 @@
 "pl_terror_event_authors"		"Tomi \"ICS\" Uurainen"
 "arena_lumberyard_event_authors"	"Liam \"Diva Dan\" Moffitt\nBenjamin \"blaholtzen\" Blåholtz\nAlex \"FGD5\" Stewart\nSeb \"Tianes\" Necula\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew \"Panckakebro\" Hiller\nElián \"iron\" Rodríguez\nPhe\nRyan \"Chill\" Foy\nDenis \"xB33\" Varchulik\nWilliam \"Cheesypuff\" Bartley-Bolster\nOliver \"OverPovered\" Pennanen"
-"pl_breadspace_authors"			"Bailey \"Glitch\" Hodges\nJesse \"Custard1\" Budd\nAlberto \"Petachepas\" Zarzuela\nJonas \"Grambee\" Carson\nDylan \"doggoh\" Lee\nOliver \"OverPovered\" Pennanen\nChristoph \"Gadget\" Manschitz\nPeter \"Tabby\" Bryant\nWilliam \"Cheesypuff\" Bartley-Bolster\nKirill \"Le Bruhe?\" Ruzanov\nHugh \"HueZee_\" Madoc Schneider\nBrandon \"Brantopias\" Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey \"Glitch\" Hodges\nJesse \"Custard1\" Budd\nAlberto \"Petachepas\" Zarzuela\nGrambee\nDylan \"doggoh\" Lee\nOliver \"OverPovered\" Pennanen\nChristoph \"Gadget\" Manschitz\nPeter \"Tabby\" Bryant\nWilliam \"Cheesypuff\" Bartley-Bolster\nKirill \"Le Bruhe?\" Ruzanov\nHugh \"HueZee_\" Madoc Schneider\nBrandon \"Brantopias\" Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi \"ICS\" Uurainen\nTyler \"Yyler\" King\nAlex \"MaccyF\" MacFarquhar"
 "koth_cascade_authors"			"Evan \"Defcon\" LeBlanc\nAlex \"FGD5\" Stewart\nLiam \"Diva Dan\" Moffitt"
 "cp_altitude_authors"			"Evan \"Defcon\" LeBlanc\nAlex \"FGD5\" Stewart\nLiam \"Diva Dan\" Moffitt"
@@ -5499,7 +5499,7 @@
 "TF_MapToken_Polar_AdText"		"— Comprar este item apoiará diretamente os criadores do mapa comunitário Polar."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Selo - Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Um mapa de Carga Explosiva\n\nFeito por Bailey \"Glitch\" Hodges, Jesse \"Custard1\" Budd, Alberto \"Petachepas\" Zarzuela, Jonas \"Grambee\" Carson, Dylan \"doggoh\" Lee, Oliver \"OverPovered\" Pennanen, Christoph \"Gadget\" Manschitz, Peter \"Tabby\" Bryant, William \"Cheesypuff\" Bartley-Bolster, Kirill \"Le Bruhe?\" Ruzanov, Hugh \"HueZee_\" Madoc Schneider, Brandon \"Brantopias\" Sinkovich e human1\n\nComprar este item apoiará diretamente os criadores do mapa comunitário Bread Space. Demonstre o seu apoio hoje mesmo!"
+"TF_MapToken_BreadSpace_Desc"	"Um mapa de Carga Explosiva\n\nFeito por Bailey \"Glitch\" Hodges, Jesse \"Custard1\" Budd, Alberto \"Petachepas\" Zarzuela, Grambee, Dylan \"doggoh\" Lee, Oliver \"OverPovered\" Pennanen, Christoph \"Gadget\" Manschitz, Peter \"Tabby\" Bryant, William \"Cheesypuff\" Bartley-Bolster, Kirill \"Le Bruhe?\" Ruzanov, Hugh \"HueZee_\" Madoc Schneider, Brandon \"Brantopias\" Sinkovich e human1\n\nComprar este item apoiará diretamente os criadores do mapa comunitário Bread Space. Demonstre o seu apoio hoje mesmo!"
 "TF_MapToken_BreadSpace_AdText"	"— Comprar este item apoiará diretamente os criadores do mapa comunitário Bread Space."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Selo - Chilly"
@@ -19988,6 +19988,12 @@ Se a equipe inimiga capturar o ponto de controle, o cronômetro da sua equipe fi
 "TF_IM_VSH_ToWin2"				"...ou capture o ponto de controle que será ativado durante a rodada"
 "TF_IM_VSH_Notes1"				"O Saxton Hale possui habilidades únicas para derrotar os mercenários"
 "TF_IM_VSH_Notes2"				"Ninguém renasce, então não morra!"
+
+"TF_SDK_LocalLoadout"               "As alterações feitas no seu equipamento afetam apenas esta mod."
+"TF_SDK_ResetLoadout_Title"         "Sincronizar equipamento"
+"TF_SDK_ResetLoadout_Desc"          "Deseja sincronizar o seu equipamento nesta mod com o Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Limpar equipamento"
+"TF_SDK_ClearLoadout_Desc"          "Deseja redefinir o seu equipamento para os itens padrão?"
 
 }
 }

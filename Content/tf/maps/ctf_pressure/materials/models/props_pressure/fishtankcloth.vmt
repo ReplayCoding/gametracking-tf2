@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_pressure/FishtankCloth"
+	"$bumpmap" "models/props_pressure/FishtankCloth_N"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SAWMILL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_citadel/c-862_3318_1344"
+		"Proxies"
+		{
+		}
+	}
+}

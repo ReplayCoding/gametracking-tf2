@@ -114,6 +114,7 @@ class TauntHandlerTrait extends BossTrait
                 {
                     local deltaVector = tauntPartner.GetCenter() - boss.GetCenter();
                     deltaVector.z += tauntId == 1107 ? 100 : 20;
+                    custom_dmg_hale_taunt.SetAbsOrigin(boss.GetOrigin());
                     tauntPartner.TakeDamageEx(
                         custom_dmg_hale_taunt,
                         boss,

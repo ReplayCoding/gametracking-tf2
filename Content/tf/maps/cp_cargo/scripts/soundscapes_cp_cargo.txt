@@ -1,0 +1,198 @@
+"Cargo.Inside"
+{
+	"dsp"	"2"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"wave"	"ambient\atmosphere\cargo_hold2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"	"100"
+		"wave"	"ambient\atmosphere\corridor2.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 25"
+		"volume"	"0.3,0.6"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\materials\shipgroan1.wav"
+			"wave"	"ambient\materials\shipgroan2.wav"
+			"wave"	"vehicles\crane\crane_creak3.wav"
+			"wave"	"ambient\materials\shipgroan4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"10,15"
+		"volume"	".4,.6"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\materials\cartrap_rope1.wav"
+			"wave"	"ambient\materials\cartrap_rope2.wav"
+			"wave"	"ambient\materials\cartrap_rope3.wav"
+		}
+	}
+}
+
+"Cargo.Outside"
+{
+	"dsp"	"4"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"wave"	"ambient\lair\wind_elevated_area.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"	"90"
+		"wave"	"ambient\waterfallinside.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 20"
+		"volume"	"0.45,0.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\wind\wind_snippet3.wav"
+			"wave"	"ambient\wind\wind_snippet4.wav"
+			"wave"	"ambient\wind\wind_snippet1.wav"
+			"wave"	"ambient\atmosphere\city_skypass1.wav"
+			"wave"	"ambient\materials\rustypipes2.wav"
+			"wave"	"ambient\materials\rustypipes1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"5,10"
+		"volume"	".4,.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\distant_wave1.wav"
+			"wave"	"ambient\water\distant_wave2.wav"
+			"wave"	"ambient\water\distant_wave3.wav"
+		}
+	}
+}
+
+"Cargo.Outside.Final"
+{
+	"dsp"	"4"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"90"
+		"wave"	"ambient\lair\wind_elevated_area.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"	"100"
+		"wave"	"ambient\atmosphere\cargo_hold1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 20"
+		"volume"	"0.45,0.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\wind\wind_snippet3.wav"
+			"wave"	"ambient\wind\wind_snippet4.wav"
+			"wave"	"ambient\wind\wind_snippet1.wav"
+			"wave"	"ambient\atmosphere\city_skypass1.wav"
+			"wave"	"ambient\materials\rustypipes2.wav"
+			"wave"	"ambient\materials\rustypipes1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"5,10"
+		"volume"	".4,.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\distant_wave1.wav"
+			"wave"	"ambient\water\distant_wave2.wav"
+			"wave"	"ambient\water\distant_wave3.wav"
+		}
+	}
+}
+
+"Cargo.Outside.Water"
+{
+	"dsp"	"4"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"90"
+		"wave"	"ambient/levels/canals/dam_water_loop2.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"	"100"
+		"wave"	"ambient\atmosphere\cargo_hold1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 20"
+		"volume"	"0.45,0.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\wind\wind_snippet3.wav"
+			"wave"	"ambient\wind\wind_snippet4.wav"
+			"wave"	"ambient\wind\wind_snippet1.wav"
+			"wave"	"ambient\atmosphere\city_skypass1.wav"
+			"wave"	"ambient\materials\rustypipes2.wav"
+			"wave"	"ambient\materials\rustypipes1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"5,10"
+		"volume"	".4,.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\distant_wave1.wav"
+			"wave"	"ambient\water\distant_wave2.wav"
+			"wave"	"ambient\water\distant_wave3.wav"
+		}
+	}
+}

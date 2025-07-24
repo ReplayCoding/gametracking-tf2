@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A_STRIPES.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_fulgur/c90_-431_65"
+	}
+}

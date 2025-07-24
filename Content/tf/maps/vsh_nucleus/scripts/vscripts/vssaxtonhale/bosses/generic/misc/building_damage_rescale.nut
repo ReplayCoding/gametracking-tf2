@@ -20,8 +20,17 @@ class BuildingDamageRescaleTrait extends BossTrait
             return;
 
         local level = GetPropInt(victim, "m_iUpgradeLevel");
-        params.damage *= 1 - 0.2 * level;
         if (GetPropInt(victim, "m_nShieldLevel") > 0)
-            params.damage *= 3;
+        {
+            if (level == 2)
+                params.damage = 260;
+            else if (level == 3)
+                params.damage = 310;
+        }
+        else
+        {
+            if (level >= 2)
+                params.damage = 160;
+        }
     }
 };

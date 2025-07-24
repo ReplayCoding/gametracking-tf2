@@ -34,7 +34,7 @@ Include("__lizardlib/game_events.nut");
     }
 
     local target = null;
-    while (target = Entities.FindByClassname(target, "obj_*"))
+    while (target = FindByClassname(target, "obj_*"))
     {
         local deltaVector = target.GetCenter() - center;
         local distance = deltaVector.Norm();
@@ -67,7 +67,7 @@ Include("__lizardlib/game_events.nut");
     }
 
     local target = null;
-    while (target = Entities.FindByClassname(target, "obj_*"))
+    while (target = FindByClassname(target, "obj_*"))
     {
         local targetCenter = target.GetCenter();
         if (targetCenter.x >= min.x

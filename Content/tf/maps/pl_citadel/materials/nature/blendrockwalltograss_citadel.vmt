@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+	"$basetexture" "Nature/rockwall_citadel001b"
+	"$bumpmap" "Nature/rockwall003_height-ssbump"
+	$surfaceprop rock
+	$ssbump 1
+	$basetexturetransform "center 0 0 scale 1 1 rotate 0 translate 0 0"
+	$basetexture2 "nature/dirtground007a"
+	$bumpmap2 "nature/dirtground001_height-ssbump"
+	
+	$surfaceprop2 Grass
+
+	$blendmodulatetexture "winter/snowgravelblend"
+}

@@ -1,0 +1,424 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f	75dB
+//	ATTN_IDLE		2.0f	60dB
+//	ATTN_STATIC		1.25f	66dB
+//	ATTN_RICOCHET	1.5f	65dB
+//	ATTN_GUNFIRE	0.27f	140dB
+
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+//############################################################
+// Prefab Soundscapes
+//############################################################
+"ancient.util.waves" // Water ambience random waves
+{
+	"playrandom"
+	{
+		"time"		"5,6"
+		"volume"	"0.4"
+		"pitch"		"90,110"
+		"rndwave"
+		{
+			"wave"		"ambient\water\wave1.wav"
+			"wave"		"ambient\water\wave2.wav"
+			"wave"		"ambient\water\wave3.wav"
+			"wave"		"ambient\water\wave4.wav"
+			"wave"		"ambient\water\wave5.wav"
+			"wave"		"ambient\water\wave6.wav"
+		}
+	}
+
+}
+
+"ancient.util.indoor_waves" // Water ambience random waves but quieter
+{
+	"playrandom"
+	{
+		"time"		"5,6"
+		"volume"	"0.6"
+		"pitch"		"70,90"
+		"rndwave"
+		{
+			"wave"		"ambient\water\distant_wave1.wav"
+			"wave"		"ambient\water\distant_wave2.wav"
+			"wave"		"ambient\water\distant_wave3.wav"
+		}
+	}
+
+}
+
+
+
+
+
+"ancient.util.rock" // Random rock noises
+{
+	// rock crumbly
+	"playrandom"
+	{
+		"time"		"7,22"
+		"volume"	"1"
+		"pitch"		"90,110"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}
+
+"ancient.util.portal" // HADES LORE!! THE LORE IMPLICATIONS!!
+{
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"50"
+		"wave"		"ambient\levels\labs\machine_ring_resonance_loop1.wav"
+	}
+	"playlooping" 
+	{
+		"volume"	"1"
+		"pitch"		"70"
+		"wave"		"ambient\machines\thumper_amb.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"50"
+		"wave"		"ambient\levels\citadel\zapper_ambient_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\field_loop3.wav"
+	}
+
+}
+
+"ancient.util.seagulls" // Seagulls
+{
+	"playrandom"
+	{
+
+		"time"		"9,17"	
+		"volume"		"0.3,0.4"
+		"pitch"		"95,100"
+
+		"rndwave"
+		{
+			"wave"		"ambient\creatures\seagull_idle1.wav"
+			"wave"		"ambient\creatures\seagull_idle2.wav"
+			"wave"		"ambient\creatures\seagull_idle3.wav"
+
+		}
+	}
+}
+
+"ancient.util.wood" // wood creaks
+{
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.35"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+}
+
+
+
+//############################################################
+// Soundscapes
+//############################################################
+
+
+"ancient.outdoors_ocean"
+{
+	"dsp"	"1"
+
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10,25"
+		"volume"	"0.35"
+		"pitch"		"90,105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\canals\windchime4.wav"
+			"wave"		"ambient\levels\canals\windchime5.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.35"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\forest_bird1.wav"
+			"wave"		"ambient\forest_bird2.wav"
+			"wave"		"ambient\forest_bird3.wav"
+			"wave"		"ambient\forest_bird5.wav"
+			"wave"		"ambient\forest_bird6.wav"
+
+		}
+	}
+	
+	// PREFABS #######################	
+	"playsoundscape"
+	{
+		"name" "ancient.util.seagulls"
+		"volume" "1"
+	}
+	"playsoundscape"
+	{
+		"name" "ancient.util.waves"
+		"volume" "1"
+	}	
+		
+}
+
+"ancient.outdoors_mountain"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\outdoors.wav"
+	}
+
+
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.45"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\forest_bird1.wav"
+			"wave"		"ambient\forest_bird2.wav"
+			"wave"		"ambient\forest_bird3.wav"
+			"wave"		"ambient\forest_bird5.wav"
+			"wave"		"ambient\forest_bird6.wav"
+
+		}
+	}
+}
+
+"ancient.house_ocean"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+	// PREFABS #######################	
+	"playsoundscape"
+	{
+		"name" "ancient.util.seagulls"
+		"volume" "0.2"
+	}
+	"playsoundscape"
+	{
+		"name" "ancient.util.indoor_waves"
+		"volume" "1"
+	}	
+	"playsoundscape"
+	{
+		"name" "ancient.util.wood"
+		"volume" "1"
+	}
+}
+
+"ancient.house"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+
+	// PREFABS #######################	
+	"playsoundscape"
+	{
+		"name" "ancient.util.wood"
+		"volume" "1"
+	}
+}
+
+"ancient.ruins"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\desert_indoors.wav"
+	}
+
+	// PREFABS #######################	
+
+	"playsoundscape"
+	{
+		"name" "ancient.util.wood"
+		"volume" "1"
+	}
+	"playsoundscape"
+	{
+		"name" "ancient.util.rock"
+		"volume" "1"
+	}
+}
+
+"ancient.spawn"
+{
+	"dsp"	"2"
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\indoors.wav"
+	}
+
+	// POSITIONAL ##########################
+	
+	//multiple computer working instances
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"position" "2"
+		"wave"		"ambient/computer_working.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"position" "3"
+		"wave"		"ambient/computer_working_red.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"position" "4"
+		"wave"		"ambient/computer_working_blue.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"position" "5"
+		"wave"		"ambient/computer_working2.wav"
+	}
+
+
+
+	
+	// Pos 0: Portal ambient (for RED side)
+	"playsoundscape"
+	{
+		"name" "ancient.util.portal"
+		"volume" "1"
+		"positionoverride" "0"
+	}
+	// Pos 1: Portal ambient (second instance for BLU side)
+	"playsoundscape"
+	{
+		"name" "ancient.util.portal"
+		"volume" "1"
+		"positionoverride" "1"
+	}
+}
+
+

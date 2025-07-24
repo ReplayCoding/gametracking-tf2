@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_AQUARIUS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_aquarius/c1024_1024_1176"
+		"Proxies"
+		{
+		}
+	}
+}

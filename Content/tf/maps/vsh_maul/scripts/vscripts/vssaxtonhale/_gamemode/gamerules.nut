@@ -60,7 +60,7 @@ function SpawnHelperEntities()
         targetname = "filter_team_mercs",
     })
 
-    local controlPoint = Entities.FindByClassname(null, "team_control_point");
+    local controlPoint = FindByClassname(null, "team_control_point");
     if (controlPoint != null)
     {
         controlPoint.KeyValueFromInt("point_index", 0);
@@ -92,7 +92,7 @@ function SpawnHelperEntities()
             0, -1);
     }
 
-    local pointMaster = Entities.FindByClassname(null, "team_control_point_master");
+    local pointMaster = FindByClassname(null, "team_control_point_master");
     if (pointMaster == null)
         SpawnEntityFromTable("team_control_point_master", {
             caplayout = 0,
@@ -146,7 +146,7 @@ SpawnHelperEntities();
 
 function UnlockControlPoint()
 {
-    local controlPoint = Entities.FindByClassname(null, "team_control_point");
+    local controlPoint = FindByClassname(null, "team_control_point");
     if (controlPoint != null)
         EntFireByHandle(controlPoint, "SetUnlockTime", "0", 0, null, null);
     PlayAnnouncerVO(GetRandomBossPlayer(), "point_enabled");

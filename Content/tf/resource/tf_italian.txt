@@ -5113,7 +5113,7 @@
 "pl_terror_event_authors"		"Tomi \"ICS\" Uurainen"
 "arena_lumberyard_event_authors"	"Liam \"Diva Dan\" Moffitt\nBenjamin \"blaholtzen\" Blåholtz\nAlex \"FGD5\" Stewart\nSeb \"Tianes\" Necula\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew \"Panckakebro\" Hiller\nElián \"iron\" Rodríguez\nPhe\nRyan \"Chill\" Foy\nDenis \"xB33\" Varchulik\nWilliam \"Cheesypuff\" Bartley-Bolster\nOliver \"OverPovered\" Pennanen"
-"pl_breadspace_authors"			"Bailey \"Glitch\" Hodges\nJesse \"Custard1\" Budd\nAlberto \"Petachepas\" Zarzuela\nJonas \"Grambee\" Carson\nDylan \"doggoh\" Lee\nOliver \"OverPovered\" Pennanen\nChristoph \"Gadget\" Manschitz\nPeter \"Tabby\" Bryant\nWilliam \"Cheesypuff\" Bartley-Bolster\nKirill \"Le Bruhe?\" Ruzanov\nHugh \"HueZee_\" Madoc Schneider\nBrandon \"Brantopias\" Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey 'Glitch' Hodges\nJesse 'Custard1' Budd\nAlberto 'Petachepas' Zarzuela\nGrambee\nDylan 'doggoh' Lee\nOliver 'OverPovered' Pennanen\nChristoph 'Gadget' Manschitz\nPeter 'Tabby' Bryant\nWilliam 'Cheesypuff' Bartley-Bolster\nKirill 'Le Bruhe?' Ruzanov\nHugh 'HueZee_' Madoc Schneider\nBrandon 'Brantopias' Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi \"ICS\" Uurainen\nTyler \"Yyler\" King\nAlex \"MaccyF\" MacFarquhar"
 "koth_cascade_authors"			"Evan \"Defcon\" LeBlanc\nAlex \"FGD5\" Stewart\nLiam \"Diva Dan\" Moffitt"
 "cp_altitude_authors"			"Evan \"Defcon\" LeBlanc\nAlex \"FGD5\" Stewart\nLiam \"Diva Dan\" Moffitt"
@@ -5503,7 +5503,7 @@
 "TF_MapToken_Polar_AdText"		"-Acquistando questo oggetto sosterrai direttamente gli autori della mappa della comunità \"Polar\"."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Francobollo Mappa - Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Una mappa della modalità \"Carrello\"\n\nCreata da Bailey \"Glitch\" Hodges, Jesse \"Custard1\" Budd, Alberto \"Petachepas\" Zarzuela, Jonas \"Grambee\" Carson, Dylan \"doggoh\" Lee, Oliver \"OverPovered\" Pennanen, Christoph \"Gadget\" Manschitz, Peter \"Tabby\" Bryant, William \"Cheesypuff\" Bartley-Bolster, Kirill \"Le Bruhe?\" Ruzanov, Hugh \"HueZee_\" Madoc Schneider, Brandon \"Brantopias\" Sinkovich e human1\n\nAcquistando questo oggetto sosterrai direttamente gli autori della mappa della comunità \"Bread Space\". Dimostra il tuo supporto oggi stesso!"
+"TF_MapToken_BreadSpace_Desc"	"Una mappa della modalità \"Carrello\"\n\nCreata da Bailey \"Glitch\" Hodges, Jesse \"Custard1\" Budd, Alberto \"Petachepas\" Zarzuela, Grambee, Dylan \"doggoh\" Lee, Oliver \"OverPovered\" Pennanen, Christoph \"Gadget\" Manschitz, Peter \"Tabby\" Bryant, William \"Cheesypuff\" Bartley-Bolster, Kirill \"Le Bruhe?\" Ruzanov, Hugh \"HueZee_\" Madoc Schneider, Brandon \"Brantopias\" Sinkovich e human1\n\nAcquistando questo oggetto sosterrai direttamente gli autori della mappa della comunità \"Bread Space\". Dimostra il tuo supporto oggi stesso!"
 "TF_MapToken_BreadSpace_AdText"	"-Acquistando questo oggetto sosterrai direttamente gli autori della mappa della comunità \"Bread Space\"."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Francobollo Mappa - Chilly"
@@ -20065,6 +20065,12 @@ Se la squadra nemica assume il controllo del punto, il timer della tua squadra s
 "TF_IM_VSH_ToWin2"				"...oppure conquistare il punto di controllo che sarà attivato durante il round."
 "TF_IM_VSH_Notes1"				"Saxton Hale ha abilità uniche per abbattere i mercenari"
 "TF_IM_VSH_Notes2"				"Non è possibile rientrare in gioco, perciò non morire!"
+
+"TF_SDK_LocalLoadout"               "Qualsiasi modifica apportata al tuo equipaggiamento è locale a questa mod."
+"TF_SDK_ResetLoadout_Title"         "Sincronizza equipaggiamento"
+"TF_SDK_ResetLoadout_Desc"          "Vuoi sincronizzare il tuo equipaggiamento locale per questa mod con Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Elimina equipaggiamento"
+"TF_SDK_ClearLoadout_Desc"          "Vuoi ripristinare il tuo equipaggiamento agli oggetti predefiniti?"
 
 }
 }

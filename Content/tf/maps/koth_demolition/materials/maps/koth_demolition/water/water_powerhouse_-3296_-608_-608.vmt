@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_POWERHOUSE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_demolition/c-3296_-608_-608"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+
+{
+	"$basetexture" "models/props_sewer/red_window001b"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+//	"$envmapsaturation" 1
+	"$envmaptint" "[ .9 .9 .9]"
+//	$envmapmask "concrete/concretewall001e"
+//	$envmapmask "soho/WindowUni001"
+
+}

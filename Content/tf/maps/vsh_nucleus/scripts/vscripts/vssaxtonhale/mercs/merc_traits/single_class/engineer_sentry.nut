@@ -16,10 +16,17 @@ characterTraitsClasses.push(class extends CharacterTrait
 {
     sentryDamageAccumulated = 0;
     lastHitSentry = null;
+    usingMiniSentry = false;
 
     function CanApply()
     {
-        return player.GetPlayerClass() == TF_CLASS_ENGINEER;
+        if (player.GetPlayerClass() == TF_CLASS_ENGINEER)
+        {
+            local melee = player.GetWeaponBySlot(TF_WEAPONSLOTS.MELEE);
+            usingMiniSentry = melee && melee.GetClassname() == "tf_weapon_robot_arm";
+            return true;
+        }
+        return false;
     }
 
     function OnDamageDealt(victim, params)
@@ -28,7 +35,8 @@ characterTraitsClasses.push(class extends CharacterTrait
         {
             //Nerfing damage and knockback by 50%.
             //There's an attribute that gives sentry resistance, but it doesn't give knockback res
-            params.damage *= 0.5;
+            //Mini-sentries deal 80%.
+            params.damage *= usingMiniSentry ? 0.8 : 0.5;
             lastHitSentry = params.inflictor;
         }
         else

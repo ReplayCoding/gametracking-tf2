@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_demolition/water/water_powerhouse_-3296_-608_-608.vmt"
+	"insert"
+	{
+		"$waterdepth"		"60"
+	}
+}

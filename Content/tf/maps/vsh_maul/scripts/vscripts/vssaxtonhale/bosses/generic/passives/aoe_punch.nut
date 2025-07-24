@@ -19,5 +19,6 @@ class AoEPunchTrait extends BossTrait
         if (IsCollateralDamage(params.damage_type))
             return;
         params.inflictor = custom_dmg_melee;
+        params.inflictor.SetAbsOrigin(boss.GetOrigin());
     }
 };

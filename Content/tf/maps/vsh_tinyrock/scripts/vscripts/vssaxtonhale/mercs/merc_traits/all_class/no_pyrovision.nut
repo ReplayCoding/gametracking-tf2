@@ -19,7 +19,7 @@ characterTraitsClasses.push(class extends CharacterTrait
     function OnApply()
     {
         local wearable = null;
-        while (wearable = Entities.FindByClassname(wearable, "tf_we*"))
+        while (wearable = FindByClassname(wearable, "tf_we*"))
             if (wearable.GetOwner() == player)
                 wearable.AddAttribute("vision opt in flags", 0, -1);
     }

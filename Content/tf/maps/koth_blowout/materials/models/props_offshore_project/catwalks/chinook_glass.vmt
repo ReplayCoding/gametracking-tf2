@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_offshore_project/catwalks/chinook"
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent"	"200"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[1 2 4]"
+//	"$phongwarptexture"	"models\props_sewer/blue_metallic_phongwarp"
+
+//	"$lightwarptexture" "models\props_sewer/window_warp"
+
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[.1 .1 .1]"
+	"$envmapfresnel"	"10"
+
+}

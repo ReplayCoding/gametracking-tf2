@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "moonly/metal006"
+//   "$basetexturetransform" "center 0 0 scale .625 .625 rotate 0 translate 0 0"
+//    "$bumptransform" "center 0 0 scale 1.6 1.6 rotate 0 translate 0 0"
+    "$surfaceprop" "metal"
+	"%keywords" "tf, offshore"
+
+	"$bumpmap" "props/plasticwall002a_normal"
+	"%tooltexture" "overlays/detail_prop002a"
+	"$detail" "overlays/detail_prop002a"
+	"$detailscale" "1"
+
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"	
+}

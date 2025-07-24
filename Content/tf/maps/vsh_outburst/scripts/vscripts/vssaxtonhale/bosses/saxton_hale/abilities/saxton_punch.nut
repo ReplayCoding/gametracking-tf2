@@ -16,6 +16,8 @@ PrecacheArbitrarySound("vsh_sfx.saxton_punch");
 PrecacheArbitrarySound("saxton_hale.saxton_punch_ready")
 PrecacheArbitrarySound("saxton_hale.saxton_punch")
 PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "vsh_megapunch_shockwave" })
+PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "vsh_mighty_slam" })
+PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = "stomp_text" })
 
 class SaxtonPunchTrait extends BossTrait
 {
@@ -49,11 +51,13 @@ class SaxtonPunchTrait extends BossTrait
         if (params.damage_custom == 9)
         {
             params.inflictor = custom_dmg_hale_taunt;
+            params.inflictor.SetAbsOrigin(boss.GetOrigin());
             params.damage_stats = 0;
         }
         else if (!IsCollateralDamage(params.damage_type) && player != victim && Perform(victim))
         {
             params.inflictor = custom_dmg_saxton_punch;
+            params.inflictor.SetAbsOrigin(boss.GetOrigin());
             params.damage_type = DMG_BLAST;
         }
     }
@@ -85,6 +89,7 @@ class SaxtonPunchTrait extends BossTrait
                 local damage = target.GetMaxHealth() * (0.7 - distance / 2000);
                 if (!target.IsPlayer())
                     damage *= 2;
+                custom_dmg_saxton_punch_aoe.SetAbsOrigin(boss.GetOrigin());
                 target.TakeDamageEx(
                     custom_dmg_saxton_punch_aoe,
                     boss,

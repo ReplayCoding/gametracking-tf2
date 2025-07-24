@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_sideshow\logwater002"
+	"$surfaceprop"	"default"
+	"$model" "1"
+	"$translucent" "1"
+//	"$bumpmap" "models\props_sideshow\logwater001_normal"
+
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 165 111 82 }"
+//	"$color2"		"{121 122 82}"
+	"$color2"		"{119 115 96}"
+
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .5 .5 .5]"
+	"$basemapalphaenvmapmask" 1
+
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 90
+		}
+	}
+}

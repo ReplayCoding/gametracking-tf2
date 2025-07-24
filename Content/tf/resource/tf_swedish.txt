@@ -5111,7 +5111,7 @@
 "pl_terror_event_authors"		"Tomi ”ICS” Uurainen"
 "arena_lumberyard_event_authors"	"Liam ”Diva Dan” Moffitt\nBenjamin ”blaholtzen” Blåholtz\nAlex ”FGD5” Stewart\nSeb ”Tianes” Necula\nAeon ”Void” Bollig\nErik ”Colteh” Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew ”Panckakebro” Hiller\nElián ”iron” Rodríguez\nPhe\nRyan ”Chill” Foy\nDenis ”xB33” Varchulik\nWilliam ”Cheesypuff” Bartley–Bolster\nOliver ”OverPovered” Pennanen"
-"pl_breadspace_authors"			"Bailey ”Glitch” Hodges\nJesse ”Custard1” Budd\nAlberto ”Petachepas” Zarzuela\nJonas ”Grambee” Carson\nDylan ”doggoh” Lee\nOliver ”OverPovered” Pennanen\nChristoph ”Gadget” Manschitz\nPeter ”Tabby” Bryant\nWilliam ”Cheesypuff” Bartley–Bolster\nKirill ”Le Bruhe?” Ruzanov\nHugh ”HueZee_” Madoc Schneider\nBrandon ”Brantopias” Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey ”Glitch” Hodges\nJesse ”Custard1” Budd\nAlberto ”Petachepas” Zarzuela\nGrambee\nDylan ”doggoh” Lee\nOliver ”OverPovered” Pennanen\nChristoph ”Gadget” Manschitz\nPeter ”Tabby” Bryant\nWilliam ”Cheesypuff” Bartley-Bolster\nKirill ”Le Bruhe?” Ruzanov\nHugh ”HueZee_” Madoc Schneider\nBrandon ”Brantopias” Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi ”ICS” Uurainen\nTyler ”Yyler” King\nAlex ”MaccyF” MacFarquhar"
 "koth_cascade_authors"			"Evan ”Defcon” LeBlanc\nAlex ”FGD5” Stewart\nLiam ”Diva Dan” Moffitt"
 "cp_altitude_authors"			"Evan ”Defcon” LeBlanc\nAlex ”FGD5” Stewart\nLiam ”Diva Dan” Moffitt"
@@ -5501,7 +5501,7 @@
 "TF_MapToken_Polar_AdText"		"–Köp av detta föremål stödjer skaparna av gemenskapsbanan Polar direkt."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Banmärke – Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"En bomblassbana\n\nSkapad av Bailey ”Glitch” Hodges, Jesse ”Custard1” Budd, Alberto ”Petachepas” Zarzuela, Jonas ”Grambee” Carson, Dylan ”doggoh” Lee, Oliver ”OverPovered” Pennanen, Christoph ”Gadget” Manschitz, Peter ”Tabby” Bryant, William ”Cheesypuff” Bartley–Bolster, Kirill ”Le Bruhe?” Ruzanov, Hugh ”HueZee_” Madoc Schneider, Brandon ”Brantopias” Sinkovich och human1\n\nKöp av detta föremål stödjer skaparna av gemenskapsbanan Bread Space direkt. Visa ditt stöd idag!"
+"TF_MapToken_BreadSpace_Desc"	"En bomblassbana\n\nSkapad av Bailey ”Glitch” Hodges, Jesse ”Custard1” Budd, Alberto ”Petachepas” Zarzuela, Grambee, Dylan ”doggoh” Lee, Oliver ”OverPovered” Pennanen, Christoph ”Gadget” Manschitz, Peter ”Tabby” Bryant, William ”Cheesypuff” Bartley-Bolster, Kirill ”Le Bruhe?” Ruzanov, Hugh ”HueZee_” Madoc Schneider, Brandon ”Brantopias” Sinkovich och human1\n\nKöp av detta föremål stödjer skaparna av gemenskapsbanan Bread Space direkt. Visa ditt stöd idag!"
 "TF_MapToken_BreadSpace_AdText"	"–Köp av detta föremål stödjer skaparna av gemenskapsbanan Bread Space direkt."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Banmärke – Chilly"
@@ -20050,6 +20050,12 @@ Om fiendelaget erövrar kontrollpunkten pausas ditt lags timer tills ni återer�
 "TF_IM_VSH_ToWin2"				"...eller erövra den kontrollpunkt som aktiveras under omgången"
 "TF_IM_VSH_Notes1"				"Saxton Hale har unika förmågor för att besegra legosoldaterna"
 "TF_IM_VSH_Notes2"				"Det går inte att återskapas, så dö inte!"
+
+"TF_SDK_LocalLoadout"               "Alla ändringar som görs i utrustningen är lokala för den här modden."
+"TF_SDK_ResetLoadout_Title"         "Synkronisera utrustning"
+"TF_SDK_ResetLoadout_Desc"          "Vill du synkronisera din lokala utrustning för den här modden med Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Återställ utrustningen"
+"TF_SDK_ClearLoadout_Desc"          "Vill du återställa utrustningen till standardföremålen?"
 
 }
 }

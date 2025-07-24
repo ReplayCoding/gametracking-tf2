@@ -5110,7 +5110,7 @@
 "pl_terror_event_authors"		"Tomi „ICS“ Uurainen"
 "arena_lumberyard_event_authors"	"Liam „Diva Dan“ Moffitt\nBenjamin „blaholtzen“ Blåholtz\nAlex „FGD5“ Stewart\nSeb „Tianes“ Necula\nAeon „Void“ Bollig\nErik „Colteh“ Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew „Panckakebro“ Hiller\nElián „iron“ Rodríguez\nPhe\nRyan „Chill“ Foy\nDenis „xB33“ Varchulik\nWilliam „Cheesypuff“ Bartley-Bolster\nOliver „OverPovered“ Pennanen"
-"pl_breadspace_authors"			"Bailey „Glitch“ Hodges\nJesse „Custard1“ Budd\nAlberto „Petachepas“ Zarzuela\nJonas „Grambee“ Carson\nDylan „doggoh“ Lee\nOliver „OverPovered“ Pennanen\nChristoph „Gadget“ Manschitz\nPeter „Tabby“ Bryant\nWilliam „Cheesypuff“ Bartley-Bolster\nKirill „Le Bruhe?“ Ruzanov\nHugh „HueZee_“ Madoc Schneider\nBrandon „Brantopias“ Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey „Glitch“ Hodges\nJesse „Custard1“ Budd\nAlberto „Petachepas“ Zarzuela\nGrambee\nDylan „doggoh“ Lee\nOliver „OverPovered“ Pennanen\nChristoph „Gadget“ Manschitz\nPeter „Tabby“ Bryant\nWilliam „Cheesypuff“ Bartley-Bolster\nKirill „Le Bruhe?“ Ruzanov\nHugh „HueZee_“ Madoc Schneider\nBrandon „Brantopias“ Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi „ICS“ Uurainen\nTyler „Yyler“ King\nAlex „MaccyF“ MacFarquhar"
 "koth_cascade_authors"			"Evan „Defcon“ LeBlanc\nAlex „FGD5“ Stewart\nLiam „Diva Dan“ Moffitt"
 "cp_altitude_authors"			"Evan „Defcon“ LeBlanc\nAlex „FGD5“ Stewart\nLiam „Diva Dan“ Moffitt"
@@ -5500,7 +5500,7 @@
 "TF_MapToken_Polar_AdText"		"-Durch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Polar direkt unterstützt."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Kartenbriefmarke – Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Eine Frachtbeförderungskarte\n\nErstellt von Bailey „Glitch“ Hodges, Jesse „Custard1“ Budd, Alberto „Petachepas“ Zarzuela, Jonas „Grambee“ Carson, Dylan „doggoh“ Lee, Oliver „OverPovered“ Pennanen, Christoph „Gadget“ Manschitz, Peter „Tabby“ Bryant, William „Cheesypuff“ Bartley-Bolster, Kirill „Le Bruhe?“ Ruzanov, Hugh „HueZee_“ Madoc Schneider, Brandon „Brantopias“ Sinkovich und human1\n\nDurch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Bread Space direkt unterstützt. Zeigen Sie Ihre Unterstützung noch heute!"
+"TF_MapToken_BreadSpace_Desc"	"Eine Frachtbeförderungskarte\n\nErstellt von Bailey „Glitch“ Hodges, Jesse „Custard1“ Budd, Alberto „Petachepas“ Zarzuela, Grambee, Dylan „doggoh“ Lee, Oliver „OverPovered“ Pennanen, Christoph „Gadget“ Manschitz, Peter „Tabby“ Bryant, William „Cheesypuff“ Bartley-Bolster, Kirill „Le Bruhe?“ Ruzanov, Hugh „HueZee_“ Madoc Schneider, Brandon „Brantopias“ Sinkovich und human1\n\nDurch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Bread Space direkt unterstützt. Zeigen Sie Ihre Unterstützung noch heute!"
 "TF_MapToken_BreadSpace_AdText"	"-Durch den Kauf dieses Gegenstands werden die Schöpfer der Communitykarte Bread Space direkt unterstützt."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Kartenbriefmarke – Chilly"
@@ -20029,6 +20029,12 @@ Wenn das gegnerische Team den Kontrollpunkt erobert, bleibt die Uhr Ihres Teams 
 "TF_IM_VSH_ToWin2"				"… oder den Kontrollpunkt erobern, der im Verlauf der Runde aktiviert wird."
 "TF_IM_VSH_Notes1"				"Saxton Hale hat einzigartige Fähigkeiten, um Söldner auszuschalten."
 "TF_IM_VSH_Notes2"				"Erneutes Spawnen ist nicht möglich, also besser nicht sterben!"
+
+"TF_SDK_LocalLoadout"               "Alle Änderungen an Ihrer Ausrüstung werden nur lokal für diese Mod gespeichert."
+"TF_SDK_ResetLoadout_Title"         "Ausrüstung synchronisieren"
+"TF_SDK_ResetLoadout_Desc"          "Möchten Sie die lokal für diese Mod gespeicherte Ausrüstung mit Team Fortress 2 synchronisieren?"
+"TF_SDK_ClearLoadout_Title"         "Ausrüstung zurücksetzen"
+"TF_SDK_ClearLoadout_Desc"          "Möchten Sie ihre Ausrüstung auf die Standardgegenstände zurücksetzen?"
 
 }
 }

@@ -27,7 +27,7 @@ haleBlueArmEnabled <- false;
 
 function Hale_SetRedArm(boss, newStatus)
 {
-    local wearable = Entities.FindByName(null, "wearable_vs_hale_aura_red");
+    local wearable = FindByName(null, "wearable_vs_hale_aura_red");
     if (wearable != null)
         wearable.Kill();
     if (newStatus)
@@ -40,7 +40,7 @@ function Hale_SetRedArm(boss, newStatus)
     Hale_ColorThirdPersonArms(boss);
 
     local viewmodel = null;
-    while (viewmodel = Entities.FindByClassname(viewmodel, "tf_wearable_vm"))
+    while (viewmodel = FindByClassname(viewmodel, "tf_wearable_vm"))
         if (viewmodel.GetOwner() == boss)
             viewmodel.SetBodygroup(1, newStatus ? 1 : 0);
     GetPropEntity(boss, "m_hViewModel").SetBodygroup(1, newStatus ? 1 : 0);
@@ -48,7 +48,7 @@ function Hale_SetRedArm(boss, newStatus)
 
 function Hale_SetBlueArm(boss, newStatus)
 {
-    local wearable = Entities.FindByName(null, "wearable_vs_hale_aura_blue");
+    local wearable = FindByName(null, "wearable_vs_hale_aura_blue");
     if (wearable != null)
         wearable.Kill();
     if (newStatus)
@@ -61,7 +61,7 @@ function Hale_SetBlueArm(boss, newStatus)
     Hale_ColorThirdPersonArms(boss);
 
     local viewmodel = null;
-    while (viewmodel = Entities.FindByClassname(viewmodel, "tf_wearable_vm"))
+    while (viewmodel = FindByClassname(viewmodel, "tf_wearable_vm"))
         if (viewmodel.GetOwner() == boss)
             viewmodel.SetBodygroup(0, newStatus ? 1 : 0);
     if (newStatus)

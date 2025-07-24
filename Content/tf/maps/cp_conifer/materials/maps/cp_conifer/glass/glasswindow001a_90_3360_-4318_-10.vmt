@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A_90.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_conifer/c3360_-4318_-10"
+	}
+}

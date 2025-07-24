@@ -46,7 +46,7 @@ AddListener("setup_end", 0, function()
 
     local respawnRoom = null;
     local respawnsToKill = [];
-    while (respawnRoom = Entities.FindByClassname(respawnRoom, "func_respawnroom"))
+    while (respawnRoom = FindByClassname(respawnRoom, "func_respawnroom"))
         respawnsToKill.push(respawnRoom);
     foreach (respawnRoom in respawnsToKill)
         respawnRoom.Kill();
@@ -70,6 +70,18 @@ AddListener("tick_always", 8, function(timeDelta)
 {
     if (IsInWaitingForPlayers())
         return;
+
+    //AFK-kick fix for dead players
+    local shouldTurnOff = Time() % 2;
+    foreach (player in GetValidMercs())
+    {
+        if (!player.IsAlive())
+        {
+            local buttons = GetPropInt(player, "m_nButtons");
+            SetPropInt(player, "m_nButtons", shouldTurnOff ? (buttons | IN_GRENADE1) : (buttons & ~IN_GRENADE1));
+        }
+    }
+
     if (IsRoundSetup())
     {
         if (GetValidPlayerCount() <= 1 && !IsAnyBossAlive())
@@ -85,7 +97,7 @@ AddListener("tick_always", 8, function(timeDelta)
         }
         return;
     }
-    if (GetAliveMercCount() <= 5 && GetPropFloat(team_round_timer, "m_flTimeRemaining") > 60)
+    if (GetAliveMercCount() <= 5 && (GetPropFloat(team_round_timer, "m_flTimerEndTime") - Time()) > 60)
         EntFireByHandle(team_round_timer, "SetTime", "60", 0, null, null);
 
     local noBossesAlive = !IsAnyBossAlive();
@@ -106,7 +118,7 @@ function EndRound(winner)
     if (!IsAnyBossAlive() && IsRoundSetup())
         winner = TF_TEAM_UNASSIGNED;
 
-    local roundWin = Entities.FindByClassname(null, "game_round_win");
+    local roundWin = FindByClassname(null, "game_round_win");
     if (roundWin == null)
     {
         roundWin = SpawnEntityFromTable("game_round_win",

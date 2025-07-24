@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+
+{
+	"$basetexture" "models/props_sewer/city_window001"
+
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .75 .75 .75]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "models/props_sewer/city_window001_normal"
+//	"$translucent" 1
+
+	"$nodecal" "1"
+
+	"%keywords" "tf"
+
+}

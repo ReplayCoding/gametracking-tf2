@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_conifer/water/water_hydro_cheap_3051_1577_109.vmt"
+	"insert"
+	{
+		"$waterdepth"		"235"
+	}
+}

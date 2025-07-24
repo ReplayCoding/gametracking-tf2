@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"cp_manor/wood_floor01"
+	"%keywords"		"tf"
+	"$detail"		"overlays/detail006"
+	"$detailscale"		"1"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+	"$envmap"		"env_cubemap"
+	"$envmapmask"		"cp_manor/wood_floor01_mask"
+	"$envmapcontrast"		"1"
+	"$reflectivity"		"[.7 .5 .35]"
+//	"$color2"		"{117 135 145}"
+	"$color2"		"{204 236 254}"
+	"$model"		"1"
+}

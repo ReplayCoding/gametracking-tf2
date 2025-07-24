@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/MEDIEVALGLASS001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_boardwalk/c0_336_33"
+	}
+}

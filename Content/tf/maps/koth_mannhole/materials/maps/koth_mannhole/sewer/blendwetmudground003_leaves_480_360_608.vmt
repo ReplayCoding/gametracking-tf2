@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SEWER/BLENDWETMUDGROUND003_LEAVES.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_mannhole/c480_360_608"
+	}
+}

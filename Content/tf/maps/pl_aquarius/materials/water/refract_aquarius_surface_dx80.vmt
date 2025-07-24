@@ -1,0 +1,7 @@
+// Fallback to nothing in dx80
+"LightmappedGeneric"
+{
+	"$basetexture" "water/sprite_alpha"
+	"$alpha" "0"
+	"$nofog" "1"
+}

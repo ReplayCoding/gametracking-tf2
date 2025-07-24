@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "moonly/metal007"
+//   "$basetexturetransform" "center 0 0 scale .625 .625 rotate 0 translate 0 0"
+//    "$bumptransform" "center 0 0 scale 1.6 1.6 rotate 0 translate 0 0"
+    "$surfaceprop" "metal"
+	"%keywords" "tf, offshore"
+
+	"$bumpmap" "moonly/metalrivet_normal"
+	"%tooltexture" "overlays/detail_rivet"
+	"$detail" "overlays/detail_rivet"
+	"$detailscale" "1"
+
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"	
+}

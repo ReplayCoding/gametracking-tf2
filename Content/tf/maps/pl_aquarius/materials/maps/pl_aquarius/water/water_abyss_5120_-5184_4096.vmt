@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_ABYSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_aquarius/c5120_-5184_4096"
+		"Proxies"
+		{
+		}
+	}
+}

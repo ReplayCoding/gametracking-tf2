@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_harbor/ship_door01c_skin1"
+	"$model" "1"
+	"$surfaceprop"	"metal"
+	"%keywords"	"tf"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[1 1 1]"
+	//"$phongtint" "[ 0.635 0.329 0.282 ]"
+	"$rimlight" "1"
+	"$rimlightexponent"	"2"
+	"$rimlightboost" "1"
+}

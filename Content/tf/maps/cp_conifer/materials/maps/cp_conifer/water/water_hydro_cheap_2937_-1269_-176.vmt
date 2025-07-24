@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_conifer/c2937_-1269_-176"
+		"Proxies"
+		{
+		}
+	}
+}

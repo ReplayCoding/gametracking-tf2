@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_sewer/Trashbag_2"
+	"$bumpmap" "models/props_sewer/Trashbag_normal"
+
+	"%keywords" "tf"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".50"	
+	"$phongfresnelranges"	"[1 2 8]"
+}
+
+

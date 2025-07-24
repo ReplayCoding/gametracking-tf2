@@ -16,16 +16,16 @@
 "GameUI_MouseAcceleration_Hint"	"Activar aceleración del mouse (recomendado si usas entrada directa de datos)"
 "GameUI_MouseAccelerationAmount_Hint"	"Cantidad de aceleración. Un valor de 1.0 no proporciona aceleración; valores superiores proporcionarán aceleración adicional."
 "GameUI_Joystick" 		"Control"
-"GameUI_JoystickLabel"		"Activar el mando"
-"GameUI_ReverseJoystick"	"Invertir el eje vertical del mando"
+"GameUI_JoystickLabel"		"Activar el control"
+"GameUI_ReverseJoystick"	"Invertir el eje vertical del control"
 "GameUI_JoystickLook"		"Vista joystick"
-"GameUI_JoystickLookLabel"	"Usar mando para mirar alrededor"
+"GameUI_JoystickLookLabel"	"Usar control para mirar alrededor"
 "GameUI_JoystickLookType"	"Tipo de vista"
 "GameUI_JoystickNormal"		"Normal"
 "GameUI_JoystickInverted"	"Invertida"
 "GameUI_JoystickMoveLookSticks"	"Sticks mover/mirar"				[$WIN32]
 "GameUI_JoystickMoveLookSticks"	"Sticks analógicos"					[$X360]
-"GameUI_JoystickSouthpaw"	"Intercambiar sticks en mandos de 2 sticks"		[$WIN32]
+"GameUI_JoystickSouthpaw"	"Intercambiar sticks en controles de 2 sticks"		[$WIN32]
 "GameUI_JoystickSouthpaw"	"Configuración para zurdos"					[$X360]
 "GameUI_JoystickLookSpeedPitch"	"Sensibilidad vertical"
 "GameUI_JoystickLookSpeedYaw"	"Sensibilidad horizontal"
@@ -35,7 +35,7 @@
 "GameUI_AutoAim" 		"Autoapuntar"
 "GameUI_AutoaimLabel"		"Apunta al enemigo automáticamente."
 "GameUI_ContentLock"		"Bloqueo contenido"
-"GameUI_ContentLockLabel"	"Pulsa este botón e introduce la contraseña para desactivar\nimágenes poco apropiadas para los jugadores más jóvenes."
+"GameUI_ContentLockLabel"	"Presiona este botón e introduce la contraseña para desactivar\nimágenes poco apropiadas para los jugadores más jóvenes."
 "GameUI_ContentStatusDisabled"	"Introduce una contraseña para activar el bloqueo."
 "GameUI_ContentStatusEnabled"	"Introduce una contraseña para desactivar el bloqueo."
 "GameUI_Enable"			"Activar"
@@ -103,7 +103,7 @@
 "GameUI_UseDefaults"		"Predefinidas"
 "GameUI_SetNewKey"		"Editar"
 "GameUI_ClearKey"		"Borrar"
-"GameUI_SetNewButton"		"Pulsa un botón..."
+"GameUI_SetNewButton"		"Presiona un botón..."
 "GameUI_ClearButton"		"Borrar"
 "GameUI_DefaultButtons"		"Controles predeterminados"
 "GameUI_Action"			"Acción"
@@ -155,7 +155,7 @@
 "GameUI_TimeStamp"		"Marca de tiempo"
 "GameUI_KeyboardSettings"	"Parámetros de teclado"
 "GameUI_KeyboardSettingsText"	"¿Restaurar teclas predeterminadas para todas las acciones?"
-"GameUI_ControllerSettingsText"	"¿Restaurar todas las opciones predeterminadas del mando?"
+"GameUI_ControllerSettingsText"	"¿Restaurar todas las opciones predeterminadas del control?"
 "GameUI_GameMenu_NewGame"	"NUEVA PARTIDA"
 "GameUI_GameMenu_PlayDemo"	"JUGAR DEMO"
 "GameUI_GameMenu_BonusMaps"	"MAPAS DE BONIFICACIÓN"
@@ -610,8 +610,8 @@
 "GAMEUI_PostCommentary_options"		"(Para activar y desactivar el comentario, selecciona \"Opciones\" en el menú principal.)"
 "GAMEUI_LostCoastHasCommentary"		"En Half-Life 2: Lost Coast se incluyen comentarios de audio de los miembros del equipo de desarrollo de Valve."
 "GAMEUI_Commentary_WhatIs"		"El modo comentario te permite acceder a nodos de información que contienen comentarios grabados por los miembros del equipo de desarrollo de Valve."
-"GAMEUI_Commentary_HowToUse"		"Para reproducir o detener el nodo de un comentario, apunta con la mira a cualquier icono de globo y pulsa la tecla USAR."
-"GAMEUI_Commentary_HowToUse_Attack"	"Para reproducir o detener el nodo de un comentario, apunta con la mira a cualquier icono de globo y pulsa la tecla de ATAQUE PRINCIPAL."
+"GAMEUI_Commentary_HowToUse"		"Para reproducir o detener el nodo de un comentario, apunta con la mira a cualquier ícono de globo y presiona la tecla USAR."
+"GAMEUI_Commentary_HowToUse_Attack"	"Para reproducir o detener el nodo de un comentario, apunta con la mira a cualquier ícono de globo y presiona la tecla de ATAQUE PRINCIPAL."
 "GAMEUI_COMMENTARY_GOD"			"(Cuando juegues en modo comentario, serás invulnerable al daño y no conseguirás logros.)"
 "GAMEUI_Commentary_Console_Explanation"	"Los \"nodos de comentarios\" contienen comentarios en audio del equipo de desarrollo de Valve.\n\nPara reproducir o detener un nodo, apunta a cualquier ícono de globo y presiona el botón USAR.\n\n(Mientras escuches un nodo, serás invulnerable al daño. En el modo comentario no se pueden obtener logros)."
 "GAMEUI_AudioSpokenLanguage"				"Idioma de audio (voz)"
@@ -863,16 +863,16 @@
 "GameUI_Vote_Type"					"Nombre alternativo"
 "GameUI_vote_extend_current_map"	"Extender mapa actual."
 
-"GameUI_vote_yes_instruction_a"			"Pulsa START"
-"GameUI_vote_no_instruction_a"			"Pulsa BACK"
+"GameUI_vote_yes_instruction_a"			"Presiona START"
+"GameUI_vote_no_instruction_a"			"Presiona BACK"
 "GameUI_vote_yes_instruction_b"			"para votar SÍ"
 "GameUI_vote_no_instruction_b"			"para votar NO"
 
-"GameUI_vote_yes_pc_instruction"		"Pulsa F1 para votar SÍ"
-"GameUI_vote_no_pc_instruction"			"Pulsa F2 para votar NO"
+"GameUI_vote_yes_pc_instruction"		"Presiona F1 para votar SÍ"
+"GameUI_vote_no_pc_instruction"			"Presiona F2 para votar NO"
 
-"GameUI_vote_yes_sc_instruction"		"Pulsa %cl_trigger_first_notification% para votar SÍ"
-"GameUI_vote_no_sc_instruction"			"Pulsa %cl_decline_first_notification% para votar NO"
+"GameUI_vote_yes_sc_instruction"		"Presiona %cl_trigger_first_notification% para votar SÍ"
+"GameUI_vote_no_sc_instruction"			"Presiona %cl_decline_first_notification% para votar NO"
 
 "GameUI_vote_current_vote_count"		"Recuento de votos:"
 

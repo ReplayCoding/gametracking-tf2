@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/WALL_ISLAND_HEAVY02C_SPEC.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_boardwalk/c-1232_-336_136"
+	}
+}

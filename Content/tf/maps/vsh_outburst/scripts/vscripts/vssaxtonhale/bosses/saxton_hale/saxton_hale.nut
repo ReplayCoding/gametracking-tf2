@@ -50,7 +50,12 @@ class SaxtonHale extends Boss
         RunWithDelay2(this, 0.1, function() {
             vsh_vscript.Hale_SetRedArm(player, false);
             vsh_vscript.Hale_SetBlueArm(player, false);
-            player.CreateCustomWearable(null, saxton_aura_model_path);
+            local wearable = FindByName(null, "wearable_vs_hale_aura_body");
+            if (wearable != null)
+                wearable.Kill();
+            wearable = player.CreateCustomWearable(null, saxton_aura_model_path);
+            wearable.KeyValueFromString("targetname", "wearable_vs_hale_aura_body");
+
             player.GiveWeapon("Hale's Own Fists");
         });
 

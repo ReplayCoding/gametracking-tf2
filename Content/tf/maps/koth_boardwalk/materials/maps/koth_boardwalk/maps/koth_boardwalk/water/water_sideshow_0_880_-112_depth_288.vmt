@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_boardwalk/water/water_sideshow_0_880_-112.vmt"
+	"insert"
+	{
+		"$waterdepth"		"288"
+	}
+}

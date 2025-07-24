@@ -1,0 +1,17 @@
+"decalmodulate"
+{
+	"$basetexture"               "overlays/caustic002"
+//	"$additive" 1
+//	"$color" "[10 10 10]"
+//	"$nofog" 1
+	"proxies"
+	{
+		"animatedtexture"
+		{
+			"animatedtexturevar"         "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate"   15.50
+		}
+	}
+	"%keywords" "tf, offshore"
+}

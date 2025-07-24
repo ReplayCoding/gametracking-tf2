@@ -46,9 +46,9 @@ AddListener("tick_only_valid", 2, function (timeDelta)
         local number = floor(player in damage ? damage[player] : 0);
         local offset = number < 10 ? 0.498 : number < 100 ? 0.493 : number < 1000 ? 0.491 : 0.487;
 
-        EntFireByHandle(game_text_damage, "AddOutput", "message " + number, 0, player, player);
-        EntFireByHandle(game_text_damage, "AddOutput", "x " + offset, 0, player, player);
-        EntFireByHandle(game_text_damage, "Display", "", 0, player, player);
+        SetPropString(game_text_damage, "m_iszMessage", ""+number.tointeger());
+        game_text_damage.KeyValueFromFloat("x", offset);
+        game_text_damage.AcceptInput("Display", "", player, player);
     }
 });
 

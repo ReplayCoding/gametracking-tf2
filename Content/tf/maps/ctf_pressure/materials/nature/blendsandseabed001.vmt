@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "egypt\sky_sand_01"
+	"$basetexture" "egypt\sand_floor_04"
+	"$bumpmap" "Nature/dirtground001_height-ssbump"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"$blendmodulatetexture" "winter/snowgravelblend"
+	"%keywords" "tf"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+	"$color" "{80 150 255}"
+}

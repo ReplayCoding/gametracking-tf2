@@ -1,0 +1,102 @@
+"Pressure.MegaloDisplay"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"ctf_pressure/megalodon_roar1.wav"
+		"wave"	"ctf_pressure/megalodon_roar2.wav"
+		"wave"	"ctf_pressure/megalodon_roar3.wav"
+	}
+}
+"Pressure.Flagalarm_Red"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_95dB"
+	"pitch"		"115"
+	"wave"	")ambient/alarms/alarm_citizen_loop1.wav"
+}
+"Pressure.Flagalarm_Blu"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_95dB"
+	"pitch"		"115"
+	"wave"	")ambient/alarms/alarm_citizen_loop1.wav"
+}
+"Pressure.SeagullGame_Attract"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"100"
+	"rndwave"
+	{
+		"wave"	"ctf_pressure/vo/seagulldestroyer/attract_player1.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/attract_player2.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/attract_player3.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/attract_player4.mp3"
+	}
+}
+"Pressure.SeagullGame_Respawn"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"100"
+	"rndwave"
+	{
+		"wave"	"ctf_pressure/vo/seagulldestroyer/seagull_respawn1.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/seagull_respawn2.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/seagull_respawn3.mp3"
+	}
+}
+"Pressure.SeagullGame_Wingame"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"100"
+	"rndwave"
+	{
+		"wave"	"ctf_pressure/vo/seagulldestroyer/wingame1.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/wingame2.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/wingame3.mp3"
+		"wave"	"ctf_pressure/vo/seagulldestroyer/wingame4.mp3"
+	}
+}
+"Pressure.SeagullGame_WingameR"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"100"
+
+	"wave"	"ctf_pressure/vo/seagulldestroyer/wingame_secret.mp3"
+}
+//HACK TO STOP SEAGULLS FROM OVERFLOWING THE SOUND CHANNEL ON THE CLIENT!
+"Rubber_Tire.ImpactSoft"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_85dB"
+
+	"rndwave"
+	{
+	}
+}
+"Rubber_Tire.ImpactHard"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_85dB"
+
+	"rndwave"
+	{
+	}
+}

@@ -1,0 +1,454 @@
+"Sideshow.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_harbor.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"75"
+		"wave"		"sideshow/gladiators_loop.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"4, 5, 6"
+		"volume"	".4"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient\levels\canals\shore1.wav"
+				"wave"		"ambient\levels\canals\shore2.wav"
+				"wave"		"ambient\levels\canals\shore3.wav"
+				"wave"		"ambient\levels\canals\shore4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"6, 8, 10"
+		"volume"	".4"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient\water\wave1.wav"
+				"wave"		"ambient\water\wave2.wav"
+				"wave"		"ambient\water\wave3.wav"
+				"wave"		"ambient\water\wave4.wav"
+				"wave"		"ambient\water\wave5.wav"
+				"wave"		"ambient\water\wave6.wav"
+		}
+	}
+	
+	"playlooping"
+	{
+		"volume"		".4"
+		"pitch"			"100"
+		"wave"			"ambient\lair\perimeter_ocean_close.wav"
+	}
+
+
+	"playrandom"
+	{
+		"time"		"18, 16"
+		"volume"	".15, .2"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient/levels/coast/seagulls_ambient1.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient2.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient3.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient4.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"12, 14, 16"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{	
+		"time"			"20, 36"
+		"volume"		"0.3"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/ship_horn_01.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/ship_horn_02.mp3"
+		}
+	}
+	
+	"playrandom"
+	{	
+		"time"			"22, 38"
+		"volume"		"0.4"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/mvm_warehouse/metrotrain_passby_01.mp3"
+			"wave"		"ambient_mp3/mvm_warehouse/metrotrain_passby_02.mp3"
+		}
+	}
+	
+	"playrandom"
+	{	
+		"time"			"16, 20"
+		"volume"		"0.2"
+		"pitch"			"100, 90"
+		"soundlevel" 	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"		"ambient/voices/playground_memory.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+}
+
+"Sideshow.Inside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_harbor.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".6"
+		"pitch"		"75"
+		"wave"		"sideshow/gladiators_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+
+	
+	"playrandom"
+	{
+		"time"		"18, 16"
+		"volume"	".075, .1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient/levels/coast/seagulls_ambient1.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient2.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient3.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient4.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"12, 14, 16"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+}
+
+"Sideshow.InsideLove"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_harbor.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".6"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\underground_water_lp_01.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".4"
+		"pitch"		"100"
+		"wave"		"vehicles\airboat\pontoon_stopped_water_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".4"
+		"pitch"		"100"
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".6"
+		"pitch"		"75"
+		"wave"		"sideshow/gladiators_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+
+	
+	"playrandom"
+	{
+		"time"		"18, 16"
+		"volume"	".075, .1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient/levels/coast/seagulls_ambient1.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient2.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient3.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient4.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"12, 14, 16"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+		}
+	}
+
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+	
+}
+
+"Sideshow.InsideBasher"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_harbor.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".4, .6"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient\lair\yeti_statue_growl1.wav"
+			"wave"		"ambient\lair\yeti_statue_growl2.wav"
+			"wave"		"ambient\lair\yeti_statue_growl3.wav"
+			"wave"		"ambient\lair\yeti_statue_growl4.wav"
+			"wave"		"ambient\lair\yeti_statue_growl5.wav"
+			"wave"		"ambient\lair\yeti_statue_growl6.wav"			
+		}
+	}
+	
+	"playlooping"
+	{
+		"volume"		".6"
+		"pitch"		"75"
+		"wave"		"sideshow/gladiators_loop.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"18, 16"
+		"volume"	".075, .1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient/levels/coast/seagulls_ambient1.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient2.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient3.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient4.wav"
+				"wave"		"ambient/levels/coast/seagulls_ambient5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"12, 14, 16"
+		"volume"	".1"
+		"pitch"		"100"
+		"rndwave"
+		{
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+				"wave"		"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".3, .666"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+}

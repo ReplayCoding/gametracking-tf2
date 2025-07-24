@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_sideshow/sign_master_001"
+	"$selfillummask" "Models/props_sideshow/sign_master_001_illum"
+	"$bumpmap" "models/effects/flat_normal"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[0.4 0.5 1]"	
+
+	"$selfillum" "1"
+}

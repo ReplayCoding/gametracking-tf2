@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_fulgur_rc3a/water/water_hydro_cheap_2847_-3686_-463.vmt"
+	"insert"
+	{
+		"$waterdepth"		"57"
+	}
+}

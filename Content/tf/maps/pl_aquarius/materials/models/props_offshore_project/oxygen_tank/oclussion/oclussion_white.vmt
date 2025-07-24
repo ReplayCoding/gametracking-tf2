@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_offshore_project/oxygen_tank/white"
+	"$basemapalphaphongmask" "1"
+	
+	"$phong" "1"
+
+	"$phongboost" "25"
+	"$phongfresnelranges"	"[.1 1 8]"
+	"$phongexponent"   "11"
+	"$halflambert" "1"                
+
+	"$lightwarptexture" "models/props_offshore_project/oxygen_tank/lightwarp"
+	"$rimlight" "1"										
+	"$rimlightexponent" "8"										
+	"$rimlightboost" "1"										
+	"$rimmask" "1"  
+
+}

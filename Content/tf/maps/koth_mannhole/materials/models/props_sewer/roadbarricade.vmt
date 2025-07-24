@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/roadbarricade"
+	"$bumpmap"	"models/props_sewer/roadbarricade_normal"
+
+	"$phong" "1"
+	"$phongexponent"	"10"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.3 1 8]"
+
+	"$selfillum" "1"
+	"$selfillumtint"        "[ 2 1 0 ]"
+//	"$selfillumfresnel"        "1"
+//	"$selfillumfresnelminmaxexp"        "[0.1 1 5]"
+
+}
+

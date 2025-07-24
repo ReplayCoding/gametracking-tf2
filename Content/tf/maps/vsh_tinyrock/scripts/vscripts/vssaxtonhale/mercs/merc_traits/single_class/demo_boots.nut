@@ -19,7 +19,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         if (player.GetPlayerClass() != TF_CLASS_DEMOMAN)
             return false;
         local wearable = null;
-        while (wearable = Entities.FindByClassname(wearable, "tf_wearable"))
+        while (wearable = FindByClassname(wearable, "tf_wearable"))
             if (wearable.GetOwner() == player && WeaponIs(wearable, "any_demo_boots"))
                 return true;
         return false;

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW008A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_citadel/c-938_2491_1664"
+	}
+}

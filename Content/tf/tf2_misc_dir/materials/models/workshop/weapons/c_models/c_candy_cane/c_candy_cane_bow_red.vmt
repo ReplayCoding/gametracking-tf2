@@ -6,6 +6,7 @@
 
 	"$phong" "1"
 	"$phongexponent" "1"
+	"$phongboost" ".5"	
 	"$lightwarptexture" "models/lightwarps/mirv_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
 	"$basemapalphaphongmask" "1"

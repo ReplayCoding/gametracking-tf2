@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_offshore_project\oxygen_tank\white"
+	"$bumpmap" "models/props_offshore_project/oxygen_tank/oxytank_bumpmap"
+	
+	"$phong" "1"
+
+	"$phongboost" "25"
+	"$phongfresnelranges"	"[.1 1 8]"
+	"$phongexponent"   "11"
+	"$halflambert" "1" 
+	"$lightwarptexture" "models/props_offshore_project/oxygen_tank/lightwarp"
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_cargo/c-992_-672_0"
+		"Proxies"
+		{
+		}
+	}
+}

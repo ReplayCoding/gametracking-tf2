@@ -1,7 +1,5 @@
 //Credit to Ficool2
 ::GetPropArraySize <- ::NetProps.GetPropArraySize.bindenv(::NetProps);
-::GetPropEntity <- ::NetProps.GetPropEntity.bindenv(::NetProps);
-::GetPropEntityArray <- ::NetProps.GetPropEntityArray.bindenv(::NetProps);
 ::GetPropBool <- ::NetProps.GetPropBool.bindenv(::NetProps);
 ::GetPropBoolArray <- ::NetProps.GetPropBoolArray.bindenv(::NetProps);
 ::GetPropFloat <- ::NetProps.GetPropFloat.bindenv(::NetProps);
@@ -37,4 +35,48 @@
 ::AddPropInt <- function(entity, property, value)
 {
     SetPropInt(entity, property, GetPropInt(entity, property) + value)
+}
+
+::CreateByClassname <- function(classname)
+{
+    local entity = Entities.CreateByClassname(classname);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
+}
+
+::FindByClassname <- function(previous, classname)
+{
+    local entity = Entities.FindByClassname(previous, classname);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
+}
+
+::FindByName <- function(previous, name)
+{
+    local entity = Entities.FindByName(previous, name);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
+}
+
+if (!("SpawnEntityFromTableOriginal" in getroottable()))
+   ::SpawnEntityFromTableOriginal <- ::SpawnEntityFromTable;
+::SpawnEntityFromTable <- function(name, keyvalues)
+{
+    local entity = SpawnEntityFromTableOriginal(name, keyvalues);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
+}
+
+::GetPropEntity <- function(entity, property)
+{
+    local entity = NetProps.GetPropEntity(entity, property);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
+}
+
+::GetPropEntityArray <- function(entity, property, index)
+{
+    local entity = NetProps.GetPropEntityArray(entity, property, index);
+    SetPropBool(entity, "m_bForcePurgeFixedupStrings", true);
+    return entity;
 }

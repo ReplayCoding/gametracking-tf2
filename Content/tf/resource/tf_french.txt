@@ -5108,7 +5108,7 @@
 "pl_terror_event_authors"		"Tomi « ICS » Uurainen"
 "arena_lumberyard_event_authors"	"Liam « Diva Dan » Moffitt\nBenjamin « blaholtzen » Blåholtz\nAlex « FGD5 » Stewart\nSeb « Tianes » Necula\nAeon « Void » Bollig\nErik « Colteh » Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew « Panckakebro » Hiller\nElián « iron » Rodríguez\nPhe\nRyan « Chill » Foy\nDenis « xB33 » Varchulik\nWilliam « Cheesypuff » Bartley-Bolster\nOliver « OverPovered » Pennanen"
-"pl_breadspace_authors"			"Bailey « Glitch » Hodges\nJesse « Custard1 » Budd\nAlberto « Petachepas » Zarzuela\nJonas « Grambee » Carson\nDylan « doggoh » Lee\nOliver « OverPovered » Pennanen\nChristoph « Gadget » Manschitz\nPeter « Tabby » Bryant\nWilliam « Cheesypuff » Bartley-Bolster\nKirill « Le Bruhe? » Ruzanov\nHugh « HueZee_ » Madoc Schneider\nBrandon « Brantopias » Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey « Glitch » Hodges\nJesse « Custard1 » Budd\nAlberto « Petachepas » Zarzuela\nGrambee\nDylan « doggoh » Lee\nOliver « OverPovered » Pennanen\nChristoph « Gadget » Manschitz\nPeter « Tabby » Bryant\nWilliam « Cheesypuff » Bartley-Bolster\nKirill « Le Bruhe? » Ruzanov\nHugh « HueZee_ » Madoc Schneider\nBrandon « Brantopias » Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi « ICS » Uurainen\nTyler « Yyler » King\nAlex « MaccyF » MacFarquhar"
 "koth_cascade_authors"			"Evan « Defcon » LeBlanc\nAlex « FGD5 » Stewart\nLiam « Diva Dan » Moffitt"
 "cp_altitude_authors"			"Evan « Defcon » LeBlanc\nAlex « FGD5 » Stewart\nLiam « Diva Dan » Moffitt"
@@ -5498,7 +5498,7 @@
 "TF_MapToken_Polar_AdText"		"- En achetant cet item, vous soutenez directement l'équipe qui a créé la carte communautaire Polar."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Timbre de carte : Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Carte de charge utile\n\nCréée par Bailey « Glitch » Hodges, Jesse « Custard1 » Budd, Alberto « Petachepas » Zarzuela, Jonas « Grambee » Carson, Dylan « doggoh » Lee, Oliver « OverPovered » Pennanen, Christoph « Gadget » Manschitz, Peter « Tabby » Bryant, William « Cheesypuff » Bartley-Bolster, Kirill « Le Bruhe? » Ruzanov, Hugh « HueZee_ » Madoc Schneider, Brandon « Brantopias » Sinkovich et human1\n\nEn achetant cet item, vous soutenez directement l'équipe qui a créé la carte communautaire Bread Space. Affichez votre soutien !"
+"TF_MapToken_BreadSpace_Desc"	"Carte de charge utile\n\nCréée par Bailey « Glitch » Hodges, Jesse « Custard1 » Budd, Alberto « Petachepas » Zarzuela, Grambee, Dylan « doggoh » Lee, Oliver « OverPovered » Pennanen, Christoph « Gadget » Manschitz, Peter « Tabby » Bryant, William « Cheesypuff » Bartley-Bolster, Kirill « Le Bruhe? » Ruzanov, Hugh « HueZee_ » Madoc Schneider, Brandon « Brantopias » Sinkovich et human1\n\nEn achetant cet item, vous soutenez directement l'équipe qui a créé la carte communautaire Bread Space. Affichez votre soutien !"
 "TF_MapToken_BreadSpace_AdText"	"- En achetant cet item, vous soutenez directement l'équipe qui a créé la carte communautaire Bread Space."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Timbre de carte : Chilly"
@@ -14315,7 +14315,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_SpellbookPage"				"Page de Grimoire"
 "TF_SpellbookPage_Desc"			"Cette page contient encore de l'énergie magique.\n\nSi vous avez un grimoire à proximité, vous pouvez y ajouter cette page depuis votre inventaire."
 
-"TF_ServerEnchantmentType"		"Enchantent de serveur"
+"TF_ServerEnchantmentType"		"Enchantement de serveur"
 "TF_Eternaween"					"Enchantement : Eternaween"
 "TF_Eternaween_Desc"			"Cet enchantement de serveur peut être utilisé pour activer l'utilisation des objets d'Halloween ou de Pleine lune sur un serveur enregistré pendant deux heures.\n\nJeter cet enchantement initiera un vote pour obtenir le consentement des autres joueurs sur le serveur.\nCet objet sera consommé lorsque l'enchantement prendra fin."
 
@@ -19976,6 +19976,12 @@ Si l'équipe ennemie capture le point de contrôle, le minuteur de votre équipe
 "TF_IM_VSH_ToWin2"				"… ou capturer le point de contrôle qui sera activé au cours du round."
 "TF_IM_VSH_Notes1"				"Saxton Hale possède des capacités uniques pour venir à bout des mercenaires"
 "TF_IM_VSH_Notes2"				"Il n'y a pas de réapparition, alors ne mourez pas !"
+
+"TF_SDK_LocalLoadout"               "Toutes les modifications apportées à votre équipement sont spécifiques à ce mod."
+"TF_SDK_ResetLoadout_Title"         "Synchroniser l'équipement"
+"TF_SDK_ResetLoadout_Desc"          "Souhaitez-vous synchroniser votre équipement local pour ce mod avec Team Fortress 2 ?"
+"TF_SDK_ClearLoadout_Title"         "Réinitialiser l'équipement"
+"TF_SDK_ClearLoadout_Desc"          "Voulez-vous vous rééquiper vos objets basiques ?"
 
 }
 }

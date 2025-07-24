@@ -1,0 +1,10 @@
+// ### This basic VMT was written based on the D:\dev\tools\python\templateStrings.pyc script ###
+"LightmappedGeneric"
+{
+	$baseTexture "models/props_island/island_tram_cage_alpha"
+	"$alphatest" 1
+	"$nocull" 1
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+	
+}

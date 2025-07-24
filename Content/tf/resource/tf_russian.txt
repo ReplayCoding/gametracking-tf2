@@ -5113,7 +5113,7 @@
 "pl_terror_event_authors"		"Томи \"ICS\" Уурайнен"
 "arena_lumberyard_event_authors"	"Лиам \"Diva Dan\" Моффитт\nБенджамин \"blaholtzen\" Блогольц\nАлекс \"FGD5\" Стюарт\nСэб \"Tianes\" Некьюла\nЭон \"Void\" Боллиг\nЭрик \"Colteh\" Колти\nJuniper"
 "pl_coal_event_authors"			"Мэттью \"Panckakebro\" Хиллер\nЭлиан \"iron\" Родригез\nPhe\nРайан \"Chill\" Фой\nДенис \"xB33\" Варчулик\nУилльям \"Cheesypuff\" Бартли-Болстер\nОливер \"OverPovered\" Пеннанен"
-"pl_breadspace_authors"			"Бэйли \"Glitch\" Оджес\nДжесси \"Custard1\" Бадд\nАльберто \"Petachepas\" Зарзуэла\nДжонас \"Grambee\" Карсон\nДилан \"doggoh\" Ли\nОливер \"OverPovered\" Пеннанен\nКристоф \"Gadget\" Маншиц\nПитер \"Tabby\" Брайант\nУилльям \"Cheesypuff\" Бартли-Болстер\nКирилл \"Le Bruhe?\" Рузанов\nХью \"HueZee_\" Мадок Шнейдер\nБрэндон \"Brantopias\" Синкович\nhuman1"
+"pl_breadspace_authors"			"Бэйли \"Glitch\" Оджес\nДжесси \"Custard1\" Бадд\nАльберто \"Petachepas\" Зарзуэла\nGrambee\nДилан \"doggoh\" Ли\nОливер \"OverPovered\" Пеннанен\nКристоф \"Gadget\" Маншиц\nПитер \"Tabby\" Брайант\nУилльям \"Cheesypuff\" Бартли-Болстер\nКирилл \"Le Bruhe?\" Рузанов\nХью \"HueZee_\" Мадок Шнейдер\nБрэндон \"Brantopias\" Синкович\nhuman1"
 "pl_chilly_authors"				"Томи \"ICS\" Уурайнен\nТайлер \"Yyler\" Кинг\nАлекс \"MaccyF\" Макфаркар"
 "koth_cascade_authors"			"Ивэн \"Defcon\" Леблан\nАлекс \"FGD5\" Стюарт\nЛиам \"Diva Dan\" Моффитт"
 "cp_altitude_authors"			"Ивэн \"Defcon\" Леблан\nАлекс \"FGD5\" Стюарт\nЛиам \"Diva Dan\" Моффитт"
@@ -5503,7 +5503,7 @@
 "TF_MapToken_Polar_AdText"		"- Деньги от продаж этого предмета пойдут создателям карты Polar."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Коллекционная марка - Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Карта в режиме сопровождения\n\nАвторы: Бэйли \"Glitch\" Оджес, Джесси- \"Custard1\" Бадд, Альберто \"Petachepas\" Зарзуэла, Джонас \"Grambee\" Карсон, Дилан \"doggoh\" Ли, Оливер \"OverPovered\" Пеннанен, Кристоф \"Gadget\" Маншиц, Питер \"Tabby\" Брайант, Уилльям \"Cheesypuff\" Бартли-Болстер, Кирилл \"Le Bruhe?\" Рузанов, Хью \"HueZee_\" Мадок Шнейдер, Брэндон \"Brantopias\" Синкович и human1\n\nДеньги от продаж этого предмета пойдут создателям карты Bread Space. Окажите им поддержку!"
+"TF_MapToken_BreadSpace_Desc"	"Карта в режиме сопровождения\n\nАвторы: Бэйли \"Glitch\" Оджес, Джесси- \"Custard1\" Бадд, Альберто \"Petachepas\" Зарзуэла, Grambee, Дилан \"doggoh\" Ли, Оливер \"OverPovered\" Пеннанен, Кристоф \"Gadget\" Маншиц, Питер \"Tabby\" Брайант, Уилльям \"Cheesypuff\" Бартли-Болстер, Кирилл \"Le Bruhe?\" Рузанов, Хью \"HueZee_\" Мадок Шнейдер, Брэндон \"Brantopias\" Синкович и human1\n\nДеньги от продаж этого предмета пойдут создателям карты Bread Space. Окажите им поддержку!"
 "TF_MapToken_BreadSpace_AdText"	"- Деньги от продаж этого предмета пойдут создателям карты Bread Space."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Коллекционная марка - Chilly"
@@ -10295,7 +10295,7 @@
 "Journal_DuckBadge17"		"определенно крякрасного типа"
 "Journal_DuckBadge18"		"легендуточного типа"
 "Journal_DuckBadge19"		"кряктрясающего типа"
-"Journal_DuckBadge20"		"самого Крякстона"
+"Journal_DuckBadge20"		" самого Крякстона"
 
 "KillEater_OperationContractRank0"	"из гравия"
 "KillEater_OperationContractRank1"	"из бронзы"
@@ -20041,6 +20041,12 @@ E: Синие могут захватить эту точку в любой мо
 "TF_IM_VSH_ToWin2"				"...либо захватить контрольную точку, которая станет доступна в течение раунда"
 "TF_IM_VSH_Notes1"				"У Сакстона есть уникальные убийственные способности"
 "TF_IM_VSH_Notes2"				"Вы не появитесь заново, поэтому умирать не стоит!"
+
+"TF_SDK_LocalLoadout"               "Все изменения вашего снаряжения коснутся только этой модификации."
+"TF_SDK_ResetLoadout_Title"         "Синхронизация снаряжения"
+"TF_SDK_ResetLoadout_Desc"          "Вы действительно хотите синхронизировать локальное снаряжение для этой модификации с Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Сбросить снаряжение"
+"TF_SDK_ClearLoadout_Desc"          "Вы действительно хотите сбросить своё снаряжение к стандартному?"
 
 }
 }

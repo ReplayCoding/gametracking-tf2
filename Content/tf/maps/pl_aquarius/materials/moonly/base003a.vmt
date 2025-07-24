@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "moonly/base003"
+    "$surfaceprop"	"metal"
+	"$basetexturetransform" "center 0 0 scale .5 .5 rotate 0 translate 0 0"
+
+	"$detail" "detail/moon_panels01"
+	"$detailscale" "2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.7"
+	"%keywords" "tf, offshore"
+}

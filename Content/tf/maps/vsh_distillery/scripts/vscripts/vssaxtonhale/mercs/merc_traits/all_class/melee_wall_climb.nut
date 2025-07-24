@@ -16,9 +16,8 @@ hitStreak <- {};
 ignoreWallClimb <- [
     "player",
     "tf_bot",
-    "obj_sentrygun",
-    "obj_dispenser",
-    "obj_teleporter",
+    "obj_",
+    "tf_projectile",
     "func_button"
 ]
 
@@ -30,7 +29,11 @@ function MeleeWallClimb_Hit(params)
 
 function MeleeWallClimb_Check(params)
 {
-    return ignoreWallClimb.find(params.const_entity.GetClassname()) == null;
+    local classname = params.const_entity.GetClassname();
+    foreach (entry in ignoreWallClimb)
+        if (classname.find(entry) == 0)
+            return false;
+    return true;
 }
 
 AddListener("tick_always", 0, function (timeDelta)
@@ -50,11 +53,6 @@ function MeleeClimb_Perform(player, quickFixLink = false)
     player.RemoveFlag(FL_ONGROUND);
 
     local newVelocity = player.GetAbsVelocity();
-    if (hits == 2)
-    {
-        newVelocity.x /= 2;
-        newVelocity.y /= 2;
-    }
     newVelocity.z = launchVelocity > 430 ? launchVelocity : launchVelocity + newVelocity.z;
     player.SetAbsVelocity(newVelocity);
     FireListeners("wall_climb", player, hits, quickFixLink);
@@ -63,12 +61,12 @@ function MeleeClimb_Perform(player, quickFixLink = false)
         foreach (otherPlayer in GetAliveMercs())
         {
             if (otherPlayer.GetPlayerClass() != TF_CLASS_MEDIC)
-                return;
+                continue;
             local medigun = otherPlayer.GetWeaponBySlot(TF_WEAPONSLOTS.SECONDARY);
             if (!WeaponIs(medigun,"quick_fix"))
                 continue;
             local target = GetPropEntity(medigun, "m_hHealingTarget");
             if (target == player)
-                return MeleeClimb_Perform(otherPlayer, true);
+                MeleeClimb_Perform(otherPlayer, true);
         }
 }

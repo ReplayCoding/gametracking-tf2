@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_aquarius/water/water_abyss_-2088_-1779_-32.vmt"
+	"insert"
+	{
+		"$waterdepth"		"32"
+	}
+}

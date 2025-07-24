@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_citadel/nature/water_movingplane_1943_2534_1200.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

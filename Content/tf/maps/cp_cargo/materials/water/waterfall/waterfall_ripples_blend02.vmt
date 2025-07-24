@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "water/waterfall/waterfall_ripples01"
+
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$surfaceprop"	"no_decal"
+	$nocull 1
+	$additive 1
+	proxies
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.24
+			"texturescrollangle" 15
+		}
+	}
+}

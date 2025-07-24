@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/NATURE/WATER_MOVINGPLANE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_citadel/c2458_2584_992"
+		"Proxies"
+		{
+		}
+	}
+}

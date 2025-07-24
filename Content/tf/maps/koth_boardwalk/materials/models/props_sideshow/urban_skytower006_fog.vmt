@@ -1,0 +1,11 @@
+ "UnLitGeneric"
+{
+	"$basetexture" "models\props_sideshow\urban_skytower006_fog"
+                "$basealphaenvmapmask" "1"
+                "$envmap" "cubemaps\cubemap_sunset001"
+                "$envmaptint" "[ 1 1 1 ]"
+                "$envmapcontrast" "0"
+	"%keywords" "tf"
+	"$nofog"	"1"
+
+}

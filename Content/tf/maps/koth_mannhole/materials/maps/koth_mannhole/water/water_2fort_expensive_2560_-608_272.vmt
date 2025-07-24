@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT_EXPENSIVE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_mannhole/c2560_-608_272"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/sewer_grate"
+	"$bumpmap"	"models/props_sewer/sewer_grate_normal"
+
+	"$phong" "1"
+	"$phongexponent"	"5"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[1 2 3]"
+
+	"$detail"	"models/props_sewer/sewer_grate_blue"
+	"$detailscale"	"1"
+	"$detailblendfactor"	"1.75"
+	"$detailblendmode"	"5"
+}

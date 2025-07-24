@@ -28,6 +28,7 @@ class HeadStompTrait extends BossTrait
                 if (!IsValidPlayer(victim))
                     return;
 
+                custom_dmg_stomp.SetAbsOrigin(boss.GetOrigin());
                 victim.TakeDamageEx(
                     custom_dmg_stomp,
                     boss,

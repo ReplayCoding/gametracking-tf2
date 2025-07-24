@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pl_citadel/water/water_sawmill_-862_3318_1344.vmt"
+	"insert"
+	{
+		"$waterdepth"		"256"
+	}
+}

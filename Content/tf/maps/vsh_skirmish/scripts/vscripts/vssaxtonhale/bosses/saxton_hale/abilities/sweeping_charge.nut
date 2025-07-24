@@ -162,7 +162,7 @@ class SweepingChargeTrait extends BossTrait
 
         boss.AddCondEx(TF_COND_SHIELD_CHARGE, chargeDuration, null);
         boss.AddCondEx(TF_COND_KNOCKED_INTO_AIR, chargeDuration, null);
-        boss.AddCustomAttribute("no_attack", 1, chargeDuration);
+        boss.AddCustomAttribute("no_attack", 1, chargeDuration + 0.5);
         EmitPlayerVO(boss, "dash_"+voiceRNG);
         EmitSoundOn("vsh_sfx.hale_dash", boss);
         RunWithDelay2(this, chargeDuration, Finish);
@@ -207,6 +207,7 @@ class SweepingChargeTrait extends BossTrait
                 }
                 else
                     bashedByHale.push(target);
+                custom_dmg_charge.SetAbsOrigin(boss.GetOrigin());
                 target.TakeDamageEx(
                     custom_dmg_charge,
                     boss,

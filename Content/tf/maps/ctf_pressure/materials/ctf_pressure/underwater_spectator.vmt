@@ -1,0 +1,24 @@
+"Refract"
+{
+
+	<dx90
+	{
+		 	"$fallbackmaterial" "ctf_pressure/underwater_effect_dx80"
+	}
+
+	"$alphatest" "1"
+	//"$bluramount" "1"
+	"$refractamount" "0.02"
+	"$normalmap" "water/tfwater001_normal"
+	"$REFRACTTINT" "[.7 .8 .85]"
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" "10"
+		}
+	}
+}

@@ -325,7 +325,7 @@ En el modo de vista de mapa, puedes desplazarte con:
 "game_player_joined_team"	"El jugador %s1 se ha unido al equipo %s2"
 "game_player_joined_autoteam" "El jugador %s1 ha sido asignado automáticamente al equipo %s2"
 "game_player_changed_name"	"El jugador %s1 se llama ahora %s2"
-"game_server_cvar_changed"	"El cvar '%s1' del servidor se ha cambiado por %s2"
+"game_server_cvar_changed"	"El cvar del servidor \"%s1\" se cambió a \"%s2\""
 
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // The control characters can be copied and pasted in notepad.
@@ -334,7 +334,7 @@ En el modo de vista de mapa, puedes desplazarte con:
 //  = 0x04 (EOT) - Use location color from this point forward
 //  = 0x05 (ENQ) - Use achievement color from this point forward
 //  = 0x01 (SOH) - Use normal color from this point forward
-"Achievement_Earned"		"%s1 ha conseguido el logro %s2"
+"Achievement_Earned"		"%s1 consiguió el logro %s2"
 
 "game_nextmap"		"Siguiente mapa: %s1"
 "game_takesshots"	"Guardar automáticamente una tabla de puntuaciones al finalizar un mapa."

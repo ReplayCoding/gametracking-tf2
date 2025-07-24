@@ -4367,7 +4367,7 @@
 "TF_Resurrection_Associate_Pin"		"Resurrection Associate Pin"
 "TF_JumpersJeepcap"		"Jumper's Jeepcap"
 "TF_PotatoHat"			"Aperture Labs Hard Hat"
-"TF_PotatoHat_Desc"		"Přístroj, který vytváří osvětlení a zároveň chrání mozek.\n\nNENÍ URČENO PRO POUŽÍVÁNÍ MIMO APERTURE LABORATOŘE."
+"TF_PotatoHat_Desc"		"Přístroj, který vytváří osvětlení a zároveň chrání mozek.\n\nNENÍ URČENO K POUŽITÍ MIMO PROSTORY LABORATOŘÍ APERTURE SCIENCE."
 "TF_PotatoHatStyle_Classified"	"[přísně tajné]"
 "TF_PotatoHatStyle_Logo"	"Logo Aperture"
 "TF_TeamCaptain"		"Team Captain" // ADD THE
@@ -5111,7 +5111,7 @@
 "pl_terror_event_authors"		"Tomi „ICS“ Uurainen"
 "arena_lumberyard_event_authors"	"Liam „Diva Dan“ Moffitt\nBenjamin „blaholtzen“ Blåholtz\nAlex „FGD5“ Stewart\nSeb „Tianes“ Necula\nAeon „Void“ Bollig\nErik „Colteh“ Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew „Panckakebro“ Hiller\nElián „iron“ Rodríguez\nPhe\nRyan „Chill'“ Foy\nDenis „xB33“ Varchulik\nWilliam „Cheesypuff“ Bartley-Bolster\nOliver „OverPovered“ Pennanen"
-"pl_breadspace_authors"			"Bailey „Glitch“ Hodges\nJesse „Custard1“ Budd\nAlberto „Petachepas“ Zarzuela\nJonas „Grambee“ Carson\nDylan „doggoh“ Lee\nOliver „OverPovered“ Pennanen\nChristoph „Gadget“ Manschitz\nPeter „Tabby“ Bryant\nWilliam „Cheesypuff“ Bartley-Bolster\nKirill „Le Bruhe?“ Ruzanov\nHugh „HueZee_“ Madoc Schneider\nBrandon „Brantopias“ Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey „Glitch“ Hodges\nJesse „Custard1“ Budd\nAlberto „Petachepas“ Zarzuela\nGrambee\nDylan „doggoh“ Lee\nOliver „OverPovered“ Pennanen\nChristoph „Gadget“ Manschitz\nPeter „Tabby“ Bryant\nWilliam „Cheesypuff“ Bartley-Bolster\nKirill „Le Bruhe?“ Ruzanov\nHugh „HueZee_“ Madoc Schneider\nBrandon „Brantopias“ Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi „ICS“ Uurainen\nTyler „Yyler“ King\nAlex „MaccyF“ MacFarquhar"
 "koth_cascade_authors"			"Evan „Defcon“ LeBlanc\nAlex „FGD5“ Stewart\nLiam „Diva Dan“ Moffitt"
 "cp_altitude_authors"			"Evan „Defcon“ LeBlanc\nAlex „FGD5“ Stewart\nLiam „Diva Dan“ Moffitt"
@@ -5501,7 +5501,7 @@
 "TF_MapToken_Polar_AdText"		"– Zakoupením tohoto předmětu podpoříš přímo tvůrce mapy Polar"
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Známka mapy – Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Mapa módu Payload\n\nVytvořili ji Bailey „Glitch“ Hodges, Jesse „Custard1“ Budd, Alberto „Petachepas“ Zarzuela, Jonas „Grambee“ Carson, Dylan „doggoh“ Lee, Oliver „OverPovered“ Pennanen, Christoph „Gadget“ Manschitz, Peter „Tabby“ Bryant, William „Cheesypuff“ Bartley-Bolster, Kirill „Le Bruhe?“ Ruzanov, Hugh „HueZee_“ Madoc Schneider, Brandon „Brantopias“ Sinkovich a human1\n\nZakoupením tohoto předmětu podpoříš přímo tvůrce mapy Bread Space. Podpoř je ještě dnes!"
+"TF_MapToken_BreadSpace_Desc"	"Mapa módu Payload\n\nVytvořili ji Bailey „Glitch“ Hodges, Jesse „Custard1“ Budd, Alberto „Petachepas“ Zarzuela, Grambee, Dylan „doggoh“ Lee, Oliver „OverPovered“ Pennanen, Christoph „Gadget“ Manschitz, Peter „Tabby“ Bryant, William „Cheesypuff“ Bartley-Bolster, Kirill „Le Bruhe?“ Ruzanov, Hugh „HueZee_“ Madoc Schneider, Brandon „Brantopias“ Sinkovich a human1\n\nZakoupením tohoto předmětu podpoříš přímo tvůrce mapy Bread Space. Podpoř je ještě dnes!"
 "TF_MapToken_BreadSpace_AdText"	"– Zakoupením tohoto předmětu podpoříš přímo tvůrce mapy Bread Space"
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Známka mapy – Chilly"
@@ -20050,6 +20050,12 @@ Pokud nepřátelský tým zabere kontrolní bod, pozastaví se časový limit tv
 "TF_IM_VSH_ToWin2"				"... nebo zabrat kontrolní bod, který se aktivuje v průběhu kola."
 "TF_IM_VSH_Notes1"				"Saxton Hale disponuje unikátními schopnostmi, které může použít proti žoldákům."
 "TF_IM_VSH_Notes2"				"V módu Versus Hale nefunguje respawnování, tak zkus neumřít!"
+
+"TF_SDK_LocalLoadout"               "Veškeré změny vybavení jsou platné pouze pro tuto modifikaci."
+"TF_SDK_ResetLoadout_Title"         "Synchronizovat vybavení"
+"TF_SDK_ResetLoadout_Desc"          "Chceš synchronizovat své vybavení z této modifikace se hrou Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Zahodit vybavení"
+"TF_SDK_ClearLoadout_Desc"          "Chceš resetovat své vybavení na základní předměty?"
 
 }
 }

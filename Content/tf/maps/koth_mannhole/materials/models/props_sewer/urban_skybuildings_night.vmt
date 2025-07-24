@@ -1,0 +1,11 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "models\props_urban\urban_skybuildings"
+	"%keywords" "tf"
+
+	"$detail" "models/props_sewer/urban_skybuildings_windows"
+	"$detailblendmode"		"5"
+	"$detailblendfactor"		"1"
+	"$detailscale"		"1"
+
+}

@@ -93,11 +93,15 @@ class MightySlamTrait extends BossTrait
         SetItemId(weapon, 444); //Mantreads
         CreateAoE(boss.GetCenter(), 500,
             function (target, deltaVector, distance) {
-                local damage = target.GetMaxHealth() * (1 - distance / 500);
+                local percentage = (1 - distance / 500);
+                if (percentage > 0.75)
+                    percentage = 0.75;
+                local damage = target.GetMaxHealth() * percentage;
                 if (!target.IsPlayer())
                     damage *= 2;
                 if (damage <= 30 && target.GetHealth() <= 30)
                     return; // We don't want to have people on low health die because Hale just Slammed a mile away.
+                custom_dmg_slam_collateral.SetAbsOrigin(bossLocal.GetOrigin());
                 target.TakeDamageEx(
                     custom_dmg_slam_collateral,
                     bossLocal,

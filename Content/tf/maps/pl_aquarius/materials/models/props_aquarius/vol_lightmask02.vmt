@@ -1,0 +1,62 @@
+"unlittwotexture"
+{
+	"$baseTexture" "Models/Effects/vol_lightmask02"
+	"$texture2" "Models/Effects/dust01" 
+	"$nocull" 1	
+	"$additive" 1
+	"$translucent" 1
+	"$model" 1
+	"$no_fullbright" 1
+
+	"$color2" "[1 1 1]"
+	"$add" 16
+	"$offset" 0
+	"$period" 0
+	"$c0" "0.0"
+	
+	
+	"Proxies"
+	{
+		"EntityRandom"
+        {
+            "scale" "16"
+            "resultVar" "$offset"
+        }
+		"Add"
+		{
+			"srcVar1" "$offset"
+			"srcVar2" "$add"
+			"resultVar" "$period"
+		}
+        "Sine"
+        {
+            "sineperiod" "$period"
+			"sinemin" "0"
+			"sinemax" "1"
+            "timeoffset" "$offset"       
+            "resultVar" "$c0"
+        }
+		"Equals"
+		{
+			"srcVar1" "$c0"
+			"resultVar" "$color2[0]"
+		}	
+		"Equals"
+		{
+			"srcVar1" "$c0"
+			"resultVar" "$color2[1]"
+		}	
+		"Equals"
+		{
+			"srcVar1" "$c0"
+			"resultVar" "$color2[2]"
+		}	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.03
+			"texturescrollangle" -30
+		}
+	}
+}
+

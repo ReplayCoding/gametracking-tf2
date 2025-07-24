@@ -5108,7 +5108,7 @@
 "pl_terror_event_authors"		"Томі «ICS» Уурайнен"
 "arena_lumberyard_event_authors"	"Ліам «Diva Dan» Моффітт\nБенджамін «blaholtzen» Блогольц\nАлекс «FGD5» Стюарт\nСеб «Tianes» Некула\nЕон «Void» Болліг\nЕрік «Colteh» Колті\nJuniper"
 "pl_coal_event_authors"			"Метью «Panckakebro» Гіллер\nЕліан «Iron» Родріґез\nPhe\nРаян «Chill» Фой\nДеніс «xB33» Варчулік\nВільям «Cheesypuff» Бартлі-Болстер\nОлівер «OverPovered» Пеннанен"
-"pl_breadspace_authors"			"Бейлі «Glitch» Годжес\nДжессі «Custard1» Бадд\nАльберто «Petachepas» Зарзуела\nЙонас «Grambee» Карсон\nДілан «doggoh» Лі\nОлівер «OverPovered» Пеннанен\nКрістоф «Gadget» Манчиц\nПетер «Tabby» Браянт\nВільям «Cheesypuff» Бартлі-Болстер\nКіріл «Le Bruhe?» Рузанов\nГ’ю «HueZee_» Медок Шнайдер\nБрендон «Brantopias» Сінкович\nhuman1"
+"pl_breadspace_authors"			"Бейлі «Glitch» Годжес\nДжессі «Custard1» Бадд\nАльберто «Petachepas» Зарзуела\nGrambee\nДілан «doggoh» Лі\nОлівер «OverPovered» Пеннанен\nКрістоф «Gadget» Манчиц\nПетер «Tabby» Браянт\nВільям «Cheesypuff» Бартлі-Болстер\nКіріл «Le Bruhe?» Рузанов\nГ’ю «HueZee_» Медок Шнайдер\nБрендон «Brantopias» Сінкович\nhuman1"
 "pl_chilly_authors"				"Томі «ICS» Уурайнен\nТайлер «Yyler» Кінґ\nАлекс «MaccyF» Макфаркуар"
 "koth_cascade_authors"			"Еван «Defcon» Лебланк\nАлекс «FGD5» Стюарт\nЛіам «Diva Dan» Моффітт"
 "cp_altitude_authors"			"Еван «Defcon» Лебланк\nАлекс «FGD5» Стюарт\nЛіам «Diva Dan» Моффітт"
@@ -5498,7 +5498,7 @@
 "TF_MapToken_Polar_AdText"		"-Придбавши цей предмет, ви безпосередньо підтримуєте авторів мапи Polar."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Марка мапи — Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Мапа режиму «Перевезення»\n\nАвтори: Бейлі «Glitch» Годжес, Джессі «Custard1» Бадд, Альберто «Petachepas» Зарзуела, Йонас «Grambee» Карсон, Ділан «doggoh» Лі, Олівер «OverPovered» Пеннанен, Крістоф «Gadget» Манчиц, Петер «Tabby» Браянт, Вільям «Cheesypuff» Бартлі-Болстер, Кіріл «Le Bruhe?» Рузанов, Г’ю «HueZee_» Медок Шнайдер, Брендон «Brantopias» Сінкович, human1\n\nКупівля цього предмета буде прямою підтримкою авторів мапи Bread Space. Покажіть вашу підтримку сьогодні!"
+"TF_MapToken_BreadSpace_Desc"	"Мапа режиму «Перевезення»\n\nАвтори: Бейлі «Glitch» Годжес, Джессі «Custard1» Бадд, Альберто «Petachepas» Зарзуела, Grambee, Ділан «doggoh» Лі, Олівер «OverPovered» Пеннанен, Крістоф «Gadget» Манчиц, Петер «Tabby» Браянт, Вільям «Cheesypuff» Бартлі-Болстер, Кіріл «Le Bruhe?» Рузанов, Г’ю «HueZee_» Медок Шнайдер, Брендон «Brantopias» Сінкович, human1\n\nКупівля цього предмета буде прямою підтримкою авторів мапи Bread Space. Покажіть вашу підтримку сьогодні!"
 "TF_MapToken_BreadSpace_AdText"	"-Придбавши цей предмет, ви безпосередньо підтримуєте авторів мапи Bread Space."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Марка мапи — Chilly"
@@ -19970,6 +19970,12 @@ E) — Сині можуть захопити цю точку в будь яки
 "TF_IM_VSH_ToWin2"				"…або захопити контрольну точку, яка стане доступною протягом раунду"
 "TF_IM_VSH_Notes1"				"Сакстон Гейл має унікальні здібності для знищення найманців"
 "TF_IM_VSH_Notes2"				"Відроджень тут немає, тож не помирайте!"
+
+"TF_SDK_LocalLoadout"               "Будь-які внесені до спорядження зміни є локальними для цієї модифікації."
+"TF_SDK_ResetLoadout_Title"         "Синхронізація спорядження"
+"TF_SDK_ResetLoadout_Desc"          "Бажаєте синхронізувати локальне спорядження в цій модифікації з Team Fortress 2?"
+"TF_SDK_ClearLoadout_Title"         "Очищення спорядження"
+"TF_SDK_ClearLoadout_Desc"          "Бажаєте скинути спорядження до стандартних предметів?"
 
 }
 }

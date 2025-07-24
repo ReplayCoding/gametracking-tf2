@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DEEP_OCEAN01_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_blowout/c1408_-2816_192"
+		"Proxies"
+		{
+		}
+	}
+}

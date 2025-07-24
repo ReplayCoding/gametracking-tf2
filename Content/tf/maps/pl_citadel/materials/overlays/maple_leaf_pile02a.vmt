@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "overlays/maple_leaf_pile02a"
+	"$decal" "1"
+	"$surfaceprop" "no_decal"
+	$AlphaTest 1
+	$AlphaTestReference ".1"
+	$AllowAlphaToCoverage 1
+	"%keywords" "tf, foliage, overlay"
+}
+

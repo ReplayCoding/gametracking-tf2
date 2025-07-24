@@ -1,0 +1,25 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "models\weapons\c_items/c_tele_shotgun_tv"
+	"$texture2"  "models\weapons\c_items/c_tele_shotgun_gradient"
+	
+	"$color2" "{0 155 255}"
+
+
+
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+		"texturescrollvar" "$texture2transform"
+		"texturescrollrate" -1
+		"texturescrollangle" 0
+		}
+		"TextureScroll"
+		{
+		"texturescrollvar" "$basetexturetransform"
+		"texturescrollrate" -.1
+		"texturescrollangle" 0
+		}
+	}
+}

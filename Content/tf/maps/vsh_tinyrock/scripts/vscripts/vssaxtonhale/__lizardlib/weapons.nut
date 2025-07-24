@@ -56,13 +56,13 @@
 {
     local item = null;
     local itemsToKill = [];
-    while (item = Entities.FindByClassname(item, "tf_we*"))
+    while (item = FindByClassname(item, "tf_we*"))
     {
         if (item.GetOwner() == player)
             itemsToKill.push(item);
     }
     item = null;
-    while (item = Entities.FindByClassname(item, "tf_powerup_bottle"))
+    while (item = FindByClassname(item, "tf_powerup_bottle"))
     {
         if (item.GetOwner() == player)
             itemsToKill.push(item);
@@ -73,6 +73,7 @@
 
 ::WeaponIs <- function(weapon, name)
 {
+    SetPropBool(weapon, "m_bForcePurgeFixedupStrings", true);
     if (weapon == null)
         return false;
     if (name == "kgb")

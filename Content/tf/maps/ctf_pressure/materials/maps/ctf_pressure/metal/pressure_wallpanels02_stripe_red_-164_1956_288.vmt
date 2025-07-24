@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/PRESSURE_WALLPANELS02_STRIPE_RED.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_pressure/c-164_1956_288"
+	}
+}

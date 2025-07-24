@@ -5121,7 +5121,7 @@
 "pl_terror_event_authors"		"Tomi «ICS» Uurainen"
 "arena_lumberyard_event_authors"	"Liam «Diva Dan» Moffitt\nBenjamin «blaholtzen» Blåholtz\nAlex «FGD5» Stewart\nSeb «Tianes» Necula\nAeon «Void» Bollig\nErik «Colteh» Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew «Panckakebro» Hiller\nElián «iron» Rodríguez\nPhe\nRyan «Chill» Foy\nDenis «xB33» Varchulik\nWilliam «Cheesypuff» Bartley-Bolster\nOliver «OverPovered» Pennanen"
-"pl_breadspace_authors"			"Bailey «Glitch» Hodges\nJesse «Custard1» Budd\nAlberto «Petachepas» Zarzuela\nJonas «Grambee» Carson\nDylan «doggoh» Lee\nOliver «OverPovered» Pennanen\nChristoph «Gadget» Manschitz\nPeter «Tabby» Bryant\nWilliam «Cheesypuff» Bartley-Bolster\nKirill «Le Bruhe?» Ruzanov\nHugh «HueZee_» Madoc Schneider\nBrandon «Brantopias» Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey «Glitch» Hodges\nJesse «Custard1» Budd\nAlberto «Petachepas» Zarzuela\nGrambee\nDylan «doggoh» Lee\nOliver «OverPovered» Pennanen\nChristoph «Gadget» Manschitz\nPeter «Tabby» Bryant\nWilliam «Cheesypuff» Bartley-Bolster\nKirill «Le Bruhe?» Ruzanov\nHugh «HueZee_» Madoc Schneider\nBrandon «Brantopias» Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi «ICS» Uurainen\nTyler «Yyler» King\nAlex «MaccyF» MacFarquhar"
 "koth_cascade_authors"			"Evan «Defcon» LeBlanc\nAlex «FGD5» Stewart\nLiam «Diva Dan» Moffitt"
 "cp_altitude_authors"			"Evan «Defcon» LeBlanc\nAlex «FGD5» Stewart\nLiam «Diva Dan» Moffitt"
@@ -5511,7 +5511,7 @@
 "TF_MapToken_Polar_AdText"		"–Αγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Polar."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Γραμματόσημο χάρτη – Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Ένας χάρτης Καροτσιού\n\nΔημιουργήθηκε από Bailey «Glitch» Hodges, Jesse «Custard1» Budd, Alberto «Petachepas» Zarzuela, Jonas «Grambee» Carson, Dylan «doggoh» Lee, Oliver «OverPovered» Pennanen, Christoph «Gadget» Manschitz, Peter «Tabby» Bryant, William «Cheesypuff» Bartley-Bolster, Kirill «Le Bruhe?» Ruzanov, Hugh «HueZee_» Madoc Schneider, Brandon «Brantopias» Sinkovich και human1\n\nΑγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Bread Space. Δείξτε την υποστήριξή σας σήμερα!"
+"TF_MapToken_BreadSpace_Desc"	"Ένας χάρτης Καροτσιού\n\nΔημιουργήθηκε από Bailey «Glitch» Hodges, Jesse «Custard1» Budd, Alberto «Petachepas» Zarzuela, «Grambee», Dylan «doggoh» Lee, Oliver «OverPovered» Pennanen, Christoph «Gadget» Manschitz, Peter «Tabby» Bryant, William «Cheesypuff» Bartley-Bolster, Kirill «Le Bruhe?» Ruzanov, Hugh «HueZee_» Madoc Schneider, Brandon «Brantopias» Sinkovich και human1\n\nΑγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Bread Space. Δείξτε την υποστήριξή σας σήμερα!"
 "TF_MapToken_BreadSpace_AdText"	"–Αγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Bread Space."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Γραμματόσημο χάρτη – Chilly"
@@ -19951,6 +19951,12 @@ RED: Σταματήστε τους BLU! Πάρτε πίσω το σώμα του
 "TF_IM_VSH_ToWin2"				"...ή να κατακτήσετε τα σημεία ελέγχου που θα ενεργοποιηθούν κατά τη διάρκεια του γύρου"
 "TF_IM_VSH_Notes1"				"Ο Saxton Hale έχει μοναδικές ικανότητες για να εξοντώσει τους μισθοφόρους"
 "TF_IM_VSH_Notes2"				"Δεν υπάρχουν αναβιώσεις, οπότε μην πεθάνετε!"
+
+"TF_SDK_LocalLoadout"               "Τυχόν αλλαγές που γίνονται στον εξοπλισμό σας είναι τοπικές σε αυτήν την τροποποίηση."
+"TF_SDK_ResetLoadout_Title"         "Συγχρονισμός εξοπλισμού"
+"TF_SDK_ResetLoadout_Desc"          "Θέλετε να συγχρονίσετε τον τοπικό εξοπλισμό σας για αυτήν την τροποποίηση με το Team Fortress 2;"
+"TF_SDK_ClearLoadout_Title"         "Εκκαθάριση εξοπλισμού"
+"TF_SDK_ClearLoadout_Desc"          "Θέλετε να επαναφέρετε τον εξοπλισμό στα αρχικά αντικείμενα;"
 
 }
 }

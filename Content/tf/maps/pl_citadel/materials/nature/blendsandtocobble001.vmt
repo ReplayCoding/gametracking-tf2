@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/dirtground_citadel001"
+	"$basetexture2" "medieval/cobblestone002"
+	"%tooltexture" "medieval/cobblestone003_tooltexture"
+	"$blendmodulatetexture" "nature/snowgrass_blendmask"
+	"$bumpmap" "Nature/dirtground005_height-ssbump"
+
+	"$ssbump" "1"
+	"$surfaceprop" "sand"
+	"$surfaceprop2" "concrete"
+	"%keywords" "tf"
+}

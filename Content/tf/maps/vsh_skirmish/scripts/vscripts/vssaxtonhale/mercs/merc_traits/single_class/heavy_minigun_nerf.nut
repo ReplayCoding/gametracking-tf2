@@ -28,6 +28,6 @@ characterTraitsClasses.push(class extends CharacterTrait
     function OnDamageDealt(victim, params)
     {
         if (params.weapon == primary && player.IsCritBoosted())
-            params.damage *= 0.6;
+            params.damage *= 0.7;
     }
 });

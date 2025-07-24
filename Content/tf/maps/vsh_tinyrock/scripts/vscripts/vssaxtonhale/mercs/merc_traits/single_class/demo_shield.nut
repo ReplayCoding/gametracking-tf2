@@ -24,7 +24,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         if (player.GetPlayerClass() != TF_CLASS_DEMOMAN)
             return false;
         local wearable = null;
-        while (wearable = Entities.FindByClassname(wearable, "tf_wearable_demo*"))
+        while (wearable = FindByClassname(wearable, "tf_wearable_demo*"))
             if (wearable.GetOwner() == player)
             {
                 wearable.EnableDraw();
@@ -48,7 +48,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         params.damage *= isSaxtonPunch ? 0.2 : 0.5;
 
         local wearable = null;
-        while (wearable = Entities.FindByClassname(wearable, "tf_wearable_demo*"))
+        while (wearable = FindByClassname(wearable, "tf_wearable_demo*"))
             if (wearable.GetOwner() == player)
             {
                 wearable.DisableDraw();
@@ -58,7 +58,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         local deltaVector = player.GetCenter() - attacker.GetCenter();
         deltaVector.z = 0;
         deltaVector.Norm();
-        player.Yeet(deltaVector * 900 + Vector(0, 0, 300));
+        player.Yeet(deltaVector * 600 + Vector(0, 0, 450));
 
         EmitSoundOn("vsh_sfx.shield_break", player);
 

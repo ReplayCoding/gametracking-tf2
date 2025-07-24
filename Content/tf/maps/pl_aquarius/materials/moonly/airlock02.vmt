@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_red_airlock02"
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular001"
+	//"$envmaptint" "[ 0.62 0.580 0.53 ]"
+	//"$envmap" "cubemaps\cubemap_specular002"
+	"$envmaptint" "[ 0.125 0.225 0.25 ]"
+	"$surfaceprop" "metal"
+	//"$alphatest" "1"
+}

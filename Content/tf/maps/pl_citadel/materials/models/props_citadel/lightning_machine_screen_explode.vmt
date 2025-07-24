@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_citadel\lightning_machine_screen_explode"
+	"$phongexponenttexture" "models\props_citadel\lightning_machine_screen_expmask"
+	$bumpmap "models\props_citadel\lightning_machine_screen_normal"
+	
+//	"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" 1 
+	"$envmaptint" "[0.01 0.01 0.01]"
+	
+	"$phong" "1"
+	"$phongboost" "4"
+	"$phongexponentfactor" "8"
+	"$phongfresnelranges" "[.6 2 5]"
+	"$phongtint" "[0.6 0.6 0.6]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
+	"$rimmask" "1"
+	
+	$selfillum 1
+}

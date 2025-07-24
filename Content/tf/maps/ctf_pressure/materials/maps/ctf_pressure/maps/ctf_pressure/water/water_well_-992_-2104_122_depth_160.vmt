@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_pressure/water/water_well_-992_-2104_122.vmt"
+	"insert"
+	{
+		"$waterdepth"		"160"
+	}
+}

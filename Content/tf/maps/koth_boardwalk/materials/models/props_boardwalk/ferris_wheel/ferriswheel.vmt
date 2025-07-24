@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_boardwalk/ferris_wheel/ferriswheel"
+	"$bumpmap" "models/props_boardwalk/ferris_wheel/ferriswheel_normal"
+	"$bumpmapalphaphongmask"		"1"
+
+//	"$basemapalphaphongmask" "1"
+
+//	"$envmap" "env_cubemap"
+//	"$basemapalphaenvmapmask" 1 
+//	"$envmaptint" "[.1 .1 .1]"
+  
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" "1"
+	"$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"        
+	"$rimlightexponent" "4"                
+	"$rimlightboost" "0.5"
+}

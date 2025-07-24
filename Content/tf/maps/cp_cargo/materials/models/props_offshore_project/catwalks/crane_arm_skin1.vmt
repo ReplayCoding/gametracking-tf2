@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_offshore_project/catwalks/crane_arm_blue"
+
+	"$model" "1"
+
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+
+	"$phongexponent"	"15"
+	"$phongboost" ".3"	
+
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"%keywords"	"tf, offshore"
+}
+

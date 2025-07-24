@@ -115,26 +115,28 @@ class AbilityHudTrait extends BossTrait
         else
             overlay += cos(Time() * 12) < 0 ? "1" : "2";
 
-        EntFireByHandle(game_text_charge, "AddOutput", "message "+progressBarTexts[0], 0, boss, boss);
-        EntFireByHandle(game_text_charge, "Display", "", 0, boss, boss);
+        SetPropString(game_text_charge, "m_iszMessage", progressBarTexts[0]);
+        game_text_charge.AcceptInput("Display", "", boss, boss);
 
-        EntFireByHandle(game_text_punch, "AddOutput", "message "+progressBarTexts[1], 0, boss, boss);
-        EntFireByHandle(game_text_punch, "Display", "", 0, boss, boss);
+        SetPropString(game_text_punch, "m_iszMessage", progressBarTexts[1]);
+        game_text_punch.AcceptInput("Display", "", boss, boss);
 
-        EntFireByHandle(game_text_slam, "AddOutput", "message "+progressBarTexts[2], 0, boss, boss);
-        EntFireByHandle(game_text_slam, "Display", "", 0, boss, boss);
+        SetPropString(game_text_slam, "m_iszMessage", progressBarTexts[2]);
+        game_text_slam.AcceptInput("Display", "", boss, boss);
 
         player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" + overlay);
     }
 
     function OnDeath(attacker, params)
     {
-        EntFireByHandle(game_text_charge, "AddOutput", "message ", 0, boss, boss);
-        EntFireByHandle(game_text_charge, "Display", "", 0, boss, boss);
-        EntFireByHandle(game_text_punch, "AddOutput", "message ", 0, boss, boss);
-        EntFireByHandle(game_text_punch, "Display", "", 0, boss, boss);
-        EntFireByHandle(game_text_slam, "AddOutput", "message ", 0, boss, boss);
-        EntFireByHandle(game_text_slam, "Display", "", 0, boss, boss);
+        SetPropString(game_text_charge, "m_iszMessage", "");
+        game_text_charge.AcceptInput("Display", "", boss, boss);
+
+        SetPropString(game_text_punch, "m_iszMessage", "");
+        game_text_punch.AcceptInput("Display", "", boss, boss);
+
+        SetPropString(game_text_slam, "m_iszMessage", "");
+        game_text_slam.AcceptInput("Display", "", boss, boss);
 
         player.SetScriptOverlayMaterial("");
     }

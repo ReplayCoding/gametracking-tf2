@@ -1,0 +1,49 @@
+// bumptransform applies to bumpmap2
+// bumptransform2 applies to nothing
+// need $bumpmap set to enable $bumpmap2
+// in case it gets fixed, both have been set
+
+"LightmappedGeneric"
+{
+	"$nofog" "1"
+	"$nocull" "1"
+	
+	"$basetexture" "water/sprite_alpha"
+	"$bumpmap" "water/tfwater001_normal"
+	"$bumpmap2" "water/tfwater001_normal"
+	//"$bumpmap2" "water/aquarius_warp"
+	
+	"$translucent" "1"
+	//"$envmap" "effects\pyrocube"	
+	"$color" "[0.125 0.375 0.5]"
+	"$envmap" "water\cubemap_trainyard"
+
+	"$envmaptint" "[1 1 1]"	
+
+	"$bumptransform" "center 0.5 0.5 scale 9 9 rotate 0 translate 0 0"	
+	"$bumptransform2" "center 0.5 0.5 scale 6 6 rotate 0 translate 0 0"	
+	
+	"$bumpframe" "0"
+	"$bumpframe2" "0"
+	
+	"%keywords" "tf, offshore"
+	<dx90
+	{
+		 	"$fallbackmaterial" "water/refract_aquarius_surface_dx80"
+	}
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap2"
+			"animatedtextureframenumvar" "$bumpframe2"
+			"animatedtextureframerate" 30.00
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 29.00
+		}
+	}
+}

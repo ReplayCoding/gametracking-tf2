@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_vehicles\step_van_interior"
+
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".20"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

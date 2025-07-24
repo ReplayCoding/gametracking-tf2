@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "water\caustic\caustic01_slow"
+	"$basetexture2" "tools/toolsblack"
+	"$surfaceprop"	"no_decal"
+	"$additive" "1"
+	"Proxies"
+		{
+		"AnimatedTexture"
+			{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 30.00
+			}
+		}
+}

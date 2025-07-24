@@ -1,0 +1,243 @@
+"Catwalks.Spawn"
+{
+	"dsp"	"2"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"wave"	"ambient\lair\cap_2_tone4.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"5, 15"
+		"volume"	"0.3,0.6"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\lair\jungle_underground_steam.mp3"
+			"wave"	"ambient_mp3\lair\jungle_underground_steam2.mp3"
+			"wave"	"ambient_mp3\lair\cap_1_tone_metal_movement2.mp3"
+			"wave"	"ambient_mp3\lair\cap_1_tone_metal_movement1.mp3"
+			"wave"	"ambient_mp3\lair\cap_3_tone_metal_movement3.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"10,15"
+		"volume"	".4,.6"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\materials\cartrap_rope1.wav"
+			"wave"	"ambient\materials\cartrap_rope2.wav"
+			"wave"	"ambient\materials\cartrap_rope3.wav"
+		}
+	}
+}
+
+"Catwalks.Inside"
+{
+	"dsp"	"4"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"wave"	"ambient\lair\cap_3_tone3.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"	"100"
+		"wave"	"ambient\levels\canals\tunnel_wind_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"100"
+		"wave"	"ambient\levels\canals\manhack_machine_loop1.wav"
+		"position"	"0"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"	"100"
+		"wave"	"ambient\levels\canals\manhack_machine_loop1.wav"
+		"position"	"1"
+	}
+	
+	"playrandom"
+	{
+		"time"	"5, 20"
+		"volume"	"0.45,0.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\materials\metal_stress4.wav"
+			"wave"	"ambient\materials\metal_stress5.wav"
+			"wave"	"ambient\materials\wood_creak3.wav"
+			"wave"	"ambient\materials\wood_creak1.wav"
+			"wave"	"ambient\materials\rustypipes2.wav"
+			"wave"	"ambient\materials\rustypipes1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"5,10"
+		"volume"	".4,.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\distant_drip2.wav"
+			"wave"	"ambient\water\distant_drip3.wav"
+			"wave"	"ambient\water\distant_drip4.wav"
+		}
+	}
+}
+
+"Catwalks.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"	"100"
+		"wave"	"ambient\water\lake_water.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	".5"
+		"pitch"	"95"
+		"wave"	"ambient\desert_wind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"2, 10"
+		"volume"	"0.4,0.6"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\wave6.wav"
+			"wave"	"ambient\water\wave5.wav"
+			"wave"	"ambient\water\wave4.wav"
+			"wave"	"ambient\water\wave3.wav"
+			"wave"	"ambient\water\wave2.wav"
+			"wave"	"ambient\water\wave1.wav"
+		}
+	}
+	
+		"playrandom"
+	{
+		"time"	"5, 20"
+		"volume"	"0.4,0.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\materials\metal_stress4.wav"
+			"wave"	"ambient\materials\metal_stress5.wav"
+			"wave"	"ambient\materials\wood_creak3.wav"
+			"wave"	"ambient\materials\wood_creak1.wav"
+			"wave"	"ambient\materials\rustypipes2.wav"
+			"wave"	"ambient\materials\rustypipes1.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"	"5,25"
+		"volume"	".2,.3"
+		"pitch"	"100,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+		}
+	}
+}
+
+"Catwalks.Outside.Industrial"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"	"110"
+		"wave"	"ambient\cp_harbor\outdoor_lp_03.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".55"
+		"pitch"	"95"
+		"wave"	"ambient\desert_wind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"	"2, 15"
+		"volume"	"0.4,0.5"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\wave6.wav"
+			"wave"	"ambient\water\wave5.wav"
+			"wave"	"ambient\water\wave4.wav"
+			"wave"	"ambient\water\wave3.wav"
+			"wave"	"ambient\water\wave2.wav"
+			"wave"	"ambient\water\wave1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"10,25"
+		"volume"	".4,.7"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"vehicles\crane\crane_creak3.wav"
+			"wave"	"ambient_mp3\lair\cap_1_tone_metal_movement1.mp3"
+			"wave"	"ambient_mp3\lair\cap_1_tone_metal_movement2.mp3"
+			"wave"  "ambient\cp_harbor\machinery_outdoors_1shot_03.wav"
+			"wave"  "ambient_mp3\lair\jungle_underground_steam.mp3"
+			"wave"  "ambient\materials\metal_stress5.wav"
+			
+		}
+	}
+
+	"playrandom"
+	{
+		"time"	"8,20"
+		"volume"	".1,.3"
+		"pitch"	"100"
+
+		"rndwave"
+		{
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_01.mp3"
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_02.mp3"
+			"wave"	"ambient_mp3\mvm_warehouse\seagull_03.mp3"
+			"wave"	"ambient\atmosphere\city_skypass1.wav"
+		}
+	}
+}

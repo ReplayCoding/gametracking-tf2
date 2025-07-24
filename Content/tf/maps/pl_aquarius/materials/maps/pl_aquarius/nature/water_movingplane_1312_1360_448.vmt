@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/NATURE/WATER_MOVINGPLANE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_aquarius/c1312_1360_448"
+		"Proxies"
+		{
+		}
+	}
+}

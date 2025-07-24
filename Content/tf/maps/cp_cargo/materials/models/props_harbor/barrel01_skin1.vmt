@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_harbor/barrel01_skin1"
+	"$model" "1"
+	"$surfaceprop"	"plastic_barrel"
+	"%keywords"	"tf"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+	//"$rimlight" "1"
+	//"$rimlightexponent"	"2"
+	//"$rimlightboost" "1"
+}

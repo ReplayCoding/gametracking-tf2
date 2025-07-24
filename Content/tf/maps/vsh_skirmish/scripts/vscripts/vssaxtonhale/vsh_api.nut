@@ -32,7 +32,7 @@
 function ReadMapAPI()
 {
     local vshConfigEnt = null;
-    while (vshConfigEnt = Entities.FindByName(vshConfigEnt, "vsh_config"))
+    while (vshConfigEnt = FindByName(vshConfigEnt, "vsh_config"))
     {
         local key = "error";
         for (local i = 0; i < 63; i++)

@@ -1,0 +1,157 @@
+"Barker.Idle"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-001.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-002.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-003.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-004.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-005.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-006.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-007.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-008.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_idle-009.mp3"
+    }
+}
+
+"Barker.Lose"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-001.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-002.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-003.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-004.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-005.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-006.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-007.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-008.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-009.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-010.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_lose-011.mp3"
+    }
+}
+
+"Barker.Win"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-001.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-002.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-003.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-004.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-005.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-006.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-007.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_win-008.mp3"
+    }
+}
+
+"Barker.Damage"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_damage-001.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_damage-002.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_damage-003.mp3"
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_damage-004.mp3"
+    }
+}
+
+"Barker.Taunt_Engie"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_engie01.mp3"
+    }
+}
+
+"Barker.Taunt_Heavy"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_heavy01.mp3"
+    }
+}
+
+"Barker.Taunt_Pyro"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_pyro01.mp3"
+    }
+}
+
+"Barker.Taunt_Scout"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_scout01.mp3"
+    }
+}
+
+"Barker.Taunt_Sniper"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_sniper01.mp3"
+    }
+}
+
+"Barker.Taunt_Spy"
+{
+    "channel"        "CHAN_BODY"
+    "volume"        "1.0"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_90dB"
+    "rndwave"
+    {
+        "wave"    ")mvm/sideshow/boardwalk_barker/barker_taunt_spy01.mp3"
+    }
+}

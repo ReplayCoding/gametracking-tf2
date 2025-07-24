@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/BLENDWETMUDGROUND003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_mannhole/c-2080_608_288"
+	}
+}

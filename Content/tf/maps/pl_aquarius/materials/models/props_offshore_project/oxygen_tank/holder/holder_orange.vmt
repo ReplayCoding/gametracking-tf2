@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_offshore_project/oxygen_tank/holder/holder_orange"
+	"$basemapalphaphongmask" "1"
+	
+	"$phong" "1"
+
+	"$phongboost" "25"
+	"$phongfresnelranges"	"[.1 1 8]"
+               "$phongexponent"   "11"
+              	"$halflambert" "1"                
+
+                "$lightwarptexture" "models/props_offshore_project/oxygen_tank/lightwarp"
+	"$rimlight" "1"										
+	"$rimlightexponent" "8"										
+	"$rimlightboost" "1"										
+	"$rimmask" "1"  
+//	"$blendtintbybasealpha"		"1"
+//	"$blendtintcoloroverbase"		"0"
+//	"$colortint_base"		"{180 180 180}"
+//	"$color2"		"{255 146 255}"
+//	"$colortint_tmp"		"[0 0 0]"
+
+}

@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"water\caustic\caustic01_slow"
+	"$surfaceprop"		"no_decal"
+	"$additive"		"1"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$basetexture"
+			"animatedtextureframenumvar"		"$frame"
+			"animatedtextureframerate"		"30.000000"
+		}
+	}
+}

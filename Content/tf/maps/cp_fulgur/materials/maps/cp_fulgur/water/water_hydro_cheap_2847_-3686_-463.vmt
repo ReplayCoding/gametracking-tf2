@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_HYDRO_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_fulgur/c2847_-3686_-463"
+		"Proxies"
+		{
+		}
+	}
+}

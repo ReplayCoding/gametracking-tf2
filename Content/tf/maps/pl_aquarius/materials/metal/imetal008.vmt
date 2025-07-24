@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"metal/imetal008"
+	"$surfaceprop"	"metal"
+	"%keywords" "offshore, tf"
+
+	"$envmap" cubemaps/cubemap_shapes002
+
+	"$basealphaenvmapmask" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+}

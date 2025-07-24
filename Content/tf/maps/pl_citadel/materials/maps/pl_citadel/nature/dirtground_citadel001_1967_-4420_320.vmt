@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/DIRTGROUND_CITADEL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_citadel/c1967_-4420_320"
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_pressure/sign_megbutton"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+}

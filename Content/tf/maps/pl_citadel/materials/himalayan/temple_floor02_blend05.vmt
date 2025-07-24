@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	
+	"$basetexture" "himalayan/temple_floor02c"
+	"$bumpmap" "himalayan/temple_floor02_ssbump"
+	"$basetexture2" "himalayan/himalaya_dirt02"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	
+	$blendmodulatetexture "himalayan/himalaya_rock01_blendmodulate"
+	
+	"$ssbump" "1"
+	
+
+	"$surfaceprop" "rock"
+
+	"%keywords" "tf, himalayan, himalaya, tibet, nepal"
+}

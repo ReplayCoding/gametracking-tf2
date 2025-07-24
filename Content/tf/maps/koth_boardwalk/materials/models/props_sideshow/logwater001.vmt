@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_sideshow\logwater001"
+	"$surfaceprop"	"default"
+	"$model" "1"
+	"$translucent" 1
+
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 165 111 82 }"
+//	"$color2"		"{177 177 120}"
+	"$color2"		"{127 121 96}"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 90
+		}
+	}
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_laughter/binoculars"
+	"$bumpmap" "models/props_laughter/binoculars_normal"
+	"$bumpmapalphaphongmask"		"1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "2.8"	
+	"$phongfresnelranges"	"[0 0.5 1]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "1"
+}

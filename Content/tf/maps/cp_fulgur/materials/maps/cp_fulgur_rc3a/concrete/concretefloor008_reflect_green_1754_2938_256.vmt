@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT_GREEN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_fulgur_rc3a/c1754_2938_256"
+	}
+}

@@ -23,7 +23,7 @@ AddListener("spawn", 0, function (player, params)
         player.ForceChangeTeam(TF_TEAM_MERCS, true);
 
     local ammoPack = null;
-    while (ammoPack = Entities.FindByClassname(ammoPack, "tf_ammo_pack"))
+    while (ammoPack = FindByClassname(ammoPack, "tf_ammo_pack"))
         if (ammoPack.GetOwner() == player)
         {
             ammoPack.Kill();
@@ -43,7 +43,7 @@ AddListener("class_change", 0, function (player, params)
 
         local building = null;
         local buildingToKill = [];
-        while (building = Entities.FindByClassname(building, "obj_*"))
+        while (building = FindByClassname(building, "obj_*"))
             if (GetPropEntity(building, "m_hBuilder") == player)
                 buildingToKill.push(building);
         foreach (building in buildingToKill)
@@ -72,7 +72,7 @@ AddListener("team_change", 0, function (player, params)
 
 AddListener("tick_frame", 0, function()
 {
-    local pdFlag = Entities.FindByClassname(null, "item_teamflag");
+    local pdFlag = FindByClassname(null, "item_teamflag");
     if (pdFlag != null)
         pdFlag.Kill();
 });

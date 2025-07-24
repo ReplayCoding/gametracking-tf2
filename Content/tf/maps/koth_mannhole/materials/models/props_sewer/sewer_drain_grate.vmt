@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_sewer\sewer_drain_grate"
+	$basemapalphaphongmask 1
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[0 0.5 1]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "1"
+}

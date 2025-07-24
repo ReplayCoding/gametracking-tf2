@@ -1,0 +1,35 @@
+"Refract"
+{
+	"%keywords" "offshore, tf"
+	"$refractamount" "0.2"
+	//"$refracttint" "{155 215 255}"
+	"$refracttint" "{192 224 255}"
+//	"$bluramount" "1" 
+	"$ignorez" "1"
+
+
+	"$scale" "[1 1]"
+	//"$color" "{155 215 255}"
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "water/aquarius_warp"
+//	"$normalmap" "water/scrolling_water01_normal"
+	"$bumpframe" "0"
+
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" -90.00
+		}
+	}
+}

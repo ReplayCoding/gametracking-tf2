@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/trashcan_burning"
+//	"$bumpmap"	"models/props_sewer/trashcan_normal"
+	"$bumpmap"	"effects/flat_normal"
+
+	"$phong" "1"
+	"$phongexponent"	"5"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[.5 1 8]"
+	"$phongexponenttexture" "cable/pure_white"
+	"$phongalbedotint" "1"
+
+//	"$selfillum" "1"
+//	"$selfillumtint"        "[ 2 1 0 ]"
+//	"$selfillummask"	"models/props_sewer/trashcan_burning_selfillum"
+
+	"$detail"	"models/props_sewer/trashcan_burning_selfillum"
+	"$detailscale"	"1"
+	"$detailblendfactor"	".25"
+	"$detailblendmode"	"5"
+
+}

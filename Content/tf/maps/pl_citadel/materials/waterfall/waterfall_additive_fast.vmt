@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models\props_forest/waterfall001"
+	"$surfaceprop"	"no_decal"
+	"$additive" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .5
+			"texturescrollangle" 90
+		}
+	}
+}

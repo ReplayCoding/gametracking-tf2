@@ -1,0 +1,245 @@
+"Pressure.IntelRoom"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"90"
+		"wave"		"ambient/levels/citadel/citadel_drone_loop3.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient/water/corridor_water.wav"
+	}
+	"playrandom"
+	{
+		"time"		"7, 22"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"			
+		}
+	}
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working2.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/water/leak_1.wav"
+		"attenuation"	"0.7"	
+		"position" "6"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/water/underwater.wav"
+		"position" "7"
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave" 		"ambient/materials/shipgroan1.wav"
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}
+"Pressure.IntelRoom_Blu"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"75"
+		"wave"		"ambient/atmosphere/ambience5.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/water/corridor_water.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/water/leak_1.wav"
+		"position" "6"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/water/underwater.wav"
+		"position" "7"
+	}
+	"playrandom"
+	{
+		"time"		"7, 22"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient/atmosphere/hole_hit1.wav"
+			"wave"		"ambient/atmosphere/hole_hit3.wav"		
+		}
+	}
+}
+"Pressure.Halls01_Blue"
+{
+	"dsp"	"17"
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".8"
+		"soundlevel" 	"SNDLVL_95dB"
+		"position" 		"0"
+		"pitch" "35"
+		"attenuation"	"0.7"	
+		"wave"			"hl1/ambience/alien_blipper.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".5"
+		"soundlevel" 	"SNDLVL_95dB"
+		"position" 		"2"
+		"pitch" "100"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/machine_hum2.wav"
+	}	
+
+}
+"Pressure.Halls01_Red"
+{
+	"dsp"	"17"
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.85"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_85dB"
+		"position"  	"0"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/boiler_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"soundlevel" 	"SNDLVL_95dB"
+		"attenuation"	"0.7"	
+		"position" 		"0"
+		"pitch" "100"
+		"wave"			"ambient/machines/city_ventpump_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"soundlevel" 	"SNDLVL_95dB"
+		"attenuation"	"0.6"	
+		"position" 		"1"
+		"pitch" "100"
+		"wave"			"ambient/gas/steam2.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"soundlevel" 	"SNDLVL_95dB"
+		"position" 		"2"
+		"attenuation"	"0.7"	
+		"pitch" "100"
+		"wave"			"ambient/machine_hum2.wav"
+	}	
+	
+
+}
+"Pressure.CenterCave"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"85"
+		"wave"		"ambient/halloween/underground_wind_lp_04.wav"
+	}
+	"playrandom"
+	{
+		"time"		"7, 22"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}

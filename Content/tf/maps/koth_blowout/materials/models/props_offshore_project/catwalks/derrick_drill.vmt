@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_offshore_project/catwalks/derrick_drill"
+
+	"$basemapalphaphongmask" "1"
+	"$phongexponenttexture"	"cable/pure_white"
+	"$phongalbedotint"	"1"
+	"$phong" "1"
+	"$phongexponent"	"7"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[1 2 3]"
+
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_blowout/water/water_deep_ocean01_skybox_1408_-2816_192.vmt"
+	"insert"
+	{
+		"$waterdepth"		"32"
+	}
+}

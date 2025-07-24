@@ -1,0 +1,214 @@
+"Aquarius.Generic"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_1_tone2.wav"
+	}
+}
+"Aquarius.Finale"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_3_vista_tone.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"0"
+		"attenuation"	"1.3"	
+		"wave"		"ambient\lair\cap_3_inside_computer_bank1.wav"
+	}	
+	"playlooping"
+	{
+		"volume"		"0.75"
+		"pitch"		"100"
+		"position"		"1"
+		"attenuation"	"1"	
+		"wave"		"ambient\computer_working.wav"
+	}	
+	"playlooping"
+	{
+		"volume"		"0.75"
+		"pitch"		"100"
+		"position"		"2"
+		"attenuation"	"1"	
+		"wave"		"ambient\computer_working2.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"3"
+		"attenuation"	"1.3"	
+		"wave"		"ambient\lair\cap_3_inside_radar2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"4"
+		"attenuation"	"1"	
+		"wave"		"ambient\water\lake_water.wav"
+	}
+}
+"Aquarius.BlueSpawn"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\spawn_tone2.wav"
+	}
+}
+"Aquarius.RedSpawn"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\lair\spawn_tone2.wav"
+	}
+}
+"Aquarius.Catwalk"
+{
+	"dsp" "1"
+	
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_3_vista_tone.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	"playsoundscape"
+	{
+		"name" "Util.Drips"
+		"volume" "0.9"
+	}
+}
+"Aquarius.UpperCatwalk"
+{
+	"dsp" "1"
+	
+	"playsoundscape"
+	{
+		"name" "Util.Generic"
+		"volume" "1"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\lair\cap_3_vista_tone.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\water\lake_water.wav"
+	}
+	"playsoundscape"
+	{
+		"name" "Util.Drips"
+		"volume" "0.45"
+	}
+
+}
+
+"Util.Generic"
+{
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playsoundscape"
+	{
+		"name" "Util.MysterySounds"
+		"volume" "0.8"
+	}
+}
+
+"Util.Drips"
+{
+	"playrandom"
+	{
+		"time"		"2,15"
+		"volume"	"1"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+		"wave"		"ambient\water\distant_drip1.wav"
+		"wave"		"ambient\water\distant_drip2.wav"
+		"wave"		"ambient\water\distant_drip3.wav"
+		"wave"		"ambient\water\distant_drip4.wav"
+		}
+	}
+}
+
+"Util.MysterySounds"
+{
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	"1"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+			"wave"		"npc\ichthyosaur\water_growl5.wav"
+			"wave"		"npc\ichthyosaur\water_growl5.wav"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement1.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement2.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement3.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement4.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement5.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement6.mp3"
+			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement7.mp3"
+		}
+	}
+}

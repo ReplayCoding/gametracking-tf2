@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" "Models/props_gameplay/cap_point_base_blue_goobertremake"
+	"$bumpmap" "Models/props_gameplay/cap_point_base_normal"
+
+	"$selfillum" "1"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[1 1 1]"
+
+	//"$rimlight" "1"
+	//"$rimlightboost" "5"
+	//"$rimlightexponent" "10"
+	
+	"$detail"          "Models/props_gameplay/cap_point_base_blue_goobertremake_off"
+	"$detailscale"     "1"
+	"$detailblendmode" "3"
+	"$detailblendfactor" "1"
+	
+	Proxies
+	{
+		Sine
+		{
+			"resultVar"  "$detailblendfactor"
+			"sineperiod" "6"
+			"sinemin"    "0"
+			"sinemax"    "1"
+		}
+	}
+}

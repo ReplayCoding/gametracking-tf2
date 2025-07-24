@@ -134,7 +134,7 @@
         {
             player.ForceRegenerateAndRespawn();
             local ammoPack = null;
-            while (ammoPack = Entities.FindByClassname(ammoPack, "tf_ammo_pack"))
+            while (ammoPack = FindByClassname(ammoPack, "tf_ammo_pack"))
                 if (ammoPack.GetOwner() == player)
                 {
                     ammoPack.Kill();

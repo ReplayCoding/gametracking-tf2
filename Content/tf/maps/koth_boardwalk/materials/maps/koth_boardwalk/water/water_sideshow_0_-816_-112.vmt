@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SIDESHOW.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_boardwalk/c0_-816_-112"
+		"Proxies"
+		{
+		}
+	}
+}

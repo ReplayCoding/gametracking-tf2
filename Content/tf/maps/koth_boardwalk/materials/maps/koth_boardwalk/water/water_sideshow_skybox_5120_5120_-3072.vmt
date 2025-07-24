@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SIDESHOW_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_boardwalk/c5120_5120_-3072"
+		"Proxies"
+		{
+		}
+	}
+}

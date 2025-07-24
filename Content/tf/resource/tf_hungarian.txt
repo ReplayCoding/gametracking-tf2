@@ -5115,7 +5115,7 @@
 "pl_terror_event_authors"		"Tomi 'ICS' Uurainen"
 "arena_lumberyard_event_authors"	"Liam 'Diva Dan' Moffitt\nBenjamin 'blaholtzen' Blåholtz\nAlex 'FGD5' Stewart\nSeb 'Tianes' Necula\nAeon 'Void' Bollig\nErik 'Colteh' Coltey\nJuniper"
 "pl_coal_event_authors"			"Matthew 'Panckakebro' Hiller\nElián 'iron' Rodríguez\nPhe\nRyan 'Chill' Foy\nDenis 'xB33' Varchulik\nWilliam 'Cheesypuff' Bartley-Bolster\nOliver 'OverPovered' Pennanen"
-"pl_breadspace_authors"			"Bailey 'Glitch' Hodges\nJesse 'Custard1' Budd\nAlberto 'Petachepas' Zarzuela\nJonas 'Grambee' Carson\nDylan 'doggoh' Lee\nOliver 'OverPovered' Pennanen\nChristoph 'Gadget' Manschitz\nPeter 'Tabby' Bryant\nWilliam 'Cheesypuff' Bartley-Bolster\nKirill 'Le Bruhe?' Ruzanov\nHugh 'HueZee_' Madoc Schneider\nBrandon 'Brantopias' Sinkovich\nhuman1"
+"pl_breadspace_authors"			"Bailey 'Glitch' Hodges\nJesse 'Custard1' Budd\nAlberto 'Petachepas' Zarzuela\nGrambee\nDylan 'doggoh' Lee\nOliver 'OverPovered' Pennanen\nChristoph 'Gadget' Manschitz\nPeter 'Tabby' Bryant\nWilliam 'Cheesypuff' Bartley-Bolster\nKirill 'Le Bruhe?' Ruzanov\nHugh 'HueZee_' Madoc Schneider\nBrandon 'Brantopias' Sinkovich\nhuman1"
 "pl_chilly_authors"				"Tomi 'ICS' Uurainen\nTyler 'Yyler' King\nAlex 'MaccyF' MacFarquhar"
 "koth_cascade_authors"			"Evan 'Defcon' LeBlanc\nAlex 'FGD5' Stewart\nLiam 'Diva Dan' Moffitt"
 "cp_altitude_authors"			"Evan 'Defcon' LeBlanc\nAlex 'FGD5' Stewart\nLiam 'Diva Dan' Moffitt"
@@ -5505,7 +5505,7 @@
 "TF_MapToken_Polar_AdText"		"- E tárgy megvásárlásával közvetlenül a Polar közösségi pálya készítőit támogatod."
 "TF_Map_BreadSpace"				"Bread Space"
 "TF_MapToken_BreadSpace"		"Pályabélyeg - Bread Space"
-"TF_MapToken_BreadSpace_Desc"	"Bombás pálya\n\nKészítette: Bailey 'Glitch' Hodges, Jesse 'Custard1' Budd, Alberto 'Petachepas' Zarzuela, Jonas 'Grambee' Carson, Dylan 'doggoh' Lee, Oliver 'OverPovered' Pennanen, Christoph 'Gadget' Manschitz, Peter 'Tabby' Bryant, William 'Cheesypuff' Bartley-Bolster, Kirill 'Le Bruhe?' Ruzanov, Hugh 'HueZee_' Madoc Schneider, Brandon 'Brantopias' Sinkovich és human1\n\nE tárgy megvásárlásával közvetlenül a Bread Space közösségi pálya készítőit támogatod. Mutasd ki támogatásod!"
+"TF_MapToken_BreadSpace_Desc"	"Bombás pálya\n\nKészítette: Bailey 'Glitch' Hodges, Jesse 'Custard1' Budd, Alberto 'Petachepas' Zarzuela, Grambee, Dylan 'doggoh' Lee, Oliver 'OverPovered' Pennanen, Christoph 'Gadget' Manschitz, Peter 'Tabby' Bryant, William 'Cheesypuff' Bartley-Bolster, Kirill 'Le Bruhe?' Ruzanov, Hugh 'HueZee_' Madoc Schneider, Brandon 'Brantopias' Sinkovich és human1\n\nE tárgy megvásárlásával közvetlenül a Bread Space közösségi pálya készítőit támogatod. Mutasd ki támogatásod!"
 "TF_MapToken_BreadSpace_AdText"	"- E tárgy megvásárlásával közvetlenül a Bread Space közösségi pálya készítőit támogatod."
 "TF_Map_Chilly"					"Chilly"
 "TF_MapToken_Chilly"			"Pályabélyeg - Chilly"
@@ -20055,6 +20055,12 @@ Ha az ellenséges csapat elfoglalja az ellenőrzőpontot, csapatotok órája meg
 "TF_IM_VSH_ToWin2"				"...vagy el kell foglalnia a foglalási pontot, ami a kör folyamán kerül aktiválásra"
 "TF_IM_VSH_Notes1"				"Saxton Hale egyedülálló képességekkel rendelkezik a zsoldosok legyőzéséhez."
 "TF_IM_VSH_Notes2"				"Nincs újraéledés, szóval ne halj meg!"
+
+"TF_SDK_LocalLoadout"               "A felszerelésedben végrehajtott bármely változtatás csak erre a modra vonatkozik."
+"TF_SDK_ResetLoadout_Title"         "Felszerelés szinkronizálása"
+"TF_SDK_ResetLoadout_Desc"          "Szeretnéd szinkronizálni a helyi felszerelésedet ebben a modban a Team Fortress 2-vel?"
+"TF_SDK_ClearLoadout_Title"         "Felszerelés törlése"
+"TF_SDK_ClearLoadout_Desc"          "Szeretnéd visszaállítani a felszerelésed az Alap tárgyakra?"
 
 }
 }

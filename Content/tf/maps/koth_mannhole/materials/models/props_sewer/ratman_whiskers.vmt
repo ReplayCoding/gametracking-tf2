@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/ratman_whiskers"
+
+	"$phong" "1"
+	"$phongexponent"	"1"
+	"$phongboost" ".2"	
+	"$phongfresnelranges"	"[1 2 4]"
+	"$basemapalphaphongmask"	"1"
+
+	"$lightwarptexture" "models/props_sewer/whiskerWarp"
+//	"$lightwarptexture"		"models/props_monkeynaut/monkey_eyes_warp"
+//	"$lightwarptexture"	"models/props_brine/salmann_egg_lightwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "0"	
+}

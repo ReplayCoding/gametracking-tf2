@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_sideshow/sideshow_marquee_002"
+	$basemapalphaphongmask 1
+	"$phongexponenttexture"	"models/props_atom_smash/doomsday_device_exponent"
+	"$phong"		"1"
+	"$phongexponent"		"11"
+	"$phongboost"		"4"
+	"$phongalbedotint"		"1"
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 6]"
+//	"$phongtint"  "[.45 .33 .12]"
+}

@@ -139,6 +139,11 @@ function FinishSetup()
         RefreshBossSetup(boss);
         bosses[boss].TryApply(boss);
 
+        RunWithDelay2(this, 0.01, function (boss)
+        {
+            RefreshBossSetup(boss);
+        }, boss)
+
         RunWithDelay2(this, 1, function (boss)
         {
             if (boss.GetPlayerClass() == TF_CLASS_HEAVY)
