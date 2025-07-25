@@ -1,7 +1,4 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_spytech/spytech_monitor"
-	$surfaceprop Metal
-
-	$nodecal 1
+"VertexLitGeneric" {
+	"$basetexture" "models/props_spytech/spytech_monitor"
+	"$nodecal" "1"
 }

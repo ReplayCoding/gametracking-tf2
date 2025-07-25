@@ -82,7 +82,7 @@
 	}
 	"playlooping"
 	{
-		"volume"	"0.5"
+		"volume"	"1"
 		"pitch"		"100"
 		"wave"		"ambient\lair\spawn_tone2.wav"
 	}
@@ -98,7 +98,7 @@
 	}
 	"playlooping"
 	{
-		"volume"	"0.5"
+		"volume"	"1"
 		"pitch"		"100"
 		"wave"		"ambient\lair\spawn_tone2.wav"
 	}
@@ -163,9 +163,14 @@
 {
 	"playlooping"
 	{
-		"volume"	"0.5"
+		"volume"	"0.8"
 		"pitch"		"100"
-		"wave"		"ambient\atmosphere\cargo_hold2.wav"
+		"wave"		"aquarius\deep01_loop.wav"
+	}
+	"playsoundscape"
+	{
+		"name" "Util.Whoosh"
+		"volume" "1"
 	}
 	"playsoundscape"
 	{
@@ -200,8 +205,6 @@
 		"pitch"		"95,105"
 		"rndwave"
 		{
-			"wave"		"npc\ichthyosaur\water_growl5.wav"
-			"wave"		"npc\ichthyosaur\water_growl5.wav"
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement1.mp3"
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement2.mp3"
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement3.mp3"
@@ -209,6 +212,30 @@
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement5.mp3"
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement6.mp3"
 			"wave"		"ambient_mp3\lair\cap_1_tone_metal_movement7.mp3"
+		}
+	}
+}
+
+"Util.Whoosh"
+{
+	"playrandom"
+	{
+		"time"		"15,40"
+		"volume"	"1"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+			"wave"		"aquarius\water_flow01.mp3"
+			"wave"		"aquarius\water_whoosh02.mp3"
+			"wave"		"aquarius\water_flow02.mp3"
+			"wave"		"aquarius\water_whoosh04.mp3"
+			"wave"		"aquarius\water_flow03.mp3"
+			"wave"		"aquarius\water_whoosh06.mp3"
+			"wave"		"aquarius\water_flow04.mp3"
+			"wave"		"aquarius\water_whoosh08.mp3"
+			"wave"		"aquarius\water_flow05.mp3"
+			"wave"		"aquarius\water_whoosh10.mp3"
+			"wave"		"aquarius\water_whoosh12.mp3"
 		}
 	}
 }

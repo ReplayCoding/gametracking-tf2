@@ -8,8 +8,8 @@
 
 	//$selfillum 1
 	
-	"$detail" "effects/caustics_004_faded"
-	"$detailblendmode" 5
+	//"$detail" "effects/caustics_004_faded"
+	//"$detailblendmode" 5
 	
 	$treeSway			"1"	// height at which the effect is on fully (in world units)
 	$treeSwayHeight			"32"//"300"	// radius at which the effect is on fully (in world units)

@@ -1,0 +1,6 @@
+"Patch" {
+	include materials\models\props_spytech\spytech_monitor.vmt
+	replace {
+		$basetexture models\props_spytech\spytech_monitor_blue
+	}
+}

@@ -24,9 +24,8 @@
 "Player.AmbientUnderWater"
 {
 	"channel"	"CHAN_STATIC"
-	"volume"	"0.1"
-	"pitch" 	"100"
+	"volume"	"0.6"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"water\underwater.wav"
+	"wave"	"aquarius/under01_loop.wav"
 }

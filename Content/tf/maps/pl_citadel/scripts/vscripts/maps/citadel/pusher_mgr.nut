@@ -336,10 +336,16 @@ function PusherMgr_Think() {
 	CurrentTime = Time();
 
 	local data, player, buttons, ground, parent;
-	foreach (data in PushersPlayersData)
+    for (local i = PushersPlayersData.len() - 1; i >= 0; i--)
 	{
-
-		player = data.player;
+		data = PushersPlayersData[i];
+        player = data.player;
+        if (!player.IsValid())
+        {
+            PushersPlayers.remove(i);
+            PushersPlayersData.remove(i);
+            continue;
+        }
 		data.origin = player.GetOrigin();
 		data.mins = player.GetPlayerMins();
 		data.maxs = player.GetPlayerMaxs();
@@ -352,7 +358,7 @@ function PusherMgr_Think() {
 			if (!data.jumped)
 			{
 				ground = data.ground;
-				if (ground && ground.IsEFlagSet(EFL_PUSHER))
+                if (ground && ground.IsValid() && ground.IsEFlagSet(EFL_PUSHER))
 				{
 					local scope = ground.GetScriptScope();
 					if (scope.CalcTransformation())
