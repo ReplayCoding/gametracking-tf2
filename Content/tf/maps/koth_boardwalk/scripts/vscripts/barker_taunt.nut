@@ -11,23 +11,33 @@ ClassVoicelines <-
 
 speaker <- null
 
+cooldown_timer <- 0.0
+
 function OnPostSpawn()
 {
-	local speaker_name = NetProps.GetPropString(self, "m_iszResponseContext")
+    local speaker_name = NetProps.GetPropString(self, "m_iszResponseContext")
     speaker = Entities.FindByName(null, speaker_name)
     self.ConnectOutput("OnStartTouch", "PlayVoiceline")
 }
 
 function PlayVoiceline()
 {
-    if (activator.IsPlayer())
+    local time = Time()
+    if (cooldown_timer >= time)
+        return
+    
+    if (!activator.IsPlayer())
+        return
+        
+    if (RandomInt(1, 12) != 1)
+        return
+    
+    local player_class = activator.GetPlayerClass()
+    if (player_class in ClassVoicelines)
     {
-        if (RandomInt(1, 6) == 1)
-        {
-            local player_class = activator.GetPlayerClass()
-            if (player_class in ClassVoicelines)
-                speaker.EmitSound(ClassVoicelines[player_class])
-        }
+        speaker.EmitSound(ClassVoicelines[player_class])
+        
+        cooldown_timer = time + 4.0
     }
 }
 
