@@ -8993,6 +8993,28 @@
   "soundlevel"		"SNDLVL_95dB"
   "wave"				"player/taunt_equipment_jingle2.wav"
 }
+"Taunt.FinalScore_Engineer_A"
+{
+	"channel" 			"CHAN_VOICE"
+	"volume" 			"VOL_NORM"
+	"pitch" 			"PITCH_NORM"
+	"soundlevel" 			"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"			"vo/engineer_specialcompleted03.mp3"
+	}
+}
+"Taunt.FinalScore_Engineer_B"
+{
+	"channel" 			"CHAN_VOICE"
+	"volume" 			"VOL_NORM"
+	"pitch" 			"PITCH_NORM"
+	"soundlevel" 			"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"			"vo/engineer_autodejectedtie03.mp3"
+	}
+}
 "scout_item_preview_scout_taunt_clothes_swipe2"
 {
   "channel"			"CHAN_STATIC"

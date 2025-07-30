@@ -304,7 +304,7 @@
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
-"ClassTips_9_1"				"Samle metall fra falne våpen til å bygge med!"
+"ClassTips_9_1"				"Samle metall fra falne ammunisjonskasser til å bygge med!"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"Bygg sensorvåpen for å forsvare basen din! Oppgrader dem til nivå 3!"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -968,6 +968,8 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"ozfortress Experimental Cup 3 Division 4 – Andreplass"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"ozfortress Experimental Cup 3 Division 4 – Tredjeplass"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ozfortress Experimental Cup 3 Division 4 – Deltaker"
+"TF_TournamentMedal_OzFortress_MayMadness_Finalist"					"ozfortress May Madness – Finalist"
+"TF_TournamentMedal_OzFortress_MayMadness_Participant"				"ozfortress May Madness – Deltaker"
 
 "TF_TournamentMedal_LBTF2_6v6_Beginner_1st"			"LBTF2 6v6 Beginner – Førsteplass"
 "TF_TournamentMedal_LBTF2_6v6_Beginner_2nd"			"LBTF2 6v6 Beginner – Andreplass"
@@ -1090,6 +1092,8 @@
 "TF_TournamentMedal_2023"	"2023"
 "TF_TournamentMedal_2024"	"2024"
 "TF_TournamentMedal_2025"	"2025"
+"TF_TournamentMedal_2026"	"2026"
+"TF_TournamentMedal_2027"	"2027"
 
 "TF_TournamentMedal_Summer2017"	"Sommer 2017"
 "TF_TournamentMedal_Winter2017"	"Vinter 2017"
@@ -1172,13 +1176,16 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Fall2024"	"Tildelt spillerne som tok tredjeplassen i AsiaFortress Liquid.tf Fall 2024 Open."
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf Open – Deltaker"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"Tildelt spillerne som deltok i AsiaFortress Liquid.tf Spring 2024 Open"
+"TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2025"	"Tildelt spillerne som deltok i AsiaFortress Liquid.tf Spring 2025 Open."
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Fall2024"	"Tildelt spillerne som deltok i AsiaFortress Liquid.tf Fall 2024 Open."
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"AsiaFortress Liquid.tf Invite – Førsteplass"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Tildelt spillerne på Xiao, vinnerne av AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Fall2024"	"Tildelt spillerne på Kankuay, vinnerne av AsiaFortress Liquid.tf Fall 2024 Invite."
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2025"	"Tildelt spillerne på Heretics, vinnerne av AsiaFortress Liquid.tf Spring 2025 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"AsiaFortress Liquid.tf Invite – Andreplass"
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"Tildelt spillerne på Ex Nihilo, som tok andreplassen i AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Fall2024"	"Tildelt spillerne på Togenashi Togeari, som tok andreplassen i AsiaFortress Liquid.tf Fall 2024 Invite."
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2025"	"Tildelt spillerne på Ex Nihilo, som tok andreplassen i AsiaFortress Liquid.tf Spring 2025 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd"				"AsiaFortress Liquid.tf Invite – Tredjeplass"
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"Tildelt spillerne på United Beasts, som tok tredjeplassen i AsiaFortress Liquid.tf Spring 2024 Invite."
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Fall2024"	"Tildelt spillerne på HONGPRUMP, som tok tredjeplassen i AsiaFortress Liquid.tf Fall 2024 Invite."
@@ -1214,7 +1221,8 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"AsiaFortress Liquid.tf Newbie Cup – Deltaker"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf Newbie Cup – Trener"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
-																				   
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_10"				"AsiaFortress Liquid.tf Newbie Cup 10"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_1"					"AsiaFortress Liquid.tf Gibus Cup 1"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 – Deltaker"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 – Vinner"
 "TF_RETF2_EE22_4v4_Participant"				"RETF2 EE22 4v4 – Deltaker"
@@ -1392,10 +1400,6 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2nd"			"CappingTV Summer Brawl – Andreplass"
 "TF_TournamentMedal_CappingTV_SummerBrawl_3rd"			"CappingTV Summer Brawl – Tredjeplass"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"CappingTV Summer Brawl – Deltaker"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"TF2 Summer Brawl – Førsteplass"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"TF2 Summer Brawl – Andreplass"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"TF2 Summer Brawl – Tredjeplass"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"TF2 Summer Brawl – Deltaker"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"CappingTV PASS Time Championship – Førsteplass"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"CappingTV PASS Time Championship – Andreplass"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"CappingTV PASS Time Championship – Tredjeplass"
@@ -1404,9 +1408,8 @@
 "TF_TournamentMedal_CappingTV_Silver"			"CappingTV Ultiduo – Andreplass"
 "TF_TournamentMedal_CappingTV_Bronze"			"CappingTV Ultiduo – Tredjeplass"
 "TF_TournamentMedal_CappingTV_Participant"		"CappingTV Ultiduo – Deltaker"
-"TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Brisbane, Australia 2023"
+"TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Brisbane, Australia, 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"Brisbane, Australia, 2024"
-
 "TF_TournamentMedal_Insomnia69_Gold"			"Insomnia 69 – Førsteplass"
 "TF_TournamentMedal_Insomnia69_Silver"			"Insomnia 69 – Andreplass"
 "TF_TournamentMedal_Insomnia69_Bronze"			"Insomnia 69 – Tredjeplass"
@@ -1798,7 +1801,6 @@
 "TF_TournamentMedal_LAN_Downunder_Participant"			"LAN Downunder – Deltaker"
 "TF_TournamentMedal_LAN_Downunder_Champion"				"LAN Downunder – Vinner​"
 "TF_TournamentMedal_LAN_Downunder_2024"					"Melbourne, Australia, 2024"
-
 "TF_TournamentMedal_RussianHighlander_1st"				"Russian Highlander – Førsteplass"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Russian Highlander – Andreplass"
 "TF_TournamentMedal_RussianHighlander_3rd"				"Russian Highlander – Tredjeplass"
@@ -1884,7 +1886,6 @@
 "TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"Denne tingen hadde vært mye skumlere hvis vi ikke gikk tom for lilla maling. Tildelt spillere i Potato MvMs Ghoulish Gambit!"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"Ghoulish Gambit 2024 – Giftig potet"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"En sak så fæl at bare det å være nær den tærer på psyken. Du må i hvert fall ikke spise den, ellers tærer den på innvollene også. Tildelt spillere i Potato MvMs Ghoulish Gambit!"
-
 "TF_TournamentMedal_FruitMixes_Gold"				"Fruit Mixes Highlander – Gullmedalje"
 "TF_TournamentMedal_FruitMixes_Silver"				"Fruit Mixes Highlander – Sølvmedalje"
 "TF_TournamentMedal_FruitMixes_Bronze"				"Fruit Mixes Highlander – Bronsemedalje"
@@ -2109,7 +2110,9 @@
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup2_Desc"		"TFArena 6v6 Arena Mode Cup 2 – Bidragsyter"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup3_Desc"		"TFArena 6v6 Arena Mode Cup 3 – bidragsyter"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup4_Desc"		"TFArena 6v6 Arena Mode Cup 4 – bidragsyter"
-
+"TF_TournamentMedal_TFArena_6v6_Platinum_Gold"			"TFArena Platinum Division – mestere"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Silver"		"TFArena Platinum Division – andreplass"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Bronze"		"TFArena Platinum Division – tredjeplass"
 "TF_TournamentMedal_CTC_1st"					"Cap that Cup – Førsteplass"
 "TF_TournamentMedal_CTC_2nd"					"Cap that Cup – Andreplass"
 "TF_TournamentMedal_CTC_3rd"					"Cap that Cup – Tredjeplass"
@@ -2451,7 +2454,6 @@
 "TF_Wearable_Shroud"				"Kappe"
 "TF_Wearable_Butler"				"Butler"
 "TF_Wearable_Wound"					"Sår"
-
 "TF_RobotPart_Type"	"Robotdel"
 "TF_CircuitBoard_Type"	"Kretskort"
 
@@ -3058,7 +3060,6 @@
 "TF_PyromancersMask"		"Pyromancerens maske"
 "TF_PrancersPride"		"Prancers stolthet"
 "TF_Hwn_DemoMisc2"		"Syltelabbene" // ADD THE
-"TF_Hwn_ScoutMisc1"		"B-ankh!"
 "TF_Hwn_MedicHat"		"Einstein" // ADD THE
 "TF_Hwn_SoldierHat"		"Idiotboksen" // ADD THE
 "TF_Hwn_HeavyHat"		"Boksåpner" // ADD THE
@@ -3073,7 +3074,6 @@
 "TF_ScotchBonnet"		"Skottelue"
 "TF_CameraHelm"			"Frontlinjens feltopptaker"
 "TF_CameraHelm_Desc"		"Jeg er forfatteren, regissøren, og stjernen."
-"TF_LargeLuchadore"		"Stor Luchadore"
 "TF_LargeLuchadore_Desc"	"Bryting er på ordentlig, og nå kan du bevise det."
 "TF_EngineerTopHat"		"Western Wear"
 "TF_EngineerTopHat_Desc"	"Den gamle vesten har aldri sett denne type klasse før."
@@ -3151,6 +3151,7 @@
 "TF_ScoutPrepShirt"			"Lærenem" // ADD THE
 "TF_PyroCandle"				"Voksveiviser" // ADD THE
 "TF_ShootManyRobotsPack"		"The Scrap Pack" // ADD THE
+"TF_EngineerChaps"			"Halvbukser fra Texas" // ADD THE
 "TF_EngineerChaps_Style0"	"Tan"
 "TF_EngineerChaps_Style1"	"Midnatt"
 "TF_SniperAppleArrow"			"Fruktskuddet" // ADD THE
@@ -3231,7 +3232,6 @@
 "TF_SniperHat2_Desc"					"Dette er den beste hatten. Vi ville ikke sagt det hvis det ikke var sant. Dette er den beste."
 "TF_PyroHat3"							"Flamboyant Flamenco" // ADD THE
 "TF_PyroHat3_Desc"						"Hjelp fiendene dine med å feire De Dødes Dag ved å bruke denne hatten og deretter drepe dem."
-"TF_SoldierHat2"						"Hatten uten et navn" // ADD THE
 "TF_SoldierHat2_Desc"					"En navnløs hatt for en navnløs mann."
 "TF_PyroConscience_Desc"				"'Brenn han med flammer!' 'Nei, brenn han med flammer, så slå han med en øks!'"
 "TF_Football_Scarf"						"Leiesoldatens Stolthetsskjerf"
@@ -3252,7 +3252,6 @@
 "TF_Scout_Elf_Boots_Style0"		"Nordpolen"
 "TF_Scout_Elf_Boots_Style1"		"Sørpolen"
 "TF_Winter2011_Ebenezer"		"Ebenezer" // ADD THE
-"TF_SpyCicle"					"Sniktapp" // ADD THE
 "TF_SpyCicle_Desc"				"Den perfekte gaven til den som har alt – en istapp i ryggen. Til og med rikfolk kan ikke kjøpe dette i butikken."
 "TF_BallBuster"				"Gavesmekk" // ADD THE
 "TF_BallBuster_Desc"				"Disse fine og festlige julekulene er så vakkert laget at fiendene nok ønsker å se dem på nært hold. Innfri ønsket ved å slå disse skjøre glasskulene rett i øynene deres i 140 km/t."
@@ -3292,7 +3291,6 @@
 "TF_PEP_ScoutBag_Desc"				"Denne sekken kommer med lærstropper slik at alle pengene dine ikke faller ut. Stroppene er ikke særlig godt festet, så noe av pengene vil nok falle ut, slik at alle jentene kan se hvor rik du er. (Svaret er: Veldig rik. Og kjekk.)"
 
 "TF_DS_DumpsterDevice"				"Bomsens bazooka"
-"TF_DS_FootballHelmet"				"Hjelmen uten Hjem" // ADD THE
 "TF_DS_FootballHelmet_Desc"			"Tenk på denne hjelmen som et forsterket, bærbart hjem for hodet ditt. Den er i tillegg dekket av aluminiumsfolie som hindrer alle fra å stjele dine dyrebare landstrykertanker."
 "TF_DS_CanGrenades"					"Kapteinens Cocktail" // ADD THE
 "TF_DS_CanGrenades_Desc"			"Oppmerksomhet, landstrykere! Er dere MANN nok til å bære rundt på bokser fylt med fordervet suppe? Er dere GALE nok til å late som om de er granater? Er dere SULTNE nok til å sannsynligvis spise suppen senere, mens ingen ser på? Vi satser på et ja!"
@@ -3475,7 +3473,6 @@
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin \"Ravidge\" Brook\nMaxime \"Mimas Torres\" Dupuis"
 "ctf_2fort_invasion_authors"	"Miguel \"BANG!\" Melara\nThe Ronin\nMichael Egan\nAeon \"Void\" Bollig\nMartin \"Chaofanatic\" Ellis\nRyan \"Freeflow\" Leitao\nHarlen \"UEAKCrash\" Linke\nJames \"Retro\" Wright\n"
 "pd_watergate_authors"			"Michael Egan\nLouie \"bakscratch\" Turner\nIan \"Wgooch\" Gooch\nNassim \"NassimO\" Sadoun\nMiguel \"BANG!\" Melara\nThijs \"Evil_Knevil\" Van Gerrewey\nFissionMetroid101\nJennifer \"NeoDement\" Burnett\nAeon \"Void\" Bollig\nThe Ronin"
-"arena_byre_authors"			"Ian \"Idolon\" Spadin\nGavin \"Equinoxo\" Sawford\nGuy \"Gerbil\" Ross\nHellJumper\nKevin \"Ravidge\" Brook\nMatt \"Boylee\" Boyle\nSebastian \"Seba\" Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen \"UEAKCrash\" Linke\nFissionMetroid101\nMiguel \"BANG!\" Melara\nKevin \"Ravidge\" Brook\nThe Ronin"
 "cp_gorge_event_authors"		"Paul \"puxorb\" Broxup"
 "cp_sunshine_event_authors"		"Rebecca \"phi\" Ailes\nKimberly \"iiboharz\" Riswick\nHarlen \"UEAKCrash\" Linke"
@@ -3593,7 +3590,7 @@
 "pl_patagonia_authors"			"Elián \"iron\" Rodríguez\nMatthew \"Panckakebro\" Hiller\nJoão \"Hoppkins\" Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul \"puxorb\" Broxup\nBrie\nNickolas \"KrazyZark\" Fenech\nLiam \"Diva Dan\" Moffitt\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nExtra Ram\nMattie Konig\nTim \"Sedisocks\" Brown Lees\nPatrick \"Zeus\" Hennessy\nZoey Smith"
 "vsh_maul_authors"				"Matthew Scott \"MegapiemanPHD\" Simmons\nBrandon \"Bonk Nickeltoon\" Koller\nSzabó \"Maxxy\" Attila\nPatrick \"Zeus\" Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex \"FGD5\" Stewart\nMaksim \"Velly\" Streltsov\nJason \"Yaki\" Herman\nJesse \"Custard1\" Budd\nJoaquim \"JPRAS\" Silva\nSamuel \"ChargingTurnip\" Turner\nAlex \"Lacry\" Couto\nJames M.\nTorkil \"TheLazerSofa\" Malvik Bidtnes\nSky"
-
+"pl_aquarius_authors"			"Alien31\nAndrew \"Bengali Hedgehog\" Mishchuk\nChristoph \"Gadget\" Manschitz\nDansky\nLogan \"Cipherlock\" Eaton\nLucky\nMitchell \"AltraNade\" Leyte\nNeal \"Blade x64\" Smart\nSzabó \"Maxxy\" Attila\nTorkil \"TheLazerSofa\" Malvik Bidtnes\nMaxime \"Fubar\" Dupuis"
 "TF_Contributed"				"Takk for at du støtter dette kartet, %playername%!"
 "TF_DuelLeaderboard_Title"		"Flest duellseire"
 
@@ -3706,7 +3703,6 @@
 "TF_MapToken_Watergate_AdText"	"– Kjøp av denne gjenstanden støtter direkte utviklerne av samfunnskartet Watergate."
 "TF_Map_Byre"					"Byre"
 "TF_MapToken_Byre"				"Kartfrimerke – Byre"
-"TF_MapToken_Byre_Desc"			"Et arenakart\n\nUtviklet av Ian \"Idolon\" Spadin, Gavin \"Equinoxo\" Sawford, Guy \"Gerbil\" Ross, HellJumper, Kevin \"Ravidge\" Brook, Matt \"Boylee\" Boyle, Sebastian \"Seba\" Grus, Umbratile og The Ronin\n\nKjøp av denne gjenstanden støtter utviklerne av samfunnskartet Byre direkte. Vis støtte i dag!"
 "TF_MapToken_Byre_AdText"		"– Kjøp av denne gjenstanden støtter direkte utviklerne av samfunnskartet Byre."
 "TF_Map_GorgeEvent"				"Gorge Event"
 "TF_MapToken_GorgeEvent"		"Kartfrimerke – Gorge Event"
@@ -4172,7 +4168,12 @@
 "TF_MapToken_Maul"					"Kartfrimerke – Maul"
 "TF_MapToken_Maul_Desc"				"Et kart for Versus Saxton Hale (samfunn)\n\nUtviklet av Matthew Scott \"MegapiemanPHD\" Simmons, Brandon \"Bonk Nickeltoon\" Koller, Szabó \"Maxxy\" Attila, Patrick \"Zeus\" Hennessy, Lizard Of Oz, Stuffy360, James Jameson, Phe, Mattie Konig, Alex \"FGD5\" Stewart, Maksim \"Velly\" Streltsov, Jason \"Yaki\" Herman, Jesse \"Custard1\" Budd, Joaquim \"JPRAS\" Silva, Samuel \"ChargingTurnip\" Turner, Alex \"Lacry\" Couto, James M., Torkil \"TheLazerSofa\" Malvik Bidtnes og Sky\n\nKjøp av denne gjenstanden støtter utviklerne av samfunnskartet Maul direkte. Vis støtte i dag!"
 "TF_MapToken_Maul_AdText"			"– Kjøp av denne gjenstanden støtter utviklerne av samfunnskartet Maul direkte."
-
+"TF_Map_Citadel"					"Citadel"
+"TF_MapToken_Citadel"				"Kartfrimerke – Citadel"
+"TF_MapToken_Citadel_AdText"		"– Kjøp av denne gjenstanden støtter utviklerne av samfunnskartet Citadel direkte."
+"TF_MapToken_Aquarius"				"Kartfrimerke – Aquarius"
+"TF_Map_Fulgur"						"Fulgur"
+"TF_MapToken_Fulgur"				"Kartfrimerke – Fulgur"
 "TF_Map_Unknown"				"Fant ikke kartet!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -4319,7 +4320,6 @@
 "TF_Map_Patagonia_StrangePrefix"		" argentinsk"
 "TF_Map_Cutter_StrangePrefix"			" skarpbygd"
 "TF_Map_Maul_StrangePrefix"				" overpriset"
-
 "TF_MapDonationLevel_Bronze"	"Bronse:"
 "TF_MapDonationLevel_Silver"	"Sølv:"
 "TF_MapDonationLevel_Gold"	"Gull:"
@@ -5036,7 +5036,12 @@
 "ctf_penguin_peak_team_goal"			"Stjel kofferten fra fiendens base."
 "ctf_penguin_peak_blu"					"Lever australiumet til REDs base for å vinne!"
 "ctf_penguin_peak_red"					"Lever australiumet til BLUs base for å vinne!"
-
+"pl_citadel_a"							"A"
+"pl_citadel_b"							"B"
+"pl_citadel_c"							"C"
+"pl_citadel_d"							"D"
+"koth_boardwalk_house"					"slakteriet"
+"koth_boardwalk_pier"					"bryggen"
 // Win panel strings
 "Winpanel_Team1"			"LAG"
 "Winpanel_Team2"			"Lag"
@@ -5716,8 +5721,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Tip_8_37"				"Som Spy kan du aktivere Dobbeltgjengeren med fallskade. Lag en falsk død!"
 "Tip_8_38"				"Som Spy vil blødninger, Jarate, Mad Milk, og røpe hvor du befinner deg hvis du er usynlig."
 "Tip_8_39"				"Som Spy gjør en Diamantrygg mindre skade, men får kritiske treff for hver bygning som er ødelagt med en Elektrosapper. Ødelegg en Engineers bygning før du konfronterer ham, og du vil ha en merkbar fordel!"
-"Tip_8_40"				"Som Spy gjør enhver brannskade at Sniktappen smelter, som gjør at du må vente en stund før du kan bruke den på nytt."
-
 "Tip_9_1"				"Som Engineer kan du bruke byggeverktøyet til å plassere sensorvåpen, ladestasjoner og teleportere."
 "Tip_9_2"				"Som Engineer trenger du metall for å bygge, reparere og oppgradere bygningene. Plukk opp ammunisjonsbokser for å fylle forsyningene."
 "Tip_9_3"				"Som Engineer kan du slå sensorvåpenet med Skiftenøkkelen for å oppgradere det med metall. Hvert nivå gir mer helse og skytekraft."
@@ -8090,7 +8093,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_StrangeFilter_CommunityMapCutter_Desc"			"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, begrenses statistikken slik at det kun telles hendelser på Cutter."
 "TF_StrangeFilter_CommunityMapMaul"				"Merkelig filter: Maul (samfunn)"
 "TF_StrangeFilter_CommunityMapMaul_Desc"			"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, begrenses statistikken slik at det kun telles hendelser på Maul."
-
 "TF_StrangeFilter_Map2fort"				"Merkelig filter: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, vil det begrense statistikken slik at det kun telles hendelser på 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Merkelig filter: Dustbowl"
@@ -8555,7 +8557,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Summer2024Cosmetics_collection_desc"		"Gjenstander fra sommertilbehørskolleksjonen 2024:"
 "Winter2024Cosmetics_collection"				"Vintertilbehørskolleksjonen 2024"
 "Winter2024Cosmetics_collection_desc"		"Gjenstander fra vintertilbehørskolleksjonen 2024:"
-
 "Footer_Winter2017Cosmetics"					"Innholdet kan være merkelig eller uvanlig"
 "TF_Winter2017CosmeticCase"					"Vintertilbehørskasse 2017"
 "TF_Winter2017CosmeticCase_desc"				"Denne kassen er låst og må åpnes med\nen Vintertilbehørsnøkkel 2017.\n\nInneholder en samfunnsskapt gjenstand\nfra Vintertilbehørskolleksjonen 2017."
@@ -9890,7 +9891,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Attrib_Particle370"			"Skinnende bokeh"
 "Attrib_Particle371"			"Leken aurora"
 "Attrib_Particle372"			"Sprelsk morgen"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Varm"
 "Attrib_Particle702"			"Isotop"
@@ -13236,6 +13236,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_jul13_greased_lightning_Style0"			"Ingen hodetelefoner"
 "TF_jul13_greased_lightning_Style1"			"Hodetelefoner"
 "TF_jul13_heavy_weight_belt"			"Tungvektsmester" // ADD THE
+"TF_jul13_positive_pressure_veil"			"Das Hazmattenhatten"
+"TF_jul13_secret_state_surgeon"			"Das Übersternmann"
 "TF_jul13_trojan_helmet"			"Tartan-spartaner" // ADD THE
 "TF_jul13_bagdolier"			"Borsjtsj-belte" // ADD THE
 "TF_fall2013_the_special_eyes_style1"	"Mistenksom"
@@ -13267,7 +13269,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_dec2014_marauders_mask"		"Sjarlatanens snute"
 "TF_dec2014_truands_tunic"		"Hoffmannens halsklede"
 "TF_dec2014_fools_footwear"		"Harlekinens hover"
-"TF_dec2014_engineer_seal"		"Selen Clubsy"
 "TF_dec2014_comforter"		"Scot Bonnet"
 "TF_invasion_taunt_burstchester_desc"	"Samfunnsskapt hån for alle klasser."
 "TF_invasion_universal_translator"		"Universell oversetter"
@@ -13391,7 +13392,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_taunt_texas_twirl_em"					"Hån: Texas svingom"
 "TF_taunt_texas_twirl_em_Desc"				"Samfunnsskapt hån for Engineer."
 "TF_taunt_texas_twirl_em_AdText"			"– Samfunnsskapt hån for Engineer"
-"TF_taunt_the_scaredycat"					"Hån: Reddharen"
 "TF_taunt_the_scaredycat_Desc"				"Samfunnsskapt hån for alle klasser."
 "TF_taunt_the_scaredycat_AdText"			"– Samfunnsskapt hån for alle klasser"
 "TF_taunt_the_travel_agent"					"Hån: Reiseagenten"
@@ -13484,6 +13484,13 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_taunt_forehead_slice"					"Hån: Innersvingen"
 "TF_taunt_forehead_slice_Desc"				"Samfunnsskapt hån for Demoman."
 "TF_taunt_forehead_slice_AdText"			"– Samfunnsskapt hån for Demoman"
+"TF_taunt_the_final_score_Desc"				"Samfunnsskapt hån for alle klasser."
+"TF_taunt_the_final_score_AdText"			"– Samfunnsskapt hån for alle klasser"
+"TF_taunt_bear_hug_AdText"					"– Samfunnsskapt hån for Heavy"
+"TF_taunt_texan_trickshot"					"Hån: Texansk trikseskudd"
+"TF_taunt_texan_trickshot_Desc"				"Samfunnsskapt hån for Engineer.\n\nAngrip fiender som står rett foran deg!"
+"TF_taunt_texan_trickshot_AdText"			"– Samfunnsskapt hån for Engineer"
+"TF_taunt_flying_colors_AdText"				"– Samfunnsskapt hån for alle klasser"
 "TF_BacteriaBlocker_Style0"				"Med hodetelefoner"
 "TF_BacteriaBlocker_Style1"				"Uten hodetelefoner"
 "TF_FortifiedCompound"				"Trimmet trinsebue" // ADD THE
@@ -13535,7 +13542,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_spr18_veterans_attire"	"Krigsveteranens kledning"
 "TF_hwn2018_shell_of_a_mann"	"Skallmodell"
 "TF_hwn2018_dell_in_the_shell"	"Ingeniørskalle"
-"TF_hwn2018_terror_antula"	"Terror-tell"
 "TF_hwn2018_deadbeats"	"Dauhørt"
 "TF_hwn2018_deadbeats_Style0"	"Hatt"
 "TF_hwn2018_deadbeats_Style1"	"Ingen hatt"
@@ -14424,6 +14430,14 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_dec24_westcoat_style2"					"Den onde"
 "TF_dec24_westcoat_style3"					"Den grusomme"
 "TF_dec24_snug_sharpshooter"			"Lunskytter"
+
+"TF_sum25_hunk"							"Munkemanke"
+"TF_sum25_jarhead_style2"					"Uten briller"
+"TF_sum25_le_sapeur_style1"					"Stil 1"
+"TF_sum25_le_sapeur_style2"					"Stil 2"
+"TF_sum25_le_sapeur_style3"					"Stil 3"
+"TF_sum25_spy_ties_style4"					"Skarp"
+"TF_sum25_spy_ties_style5"					"Lagspiller"
 "TF_MercenaryPark"             "Mercenary Park" // ADD THE
 "TF_Powerup_Strength"				"Forsterkning: Styrke"
 "TF_Powerup_Dominant"				"Du har gått amok og dominerer det andre laget!\nKonkurransevilkårene er blitt jevnet ut i deres favør"

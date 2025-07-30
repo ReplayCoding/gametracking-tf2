@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 72
+Revision: 75
 {
 "world_maxs" "1544 4448 1808"
 "world_mins" "-1544 -4448 -1536"
@@ -11,7 +11,7 @@ Revision: 72
 "detailmaterial" "detailsprites"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "2615"
+"mapversion" "2700"
 "hammerid" "1"
 }
 {
@@ -5741,17 +5741,6 @@ Revision: 72
 "hammerid" "236630"
 }
 {
-"origin" "1536 -4608 512"
-"TeamNum" "2"
-"StartDisabled" "0"
-"match_summary" "0"
-"fov" "70"
-"defaultwelcome" "0"
-"angles" "15 135 0"
-"classname" "info_observer_point"
-"hammerid" "237061"
-}
-{
 "portalnumber" "10"
 "StartOpen" "1"
 "PortalVersion" "1"
@@ -7960,8 +7949,10 @@ Revision: 72
 "OnTrigger" "derrick_oilspurt_soundPlaySound1.1-1"
 "OnTrigger" "derrick_oilspurt_soundStopSound13.5-1"
 "OnTrigger" "trigger_cond_gas_finaleEnable1.15-1"
-"OnTrigger" "trigger_kill_finaleEnable0-1"
-"OnTrigger" "trigger_kill_finaleDisable0.1-1"
+"OnTrigger" "trigger_kill_finaleEnable1-1"
+"OnTrigger" "trigger_kill_finaleDisable1.1-1"
+"OnTrigger" "alarm_gasPlaySound0-1"
+"OnTrigger" "alarm_gasStopSound1-1"
 }
 {
 "origin" "0 0 256"
@@ -8044,7 +8035,7 @@ Revision: 72
 "hammerid" "650965"
 }
 {
-"origin" "-1532.2 -2559.92 288.788"
+"origin" "-1532.2 -2551.92 288.788"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -8250,17 +8241,6 @@ Revision: 72
 "hammerid" "676700"
 }
 {
-"origin" "-1536 4608 512"
-"TeamNum" "3"
-"StartDisabled" "0"
-"match_summary" "0"
-"fov" "70"
-"defaultwelcome" "0"
-"angles" "15 315 0"
-"classname" "info_observer_point"
-"hammerid" "685061"
-}
-{
 "model" "*49"
 "targetname" "trigger_cond_gas_finale"
 "StartDisabled" "1"
@@ -8360,7 +8340,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "787927"
+"hammerid" "822437"
 }
 {
 "origin" "9216 0 -64"
@@ -8376,7 +8356,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "787861"
+"hammerid" "822371"
 }
 {
 "origin" "9216 512 -64"
@@ -8392,7 +8372,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "787795"
+"hammerid" "822305"
 }
 {
 "origin" "11264 -512 -64"
@@ -8408,7 +8388,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "788974"
+"hammerid" "823484"
 }
 {
 "origin" "11264 -9.31323e-10 -64"
@@ -8424,7 +8404,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789040"
+"hammerid" "823550"
 }
 {
 "origin" "11264 512 -64"
@@ -8440,7 +8420,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789106"
+"hammerid" "823616"
 }
 {
 "origin" "13312 -1280 -64"
@@ -8456,7 +8436,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789399"
+"hammerid" "823909"
 }
 {
 "origin" "13312 -768 -64"
@@ -8472,7 +8452,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789465"
+"hammerid" "823975"
 }
 {
 "origin" "13312 -256 -64"
@@ -8488,7 +8468,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789531"
+"hammerid" "824041"
 }
 {
 "origin" "7168 -1280 -64"
@@ -8504,7 +8484,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789824"
+"hammerid" "824334"
 }
 {
 "origin" "7168 -768 -64"
@@ -8520,7 +8500,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789890"
+"hammerid" "824400"
 }
 {
 "origin" "7168 -256 -64"
@@ -8536,7 +8516,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "789956"
+"hammerid" "824466"
 }
 {
 "origin" "13312 256 -64"
@@ -8552,7 +8532,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790518"
+"hammerid" "825028"
 }
 {
 "origin" "13312 768 -64"
@@ -8568,7 +8548,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790584"
+"hammerid" "825094"
 }
 {
 "origin" "13312 1280 -64"
@@ -8584,7 +8564,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790650"
+"hammerid" "825160"
 }
 {
 "origin" "7168 256 -64"
@@ -8600,7 +8580,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790718"
+"hammerid" "825228"
 }
 {
 "origin" "7168 768 -64"
@@ -8616,7 +8596,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790784"
+"hammerid" "825294"
 }
 {
 "origin" "7168 1280 -64"
@@ -8632,7 +8612,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "790850"
+"hammerid" "825360"
 }
 {
 "origin" "9727.95 -2048.07 -64"
@@ -8648,7 +8628,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792047"
+"hammerid" "826557"
 }
 {
 "origin" "10239.9 -2048.07 -64"
@@ -8664,7 +8644,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792113"
+"hammerid" "826623"
 }
 {
 "origin" "10751.9 -2048.07 -64"
@@ -8680,7 +8660,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792179"
+"hammerid" "826689"
 }
 {
 "origin" "9728 2048 -64"
@@ -8696,7 +8676,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792250"
+"hammerid" "826760"
 }
 {
 "origin" "10240 2048 -64"
@@ -8712,7 +8692,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792316"
+"hammerid" "826826"
 }
 {
 "origin" "10752 2048 -64"
@@ -8728,7 +8708,7 @@ Revision: 72
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "792382"
+"hammerid" "826892"
 }
 {
 "origin" "10240 0 0"
@@ -8745,7 +8725,7 @@ Revision: 72
 "fogblend" "1"
 "angles" "0 135 0"
 "classname" "sky_camera"
-"hammerid" "785729"
+"hammerid" "820239"
 }
 {
 "origin" "10240 7168 32"
@@ -8759,6 +8739,6 @@ Revision: 72
 "_light" "255 255 255 200"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "786421"
+"hammerid" "820931"
 }
  

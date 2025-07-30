@@ -6,6 +6,9 @@ ClassVoicelines <-
     [Constants.ETFClass.TF_CLASS_SNIPER] = "Barker.Taunt_Sniper",
     [Constants.ETFClass.TF_CLASS_SPY] = "Barker.Taunt_Spy",
     [Constants.ETFClass.TF_CLASS_PYRO] = "Barker.Taunt_Pyro",
+    [Constants.ETFClass.TF_CLASS_DEMOMAN] = "Barker.Taunt_Demo",
+    [Constants.ETFClass.TF_CLASS_SOLDIER] = "Barker.Taunt_Soldier",
+    [Constants.ETFClass.TF_CLASS_MEDIC] = "Barker.Taunt_Medic",
     // add more entries here
 }
 
@@ -56,4 +59,7 @@ function Precache()
     PrecacheScriptSound("Barker.Taunt_Pyro")
     PrecacheScriptSound("Barker.Taunt_Sniper")
     PrecacheScriptSound("Barker.Taunt_Spy")
+    PrecacheScriptSound("Barker.Taunt_Soldier")
+    PrecacheScriptSound("Barker.Taunt_Demo")
+    PrecacheScriptSound("Barker.Taunt_Medic")
 }

@@ -304,7 +304,6 @@
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
-"ClassTips_9_1"				"Μαζέψτε μέταλλο από πεσμένα όπλα για να χτίσετε!"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"Χτίστε sentry για να υπερασπιστείτε τη βάση σας! Αναβαθμίστε τα σε επίπεδο 3!"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -1409,6 +1408,8 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"ozfortress Experimental Cup 3 Division 4 – Δεύτερη θέση"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"ozfortress Experimental Cup 3 Division 4 – Τρίτη θέση"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ozfortress Experimental Cup 3 Division 4 – Συμμετέχων"
+"TF_TournamentMedal_OzFortress_MayMadness_Finalist"					"ozfortress May Madness – Φιναλίστ"
+"TF_TournamentMedal_OzFortress_MayMadness_Participant"				"ozfortress May Madness – Συμμετέχων"
 
 "TF_TournamentMedal_LBTF2_6v6_Elite_1st"			"LBTF2 6v6 Elite - 1η Θέση"
 "TF_TournamentMedal_LBTF2_6v6_Elite_2nd"			"LBTF2 6v6 Elite - 2η Θέση"
@@ -1615,6 +1616,8 @@
 "TF_TournamentMedal_2023"	"2023"
 "TF_TournamentMedal_2024"	"2024"
 "TF_TournamentMedal_2025"	"2025"
+"TF_TournamentMedal_2026"	"2026"
+"TF_TournamentMedal_2027"	"2027"
 
 "TF_TournamentMedal_Summer2017"	"Καλοκαίρι 2017"
 "TF_TournamentMedal_Winter2017"	"Χειμώνας 2017"
@@ -1712,22 +1715,36 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Fall2024"	"Απονέμεται στους παίκτες που κατέλαβαν την τρίτη θέση στο AsiaFortress Liquid.tf Fall 2024 Open"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf Open – Συμμετέχων"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Spring 2024 Open"
+"TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2025"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Spring 2025 Open"
+"TF_TournamentMedal_AF_Liquidtf_Main_1st"				"AsiaFortress Liquid.tf Main – 1η θέση"
+"TF_TournamentMedal_AF_Liquidtf_Main_1st_Spring2025"	"Απονέμεται στους πρωταθλητές του AsiaFortress Liquid.tf Spring 2025 Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_2nd"				"AsiaFortress Liquid.tf Main – 2η θέση"
+"TF_TournamentMedal_AF_Liquidtf_Main_2nd_Spring2025"	"Απονέμεται στους παίκτες που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Spring 2025 Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_3rd"				"AsiaFortress Liquid.tf Main – 3η θέση"
+"TF_TournamentMedal_AF_Liquidtf_Main_3rd_Spring2025"	"Απονέμεται στους παίκτες που κατέλαβαν την τρίτη θέση στο AsiaFortress Liquid.tf Spring 2025 Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_Participant"				"AsiaFortress Liquid.tf Main – Συμμετέχων"
+"TF_TournamentMedal_AF_Liquidtf_Main_Participant_Spring2025"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Spring 2025 Main"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Fall2024"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Fall 2024 Open"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"AsiaFortress Liquid.tf Invite – 1η θέση"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Απονέμεται στους παίκτες της Xiao, τους πρωταθλητές του AsiaFortress Liquid.tf Spring 2024 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Fall2024"	"Απονέμεται στους παίκτες της Kankuay, τους πρωταθλητές του AsiaFortress Liquid.tf Fall 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2025"	"Απονέμεται στους παίκτες της Heretics, τους πρωταθλητές του AsiaFortress Liquid.tf Spring 2025 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd"				"AsiaFortress Liquid.tf Invite – 2η θέση"
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2024"	"Απονέμεται στους παίκτες της Ex Nihilo, που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Spring 2024 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Fall2024"	"Απονέμεται στους παίκτες της Togenashi Togeari, που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Fall 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_2nd_Spring2025"	"Απονέμεται στους παίκτες της Ex Nihilo, που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Spring 2025 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd"				"AsiaFortress Liquid.tf Invite – 3η θέση"
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2024"	"Απονέμεται στους παίκτες της United Beasts, που κατέλαβαν την τρίτη θέση στο AsiaFortress Liquid.tf Spring 2024 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Fall2024"	"Απονέμεται στους παίκτες της HONGPRUMP, που κατέλαβαν την τρίτη στο AsiaFortress Liquid.tf Fall 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_3rd_Spring2025"	"Απονέμεται στους παίκτες της MRST, που κατέλαβαν την τρίτη θέση στο AsiaFortress Liquid.tf Spring 2025 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant"				"AsiaFortress Liquid.tf Invite – Συμμετέχων"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2024"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Spring 2024 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Fall2024"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Fall 2024 Invite"
+"TF_TournamentMedal_AF_Liquidtf_Invite_Participant_Spring2025"	"Απονέμεται στους παίκτες που συμμετείχαν στο AsiaFortress Liquid.tf Spring 2025 Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st"				"AsiaFortress Liquid.tf Highlander Open – 1η θέση"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st_Summer2024"		"Απονέμεται στους πρωταθλητές του AsiaFortress Liquid.tf Summer 2024 Highlander Open"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st_Winter2024"		"Απονέμεται στους πρωταθλητές του AsiaFortress Liquid.tf Winter 2024 Highlander Open"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Open_1st_Summer2025"		"Απονέμεται στους πρωταθλητές του AsiaFortress Liquid.tf Summer 2025 Highlander Open"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_2nd"				"AsiaFortress Liquid.tf Highlander Open – 2η θέση"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_2nd_Summer2024"		"Απονέμεται στους παίκτες που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Summer 2024 Highlander Open"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_2nd_Winter2024"		"Απονέμεται στους παίκτες που κατέλαβαν τη δεύτερη θέση στο AsiaFortress Liquid.tf Winter 2024 Highlander Open"
@@ -1754,7 +1771,6 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"AsiaFortress Liquid.tf Newbie Cup – Συμμετέχων"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf Newbie Cup – Προπονητής"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
-																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 - Νικητής"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 - Συμμετέχων"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 - Νικητής"
@@ -2114,10 +2130,6 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2nd"			"CappingTV Summer Brawl – 2η θέση"
 "TF_TournamentMedal_CappingTV_SummerBrawl_3rd"			"CappingTV Summer Brawl – 3η θέση"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"CappingTV Summer Brawl – Συμμετέχων"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"TF2 Summer Brawl – 1η θέση"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"TF2 Summer Brawl – 2η θέση"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"TF2 Summer Brawl – 3η θέση"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"TF2 Summer Brawl – Συμμετέχων"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"CappingTV PASS Time Championship – 1η θέση"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"CappingTV PASS Time Championship – 2η θέση"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"CappingTV PASS Time Championship – 3η θέση"
@@ -2128,7 +2140,6 @@
 "TF_TournamentMedal_CappingTV_Participant"		"CappingTV Ultiduo – Συμμετέχων"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Μπρισμπέιν, Αυστραλία, 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"Μπρισμπέιν, Αυστραλία, 2024"
-
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Snack's Summery Ultiduo Siesta - Χρυσό Μετάλλιο"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Snack's Summery Ultiduo Siesta - Ασημένιο Μετάλλιο"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Bronze"		"Snack's Summery Ultiduo Siesta - Χάλκινο Μετάλλιο"
@@ -2692,7 +2703,6 @@
 "TF_TournamentMedal_LAN_Downunder_Participant"			"LAN Downunder - Συμμετέχων"
 "TF_TournamentMedal_LAN_Downunder_Champion"				"LAN Downunder – Πρωταθλητής"
 "TF_TournamentMedal_LAN_Downunder_2024"					"Μελβούρνη, Αυστραλία, 2024"
-
 "TF_TournamentMedal_RussianHighlander_1st"				"Russian Highlander - 1η Θέση"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Russian Highlander - 2η Θέση"
 "TF_TournamentMedal_RussianHighlander_3rd"				"Russian Highlander - 3η Θέση"
@@ -2773,12 +2783,10 @@
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024"							"Ghoulish Gambit Uncorrupted Crystal 2024"
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024_Desc"						"Ανέγγιχτο και άθικτο, κρατήθηκε μακριά από ζόμπι και ρομπότ. Εσείς κρατήστε το κοντά σας, καθώς τέτοια πράγματα είναι δυσεύρετα. Απονέμεται στους δωρητές του συμβάντος «Potato MvM's Ghoulish Gambit»!"
 "TF_TournamentMedal_Ghoulish_Mostly_2024"								"Ghoulish Gambit Mostly-Corrupted Crystal 2024"
-"TF_TournamentMedal_Ghoulish_Mostly_2024_Desc"							"Καλό και κακό, φως και σκοτάδι, Γιν και Γιανγκ… Βασικά, η μία από τις ψυχές που έχουν παγιδευτεί εκεί μέσα ονομαζόταν Γιανγκ, το όνομα του άλλου πρέπει να ήταν Γκρεγκ. Απονέμεται στους δωρητές του συμβάντος «Potato MvM's Ghoulish Gambit»!"
 "TF_TournamentMedal_Ghoulish_Haunted_2024"								"Ghoulish Gambit Haunted Tank 2024"
 "TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"Αυτό το πράγμα θα ήταν πολύ πιο τρομακτικό αν δεν ξεμέναμε από μοβ μπογιά. Απονέμεται στους δωρητές του συμβάντος «Potato MvM's Ghoulish Gambit»!"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"Ghoulish Gambit Poisonous Potato 2024"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"Ένα μπιχλιμπίδι τόσο κακό, που μόνο το να είστε κοντά του μπορεί να καταστρέψει τη λογική σας. Οπωσδήποτε μην το φάτε, καθώς θα καταστρέψει και το αντεράκι σας. Απονέμεται στους δωρητές του συμβάντος «Potato MvM's Ghoulish Gambit»!"
-
 "TF_TournamentMedal_FruitMixes_Gold"				"Fruit Mixes Highlander - Χρυσό μετάλλιο"
 "TF_TournamentMedal_FruitMixes_Silver"				"Fruit Mixes Highlander - Ασημένιο μετάλλιο"
 "TF_TournamentMedal_FruitMixes_Bronze"				"Fruit Mixes Highlander - Χάλκινο μετάλλιο"
@@ -3010,7 +3018,6 @@
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup2_Desc"		"TFArena 6v6 Arena Mode Cup 2 - Συντελεστής"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup3_Desc"		"TFArena 6v6 Arena Mode Cup 3 – Συντελεστής"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup4_Desc"		"TFArena 6v6 Arena Mode Cup 4 – Συντελεστής"
-
 "TF_TournamentMedal_CTC_1st"					"Cap that Cup - 1η Θέση"
 "TF_TournamentMedal_CTC_1st_Desc"				"Αυτό το δωδεκάχρονο επάγγελμα κλοπής βαλιτσών που περιέχουν απόρρητες πληροφορίες, συνταγές και φωτογραφίες τις μαμάς σας το άσκησαν πολλοί, αλλά αποδείξατε πως είστε ο καλύτερος σε αυτό."
 "TF_TournamentMedal_CTC_2nd"					"Cap that Cup - 2η Θέση"
@@ -3401,7 +3408,6 @@
 "TF_Wearable_Shroud"				"Σάβανο"
 "TF_Wearable_Butler"				"Μπάτλερ"
 "TF_Wearable_Wound"					"Τραύμα"
-
 "TF_RobotPart_Type"	"Μέρος του ρομπότ"
 "TF_CircuitBoard_Type"	"Ηλεκτρονική πλακέτα"
 
@@ -4250,7 +4256,6 @@
 "TF_Hwn_DemoMisc1"		"Scottish Snarl" // ADD THE
 "TF_Hwn_DemoMisc2"		"Pickled Paws" // ADD THE
 "TF_Hwn_ScoutHat"		"Wrap Battler" // ADD THE
-"TF_Hwn_ScoutMisc1"		"B-ankh!"
 "TF_Hwn_ScoutMisc2"		"Futankhamun" // ADD THE
 "TF_Hwn_PyroHat"		"Blazing Bull" // ADD THE
 "TF_Hwn_PyroMisc1"		"Fallen Angel" // ADD THE
@@ -4290,7 +4295,6 @@
 "TF_ScotchBonnet_Desc"		"Μην αφήσεις αυτούς τους χαζούς να σου πάρουν το καλό σου μάτι!"
 "TF_CameraHelm"			"Frontline Field Recorder"
 "TF_CameraHelm_Desc"		"Είμαι ο συγγραφέας, ο σκηνοθέτης, και ο πρωταγωνιστής."
-"TF_LargeLuchadore"		"Large Luchadore"
 "TF_LargeLuchadore_Desc"	"Η πυγμαχία είναι αληθινή και τώρα μπορείτε να το αποδείξετε."
 "TF_EngineerTopHat"		"Western Wear"
 "TF_EngineerTopHat_Desc"	"Η παλιά δύση δεν έχει δει ποτέ τέτοιο είδος κλάσης."
@@ -4598,7 +4602,6 @@
 "TF_SpyGlasses_Desc"					"Τόσο μυστήρια. Τόσο θανάσιμα. Τόσο μυωπικά."
 "TF_ScoutGlasses"						"Stereoscopic Shades" // ADD THE
 "TF_ScoutGlasses_Desc"					"Εάν κλείσετε ένα μάτι, μία από τις ομάδες θα εξαφανιστεί. Οπότε μην το κάνετε."
-"TF_SoldierHat2"						"Hat With No Name" // ADD THE
 "TF_SoldierHat2_Desc"					"Ένα ανώνυμο καπέλο για έναν ανώνυμο άντρα."
 "TF_PyroConscience"						"Cremator's Conscience" // ADD THE
 "TF_PyroConscience_Desc"				"\"Κάψτον τον με φωτιά!\" \"Όχι, κάψτον με φωτιά, και χτύπα τον με ένα τσεκούρι!\""
@@ -4653,7 +4656,6 @@
 "TF_Winter2011_GiftHat_Desc"	"Καλά Smissmas, σε όλους! Ας είναι όλες οι γιορτές σας χαρούμενες (ή νηφάλιες, ανάλογα με τις πολιτιστικές παραδόσεις σας) με αυτό το απίστευτα σπάνιο αντικείμενο του TF, που δόθηκε με αληθινό πνεύμα Smissmass από τον χρήστη του Steam BANG!"
 "TF_Winter2011_SantaHat"			"B.M.O.C." // ADD THE
 "TF_Winter2011_SantaHat_Desc"	"Γίνετε ο μεγάλος άντρας των Χριστουγέννων με αυτό το γούνινο καπέλο με τη φούντα!"
-"TF_SpyCicle"					"Spy-cicle" // ADD THE
 "TF_SpyCicle_Desc"				"Είναι το τέλειο δώρο για τον άντρα που τα έχει όλα: ένας σταλακτίτης καρφωμένος στην πλάτη του. Ακόμα και οι πλούσιοι δεν μπορούν να το αγοράσουν αυτό στα μαγαζιά."
 "TF_BallBuster"				"Wrap Assassin" // ADD THE
 "TF_BallBuster_Desc"				"Αυτά τα γλυκύτατα γιορτινά στολίδια είναι τόσο όμορφα φτιαγμένα, που οι αντίπαλοί σας θα θέλουν να τα δουν από κοντά. Ικανοποιήστε τους χτυπώντας αυτούς τους εύθραυστους γυάλινους βολβούς στα μάτια τους με 140 χιλιόμετρα την ώρα."
@@ -4719,7 +4721,6 @@
 "TF_PEP_ScoutBag_Desc"				"Αυτή η τσάντα περιλαμβάνει δερμάτινα λουριά ώστε να μην πέσουν κάτω όλα τα λεφτά σας. Επίσης τα δερμάτινα λουριά δεν σφίγγουν πολύ, άρα μερικά λεφτά θα πέσουν κάτω και οι κυρίες θα ξέρουν πόσο πλούσιος είστε. (Απάντηση: πολύ. Επίσης όμορφος.)"
 
 "TF_DS_DumpsterDevice"				"Beggar's Bazooka"
-"TF_DS_FootballHelmet"				"Helmet Without a Home" // ADD THE
 "TF_DS_FootballHelmet_Desc"			"Σκεφτείτε αυτό το κράνος ως ένα οχυρωμένο, φορητό σπίτι για το κεφάλι σας. Επίσης εχει επένδυση από αλουμινόχαρτο, άρα κανένας δεν θα μπορεί να κλέψει τις πολύτιμες σκέψεις σας."
 "TF_DS_CanGrenades"					"Captain's Cocktails" // ADD THE
 "TF_DS_CanGrenades_Desc"			"Προσοχή, αλήτες! Είσαστε αρκετά άντρες για να κουβαλήσετε δοχεία με ληγμένη σούπα; Είσαστε αρκετά τρελοί για να προσποιηθείτε πως είναι χειροβομβίδες; Είσαστε αρκετά πεινασμένοι για να φάτε τη σούπα αργότερα, όταν δε σας βλέπει κανένας; Ποντάρουμε στο ναι!"
@@ -4937,7 +4938,6 @@
 "TF_Item_VoodooCursedRobotArm_Desc"		"Αυτό το χέρι έχει μία μικρή ποσότητα κατάρας που απέμεινε μέσα του. Μπορείτε να κατασκευάσετε επτά καταραμένα αντικείμενα για να πάρετε μία μεγαλύτερη κατάρα. Θα μπορούσε να συμβεί οτιδήποτε!"
 "TF_Item_VoodooCursedBass"				"Voodoo-Cursed Novelty Bass"
 "TF_Item_VoodooCursedBass_Desc"			"Για οποιοδήποτε λόγο, αυτό το ψάρι έχει μία μικρή ποσότητα κατάρας που απέμεινε μέσα του. Μπορείτε να κατασκευάσετε επτά καταραμένα αντικείμενα για να πάρετε μία μεγαλύτερη κατάρα. Θα μπορούσε να συμβεί οτιδήποτε!"
-"TF_Item_VoodooCursedStickyBomb"		"Voodoo-Cursed Sticky-Bomb"
 "TF_Item_VoodooCursedStickyBomb_Desc"	"Αυτό το τμήμα έχει μία μικρή ποσότητα κατάρας που απέμεινε μέσα του. Μπορείτε να κατασκευάσετε επτά καταραμένα αντικείμενα για να πάρετε μία μεγαλύτερη κατάρα. Θα μπορούσε να συμβεί οτιδήποτε!"
 "TF_Item_VoodooCursedNail"				"Voodoo-Cursed Nail"
 "TF_Item_VoodooCursedNail_Desc"			"Αυτό το καρφί έχει μία μικρή ποσότητα κατάρας που απέμεινε μέσα του. Μπορείτε να κατασκευάσετε επτά καταραμένα αντικείμενα για να πάρετε μία μεγαλύτερη κατάρα. Θα μπορούσε να συμβεί οτιδήποτε!"
@@ -5078,7 +5078,6 @@
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin «Ravidge» Brook\nMaxime «Mimas Torres» Dupuis"
 "ctf_2fort_invasion_authors"	"Miguel 'BANG!' Melara\nThe Ronin\nMichael Egan\nAeon 'Void' Bollig\nMartin 'Chaofanatic' Ellis\nRyan 'Freeflow' Leitao\nHarlen 'UEAKCrash' Linke\nJames 'Retro' Wright\n"
 "pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
-"arena_byre_authors"			"Ian 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
 "cp_gorge_event_authors"		"Paul 'puxorb' Broxup"
 "cp_sunshine_event_authors"		"Rebecca 'phi' Ailes\nKimberly 'iiboharz' Riswick\nHarlen 'UEAKCrash' Linke"
@@ -5196,7 +5195,6 @@
 "pl_patagonia_authors"			"Elián «iron» Rodríguez\nMatthew «Panckakebro» Hiller\nJoão «Hoppkins» Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul «puxorb» Broxup\nBrie\nNickolas «KrazyZark» Fenech\nLiam «Diva Dan» Moffitt\nAeon «Void» Bollig\nErik «Colteh» Coltey\nExtra Ram\nMattie Konig\nTim «Sedisocks» Brown Lees\nPatrick «Zeus» Hennessy\nZoey Smith"
 "vsh_maul_authors"				"Matthew Scott «MegapiemanPHD» Simmons\nBrandon «Bonk Nickeltoon» Koller\nSzabó «Maxxy» Attila\nPatrick «Zeus» Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex «FGD5» Stewart\nMaksim «Velly» Streltsov\nJason «Yaki» Herman\nJesse «Custard1» Budd\nJoaquim «JPRAS» Silva\nSamuel «ChargingTurnip» Turner\nAlex «Lacry» Couto\nJames M.\nTorkil «TheLazerSofa» Malvik Bidtnes\nSky"
-
 "TF_YourStats"					"Τα στατιστικά σας"
 "TF_DuckPromoList"				"-Διακοσμητικό αντικείμενο όλων των κλάσεων με έντεκα στυλ\n-Παρακολουθεί τα στατιστικά σας κατά τη διάρκεια του γεγότος End of the Line\n-Προβάλετε πίνακες κατατάξεων και ανταγωνιστείτε με τους φίλους σας\n-Οι πωλήσεις υποστηρίζουν την ομάδα του End of the Line"
 "TF_GetDucky"					"Αγορά πάπιας"
@@ -5343,7 +5341,6 @@
 "TF_MapToken_Watergate_AdText"	"–Αγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Watergate."
 "TF_Map_Byre"					"Byre"
 "TF_MapToken_Byre"				"Γραμματόσημο χάρτη - Byre"
-"TF_MapToken_Byre_Desc"			"Ένας χάρτης Αρένα\n\nΔημιουργήθηκε από τον Ian 'Idolon' Spadin, Gavin 'Equinoxo' Sawford, Guy 'Gerbil' Ross, HellJumper, Kevin 'Ravidge' Brook, Matt 'Boylee' Boyle, Sebastian 'Seba' Grus, Umbratile και The Ronin\n\nΑγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς της Byre. Δείξτε την υποστήριξή σας σήμερα!"
 "TF_MapToken_Byre_AdText"		"–Αγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Byre."
 "TF_Map_GorgeEvent"				"Gorge Event"
 "TF_MapToken_GorgeEvent"		"Γραμματόσημο χάρτη - Gorge Event"
@@ -5809,7 +5806,6 @@
 "TF_MapToken_Maul"					"Γραμματόσημο χάρτη – Maul"
 "TF_MapToken_Maul_Desc"				"Ένας χάρτης Versus Saxton Hale (Κοινότητα)\n\nΔημιουργήθηκε από Matthew Scott «MegapiemanPHD» Simmons, Brandon «Bonk Nickeltoon» Koller, Szabó «Maxxy» Attila, Patrick «Zeus» Hennessy, Lizard Of Oz, Stuffy360, James Jameson, Phe, Mattie Konig, Alex «FGD5» Stewart, Maksim «Velly» Streltsov, Jason «Yaki» Herman, Jesse «Custard1» Budd, Joaquim «JPRAS» Silva, Samuel «ChargingTurnip» Turner, Alex «Lacry» Couto, James M., Torkil «TheLazerSofa» Malvik Bidtnes και Sky.\n\nΑγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Maul. Δείξτε την υποστήριξή σας σήμερα!"
 "TF_MapToken_Maul_AdText"			"–Αγοράζοντας αυτό το αντικείμενο υποστηρίζετε απευθείας τους δημιουργούς του χάρτη κοινότητας Maul."
-
 "TF_Map_Unknown"				"Ο χάρτης δε βρέθηκε!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6018,7 +6014,6 @@
 "TF_Map_Patagonia_StrangePrefix"		" Argentinian"
 "TF_Map_Cutter_StrangePrefix"			" Cutting Edge"
 "TF_Map_Maul_StrangePrefix"				" Overpriced"
-
 "TF_MapDonationLevel_Bronze"	"Μπρούτζινο:"
 "TF_MapDonationLevel_Silver"	"Ασημένιο:"
 "TF_MapDonationLevel_Gold"	"Χρυσό:"
@@ -6788,7 +6783,6 @@
 "ctf_penguin_peak_team_goal"			"Κλέψτε τη βαλίτσα από την εχθρική βάση."
 "ctf_penguin_peak_blu"					"Μεταφέρετε το Australium στη βάση των RED για να κερδίσετε!"
 "ctf_penguin_peak_red"					"Μεταφέρετε το Australium στη βάση των BLU για να κερδίσετε!"
-
 // Win panel strings
 "Winpanel_Team1"			"ΟΜΑΔΑ"
 "Winpanel_Team2"			"Ομάδα"
@@ -7500,8 +7494,6 @@
 "Tip_8_37"				"Ως Κατάσκοπος, μπορείτε να ενεργοποιήσετε το Dead Ringer με ζημιά από πτώση. Προσποιηθείτε έναν αδέξιο θάνατο!"
 "Tip_8_38"				"Ως Κατάσκοπος, η αιμορραγία, το Jarate, το Mad Milk και η έξοδος από νερό θα σας αποκαλύψουν καθώς είστε αόρατος."
 "Tip_8_39"				"Ως Κατάσκοπος, το Diamondback προκαλεί λιγότερη ζημιά, αλλά θα αποθηκεύσει ένα βέβαιο καίριο χτύπημα για κάθε κτήριο που καταστρέψατε με τα Sappers σας. Καταστρέψτε ένα κτήριο Μηχανικού πριν τον αντιμετωπίσετε και θα έχετε ένα σημαντικό πλεονέκτημα!"
-"Tip_8_40"				"Ως Κατάσκοπος, λαμβάνοντας οποιαδήποτε ζημιά από φωτιά όταν χρησιμοποιείτε το Spy-cicle θα λιώσει το όπλο, απαιτώντας να περιμένετε μέχρι να μπορείτε να το χρησιμοποιήσετε ξανά."
-
 "Tip_9_Count"				"29"
 "Tip_9_1"				"Ως Μηχανικός, χρησιμοποιήστε το εργαλείο κτηρίων για να τοποθετήσετε sentry, dispenser, και τηλεμεταφορείς."
 "Tip_9_2"				"Ως Μηχανικός, χρειάζεστε μέταλλο για να χτίσετε, επισκευάσετε και να αναβαθμίσετε τα κτήριά σας. Μαζέψτε πεσμένα πυρομαχικά για να πάρετε περισσότερο μέταλλο."
@@ -9986,7 +9978,6 @@
 "TF_StrangeFilter_CommunityMapCutter_Desc"			"Η προσθήκη αυτού του φίλτρου Strange σε ένα αντικείμενο ποιότητας Strange και η επιλογή ενός από τα στατιστικά του θα περιορίσει το στατιστικό ώστε να προσμετράει συμβάντα μόνο στον χάρτη Cutter."
 "TF_StrangeFilter_CommunityMapMaul"				"Strange φίλτρο: Maul (Κοινότητα)"
 "TF_StrangeFilter_CommunityMapMaul_Desc"			"Η προσθήκη αυτού του φίλτρου Strange σε ένα αντικείμενο ποιότητας Strange και η επιλογή ενός από τα στατιστικά του θα περιορίσει το στατιστικό ώστε να προσμετράει συμβάντα μόνο στον χάρτη Maul."
-
 "TF_StrangeFilter_Map2fort"				"Strange φίλτρο: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Η προσθήκη αυτού του φίλτρου Strange σε ένα αντικείμενο ποιότητας Strange και η επιλογή ενός από τα στατιστικά του θα περιορίσει το στατιστικό ώστε να προσμετράει συμβάντα μόνο στον χάρτη 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Strange φίλτρο: Dustbowl"
@@ -10861,7 +10852,6 @@
 "Summer2024Cosmetics_collection_desc"		"Αντικείμενα από τη Συλλογή Κοσμητικών – Καλοκαίρι 2024:"
 "Winter2024Cosmetics_collection"				"Συλλογή Κοσμητικών – Χειμώνας 2024"
 "Winter2024Cosmetics_collection_desc"		"Αντικείμενα από τη Συλλογή Κοσμητικών – Χειμώνας 2024:"
-
 "Footer_GunMettleCosmetics"					"Τα περιεχόμενα μπορεί να είναι strange ή unusual καπέλα Gun Mettle"
 "TF_GunMettleCosmeticCase"					"Gun Mettle Cosmetic Case"
 "TF_GunMettleCosmeticCase_desc"				"Αυτή η θήκη είναι κλειδωμένη και απαιτεί ένα\nκλειδί Gun Mettle για να ανοίξει.\n\nΠεριέχει ένα αντικείμενο κοινότητας\nαπό την συλλογή Gun Mettle."
@@ -12558,7 +12548,9 @@
 "Attrib_Particle370"			"Shining Bokeh"
 "Attrib_Particle371"			"Playful Aurora"
 "Attrib_Particle372"			"Frisky Morning"
-
+"Attrib_Particle377"			"Fully Charged"
+"Attrib_Particle378"			"Fully Charged"
+"Attrib_Particle379"			"Overcharged"
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
@@ -12789,7 +12781,9 @@
 "Attrib_Particle3191"		"Award Winning"
 "Attrib_Particle3192"		"Operatic Triumph"
 "Attrib_Particle3193"		"Tangled Lights"
-
+"Attrib_Particle3196"		"Iconic Outline"
+"Attrib_Particle3197"		"Iconic Outline"
+"Attrib_Particle3198"		"Subtle Silhouette"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Εφέ σκοτωμού: %s1"
@@ -12845,7 +12839,6 @@
 "TF_NonUnique_Append_Proper"	"(%s1)"				// DEPRECATED
 "TF_Unique_Achievement_Medigun1"	"Kritzkrieg"	// ADD THE
 "TF_Unique_Achievement_Syringegun1"	"Blutsauger"	// ADD THE
-"TF_Unique_Achievement_Bonesaw1"	"Ubersaw"	// ADD THE
 "TF_Unique_Achievement_FireAxe1"	"Axtinguisher"	// ADD THE
 "TF_Unique_Achievement_FlareGun"	"Flare Gun"	// ADD THE
 "TF_Unique_Achievement_Flaregun_desc"	"Το όπλο γεμίζει όταν δεν είναι ενεργό"
@@ -16195,7 +16188,6 @@
 "TF_HalloweenSpell_VoiceSoldier_Desc"			"Αυτά τα ξόρκια κάνουν τις φωνές 4% πιο ερωτικές και 130% πιο τρομακτικές, εκτός από του ανιχνευτή που την κάνουν 5% λιγότερο ερωτική.\nΑυτό το ξόρκι μπορεί να εφαρμοστεί σε ένα καπέλο Στρατιώτη."
 "TF_HalloweenSpell_VoiceDemo"					"Halloween Spell: Demoman's Cadaverous Croak"
 "TF_HalloweenSpell_VoiceDemo_Desc"				"Αυτά τα ξόρκια κάνουν τις φωνές 4% πιο ερωτικές και 130% πιο τρομακτικές, εκτός από του ανιχνευτή που την κάνουν 5% λιγότερο ερωτική.\nΑυτό το ξόρκι μπορεί να εφαρμοστεί σε ένα καπέλο Κατεδαφιστή."
-"TF_HalloweenSpell_VoiceMedic"					"Halloween Spell: Medic's Blood-curdling Bellow"
 "TF_HalloweenSpell_VoiceMedic_Desc"				"Αυτά τα ξόρκια κάνουν τις φωνές 4% πιο ερωτικές και 130% πιο τρομακτικές, εκτός από του ανιχνευτή που την κάνουν 5% λιγότερο ερωτική.\nΑυτό το ξόρκι μπορεί να εφαρμοστεί σε ένα καπέλο Γιατρού."
 "TF_HalloweenSpell_VoiceHeavy"					"Halloween Spell: Heavy's Bottomless Bass"
 "TF_HalloweenSpell_VoiceHeavy_Desc"				"Αυτά τα ξόρκια κάνουν τις φωνές 4% πιο ερωτικές και 130% πιο τρομακτικές, εκτός από του ανιχνευτή που την κάνουν 5% λιγότερο ερωτική.\nΑυτό το ξόρκι μπορεί να εφαρμοστεί σε ένα καπέλο Βαρύ."
@@ -16572,8 +16564,6 @@
 "TF_DailyGiftGiverRewardHat_Desc"	"Συγχαρητήρια! Δώσατε περισσότερα δώρα χθες από οποιονδήποτε άλλον παίκτη στο TF2! Φορέστε αυτό με περηφάνια πριν αλλάξει χέρια αύριο!"
 "TF_DailyDuelWinnerRewardHat"		"Dueler"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Συγχαρητήρια! Νικήσατε περισσότερες μονομαχίες χθες από οποιονδήποτε άλλον παίκτη στο TF2! Φορέστε αυτό με περηφάνια πριν αλλάξει χέρια αύριο!"
-
-"TF_Heavy_Robot_Ushanka_Hat"		"U-clank-a" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"Ψήστε αυτό το μεταλλικό ushanka στη φωτιά και βάλτε το στο κεφάλι σας για παρατεταμένη ζέστη μέσα στην ημέρα. Βεβαιωθείτε πως θα σκαρφιστείτε ένα εντυπωσιακό ψεύτικο ανέκδοτο για τα εγκαύματα τρίτου βαθμού!"
 "TF_Spy_Robot_Fedora"				"Stealth Steeler" // ADD THE
 "TF_Spy_Robot_Fedora_Desc"			"Τα πισώπλατα μαχαιρώματα χάσανε την γοητεία τους; Είναι η απόκρυψη τόσο απλή; Δοκιμάστε να φορέσετε αυτό το μεταλλικό καπέλο των 15 κιλών στο κεφάλι σας! Απολαύστε την πρόκληση να κρατήσετε το λαιμό σας στη θέση του καθώς σαμποτάρετε sentries! Αυτή είναι συντριπτική διασκέδαση!"
@@ -16691,7 +16681,6 @@
 "TF_Weapon_Axtinguisher_Festive2012"	"Festive Axtinguisher"
 "TF_Weapon_BuffBanner_Festive2012"		"Festive Buff Banner"
 "TF_Weapon_Sandvich_Festive2012"		"Festive Sandvich"
-"TF_Weapon_Ubersaw_Festive2012"			"Festive Ubersaw"
 "TF_Weapon_FrontierJustice_Festive2012"	"Festive Frontier Justice"
 "TF_Weapon_Huntsman_Festive2012"		"Festive Huntsman"
 "TF_Weapon_Ambassador_Festive2012"		"Festive Ambassador"
@@ -17139,7 +17128,6 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_jul13_positive_pressure_veil_Desc"			"«Η αναπνοή είναι σύμφωνη με εμένα, αλλά μερικές φορές υπάρχει αεροβρώμα. Τώρα γελάω στο πρόσωπο του αέρα. Σε ευχαριστώ, αυτό το καπέλο.» (Περιγραφή μεταφρασμένη από τα Γερμανικά.)"
 "TF_jul13_emergency_supplies"			"Das Feelinbeterbager"
 "TF_jul13_emergency_supplies_Desc"			"«Γεια σας άνδρες του πολέμου! Θα πεθάνετε σύντομα. Ορίστε τα χάπια.» (Περιγραφή μεταφρασμένη από τα Γερμανικά.)"
-"TF_jul13_secret_state_surgeon"			"Das Ubersternmann"
 "TF_jul13_secret_state_surgeon_Desc"			"«Δεν είσαι σημαντικός αλλά εγώ είμαι. Το καπέλο μου είναι μυστικό καπέλο.» (Περιγραφή μεταφρασμένη από τα Γερμανικά.)"
 "TF_jul13_heavy_defender"			"Das Metalmeatencasen"
 "TF_jul13_heavy_defender_Desc"			"«Υπάρχει δύναμη στην ατσάλινη στηθομπλούζα σου. Το στηθοκρέας σου είναι σε ανάπαυση.» (Περιγραφή μεταφρασμένη από τα Γερμανικά.)"
@@ -17611,7 +17599,6 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_dec2014_engineer_detectiveholster"		"Holstered Heaters"
 "TF_dec2014_engineer_detectiveradio"		"Cop Caller"
 "TF_dec2014_engineer_detectiveglasses"		"Conagher's Combover"
-"TF_dec2014_engineer_seal"		"Clubsy The Seal"
 "TF_dec2014_medic_unknown_mann"		"Unknown Mann"
 "TF_dec2014_surgeons_shako"		"Surgeon's Shako"
 "TF_dec2014_hunter_beard"		"Bushman's Bristles"
@@ -17898,7 +17885,6 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_taunt_texas_twirl_em"					"Χλευασμός: Texas Twirl 'Em"
 "TF_taunt_texas_twirl_em_Desc"				"Χλευασμός Μηχανικού από την κοινότητα"
 "TF_taunt_texas_twirl_em_AdText"			"–Χλευασμός Μηχανικού από την Κοινότητα"
-"TF_taunt_the_scaredycat"					"Χλευασμός: The Scaredy-cat!"
 "TF_taunt_the_scaredycat_Desc"				"Χλευασμός για όλες τις κλάσεις από την κοινότητα"
 "TF_taunt_the_scaredycat_AdText"			"–Χλευασμός για όλες τις κλάσεις από την Κοινότητα"
 "TF_taunt_the_travel_agent"					"Χλευασμός: The Travel Agent"
@@ -17991,6 +17977,7 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_taunt_forehead_slice"					"Χλευασμός: Fore-Head Slice"
 "TF_taunt_forehead_slice_Desc"				"Χλευασμός Κατεδαφιστή από την Κοινότητα"
 "TF_taunt_forehead_slice_AdText"			"–Χλευασμός Κατεδαφιστή από την Κοινότητα"
+"TF_taunt_bear_hug"							"Χλευασμός: Bear Hug"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Breather Bag"	// ADD THE
@@ -18156,7 +18143,6 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_fall17_crit_cloak_Desc"	" "
 "TF_fall17_firemans_essentials"	"Fireman's Essentials"
 "TF_fall17_firemans_essentials_Desc"	"&nbsp"
-"TF_fall17_deyemonds"	"Δια-μάτια"
 "TF_fall17_deyemonds_Desc"	"&nbsp"
 "TF_fall17_deitys_dress"	"Deity's Dress"
 "TF_fall17_deitys_dress_Desc"	"&nbsp"
@@ -18234,7 +18220,6 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 
 "TF_hwn2018_shell_of_a_mann"	"A Shell of a Mann"
 "TF_hwn2018_dell_in_the_shell"	"Dell in the Shell"
-"TF_hwn2018_terror_antula"	"Terror-antula"
 "TF_hwn2018_deadbeats"	"Deadbeats"
 "TF_hwn2018_deadbeats_Style0"	"Καπέλο"
 "TF_hwn2018_deadbeats_Style1"	"Χωρίς καπέλο"
@@ -19139,6 +19124,7 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_dec24_westcoat_style3"					"Άσχημος"
 "TF_dec24_snug_sharpshooter"			"Snug Sharpshooter"
 
+"TF_sum25_esprit"						"Esprit De Corps"
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "Αυτό το προϊστορικό χτένισμα παρατηρήθηκε πρώτο στον Σερ Έντμουντ Χίλαρι στις πλαγιές του Έβερεστ, ακολουθούμενος από την παρατήρηση ότι λέρωσε το παντελόνι του."
 "TF_HimalayanHairShirt"        "Himalayan Hair Shirt" // ADD THE

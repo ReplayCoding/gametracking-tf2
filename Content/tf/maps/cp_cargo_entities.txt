@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 3738
+Revision: 3753
 {
 "world_maxs" "1760 6672 936"
 "world_mins" "-1408 -2176 -640"
@@ -11,7 +11,7 @@ Revision: 3738
 "detailmaterial" "detailsprites"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "3738"
+"mapversion" "3753"
 "hammerid" "1"
 }
 {
@@ -2566,8 +2566,7 @@ Revision: 3738
 "spawnflags" "1"
 "classname" "logic_auto"
 "hammerid" "22603"
-"OnMultiNewRound" "sscp_gamerulesSetRedTeamGoalString#Gravelpit_red_setup_goal0-1"
-"OnMultiNewRound" "sscp_gamerulesSetBlueTeamGoalString#standin_blue_setup_goal0-1"
+"OnMultiNewRound" "sscp_gamerulesSetRedTeamGoalString#Dustbowl_red_setup_goal0-1"
 "OnMultiNewRound" "sscp_gamerulesSetRedTeamRole10-1"
 "OnMultiNewRound" "sscp_gamerulesSetBlueTeamRole20-1"
 "OnMultiNewRound" "sscp_gamerulesSetRedTeamRespawnWaveTime60-1"
@@ -2593,7 +2592,6 @@ Revision: 3738
 }
 {
 "origin" "16 2848 16"
-"win_reason" "4"
 "TeamNum" "2"
 "targetname" "sscp_time_end"
 "switch_teams" "1"

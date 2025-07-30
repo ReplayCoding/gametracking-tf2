@@ -304,7 +304,6 @@
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
-"ClassTips_9_1"				"從掉落的武器蒐集金屬建造進築物！"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"建造步哨來防守基地！將它們升級到等級三！"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -1220,7 +1219,6 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"ozfortress 實驗盃 3 第四組亞軍"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"ozfortress 實驗盃 3 第四組季軍"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ozfortress 實驗盃 3 第四組參加獎"
-
 "TF_TournamentMedal_LBTF2_6v6_Elite_1st"			"LBTF2 6v6 精英組冠軍"
 "TF_TournamentMedal_LBTF2_6v6_Elite_2nd"			"LBTF2 6v6 精英組亞軍"
 "TF_TournamentMedal_LBTF2_6v6_Elite_3rd"			"LBTF2 6v6 精英組季軍"
@@ -1385,7 +1383,6 @@
 "TF_TournamentMedal_2022"	"2022"
 "TF_TournamentMedal_2024"	"2024"
 "TF_TournamentMedal_2025"	"2025"
-
 "TF_TournamentMedal_Summer2017"	"2017 年夏季"
 "TF_TournamentMedal_Winter2017"	"2017 冬季"
 "TF_TournamentMedal_Spring2018"	"2018 春季"
@@ -1491,13 +1488,13 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"頒發給 AsiaFortress Liquid.tf Highlander 2024 年冬季邀請賽的參賽選手"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant"				"AsiaFortress Liquid.tf 傭兵混戰獎"
 "TF_TournamentMedal_AF_Liquidtf_MercenaryMashup_Participant_May2024"		"MCM 倫敦 2024 年 5 月"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_1st"				"AsiaFortress Liquid.tf Newbie Cup 冠軍"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_2nd"				"AsiaFortress Liquid.tf Newbie Cup 亞軍"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_3rd"				"AsiaFortress Liquid.tf Newbie Cup 季軍"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"AsiaFortress Liquid.tf Newbie Cup 參加獎"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf Newbie Cup 教練"
-"TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
-																				   
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_1st"				"AsiaFortress Liquid.tf 新手盃冠軍"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_2nd"				"AsiaFortress Liquid.tf 新手盃亞軍"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_3rd"				"AsiaFortress Liquid.tf 新手盃季軍"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"AsiaFortress Liquid.tf 新手盃參加獎"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf 新手盃教練"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf 新手盃 9"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_10"				"AsiaFortress Liquid.tf 新手盃 10"
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 贏家"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 參與者"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 贏家"
@@ -1643,14 +1640,14 @@
 "TF_TournamentMedal_jtte_winner_desc"			"頒給 Journey to the East 的勝利者"
 "TF_TournamentMedal_jtte_participant_desc"		"頒給 Journey to the East 的參賽者"
 
-"TF_TournamentMedal_NPC_gold"					"Newbie Prolander Cup 金牌"
-"TF_TournamentMedal_NPC_silver"					"Newbie Prolander Cup 銀牌"
-"TF_TournamentMedal_NPC_bronze"					"Newbie Prolander Cup 銅牌"
-"TF_TournamentMedal_NPC_participant"			"Newbie Prolander Cup 參賽者"
-"TF_TournamentMedal_NHC_gold"					"Newbie Highlander Cup 金牌"
-"TF_TournamentMedal_NHC_silver"					"Newbie Highlander Cup 銀牌"
-"TF_TournamentMedal_NHC_bronze"					"Newbie Highlander Cup 銅牌"
-"TF_TournamentMedal_NHC_participant"			"Newbie Highlander Cup 參賽者"
+"TF_TournamentMedal_NPC_gold"					"Prolander 新手盃金牌"
+"TF_TournamentMedal_NPC_silver"					"Prolander 新手盃銀牌"
+"TF_TournamentMedal_NPC_bronze"					"Prolander 新手盃銅牌"
+"TF_TournamentMedal_NPC_participant"			"Prolander 新手盃參賽者"
+"TF_TournamentMedal_NHC_gold"					"Highlander 新手盃金牌"
+"TF_TournamentMedal_NHC_silver"					"Highlander 新手盃銀牌"
+"TF_TournamentMedal_NHC_bronze"					"Highlander 新手盃銅牌"
+"TF_TournamentMedal_NHC_participant"			"Highlander 新手盃參賽者"
 "TF_TournamentMedal_HLMixes_First"				"HLMixes Showdown 冠軍勳章"
 "TF_TournamentMedal_HLMixes_Finalist"			"HLMixes Showdown 決賽選手勳章"
 "TF_TournamentMedal_HLMixes_Participant"		"HLMixes Showdown 參加者勳章"
@@ -1773,16 +1770,11 @@
 "TF_TournamentMedal_CappingTV_WinterSilver"			"CappingTV Ultiduo Winter Chalice 第二名"
 "TF_TournamentMedal_CappingTV_WinterBronze"			"CappingTV Ultiduo Winter Chalice 第三名"
 "TF_TournamentMedal_CappingTV_WinterParticipant"	"CappingTV Ultiduo Winter Chalice 參加獎"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"TF2 Summer Brawl 第 1 名"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"TF2 Summer Brawl 第 2 名"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"TF2 Summer Brawl 第 3 名"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"TF2 Summer Brawl 參賽者"
 "TF_TournamentMedal_CappingTV_Gold"				"CappingTV Ultiduo Summer Brawl 冠軍"
 "TF_TournamentMedal_CappingTV_Silver"			"CappingTV Ultiduo Summer Brawl 亞軍"
 "TF_TournamentMedal_CappingTV_Bronze"			"CappingTV Ultiduo Summer Brawl 季軍"
 "TF_TournamentMedal_CappingTV_Participant"		"CappingTV Ultiduo Summer Brawl 參賽者"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"2024 年澳洲布里斯本"
-
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Snack 的午睡時分 Ultiduo 金牌"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Snack 的午睡時分 Ultiduo 銀牌"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Bronze"		"Snack 的午睡時分 Ultiduo 銅牌"
@@ -2018,13 +2010,13 @@
 "TF_TournamentMedal_Moscow_LAN_Helper"			"Moscow LAN 工作人員"
 
 "TF_TournamentMedal_TFNew_Gold"					"TFNew Cup 冠軍"
-"TF_TournamentMedal_TFNew_Gold_Desc"			"頒發給 TFNew 6v6 Newbie Cup 冠軍隊伍的選手或教練"
+"TF_TournamentMedal_TFNew_Gold_Desc"			"頒發給 TFNew 6v6 新手盃冠軍隊伍的選手或教練"
 "TF_TournamentMedal_TFNew_Silver"				"TFNew Cup 亞軍"
-"TF_TournamentMedal_TFNew_Silver_Desc"			"頒發給 TFNew 6v6 Newbie Cup 亞軍隊伍的選手或教練"
+"TF_TournamentMedal_TFNew_Silver_Desc"			"頒發給 TFNew 6v6 新手盃亞軍隊伍的選手或教練"
 "TF_TournamentMedal_TFNew_Bronze"				"TFNew Cup 季軍"
-"TF_TournamentMedal_TFNew_Bronze_Desc"			"頒發給 TFNew 6v6 Newbie Cup 季軍隊伍的選手或教練"
+"TF_TournamentMedal_TFNew_Bronze_Desc"			"頒發給 TFNew 6v6 新手盃季軍隊伍的選手或教練"
 "TF_TournamentMedal_TFNew_Participant"			"TFNew Cup 參賽者"
-"TF_TournamentMedal_TFNew_Participant_Desc"		"頒發給 TFNew 6v6 Newbie Cup 參賽隊伍的選手或教練"
+"TF_TournamentMedal_TFNew_Participant_Desc"		"頒發給 TFNew 6v6 新手盃參賽隊伍的選手或教練"
 
 "TF_TournamentMedal_UDL_1st"			"UDL 冠軍"
 "TF_TournamentMedal_UDL_2nd"			"UDL 亞軍"
@@ -2095,7 +2087,6 @@
 "TF_TournamentMedal_LAN_Downunder_3rd"					"LAN Downunder 季軍"
 "TF_TournamentMedal_LAN_Downunder_Participant"			"LAN Downunder 參賽者"
 "TF_TournamentMedal_LAN_Downunder_2024"					"2024 年澳洲墨爾本"
-
 "TF_TournamentMedal_RussianHighlander_1st"				"Russian Highlander 冠軍"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Russian Highlander 亞軍"
 "TF_TournamentMedal_RussianHighlander_3rd"				"Russian Highlander 季軍"
@@ -2126,12 +2117,10 @@
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024"							"2024 年鬼怪策略未腐化水晶"
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024_Desc"						"完好無損，存放在遠離喪屍和機器人的安全之處。好好保管，這些東西可是得來不易。頒發給 Potato MvM 的鬼怪策略活動中的捐款者！"
 "TF_TournamentMedal_Ghoulish_Mostly_2024"								"2024 年鬼怪策略大致被腐化水晶"
-"TF_TournamentMedal_Ghoulish_Mostly_2024_Desc"							"善惡、黑白、陰陽……嗯，被困在其中的一個靈魂就叫陽，另一個好像叫克雷格什麼的。頒發給 Potato MvM 的鬼怪策略活動中的捐款者！"
 "TF_TournamentMedal_Ghoulish_Haunted_2024"								"2024 年鬼怪策略鬧鬼坦克"
 "TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"要不是我們把紫色油漆用光了，否則這東西會更恐怖。頒發給 Potato MvM 的鬼怪策略活動中的捐款者！"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"2024 年鬼怪策略有毒馬鈴薯"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"恐怖無比的飾品，就連待在它附近都會令人想抓狂。絕對不要吃掉它，否則您的腸胃也會抓狂。頒發給 Potato MvM 的鬼怪策略活動中的捐款者！"
-
 "TF_TournamentMedal_FruitMixes_Gold"				"Fruit Mixes Highlander 金牌"
 "TF_TournamentMedal_FruitMixes_Silver"				"Fruit Mixes Highlander 銀牌"
 "TF_TournamentMedal_FruitMixes_Bronze"				"Fruit Mixes Highlander 銅牌"
@@ -2232,7 +2221,6 @@
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup1_Desc"		"TFArena 6v6 競技場盃 1 組貢獻者"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup2_Desc"		"TFArena 6v6 競技場盃 2 組貢獻者"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup4_Desc"		"TFArena 6v6 競技場盃 4 組貢獻者"
-
 "TF_TournamentMedal_CTC_1st"					"Cap that Cup 冠軍"
 "TF_TournamentMedal_CTC_2nd"					"Cap that Cup 亞軍"
 "TF_TournamentMedal_CTC_3rd"					"Cap that Cup 季軍"
@@ -2496,7 +2484,6 @@
 "TF_Wearable_Pads"					"護膝護肘"
 "TF_Wearable_Butler"				"管家"
 "TF_Wearable_Wound"					"傷口"
-
 "TF_RobotPart_Type"	"機器人零件"
 "TF_CircuitBoard_Type"	"迴路板"
 
@@ -3334,7 +3321,6 @@
 "TF_Hwn_DemoMisc1"		"蘇格蘭狂嚎" // ADD THE
 "TF_Hwn_DemoMisc2"		"醉狼之爪" // ADD THE
 "TF_Hwn_ScoutHat"		"包紮爭霸戰" // ADD THE
-"TF_Hwn_ScoutMisc1"		"繃－卡！"
 "TF_Hwn_ScoutMisc2"		"腳坦卡門" // ADD THE
 "TF_Hwn_PyroHat"		"熾熱公牛" // ADD THE
 "TF_Hwn_PyroMisc1"		"墮落天使" // ADD THE
@@ -3373,7 +3359,6 @@
 "TF_ScotchBonnet"		"蘇格蘭防爆頭盔"
 "TF_CameraHelm"			"前線戰場紀錄器"
 "TF_CameraHelm_Desc"		"我是編劇、導演、兼任影星。"
-"TF_LargeLuchadore"		"摔角硬漢"
 "TF_LargeLuchadore_Desc"	"摔角不是打假的，現在你可以證實這點了。"
 "TF_EngineerTopHat"		"西部風格"
 "TF_EngineerTopHat_Desc"	"蠻荒西部，還沒看過這種東西呢。"
@@ -3677,7 +3662,6 @@
 "TF_SpyGlasses_Desc"					"如此神秘，如此致命，如此近視。"
 "TF_ScoutGlasses"						"立體化眼鏡" // ADD THE
 "TF_ScoutGlasses_Desc"					"當你閉上一隻眼睛時，其中一隊會消失無蹤，所以千萬別這麼做。"
-"TF_SoldierHat2"						"無名鑣客帽" // ADD THE
 "TF_SoldierHat2_Desc"					"一頂給無名男的無名帽。"
 "TF_PyroConscience"						"焚屍者的良知" // ADD THE
 "TF_PyroConscience_Desc"				"「用火燒他！」\n「不對，用火燒他，再用斧頭砍死他！」"
@@ -3732,7 +3716,6 @@
 "TF_Winter2011_GiftHat_Desc"	"各位，聖誕快樂！希望這個由玩家 BANG! 捐出的極其稀有絕地要塞物品，能陪伴你們度過一個快樂的（或者依您的傳統文化來說：憂鬱的）假期！"
 "TF_Winter2011_SantaHat"			"聖誕大人物" // ADD THE
 "TF_Winter2011_SantaHat_Desc"	"戴上這頂有毛絨帽緣和絨球的帽子，成為聖誕節的大人物吧！"
-"TF_SpyCicle"					"寒冽冰錐" // ADD THE
 "TF_SpyCicle_Desc"				"當一個人什麼都有的時候，應該要賞他一根插進背裡的冰錐，當作完美的禮物。這種禮物甚至連有錢人都買不到呢。"
 "TF_BallBuster"				"包裝紙殺手" // ADD THE
 "TF_BallBuster_Desc"				"你的敵人們一定會想要靠近點欣賞這些作工精緻的可愛節慶\n飾品。就把這些易碎的玻璃球用時速九十英哩打到他們眼裡，\n讓他們如願以償吧。"
@@ -3798,7 +3781,6 @@
 "TF_PEP_ScoutBag_Desc"				"這個搶錢袋上附有皮帶，好讓你的錢不會掉出來。不過這些皮帶沒法一直保持綁緊的狀態，所以有些錢就會掉出來，而女士們就可以知道你多有錢了。（答案：非常有錢。還很帥。）"
 
 "TF_DS_DumpsterDevice"				"街友火箭砲"
-"TF_DS_FootballHelmet"				"遊民安全帽" // ADD THE
 "TF_DS_FootballHelmet_Desc"			"把這頂安全帽想像成能讓你的腦袋有個安居之所的強化可動式小窩吧。這上頭還貼了幾條錫箔，好確保沒人可以偷走你珍貴的浪跡天涯的夢想。"
 "TF_DS_CanGrenades"					"上尉的雞尾酒" // ADD THE
 "TF_DS_CanGrenades_Desc"			"立正，踏步！你夠有男子氣概帶著這些裝滿過期湯汁的罐頭嗎？你有瘋狂到能夠假裝它們是手榴彈嗎？你有餓到會趁四下無人的時候把它們吃掉嗎？我們敢打賭，你一定會的！"
@@ -4016,7 +3998,6 @@
 "TF_Item_VoodooCursedRobotArm_Desc"		"這手臂裡面藏有一點點詛咒。你可以在合成畫面將七個這種小東西結合在一起，以獲得大一點的詛咒。任何事情都可能發生！"
 "TF_Item_VoodooCursedBass"				"巫毒詛咒魚標本"
 "TF_Item_VoodooCursedBass_Desc"			"無論是什麼原因造成的，這條魚藏有一點點詛咒。你可以在合成畫面將七個這種小東西結合在一起，以獲得大一點的詛咒。任何事情都可能發生！"
-"TF_Item_VoodooCursedStickyBomb"		"巫毒詛咒黏性炸彈"
 "TF_Item_VoodooCursedStickyBomb_Desc"	"這碎片裡面藏有一點點詛咒。你可以在合成畫面將七個這種小東西結合在一起，以獲得大一點的詛咒。任何事情都可能發生！"
 "TF_Item_VoodooCursedNail"				"巫毒詛咒釘"
 "TF_Item_VoodooCursedNail_Desc"			"這釘子裡面藏有一點點詛咒。你可以在合成畫面將七個這種小東西結合在一起，以獲得大一點的詛咒。任何事情都可能發生！"
@@ -4155,7 +4136,6 @@
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin 'Ravidge' Brook\nMaxime 'Fubar' Dupuis"
 "ctf_2fort_invasion_authors"	"Miguel 'BANG!' Melara\nThe Ronin\nMichael Egan\nAeon 'Void' Bollig\nMartin 'Chaofanatic' Ellis\nRyan 'Freeflow' Leitao\nHarlen 'UEAKCrash' Linke\nJames 'Retro' Wright\n"
 "pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
-"arena_byre_authors"			"Ian 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
 "cp_gorge_event_authors"		"Paul 'puxorb' Broxup"
 "cp_sunshine_event_authors"		"Rebecca 'phi' Ailes\nKimberly 'iiboharz' Riswick\nHarlen 'UEAKCrash' Linke"
@@ -4233,7 +4213,7 @@
 "pl_patagonia_authors"			"Elián 'iron' Rodríguez\nMatthew 'Panckakebro' Hiller\nJoão 'Hoppkins' Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul 'puxorb' Broxup\nBrie\nNickolas 'KrazyZark' Fenech\nLiam 'Diva Dan' Moffitt\nAeon 'Void' Bollig\nErik 'Colteh' Coltey\nExtra Ram\nMattie Konig\nTim 'Sedisocks' Brown Lees\nPatrick 'Zeus' Hennessy\nZoey Smith"
 "vsh_maul_authors"				"Matthew Scott 'MegapiemanPHD' Simmons\nBrandon 'Bonk Nickeltoon' Koller\nSzabó 'Maxxy' Attila\nPatrick 'Zeus' Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex 'FGD5' Stewart\nMaksim 'Velly' Streltsov\nJason 'Yaki' Herman\nJesse 'Custard1' Budd\nJoaquim 'JPRAS' Silva\nSamuel 'ChargingTurnip' Turner\nAlex 'Lacry' Couto\nJames M.\nTorkil 'TheLazerSofa' Malvik Bidtnes\nSky"
-
+"pl_aquarius_authors"			"Alien31\nAndrew 'Bengali Hedgehog' Mishchuk\nChristoph 'Gadget' Manschitz\nDansky\nLogan 'Cipherlock' Eaton\nLucky\nMitchell 'AltraNade' Leyte\nNeal 'Blade x64' Smart\nSzabó 'Maxxy' Attila\nTorkil 'TheLazerSofa' Malvik Bidtnes\nMaxime 'Fubar' Dupuis"
 "TF_YourStats"					"您的狀態"
 "TF_DuckPromoList"				"擁有 11 種樣式的全職業飾品\n-在鐵道盡頭期間記錄您的活動資料\n-登上排行榜並與您的好友們一較高下\n-銷售盈餘將資助給鐵道盡頭的製作團隊"
 "TF_GetDucky"					"行鴨運"
@@ -4380,7 +4360,6 @@
 "TF_MapToken_Watergate_AdText"	"-購買此物品以贊助 Watergate 社群地圖的製作者。"
 "TF_Map_Byre"					"Byre"
 "TF_MapToken_Byre"				"地圖郵票 - Byre"
-"TF_MapToken_Byre_Desc"			"競技場地圖\n\n由 Ian 'Idolon' Spadin、 Gavin 'Equinoxo' Sawford、 Guy 'Gerbil' Ross、 HellJumper、 Kevin 'Ravidge' Brook、 Matt 'Boylee' Boyle、 Sebastian 'Seba' Grus、 Umbratile 和 The Ronin 製作\n\n購買此物品以贊助 Brye 社群地圖製作者。馬上來表達您的支持吧！"
 "TF_MapToken_Byre_AdText"		"-購買此物品以贊助 Brye 社群地圖的製作者。"
 "TF_Map_GorgeEvent"				"Gorge Event"
 "TF_MapToken_GorgeEvent"		"地圖郵票－Gorge Event"
@@ -4633,7 +4612,6 @@
 "TF_MapToken_Maul"					"地圖郵票 - Maul"
 "TF_MapToken_Maul_Desc"				"大戰薩克斯頓．海爾（社群）地圖\n\n由 Matthew Scott 'MegapiemanPHD' Simmons、Brandon 'Bonk Nickeltoon' Koller、Szabó 'Maxxy' Attila、Patrick 'Zeus' Hennessy、Lizard Of Oz、Stuffy360、James Jameson、Phe、Mattie Konig、Alex 'FGD5' Stewart、Maksim 'Velly' Streltsov、Jason 'Yaki' Herman、Jesse 'Custard1' Budd、Joaquim 'JPRAS' Silva、Samuel 'ChargingTurnip' Turner、Alex 'Lacry' Couto、James M.、Torkil 'TheLazerSofa' Malvik Bidtnes 和 Sky 製作\n\n購買此物品以贊助 Maul 社群地圖製作者。馬上來表達您的支持吧！"
 "TF_MapToken_Maul_AdText"			"-購買此物品以贊助 Maul 社群地圖製作者。"
-
 "TF_Map_Unknown"				"找不到地圖！"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -4783,7 +4761,6 @@
 "TF_Map_Patagonia_StrangePrefix"		" 阿根廷"
 "TF_Map_Cutter_StrangePrefix"			" 鋒利"
 "TF_Map_Maul_StrangePrefix"				" 超貴"
-
 "TF_MapDonationLevel_Bronze"	"銅牌："
 "TF_MapDonationLevel_Silver"	"銀牌："
 "TF_MapDonationLevel_Gold"	"金牌："
@@ -5351,7 +5328,6 @@
 "ctf_penguin_peak_team_goal"			"從敵方基地偷走情報箱。"
 "ctf_penguin_peak_blu"					"將澳元素運送到紅隊基地以取得勝利！"
 "ctf_penguin_peak_red"					"將澳元素運送到藍隊基地以取得勝利！"
-
 // Win panel strings
 "Winpanel_Team1"			"隊伍"
 "Winpanel_Team2"			"隊伍"
@@ -6048,8 +6024,6 @@
 "Tip_8_37"				"身為 Spy，您可以配合掉落傷害使用死亡送終者。假造一個意外的死亡！"
 "Tip_8_38"				"身為 Spy，即使已經隱形，流血、被瓶手道或瘋狂牛奶潑到、以及離開水面還是會讓敵人發現您。"
 "Tip_8_39"				"身為 Spy，鑽紋響尾蛇的單發傷害較少，但電子破壞器每破壞一個建築就可以讓鑽紋響尾蛇打出一發爆擊攻擊。請在面對 Engineer 前先破壞掉他的建築，這樣您就可以用爆擊加成的優勢應戰！"
-"Tip_8_40"				"身為 Spy，裝備寒冽冰錐並受到火焰傷害時，冰錐會融化掉，必須要等待一段時間後才可以再次使用。"
-
 "Tip_9_1"				"身為 Engineer，請使用建造工具設置步哨防禦槍、補給器及傳送裝置。"
 "Tip_9_2"				"身為 Engineer，你需要金屬才能建造、修理並升級你的建築。蒐集掉落的彈藥盒來補充資源。"
 "Tip_9_3"				"身為 Engineer，當您使用扳手敲打步哨防禦槍，就能利用金屬為其升級。每升一級便會增加更多生命值及火力。"
@@ -8370,7 +8344,6 @@
 "TF_StrangeFilter_CommunityMapCutter_Desc"			"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，該數據只會在玩家於 Cutter 時記錄。"
 "TF_StrangeFilter_CommunityMapMaul"				"奇異過濾器：Maul（社群）"
 "TF_StrangeFilter_CommunityMapMaul_Desc"			"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，該數據只會在玩家於 Maul 時記錄。"
-
 "TF_StrangeFilter_Map2fort"				"奇異過濾器：2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"將這個奇異過濾器裝到奇異物品上並選擇其中一種數據後，武器的數據只會在玩家於 2Fort 時記錄。"
 "TF_StrangeFilter_MapDustbowl"				"奇異過濾器：Dustbowl"
@@ -9204,7 +9177,6 @@
 "Summer2024Cosmetics_collection_desc"		"來自 2024 夏季飾品收藏的物品："
 "Winter2024Cosmetics_collection"				"2024 冬季飾品收藏"
 "Winter2024Cosmetics_collection_desc"		"來自 2024 冬季飾品收藏的物品："
-
 "Footer_GunMettleCosmetics"					"有機會獲得奇異武器或異常大顯槍手系列飾品"
 "TF_GunMettleCosmeticCase"					"大顯槍手裝飾品補給箱"
 "TF_GunMettleCosmeticCase_desc"				"這箱子被鎖住了，需要\n一把大顯槍手裝飾品箱鑰匙開鎖。\n\n裡頭有著來自大顯槍手裝飾品組合\n的一項社群物品。"
@@ -10542,7 +10514,6 @@
 "Attrib_Particle370"			"閃耀散景"
 "Attrib_Particle371"			"嬉戲的極光"
 "Attrib_Particle372"			"活潑的早晨"
-
 // Weapon Unusual
 "Attrib_Particle701"			"炙熱化學"
 "Attrib_Particle702"			"同位素"
@@ -10658,7 +10629,6 @@
 "Attrib_Particle3191"		"得獎撒花"
 "Attrib_Particle3192"		"謝幕慶祝"
 "Attrib_Particle3193"		"燈飾纏身"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"連殺效果：%s1"
@@ -13993,7 +13963,6 @@ ________________________________________
 "TF_HalloweenSpell_VoiceSoldier_Desc"			"這魔咒可讓傭兵們的聲音迷人值增加 4%，詭異值增加 130%－除了偵察兵之外，因為迷人指數會減低 5%。\n這魔咒可施加在火箭兵的頭飾上。"
 "TF_HalloweenSpell_VoiceDemo"					"萬聖節魔咒：Demoman 的枯槁沙啞聲"
 "TF_HalloweenSpell_VoiceDemo_Desc"				"這魔咒可讓傭兵們的聲音迷人值增加 4%，詭異值增加 130%－除了偵察兵之外，因為迷人指數會減低 5%。\n這魔咒可施加在爆破兵的頭飾上。"
-"TF_HalloweenSpell_VoiceMedic"					"萬聖節魔咒：Medic 的悚然吼叫聲"
 "TF_HalloweenSpell_VoiceMedic_Desc"				"這魔咒可讓傭兵們的聲音迷人值增加 4%，詭異值增加 130%－除了偵察兵之外，因為迷人指數會減低 5%。\n這魔咒可施加在醫護兵的頭飾上。"
 "TF_HalloweenSpell_VoiceHeavy"					"萬聖節魔咒：Heavy 的深遂低沉聲"
 "TF_HalloweenSpell_VoiceHeavy_Desc"				"這魔咒可讓傭兵們的聲音迷人值增加 4%，詭異值增加 130%－除了偵察兵之外，因為迷人指數會減低 5%。\n這魔咒可施加在重裝兵的頭飾上。"
@@ -14365,8 +14334,6 @@ ________________________________________
 "TF_DailyGiftGiverRewardHat_Desc"	"恭喜您在昨天送出的禮物比其他 TF2 的玩家都還要多！在頭飾明天交給別人前戴在頭上好好炫耀一番吧！"
 "TF_DailyDuelWinnerRewardHat"		"決鬥大師"
 "TF_DailyDuelWinnerRewardHat_Desc"	"恭喜您在昨天決鬥獲勝的次數比其他 TF2 的玩家還要多！在頭飾明天交給別人前戴在頭上好好炫耀一番吧！"
-
-"TF_Heavy_Robot_Ushanka_Hat"		"烏－鏘－卡" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"先把這頂鐵製的長耳帽用大火慢烤，然後再戴到頭上以維持一整天所需的溫暖吧。記得要為你頭皮得到的三度灼傷，捏造一個讓人印象深刻、鏗鏘有力的趣聞喔！"
 "TF_Spy_Robot_Fedora"				"潛行為下策" // ADD THE
 "TF_Spy_Robot_Fedora_Desc"			"現在背刺已經沒吸引力了嗎？潛行對你來說太簡單了嗎？那麼試試將這頂十五磅重的金屬帽子戴在頭上吧！在你破壞步哨時，請享受防止脖子扭斷的艱鉅挑戰吧！還真是個足以弄斷脊椎的絕佳娛樂啊！"
@@ -14484,7 +14451,7 @@ ________________________________________
 "TF_Weapon_Axtinguisher_Festive2012"	"聖誕火斧"
 "TF_Weapon_BuffBanner_Festive2012"		"聖誕增幅旗幟"
 "TF_Weapon_Sandvich_Festive2012"		"聖誕三明治"
-"TF_Weapon_Ubersaw_Festive2012"			"聖誕超能骨鋸"
+"TF_Weapon_Ubersaw_Festive2012"			"節慶超能骨鋸"
 "TF_Weapon_FrontierJustice_Festive2012"	"聖誕邊疆正義"
 "TF_Weapon_Huntsman_Festive2012"		"聖誕獵人長弓"
 "TF_Weapon_Ambassador_Festive2012"		"聖誕全能大使"
@@ -15363,7 +15330,6 @@ ________________________________________
 "TF_dec2014_engineer_detectiveholster"		"火熱手槍套"
 "TF_dec2014_engineer_detectiveradio"		"抓耙子"
 "TF_dec2014_engineer_detectiveglasses"		"通天幹探"
-"TF_dec2014_engineer_seal"		"小海豹 Clubsy"
 "TF_dec2014_medic_unknown_mann"		"無名醫兵"
 "TF_dec2014_surgeons_shako"		"外科醫生軍帽"
 "TF_dec2014_hunter_beard"		"布須曼之鬣"
@@ -15636,6 +15602,10 @@ ________________________________________
 "TF_taunt_forehead_slice"					"嘲諷：切頭高爾夫"
 "TF_taunt_forehead_slice_Desc"				"社群製作的 Demoman 嘲諷"
 "TF_taunt_forehead_slice_AdText"			"-社群製作的 Demoman 嘲諷"
+"TF_taunt_the_final_score"					"嘲諷：最終得分"
+"TF_taunt_bear_hug"							"嘲諷：熊抱"
+"TF_taunt_texan_trickshot"					"嘲諷：德州耍槍"
+"TF_taunt_texan_trickshot_Desc"				"社群製作的 Engineer 嘲諷\n\n攻擊站在面前的敵方玩家！"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"打洞呼吸袋"	// ADD THE
@@ -15801,7 +15771,6 @@ ________________________________________
 "TF_fall17_crit_cloak_Desc"	"　"
 "TF_fall17_firemans_essentials"	"消防必備品"
 "TF_fall17_firemans_essentials_Desc"	"　"
-"TF_fall17_deyemonds"	"寶石眼"
 "TF_fall17_deyemonds_Desc"	"　"
 "TF_fall17_deitys_dress_Desc"	"　"
 "TF_fall17_feathered_fiend"	"羽蛇神面具"
@@ -16209,6 +16178,8 @@ ________________________________________
 "TF_dec24_westcoat_style3"					"小人"
 "TF_dec24_snug_sharpshooter"			"舒適槍服"
 
+"TF_sum25_hunk"							"猛漢僧侶"
+"TF_sum25_short_fuse"					"急躁導火線"
 "TF_KathmanHairdo"             "加德滿都髮型" // ADD THE
 "TF_KathmanHairdo_Desc"        "這個從史前時代蓬巴杜髮型由艾德蒙希拉蕊爵士於珠穆朗瑪峰發現。當下他也突然發現，他拉了自己的褲子。"
 "TF_HimalayanHairShirt"        "喜馬拉雅毛茸茸襯衫" // ADD THE

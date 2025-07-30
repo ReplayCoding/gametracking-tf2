@@ -306,7 +306,6 @@
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
-"ClassTips_9_1"				"Събирайте метал от падналите оръжия, за да изграждате с него!"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"Изградете сензорни картечници, за да защитите базата си! Подобрете ги до ниво 3!"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -1425,6 +1424,8 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"ozfortress експериментална купа 3 дивизия 4 — Второ място"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"ozfortress експериментална купа 3 дивизия 4 — Трето място"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ozfortress експериментална купа 3 дивизия 4 — Участник"
+"TF_TournamentMedal_OzFortress_MayMadness_Finalist"					"ozfortress May Madness — Финалист"
+"TF_TournamentMedal_OzFortress_MayMadness_Participant"				"ozfortress May Madness — Участник"
 
 "TF_TournamentMedal_LBTF2_6v6_Elite_1st"			"LBTF2 6 срещу 6 Elite — I място"
 "TF_TournamentMedal_LBTF2_6v6_Elite_2nd"			"LBTF2 6 срещу 6 Elite — II място"
@@ -1631,6 +1632,8 @@
 "TF_TournamentMedal_2023"	"2023"
 "TF_TournamentMedal_2024"	"2024"
 "TF_TournamentMedal_2025"	"2025"
+"TF_TournamentMedal_2026"	"2026"
+"TF_TournamentMedal_2027"	"2027"
 
 "TF_TournamentMedal_Summer2017"	"Лято 2017"
 "TF_TournamentMedal_Winter2017"	"Зима 2017"
@@ -1728,6 +1731,10 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Fall2024"	"Връчвано на играчите, които са достигнали III място в есенната AsiaFortress Liquid.tf отворена купа през 2024."
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"AsiaFortress Liquid.tf отворена купа — Участник"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"Връчвано на играчите, които са участвали в пролетната AsiaFortress Liquid.tf отворена купа през 2024."
+"TF_TournamentMedal_AF_Liquidtf_Main_1st"				"AsiaFortress Liquid.tf основна дивизия — I място"
+"TF_TournamentMedal_AF_Liquidtf_Main_2nd"				"AsiaFortress Liquid.tf основна дивизия — II място"
+"TF_TournamentMedal_AF_Liquidtf_Main_3rd"				"AsiaFortress Liquid.tf основна дивизия — III място"
+"TF_TournamentMedal_AF_Liquidtf_Main_Participant"				"AsiaFortress Liquid.tf основна дивизия — Участник"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Fall2024"	"Връчвано на играчите, които са участвали в есенната AsiaFortress Liquid.tf отворена купа през 2024."
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"AsiaFortress Liquid.tf купа с покани — I място"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"Връчвано на играчите от Xiao, шампионите от пролетната AsiaFortress Liquid.tf купа с покани през 2024."
@@ -1770,7 +1777,11 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"AsiaFortress Liquid.tf Newbie купа — Участник"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf Newbie купа — Треньор"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie купа 9"
-																				   
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_10"				"AsiaFortress Liquid.tf Newbie купа 10"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_1st"				"AsiaFortress Liquid.tf Gibus купа — I място"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_2nd"				"AsiaFortress Liquid.tf Gibus купа — II място"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_Coach"				"AsiaFortress Liquid.tf Gibus купа — Треньор"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_1"					"AsiaFortress Liquid.tf Gibus купа 1"
 "TF_RETF2_EE22_6v6_Winner"					"Победител в RETF2 EE22 6 срещу 6"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6 срещу 6 — Участник"
 "TF_RETF2_EE22_4v4_Winner"					"Победител в RETF2 EE22 4 срещу 4"
@@ -2131,10 +2142,10 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2nd"			"CappingTV Summer Brawl — II място"
 "TF_TournamentMedal_CappingTV_SummerBrawl_3rd"			"CappingTV Summer Brawl — III място"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"CappingTV Summer Brawl — Участник"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"TF2 Summer Brawl — I място"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"TF2 Summer Brawl — II място"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"TF2 Summer Brawl — III място"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"TF2 Summer Brawl — Участник"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"CappingTV Summer Brawl — I място"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"CappingTV Summer Brawl — II място"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"CappingTV Summer Brawl — III място"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"CappingTV Summer Brawl — Участник"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"CappingTV PASS Time шампионат — I място"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"CappingTV PASS Time шампионат — II място"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"CappingTV PASS Time шампионат — III място"
@@ -2145,6 +2156,7 @@
 "TF_TournamentMedal_CappingTV_Participant"		"CappingTV Ultiduo — Участник"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Бризбън, Австралия, 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"Бризбън, Австралия, 2024"
+"TF_TournamentMedal_CappingTV_SummerBrawl_2025"		"Бризбън, Австралия, 2025"
 
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Snack's Summery Ultiduo Siesta — Златен медал"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Snack's Summery Ultiduo Siesta — Сребърен медал"
@@ -2705,6 +2717,7 @@
 "TF_TournamentMedal_LAN_Downunder_Participant"			"LAN Downunder — Участник"
 "TF_TournamentMedal_LAN_Downunder_Champion"				"LAN Downunder — Шампион"
 "TF_TournamentMedal_LAN_Downunder_2024"					"Мелбърн, Австралия, 2024"
+"TF_TournamentMedal_LAN_Downunder_2025"					"Мелбърн, Австралия, 2025"
 
 "TF_TournamentMedal_RussianHighlander_1st"				"Russian Highlander — I място"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Russian Highlander — II място"
@@ -2786,12 +2799,10 @@
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024"							"Непокварен кристал | Таласъмски гамбит 2024"
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024_Desc"						"Непокътнат и неповреден, пазен на сигурно място, надалеч от зомбита и роботи. Дръжте го близо до сърцето си, че тези неща се намират трудно. Връчвано на дарителите в събитието за МсМ кампанията „Таласъмски гамбит“ от Potato!"
 "TF_TournamentMedal_Ghoulish_Mostly_2024"								"Предимно покварен кристал | Таласъмски гамбит 2024"
-"TF_TournamentMedal_Ghoulish_Mostly_2024_Desc"							"Добро срещу зло. Светлина срещу мрак. Ин срещу Ян… Е, една от душите, в клопката на този кристал, се казваше Янг, а името на другия тип може да е било Крейг. Връчвано на дарителите в събитието за МсМ кампанията „Таласъмски гамбит“ от Potato!"
 "TF_TournamentMedal_Ghoulish_Haunted_2024"								"Обладан от духове танк | Таласъмски гамбит 2024"
 "TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"Това нещо щеше да е много по-страшно, ако не ни беше свърши лилавата боя. Връчвано на играчите в събитието за МсМ кампанията „Таласъмски гамбит“ от Potato!"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"Отровен картоф | Таласъмски гамбит 2024"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"Дрънкулка най-нечиста, дори само докато сте близо до нея, носеща пагубно влияние на здравия Ви разум. Определено не я яжте или ще донесе и пагубно влияние на червата Ви. Връчвано на играчите в събитието за МсМ кампанията „Таласъмски гамбит“ от Potato!"
-
 "TF_TournamentMedal_FruitMixes_Gold"				"Fruit Mixes Highlander — Златен медал"
 "TF_TournamentMedal_FruitMixes_Silver"				"Fruit Mixes Highlander — Сребърен медал"
 "TF_TournamentMedal_FruitMixes_Bronze"				"Fruit Mixes Highlander — Бронзов медал"
@@ -3023,6 +3034,27 @@
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup2_Desc"		"TFArena 6 срещу 6 режим „Арена“ купа 2 — Сътрудник"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup3_Desc"		"TFArena 6 срещу 6 режим „Арена“ купа 3 — Сътрудник"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup4_Desc"		"TFArena 6 срещу 6 режим „Арена“ купа 4 — Сътрудник"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Gold"			"TFArena платинена дивизия — Шампиони"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Silver"		"TFArena платинена дивизия — II място"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Bronze"		"TFArena платинена дивизия — III място"
+"TF_TournamentMedal_TFArena_6v6_Platinum_Participant"	"TFArena платинена дивизия — Участник"
+"TF_TournamentMedal_TFArena_6v6_Gold_Gold"				"TFArena златна дивизия — Шампиони"
+"TF_TournamentMedal_TFArena_6v6_Gold_Silver"			"TFArena златна дивизия — II място"
+"TF_TournamentMedal_TFArena_6v6_Gold_Bronze"			"TFArena златна дивизия — III място"
+"TF_TournamentMedal_TFArena_6v6_Gold_Participant"		"TFArena златна дивизия — Участник"
+"TF_TournamentMedal_TFArena_6v6_Silver_Gold"			"TFArena сребърна дивизия — Шампиони"
+"TF_TournamentMedal_TFArena_6v6_Silver_Silver"			"TFArena сребърна дивизия — II място"
+"TF_TournamentMedal_TFArena_6v6_Silver_Bronze"			"TFArena сребърна дивизия — III място"
+"TF_TournamentMedal_TFArena_6v6_Silver_Participant"		"TFArena сребърна дивизия — Участник"
+"TF_TournamentMedal_TFArena_6v6_Steel_Gold"				"TFArena стоманена дивизия — Шампиони"
+"TF_TournamentMedal_TFArena_6v6_Steel_Silver"			"TFArena стоманена дивизия — II място"
+"TF_TournamentMedal_TFArena_6v6_Steel_Bronze"			"TFArena стоманена дивизия — III място"
+"TF_TournamentMedal_TFArena_6v6_Steel_Participant"		"TFArena стоманена дивизия — Участник"
+"TF_TournamentMedal_TFArena_6v6_Iron_Gold"				"TFArena желязна дивизия — Шампиони"
+"TF_TournamentMedal_TFArena_6v6_Iron_Silver"			"TFArena желязна дивизия — II място"
+"TF_TournamentMedal_TFArena_6v6_Iron_Bronze"			"TFArena желязна дивизия — III място"
+"TF_TournamentMedal_TFArena_6v6_Iron_Participant"		"TFArena желязна дивизия — Участник"
+"TF_TournamentMedal_TFArena_6v6_Spring2025"				"Пролет 2025 6 с/у 6 2-дневна купа"
 
 "TF_TournamentMedal_CTC_1st"					"Cap that Cup — I място"
 "TF_TournamentMedal_CTC_1st_Desc"				"Дванадесетгодишната професия за кражби на куфари, съдържащи класифицирана информация, хранителни рецепти и снимки на майка Ви е упражнявана от мнозина. Но Вие сте се доказали като най-добри в нея."
@@ -3073,6 +3105,26 @@
 "TF_TournamentMedal_MGE_Cup_Open_Bronze"		"Classic MGE Cup Open — III място"
 "TF_TournamentMedal_MGE_Cup_Open_Participant"	"Classic MGE Cup Open — Участник"
 "TF_TournamentMedal_MGE_Cup_Helper"			"Classic MGE Cup — Помощник"
+
+"TF_TournamentMedal_MGE_EU_2v2_Premier_Gold"				"MGE.tf EU 2 с/у 2 премиерна дивизия — I място"
+"TF_TournamentMedal_MGE_EU_2v2_Premier_Silver"				"MGE.tf EU 2 с/у 2 премиерна дивизия — II място"
+"TF_TournamentMedal_MGE_EU_2v2_Premier_Bronze"				"MGE.tf EU 2 с/у 2 премиерна дивизия — III място"
+"TF_TournamentMedal_MGE_EU_2v2_Premier_Participant"			"MGE.tf EU 2 с/у 2 премиерна дивизия — Участник"
+"TF_TournamentMedal_MGE_EU_2v2_Intermediate_Gold"			"MGE.tf EU 2 с/у 2 средна дивизия — I място"
+"TF_TournamentMedal_MGE_EU_2v2_Intermediate_Silver"			"MGE.tf EU 2 с/у 2 средна дивизия — II място"
+"TF_TournamentMedal_MGE_EU_2v2_Intermediate_Bronze"			"MGE.tf EU 2 с/у 2 средна дивизия — III място"
+"TF_TournamentMedal_MGE_EU_2v2_Intermediate_Participant"	"MGE.tf EU 2 с/у 2 средна дивизия — Участник"
+"TF_TournamentMedal_MGE_EU_2v2_Open_Gold"					"MGE.tf EU 2 с/у 2 отворена категория — I място"
+"TF_TournamentMedal_MGE_EU_2v2_Open_Silver"					"MGE.tf EU 2 с/у 2 отворена категория — II място"
+"TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf EU 2 с/у 2 отворена категория — III място"
+"TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf EU 2 с/у 2 отворена категория — Участник"
+"TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf EU 2 с/у 2 — Помощник"
+
+"TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1 с/у 1 световен шампионат — I място"
+"TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1 с/у 1 световен шампионат — II място"
+"TF_TournamentMedal_MGE_1v1_World_Bronze"			"MGE.tf 1 с/у 1 световен шампионат — III място"
+"TF_TournamentMedal_MGE_1v1_World_Participant"		"MGE.tf 1 с/у 1 световен шампионат — Участник"
+"TF_TournamentMedal_MGE_1v1_World_Helper"			"MGE.tf 1 с/у 1 световен шампионат — Помощник"
 
 "TF_TournamentMedal_Late_Night_Gold"			"Late Night TF2 Cup — Златен медал"
 "TF_TournamentMedal_Late_Night_Silver"			"Late Night TF2 Cup — Сребърен медал"
@@ -3414,6 +3466,9 @@
 "TF_Wearable_Shroud"				"Покров"
 "TF_Wearable_Butler"				"Иконом"
 "TF_Wearable_Wound"					"Рана"
+"TF_Wearable_DivingGear"			"Екипировка за гмуркане"
+"TF_Wearable_Tunic"					"Туника"
+"TF_Wearable_Wetsuit"				"Неопренов костюм"
 
 "TF_RobotPart_Type"	"Роботска част"
 "TF_CircuitBoard_Type"	"Платка"
@@ -5236,7 +5291,6 @@
 "koth_suijin_authors"			"„Freyja“\n„E-Arkham“\nКевин „Ravidge“ Бруук\nМаксим „Mimas Torres“ Дюпуи"
 "ctf_2fort_invasion_authors"	"Мигел „BANG!“ Мелара\n„The Ronin“\nМайкъл Игън\nАеон „Void“ Болиг\nМартин „Chaofanatic“ Елис\nРайън „Freeflow“ Лейтао\nХарлен „UEAKCrash“ Линке\nДжеймс „Retro“ Райт\n"
 "pd_watergate_authors"			"Майкъл Игън\nЛуи „bakscratch“ Търнър\nИън „Wgooch“ Гуч\nНасим „NassimO“ Садоун\nМигел „BANG!“ Мелара\nТиджс „Evil_Knevil“ Ван Джеръуи\n„FissionMetroid101“\nДженифър „NeoDement“ Бърнет\nАеон „Void“ Болиг\n„The Ronin“"
-"arena_byre_authors"			"Иън „Idolon“ Спадин\nГавин „Equinoxo“ Соуфорд\nГай „Gerbil“ Рос\n„HellJumper“\nКевин „Ravidge“ Бруук\nМат „Boylee“ Бойл\nСебастиан „Seba“ Грус\n„Umbratile“\n„The Ronin“"
 "koth_probed_authors"			"Харлен „UEAKCrash“ Линке\n„FissionMetroid101“\nМигел „BANG!“ Мелара\nКевин „Ravidge“ Бруук\n„The Ronin“"
 "cp_gorge_event_authors"		"Пол „puxorb“ Броксъп"
 "cp_sunshine_event_authors"		"Ребека „phi“ Айлис\nКимбърли „iiboharz“ Ризуик\nХарлен „UEAKCrash“ Линке"
@@ -5354,7 +5408,6 @@
 "pl_patagonia_authors"			"Елиан „iron“ Родригес\nМатю „Panckakebro“ Хилер\nЖоао „Hoppkins“ Маркос\n„Stuffy360“"
 "plr_cutter_authors"			"Пол „puxorb“ Броксъп\n„Brie“\nНиколас „KrazyZark“ Фенек\nЛиъм „Diva Dan“ Мофит\nАеон „Void“ Болиг\nЕрик „Colteh“ Колтий\n„Extra Ram“\nМати Конинг\nТим „SediSocks“ Браун Лийс\nПатрик „Zeus“ Хенеси\nЗоуи Смит"
 "vsh_maul_authors"				"Матю Скот „MegapiemanPHD“ Симънс\nБрандън „Bonk Nickeltoon“ Колър\nСабо „Maxxy“ Атила\nПатрик „Zeus“ Хенеси\n„Lizard of Oz“\n„Stuffy360“\nДжеймс Джеймсън\n„Phe“\nМати Конинг\nАлекс „FGD5“ Стюарт\nМаксим „Velly“ Стрелцов\nДжейсън „Yaki“ Херман\nДжеси „Custard1“ Бъд\nХоаким „JPRAS“ Силва\nСамюел „ChargingTurnip“ Търнър\nАлекс „Lacry“ Коуто\nДжеймс М.\nТоркил „TheLazerSofa“ Малвик Бидтнес\n„Sky“"
-
 "TF_YourStats"					"Статистиките Ви"
 "TF_DuckPromoList"				"—Козметичен артикул с единадесет стила за всички класове;\n—Проследява статистиката Ви, докато трае събитието „End of the Line“ („Краят на релсите“)\n—Преглеждайте класациите и се съревновавайте с приятелите си\n—Продажбите подкрепят екипа на „End of the Line“"
 "TF_GetDucky"					"Получаване на патица"
@@ -5501,7 +5554,6 @@
 "TF_MapToken_Watergate_AdText"	"— Закупуването на този артикул директно подкрепя творците на обществената карта „Watergate“."
 "TF_Map_Byre"					"Byre"
 "TF_MapToken_Byre"				"Марка на карта — Byre"
-"TF_MapToken_Byre_Desc"			"Карта в режим „Арена“\n\nНаправена от Иън „Idolon“ Спадин, Гавин „Equinoxo“ Соуфорд, Гай „Gerbil“ Рос, „HellJumper“, Кевин „Ravidge“ Бруук, Мат „Boylee“ Бойл, Себастиан „Seba“ Грус, „Umbratile“ и „The Ronin“.\n\nЗакупуването на този артикул директно подкрепя твореца на обществената карта „Byre“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Byre_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Byre“."
 "TF_Map_GorgeEvent"				"Събитие „Gorge“"
 "TF_MapToken_GorgeEvent"		"Марка на карта — Събитие „Gorge“"
@@ -5967,7 +6019,7 @@
 "TF_MapToken_Maul"					"Марка на карта — Maul"
 "TF_MapToken_Maul_Desc"				"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от Матю Скот „MegapiemanPHD“ Симънс, Брандън „Bonk Nickeltoon“ Колър, Сабо „Maxxy“ Атила, Патрик „Zeus“ Хенеси, „Lizard of Oz“, „Stuffy360“, Джеймс Джеймсън, „Phe“, Мати Конинг, Алекс „FGD5“ Стюарт, Максим „Velly“ Стрелцов, Джейсън „Yaki“ Херман, Джеси „Custard1“ Бъд, Хоаким „JPRAS“ Силва, Самюел „ChargingTurnip“ Търнър, Алекс „Lacry“ Коуто, Джеймс М., Торкил „TheLazerSofa“ Малвик Бидтнес и „Sky“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Maul“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Maul_AdText"			"— Закупуването на този артикул директно подкрепя творците на обществената карта „Maul“."
-
+"TF_Map_Pressure"					"Pressure"
 "TF_Map_Unknown"				"Картата не е намерена!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6176,7 +6228,6 @@
 "TF_Map_Patagonia_StrangePrefix"		" аржентинска"
 "TF_Map_Cutter_StrangePrefix"			" по ръба на острието"
 "TF_Map_Maul_StrangePrefix"				" надценена"
-
 "TF_MapDonationLevel_Bronze"	"Бронзово:"
 "TF_MapDonationLevel_Silver"	"Сребърно:"
 "TF_MapDonationLevel_Gold"	"Златно:"
@@ -6946,6 +6997,14 @@
 "ctf_penguin_peak_team_goal"			"Откраднете куфарчето със сведенията от вражеската база."
 "ctf_penguin_peak_blu"					"Занесете австралиума до базата на ЧЕРВЕНИТЕ, за да спечелите!"
 "ctf_penguin_peak_red"					"Занесете австралиума до базата на СИНИТЕ, за да спечелите!"
+"pl_citadel_a"							"A"
+"pl_citadel_b"							"B"
+"pl_citadel_c"							"C"
+"pl_citadel_d"							"D"
+"pl_citadel_e"							"E"
+"koth_boardwalk_house"					"Кланицата"
+"koth_boardwalk_pier"					"Кеят"
+"koth_mannhole_overpass"				"Подлезът"
 
 // Win panel strings
 "Winpanel_Team1"			"ОТБОР"
@@ -7656,8 +7715,6 @@
 "Tip_8_37"				"Като Шпионин можете да активирате Вашия „Мъртвешки звън“ при поражения от падане. Симулирайте смърт по невнимание!"
 "Tip_8_38"				"Като Шпионин кървенето, „Джаратето“, „Лудото мляко“ и излизането от вода ще Ви разкрият, ако сте били невидими."
 "Tip_8_39"				"Като Шпионин, „Диамантената гърмяща змия“ нанася по-малко щети, но запазва по един гарантиран критичен удар за всяко унищожено съоръжение от Вашите електрически „Саботьори“. Унищожете съоръженията на Инженера, преди да се изправите срещу него и ще имате значително предимство!"
-"Tip_8_40"				"Като Шпионин, ако поемете някакви щети, когато ползвате „Шпионската ледена висулка“ оръжието ще се разтопи. Което ще наложи изчакване, преди да е възможно повторното му ползване."
-
 "Tip_9_Count"				"29"
 "Tip_9_1"				"Като Инженер, използвайте инструмента за изграждане и чрез него поставяйте „Сензорни картечници“, „Дистрибутори“ и „Телепортатори“."
 "Tip_9_2"				"Като Инженер се нуждаете от метал, за да изграждате, поправяте и подобрявате Вашите съоръжения. Събирайте падналите муниции, за да попълвате запасите си."
@@ -10142,7 +10199,16 @@
 "TF_StrangeFilter_CommunityMapCutter_Desc"			"Добавянето на този „Странен филтър“ към артикул със странно качество и избирайки една от следените статистики, ще ограничи да се отчитат само събития в Cutter."
 "TF_StrangeFilter_CommunityMapMaul"				"Странен филтър — Maul (обществена)"
 "TF_StrangeFilter_CommunityMapMaul_Desc"			"Добавянето на този „Странен филтър“ към артикул със странно качество и избирайки една от следените статистики, ще ограничи да се отчитат само събития в Maul."
-
+"TF_StrangeFilter_CommunityMapCitadel"				"Странен филтър — Citadel (обществена)"
+"TF_StrangeFilter_CommunityMapAquarius"				"Странен филтър — Aquarius (обществена)"
+"TF_StrangeFilter_CommunityMapFulgur"				"Странен филтър — Fulgur (обществена)"
+"TF_StrangeFilter_CommunityMapCargo"				"Странен филтър — Cargo (обществена)"
+"TF_StrangeFilter_CommunityMapConifer"				"Странен филтър — Conifer (обществена)"
+"TF_StrangeFilter_CommunityMapBoardwalk"			"Странен филтър — Boardwalk (обществена)"
+"TF_StrangeFilter_CommunityMapBlowout"				"Странен филтър — Blowout (обществена)"
+"TF_StrangeFilter_CommunityMapMannhole"				"Странен филтър — Mannhole (обществена)"
+"TF_StrangeFilter_CommunityMapDemolition"			"Странен филтър — Demolition (обществена)"
+"TF_StrangeFilter_CommunityMapPressure"				"Странен филтър — Pressure (обществена)"
 "TF_StrangeFilter_Map2fort"				"Странен филтър — 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Добавянето на този „Странен филтър“ към артикул със странно качество и избирайки една от следените статистики, ще ограничи да се отчитат само събития в 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Странен филтър — Dustbowl"
@@ -11019,7 +11085,7 @@
 "Summer2024Cosmetics_collection_desc"		"Артикули от козметичната колекция „Лято 2024“:"
 "Winter2024Cosmetics_collection"				"Козметична колекция „Зима 2024“"
 "Winter2024Cosmetics_collection_desc"		"Артикули от козметичната колекция „Зима 2024“:"
-
+"Summer2025Cosmetics_collection"			"Козметична колекция „Лято 2025“"
 "Footer_GunMettleCosmetics"					"Възможно е съдържанието да е странна или необичайна шапка от „Оръжеен темперамент“"
 "TF_GunMettleCosmeticCase"					"Сандък с козметични артикули от „Оръжеен темперамент“"
 "TF_GunMettleCosmeticCase_desc"				"Този сандък е заключен и се изисква \n ключ за козметичната колекция „Оръжеен темперамент“, така че да бъде отворен.\n\nСъдържа артикул, създаден от общността\nза козметичната колекция от „Оръжеен темперамент“."
@@ -11148,6 +11214,9 @@
 "TF_Tool_Winter2024CosmeticKey_desc"			"Използва се за отваряне на сандък с козметични артикули от „Зима 2024“."
 "TF_Tool_Winter2024CosmeticKey_AdText"		"— Използва се за отварянето на сандък с козметични артикули от „Зима 2024“;\n— Възможно е съдържанието да е странна или необичайна шапка от „Зима 2024“."
 
+"TF_Summer2025CosmeticCase"					"Сандък с козметични артикули от „Лято 2025“"
+"TF_Tool_Summer2025CosmeticKey"				"Ключ за козметичната колекция „Лято 2025“"
+"TF_Tool_Summer2025CosmeticKey_desc"			"Използва се за отваряне на сандък с козметични артикули от „Лято 2025“."
 "Footer_RainyDayCosmetics"					"Възможно е съдържанието да е странна или необичайна шапка от „Дъждовен ден“"
 "TF_RainyDayCosmeticCase"					"Сандък с козметични артикули от „Дъждовен ден“"
 "TF_RainyDayCosmeticCase_desc"				"Този сандък е заключен и се изисква \nключ за козметичната колекция „Дъждовен ден“, така че да бъде отворен.\n\nСъдържа артикул, създаден от общността\nза козметичната колекция от „Дъждовен ден“."
@@ -12723,7 +12792,8 @@
 "Attrib_Particle370"			"Сияещо боке"
 "Attrib_Particle371"			"Игрива Аврора"
 "Attrib_Particle372"			"Скоклива утрин"
-
+"Attrib_Particle377"			"Напълно заредено"
+"Attrib_Particle379"			"Свръхзаредено"
 // Weapon Unusual
 "Attrib_Particle701"			"Нажежено"
 "Attrib_Particle702"			"Изотоп"
@@ -12954,7 +13024,8 @@
 "Attrib_Particle3191"		"Всепризнати"
 "Attrib_Particle3192"		"Оперен триумф"
 "Attrib_Particle3193"		"Заплетени светлинки"
-
+"Attrib_Particle3196"		"Иконично очертание"
+"Attrib_Particle3198"		"Изтънченият силует"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Сериен убиец: %s1"
@@ -13010,7 +13081,6 @@
 "TF_NonUnique_Append_Proper"	"(%s1)"				// DEPRECATED
 "TF_Unique_Achievement_Medigun1"	"Критцкригът"	// ADD THE
 "TF_Unique_Achievement_Syringegun1"	"Кръвопиецът"	// ADD THE
-"TF_Unique_Achievement_Bonesaw1"	"Убер трионът"	// ADD THE
 "TF_Unique_Achievement_FireAxe1"	"Брадвогасителят"	// ADD THE
 "TF_Unique_Achievement_FlareGun"	"Сигналният пистолет"	// ADD THE
 "TF_Unique_Achievement_Flaregun_desc"	"Това оръжие ще се презарежда, когато не е активно"
@@ -16374,7 +16444,6 @@
 "TF_HalloweenSpell_VoiceSoldier_Desc"			"Тези заклинания правят гласовете на наемниците 4% по-секси и 130% по-зловещи. Освен този на Разузнавача, неговият е -5% секси.\nТова заклинание може да бъде приложено върху шапка за Войника."
 "TF_HalloweenSpell_VoiceDemo"					"Хелоуин заклинание: „Мъртвешкото крякане на Разрушителя“"
 "TF_HalloweenSpell_VoiceDemo_Desc"				"Тези заклинания правят гласовете на наемниците 4% по-секси и 130% по-зловещи. Освен този на Разузнавача, неговият е -5% секси.\nТова заклинание може да бъде приложено върху шапка за Разузнавача."
-"TF_HalloweenSpell_VoiceMedic"					"Хелоуин заклинание: „Смразяващия кръвта рев на Медика“"
 "TF_HalloweenSpell_VoiceMedic_Desc"				"Тези заклинания правят гласовете на наемниците 4% по-секси и 130% по-зловещи. Освен този на Разузнавача, неговият е -5% секси.\nТова заклинание може да бъде приложено върху шапка за Медика."
 "TF_HalloweenSpell_VoiceHeavy"					"Хелоуин заклинание: „Необхватният басов говор на Картечаря“"
 "TF_HalloweenSpell_VoiceHeavy_Desc"				"Тези заклинания правят гласовете на наемниците 4% по-секси и 130% по-зловещи. Освен този на Разузнавача, неговият е -5% секси.\nТова заклинание може да бъде приложено върху шапка за Картечаря."
@@ -16752,8 +16821,6 @@
 "TF_DailyGiftGiverRewardHat_Desc"	"Поздравления за това, че вчера дарихте повече подаръци от всеки друг играч на TF2! Носете това с гордост, преди притежателят му да се смени утре!"
 "TF_DailyDuelWinnerRewardHat"		"По-големият дуелист"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Поздравления за това, че вчера спечелихте повече дуели от всеки друг играч на TF2! Носете това с гордост, преди притежателят му да се смени утре!"
-
-"TF_Heavy_Robot_Ushanka_Hat"		"Тракащата ушанка" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"Нагорещете тази стоманена ушанка в огъня и я поставете на главата си, за да запазите продължителната топлота през целия ден. Уверете се, че сте подготвили впечатляващо звучащ фалшив анекдот, обясняващ изгарянията Ви от трета степен!"
 "TF_Spy_Robot_Fedora"				"Стоманената лукавост" // ADD THE
 "TF_Spy_Robot_Fedora_Desc"			"Наръгванията в гръб са загубили чара си? Промъкването Ви е прекалено лесно? Опитайте да носите тази 7 килограмова шапка на главата си! Насладете се на допълнителното предизвикателство от това да избегнете счупването на Вашия врат, докато саботирате сензорни картечници! Това е трошащо гръбнака развлечение!"
@@ -16799,7 +16866,7 @@
 "TF_HM_DisguiseHat"					"Тази шапка от '70-те"
 "TF_HM_DisguiseHat_Desc"				"Бъдете инкогнито, чрез тази комбинация от слънчеви очила и кожена шапка, най-добрата дегизировка при проникване в сбирки за двойници на Хъги Беър."
 "TF_HM_SoldierHat"					"Полицейският началник" // ADD THE
-"TF_HM_SoldierHat_Desc"					"Най-добрият продукт, който ще Ви позволи да се преструвате на британски полицай, след комплекта за дегизировка „Скотланд Ярд“ на SpyTech."
+"TF_HM_SoldierHat_Desc"					"Най-добрият продукт, който ще Ви позволи да се преструвате на британски полицай, след комплекта за дегизировка „Скотланд Ярд“ на „ШпионскаТехника“."
 "TF_HM_Shirt"						"Сибирският изтънчен джентълмен" // ADD THE
 "TF_HM_Shirt_Desc"						"Ризата и вратовръзката показват на враговете Ви, че сте делови. А жилетката с къс ръкав им казва, че Вие сте от този тип бизнесмени, които не могат да си намерят сако, което покрива огромните им оръжия."
 "TF_HM_Watch"						"Квачката" // ADD THE
@@ -16871,7 +16938,6 @@
 "TF_Weapon_Axtinguisher_Festive2012"	"Тържественият „Брадвогасител“"
 "TF_Weapon_BuffBanner_Festive2012"		"Тържественият „Ентусиазиращ флаг“"
 "TF_Weapon_Sandvich_Festive2012"		"Тържественият „Сандвич“"
-"TF_Weapon_Ubersaw_Festive2012"			"Тържественият „Убер трион“"
 "TF_Weapon_FrontierJustice_Festive2012"	"Тържественото „Улично правосъдие“"
 "TF_Weapon_Huntsman_Festive2012"		"Тържественият „Ловец“"
 "TF_Weapon_Ambassador_Festive2012"		"Тържественият „Посланик“"
@@ -17321,7 +17387,6 @@
 "TF_jul13_positive_pressure_veil_Desc"			"„Дишането е пригодно за мен, но понякога въздуха носи зловонен мирис. Сега се смея в лицето на въздуха. Благодаря на тази шапка.“ (Описанието е преведено от немски.)"
 "TF_jul13_emergency_supplies"			"Дас Добречувствачантер"
 "TF_jul13_emergency_supplies_Desc"			"„Здравейте, мъже от война! Ще бъдете мъртви скоро. Ето ги хапчета.“ (Описанието е преведено от немски.)"
-"TF_jul13_secret_state_surgeon"			"Дас Уберщернман"
 "TF_jul13_secret_state_surgeon_Desc"			"„Вие не сте важен, но аз съм. Моята шапка е тайна.“ (Описанието е преведено от немски.)"
 "TF_jul13_heavy_defender"			"Дас Металмесенсандъкен"
 "TF_jul13_heavy_defender_Desc"			"„Има сила в металната Ви нагръдна рубашка. Месото на гърдите Ви е необезпокоявано.“ (Описанието е преведено от немски.)"
@@ -17913,7 +17978,6 @@
 "TF_dec2014_engineer_detectiveholster"		"Кобурите за револвери"
 "TF_dec2014_engineer_detectiveradio"		"Полицейският доносник"
 "TF_dec2014_engineer_detectiveglasses"		"Зализаният перчем на Конахър"
-"TF_dec2014_engineer_seal"		"Тюленчето Клъбси"
 "TF_dec2014_medic_unknown_mann"		"Маннонимният"
 "TF_dec2014_surgeons_shako"		"Хирургическият кивер"
 "TF_dec2014_hunter_beard"		"Бушменската четина"
@@ -18231,7 +18295,6 @@
 "TF_taunt_texas_twirl_em"					"Присмех — Тексаска врътка"
 "TF_taunt_texas_twirl_em_Desc"				"Присмех на Инженера, създаден от общността."
 "TF_taunt_texas_twirl_em_AdText"			"— Присмех на Инженера, създаден от общността."
-"TF_taunt_the_scaredycat"					"Присмех — Страхопъзльото!"
 "TF_taunt_the_scaredycat_Desc"				"Присмех за всички класове, създаден от общността."
 "TF_taunt_the_scaredycat_AdText"			"— Присмех за всички класове, създаден от общността."
 "TF_taunt_the_travel_agent"					"Присмех — Туроператорът"
@@ -18324,6 +18387,15 @@
 "TF_taunt_forehead_slice"					"Присмех — Челен разрез"
 "TF_taunt_forehead_slice_Desc"				"Присмех на Разрушителя, създаден от общността."
 "TF_taunt_forehead_slice_AdText"			"— Присмех на Разрушителя, създаден от общността."
+"TF_taunt_the_final_score"					"Присмех — Финалният резултат"
+"TF_taunt_the_final_score_Desc"				"Присмех за всички класове, създаден от общността."
+"TF_taunt_the_final_score_AdText"			"— Присмех за всички класове, създаден от общността."
+"TF_taunt_bear_hug"							"Присмех — Мечешка прегръдка"
+"TF_taunt_bear_hug_AdText"					"— Присмех на Картечаря, създаден от общността."
+"TF_taunt_texan_trickshot"					"Присмех — Тексаски умел изстрел"
+"TF_taunt_texan_trickshot_AdText"			"— Присмех на Инженера, създаден от общността."
+"TF_taunt_flying_colors"					"Присмех — С развято знаме"
+"TF_taunt_flying_colors_AdText"				"— Присмех за всички класове, създаден от общността."
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Респираторната торба"	// ADD THE
@@ -18544,7 +18616,6 @@
 "TF_fall17_crit_cloak_Desc"	" "
 "TF_fall17_firemans_essentials"	"Съществените пожарникарски принадлежности"
 "TF_fall17_firemans_essentials_Desc"	" "
-"TF_fall17_deyemonds"	"Диамантените очи"
 "TF_fall17_deyemonds_Desc"	" "
 "TF_fall17_deitys_dress"	"Одеждите на божеството"
 "TF_fall17_deitys_dress_Desc"	" "
@@ -18622,7 +18693,6 @@
 
 "TF_hwn2018_shell_of_a_mann"	"Човешката черупка"
 "TF_hwn2018_dell_in_the_shell"	"Инженерът в черупка"
-"TF_hwn2018_terror_antula"	"Терор-антулата"
 "TF_hwn2018_deadbeats"	"Мъртвешките ритми"
 "TF_hwn2018_deadbeats_Style0"	"С шапка"
 "TF_hwn2018_deadbeats_Style1"	"Без шапка"
@@ -19527,6 +19597,13 @@
 "TF_dec24_westcoat_style3"					"Грозно"
 "TF_dec24_snug_sharpshooter"			"Сгушеният точен стрелец"
 
+"TF_sum25_esprit"						"Корпоративният дух"
+"TF_sum25_short_fuse"					"Късият фитил"
+"TF_sum25_jarhead_style2"					"Без очила"
+"TF_sum25_le_sapeur_style1"					"Стил 1"
+"TF_sum25_le_sapeur_style2"					"Стил 2"
+"TF_sum25_le_sapeur_style3"					"Стил 3"
+"TF_sum25_spy_ties_style5"					"Отборният играч"
 "TF_KathmanHairdo"             "Фризурата от Катманду" // ADD THE
 "TF_KathmanHairdo_Desc"        "Тази праисторическа прическа тип помпадур била забелязана за пръв път от сър Едмънд Хилъри по склоновете на Еверест. Непосредствено последвано от това, че Хилъри забелязал как е насрал собствените панталони."
 "TF_HimalayanHairShirt"        "Хималайската космата тениска" // ADD THE

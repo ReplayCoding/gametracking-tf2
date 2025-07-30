@@ -8,7 +8,7 @@ Revision: 141
 "detailvbsp" "detail_2fort.vbsp"
 "detailmaterial" "detail/detailsprites_2fort"
 "classname" "worldspawn"
-"mapversion" "3101"
+"mapversion" "3123"
 "hammerid" "1"
 }
 {
@@ -11213,7 +11213,7 @@ Revision: 141
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
+"DefaultAnim" "spin"
 "angles" "0 180 0"
 "classname" "prop_dynamic"
 "hammerid" "40275"
@@ -15122,289 +15122,268 @@ Revision: 141
 "hammerid" "340676"
 }
 {
-"origin" "3032 808 160"
-"soundscape" "Sideshow.Inside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "340807"
-}
-{
-"origin" "2599.3 992 96"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "340818"
-}
-{
 "origin" "1728 40.0002 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "blu_soundscape_1"
+"classname" "env_soundscape_proxy"
 "hammerid" "340829"
 }
 {
 "origin" "976 104 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340840"
 }
 {
 "origin" "936 -472 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340851"
 }
 {
 "origin" "1656 512 160"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "blu_soundscape_1"
+"classname" "env_soundscape_proxy"
 "hammerid" "340862"
 }
 {
 "origin" "808 -95.9999 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340873"
 }
 {
 "origin" "1320 1088 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340884"
 }
 {
 "origin" "1488 919.999 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "blu_soundscape_1"
+"classname" "env_soundscape_proxy"
 "hammerid" "340895"
 }
 {
 "origin" "1792 1176 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "blu_soundscape_1"
+"classname" "env_soundscape_proxy"
 "hammerid" "340906"
 }
 {
 "origin" "952.001 1472 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340917"
 }
 {
 "origin" "520.001 1408 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340928"
 }
 {
 "origin" "-384 631.999 32"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340939"
 }
 {
 "origin" "0 599.999 112"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340950"
 }
 {
 "origin" "288 407.999 320"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340972"
 }
 {
 "origin" "520.001 1040 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340983"
 }
 {
 "origin" "232.001 0.00012207 -128"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "340994"
 }
 {
-"origin" "2760 192 160"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341005"
-}
-{
 "origin" "-2944 -256 176"
+"targetname" "red_soundscape"
 "soundscape" "Sideshow.Outside"
 "radius" "-1"
+"position0" "gladiators_0"
 "classname" "env_soundscape"
 "hammerid" "341016"
 }
 {
 "origin" "-1792 -1176 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "red_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341060"
 }
 {
 "origin" "-1488 -919.999 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "red_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341071"
 }
 {
 "origin" "-1320 -1088 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341082"
 }
 {
 "origin" "-1728 -40.0004 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "red_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341093"
 }
 {
 "origin" "-936 472 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341104"
 }
 {
 "origin" "-976 -104 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341115"
 }
 {
 "origin" "-232.001 -0.00012207 -128"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341126"
 }
 {
 "origin" "-808 95.9999 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341137"
 }
 {
 "origin" "-1656 -512 160"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "red_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341148"
 }
 {
 "origin" "-952 -1472 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341159"
 }
 {
 "origin" "-520 -1408 96"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341170"
 }
 {
 "origin" "384 -631.999 32"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341181"
 }
 {
-"origin" "800 -663.999 96"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341192"
-}
-{
 "origin" "-520 -1040 304"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341203"
 }
 {
 "origin" "-288 -407.999 320"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341214"
 }
 {
 "origin" "0 -599.999 112"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341225"
 }
 {
 "origin" "80 -600.001 342"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341236"
 }
 {
 "origin" "-80 -600.001 342"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341247"
 }
 {
 "origin" "-79.9997 600.001 336"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341258"
 }
 {
 "origin" "80.0003 600.001 336"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "341269"
 }
 {
 "origin" "3008 248 200"
+"targetname" "blu_soundscape_1"
 "soundscape" "Sideshow.Outside"
 "radius" "-1"
+"position3" "gladiators_3"
 "classname" "env_soundscape"
 "hammerid" "341280"
 }
 {
 "origin" "0 0 96"
+"targetname" "mid_soundscape"
 "soundscape" "Sideshow.Outside"
 "radius" "-1"
+"position2" "gladiators_2"
+"position1" "gladiators_1"
 "classname" "env_soundscape"
 "hammerid" "341291"
 }
@@ -15456,13 +15435,6 @@ Revision: 141
 "radius" "-1"
 "classname" "env_soundscape"
 "hammerid" "341368"
-}
-{
-"origin" "800 -759.999 96"
-"soundscape" "Sideshow.Inside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341379"
 }
 {
 "origin" "384 -727.999 32"
@@ -15547,13 +15519,6 @@ Revision: 141
 "radius" "-1"
 "classname" "env_soundscape"
 "hammerid" "341511"
-}
-{
-"origin" "2664 192 160"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341566"
 }
 {
 "origin" "136.001 0.00012207 -128"
@@ -15659,34 +15624,6 @@ Revision: 141
 "radius" "-1"
 "classname" "env_soundscape"
 "hammerid" "341742"
-}
-{
-"origin" "2695.3 992 96"
-"soundscape" "Sideshow.Inside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341753"
-}
-{
-"origin" "3032 712 160"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341764"
-}
-{
-"origin" "2664 416 160"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341775"
-}
-{
-"origin" "2760 416 160"
-"soundscape" "Sideshow.Outside"
-"radius" "-1"
-"classname" "env_soundscape"
-"hammerid" "341786"
 }
 {
 "origin" "1168 384 240"
@@ -16509,9 +16446,9 @@ Revision: 141
 }
 {
 "origin" "-582.066 1016 296"
-"soundscape" "Sideshow.Outside"
 "radius" "-1"
-"classname" "env_soundscape"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
 "hammerid" "383734"
 }
 {
@@ -18104,7 +18041,7 @@ Revision: 141
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
+"DefaultAnim" "spin"
 "angles" "0 0 0"
 "classname" "prop_dynamic"
 "hammerid" "445504"
@@ -20501,6 +20438,7 @@ Revision: 141
 "fademindist" "-1"
 "ExplodeRadius" "0"
 "ExplodeDamage" "0"
+"disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "0"
 "angles" "0 103 0"
@@ -20565,6 +20503,103 @@ Revision: 141
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "2096129"
+}
+{
+"origin" "-3219.54 808.101 -109.219"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"modelscale" ".0625"
+"model" "models/props_camp/camp_flag.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"lightingorigin" "rock_light2"
+"fadescale" "1"
+"fademindist" "-1"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"DefaultAnim" "ref"
+"angles" "0 210 0"
+"classname" "prop_dynamic"
+"hammerid" "2131382"
+}
+{
+"model" "*110"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "2131412"
+}
+{
+"model" "*111"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "2131464"
+}
+{
+"origin" "476 450 184"
+"targetname" "gladiators_2"
+"spawnflags" "0"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "2148732"
+}
+{
+"origin" "2368 624 248"
+"targetname" "gladiators_3"
+"spawnflags" "0"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "2148737"
+}
+{
+"origin" "-2368 -624 248"
+"targetname" "gladiators_0"
+"spawnflags" "0"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "2148743"
+}
+{
+"origin" "600 -1032 304"
+"radius" "-1"
+"MainSoundscapeName" "mid_soundscape"
+"classname" "env_soundscape_proxy"
+"hammerid" "341192"
+}
+{
+"origin" "504 -1032 304"
+"soundscape" "Sideshow.Inside"
+"radius" "-1"
+"classname" "env_soundscape"
+"hammerid" "341379"
+}
+{
+"origin" "-476 -450 184"
+"targetname" "gladiators_1"
+"spawnflags" "0"
+"angles" "0 0 0"
+"classname" "info_target"
+"hammerid" "2149072"
 }
 {
 "origin" "-3240 -836.283 355.105"
@@ -20769,7 +20804,7 @@ Revision: 141
 "hammerid" "48058551"
 }
 {
-"model" "*110"
+"model" "*112"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
