@@ -304,7 +304,7 @@
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
-"ClassTips_9_1"				"เก็บเหล็กจากอาวุธที่หล่นเพื่อใช้สร้าง!"
+"ClassTips_9_1"				"เก็บเหล็กจากกล่องกระสุนที่หล่นเพื่อใช้สร้าง!"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"สร้าง Sentry Gun เพื่อป้องกันฐานทัพของคุณ! อัปเกรดพวกมันเป็นเลเวล 3!"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -1409,7 +1409,6 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"อันดับที่สอง ozfortress Experimental Cup 3 Division 4"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"อันดับที่สาม ozfortress Experimental Cup 3 Division 4"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ผู้เข้าร่วม ozfortress Experimental Cup 3 Division 4"
-
 "TF_TournamentMedal_LBTF2_6v6_Elite_1st"			"อันดับที่ 1 LBTF2 6v6 Elite"
 "TF_TournamentMedal_LBTF2_6v6_Elite_2nd"			"อันดับที่ 2 LBTF2 6v6 Elite"
 "TF_TournamentMedal_LBTF2_6v6_Elite_3rd"			"อันดับที่ 3 LBTF2 6v6 Elite"
@@ -1615,6 +1614,8 @@
 "TF_TournamentMedal_2023"	"2023"
 "TF_TournamentMedal_2024"	"2024"
 "TF_TournamentMedal_2025"	"2025"
+"TF_TournamentMedal_2026"	"2026"
+"TF_TournamentMedal_2027"	"2027"
 
 "TF_TournamentMedal_Summer2017"	"ฤดูร้อน 2017"
 "TF_TournamentMedal_Winter2017"	"ฤดูหนาว 2017"
@@ -1708,6 +1709,10 @@
 "TF_TournamentMedal_AF_Liquidtf_Open_3rd_Fall2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่ชนะอันดับที่ 3 ใน AsiaFortress Liquid.tf Open ฤดูใบไม้ร่วง 2024"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant"				"ผู้เข้าร่วม AsiaFortress Liquid.tf Open"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่เข้าร่วมใน AsiaFortress Liquid.tf Open ฤดูใบไม้ผลิ 2024"
+"TF_TournamentMedal_AF_Liquidtf_Main_1st"				"อันดับที่ 1 AsiaFortress Liquid.tf Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_2nd"				"อันดับที่ 2 AsiaFortress Liquid.tf Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_3rd"				"อันดับที่ 3 AsiaFortress Liquid.tf Main"
+"TF_TournamentMedal_AF_Liquidtf_Main_Participant"				"ผู้เข้าร่วม AsiaFortress Liquid.tf Main"
 "TF_TournamentMedal_AF_Liquidtf_Open_Participant_Fall2024"	"รางวัลที่มอบให้แก่ผู้เล่นที่เข้าร่วมใน AsiaFortress Liquid.tf Open ฤดูใบไม้ร่วง 2024"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st"				"อันดับที่ 1 AsiaFortress Liquid.tf Invite"
 "TF_TournamentMedal_AF_Liquidtf_Invite_1st_Spring2024"	"รางวัลที่มอบให้แก่ผู้เล่นของทีม Xiao ซึ่งเป็นแชมป์ AsiaFortress Liquid.tf Invite ฤดูใบไม้ผลิ 2024"
@@ -1750,7 +1755,13 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Participant"		"ผู้เข้าร่วม AsiaFortress Liquid.tf Newbie Cup"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"โค้ช AsiaFortress Liquid.tf Newbie Cup"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
-																				   
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_1st"				"อันดับที่ 1 AsiaFortress Liquid.tf Gibus Cup"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_2nd"				"อันดับที่ 2 AsiaFortress Liquid.tf Gibus Cup"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_3rd"				"อันดับที่ 3 AsiaFortress Liquid.tf Gibus Cup"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_Participant"		"ผู้เข้าร่วม AsiaFortress Liquid.tf Gibus Cup"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_Coach"				"โค้ช AsiaFortress Liquid.tf Gibus Cup"
+"TF_TournamentMedal_AF_Liquidtf_GibusCup_1"					"AsiaFortress Liquid.tf Gibus Cup 1"
+"TF_TournamentMedal_AF_Liquidtf_ChampionsCup_Participant"	"ผู้เข้าร่วม AsiaFortress Liquid.tf Champions Cup"
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 Winner"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 Participant"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 Winner"
@@ -2096,10 +2107,10 @@
 "TF_TournamentMedal_CappingTV_WinterBronze"			"อันดับที่ 3 CappingTV Ultiduo Winter Chalice"
 "TF_TournamentMedal_CappingTV_WinterParticipant"	"ผู้เข้าร่วม CappingTV Ultiduo Winter Chalice"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"ผู้เข้าร่วม CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"อันดับที่ 1 TF2 Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"อันดับที่ 2 TF2 Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"อันดับที่ 3 TF2 Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"ผู้เข้าร่วม TF2 Summer Brawl"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"อันดับที่ 1 CappingTV Summer Brawl"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"อันดับที่ 2 CappingTV Summer Brawl"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"อันดับที่ 3 CappingTV Summer Brawl"
+"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"ผู้เข้าร่วม CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"อันดับที่ 1 CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"อันดับที่ 2 CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"อันดับที่ 3 CappingTV PASS Time Championship"
@@ -2110,7 +2121,6 @@
 "TF_TournamentMedal_CappingTV_Participant"		"ผู้เข้าร่วม CappingTV Ultiduo"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"บริสเบน ออสเตรเลีย 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"บริสเบน ออสเตรเลีย 2024"
-
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"เหรียญทอง Snack's Summery Ultiduo Siesta"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"เหรียญเงิน Snack's Summery Ultiduo Siesta"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Bronze"		"เหรียญทองแดง Snack's Summery Ultiduo Siesta"
@@ -2643,7 +2653,6 @@
 "TF_TournamentMedal_LAN_Downunder_Participant"			"ผู้เข้าร่วม LAN Downunder"
 "TF_TournamentMedal_LAN_Downunder_Champion"				"แชมป์ LAN Downunder"
 "TF_TournamentMedal_LAN_Downunder_2024"					"เมลเบิร์น ออสเตรเลีย 2024"
-
 "TF_TournamentMedal_RussianHighlander_1st"				"อันดับที่ 1 Russian Highlander"
 "TF_TournamentMedal_RussianHighlander_2nd"				"อันดับที่ 2 Russian Highlander"
 "TF_TournamentMedal_RussianHighlander_3rd"				"อันดับที่ 3 Russian Highlander"
@@ -2695,12 +2704,10 @@
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024"							"Ghoulish Gambit Uncorrupted Crystal 2024"
 "TF_TournamentMedal_Ghoulish_Uncorrupted_2024_Desc"						"บริสุทธิ์ผุดผ่องไร้รอยตำหนิ เก็บไว้ให้ปลอดภัยห่างไกลซอมบี้และหุ่นยนต์ เก็บไว้ใกล้ตัว ของแบบนี้หายากนักหนา รางวัลที่มอบให้แก่ผู้บริจาคในกิจกรรม Ghoulish Gambit ของ Potato MvM!"
 "TF_TournamentMedal_Ghoulish_Mostly_2024"								"Ghoulish Gambit Mostly-Corrupted Crystal 2024"
-"TF_TournamentMedal_Ghoulish_Mostly_2024_Desc"							"ความดีกับความชั่ว แสงสว่างกับความมืด หยินกับหยาง… คือหยั่งงี้ วิญญาณดวงหนึ่งที่ติดกับอยู่ที่นี่มีชื่อว่า \"หยาง\" ส่วนอีกดวงอาจมีชื่อว่า Craig รางวัลที่มอบให้แก่ผู้บริจาคในกิจกรรม Ghoulish Gambit ของ Potato MvM!"
 "TF_TournamentMedal_Ghoulish_Haunted_2024"								"Ghoulish Gambit Haunted Tank 2024"
 "TF_TournamentMedal_Ghoulish_Haunted_2024_Desc"							"อุปกรณ์ชิ้นนี้คงจะน่ากลัวมากกว่านี้มากถ้าสีม่วงที่เราใช้ทาไม่หมดลงเสียก่อน รางวัลที่มอบให้แก่ผู้เล่นในกิจกรรม Ghoulish Gambit ของ Potato MvM!"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024"							"Ghoulish Gambit Poisonous Potato 2024"
 "TF_TournamentMedal_Ghoulish_Poisonous_2024_Desc"						"เครื่องประดับที่น่ารังเกียจที่สุด แม้แค่อยู่ใกล้ก็ยังเป็นอันตรายต่อสุขภาพจิตของคุณ แน่นอนว่าห้ามกินเป็นอันขาด มิฉะนั้นลำไส้ของคุณจะโดนดีไปด้วย รางวัลที่มอบให้แก่ผู้เล่นในกิจกรรม Ghoulish Gambit ของ Potato MvM!"
-
 "TF_TournamentMedal_FruitMixes_Gold"				"เหรียญทอง Fruit Mixes Highlander"
 "TF_TournamentMedal_FruitMixes_Silver"				"เหรียญเงิน Fruit Mixes Highlander"
 "TF_TournamentMedal_FruitMixes_Bronze"				"เหรียญทองแดง Fruit Mixes Highlander"
@@ -2925,7 +2932,6 @@
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup2_Desc"		"ผู้มีส่วนร่วม TFArena 6v6 Arena Mode Cup 2"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup3_Desc"		"ผู้มีส่วนร่วม TFArena 6v6 Arena Mode Cup 3"
 "TF_TournamentMedal_TFArena_6v6_Helper_Cup4_Desc"		"ผู้มีส่วนร่วม TFArena 6v6 Arena Mode Cup 4"
-
 "TF_TournamentMedal_CTC_1st"					"อันดับที่ 1 Cap that Cup"
 "TF_TournamentMedal_CTC_1st_Desc"				"หลายคนทำอาชีพขโมยกระเป๋าเอกสารที่มีข้อมูลลับเฉพาะ สูตรอาหาร และรูปภาพแม่ของคุณมานาน 12 ปี แต่คุณได้พิสูจน์แล้วว่า คุณยอดเยี่ยมที่สุด"
 "TF_TournamentMedal_CTC_2nd"					"อันดับที่ 2 Cap that Cup"
@@ -3289,7 +3295,6 @@
 "TF_Wearable_Shroud"				"ผ้าคลุม"
 "TF_Wearable_Butler"				"หุ่นยนต์บริกร"
 "TF_Wearable_Wound"					"บาดแผล"
-
 "TF_RobotPart_Type"	"ชิ้นส่วนหุ่นยนต์"
 "TF_CircuitBoard_Type"	"แผงวงจร"
 
@@ -4134,7 +4139,6 @@
 "TF_Hwn_DemoMisc1"		"The Scottish Snarl" // ADD THE
 "TF_Hwn_DemoMisc2"		"The Pickled Paws" // ADD THE
 "TF_Hwn_ScoutHat"		"The Wrap Battler" // ADD THE
-"TF_Hwn_ScoutMisc1"		"B-ankh!"
 "TF_Hwn_ScoutMisc2"		"The Futankhamun" // ADD THE
 "TF_Hwn_PyroHat"		"The Blazing Bull" // ADD THE
 "TF_Hwn_PyroMisc1"		"The Fallen Angel" // ADD THE
@@ -4174,7 +4178,6 @@
 "TF_ScotchBonnet_Desc"		"อย่าให้พวกโง่นั่นเอาดวงตาที่ดีของคุณไป!"
 "TF_CameraHelm"			"Frontline Field Recorder"
 "TF_CameraHelm_Desc"		"ฉันเป็นนักเขียน ผู้กำกับ และดารา"
-"TF_LargeLuchadore"		"Large Luchadore"
 "TF_LargeLuchadore_Desc"	"มวยปล้ำนั้นเป็นของจริง และตอนนี้คุณก็ได้พิสูจน์มันแล้ว"
 "TF_EngineerTopHat"		"Western Wear"
 "TF_EngineerTopHat_Desc"	"ผู้เฒ่าแห่งตะวันตกไม่เคยเห็นอาชีพแบบนี้มาก่อน"
@@ -4480,7 +4483,6 @@
 "TF_SpyGlasses_Desc"					"ลึกลับ ร้ายแรง สายตาสั้น"
 "TF_ScoutGlasses"						"The Stereoscopic Shades" // ADD THE
 "TF_ScoutGlasses_Desc"					"ถ้าคุณหลับตาข้างหนึ่ง ทีมหนึ่งจะหายไป ดังนั้นจงอย่าทำ"
-"TF_SoldierHat2"						"The Hat With No Name" // ADD THE
 "TF_SoldierHat2_Desc"					"หมวกนิรนามสำหรับบุคคลนิรนาม"
 "TF_PyroConscience"						"The Cremator's Conscience" // ADD THE
 "TF_PyroConscience_Desc"				"'เผาหมอนั่นด้วยไฟ!' 'ไม่สิ เผาหมอนั่นด้วยไฟ แล้วฟันมันด้วยขวาน!'"
@@ -4534,7 +4536,6 @@
 "TF_Winter2011_GiftHat_Desc"	"ทุกคนสุขสันต์วันสมิสมาส! ขอให้มีความสุขในวันหยุดของคุณ (หรือเศร้าหมองขึ้นอยู่กับวัฒนธรรมประเพณีของคุณ) ด้วยไอเท็ม TF ที่หายากสุดขีดนี้ ได้รับการบริจาคโดยผู้ใช้ Steam BANG!"
 "TF_Winter2011_SantaHat"			"The B.M.O.C." // ADD THE
 "TF_Winter2011_SantaHat_Desc"	"เป็นหนุ่มร่างใหญ่ในคริสต์มาสด้วยหมวกปอมปอมที่เต็มไปด้วยขนสัตว์!"
-"TF_SpyCicle"					"Spy-cicle" // ADD THE
 "TF_SpyCicle_Desc"				"มันเป็นของขวัญที่สมบูรณ์แบบสำหรับผู้ชายที่มีทุกสิ่ง: แท่งน้ำแข็งแทงเข้าไปที่กลางหลัง แม้แต่คนรวยก็ไม่สามารถซื้อมันจากร้านค้าได้"
 "TF_BallBuster"				"Wrap Assassin" // ADD THE
 "TF_BallBuster_Desc"				"ของตกแต่งต้นคริสต์มาสเหล่านี้นั้นถูกสร้างมาอย่างสวยงาม ศัตรูของคุณต้องการเห็นมันใกล้ ๆ ทำให้พวกเขามีความสุขกับพวกมันโดยการตีลูกแก้วที่แตกได้เหล่านั้นเข้าตาของพวกเขาที่ความเร็ว 90 ไมล์ต่อชั่วโมง"
@@ -4600,7 +4601,6 @@
 "TF_PEP_ScoutBag_Desc"				"ถุงนี้มาพร้อมกับสายรัดจากหนังดังนั้นเงินทั้งหมดของคุณจะไม่หล่นลงมา สายรัดจากหนังไม่ทำให้กระเป๋าแน่นทั้งหมดอีกด้วย ดังนั้นเงินบางส่วนจะหล่นลงมา และสุภาพสตรีจะรู้ว่าคุณนั้นรวยแค่ไหน (คำตอบ: มาก หล่ออีกด้วย)"
 
 "TF_DS_DumpsterDevice"				"Beggar's Bazooka"
-"TF_DS_FootballHelmet"				"The Helmet Without a Home" // ADD THE
 "TF_DS_FootballHelmet_Desc"			"คิดว่าหมวกใบนี้เป็นป้อม บ้านพกพาได้สำหรับศีรษะของคุณ มันห่อด้วยแผ่นฟอยล์อีกด้วย ดังนั้นไม่มีใครจะสามารถขโมยความคิดของคนจรจัดอันแสนมีค่าของคุณ"
 "TF_DS_CanGrenades"					"The Captain's Cocktails" // ADD THE
 "TF_DS_CanGrenades_Desc"			"ฟังทางนี้ เหล่าคนจรจัด! คุณเป็นผู้ชายมากพอที่จะถือกระป๋องที่เต็มไปด้วยซุปหมดอายุไปรอบ ๆ หรือไม่? คุณบ้ามากพอที่จะแกล้งทำว่าพวกมันเป็นระเบิดหรือไม่? คุณหิวมากพอที่อาจจะกินซุปนี้ในภายหลัง เมื่อไม่มีใครมองหรือไม่? พวกเราพนันว่า ใช่!"
@@ -4815,7 +4815,6 @@
 "TF_Item_VoodooCursedRobotArm_Desc"		"แขนข้างนี้มีคำสาปหลงเหลืออยู่เล็กน้อย คุณสามารถสร้างไอเท็มต้องสาปทั้งเจ็ดชิ้นพร้อมกันเพื่อเพิ่มขนาดของคำสาปได้ อะไรก็เกิดขึ้นได้นะ!"
 "TF_Item_VoodooCursedBass"				"Voodoo-Cursed Novelty Bass"
 "TF_Item_VoodooCursedBass_Desc"			"ด้วยเหตุผลใดก็ตาม ปลานี้มีคำสาปหลงเหลืออยู่เล็กน้อย คุณสามารถสร้างไอเท็มต้องสาปทั้งเจ็ดชิ้นพร้อมกันเพื่อเพิ่มขนาดของคำสาปได้ อะไรก็เกิดขึ้นได้นะ!"
-"TF_Item_VoodooCursedStickyBomb"		"Voodoo-Cursed Sticky-Bomb"
 "TF_Item_VoodooCursedStickyBomb_Desc"	"เศษกระสุนนี้มีคำสาปหลงเหลืออยู่เล็กน้อย คุณสามารถสร้างไอเท็มต้องสาปทั้งเจ็ดชิ้นพร้อมกันเพื่อเพิ่มขนาดของคำสาปได้ อะไรก็เกิดขึ้นได้นะ!"
 "TF_Item_VoodooCursedNail"				"Voodoo-Cursed Nail"
 "TF_Item_VoodooCursedNail_Desc"			"ตะปูนี้มีคำสาปหลงเหลืออยู่เล็กน้อย คุณสามารถสร้างไอเท็มต้องสาปทั้งเจ็ดชิ้นพร้อมกันเพื่อเพิ่มขนาดของคำสาปได้ อะไรก็เกิดขึ้นได้นะ!"
@@ -4954,7 +4953,6 @@
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin 'Ravidge' Brook\nMaxime 'Mimas Torres' Dupuis"
 "ctf_2fort_invasion_authors"	"Miguel 'BANG!' Melara\nThe Ronin\nMichael Egan\nAeon 'Void' Bollig\nMartin 'Chaofanatic' Ellis\nRyan 'Freeflow' Leitao\nHarlen 'UEAKCrash' Linke\nJames 'Retro' Wright\n"
 "pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
-"arena_byre_authors"			"Ian 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
 "cp_gorge_event_authors"		"Paul 'puxorb' Broxup"
 "cp_sunshine_event_authors"		"Rebecca 'phi' Ailes\nKimberly 'iiboharz' Riswick\nHarlen 'UEAKCrash' Linke"
@@ -5072,7 +5070,6 @@
 "pl_patagonia_authors"			"Elián \"iron\" Rodríguez\nMatthew \"Panckakebro\" Hiller\nJoão \"Hoppkins\" Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul \"puxorb\" Broxup\nBrie\nNickolas \"KrazyZark\" Fenech\nLiam \"Diva Dan\" Moffitt\nAeon \"Void\" Bollig\nErik \"Colteh\" Coltey\nExtra Ram\nMattie Konig\nTim \"Sedisocks\" Brown Lees\nPatrick \"Zeus\" Hennessy\nZoey Smith"
 "vsh_maul_authors"				"Matthew Scott \"MegapiemanPHD\" Simmons\nBrandon \"Bonk Nickeltoon\" Koller\nSzabó \"Maxxy\" Attila\nPatrick \"Zeus\" Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex \"FGD5\" Stewart\nMaksim \"Velly\" Streltsov\nJason \"Yaki\" Herman\nJesse \"Custard1\" Budd\nJoaquim \"JPRAS\" Silva\nSamuel \"ChargingTurnip\" Turner\nAlex \"Lacry\" Couto\nJames M.\nTorkil \"TheLazerSofa\" Malvik Bidtnes\nSky"
-
 "TF_YourStats"					"สถิติของคุณ"
 "TF_DuckPromoList"				"-ของตกแต่งของทุกอาชีพพร้อมสิบเอ็ดรูปแบบ\n-ติดตามสถานะของคุณระหว่างกิจกรรม End of the Line\n-ดูกระดานผู้นำและแข่งขันกับเพื่อนของคุณ\n-การขายช่วยเหลือทีม End of the Line"
 "TF_GetDucky"					"ซื้อเจ้าเป็ด"
@@ -5219,7 +5216,6 @@
 "TF_MapToken_Watergate_AdText"	"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Watergate โดยตรง"
 "TF_Map_Byre"					"Byre"
 "TF_MapToken_Byre"				"แสตมป์แผนที่ - Byre"
-"TF_MapToken_Byre_Desc"			"แผนที่ Arena\n\nสร้างโดย Ian 'Idolon' Spadin, Gavin 'Equinoxo' Sawford, Guy 'Gerbil' Ross, HellJumper, Kevin 'Ravidge' Brook, Matt 'Boylee' Boyle, Sebastian 'Seba' Grus, Umbratile, และ The Ronin\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Byre โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_MapToken_Byre_AdText"		"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Byre โดยตรง"
 "TF_Map_GorgeEvent"				"Gorge Event"
 "TF_MapToken_GorgeEvent"		"แสตมป์แผนที่ - Gorge Event"
@@ -5685,7 +5681,7 @@
 "TF_MapToken_Maul"					"แสตมป์แผนที่ - Maul"
 "TF_MapToken_Maul_Desc"				"แผนที่ Versus Saxton Hale (ชุมชน)\n\nสร้างโดย Matthew Scott \"MegapiemanPHD\" Simmons, Brandon \"Bonk Nickeltoon\" Koller, Szabó \"Maxxy\" Attila, Patrick \"Zeus\" Hennessy, Lizard Of Oz, Stuffy360, James Jameson, Phe, Mattie Konig, Alex \"FGD5\" Stewart, Maksim \"Velly\" Streltsov, Jason \"Yaki\" Herman, Jesse \"Custard1\" Budd, Joaquim \"JPRAS\" Silva, Samuel \"ChargingTurnip\" Turner, Alex \"Lacry\" Couto, James M., Torkil \"TheLazerSofa\" Malvik Bidtnes และ Sky\n\nการสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Maul โดยตรง แสดงการสนับสนุนของคุณได้แล้ววันนี้!"
 "TF_MapToken_Maul_AdText"			"-การสั่งซื้อไอเท็มนี้จะสนับสนุนผู้สร้างแผนที่ชุมชน Maul โดยตรง"
-
+"TF_MapToken_Demolition"			"แสตมป์แผนที่ - Demolition"
 "TF_Map_Unknown"				"ไม่พบแผนที่!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -5894,7 +5890,6 @@
 "TF_Map_Patagonia_StrangePrefix"		" Argentinian"
 "TF_Map_Cutter_StrangePrefix"			" Cutting Edge"
 "TF_Map_Maul_StrangePrefix"				" Overpriced"
-
 "TF_MapDonationLevel_Bronze"	"ทองแดง:"
 "TF_MapDonationLevel_Silver"	"เงิน:"
 "TF_MapDonationLevel_Gold"	"ทอง:"
@@ -6624,7 +6619,6 @@
 "ctf_penguin_peak_team_goal"			"ขโมยกระเป๋าเอกสารข่าวกรองจากฐานทัพของศัตรู"
 "ctf_penguin_peak_blu"					"ส่ง Australium ไปยังฐานทัพทีม RED เพื่อคว้าชัยชนะ!"
 "ctf_penguin_peak_red"					"ส่ง Australium ไปยังฐานทัพทีม BLU เพื่อคว้าชัยชนะ!"
-
 // Win panel strings
 "Winpanel_Team1"			"ทีม"
 "Winpanel_Team2"			"ทีม"
@@ -7332,8 +7326,6 @@
 "Tip_8_37"				"เมื่อเป็น Spy คุณสามารถใช้งาน Dead Ringer ด้วยความเสียหายจากการตกจากที่สูง หลอกศัตรูว่าตายอย่างซุ่มซ่าม!"
 "Tip_8_38"				"เมื่อเป็น Spy การเลือดออก Jarate Mad Milk และการขึ้นจากน้ำจะเปิดเผยตัวคุณในขณะที่คุณกำลังหายตัว"
 "Tip_8_39"				"เมื่อเป็น Spy Diamondback สร้างความเสียหายได้น้อยกว่า แต่มันจะเก็บคริติคอลแน่นอนทุกครั้งสำหรับทุกสิ่งก่อสร้างที่ถูกทำลายด้วย Sapper ของคุณ ทำลายสิ่งก่อสร้างของ Engineer ก่อนการเผชิญหน้าเขา และคุณจะได้รับประโยชน์อย่างเห็นได้ชัด!"
-"Tip_8_40"				"เมื่อเป็น Spy การได้รับความเสียหายจากไฟใด ๆ เมื่อกำลังใช้ Spy-cicle จะละลายอาวุธ ทำให้คุณต้องรอก่อนที่คุณจะสามารถใช้มันได้อีกครั้ง"
-
 "Tip_9_Count"				"29"
 "Tip_9_1"				"เมื่อเป็น Engineer ใช้ Build Tool เพื่อวาง Sentry Gun Dispenser และ Teleporter"
 "Tip_9_2"				"เมื่อเป็น Engineer คุณต้องการเหล็กเพื่อสร้าง ซ่อมแซม และอัปเกรดสิ่งก่อสร้างของคุณ เก็บกล่องกระสุนที่ตกเพื่อเติมเสบียงของคุณ"
@@ -9697,7 +9689,6 @@
 "TF_StrangeFilter_CommunityMapCutter_Desc"			"การเพิ่มตัวกรอง Strange นี้ให้แก่ไอเท็มชนิด Strange และการเลือกสถิติตัวใดตัวหนึ่งที่ติดตามอยู่จะจำกัดสถิตินั้นให้นับเฉพาะกิจกรรมในแผนที่ Cutter เท่านั้น"
 "TF_StrangeFilter_CommunityMapMaul"				"ตัวกรอง Strange: Maul (ชุมชน)"
 "TF_StrangeFilter_CommunityMapMaul_Desc"			"การเพิ่มตัวกรอง Strange นี้ให้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ต้องการติดตามจะจำกัดสถิตินั้นให้นับเฉพาะเหตุการณ์ในแผนที่ Maul เท่านั้น"
-
 "TF_StrangeFilter_Map2fort"				"ตัวกรอง Strange: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"การเพิ่มตัวกรอง Strange นี้แก่ไอเท็มชนิด Strange และการเลือกหนึ่งในสถิติที่ติดตามนั้นจะถูกจำกัดสถิติที่จะนับเฉพาะเหตุการณ์ในแผนที่ 2Fort เท่านั้น"
 "TF_StrangeFilter_MapDustbowl"				"ตัวกรอง Strange: Dustbowl"
@@ -10561,7 +10552,6 @@
 "Summer2024Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Summer 2024:"
 "Winter2024Cosmetics_collection"				"ชุดสะสมของตกแต่ง Winter 2024"
 "Winter2024Cosmetics_collection_desc"		"ไอเท็มจากชุดสะสมของตกแต่ง Winter 2024:"
-
 "Footer_GunMettleCosmetics"					"ไอเท็มอาจเป็นหมวก Gun Mettle ชนิด Strange หรือ Unusual"
 "TF_GunMettleCosmeticCase"					"กล่องของตกแต่ง Gun Mettle"
 "TF_GunMettleCosmeticCase_desc"				"กล่องนี้ถูกล็อคอยู่และต้องใช้\nกุญแจของตกแต่ง Gun Mettle เพื่อเปิด\n\nบรรจุไอเท็มที่สร้างโดยชุมชน\nจากชุดสะสมของตกแต่ง Gun Mettle"
@@ -12141,7 +12131,6 @@
 "Attrib_Particle370"			"Shining Bokeh"
 "Attrib_Particle371"			"Playful Aurora"
 "Attrib_Particle372"			"Frisky Morning"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
@@ -12320,7 +12309,6 @@
 "Attrib_Particle3191"		"Award Winning"
 "Attrib_Particle3192"		"Operatic Triumph"
 "Attrib_Particle3193"		"Tangled Lights"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -12457,7 +12445,7 @@
 "TF_Unique_RiftFireAxe"		"Sharpened Volcano Fragment"
 "TF_Unique_RiftFireMace"		"Sun-on-a-Stick" // ADD THE
 "TF_Shahanshah"				"The Shahanshah" // ADD THE
-"TF_BazaarBargain"			"The Bazaar Bargain" // ADD THE
+"TF_BazaarBargain"			"Bazaar Bargain" // ADD THE
 "TF_BazaarBargain_Desc"			"การสังหารโดยการเล็งยิงโดนหัวแต่ละครั้ง ลดเวลาชาร์จของอาวุธ 25% จนถึง 200%"
 "TF_PersianPersuader"			"The Persian Persuader" // ADD THE
 "TF_Ali_Babas_Wee_Booties"		"Ali Baba's Wee Booties"
@@ -15687,7 +15675,6 @@
 "TF_HalloweenSpell_VoiceSoldier_Desc"			"เวทมนตร์นี้ทำให้เสียงของทหารรับจ้างเซ็กซี่ขึ้น 4% และน่ากลัวขึ้น 130% – ยกเว้นของ Scout ที่จะเซ็กซี่ลง -5%\nเวทมนตร์นี้สามารถนำไปใช้ได้กับหมวกของ Soldier"
 "TF_HalloweenSpell_VoiceDemo"					"Halloween Spell: Demoman's Cadaverous Croak"
 "TF_HalloweenSpell_VoiceDemo_Desc"				"เวทมนตร์นี้ทำให้เสียงของทหารรับจ้างเซ็กซี่ขึ้น 4% และน่ากลัวขึ้น 130% – ยกเว้นของ Scout ที่จะเซ็กซี่ลง -5%\nเวทมนตร์นี้สามารถนำไปใช้ได้กับหมวกของ Demoman"
-"TF_HalloweenSpell_VoiceMedic"					"Halloween Spell: Medic's Blood-curdling Bellow"
 "TF_HalloweenSpell_VoiceMedic_Desc"				"เวทมนตร์นี้ทำให้เสียงของทหารรับจ้างเซ็กซี่ขึ้น 4% และน่ากลัวขึ้น 130% – ยกเว้นของ Scout ที่จะเซ็กซี่ลง -5%\nเวทมนตร์นี้สามารถนำไปใช้ได้กับหมวกของ Medic"
 "TF_HalloweenSpell_VoiceHeavy"					"Halloween Spell: Heavy's Bottomless Bass"
 "TF_HalloweenSpell_VoiceHeavy_Desc"				"เวทมนตร์นี้ทำให้เสียงของทหารรับจ้างเซ็กซี่ขึ้น 4% และน่ากลัวขึ้น 130% – ยกเว้นของ Scout ที่จะเซ็กซี่ลง -5%\nเวทมนตร์นี้สามารถนำไปใช้ได้กับหมวกของ Heavy"
@@ -16060,8 +16047,6 @@
 "TF_DailyGiftGiverRewardHat_Desc"	"ขอแสดงความยินดีด้วยกับการส่งของขวัญที่มากกว่าผู้เล่นใด ๆ ใน TF2 เมื่อวานนี้! สวมสิ่งนี้ด้วยความภาคภูมิใจก่อนที่มันจะเปลี่ยนมือในวันพรุ่งนี้!"
 "TF_DailyDuelWinnerRewardHat"		"Dueler"
 "TF_DailyDuelWinnerRewardHat_Desc"	"ขอแสดงความยินดีด้วยกับการชนะการดวลที่มากกว่าผู้เล่นใด ๆ ใน TF2 เมื่อวานนี้! สวมสิ่งนี้ด้วยความภาคภูมิใจก่อนที่มันจะเปลี่ยนมือในวันพรุ่งนี้!"
-
-"TF_Heavy_Robot_Ushanka_Hat"		"The U-clank-a" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"หมวกยูชังก้าเหล็กนี้หลอมในเตาไฟและใช้สวมไว้บนศีรษะของคุณ ซึ่งมันต้องใช้ความร้อนที่สม่ำเสมอหลอมตลอดทั้งวัน ต้องแน่ใจว่า ได้ยินเสียงประกายไฟเผาไหม้ดังสักสามครั้งด้วยนะ!"
 "TF_Spy_Robot_Fedora"				"The Stealth Steeler" // ADD THE
 "TF_Spy_Robot_Fedora_Desc"			"หมวกหันกลับหลังมันดูขาดเสน่ห์ไปหรือเปล่า? มันดูเรียบง่ายเกินไปไหม? ลองสวมหมวกโลหะ 15 ปอนด์ที่ศีรษะของคุณดูสิ! เพลิดเพลินไปกับการท้าทายเมต้าที่ต้องก้มคอของคุณจากการลอบหลบเหล่ายาม! นี่เป็นอีกความบันเทิงที่เสียวสันหลัง!"
@@ -16179,7 +16164,6 @@
 "TF_Weapon_Axtinguisher_Festive2012"	"Festive Axtinguisher"
 "TF_Weapon_BuffBanner_Festive2012"		"Festive Buff Banner"
 "TF_Weapon_Sandvich_Festive2012"		"Festive Sandvich"
-"TF_Weapon_Ubersaw_Festive2012"			"Festive Ubersaw"
 "TF_Weapon_FrontierJustice_Festive2012"	"Festive Frontier Justice"
 "TF_Weapon_Huntsman_Festive2012"		"Festive Huntsman"
 "TF_Weapon_Ambassador_Festive2012"		"Festive Ambassador"
@@ -16602,7 +16586,6 @@
 "TF_jul13_positive_pressure_veil_Desc"			"\"การหายใจเป็นที่พึงพอใจแก่ฉัน แต่บางทีอากาศก็มีกลิ่นเหม็น ตอนนี้ฉันหัวเราะใส่หน้าของอากาศ ขอบคุณเจ้าหมวกนี้มาก\" (คำอธิบายแปลจากภาษาเยอรมัน)"
 "TF_jul13_emergency_supplies"			"Das Feelinbeterbager"
 "TF_jul13_emergency_supplies_Desc"			"\"สวัสดี เหล่าพลทหาร! พวกคุณจะตายเร็ว ๆ นี้ นี่คือยา\" (คำอธิบายแปลจากภาษาเยอรมัน)"
-"TF_jul13_secret_state_surgeon"			"Das Ubersternmann"
 "TF_jul13_secret_state_surgeon_Desc"			"\"คุณน่ะไม่สำคัญ แต่เป็นฉัน หมวกของฉันเป็นหมวกลับ\" (คำอธิบายแปลจากภาษาเยอรมัน)"
 "TF_jul13_heavy_defender"			"Das Metalmeatencasen"
 "TF_jul13_heavy_defender_Desc"			"\"มีความแข็งแกร่งในเสื้อเกราะเหล็กกล้ามหน้าอก หน้าอกของคุณสวมใส่สบายแน่นอน\" (คำอธิบายแปลจากภาษาเยอรมัน)"
@@ -17073,7 +17056,6 @@
 "TF_dec2014_engineer_detectiveholster"		"Holstered Heaters"
 "TF_dec2014_engineer_detectiveradio"		"Cop Caller"
 "TF_dec2014_engineer_detectiveglasses"		"Conagher's Combover"
-"TF_dec2014_engineer_seal"		"Clubsy The Seal"
 "TF_dec2014_medic_unknown_mann"		"Unknown Mann"
 "TF_dec2014_surgeons_shako"		"Surgeon's Shako"
 "TF_dec2014_hunter_beard"		"Bushman's Bristles"
@@ -17547,7 +17529,6 @@
 "TF_fall17_crit_cloak_Desc"	" "
 "TF_fall17_firemans_essentials"	"Fireman's Essentials"
 "TF_fall17_firemans_essentials_Desc"	" "
-"TF_fall17_deyemonds"	"D-eye-monds"
 "TF_fall17_deyemonds_Desc"	" "
 "TF_fall17_deitys_dress"	"Deity's Dress"
 "TF_fall17_deitys_dress_Desc"	" "
@@ -17625,7 +17606,6 @@
 
 "TF_hwn2018_shell_of_a_mann"	"A Shell of a Mann"
 "TF_hwn2018_dell_in_the_shell"	"Dell in the Shell"
-"TF_hwn2018_terror_antula"	"Terror-antula"
 "TF_hwn2018_deadbeats"	"Deadbeats"
 "TF_hwn2018_deadbeats_Style0"	"มีหมวก"
 "TF_hwn2018_deadbeats_Style1"	"ไม่มีหมวก"
@@ -18225,7 +18205,6 @@
 "TF_dec24_westcoat_style2"					"Bad"
 "TF_dec24_westcoat_style3"					"Ugly"
 "TF_dec24_snug_sharpshooter"			"Snug Sharpshooter"
-
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "ทรงผม Pompadour ยุคก่อนประวัติศาสตร์นี้ถูกตัดเป็นครั้งแรกโดย Sir Edmund Hillary บนเนินเขาเอเวอเรสต์ ตามมาด้วยการที่ Hillary สังเกตุเห็นว่าตัวเองขี้แตกคากางเกงของเขา"
 "TF_HimalayanHairShirt"        "Himalayan Hair Shirt" // ADD THE
