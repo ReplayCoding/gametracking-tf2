@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 3252
+Revision: 3271
 {
 "world_maxs" "3888 8256 922"
 "world_mins" "-2512 -832 -296"
@@ -8,7 +8,7 @@ Revision: 3252
 "detailvbsp" "detail_sawmill.vbsp"
 "detailmaterial" "detail/detailsprites_sawmill"
 "classname" "worldspawn"
-"mapversion" "3252"
+"mapversion" "3271"
 "hammerid" "1"
 }
 {
@@ -6139,7 +6139,7 @@ Revision: 3252
 "target" "Portal_M_5"
 "PortalVersion" "1"
 "FadeStartDist" "912"
-"FadeDist" "1024"
+"FadeDist" "1512"
 "classname" "func_areaportalwindow"
 "hammerid" "1720536"
 }
@@ -6149,7 +6149,7 @@ Revision: 3252
 "target" "Portal_M_6"
 "PortalVersion" "1"
 "FadeStartDist" "912"
-"FadeDist" "1024"
+"FadeDist" "1512"
 "classname" "func_areaportalwindow"
 "hammerid" "1720548"
 }
@@ -8179,24 +8179,6 @@ Revision: 3252
 "hammerid" "994567"
 }
 {
-"origin" "120 1857 223.47"
-"spawnflags" "0"
-"pitch" "-30.9756"
-"angles" "-30.9756 90.964 176.619"
-"_zero_percent_distance" "512"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "208 167 88 200"
-"_inner_cone" "10"
-"_fifty_percent_distance" "320"
-"_exponent" "1"
-"_distance" "1"
-"_cone" "45"
-"classname" "light_spot"
-"hammerid" "853115"
-}
-{
 "origin" "808 6424 456.108"
 "style" "0"
 "_zero_percent_distance" "400"
@@ -8441,7 +8423,7 @@ Revision: 3252
 "hammerid" "853040"
 }
 {
-"origin" "520 2980 272"
+"origin" "504 2989 272"
 "spawnflags" "0"
 "pitch" "-45.973"
 "angles" "-45.973 271.189 176.26"
@@ -8659,7 +8641,7 @@ Revision: 3252
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "1158 2952 268"
+"origin" "1158.5 2952 268"
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_illusionary"
@@ -8715,7 +8697,7 @@ Revision: 3252
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "1158 2696 268"
+"origin" "1158.5 2696 268"
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_illusionary"
@@ -12076,5 +12058,69 @@ Revision: 3252
 "disablereceiveshadows" "0"
 "classname" "func_door"
 "hammerid" "2341112"
+}
+{
+"origin" "1169 2952 271.762"
+"spawnflags" "0"
+"pitch" "-45.973"
+"angles" "-45.973 1.18927 176.26"
+"_zero_percent_distance" "512"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "208 167 88 200"
+"_inner_cone" "10"
+"_fifty_percent_distance" "320"
+"_exponent" "1"
+"_distance" "1"
+"_cone" "45"
+"classname" "light_spot"
+"hammerid" "2466849"
+}
+{
+"portalnumber" "44"
+"TranslucencyLimit" "0.2"
+"target" "Portal_M_12"
+"PortalVersion" "1"
+"FadeStartDist" "912"
+"FadeDist" "1512"
+"classname" "func_areaportalwindow"
+"hammerid" "2466890"
+}
+{
+"portalnumber" "45"
+"TranslucencyLimit" "0.2"
+"target" "Portal_M_13"
+"PortalVersion" "1"
+"FadeStartDist" "912"
+"FadeDist" "1512"
+"classname" "func_areaportalwindow"
+"hammerid" "2466898"
+}
+{
+"model" "*153"
+"targetname" "Portal_M_12"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1084 3397.5 268"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "2466908"
+}
+{
+"model" "*154"
+"targetname" "Portal_M_13"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "852 3397.5 268"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "2466913"
 }
  

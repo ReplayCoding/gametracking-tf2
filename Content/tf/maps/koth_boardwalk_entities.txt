@@ -8,7 +8,7 @@ Revision: 141
 "detailvbsp" "detail_2fort.vbsp"
 "detailmaterial" "detail/detailsprites_2fort"
 "classname" "worldspawn"
-"mapversion" "3123"
+"mapversion" "3131"
 "hammerid" "1"
 }
 {
@@ -19155,12 +19155,6 @@ Revision: 141
 "angles" "30 0 0"
 "classname" "prop_dynamic"
 "hammerid" "4497093"
-}
-{
-"origin" "-4962 1168 161.005"
-"angles" "0 0 0"
-"classname" "info_player_teamspawn"
-"hammerid" "1285419"
 }
 {
 "origin" "-5092 314 219"

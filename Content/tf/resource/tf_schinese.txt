@@ -530,7 +530,7 @@
 "OnlyAllowUniqueQuality"						"不允许特殊品质的物品"
 
 // Weapon strings
-"TF_Weapon_Bat"			"短棍"
+"TF_Weapon_Bat"			"球棒"
 "TF_Weapon_Bottle"		"瓶子"
 "TF_Weapon_FireAxe"		"消防斧"
 "TF_Weapon_Club"		"反曲刀"
@@ -557,7 +557,7 @@
 "TF_Weapon_StickybombLauncher"	"黏性炸弹发射器"
 "TF_Weapon_Tranq"		"镇定枪"
 "TF_Weapon_Wrench"		"扳手"
-"TF_Weapon_Wrench_Desc"	"敲击建筑，可以加快其建造速度，并可对友方建筑进行升级和修复。"
+"TF_Weapon_Wrench_Desc"	"敲击友方建筑可进行升级和修复，同时还能加快建造速度"
 "TF_Weapon_ObjectSelection"	"建造"
 "TF_Weapon_PDA_Engineer_Builder"		"建造工具"
 "TF_Weapon_PDA_Engineer_Destroyer"		"拆除工具"
@@ -610,21 +610,21 @@
 "TF_Weapon_Camera"			"摄影机"
 "TF_Weapon_Medigun_Resist"	"疫苗接种枪"
 "TF_Weapon_Cannon"			"脱缰巨炮"
-"TF_Weapon_Cannon_desc"		"双重打击！炮弹爆炸对此炮弹击中的目标造成迷你爆击"
+"TF_Weapon_Cannon_desc"		"双重轰击！炮弹在击中目标后，爆炸对此目标造成迷你爆击"
 "TF_Weapon_Shotgun_Building_Rescue" "火线救兵"
 "TF_Weapon_Ap_Sap"			"光圈科技牌电子工兵" // ADD THE
-"TF_Weapon_Ap_Sap_desc"		"我们曼恩公司和一位女士做了一笔合算的交易——我们得到了一个废弃的科研设施内一满仓库的几乎全新的电子工兵。这种电子工兵与其它种类的不同，它是有智慧的，而且会在你干活时，滔滔不绝地演讲几个小时。"
+"TF_Weapon_Ap_Sap_desc"		"曼恩公司拿下了一笔划算的交易，从某废弃科研设施的好心女士那里，收购了整整一仓库的电子工兵。它们几乎没怎么用过，还可能有丁点小问题，而且和其它型号有些不同——它具有自主意识，也就是说它会在你想专心干活时，自顾自地滔滔不绝上好几个小时。 "
 "TF_Weapon_Pork_Product"	"猪肉制品"
 "TF_Weapon_Severed_Arm"		"断臂"
 "TF_Weapon_Parachute"		"降落伞"
 "TF_Weapon_Hammer"			"战锤"
 "TF_Weapon_Machete"			"砍刀"
 "TF_Weapon_Skullbat"		"骨质球棒"
-"TF_Weapon_HotHand"			"灼热之手" // ADD THE
-"TF_Weapon_HotHand_Desc"			"它能告诉你的对手，和所有正在看着屏幕右上角的人一件事：某个幸运的人被你一巴掌扇成了蠢蛋"
+"TF_Weapon_HotHand"			"火热手感" // ADD THE
+"TF_Weapon_HotHand_Desc"			"它会告诉你的对手，以及所有正在看着屏幕右上角的人一件事：某张幸运的脸蛋被你一巴掌扇成了蠢蛋。"
 "TF_Weapon_FireballLauncher"	"火球发射器"
 "TF_Weapon_DragonsFury"	"龙之怒焰" // ADD THE
-"TF_Weapon_DragonsFury_Desc"	"威力强大的单发火焰喷射器，连续击中敌人时装填速度更快，并造成额外伤害。"
+"TF_Weapon_DragonsFury_Desc"	"威力强大的单发火焰喷射器，连续命中敌人可以加快攻击速度，并造成额外伤害。"
 "TF_Weapon_DragonsFury_NeutralDesc"	"主要攻击和辅助能力共用同一个压力槽。\n\n主要攻击：发射一个高速飞行的火球，并短暂点燃敌人\n\n辅助能力：释放一股压缩气流，可以击退敌人、反弹飞行物，并为着火的队友灭火。"
 "TF_Weapon_DragonsFury_PositiveDesc"	"对着火的敌人造成 300% 的伤害\n击中敌人后攻击冷却速率 +50%"
 "TF_Weapon_DragonsFury_NegativeDesc"	"使用辅助能力后攻击冷却速率 -50%"
@@ -3424,11 +3424,11 @@
 
 // DRG Pyro Pack
 "TF_Phlogistinator"		"燃素喷射器" // ADD THE
-"TF_Phlogistinator_Desc"		"这是一个完美的机器，能够唤醒燃素，让它们熊熊燃烧。这种燃素存在于可燃的生物体内——就是指所有生物体内。"
+"TF_Phlogistinator_Desc"		"这件革命性的装置，能够唤醒所有可燃生物体内的火焰元素——“燃素”，也就是说，让所有的可燃生物都可燃。"
 "TF_ThirdDegree"		"三度烧伤" // ADD THE
-"TF_ThirdDegree_Desc"		"作为对世界各地的伐木工、林区居民和原子分裂器的恩赐，这个不可思议的伐“物”装置可以将每一个分子燃至渣。"
+"TF_ThirdDegree_Desc"		"这把妙不可言的伐“物”利器堪称全球伐木工、拓荒边民和原子切割手的福音，其奥妙在于——劈开物体的同时，还能将每个分子燃烧至渣。"
 "TF_ManMelter"			"熔人枪" // ADD THE
-"TF_ManMelter_Desc"			"此武器在不手持时也会自动装弹。\n\n该设备粉碎了传统共识中人体内分子排列是固定的，而不可能分布在一平方英里内的观念。"
+"TF_ManMelter_Desc"			"此武器在不手持时也会自动装弹。\n\n这件装置的存在是对传统科学共识的公然侮辱——人体内的分子不再是“井然有序”地排列，而可散落在一平方英里内。"
 "TF_Bubble_Helmet"		"带烟斗的氧气罩" // ADD THE
 "TF_Bubble_Helmet_Desc"		"这个发明完成了许多伟大科学家——从荷兰国王到威灵顿公爵——都没有完成的人道主义目标：让一个真正的绅士能够在太空中抽烟斗。"
 "TF_GrordbortPyro_Tank"			"喷射背包" // ADD THE
@@ -3479,7 +3479,7 @@
 "TF_SteelJaw"			"夏日狂欢大钢颚"
 "TF_SteelJaw_Desc"		"耶！夏天到了！我们玩得非常开心！\n哦天啊，他的脑袋被牢牢套住了！"
 "TF_Summer_Shades"		"夏季太阳镜"
-"TF_Summer_Shades_Desc"		"它在夏季非常有名。"
+"TF_Summer_Shades_Desc"		"这副墨镜还真有名。"
 "TF_Scout_FlipFlops"		"人字拖"
 "TF_Scout_FlipFlops_Desc"		"幻想自己有强壮内收肌的人专用。"
 "TF_Scout_Towels"			"幸运 42"
@@ -3487,7 +3487,7 @@
 "TF_SummerHat"		"夏日遮阳帽"
 "TF_SummerHat_Desc"	"我们沿着海滩走。"
 "TF_NoiseMaker_Fireworks"	"噪音制造器 - 烟火"
-"TF_ToweringPillarOfSummerShades"	"高耸的夏季太阳镜"
+"TF_ToweringPillarOfSummerShades"	"层叠高耸的夏日太阳镜"
 "TF_Summer2014_Level0"	"夏季新人包"
 "TF_Summer2014_Level0_Desc"	"给 2014 年 Steam 夏季大冒险的参与者奖励。\n\n内有几样物品，可在背包页面打开。"
 "TF_Summer2014_Level1"	"夏季大冒险礼包"
@@ -3840,7 +3840,7 @@
 "TF_HA_Spy_Desc"			"如果有这么一样东西，能令所有的先生女士们都为之着迷，那就是一个谜。有什么比带上忍者的头套更能使你像一个谜呢？“天哪，我看不见那个男人的脸！”她们将会喊道，“他一定有一个我用爱才能一探究竟的悲惨秘密”。"
 
 "TF_Awes_Medal"		"王牌英雄徽章"
-"TF_Awes_Medal_Desc"		"这枚徽章象征着另一个佣兵组织对你的承认。但是也仅仅是个承认。他们可能并不喜欢你或你的一切东西。他们也可能不希望你带着请柬在他们的私人佣兵派对上露面。而且，他们个个都是冷酷无情的杀手，你懂了吗？最后别忘了，他们的派对上有菠菜酱哦。"
+"TF_Awes_Medal_Desc"		"这枚徽章代表着另一个佣兵组织对你的承认。但也仅此而已，明白吗？并不是说人家真的喜欢你之类的。他们几周前给你发了佣兵派对邀请函，也不代表就真的希望你去露面。他们可是冷血杀手，懂了吗？哦对了，到时候派对上有菠菜酱哦。"
 "TF_Awes_Sniper"	"孤星" // ADD THE
 "TF_Awes_Sniper_Desc"		"您是这片地界的头，可不得戴顶宽檐的帽，还要配颗星。权势有多大，帽就得有多大——您的权势嘛，那叫一个遮天蔽日。说真的，我们还真搞不明白，没了这顶帽，大伙又怎么叫人当回事呢。"
 "TF_Awes_Pyro"		"俄罗斯火箭人" // ADD THE
@@ -3858,9 +3858,9 @@
 "TF_SD_Chain_Style0"	"无胸毛"
 "TF_SD_Chain_Style1"	"有胸毛"
 "TF_SD_Tattoos"		"佣兵的龙刺青" // ADD THE
-"TF_SD_Tattoos_Desc"		"用你的霸气刺青向中国的黑帮展示身份吧，这并不需要真正参与任何非法的犯罪阴谋！注意：千万不要真的让他们看到。"
-"TF_SD_Glasses"		"马列主义者" // ADD THE
-"TF_SD_Glasses_Desc"		"人人皆知，一笑百病消。但你是否知道，笑，也是最好的伪装？还好，你并不是在中国黑社会里卧底的条子。不，等等，你就是！你已经死了。新手们，学着点，这副眼镜太滑稽了。"
+"TF_SD_Tattoos_Desc"		"纹上你的霸气刺青，给那些中国黑社会瞧瞧谁才是大佬，而且还不需要真去干那些犯罪勾当！注意：千万别真给他们看到了。"
+"TF_SD_Glasses"		"大鼻笑咖" // ADD THE
+"TF_SD_Glasses_Desc"		"世人皆知，欢笑是最佳的良药。但你是否知道，欢笑也是最好的伪装？不知道？还好你不是在中国黑社会里卧底的条子。哦不，你还真是。这下你死定了。自己看吧，菜鸟，这副眼镜有多搞笑。"
 "TF_SD_Glasses_Style0"		"不要雪茄"
 "TF_SD_Glasses_Style1"		"是的，来根雪茄"
 "TF_SD_Helmet"		"人肉炮弹" // ADD THE
@@ -3876,10 +3876,10 @@
 "TF_XCOM_Pyro"			"451 区"
 "TF_XCOM_Pyro_Desc"			"如果外星人入侵 Badlands，并且用外星之力将我们的头变得跟外星人一样的话，火焰兵那奇葩的样子，就是外星人毒手科学而准确的体现。我们曾尝试帮其他队友制造仿制品，但当我们完成机枪手的之后，就没办法把剩下的完成了—— 因为大部分时间都花在痛哭和呕吐上了。"
 "TF_XCOM_Pin"			"警觉的心" // ADD THE
-"TF_XCOM_Pin_Desc"			"这面徽章告知大家你至少有稍微注意到外星人存在的可能。你已经去过某些关于外星人的大会；你曾不安地望着天空；甚至外星人出现的征兆已经有好几次了。如果外星生命体真的出现的话，你就能骄傲地向其他人展示你的徽章，并向大家表示你早就觉得这一天终将到来。"
+"TF_XCOM_Pin_Desc"			"这枚徽章向世人傲然宣告：外星人真实可能存在的可能性，你至少算是马马虎虎意识到了一点。 你去过几场外星人研究大会，曾经若有所思地遥望着天空，还把《天兆》反复看了好几回。如果地外生命有朝一日当真降临，你便可以堂而皇之地向大家展示这件徽章，表示这种事发生的可能性早就让你乐在其中了。 "
 
 "TF_Robot_Sandvich"		"机械三明治" // ADD THE
-"TF_Robot_Sandvich_Desc"	"机器人可不只会喝油。他们还会吃一些外形与人类食物相似的，用金属材质构造的东西。为什么？如果你够聪明的话，为什么不告诉我呢？如果有什么区别的话，那么咀嚼一块金属三明治会更有意义。如果你那么爱机油的话，为什么不嫁给它，然后生个孩子，接着狼狈地离婚，最后和它一起共享监护权呢？"
+"TF_Robot_Sandvich_Desc"	"机器人可不只会喝油。它们还会啃一些外形与人类食物相似的金属制品。你问为什么？既然你这么聪明，那要不你来告诉我为什么？真要这么说的话，吃块铁皮三明治就是要合理得多。你要真这么喜欢油，咋不跟它结个婚，生个娃，然后一塌糊涂地把婚离了，两个人一块承担监护责任啊？"
 "TF_CompanionSquare_Badge"		"永远的同伴方块徽章" // ADD THE
 "TF_CompanionSquare_Badge_Desc"		"你是一名头发斑白的友谊老将。你的血和汗被投入到无数地毯堡垒的建设中。你在数百场悲惨的枕头大战中战斗过。让这永远的同伴徽章告诫所有人：你懂得什么才是真正的兄弟。"
 "TF_ThreeA_Badge"		"3A 徽章" // ADD THE
@@ -3890,14 +3890,14 @@
 "TF_COH2_Medic"			"战斗医生之帽" // ADD THE
 "TF_COH2_Medic_Desc"		"你从来就没像祖父一样在战场上浴血奋斗过。但是你有祖父永远无法获得的东西：勇气。不，等一下，勇气是你祖父拥有的，你拥有的是这顶帽子。"
 "TF_COH2_Badge"			"英雄连的荣誉徽章" // ADD THE
-"TF_COH2_Badge_Desc"		"这个徽章证明你是英雄连里的一员，当然这不代表你是个英雄。只是为了你知道一些事情，好让他们偶尔带你一起消磨时光。"
+"TF_COH2_Badge_Desc"		"这个徽章证明你是英雄连的一员，当然这并不代表你是个英雄。只不过有几个相识的英雄人物，偶尔也捎着你混混日子而已。"
 "TF_COH2_Badge_Style1"		"俄国风格"
 "TF_COH2_Badge_Style2"		"德国风格"
 
 "TF_Dishonored_Badge"			"鲸骨护身符" // ADD THE
 "TF_Dishonored_Badge_Desc"			"用顿沃市中最好的鲸骨做成，这个护身符保证可以提供比其他骨头饰品还多十倍的幸运。和你在买福利彩票时经常配戴的用兔蹄、枯手或蝙蝠翅膀串成的丑陋项链说再见吧。"
 "TF_Dishonored_Mask"			"冷血杀手的面具" // ADD THE
-"TF_Dishonored_Mask_Desc"			"这个面具可是骗子专用的哦，附带施行古老骗术的技能：让所有人都以为你是一个倒霉透顶、颜面无存而且还刚拔完牙的机器人，这样你就可以向他们借一大笔钱！如果骗术被识破了，还可以用眼睛部位的枪来抢劫哦！"
+"TF_Dishonored_Mask_Desc"			"骗子们专门用这个面具来施展书上的一个古老骗术：让所有人都以为你是一个倒霉透顶、颜面无存而且还刚拔完牙的机器人，这样就可以让他们借给你一笔钱！如果骗术被识破了，还可以用眼孔里配备的枪来直接抢劫他们！"
 
 "TF_TW_Cape"				"苏格兰王的斗篷" // ADD THE
 "TF_TW_Cape_Desc"				"人们会披上斗篷以显示自己至高无上的荣耀，如国王、德古拉、假装自己是巫师的青春期少年。而现在，你也可以穿上这件“苏格兰王”的斗篷，加入他们的行列了。光荣地披上它，让那些还没到青春期的小孩们羡慕吧。"
@@ -3916,7 +3916,7 @@
 "TF_TW_Medic_Coat_Style1"		"领带"
 "TF_TW_Medic_Coat_Style2"		"肩章"
 "TF_TW_Spy_Coat"			"高雅的恶棍" // ADD THE
-"TF_TW_Spy_Coat_Desc"			"这件衣服可极大提升你的形象，让人一看便知你是间谍中的王牌，你甚至其他什么都不必穿了。等下次只穿这一件衣服，近乎裸体地去高级宴会吸引人们的目光吧。看看他们有多么地羡慕嫉妒恨。看到那个正在报警的家伙了吗？他在嫉妒你吗？是的，他就是。"
+"TF_TW_Spy_Coat_Desc"			"这件衣服可极大提升你的形象，让人一看便知你是间谍中的佼佼者，甚至别的衣服都没必要穿了。下次你就只穿这一件，在盛大晚宴上近乎裸体地盛装出席，尽情吸引人们的目光吧。看看他们多么羡慕嫉妒恨。那个报警的家伙是咋回事？他这是嫉妒了吗？那还用说么。"
 "TF_TW_Spy_Coat_Style1"			"领带"
 "TF_TW_Spy_Coat_Style2"			"肩章"
 "TF_TW_Staff"				"自由权杖" // ADD THE
@@ -3974,6 +3974,7 @@
 "TF_Soldier_Pot_Hat"		"不锈锅"
 "TF_Soldier_Pot_Hat_Desc"		"保护你的脑袋免遭子弹和弹片的袭击。\n同时还能把汤加热。"
 "TF_Soldier_Viking_Hat"		"暴君头盔"
+"TF_Soldier_Viking_Hat_Desc"		"老子这都把你抽穿越了，还带了顶维京人的帽子回来。"
 "TF_Demo_Scott_Hat"		"苏格兰软帽"
 //"TF_Demo_Scott_Hat_Desc"		"Glengarry Bonnet Description"
 "TF_Medic_Tyrolean_Hat"		"传统提洛帽"
@@ -4005,11 +4006,11 @@
 "TF_Demo_Top_Hat"		"苏格兰大礼帽"
 //"TF_Demo_Top_Hat_Desc"		"Scotsman's Stove Pipe Description"
 "TF_HonestyHalo"		"骗子的悔恨"
-"TF_HonestyHalo_Desc"		"尽管有些人会不惜一切代价来得到帽子，但是你在获取帽子的路途上保持着你的坚毅和正直。正因为如此，你得到了你应得的。"
+"TF_HonestyHalo_Desc"		"有些人为获取帽子不择手段，但你在头部装潢之业上一贯光明磊落。正因如此，你应得嘉奖。"
 "TF_HonestyHalo_Style0"		"不显示帽子"
 "TF_HonestyHalo_Style1"		"显示帽子"
-"TF_Halloween_Hat"		"令人不安的万圣节面具"
-"TF_Halloween_Hat_Desc"		"棕色的纸看上去不会如此令人不安。"
+"TF_Halloween_Hat"		"阴森森的万圣节面具"
+"TF_Halloween_Hat_Desc"		"棕色的纸袋儿，从未如此阴森。"
 "TF_Halloween_Head"		"脱缰的无头骑士南瓜头"
 "TF_Halloween_Head_Desc"	"他自始至终就只有那颗头..."
 "TF_Domination_Hat_Ghastlier"		"更可怕的折叠礼帽"
@@ -4029,12 +4030,12 @@
 "TF_PropagandaContest_SecondPlace_Desc"	"宣传竞赛亚军"
 "TF_PropagandaContest_ThirdPlace"	"山姆大叔的帽子"
 "TF_PropagandaContest_ThirdPlace_Desc"	"宣传竞赛季军"
-"TF_ToweringPillar_Hat"		"高耸的塔柱帽"
-"TF_ToweringPillar_Hat_Desc"		"啊哈哈！你像极了贫穷但高傲的爱尔兰人。晦暗的夜晚也遮不住我的“帽之塔”的威严。"
-"TF_NobleAmassment_Hat"		"高贵的层叠帽"
-"TF_NobleAmassment_Hat_Desc"		"专为那些认为自己的帽子也配戴上一顶帽子的绅士们设计。"
-"TF_ModestPile_Hat"		"朴素的桩柱帽"
-"TF_ModestPile_Hat_Desc"		"因为没有一个绅士会丢掉帽子。"
+"TF_ToweringPillar_Hat"		"层叠高耸的群帽之塔"
+"TF_ToweringPillar_Hat_Desc"		"啊哈哈！你那粗鄙无礼的样子像极了一个身无分文的爱尔兰人。休得玷污我这群帽之塔的威严。"
+"TF_NobleAmassment_Hat"		"荣华富贵的帽中之帽"
+"TF_NobleAmassment_Hat_Desc"		"帽上加帽尽显非凡，这位绅士深以为然。"
+"TF_ModestPile_Hat"		"低调内敛的一帽之柱"
+"TF_ModestPile_Hat_Desc"		"毕竟绅士岂能无帽。"
 "TF_OSXItem"			"耳机"
 "TF_OSXItem_Desc"		"OSX 的象征!"
 "TF_LinuxItem"			"Tux"
@@ -4112,7 +4113,7 @@
 "TF_TheBattalionsBackup_Desc"	"对敌方造成伤害可积累怒气值。\n怒气满时可激活增益，\n为你和范围内队友提供减伤保护。\n降低 50% 步哨伤害 ，\n免疫爆击的额外伤害，\n降低 35% 其它所有伤害。"
 "TF_OlSnaggletooth"		"老鳄鱼龅牙"
 "TF_TheShortstop_Desc"		"4 发弹匣供弹，每次装填整个弹匣。\n辅助能力：伸手推开敌人！\n\n曼恩公司最新出品\n采用高姿态中折式原理的防身利器。"
-"TF_TheHolyMackerel_Desc"	"受到鱼的攻击实在是丢尽了脸。"
+"TF_TheHolyMackerel_Desc"	"挨咸鱼一顿打，脸都要丢光了。"
 "TF_MadMilk_Desc"		"玩家在攻击浑身是牛奶的敌人时\n可以恢复本次攻击伤害 60% 的生命值。\n可用于灭火。"
 "TF_Weapon_RocketLauncher_Jump_Desc" "专用于学习火箭跳跃技巧与套路的特殊火箭发射器。\n此武器的伤害为零！"
 "TF_Weapon_StickyBomb_Jump_Desc" "特殊的无杀伤性黏性炸弹发射器，专用于学习黏弹跳跃的技巧与套路。"
@@ -4133,13 +4134,13 @@
 "TF_HeavyUmbrella_Desc"		"你要时刻警惕着\n周围的瓶手道。"
 "TF_DemoStuntHelmet"		"冷静的特技演员"
 "TF_DemoStuntHelmet_Desc"	"黏弹跳跃者的最佳拍档。"
-"TF_Seuss"			"博士的达珀礼帽"
+"TF_Seuss"			"博士妙妙帽"
 "TF_PyroBeanie"			"小偷的喘息"
 "TF_PyroBeanie_Desc"		"在燃烧侦察兵一整天之后。"
 "TF_HeavyPugilistProtector"	"拳击手头套"
 "TF_SoldierChiefRocketeer"	"印第安酋长帽"
 "TF_WikiCap"			"维基军帽"
-"TF_WikiCap_Desc"		"授予为官方TF2 Wiki作出巨大贡献的朋友\nhttp://wiki.teamfortress.com/"
+"TF_WikiCap_Desc"		"授予军团要塞官方维基的杰出贡献者\nhttps://wiki.teamfortress.com/"
 "TF_MannCoCap"			"曼恩公司宣传帽"
 "TF_MannCoOnlineCap"			"曼恩公司在线商店宣传帽"
 "TF_UnusualCap"				"特效之帽"
@@ -4160,7 +4161,7 @@
 "TF_FestiveTree"		"精美的圣诞树"
 "TF_TavishCrown"		"塔维什王子的皇冠"
 "TF_HelpedNewUserHat"	"教授的眼镜"
-"TF_HelpedNewUserHat_Desc"	"给你的老师一份包含了曲别针、橡皮圈，饱含着洞察力的大礼。"
+"TF_HelpedNewUserHat_Desc"	"赠予你老师的礼物，象征着觉悟与洞察，捎带着曲别针与橡皮圈。"
 "TF_Crocleather_Slouch"		"鳄鱼皮宽边软帽"
 "TF_Crocleather_Slouch_Desc"	"由澳洲唯一的天然资源制作而成。"
 "TF_Homefront_Blindfold"		"英雄的头带"
@@ -4206,7 +4207,7 @@
 "TF_Hwn_EngineerMisc2"		"巨大的昆虫脚掌" // ADD THE
 "TF_Hwn_PyroGasmask"	"骷髅头骨" // ADD THE
 "TF_UnarmedCombat"		"一臂之力"
-"TF_UnarmedCombat_Desc"	"真高兴，从间谍那里借了只手臂回来..."
+"TF_UnarmedCombat_Desc"	"多谢间谍助我一臂之力……"
 "TF_Ghost_Aspect"			"幽灵面罩"
 "TF_VoodooPin"			"巫毒刺钉" // ADD THE
 "TF_InfernalImpaler"	"炼狱穿眼魔" // ADD THE
@@ -4239,7 +4240,7 @@
 "TF_TTG_Glasses"		"超危险侦探的太阳眼镜…吗？"
 "TF_TTG_Glasses_Desc"		"尽管把你的筹码塞进底钱里吧。"
 "TF_TTG_Badge"			"残废许可证"
-"TF_TTG_Badge_Desc"		"允许杀害、折断、击倒、啃咬。主要还是允许使人残废。"
+"TF_TTG_Badge_Desc"		"同时亦允许杀害、折断、粉碎、啃咬。但主要是允许致人残废。"
 
 "TF_Halloween_Skullcap2011"				"毛骨悚然的骷髅头 2011 年版" // ADD THE
 "TF_Halloween_Skullcap2011_Desc"		"在周年之际，用这顶骷髅帽子再次表达你对生命永恒的仇恨。"
@@ -4276,7 +4277,7 @@
 "TF_VillainsVeil"		"恶棍的面罩"
 "TF_VillainsVeil_Desc"		"好人，坏人，以及死人。"
 "TF_PocketMedic"		"口袋医生"
-"TF_PocketMedic_Desc"		"把小医生藏起来。"
+"TF_PocketMedic_Desc"		"小小医师，时刻相随。"
 "TF_HonchosHeadgear"		"领导者的军帽"
 "TF_HonchosHeadgear_Desc"	"这顶帽子上写满了刻薄的话。\n(官方的说法：这顶帽子上没有写着任何东西。)"
 "TF_Reggaelator"		"雷鬼发型"
@@ -4294,6 +4295,7 @@
 "TF_ProfessorHair_Style0"	"铜镍锰合金"
 "TF_ProfessorHair_Style1"	"平平无奇的"
 "TF_MountainCap"		"医生的野战帽"
+"TF_MountainCap_Desc"		"部队里的人都管它叫“巴伐利亚屠夫”"
 "TF_BigCountry"			"帅气的马莱发型"
 "TF_BigCountry_Desc"		"把如此帅气的头发藏起来实在是太可惜了。"
 "TF_BigCountry_Style0"	"内尔森"
@@ -4303,7 +4305,7 @@
 "TF_Resurrection_Associate_Pin"		"复活同伴胸针"
 "TF_JumpersJeepcap"		"伞兵的羊毛帽"
 "TF_PotatoHat"			"光圈科技实验室安全帽"
-"TF_PotatoHat_Desc"		"产生能量的个人照明设备，对头颅安全。\n\n在光圈设施以外不得使用。"
+"TF_PotatoHat_Desc"		"采用农产品供能的个人照明及头部保护设备。\n\n在光圈科技的设施以外不得使用。"
 "TF_PotatoHatStyle_Classified"	"[机密]"
 "TF_PotatoHatStyle_Logo"	"光圈标志"
 "TF_TeamCaptain"		"团队领袖之帽" // ADD THE
@@ -4314,7 +4316,7 @@
 "TF_TowerHardhat_Desc"		"信号根本停不下来！"
 "TF_LoyaltyReward"			"购买凭证"
 "TF_LoyaltyReward_Desc"		"来自另一个时代。"
-"TF_SpiralSallet"			"骑士轻盔" // ADD THE
+"TF_SpiralSallet"			"螺旋骑士盔" // ADD THE
 "TF_SpiralSallet_Desc"		"鲜为人知的事实：国际象棋中的骑士是用火箭跳来越过其他棋子的。"
 "TF_ScoutPrepShirt"			"速学者" // ADD THE
 "TF_ScoutPrepShirt_Desc" 	"穿着这身经典的学院风衬衫读书——或者只是装装样子。然后你就会在自己梦境中的常春藤联盟里，成为一位校园疯云（疯狂地不知所云）人物！"
@@ -4326,8 +4328,8 @@
 "TF_PyroCandle_Desc"		"你的生命就像风中的蜡烛...但是现在没有风。"
 "TF_ShootManyRobotsPack"		"废铁回收器" // ADD THE
 "TF_ShootManyRobotsPack_Desc"	"为什么只让你身体的前半部享受所有的乐趣呢？快去整个巴黎内最好的垃圾场找到这个东西，替自己身躯的上半部增加更多废铁吧。"
-"TF_CrimeCraftHelmet"			"栓式打击者" // ADD THE
-"TF_CrimeCraftHelmet_Desc"		"伙计们，跪地开球。你知道，你戴着的任何头盔都会保护你的脑袋——但你要是没戴呢？栓式打击者解决了这个问题，因为它可以被三个一又四分之一寸的镀锌粗牙膨胀螺栓固定在你的颅骨上。选好你最喜欢的颜色，因为你很可能和它一起进棺材。"
+"TF_CrimeCraftHelmet"			"栓动闪击盔" // ADD THE
+"TF_CrimeCraftHelmet_Desc"		"蹲下来听我说啊，小伙子们。不管什么样的头盔，得戴在脑门上，才能保护脑袋——可要是没戴呢？栓动闪击盔解决了这一难题，它有三根 1.25 英寸的粗牙螺纹电镀螺栓，牢牢钉死在你的头骨上。记得挑个最喜欢的颜色，毕竟你可得戴着它入土呢。"
 "TF_EngineerChaps"			"德州五分裤" // ADD THE
 "TF_EngineerChaps_Desc"		"这是德州风格的...裤子！当你已经穿上裤子时，这种无裆的裤腿显得棒极了。注意：只能作为裤子的配件来穿着，不能用它代替真正的裤子。"
 "TF_EngineerChaps_Style0"	"鞣制皮革"
@@ -4350,12 +4352,13 @@
 "TF_SuperMNC_Sniper"			"鹤顶红" // ADD THE
 "TF_SuperMNC_Sniper_Desc"		"你觉得你足够胆量去戴上这顶颜色鲜艳的牛仔帽吗？为了不让你感到畏惧，我们在上面钉了半个骷髅头，以舒缓你戴上这顶帽子进入新世界时激动的心情。"
 "TF_SpySpats"					"鬼鬼祟祟潜行鞋罩"	// ADD THE
+"TF_SpySpats_Desc"				"说的没错，你需要一双鞋来帮助你在暗中藏身。可一套上了这么精致的小牛皮鞋罩，你就巴不得全世界都来多看你两眼。"
 "TF_GRFS_1"						"交叉通讯头盔" // ADD THE
 "TF_GRFS_1_Desc"				"这个纯粹作为装饰品的战地意识分析配件，将会愚弄军中从杂兵到军团长的每一个人，并让他们以为你也在军中服役。"
 "TF_GRFS_2"						"交叉通讯特快" // ADD THE
 "TF_GRFS_2_Desc"				"这个全方位战斗单片眼镜，能够以光速接收从卫星发送的信号，这意味着你可能需要得把速度放慢，信号才追得上你。"
 "TF_GRFS_3"						"双叉通讯" // ADD THE
-"TF_GRFS_3_Desc"				"这条战场意识手帕由纳米纤维缝合而成，能将维基百科中的战地资料下载下来，并直接传递到你面前，所以你永远也不会错过它们的。"
+"TF_GRFS_3_Desc"				"这条战场感知面罩由纳米纤维缝合而成，可以从维基百科下载战场资料，直接传输到你的面前，所以你再也不会错失这些信息了。"
 
 "TF_QC_Badge"				"原子勋章" // ADD THE
 "TF_QC_Badge_Desc"				"跳过科学事业的一切冗务，直接来到最刺激的部分：领取至高无上的荣誉！这个久负盛名的缎带证明了你在创造辉煌方面的卓越能力。"
@@ -4399,12 +4402,13 @@
 "TF_SoldierWarPig_Style0"	"自由斗士"
 "TF_SoldierWarPig_Style1"	"出头分子"
 "TF_SpyCardHat"				"纸牌骗术师"
+"TF_SpyCardHat_Desc"		"为什么我们会无耻到直接从帽子上掏一张牌来作弊？也许你该问：为什么我们的刀子…会在你的肚子里？！可能也想问：离这最近的医院在哪？！还有：失血会有别人说的那么严重吗？！"
 "TF_Pyro_FireworksBag"		"烟火背包" // ADD THE
 "TF_Pyro_FireworksBag_Desc" "只要你愿意，每一天会可以成为国庆节。如果能带上一大袋烟火就更好了——例如这个烟火背包——当别人想要告诉你不能以“吃热狗和在公园里喝个烂醉”为理由请假时，你就可以点燃烟火来分散他们的注意力。这是美国吧，山姆大叔？为什么我们连吐在自己裤子上的自由都没有了？"
 
 
 "TF_KillerExclusive"		"独家杀手" // ADD THE
-"TF_KillerExclusive_Desc"	"发布新闻快讯，挫败士气，砍下头颅。"
+"TF_KillerExclusive_Desc"	"取敌首，夺头条，杀人亦诛心。"
 
 "TF_Portal2_Pin"		"同伴方块胸针"
 
@@ -4459,7 +4463,7 @@
 "TF_ManniversaryPackage_Desc"			"来自你在曼恩公司最好的朋友，庆祝我们的周年大典。\n\n本礼物盒包含本公司免费赠送的秋季最新样品，可以从你的背包中打开。"
 "TF_TauntEnabler_HighFive"				"嘲讽：击掌！"
 "TF_TauntEnabler_HighFive_Desc"			"全兵种嘲讽\n别把你的同伴晾在那里等。\n\n这个嘲讽需要同伴。按下嘲讽键来进入或退出等待状态。"
-"TF_ConscientiousObjector"				"有良心的示威者标志牌" // ADD THE
+"TF_ConscientiousObjector"				"和平示威牌" // ADD THE
 "TF_ConscientiousObjector_Desc"			"我们曾经给了和平一个机会。但是那没有起到任何作用。\n\n个性化贴纸可以应用于此物品。"
 "TF_SniperHat1"							"让你做恶梦的头巾"
 "TF_SniperHat1_Desc"					"这条头巾会教会你去吃那些能让一头公山羊作呕的东西。例如另一头公山羊。"
@@ -4480,7 +4484,7 @@
 "TF_Bootlegger"							"海盗头子的假腿" // ADD THE
 "TF_Bootlegger_Desc"					"让男人们惊讶吧！让女人们神魂颠倒吧！瘸着腿走路，这太神奇了！"
 "TF_ScottishHandshake"					"苏格兰式握手" // ADD THE
-"TF_ScottishHandshake_Desc"				"你的敌人会相信你在求和，就在这一刻，他们的手被严重地割伤了！这里的窍门是：用破了的瓶子。"
+"TF_ScottishHandshake_Desc"				"你的敌人会以为你在求和，直到手被割出个血口子的那一刻，他们才恍然大悟！而诀窍就在这儿：用碎掉的酒瓶！"
 "TF_OldBrimstone"						"一丝古老的硫磺气息"
 "TF_OldBrimstone_Desc"					"你的敌人在看到这些卡通样式的古老炸弹时会高兴地鼓起掌来，这会让你在炸飞他们手臂时的感觉更加美妙。"
 "TF_SoldierHat1"						"水手老兵的帽子" // ADD THE
@@ -4509,6 +4513,7 @@
 "TF_MedicPocketSquare"					"整洁的手帕"
 "TF_MedicPocketSquare_Desc"				"有时候我们会在这些描述里放一些玩笑话。但不开玩笑地说：这一身看起来很不错。非常有型。"
 "TF_MedicStethoscope"					"外科医生的听诊器" // ADD THE
+"TF_MedicStethoscope_Desc"				"在你宣布病人死亡的时候，让自己显得专业点。"
 "TF_SpyHat2"							"法国警督"
 "TF_SpyHat2_Desc"						"没有人会不惧怕一名来自法国的警察。那也是这顶帽子如此有效用的原因。"
 "TF_PhotoBadge"							"照片徽章"
@@ -4534,7 +4539,7 @@
 "TF_Football_Boots"					"足球鞋"
 "TF_Football_Boots_Desc"				"让足球知道谁才是老大。"
 "TF_Football_Scarf"						"雇佣兵的荣誉围巾"
-"TF_Football_Scarf_Desc"				"将你的忠诚如同鲜艳的围巾般戴在你的脖子上吧。"
+"TF_Football_Scarf_Desc"				"将一抹色彩鲜明的忠诚系于脖上。"
 
 // Christmas 2011
 "TF_ShinyBauls"					"军用装饰炸弹" // ADD THE
@@ -4547,7 +4552,7 @@
 "TF_TouchingStory_Desc"				"格子衬衫。烟斗云雾。单拎出来看，这两者都会显得你像个白痴。但把它们放在一起时，你就会变得和安伯托.艾柯一样既聪明又时髦！"
 "TF_ItsyBitsySpyer"				"小不点间谍" // ADD THE
 "TF_ItsyBitsySpyer_Desc"			"你的口袋里是放了一个小不点间谍吗，还是说你很喜欢……噢，天啊！别打我啊！"
-"TF_AllFather"					"雪白的大胡子" // ADD THE
+"TF_AllFather"					"众神之父的胡子" // ADD THE
 "TF_AllFather_Style1"					"经典"
 "TF_AllFather_Style2"					"雷击须"
 "TF_AllFather_Desc"					"纵观人类文明史，雪白的胡子一直被当作是智慧与地位的象征。而现在，你可以用这个与人的脸型十分贴合的假胡子向全世界证明——胡子也可以只是纯粹长着胡子以及愚蠢的象征。所以去死吧，人类文明！"
@@ -4556,7 +4561,7 @@
 "TF_Gifting_Badge"				"善心监测仪"
 "TF_Gifting_Badge_Desc"			"你送出越多的礼物，你的心就会变得越大！去争取送礼人们所谓的“Smissmas 精神”和心脏病专家们所谓的“肥厚型心肌病”吧。"
 "TF_MasculineMittens"			"欢乐拳套"	// ADD THE
-"TF_MasculineMittens_Desc"		"戴上这对令人欢笑的拳套，成为战场上让人欢笑的明星。"
+"TF_MasculineMittens_Desc"		"戴上这双引人发笑的拳套，成为战斗盛宴中的气氛担当吧。"
 "TF_Winter2011_EngineerStocking"	"鲜红的圣诞袜子" // ADD THE
 "TF_Winter2011_EngineerStocking_Desc"	"不必再把这袜子挂在壁炉上了。因为它已经装满了。谢谢你什么都没给，圣诞老人。"
 "TF_Winter2011_WinterFurCap"		"棕色雪地帽" // ADD THE
@@ -4580,13 +4585,13 @@
 "TF_Winter2011_SantaHat"			"圣诞老人帽子" // ADD THE
 "TF_Winter2011_SantaHat_Desc"	"戴上这顶挂着毛绒小球的毛绒帽子，去成为圣诞节的大人物吧！"
 "TF_SpyCicle"					"神奇的冰锥" // ADD THE
-"TF_SpyCicle_Desc"				"若要给那些什么都有的家伙送礼物，那最完美的礼物莫过于此：把一根冰柱捅进他们后背。即使是有钱人也无法在商店里买到这种好礼物。"
+"TF_SpyCicle_Desc"				"对于什么都不缺的人来说，这才是最完美的礼物：一根刺入后背的冰锥。就算你再有钱，商场里也没这货。"
 "TF_BallBuster"				"包装纸杀手" // ADD THE
-"TF_BallBuster_Desc"				"这些小饰品制作的如此精美，以至于你的敌人都想在近距离把它们看清楚。这时，你应该用90英里的时速。把这些易碎的玻璃球打进他们的眼睛。"
-"TF_FoundryAchievementHat"			"蒸汽大礼帽" // ADD THE
-"TF_FoundryAchievementHat_Desc"		"你在 cp_foundry 上的战斗永不止息，这响起的汽笛声就是明证！"
-"TF_DoomsdayAchievementHat"			"闲暇绅士的军需品" // ADD THE
-"TF_DoomsdayAchievementHat_Desc"	"这顶劈啪作响的烟囱管礼帽纪念了人和猴子联合征服宇宙的历史。其内置的一枚火箭，在每年的发射的纪念日上，都会猛烈地爆炸。"
+"TF_BallBuster_Desc"				"这些节日小装饰的做工真是精美，连你的敌人都想凑近过来观赏。何不成全他们——把这些易碎的玻璃球以 90 英里的时速砸进他们眼睛里。"
+"TF_FoundryAchievementHat"			"蒸腾沸顶之帽" // ADD THE
+"TF_FoundryAchievementHat_Desc"		"你们在 cp_foundry 战斗时从来都不带歇的，如今就拿这件汽笛做个凭证吧。它本用来提醒大家，什么时候该到点收工，可你们就是要干个没完没了！"
+"TF_DoomsdayAchievementHat"			"静候佳音之帽" // ADD THE
+"TF_DoomsdayAchievementHat_Desc"	"这顶神采飞扬的的冲天礼帽，全兵种皆可使用。帽中内置的一枚火箭，每逢发射纪念日皆有可能轰然炸响，只为纪念那场人类与猿类，为征服苍穹而同舟共济的壮举。"
 
 "TF_Winter2013_SpiritDispenser"		"便携式圣诞雪景球" // ADD THE
 "TF_Winter2013_SpiritDispenser_Desc"	"2013 Steam 节庆特卖徽章随赠品。"
@@ -4622,16 +4627,14 @@
 
 //Meet the Pyro
 "TF_Lollichop"					"锋利的波板糖" // ADD THE
-"TF_Lollichop_Desc"				"使用这个超大的波板糖（冰冷的钢铁）将你的伙伴的肚子（颅骨）填满（劈开）。（装备时使用火焰兵视角。）"
 "TF_ScorchShot"					"焦化枪" // ADD THE
 "TF_ScorchShot_Desc"			"‎此武器在不手持时也会自动装弹。"
 "TF_Rainblower"					"彩虹喷灯" // ADD THE
-"TF_Rainblower_Desc"			"你的朋友（敌人）会惊喜地尖叫（被火焰吞噬）——在你向他们播撒耀眼的“彩虹”（吞噬一切的火焰）时。（装备时使用火焰兵视角。）"
 "TF_Pyrovision_Goggles"			"火焰兵的奇幻护目镜"
 "TF_Wearable_Pyrovision_Goggles_Type" "护目镜"
 "TF_Pyrovision_Goggles_Desc"	"戴上它，进入一个比书中的冗长想象好无数倍的世界。火焰兵的奇幻护目镜能让你从最可爱的纵火犯的眼中看世界。"
 "TF_Pet_Balloonicorn"			"气球独角兽" // ADD THE
-"TF_Pet_Balloonicorn_Desc"		"我的天啊！这真的是气球独角兽吗？火焰兵幻境的管理者？别傻了，我们说的是这只可充气的独角兽，市政府的特派员。其实他在市政府就是个笑话，因为加里布罗曼，那个没用的下水道管理局局长，把气球独角兽的老婆睡了。无论如何，当气球独角兽坐在你的肩上时，千万不可提起这件事，因为他的脾气就像个炸弹引信，而且还常常酗酒。"
+"TF_Pet_Balloonicorn_Desc"		"哎哟喂！那位可是气球独角兽？火焰兵幻境的一把手？瞎说啥呢，不就一充了气的独角兽而已。人家是市政监察员啊。私下跟你说吧，整个市政厅上下，全都在笑话他。那个管下水道的加里.布罗曼，也是个充气的，跟他老婆有一腿呢。所以嘛，他最近老是喝得烂醉，臭脾气也是一点就着，在你肩上晃悠的时候，可万万不可提这茬啊。"
 "TF_PyroMusicDevice"			"炼狱管弦乐" // ADD THE
 "TF_PyroMusicDevice_Desc"		"你最好的朋友（敌人）会把他们的眉毛皱下来（因为他们的死期就要到了），与此同时，他们在欢快地跳舞（惊恐地逃走）。然后欢快的乐曲（撕心裂肺的哀乐）淹没了一切。（装备时使用火焰兵视角。）"
 "TF_PyroBongos"					"纵火狂的小鼓" // ADD THE
@@ -4699,8 +4702,8 @@
 "TF_DocsHoliday_Style1"			"流感"
 "TF_DocsHoliday_Style2"			"病毒"
 
-"TF_ToughStuffMuffs"			"高强度耳罩"
-"TF_ToughStuffMuffs_Desc"		"寒冷环境下，耳朵的血液供应会变得缓慢，从而引发组织坏死、坏疽、以及感染。没人愿意看见你那样的耳朵。所以，用这时尚的耳罩，让你的耳朵远离冻伤。"
+"TF_ToughStuffMuffs"			"严严实实护耳帽"
+"TF_ToughStuffMuffs_Desc"		"耳部冻伤将导致血液循环不畅，进而引发组织坏死、坏疽、以及感染。没人想看见你那双耳溃烂的样子。都给冻得如此不堪入目了，还不快用这副时尚的耳罩给它扣上。"
 "TF_ToughStuffMuffs_Style0"		"蒙特利尔式"
 "TF_ToughStuffMuffs_Style1"		"波士顿式"
 "TF_ToughStuffMuffs_Style2"		"蒙特利尔式（只有帽子）"
@@ -4744,13 +4747,13 @@
 //Halloween 2012
 
 "TF_BooBalloon"  					"幽灵气球" // ADD THE
-"TF_BooBalloon_Desc"				"这些可爱（但很可怕！）的气球是用正宗的可充气幽灵的脸做成的。现在订购！以防那些不知天高地厚的幽灵把它的气放掉。"
+"TF_BooBalloon_Desc"				"这些可爱（但也可怕！）的气球，是用货真价实的幽灵脸蛋充气制成的。趁早下单吧！等到那帮自以为是的幽灵保护人士听说这买卖，非得叫它关停不可。"
 "TF_BooBalloon_Style0"				"闹鬼"
 "TF_BooBalloon_Style1"				"请求协助"
 "TF_BooBalloon_Style2"				"嘿，小伙子们，发生什么事了？"
 "TF_BooBalloon_Style3"				"骨头派对"
 "TF_UnknownMonkeynaut"				"无名的宇航猴" // ADD THE
-"TF_UnknownMonkeynaut_Desc"			"曼恩公司的第一只厄运注定的宇航猴的鬼魂将在你的肩膀上缠绕！不同于其它的用猴子进行的宇航试验，这一次曼恩公司甚至连飞船也没有准备。"
+"TF_UnknownMonkeynaut_Desc"			"让亲历曼恩公司首场宇航猴惨剧的受害者之魂，在你的肩膀上安家落户！ 和其它曼恩公司酿成的宇航猴惨剧大有不同，“香蕉弹弓行动”连宇宙飞船都没准备过。"
 "TF_GrandDuchessTutu"				"大公夫人的芭蕾舞短裙" // ADD THE
 "TF_GrandDuchessTutu_Desc"			"以这庄严的古装为大公夫人安娜斯塔西娅.尼古拉耶夫娜庆生。她曾穿着这条裙子，站在一百英尺高的橡皮软糖宝座上统治沙俄，现在尽情享受它的复制品吧。"
 "TF_GrandDuchessFairyWings"			"大公夫人的小仙女翅膀" // ADD THE
@@ -4774,7 +4777,7 @@
 "TF_Scarecrow_Desc"					"在没有稻草和木头的情况下想要一个稻草人？为什么不抓只间谍来呢？用针线缝出他的口，用纽扣作眼，把他置于玉米田中。他不会介意的。因为大家都爱玉米。"
 
 "TF_CronesDome"						"巫婆的尖帽" // ADD THE
-"TF_CronesDome_Desc"				"数百年来，女人们已经享受到了成为女巫的所有特权（制作药水、长疣、将活物生生地烧死），而男人们却只能靠边站。这种事情不会再发生了！现在，戴着巫婆的尖帽冲破闹鬼的玻璃天花板吧。"
+"TF_CronesDome_Desc"				"数百年来，巫婆的种种特权，尽都给女人享受完了（制不完的魔药，长不完的疣，还能给人活活烧一回），而男人却只能靠边站。不能再这样下去了！戴上这顶巫婆尖帽，冲破桎梏，将那无形的职场壁垒，一击粉碎。"
 
 "TF_Executioner"					"蒙面刽子手" // ADD THE
 "TF_Executioner_Desc"				"想成为一名合格的刽子手，仅仅会杀人是不够的。有时，你需要先折磨那些要死的人。小提示：如果想让行刑的过程更有趣一些，你需要折磨他们，直到他们喊出那个秘密的词。（那个词就是：“自由”）"
@@ -4805,8 +4808,8 @@
 "TF_SpookyShoes"					"骷髅长靴" // ADD THE
 "TF_SpookyShoes_Desc"				"产自地狱！尺码为 666！在现实世界，其尺码为 5 码半。而且还是男装！是小脚男士最佳的恐怖体验来源！"
 
-"TF_SpookySleeves"					"骷髅夹克" // ADD THE
-"TF_SpookySleeves_Desc"				"快来买吧，乘着格伦.但泽还没有找到并把它们都买下来之前！说真的，你可以拥有一个还在出售这些骷髅夹克的世界，或是一个格伦.但泽存在的世界，但无法兼得！快点！他正在谷歌上查找“骷髅夹克”！"
+"TF_SpookySleeves"					"骷髅长袖衫" // ADD THE
+"TF_SpookySleeves_Desc"				"趁着格伦.但泽还没发现它们，赶紧下单！否则他会把库存一扫而空！说真的，骷髅长袖衫有货的世界，和格伦.但泽存在的世界，你只能选择其一，两者不可兼得！赶紧的！他正上谷歌疯狂搜索“骷髅长袖衫”呢！"
 
 "TF_BatOuttaHell"					"恐怖骸骨" // ADD THE
 "TF_BatOuttaHell_Style0"			"全能"
@@ -4844,7 +4847,7 @@
 "TF_Item_DamagedCapacitor_Desc"			"这个被击穿的电容似乎似乎既是防火又是破损的。有什么它所不能做的吗（除了做功以外）？"
 "TF_Item_SecretDiary_FireProof"			"防火的秘密日记"
 "TF_Item_SecretDiary_Type"				"秘密日记"
-"TF_Item_SecretDiary_FireProof_Desc"	"虽然这看起来有些“火红”，但总的看来一切正常。制作这玩意所用的材料一定是和他们制作的那些古代宇航员航天服所用的材料一样。"
+"TF_Item_SecretDiary_FireProof_Desc"	"看上去有点死灰复燃的势头，除此之外都还将就。造出这玩意儿的材料，肯定是古文明用来合成太空人的。"
 
 "RummageThroughAsh"				"翻找"
 "TF_Ash_Type"					"灰烬"
@@ -7331,7 +7334,7 @@
 "Tip_5_8"				"作为医生，要在每局开始时治疗士兵和爆破手，这样他们可以使用额外的生命值来进行火箭跳或黏弹跳来飞越地图。"
 "Tip_5_9"				"作为医生，你可以在周围没有队友可以治疗时紧急使用 UberCharge，以便在危急情况下自救。"
 "Tip_5_10"				"作为医生，最好尽早使用 UberCharge，不然因为被杀而白费全部能量就得不偿失了。"
-"Tip_5_11"				"作为医生，你可以使用“超能冲锋就绪！”语音命令来假装你的超能冲锋已就绪，从而干扰敌人。"
+"Tip_5_11"				"作为医生，你可以使用“UberCharge 就绪！”语音命令来假装你的 UberCharge 已就绪，从而干扰敌人。"
 "Tip_5_12"				"作为医生，你可以为多名队友进行超量治疗，让他们可以承受更多伤害。"
 "Tip_5_13"				"作为医生，你的默认骨锯的挥舞速度比过载充能锯快 20%。在需要防守并且 UberCharge 不那么重要的时候，骨锯是更好的选择。"
 "Tip_5_14"				"作为医生，请记住注射枪的子弹行迹为弧线而且有飞行时间。预判你的目标并且瞄准时要稍微抬高点，以便准确命中目标。"
@@ -7584,7 +7587,7 @@
 
 "LoadingMap"				"正在前往："
 
-"TF_Ubercharge"				"超能冲锋：%charge%%%"
+"TF_Ubercharge"				"UBERCHARGE：%charge%%%"
 "TF_UberchargeMinHUD"			"%charge%%%"
 "TF_IndividualUberchargesMinHUD"		"%charge_count%"
 "TF_NotBuilt"				"未建造"
@@ -7608,7 +7611,7 @@
 "Voice_Menu_TeleporterHere"	"这里需要传送装置"
 "Voice_Menu_DispenserHere"	"这里需要补给器"
 "Voice_Menu_SentryHere"		"这里需要步哨"
-"Voice_Menu_ActivateCharge"	"激活超能冲锋！"
+"Voice_Menu_ActivateCharge"	"激活 Ubercharge！"
 "Voice_Menu_ChargeReady"	"医生：UberCharge 就绪"
 "Voice_Menu_Cheers"		"欢呼"
 "Voice_Menu_Jeers"		"嘲弄"
@@ -7705,9 +7708,12 @@
 "Achievement_Group_2100"	"圣诞节活动（%s1/%s2）"
 "Achievement_Group_2200"	"Foundry 地图成就（%s1/%s2）"
 "Achievement_Group_2300"	"“曼恩 vs. 机器”成就（%s1/%s2）"
+"Achievement_Group_2400"	"Doomsday 地图成就（%s1/%s2）"
 "Achievement_Group_2500"	"Process 地图成就（%s1/%s2）"
 "Achievement_Group_2600"	"Standin 地图成就（%s1/%s2）"
 "Achievement_Group_2700"	"Snakewater 地图成就（%s1/%s2）"
+"Achievement_Group_2800"	"Powerhouse 成就（%s1/%s2）"
+
 "TF_MatchOption_Scenario"	"场景"
 "TF_MatchOption_FlagCapLimit"	"旗帜争夺限制"
 "TF_MatchOption_Rounds"		"回合数"
@@ -7904,9 +7910,9 @@
 "TF_WIN_2FORT_NOENEMYCAPS_NAME"		"超能进攻"
 "TF_WIN_2FORT_NOENEMYCAPS_DESC"		"在 2Fort 上完胜。"
 "TF_WIN_WELL_MINIMUMTIME_NAME"		"闪电进攻"
-"TF_WIN_WELL_MINIMUMTIME_DESC"		"在 5 分钟或更短时间内赢得 Well。"
+"TF_WIN_WELL_MINIMUMTIME_DESC"		"在 Well 上于 5 分钟或更短时间内赢下一局。"
 "TF_WIN_HYDRO_NOENEMYCAPS_NAME"		"冷酷进攻"
-"TF_WIN_HYDRO_NOENEMYCAPS_DESC"		"未丧失任何控制点而赢得 Hydro。"
+"TF_WIN_HYDRO_NOENEMYCAPS_DESC"		"在 Hydro 上未丧失任何控制点并赢下一局。"
 "TF_WIN_DUSTBOWL_NOENEMYCAPS_NAME"	"钢铁防御"
 "TF_WIN_DUSTBOWL_NOENEMYCAPS_DESC"	"在 Dustbowl 上未丧失任何控制点并防守成功。"
 "TF_WIN_GRAVELPIT_NOENEMYCAPS_NAME"	"绝对防御"
@@ -7993,33 +7999,33 @@
 "TF_MEDIC_HEAL_CALLERS_DESC"	"治疗 200 名呼叫过医生的队友。"
 "TF_MEDIC_EXTINGUISH_TEAMMATES_NAME"	"药到火除"
 "TF_MEDIC_EXTINGUISH_TEAMMATES_DESC"	"帮助 100 名燃烧的队友扑灭烈火。"
-"TF_MEDIC_ASSIST_VS_NEMESES_NAME"	"医生辅助歼敌"
+"TF_MEDIC_ASSIST_VS_NEMESES_NAME"	"医生协助谋杀"
 "TF_MEDIC_ASSIST_VS_NEMESES_DESC"	"辅助消灭 20 名复仇者。"
-"TF_MEDIC_KILL_WHILE_CHARGED_NAME"	"安慰剂效果"
-"TF_MEDIC_KILL_WHILE_CHARGED_DESC"	"在超能冲锋准备就绪但未部署的情况下于一个生命期内击杀 2 名敌人。"
-"TF_MEDIC_BONESAW_NOMISSES_NAME"	"外科医生"
+"TF_MEDIC_KILL_WHILE_CHARGED_NAME"	"安慰剂效应"
+"TF_MEDIC_KILL_WHILE_CHARGED_DESC"	"在 UberCharge 准备就绪但未部署的情况下击杀 2 名敌人而不死。"
+"TF_MEDIC_BONESAW_NOMISSES_NAME"	"骨科医生"
 "TF_MEDIC_BONESAW_NOMISSES_DESC"	"连续 5 次用你的骨锯击中敌人，而自己仍然活着并且没有失手。"
 "TF_MEDIC_HEAL_LARGE_NAME"	"实习医师"
 "TF_MEDIC_HEAL_LARGE_DESC"	"在一次生命中累积治疗 7000 点生命值。"
-"TF_MEDIC_HEAL_HUGE_NAME"	"专门医师"
+"TF_MEDIC_HEAL_HUGE_NAME"	"专业医师"
 "TF_MEDIC_HEAL_HUGE_DESC"	"在一次生命中累积治疗 10000 点生命值。"
-"TF_MEDIC_HEAL_GRIND_NAME"	"参谋长"
+"TF_MEDIC_HEAL_GRIND_NAME"	"外科主任"
 "TF_MEDIC_HEAL_GRIND_DESC"	"累积治疗 100 万点生命值。"
 "TF_MEDIC_KILL_HEALED_SPY_NAME"	"伪善宣言"
 "TF_MEDIC_KILL_HEALED_SPY_DESC"	"杀死你正在治疗的敌方间谍。"
 "TF_MEDIC_SAVE_FALLING_TEAMMATE_NAME"	"药物干涉"
 "TF_MEDIC_SAVE_FALLING_TEAMMATE_DESC"	"挽救濒临死亡的队友。"
-"TF_MEDIC_CHARGE_JUGGLE_NAME"	"第二选择"
-"TF_MEDIC_CHARGE_JUGGLE_DESC"	"一次性将超能冲锋部署给两个队友。"
+"TF_MEDIC_CHARGE_JUGGLE_NAME"	"第二诊断意见"
+"TF_MEDIC_CHARGE_JUGGLE_DESC"	"单次释放 UberCharge 给 2 个队友。"
 "TF_MEDIC_FREEZECAM_RAGDOLL_NAME"	"尸检报告"
 "TF_MEDIC_FREEZECAM_RAGDOLL_DESC"	"送敌人一张你在他的尸体上嘲讽的定格照。"
 "TF_MEDIC_BONESAW_SPY_CALLERS_NAME"	"听好了，我是医生"
 "TF_MEDIC_BONESAW_SPY_CALLERS_DESC"	"使用骨锯消灭 1 名一直在呼叫“医生！”的敌方间谍。"
-"TF_MEDIC_CHARGE_FRIENDS_NAME"	"全科医疗"
-"TF_MEDIC_CHARGE_FRIENDS_DESC"	"为你的 5 位 Steam 社区好友使用超能冲锋。"
+"TF_MEDIC_CHARGE_FRIENDS_NAME"	"家庭医疗"
+"TF_MEDIC_CHARGE_FRIENDS_DESC"	"为你的 5 位 Steam 社区好友部署 UberCharge。"
 "TF_MEDIC_INVITE_JOIN_CHARGE_NAME"	"出诊"
-"TF_MEDIC_INVITE_JOIN_CHARGE_DESC"	"加入你的一位好友所在比赛，并为其部署超能冲锋。"
-"TF_MEDIC_HEAL_ACHIEVER_NAME"	"问诊"
+"TF_MEDIC_INVITE_JOIN_CHARGE_DESC"	"加入你的好友所在的比赛，并为他部署 UberCharge。"
+"TF_MEDIC_HEAL_ACHIEVER_NAME"	"临床关照"
 "TF_MEDIC_HEAL_ACHIEVER_DESC"	"治疗一个队友，帮助他取得他自己的成就。"
 "TF_MEDIC_ACHIEVE_PROGRESS1_NAME"	"医生里程碑 1"
 "TF_MEDIC_ACHIEVE_PROGRESS1_DESC"	"达成 10 项医生成就。"
@@ -8029,75 +8035,75 @@
 "TF_MEDIC_ACHIEVE_PROGRESS3_DESC"	"达成 22 项医生成就。"
 
 // Pyro Achievement Pack
-"TF_PYRO_KILL_MULTIWEAPONS_NAME"	"联合燃烧"
+"TF_PYRO_KILL_MULTIWEAPONS_NAME"	"联合火力"
 "TF_PYRO_KILL_MULTIWEAPONS_DESC"	"用霰弹枪终结 20 个被你点燃的玩家。"
-"TF_PYRO_SIMULBURN_SCOUTS_NAME"		"烤火腿"
+"TF_PYRO_SIMULBURN_SCOUTS_NAME"		"烤肠派对"
 "TF_PYRO_SIMULBURN_SCOUTS_DESC"		"同时点燃两个敌方侦察兵。"
-"TF_PYRO_FORCE_WATERJUMP_NAME"		"火的洗礼"
+"TF_PYRO_FORCE_WATERJUMP_NAME"		"战火洗礼"
 "TF_PYRO_FORCE_WATERJUMP_DESC"		"迫使 10 个被点燃的敌人跳入水中。"
-"TF_PYRO_KILL_POSTDEATH_NAME"		"燃烧遗忘"
+"TF_PYRO_KILL_POSTDEATH_NAME"		"放任燃烧"
 "TF_PYRO_KILL_POSTDEATH_DESC"		"累计15次在你死后杀死敌人。"
 "TF_PYRO_KILL_SPIES_NAME"		"防火墙"
 "TF_PYRO_KILL_SPIES_DESC"		"点燃 5 个在友方建筑上放置了电子工兵的间谍。"
-"TF_PYRO_KILL_CARRIERS_NAME"		"文件烧烤"
+"TF_PYRO_KILL_CARRIERS_NAME"		"烧毁假账"
 "TF_PYRO_KILL_CARRIERS_DESC"		"点燃 5 个拿着你方情报的敌人。"
-"TF_PYRO_REVEAL_SPIES_NAME"		"条件反射"
+"TF_PYRO_REVEAL_SPIES_NAME"		"意外起火"
 "TF_PYRO_REVEAL_SPIES_DESC"		"点燃 10 个隐形的间谍。"
 "TF_PYRO_CAMP_TELEPORTERS_NAME"		"叠罗汉"
 "TF_PYRO_CAMP_TELEPORTERS_DESC"		"点燃 10 个刚走出传送装置的敌人。"
-"TF_PYRO_CAMP_POSITION_NAME"		"集体燃烧"
+"TF_PYRO_CAMP_POSITION_NAME"		"蹲点烤火"
 "TF_PYRO_CAMP_POSITION_DESC"		"在同一地点，连续杀死3个敌人。"
 "TF_PYRO_KILL_AXE_SMALL_NAME"		"伐木高手"
 "TF_PYRO_KILL_AXE_SMALL_DESC"		"在一次生命内用你的斧头杀死 3 个敌人。"
-"TF_PYRO_KILL_AXE_LARGE_NAME"		"干净切割"
+"TF_PYRO_KILL_AXE_LARGE_NAME"		"尽数伐除"
 "TF_PYRO_KILL_AXE_LARGE_DESC"		"在一次生命内用你的斧头杀死 6 个敌人。"
-"TF_PYRO_KILL_FROM_BEHIND_NAME"		"背后着火"
+"TF_PYRO_KILL_FROM_BEHIND_NAME"		"穷追猛烧"
 "TF_PYRO_KILL_FROM_BEHIND_DESC"		"使用火焰喷射器杀死 50 名背对你的敌人."
-"TF_PYRO_BURN_SPIES_AS_YOU_NAME"	"我油炸你"
+"TF_PYRO_BURN_SPIES_AS_YOU_NAME"	"间谍猜猜看"
 "TF_PYRO_BURN_SPIES_AS_YOU_DESC"	"点燃 10 名伪装的间谍。"
-"TF_PYRO_BURN_SNIPERS_ZOOMED_NAME"	"狙击观察"
+"TF_PYRO_BURN_SNIPERS_ZOOMED_NAME"	"看火人"
 "TF_PYRO_BURN_SNIPERS_ZOOMED_DESC"	"点燃 10 个正开着瞄准镜的狙击手。"
-"TF_PYRO_BURN_MEDICS_CHARGED_NAME"	"把受伤者烧死"
-"TF_PYRO_BURN_MEDICS_CHARGED_DESC"	"点燃 3 个已经准备部署超能冲锋的医生。"
-"TF_PYRO_REFLECT_PROJECTILES_NAME"	"热土豆"
+"TF_PYRO_BURN_MEDICS_CHARGED_NAME"	"烧伤科病房"
+"TF_PYRO_BURN_MEDICS_CHARGED_DESC"	"点燃 3 个预备部署 UberCharge 的医生。"
+"TF_PYRO_REFLECT_PROJECTILES_NAME"	"烫手山芋"
 "TF_PYRO_REFLECT_PROJECTILES_DESC"	"反弹 100 个飞行物。"
 "TF_PYRO_KILL_HEAVIES_NAME"		"烤培根"
-"TF_PYRO_KILL_HEAVIES_DESC"		"用喷火器杀死 50 个机枪手。"
+"TF_PYRO_KILL_HEAVIES_DESC"		"用火焰喷射器杀死 50 个机枪手。"
 "TF_PYRO_KILL_UNDERWATER_NAME"		"B 计划"
 "TF_PYRO_KILL_UNDERWATER_DESC"		"杀死 10 个和你一样在水中的敌人。"
-"TF_PYRO_KILL_UBERCHARGE_NAME"		"烧烤工程"
-"TF_PYRO_KILL_UBERCHARGE_DESC"		"在单次超能冲锋中杀死 3 名敌人。"
+"TF_PYRO_KILL_UBERCHARGE_NAME"		"烟火表演"
+"TF_PYRO_KILL_UBERCHARGE_DESC"		"在单次 UberCharge 状态下杀死 3 名敌人。"
 "TF_PYRO_DESTROY_BUILDINGS_NAME"	"纵火犯"
 "TF_PYRO_DESTROY_BUILDINGS_DESC"	"摧毁 50 个工程师建筑。"
-"TF_PYRO_DEFEND_POINTS_NAME"		"节制点火"
+"TF_PYRO_DEFEND_POINTS_NAME"		"可控焚烧"
 "TF_PYRO_DEFEND_POINTS_DESC"		"在你方的控制点上点燃 50 个敌人。"
-"TF_PYRO_KILL_GRIND_NAME"		"炭烧战士"
+"TF_PYRO_KILL_GRIND_NAME"		"灭火英雄"
 "TF_PYRO_KILL_GRIND_DESC"		"干掉 500 个敌人。"
 "TF_PYRO_DAMAGE_GRIND_NAME"		"炭烧司令"
 "TF_PYRO_DAMAGE_GRIND_DESC"		"造成 100 万的火焰伤害。"
-"TF_PYRO_BURN_MEDICPAIR_NAME"		"下一个是谁"
+"TF_PYRO_BURN_MEDICPAIR_NAME"		"新火种"
 "TF_PYRO_BURN_MEDICPAIR_DESC"		"点燃一个正在被敌方医生治疗的敌人。"
 "TF_PYRO_KILL_TAUNT_NAME"		"OMGWTFBBQ"
 "TF_PYRO_KILL_TAUNT_DESC"		"用嘲讽动作杀死敌人。"
-"TF_PYRO_KILL_TEAMWORK_NAME"		"深度燃烧并造成心理阴影"
+"TF_PYRO_KILL_TEAMWORK_NAME"		"二度烧伤"
 "TF_PYRO_KILL_TEAMWORK_DESC"		"杀死一个已经被其它火焰兵点燃的敌人。"
-"TF_PYRO_BURN_SPY_TAUNT_NAME"		"要点火吗？"
+"TF_PYRO_BURN_SPY_TAUNT_NAME"		"借个火？"
 "TF_PYRO_BURN_SPY_TAUNT_DESC"		"点燃一个正在弹烟灰的间谍。"
-"TF_PYRO_DOMINATE_LEAVESVR_NAME"	"烧烤大会"
+"TF_PYRO_DOMINATE_LEAVESVR_NAME"	"退服烧烤"
 "TF_PYRO_DOMINATE_LEAVESVR_DESC"	"让一个被你控制的玩家离开服务器。"
-"TF_PYRO_REFLECT_CROCKET_KILL_NAME"	"热点烧烤"
+"TF_PYRO_REFLECT_CROCKET_KILL_NAME"	"反弹大师"
 "TF_PYRO_REFLECT_CROCKET_KILL_DESC"	"反弹一枚爆击火箭弹杀死一个士兵。"
-"TF_PYRO_KILL_TAUNTERS_NAME"		"舞蹈牺牲"
+"TF_PYRO_KILL_TAUNTERS_NAME"		"起舞自焚"
 "TF_PYRO_KILL_TAUNTERS_DESC"		"杀死 3 个正在嘲讽的敌人。"
-"TF_PYRO_DOUBLE_KO_NAME"		"死亡烧烤"
+"TF_PYRO_DOUBLE_KO_NAME"		"玉石俱焚"
 "TF_PYRO_DOUBLE_KO_DESC"		"在你死亡的同一秒杀死一名敌人。"
 "TF_PYRO_BURN_RJ_SOLDIER_NAME"		"飞行明灯"
 "TF_PYRO_BURN_RJ_SOLDIER_DESC"		"点燃一名火箭跳到半空中的士兵。"
-"TF_PYRO_FREEZECAM_TAUNTS_NAME"		"冻灼"
+"TF_PYRO_FREEZECAM_TAUNTS_NAME"		"冷嘲热讽"
 "TF_PYRO_FREEZECAM_TAUNTS_DESC"		"送敌人各种嘲讽动作的定格照。"
-"TF_PYRO_KILL_GRIND_LARGE_NAME"		"炭烧长官"
+"TF_PYRO_KILL_GRIND_LARGE_NAME"		"消防队长"
 "TF_PYRO_KILL_GRIND_LARGE_DESC"		"干掉 1000 个敌人"
-"TF_PYRO_IGNITE_FLAREGUN_NAME"		"注意力收集者"
+"TF_PYRO_IGNITE_FLAREGUN_NAME"		"灼人眼球"
 "TF_PYRO_IGNITE_FLAREGUN_DESC"		"用信号枪点燃 100 个敌人。"
 "TF_PYRO_ACHIEVE_PROGRESS1_NAME"	"火焰兵里程碑 1"
 "TF_PYRO_ACHIEVE_PROGRESS1_DESC"	"达成 10 项火焰兵成就。"
@@ -8106,7 +8112,7 @@
 "TF_PYRO_ACHIEVE_PROGRESS3_NAME"	"火焰兵里程碑 3"
 "TF_PYRO_ACHIEVE_PROGRESS3_DESC"	"达成 22 项火焰兵成就。"
 "TF_PYRO_IGNITE_WITH_RAINBOW_NAME"	"全光谱战士"
-"TF_PYRO_IGNITE_WITH_RAINBOW_DESC"	"使用彩虹喷射器的嘲讽攻击点燃 3 名敌人。"
+"TF_PYRO_IGNITE_WITH_RAINBOW_DESC"	"使用彩虹喷灯的嘲讽攻击点燃 3 名敌人。"
 "TF_PYRO_IGNITE_PLAYER_BEING_FLIPPED_NAME"	"翻面再烤"
 "TF_PYRO_IGNITE_PLAYER_BEING_FLIPPED_DESC"	"点燃一名正在使用嘲讽翻跟头的玩家。"
 
@@ -8115,9 +8121,9 @@
 "TF_HEAVY_DAMAGE_TAKEN_DESC"		"在一次生命中受到 1000 点伤害。"
 "TF_HEAVY_DEFEND_MEDIC_NAME"		"效忠于党"
 "TF_HEAVY_DEFEND_MEDIC_DESC"		"3 秒内杀死 50 个在攻击你的医生的敌人。"
-"TF_HEAVY_ASSIST_MEDIC_LARGE_NAME"	"分工"
+"TF_HEAVY_ASSIST_MEDIC_LARGE_NAME"	"劳动分工"
 "TF_HEAVY_ASSIST_MEDIC_LARGE_DESC"	"在医生的辅助下杀死 10 个敌人，而你和医生都活着。"
-"TF_HEAVY_EARN_MEDIC_DOMINATION_NAME"	"红色啤酒节"
+"TF_HEAVY_EARN_MEDIC_DOMINATION_NAME"	"红色十月节"
 "TF_HEAVY_EARN_MEDIC_DOMINATION_DESC"	"为给你疗伤的医生赢得一次控制。"
 "TF_HEAVY_KILL_TAUNT_NAME"			"公开审判"
 "TF_HEAVY_KILL_TAUNT_DESC"			"用嘲讽动作杀死敌人。"
@@ -8125,27 +8131,27 @@
 "TF_HEAVY_KILL_FLAG_CARRIERS_DESC"	"杀死 10 个拿着你方情报的敌人。"
 "TF_HEAVY_KILL_MEDIC_PAIR_NAME"		"阶级斗争"
 "TF_HEAVY_KILL_MEDIC_PAIR_DESC"		"和友方的医生共同杀死敌方的一组机枪手和医生组合。"
-"TF_HEAVY_BLOCK_INVULN_HEAVY_NAME"	"苏维埃街区"
+"TF_HEAVY_BLOCK_INVULN_HEAVY_NAME"	"苏维埃集团"
 "TF_HEAVY_BLOCK_INVULN_HEAVY_DESC"	"在处于无敌状态且作为防守方的同时，阻挡同样处于无敌状态的敌方机枪手进行移动。"
 "TF_HEAVY_BLOCK_CART_NAME"			"斯大林的专车"
 "TF_HEAVY_BLOCK_CART_DESC"			"阻止敌人移动 25 次战车。"
 "TF_HEAVY_RECEIVE_UBER_GRIND_NAME"	"最高苏维埃"
-"TF_HEAVY_RECEIVE_UBER_GRIND_DESC"	"获得 50 次超能冲锋。"
+"TF_HEAVY_RECEIVE_UBER_GRIND_DESC"	"被部署 50 次 UberCharge。"
 "TF_HEAVY_STAND_NEAR_DISPENSER_NAME"	"工厂工人"
 "TF_HEAVY_STAND_NEAR_DISPENSER_DESC"	"在补给器提供补给的同时杀死 20 个敌人。"
-"TF_HEAVY_ASSIST_HEAVY_GRIND_NAME"	"苏维埃工会"
+"TF_HEAVY_ASSIST_HEAVY_GRIND_NAME"	"苏维埃联盟"
 "TF_HEAVY_ASSIST_HEAVY_GRIND_DESC"	"在你帮助另一个机枪手或他帮助你的情况下，杀死 25 个敌人。"
-"TF_HEAVY_CLEAR_STICKYBOMBS_NAME"	"领略产品的意义"
+"TF_HEAVY_CLEAR_STICKYBOMBS_NAME"	"掌控生产资料"
 "TF_HEAVY_CLEAR_STICKYBOMBS_DESC"	"通过杀死放置黏性炸弹的爆破手，移除 20 枚黏性炸弹。"
 "TF_HEAVY_KILL_UNDERWATER_NAME"		"潜水伊凡"
 "TF_HEAVY_KILL_UNDERWATER_DESC"		"在你和对方都在水下的情况下，杀死 50 个敌人。"
-"TF_HEAVY_TAKE_MULTI_DAMAGE_NAME"	"致命普金"
+"TF_HEAVY_TAKE_MULTI_DAMAGE_NAME"	"拉斯普京"
 "TF_HEAVY_TAKE_MULTI_DAMAGE_DESC"	"在一次生命中，被射击、被火烧、被棒击并受到爆炸伤害。"
-"TF_HEAVY_KILL_DOMINATED_NAME"		"冰冻蛋糕"
+"TF_HEAVY_KILL_DOMINATED_NAME"		"锦上添花"
 "TF_HEAVY_KILL_DOMINATED_DESC"		"杀死 20 名被你控制的玩家。"
-"TF_HEAVY_SURVIVE_CROCKET_NAME"		"烂瓦破砖"
+"TF_HEAVY_SURVIVE_CROCKET_NAME"		"坏我好事"
 "TF_HEAVY_SURVIVE_CROCKET_DESC"		"被爆击火箭弹直接命中后仍然幸存。"
-"TF_HEAVY_ASSIST_GRIND_NAME"		"收集者"
+"TF_HEAVY_ASSIST_GRIND_NAME"		"集体化"
 "TF_HEAVY_ASSIST_GRIND_DESC"		"获得 1000 次助攻。"
 "TF_HEAVY_UNCOVER_SPIES_NAME"		"反间唯物主义"
 "TF_HEAVY_UNCOVER_SPIES_DESC"		"杀死或协助杀死 10 个隐形的间谍。"
@@ -8155,29 +8161,29 @@
 "TF_HEAVY_FIRE_LOTS_DESC"			"在一次生命中发射了价值 200,000 美元的转轮机枪子弹。"
 "TF_HEAVY_KILL_CRIT_PUNCH_NAME"		"共产拳击专家"
 "TF_HEAVY_KILL_CRIT_PUNCH_DESC"		"用爆击拳击杀死敌人。"
-"TF_HEAVY_HEAL_MEDIKITS_NAME"		"重新分配生命"
+"TF_HEAVY_HEAL_MEDIKITS_NAME"		"生命值再分配"
 "TF_HEAVY_HEAL_MEDIKITS_DESC"		"在一次生命中，使用医疗包治愈 1000 点伤害。"
-"TF_HEAVY_KILL_SHOTGUN_NAME"		"配给"
+"TF_HEAVY_KILL_SHOTGUN_NAME"		"定量配给"
 "TF_HEAVY_KILL_SHOTGUN_DESC"		"转轮机枪弹药用完时，使用霰弹枪杀死敌人。"
-"TF_HEAVY_FIRST_TO_CAP_NAME"		"优秀党员"
+"TF_HEAVY_FIRST_TO_CAP_NAME"		"先锋党员"
 "TF_HEAVY_FIRST_TO_CAP_DESC"		"团队中第一个开始夺取回合中的控制点。"
 "TF_HEAVY_PAYLOAD_CAP_GRIND_NAME"	"推车诗人"
 "TF_HEAVY_PAYLOAD_CAP_GRIND_DESC"	"推车地图上占领 50 个据点。"
 "TF_HEAVY_KILL_MIDAIR_MINIGUN_NAME"	"马列主义者"
 "TF_HEAVY_KILL_MIDAIR_MINIGUN_DESC"	"使用转轮机枪杀死 10 个在半空中的敌人。"
-"TF_HEAVY_DEFEND_CONTROL_POINT_NAME"	"格洛克的车位"
+"TF_HEAVY_DEFEND_CONTROL_POINT_NAME"	"高尔基的车位"
 "TF_HEAVY_DEFEND_CONTROL_POINT_DESC"	"站在己方的控制点上时杀死 25 名敌人。"
-"TF_HEAVY_KILL_CAPPING_ENEMIES_NAME"	"净化"
+"TF_HEAVY_KILL_CAPPING_ENEMIES_NAME"	"肃清"
 "TF_HEAVY_KILL_CAPPING_ENEMIES_DESC"	"杀死 15 名正在夺取己方控制点的敌人。"
 "TF_HEAVY_REVENGE_ASSIST_NAME"	"列宁的手"
 "TF_HEAVY_REVENGE_ASSIST_DESC"	"帮助 5 个队友复仇。"
 "TF_HEAVY_TELEPORT_FAST_KILL_NAME"	"五秒计划"
 "TF_HEAVY_TELEPORT_FAST_KILL_DESC"	"在走出传送装置后的 5 秒内杀死一个敌人。"
-"TF_HEAVY_FREEZECAM_TAUNT_NAME"	"拍照纪念"
+"TF_HEAVY_FREEZECAM_TAUNT_NAME"	"改革前夕"
 "TF_HEAVY_FREEZECAM_TAUNT_DESC"	"送敌人一张你在无敌时嘲讽的定格照。"
-"TF_HEAVY_EAT_SANDWICHES_NAME"		"显著的消耗"
+"TF_HEAVY_EAT_SANDWICHES_NAME"		"暴饮暴食"
 "TF_HEAVY_EAT_SANDWICHES_DESC"		"吃掉 100 个三明治。"
-"TF_HEAVY_KILL_SCOUTS_NAME"	"别碰三明治"
+"TF_HEAVY_KILL_SCOUTS_NAME"	"别动我三明治"
 "TF_HEAVY_KILL_SCOUTS_DESC"	"使用娜塔莎转轮机枪杀死 50 个侦察兵。"
 "TF_HEAVY_KILL_HEAVIES_GLOVES_NAME"	"罗宋腰带"
 "TF_HEAVY_KILL_HEAVIES_GLOVES_DESC"	"用拳击手套杀死 10 名敌方机枪手。"
@@ -8191,24 +8197,24 @@
 // Scout Achievement Pack
 "TF_SCOUT_FIRST_BLOOD_NAME"		"第一滴血"
 "TF_SCOUT_FIRST_BLOOD_DESC"		"在竞技场模式或竞技比赛中获得首杀。"
-"TF_SCOUT_FIRST_BLOOD_KILL_NAME"	"第一滴血，第 2 部分"
+"TF_SCOUT_FIRST_BLOOD_KILL_NAME"	"第一滴血，第二部"
 "TF_SCOUT_FIRST_BLOOD_KILL_DESC"	"在竞技场模式中，使用“第一滴血”爆击奖励杀死 5 个敌人。"
-"TF_SCOUT_WELL_EARLY_KILL_NAME"		"快速袭击"
+"TF_SCOUT_WELL_EARLY_KILL_NAME"		"光速下场"
 "TF_SCOUT_WELL_EARLY_KILL_DESC"		"在 Well 地图上开局之前，杀死一个玩家。"
 "TF_SCOUT_LIFETIME_KILLS_NAME"		"值得纪念的一年"
 "TF_SCOUT_LIFETIME_KILLS_DESC"		"在生命时间内杀死 2004 个敌人。"
 "TF_SCOUT_IRON_MAN_KILLS_NAME"		"循环"
 "TF_SCOUT_IRON_MAN_KILLS_DESC"		"在一次生命中，当在地面上、在空中和在水中时分别杀死一个敌人。"
-"TF_SCOUT_DESTROY_TELEPORTERS_NAME"	"靠近点"
+"TF_SCOUT_DESTROY_TELEPORTERS_NAME"	"收尾"
 "TF_SCOUT_DESTROY_TELEPORTERS_DESC"	"摧毁 3 个传送装置入口。"
 "TF_SCOUT_DESTROY_BUILDINGS_BEING_BUILT_NAME"	"如果你敢造的话"
 "TF_SCOUT_DESTROY_BUILDINGS_BEING_BUILT_DESC"	"摧毁 3 座正在建造的敌方建筑。"
-"TF_SCOUT_DESTROY_SENTRY_WITH_PISTOL_NAME"	"放下枪"
+"TF_SCOUT_DESTROY_SENTRY_WITH_PISTOL_NAME"	"阻杀"
 "TF_SCOUT_DESTROY_SENTRY_WITH_PISTOL_DESC"	"使用手枪摧毁一个警戒中的步哨枪。"
-"TF_SCOUT_DOUBLE_JUMPS_NAME"		"向上击打"
+"TF_SCOUT_DOUBLE_JUMPS_NAME"		"击球手上场"
 "TF_SCOUT_DOUBLE_JUMPS_DESC"		"二段跳 1000 次。"
 "TF_SCOUT_ASSIST_MEDIC_NAME"		"在球上做手脚"
-"TF_SCOUT_ASSIST_MEDIC_DESC"		"借助医生的超能冲锋杀死 3 个敌人。"
+"TF_SCOUT_ASSIST_MEDIC_DESC"		"借助医生的 UberCharge 杀死 3 个敌人。"
 "TF_SCOUT_STEAL_SANDWICH_NAME"		"躲闪者 1，巨人 0"
 "TF_SCOUT_STEAL_SANDWICH_DESC"		"杀死敌方机枪手并吃掉他的三明治。"
 "TF_SCOUT_ACHIEVE_PROGRESS1_NAME"	"侦察兵里程碑 1"
@@ -8218,42 +8224,42 @@
 "TF_SCOUT_ACHIEVE_PROGRESS3_NAME"	"侦察兵里程碑 3"
 "TF_SCOUT_ACHIEVE_PROGRESS3_DESC"	"达成 22 项侦察兵成就。"
 "TF_SCOUT_KILL_CHARGED_MEDICS_NAME"	"专扁医生"
-"TF_SCOUT_KILL_CHARGED_MEDICS_DESC"	"杀死 1 个已经准备好部署超能冲锋的医生。"
+"TF_SCOUT_KILL_CHARGED_MEDICS_DESC"	"杀死 1 个预备部署 UberCharge 的医生。"
 "TF_SCOUT_SURVIVE_DAMAGE_NAME"		"我是蝙蝠侠"
 "TF_SCOUT_SURVIVE_DAMAGE_DESC"		"在一次生命中受到 500 伤害后依然存活。"
 "TF_SCOUT_DOUBLEJUMP_KILL_NAME"		"高飞球"
 "TF_SCOUT_DOUBLEJUMP_KILL_DESC"		"在双重跳跃时杀死 20 个玩家。"
-"TF_SCOUT_FLAG_CAP_GRIND_NAME"		"全垒打"
+"TF_SCOUT_FLAG_CAP_GRIND_NAME"		"绕场全垒打"
 "TF_SCOUT_FLAG_CAP_GRIND_DESC"		"取得敌方情报 25 次。"
 "TF_SCOUT_THREE_FLAGCAPS_NAME"		"三重偷垒"
 "TF_SCOUT_THREE_FLAGCAPS_DESC"		"在单轮夺旗模式游戏中取得敌方情报 3 次。"
-"TF_SCOUT_DODGE_DAMAGE_NAME"		"巧妙闪躲"
+"TF_SCOUT_DODGE_DAMAGE_NAME"		"狡猾闪躲"
 "TF_SCOUT_DODGE_DAMAGE_DESC"		"用原子能饮料在一次生命中抵消 1000 点伤害。"
 "TF_SCOUT_KNOCK_INTO_TRAIN_NAME"	"秋季经典"
 "TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"使用“自然之力”的击退功能制造自然死亡或自杀。"
 "TF_SCOUT_KILL_STUNNED_NAME"		"好球区"
 "TF_SCOUT_KILL_STUNNED_DESC"		"杀死或助攻 50 个被击昏或减速的敌人。"
-"TF_SCOUT_STUN_INTO_TRAIN_NAME"		"界外区域"
-"TF_SCOUT_STUN_INTO_TRAIN_DESC"		"通过击昏或减速敌人来制造环境死亡。"
+"TF_SCOUT_STUN_INTO_TRAIN_NAME"		"界外区"
+"TF_SCOUT_STUN_INTO_TRAIN_DESC"		"通过击昏或减速敌人来使其死于环境伤害。"
 "TF_SCOUT_STUN_UBER_ENEMIES_NAME"	"重创敌军"
-"TF_SCOUT_STUN_UBER_ENEMIES_DESC"	"击昏 2 个已经准备好部署超能冲锋的医生。"
-"TF_SCOUT_STUN_CAPPING_ENEMIES_NAME"	"头侧球"
+"TF_SCOUT_STUN_UBER_ENEMIES_DESC"	"击昏 2 个预备部署 UberCharge 的医生。"
+"TF_SCOUT_STUN_CAPPING_ENEMIES_NAME"	"近身球"
 "TF_SCOUT_STUN_CAPPING_ENEMIES_DESC"	"击昏 50 个占领控制点或正在推车的敌人。"
-"TF_SCOUT_MAX_STUNS_NAME"		"高远全垒打"
+"TF_SCOUT_MAX_STUNS_NAME"		"超高远全垒打"
 "TF_SCOUT_MAX_STUNS_DESC"		"用远距离球击昏 1 个敌人，使他昏迷尽可能长的时间。"
 "TF_SCOUT_STUN_SCOUT_WITH_THEIR_BALL_NAME"	"头部触身球"
 "TF_SCOUT_STUN_SCOUT_WITH_THEIR_BALL_DESC"	"用对方侦察兵的球击昏该侦察兵。"
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_NAME"	"触杀跑垒员"
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"杀死一名喝了爆击可乐的侦察兵。"
-"TF_SCOUT_KILL_FROM_BEHIND_NAME"	"趁机偷袭"
+"TF_SCOUT_KILL_FROM_BEHIND_NAME"	"愣神触杀"
 "TF_SCOUT_KILL_FROM_BEHIND_DESC"	"使用“自然之力”从背后偷袭并杀死 50 名敌人。"
 "TF_SCOUT_CAPTURE_LAST_POINT_NAME"	"换场前的华丽一击"
 "TF_SCOUT_CAPTURE_LAST_POINT_DESC"	"在控制点地图中占领最后一个控制点。"
-"TF_SCOUT_CAPTURE_THREE_POINTS_NAME"	"三线作战"
+"TF_SCOUT_CAPTURE_THREE_POINTS_NAME"	"三连击败"
 "TF_SCOUT_CAPTURE_THREE_POINTS_DESC"	"在一次生命中连续占领三个控制点。"
 "TF_SCOUT_FAST_CAP_NAME"		"偷垒有效"
 "TF_SCOUT_FAST_CAP_DESC"		"在控制点刚解锁的瞬间开始发起攻占。"
-"TF_SCOUT_START_AND_FINISH_CAP_NAME"	"开餐准备"
+"TF_SCOUT_START_AND_FINISH_CAP_NAME"	"局势大开"
 "TF_SCOUT_START_AND_FINISH_CAP_DESC"	"在最终获胜之前通过占领获得 10 分。"
 "TF_SCOUT_BLOCK_CAPS_NAME"		"阻断达人"
 "TF_SCOUT_BLOCK_CAPS_DESC"		"阻止敌人占领控制点 50 次。"
@@ -8273,13 +8279,13 @@
 "TF_SCOUT_BACKSCATTER_KILL_FRIENDS_GRIND_DESC"			"使用偷袭之力，从背后杀死好友 20 次。"
 
 // Sniper Achievement Pack
-"TF_SNIPER_JARATE_DOMINATED_NAME"	"殚精竭虑"
+"TF_SNIPER_JARATE_DOMINATED_NAME"	"落汤鸡"
 "TF_SNIPER_JARATE_DOMINATED_DESC"	"用瓶手道击中受你控制的敌人。"
 "TF_SNIPER_FREEZECAM_HAT_NAME"		"以礼相待"
 "TF_SNIPER_FREEZECAM_HAT_DESC"		"送敌人一张你脱帽致敬的定格照。"
 "TF_SNIPER_RIFLE_NO_MISSING_NAME"	"高效行动"
 "TF_SNIPER_RIFLE_NO_MISSING_DESC"	"使用狙击步枪弹无虚发地杀死 3 名敌人。"
-"TF_SNIPER_CAPTURE_FLAG_NAME"		"制定计划"
+"TF_SNIPER_CAPTURE_FLAG_NAME"		"计划周全"
 "TF_SNIPER_CAPTURE_FLAG_DESC"		"在夺旗模式中夺得情报。"
 "TF_SNIPER_KILL_GRIND_NAME"		"格杀勿论"
 "TF_SNIPER_KILL_GRIND_DESC"		"干掉 1000 个敌人。"
@@ -8290,14 +8296,14 @@
 "TF_SNIPER_DESTROY_SENTRYGUNS_NAME"	"摧毁岗哨"
 "TF_SNIPER_DESTROY_SENTRYGUNS_DESC"	"摧毁 3 挺工程师的步哨枪。"
 "TF_SNIPER_KILL_INVIS_SPY_NAME"		"对空鸣枪"
-"TF_SNIPER_KILL_INVIS_SPY_DESC"		"用主武器杀死一名完全隐身的间谍。"
-"TF_SNIPER_KILL_MIDAIR_SCOUT_NAME"	"摔死"
+"TF_SNIPER_KILL_INVIS_SPY_DESC"		"一击杀死一名完全隐身的间谍。"
+"TF_SNIPER_KILL_MIDAIR_SCOUT_NAME"	"骤死"
 "TF_SNIPER_KILL_MIDAIR_SCOUT_DESC"	"使用狙击步枪或猎人短弓杀死半空中的侦察兵。"
 "TF_SNIPER_FREEZECAM_WAVE_NAME"		"挥手永别"
 "TF_SNIPER_FREEZECAM_WAVE_DESC"		"送敌人一张向他们挥手的定格照。"
 "TF_SNIPER_DOMINATE_SNIPER_NAME"	"澳洲规则"
 "TF_SNIPER_DOMINATE_SNIPER_DESC"	"控制敌方狙击手。"
-"TF_SNIPER_KILL_SPIES_MELEE_NAME"	"疯狂砍杀"
+"TF_SNIPER_KILL_SPIES_MELEE_NAME"	"砍杀幽灵"
 "TF_SNIPER_KILL_SPIES_MELEE_DESC"	"使用反曲刀杀死 10 名间谍。"
 "TF_SNIPER_HEADSHOT_DEMOMAN_NAME"	"正中红心"
 "TF_SNIPER_HEADSHOT_DEMOMAN_DESC"	"射中敌方爆破手的头部。"
@@ -8308,7 +8314,7 @@
 "TF_SNIPER_KILL_UNSCOPED_NAME"		"相信直觉"
 "TF_SNIPER_KILL_UNSCOPED_DESC"		"用狙击步枪不开镜射杀 5 名敌人。"
 "TF_SNIPER_KILL_CHARGED_MEDIC_NAME"	"Uber 切除术"
-"TF_SNIPER_KILL_CHARGED_MEDIC_DESC"	"杀死 1 个已经准备好部署超能冲锋的医生。"
+"TF_SNIPER_KILL_CHARGED_MEDIC_DESC"	"杀死 1 个预备部署 UberCharge 的医生。"
 "TF_SNIPER_GET_BACKSTABBED_NAME"	"安慰奖"
 "TF_SNIPER_GET_BACKSTABBED_DESC"	"遭到 50 次背刺。"
 "TF_SNIPER_KILL_AT_ROUNDSTART_NAME"	"大敌当前"
@@ -8317,11 +8323,11 @@
 "TF_SNIPER_HEADSHOT_POST_INVULN_DESC"	"当敌方玩家的无敌状态刚消除时将其爆头。"
 "TF_SNIPER_TOP_SCOREBOARD_GRIND_NAME"	"辉煌的职业生涯"
 "TF_SNIPER_TOP_SCOREBOARD_GRIND_DESC"	"在由 6 名或 6 名以上玩家组成的队伍中，10 次占据记分板榜首位置。"
-"TF_SNIPER_KILL_FAILED_SPY_NAME"	"震撼疗法"
+"TF_SNIPER_KILL_FAILED_SPY_NAME"	"休克疗法"
 "TF_SNIPER_KILL_FAILED_SPY_DESC"	"杀死试图背刺你，但刚好被你的电击背脊盾挡住的间谍。"
 "TF_SNIPER_JARATE_GROUP_NAME"		"密集轰炸"
 "TF_SNIPER_JARATE_GROUP_DESC"		"用瓶手道一次击中 4 名敌方玩家。"
-"TF_SNIPER_JARATE_MEDIC_PAIR_NAME"	"从中破坏"
+"TF_SNIPER_JARATE_MEDIC_PAIR_NAME"	"泼冷水"
 "TF_SNIPER_JARATE_MEDIC_PAIR_DESC"	"用瓶手道击中敌人和正在治疗他的医生。"
 "TF_SNIPER_JARATE_REVEAL_SPY_NAME"	"罐子戏法"
 "TF_SNIPER_JARATE_REVEAL_SPY_DESC"	"用瓶手道使隐形的间谍现身。"
@@ -8335,7 +8341,7 @@
 "TF_SNIPER_BOW_KILL_FLAGCARRIER_DESC"	"单箭制服拿着你方情报的敌人。"
 "TF_SNIPER_BOW_PINCUSHION_NAME"		"如坐针毡"
 "TF_SNIPER_BOW_PINCUSHION_DESC"		"使用 3 支弓箭击中同一名敌人，但没杀死他。"
-"TF_SNIPER_JARATE_ASSISTS_NAME"		"助攻王"
+"TF_SNIPER_JARATE_ASSISTS_NAME"		"一急助攻"
 "TF_SNIPER_JARATE_ASSISTS_DESC"		"在一回合内，用瓶手道助攻 5 次。"
 "TF_SNIPER_JARATE_KILL_MELEE_NAME"	"罐刀合一"
 "TF_SNIPER_JARATE_KILL_MELEE_DESC"	"用近战武器消灭 3 个被你用瓶手道击中的敌人。"
@@ -8361,7 +8367,7 @@
 // Spy Achievement Pack
 "TF_SPY_BACKSTAB_SNIPERS_NAME"			"以一挡三"
 "TF_SPY_BACKSTAB_SNIPERS_DESC"			"在一次生命中背刺 3 名狙击手。"
-"TF_SPY_FREEZECAM_FLICK_NAME"			"赏心悦目"
+"TF_SPY_FREEZECAM_FLICK_NAME"			"独家丑闻"
 "TF_SPY_FREEZECAM_FLICK_DESC"			"送敌人一张你在他们尸首上弹烟灰的定格照。"
 "TF_SPY_BACKSTAB_DISGUISED_SPY_NAME"		"反间谍"
 "TF_SPY_BACKSTAB_DISGUISED_SPY_DESC"		"背刺伪装的间谍。"
@@ -8371,13 +8377,13 @@
 "TF_SPY_TAUNT_KILL_DESC"			"在击剑时刺杀敌人。"
 "TF_SPY_BACKSTAB_MEDIC_HEALING_YOU_NAME"	"听好了，我是间谍"
 "TF_SPY_BACKSTAB_MEDIC_HEALING_YOU_DESC"	"背刺一名前 5 秒内还在为你疗伤的敌方医生。"
-"TF_SPY_BACKSTAB_ENGY_SAP_BUILDING_NAME"	"烂枪侠"
+"TF_SPY_BACKSTAB_ENGY_SAP_BUILDING_NAME"	"烂枪客"
 "TF_SPY_BACKSTAB_ENGY_SAP_BUILDING_DESC"	"背刺一个工程师，然后在 10 秒内瘫痪 3 座他的建筑。"
-"TF_SPY_SAP_BUILDING_BACKSTAB_ENGY_NAME"	"破坏者"
+"TF_SPY_SAP_BUILDING_BACKSTAB_ENGY_NAME"	"敲骨吸髓"
 "TF_SPY_SAP_BUILDING_BACKSTAB_ENGY_DESC"	"瘫痪一个敌方建筑，然后在 5 秒内背刺建造该建筑的工程师。"
-"TF_SPY_BACKSTAB_MEDIC_PAIR_NAME"		"我能打断一下吗？"
+"TF_SPY_BACKSTAB_MEDIC_PAIR_NAME"		"我能插手一下吗？"
 "TF_SPY_BACKSTAB_MEDIC_PAIR_DESC"		"在 10 秒内背刺一名敌人以及为他疗伤的医生。"
-"TF_SPY_BACKSTAB_FRIENDS_NAME"			"超级间谍"
+"TF_SPY_BACKSTAB_FRIENDS_NAME"			"友尽间谍"
 "TF_SPY_BACKSTAB_FRIENDS_DESC"			"背刺你的 Steam 社区好友 10 次。"
 "TF_SPY_DOMINATE_SNIPER_NAME"			"狙击克星"
 "TF_SPY_DOMINATE_SNIPER_DESC"			"控制一名狙击手。"
@@ -8387,31 +8393,32 @@
 "TF_SPY_KILL_SPY_WITH_KNIFE_DESC"		"利用刀子杀死持枪的间谍。"
 "TF_SPY_SURVIVE_BURNING_NAME"			"火线警告"
 "TF_SPY_SURVIVE_BURNING_DESC"			"隐身时遭受火烧，但存活了 30 秒。"
-"TF_SPY_BREAK_SHIELD_KILL_SNIPER_NAME"		"另类死法"
+"TF_SPY_BREAK_SHIELD_KILL_SNIPER_NAME"		"换个死法"
 "TF_SPY_BREAK_SHIELD_KILL_SNIPER_DESC"		"杀死一个电击背脊盾已经被你破坏掉的狙击手。"
-"TF_SPY_KILL_WORKING_ENGY_NAME"			"破坏工事"
+"TF_SPY_KILL_WORKING_ENGY_NAME"			"施工中断"
 "TF_SPY_KILL_WORKING_ENGY_DESC"			"杀死正在建造步哨枪的工程师。"
-"TF_SPY_FAST_CAP_NAME"				"神秘而庄严的面孔"
+"TF_SPY_FAST_CAP_NAME"				"女王密探"
 "TF_SPY_FAST_CAP_DESC"				"控制点解锁的瞬间马上进行攻占。"
 "TF_SPY_MEDIC_HEALING_KILL_ENEMY_NAME"		"保险诈骗"
 "TF_SPY_MEDIC_HEALING_KILL_ENEMY_DESC"		"在接受敌方医生治疗时，杀死一名敌人。"
 "TF_SPY_KILL_CP_DEFENDERS_NAME"			"爆点专家"
 "TF_SPY_KILL_CP_DEFENDERS_DESC"			"杀死 15 个站在其控制点的敌人。"
-"TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"重要目标"
+"TF_SPY_BACKSTAB_DOMINATING_ENEMY_NAME"		"高价值目标"
 "TF_SPY_BACKSTAB_DOMINATING_ENEMY_DESC"		"背刺正控制己方 3 名或 3 名以上队友的敌人。"
+"TF_SPY_REVENGE_WITH_BACKSTAB_NAME"		"卷土重来"
 "TF_SPY_REVENGE_WITH_BACKSTAB_DESC"		"用背刺的方式复仇杀敌。"
-"TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"暗杀"
+"TF_SPY_KNIFE_KILL_WHILE_JARATED_NAME"		"雨中暗杀"
 "TF_SPY_KNIFE_KILL_WHILE_JARATED_DESC"		"在被瓶手道击中时，用近战武器消灭一个敌人。"
 "TF_SPY_BACKSTAB_QUICK_KILLS_NAME"		"连续背刺"
 "TF_SPY_BACKSTAB_QUICK_KILLS_DESC"		"在 10 秒内背刺 3 个敌人。"
-"TF_SPY_BACKSTAB_GRIND_NAME"			"间谍王"
+"TF_SPY_BACKSTAB_GRIND_NAME"			"间谍大师"
 "TF_SPY_BACKSTAB_GRIND_DESC"			"背刺 1000 个敌人。"
-"TF_SPY_SAPPER_GRIND_NAME"			"破坏王"
+"TF_SPY_SAPPER_GRIND_NAME"			"破坏专家"
 "TF_SPY_SAPPER_GRIND_DESC"			"使用电子工兵摧毁 1000 个工程师的建筑。"
 "TF_SPY_SAPPER_TEAMWORK_NAME"			"联合行动"
-"TF_SPY_SAPPER_TEAMWORK_DESC"			"在队友入侵敌人一支步哨枪后的 3 秒内，入侵敌人的另一支步哨枪。"
+"TF_SPY_SAPPER_TEAMWORK_DESC"			"在队友瘫痪敌人一支步哨枪后的 3 秒内, 瘫痪敌人的另一支步哨枪。"
 "TF_SPY_BACKSTAB_MEDIC_CHARGED_NAME"		"不不博士"
-"TF_SPY_BACKSTAB_MEDIC_CHARGED_DESC"		"背刺 1 个已经准备好部署超能冲锋的医生。"
+"TF_SPY_BACKSTAB_MEDIC_CHARGED_DESC"		"背刺 1 个预备部署 UberCharge 的医生。"
 "TF_SPY_BACKSTAB_CAPPING_ENEMIES_NAME"		"这安全吗？"
 "TF_SPY_BACKSTAB_CAPPING_ENEMIES_DESC"		"背刺 50 个正占领控制点的敌人。"
 "TF_SPY_BACKSTAB_ENEMY_SWITCH_PYRO_NAME"	"刺杀转世"
@@ -8420,7 +8427,7 @@
 "TF_SPY_AMBASSADOR_GRIND_DESC"			"使用大使手枪杀死 50 个敌人。"
 "TF_SPY_AMBASSADOR_SNIPER_GRIND_NAME"		"爆头高手"
 "TF_SPY_AMBASSADOR_SNIPER_GRIND_DESC"		"使用大使手枪爆头 20 名狙击手。"
-"TF_SPY_FEIGN_DEATH_KILL_NAME"			"潜伏间谍"
+"TF_SPY_FEIGN_DEATH_KILL_NAME"			"潜伏特工"
 "TF_SPY_FEIGN_DEATH_KILL_DESC"			"杀死在前 20 秒内迫使你假死的敌人。"
 "TF_SPY_AMBASSADOR_SCOUT_GRIND_NAME"		"谁是你老爸？"
 "TF_SPY_AMBASSADOR_SCOUT_GRIND_DESC"		"使用大使手枪爆头 3 名侦察兵。"
@@ -8432,27 +8439,27 @@
 "TF_SPY_ACHIEVE_PROGRESS2_DESC"		"达成 11 项间谍成就。"
 "TF_SPY_ACHIEVE_PROGRESS3_NAME"		"间谍里程碑 3"
 "TF_SPY_ACHIEVE_PROGRESS3_DESC"		"达成 17 项间谍成就。"
-"TF_SPY_KILL_BACKSCATTER_SCOUT_NAME"		"手脚利索"
+"TF_SPY_KILL_BACKSCATTER_SCOUT_NAME"		"眼疾手快"
 "TF_SPY_KILL_BACKSCATTER_SCOUT_DESC"		"背刺一个使用偷袭之力的侦察兵。"
 
 // Halloween Event
-"TF_HALLOWEEN_COLLECT_PUMPKINS_NAME"		"糖果屋"
+"TF_HALLOWEEN_COLLECT_PUMPKINS_NAME"		"糖果验尸官"
 "TF_HALLOWEEN_COLLECT_PUMPKINS_DESC"		"从死亡的玩家身上收集 20 个万圣节南瓜，以解锁帽子。"
-"TF_HALLOWEEN_DOMINATE_FOR_HAT_NAME"		"夺取可怕的摺叠礼帽"
+"TF_HALLOWEEN_DOMINATE_FOR_HAT_NAME"		"夺取可怕的折叠礼帽"
 "TF_HALLOWEEN_DOMINATE_FOR_HAT_DESC"		"控制一名戴着任何从成就中获得的折叠礼帽的玩家，获得你自己的幽灵折叠礼帽。"
 "TF_HALLOWEEN_KILL_SCARED_PLAYER_NAME"		"呆若木鸡"
 "TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"		"杀死 1 名被幽灵吓到的玩家。"
-"TF_HALLOWEEN_PUMPKIN_KILL_NAME"		"攻击南瓜灯"
+"TF_HALLOWEEN_PUMPKIN_KILL_NAME"		"打爆南瓜"
 "TF_HALLOWEEN_PUMPKIN_KILL_DESC"		"通过引爆附近的南瓜炸弹杀死 5 名玩家。"
 "TF_HALLOWEEN_DISGUISED_SPY_KILL_NAME"		"服装比赛"
 "TF_HALLOWEEN_DISGUISED_SPY_KILL_DESC"		"杀死一个伪装成你当前兵种的间谍。"
-"TF_HALLOWEEN_BOSS_KILL_NAME"                   "万圣节沉睡者"
+"TF_HALLOWEEN_BOSS_KILL_NAME"                   "沉睡谷之殇"
 "TF_HALLOWEEN_BOSS_KILL_DESC"                   "击败脱缰的无头骑士。"
 "TF_HALLOWEEN_BOSS_KILL_MELEE_NAME"             "击破！"
 "TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"             "夺得脱缰的无头骑士的闹鬼金属。"
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"           "蒙面侠"
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "在 Mann Manor 中收集一个摄魂石像鬼。"
-"TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "Sackston Hale"
+"TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "萨克斯袋.霍尔"
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_DESC"           "制造出萨克斯顿.霍尔面具。"
 "TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"脱缰的无头骑士"
 "TF_HALLOWEEN_BOSS_ANNOUNCE_VICTIM"			"%s1 成为了目标！"
@@ -8461,7 +8468,7 @@
 "TF_HALLOWEEN_BOSS_WARN_AGGRO"				"你激怒了脱缰的无头骑士！"
 "TF_HALLOWEEN_BOSS_LOST_AGGRO"				"你已不再是目标了。"
 "TF_HALLOWEEN_EYEBALL_BOSS_DEATHCAM_NAME"	"魔眼"
-"TF_HALLOWEEN_EYEBOSS_KILL_NAME"		"拆除视觉设备"
+"TF_HALLOWEEN_EYEBOSS_KILL_NAME"		"致盲"
 "TF_HALLOWEEN_EYEBOSS_KILL_DESC"		"杀死魔眼！"
 "TF_HALLOWEEN_LOOT_ISLAND_NAME"			"读本好书"
 "TF_HALLOWEEN_LOOT_ISLAND_DESC"			"到劫掠岛上去领取你的奖品！"
@@ -8471,37 +8478,37 @@
 "TF_HALLOWEEN_MERASMUS_COLLECT_LOOT_NAME"	"甜蜜度假胜地"
 "TF_HALLOWEEN_MERASMUS_COLLECT_LOOT_DESC"	"到骷髅岛上取得你的奖品！"
 "TF_HALLOWEEN_MERASMUS_YOU_ARE_BOMB"	"把你头上的炸弹还给马拉莫斯！"
-"TF_HALLOWEEN_HELLTOWER_RARE_SPELL_NAME"        "镇狱高塔：地狱的魔咒"
-"TF_HALLOWEEN_HELLTOWER_RARE_SPELL_DESC"        "找到并施放一个高级魔咒"
-"TF_HALLOWEEN_HELLTOWER_WIN_ROUNDS_NAME"        "镇狱高塔：竞技之魂"
+"TF_HALLOWEEN_HELLTOWER_RARE_SPELL_NAME"        "Helltower：地狱魔咒"
+"TF_HALLOWEEN_HELLTOWER_RARE_SPELL_DESC"        "找到并施放一个稀有魔咒"
+"TF_HALLOWEEN_HELLTOWER_WIN_ROUNDS_NAME"        "Helltower：竞技之魂"
 "TF_HALLOWEEN_HELLTOWER_WIN_ROUNDS_DESC"        "赢得 142 局游戏"
-"TF_HALLOWEEN_HELLTOWER_ENVIRONMENTAL_KILLS_NAME"             "镇狱高塔：记忆游戏"
+"TF_HALLOWEEN_HELLTOWER_ENVIRONMENTAL_KILLS_NAME"             "Helltower：心理博弈"
 "TF_HALLOWEEN_HELLTOWER_ENVIRONMENTAL_KILLS_DESC"             "在地狱中利用环境造成 17 次击杀"
-"TF_HALLOWEEN_HELLTOWER_SKELETON_GRIND_NAME"           "镇狱高塔：骷髅政变"
+"TF_HALLOWEEN_HELLTOWER_SKELETON_GRIND_NAME"           "Helltower：骷髅政变"
 "TF_HALLOWEEN_HELLTOWER_SKELETON_GRIND_DESC"           "杀死 99 名骷髅战士"
-"TF_HALLOWEEN_HELLTOWER_KILL_GRIND_NAME"        "镇狱高塔：魔咒狂欢"
+"TF_HALLOWEEN_HELLTOWER_KILL_GRIND_NAME"        "Helltower：魔咒狂欢"
 "TF_HALLOWEEN_HELLTOWER_KILL_GRIND_DESC"        "使用魔咒杀死 25 名玩家"
-"TF_HALLOWEEN_HELLTOWER_KILL_BROTHERS_NAME"            "镇狱高塔：地狱之轮"
+"TF_HALLOWEEN_HELLTOWER_KILL_BROTHERS_NAME"            "Helltower：无尽折磨"
 "TF_HALLOWEEN_HELLTOWER_KILL_BROTHERS_DESC"            "将雷德蒙德 / 布鲁塔克送入地狱 10 次"
-"TF_HALLOWEEN_HELLTOWER_MILESTONE_NAME"         "镇狱高塔：离奇之 4"
-"TF_HALLOWEEN_HELLTOWER_MILESTONE_DESC"         "获得 4 项镇狱高塔成就"
-"TF_HALLOWEEN_HELLTOWER_SKULL_ISLAND_REWARD_NAME"             "镇狱高塔：地狱之帽"
+"TF_HALLOWEEN_HELLTOWER_MILESTONE_NAME"         "Helltower：离奇之 4"
+"TF_HALLOWEEN_HELLTOWER_MILESTONE_DESC"         "获得 4 项 Helltower 成就"
+"TF_HALLOWEEN_HELLTOWER_SKULL_ISLAND_REWARD_NAME"             "Helltower：逃离火海"
 "TF_HALLOWEEN_HELLTOWER_SKULL_ISLAND_REWARD_DESC"             "在地狱的骷髅岛中获得战利品"
 "TF_HALLOWEEN_SKELETON_DEATHCAM_NAME"	"骷髅战士"
-"TF_HALLOWEEN_DOOMSDAY_KILL_KARTS_NAME"			"杀戮嘉年华：碰碰大丰收"
+"TF_HALLOWEEN_DOOMSDAY_KILL_KARTS_NAME"			"Carnival of Carnage：碰碰大丰收"
 "TF_HALLOWEEN_DOOMSDAY_KILL_KARTS_DESC"			"将 30 名敌人的碰碰车撞出赛道，让他们摔死。"
-"TF_HALLOWEEN_DOOMSDAY_COLLECT_DUCKS_NAME"			"杀戮嘉年华：抓鸭子"
+"TF_HALLOWEEN_DOOMSDAY_COLLECT_DUCKS_NAME"			"Carnival of Carnage：鸭力山大"
 "TF_HALLOWEEN_DOOMSDAY_COLLECT_DUCKS_DESC"			"收集 250 只鸭子。"
-"TF_HALLOWEEN_DOOMSDAY_SCORE_GOALS_NAME"			"杀戮嘉年华：帽子戏法"
+"TF_HALLOWEEN_DOOMSDAY_SCORE_GOALS_NAME"			"Carnival of Carnage：帽子戏法"
 "TF_HALLOWEEN_DOOMSDAY_SCORE_GOALS_DESC"			"在碰碰车足球赛中进球 3 次。"
-"TF_HALLOWEEN_DOOMSDAY_RESPAWN_TEAMMATES_NAME"			"杀戮嘉年华：车上复活"
+"TF_HALLOWEEN_DOOMSDAY_RESPAWN_TEAMMATES_NAME"			"Carnival of Carnage：轮下转世"
 "TF_HALLOWEEN_DOOMSDAY_RESPAWN_TEAMMATES_DESC"			"在碰碰车游戏中复活 30 名变成鬼魂的队友。"
-"TF_HALLOWEEN_DOOMSDAY_TINY_SMASHER_NAME"			"杀戮嘉年华：武器降级"
+"TF_HALLOWEEN_DOOMSDAY_TINY_SMASHER_NAME"			"Carnival of Carnage：军备裁减"
 "TF_HALLOWEEN_DOOMSDAY_TINY_SMASHER_DESC"			"在受到马拉莫斯的只能使用近战武器的诅咒时，杀死 15 个敌人。"
-"TF_HALLOWEEN_DOOMSDAY_WIN_MINIGAMES_NAME"			"杀戮嘉年华：碰，碰，碰"
+"TF_HALLOWEEN_DOOMSDAY_WIN_MINIGAMES_NAME"			"Carnival of Carnage：碰，碰，碰"
 "TF_HALLOWEEN_DOOMSDAY_WIN_MINIGAMES_DESC"			"在三种碰碰车模式中各取得一次胜利，来赢得一个额外的万圣节礼物大煲。"
-"TF_HALLOWEEN_DOOMSDAY_MILESTONE_NAME"			"杀戮嘉年华：毫不犹豫"
-"TF_HALLOWEEN_DOOMSDAY_MILESTONE_DESC"			 "完成 4 项杀戮嘉年华成就。"
+"TF_HALLOWEEN_DOOMSDAY_MILESTONE_NAME"			"Carnival of Carnage：好戏登场"
+"TF_HALLOWEEN_DOOMSDAY_MILESTONE_DESC"			 "完成 4 项 Carnival of Carnage 成就。"
 
 // Soldier Achievement Pack
 "TF_SOLDIER_ACHIEVE_PROGRESS1_NAME"		"士兵里程碑 1"
@@ -8519,18 +8526,18 @@
 "TF_SOLDIER_DEFEND_MEDIC_NAME"			"战争罪与罚"
 "TF_SOLDIER_DEFEND_MEDIC_DESC"			"在一次生命中杀死 3 名对治疗过你的医生造成伤害的敌人。"
 "TF_SOLDIER_KILL_TAUNT_NAME"			"手雷无情"
-"TF_SOLDIER_KILL_TAUNT_DESC"			"使用镐子的嘲讽炸死一名敌人。"
+"TF_SOLDIER_KILL_TAUNT_DESC"			"使用手雷炸死一名敌人。"
 "TF_SOLDIER_DESTROY_SENTRY_OUT_OF_RANGE_NAME"	"神奇之枪"
 "TF_SOLDIER_DESTROY_SENTRY_OUT_OF_RANGE_DESC"	"在工程师的步哨枪的射程外，摧毁 5 挺步哨枪。"
 "TF_SOLDIER_KILL_SNIPER_WHILE_DEAD_NAME"	"同归于尽"
 "TF_SOLDIER_KILL_SNIPER_WHILE_DEAD_DESC"	"在敌方狙击手杀死你之后，被你的火箭弹杀死。"
 "TF_SOLDIER_KILL_AIRBORNE_TARGET_WHILE_AIRBORNE_NAME"	"荣耀之翼"
 "TF_SOLDIER_KILL_AIRBORNE_TARGET_WHILE_AIRBORNE_DESC"	"在空中时杀死 1 名同样在空中的敌方士兵。"
-"TF_SOLDIER_KILL_ENGY_NAME"			"工程师永垂不朽"
+"TF_SOLDIER_KILL_ENGY_NAME"			"乱世工魂"
 "TF_SOLDIER_KILL_ENGY_DESC"			"杀死一名正在修复处于敌人火力之下的步哨枪的工程师。"
 "TF_SOLDIER_NEMESIS_SHOVEL_KILL_NAME"		"壕沟战"
 "TF_SOLDIER_NEMESIS_SHOVEL_KILL_DESC"		"用铁锹杀死你的复仇者。"
-"TF_SOLDIER_DESTROY_STICKIES_NAME"		"炸弹二等兵"
+"TF_SOLDIER_DESTROY_STICKIES_NAME"		"拆弹新兵"
 "TF_SOLDIER_DESTROY_STICKIES_DESC"		"用霰弹枪摧毁 10 枚黏性炸弹而不死。"
 "TF_SOLDIER_CROUCH_ROCKET_JUMP_NAME"		"翱翔的雄鹰"
 "TF_SOLDIER_CROUCH_ROCKET_JUMP_DESC"		"使用跳和蹲完成最高的火箭跳跃。"
@@ -8541,8 +8548,8 @@
 "TF_SOLDIER_SHOOT_MULT_CRITS_NAME"		"可恶的爆击火箭"
 "TF_SOLDIER_SHOOT_MULT_CRITS_DESC"		"连续射出两枚随机爆击的火箭。"
 "TF_SOLDIER_KILL_DEFENSELESS_NAME"		"撕毁日内瓦条约"
-"TF_SOLDIER_KILL_DEFENSELESS_DESC"		"在一局结束后，杀死 3 名毫无防御的玩家。"
-"TF_SOLDIER_KILL_ON_FIRE_NAME"			"烤肉串"
+"TF_SOLDIER_KILL_DEFENSELESS_DESC"		"在一局结束后，杀死 3 名手无寸铁的玩家。"
+"TF_SOLDIER_KILL_ON_FIRE_NAME"			"赴汤蹈火"
 "TF_SOLDIER_KILL_ON_FIRE_DESC"			"着火后杀死 20 名敌人。"
 "TF_SOLDIER_KILL_FIVE_STUNNED_NAME"		"致命昏迷"
 "TF_SOLDIER_KILL_FIVE_STUNNED_DESC"		"杀死 5 名被击昏或被减速的玩家。"
@@ -8554,13 +8561,13 @@
 "TF_SOLDIER_DEFEND_CAP_THIRTY_TIMES_DESC"	"守住控制点 30 次。"
 "TF_SOLDIER_GIB_GRIND_NAME"			"炸翻天"
 "TF_SOLDIER_GIB_GRIND_DESC"			"炸死 1000 名敌人。"
-"TF_SOLDIER_RJ_EQUALIZER_KILL_NAME"		"完美跳跃"
+"TF_SOLDIER_RJ_EQUALIZER_KILL_NAME"		"使命必达"
 "TF_SOLDIER_RJ_EQUALIZER_KILL_DESC"		"使用火箭跳跃，在空中或刚刚落地后使用十字镐杀死一名敌人。"
-"TF_SOLDIER_BUFF_TEAMMATES_NAME"		"加成小子"
+"TF_SOLDIER_BUFF_TEAMMATES_NAME"		"助威男孩"
 "TF_SOLDIER_BUFF_TEAMMATES_DESC"		"在一次生命中使用战旗为 15 名队友施加增益。"
 "TF_SOLDIER_KILL_DEMOMAN_GRIND_NAME"		"该死的苏格兰崽子，滚出去！"
 "TF_SOLDIER_KILL_DEMOMAN_GRIND_DESC"		"杀死 500 名敌方爆破手"
-"TF_SOLDIER_KILL_PYRO_NAME"			"极速追杀"
+"TF_SOLDIER_KILL_PYRO_NAME"			"故技重施"
 "TF_SOLDIER_KILL_PYRO_DESC"			"在敌人火焰兵把你的火箭吹开后的 10 秒内杀死他。"
 "TF_SOLDIER_EQUALIZER_STREAK_NAME"		"没空流血"
 "TF_SOLDIER_EQUALIZER_STREAK_DESC"		"在一次生命中未受治疗的情况下用十字镐杀死 3 名玩家。"
@@ -8579,30 +8586,30 @@
 "TF_SOLDIER_RIDE_THE_CART_NAME"			"英勇之旅"
 "TF_SOLDIER_RIDE_THE_CART_DESC"			"推车 30 秒。"
 "TF_SOLDIER_ASSIST_MEDIC_UBER_NAME"		"S*M*A*S*H"
-"TF_SOLDIER_ASSIST_MEDIC_UBER_DESC"		"辅助 1 个医生在单次超能冲锋中炸死 5 名敌人。"
-"TF_SOLDIER_PARACHUTE_KILL_GROUP_NAME"		"高人一等"
+"TF_SOLDIER_ASSIST_MEDIC_UBER_DESC"		"在医生的辅助下，于单次 UberCharge 状态下炸死 5 名敌人。"
+"TF_SOLDIER_PARACHUTE_KILL_GROUP_NAME"		"居高临下"
 "TF_SOLDIER_PARACHUTE_KILL_GROUP_DESC"		"在一次降落伞使用过程中，杀死 3 名玩家。"
 "TF_SOLDIER_PARACHUTE_DISTANCE_NAME"		"高益求高"
 "TF_SOLDIER_PARACHUTE_DISTANCE_DESC"		"伞降 19.47 英里。"
-"TF_SOLDIER_PARACHUTE_KILL_PARACHUTE_NAME"	"近身缠斗"
+"TF_SOLDIER_PARACHUTE_KILL_PARACHUTE_NAME"	"空中缠斗"
 "TF_SOLDIER_PARACHUTE_KILL_PARACHUTE_DESC"	"在跳伞时杀死一名跳伞的敌人。"
 "TF_SOLDIER_AIRSTRIKE_MAX_CLIP_NAME"	"最大潜力"
 "TF_SOLDIER_AIRSTRIKE_MAX_CLIP_DESC"	"利用空袭火箭筒杀敌，达到其最大装弹量。"
-"TF_SOLDIER_AIRSTRIKE_GROUP_KILL_NAME"	"炸弹出手！"
+"TF_SOLDIER_AIRSTRIKE_GROUP_KILL_NAME"	"投弹轰炸！"
 "TF_SOLDIER_AIRSTRIKE_GROUP_KILL_DESC"	"使用空袭火箭筒，在一次火箭跳之内，杀死 3 名敌人。"
 
 // Demoman Achievement Pack
 "TF_DEMOMAN_KILL_SOLDIER_GRIND_NAME"		"士兵猎手"
 "TF_DEMOMAN_KILL_SOLDIER_GRIND_DESC"		"杀死 500 名敌方士兵"
 "TF_DEMOMAN_DESTROY_BUILDINGS_WITH_MEDIC_NAME"	"拆除大队"
-"TF_DEMOMAN_DESTROY_BUILDINGS_WITH_MEDIC_DESC"	"在医生发动的单次超能冲锋中摧毁 5 座敌方工程师建筑。"
+"TF_DEMOMAN_DESTROY_BUILDINGS_WITH_MEDIC_DESC"	"在医生发动的单次 UberCharge 中摧毁 5 座敌方工程师建筑。"
 "TF_DEMOMAN_DECAPITATE_CLOAKED_SPY_NAME"	"康纳利之死"
 "TF_DEMOMAN_DECAPITATE_CLOAKED_SPY_DESC"	"砍下隐形间谍的脑袋。"
 "TF_DEMOMAN_KILL_X_WITH_DIRECTPIPE_NAME"	"正中靶心"
 "TF_DEMOMAN_KILL_X_WITH_DIRECTPIPE_DESC"	"使用榴弹发射器直接命中杀死 50 名敌人。"
 "TF_DEMOMAN_BOUNCE_AND_KILL_NAME"		"高空肉靶"
 "TF_DEMOMAN_BOUNCE_AND_KILL_DESC"		"将敌人炸飞，并在落地之前将其杀死。"
-"TF_DEMOMAN_DECAPITATE_PLAYERS_NAME"		"猎头者"
+"TF_DEMOMAN_DECAPITATE_PLAYERS_NAME"		"摸不着头脑"
 "TF_DEMOMAN_DECAPITATE_PLAYERS_DESC"		"砍下 50 名敌人的脑袋。"
 "TF_DEMOMAN_DECAPITATE_PLAYERS_FAST_NAME"	"求头之路"
 "TF_DEMOMAN_DECAPITATE_PLAYERS_FAST_DESC"	"连续砍下 4 名敌人的脑袋，间隔不超过 10 秒。"
@@ -8622,11 +8629,11 @@
 "TF_DEMOMAN_KILL_ENGI_SENTRY_DISPENSER_DESC"	"单次引爆黏性炸弹，将一名工程师，他的步哨枪、补给器一起炸飞。"
 "TF_DEMOMAN_DECAPITATE_EQUALIZER_NAME"		"大挫锐气"
 "TF_DEMOMAN_DECAPITATE_EQUALIZER_DESC"		"砍下一名正在挥舞十字镐的敌方士兵的脑袋。"
-"TF_DEMOMAN_DECAPITATE_NEMESIS_NAME"		"只能活一个"
+"TF_DEMOMAN_DECAPITATE_NEMESIS_NAME"		"你死我活"
 "TF_DEMOMAN_DECAPITATE_NEMESIS_DESC"		"砍下你的复仇者的脑袋。"
 "TF_DEMOMAN_DAMAGE_GRIND_NAME"			"炸弹专家"
 "TF_DEMOMAN_DAMAGE_GRIND_DESC"			"造成 100 万的爆炸伤害。"
-"TF_DEMOMAN_KILL_X_CAPPING_ONEDET_NAME"		"连环爆炸"
+"TF_DEMOMAN_KILL_X_CAPPING_ONEDET_NAME"		"苏格兰卫队"
 "TF_DEMOMAN_KILL_X_CAPPING_ONEDET_DESC"		"单次引爆黏性炸弹，炸死 3 名正在推车或占点的敌人，累计 3 次。"
 "TF_DEMOMAN_KILL_X_DEFENDING_NAME"		"负隅顽抗"
 "TF_DEMOMAN_KILL_X_DEFENDING_DESC"		"杀死 25 名防守控制点或战车的玩家。"
@@ -8649,10 +8656,10 @@
 "TF_DEMOMAN_FREEZECAM_SMILE_NAME"		"血腥微笑"
 "TF_DEMOMAN_FREEZECAM_SMILE_DESC"		"送敌方玩家一张带有你笑脸的定格照。"
 "TF_DEMOMAN_FREEZECAM_RUMP_NAME"		"第二只眼"
-"TF_DEMOMAN_FREEZECAM_RUMP_DESC"		"送敌方玩家一张你摇摆屁股的定格照。"
+"TF_DEMOMAN_FREEZECAM_RUMP_DESC"		"送敌方玩家一张你扭屁股的定格照。"
 "TF_DEMOMAN_ENVIRONMENTAL_KILL_NAME"		"借力使力"
 "TF_DEMOMAN_ENVIRONMENTAL_KILL_DESC"		"使用黏性炸弹发射器利用环境伤害杀死 1 名敌方玩家。"
-"TF_DEMOMAN_DESTROY_X_STICKYBOMBS_NAME"		"皇家抢案"
+"TF_DEMOMAN_DESTROY_X_STICKYBOMBS_NAME"		"皇家劫案"
 "TF_DEMOMAN_DESTROY_X_STICKYBOMBS_DESC"		"使用苏格兰防御者摧毁 100 枚敌方黏性炸弹。"
 "TF_DEMOMAN_STICKJUMP_DISTANCE_NAME"		"高空滑翔"
 "TF_DEMOMAN_STICKJUMP_DISTANCE_DESC"		"超远距离黏弹跳跃..."
@@ -8660,7 +8667,7 @@
 "TF_DEMOMAN_KILL3_WITH_DETONATION_DESC"		"单次引爆黏性炸弹炸死至少 3 名玩家。"
 "TF_DEMOMAN_KILLXSAPPINGSPIES_NAME"		"闪击间谍"
 "TF_DEMOMAN_KILLXSAPPINGSPIES_DESC"		"杀死 20 名在前 5 秒内瘫痪了友方建筑的间谍。"
-"TF_DEMOMAN_KILL3_WITH_PIPE_SETUPS_NAME"	"砰！砰！砰！"
+"TF_DEMOMAN_KILL3_WITH_PIPE_SETUPS_NAME"	"炸药作响"
 "TF_DEMOMAN_KILL3_WITH_PIPE_SETUPS_DESC"	"使用苏格兰防御者分次引爆炸死 3 名玩家，而不另外放置黏性炸弹。"
 "TF_DEMOMAN_ACHIEVE_PROGRESS1_NAME"		"爆破手里程碑 1"
 "TF_DEMOMAN_ACHIEVE_PROGRESS1_DESC"		"达成 5 项爆破手成就。"
@@ -8676,9 +8683,9 @@
 "TF_DEMOMAN_PARACHUTE_KILL_PARACHUTE_DESC"		"在跳伞时杀死一名跳伞的敌人。"
 "TF_DEMOMAN_KILL_PLAYER_YOU_DIDNT_SEE_NAME"		"急转弯"
 "TF_DEMOMAN_KILL_PLAYER_YOU_DIDNT_SEE_DESC"		"在冲锋中杀死一名刚才还不在你视线范围中的敌人。"
-"TF_DEMOMAN_QUICK_KILLS_NAME"					"链式反应"
+"TF_DEMOMAN_QUICK_KILLS_NAME"					"连锁反应"
 "TF_DEMOMAN_QUICK_KILLS_DESC"					"利用冲锋，在 6 秒中杀死 3 名敌人。"
-"TF_DEMOMAN_CHARGE_KILL_CHARGING_DEMO_NAME"		"死对头"
+"TF_DEMOMAN_CHARGE_KILL_CHARGING_DEMO_NAME"		"迎头冲锋"
 "TF_DEMOMAN_CHARGE_KILL_CHARGING_DEMO_DESC"		"在冲锋时杀死冲锋的敌方爆破手。"
 
 // Engineer Achievement Pack
@@ -8692,7 +8699,7 @@
 "TF_ENGINEER_TELEPORT_GRIND_DESC"				"累计让 100 名队友使用你的传送装置。"
 "TF_ENGINEER_DISPENSER_EXTINGUISH_NAME"				"为绅士灭火"
 "TF_ENGINEER_DISPENSER_EXTINGUISH_DESC"				"使用补给器帮助 20 名队友灭火。"
-"TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER_NAME"			"复仇"
+"TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER_NAME"			"曲线复仇"
 "TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER_DESC"			"使用边境裁决者的复仇爆击杀死摧毁掉你步哨的敌人。"
 "TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL_NAME"			"搜索引擎"
 "TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL_DESC"			"操纵遥控手柄杀死 3 个隐形的间谍。"
@@ -8702,27 +8709,27 @@
 "TF_ENGINEER_MANUAL_SENTRY_ABSORB_DMG_DESC"			"使用遥控手柄帮助你的步哨枪加装护盾，并且在吸收 500 点伤害后仍然没有被毁。"
 "TF_ENGINEER_REVENGE_CRIT_LIFE_NAME"				"不可饶恕"
 "TF_ENGINEER_REVENGE_CRIT_LIFE_DESC"				"在一次生命中使用边境裁决者的复仇爆击击杀 3 名敌人。"
-"TF_ENGINEER_KILL_SPY_TWO_SAPPERS_NAME"				"快速处理"
+"TF_ENGINEER_KILL_SPY_TWO_SAPPERS_NAME"				"手脚麻利"
 "TF_ENGINEER_KILL_SPY_TWO_SAPPERS_DESC"				"10 秒内杀掉一个间谍，并摧毁 2 个电子工兵。"
-"TF_ENGINEER_KILL_DISGUISED_SPY_NAME"				"扳手攻击"
+"TF_ENGINEER_KILL_DISGUISED_SPY_NAME"				"扳手法网"
 "TF_ENGINEER_KILL_DISGUISED_SPY_DESC"				"使用扳手击杀一名伪装的间谍。"
 "TF_ENGINEER_UPGRADE_BUILDINGS_NAME"				"沉默的伙计"
 "TF_ENGINEER_UPGRADE_BUILDINGS_DESC"				"帮助队友升级他的建筑 50 次。"
-"TF_ENGINEER_DESTROY_SAPPERS_NAME"				"一群电子工兵"
+"TF_ENGINEER_DESTROY_SAPPERS_NAME"				"工兵遍地"
 "TF_ENGINEER_DESTROY_SAPPERS_DESC"				"帮助队友摧毁 25 个电子工兵。"
 "TF_ENGINEER_REPAIR_SENTRY_W_MEDIC_NAME"			"治疗与修复"
 "TF_ENGINEER_REPAIR_SENTRY_W_MEDIC_DESC"			"当医生治疗你时，修复受到攻击的步哨枪。"
-"TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_NAME"			"德克萨斯州的屠宰场"
+"TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_NAME"			"德州头号屠宰场"
 "TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_DESC"			"使用步哨枪击杀 5000 名敌人。"
 "TF_ENGINEER_SENTRY_AVENGES_YOU_NAME"				"边境审判"
 "TF_ENGINEER_SENTRY_AVENGES_YOU_DESC"				"你的步哨枪在 10 秒内干掉杀死你的敌人。"
 "TF_ENGINEER_FREEZECAM_TAUNT_NAME"				"吉他秀"
 "TF_ENGINEER_FREEZECAM_TAUNT_DESC"				"送敌方玩家一张展现你吉他弹奏技艺的定格照。"
-"TF_ENGINEER_FREEZECAM_SENTRY_NAME"				"不文明的家伙"
+"TF_ENGINEER_FREEZECAM_SENTRY_NAME"				"土墓工程"
 "TF_ENGINEER_FREEZECAM_SENTRY_DESC"				"用步哨枪干掉敌方玩家时，送他一张你和步哨枪的定格照。"
 "TF_ENGINEER_SHOTGUN_KILL_PREV_SENTRY_TARGET_NAME"		"联合攻击"
 "TF_ENGINEER_SHOTGUN_KILL_PREV_SENTRY_TARGET_DESC"		"用你的霰弹枪干掉一个被你的步哨攻击过的敌人。"
-"TF_ENGINEER_DISPENSER_HEAL_GROUP_NAME"				"节假日"
+"TF_ENGINEER_DISPENSER_HEAL_GROUP_NAME"				"医生休假"
 "TF_ENGINEER_DISPENSER_HEAL_GROUP_DESC"				"用你的补给器同时治疗 3 个队友。"
 "TF_ENGINEER_SENTRY_KILL_CAPS_NAME"				"无人地带"
 "TF_ENGINEER_SENTRY_KILL_CAPS_DESC"				"使用步哨枪干掉 25 名正在占领控制点的敌人。"
@@ -8736,7 +8743,7 @@
 "TF_ENGINEER_REMOVE_SAPPER_LONG_DIST_DESC"			"敌方间谍在你的建筑上放置了电子工兵，你当时正离这个建筑几米远，赶回去清除掉电子工兵。"
 "TF_ENGINEER_DESTROY_STICKIES_NAME"				"消灭害虫"
 "TF_ENGINEER_DESTROY_STICKIES_DESC"				"摧毁掉你建筑旁的 50 个黏性炸弹。"
-"TF_ENGINEER_TAUNT_KILL_NAME"					"爵士乐手"
+"TF_ENGINEER_TAUNT_KILL_NAME"					"吉他暴击"
 "TF_ENGINEER_TAUNT_KILL_DESC"					"使用吉他给敌人头部造成致命冲击。"
 "TF_ENGINEER_KILL_SNIPERS_SENTRY_NAME"				"打破规则"
 "TF_ENGINEER_KILL_SNIPERS_SENTRY_DESC"				"使用遥控手柄操作步哨枪杀死 10 名狙击手。"
@@ -8750,17 +8757,17 @@
 "TF_ENGINEER_BUILDING_CARRY_DESC"				"扛着你的建筑行走 1 千米。"
 "TF_ENGINEER_KILL_ASSIST_NAME"					"第三只手"
 "TF_ENGINEER_KILL_ASSIST_DESC"					"使用你的步哨枪协助另一名工程师并获得 10 次助攻。"
-"TF_ENGINEER_DISPENSER_HEAL_GRIND_NAME"				"治疗型牛仔"
+"TF_ENGINEER_DISPENSER_HEAL_GRIND_NAME"				"药房牛仔"
 "TF_ENGINEER_DISPENSER_HEAL_GRIND_DESC"				"使用补给器为玩家补充 100000 点生命值。"
-"TF_ENGINEER_REPAIR_TEAM_GRIND_NAME"				"修理工"
+"TF_ENGINEER_REPAIR_TEAM_GRIND_NAME"				"共同御敌"
 "TF_ENGINEER_REPAIR_TEAM_GRIND_DESC"				"修复队友的建筑物，累计修复 50000 点伤害。"
-"TF_ENGINEER_TANK_DAMAGE_NAME"					"永垂不朽"
+"TF_ENGINEER_TANK_DAMAGE_NAME"					"经久耐用"
 "TF_ENGINEER_TANK_DAMAGE_DESC"					"帮助一个建筑承受超过 2000 点伤害，并且建筑没有被摧毁。"
-"TF_ENGINEER_HEAVY_ASSIST_NAME"					"协助犯罪"
+"TF_ENGINEER_HEAVY_ASSIST_NAME"					"自古英雄不寂寞"
 "TF_ENGINEER_HEAVY_ASSIST_DESC"					"用补给器持续为一个机枪手提供治疗，直到他杀死 5 名敌人。"
 
 // Replay achievements.
-"TF_REPLAY_SAVE_REPLAY_NAME"					"完工"
+"TF_REPLAY_SAVE_REPLAY_NAME"					"杀青"
 "TF_REPLAY_SAVE_REPLAY_DESC"					"保存你的第一个回放。"
 "TF_REPLAY_PERFORMANCE_MODE_NAME"				"后期校正"
 "TF_REPLAY_PERFORMANCE_MODE_DESC"				"当观看回放时，按下空格键进入编辑器。"
@@ -8784,17 +8791,17 @@
 "TF_MAPS_FOUNDRY_PLAY_GAME_FRIENDS_DESC"		"与至少 5 名在你好友名单上的玩家进行一次游戏。"
 "TF_MAPS_FOUNDRY_WIN_MINTIME_NAME"				"两分钟战争"
 "TF_MAPS_FOUNDRY_WIN_MINTIME_DESC"				"在两分钟内赢得一次胜利。"
-"TF_MAPS_FOUNDRY_WIN_ROUNDS_NAME"				"严酷考验"
+"TF_MAPS_FOUNDRY_WIN_ROUNDS_NAME"				"百炼成钢"
 "TF_MAPS_FOUNDRY_WIN_ROUNDS_DESC"				"累计赢得 137  次胜利。"
 "TF_MAPS_FOUNDRY_FAST_FINAL_CAP_NAME"			"最速五秒"
 "TF_MAPS_FOUNDRY_FAST_FINAL_CAP_DESC"			"在你的队友占领上个控制点的五秒内占领最终控制点。"
-"TF_MAPS_FOUNDRY_TELEPORT_AND_CAP_NAME"			"领土主张"
+"TF_MAPS_FOUNDRY_TELEPORT_AND_CAP_NAME"			"非法占领"
 "TF_MAPS_FOUNDRY_TELEPORT_AND_CAP_DESC"			"在走出传送装置后的 12 秒内占领一个控制点。"
-"TF_MAPS_FOUNDRY_PUSH_INTO_CAULDRON_NAME"		"同样终结"
+"TF_MAPS_FOUNDRY_PUSH_INTO_CAULDRON_NAME"		"再见，终结者"
 "TF_MAPS_FOUNDRY_PUSH_INTO_CAULDRON_DESC"		"将一个敌人推入炉火中烧死。"
 "TF_MAPS_FOUNDRY_PUSH_BACK_AND_WIN_NAME"		"真正的偷点"
 "TF_MAPS_FOUNDRY_PUSH_BACK_AND_WIN_DESC"		"在敌人试图占领我方的最后一个控制点之后，仍然赢得此局。"
-"TF_MAPS_FOUNDRY_PLAY_EACH_CLASS_NAME"			"全兵种杀手"
+"TF_MAPS_FOUNDRY_PLAY_EACH_CLASS_NAME"			"全职杀手"
 "TF_MAPS_FOUNDRY_PLAY_EACH_CLASS_DESC"			"在一局游戏中，使用全部9个兵种，并且各获得至少一次杀敌。"
 "TF_MAPS_FOUNDRY_KILL_ENEMY_ON_ROOF_NAME"		"扫荡屋顶"
 "TF_MAPS_FOUNDRY_KILL_ENEMY_ON_ROOF_DESC"		"在一次生命内，杀死中央控制点屋顶上的两个敌人。"
@@ -8808,7 +8815,7 @@
 "TF_MVM_COMPLETE_POP_FILE_DESC"					"在一次任务中抵挡所有回合的进攻。"
 "TF_MVM_EARN_MONEY_BONUS_NAME"					"战时加薪"
 "TF_MVM_EARN_MONEY_BONUS_DESC"					"在一回合结束时获得现金奖励。"
-"TF_MVM_ADVANCED_EARN_ALL_BONUSES_NAME"			"横财"
+"TF_MVM_ADVANCED_EARN_ALL_BONUSES_NAME"			"战争横财"
 "TF_MVM_ADVANCED_EARN_ALL_BONUSES_DESC"			"在高级难度下，获得全部的现金奖励。"
 "TF_MVM_PICKUP_MONEY_ABOUT_TO_EXPIRE_NAME"		"高速缓存"
 "TF_MVM_PICKUP_MONEY_ABOUT_TO_EXPIRE_DESC"		"在地上的现金快要消失的时候把它捡起来。"
@@ -8816,114 +8823,114 @@
 "TF_MVM_COLLECT_MONEY_GRIND_DESC"				"捡起的现金数量到达 1000000。"
 "TF_MVM_PLAY_GAME_FRIENDS_NAME"					"钢铁兄弟会"
 "TF_MVM_PLAY_GAME_FRIENDS_DESC"					"与 5 名好友共同完成一次任务。"
-"TF_MVM_PLAY_EACH_CLASS_NAME"					"全能多面手"
+"TF_MVM_PLAY_EACH_CLASS_NAME"					"万金油黑客"
 "TF_MVM_PLAY_EACH_CLASS_DESC"					"分别使用每个兵种进行一次完整的游戏。"
 "TF_MVM_DESTROY_TWO_TANKS_NAME"					"发条毁灭者"
 "TF_MVM_DESTROY_TWO_TANKS_DESC"					"摧毁两辆坦克，间隔时间不超过5秒。"
-"TF_MVM_DESTROY_TANK_WHILE_DEPLOYING_NAME"		"Balls-E"
+"TF_MVM_DESTROY_TANK_WHILE_DEPLOYING_NAME"		"千钧一发"
 "TF_MVM_DESTROY_TANK_WHILE_DEPLOYING_DESC"		"在坦克即将完成炸弹部署时将其摧毁。"
 "TF_MVM_DESTROY_TANK_QUICKLY_NAME"				"发条征服者"
 "TF_MVM_DESTROY_TANK_QUICKLY_DESC"				"在坦克出现后的 20 秒内将其摧毁。"
-"TF_MVM_DEFEND_CAP_NAME"						"垃圾阻挡"
+"TF_MVM_DEFEND_CAP_NAME"						"拦截垃圾邮件"
 "TF_MVM_DEFEND_CAP_DESC"						"在同一波进攻中，防守舱门 10 次，以防止机器人投放炸弹。"
-"TF_MVM_KILL_BOMB_CARRIERS_NAME"				"刽子手"
+"TF_MVM_KILL_BOMB_CARRIERS_NAME"				"执刑程序"
 "TF_MVM_KILL_BOMB_CARRIERS_DESC"				"在同一波攻势中，连续摧毁 15 个还没升级的运送炸弹的机器人。"
-"TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_NAME"		"杀出重围"
+"TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_NAME"		"机械降神"
 "TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_DESC"		"在进阶难度下用一条命完成一回合。"
-"TF_MVM_COMPLETE_TOUR_NAME"						"抢劫阵列"
+"TF_MVM_COMPLETE_TOUR_NAME"						"奇袭阵列"
 "TF_MVM_COMPLETE_TOUR_DESC"						"完成 Crash Course, Doe's Drill, 以及 Mann-euvers 任务。"
 "TF_MVM_USE_TELEPORT_BOTTLE_NAME"				"机器幽灵"
 "TF_MVM_USE_TELEPORT_BOTTLE_DESC"				"使用水壶提供的“传送至重生点”效果，然后在 5 秒内杀死一个炸弹运送者。"
 "TF_MVM_USE_CRIT_BOTTLE_NAME"					"爆击恐惧"
 "TF_MVM_USE_CRIT_BOTTLE_DESC"					"使用水壶提供的“爆击加成”摧毁一个巨型机器人。"
-"TF_MVM_USE_UBER_BOTTLE_NAME"					"德国技术"
-"TF_MVM_USE_UBER_BOTTLE_DESC"					"使用水壶提供的“超能冲锋”摧毁 15 个机器人"
-"TF_MVM_USE_BUILD_BOTTLE_NAME"					"未删除"
+"TF_MVM_USE_UBER_BOTTLE_NAME"					"德国工艺"
+"TF_MVM_USE_UBER_BOTTLE_DESC"					"使用水壶提供的“无敌加成”摧毁 15 个机器人。"
+"TF_MVM_USE_BUILD_BOTTLE_NAME"					"撤销删除"
 "TF_MVM_USE_BUILD_BOTTLE_DESC"					"在同一波进攻中，在你原先的步哨枪被摧毁后的 3 秒内，使用水壶提供的“建筑瞬间升级”来建造一挺新步哨枪。"
 "TF_MVM_USE_AMMO_BOTTLE_NAME"					"弹药扩充"
 "TF_MVM_USE_AMMO_BOTTLE_DESC"					"在同一波进攻中，使用水壶提供的“装填弹药”来为弹药耗尽的武器恢复弹药。"
 "TF_MVM_MAX_PRIMARY_UPGRADES_NAME"				"系统升级"
 "TF_MVM_MAX_PRIMARY_UPGRADES_DESC"				"将主武器的各项升级升满。"
-"TF_MVM_MAX_PLAYER_RESISTANCES_NAME"			"高效运行"
+"TF_MVM_MAX_PLAYER_RESISTANCES_NAME"			"极致性能"
 "TF_MVM_MAX_PLAYER_RESISTANCES_DESC"			"将某一兵种的全部伤害抗性升到满级"
 "TF_MVM_NO_ALARMS_IN_FINAL_WAVE_NAME"			"引擎故障"
 "TF_MVM_NO_ALARMS_IN_FINAL_WAVE_DESC"			"进行高级难度的游戏，并在最后一回合中，阻止炸弹抵达警戒区域。"
 "TF_MVM_KILL_MEDICS_CHARGED_NAME"				"负电荷"
-"TF_MVM_KILL_MEDICS_CHARGED_DESC"				"在一波进攻中击杀 5 个准备好部署超能冲锋的医生。"
+"TF_MVM_KILL_MEDICS_CHARGED_DESC"				"在一波攻势中摧毁 5 个预备部署 UberCharge 的机器医生。"
 "TF_MVM_KILL_ROBOT_GRIND_NAME"					"芯片杀手"
 "TF_MVM_KILL_ROBOT_GRIND_DESC"					"摧毁 100000 个机器人。"
 "TF_MVM_KILL_ROBOT_MEGA_GRIND_NAME"				"金属屠杀"
 "TF_MVM_KILL_ROBOT_MEGA_GRIND_DESC"				"摧毁 1000000 个机器人。"
-"TF_MVM_KILL_SENTRY_BUSTER_NAME"				"超热启动"
+"TF_MVM_KILL_SENTRY_BUSTER_NAME"				"手动关停"
 "TF_MVM_KILL_SENTRY_BUSTER_DESC"				"在步哨毁灭者抵达目标步哨之前将其摧毁。"
 "TF_MVM_SPY_SAP_ROBOTS_NAME"					"电压异常"
 "TF_MVM_SPY_SAP_ROBOTS_DESC"					"作为间谍同时瘫痪 10 个机器人。"
-"TF_MVM_SOLDIER_BUFF_TEAM_NAME"					"强力冲击"
+"TF_MVM_SOLDIER_BUFF_TEAM_NAME"					"涡轮增压"
 "TF_MVM_SOLDIER_BUFF_TEAM_DESC"					"用士兵在单波攻势内同时对 4 名队友释放战旗加成。"
 "TF_MVM_HEAVY_RAGE_PUSH_DEPLOYING_ROBOT_NAME"	"越战越勇"
 "TF_MVM_HEAVY_RAGE_PUSH_DEPLOYING_ROBOT_DESC"	"作为机枪手，在单波攻势中使用怒气击退效果推开一个即将投放炸弹的机器人。"
 "TF_MVM_MEDIC_SHARE_BOTTLES_NAME"				"勇气的分享"
-"TF_MVM_MEDIC_SHARE_BOTTLES_DESC"				"作为医生，在一回合内分享水壶效果 5 次。"
-"TF_MVM_DEMO_GROUP_KILL_NAME"					"机器破坏者"
+"TF_MVM_MEDIC_SHARE_BOTTLES_DESC"				"作为医生，在单波攻势内分享水壶效果 5 次。"
+"TF_MVM_DEMO_GROUP_KILL_NAME"					"技术破坏"
 "TF_MVM_DEMO_GROUP_KILL_DESC"					"用爆破手在单次黏弹引爆中摧毁 10 个机器人。"
-"TF_MVM_SCOUT_MARK_FOR_DEATH_NAME"				"机器人会做梦吗？"
-"TF_MVM_SCOUT_MARK_FOR_DEATH_DESC"				"在一回合内，用侦察兵的睡魔棒球为 15 个机器人打上死亡标记。"
+"TF_MVM_SCOUT_MARK_FOR_DEATH_NAME"				"机器人也会做梦吗？"
+"TF_MVM_SCOUT_MARK_FOR_DEATH_DESC"				"在单波攻势内，用侦察兵的睡魔棒球为 15 个机器人打上死亡标记。"
 "TF_MVM_SNIPER_KILL_GROUP_NAME"					"电火花"
 "TF_MVM_SNIPER_KILL_GROUP_DESC"					"作为狙击手，一枪杀死 4 名敌人。"
-"TF_MVM_PYRO_BOMB_RESET_NAME"					"硬启动"
-"TF_MVM_PYRO_BOMB_RESET_DESC"					"用火焰兵在一回合中销毁炸弹 3 次。"
+"TF_MVM_PYRO_BOMB_RESET_NAME"					"硬重启"
+"TF_MVM_PYRO_BOMB_RESET_DESC"					"用火焰兵在单波攻势中销毁炸弹 3 次。"
 "TF_MVM_ENGINEER_ESCAPE_SENTRY_BUSTER_NAME"		"偷运出界"
 "TF_MVM_ENGINEER_ESCAPE_SENTRY_BUSTER_DESC"		"在步哨毁灭者将要引爆时带着你的步哨逃走。"
 "TF_MVM_MAPS_ROTTENBURG_TANK_NAME"						"宅急救"
 "TF_MVM_MAPS_ROTTENBURG_TANK_DESC"						"在 Rottenburg，于坦克碾过路障前摧毁它。"
-"TF_MVM_MAPS_ROTTENBURG_BOMB_NAME"						"双重猛击"
+"TF_MVM_MAPS_ROTTENBURG_BOMB_NAME"						"固若金汤"
 "TF_MVM_MAPS_ROTTENBURG_BOMB_DESC"						"在 Rottenburg 上进行一场进阶回合，没有让炸弹炸毁城镇。"
 "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND_NAME"					"过去的世纪"
 "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND_DESC"					"在 Rottenburg，把 100 名敌人推进陷阱。"
-"TF_MVM_MAPS_MANNHATTAN_PIT_NAME"						"布置陷阱是个技术活"
-"TF_MVM_MAPS_MANNHATTAN_MYSTERY_NAME"					"现在可以吃了"
-"TF_MVM_MAPS_MANNHATTAN_MYSTERY_DESC"					"在曼恩哈顿的某处：啊…疼…啊…！"
+"TF_MVM_MAPS_MANNHATTAN_PIT_NAME"						"诱敌深入"
+"TF_MVM_MAPS_MANNHATTAN_MYSTERY_NAME"					"现可合法食用"
+"TF_MVM_MAPS_MANNHATTAN_MYSTERY_DESC"					"在 Mannhattan 的某处：啊…疼…啊…！"
 "TF_MVM_MAPS_MANNHATTAN_NO_GATES_NAME"					"从老子的草坪上滚出去"
-"TF_MVM_MAPS_MANNHATTAN_NO_GATES_DESC"					"在曼恩哈顿上进行一场进阶任务，没有让敌方的出生点推进一次。"
+"TF_MVM_MAPS_MANNHATTAN_NO_GATES_DESC"					"在 Mannhattan 上进行一场进阶任务，没有让敌方的出生点推进一次。"
 "TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE_NAME"			"软件降级"
 "TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE_DESC"			"在曼恩哈顿的一次进阶难度任务中，和你的队友一起，杀死 50 个正在接收信号的机器人。"
-"TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_NAME"			"都市打击"
-"TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_DESC"			"在曼恩哈顿摧毁 500 个正在破门的机器人。"
+"TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_NAME"			"都市突击"
+"TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_DESC"			"在 Mannhattan 摧毁 500 个正在破门的机器人。"
 "TF_MVM_SENTRY_BUSTER_FRIENDLY_FIRE_NAME"				"机器人毁灭者"
-"TF_MVM_SENTRY_BUSTER_FRIENDLY_FIRE_DESC"				"击毁步哨毁灭者，用造成的爆炸一次干掉 5 个机器人。"
-"TF_MVM_SNIPER_COLLECT_HEADSHOT_MONEY_NAME"				"银行在手"
+"TF_MVM_SENTRY_BUSTER_FRIENDLY_FIRE_DESC"				"引爆步哨毁灭者，利用其产生的爆炸一次干掉 5 个机器人。"
+"TF_MVM_SNIPER_COLLECT_HEADSHOT_MONEY_NAME"				"稳赚不亏"
 "TF_MVM_SNIPER_COLLECT_HEADSHOT_MONEY_DESC"				"作为狙击手，在一次任务内，收集 500 单位现金，不准捡地上的。"
 "TF_MVM_MEDIC_SHIELD_BLOCK_DAMAGE_NAME"					"苦难壁垒"
 "TF_MVM_MEDIC_SHIELD_BLOCK_DAMAGE_DESC"					"在一次生命中，作为医生，使用护盾格挡 5000 点伤害。"
-"TF_MVM_MEDIC_REVIVE_TEAMMATES_NAME"					"复活者 2"
-"TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"在 5 秒内用一次超能冲锋快速复活 2 名队友。"
-"TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"冲洗机器"
+"TF_MVM_MEDIC_REVIVE_TEAMMATES_NAME"					"双重复活"
+"TF_MVM_MEDIC_REVIVE_TEAMMATES_DESC"					"在 5 秒内单次释放 UberCharge 快速复活 2 名队友。"
+"TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_NAME"				"一箭五雕"
 "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND_DESC"				"购买火箭专家升级之后，一发火箭摧毁 5 个机器人。"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_NAME"				"先晕后拆"
 "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_DESC"				"购买火箭专家升级之后，击晕 50 个机器人。"
 
 // Doomsday Achievements
-"TF_MAPS_DOOMSDAY_SOLO_CAPTURE_NAME"				"任务控制"
+"TF_MAPS_DOOMSDAY_SOLO_CAPTURE_NAME"				"任务控制中心"
 "TF_MAPS_DOOMSDAY_SOLO_CAPTURE_DESC"				"在出发点捡起澳洲晶矿元素，并且送到指定地点，中途不掉落。"
 "TF_MAPS_DOOMSDAY_PLAY_GAME_FRIENDS_NAME"			"机组人员"
-"TF_MAPS_DOOMSDAY_PLAY_GAME_FRIENDS_DESC"			"与5个或以上的好友一同游戏。"
-"TF_MAPS_DOOMSDAY_WIN_ROUNDS_NAME"					"硬碰硬"
+"TF_MAPS_DOOMSDAY_PLAY_GAME_FRIENDS_DESC"			"与 5 个或以上的好友一同游戏。"
+"TF_MAPS_DOOMSDAY_WIN_ROUNDS_NAME"					"太空先锋"
 "TF_MAPS_DOOMSDAY_WIN_ROUNDS_DESC"					"赢得 138 局游戏。"
-"TF_MAPS_DOOMSDAY_PLAY_EACH_CLASS_NAME"				"9 号计划"
+"TF_MAPS_DOOMSDAY_PLAY_EACH_CLASS_NAME"				"九号计划"
 "TF_MAPS_DOOMSDAY_PLAY_EACH_CLASS_DESC"				"分别用 9 个兵种发射火箭。"
 "TF_MAPS_DOOMSDAY_KILL_ENEMIES_ON_ELEVATOR_NAME"	"发射失败"
 "TF_MAPS_DOOMSDAY_KILL_ENEMIES_ON_ELEVATOR_DESC"	"10 秒内杀死 3 名正在搭乘电梯的敌人。"
 "TF_MAPS_DOOMSDAY_PUSH_BACK_AND_WIN_NAME"			"火箭助推"
 "TF_MAPS_DOOMSDAY_PUSH_BACK_AND_WIN_DESC"			"在敌人已经打开燃料舱盖后，赢得一局。"
 "TF_MAPS_DOOMSDAY_KILL_CARRIERS_NAME"				"最佳作案现场"
-"TF_MAPS_DOOMSDAY_KILL_CARRIERS_DESC"				"一局内 6 次杀死背负澳洲晶矿元素的敌人。"
-"TF_MAPS_DOOMSDAY_RIDE_THE_ELEVATOR_NAME"			"占点大聚会"
+"TF_MAPS_DOOMSDAY_KILL_CARRIERS_DESC"				"一局内杀死 6 名携带澳洲晶矿元素的敌人。"
+"TF_MAPS_DOOMSDAY_RIDE_THE_ELEVATOR_NAME"			"远地占点"
 "TF_MAPS_DOOMSDAY_RIDE_THE_ELEVATOR_DESC"			"与至少 5 名队友一起乘坐电梯并赢得游戏。"
 "TF_MAPS_DOOMSDAY_DENY_NEUTRAL_PICKUP_NAME"			"太空夏令营"
 "TF_MAPS_DOOMSDAY_DENY_NEUTRAL_PICKUP_DESC"			"在破损箱子区杀死一名企图捡起处于中立状态的澳洲晶矿元素的敌人。"
 "TF_MAPS_DOOMSDAY_PUSH_INTO_EXHAUST_NAME"			"顺利升空"
-"TF_MAPS_DOOMSDAY_PUSH_INTO_EXHAUST_DESC"			"在回合结束时将一名玩家推入火箭的排气管道中。"
-"TF_MAPS_DOOMSDAY_DEFEND_CARRIER_NAME"				"逃避危险"
+"TF_MAPS_DOOMSDAY_PUSH_INTO_EXHAUST_DESC"			"在回合结束时将一名玩家推入火箭的排气渠道中。"
+"TF_MAPS_DOOMSDAY_DEFEND_CARRIER_NAME"				"逃逸险境"
 "TF_MAPS_DOOMSDAY_DEFEND_CARRIER_DESC"				"杀死一名在最近 3 秒内对携带着澳洲晶矿元素的队友造成了伤害的敌人。"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_NAME"			"Doomsday 里程碑"
 "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1_DESC"			"达成 7 项 Doomsday 地图成就。"
@@ -8933,7 +8940,7 @@
 "TF_MAPS_STANDIN_WIN_ROUNDS_DESC"					"赢得 139 局游戏。"
 
 // Process Achievement
-"TF_MAPS_PROCESS_WIN_ROUNDS_NAME"					"摧枯拉朽"
+"TF_MAPS_PROCESS_WIN_ROUNDS_NAME"					"优胜劣汰"
 "TF_MAPS_PROCESS_WIN_ROUNDS_DESC"					"赢得 140 局游戏。"
 
 // Snakewater Achievements
@@ -8946,14 +8953,14 @@
 "TF_MAPS_SNAKEWATER_DOUBLE_AIR_DEATHS_NAME"			"同归于空"
 "TF_MAPS_SNAKEWATER_DOUBLE_AIR_DEATHS_DESC"			"在火箭跳时，用一发火箭杀死一名敌方士兵，他也在火箭跳的同时用一发火箭杀死了你。"
 "TF_MAPS_SNAKEWATER_KILL_ENEMIES_IN_MIDDLE_NAME"	"干扰记录"
-"TF_MAPS_SNAKEWATER_KILL_ENEMIES_IN_MIDDLE_DESC"	"在中央控制点上方的椽子上消灭 15 个敌人。"
+"TF_MAPS_SNAKEWATER_KILL_ENEMIES_IN_MIDDLE_DESC"	"在中央控制点上方的平台和圆木上消灭 15 个敌人。"
 
 // Powerhouse Achievements
 "TF_MAPS_POWERHOUSE_WIN_ROUNDS_NAME"				"力量与荣耀"
 "TF_MAPS_POWERHOUSE_WIN_ROUNDS_DESC"				"赢得 142 局游戏。"
-"TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_NAME"			"平衡之力"
+"TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_NAME"			"力挽狂澜"
 "TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN_DESC"			"在敌人试图占领我方的最后一个控制点之后，仍然赢得此局。"
-"TF_MAPS_POWERHOUSE_FAST_FINAL_CAP_NAME"			"能量之旅"
+"TF_MAPS_POWERHOUSE_FAST_FINAL_CAP_NAME"			"马不停蹄"
 "TF_MAPS_POWERHOUSE_FAST_FINAL_CAP_DESC"			"在队友占领上个控制点后 15 秒内占领最终控制点。"
 "TF_MAPS_POWERHOUSE_KILL_CAPPING_PLAYER_NAME"		"切断电源"
 "TF_MAPS_POWERHOUSE_KILL_CAPPING_PLAYER_DESC"		"击杀 15 名正在占领的敌人。"
@@ -8968,7 +8975,7 @@
 "TF_KILL_BALLOONICORN_OWNERS_DESC"					"杀死 79 名带着气球独角兽的敌人。"
 "TF_MULTIPLE_BFF_NAME"								"永远的好朋友²"
 "TF_MULTIPLE_BFF_DESC"								"在一局游戏中“结识”两名玩家。"
-"TF_TEAM_PYROVISION_NAME"							"群众性歇斯底里"
+"TF_TEAM_PYROVISION_NAME"							"群体性歇斯底里"
 "TF_TEAM_PYROVISION_DESC"							"在同一时间内有至少 6 名队友使用着火焰兵视角。"
 "TF_DOMINATE_FOR_GOGGLES_NAME"						"新的视野"
 "TF_DOMINATE_FOR_GOGGLES_DESC"						"控制一名正在使用火焰兵的奇幻护目镜的敌人并为你自己赢得一副！"
@@ -9415,7 +9422,7 @@
 "LimitedQualityDesc" "限量"
 
 "KillEaterEventType_Kills"		"杀敌数"
-"KillEaterEventType_Ubers"		"超能冲锋数"
+"KillEaterEventType_Ubers"		"UberCharge 数"
 "KillEaterEventType_KillAssists"	"助攻数"
 "KillEaterEventType_SentryKills"	"步哨杀敌数"
 "KillEaterEventType_PeeVictims"	"羞辱人数"
@@ -9576,8 +9583,8 @@
 "TF_StrangePart_DefenderKills_Desc"			"将这个奇异升级部件添加到具有奇异品质的武器或饰品上后，它将记录你击杀的正在推车、运送情报、占领控制点的敌人数量。\n\n应用到武器上的奇异升级部件只会统计由该武器取得的击杀数量。"
 "TF_StrangePart_UnderwaterKills"			"奇异升级部件：水下击杀数"
 "TF_StrangePart_UnderwaterKills_Desc"		"将这个奇异升级部件添加到具有奇异品质的武器或饰品上后，它将记录你击杀的完全处于水下的敌人数量。\n\n应用到武器上的奇异升级部件只会统计由该武器取得的击杀数量。"
-"TF_StrangePart_KillsWhileUbercharged"		"奇异升级部件：超能冲锋中击杀数"
-"TF_StrangePart_KillsWhileUbercharged_Desc"	"将这个奇异升级部件添加到具有奇异品质的武器或饰品上后，它将记录你在医生提供的超能冲锋状态下击杀敌人的数量。\n\n应用到武器上的奇异升级部件只会统计由该武器取得的击杀数量。"
+"TF_StrangePart_KillsWhileUbercharged"		"奇异升级部件：Ubercharge 期间击杀数"
+"TF_StrangePart_KillsWhileUbercharged_Desc"	"将这个奇异升级部件添加到具有奇异品质的武器或饰品上后，它将记录你在医生提供的 Ubercharge 状态下击杀敌人的数量。\n\n应用到武器上的奇异升级部件只会统计由该武器取得的击杀数量。"
 "TF_StrangePart_LongDistanceKills"					"奇异升级部件：远距离击杀数"
 "TF_StrangePart_LongDistanceKills_Desc"				"将这个奇异升级部件添加到具有奇异品质的武器或饰品上后，它将记录你远距离击杀敌人的数量。\n\n应用到武器上的奇异升级部件只会统计由该武器取得的击杀数量。"
 "TF_StrangePart_VictoryTimeKills"		"奇异升级部件：胜利后逃兵击杀数"
@@ -11707,7 +11714,7 @@
 "Attrib_PowerupMaxCharges"					"最多可携带 %s1 次增益效果"
 "Attrib_PowerupDuration"					"每次效果持续 %s1 秒"
 "Attrib_CritBoost"							"可消耗：5秒内全爆击\n（同时步哨射速翻倍）"
-"Attrib_Ubercharge"							"可消耗：进入超能冲锋状态，持续 5 秒\n（同时步哨获得免受伤害的护盾）"
+"Attrib_Ubercharge"							"可消耗：进入无敌状态，持续 5 秒\n（同时步哨获得防御护盾）"
 "Attrib_CancelFallingDamage"				"穿戴者不受掉落伤害"
 "Attrib_EffectBarRechargeRateIncreased"		"冷却速率 +%s1%"
 "Attrib_MaxammoGrenades1_Increased"			"其它弹药上限 +%s1%"
@@ -11741,7 +11748,7 @@
 "Attrib_Sniper_FiresTracer"				"发射曳光弹药"
 "Attrib_ElectricalAirblast"				"辅助能力：消耗 65 金属，发射一个能摧毁飞行物的能量球。"
 "Attrib_Unlimited"						"无限使用"
-"Attrib_UberDurationBonus"				"超能冲锋持续时间增加 %s1 秒"
+"Attrib_UberDurationBonus"				"Ubercharge 持续时间增加 %s1 秒"
 "Attrib_RefillAmmo"						"可消耗：瞬间装满弹匣和储备弹药"
 "Attrib_FastReload"						"+%s1% 装填速度"
 "Attrib_BuffTime_Increased"				"增益持续时间 +%s1%"
@@ -11791,6 +11798,7 @@
 "Attrib_HeadshotDamageIncrease"			"爆头伤害加成 %s1%"
 "Attrib_MysterySolvingTimeDecrease"		"最多降低 %s1% 的谜案侦破时间"
 "Attrib_DamageDone_Bodyshot_Negative"	"击中身体时伤害 %s1%"
+"Attrib_SniperRageDisplayOnly"			"按下“装弹”键以启用专注\n专注状态：充能速度 +25%，且无法取消开镜"
 "Attrib_ExplosiveSniperShot"			"增大爆头造成的爆炸的范围，对周围的敌人也造成伤害"
 "Attrib_MeleeRate_Positive"				"近战武器挥舞速度 +%s1%"
 "Attrib_MeleeRate_Negative"				"近战武器挥舞速度 -%s1%"
@@ -11973,7 +11981,7 @@
 
 // Bottles
 "Attrib_CritBoost_shortdesc"					"进入爆击状态"
-"Attrib_Ubercharge_shortdesc"					"进入超能冲锋状态"
+"Attrib_Ubercharge_shortdesc"					"进入无敌状态"
 "Attrib_RefillAmmo_shortdesc"					"装满弹匣和后备弹药"
 "Attrib_Recall_shortdesc"						"传送至重生点"
 "Attrib_BuildingInstaUpgrade_shortdesc"			"升级建筑"
@@ -12024,9 +12032,9 @@
 // Medic
 "Attrib_HealRate_Positive_shortdesc"			"+%s1% 治疗速率"
 "Attrib_OverhealAmount_Positive_shortdesc"		"超量治疗上限 +%s1%"
-"Attrib_UberchargeRate_Positive_shortdesc"		"+%s1% 超能冲锋蓄积速度"
+"Attrib_UberchargeRate_Positive_shortdesc"		"Ubercharge 充能速率 +%s1%"
 "Attrib_OverhealDecay_Positive_shortdesc"		"+%s1% 超量治疗维持时间"
-"Attrib_UberDurationBonus_shortdesc"			"+%s1s 超能冲锋持续时间"
+"Attrib_UberDurationBonus_shortdesc"			"Ubercharge 持续时间 +%s1 秒"
 "Attrib_ShareConsumable_shortdesc"				"分享增益效果"
 "Attrib_Canteen_Specialist_shortdesc"			"水壶专家"
 "Attrib_Overheal_Expert_shortdesc"				"超量治疗专家"
@@ -12647,8 +12655,8 @@
 "TF_TTG_SamRevolver"				"屠杀枪"	// ADD THE
 "TF_Unique_EnergyDrink_CritCola"	"爆击可乐"
 "TF_Unique_Golden_Wrench"			"黄金扳手"	// ADD THE
-"TF_Unique_TribalmanKukri"			"部落者刮刀"	// ADD THE
-"TF_Unique_BattleAxe"				"苏格兰颅骨切割者"	// ADD THE
+"TF_Unique_TribalmanKukri"			"部落砍刀"	// ADD THE
+"TF_Unique_BattleAxe"				"苏格兰碎颅斧"	// ADD THE
 "TF_Unique_BattleSaw"				"维塔锯"	// ADD THE
 "TF_Unique_BattleSaw_Desc"			"根据所获器官数，死后仍能保留一定比例的 UberCharge 能量（每个器官保留 15%）。复活时最多保留 60% 的能量。"
 "TF_Unique_Combat_Wrench"			"南部的款待"	// ADD THE
@@ -12664,7 +12672,7 @@
 "TF_SydneySleeper"			"悉尼沉睡者"	// ADD THE
 "TF_DarwinsDangerShield"		"达尔文的危险之盾"
 "TF_TheBushwacka"			"灌木丛"	// ADD THE
-"TF_TheHolyMackerel"			"圣灵鲭鱼"	// ADD THE
+"TF_TheHolyMackerel"			"尚方宝鲭"	// ADD THE
 "TF_MadMilk"				"疯狂的牛奶"
 "TF_Weapon_RocketLauncher_Jump"		"火箭伞兵"	// ADD THE
 "TF_Weapon_StickyBomb_Jump"		"黏弹跳跃者"	// ADD THE
@@ -12700,7 +12708,6 @@
 "TF_Ali_Babas_Wee_Booties"		"阿里巴巴的尖头靴"
 "TF_SultansCeremonial"			"苏丹的羽毛头巾"
 "TF_SplendidScreen"			"辉煌护盾" // ADD THE
-"TF_SplendidScreen_desc"			"辅助开火能力：移除负面效果，向敌人发起冲锋。\n冲锋远距离后撞击敌人时，获得一次近战武器爆击。"
 "TF_MarketGardener"			"市场花园铁锹" // ADD THE
 "TF_ReserveShooter"			"预备役射手" // ADD THE
 "TF_LibertyLauncher"			"自由推进炮" // ADD THE
@@ -12711,8 +12718,8 @@
 "TF_EvictionNotice"			"驱逐警告" // ADD THE
 "TF_Minigun_Deflector"			"反射者转轮机枪"	// ADD THE
 "TF_Saxxy"				"萨氏金像奖小金人" // ADD THE
-"TF_SolemnVow"				"希波克拉底的塑像"	// ADD THE
-"TF_SolemnVow_Desc"			"“善待彼此。”——希波克拉底"
+"TF_SolemnVow"				"神圣誓言像"	// ADD THE
+"TF_SolemnVow_Desc"			"“不得害人。”——《希波克拉底誓言》"
 "TF_Weapon_Bust"			"希波克拉底半身像"
 "TF_NineIron"				"尼斯的九号铁杆"
 "TF_NineIron_Desc"				"每次斩杀人头\n都将提升一定的移动速度和生命值。"
@@ -12768,18 +12775,18 @@
 "TF_ScoutMedallion"		"恶狼学院之证"
 "TF_ScoutMedallion_Desc"	"一只狼，不会有月亮。去集齐三只狼才有！"
 
-"TF_UllapoolCaber_Desc"			"与苏格兰贵族后裔的身分完全不符。\n头脑清醒的人会把它扔出去……\n\n首次击中敌人时产生爆炸"
+"TF_UllapoolCaber_Desc"			"一柄苏格兰风情，让人眨眼间面目全非。\n换头脑清醒的人来早扔出去了…\n\n首次敲击会产生爆炸"
 "TF_BuffaloSteak_Desc"			"食用后，移动速度提升，攻击均为迷你爆击，\n并且只能使用近战武器，持续 16 秒。\n辅助能力：将牛排分享给队友（相当于中型医疗包）\n\n谁还要面包呢？"
 "TF_TreasureHat_1_Desc"			"达成“Steam 寻宝大行动”中的的 5 项目标。"
 "TF_TreasureHat_2_Desc"			"达成“Steam 寻宝大行动”中的 15 项目标。"
 "TF_TreasureHat_3_Desc"			"达成“Steam 寻宝大行动”中的 28 项目标。"
 
 "TF_Unique_Achievement_Sword_Desc"	"每斩获一个头颅，就能提升\n一定的移动速度和生命值。"
-"TF_Unique_Achievement_Shield_Desc"	"辅助开火能力：移除负面效果，向敌人发起冲锋。\n冲锋远距离后撞击敌人时，获得一次近战武器爆击。"
+"TF_Unique_Achievement_Shield_Desc"	"辅助能力：移除负面效果，向敌人发起冲锋。\n远距离冲锋撞击敌人时，获得一次近战武器爆击。"
 "TF_Unique_EnergyDrink_CritCola_Desc" 	"生效时：每次攻击均造成迷你爆击，并使自身获得持续 5 秒的死亡标记。"
 "TF_Unique_MediGun_QuickFix_Desc"	"可以同步模拟治疗目标的爆炸跳跃和盾牌冲锋等动作。"
 "TF_Unique_MediGun_Resist_Desc"		"UberCharge 为医生和治疗目标提供一个持续 2.5 秒的保护罩。根据所选伤害类型，阻挡所受的 75% 的基础伤害和 100% 的爆击额外伤害。"
-"TF_HalloweenBoss_Axe_Desc"		"被那些\n封印在苏格兰长剑里的暗黑灵魂所诅咒。"
+"TF_HalloweenBoss_Axe_Desc"		"其中作祟的暗黑灵魂，和苏格兰长剑里的也没什么两样。"
 "TF_SacredMedicine_Desc" "作用时，造成和受到的伤害\n将会是迷你爆击。\n同时你将会获得更快的移动速度。"
 
 "TF_TTG_MaxGun_Desc"				"半隐蔽式武器中的巅峰之作。毫无疑问，你需要这把枪，唯一的问题是：你能把它藏在哪里呢？"
@@ -12788,7 +12795,7 @@
 "TF_Unique_Gloves_of_Running_Urgently"	"紧急逃跑手套"	// ADD THE
 
 "TF_TideTurner" 					"力挽狂澜" // ADD THE
-"TF_TideTurner_Desc" 				"辅助开火能力：移除负面效果，向敌人发起冲锋。\n冲锋远距离后撞击敌人时，获得一次近战武器迷你爆击。"
+"TF_TideTurner_Desc" 				"辅助能力：移除负面效果，向敌人发起冲锋。\n远距离冲锋撞击敌人时，获得一次近战武器迷你爆击。"
 "TF_Weapon_BreadBite"				"咬人的面包" // ADD THE
 "TF_Weapon_BreadBite_Desc"			"灵感来源于 TF2 影片《死了都要爱》"
 "TF_Weapon_SnackAttack" 			"进击的零食" // ADD THE
@@ -12806,7 +12813,7 @@
 "TF_Weapon_Iron_bomber"			"铁弹发射器" // ADD THE
 "TF_Weapon_PanicAttack"				"恐慌打击" // ADD THE
 "TF_GasPasser"		"纵火者的油桶" // ADD THE
-"TF_GasPasser_Desc"		"制造一团恐怖的可燃性雾气，敌人沾染时，受到伤害就会着火（对火焰兵同样有效！）"
+"TF_GasPasser_Desc"		"制造一团触目惊心的气体云雾，其中的可燃物质会附着在接触雾气的敌人身上，使敌人在受到伤害后会持续燃烧（对火焰兵同样有效！）"
 "TF_Gas"			"油料"
 "TF_Pressure"		"压力"
 
@@ -12823,7 +12830,7 @@
 
 // Misc
 "TF_Soldier_Medal_Web_Sleuth"		"绅士的服役勋章"
-"TF_Soldier_Medal_Web_Sleuth_Desc"		"颁发给少数忠勇护卫、无眠无休、没有补给或社交生活的勇敢战士。"
+"TF_Soldier_Medal_Web_Sleuth_Desc"		"授予少数忠于职守的英勇士兵。他们为了站岗，一个个不眠不休，不吃不喝，连社交生活都不要了。"
 "TF_Employee_Badge_A"				"资深将士"
 "TF_Employee_Badge_A_Desc"				"骄傲地将这一标记显示在你的胸前吧，士兵！每当你杀死一人，对方都会知道自己并不冤枉。"
 "TF_Employee_Badge_B"				"命运战士"
@@ -13843,7 +13850,7 @@
 "TR_DustGeneric_EngRed2"	"步哨枪拥有范围限制。将这个变成你的优势！使用火箭发射器摧毁哨兵枪。"
 
 "TR_DustGeneric_MedTitle"	"医生"
-"TR_DustGeneric_Med1"		"医生可以治疗友方玩家。治疗时，他们可以积聚“超能冲锋”。"
+"TR_DustGeneric_Med1"		"医生可以治疗友方玩家。治疗时，他们可以积聚“UberCharge”。"
 "TR_DustGeneric_Med2"		"当 UberCharge 被医生激活时，他和他的治疗目标将在短时间内处于无敌状态。"
 "TR_DustGeneric_Med3"		"受伤了？着火了？按 %voicemenu 0 0% 来呼叫医生，让他们来帮助你！"
 
@@ -14075,15 +14082,15 @@
 // Halloween 2013.
 "TF_Spellbook_Type"				"魔咒书\n"
 "TF_UnfilledSpellbook"			"空白的花俏魔咒书"
-"TF_UnfilledSpellbook_Desc"		"\n这是一本装帧精美的魔咒书，但它仍然缺页！一旦凑齐足够的页数，你就可以装备该魔咒书，使用它来施放魔咒。"
+"TF_UnfilledSpellbook_Desc"		"\n这是一本精美的魔咒书，可书页还差着呢！一旦凑齐足够的页数，你就可以装备它来施放魔咒。"
 "TF_FancySpellbook"				"花俏魔咒书"
-"TF_FancySpellbook_Desc"		"这是一本装帧精美的魔咒书，你已经凑齐了所有的页数。但你永远都不会拥有太多的魔法…"
-"TF_Spellbook_Basic"			"魔术书杂志"
-"TF_Spellbook_Basic_Desc"		"\n《魔法季刊》的古装本。\n在壁橱的背部写成，内含足够的魔法，能使你做到魔咒师的本分。\n\n装备以让你学会和施放魔咒。"
+"TF_FancySpellbook_Desc"		"\n这是一本精美的魔咒书，塞满了由你收集的各种书页。可魔法永远不嫌多……"
+"TF_Spellbook_Basic"			"魔咒杂志"
+"TF_Spellbook_Basic_Desc"		"\n一份《术士季刊》的复刻本。\n从壁橱底下翻出来的，里头那点魔法刚好可堪一用。\n\n装备后可拾取与释放魔咒。"
 
 "TF_SpellbookPage_Type"			"魔咒书页"
 "TF_SpellbookPage"				"魔咒书页"
-"TF_SpellbookPage_Desc"			"这张魔咒书的书页仍保留着一些魔力。\n\n如果你旁边有任何魔咒书的话，你可以从背包中将该页放入魔咒书中。"
+"TF_SpellbookPage_Desc"			"这张魔咒书页依旧存有些许魔力。\n\n手头有本魔咒书的话，打开背包将它塞进去吧。"
 
 "TF_ServerEnchantmentType"		"服务器妖术"
 "TF_Eternaween"					"妖术：万妖节"
@@ -14508,6 +14515,7 @@
 "TF_Armory_Item_Attrib_OnKill"		"此武器具有“杀敌后”属性。每当用此武器杀敌后，此属性的效果就会显现。"
 "TF_Armory_Item_Attrib_OnWearer"	"此物品具有“装备时”属性。只要此物品出现在玩家配置中，即便此物品不是玩家手中的现有武器，此种属性的效果依然会应用于玩家。"
 "TF_Armory_Item_Attrib_CloakType"	"此物品会改变间谍隐身类型。当此物品装备于间谍时，隐身类型将会改变为此物品属性中描述的类型。"
+"TF_Armory_Item_Attrib_OnActive"	"此武器具有仅在“手持时”才能生效的“装备时”属性。对于大多数“装备时”属性而言，只要物品出现在配置中，该属性就生效。但在这里，这些属性只有当武器拿在玩家手中时才会有效。"
 "TF_Armory_Item_Attrib_NoCrits"		"此武器无法执行随机爆击伤害。普通武器可以执行随机爆击伤害，但此武器不能。可以造成爆击伤害的其他物品和效果（例如闪电战医疗枪）可以强制此武器执行爆击。"
 "TF_Armory_Item_Attrib_Bleed"		"此武器会让敌人受伤失血。失血的玩家会在特定时间段内失去生命值。如果失血玩家治愈后，将会停止失血。"
 
@@ -15021,7 +15029,7 @@
 
 "TF_PVE_UsePowerup_MinMode"		"按下 '%use_action_slot_item%' 键以激活"
 "TF_PVE_UsePowerup_CritBoost"		"按下 '%use_action_slot_item%' 键以进入全爆击状态"
-"TF_PVE_UsePowerup_Ubercharge"		"按下“%use_action_slot_item%”键以进入超能冲锋状态"
+"TF_PVE_UsePowerup_Ubercharge"		"按下“%use_action_slot_item%”键以进入无敌状态"
 "TF_PVE_UsePowerup_Recall"		"按下 '%use_action_slot_item%' 键立刻回到出生点"
 "TF_PVE_UsePowerup_RefillAmmo"		"按下 '%use_action_slot_item%' 键装满弹匣和后备弹药"
 "TF_PVE_UsePowerup_BuildinginstaUpgrade"		"按下 '%use_action_slot_item%' 键来升级全部建筑"
@@ -16315,6 +16323,7 @@
 "TF_Heavy_Robot_Ushanka_Hat"		"叮当响的铁军帽" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"将这个钢铁铸成的军帽放在火上烤红，再把它放在你的头上，以维持一天所需的温暖。与此同时，你的头皮也会发出奇妙的声响，与它造成的三度烧伤相映成趣。"
 "TF_Spy_Robot_Fedora"				"隐秘硬钢帽" // ADD THE
+"TF_Spy_Robot_Fedora_Desc"			"对背刺失去了兴趣？潜入作战对你来说已经是小事一桩？那么试试将这顶 15 磅重的钢铁帽子戴在头上吧！在你弯腰给步哨枪放置工兵时，享受脖子受到千斤压迫的重量级挑战吧！这可是足以压断颈椎的绝佳消遣哦！"
 "TF_Pyro_Robot_Backpack"			"柴油引擎排气口" // ADD THE
 "TF_Pyro_Robot_Backpack_Desc"		"你知道火焰可以融化金属吗？ 比如，假设你正和一大群机器人作战。你可以融化他们！用烈火！这是真的！我们今天学到的，仅仅是有趣的小事实而已。我们还没见过这方法真正的用于应用，但是，它还是值得学习的。"
 "TF_Medic_Robot_Backpack"			"医生的机械医疗器" // ADD THE
@@ -16324,6 +16333,7 @@
 "TF_Soldier_Robot_Helmet_Style0"	"破损的"
 "TF_Soldier_Robot_Helmet_Style1"	"标准版"
 "TF_Demo_Robot_Grenades"			"电池挂带" // ADD THE
+"TF_Demo_Robot_Grenades_Desc"		"史上头一遭，现在购买爆破手电池挂带会附送电池。原因嘛，呃，因为你买的是电池啊。我们应该这么说：这可是“史无前例”的 [除了你专门买电池的时候]。"
 "TF_Scout_Robot_Cap"				"奔跑专用钢盔" // ADD THE
 "TF_Scout_Robot_Cap_Desc"			"你觉得这顶钢盔会让侦察兵慢下来？实际上他跟以前跑得一样快！因为一天一杯牛奶身体好！我们不是在为这款牛奶打广告哦！今天又是充满惊喜的一天，睡觉前要记得喝一杯哦，小家伙！"
 "TF_Sniper_Robot_Hat"				"螺栓往脑塞" // ADD THE
@@ -16332,7 +16342,7 @@
 "TF_Engineer_Robot_Hat_Desc"		"在工作的时候总是受到其他人的骚扰？那么你就需要这顶钢盔！用你那空洞、通红的机械眼睛死死地盯住他们，让他们落荒而逃！这是一种削减朋友数目的好方法！ - 立竿见影哦！"
 
 "TF_CSGO_AWP"						"高手的 AWP" // ADD THE
-"TF_CSGO_AWP_Desc"					"这把充满争议而不失优雅的旋转后拉式步枪在无数国家遭到禁用，理由只有一个：它会同时从生理和心理上对人们造成严重的伤害。"
+"TF_CSGO_AWP_Desc"					"这把充满争议而不失优雅的栓动式狙击步枪在无数国家遭到禁用，理由只有一个：它会同时从生理和心理上对人们造成严重的伤害。"
 
 "TF_Bundle_Henchmann"				"曼恩追随者捆绑包"
 "TF_Bundle_Henchmann_Desc"				"你将注定成为没有薪水可拿，默默无闻的党羽中的一员，最终在雇主的可怕敌人手中结束生命！现在就加入战斗部落吧！"
@@ -16347,20 +16357,20 @@
 "TF_Henchboy_Wings_Desc"				"这个东西不像真的翅膀一样让你飞起来，也不能把保罗.麦卡特尼装进去。不管怎么样，这对翅膀 100% 是用史蒂夫.温伍德做成的。"
 
 "TF_ScribHat"						"公鸡中的战斗机" // ADD THE
-"TF_ScribHat_Desc"						"让战场上的懦夫们知道，你是个带着彩色鸡冠帽子的疯狂战士。"
+"TF_ScribHat_Desc"						"把这顶可染色的全兵种斗鸡头冠套上，让场上的弱鸡都知道，你才是公鸡中的战斗机。"
 "TF_ScribHat_Style0"					"哥哥"
 "TF_ScribHat_Style1"					"妹妹"
 
 "TF_HM_Badge"						"杀手徽章" // ADD THE
 "TF_HM_Badge_Desc"						"这个徽章是世界顶尖杀手的象征——现在上面还附有条形码，以便你在超市购物时能快速结账。"
 "TF_HM_DisguiseHat"					"那年的七零年代帽"
-"TF_HM_DisguiseHat_Desc"				"戴上这太阳镜和老式皮帽的组合，然后隐姓埋名吧，它们能让你完美伪装成巨大的俄国抱抱熊——就和你往常长得一样。"
+"TF_HM_DisguiseHat_Desc"				"戴上这副太阳眼镜，再配上一顶皮帽，用这套经典装扮隐姓埋名吧，就这样混进“熊娃娃”角色模仿会，简直完美。"
 "TF_HM_SoldierHat"					"黑兵警长帽" // ADD THE
 "TF_HM_SoldierHat_Desc"					"自 SpyTech 的“苏格兰场”型后院伪装套件以来，能让你在英国警察中以假乱真的最佳工具。"
 "TF_HM_Shirt"						"世故的西伯利亚人" // ADD THE
 "TF_HM_Shirt_Desc"						"这种衬衫和领带使你的敌人一眼就能看出你是搞什么“生意”的。而无袖的夹克，能告诉他们，你没办法找到合适的衣服把那令人生畏的巨枪盖住。"
 "TF_HM_Watch"						"德国鸭表" // ADD THE
-"TF_HM_Watch_Desc"						"这只表，德国工业的奇迹，采用了经典的双音设计，由澳洲晶矿元素和钨精制而成。专为那些喜欢在每次隐身时炫富的欧洲刺客设计。"
+"TF_HM_Watch_Desc"						"这副间谍腕表乃德国工程学的杰作，以澳元素与钨合金所打造的双色美学，尽显经典风范，专为品味非凡的欧洲刺客而生。每一次隐身，都是一次无形无声的炫富。"
 "TF_HM_Duck"						"致命小鸭" // ADD THE
 "TF_HM_Duck_Desc"						"每当你给鸭子喂面包屑的时候，你实际上是在为鸭子们的黑帮提供经济支持，现在你已经上了贼船了。拿着这只鸭子，去 43 号街角，到那辆黑色凯迪拉克上。当你遇到他们的老大时，不要讲和马头有关的笑话，他很讨厌那个。"
 "TF_HM_Duck_Style0"						"卡彭"
@@ -16369,9 +16379,9 @@
 "TF_Memory_Maker"					"回忆制造者"
 "TF_Memory_Maker_Desc"					"你成功入围萨氏金像奖的回忆将在在影片中永生。至于其他的回忆－例如用八毫米摄影机敲碎一些混蛋工程师的头骨之类的事，则会永远存在于你的心中。"
 "TF_Clacker2012"					"迷你萨氏场记板" // ADD THE
-"TF_Clacker2012_Desc"					"使用这个真正大电影导演使用过的纪念版场记板，来驾驭引人入胜的好莱坞黑魔法吧。现在“你”可以吩咐莱恩.雷诺斯等一下要做些什么啦！"
+"TF_Clacker2012_Desc"					"这块纪念款的场记板，曾属于货真价实的电影导演，就用它来驾驭好莱坞那引人入胜的黑魔法吧！这下，你可以亲自对瑞安.诺兹发号施令了！"
 "TF_Tuxxy"							"萨氏燕尾服" // ADD THE
-"TF_Tuxxy_Desc"							"这件短小精悍的第二届萨氏年度金像奖正式服装由天然无污染的血染色而成。"
+"TF_Tuxxy_Desc"							"身着第二届年度萨氏金像奖的颁奖服装，闪耀登场吧。敌人的鲜血，将为你的盛装出席铺就一条红毯。"
 
 "TF_Faerie_Solitaire_Pin"			"纸牌仙女的小翅膀"
 "TF_Faerie_Solitaire_Pin_Desc"			"一个精工细作的胸针，仿制的精灵翅膀与真品毫无二致。这下你终于可以摆脱那些装订在你衣服上的，逐渐腐烂的精灵翅膀啦，同时依然能让人们了解到你对那些神话生物持有很大的意见。"
@@ -16414,7 +16424,7 @@
 "TF_Bundle_Winter2012_Desc"			"唯一可百分百保证防止你尚未死掉的商业合伙人和他们的时光旅行同伴来登门造访的假期捆绑包。"
 
 "TF_Wreath_2012"					"圣诞花环"
-"TF_Wreath_2012_Desc"					"没有什么比一边说“节日快乐”一边将有带刺叶子和有毒浆果的花环钉在你胸部更带感的事了。"
+"TF_Wreath_2012_Desc"					"将带刺的叶子和有毒的浆果钉在胸口，堪称‘开心过大节’的无上表达。"
 
 "TF_Antlers"						"驯鹿鹿角"
 "TF_Antlers_Desc"						"在圣诞节送给你的敌人这份让人犹豫的圣诞礼物，让他们停下来思考：“那是只可爱的小鹿呢，还是...” 砰！啊，死了。"
@@ -16422,9 +16432,9 @@
 "TF_Antlers_Style_WithNoHat"			"摘下头饰"
 
 "TF_Pet_Reindoonicorn"				"气球驯鹿独角兽" // ADD THE
-"TF_Pet_Reindoonicorn_Desc"				"第十只最有名的驯鹿？不再是啦！虽然这只气球驯鹿独角兽一开始就因为它奇葩的外型和会自动发光的鼻子而不讨人喜爱，但是这好几十年间的跳槽经验，已经给了它爬回顶端所需要的胆量和决心！最近它被人看到和九个持重装备的疯子一起出去闲逛的事，实际上就足以证明了这只驯鹿独角兽才是我们得时时提防的那只。"
+"TF_Pet_Reindoonicorn_Desc"				"众驯鹿间知名度排行第十？走着瞧吧！自打那只鼻尖儿上长了个荧光疙瘩的变种怪胎出了风头，气球驯鹿独角兽就这么坐上了冷板凳，的确是跌入了鹿生低谷。但几十年来，他在各大“中途之家”间摸爬滚打，足足锻炼了一肚子的胆量和志气，誓要重返巅峰不可！最近还老有人瞧见，他跟九个全副武装的精神病在一块儿厮混。这么一合计，此鹿大家可得小心提防啊。"
 
-"TF_Weapon_HolyMackerel_Festive2012"	"节日圣灵鲭鱼"
+"TF_Weapon_HolyMackerel_Festive2012"	"节日尚方宝鲭"
 "TF_Weapon_Axtinguisher_Festive2012"	"节日火焰战斧"
 "TF_Weapon_BuffBanner_Festive2012"		"节日战旗"
 "TF_Weapon_Sandvich_Festive2012"		"节日三明治"
@@ -16458,7 +16468,7 @@
 "TF_LastStraw"				"破洞的草帽" // ADD THE
 "TF_LastStraw_Desc"			"喜欢种庄稼？讨厌大太阳？那就扣上帽子，拎起锄头，再捎上你的猎枪，把那些不长眼的混蛋撵走！"
 
-"TF_WilsonWeave"			"威尔森发型" // ADD THE
+"TF_WilsonWeave"			"威尔逊假发" // ADD THE
 "TF_WilsonWeave_Desc"			"这边，这边！戴上这顶发型样式的三角帽，重现发型史上最著名的时刻吧！"
 "TF_HamShank"				"美味火腿" // ADD THE
 "TF_HamShank_Desc"				"这块经典临时替代品是监狱里的主食。你可以拿些监狱中的日用品，诸如牙刷或火腿，削尖他们，然后去捅那些在物品供应处前排队正再次领取火腿牙刷的告密者吧。"
@@ -16622,7 +16632,7 @@
 "TF_Bloodhound"				"侦探猎犬帽" // ADD THE
 "TF_Bloodhound_Desc"			"通过阅读雷蒙.钱德勒的文选，你将体验到侦探发出的豪言壮语和与荡妇约会时的快感。然后稍微休息一下，试试这顶大小新奇的卡通犬帽吧。"
 "TF_DapperDisguise"			"正人君子的面具" // ADD THE
-"TF_DapperDisguise_Desc"		"打扮成一个潇洒的绅士，这一切吸引人的好处你都能享受：高薪工作、桃花运、还有橄榄花园餐厅的免费面包条！尽可能的多吃多占吧，因为面具总有一天会烂掉，而你会变得比以前更加丑陋。"
+"TF_DapperDisguise_Desc"		"化身一名潇洒绅士，尽情享受高颜值带来的潜藏便利：高薪工作！香艳邂逅！还有橄榄园餐厅的免费面包棍！尽你所能地多吃多占吧，因为面具终将腐烂脱落，而你会变得比以前更加丑陋。"
 "TF_Necronomicrown"			"死灵头骨" // ADD THE
 "TF_Necronomicrown_Desc"		"和所有的同卵双胞胎一样，你原本是那孪生同胞脖颈上的一颗囊肿，成长为一个小魔头，最终脱离同胞的身体，就像是一个克隆人。以至于现在没人能分清你们谁是谁！那么，戴上这顶易识别的头盖骨，打消对方的疑虑吧。"
 "TF_LongFallLoafers"		"光圈科技防摔跑鞋" // ADD THE
@@ -16669,8 +16679,8 @@
 // START WORKSHOP ITEMS
 "TF_robo_all_bomb_badge"					"机器人布加洛舞徽章"	// ADD THE
 "TF_robo_all_bomb_badge_Desc"				"这枚徽章上的红色单片眼镜让你了解到，它其实什么都看不见，那根手杖表明它的时日不多了，而那顶大礼帽则让你清楚地知道，它非常有钱！赶快在那群见钱眼开的家伙认干爹之前把它娶回家！"
-"TF_robo_all_modest_pile"					"朴素的废铁桩柱帽"
-"TF_robo_all_modest_pile_Desc"				"这些帽子告诉了我们一个朴素的真理：在你的生命里，有些事情比有钱更重要。比如，没钱。"
+"TF_robo_all_modest_pile"					"低调内敛的废铁帽之柱"
+"TF_robo_all_modest_pile_Desc"				"这柱谦卑之帽向世界诉说：生命中有些事情比钱更重要。比如，没钱。"
 "TF_robo_sniper_liquidator"					"好色之徒的 LED 眼镜"
 "TF_robo_sniper_liquidator_Desc"			"上面的 X 射线眼镜，可以让你看透人们的衣服，同时引发警报，让人们知道你在偷看。如果你对监狱有狂热的爱好，而不知怎么进去，戴上它，你的梦想就会实现。"
 "TF_robo_all_gibus"							"镀锌折叠礼帽"	// ADD THE
@@ -16679,20 +16689,22 @@
 "TF_robo_sniper_soldered_sensei_Desc"		"空手道大师们会让你相信，黑带是最高的段位。但是，如果有一种由神秘金属制成的带子，比黑带更厉害，能让你把黑带高手揍得屁滚尿流呢？他们想要掩盖这个事实不是一天两天了。"
 "TF_robo_sniper_solar_topi"					"射手的锡制遮阳帽"
 "TF_robo_sniper_solar_topi_Desc"			"这顶狩猎旅行帽由真正的沾有鲜血的吉普车碎片、步枪、弹头、弹壳和其他在毁灭了的狩猎遗址上发现的破烂铸成的。它时刻提醒我们：不要做蠢事，例如去非洲进行狩猎旅行。"
-"TF_robo_all_noble_amassment"				"高贵的镍制层叠帽"
-"TF_robo_all_noble_amassment_Desc"			"有一些帽塔是从微不足道的帽子开始堆积的，一次一个，小心翼翼地在通往成功的道路上前行。而还有一些帽塔，比如这个，它的主人有一个在惠普当首席业务发展主任的爹。"
-"TF_robo_spy_backbiter_billycock"			"碱金属小圆礼帽"
+"TF_robo_all_noble_amassment"				"荣华富贵的镍铁帽中帽"
+"TF_robo_all_noble_amassment_Desc"			"有些帽塔起于寒微，一帽接一帽地向上攀登。而你眼前这一柱则属于另一类，人家不过是有个富贵的爹，在惠普公司担任首席业务发展官。"
+"TF_robo_spy_backbiter_billycock"			"贱金属小礼帽"
 "TF_robo_spy_backbiter_billycock_Desc"		"通过机器人的外形来模仿你最喜爱的，戴投球手头盔的虚拟角色吧，从《蝙蝠侠》中的谜语人到《发条橙》中的艾利克斯，再到英国的温斯顿.丘吉尔，想模仿谁就模仿谁。"
-"TF_robo_all_towering_pillar"				"高耸的钛制塔柱帽"
-"TF_robo_all_towering_pillar_Desc"			"阿西莫夫的机器人三定律说：1. 机器人不得伤害人类，2. 机器人必须服从人类的命令，3. 这个帽子屌爆了。"
-"TF_robo_spy_camera_beard"					"千万像素级大胡子相机"	// ADD THE
+"TF_robo_all_towering_pillar"				"层叠高耸的钛金帽之塔"
+"TF_robo_all_towering_pillar_Desc"			"阿西莫夫的机器人三定律说：1. 机器人不得伤害人类，2. 机器人必须服从人类的命令，3. 这帽真气派。"
+"TF_robo_spy_camera_beard"					"百万像素级摄像胡子"	// ADD THE
 "TF_robo_spy_camera_beard_Desc"				"非常适合抓拍你所有的性感化妆，而现在你又找到了一把机器人的大胡子，真是“妆上添须”。如果你有什么对女士们来说更加难以抗拒的好点子，请写信告知我们，我们会把你提到的那玩意儿拴在这台永久化妆机上。"
 "TF_robo_demo_pupil"						"高清补丁"	// ADD THE
+"TF_robo_demo_pupil_Desc"					"内置了各种和眼球有关的电影\n（包括《大开眼戒》《隔山有眼第二部》以及其他三部眼球片）。\n好让你的朋友们在你的脸上就能轻松观赏。"
 "TF_robo_demo_beard_bombardier"				"炸弹兵的螺栓花白胡须"	// ADD THE
 "TF_robo_demo_beard_bombardier_Desc"		"爆破手，你还记得当年世界上最机智的机器人吗？当时你把他的胡子撕了下来，还把他的蠢烟斗一齐抢走了。承认了？你旁边的警察想找你喝杯茶。"
 "TF_robo_heavy_boltedscraptowel"			"钛制毛巾"	// ADD THE
 "TF_robo_heavy_boltedscraptowel_Desc"		"的确，普通毛巾的确非常容易把水擦干，但如果把磁铁披在你的肩膀上呢？你那普通的毛巾对你还有效么？只能眼巴巴看着你缓慢地死于磁性咯，就是这样。"
 "TF_robo_heavy_football_helmet"				"橄榄球场保卫者"		// ADD THE
+"TF_robo_heavy_football_helmet_Desc"		"这顶头盔纪念着一场巅峰赛事，当年加拿大机器人橄榄球联赛上的史诗对决——参赛双方分别是“蒙特利尔球手队”与他们来自曼尼托巴的敌手“温尼伯的萨斯喀彻温人队”。不信？随便找个加拿大人问问呗！"
 "TF_robo_soldier_tyrantium"					"暴元素头盔"
 "TF_robo_soldier_tyrantium_Desc"			"这顶帽子会一脚把你踢到另一个平行宇宙，在那里，维京海盗都是机器人。"
 "TF_robo_all_mvm_canteen"					"机器水壶"
@@ -16754,6 +16766,7 @@
 "TF_robo_medic_pickelhaube"					"铂金尖顶盔"
 "TF_robo_medic_pickelhaube_Desc"			"可能是由尼古拉.特斯拉在他那几百万部垃圾的蒸汽朋克小说中发明的。"
 "TF_robo_medic_grimm_hatte"					"病毒医帽"	// ADD THE
+"TF_robo_medic_grimm_hatte_Desc"			"不论你是 17 世纪进行临终祷告的瘟疫医生、使出“墓碑钉头”终结技的职业摔跤手，还是在瘟疫主题家庭餐馆里端出一盘盘裹培根墨西哥辣椒酿的服务员，这顶帽子都能让你显得像模像样。"
 "TF_robo_engineer_texastingallon"			"德州锡制牛仔帽"
 "TF_robo_engineer_texastingallon_Desc"		"在牛仔年代里，布料是来之不易的，这是一个不争的历史事实。富有创造力的牛仔们制作了这种抵御太阳光线的帽子，并且充分利用了当地丰富的资源：钣金树和螺栓仙人掌。"
 "TF_robo_medic_tyrolean"					"钛制提洛帽"
@@ -16805,10 +16818,10 @@
 "TF_riflemans_rallycap_Desc"				"超圆滑的弧线不得不让你想起列车售票员、法国外籍军团、美国南北战争中的士兵——他们都戴着这样一顶圆帽。"
 "TF_jogon"									"巡逻者长裤"	// ADD THE
 "TF_jogon_Desc"								"拥有睡衣般的舒适度，宽大的裤裆隐匿了你的下体，以及依照空气动力学设计的裤形——惊呆你的敌人。"
-"TF_enlightened_mann"						"绣花三角帽"	// ADD THE
+"TF_enlightened_mann"						"扑粉行家"	// ADD THE
 "TF_enlightened_mann_style0"				"难以形容的浮夸"
 "TF_enlightened_mann_style1"				"经典"
-"TF_enlightened_mann_Desc"					"作为旅行急救箱的重要组成部分，这顶帽子能够帮助你逃离迪士尼世界的“总统长廊”。戴上这顶三角帽，以防加勒比海盗的袭击！"
+"TF_enlightened_mann_Desc"					"这顶假发在任何旅行急救包中都不可或缺，倘若迪士尼总统大厅的蜡像都活了过来，它能助你逃出升天。我们还附赠了一顶三角帽，以免活过来的不是总统而是加勒比海盗。"
 "TF_pocket_protector"						"口袋火焰兵"	// ADD THE
 "TF_pocket_protector_Desc"					"孤独是世上最致命的无声杀手，一氧化碳其次。但是挂上这个可爱的纵火狂，屏住你的呼吸，然后你就能专心应对其他猖狂的杀手了，比如说车祸和弗莱迪.克鲁格！"
 "TF_cloud_crasher"							"裂云头盔"	// ADD THE
@@ -16846,7 +16859,7 @@
 "TF_jul13_skater_boy"			"邦克滑板" // ADD THE
 "TF_jul13_skater_boy_Desc"			"“我的动作帅呆了，伙计。不信问你女朋友，她一直盯着我看呢。别怪她，是人都会看呆了的。”"
 "TF_jul13_macho_mann_glasses"			"猛男曼恩" // ADD THE
-"TF_jul13_macho_mann_glasses_Desc"			"有时候真的需要一个村庄才能买下它，伙计们。"
+"TF_jul13_macho_mann_glasses_Desc"			"有时还真得全村一起上，乡亲们。"
 "TF_jul13_scrap_reserve"			"废物挎包" // ADD THE
 "TF_jul13_scrap_reserve_Desc"			"“物尽其用，前路无忧，孩子。”"
 "TF_jul13_thirst_quencher"			"快餐店饮料杯" // ADD THE
@@ -16926,12 +16939,13 @@
 "TF_jul13_class_act"			"佼佼者"
 "TF_jul13_class_act_Desc"			"“你头皮上的毛发实在太吸引人了。现在我们该来一段恋爱关系了吧。”（描述翻译自德语）"
 "TF_jul13_double_clue"			"比利时侦探" // ADD THE
-"TF_jul13_double_clue_Desc"			"“检查员，把门锁上！凶手就在这间屋子里面！”[停顿]“那不是我吗！？”[连捅数刀的声音]"
+"TF_jul13_double_clue_Desc"			"“调查员，把门锁上！凶手就在这屋子里！”[停顿]“凶手就是我！”[连捅数刀的声音]"
 "TF_jul13_generals_attire"			"霍恩布洛尔的海军服" // ADD THE
 "TF_jul13_generals_attire_Desc"			"“霍雷肖.纳尔逊曾在拿破仑战争时期穿过这件军官服！如果你打沉了他的船，他会背着大炮游泳过来找你！如果炮弹用完了，他甚至会把自己发射过来！可想而知他有多么想痛扁法国人！”"
 "TF_jul13_lt_bites"			"咬咬中尉"
 "TF_jul13_lt_bites_Desc"			"爱好：感染、传播狂犬病。喜欢的食物：酸败的奶油口粮、手臂肉。"
 "TF_jul13_gangplank_garment"			"喧闹海盗外套" // ADD THE
+"TF_jul13_gangplank_garment_Desc"			"“爷的海盗大军可从不干烧杀抢掠的事，蠢货！在这艘船上，你的任务是巡捕自由主义者和共产主义者，然后按时上床睡觉！”"
 "TF_jul13_blood_banker"			"嗜血银行家" // ADD THE
 "TF_jul13_blood_banker_Desc"			"“你想存款？让我先‘存’一下，把我的刀子‘存’到你的背上。”"
 "TF_jul13_classy_royale"			"夜生活" // ADD THE
@@ -16986,7 +17000,8 @@
 "TF_fall2013_eod_suit_Desc"		"人人都喜欢看着自己的敌人被炸飞。但如果你想靠近点好好观赏这一美妙场景的话，那你也成了受害者。\n这简直是人生最大的悲剧啊。"
 "TF_fall2013_pirate_bandana"		"海盗头巾"
 "TF_fall2013_lil_snaggletooth"		"小鳄鱼龅牙"
-"TF_fall2013_superthief"		"古堡神偷"
+"TF_fall2013_lil_snaggletooth_Desc"		"“我长大后也要成为一顶帽子。”——小鳄鱼龅牙"
+"TF_fall2013_superthief"		"坏堡神偷"
 "TF_fall2013_superthief_Desc"		"为何不顺带偷点汉堡呢？"
 "TF_fall2013_escapist"		"逃犯"
 "TF_fall2013_neo_tokyo_runner"		"东京奔跑者" // ADD THE
@@ -17000,7 +17015,7 @@
 "TF_hw2013_hardheaded_hardware"		"硬头硬脑"
 "TF_hw2013_octo_face"		"鱿鱼船长"
 "TF_hw2013_space_oddity"		"古怪的宇航头盔" // ADD THE
-"TF_hw2013_ethereal_hood"		"空灵风帽"
+"TF_hw2013_ethereal_hood"		"空灵兜帽"
 "TF_hw2013_maniacs_manacles"		"疯子的手铐" // ADD THE
 "TF_hw2013_second_opinion"		"第二手术意见" // ADD THE
 "TF_hw2013_allclass_horseman"		"口袋骑士" // ADD THE
@@ -17054,12 +17069,12 @@
 "TF_hw2013_running_octopus"		"疾跑的触须" // ADD THE
 "TF_hw2013_intergalactic_intruder"		"不明跟踪物"
 "TF_hw2013_the_enlightening_lantern"		"启蒙之灯" // ADD THE
-"TF_hw2013_brain__bowler"		"高压式硬顶圆礼帽" // ADD THE
+"TF_hw2013_brain__bowler"		"高压式圆顶帽" // ADD THE
 "TF_hw2013_tin_can"		"死亡补给包" // ADD THE
 "TF_hw2013_zombie_chameleon"		"腐烂的变色龙" // ADD THE
 "TF_hw2013_dragon_shoes"		"怪兽的践踏爪靴" // ADD THE
 "TF_hw2013_blood_banker"		"慷慨的蝴蝶结" // ADD THE
-"TF_hw2013_harmburg"		"甜心宝贝的帽子" // ADD THE
+"TF_hw2013_harmburg"		"贩糖人的帽子" // ADD THE
 "TF_hw2013_medic_undertaker_vest"		"教堂牧师的圣衣" // ADD THE
 "TF_hw2013_rocket_ranger"		"硬派头盔" // ADD THE
 "TF_hw2013_jupiter_jumpers"		"木星飞跃军靴" // ADD THE
@@ -17112,6 +17127,7 @@
 "TF_xms2013_medic_hood"		"修女兜帽" // ADD THE
 "TF_xms2013_medic_robe"		"死亡天使的长袍" // ADD THE
 "TF_xms2013_kissking"		"亲吻之王" // ADD THE
+"TF_xms2013_soldier_marshal_hat"		"愚者牛仔帽" // ADD THE
 "TF_xms2013_heavy_slick_hair"		"明州的老练杀手"
 "TF_xms2013_sniper_shako"		"锡兵的军帽" // ADD THE
 "TF_xms2013_sniper_beard"		"蓄半年的大胡子" // ADD THE
@@ -17175,7 +17191,7 @@
 "TF_sbox2014_war_helmet_style2"		"放下面罩"
 "TF_sbox2014_archers_groundings"		"弓箭手之靴" // ADD THE
 "TF_sbox2014_war_pants"		"格斗便裤"
-"TF_sbox2014_toowoomba_tunic"		"图文巴束腰外衣" // ADD THE
+"TF_sbox2014_toowoomba_tunic"		"图文巴短袍" // ADD THE
 "TF_sbox2014_toowoomba_tunic_style0"		"骑士"
 "TF_sbox2014_toowoomba_tunic_style1"		"贫农"
 "TF_sbox2014_sammy_cap"		"三明治之帽" // ADD THE
@@ -17187,7 +17203,7 @@
 "TF_sbxo2014_medic_wintergarb_coat"		"冬天里的一把热" // ADD THE
 
 "TF_short2014_soldier_fed_coat"		"公务员的风衣" // ADD THE
-"TF_short2014_invisible_ishikawa"		"盗贼长袍" // ADD THE
+"TF_short2014_invisible_ishikawa"		"盗贼短袍" // ADD THE
 "TF_short2014_soldier_fedhair"		"秘密探员墨镜" // ADD THE
 "TF_short2014_sengoku_scorcher"		"本能寺纵火者" // ADD THE
 "TF_short2014_man_in_slacks"		"黑裤人" // ADD THE
@@ -17214,7 +17230,7 @@
 "TF_short2014_engineer_nerd_shirt"		"书呆子衬衫" // ADD THE
 "TF_short2014_engineer_nerd_feet"		"孤独一生的凉鞋" // ADD THE
 "TF_short2014_medic_nietzsche"		"尼采的超人胡子"
-"TF_short2014_spy_ascot_vest"		"熟练杀手" // ADD THE
+"TF_short2014_spy_ascot_vest"		"潮流杀手" // ADD THE
 "TF_short2014_endothermic_exowear"		"吸热外套" // ADD THE
 "TF_short2014_lil_moe"		"佣兵的莫西干发型" // ADD THE
 "TF_short2014_all_eyepatch"		"独眼龙" // ADD THE
@@ -17315,6 +17331,8 @@
 "TF_EOTL_demopants"					"无惧之爆破手冬裤"
 "TF_EOTL_ursa_major"				"西伯利亚无袖衣"
 "TF_EOTL_sheavyshirt"				"机枪猎手"
+"TF_EOTL_sheavyshirt_style1"			"有子弹"
+"TF_EOTL_sheavyshirt_style2"			"无子弹"
 "TF_EOTL_coldfront_curbstompers"		"冷锋践踏者"
 "TF_EOTL_winter_coat"				"寒潮外套"
 "TF_EOTL_medal"						"End of the Line 社区更新勋章"
@@ -17437,7 +17455,7 @@
 "TF_bak_fear_monger_AdText"		"-《蝙蝠侠：阿卡姆骑士》促销物品\n-喷火兵头部替换物品"
 
 "TF_dec15_a_well_wrapped_hat"				"精美礼物包装帽"
-"TF_dec15_gift_bringer"						"圣诞老人外套" // ADD THE
+"TF_dec15_gift_bringer"						"赠礼之人" // ADD THE
 "TF_dec15_chill_chullo"						"御寒毛绒帽" // ADD THE
 "TF_dec15_scout_baseball_bag"				"原子能棒球手的必备物品"
 "TF_dec15_winter_backup"					"冬日背包"
@@ -18234,12 +18252,14 @@
 "TF_dec20_jolly_jingler"			"圣诞铃铛帽"
 "TF_dec20_smissmas_sorcerer"		"圣诞法师" // ADD THE
 "TF_dec20_flip_thwomps"				"礼盒大脚"
+"TF_dec20_pillar_of_beanies"		"层叠高耸的针织帽"
 "TF_dec20_shoestring_santa"			"剩蛋老人"
 "TF_dec20_professionals_pom_pom"	"专业佣兵的毛球帽"
 "TF_dec20_reindoonibeanie"			"驯鹿独角兽之帽"
 "TF_dec20_festive_fascinator"		"彩灯发带"
 "TF_dec20_festive_fascinator_style0"	"彩色"
 "TF_dec20_festive_fascinator_style1"	"纯色"
+"TF_dec20_pile_of_presents"			"层叠高耸的礼物盒"
 "TF_dec20_round_a_bout"				"旋转独角兽" // ADD THE
 "TF_dec20_blitzen_bowl"				"电光驯鹿盔"
 "TF_dec20_elf_care_provider"		"精灵医师"
@@ -18285,6 +18305,7 @@
 "TF_hwn2021_spooky_head_bouncers_style0"	"魔眼"
 "TF_hwn2021_spooky_head_bouncers_style1"	"南瓜"
 "TF_hwn2021_spooky_head_bouncers_style2"	"幽灵"
+"TF_hwn2021_towering_patch"			"层叠高耸的南瓜壳"
 "TF_hwn2021_twisted_topper"			"怪邪礼帽"
 "TF_hwn2021_twisted_topper_style0"		"有领结"
 "TF_hwn2021_twisted_topper_style1"		"无领结"
@@ -18644,6 +18665,8 @@
 "TF_sum24_justice_johns"				"正义琼斯"
 "TF_sum24_crooks_cap"					"恶徒之帽"
 "TF_sum24_brutes_braces"				"莽夫的吊裤带"
+"TF_sum24_brutes_braces_style1"				"有子弹"
+"TF_sum24_brutes_braces_style2"				"无子弹"
 "TF_sum24_free_fashion"					"弗里曼博士"
 "TF_sum24_free_fashion_style1"				"有眼镜和胡须"
 "TF_sum24_free_fashion_style2"				"无眼镜"
