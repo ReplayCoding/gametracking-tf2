@@ -429,26 +429,26 @@
 "game_spawn_asrandom"			"*Pojawisz się jako losowo wybrana klasa"
 "game_respawn_asrandom"			"*Odrodzisz się jako losowo wybrana klasa"
 
-"round_restart_in_sec"			"Runda rozpocznie się ponownie za %s1 sekundę"
-"round_restart_in_secs"			"Runda rozpocznie się ponownie za %s1 sekund"
+"round_restart_in_sec"			"Runda rozpocznie się ponownie za %s1 s"
+"round_restart_in_secs"			"Runda rozpocznie się ponownie za %s1 s"
 
-"game_restart_in_sec"			"Gra rozpocznie się ponownie za %s1 sekundę"
-"game_restart_in_secs"			"Gra rozpocznie się ponownie za %s1 sekund"
+"game_restart_in_sec"			"Gra rozpocznie się ponownie za %s1 s"
+"game_restart_in_secs"			"Gra rozpocznie się ponownie za %s1 s"
 
-"game_switch_in_sec"			"Zamiana drużyn!\nGra rozpocznie się ponownie za %s1 sekundę"
-"game_switch_in_secs"			"Zamiana drużyn!\nGra rozpocznie się ponownie za %s1 sekund"
+"game_switch_in_sec"			"Zamiana drużyn!\nGra rozpocznie się ponownie za %s1 s"
+"game_switch_in_secs"			"Zamiana drużyn!\nGra rozpocznie się ponownie za %s1 s"
 
-"game_scramble_in_sec"			"Przemieszanie drużyn!\nGra rozpocznie się ponownie za %s1 sekundę"
-"game_scramble_in_secs"			"Przemieszanie drużyn!\nGra rozpocznie się ponownie za %s1 sekund(y)"
+"game_scramble_in_sec"			"Przemieszanie drużyn!\nGra rozpocznie się ponownie za %s1 s"
+"game_scramble_in_secs"			"Przemieszanie drużyn!\nGra rozpocznie się ponownie za %s1 s"
 "game_scramble_onrestart"		"Automatyczne przemieszanie drużyn!"
 
 "game_respawntime_now"			"Przygotuj się na odrodzenie"
-"game_respawntime_in_sec"		"Odrodzenie za: 1 sekundę"
+"game_respawntime_in_sec"		"Odrodzenie za: 1 s"
 "game_respawntime_in_secs"		"Odrodzenie za: %s1 s"
 "game_respawntime_stalemate"		"Brak odradzania w nagłej śmierci"
 "game_respawntime_next_round"		"Odrodzenie w następnej rundzie"
 
-"game_auto_team_balance_in"		"Drużyny zostaną automatycznie zbalansowane za %s1 sekund."
+"game_auto_team_balance_in"		"Drużyny zostaną automatycznie zbalansowane za %s1 s."
 "game_player_was_team_balanced"	"%s1 - transfer do drużyny przeciwnej dla zrównoważenia rozgrywki."
 
 "game_idle_kick"			"%s1 był za długo w stanie bezczynności i został wyrzucony"
@@ -4311,7 +4311,7 @@
 "TF_Hwn_DemoMisc1"		"Szkockie ujadanie" // ADD THE
 "TF_Hwn_DemoMisc2"		"Spreparowane łapy" // ADD THE
 "TF_Hwn_ScoutHat"		"Bojowa nawijka" // ADD THE
-"TF_Hwn_ScoutMisc1"		"B-Ankh!"
+"TF_Hwn_ScoutMisc1"		"B-ankh!"
 "TF_Hwn_ScoutMisc2"		"Stopanchamon" // ADD THE
 "TF_Hwn_PyroHat"		"Ognisty byk" // ADD THE
 "TF_Hwn_PyroMisc1"		"Upadły anioł" // ADD THE
@@ -12073,7 +12073,7 @@
 "Attrib_SniperCritNoScope"				"Ładuje i strzela niezależnie od przybliżenia"
 "Attrib_SniperIndependentZoom"			"Przybliżenie nie oddziałuje na ładowanie"
 "Attrib_KillsRefillMeter"				"Zabójstwa bronią do walki wręcz podczas szarży odnawiają %s1% paska szarży"
-"Attrib_HitsRefillMeter"				"Trafienia bronią do walki wręcz podczas szarży odnawiają %s1% paska szarży"
+"Attrib_HitsRefillMeter"				"Trafienia bronią do walki wręcz odnawiają %s1% paska szarży"
 "Attrib_AirControl"						"%s1% zwiększonej kontroli w locie"
 "Attrib_AirControlBlastJump"			"%s1% większa kontrola w locie podczas wybuchowego skoku"
 "Attrib_HypeDecays"						"Odlot wygasa z upływem czasu"
@@ -19327,11 +19327,11 @@
 "TF_sum25_jarhead_style1"					"Pełne przyszykowanie"
 "TF_sum25_jarhead_style2"					"Bez okularów"
 "TF_sum25_jarhead_style3"					"Bez włosów"
-"TF_sum25_le_sapeur"					"Le Sapeur"
+"TF_sum25_le_sapeur"					"Le sapeur"
 "TF_sum25_le_sapeur_style1"					"Styl 1"
 "TF_sum25_le_sapeur_style2"					"Styl 2"
 "TF_sum25_le_sapeur_style3"					"Styl 3"
-"TF_sum25_le_morne"						"Le Morne Uniforme"
+"TF_sum25_le_morne"						"Le morne uniforme"
 "TF_sum25_spy_ties"						"Szpiegowskie krawaty"
 "TF_sum25_spy_ties_style1"					"Płytki"
 "TF_sum25_spy_ties_style2"					"Pasy"

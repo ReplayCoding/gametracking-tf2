@@ -422,7 +422,7 @@
 "game_auto_team_balance_in"		"游戏将于 %s1 秒后自动平衡人数。"
 "game_player_was_team_balanced"	"为平衡游戏人数，%s1 被移到另一队。"
 
-"game_idle_kick"			"%s1 空闲过久被踢出游戏"
+"game_idle_kick"			"%s1 因闲置过久被踢出游戏"
 "TF_Vote_kicked"			"你已被投票踢出"
 "TF_Idle_kicked"			"由于不活跃被强制踢出"
 "TF_MM_Generic_Kicked"			"被系统移出比赛"
@@ -580,7 +580,7 @@
 "TF_Weapon_Gunbai"		"军配"
 "TF_Weapon_Kunai"		"苦无"
 "TF_Weapon_SoldierKatana"	"武士刀"
-"TF_Weapon_Jar"			"瓶手道尿瓶"
+"TF_Weapon_Jar"			"瓶罐式空手道"
 "TF_Weapon_Jar_Milk"		"非乳制品"
 "TF_Weapon_Jar_Gas"		"类似汽油的物质"
 "TF_Weapon_Jar_Cleaver"		"菜刀"
@@ -1668,10 +1668,13 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_Participant_Summer2025"		"此奖项颁发给在 AsiaFortress Liquid.tf 2025 夏季全编制公开赛中参赛的选手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st"				"AsiaFortress Liquid.tf 全编制邀请赛冠军"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Summer2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 夏季全编制邀请赛中荣获冠军的 Elysium 战队选手"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Winter2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 冬季全编制赛中荣获冠军的 Austrasia 战队选手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd"				"AsiaFortress Liquid.tf 全编制邀请赛亚军"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Summer2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 夏季全编制邀请赛中荣获亚军的 Snacks On A Plane 战队选手"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Winter2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 冬季全编制赛赛季中参赛的 Ambulas 战队选手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd"				"AsiaFortress Liquid.tf 全编制邀请赛季军"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Summer2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 夏季全编制邀请赛中荣获季军的 Thai Resurgence 战队选手"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Winter2024"		"此奖项颁发给在 AsiaFortress Liquid.tf 2024 冬季全编制赛赛季中参赛的 Significant Otter 战队选手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant"				"AsiaFortress Liquid.tf 全编制邀请赛参赛者"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Summer2024"	"此奖项颁发给在 AsiaFortress Liquid.tf 2024 夏季全编制邀请赛中参赛的选手"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"此奖项颁发给在 AsiaFortress Liquid.tf 2024 冬季全编制邀请赛中参赛的选手"
@@ -2867,6 +2870,7 @@
 "TF_TournamentMedal_MvM_Memes_Player"			"梗王大战机器烤土豆 2019"
 "TF_TournamentMedal_MvM_Memes_Player_Desc"		"土豆能让你忘记你刚刚亲眼目睹的骇人事件。拿一个塞进自己嘴里，然后你就听不到自己歇斯底里的尖叫声了。奖励给参加 Potato MvM 服务器愚人节活动的玩家！"
 "TF_TournamentMedal_MvM_Memes_Creator"			"梗王大战机器土豆服务器 2019"
+"TF_TournamentMedal_MvM_Memes_Creator_Desc"		"你的胸怀如此宽阔，用来放置盗版服务器最适合不过。别担心，反正那个宝贵的存储空间你也很少用到。颁发给 Potato MvM 服务器愚人节竞赛活动的创作者！"
 "TF_TournamentMedal_MvM_Mashed_Player"			"碾碎平庸土豆 2020"
 "TF_TournamentMedal_MvM_Mashed_Player_Desc"		"这个放了一年的土豆已经不能吃了，但是，它可以变成一个时髦的装饰品挂在你的胸前。奖励给参加 Potato MvM 服务器愚人节活动的玩家！"
 "TF_TournamentMedal_MvM_Mashed_Creator"			"捣碎平庸超级土豆 2020"
@@ -3537,8 +3541,8 @@
 "TF_SelectPlayer_Duel_PlayerClass"	"你和你的对手必须使用当前兵种来完成决斗：%s1。"
 "TF_Usable_Duel"		"迷你游戏:决斗!"
 "TF_Usable_Duel_Desc"	"你可以向其他人发起决斗挑战！\n有关完整详情，请参见曼恩公司产品目录。"
-"TF_Duel_Request"			"%initiator%已向你发起决斗挑战！你能捍卫自己的荣誉吗？"
-"TF_Duel_Request_Class"			"%initiator%已邀请你进行%player_class%兵种限制决斗！你会捍卫你的荣誉吗？"
+"TF_Duel_Request"			"%initiator% 已向你发起决斗挑战！你会捍卫自己的荣誉吗？"
+"TF_Duel_Request_Class"			"%initiator% 已邀请你进行%player_class%兵种限制决斗！你会捍卫自己的荣誉吗？"
 "TF_Duel_Challenge"			"%initiator%已向%target%发起决斗挑战！"
 "TF_Duel_Challenge_Class"			"%initiator%已邀请%target%进行%player_class%兵种限制决斗！"
 "TF_Duel_Accept"			"%target%已接受%initiator%的挑战！"
@@ -3764,6 +3768,8 @@
 "TF_Bundle_Halloween2013Everything_Desc"	"这个阴森捆绑包内的物品由 TF2 社区成员创作，包含了超过百件令人难以置信的物品，以庆祝第五届一年一度的幽灵万圣节特约。虽然我们没办法在同一个屏幕上显示所有的物品，但我们会试试的："
 
 "TF_Bundle_Halloween2014Everything"			"2014 万圣节社区捆绑包"
+"TF_Bundle_Halloween2014Everything_Desc"	"这个阴森捆绑包内的物品由 TF2 社区成员创作，包含了 50 件精美物品，以庆祝第六届一年一度的尖叫要塞活动。虽然我们没办法在同一个屏幕上显示所有的物品，但我们会试试的："
+
 "TF_Bundle_Byzantine"					"拜占庭捆绑包"
 "TF_Bundle_Byzantine_Desc"				"罗马帝国为何会衰亡？多蒙提供这些具有时代特色的服饰，帝国将再次崛起（包括能创造罗马幻境的哈台桂冠）。"
 
@@ -4627,18 +4633,20 @@
 
 //Meet the Pyro
 "TF_Lollichop"					"锋利的波板糖" // ADD THE
+"TF_Lollichop_Desc"				"用这个超大的美味波板糖（冰冷的钢铁）来填满（劈开）你的伙伴的肚子（颅骨）吧。（启用火焰兵幻境）"
 "TF_ScorchShot"					"焦化枪" // ADD THE
 "TF_ScorchShot_Desc"			"‎此武器在不手持时也会自动装弹。"
 "TF_Rainblower"					"彩虹喷灯" // ADD THE
+"TF_Rainblower_Desc"			"当你向朋友们（敌人们）喷洒闪耀的彩虹（吞噬一切的火焰）时，他们会发出银铃般的欢笑（血肉焦裂的爆响）。（启用火焰兵幻境）"
 "TF_Pyrovision_Goggles"			"火焰兵的奇幻护目镜"
 "TF_Wearable_Pyrovision_Goggles_Type" "护目镜"
 "TF_Pyrovision_Goggles_Desc"	"戴上它，进入一个比书中的冗长想象好无数倍的世界。火焰兵的奇幻护目镜能让你从最可爱的纵火犯的眼中看世界。"
 "TF_Pet_Balloonicorn"			"气球独角兽" // ADD THE
 "TF_Pet_Balloonicorn_Desc"		"哎哟喂！那位可是气球独角兽？火焰兵幻境的一把手？瞎说啥呢，不就一充了气的独角兽而已。人家是市政监察员啊。私下跟你说吧，整个市政厅上下，全都在笑话他。那个管下水道的加里.布罗曼，也是个充气的，跟他老婆有一腿呢。所以嘛，他最近老是喝得烂醉，臭脾气也是一点就着，在你肩上晃悠的时候，可万万不可提这茬啊。"
 "TF_PyroMusicDevice"			"炼狱管弦乐" // ADD THE
-"TF_PyroMusicDevice_Desc"		"你最好的朋友（敌人）会把他们的眉毛皱下来（因为他们的死期就要到了），与此同时，他们在欢快地跳舞（惊恐地逃走）。然后欢快的乐曲（撕心裂肺的哀乐）淹没了一切。（装备时使用火焰兵视角。）"
+"TF_PyroMusicDevice_Desc"		"你最好的朋友（敌人）会把他们的眉毛皱下来（因为他们的死期就要到了），与此同时，他们在欢快地跳舞（惊恐地逃走）。然后欢快的乐曲（撕心裂肺的哀乐）淹没了一切。（启用火焰兵幻境）"
 "TF_PyroBongos"					"纵火狂的小鼓" // ADD THE
-"TF_PyroBongos_Desc"			"当你还是小孩时，你唯一想做的事情就是玩玩小鼓。但当你长大后，就像我们所有人一样，意识到你敲小鼓的技术比不上马修.麦康纳。好吧，猜猜看，朋友：没有人能比上他，现在没有，以后也不会有。（装备时使用火焰兵视角。）"
+"TF_PyroBongos_Desc"			"当你还是小孩时，你唯一想做的事情就是玩玩小鼓。但当你长大后，就像我们所有人一样，意识到你敲小鼓的技术比不上马修.麦康纳。好吧，猜猜看，朋友：没有人能比上他，现在没有，以后也不会有。（启用火焰兵幻境）"
 
 "TF_Weapon_PEP_Scattergun"			"娃娃脸的冲击波"
 "TF_Weapon_PEP_Pistol"				"帅气男孩的袖珍手枪"
@@ -4906,7 +4914,7 @@
 "TF_AudioFile_Desc"					"不停划动而成。"
 
 // Style
-"Econ_Style_Desc"			"式样： %s1"		// was "TF_Style_Desc"
+"Econ_Style_Desc"			"样式：%s1"		// was "TF_Style_Desc"
 
 "TF_StovePipe_Style0"		"优美而精致"
 "TF_StovePipe_style1"		"俗丽而傲慢"
@@ -5207,6 +5215,7 @@
 "TF_MapToken_Watchtower_Desc"	"一张竞技场模式地图\n\n由 Joshua 'JoshuaC' Shiflet 创作\n\n购买此物品来直接赞助 Watchtower 社区地图创作者。快来表示你的支持吧！"
 "TF_Hoodoo"						"Hoodoo"
 "TF_MapToken_Hoodoo"			"地图邮票 - Hoodoo"
+"TF_MapToken_Hoodoo_Desc"		"一张推车模式地图\n\n由 Tim 'YM' Johnson、Jeroen 'Snipergen' Dessaux、Wade 'Nineaxis' Fabry、Drew 'Oxy' Fletcher 创作\n\n购买此物品来直接赞助 Hoodoo 社区地图创作者。快来表示你的支持吧！"
 "TF_Offblast"					"Offblast"
 "TF_MapToken_Offblast"			"地图邮票 - Offblast"
 "TF_MapToken_Offblast_Desc"		"一张竞技场模式地图\n\n由 Magnar 'insta' Jenssen 创作\n\n购买此物品来直接赞助 Offblast 社区地图创作者。快来表示你的支持吧！"
@@ -5259,6 +5268,7 @@
 "TF_MapToken_Borneo_AdText"		"-购买此物品来直接赞助 Borneo 社区地图创作者。"
 "TF_Map_Suijin"					"Suijin"
 "TF_MapToken_Suijin"			"地图邮票 - Suijin"
+"TF_MapToken_Suijin_Desc"		"一张山丘之王地图\n\n由 Freyja、E-Arkham、Kevin 'Ravidge' Brook 和 Maxime 'Fubar' Dupuis 创作\n\n购买此物品来直接赞助 Suijin 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Suijin_AdText"		"-购买此物品来直接赞助 Suijin 社区地图创作者。"
 "TF_Map_2FortInv"				"2Fort Invasion"
 "TF_MapToken_2FortInv"			"地图邮票 - 2Fort Invasion"
@@ -5277,6 +5287,8 @@
 "TF_MapToken_Byre_AdText"		"-购买此物品来直接赞助 Byre 社区地图创作者。"
 "TF_Map_GorgeEvent"				"山峡凶宅"
 "TF_MapToken_GorgeEvent"		"地图邮票 - 山峡凶宅"
+"TF_MapToken_GorgeEvent_Desc"	"一张攻防型控制点模式地图\n\n由 Paul 'puxorb' Broxup 创作\n\n购买此物品来直接赞助 Gorge Event 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_GorgeEvent_AdText"	"-购买此物品来直接赞助 Gorge Event 社区地图创作者。"
 "TF_Map_SunshineEvent"			"Sinshine"
 "TF_MapToken_SunshineEvent"		"地图邮票 - Sinshine"
 "TF_MapToken_SunshineEvent_Desc"	"一张控制点模式地图\n\n由 Rebecca 'phi' Ailes、Kimberly 'iiboharz' Riswick 和 Harlen 'UEAKCrash' Linke 创作\n\n购买此物品来直接赞助 Sinshine 社区地图创作者。快来表示你的支持吧！"
@@ -5530,7 +5542,7 @@
 "TF_MapToken_Sulfur_Desc"			"一张攻防型控制点模式地图\n\n由 Freyja、E-Arkham、Sarexicus、'Rito、donhonk、Kimberly 'iiboharz' Riswick、Lauren 'Yrrzy' Godfrey 和 Maxime 'Fubar' Dupuis 创作\n\n购买此物品来直接赞助 Sulfur 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Sulfur_AdText"			"-购买此物品来直接赞助 Sulfur 社区地图创作者。"
 "TF_Map_Hardwood"					"Hardwood"
-"TF_MapToken_Hardwood"				"地图邮票 - 硬木山林"
+"TF_MapToken_Hardwood"				"地图邮票 - Hardwood"
 "TF_MapToken_Hardwood_Desc"			"一张攻防型控制点模式地图\n\n由 Ben 'Squishy' Dowman、Emil Sharafeev、Faye、Puinguin、Liam 'Diva Dan' Moffitt、E-Arkham 和 Roman 'FanCyy' Malashkevich 创作\n\n购买此物品来直接赞助 Hardwood 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Hardwood_AdText"		"-购买此物品来直接赞助 Hardwood 社区地图创作者。"
 "TF_Map_PelicanPeak"				"Pelican Peak"
@@ -5562,6 +5574,7 @@
 "TF_MapToken_Perks_Desc"			"一张竞技场模式地图\n\n由 Philippe 'Le Codex' Lefebvre、Liam 'Diva Dan' Moffitt、Daniel 'DJ' Bennett、Seb 'Tianes' Necula、Ase 'pont' Kirkham 和 E-Arkham 创作\n\n购买此物品来直接赞助 Perks 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Perks_AdText"			"-购买此物品来直接赞助 Perks 社区地图创作者。"
 "TF_Map_Slime"						"Slime"
+"TF_MapToken_Slime"					"地图邮票 - Slime"
 "TF_MapToken_Slime_Desc"			"一张山丘之王模式地图\n\n由 Harlen 'UEAKCrash' Linke、Freyja, Benjamin 'blaholtzen' Blåholtz、Al 'Square' Rodgers、Alex 'FGD5' Stewart、Lizard of Oz、Jordan 'hXX' LeBlanc 和 Seb 'Tianes' Necula 创作\n\n购买此物品来直接赞助 Slime 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Slime_AdText"			"-购买此物品来直接赞助 Slime 社区地图创作者。"
 "TF_Map_LavaPit"					"Lava Pit"
@@ -5694,6 +5707,7 @@
 "TF_MapToken_Darkmarsh_AdText"		"-购买此物品来直接赞助 Darkmarsh 社区地图创作者。"
 "TF_Map_FreakyFair"					"Freaky Fair"
 "TF_MapToken_FreakyFair"			"地图邮票 - Freaky Fair"
+"TF_MapToken_FreakyFair_Desc"		"一张控制点地图\n\n由 Emil Sharafeev、George 'I dinne ken' Norman、Liam 'Diva Dan' Moffitt、Patrik 'Nat-Tea' Naplava、Aeon 'Void' Bollig、Wilson、Stuffy360 和 Ranily 创作\n\n购买此物品来直接赞助 Freaky Fair 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_FreakyFair_AdText"		"-购买此物品来直接赞助 Freaky Fair 社区地图创作者。"
 "TF_Map_Dynamite"					"Dynamite"
 "TF_MapToken_Dynamite"				"地图邮票 - Dynamite"
@@ -5817,6 +5831,7 @@
 "TF_Map_arena_well"				"Well Arena"
 "TF_Map_rd_asteroid"			"RD Asteroid - 测试版"
 "TF_Map_powerup_ctf_foundry"	"Foundry"
+"TF_Map_powerup_ctf_gorge"		"Gorge"
 "TF_Map_powerup_ctf_thundermountain"	"Thundermountain"
 "TF_Map_powerup_ctf_hellfire"		"Hellfire"
 "TF_Map_pass_brickyard"			"Brickyard"
@@ -5969,6 +5984,7 @@
 "TF_Map_Toxic_StrangePrefix"			"毒池恶巢"
 "TF_Map_Darkmarsh_StrangePrefix"		" 暗黑哥特"
 "TF_Map_FreakyFair_StrangePrefix"		" 群魔乱舞"
+"TF_Map_Dynamite_StrangePrefix"			" 火光冲天"
 "TF_Map_Circus_StrangePrefix"			" 荒唐可笑"
 "TF_Map_Outburst_StrangePrefix"			" 魔型灾祸"
 "TF_Map_Blazehattan_StrangePrefix"		" 炽烈之炎"
@@ -6456,6 +6472,7 @@
 "plr_hacksaw_event_progress_message1"	"冲向终点，踩下按钮"
 "plr_hacksaw_event_progress_message2"	"来砸扁领先于你的玩家，还要当心那些"
 "plr_hacksaw_event_progress_message3"	"发着光的绿色十字！"
+"koth_sawmill_event_haunted"			"Haunted Sawmill"
 "koth_sawmill_event_soulmill"			"Soulmill"
 "cp_ambush_event_limbo"					"A - 弥留营地"
 "cp_ambush_event_pass"					"A - 幻灭魔道"
@@ -6465,8 +6482,10 @@
 "cp_ambush_event_souls"					"B - 离魂陡坡"
 "koth_cascade_cap"						"控制点"
 "koth_megalo_turntable"					"转车台"
+"koth_undergrove_event_bridge"			"桥"
 "koth_undergrove_event_objective"		"夺取控制点以开启传送门，进入其中参与一场 3v3 的对决，为你的团队赢得爆击奖励！保持占领控制点以赢得游戏。"
 "koth_undergrove_event_not_enough"		"未有足够的玩家加入！"
+"koth_undergrove_event_2v2"				"2v2 对战中："
 "koth_undergrove_event_portal"			"找到传送门，加入 3v3 的对战！"
 "koth_undergrove_event_blu_kritz"		"蓝队赢得了爆击！"
 "koth_undergrove_event_red_kritz"		"红队赢得了爆击！"
@@ -6509,6 +6528,8 @@
 "cp_spookeyridge_first"					"第一个控制点"
 "cp_spookeyridge_final"					"最终控制点"
 "arena_lumberyard_event_objective"		"消灭所有敌方玩家或占领控制点来赢得本回合的胜利！你在阵亡之后会变成幽灵，能够治疗你的队友！"
+"arena_lumberyard_event_sudden_death"	"骤死赛！"
+"arena_lumberyard_event_stop"			"别再当失败者了！"
 "arena_lumberyard_event_red_wins"		"红队赢了一回合！"
 "arena_lumberyard_event_blu_wins"		"蓝队赢了一回合！"
 "arena_lumberyard_event_point_open"		"控制点已开放！"
@@ -6530,6 +6551,7 @@
 "ctf_crasher_escort_giant"				"护送我方巨人向敌方大门进击！"
 "ctf_crasher_giant_almost_here_enemy"	"敌方巨人即将抵达！"
 "ctf_crasher_pickup_bomb"				"背起炸弹，化身巨人！"
+"ctf_crasher_civilian"					"平民播音员已启用"
 "ctf_helltrain_event_red_objective"		"夺取蓝队的燃煤核心来赢得胜利！"
 "ctf_helltrain_event_blu_objective"		"夺取红队的燃煤核心来赢得胜利！"
 "pd_farmageddon_objective"				"从另一支队伍那里收集除草剂并将其送入南瓜怪物口中！"
@@ -6546,6 +6568,7 @@
 "pl_frostcliff_e"						"E - 寒霜陷坑"
 "pl_frostcliff_blue_goal"				"将战车推动到红队的寒霜陷坑中！"
 "pl_frostcliff_red_goal"				"不惜一切代价阻止蓝队的推进！"
+"cp_gorge_event_gored"					"Gore'd"
 "CoalPit_setup_goal_red"				"保护冷冻射线，击退蓝队！"
 "CoalPit_setup_goal_blue"				"关闭红队的冷冻射线，阻止他们让全球变寒！"
 "CoalPit_cap_A"							"控制点 A，无线电塔"
@@ -6555,6 +6578,7 @@
 "cp_reckoner_red_offices"				"红队办公室"
 "cp_reckoner_blu_greenhouse"			"蓝队温室"
 "cp_reckoner_blue_offices"				"蓝队办公室"
+"cp_reckoner_bridge"					"桥"
 "cp_sulfur_garden"						"花园"
 "cp_sulfur_onsen"						"浴场"
 "cp_sulfur_waterfall"					"瀑布"
@@ -6575,8 +6599,11 @@
 "cp_lavapit_final_C"					"控制点 C"
 "pl_corruption_entrance"				"收容所入口"
 "pl_corruption_beach"					"海滩"
+"pl_corruption_prison"					"监狱"
 "pl_corruption_asylum"					"收容所"
+"pl_spineyard_road"						"道路"
 "pl_spineyard_restaurant"				"餐馆"
+"pl_spineyard_city"						"城市"
 "pl_spineyard_winery"					"酒庄"
 "zi_murky_swamp"						"沼泽"
 "zi_murky_infection"					"一名感染体潜伏在你们当中……"
@@ -6596,6 +6623,7 @@
 "arena_perks_minitofull_name"           "爆击升级"
 "arena_perks_reveal_desc"               "击杀一名敌人后，\n揭示距离最近的三名敌人位置，\n持续 5 秒"
 "arena_perks_reveal_name"               "寻敌"
+"arena_perks_mark_desc"                 "当你死亡时，\n击杀你的敌人将被标记为死亡，\n持续 6 秒"
 "arena_perks_resistance_desc"           "受到的伤害减少 10%"
 "arena_perks_resistance_name"           "铜皮铁骨"
 "arena_perks_healing_name"              "额外补给"
@@ -7008,6 +7036,7 @@
 "Gametype_HalloweenFeatured_Desc"	"在精选万圣节地图中漫游。"
 "Gametype_Campaign3"			"丛林炼狱"
 "Gametype_Campaign3_Desc"		"在所有的丛林炼狱战役地图上战斗"
+"Gametype_Smissmas_Desc"		"漫游往期全部的圣诞节主题地图。"
 "Gametype_SmissmasFeatured_Desc"	"在精选圣诞节地图中漫游。"
 "Gametype_SummerFeatured"		"夏季（精选）"
 "Gametype_SummerFeatured_Desc"	"在精选夏季地图中漫游。"
@@ -7224,7 +7253,7 @@
 "Tip_1_6"				"作为侦察兵，在空中发射自然之力所产生的后坐力会向瞄准的反方向将你击退。利用这一点来延长跳跃的距离。"
 "Tip_1_7"				"作为侦察兵，利用其他路径来从侧翼突袭敌人。"
 "Tip_1_8"				"作为侦察兵，当使用睡魔的时候，使用 %attack2% 向远处的敌人发射棒球来击晕他们。"
-"Tip_1_9"				"作为侦察兵，装备睡魔会减少你的生命值上限。当生存力至关重要时，选择短棍。"
+"Tip_1_9"				"作为侦察兵，装备睡魔会减少你的生命值上限。当生存力至关重要时，选择球棒。"
 "Tip_1_10"				"作为侦察兵，使用自然之力击中近距离的敌人会击退他们。"
 "Tip_1_11"				"作为侦察兵，你的睡魔棒球飞得越远，击中敌人后就能使他们眩晕的越久——最多能眩晕 7 秒钟。"
 "Tip_1_12"				"作为侦察兵，睡魔的棒球在近距离无法击晕对手，但是在最大距离时可以完全晕眩敌人。"
@@ -7235,7 +7264,7 @@
 "Tip_1_17"				"作为侦察兵，使用爆击可乐时要小心。把它留到偷袭敌人时再使用，并且用你的速度优势来避免额外的伤害。"
 "Tip_1_18"				"作为侦察兵，你和队友在击中被疯狂的牛奶泼中的敌人时，都会恢复生命值。在战斗中使用疯狂的牛奶来提升队伍的生存力。"
 "Tip_1_19"				"作为侦察兵，波士顿狼牙棒击中敌人时会让敌人流血，但击空也会让你自己流血。拾取医疗包可以解除流血状态。"
-"Tip_1_20"				"作为侦察兵，太阳之杖对着火敌人产生爆击，但它的原始攻击力弱于短棍。与友方火焰兵合作能充分利用它的效果。"
+"Tip_1_20"				"作为侦察兵，太阳之杖对着火敌人产生爆击，但它的原始攻击力弱于球棒。与友方火焰兵合作能充分利用它的效果。"
 "Tip_1_21"				"作为侦察兵，用军配扇击中敌人能使后续攻击造成小爆击。让队友的武器或者你其它的武器来造成最大的伤害吧。"
 "Tip_1_22"				"作为侦察兵，在使用原子能球棒时务必注意自己的生命值。时机不当的三段跳会要了你的命！"
 "Tip_1_23"				"作为侦察兵，你可以充分利用原子能球棒的三段跳功能和自然之力的后坐力效果，来实现四段跳！"
@@ -7256,7 +7285,7 @@
 "Tip_2_9"				"作为狙击手，当有间谍尝试背刺你时，你的电击背脊盾会发出一阵巨大的响声。竖起耳朵听好了！"
 "Tip_2_10"				"作为狙击手，用瓶手道尿瓶可以熄灭自己和队友身上的火焰。"
 "Tip_2_11"				"作为狙击手，攻击被瓶手道击中的敌人会造成迷你爆击。"
-"Tip_2_12"				"作为狙击手，使用部落者刮刀击中对方后可使对方失血。这对于追踪间谍很有帮助。"
+"Tip_2_12"				"作为狙击手，使用部落砍刀击中对方后可使对方失血。这对于追踪间谍很有帮助。"
 "Tip_2_13"				"作为狙击手，悉尼沉睡者能对敌人产生瓶手道的效果。射击着火的队友可以为他们灭火。"
 "Tip_2_14"				"作为狙击手，瓶手道和灌木丛的连击十分有效。用瓶手道击中敌人，再用灌木丛砍杀，会造成爆击伤害。"
 "Tip_2_15"				"作为狙击手，悉尼沉睡者在蓄满能时能一枪击毙大多数兵种。"
@@ -7321,7 +7350,7 @@
 "Tip_4_24"				"作为爆破手，你可以利用冲锋盾，辉煌护盾，或力挽狂澜的冲锋能力，冲上小斜坡，使自己飞起来。敌人会惊讶地看到你从他们头顶上飞过。"
 "Tip_4_25"				"作为爆破手，你使用苏格兰长剑所累积的人头将提高你的盾牌冲撞敌人时所造成的伤害。"
 "Tip_4_26"				"作为爆破手，你可以使用黏弹跳跃者快速到达前线。务必小心！因为它不造成任何伤害，你必须依赖主武器和近战武器。"
-"Tip_4_27"				"作为爆破手，苏格兰颅骨切割者会减慢你的移动速度。考虑与冲锋盾，辉煌护盾，或力挽狂澜配合使用，以抵消减速效果。"
+"Tip_4_27"				"作为爆破手，苏格兰碎颅斧会减慢你的移动速度。考虑与冲锋盾，辉煌护盾，或力挽狂澜配合使用，以抵消减速效果。"
 
 "Tip_5_Count"				"31"
 "Tip_5_1"				"作为医生，使用医疗枪治疗队友，并让他们的血量提高到平时的 1.5 倍。"
@@ -7351,7 +7380,7 @@
 "Tip_5_25"				"作为医生，准确把握时机比什么都重要。在能保证自己的安全时，可以暂时不释放 UberCharge，以便在恰当的时机，使它的作用最大化。"
 "Tip_5_26"				"作为医生，使用吸血鬼针筒枪击中敌人时，除了造成伤害，还可以为自己补充 3 点生命。在你受伤时、着火时、撤退时或是猛烈进攻时使用它吧。"
 "Tip_5_27"				"作为医生，维塔锯可以在你死后为你最多保留原本 60% 的 UberCharge 能量到下次复活。如果你准备发起决死的突击，而剩余时间不多时，可以考虑使用。"
-"Tip_5_28"				"作为医生，希波克拉底的雕像使你能够看到敌人的当前生命值；利用这个信息，帮助你的队伍优先消灭残血的敌人。"
+"Tip_5_28"				"作为医生，神圣誓言像使你能够看到敌人的当前生命值；利用这个信息，帮助你的队伍优先消灭残血的敌人。"
 "Tip_5_29"				"作为医生，快速医疗枪治疗速度很快，可以快速地治愈多名队友。"
 "Tip_5_30"				"作为医生，如果你和队伍走散了，通过按 %voicemenu 0 0% 使用“呼叫医生”指令来告知附近的队友你当前的位置。"
 "Tip_5_31"				"作为医生，过载注射枪会依据你的 Ubercharge 计量多少来增加你的移动速度！如果你需要赶往前线或快速逃跑，就装备过载注射枪吧！"
@@ -7450,7 +7479,7 @@
 "Tip_8_37"				"作为间谍，你可以利用掉落伤害激活死亡之铃，假装不小心摔死。"
 "Tip_8_38"				"作为间谍，请注意瓶手道、疯狂的牛奶、流血效果以及水会在你隐形时暴露你的轮廓。"
 "Tip_8_39"				"作为间谍，“菱背响尾蛇”的伤害值较原始左轮手枪低，但每当你用电子工兵摧毁一座建筑，它就会储存一次爆击。在正面面对敌方工程师之前先摧毁一座建筑，你会获得极大的优势。"
-"Tip_8_40"				"作为间谍，当你使用神奇的冰柱时，任何火焰伤害都会融化你的武器，你需要等待它恢复后才能继续使用。"
+"Tip_8_40"				"作为间谍，在使用冰锥时受到任何火焰伤害，冰锥都会融化，此时你必须等待一段时间后，才能再次使用它。"
 
 "Tip_9_Count"				"29"
 "Tip_9_1"				"作为工程师，请使用建造工具安置步哨枪、补给器以及传送装置。"
@@ -7524,6 +7553,7 @@
 "TF_ClassRecord_Alt_MostDominations"	"控制次数"
 "TF_ClassRecord_Alt_LongestLife"		"生存时间"
 "TF_ClassRecord_Alt_MostHealing"		"治疗量"
+"TF_ClassRecord_Alt_MostInvulns"		"UberCharge 激活次数"
 "TF_ClassRecord_Alt_MostSentryKills"	"步哨杀敌数"
 "TF_ClassRecord_Alt_MostTeleports"		"传送次数"
 "TF_ClassRecord_Alt_MostHeadshots"		"爆头数"
@@ -7589,6 +7619,7 @@
 
 "TF_Ubercharge"				"UBERCHARGE：%charge%%%"
 "TF_UberchargeMinHUD"			"%charge%%%"
+"TF_IndividualUbercharges"				"Ubercharge：%charge_count%"
 "TF_IndividualUberchargesMinHUD"		"%charge_count%"
 "TF_NotBuilt"				"未建造"
 "TF_RocketPack_Heat"		"加热"
@@ -7808,9 +7839,9 @@
 "TF_Spectator_SwitchCamModeKey"	"[%jump%]"
 "TF_Spectator_SwitchCamMode"	"切换视角模式"
 "TF_Spectator_CycleTargetFwdKey" "[%attack%]"
-"TF_Spectator_CycleTargetFwd"	"循环目标（往前）"
+"TF_Spectator_CycleTargetFwd"	"轮换目标（上一个）"
 "TF_Spectator_CycleTargetRevKey" "[%attack2%]"
-"TF_Spectator_CycleTargetRev"	"循环目标（往后）"
+"TF_Spectator_CycleTargetRev"	"轮换目标（下一个）"
 "TF_Spectator_Spectating"		"观看："
 "TF_Spectator_TargetID_Location"	"旁观者目标ID位置"
 "TF_Spectator_Default"				"默认"
@@ -8812,9 +8843,9 @@
 
 // MvM Achievements
 "TF_MVM_COMPLETE_POP_FILE_NAME"					"钢铁粉碎机"
-"TF_MVM_COMPLETE_POP_FILE_DESC"					"在一次任务中抵挡所有回合的进攻。"
+"TF_MVM_COMPLETE_POP_FILE_DESC"					"在一次任务中抵挡所有攻势。"
 "TF_MVM_EARN_MONEY_BONUS_NAME"					"战时加薪"
-"TF_MVM_EARN_MONEY_BONUS_DESC"					"在一回合结束时获得现金奖励。"
+"TF_MVM_EARN_MONEY_BONUS_DESC"					"在一波攻势结束时获得现金奖励。"
 "TF_MVM_ADVANCED_EARN_ALL_BONUSES_NAME"			"战争横财"
 "TF_MVM_ADVANCED_EARN_ALL_BONUSES_DESC"			"在高级难度下，获得全部的现金奖励。"
 "TF_MVM_PICKUP_MONEY_ABOUT_TO_EXPIRE_NAME"		"高速缓存"
@@ -8832,11 +8863,11 @@
 "TF_MVM_DESTROY_TANK_QUICKLY_NAME"				"发条征服者"
 "TF_MVM_DESTROY_TANK_QUICKLY_DESC"				"在坦克出现后的 20 秒内将其摧毁。"
 "TF_MVM_DEFEND_CAP_NAME"						"拦截垃圾邮件"
-"TF_MVM_DEFEND_CAP_DESC"						"在同一波进攻中，防守舱门 10 次，以防止机器人投放炸弹。"
+"TF_MVM_DEFEND_CAP_DESC"						"在同一波攻势中，防守舱门 10 次，以防止机器人投放炸弹。"
 "TF_MVM_KILL_BOMB_CARRIERS_NAME"				"执刑程序"
 "TF_MVM_KILL_BOMB_CARRIERS_DESC"				"在同一波攻势中，连续摧毁 15 个还没升级的运送炸弹的机器人。"
 "TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_NAME"		"机械降神"
-"TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_DESC"		"在进阶难度下用一条命完成一回合。"
+"TF_MVM_COMPLETE_WAVE_WITHOUT_DYING_DESC"		"在进阶难度下完成一波攻势而一次不死。"
 "TF_MVM_COMPLETE_TOUR_NAME"						"奇袭阵列"
 "TF_MVM_COMPLETE_TOUR_DESC"						"完成 Crash Course, Doe's Drill, 以及 Mann-euvers 任务。"
 "TF_MVM_USE_TELEPORT_BOTTLE_NAME"				"机器幽灵"
@@ -8846,15 +8877,15 @@
 "TF_MVM_USE_UBER_BOTTLE_NAME"					"德国工艺"
 "TF_MVM_USE_UBER_BOTTLE_DESC"					"使用水壶提供的“无敌加成”摧毁 15 个机器人。"
 "TF_MVM_USE_BUILD_BOTTLE_NAME"					"撤销删除"
-"TF_MVM_USE_BUILD_BOTTLE_DESC"					"在同一波进攻中，在你原先的步哨枪被摧毁后的 3 秒内，使用水壶提供的“建筑瞬间升级”来建造一挺新步哨枪。"
+"TF_MVM_USE_BUILD_BOTTLE_DESC"					"在同一波攻势中，在你原先的步哨枪被摧毁后的 3 秒内，使用水壶提供的“建筑瞬间升级”来建造一架新的步哨枪。"
 "TF_MVM_USE_AMMO_BOTTLE_NAME"					"弹药扩充"
-"TF_MVM_USE_AMMO_BOTTLE_DESC"					"在同一波进攻中，使用水壶提供的“装填弹药”来为弹药耗尽的武器恢复弹药。"
+"TF_MVM_USE_AMMO_BOTTLE_DESC"					"在同一波攻势中，使用水壶提供的“装填弹药”来为弹药耗尽的武器恢复弹药。"
 "TF_MVM_MAX_PRIMARY_UPGRADES_NAME"				"系统升级"
 "TF_MVM_MAX_PRIMARY_UPGRADES_DESC"				"将主武器的各项升级升满。"
 "TF_MVM_MAX_PLAYER_RESISTANCES_NAME"			"极致性能"
 "TF_MVM_MAX_PLAYER_RESISTANCES_DESC"			"将某一兵种的全部伤害抗性升到满级"
 "TF_MVM_NO_ALARMS_IN_FINAL_WAVE_NAME"			"引擎故障"
-"TF_MVM_NO_ALARMS_IN_FINAL_WAVE_DESC"			"进行高级难度的游戏，并在最后一回合中，阻止炸弹抵达警戒区域。"
+"TF_MVM_NO_ALARMS_IN_FINAL_WAVE_DESC"			"在进阶难度任务下的最后一波攻势中，阻止炸弹抵达警戒区域。"
 "TF_MVM_KILL_MEDICS_CHARGED_NAME"				"负电荷"
 "TF_MVM_KILL_MEDICS_CHARGED_DESC"				"在一波攻势中摧毁 5 个预备部署 UberCharge 的机器医生。"
 "TF_MVM_KILL_ROBOT_GRIND_NAME"					"芯片杀手"
@@ -8884,7 +8915,7 @@
 "TF_MVM_MAPS_ROTTENBURG_TANK_NAME"						"宅急救"
 "TF_MVM_MAPS_ROTTENBURG_TANK_DESC"						"在 Rottenburg，于坦克碾过路障前摧毁它。"
 "TF_MVM_MAPS_ROTTENBURG_BOMB_NAME"						"固若金汤"
-"TF_MVM_MAPS_ROTTENBURG_BOMB_DESC"						"在 Rottenburg 上进行一场进阶回合，没有让炸弹炸毁城镇。"
+"TF_MVM_MAPS_ROTTENBURG_BOMB_DESC"						"在 Rottenburg 上以进阶难度完成一波攻势，并且没有让炸弹炸毁城镇。"
 "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND_NAME"					"过去的世纪"
 "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND_DESC"					"在 Rottenburg，把 100 名敌人推进陷阱。"
 "TF_MVM_MAPS_MANNHATTAN_PIT_NAME"						"诱敌深入"
@@ -8893,7 +8924,7 @@
 "TF_MVM_MAPS_MANNHATTAN_NO_GATES_NAME"					"从老子的草坪上滚出去"
 "TF_MVM_MAPS_MANNHATTAN_NO_GATES_DESC"					"在 Mannhattan 上进行一场进阶任务，没有让敌方的出生点推进一次。"
 "TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE_NAME"			"软件降级"
-"TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE_DESC"			"在曼恩哈顿的一次进阶难度任务中，和你的队友一起，杀死 50 个正在接收信号的机器人。"
+"TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE_DESC"			"在 Mannhattan 的一次进阶难度任务中，全队合计杀死 50 个正在接收信号的机器人。"
 "TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_NAME"			"都市突击"
 "TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_DESC"			"在 Mannhattan 摧毁 500 个正在破门的机器人。"
 "TF_MVM_SENTRY_BUSTER_FRIENDLY_FIRE_NAME"				"机器人毁灭者"
@@ -8976,7 +9007,7 @@
 "TF_MULTIPLE_BFF_NAME"								"永远的好朋友²"
 "TF_MULTIPLE_BFF_DESC"								"在一局游戏中“结识”两名玩家。"
 "TF_TEAM_PYROVISION_NAME"							"群体性歇斯底里"
-"TF_TEAM_PYROVISION_DESC"							"在同一时间内有至少 6 名队友使用着火焰兵视角。"
+"TF_TEAM_PYROVISION_DESC"							"在同一时间内有至少 6 名队友正在启用火焰兵幻境。"
 "TF_DOMINATE_FOR_GOGGLES_NAME"						"新的视野"
 "TF_DOMINATE_FOR_GOGGLES_DESC"						"控制一名正在使用火焰兵的奇幻护目镜的敌人并为你自己赢得一副！"
 
@@ -9654,6 +9685,7 @@
 "TF_StrangeFilter_CommunityMapFastlane_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Fastline 中发生的事件。"
 "TF_StrangeFilter_CommunityMapFreight"				"奇异过滤器：Freight（社区）"
 "TF_StrangeFilter_CommunityMapFreight_Desc"			"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Freight 中发生的事件。"
+"TF_StrangeFilter_CommunityMapYukon"				"奇异过滤器：Yukon（社区）"
 "TF_StrangeFilter_CommunityMapYukon_Desc"			"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Yukon 中发生的事件。"
 "TF_StrangeFilter_CommunityMapHarvest"				"奇异过滤器：Harvest（社区）"
 "TF_StrangeFilter_CommunityMapHarvest_Desc"			"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Harvest 中发生的事件。"
@@ -9699,6 +9731,7 @@
 "TF_StrangeFilter_CommunityMapSunshineEvent_Desc"	"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Sinshine 中发生的事件。"
 "TF_StrangeFilter_CommunityMapMoonshineEvent"		"奇异过滤器：Moonshine Event（社区）"
 "TF_StrangeFilter_CommunityMapMoonshineEvent_Desc"	"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Moonshine Event 中发生的事件。"
+"TF_StrangeFilter_CommunityMapMillstoneEvent"		"奇异过滤器：Hellstone（社区）"
 "TF_StrangeFilter_CommunityMapMillstoneEvent_Desc"	"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图石狱魂归中发生的事件。"
 "TF_StrangeFilter_CommunityMapSnowycoast"		"奇异过滤器：Snowycoast（社区）"
 "TF_StrangeFilter_CommunityMapSnowycoast_Desc"	"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Snowycoast 中发生的事件。"
@@ -9799,6 +9832,7 @@
 "TF_StrangeFilter_CommunityMapGhoulpit_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Ghoulpit 中发生的事件。"
 "TF_StrangeFilter_CommunityMapSpookeyridge"			"奇异过滤器：怪奇山脊（社区）"
 "TF_StrangeFilter_CommunityMapSpookeyridge_Desc"	"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图怪奇山脊中发生的事件。"
+"TF_StrangeFilter_CommunityMapFrostwatch"			"奇异过滤器：Frostwatch（社区）"
 "TF_StrangeFilter_CommunityMapFrostwatch_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图霜林哨所中发生的事件。"
 "TF_StrangeFilter_CommunityMapFrostcliff"			"奇异过滤器：Frostcliff（社区）"
 "TF_StrangeFilter_CommunityMapFrostcliff_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Frostcliff 中发生的事件。"
@@ -10451,7 +10485,7 @@
 "TF_Tag_Category_Quality"	"品质"
 "TF_Tag_Category_Class"	"兵种"
 "TF_Tag_Category_Type"	"类型"
-"TF_Tag_Category_Rarity"		"等级"
+"TF_Tag_Category_Rarity"		"品级"
 "TF_Tag_Category_Collection"	"收藏品"
 "TF_Tag_Category_Exterior"		"外观"
 "TF_Tag_Crate"			"供应箱"
@@ -11248,14 +11282,14 @@
 "Rarity_Default_Weapon"					"基础"
 "Rarity_Common"							"民用"
 "Rarity_Common_Weapon"					"民用"
-"Rarity_Uncommon"						"不羁"
-"Rarity_Uncommon_Weapon"				"不羁"
+"Rarity_Uncommon"						"特约"
+"Rarity_Uncommon_Weapon"				"特约"
 "Rarity_Rare"							"雇佣"
 "Rarity_Rare_Weapon"					"雇佣"
 "Rarity_Mythical"						"特种"
 "Rarity_Mythical_Weapon"				"特种"
-"Rarity_Legendary"						"刺杀"
-"Rarity_Legendary_Weapon"				"刺杀"
+"Rarity_Legendary"						"杀手"
+"Rarity_Legendary_Weapon"				"杀手"
 "Rarity_Ancient"						"精英"
 "Rarity_Ancient_Weapon"					"精英"
 "Rarity_Contraband"						"不朽"
@@ -11303,34 +11337,34 @@
 "TF_TauntEnabler_Replay_Desc"		"全兵种嘲讽\n在嘲讽栏中装备这个物品。将它激活并告诉你的受害者们，你正将他们悲剧的死亡录制下来，并准备共享给所有人。"
 
 "TF_Tool_PaintCan_TeamColor"		"团队精神"
-"TF_Tool_PaintCan_TeamColor2"		"技工的工作服"
-"TF_Tool_PaintCan_TeamColor3"		"浸满水的实验工作服"
-"TF_Tool_PaintCan_TeamColor4"		"不朽的巴拉克拉瓦"
-"TF_Tool_PaintCan_TeamColor5"		"优雅的姿态"
+"TF_Tool_PaintCan_TeamColor2"		"技工的工装服"
+"TF_Tool_PaintCan_TeamColor3"		"泡水的白大褂"
+"TF_Tool_PaintCan_TeamColor4"		"巴拉克拉瓦万岁"
+"TF_Tool_PaintCan_TeamColor5"		"风度翩翩的格调"
 "TF_Tool_PaintCan_TeamColor6"		"团队之力"
 "TF_Tool_PaintCan_TeamColor7"		"奶油精神"
-"TF_Tool_PaintCan_1"			"不容置疑的绿色"
-"TF_Tool_PaintCan_2"			"贪欲黑暗绿色"
-"TF_Tool_PaintCan_3"			"贵族帽商紫色"
+"TF_Tool_PaintCan_1"			"绝对经典绿"
+"TF_Tool_PaintCan_2"			"泽老贪欲绿"
+"TF_Tool_PaintCan_3"			"贵族帽商紫"
 "TF_Tool_PaintCan_4"			"颜色编号 216-190-216"
-"TF_Tool_PaintCan_5"			"誓约之紫"
+"TF_Tool_PaintCan_5"			"坚定誓约紫"
 "TF_Tool_PaintCan_6"			"曼恩企业橙"
-"TF_Tool_PaintCan_7"			"肌肉男的肤色"
+"TF_Tool_PaintCan_7"			"猛男肌肉色"
 "TF_Tool_PaintCan_8"			"沉闷乏味赭"
-"TF_Tool_PaintCan_9"			"褐色"
-"TF_Tool_PaintCan_10"			"老式乡村啡色"
-"TF_Tool_PaintCan_11"			"澳元素金"
+"TF_Tool_PaintCan_9"			"老匠咖啡色"
+"TF_Tool_PaintCan_10"			"乡村尘土色"
+"TF_Tool_PaintCan_11"			"澳元素金色"
 "TF_Tool_PaintCan_12"			"老年胡须灰"
 "TF_Tool_PaintCan_13"			"独特满桶白"
 "TF_Tool_PaintCan_14"			"特别无色黑"
-"TF_Tool_PaintCan_15"			"闪亮的粉红色"
-"TF_Tool_PaintCan_16"			"石板似的颜色"
-"TF_Tool_PaintCan_17"			"平淡榄色"
-"TF_Tool_PaintCan_18"			"苦涩的青柠绿"
-"TF_Tool_PaintCan_19"			"绅士商务裤的颜色"
-"TF_Tool_PaintCan_20"			"不公正的深橙红"
-"TF_Tool_PaintCan_21"			"曼恩公司薄荷色"
-"TF_Tool_PaintCan_22"			"晚八点"
+"TF_Tool_PaintCan_15"			"极致闪亮粉"
+"TF_Tool_PaintCan_16"			"深沉石板青"
+"TF_Tool_PaintCan_17"			"平淡橄榄绿"
+"TF_Tool_PaintCan_18"			"苦涩青柠绿"
+"TF_Tool_PaintCan_19"			"商务米黄色"
+"TF_Tool_PaintCan_20"			"不公深橙红"
+"TF_Tool_PaintCan_21"			"曼氏薄荷绿"
+"TF_Tool_PaintCan_22"			"晚八点夜色"
 
 "TF_Tool_ClaimCode_Desc"		"此物品将给予你一个兑换代码。"
 "TF_RIFT_SpiderHat_ClaimCode"	"《时空裂痕》蜘蛛丝帽兑换代码"
@@ -11486,6 +11520,7 @@
 "Attrib_MoveSpeed_Penalty"					"装备时移动速度减慢 %s1%"
 "Attrib_Jarate_Description"					"敌人在被泼中后所受伤害均为迷你爆击。\n可用于灭火。"
 "Attrib_HealthRegen"						"装备时每秒 +%s1 生命值"
+"Attrib_HealthDrain"						"装备时每秒生命值 %s1"
 "Attrib_HealthDrainMedic"					"装备时每秒生命值自回复量 %s1"
 "Attrib_SelfDmgPush_Increased"				"自身伤害推动力 +%s1%"
 "Attrib_SelfDmgPush_Decreased"				"自身伤害推动力 %s1%"
@@ -11689,7 +11724,7 @@
 "Attrib_RageOnHitPenalty"					"击中后丢失 %s1% 的怒气"
 "Attrib_RageOnHitBonus"						"击中后得到 %s1% 的怒气"
 "Attrib_RageDamageBoost"					"随着怒气的增加而获得伤害加成，最多%s1%"
-"Attrib_RageOnDamage"						"提高造成伤害积攒怒气。完全充能时，按下“特殊攻击”键以激活击退力量。"
+"Attrib_RageOnDamage"						"通过造成伤害积攒怒气。怒气攒满后，按下“特殊攻击”键即可激活击退效果。"
 "Attrib_ChargeTurnControl"					"冲锋状态下的转向控制力 +%s1%"
 "Attrib_ChargeTurnControlFull"				"冲锋时可自由转向"
 "Attrib_NoChargeImpactRange"				"可以在任意范围内触发冲撞伤害"
@@ -11713,7 +11748,7 @@
 "Attrib_PowerupCharges"						"现在持有 %s1 个增益效果"
 "Attrib_PowerupMaxCharges"					"最多可携带 %s1 次增益效果"
 "Attrib_PowerupDuration"					"每次效果持续 %s1 秒"
-"Attrib_CritBoost"							"可消耗：5秒内全爆击\n（同时步哨射速翻倍）"
+"Attrib_CritBoost"							"可消耗：获得爆击加成，持续 5 秒\n（同时步哨射速翻倍）"
 "Attrib_Ubercharge"							"可消耗：进入无敌状态，持续 5 秒\n（同时步哨获得防御护盾）"
 "Attrib_CancelFallingDamage"				"穿戴者不受掉落伤害"
 "Attrib_EffectBarRechargeRateIncreased"		"冷却速率 +%s1%"
@@ -11749,17 +11784,17 @@
 "Attrib_ElectricalAirblast"				"辅助能力：消耗 65 金属，发射一个能摧毁飞行物的能量球。"
 "Attrib_Unlimited"						"无限使用"
 "Attrib_UberDurationBonus"				"Ubercharge 持续时间增加 %s1 秒"
-"Attrib_RefillAmmo"						"可消耗：瞬间装满弹匣和储备弹药"
+"Attrib_RefillAmmo"						"可消耗：瞬间装满弹匣和后备弹药"
 "Attrib_FastReload"						"+%s1% 装填速度"
 "Attrib_BuffTime_Increased"				"增益持续时间 +%s1%"
 "Attrib_BuildRateBonus"					"+%s1% 修建速度"
-"Attrib_AttackProjectiles"				"击落飞行的火箭和榴弹。每升一级提高精准度和攻击频率。"
+"Attrib_AttackProjectiles"				"子弹可以击落飞行中的火箭和榴弹。每次升级提升精准度和击落频率。"
 "Attrib_AccurScalesDmg"					"精准度决定伤害值"
 "Attrib_CurrencyBonus"					"拾取获得的金钱数目 +%s1%"
 "Attrib_RoboSapper"						"增加电子工兵对机器人的作用范围和持续时间"
 "Attrib_JumpHeightBonus"				"手持时 +%s1% 跳跃高度"
 "Attrib_AppliesSnareEffect"				"目标移动速度 %s1%"
-"Attrib_BuildingInstaUpgrade"			"可消耗：瞬间将所有建筑升级至最高级别"
+"Attrib_BuildingInstaUpgrade"			"可消耗：瞬间将所有建筑升级至满级"
 "Attrib_BiDirectionalTP"				"传送装置可双向使用"
 "Attrib_AirBlastPushScale"				"压缩空气击退力 +%s1%"
 "Attrib_AirBlastVulnerabilityMultipier"	"受到由气爆产生的击退推力 %s1%"
@@ -11770,7 +11805,7 @@
 "Attrib_RevealCloakedVictimOnHit"		"击中间谍时解除其隐形"
 "Attrib_RevealDisguisedVictimOnHit"		"击中间谍时解除其伪装"
 "Attrib_JarateBackstabber"				"受到背刺时：攻击者受到瓶手道作用"
-"Attrib_SentryFireRate_Increased"		"+%s1% 步哨枪射速"
+"Attrib_SentryFireRate_Increased"		"步哨枪射击速度 +%s1%"
 "Attrib_SentryRadius_Increased"			"+%s1% 步哨枪射程"
 "Attrib_DispenserRadius_Increased"		"+%s1% 补给器作用范围"
 "Attrib_BatLaunchesOrnaments"			"辅助开火能力：打出一个节日装饰小球，被击中的敌人会受到失血伤害"
@@ -11799,7 +11834,7 @@
 "Attrib_MysterySolvingTimeDecrease"		"最多降低 %s1% 的谜案侦破时间"
 "Attrib_DamageDone_Bodyshot_Negative"	"击中身体时伤害 %s1%"
 "Attrib_SniperRageDisplayOnly"			"按下“装弹”键以启用专注\n专注状态：充能速度 +25%，且无法取消开镜"
-"Attrib_ExplosiveSniperShot"			"增大爆头造成的爆炸的范围，对周围的敌人也造成伤害"
+"Attrib_ExplosiveSniperShot"			"增加爆头产生爆炸的范围和对附近敌人造成的伤害"
 "Attrib_MeleeRate_Positive"				"近战武器挥舞速度 +%s1%"
 "Attrib_MeleeRate_Negative"				"近战武器挥舞速度 -%s1%"
 "Attrib_Penetration_Heavy"				"子弹能穿透的敌人数量 +%s1 个"
@@ -11807,7 +11842,7 @@
 "Attrib_CannotPickUpIntelligence"		"使用者无法携带情报箱或手球"
 "Attrib_ChanceOfHungerDecrease"			"最多降低 %s1% 的饥饿概率"
 "Attrib_CannotBeBackstabbed"			"对背刺免疫"
-"Attrib_ShareConsumable"				"使用你的增益水壶时，其加成效果将会同时作用于你的治疗对象"
+"Attrib_ShareConsumable"				"在使用自己的增益水壶时，你的治疗对象也会获得同样的加成效果"
 "Attrib_CritVsDisguised"				"对伪装玩家 100% 爆击"
 "Attrib_CritVsNonBurning"				"对未着火的敌人 100% 爆击"
 "Attrib_KillForcesAttackerLaugh"		"杀敌后：开怀大笑"
@@ -11855,7 +11890,6 @@
 "Attrib_AOEDamageChance_Large"			"在你对敌人造成伤害时，目标周围的敌人有较大概率被震击"
 "Attrib_CritStreakChance_Small"			"在你对敌人造成伤害时有小概率进入爆击状态"
 "Attrib_CritStreakChance_Large"			"在你对敌人造成伤害时有大概率进入爆击状态"
-"Attrib_UberOnHitChance"				"敌人对你造成伤害时你进入无敌状态的概率 +%s1%"
 "Attrib_DamageSameClass"				"对敌方相同兵种造成的伤害 +%s1%"
 "Attrib_TeleportInsteadOfDie"			"当受到的伤害对你致命时瞬间传送回基地的概率 +%s1%"
 "Attrib_MeleeCleaveAttack"				"劈砍攻击"
@@ -11873,10 +11907,10 @@
 "Attrib_Healing_Provided_Resistance"	"治疗时，为你和治疗对象提供选定类别的 10% 伤害抗性。"
 "Attrib_Canteen_Specialist"				"与你的治疗目标共享增益水壶\n每升级一次，持续时间 +1，价格 -10（最低花费：5）"
 "Attrib_Overheal_Expert"				"每升级一次，+25% 超量治疗量，+50% 超量治疗持续时间"
-"Attrib_Medic_MadMilkSyringes"			"注射枪射出的针管内含高浓度疯狂的牛奶。连续击中时牛奶作用时间可叠加，最多持续 4 秒。"
-"Attrib_Rocket_Specialist"				"第一次升级时，+15% 火箭飞行速度。并在直接击中目标时，无视距离造成的伤害衰减，附带击昏效果，+15% 爆炸范围。以后每次升级时，+15% 的火箭飞行速度和直接击中时的爆炸范围。"
+"Attrib_Medic_MadMilkSyringes"			"注射枪射出的针管内含高浓度的疯狂牛奶。多次命中可以叠加牛奶的作用时间，最多叠加到 4 秒。"
+"Attrib_Rocket_Specialist"				"每升级一次，火箭飞行速度和直接命中目标时的爆炸范围均 +15%。直接命中时，火箭伤害无视距离衰减，并附加击昏效果。"
 "Attrib_Healing_Mastery"				"每升级一次，+25% 的治疗速率，复活速率及自我回复速率"
-"Attrib_RageOnHeal"						"通过治疗队友积攒能量。当完全充能时，按下“特殊攻击”键以部署正面能量护盾。"
+"Attrib_RageOnHeal"						"通过治疗队友积攒能量。充能完毕后，按下“特殊攻击”键即可部署正面能量护盾。"
 "Attrib_HealingReceivedBonus"			"所有来源的治疗效果 +%s1%"
 "Attrib_HealingReceivedPenalty"			"所有来源的治疗效果 -%s1%"
 "Attrib_HealingFromMedics_Negative"		"医生提供的治疗量 %s1%"
@@ -11945,9 +11979,9 @@
 "Attrib_ImpactStun"						"落地时击晕敌人"
 "Attrib_ThermalThrusterAirLaunch"		"在空中时可以再次启动"
 "Attrib_ChargeMeterRateMult"			"充能速率 +%s1%"
-"Attrib_ChargeMeterRateMult_shortdesc"	"充能速率 %s1%"
-"Attrib_ExplodeOnIgnite"				"敌人在被点燃时爆炸"
-"Attrib_ExplodeOnIgnite_shortdesc"		"点燃时爆炸"
+"Attrib_ChargeMeterRateMult_shortdesc"	"冷却速率 %s1%"
+"Attrib_ExplodeOnIgnite"				"点燃被汽油泼中的敌人会产生爆炸"
+"Attrib_ExplodeOnIgnite_shortdesc"		"点燃汽油产生爆炸"
 "Attrib_SpeedBoostEnemy"				"击中敌人时获得移速加成"
 "Attrib_MeterResupplyDenied"			"油料不受重生和补给的影响"
 "Attrib_MeterStartsEmpty"				"初始油量为空"
@@ -11974,10 +12008,10 @@
 "Attrib_MetalRegen_shortdesc"					"金属恢复 +%s1"
 "Attrib_HealthRegen_shortdesc"					"生命值恢复 +%s1"
 "Attrib_DmgTaken_From_Fire_Reduced_shortdesc"		"火焰抗性 +%s1%"
-"Attrib_DmgTaken_From_Crit_Reduced_shortdesc"		"爆击伤害抗性 +%s1%"
-"Attrib_DmgTaken_From_Blast_Reduced_shortdesc"		"爆炸伤害抗性 +%s1%"
-"Attrib_DmgTaken_From_Bullets_Reduced_shortdesc"	"子弹伤害抗性 +%s1%"
-"Attrib_DamageForceReduction_shortdesc"			"%s1% 击退作用"
+"Attrib_DmgTaken_From_Crit_Reduced_shortdesc"		"爆击抗性 +%s1%"
+"Attrib_DmgTaken_From_Blast_Reduced_shortdesc"		"爆炸抗性 +%s1%"
+"Attrib_DmgTaken_From_Bullets_Reduced_shortdesc"	"子弹抗性 +%s1%"
+"Attrib_DamageForceReduction_shortdesc"			"受击推力 %s1%"
 
 // Bottles
 "Attrib_CritBoost_shortdesc"					"进入爆击状态"
@@ -11987,13 +12021,14 @@
 "Attrib_BuildingInstaUpgrade_shortdesc"			"升级建筑"
 
 // General Weapon
-"Attrib_ClipSize_Positive_shortdesc"			"+%s1% 弹匣容量"
-"Attrib_MaxammoPrimary_Increased_shortdesc"		"+%s1% 载弹量"
-"Attrib_MaxammoSecondary_Increased_shortdesc"	"+%s1% 载弹量"
-"Attrib_FastReload_shortdesc"					"+%s1% 装填速度"
-"Attrib_DamageDone_Positive_shortdesc"			"+%s1% 伤害"
+"Attrib_ClipSize_Positive_shortdesc"			"弹匣容量 +%s1%"
+"Attrib_MaxammoPrimary_Increased_shortdesc"		"载弹量 +%s1%"
+"Attrib_MaxammoSecondary_Increased_shortdesc"	"载弹量 +%s1%"
+"Attrib_FastReload_shortdesc"					"装填速度 +%s1%"
+"Attrib_DamageDone_Positive_shortdesc"			"伤害 +%s1%"
 "Attrib_FireRate_Positive_shortdesc"			"攻击速度 +%s1%"
-"Attrib_MeleeRate_Positive_shortdesc"			"+%s1% 挥舞速度"
+"Attrib_MeleeRate_Positive_shortdesc"			"挥舞速度 +%s1%"
+"Attrib_ProjectileSpeed_Increased_shortdesc"	"炮弹速度 +%s1%"
 "Attrib_Penetration_shortdesc"					"攻击穿透性"
 "Attrib_HealOnKill_shortdesc"					"击杀时生命值 +%s1"
 "Attrib_Dmg_Crit_Falloff"						"爆击伤害受射击距离影响"
@@ -12005,37 +12040,37 @@
 
 // Sniper
 "Attrib_AppliesSnareEffect_shortdesc"			"目标速度 %s1%"
-"Attrib_BleedingDuration_shortdesc"				"目标失血 +%s1s"
+"Attrib_BleedingDuration_shortdesc"				"目标流血 +%s1 秒"
 "Attrib_SRifleChargeRate_Increased_shortdesc"	"蓄能速度 +%s1%"
 "Attrib_ExplosiveSniperShot_shortdesc"			"爆头产生爆炸"
 
 // Spy
 "Attrib_RoboSapper_shortdesc"					"电子工兵威力"
-"Attrib_CritBoost_OnKill_shortdesc"				"杀敌后 +%s1s 秒爆击效果"
+"Attrib_CritBoost_OnKill_shortdesc"				"杀敌后 +%s1 秒爆击效果"
 "Attrib_ArmorPiercing_shortdesc"				"穿甲性"
 "Attrib_ConsumeCloakFeignDeath"					"假死激活时 %s1% 隐身能量"
 
 // Soldier
 "Attrib_BuffTime_Increased_shortdesc"			"增益持续时间 +%s1%"
-"Attrib_EffectBarRechargeRateIncreased_shortdesc"	"+%s1% 冷却速率"
+"Attrib_EffectBarRechargeRateIncreased_shortdesc"	"冷却速率 +%s1%"
 "Attrib_Rocket_Specialist_shortdesc"			"火箭专家"
 
 // Engineer
-"Attrib_BuildRateBonus_shortdesc"				"+%s1% 建造速度"
+"Attrib_BuildRateBonus_shortdesc"				"建造速度 +%s1%"
 "Attrib_BiDirectionalTP_shortdesc"				"双向传送装置"
 "Attrib_EngyDisposableSentries_shortdesc"		"一次性步哨数量 +%s1"
-"Attrib_SentryFireRate_Increased_shortdesc"		"步哨枪射击速度 +%s1%"
-"Attrib_DispenserRadius_Increased_shortdesc"	"+%s1% 补给器作用范围"
-"Attrib_MaxammoMetal_Increased_shortdesc"		"+%s1% 金属持有量上限"
-"Attrib_EngyBuildingHealthBonus_shortdesc"		"+%s1% 建筑物生命值"
+"Attrib_SentryFireRate_Increased_shortdesc"		"步哨射速 +%s1%"
+"Attrib_DispenserRadius_Increased_shortdesc"	"补给器作用范围 +%s1%"
+"Attrib_MaxammoMetal_Increased_shortdesc"		"金属持有量上限 +%s1%"
+"Attrib_EngyBuildingHealthBonus_shortdesc"		"建筑物生命值 +%s1%"
 
 // Medic
-"Attrib_HealRate_Positive_shortdesc"			"+%s1% 治疗速率"
+"Attrib_HealRate_Positive_shortdesc"			"治疗速率 +%s1%"
 "Attrib_OverhealAmount_Positive_shortdesc"		"超量治疗上限 +%s1%"
 "Attrib_UberchargeRate_Positive_shortdesc"		"Ubercharge 充能速率 +%s1%"
-"Attrib_OverhealDecay_Positive_shortdesc"		"+%s1% 超量治疗维持时间"
+"Attrib_OverhealDecay_Positive_shortdesc"		"超量治疗维持时间 +%s1%"
 "Attrib_UberDurationBonus_shortdesc"			"Ubercharge 持续时间 +%s1 秒"
-"Attrib_ShareConsumable_shortdesc"				"分享增益效果"
+"Attrib_ShareConsumable_shortdesc"				"共享增益效果"
 "Attrib_Canteen_Specialist_shortdesc"			"水壶专家"
 "Attrib_Overheal_Expert_shortdesc"				"超量治疗专家"
 "Attrib_Medic_MadMilkSyringes_shortdesc"		"疯狂牛奶注射器"
@@ -12046,14 +12081,14 @@
 // Pyro
 "Attrib_WpnBurnDmg_Increased_shortdesc"			"燃烧伤害 +%s1%"
 "Attrib_WpnBurnTime_Increased_shortdesc"		"燃烧时间 +%s1%"
-"Attrib_AirBlastPushScale_shortdesc"			"压缩空气推力 +%s1%"
+"Attrib_AirBlastPushScale_shortdesc"			"气爆推力 +%s1%"
 
 // Demo
 "Attrib_ChargeImpactDamageIncreased_shortdesc"	"冲锋伤害 +%s1%"
-"Attrib_ChargeRechargeRateIncreased_shortdesc"	"冷却速率 +%s1%"
+"Attrib_ChargeRechargeRateIncreased_shortdesc"	"冲锋冷却速率 +%s1%"
 
 // Scout
-"Attrib_MarkForDeath_shortdesc"					"球为敌人打上死亡标记"
+"Attrib_MarkForDeath_shortdesc"					"棒球标记目标"
 
 // Halloween Merasmus Hat
 "Attrib_Merasmus_Hat_Level"						"杀死了级别最高为 %s1 的马拉莫斯"
@@ -12306,31 +12341,62 @@
 
 // Smissmas 2022 Unusual
 "Attrib_Particle271"			"音乐漩涡"
+"Attrib_Particle272"			"青绿艺匠"
 "Attrib_Particle273"			"银白夜曲"
 "Attrib_Particle274"			"宇宙星座"
 "Attrib_Particle275"			"宇宙星座"
 "Attrib_Particle276"			"灿烂星团"
 "Attrib_Particle278"			"星光迷雾"
+
+// Summer 2023 Unusual
+"Attrib_Particle279"			"硬核运送"
+"Attrib_Particle280"			"硬核运送"
+"Attrib_Particle281"			"水母秘境"
+"Attrib_Particle282"			"水母秘境"
 "Attrib_Particle283"			"水母捕手"
 "Attrib_Particle284"			"水母果酱"
+"Attrib_Particle285"			"球状星团"
 "Attrib_Particle288"			"樱花烟雾弹"
 "Attrib_Particle289"			"无主宝藏"
+"Attrib_Particle290"			"泡影微岚"
 "Attrib_Particle291"			"萤火虫"
+"Attrib_Particle292"			"山峦光晕"
+
 // Halloween 2023 Unusual
 "Attrib_Particle293"			"星际之巅"
 "Attrib_Particle295"			"电子瘫痪"
 "Attrib_Particle296"			"电子瘫痪"
 "Attrib_Particle297"			"地狱号角"
 "Attrib_Particle298"			"地狱号角"
+"Attrib_Particle299"			"恶魔贯刺"
+"Attrib_Particle300"			"亡魂魔角"
+"Attrib_Particle301"			"第六感"
 "Attrib_Particle302"			"第六感"
 "Attrib_Particle304"			"骸骨地带"
+"Attrib_Particle305"			"诡丝迷网"
 "Attrib_Particle306"			"酸性气候"
+"Attrib_Particle307"			"超凡天象"
+"Attrib_Particle308"			"噩梦风暴"
+
 // Smissmas 2023 Unusual
 "Attrib_Particle309"			"冰霜飞箭"
 "Attrib_Particle310"			"冰霜飞箭"
 "Attrib_Particle311"			"黄金飞箭"
+"Attrib_Particle312"			"耀世之争"
+"Attrib_Particle313"			"耀世之争"
+"Attrib_Particle314"			"耀世遗产"
+"Attrib_Particle315"			"冰霜风味"
+"Attrib_Particle316"			"冰霜风味"
+"Attrib_Particle317"			"冰爽薄荷"
 "Attrib_Particle318"			"北极星"
 "Attrib_Particle319"			"北极星"
+"Attrib_Particle320"			"璀璨明星"
+"Attrib_Particle321"			"盛典流光"
+"Attrib_Particle322"			"明月之光"
+"Attrib_Particle323"			"明月之光"
+"Attrib_Particle324"			"童话之光"
+"Attrib_Particle325"			"自然之光"
+
 // Summer 2024 Unusual
 "Attrib_Particle327"			"虔诚冠冕"
 "Attrib_Particle328"			"虔诚冠冕"
@@ -12490,8 +12556,23 @@
 "Attrib_Particle3103"		"索绝狱沼"
 "Attrib_Particle3104"		"索绝灵沼"
 "Attrib_Particle3106"		"雷霆之怒"
+"Attrib_Particle3120"		"恶鱼扑腾"
+"Attrib_Particle3126"		"秋风落叶"
+"Attrib_Particle3128"		"药剂爆炸"
 // Smissmas 2023 Unusual Taunts
 "Attrib_Particle3131"		"巨木雪乡"
+"Attrib_Particle3132"		"银河连线"
+"Attrib_Particle3133"		"银河连线"
+"Attrib_Particle3134"		"暗黑暮色"
+"Attrib_Particle3137"		"远方之愿"
+"Attrib_Particle3138"		"光彩照人"
+"Attrib_Particle3139"		"永冻精华"
+"Attrib_Particle3140"		"永冻精华"
+"Attrib_Particle3141"		"北极乐事"
+"Attrib_Particle3142"		"必胜精神"
+"Attrib_Particle3143"		"花瓣飞舞"
+"Attrib_Particle3144"		"花瓣飞舞"
+
 // Summer 2024 Unusual Taunts
 "Attrib_Particle3145"		"蜻蜓怀抱"
 "Attrib_Particle3146"		"蜻蜓怀抱"
@@ -12708,6 +12789,7 @@
 "TF_Ali_Babas_Wee_Booties"		"阿里巴巴的尖头靴"
 "TF_SultansCeremonial"			"苏丹的羽毛头巾"
 "TF_SplendidScreen"			"辉煌护盾" // ADD THE
+"TF_SplendidScreen_desc"			"辅助能力：移除负面效果，向敌人发起冲锋。\n冲锋撞击敌人时，获得一次近战武器爆击。"
 "TF_MarketGardener"			"市场花园铁锹" // ADD THE
 "TF_ReserveShooter"			"预备役射手" // ADD THE
 "TF_LibertyLauncher"			"自由推进炮" // ADD THE
@@ -12870,7 +12952,7 @@
 // Rarity strings
 "Normal"						"普通"
 "Unique"						"独特"
-"vintage"						"特等"
+"vintage"						"古典"
 "community"						"社区"
 "developer"						"Valve"
 "selfmade"						"自制"
@@ -12880,7 +12962,7 @@
 "strange"						"奇异"
 "completed"						"已完成"
 "haunted"						"闹鬼"
-"collectors"					"收藏者"
+"collectors"					"收藏家"
 "paintkitweapon"				"装饰武器"
 
 "TF_QualityText_Any"			"任意品质"
@@ -13008,8 +13090,8 @@
 "TF_UseGlowEffect"		"启用光圈效果"
 "TF_EnableGlowsAfterRespawn"	"重生后启用队友高亮光圈"
 "TF_FreezeCamHide"		"截取定格照时隐藏 HUD"
-"TF_SpectatePyroVision" "旁观时启用火焰兵的视角"
-"TF_ReplayPyroVision" "回放时启用火焰兵的视角"
+"TF_SpectatePyroVision" "旁观时进入火焰兵幻境"
+"TF_ReplayPyroVision" "回放时进入火焰兵幻境"
 
 "TF_Pyrovision_Vignette"		"幻境边缘"
 "TF_Pyrovision_Distortion"		"幻境边缘失真"
@@ -13512,7 +13594,7 @@
 "Store_Team"				"团队"
 "Store_Paint"				"颜色"
 "Store_NoPaint"				"未被染色"
-"Store_NextStyle"			"式样"
+"Store_NextStyle"			"样式"
 
 "Store_StartShopping"			"开始购物"
 "Store_ViewMore"				"查看更多"
@@ -14856,7 +14938,7 @@
 "SystemMessage_WinterCrateWarning_30Minute"	"欢冬补给箱马上就要消失了！半小时后它们将成为历史！"
 
 "GameUI_CrosshairNone"						"默认"
-"GameUI_ParticleHatUseHead"					"调整效果位置"
+"GameUI_ParticleHatUseHead"					"调整特效位置"
 "GameUI_HudPlayerClassUsePlayerModel"		"在玩家兵种 HUD 中使用玩家模型"
 "GameUI_HudPlayerClassUsePlayerModelDialogTitle"	"在 HUD 中显示 3D 模型"
 "GameUI_HudPlayerClassUsePlayerModelDialogMessage"	"这个功能不建议较老的电脑启用，可在进阶选项中关闭。\n\n保持启用状态吗？"
@@ -14903,10 +14985,10 @@
 "Tooltip_viewmodelfov_option"	"在绘制当前武器的第一人称模型视图时使用的视场。数值越大，屏幕上显示的武器越小。"
 "Tooltip_sniperbell"	"若选中此选项，狙击步枪会在完全充能完成时自动播放提示音效。"
 "Tooltip_FreezeCamHide"	"若选中此选项，截取定格照时将隐藏 HUD。"
-"Tooltip_SpectatePyroVision" "若选中此选项，旁观时启用火焰兵的视角"
+"Tooltip_SpectatePyroVision" "若选中此选项，旁观时将启用火焰兵幻境"
 "Tooltip_SteamScreenshots"	"若选中此选项，截图会自动保存在 Steam 中。"
 "Tooltip_hud_fastswitch" "若选中此选项，你不通过武器选择菜单就可以切换武器。"
-"Tooltip_ReplayPyroVision" "若选中此选项，回放时启用火焰兵的视角"
+"Tooltip_ReplayPyroVision" "若选中此选项，回放时将启用火焰兵幻境"
 "Tooltip_CombatTextDoesntBlock"	"若选中此选项，伤害数值文字将与表示奖励效果的文字共存。（例如：表示爆击的“CRIT!”）"
 "ToolTip_HudPlayerClassUsePlayerModel"	"若选中此选项，HUD 中会显示玩家的实际模型。"
 "Tooltip_EnableVoiceChat"		"若选中此选项，允许游戏内的语音聊天"
@@ -14975,10 +15057,10 @@
 "TF_PVE_UpgradeRespec"		"取消升级并退款"
 "TF_PVE_MissonEnemies"		"其它"
 "TF_PVE_WaveEnemies"		"素材"
-"TF_PVE_Wave"				"回合"
-"TF_PVE_WaveCount"			"第 %s1 回合"
-"TF_PVE_WaveCountFail"		"第 %s1 回合失败"
-"TF_PVE_WaveComplete"		"回合胜利！"
+"TF_PVE_Wave"				"攻势"
+"TF_PVE_WaveCount"			"第 %s1 波攻势"
+"TF_PVE_WaveCountFail"		"第 %s1 波攻势失败"
+"TF_PVE_WaveComplete"		"作战胜利！"
 "TF_PVE_Currency"			"现金"
 "TF_PVE_GameTotal"			"本次游戏共计"
 "TF_PVE_TotalCurrencyCollected"	"收集的现金总数"
@@ -15192,7 +15274,7 @@
 
 "TF_MVM_Support"				"支援单位"
 "TF_MVM_NoClassChange"	"不允许更换兵种"
-"TF_MVM_NoClassChangeAfterSetup"	"仅在回合之间允许更换兵种。"
+"TF_MVM_NoClassChangeAfterSetup"	"只能在两波攻势之间更换兵种。"
 "TF_MVM_NoClassUpgradeUI"		"使用升级柜台时不能切换兵种。"
 
 "TF_MVM_Challenge_Invasion"		"防御"
@@ -15650,10 +15732,10 @@
 "Tip_MvM_9_3"		"小提示：伪装不会被敌方识破。但机器人会察觉到附近的背刺行为，并且会发现着火的间谍"
 
 "Tip_MvM_10_Count"	"12"
-"Tip_MvM_10_1"		"小提示：升级与所选择的兵种及武器绑定。第一回合以后一般的退款选项也将取消"
-"Tip_MvM_10_2"		"小提示：在任务中，你需要大量地进行升级，才能抵挡敌人后期的进攻"
+"Tip_MvM_10_1"		"小提示：升级项将绑定至对应兵种或武器。首波攻势后不可退款"
+"Tip_MvM_10_2"		"小提示：在任务中，你需要大量地进行升级，才能抵挡敌人后期的攻势"
 "Tip_MvM_10_3"		"小提示：掉落的现金，如果没有被捡起来的话，会很快消失"
-"Tip_MvM_10_4"		"小提示：在一回合中，收集齐所有掉落的现金，就会获得额外的现金奖励"
+"Tip_MvM_10_4"		"小提示：在单波攻势中，收集齐所有掉落的现金，就会获得额外的现金奖励"
 "Tip_MvM_10_5"		"小提示：新的兵种能力可以在“曼恩 VS. 机器”模式下使用。在兵种选择界面可以查看到简要的概述！"
 "Tip_MvM_10_6"		"小提示：全息图显示了炸弹运送机器人的行走路线"
 "Tip_MvM_10_7"		"小提示：如果需要，你可以改变你的武器或者兵种。但是记住，你此前的升级只会保留在之前的武器和兵种上！"
@@ -15667,17 +15749,17 @@
 "NewItemMethod_MvMSquadSurplusReward"			"你收到了战备补助："
 "Attrib_SquadSurplusClaimerAccountID"	"%s1 使用了军备补助券"
 
-"TF_ScoreBoard_GraphBuyBack"	"每回合付费重生数"
-"TF_ScoreBoard_GraphDeaths"		"每回合阵亡次数"
-"TF_ScoreBoard_GraphCurrency"		"每回合现金"
-"TF_ScoreBoard_Wave"			"回合"
+"TF_ScoreBoard_GraphBuyBack"	"每波攻势付费重生数"
+"TF_ScoreBoard_GraphDeaths"		"每波攻势阵亡次数"
+"TF_ScoreBoard_GraphCurrency"		"每波攻势现金数"
+"TF_ScoreBoard_Wave"			"攻势"
 "TF_ScoreBoard_Upgrade"			"升级"
 "TF_ScoreBoard_UpgradeTarget"	"应用于"
 "TF_ScoreBoard_UpgradeTargetSelf"	"自身"
 
 "TF_ScoreBoard_VoteKick"			"投票踢出"
 
-"Winpanel_PVE_Evil_Wins"	"闯关失败"
+"Winpanel_PVE_Evil_Wins"	"作战失败"
 "Winpanel_PVE_Bomb_Deployed"	"炸弹被放置！"
 
 // For replay
@@ -16054,6 +16136,7 @@
 "TF_SteamWorkshop_Tag_Night"	"午夜"
 "TF_SteamWorkshop_Tag_Smissmas"	"圣诞"
 "TF_SteamWorkshop_Tag_Jungle"	"丛林"
+"TF_SteamWorkshop_Tag_Summer"	"夏日"
 "TF_SteamWorkshop_Tag_CommunityFix"	"社区修复"
 "TF_SteamWorkshop_Tag_CTF"				"夺旗"
 "TF_SteamWorkshop_Tag_CP"				"控制点"
@@ -16441,7 +16524,7 @@
 "TF_Weapon_Ubersaw_Festive2012"			"节日过载充能锯"
 "TF_Weapon_FrontierJustice_Festive2012"	"节日边境裁决者"
 "TF_Weapon_Huntsman_Festive2012"		"节日猎人短弓"
-"TF_Weapon_Ambassador_Festive2012"		"节日大使左轮手枪"
+"TF_Weapon_Ambassador_Festive2012"		"节日大使手枪"
 "TF_Weapon_GrenadeLauncher_Festive2012"	"节日榴弹发射器"
 
 "TF_Weapon_ForceANature_Festive2013"		"节日自然之力"
@@ -17331,8 +17414,6 @@
 "TF_EOTL_demopants"					"无惧之爆破手冬裤"
 "TF_EOTL_ursa_major"				"西伯利亚无袖衣"
 "TF_EOTL_sheavyshirt"				"机枪猎手"
-"TF_EOTL_sheavyshirt_style1"			"有子弹"
-"TF_EOTL_sheavyshirt_style2"			"无子弹"
 "TF_EOTL_coldfront_curbstompers"		"冷锋践踏者"
 "TF_EOTL_winter_coat"				"寒潮外套"
 "TF_EOTL_medal"						"End of the Line 社区更新勋章"
@@ -17397,6 +17478,8 @@
 "TF_invasion_life_support_system"		"生命支持系统"
 "TF_invasion_rocket_operator"		"火箭操作员"
 "TF_invasion_universal_translator"		"星际翻译官"
+"TF_invasion_universal_translator_Style0"	"戴上耳机（仅限侦察兵）"
+"TF_invasion_universal_translator_Style1"	"摘下耳机（仅限侦察兵）"
 "TF_invasion_cadet_visor"		"学院护目镜"
 "TF_invasion_a_head_full_of_hot_air"		"热气头盔"
 "TF_invasion_jupiter_jetpack"		"木星飞行背包"
@@ -17658,6 +17741,7 @@
 "TF_taunt_killer_joke"						"嘲讽：致命玩笑"
 "TF_taunt_killer_joke_Desc"					"社区创作的全兵种嘲讽"
 "TF_taunt_killer_joke_AdText"				"-社区创作的全兵种嘲讽"
+"TF_taunt_head_doctor"						"嘲讽：头痛医头"
 "TF_taunt_head_doctor_Desc"					"社区创作的医生嘲讽"
 "TF_taunt_head_doctor_AdText"				"-社区创作的医生嘲讽"
 "TF_taunt_tuefort_tango"					"嘲讽：双城探戈"
@@ -17677,6 +17761,7 @@
 "TF_taunt_roar_owar_AdText"					"-社区创作的爆破手嘲讽"
 "TF_taunt_neck_snap_Desc"					"社区创作的士兵嘲讽\n\n这个嘲讽需要同伴。按下嘲讽键来进入或退出等待状态。"
 "TF_taunt_neck_snap_AdText"					"-社区创作的士兵嘲讽"
+"TF_taunt_borrowed_bones"					"嘲讽：骨架外借"
 "TF_taunt_borrowed_bones_Desc"				"社区创作的医生嘲讽"
 "TF_taunt_borrowed_bones_AdText"			"-社区创作的医生嘲讽"
 "TF_taunt_cheers"							"嘲讽：干杯！"
@@ -18019,6 +18104,10 @@
 "TF_dec18_juveniles_jumper_style1"	"摩登"
 "TF_dec18_juveniles_jumper_style2"	"纯色"
 "TF_dec18_millennial_mercenary"	"00后佣兵"
+"TF_dec18_millennial_mercenary_style0"	"爽玩双城！"
+"TF_dec18_millennial_mercenary_style1"	"双城直播"
+"TF_dec18_millennial_mercenary_style2"	"爽玩双城（眼镜染色）"
+"TF_dec18_millennial_mercenary_style3"	"畅玩双城"
 "TF_dec18_crack_pot"			"脑袋开花" // ADD THE
 "TF_dec18_climbing_commander"	"登山指挥官"
 "TF_dec18_pocket_pardner"		"口袋工程师"
@@ -18312,7 +18401,9 @@
 "TF_hwn2021_beanie_all_gnawing"		"顶上巨口"
 "TF_hwn2021_eyequarium"				"眼中水世界"
 "TF_hwn2021_eyequarium_style0"			"泉水"
+"TF_hwn2021_eyequarium_style0_nohat"	"泉水（无帽子）"
 "TF_hwn2021_eyequarium_style1"			"汽水"
+"TF_hwn2021_eyequarium_style1_nohat"	"汽水（无帽子）"
 "TF_hwn2021_second_headwear"		"二首头饰"
 "TF_hwn2021_second_headwear_style0"		"圆顶礼帽"
 "TF_hwn2021_second_headwear_style1"		"高顶礼帽"
@@ -18322,6 +18413,7 @@
 "TF_hwn2021_goalkeeper_style0"			"嗜血"
 "TF_hwn2021_goalkeeper_style0_nohat"	"嗜血（无帽子）"
 "TF_hwn2021_goalkeeper_style1"			"强击"
+"TF_hwn2021_goalkeeper_style1_nohat"	"强击（无帽子）"
 "TF_hwn2021_bone_cone"				"白骨巫师帽" // ADD THE
 "TF_hwn2021_bone_cone_style0"			"彻骨之寒"
 "TF_hwn2021_bone_cone_style1"			"切肤之痛"
@@ -18346,9 +18438,33 @@
 "TF_dec21_el_fiestibrero"			"嘉年华狂欢帽"
 "TF_dec21_jolly_jester"				"狂欢弄臣"
 "TF_dec21_seasonal_spring"			"节日蹦蹦星"
+"TF_dec21_oh_deer"					"小鹿乱撞！"
 "TF_dec21_oh_deer_style0"				"有鼻子"
 "TF_dec21_oh_deer_style1"				"无鼻子"
+"TF_dec21_giftcrafter"				"礼物包装工" // ADD THE
+"TF_dec21_merry_cone"				"圣诞尖顶帽"
 "TF_dec21_brain_cane"				"穿颅糖棍"
+"TF_dec21_reindoonihorns"			"独角鹿耳罩"
+"TF_dec21_cozy_catchers"			"雪球捕手"
+"TF_dec21_ominous_offering"			"诡异小玩意"
+"TF_dec21_festive_frames"			"彩灯眼镜框"
+"TF_dec21_festive_frames_style0"		"彩灯（无帽子）"
+"TF_dec21_festive_frames_style1"		"节日化（无帽子）"
+"TF_dec21_festive_frames_style2"		"彩灯（有帽子）"
+"TF_dec21_festive_frames_style3"		"节日化（有帽子）"
+"TF_dec21_elf_ignition"				"自燃精灵"
+"TF_dec21_elf_ignition_style0"			"还没塞好"
+"TF_dec21_elf_ignition_style1"			"塞进衣服"
+"TF_dec21_train_of_thought"			"思路直通车"
+"TF_dec21_train_of_thought_style0"		"北极"
+"TF_dec21_train_of_thought_style1"		"南方"
+"TF_dec21_mooshanka"				"驼鹿毛皮帽"
+"TF_dec21_elf_defence"				"精灵阻击兵"
+"TF_dec21_festive_cover_up"			"节日仿生树"
+"TF_dec21_seasonal_employee"		"特招季雇员"
+"TF_dec21_hat_chocolate"			"头顶热巧"
+"TF_dec21_elf_made_bandanna"		"纯手工精灵面罩"
+
 "TF_sum22_decorated_veteran"	"精装老兵" // ADD THE
 "TF_sum22_decorated_veteran_style0"		"精英"
 "TF_sum22_decorated_veteran_style1"		"突击"
@@ -18367,6 +18483,8 @@
 "TF_sum22_combat_casual"		"作战休闲装"
 "TF_sum22_combat_casual_style0"			"格纹"
 "TF_sum22_combat_casual_style1"			"皮革"
+"TF_sum22_combat_casual_style2"			"格纹 - 无子弹"
+"TF_sum22_combat_casual_style3"			"皮革 - 无子弹"
 "TF_sum22_rocko"				"鳄鱼洛可"
 "TF_sum22_tropical_camo"		"热带迷彩衫"
 "TF_sum22_tropical_camo_style0"			"醒目迷彩衫"
@@ -18626,6 +18744,8 @@
 "TF_hwn2023_fiercesome_fluorescence_style0"		"骇人"
 "TF_hwn2023_fiercesome_fluorescence_style1"		"和善"
 
+"TF_dec23_boarders_beanie_style1"			"自用"
+"TF_dec23_boarders_beanie_style3"			"经典"
 "TF_dec23_cozy_coverup"					"温馨围裹"
 "TF_dec23_cozy_coverup_style1"				"全套装备"
 "TF_dec23_cozy_coverup_style2"				"耳罩达人"
@@ -18635,12 +18755,30 @@
 "TF_dec23_cozy_coverup_style3_nohat"		"围脖潮人（无帽子）"
 "TF_dec23_dapper_dickens_style1"			"有眼镜"
 "TF_dec23_dapper_dickens_style2"			"无眼镜"
+"TF_dec23_wanderers_wool_style1"			"圣诞快乐…？"
+"TF_dec23_wanderers_wool_style3"			"穷乡僻壤"
+"TF_dec23_wanderers_wool_style4"			"穷乡僻壤 - 无血迹"
+"TF_dec23_wanderers_wool_style5"			"流落街头"
+"TF_dec23_wanderers_wool_style6"			"流落街头 - 无血迹"
+"TF_dec23_nightcap_style1"					"酣睡"
+"TF_dec23_nightcap_style2"					"打盹"
 "TF_dec23_clue_hairdo"					"破案式发型"
 "TF_dec23_clue_hairdo_style1"				"案件开放"
 "TF_dec23_clue_hairdo_style2"				"案件破获"
 "TF_dec23_clue_hairdo_style3"				"案件撤销"
+"TF_dec23_sleuth_suit_style1"				"白班"
+"TF_dec23_sleuth_suit_style2"				"下班"
+"TF_dec23_sleuth_suit_style3"				"加班"
+"TF_dec23_sleuth_suit_style4"				"夜班"
+"TF_dec23_strasbourg_scholar"			"斯特拉斯堡学者"
+"TF_dec23_strasbourg_scholar_style1"		"有花纹"
+"TF_dec23_strasbourg_scholar_style2"		"无花纹"
+"TF_dec23_scruffed_stitched_style1"			"胡须染色"
 "TF_dec23_scruffed_stitched_style2"			"帽子染色"
 "TF_dec23_impact_impaler"				"冲击刺盔"
+"TF_dec23_balkans_brute"				"巴尔干蛮族"
+"TF_dec23_bigger_mann"					"校园巨咖"
+"TF_dec23_isotopic_insulator"			"同位素绝缘衣"
 "TF_sum24_botler_2000"					"机器服务员 2000"
 "TF_sum24_botler_2000_style1"				"口干舌燥"
 "TF_sum24_botler_2000_style2"				"口齿生津"
@@ -18665,8 +18803,6 @@
 "TF_sum24_justice_johns"				"正义琼斯"
 "TF_sum24_crooks_cap"					"恶徒之帽"
 "TF_sum24_brutes_braces"				"莽夫的吊裤带"
-"TF_sum24_brutes_braces_style1"				"有子弹"
-"TF_sum24_brutes_braces_style2"				"无子弹"
 "TF_sum24_free_fashion"					"弗里曼博士"
 "TF_sum24_free_fashion_style1"				"有眼镜和胡须"
 "TF_sum24_free_fashion_style2"				"无眼镜"
@@ -18845,6 +18981,9 @@
 "TF_sum25_shadow_doubt_style1"				"吸烟"
 "TF_sum25_shadow_doubt_style2"				"不吸烟"
 "TF_sum25_clinical"						"临床调查员"
+
+"TF_style_bullets"						"有子弹"
+"TF_style_nobullets"					"无子弹"
 
 "TF_KathmanHairdo"             "加德满都发型" // ADD THE
 "TF_KathmanHairdo_Desc"        "这个从史前时代流传下来的蓬巴杜发型，是由埃德蒙.希拉里爵士在珠峰附近首次发现的。他在当时还有另一个发现，那就是他自己拉了一裤子。"
@@ -19257,11 +19396,25 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 马拉莫斯出现时，控制点将恢复中立。"
 
+"plr_hightower_event_description"	"目标：
+帮助布鲁塔克或雷德蒙德·曼恩的鬼魂一举赢得碎石战争！抢在对手之前将战车上老家伙的遗体推入地狱。收集并施放致命的魔咒。站在战车附近使其移动。
+
+其他说明：
+敌人可以通过接近战车阻止其移动。"
+
 "default_rd_description"		"目标：
 想要获取回合的胜利，摧毁敌方机器人并收集反应核心以获取胜利。通过侵入敌方地下室以夺回被窃取的反应核心。"
 
 "rd_asteroid_description"		"目标：
 想要获取回合的胜利，摧毁敌方机器人并收集反应核心以获取胜利。通过侵入敌方地下室以夺回被窃取的反应核心。"
+
+"sd_doomsday_event_description"		"目标：
+
+将彩券带到大力曼恩机器上面！准备好测试你的力量！
+
+其他说明：
+彩券将于玩家阵亡时掉落。
+掉落的彩券将于 15 秒后传送回原生地点。"
 
 "ctf_foundry_description"			"目标：
 窃取敌方的情报公文包，并把它带回你的基地，以获取得分。
@@ -19304,6 +19457,12 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 蓝队：帮助鬼魂进入地狱！
 红队：阻止鬼魂进入地狱！"
 
+"pl_fifthcurve_event_description"			"万圣节快乐！
+
+目标：
+蓝队：把雷德蒙德·曼恩的遗体投入地狱火坑！
+红队：阻止蓝队，抢回老板的遗体！"
+
 "pd_pit_of_death_event_description"			"目标：
 收集受诅咒的灵魂，将灵魂送到地下世界，以赢得分数。
 
@@ -19335,6 +19494,20 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 其他说明：
 玩家和稻草人在死亡时会掉落除草剂。存放大瓶除草剂可获得 2 分，存放小型除草剂可获得 1 分。如果玩家和敌人同时处于占领区，则无法存放除草剂。"
 
+"arena_lumberyard_event_description"		"目标：
+歼灭敌方团队或占领控制点以赢得分数。
+
+其他说明：
+玩家在阵亡后会变成幽灵，能够飞到队友身边治疗他们。
+
+每支队伍最后存活的一名玩家将得到增强。
+
+游戏开始时控制点处于锁定状态，它将在一段时间后解锁。
+
+当一方得分后，所有玩家都将重生。
+
+首先赢得 4 分的队伍将获取胜利。"
+
 "pd_snowville_event_description"			"目标：
 击杀敌人以收集他们的礼物。在来访的雪橇车停下时，将你的礼物放在雪橇车上！送出比你的对手更多的礼物！
 
@@ -19361,6 +19534,20 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 从异世界中穿行能够获得稀有魔咒以及增益效果。"
 
+"ctf_crasher_description"			"目标：
+护送我方巨人前往敌方大门以赢得分数。
+
+其他说明：
+拾起我方队伍的炸弹以化身巨人，并将其一路带到敌方的大门。每支队伍同时只能有一个巨人。"
+
+"pl_frostcliff_description"			"目标：
+护送战车到达敌方基地。靠近战车以使其移动。
+
+其他说明：
+敌人可以通过接近战车阻止其移动。
+
+圣诞快乐！"
+
 "cp_gravelpit_snowy_description"						"目标：
 红队希望通过全球冷却制造永恒的冬天！蓝队必须占领所有控制点，使冷冻射线失效，从而阻止他们。
 
@@ -19369,12 +19556,25 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 圣诞快乐！"
 
+"pd_selbyen_description"						"目标：
+杀死敌人，收集掉落的鱼桶，并在海豹入海的途中将鱼喂给它！
+
+其他说明：
+每支队伍中拥有最多鱼桶的玩家将治疗附近的队友。"
+
 "pl_cashworks_description"						"目标：
 护送战车通过所有检查点到达保险库。
 靠近战车以使其移动。
 
 其他说明：
 敌人可以通过接近战车阻止其移动。"
+
+"default_vsh_description"						"目标：
+作为雇佣兵，击败萨克斯顿·霍尔。
+作为萨克斯顿·霍尔，除掉那些麻烦的雇佣兵。
+
+其他说明：
+雇佣兵可以使用近战武器击中墙壁从而进行爬墙。"
 
 "pd_mannsylvania_description"					"目标：
 击杀敌人，收集他们掉落的血袋，并将其送去给德古拉以得分！
@@ -19451,6 +19651,7 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"爆击药水"
+"TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Übercharge 药水"
 "TF_hwn2024_Freaky_Fair_Giant_Potion"    			"巨人药水"
 "TF_hwn2024_Freaky_Fair_Buster_Potion"    	    	"南瓜毁灭者药水"
 "TF_hwn2024_Freaky_Fair_Healing_Potion"    			"治疗药水"
@@ -19567,16 +19768,31 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 "TF_Chat_Unavailable"				"文字聊天在此帐户上不可用。"
 "TF_Voice_Unavailable"				"语音聊天在此帐户上不可用。"
 
+"vsh_end_this"						"在时间耗尽前终结这一切！"
+
+"tf_zi_ui_survivor_die"					" 被感染了，感染源是 "
 "tf_zi_ui_infect_msg"					"FF3F3F%sFBECCB 被 38F3AB%sFBECCB 感染了！"
 "tf_zi_ui_infect_solo_msg"				"FF3F3F%sFBECCB 被感染了！"
 "tf_zi_ui_last_survivor_minicrit"		"仅剩 FBECCB%d 名生还者！他们获得了FFD700%sFBECCB！"
 "tf_zi_ui_last_survivor_crit"			"FF3F3F%sFBECCB 是最后的生还者！他获得了16FD1D%sFBECCB！"
+"tf_zi_ui_crits"						"爆击"
+"tf_zi_ui_minicrits"					"迷你爆击"
+"tf_zi_ui_first_wave_msg_plural"		" 已被感染！"
+"tf_zi_ui_passive"						"被动能力"
+"tf_zi_ui_ready"						"已就绪！"
+"tf_zi_ui_ready_in"						"预备倒计时 "
+"tf_zi_ui_first_wave_msg"				" 已被感染！"
+"tf_zi_ui_and"							"和"
+"tf_zi_scout_passive_name"				"快步小鬼"
 "tf_zi_medic_passive_name"				"治愈光环"
 "tf_zi_engie_emp_name"					"EMP 炸弹"
 "tf_zi_demo_charge_name"				"自爆冲锋"
 "tf_zi_medic_heal_name"					"治愈"
 "tf_zi_intro_welcome"					"欢迎来到僵尸感染模式！"
 "tf_zi_intro_part1"						"作为人类，存活至时间耗尽即可获胜！"
+"tf_zi_intro_part2"						"你只有一条命，所以不要让僵尸靠你太近……"
+"tf_zi_intro_part3"						"如此一来，你自己也会被感染……"
+"tf_zi_intro_part5"						"作为僵尸，感染所有人类以获得胜利！"
 "tf_zi_team_red"						"生还者方"
 "tf_zi_team_blue"						"僵尸方"
 "tf_zi_pyro_blast_name"					"龙息" 

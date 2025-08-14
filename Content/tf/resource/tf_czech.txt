@@ -17788,8 +17788,6 @@ Pohybuj se pomocí směrového kříže, spouště = zrychlení, tlačítkem A l
 "TF_EOTL_demopants"					"Double Dog Dare Demo Pants"
 "TF_EOTL_ursa_major"				"Sleeveless in Siberia"
 "TF_EOTL_sheavyshirt"				"Hunter Heavy"
-"TF_EOTL_sheavyshirt_style1"			"S nábojnicemi"
-"TF_EOTL_sheavyshirt_style2"			"Bez nábojnic"
 "TF_EOTL_coldfront_curbstompers"		"Coldfront Curbstompers"
 "TF_EOTL_winter_coat"				"Cold Snap Coat"
 "TF_EOTL_medal"						"End of the Line Community Update Medal"
@@ -18961,6 +18959,8 @@ Pohybuj se pomocí směrového kříže, spouště = zrychlení, tlačítkem A l
 "TF_sum22_combat_casual"		"Combat Casual"
 "TF_sum22_combat_casual_style0"			"Pléd"
 "TF_sum22_combat_casual_style1"			"Kůže"
+"TF_sum22_combat_casual_style2"			"Pléd (bez nábojnic)"
+"TF_sum22_combat_casual_style3"			"Kůže (bez nábojnic)"
 "TF_sum22_rocko"				"Rocko"
 "TF_sum22_tropical_camo"		"Tropical Camo"
 "TF_sum22_tropical_camo_style0"			"Odvážný"
@@ -19305,8 +19305,6 @@ Pohybuj se pomocí směrového kříže, spouště = zrychlení, tlačítkem A l
 "TF_sum24_justice_johns"				"Justice Johns"
 "TF_sum24_crooks_cap"					"Crook's Cap"
 "TF_sum24_brutes_braces"				"Brute's Braces"
-"TF_sum24_brutes_braces_style1"				"S nábojnicemi"
-"TF_sum24_brutes_braces_style2"				"Bez nábojnic"
 "TF_sum24_free_fashion"					"Free Mann's Fashion"
 "TF_sum24_free_fashion_style1"				"Brýle a bradka"
 "TF_sum24_free_fashion_style2"				"Bez brýlí"
@@ -19485,6 +19483,9 @@ Pohybuj se pomocí směrového kříže, spouště = zrychlení, tlačítkem A l
 "TF_sum25_shadow_doubt_style1"				"S cigaretou"
 "TF_sum25_shadow_doubt_style2"				"Bez cigarety"
 "TF_sum25_clinical"						"Clinical Investigator"
+
+"TF_style_bullets"						"S nábojnicemi"
+"TF_style_nobullets"					"Bez nábojnic"
 
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "Mocná prehistorická hříva, kterou jako první na svazích Everestu spatřil sir Edmund Hillary. Následně pak také spatřil, jak si nadělal do gatí, ale o tom už se historie moc nezmiňuje."

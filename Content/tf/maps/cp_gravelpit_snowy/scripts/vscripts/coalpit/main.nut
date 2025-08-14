@@ -14,10 +14,10 @@ function checkCoalPitHolidays()
 	LocalTime(timetable)
 
 	// Rick May ///////////////////////////////////////////////////
-	if(timetable.day == 8 && timetable.month == 4)
+	if(IsHolidayActive(12))
 	{
 		DoEntFire("relay_rickmay", "Trigger", "0", 0, null, null);
-		printl("Enabled Rick May tribute");
+		printl("Enabled Rick May event");
 	}
 	///////////////////////////////////////////////////////////////
 
@@ -25,7 +25,7 @@ function checkCoalPitHolidays()
 	if(timetable.day == 6 && timetable.month == 10)
 	{
 		DoEntFire("invasion*", "Enable", "0", 0, null, null);
-		printl("Enabled Invasion anniversary references");
+		printl("Enabled Invasion anniversary event");
 	}
 	///////////////////////////////////////////////////////////////
 
@@ -33,7 +33,7 @@ function checkCoalPitHolidays()
 	if(IsHolidayActive(2) || IsHolidayActive(9))
 	{
 		DoEntFire("relay_halloween", "Trigger", "0", 0, null, null);
-		printl("Enabled Halloween/Full Moon props");
+		printl("Enabled Halloween/Full Moon event");
 	}
 	///////////////////////////////////////////////////////////////
 
@@ -41,7 +41,15 @@ function checkCoalPitHolidays()
 	if(timetable.day == 8 && timetable.month == 12)
 	{
 		DoEntFire("relay_eotl", "Trigger", "0", 0, null, null);
-		printl("Enabled End of the Line anniversary reference");
+		printl("Enabled End of the Line anniversary event");
+	}
+	///////////////////////////////////////////////////////////////
+	
+	// Summer /////////////////////////////////////////////////////
+	if(IsHolidayActive(13))
+	{
+		DoEntFire("relay_summer", "Trigger", "0", 0, null, null);
+		printl("Enabled Summer event");
 	}
 	///////////////////////////////////////////////////////////////
 }

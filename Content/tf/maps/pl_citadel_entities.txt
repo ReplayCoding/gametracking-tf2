@@ -8,7 +8,7 @@ Revision: 228
 "detailvbsp" "detail_granary.vbsp"
 "detailmaterial" "detail/detailsprites_granary"
 "classname" "worldspawn"
-"mapversion" "12721"
+"mapversion" "12807"
 "hammerid" "1"
 }
 {
@@ -662,7 +662,7 @@ Revision: 228
 "hammerid" "1509692"
 }
 {
-"origin" "270.096 -272.904 2228.35"
+"origin" "271.096 -271.904 2228.35"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-39.089"
@@ -683,7 +683,7 @@ Revision: 228
 "hammerid" "1510179"
 }
 {
-"origin" "268.589 -270.424 2228.51"
+"origin" "269.589 -269.424 2228.51"
 "spotlightwidth" "80"
 "spotlightlength" "768"
 "spawnflags" "3"
@@ -1520,7 +1520,7 @@ Revision: 228
 "hammerid" "2246498"
 }
 {
-"origin" "-273.973 276.121 2228.35"
+"origin" "-270.973 271.121 2228.35"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-39.089"
@@ -1541,7 +1541,7 @@ Revision: 228
 "hammerid" "2247299"
 }
 {
-"origin" "-272.466 273.641 2228.51"
+"origin" "-269.466 268.641 2228.51"
 "spotlightwidth" "80"
 "spotlightlength" "768"
 "spawnflags" "3"
@@ -1655,6 +1655,7 @@ Revision: 228
 "OnBreakCap" "light1LightOff0-1"
 "OnStartCap" "tank_bodySetAnimationidle_lights_on0-1"
 "OnBreakCap" "tank_bodySetAnimationidle_lights_off0-1"
+"OnStartCap" "recede_checkSetValue00-1"
 }
 {
 "model" "*26"
@@ -1922,7 +1923,7 @@ Revision: 228
 "OutValue" "train_caseInValue0-1"
 }
 {
-"origin" "4416 -3840 992"
+"origin" "4544 -4096 992"
 "timer_length" "300"
 "targetname" "sspl_timer"
 "start_paused" "0"
@@ -1939,7 +1940,7 @@ Revision: 228
 "OnSetupStart" "lightning_relayTrigger11"
 }
 {
-"origin" "4416 -3840 976"
+"origin" "4544 -4096 976"
 "TeamNum" "2"
 "targetname" "sspl_time_end"
 "switch_teams" "1"
@@ -1948,7 +1949,7 @@ Revision: 228
 "hammerid" "2313415"
 }
 {
-"origin" "4416 -3840 1008"
+"origin" "4544 -4096 1008"
 "train_recede_time" "15"
 "train_can_recede" "1"
 "train" "sspl_train"
@@ -1974,9 +1975,10 @@ Revision: 228
 "classname" "team_train_watcher"
 "hammerid" "2313417"
 "OnTrainStartRecede" "tank_tracksSetPlaybackRate-0.20-1"
+"OnTrainStartRecede" "recede_checkSetValue10-1"
 }
 {
-"origin" "4416 -3840 1024"
+"origin" "4544 -4096 1024"
 "team_base_icon_3" "sprites/obj_icons/icon_base_blu"
 "team_base_icon_2" "sprites/obj_icons/icon_base_red"
 "switch_teams" "1"
@@ -1989,7 +1991,7 @@ Revision: 228
 "hammerid" "2313419"
 }
 {
-"origin" "4400 -3840 1024"
+"origin" "4528 -4096 1024"
 "targetname" "sspl_capturebell"
 "spawnflags" "49"
 "radius" "1250"
@@ -2001,7 +2003,7 @@ Revision: 228
 "hammerid" "2313421"
 }
 {
-"origin" "4416 -3840 1040"
+"origin" "4544 -4096 1040"
 "targetname" "sspl_gamerules"
 "hud_type" "0"
 "ctf_overtime" "1"
@@ -2009,7 +2011,7 @@ Revision: 228
 "hammerid" "2313424"
 }
 {
-"origin" "4448 -3840 1024"
+"origin" "4576 -4096 1024"
 "targetname" "round_a"
 "StartDisabled" "0"
 "cpr_restrict_team_cap_win" "2"
@@ -2020,15 +2022,15 @@ Revision: 228
 "hammerid" "2313426"
 }
 {
-"origin" "4464 -3840 1040"
+"origin" "4592 -4096 1040"
 "targetname" "sspl_filter_cart"
 "Negated" "0"
-"filtername" "tank_body"
+"filtername" "sspl_train"
 "classname" "filter_activator_name"
 "hammerid" "2313428"
 }
 {
-"origin" "4480 -3840 1040"
+"origin" "4608 -4096 1040"
 "targetname" "sspl_filter_players"
 "Negated" "1"
 "filterclass" "player"
@@ -2036,14 +2038,14 @@ Revision: 228
 "hammerid" "2313432"
 }
 {
-"origin" "4432 -3839.91 1056"
+"origin" "4560 -4095.91 1056"
 "TeamNum" "2"
 "targetname" "filter_red"
 "classname" "filter_activator_tfteam"
 "hammerid" "2313434"
 }
 {
-"origin" "4400 -3839.91 1056"
+"origin" "4528 -4095.91 1056"
 "TeamNum" "3"
 "targetname" "filter_blu"
 "classname" "filter_activator_tfteam"
@@ -2358,17 +2360,17 @@ Revision: 228
 "hammerid" "2321266"
 }
 {
-"origin" "1008 1272 1584"
+"origin" "984 1304 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
 "spawnflags" "511"
-"angles" "0 180 0"
+"angles" "0 165 0"
 "classname" "info_player_teamspawn"
 "hammerid" "2321419"
 }
 {
-"origin" "1008 1320 1584"
+"origin" "984 1352 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2378,7 +2380,7 @@ Revision: 228
 "hammerid" "2321421"
 }
 {
-"origin" "1008 1368 1584"
+"origin" "984 1400 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2388,7 +2390,7 @@ Revision: 228
 "hammerid" "2321423"
 }
 {
-"origin" "1008 1416 1584"
+"origin" "984 1448 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2398,7 +2400,7 @@ Revision: 228
 "hammerid" "2321425"
 }
 {
-"origin" "976 1416 1584"
+"origin" "952 1448 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2408,7 +2410,7 @@ Revision: 228
 "hammerid" "2321427"
 }
 {
-"origin" "976 1368 1584"
+"origin" "952 1400 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2418,7 +2420,7 @@ Revision: 228
 "hammerid" "2321429"
 }
 {
-"origin" "976 1320 1584"
+"origin" "952 1352 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2428,27 +2430,27 @@ Revision: 228
 "hammerid" "2321431"
 }
 {
-"origin" "976 1272 1584"
+"origin" "952 1304 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
 "spawnflags" "511"
-"angles" "0 180 0"
+"angles" "0 165 0"
 "classname" "info_player_teamspawn"
 "hammerid" "2321433"
 }
 {
-"origin" "944 1272 1584"
+"origin" "919.998 1304 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
 "spawnflags" "511"
-"angles" "0 180 0"
+"angles" "0 165 0"
 "classname" "info_player_teamspawn"
 "hammerid" "2321435"
 }
 {
-"origin" "944 1320 1584"
+"origin" "920 1352 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2458,7 +2460,7 @@ Revision: 228
 "hammerid" "2321437"
 }
 {
-"origin" "944 1368 1584"
+"origin" "920 1400 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2468,7 +2470,7 @@ Revision: 228
 "hammerid" "2321439"
 }
 {
-"origin" "944 1416 1584"
+"origin" "920 1448 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2478,7 +2480,7 @@ Revision: 228
 "hammerid" "2321441"
 }
 {
-"origin" "912 1415.99 1584"
+"origin" "888 1447.99 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2488,7 +2490,7 @@ Revision: 228
 "hammerid" "2321443"
 }
 {
-"origin" "912 1368 1584"
+"origin" "888 1400 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2498,7 +2500,7 @@ Revision: 228
 "hammerid" "2321445"
 }
 {
-"origin" "912 1320 1584"
+"origin" "888 1352 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
@@ -2508,12 +2510,12 @@ Revision: 228
 "hammerid" "2321447"
 }
 {
-"origin" "912 1272 1584"
+"origin" "887.998 1304 1584"
 "TeamNum" "3"
 "targetname" "blu_spawn_3a"
 "StartDisabled" "1"
 "spawnflags" "511"
-"angles" "0 180 0"
+"angles" "0 150 0"
 "classname" "info_player_teamspawn"
 "hammerid" "2321449"
 }
@@ -3327,7 +3329,7 @@ Revision: 228
 "hammerid" "2323550"
 }
 {
-"origin" "3706.12 -5777.31 247.519"
+"origin" "3706.12 -5777.31 263.519"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-53.8797"
@@ -3346,7 +3348,7 @@ Revision: 228
 "hammerid" "2345175"
 }
 {
-"origin" "3703.41 -5778.19 246.944"
+"origin" "3703.41 -5778.19 262.944"
 "spotlightwidth" "80"
 "spotlightlength" "768"
 "spawnflags" "3"
@@ -3359,7 +3361,7 @@ Revision: 228
 "hammerid" "2345181"
 }
 {
-"origin" "3936.83 -5902.17 266.528"
+"origin" "3936.83 -5900.17 264.528"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-40.4472"
@@ -3378,7 +3380,7 @@ Revision: 228
 "hammerid" "2345249"
 }
 {
-"origin" "3938.49 -5899.83 266.07"
+"origin" "3938.49 -5897.83 264.07"
 "spotlightwidth" "80"
 "spotlightlength" "768"
 "spawnflags" "3"
@@ -3471,7 +3473,6 @@ Revision: 228
 "hammerid" "2313047"
 "OnPass" "cp_twoSetOwner30.11"
 "OnPass" "cap_2_relayTrigger0-1"
-"OnPass" "cap_2_recede_relayTrigger0-1"
 }
 {
 "origin" "3136 384 768"
@@ -3526,7 +3527,6 @@ Revision: 228
 "hammerid" "2313185"
 "OnPass" "cp_fourSetOwner30.11"
 "OnPass" "cap_4_relayTrigger0-1"
-"OnPass" "cap_4_recede_relayTrigger0-1"
 }
 {
 "origin" "-1664 880 1536"
@@ -8558,7 +8558,7 @@ Revision: 228
 "hammerid" "689405"
 }
 {
-"origin" "3773.25 -476.912 848.005"
+"origin" "3821.25 -428.912 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8568,7 +8568,7 @@ Revision: 228
 "hammerid" "689577"
 }
 {
-"origin" "3810.51 -439.652 848.005"
+"origin" "3850.51 -399.652 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8578,7 +8578,7 @@ Revision: 228
 "hammerid" "689579"
 }
 {
-"origin" "3847.76 -402.402 848.005"
+"origin" "3879.76 -370.402 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8588,7 +8588,7 @@ Revision: 228
 "hammerid" "689581"
 }
 {
-"origin" "3873.71 -428.342 848.005"
+"origin" "3905.71 -396.342 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8598,7 +8598,7 @@ Revision: 228
 "hammerid" "689583"
 }
 {
-"origin" "3799.2 -502.852 848.005"
+"origin" "3847.2 -454.852 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8608,7 +8608,7 @@ Revision: 228
 "hammerid" "689585"
 }
 {
-"origin" "3761.94 -540.112 848.005"
+"origin" "3817.94 -484.112 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8618,7 +8618,7 @@ Revision: 228
 "hammerid" "689587"
 }
 {
-"origin" "3736 -514.162 848.005"
+"origin" "3792 -458.162 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8628,7 +8628,7 @@ Revision: 228
 "hammerid" "689589"
 }
 {
-"origin" "3787.88 -566.052 848.005"
+"origin" "3843.88 -510.052 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8638,7 +8638,7 @@ Revision: 228
 "hammerid" "689591"
 }
 {
-"origin" "3825.14 -528.792 848.005"
+"origin" "3873.14 -480.792 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8648,7 +8648,7 @@ Revision: 228
 "hammerid" "689593"
 }
 {
-"origin" "3836.45 -465.602 848.005"
+"origin" "3876.45 -425.602 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8658,7 +8658,7 @@ Revision: 228
 "hammerid" "689595"
 }
 {
-"origin" "3862.39 -491.542 848.005"
+"origin" "3902.39 -451.542 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8668,7 +8668,7 @@ Revision: 228
 "hammerid" "689597"
 }
 {
-"origin" "3899.65 -454.282 848.005"
+"origin" "3931.65 -422.282 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8678,7 +8678,7 @@ Revision: 228
 "hammerid" "689599"
 }
 {
-"origin" "3925.59 -480.222 848.005"
+"origin" "3957.59 -448.222 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8688,7 +8688,7 @@ Revision: 228
 "hammerid" "689601"
 }
 {
-"origin" "3888.33 -517.482 848.005"
+"origin" "3928.33 -477.482 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8698,7 +8698,7 @@ Revision: 228
 "hammerid" "689603"
 }
 {
-"origin" "3851.08 -554.732 848.005"
+"origin" "3899.08 -506.732 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8708,7 +8708,7 @@ Revision: 228
 "hammerid" "689605"
 }
 {
-"origin" "3813.82 -591.992 848.005"
+"origin" "3869.82 -535.992 848.005"
 "TeamNum" "3"
 "targetname" "blu_spawn_2"
 "StartDisabled" "1"
@@ -8748,7 +8748,7 @@ Revision: 228
 "hammerid" "702301"
 }
 {
-"origin" "3072 1728 1208.1"
+"origin" "3072 1728 1192.1"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
@@ -11174,6 +11174,7 @@ Revision: 228
 "hammerid" "2313033"
 "OnPass" "sspl_cartsparksStopSpark0-1"
 "OnPass" "tread_anim_relay1Trigger0-1"
+"OnPass" "recede_checkTest0-1"
 }
 {
 "origin" "3392 -2304 384"
@@ -11186,7 +11187,6 @@ Revision: 228
 "hammerid" "2313037"
 "OnPass" "cp_oneSetOwner30.11"
 "OnPass" "cap_1_relayTrigger0-1"
-"OnPass" "cap_1_recede_relayTrigger0-1"
 }
 {
 "origin" "-96 3168 1216"
@@ -11199,7 +11199,6 @@ Revision: 228
 "hammerid" "2313051"
 "OnPass" "cp_threeSetOwner30.11"
 "OnPass" "cap_3_relayTrigger0-1"
-"OnPass" "cap_3_recede_relayTrigger0-1"
 }
 {
 "origin" "-96 3168 1216"
@@ -11339,6 +11338,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2313154"
+"OnPass" "recede_checkTest5-1"
 }
 {
 "origin" "3136 432 768"
@@ -11349,6 +11349,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2313158"
+"OnPass" "recede_checkTest0-1"
 }
 {
 "origin" "-1576 1200 1536"
@@ -11483,7 +11484,7 @@ Revision: 228
 "targetname" "end_pit_destroy_killtrigger_linger"
 "StartDisabled" "1"
 "spawnflags" "1"
-"origin" "0 0 2016"
+"origin" "0 0 2256"
 "nodmgforce" "0"
 "damagetype" "1024"
 "damagemodel" "0"
@@ -11877,6 +11878,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2319032"
+"OnPass" "recede_checkTest3-1"
 }
 {
 "origin" "3712 -2048 448"
@@ -12207,6 +12209,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2319378"
+"OnPass" "recede_checkTest6-1"
 }
 {
 "origin" "3132 512 768"
@@ -12597,13 +12600,13 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2319639"
-"OnPass" "drawbridgeOpen0-1"
+"OnPass" "drawbridgeOpen01"
 "OnPass" "drawbridge_soundPlaySound01"
 "OnPass" "sspl_watcherSetSpeedForwardModifier0.00101"
-"OnPass" "tank_tracksSetPlaybackRate00.01-1"
+"OnPass" "tank_tracksSetPlaybackRate00.011"
 "OnPass" "tread_anim_relay*Disable01"
 "OnPass" "sspl_watcherSetTrainCanRecede001"
-"OnPass" "drawbridge_signOpen0-1"
+"OnPass" "drawbridge_signOpen01"
 }
 {
 "origin" "1168 2288 1032"
@@ -13007,7 +13010,7 @@ Revision: 228
 "hammerid" "2320433"
 }
 {
-"origin" "-1664 256 1536"
+"origin" "-1664 792 1536"
 "targetname" "sspl_path_E_8"
 "target" "sspl_path_E_9"
 "spawnflags" "0"
@@ -13015,6 +13018,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2320437"
+"OnPass" "recede_checkTest5-1"
 }
 {
 "origin" "-1664 216 1536"
@@ -13793,7 +13797,7 @@ Revision: 228
 "OnFullyOpen" "sspl_path_C_42EnablePath0-1"
 "OnFullyOpen" "drawbridge_soundStopSound0.5-1"
 "OnFullyOpen" "sspl_watcherSetSpeedForwardModifier101"
-"OnFullyOpen" "drawbridge_openPlaySound0.5-1"
+"OnFullyOpen" "drawbridge_openPlaySound0-1"
 "OnOpen" "drawbridge_startPlaySound0-1"
 "OnFullyOpen" "drawbridge_door*Open0-1"
 "OnFullyOpen" "drawbridge_downEnable0-1"
@@ -13802,25 +13806,24 @@ Revision: 228
 "OnFullyOpen" "tread_anim_relay*Enable0-1"
 "OnFullyOpen" "drawbridge_counterGetValue0-1"
 "OnOpen" "drawbridge_propSetAnimationopen0-1"
-"OnFullyOpen" "drawbridge_propSetAnimationopen_idle0.5-1"
+"OnFullyOpen" "drawbridge_propSetAnimationopen_idle0-1"
 "OnFullyOpen" "drawbridgeOpen0-1"
 "OnFullyOpen" "sspl_watcherSetTrainCanRecede10-1"
-"OnOpen" "drawbridge_propSetPlaybackRate1.30-1"
+"OnOpen" "drawbridge_propSetPlaybackRate1.0250.01-1"
 "OnOpen" "drawbridge_propCallScriptFunctionStartAnimation0-1"
+"OnOpen" "drawbridge_crushEnable0-1"
 }
 {
 "model" "*94"
 "targetname" "drawbridge_crush"
-"StartDisabled" "0"
+"StartDisabled" "1"
+"speed" "256"
 "spawnflags" "1"
-"parentname" "drawbridge"
-"origin" "768 2688 1152"
-"nodmgforce" "1"
-"damagetype" "1"
-"damagemodel" "0"
-"damagecap" "20"
-"damage" "9999"
-"classname" "trigger_hurt"
+"pushdir" "0 315 0"
+"parentname" "drawbridge_brush"
+"origin" "780 2676 1150"
+"alternateticksfix" "0"
+"classname" "trigger_push"
 "hammerid" "2333901"
 }
 {
@@ -14811,6 +14814,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2393712"
+"OnPass" "recede_checkTest0-1"
 }
 {
 "origin" "-192 3160 1216"
@@ -14831,6 +14835,7 @@ Revision: 228
 "angles" "0 0 0"
 "classname" "path_track"
 "hammerid" "2393720"
+"OnPass" "recede_checkTest15-1"
 }
 {
 "origin" "-896 576 2432"
@@ -14877,7 +14882,7 @@ Revision: 228
 "hammerid" "2404134"
 }
 {
-"origin" "-1664 832 1536"
+"origin" "-1664 824 1536"
 "targetname" "sspl_path_E_1"
 "target" "sspl_path_E_8"
 "spawnflags" "0"
@@ -17436,42 +17441,6 @@ Revision: 228
 "hammerid" "3055989"
 }
 {
-"origin" "3286.75 -2227.5 392"
-"targetname" "cap_1_recede_relay"
-"StartDisabled" "1"
-"spawnflags" "0"
-"classname" "logic_relay"
-"hammerid" "3055999"
-"OnTrigger" "tread_anim_relay1Trigger0-1"
-}
-{
-"origin" "3060.23 375.4 776"
-"targetname" "cap_2_recede_relay"
-"StartDisabled" "1"
-"spawnflags" "0"
-"classname" "logic_relay"
-"hammerid" "3056013"
-"OnTrigger" "tread_anim_relay1Trigger0-1"
-}
-{
-"origin" "-84.4961 3248.39 1224"
-"targetname" "cap_3_recede_relay"
-"StartDisabled" "1"
-"spawnflags" "0"
-"classname" "logic_relay"
-"hammerid" "3056022"
-"OnTrigger" "tread_anim_relay1Trigger0-1"
-}
-{
-"origin" "-1726.31 923.709 1544"
-"targetname" "cap_4_recede_relay"
-"StartDisabled" "1"
-"spawnflags" "0"
-"classname" "logic_relay"
-"hammerid" "3056029"
-"OnTrigger" "tread_anim_relay1Trigger0-1"
-}
-{
 "origin" "816 3456 1520"
 "style" "0"
 "spawnflags" "0"
@@ -17841,26 +17810,6 @@ Revision: 228
 "hammerid" "3194470"
 }
 {
-"model" "*139"
-"vrad_brush_cast_shadows" "0"
-"targetname" "finale_machine_geo"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "2"
-"solidbsp" "1"
-"rendermode" "10"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "0 0 2204"
-"invert_exclusion" "0"
-"InputFilter" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"classname" "func_brush"
-"hammerid" "3210223"
-}
-{
 "portalnumber" "131"
 "StartOpen" "1"
 "PortalVersion" "1"
@@ -17889,7 +17838,7 @@ Revision: 228
 "hammerid" "3161775"
 }
 {
-"model" "*140"
+"model" "*139"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18678,7 +18627,7 @@ Revision: 228
 "hammerid" "3218094"
 }
 {
-"model" "*141"
+"model" "*140"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19045,7 +18994,7 @@ Revision: 228
 "hammerid" "3254065"
 }
 {
-"model" "*142"
+"model" "*141"
 "wait" "10"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -19130,35 +19079,35 @@ Revision: 228
 "OnTrigger" "cp_two_propSkin201"
 "OnTrigger" "sspl_pushzoneCaptureCurrentCP01"
 "OnTrigger" "sspl_path_cp_twoDisablePath01"
-"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime30-1"
-"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime60-1"
-"OnTrigger" "blu_forward_sign_1Disable0-1"
-"OnTrigger" "blu_forward_door_1_propSkin00-1"
-"OnTrigger" "blu_spawn_1aDisable0-1"
-"OnTrigger" "blu_spawn_2Enable0-1"
-"OnTrigger" "blu_forward_door_1_triggerEnable0-1"
-"OnTrigger" "blu_spawn_2_visualizerEnable0-1"
-"OnTrigger" "red_forward_door_2_propSkin10-1"
-"OnTrigger" "red_forward_door_2_triggerKill0-1"
-"OnTrigger" "red_spawn_3Enable0-1"
-"OnTrigger" "red_spawn_2Disable0-1"
-"OnTrigger" "red_forward_door_2Close5-1"
-"OnTrigger" "C_spec*Enable0-1"
-"OnTrigger" "A_spec*Disable0-1"
-"OnTrigger" "B_spec*Disable0-1"
-"OnTrigger" "red_forward_sign_2Enable5-1"
-"OnTrigger" "red_forward_visualizer_2Disable5-1"
-"OnTrigger" "red_forward_door_2Close5-1"
-"OnTrigger" "red_forward_door_2_propSkin10-1"
-"OnTrigger" "red_forward_door_2_triggerKill0-1"
-"OnTrigger" "red_forward_door_2_triggerKill0-1"
-"OnTrigger" "red_forcerespawn_bForceTeamRespawn20.1-1"
-"OnTrigger" "red_forward_door_2_exitKill4.5-1"
-"OnTrigger" "red_forward_door_2_exitEnable0-1"
-"OnTrigger" "door_teleport_02Disable6-1"
-"OnTrigger" "door_teleport_02Enable5-1"
-"OnTrigger" "C_door*Open0-1"
-"OnTrigger" "cap_2_recede_relayEnable5-1"
+"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime301"
+"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime601"
+"OnTrigger" "blu_forward_sign_1Disable01"
+"OnTrigger" "blu_forward_door_1_propSkin001"
+"OnTrigger" "blu_spawn_1aDisable01"
+"OnTrigger" "blu_spawn_2Enable01"
+"OnTrigger" "blu_forward_door_1_triggerEnable01"
+"OnTrigger" "blu_spawn_2_visualizerEnable01"
+"OnTrigger" "red_forward_door_2_propSkin101"
+"OnTrigger" "red_forward_door_2_triggerKill01"
+"OnTrigger" "red_spawn_3Enable01"
+"OnTrigger" "red_spawn_2Disable01"
+"OnTrigger" "red_forward_door_2Close51"
+"OnTrigger" "C_spec*Enable01"
+"OnTrigger" "A_spec*Disable01"
+"OnTrigger" "B_spec*Disable01"
+"OnTrigger" "red_forward_sign_2Enable51"
+"OnTrigger" "red_forward_visualizer_2Disable51"
+"OnTrigger" "red_forward_door_2Close51"
+"OnTrigger" "red_forward_door_2_propSkin101"
+"OnTrigger" "red_forward_door_2_triggerKill01"
+"OnTrigger" "red_forward_door_2_triggerKill01"
+"OnTrigger" "red_forcerespawn_bForceTeamRespawn20.11"
+"OnTrigger" "red_forward_door_2_exitKill4.51"
+"OnTrigger" "red_forward_door_2_exitEnable01"
+"OnTrigger" "door_teleport_02Disable61"
+"OnTrigger" "door_teleport_02Enable51"
+"OnTrigger" "C_door*Open01"
+"OnTrigger" "recede_checkTest0-1"
 }
 {
 "origin" "3368 -2264 440"
@@ -19173,29 +19122,29 @@ Revision: 228
 "OnTrigger" "sspl_path_cp_oneDisablePath01"
 "OnTrigger" "sspl_timerAddTeamTime3 30001"
 "OnTrigger" "cp_one_propSkin201"
-"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime80-1"
-"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime30-1"
-"OnTrigger" "blu_spawn_1aEnable0-1"
-"OnTrigger" "blu_spawn_1Disable0-1"
-"OnTrigger" "B_door*Open0-1"
-"OnTrigger" "A_sign*Open0-1"
-"OnTrigger" "B_spec*Enable0-1"
-"OnTrigger" "red_spawn_1Disable0-1"
-"OnTrigger" "red_spawn_2Enable0-1"
-"OnTrigger" "red_forward_door_1_exitEnable0-1"
-"OnTrigger" "red_forward_door_1_triggerKill0-1"
-"OnTrigger" "red_forward_door_1_propSkin10-1"
-"OnTrigger" "red_forward_door_1Close5-1"
-"OnTrigger" "red_forward_visualizer_1Disable5-1"
-"OnTrigger" "red_forward_door_1_exitKill4.5-1"
-"OnTrigger" "red_forward_sign_1Enable5-1"
-"OnTrigger" "door_teleport_01Enable5-1"
-"OnTrigger" "door_teleport_01Disable6-1"
-"OnTrigger" "red_forcerespawn_aForceTeamRespawn20.1-1"
-"OnTrigger" "B_sign_1Disable0-1"
-"OnTrigger" "cap_1_recede_relayEnable5-1"
-"OnTrigger" "B_shutters_clipKill0-1"
-"OnTrigger" "A_sign*Kill3-1"
+"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime801"
+"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime301"
+"OnTrigger" "blu_spawn_1aEnable01"
+"OnTrigger" "blu_spawn_1Disable01"
+"OnTrigger" "B_door*Open01"
+"OnTrigger" "A_sign*Open01"
+"OnTrigger" "B_spec*Enable01"
+"OnTrigger" "red_spawn_1Disable01"
+"OnTrigger" "red_spawn_2Enable01"
+"OnTrigger" "red_forward_door_1_exitEnable01"
+"OnTrigger" "red_forward_door_1_triggerKill01"
+"OnTrigger" "red_forward_door_1_propSkin101"
+"OnTrigger" "red_forward_door_1Close51"
+"OnTrigger" "red_forward_visualizer_1Disable51"
+"OnTrigger" "red_forward_door_1_exitKill4.51"
+"OnTrigger" "red_forward_sign_1Enable51"
+"OnTrigger" "door_teleport_01Enable51"
+"OnTrigger" "door_teleport_01Disable61"
+"OnTrigger" "red_forcerespawn_aForceTeamRespawn20.11"
+"OnTrigger" "B_sign_1Disable01"
+"OnTrigger" "B_shutters_clipKill01"
+"OnTrigger" "A_sign*Kill31"
+"OnTrigger" "recede_checkTest0-1"
 }
 {
 "origin" "-96 3104 1256"
@@ -19210,32 +19159,32 @@ Revision: 228
 "OnTrigger" "cp_three_propSkin201"
 "OnTrigger" "sspl_pushzoneCaptureCurrentCP01"
 "OnTrigger" "sspl_path_cp_threeDisablePath01"
-"OnTrigger" "blu_forward_door_2_triggerEnable0-1"
-"OnTrigger" "blu_forward_door_2_propSkin00-1"
-"OnTrigger" "blu_forward_sign_2Disable0-1"
-"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime60-1"
-"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime40-1"
-"OnTrigger" "blu_spawn_2Disable0-1"
-"OnTrigger" "blu_spawn_3Enable0-1"
-"OnTrigger" "blu_spawn_3_visualizerEnable0-1"
-"OnTrigger" "red_spawn_4Enable0-1"
-"OnTrigger" "red_spawn_3Disable0-1"
-"OnTrigger" "red_forward_door_3_exitKill4.5-1"
-"OnTrigger" "red_forward_visualizer_3Disable5-1"
-"OnTrigger" "red_forward_door_3Close5-1"
-"OnTrigger" "red_forward_door_3_propSkin10-1"
-"OnTrigger" "red_forward_door_3_triggerKill0-1"
-"OnTrigger" "red_forward_door_3_exitEnable0-1"
-"OnTrigger" "C_sign_01Open0-1"
-"OnTrigger" "red_forward_sign_3Enable5-1"
-"OnTrigger" "door_teleport_03Disable6-1"
-"OnTrigger" "door_teleport_03Enable5-1"
-"OnTrigger" "D_spec*Enable0-1"
-"OnTrigger" "C_spec*Disable0-1"
-"OnTrigger" "red_forcerespawn_cForceTeamRespawn20.1-1"
-"OnTrigger" "D_door*Open0-1"
-"OnTrigger" "cap_3_recede_relayEnable5-1"
-"OnTrigger" "D_shutters_clipKill0-1"
+"OnTrigger" "blu_forward_door_2_triggerEnable01"
+"OnTrigger" "blu_forward_door_2_propSkin001"
+"OnTrigger" "blu_forward_sign_2Disable01"
+"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime601"
+"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime401"
+"OnTrigger" "blu_spawn_2Disable01"
+"OnTrigger" "blu_spawn_3Enable01"
+"OnTrigger" "blu_spawn_3_visualizerEnable01"
+"OnTrigger" "red_spawn_4Enable01"
+"OnTrigger" "red_spawn_3Disable01"
+"OnTrigger" "red_forward_door_3_exitKill4.51"
+"OnTrigger" "red_forward_visualizer_3Disable51"
+"OnTrigger" "red_forward_door_3Close51"
+"OnTrigger" "red_forward_door_3_propSkin101"
+"OnTrigger" "red_forward_door_3_triggerKill01"
+"OnTrigger" "red_forward_door_3_exitEnable01"
+"OnTrigger" "C_sign_01Open01"
+"OnTrigger" "red_forward_sign_3Enable51"
+"OnTrigger" "door_teleport_03Disable61"
+"OnTrigger" "door_teleport_03Enable51"
+"OnTrigger" "D_spec*Enable01"
+"OnTrigger" "C_spec*Disable01"
+"OnTrigger" "red_forcerespawn_cForceTeamRespawn20.11"
+"OnTrigger" "D_door*Open01"
+"OnTrigger" "D_shutters_clipKill01"
+"OnTrigger" "recede_checkTest0-1"
 }
 {
 "origin" "-1728 832 1560"
@@ -19250,19 +19199,19 @@ Revision: 228
 "OnTrigger" "cp_four_propSkin201"
 "OnTrigger" "sspl_pushzoneCaptureCurrentCP01"
 "OnTrigger" "sspl_path_cp_fourDisablePath01"
-"OnTrigger" "blu_forward_door_3_triggerEnable0-1"
-"OnTrigger" "blu_forward_door_3_propSkin00-1"
-"OnTrigger" "blu_forward_sign_3Disable0-1"
-"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime90-1"
-"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime30-1"
-"OnTrigger" "blu_spawn_3Disable0-1"
-"OnTrigger" "blu_spawn_3aEnable0-1"
-"OnTrigger" "blu_spawn_3a_visualizerEnable0-1"
-"OnTrigger" "red_spawn_5Enable0-1"
-"OnTrigger" "red_spawn_4Disable0-1"
-"OnTrigger" "E_spec*Enable0-1"
-"OnTrigger" "red_forcerespawn_dForceTeamRespawn20.1-1"
-"OnTrigger" "cap_4_recede_relayEnable5-1"
+"OnTrigger" "blu_forward_door_3_triggerEnable01"
+"OnTrigger" "blu_forward_door_3_propSkin001"
+"OnTrigger" "blu_forward_sign_3Disable01"
+"OnTrigger" "sspl_gamerulesSetRedTeamRespawnWaveTime901"
+"OnTrigger" "sspl_gamerulesSetBlueTeamRespawnWaveTime301"
+"OnTrigger" "blu_spawn_3Disable01"
+"OnTrigger" "blu_spawn_3aEnable01"
+"OnTrigger" "blu_spawn_3a_visualizerEnable01"
+"OnTrigger" "red_spawn_5Enable01"
+"OnTrigger" "red_spawn_4Disable01"
+"OnTrigger" "E_spec*Enable01"
+"OnTrigger" "red_forcerespawn_dForceTeamRespawn20.11"
+"OnTrigger" "recede_checkTest0-1"
 }
 {
 "origin" "4027.92 -1402.54 990.6"
@@ -19429,7 +19378,7 @@ Revision: 228
 "hammerid" "3275228"
 }
 {
-"model" "*143"
+"model" "*142"
 "targetname" "tank_crush"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -19520,7 +19469,7 @@ Revision: 228
 "hammerid" "3348020"
 }
 {
-"model" "*144"
+"model" "*143"
 "wheels" "82"
 "vscripts" "maps/citadel/pusher.nut"
 "volume" "10"
@@ -19563,7 +19512,7 @@ Revision: 228
 "hammerid" "3363623"
 }
 {
-"model" "*145"
+"model" "*144"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "D_door_03"
@@ -19593,7 +19542,7 @@ Revision: 228
 "hammerid" "3415651"
 }
 {
-"model" "*146"
+"model" "*145"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "D_door_03"
@@ -19623,7 +19572,7 @@ Revision: 228
 "hammerid" "3415660"
 }
 {
-"model" "*147"
+"model" "*146"
 "vrad_brush_cast_shadows" "0"
 "targetname" "D_shutters_clip"
 "StartDisabled" "0"
@@ -19780,7 +19729,7 @@ Revision: 228
 "hammerid" "3419359"
 }
 {
-"model" "*148"
+"model" "*147"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19799,7 +19748,7 @@ Revision: 228
 "hammerid" "3419392"
 }
 {
-"model" "*149"
+"model" "*148"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -19916,7 +19865,7 @@ Revision: 228
 "hammerid" "3530965"
 }
 {
-"model" "*150"
+"model" "*149"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "A_sign_03"
@@ -19942,7 +19891,7 @@ Revision: 228
 "hammerid" "3530969"
 }
 {
-"model" "*151"
+"model" "*150"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "B_door_04"
@@ -19973,7 +19922,7 @@ Revision: 228
 "hammerid" "3546577"
 }
 {
-"model" "*152"
+"model" "*151"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "B_door_04"
@@ -20004,7 +19953,7 @@ Revision: 228
 "hammerid" "3546580"
 }
 {
-"model" "*153"
+"model" "*152"
 "vrad_brush_cast_shadows" "0"
 "targetname" "B_shutters_clip"
 "StartDisabled" "0"
@@ -20022,25 +19971,6 @@ Revision: 228
 "disablereceiveshadows" "0"
 "classname" "func_brush"
 "hammerid" "3546692"
-}
-{
-"model" "*154"
-"vrad_brush_cast_shadows" "1"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "4448 -1568 710"
-"invert_exclusion" "0"
-"InputFilter" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"classname" "func_brush"
-"hammerid" "3547399"
 }
 {
 "origin" "316 2092 1424"
@@ -20132,7 +20062,7 @@ Revision: 228
 "hammerid" "3565024"
 }
 {
-"model" "*155"
+"model" "*153"
 "vrad_brush_cast_shadows" "0"
 "targetname" "B_shutters_clip"
 "StartDisabled" "0"
@@ -20152,7 +20082,7 @@ Revision: 228
 "hammerid" "3618479"
 }
 {
-"model" "*156"
+"model" "*154"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "B_door_05"
@@ -20183,7 +20113,7 @@ Revision: 228
 "hammerid" "3618501"
 }
 {
-"model" "*157"
+"model" "*155"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "B_door_05"
@@ -20214,7 +20144,7 @@ Revision: 228
 "hammerid" "3618504"
 }
 {
-"model" "*158"
+"model" "*156"
 "vrad_brush_cast_shadows" "0"
 "targetname" "B_shutters_clip"
 "StartDisabled" "0"
@@ -20242,7 +20172,7 @@ Revision: 228
 "hammerid" "3618604"
 }
 {
-"model" "*159"
+"model" "*157"
 "vrad_brush_cast_shadows" "0"
 "targetname" "B_shutters_clip"
 "StartDisabled" "0"
@@ -20272,7 +20202,7 @@ Revision: 228
 "hammerid" "3619065"
 }
 {
-"model" "*160"
+"model" "*158"
 "vrad_brush_cast_shadows" "0"
 "targetname" "C_bridge_window2"
 "StartDisabled" "0"
@@ -20322,7 +20252,7 @@ Revision: 228
 "hammerid" "3621141"
 }
 {
-"model" "*161"
+"model" "*159"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "drawbridge_door_03"
@@ -20378,7 +20308,7 @@ Revision: 228
 "hammerid" "3621151"
 }
 {
-"model" "*162"
+"model" "*160"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "drawbridge_door_03a"
@@ -20461,7 +20391,7 @@ Revision: 228
 "hammerid" "3631074"
 }
 {
-"model" "*163"
+"model" "*161"
 "vrad_brush_cast_shadows" "0"
 "targetname" "C_gatehouse_window"
 "StartDisabled" "0"
@@ -20569,7 +20499,7 @@ Revision: 228
 "hammerid" "3665760"
 }
 {
-"model" "*164"
+"model" "*162"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "drawbridge_door_01"
@@ -20917,7 +20847,7 @@ Revision: 228
 "hammerid" "3688602"
 }
 {
-"model" "*165"
+"model" "*163"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -21068,7 +20998,7 @@ Revision: 228
 "hammerid" "3728882"
 }
 {
-"model" "*166"
+"model" "*164"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -21154,7 +21084,7 @@ Revision: 228
 "hammerid" "3787018"
 }
 {
-"model" "*167"
+"model" "*165"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -21773,7 +21703,7 @@ Revision: 228
 "hammerid" "3942844"
 }
 {
-"model" "*168"
+"model" "*166"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -21821,12 +21751,45 @@ Revision: 228
 "OnTrigger" "sspl_timerAddTeamTime3 6001"
 }
 {
+"model" "*167"
+"targetname" "drawbridge_crush"
+"StartDisabled" "0"
+"spawnflags" "1"
+"parentname" "drawbridge_brush"
+"origin" "768 2688 1152"
+"nodmgforce" "1"
+"damagetype" "1"
+"damagemodel" "0"
+"damagecap" "20"
+"damage" "9999"
+"classname" "trigger_hurt"
+"hammerid" "4052644"
+}
+{
+"origin" "4224 -5888 72"
+"targetname" "recede_check"
+"InitialValue" "0"
+"classname" "logic_branch"
+"hammerid" "4053889"
+"OnTrue" "tread_anim_relay1Trigger0-1"
+}
+{
+"model" "*168"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "4092243"
+}
+{
 "model" "*169"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "2816 -2992 616"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016047"
+"hammerid" "4128681"
 }
 {
 "origin" "2816 -2992 606"
@@ -21842,7 +21805,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "4016050"
+"hammerid" "4128684"
 }
 {
 "model" "*170"
@@ -21850,7 +21813,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "3664 -3552 552"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016058"
+"hammerid" "4128692"
 }
 {
 "origin" "3664 -3552 542"
@@ -21866,7 +21829,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "4016061"
+"hammerid" "4128695"
 }
 {
 "model" "*171"
@@ -21875,7 +21838,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "2960 -3696 552"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016069"
+"hammerid" "4128703"
 }
 {
 "origin" "2960 -3696 542"
@@ -21891,7 +21854,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 47.5 0"
 "classname" "info_particle_system"
-"hammerid" "4016072"
+"hammerid" "4128706"
 }
 {
 "model" "*172"
@@ -21900,7 +21863,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "2496 -352 1320"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016080"
+"hammerid" "4128714"
 }
 {
 "origin" "2496 -352 1310"
@@ -21916,7 +21879,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "4016083"
+"hammerid" "4128717"
 }
 {
 "model" "*173"
@@ -21925,7 +21888,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "3792 -256 1080"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016091"
+"hammerid" "4128725"
 }
 {
 "origin" "3792 -256 1070"
@@ -21941,7 +21904,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "4016094"
+"hammerid" "4128728"
 }
 {
 "model" "*174"
@@ -21950,7 +21913,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "2064 496 1132"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016102"
+"hammerid" "4128736"
 }
 {
 "origin" "2064 496 1122"
@@ -21966,7 +21929,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -120 0"
 "classname" "info_particle_system"
-"hammerid" "4016105"
+"hammerid" "4128739"
 }
 {
 "model" "*175"
@@ -21975,7 +21938,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "5384 -1600 680"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016113"
+"hammerid" "4128747"
 }
 {
 "origin" "5384 -1600 670"
@@ -21991,7 +21954,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 60 0"
 "classname" "info_particle_system"
-"hammerid" "4016116"
+"hammerid" "4128750"
 }
 {
 "model" "*176"
@@ -22000,7 +21963,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "1336 3152 1320"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016124"
+"hammerid" "4128758"
 }
 {
 "origin" "1336 3152 1310"
@@ -22016,7 +21979,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -120 0"
 "classname" "info_particle_system"
-"hammerid" "4016127"
+"hammerid" "4128761"
 }
 {
 "model" "*177"
@@ -22025,7 +21988,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "2304 1960 1384"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016135"
+"hammerid" "4128769"
 }
 {
 "origin" "2304 1960 1374"
@@ -22041,7 +22004,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -135 0"
 "classname" "info_particle_system"
-"hammerid" "4016138"
+"hammerid" "4128772"
 }
 {
 "model" "*178"
@@ -22050,7 +22013,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "928 3136 1320"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016146"
+"hammerid" "4128780"
 }
 {
 "origin" "928 3136 1310"
@@ -22066,7 +22029,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 90 0"
 "classname" "info_particle_system"
-"hammerid" "4016149"
+"hammerid" "4128783"
 }
 {
 "model" "*179"
@@ -22075,7 +22038,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "-2096 3104 1576"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016157"
+"hammerid" "4128791"
 }
 {
 "origin" "-2096 3104 1566"
@@ -22091,7 +22054,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -135 0"
 "classname" "info_particle_system"
-"hammerid" "4016160"
+"hammerid" "4128794"
 }
 {
 "model" "*180"
@@ -22100,7 +22063,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "240 1776 1512"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016168"
+"hammerid" "4128802"
 }
 {
 "origin" "240 1776 1502"
@@ -22116,7 +22079,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "4016171"
+"hammerid" "4128805"
 }
 {
 "model" "*181"
@@ -22125,7 +22088,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "-2080 2336 1768"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016179"
+"hammerid" "4128813"
 }
 {
 "origin" "-2080 2336 1758"
@@ -22141,7 +22104,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 180 0"
 "classname" "info_particle_system"
-"hammerid" "4016182"
+"hammerid" "4128816"
 }
 {
 "model" "*182"
@@ -22150,7 +22113,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "-1376 832 2008"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016190"
+"hammerid" "4128824"
 }
 {
 "origin" "-1376 832 1998"
@@ -22166,7 +22129,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "4016193"
+"hammerid" "4128827"
 }
 {
 "model" "*183"
@@ -22175,7 +22138,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "-2516 282 1512"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016201"
+"hammerid" "4128835"
 }
 {
 "origin" "-2516 282 1502"
@@ -22191,7 +22154,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -135 0"
 "classname" "info_particle_system"
-"hammerid" "4016204"
+"hammerid" "4128838"
 }
 {
 "model" "*184"
@@ -22200,7 +22163,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "3320 1902 1064"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016212"
+"hammerid" "4128846"
 }
 {
 "origin" "3320 1902 1054"
@@ -22216,7 +22179,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 135 0"
 "classname" "info_particle_system"
-"hammerid" "4016215"
+"hammerid" "4128849"
 }
 {
 "model" "*185"
@@ -22225,7 +22188,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "4720 -272 872"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016223"
+"hammerid" "4128857"
 }
 {
 "origin" "4720 -272 862"
@@ -22241,7 +22204,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 135 0"
 "classname" "info_particle_system"
-"hammerid" "4016226"
+"hammerid" "4128860"
 }
 {
 "model" "*186"
@@ -22250,7 +22213,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "2192 -784 904"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016234"
+"hammerid" "4128868"
 }
 {
 "origin" "2192 -784 894"
@@ -22266,7 +22229,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -120 0"
 "classname" "info_particle_system"
-"hammerid" "4016237"
+"hammerid" "4128871"
 }
 {
 "model" "*187"
@@ -22275,7 +22238,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "4064 -5080 360"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016245"
+"hammerid" "4128879"
 }
 {
 "origin" "4064 -5080 350"
@@ -22291,7 +22254,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -180 0"
 "classname" "info_particle_system"
-"hammerid" "4016248"
+"hammerid" "4128882"
 }
 {
 "model" "*188"
@@ -22300,7 +22263,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "4296 88 936"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016256"
+"hammerid" "4128890"
 }
 {
 "origin" "4296 88 926"
@@ -22316,7 +22279,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -120 0"
 "classname" "info_particle_system"
-"hammerid" "4016259"
+"hammerid" "4128893"
 }
 {
 "model" "*189"
@@ -22325,7 +22288,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "400 2600 1704"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016267"
+"hammerid" "4128901"
 }
 {
 "origin" "400 2600 1694"
@@ -22341,7 +22304,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 -90 0"
 "classname" "info_particle_system"
-"hammerid" "4016270"
+"hammerid" "4128904"
 }
 {
 "model" "*190"
@@ -22350,7 +22313,7 @@ Revision: 228
 "spawnflags" "1"
 "origin" "-336 -1456 1832"
 "classname" "trigger_ignite_arrows"
-"hammerid" "4016278"
+"hammerid" "4128912"
 }
 {
 "origin" "-336 -1456 1822"
@@ -22366,7 +22329,7 @@ Revision: 228
 "cpoint1_parent" "0"
 "angles" "-0 9.39151e-06 0"
 "classname" "info_particle_system"
-"hammerid" "4016281"
+"hammerid" "4128915"
 }
 {
 "origin" "6967.68 -7985.91 628.575"
@@ -22382,7 +22345,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "move_rope"
-"hammerid" "4028850"
+"hammerid" "4141484"
 }
 {
 "origin" "6966.39 -7986.25 628.59"
@@ -22398,7 +22361,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "move_rope"
-"hammerid" "4028853"
+"hammerid" "4141487"
 }
 {
 "origin" "6960 -7988 628.16"
@@ -22414,7 +22377,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "move_rope"
-"hammerid" "4028856"
+"hammerid" "4141490"
 }
 {
 "origin" "7200 -8221.54 631.833"
@@ -22429,7 +22392,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028859"
+"hammerid" "4141493"
 }
 {
 "origin" "7193.65 -8223.65 632.16"
@@ -22444,7 +22407,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028862"
+"hammerid" "4141496"
 }
 {
 "origin" "7192.38 -8224 632.16"
@@ -22459,7 +22422,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028865"
+"hammerid" "4141499"
 }
 {
 "origin" "7492 -8509.67 627.833"
@@ -22474,7 +22437,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028868"
+"hammerid" "4141502"
 }
 {
 "origin" "7484.34 -8512 628.16"
@@ -22489,7 +22452,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028871"
+"hammerid" "4141505"
 }
 {
 "origin" "7485.61 -8511.67 628.16"
@@ -22504,7 +22467,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028874"
+"hammerid" "4141508"
 }
 {
 "origin" "7747.38 -8736.88 635.833"
@@ -22519,7 +22482,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028877"
+"hammerid" "4141511"
 }
 {
 "origin" "7740 -8740 636.16"
@@ -22534,7 +22497,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028880"
+"hammerid" "4141514"
 }
 {
 "origin" "7741.23 -8739.55 636.16"
@@ -22549,7 +22512,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028883"
+"hammerid" "4141517"
 }
 {
 "origin" "7968 -8928 635.833"
@@ -22564,7 +22527,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028886"
+"hammerid" "4141520"
 }
 {
 "origin" "7960.45 -8930.67 636.16"
@@ -22579,7 +22542,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028889"
+"hammerid" "4141523"
 }
 {
 "origin" "7961.71 -8930.29 636.16"
@@ -22594,7 +22557,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028892"
+"hammerid" "4141526"
 }
 {
 "origin" "8160 -9216 627.833"
@@ -22609,7 +22572,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028895"
+"hammerid" "4141529"
 }
 {
 "origin" "8153.47 -9220.64 628.16"
@@ -22624,7 +22587,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028898"
+"hammerid" "4141532"
 }
 {
 "origin" "8154.58 -9219.93 628.16"
@@ -22639,7 +22602,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028901"
+"hammerid" "4141535"
 }
 {
 "origin" "8274 -9401.22 523.833"
@@ -22654,7 +22617,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028904"
+"hammerid" "4141538"
 }
 {
 "origin" "8270.86 -9408.58 524.16"
@@ -22669,7 +22632,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028907"
+"hammerid" "4141541"
 }
 {
 "origin" "8271.43 -9407.4 524.16"
@@ -22684,7 +22647,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4028910"
+"hammerid" "4141544"
 }
 {
 "origin" "9363.5 -9393 480"
@@ -22701,7 +22664,7 @@ Revision: 228
 "fogblend" "1"
 "angles" "-90 0 0"
 "classname" "sky_camera"
-"hammerid" "4023166"
+"hammerid" "4135800"
 }
 {
 "origin" "8474 -9464 511.833"
@@ -22716,7 +22679,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030490"
+"hammerid" "4143124"
 }
 {
 "origin" "8701.14 -9590.64 473.833"
@@ -22731,7 +22694,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030589"
+"hammerid" "4143223"
 }
 {
 "origin" "8698.57 -9596.82 474.16"
@@ -22746,7 +22709,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030592"
+"hammerid" "4143226"
 }
 {
 "origin" "8698 -9598 474.16"
@@ -22761,7 +22724,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030595"
+"hammerid" "4143229"
 }
 {
 "origin" "8463.43 -9478.18 512.16"
@@ -22776,7 +22739,7 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030493"
+"hammerid" "4143127"
 }
 {
 "origin" "8454.86 -9487.36 512.16"
@@ -22791,6 +22754,6 @@ Revision: 228
 "MoveSpeed" "64"
 "angles" "0 285 0"
 "classname" "keyframe_rope"
-"hammerid" "4030496"
+"hammerid" "4143130"
 }
  

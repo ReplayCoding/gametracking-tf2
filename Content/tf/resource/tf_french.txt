@@ -1760,10 +1760,13 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_Participant_Summer2025"		"Décernée aux personnes qui ont participé à la saison estivale 2025 d'AsiaFortress Liquid.tf Highlander Open."
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st"				"1ʳᵉ place - AsiaFortress Liquid.tf Highlander Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Summer2024"		"Décernée aux membres d'Elysium, l'équipe gagnante de la saison automnale 2024 d'AsiaFortress Liquid.tf Invite."
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Winter2024"		"Décernée aux membres d'Austrasia, l'équipe gagnante de la saison hivernale 2024 d'AsiaFortress Liquid.tf Highlander."
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd"				"2ᵉ place - AsiaFortress Liquid.tf Highlander Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Summer2024"		"Décernée aux membres de Snacks On A Plane pour la saison automnale 2024 d'AsiaFortress Liquid.tf Invite."
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Winter2024"		"Décernée aux membres d'Ambulas, qui ont obtenu la 2ᵉ place lors de la saison hivernale 2024 d'AsiaFortress Liquid.tf Highlander."
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd"				"3ᵉ place - AsiaFortress Liquid.tf Highlander Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Summer2024"		"Décernée aux membres de Thai Resurgence pour la saison automnale 2024 d'AsiaFortress Liquid.tf Invite."
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Winter2024"		"Décernée aux membres de Significant Otter, qui ont obtenu la 3ᵉ place lors de la saison hivernale 2024 d'AsiaFortress Liquid.tf Highlander."
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant"				"Médaille de participation - AsiaFortress Liquid.tf Highlander Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Summer2024"	"Décernée aux personnes qui ont participé à la saison estivale 2024 d'AsiaFortress Liquid.tf Highlander Invite."
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"Décernée aux personnes qui ont participé à la saison hivernale 2024 d'AsiaFortress Liquid.tf Highlander Invite."
@@ -18878,6 +18881,8 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum22_combat_casual"		"Mercenaire décontracté"
 "TF_sum22_combat_casual_style0"			"À carreaux"
 "TF_sum22_combat_casual_style1"			"Cuir"
+"TF_sum22_combat_casual_style2"			"À carreaux (sans munitions)"
+"TF_sum22_combat_casual_style3"			"Cuir (sans munitions)"
 "TF_sum22_rocko"				"Rocko"
 "TF_sum22_tropical_camo"		"Camouflage Tropical"
 "TF_sum22_tropical_camo_style0"			"Imprimé"
@@ -19401,6 +19406,9 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum25_shadow_doubt_style1"				"Fumeur"
 "TF_sum25_shadow_doubt_style2"				"Non fumeur"
 "TF_sum25_clinical"						"Enquêteur clinique"
+
+"TF_style_bullets"						"Avec munitions"
+"TF_style_nobullets"					"Sans munitions"
 
 "TF_KathmanHairdo"             "Abominable homme des jungles" // ADD THE
 "TF_KathmanHairdo_Desc"        "Cette coiffure pompadour a été vue pour la première fois par Edmund Hillary sur l’Everest ; il a tellement été choqué qu'il s'est fait dessus."

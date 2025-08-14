@@ -1760,10 +1760,13 @@
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Open_Participant_Summer2025"		"Tilldelas spelarna som deltog i AsiaFortress Liquid.tf Summer 2025 Highlander Open"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st"				"AsiaFortress Liquid.tf Highlander Invite – första plats"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Summer2024"		"Tilldelas spelarna från Elysium, vinnare av AsiaFortress Liquid.tf Highlander Invite – sommaren 2024"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_1st_Winter2024"		"Tilldelas spelarna från Austrasia, vinnare av AsiaFortress Liquid.tf Winter 2024 Highlander"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd"				"AsiaFortress Liquid.tf Highlander Invite – andra plats"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Summer2024"		"Tilldelas spelarna från Snacks On A Plane, som deltog i AsiaFortress Liquid.tf Highlander Invite – sommaren 2024"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_2nd_Winter2024"		"Tilldelas spelarna från Ambulas, som deltog i AsiaFortress Liquid.tf Winter 2024 Highlander season"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd"				"AsiaFortress Liquid.tf Highlander Invite – tredje plats"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Summer2024"		"Tilldelas spelarna från Thai Resurgence, som deltog i AsiaFortress Liquid.tf Highlander Invite – sommaren 2024"
+"TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_3rd_Winter2024"		"Tilldelas spelarna från Significant Otter, som deltog i AsiaFortress Liquid.tf Winter 2024 Highlander season"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant"				"AsiaFortress Liquid.tf Highlander Invite – deltagare"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Summer2024"	"Tilldelas spelarna som deltog i AsiaFortress Liquid.tf Summer 2024 Highlander Invite"
 "TF_TournamentMedal_AF_Liquidtf_Highlander_Invite_Participant_Winter2024"	"Tilldelades spelarna som deltog i AsiaFortress Liquid.tf Winter 2024 Highlander Invite"
@@ -18335,7 +18338,6 @@ Styrkors för att flytta, avtryckare=snabbare, A-knappen för nästa rad."
 "TF_hwn2016_combustible_cutie"			"Lättantändlig ljuvhet"
 "TF_hwn2016_pyro_shark"					"Huvudhajen" // ADD THE
 "TF_hwn2016_spooktacles"				"Skräckglasögon"
-"TF_hwn2016_heavy_tourism"				"Tung Turism"
 "TF_hwn2016_el_paso_poncho"				"El Paso-ponchon" // ADD THE
 "TF_hwn2016_wide_brimmed_bandito"		"Bredbrättad bandito" // ADD THE
 "TF_hwn2016_corpus_christi_cranium" 	"Kristi Lekamens kranium" // ADD THE
@@ -18955,6 +18957,8 @@ Styrkors för att flytta, avtryckare=snabbare, A-knappen för nästa rad."
 "TF_sum22_combat_casual"		"Vardagskämpe"
 "TF_sum22_combat_casual_style0"			"Rutig"
 "TF_sum22_combat_casual_style1"			"Läder"
+"TF_sum22_combat_casual_style2"			"Rutig (utan patroner)"
+"TF_sum22_combat_casual_style3"			"Läder (utan patroner)"
 "TF_sum22_rocko"				"Rocko"
 "TF_sum22_tropical_camo"		"Tropisk kamouflage"
 "TF_sum22_tropical_camo_style0"			"Djärv"
@@ -19477,6 +19481,9 @@ Styrkors för att flytta, avtryckare=snabbare, A-knappen för nästa rad."
 "TF_sum25_shadow_doubt_style1"				"Rök"
 "TF_sum25_shadow_doubt_style2"				"Utan rök"
 "TF_sum25_clinical"						"Klinisk utredare"
+
+"TF_style_bullets"						"Patroner"
+"TF_style_nobullets"					"Utan patroner"
 
 "TF_KathmanHairdo"             "Kathman-hårstilen" // ADD THE
 "TF_KathmanHairdo_Desc"        "Denna förhistoriska pompadourfrisyr upptäcktes först av Sir Edmund Hillary på backarna av Everest, direkt följt av att Hillary såg sig själv skita i byxorna."

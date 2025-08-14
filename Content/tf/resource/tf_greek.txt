@@ -6185,7 +6185,7 @@
 "DeathMsg_Suicide"		"αποχαιρέτησε αυτόν τον κόσμο!"
 "DeathMsg_AssistedSuicide"	"αποτελείωσε τον"
 "DeathMsg_AssistedSuicide_Multiple"	"αποτελείωσαν τον"
-"DeathMsg_Fall"			"βρήκε ένα αδέξιο θάνατο"
+"DeathMsg_Fall"			"πήγε από αδέξιο κι οδυνηρό πέσιμο"
 "Msg_Captured"			"κατάκτησε"
 "Msg_Captured_Multiple"	"κατάκτησε"
 "Msg_Defended"			"αμύνθηκε"
@@ -18898,6 +18898,8 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_sum22_combat_casual"		"Combat Casual"
 "TF_sum22_combat_casual_style0"			"Καρό"
 "TF_sum22_combat_casual_style1"			"Δερμάτινο"
+"TF_sum22_combat_casual_style2"			"Καρό – Χωρίς σφαίρες"
+"TF_sum22_combat_casual_style3"			"Δερμάτινο – Χωρίς σφαίρες"
 "TF_sum22_rocko"				"Rocko"
 "TF_sum22_tropical_camo"		"Tropical Camo"
 "TF_sum22_tropical_camo_style0"			"Έντονο"
@@ -19420,6 +19422,9 @@ D-pad για κίνηση, σκανδάλες=ταχύτερα, πλήκτρο A
 "TF_sum25_shadow_doubt_style1"				"Με τσιγάρο"
 "TF_sum25_shadow_doubt_style2"				"Χωρίς τσιγάρο"
 "TF_sum25_clinical"						"Clinical Investigator"
+
+"TF_style_bullets"						"Με σφαίρες"
+"TF_style_nobullets"					"Χωρίς σφαίρες"
 
 "TF_KathmanHairdo"             "Kathman-Hairdo" // ADD THE
 "TF_KathmanHairdo_Desc"        "Αυτό το προϊστορικό χτένισμα παρατηρήθηκε πρώτο στον Σερ Έντμουντ Χίλαρι στις πλαγιές του Έβερεστ, ακολουθούμενος από την παρατήρηση ότι λέρωσε το παντελόνι του."
