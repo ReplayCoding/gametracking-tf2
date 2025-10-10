@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 2285
+Revision: 2305
 {
 "world_maxs" "4736 2304 1856"
 "world_mins" "-6144 -3712 -1024"
@@ -8,7 +8,7 @@ Revision: 2285
 "detailvbsp" "detail_dustbowl.vbsp"
 "detailmaterial" "detail/detailsprites_dustbowl"
 "classname" "worldspawn"
-"mapversion" "2285"
+"mapversion" "2305"
 "hammerid" "1"
 }
 {
@@ -4590,7 +4590,7 @@ Revision: 2285
 "hammerid" "639923"
 }
 {
-"origin" "-1025.23 -850.581 99.6676"
+"origin" "-1025.23 -828 112"
 "style" "0"
 "spawnflags" "0"
 "_quadratic_attn" "2"
@@ -5416,10 +5416,10 @@ Revision: 2285
 "angles" "0 0 0"
 "classname" "tf_gamerules"
 "hammerid" "3779"
-"OnWonByTeam1" "koth_gamerulesPlayVORedDusker.Win2-1"
-"OnWonByTeam2" "koth_gamerulesPlayVORedDusker.Fail2-1"
-"OnWonByTeam1" "koth_gamerulesPlayVOBlueDusker.Fail2-1"
-"OnWonByTeam2" "koth_gamerulesPlayVOBlueDusker.Win2-1"
+"OnWonByTeam1" "koth_gamerulesPlayVORedDusker.Win3-1"
+"OnWonByTeam2" "koth_gamerulesPlayVORedDusker.Fail3-1"
+"OnWonByTeam1" "koth_gamerulesPlayVOBlueDusker.Fail3-1"
+"OnWonByTeam2" "koth_gamerulesPlayVOBlueDusker.Win3-1"
 "OnWonByTeam1" "the_end_of_duskerTrigger0-1"
 "OnWonByTeam2" "the_end_of_duskerTrigger0-1"
 }
@@ -5561,8 +5561,8 @@ Revision: 2285
 "OnCapTeam1" "koth_gamerulesSetRedKothClockActive0-1"
 "OnCapTeam1" "koth_gamerulesSetRedTeamRespawnWaveTime80-1"
 "OnCapTeam1" "koth_gamerulesSetBlueTeamRespawnWaveTime40-1"
-"OnCapTeam1" "koth_gamerulesPlayVORedDusker.Capture2-1"
-"OnCapTeam2" "koth_gamerulesPlayVOBlueDusker.Capture2-1"
+"OnCapTeam1" "koth_gamerulesPlayVORedDusker.Capture2.5-1"
+"OnCapTeam2" "koth_gamerulesPlayVOBlueDusker.Capture2.5-1"
 "OnCapTeam1" "bat_captureStart0.5-1"
 "OnCapTeam1" "bat_captureStop2.5-1"
 "OnCapTeam2" "bat_captureStop2.5-1"
@@ -10190,13 +10190,13 @@ Revision: 2285
 "maxdxlevel" "0"
 "fogstart" "-250"
 "fogradial" "1"
-"fogmaxdensity" "1"
+"fogmaxdensity" "0.95"
 "foglerptime" "2"
 "fogend" "12000"
 "fogenable" "1"
 "fogdir" "0 0 0"
-"fogcolor2" "0 0 0"
-"fogcolor" "35 4 4"
+"fogcolor2" "106 29 29"
+"fogcolor" "106 29 29"
 "fogblend" "1"
 "farz" "-1"
 "angles" "0 0 0"
@@ -10595,7 +10595,7 @@ Revision: 2285
 "hammerid" "607955"
 }
 {
-"origin" "932 -1089.32 9.74696"
+"origin" "932 -1089.32 -10"
 "style" "0"
 "spawnflags" "0"
 "_quadratic_attn" "2"
@@ -10614,7 +10614,7 @@ Revision: 2285
 "_linear_attn" "8"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "250 214 163 45"
+"_light" "250 214 163 50"
 "classname" "light"
 "hammerid" "639507"
 }
@@ -11376,13 +11376,13 @@ Revision: 2285
 "scale" "16"
 "fogstart" "-250"
 "fogradial" "1"
-"fogmaxdensity" "1"
+"fogmaxdensity" "0.95"
 "foglerptime" "1"
 "fogend" "12000"
 "fogenable" "1"
 "fogdir" "1 0 0"
-"fogcolor2" "0 0 0"
-"fogcolor" "35 4 4"
+"fogcolor2" "106 29 29"
+"fogcolor" "106 29 29"
 "fogblend" "1"
 "angles" "0 0 0"
 "classname" "sky_camera"

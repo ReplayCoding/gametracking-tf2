@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 2263
+Revision: 2277
 {
 "world_maxs" "2056 3448 628"
 "world_mins" "-7200 -3472 -896"
@@ -8,7 +8,7 @@ Revision: 2263
 "detailvbsp" "detail_dustbowl.vbsp"
 "detailmaterial" "detail/detailsprites_sawmill"
 "classname" "worldspawn"
-"mapversion" "2263"
+"mapversion" "2277"
 "hammerid" "1"
 }
 {
@@ -7207,8 +7207,8 @@ Revision: 2263
 "OnMapSpawn" "tonemap_globalSetAutoExposureMax10-1"
 "OnMapSpawn" "tonemap_globalSetAutoExposureMin0.70-1"
 "OnMapSpawn" "tonemap_globalSetBloomScale.20-1"
-"OnMultiNewRound" "tf_gamerulesSetBlueTeamRespawnWaveTime60-1"
-"OnMultiNewRound" "tf_gamerulesSetRedTeamRespawnWaveTime60-1"
+"OnMultiNewRound" "tf_gamerulesSetBlueTeamRespawnWaveTime50-1"
+"OnMultiNewRound" "tf_gamerulesSetRedTeamRespawnWaveTime50-1"
 "OnMultiNewRound" "intelEnable30-1"
 "OnMapSpawn" "holidayHalloweenSetUsingSpells10-1"
 "OnMultiNewRound" "koth_gamerulesPlayVOAnnouncer.SD_Event_FlagAvailableIn330.5-1"
@@ -9274,72 +9274,6 @@ Revision: 2263
 "hammerid" "411123"
 }
 {
-"model" "*64"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 270 0"
-"origin" "-2920 -661.18 178"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411219"
-}
-{
-"model" "*65"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 90 0"
-"origin" "-2920 629 178"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411239"
-}
-{
-"model" "*66"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 0 0"
-"origin" "-3071 -16.09 321"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411266"
-}
-{
-"model" "*67"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 180 0"
-"origin" "-2769 -16.09 321"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411285"
-}
-{
-"model" "*68"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 90 0"
-"origin" "-2920 245 321"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411325"
-}
-{
-"model" "*69"
-"StartDisabled" "0"
-"speed" "25"
-"spawnflags" "1"
-"pushdir" "0 270 0"
-"origin" "-2920 -399.82 321"
-"alternateticksfix" "0"
-"classname" "trigger_push"
-"hammerid" "411342"
-}
-{
 "origin" "-571.644 1388 -372"
 "radius" "-1"
 "MainSoundscapeName" "outside"
@@ -9790,7 +9724,7 @@ Revision: 2263
 "hammerid" "470296"
 }
 {
-"model" "*70"
+"model" "*64"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -10010,7 +9944,7 @@ Revision: 2263
 "OnReturn" "returnPlaySound0-1"
 }
 {
-"model" "*71"
+"model" "*65"
 "TeamNum" "0"
 "StartDisabled" "0"
 "croc_model" "models/props_island/crocodile/crocodile.mdl"
@@ -10088,10 +10022,10 @@ Revision: 2263
 {
 "origin" "-2542.98 -350.826 -304.913"
 "targetname" "pumpkinManager"
-"respawn_time" "15"
+"respawn_time" "16"
 "random_rotation" "1"
 "entity_name" "tf_pumpkin_bomb"
-"entity_count" "8"
+"entity_count" "7"
 "drop_to_ground" "1"
 "classname" "entity_spawn_manager"
 "hammerid" "505726"
@@ -10103,17 +10037,7 @@ Revision: 2263
 "hammerid" "505732"
 }
 {
-"origin" "-1488 -16 -286"
-"tier" "0"
-"fademindist" "-1"
-"fademaxdist" "0"
-"AutoMaterialize" "1"
-"angles" "0 0 0"
-"classname" "tf_spell_pickup"
-"hammerid" "505768"
-}
-{
-"model" "*72"
+"model" "*66"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "510025"
@@ -11436,7 +11360,7 @@ Revision: 2263
 "hammerid" "536763"
 }
 {
-"model" "*73"
+"model" "*67"
 "volume" "0"
 "targetname" "lighthouse_parent"
 "spawnflags" "193"
@@ -11615,7 +11539,7 @@ Revision: 2263
 "hammerid" "550334"
 }
 {
-"model" "*74"
+"model" "*68"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "550678"
@@ -11813,7 +11737,7 @@ Revision: 2263
 "hammerid" "639790"
 }
 {
-"model" "*75"
+"model" "*69"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11832,25 +11756,25 @@ Revision: 2263
 "hammerid" "654212"
 }
 {
-"model" "*76"
+"model" "*70"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "654337"
 }
 {
-"model" "*77"
+"model" "*71"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "654349"
 }
 {
-"model" "*78"
+"model" "*72"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "654650"
 }
 {
-"model" "*79"
+"model" "*73"
 "StartDisabled" "0"
 "classname" "func_respawnflag"
 "hammerid" "654655"
@@ -11877,5 +11801,71 @@ Revision: 2263
 "cspinup" "0"
 "classname" "ambient_generic"
 "hammerid" "673922"
+}
+{
+"model" "*74"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 90 0"
+"origin" "-2920 629 178"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411239"
+}
+{
+"model" "*75"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 90 0"
+"origin" "-2920 245 321"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411325"
+}
+{
+"model" "*76"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 0 0"
+"origin" "-3071 -16.09 321"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411266"
+}
+{
+"model" "*77"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 270 0"
+"origin" "-2920 -399.82 321"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411342"
+}
+{
+"model" "*78"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 180 0"
+"origin" "-2769 -16.09 321"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411285"
+}
+{
+"model" "*79"
+"StartDisabled" "0"
+"speed" "50"
+"spawnflags" "1"
+"pushdir" "0 270 0"
+"origin" "-2920 -661.18 178"
+"alternateticksfix" "0"
+"classname" "trigger_push"
+"hammerid" "411219"
 }
  

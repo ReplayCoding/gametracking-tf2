@@ -39,14 +39,14 @@ HOLA, SCOUT. SOY PAULING. YO, EH, RECIBÍ TU MENSAJE. MENSAJES. TODOS ELLOS. AS�
 	"quest25000objectivedesc0"		"Conseguir puntos como Scout: %s1"
 	"quest25000objectivedesc1"		"Matar en mitad de un salto como Scout: %s1"
 	"quest25000objectivedesc10"		"Matar a un enemigo aturdido como Scout: %s1"
-	"quest25000objectivedesc11"		"Evitar 100 de daño como Scout: %s1"
+	"quest25000objectivedesc11"		"Evitar 100 puntos de daño como Scout: %s1"
 	"quest25000objectivedesc12"		"Víctima por minicrítico: %s1"
 	"quest25000objectivedesc2"		"Matar a un Demoman como Scout: %s1"
 	"quest25000objectivedesc3"		"Capturar un objetivo como Scout: %s1"
 	"quest25000objectivedesc4"		"Matar como Scout: %s1"
 	"quest25000objectivedesc5"		"Matar a un Medic como Scout: %s1"
 	"quest25000objectivedesc7"		"Matar durante un salto triple como Scout: %s1"
-	"quest25000objectivedesc8"		"Curarse 100 de salud como Scout: %s1"
+	"quest25000objectivedesc8"		"Curar 100 puntos de salud como Scout: %s1"
 	"quest25000objectivedesc9"		"Matar a un enemigo que sangra como Scout: %s1"
 	"quest25001desc0"		"Completa varias tareas como Soldier para transmitir este contrato."
 	"quest25001desc1"		"************
@@ -86,13 +86,13 @@ ATENCIÓN, SOLDIER. ALFA. ROMEO. TÉRMINOS MILITARES. TENGO UNA MISIÓN PARA TI,
 CONTRATO DE MANNCO LLAMADA-A-FAX 1.54.45
 
 TIENE 1 NUEVA LLAMADA 
-ID DEL MENSAJE: <915PAULING>
+ID. DEL MENSAJE: <915PAULING>
 
 PROCESANDO...
 
 ************
 
-SI ESTA MISIÓN NO FUESE UNA MÁXIMA NEGACIÓN, SERÍAS UN HÉROE POR ESTO, HIJO. HABRÍA UN DESFILE. Y MEDALLAS. CON IMÁGENES DEL DESFILE EN ELLAS.
+SI ESTA MISIÓN NO FUERA UNA MÁXIMA NEGACIÓN, SERÍAS UN HÉROE POR ESTO, HIJO. HABRÍA UN DESFILE. Y MEDALLAS. CON IMÁGENES DEL DESFILE EN ELLAS.
 
 <FIN TRANSCRIPCIÓN>
 
@@ -141,7 +141,7 @@ SOLDIER, ¿SABES QUIÉNES NO QUIEREN QUE SE TE ENCARGUE ESTA MISIÓN? HIPPIES. C
 	"quest25001objectivedesc5"		"Conseguir un impacto directo con un cohete: %s1"
 	"quest25001objectivedesc6"		"Demomen asesinados como Soldier: %s1"
 	"quest25001objectivedesc7"		"Víctima por minicrítico como Soldier: %s1"
-	"quest25001objectivedesc8"		"Curarse 200 de daño como Soldier: %s1"
+	"quest25001objectivedesc8"		"Curar 200 puntos de daño como Soldier: %s1"
 	"quest25001objectivedesc9"		"Medics asesinados como Soldier: %s1"
 	"quest25002desc0"		"Completa varias tareas como Pyro para transmitir este contrato."
 	"quest25002desc1"		"************
@@ -149,12 +149,12 @@ SOLDIER, ¿SABES QUIÉNES NO QUIEREN QUE SE TE ENCARGUE ESTA MISIÓN? HIPPIES. C
 CONTRATO DE MANNCO LLAMADA-A-FAX 1.54.45
 
 TIENE 1 NUEVA LLAMADA 
-ID DEL MENSAJE: <915PAULING>
+ID. DEL MENSAJE: <915PAULING>
 
 PROCESANDO...
 
 
-¡OYE, PYRO! ¿QUIERES HACERLE UN GRAN FAVOR A MISS PAULING?
+¡OYE, PYRO! ¿QUIERES HACERLE UN GRAN FAVOR A LA SEÑORITA PAULING?
 
 <FIN TRANSCRIPCIÓN>
 
@@ -206,13 +206,13 @@ DEMO, SOY PAULING. DIRIGE TUS GLOBOS OCULTARES HACIA ESTO. GLOBO [00:03 DE SILEN
 CONTRATO DE MANNCO LLAMADA-A-FAX 1.54.45
 
 TIENE 1 NUEVA LLAMADA 
-ID DEL MENSAJE: <915PAULING>
+ID. DEL MENSAJE: <915PAULING>
 
 PROCESANDO...
 
 ************
 
-¿DEMO? SOY TU HÍGADO. NAH MENTIRA, SOY MISS PAULING. SI FUERA TU HÍGADO SIMPLEMENTE ESTARÍA GRITANDO. TENGO UN TRABAJITO PARA TI.
+¿DEMO? SOY TU HÍGADO. NAH MENTIRA, SOY LA SEÑORITA PAULING. SI FUERA TU HÍGADO SIMPLEMENTE ESTARÍA GRITANDO. TENGO UN TRABAJITO PARA TI.
 
 <FIN TRANSCRIPCIÓN>
 
@@ -312,7 +312,7 @@ HEAVY. NECESITO QUE SEAS PRUDENTE CON ESTO. [00:04 DE SILENCIO] BUENO, SIEMPRE L
 	"quest25004objectivedesc2"		"Matar a un Scout como Heavy: %s1"
 	"quest25004objectivedesc3"		"Destruir la construcción de un Engineer como Heavy: %s1"
 	"quest25004objectivedesc4"		"Matar a un Heavy como Heavy: %s1"
-	"quest25004objectivedesc5"		"Recibir 1000 de daño en una misma vida como Heavy: %s1"
+	"quest25004objectivedesc5"		"Recibir 1000 puntos daño en una sola vida como Heavy: %s1"
 	"quest25004objectivedesc6"		"Conseguir una víctima como Heavy: %s1"
 	"quest25004objectivedesc8"		"Alimentar a un compañero como Heavy: %s1"
 	"quest25005desc0"		"Completa varias tareas como Engineer para transmitir este contrato."
@@ -370,7 +370,7 @@ ENGIE, SOY PAULING. ¿ESTÁ SCOUT POR AHÍ? TOSE SI ES ASÍ. TENGO UN TRABAJO PA
 	"quest25005objectivedesc2"		"Conseguir una víctima con un centinela: %s1"
 	"quest25005objectivedesc3"		"Teleportar a un compañero de equipo: %s1"
 	"quest25005objectivedesc4"		"Conseguir una víctima como Engineer: %s1"
-	"quest25005objectivedesc5"		"Dispensar 500 de salud a tus compañeros: %s1"
+	"quest25005objectivedesc5"		"Curar 500 puntos de salud a tus compañeros con tu dispensador: %s1"
 	"quest25005objectivedesc7"		"Matar con un centinela usando el Arreo: %s1"
 	"quest25005objectivedesc8"		"Víctima por críticos de venganza: %s1"
 	"quest25006desc0"		"Completa varias tareas como Medic para transmitir este contrato."
@@ -747,7 +747,7 @@ HORA DE REVISAR EL DESEMPEÑO, CHICOS. SALGAN DE AHÍ Y HAGAN LO QUE TENGAN QUE 
 ************"
 	"quest25013name0"		"Contrato abierto"
 	"quest25013objectivedesc0"		"Conseguir puntos: %s1"
-	"quest25013objectivedesc1"		"Conseguir 10 puntos en una misma vida: %s1"
+	"quest25013objectivedesc1"		"Conseguir 10 puntos en una sola vida: %s1"
 	"quest25013objectivedesc2"		"Ser el MJ al final de una ronda: %s1"
 	"quest25014desc0"		"Consigue víctimas para completar este contrato."
 	"quest25014desc1"		"************
@@ -784,7 +784,7 @@ NECESITAMOS UN BUEN NÚMERO DE VÍCTIMAS ESTA VEZ, CHICOS. QUIERO SER CAPAZ DE V
 ************"
 	"quest25014name0"		"Contrato de asesinato"
 	"quest25014objectivedesc0"		"Conseguir una víctima: %s1"
-	"quest25014objectivedesc1"		"Conseguir 5 víctimas en una misma vida: %s1"
+	"quest25014objectivedesc1"		"Conseguir 5 víctimas en una sola vida: %s1"
 	"quest25014objectivedesc10"		"Matar a un Spy: %s1"
 	"quest25014objectivedesc2"		"Matar a un Scout: %s1"
 	"quest25014objectivedesc3"		"Matar a un Soldier: %s1"
@@ -874,7 +874,7 @@ Hum... Me sorprende que añadiera ese ahí."
 	"quest25022objectivedesc5"		"Matar a un enemigo mientras se lleva una maldición: %s1"
 	"quest25022objectivedesc6"		"Recolectar almas en Carnival of Carnage: %s1"
 	"quest25023desc1"		"Oh, hola, Sauron. ¿Cómo dices? Sí, Merasmus HA estado entrenando. Es halagador que te hayas dado cuenta, yo -- espera un momento, necesito entregarle un contrato a un mercenario idiota."
-	"quest25023desc2"		"¿No mires muy de cerca ESTA Merasmisión! Está infestada con una horda de gusanos infernales que vuestros científicos humanos llamarían PECECILLOS DE PLATA! ¡Sí, mortal, hubieron DAÑOS CONSIDERABLES POR AGUA en el almacén de alquiler de Merasmus!"
+	"quest25023desc2"		"¡No mires demasiado de cerca ESTA Merasmisión! ¡Está infestado de una plaga de gusanos infernales que tus científicos humanos llamarían PECECILLOS DE PLATA! ¡Sí, mortal, se produjeron DAÑOS SIGNIFICATIVOS POR AGUA en la unidad de almacenamiento de Merasmus!"
 	"quest25023name1"		"Mann Manor"
 	"quest25023name1632016"		"Mann Manor"
 	"quest25023objectivedesc1"		"Pasarle \"la traes\" a un jugador en Mann Manor: %s1"
@@ -953,7 +953,7 @@ Hum... Me sorprende que añadiera ese ahí."
 	"quest25034objectivedesc1"		"Conseguir puntos como Soldier: %s1"
 	"quest25034objectivedesc2"		"Matar como Soldier: %s1"
 	"quest25034objectivedesc3"		"Matar durante un salto con cohete como Soldier: %s1"
-	"quest25034objectivedesc4"		"Curarte 100 de daño por impactos en una misma vida como Soldier: %s1"
+	"quest25034objectivedesc4"		"Curar 100 puntos de daño por impactos en una sola vida como Soldier: %s1"
 	"quest25035desc1"		""
 	"quest25035name0"		"Pyro - Aire comprimido"
 	"quest25035name1"		"Aire comprimido"
@@ -989,26 +989,26 @@ Hum... Me sorprende que añadiera ese ahí."
 	"quest25039objectivedesc1"		"Conseguir puntos como Heavy: %s1"
 	"quest25039objectivedesc2"		"Capturar o defender un objetivo como Heavy: %s1"
 	"quest25039objectivedesc3"		"Alimentar a un compañero herido: %s1"
-	"quest25039objectivedesc4"		"Recibir 1000 de daño en una misma vida: %s1"
+	"quest25039objectivedesc4"		"Recibir 1000 puntos de daño en una sola vida: %s1"
 	"quest25040desc1"		""
 	"quest25040name0"		"Heavy - Puños de Acero"
 	"quest25040name1"		"Puños de Acero"
 	"quest25040objectivedesc1"		"Conseguir puntos como Heavy: %s1"
 	"quest25040objectivedesc2"		"Matar como Heavy: %s1"
-	"quest25040objectivedesc3"		"Bloquear 500 de daño como Heavy: %s1"
-	"quest25040objectivedesc4"		"Recibir 1000 de daño en una misma vida: %s1"
+	"quest25040objectivedesc3"		"Bloquear 500 puntos de daño como Heavy: %s1"
+	"quest25040objectivedesc4"		"Recibir 1000 puntos de daño en una sola vida: %s1"
 	"quest25041desc1"		""
 	"quest25041name0"		"Engineer - Arreo"
 	"quest25041name1"		"Arreo"
 	"quest25041objectivedesc1"		"Conseguir puntos como Engineer: %s1"
 	"quest25041objectivedesc2"		"Matar con un centinela: %s1"
 	"quest25041objectivedesc3"		"Matar con un centinela usando el Arreo: %s1"
-	"quest25041objectivedesc4"		"Conseguir 5 víctimas por centinela en una misma vida: %s1"
+	"quest25041objectivedesc4"		"Conseguir 5 víctimas por centinela en una sola vida: %s1"
 	"quest25042desc1"		""
 	"quest25042name0"		"Engineer - Justiciera"
 	"quest25042name1"		"Justiciera"
 	"quest25042objectivedesc1"		"Conseguir puntos como Engineer: %s1"
-	"quest25042objectivedesc2"		"Dispensar 500 de salud a tus compañeros: %s1"
+	"quest25042objectivedesc2"		"Curar 500 puntos de salud a tus compañeros con tu dispensador: %s1"
 	"quest25042objectivedesc3"		"Teleportar a un compañero de equipo: %s1"
 	"quest25042objectivedesc4"		"Matar con críticos de venganza con la Justiciera: %s1"
 	"quest25043desc1"		""

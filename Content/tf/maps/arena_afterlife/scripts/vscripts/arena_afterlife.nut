@@ -106,6 +106,13 @@ pd_logic.AcceptInput("DisableMaxScoreUpdating", "0", null, null);
     return true;
 }.bindenv(this);
 
+::KillIfValid <- function(entity)
+{
+    if (entity && entity.IsValid())
+        entity.Kill();
+    return null;
+}
+
 tf_gamerules <- Entities.FindByClassname(null, "tf_gamerules");
 
 PrecacheScriptSound("Announcer.HellIntro");
@@ -452,9 +459,13 @@ function ResetNewMiniRound()
     foreach(trigger, location in spawn_triggers)
         trigger.SetAbsOrigin(location);
 
-    PurgeSouls();
-    PurgePitysoul();
-    pitysoulthresholds <- [ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD, ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD];
+    try
+    {
+        PurgeSouls();
+        PurgePitysoul();
+        pitysoulthresholds <- [ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD, ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD];
+    }
+    catch (e) { }
 
     DoEntFire("arena_setup_start*", "Trigger", "", 0, null, null);
     DoEntFire("arena_door*", "Close", "", 0, null, null);
@@ -500,8 +511,13 @@ function BeginMiniRound()
     DoEntFire("afterlife_fastrespawner*", "Enable", "", 0, null, null);
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "2", null, null);
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "3", null, null);
-    PurgeSouls();
-    PurgePitysoul();
+
+    try
+    {
+        PurgeSouls();
+        PurgePitysoul();
+    }
+    catch (e) { }
 
     //disable first blood if no first blood buffs, or if disabled by convar, or if teams are too small
     if(ARENA_FIRST_BLOOD_BUFFS.len() <= 0)
@@ -542,12 +558,10 @@ function BeginMiniRound()
 
 function EndMiniRound(winnerTeam, wipeout = true)
 {
+    EntFireByHandle(self, "RunScriptCode", "ResetNewMiniRound()", ARENA_HUMILIATION_LENGTH, null, null);
+
     isMiniRoundOver = true;
     overtimeTrigerred = false;
-
-    PurgeSouls();
-    PurgePitysoul();
-    LastManHandler();
 
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "2", null, null);
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "3", null, null);
@@ -555,8 +569,6 @@ function EndMiniRound(winnerTeam, wipeout = true)
     EntFireByHandle(tf_gamerules, "SetRedTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
     EntFireByHandle(tf_gamerules, "SetBlueTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
     DoEntFire("afterlife_fastrespawner*", "Disable", "", 0, null, null);
-
-    EntFireByHandle(self, "RunScriptCode", "ResetNewMiniRound()", ARENA_HUMILIATION_LENGTH, null, null);
 
     foreach(player in GetPlayers(winnerTeam))
         player.AddCond(TF_COND_CRITBOOSTED_BONUS_TIME);
@@ -595,6 +607,10 @@ function EndMiniRound(winnerTeam, wipeout = true)
         DoEntFire("arena_stalemate*", "Trigger", "", 0, null, null);
 
     DisplayVictoryMessage(winnerTeam, wipeout);
+
+    PurgeSouls();
+    PurgePitysoul();
+    LastManHandler();
 }
 
 //=================================================================
@@ -693,9 +709,14 @@ function StripSoul(player)
 {
     if (!soul_cache.rawin(player)) return;
 
-    soul_cache[player][0].Kill();
-    soul_cache[player][1].Kill();
-    soul_cache[player][2].Kill();
+    try
+    {
+        KillIfValid(soul_cache[player][0]);
+        KillIfValid(soul_cache[player][1]);
+        KillIfValid(soul_cache[player][2]);
+    }
+    catch (e) { }
+
     player.SetScriptOverlayMaterial("");
 
     soul_cache.rawdelete(player);
@@ -706,9 +727,13 @@ function PurgeSouls()
 {
     foreach(player, soulpart in soul_cache)
     {
-        soul_cache[player][0].Kill();
-        soul_cache[player][1].Kill();
-        soul_cache[player][2].Kill();
+        try
+        {
+            KillIfValid(soul_cache[player][0]);
+            KillIfValid(soul_cache[player][1]);
+            KillIfValid(soul_cache[player][2]);
+        }
+        catch (e) { }
     }
     foreach (player in GetPlayers())
     {
@@ -881,7 +906,7 @@ function SpawnPitysoul()
         return;
     }
 
-    pitysoul.Kill();
+    KillIfValid(pitysoul);
     pitysoul <- null;
     GiveSoul(activator);
     EmitSoundOnClient("Halloween.PumpkinPickup", activator);
@@ -971,10 +996,8 @@ function LastManHandler()
 //strips lastman boons
 function LastManRedStrip(player)
 {
-    if(lastmanredglow != null && lastmanredglow.IsValid())
-        lastmanredglow.Kill();
-    if(lastmanredglowpart != null && lastmanredglowpart.IsValid())
-        lastmanredglowpart.Kill();
+    KillIfValid(lastmanredglow);
+    KillIfValid(lastmanredglowpart);
     lastmanredglow <- null;
     lastmanredglowpart <- null;
     if (!player || !player.IsValid()) return;
@@ -983,10 +1006,8 @@ function LastManRedStrip(player)
 }
 function LastManBluStrip(player)
 {
-    if(lastmanbluglow != null && lastmanbluglow.IsValid())
-        lastmanbluglow.Kill();
-    if(lastmanbluglowpart != null && lastmanbluglowpart.IsValid())
-        lastmanbluglowpart.Kill();
+    KillIfValid(lastmanbluglow);
+    KillIfValid(lastmanbluglowpart);
     lastmanbluglow <- null;
     lastmanbluglowpart <- null;
     if (!player || !player.IsValid()) return;
@@ -997,10 +1018,8 @@ function LastManBluStrip(player)
 //grants lastman boons
 function LastManRedBoost(player)
 {
-    if (lastmanredglow)
-        lastmanredglow.Kill();
-    if (lastmanredglowpart)
-        lastmanredglowpart.Kill();
+    KillIfValid(lastmanredglow);
+    KillIfValid(lastmanredglowpart);
     lastmanredglow <- SpawnEntityFromTable("tf_glow", {
         targetname = "lastmanredglow",
         target = "bignet",
@@ -1024,10 +1043,8 @@ function LastManRedBoost(player)
 }
 function LastManBluBoost(player)
 {
-    if (lastmanbluglow)
-        lastmanbluglow.Kill();
-    if (lastmanbluglowpart)
-        lastmanbluglowpart.Kill();
+    KillIfValid(lastmanbluglow);
+    KillIfValid(lastmanbluglowpart);
     lastmanbluglow <- SpawnEntityFromTable("tf_glow", {
         targetname = "lastmanbluglow",
         target = "bignet",
