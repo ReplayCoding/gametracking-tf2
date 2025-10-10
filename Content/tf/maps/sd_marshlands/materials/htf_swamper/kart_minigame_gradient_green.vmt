@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sd_doomsday_event/kart_minigame_gradient_green"
+	"$translucent" "1"
+	"$additive" "1"
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "0.7"
+			"texturescrollangle" "180"
+		}
+	}
+}

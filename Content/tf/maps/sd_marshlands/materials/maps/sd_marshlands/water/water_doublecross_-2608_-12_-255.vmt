@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sd_marshlands/c-2608_-12_-255"
+		"Proxies"
+		{
+		}
+	}
+}

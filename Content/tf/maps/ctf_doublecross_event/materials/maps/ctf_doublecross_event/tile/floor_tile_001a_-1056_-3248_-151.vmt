@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_doublecross_event/c-1056_-3248_-151"
+	}
+}

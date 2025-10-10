@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/arena_afterlife/c2560_512_-80"
+		"Proxies"
+		{
+		}
+	}
+}

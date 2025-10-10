@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_POWERHOUSE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_cowerhouse/c-698_-5612_1440"
+		"Proxies"
+		{
+		}
+	}
+}

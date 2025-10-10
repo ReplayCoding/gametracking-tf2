@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"winter/rockground010"
+	"$normalmapalphaenvmapmask"		"1"
+	"$bumpmap"		"htf_swamper/rockground_normal"
+	"$envmap"		"env_cubemap"
+	"$envmapcontrast"		"0"
+	"$envmapsaturation"		"1"
+	"$envmaptint"		"[0.08 0.08 0.08]"
+	"$ssbump"		"1"
+	"$surfaceprop"		"dirt"
+	"%detailtype"		"tf_grass"
+	"%keywords"		"tf"
+	"%tooltexture"		"winter/blendgraveltograss002_tooltexture"
+	"<dx90"
+	{
+		"$fallbackmaterial"		"htf_swamper/blendgraveltograss002_dx80"
+	}
+}

@@ -1,0 +1,26 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud\powerhouse_event_hud_bg"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$distancealpha" 1
+
+	// slight outer soft edge
+	$softedges 1
+	$edgesoftnessstart 0.45
+	$edgesoftnessend 0.3
+	$scaleedgesoftnessbasedonscreenres 1
+
+	// drop shadow
+	$glow 1
+	$glowcolor "[0 0 0]"
+	$glowalpha 0.45
+	$glowstart 0.03
+	$glowend 0.5
+	$glowx -0.001
+	$glowy -0.001
+
+}

@@ -1,0 +1,395 @@
+"Hud.PointCaptured"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"misc/halloween/strongman_bell_01.wav"
+}
+"Announcer.RoundBegins1Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"            "vo/halloween_merasmus/sf14_merasmus_begins_01sec.mp3"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"            "vo/halloween_merasmus/sf14_merasmus_begins_02sec.mp3"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"            "vo/halloween_merasmus/sf14_merasmus_begins_03sec.mp3"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"            "vo/halloween_merasmus/sf14_merasmus_begins_04sec.mp3"
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "wave"            "vo/halloween_merasmus/sf14_merasmus_begins_05sec.mp3"
+}
+
+"Announcer.RoundEnds5seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/halloween_merasmus/sf14_merasmus_begins_05sec.mp3"
+}
+
+"Announcer.RoundEnds4seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/halloween_merasmus/sf14_merasmus_begins_04sec.mp3"
+}
+
+"Announcer.RoundEnds3seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/halloween_merasmus/sf14_merasmus_begins_03sec.mp3"
+}
+
+"Announcer.RoundEnds2seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/halloween_merasmus/sf14_merasmus_begins_02sec.mp3"
+}
+
+"Announcer.RoundEnds1seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/halloween_merasmus/sf14_merasmus_begins_01sec.mp3"
+}
+
+"Announcer.Success"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NORM"
+    
+    "rndwave"
+    {
+        "wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_01.mp3"
+        "wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_02.mp3"
+        "wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_05.mp3"
+        "wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_17.mp3"
+		"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_18.mp3"
+    }
+}
+
+"Announcer.Failure"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NORM"
+        
+      "rndwave"
+    {  
+	"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_14.mp3"
+		"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_03.mp3"
+		"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_04.mp3"
+        "wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_08.mp3"
+		"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_07.mp3"
+		"wave"          "vo/halloween_merasmus/sf14_merasmus_general_purpose_06.mp3"
+	}
+}
+
+"Announcer.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"ui\halloween_boss_escape_sixty.wav"
+}
+
+"Announcer.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"ui\halloween_boss_escape_sixty.wav"
+}
+
+"Announcer.RoundEnds10seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"ui\halloween_boss_escape_ten.wav"
+}
+
+"Announcer.CompGame1Begins60Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins30Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins10Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins05Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins04Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins03Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins02Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins01Seconds"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBeginsFight"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompFinalGameBeginsFight"
+{
+    "channel"       "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.SD_RoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+	}
+}
+"CaptureFlag.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+	}
+}
+"CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"misc\halloween\spell_pickup_rare.wav"
+	}
+}
+"CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+	}
+}
+"CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+
+	}
+}
+"CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+	}
+}
+"CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"misc\halloween\spell_pickup.wav"
+	}
+}

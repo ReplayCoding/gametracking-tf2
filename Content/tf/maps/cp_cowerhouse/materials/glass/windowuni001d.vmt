@@ -1,0 +1,10 @@
+"LightmappedGeneric" {
+	"$basetexture" "glass/windowuni001d"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"%keywords" "tf"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+//	"$envmapsaturation" 1
+	"$envmaptint" "[ .9 .9 .9]"
+}

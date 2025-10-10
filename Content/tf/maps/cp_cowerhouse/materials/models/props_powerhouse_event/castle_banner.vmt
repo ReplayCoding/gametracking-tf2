@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_powerhouse_event/castle_banner"
+	$bumpmap "models/props_powerhouse_event/castle_banner_n"
+	$phong 1
+	$phongfresnelranges "[0.25 0.62 1]"
+	$phongexponent 9
+	$phongboost 0.13
+}

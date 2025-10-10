@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 		"models\flag/flag_duffelbag_blue"
+	"$bumpmap"		"models\flag/flag_duffelbag_normal"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"5"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$selfillum"		"1"
+	"$selfillummask"		"models\flag/flag_duffelbag_illummask"
+	//"$rimlight"		"1"
+	//"$rimlightexponent"		"4"
+	//"$rimlightboost"		"2"
+}
+

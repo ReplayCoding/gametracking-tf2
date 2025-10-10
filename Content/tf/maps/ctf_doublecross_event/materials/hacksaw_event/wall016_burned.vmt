@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hacksaw_event/wall016_burned"
+	"%keywords" "tf"
+	"$selfillum" "1"
+	"$bumpmap" "Metal/wall016_bump-ssbump"
+        	"$ssbump" "1"
+	"$surfaceprop" "metal"
+	"Proxies"
+	{
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	2
+			sinemin	 	1
+			sinemax		2 
+		}
+	}
+}

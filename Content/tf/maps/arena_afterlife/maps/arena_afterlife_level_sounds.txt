@@ -1,0 +1,459 @@
+"Announcer.RoundBegins10Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_tenseconds01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_tenseconds02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_tenseconds03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_tenseconds04.mp3"
+	}
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_countdown05.mp3"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_countdown04.mp3"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_countdown03.mp3"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_countdown02.mp3"
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_countdown01.mp3"
+}
+
+"Announcer.AM_RoundStartRandom"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_roundbegins05.mp3"
+	}
+}
+
+"Announcer.TheirTeamWiped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped05.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemywiped06.mp3"
+	}
+}
+
+"Announcer.Success"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_controlpointcapped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_controlpointcapped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_controlpointcapped02.mp3"
+	}
+}
+
+"Announcer.YourTeamWiped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_teamwiped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_teamwiped02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_teamwiped03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_teamwiped04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_teamwiped04.mp3"
+	}
+}
+
+"Announcer.Failure"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_enemycontrolpointcapped01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemycontrolpointcapped02.mp3"
+	}
+}
+
+"Announcer.TieGame"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_tie01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_tie02.mp3"
+	}
+}
+
+"Announcer.AM_FirstBloodFast"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_firstbloodfast01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstbloodfast01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstbloodfast01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstbloodfast02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstbloodfast02.mp3"
+	}
+}
+
+"Announcer.AM_FirstBloodFinally"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/tf_thedevil_firstbloodlate01.mp3"
+}
+
+"Announcer.AM_FirstBloodRandom"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_firstblood01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_firstblood05.mp3"
+	}
+}
+
+"Announcer.AM_CapEnabledRandom"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_controlpointenabled01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_controlpointenabled02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_controlpointenabled03.mp3"
+	}
+}
+
+"Announcer.ControlPointContested_Neutral"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_enemycapturing01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_enemycapturing02.mp3"
+	}
+}
+
+"Announcer.HellIntro"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro05.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_hell_intro06.mp3"
+	}
+}
+
+"Announcer.SoulPickup"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_soulpickup05.mp3"
+	}
+}
+
+"Announcer.AltarNoSoul"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_nosoul01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_nosoul02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_nosoul03.mp3"
+	}
+}
+
+"Announcer.LastManStanding"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding01.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding02.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding03.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding04.mp3"
+		"wave"			"vo_afterlife/tf_thedevil_lastplayerstanding05.mp3"
+	}
+}
+
+"Announcer.LooseSoul"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo_afterlife/tf_thedevil_loosesoul01.mp3"
+	}
+}
+
+"Invade.TeamStolen"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"	
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/souls_receive1.wav"
+		"wave"	"player/souls_receive2.wav"
+		"wave"	"player/souls_receive3.wav"
+	}
+}
+
+"Invade.EnemyStolen"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"	
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/souls_receive1.wav"
+		"wave"	"player/souls_receive2.wav"
+		"wave"	"player/souls_receive3.wav"
+	}
+}
+
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"vo_afterlife/afterlife_your_team_lost.mp3"
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"vo_afterlife/afterlife_your_team_won.mp3"
+}
+
+"Game.Stalemate"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"vo_afterlife/afterlife_your_team_lost.mp3"
+}
+
+"Game.SuddenDeath"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/afterlife_empty.mp3"
+}
+
+"Game.Overtime"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+    "wave"			"vo_afterlife/afterlife_empty.mp3"
+}
+
+"sf15.Merasmus.Gargoyle.Spawn"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_01.mp3"
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_02.mp3"
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_03.mp3"
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_04.mp3"
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_05.mp3"
+		"wave" 			"vo/halloween_merasmus/hall2015_garg_spawn_06.mp3"		
+		"wave" 			"vo_afterlife/tf_merasmus_thedevil_garg_spawn_07.mp3"			
+	}
+}

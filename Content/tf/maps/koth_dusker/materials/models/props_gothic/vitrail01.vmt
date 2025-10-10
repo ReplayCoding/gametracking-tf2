@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_gothic/vitrail01"
+	"$selfillum" "1"
+	"$bumpmap" 	"models/props_gothic/vitrail01_normal"
+	"$envmap" 		"env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"%keywords" "tf"
+	"$surfaceprop" "glass"
+
+}

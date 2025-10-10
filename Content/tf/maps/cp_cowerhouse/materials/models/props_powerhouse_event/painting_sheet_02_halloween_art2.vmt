@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_powerhouse_event/painting_sheet_02_halloween_art2"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+	"$nocull" "1"
+}

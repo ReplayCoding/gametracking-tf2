@@ -1,0 +1,64 @@
+"Dusker.Win"
+{
+    "channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"koth_dusker/dusker_win.mp3"
+}
+
+"Dusker.Fail"
+{
+    "channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"koth_dusker/dusker_lose.mp3"
+}
+
+"Dusker.Capture"
+{
+    "channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"	"koth_dusker/dusker_point01.mp3"
+		"wave"	"koth_dusker/dusker_point02.mp3"
+		"wave"	"koth_dusker/dusker_point03.mp3"
+	}
+}
+
+"Dusker.Roundstart"
+{
+    "channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"	"koth_dusker/dusker_roundstart01.mp3"
+		"wave"	"koth_dusker/dusker_roundstart02.mp3"
+		"wave"	"koth_dusker/dusker_roundstart03.mp3"
+		"wave"	"koth_dusker/dusker_roundstart04.mp3"
+	}
+}
+
+"Hud.PointCaptured"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"misc/halloween/strongman_bell_01.wav"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/SNOW_FULL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sd_marshlands/c-2376_-968_-256"
+	}
+}

@@ -1,0 +1,84 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/props_devilcross/ghosttrain_engine"
+	"$lightwarptexture"		"models/lightwarps/robot_lightwarp"
+	"$phong"			"1"
+	"$phongexponent"		"5"
+	"$phongboost"		"0.200000"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"10"
+	"$rimlightboost"		"1"
+	"$selfillumtint"		"{ 999 999 999 }"
+	"$selfIllumFresnel"		"1"
+	"$selfIllumFresnelMinMaxExp"	"[0 10 10]"
+	"$phongtint"		"{ 42 245 129 }"
+	"$translucent"		"1"
+	//"$additive"		"1"
+	"$half"		"0.775000"
+	"$tintaddamount"		"0.250000"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"proxies"
+	{
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$phongtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$selfillumtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$phongtint"
+			"srcVar2"		"$half"
+			"resultVar"		"$phongtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$selfillumtint"
+			"srcVar2"		"$half"
+			"resultVar"		"$selfillumtint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$phongtint"
+			"srcVar2"		"$tintaddamount"
+			"resultVar"		"$phongtint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$selfillumtint"
+			"srcVar2"		"$tintaddamount"
+			"resultVar"		"$selfillumtint"
+		}
+		"Sine"
+		{
+			"sineperiod"		"0.6"
+			"sinemin"		"0.2"
+			"sinemax"		"0.9"
+			"resultVar"		"$selfIllumFresnelMinMaxExp[0]"
+		}
+	}
+}
+
+

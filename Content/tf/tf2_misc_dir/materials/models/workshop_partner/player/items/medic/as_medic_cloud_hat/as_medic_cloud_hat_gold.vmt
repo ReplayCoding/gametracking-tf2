@@ -29,5 +29,26 @@
 	"$rimlightexponent" "4"
 	"$rimlightboost" ".5"
 
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
 	}
+}
 

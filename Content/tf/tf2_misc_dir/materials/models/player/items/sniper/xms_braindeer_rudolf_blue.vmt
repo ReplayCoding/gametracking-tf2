@@ -8,6 +8,12 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
+	">=DX90"
+	{
+		"$selfillum" 1
+		"$selfillummask" "models/player/items/sniper/xms_braindeer_illum"
+	}
+
 	"$yellow" "0"
 	"$one" "1"
 

@@ -1,0 +1,75 @@
+"Dusker.Outside"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"ambient/halloween/underground_wind_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".9"
+		"pitch"		"90"
+		"wave"		"ambient/windwinter.wav"
+	}
+	"playrandom"
+	{
+		"time"		"20, 30"
+		"volume"	".75, .85"
+		"pitch"		"100"
+//		"soundlevel"	"SNDLVL_85dB"
+		"rndwave"
+		{
+			"wave"	"ambient/crow1.wav"
+			"wave"	"ambient/crow2.wav"
+			"wave"	"ambient/crow3.wav"
+			"wave"	"ambient/crow4.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"35, 50"
+		"volume"	".75, .95"
+		"pitch"		"100"
+//		"soundlevel"	"SNDLVL_85dB"
+		"rndwave"
+		{
+			"wave"	"ambient/wolf01.wav"
+			"wave"	"ambient/wolf02.wav"
+			"wave"	"ambient/wolf03.wav"
+			"wave"	"ambient/owl1.wav"
+			"wave"	"ambient/owl2.wav"
+			"wave"	"ambient/owl3.wav"
+			"wave"	"ambient/owl4.wav"
+		}
+	}
+}
+
+"Dusker.Inside"
+{
+	"playlooping"
+	{
+		"volume"		".75"
+		"pitch"		"90"
+		"wave"		"ambient/halloween/underground_wind_lp_04.wav"
+	}
+	"playlooping"
+	{
+		"volume"		".9"
+		"pitch"		"90"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	"playrandom"
+	{
+		"time"		"20, 30"
+		"volume"	".5, .7"
+		"pitch"		"80, 100"
+//		"soundlevel"	"SNDLVL_85dB"
+		"rndwave"
+		{
+			"wave"	"ambient/creak01.wav"
+			"wave"	"ambient/creak02.wav"
+			"wave"	"ambient/creak03.wav"
+		}
+	}
+}

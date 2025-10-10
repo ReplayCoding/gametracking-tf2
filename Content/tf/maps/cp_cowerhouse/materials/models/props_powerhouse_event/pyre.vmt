@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_powerhouse_event/pyre"
+	"$selfillum" 	1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"[.5]"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[.5 1 2]"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "4"
+			"sinemin" ".8"
+			"sinemax" "6"
+			"resultVar" "$selfillumtint[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" "4"
+			"sinemin" ".2"
+			"sinemax" "6"
+			"resultVar" "$selfillumtint[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" "4"
+			"sinemin" ".2"
+			"sinemax" "6"
+			"resultVar" "$selfillumtint[2]"
+		}
+	}
+}

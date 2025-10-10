@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_powerhouse_event\waterfall_dark"
+	"$surfaceprop"	"default"
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.23
+			"texturescrollangle" 100
+		}
+	}
+}

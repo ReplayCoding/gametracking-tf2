@@ -1,0 +1,25 @@
+"UnLitTwoTexture"
+{
+    	"$basetexture"    "hacksaw_event/overlay_burning_edges"
+   	 "$texture2"    "hacksaw_event/fire_scrolling"
+    	"$additive" "1"
+     	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+    	"%keywords" "tf"
+    	"Proxies"
+    	{
+        		"TextureScroll"
+       	 	{
+            			"texturescrollvar" "$texture2transform"
+            			"texturescrollrate" .07
+            			"texturescrollangle" 90
+        		}
+    	}
+}
+
+
+
+

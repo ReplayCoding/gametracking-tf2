@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCHROME001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_doublecross_event/c1152_2304_9"
+	}
+}
