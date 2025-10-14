@@ -43,8 +43,8 @@ if (!("ARENA_HUD_PATH" in getroottable()))
         [Constants.ETFCond.TF_COND_TEAM_GLOWS,3,3]
     ];//buffs granted when someone resurrects -- first number is default, second number if they are outnumbered at least 2 to 1 -- this in addition to  full resupply and 50% overheal (125% max health)
 
-    ::ARENA_SETUP_LENGTH <- Convars.GetInt("tf_arena_preround_time");
-    ::ARENA_SCORE_LIMIT <- 3;
+    ::ARENA_SETUP_LENGTH <- 15;
+    ::ARENA_SCORE_LIMIT <- 2;
     ::ARENA_UNLOCK_TIME <- 60;
 
     ::ARENA_HUMILIATION_LENGTH <- 10;
@@ -63,6 +63,8 @@ if (ARENA_SETUP_LENGTH < 5)
 //===================================================================
 //Don't edit past this point
 //===================================================================
+
+local CRUMPKIN_INDEX = PrecacheModel("models/props_halloween/pumpkin_loot.mdl");
 
 /* Stock Arena has an extra HUD panel that displays the amount of players alive on each team.
    The only HUD that a map can edit is Player Destruction's bar at the bottom.
@@ -113,7 +115,20 @@ pd_logic.AcceptInput("DisableMaxScoreUpdating", "0", null, null);
     return null;
 }
 
+::IsValidPlayer <- function(player)
+{
+    try
+    {
+        return player && player.IsValid() && player.IsPlayer() && player.GetTeam() > 1 && GetPropIntArray(tf_player_manager, "m_iConnectionState", player.entindex()) == 1;
+    }
+    catch(e)
+    {
+        return false;
+    }
+}
+
 tf_gamerules <- Entities.FindByClassname(null, "tf_gamerules");
+tf_player_manager <- Entities.FindByClassname(null, "tf_player_manager");
 
 PrecacheScriptSound("Announcer.HellIntro");
 PrecacheScriptSound("Announcer.SoulPickup");
@@ -209,14 +224,22 @@ alive_player_cache <- [ [], [], [], [], [], [] ];
 hell_intro_cache <- [];
 soulless_caged_cache <- [];
 
-for (local player, team, i = 1; i <= MAX_CLIENTS; i++)
-    if ((player = PlayerInstanceFromIndex(i)) && (team = player.GetTeam()) > 1)
+for (local i = 1; i <= MAX_CLIENTS; i++)
+{
+    local player = PlayerInstanceFromIndex(i);
+    if (IsValidPlayer(player))
     {
+        local team = player.GetTeam();
+
         player_cache[0].push(player);
         player_cache[team].push(player);
-        alive_player_cache[0].push(player);
-        alive_player_cache[team].push(player);
+        if (player.GetPlayerClass() > 0)
+        {
+            alive_player_cache[0].push(player);
+            alive_player_cache[team].push(player);
+        }
     }
+}
 
 function GetPlayers(team = 0)
 {
@@ -264,10 +287,36 @@ function RemoveAlivePlayer(player, team = 0)
         alive_player_cache[team].remove(index);
 }
 
+function RebuildPlayerCache()
+{
+    try
+    {
+        player_cache <- [ [], [], [], [], [], [] ];
+        alive_player_cache <- [ [], [], [], [], [], [] ];
+
+        for (local i = 1; i <= MAX_CLIENTS; i++)
+        {
+            local player = PlayerInstanceFromIndex(i);
+            if (IsValidPlayer(player))
+            {
+                local team = player.GetTeam();
+                player_cache[0].push(player);
+                player_cache[team].push(player);
+                if (player.GetPlayerClass() > 0)
+                {
+                    alive_player_cache[0].push(player);
+                    alive_player_cache[team].push(player);
+                }
+            }
+        }
+    }
+    catch (e) { }
+}
+
 arenaListener.OnGameEvent_player_team <- function(params)
 {
     local player = GetPlayerFromUserID(params.userid);
-    if (!player) return;
+    if (!IsValidPlayer(player)) return;
     StripSoul(player);
 
     if (params.oldteam != null)
@@ -279,7 +328,7 @@ arenaListener.OnGameEvent_player_team <- function(params)
     {
         AddPlayer(player, 0);
         AddPlayer(player, params.team);
-        if (isMiniRoundSetup)
+        if (isMiniRoundSetup && player.GetPlayerClass() > 0)
         {
             AddAlivePlayer(player, 0);
             AddAlivePlayer(player, params.team);
@@ -294,6 +343,9 @@ arenaListener.OnGameEvent_player_spawn <- function(params)
     local player = GetPlayerFromUserID(params.userid);
     if (!player || !player.IsAlive()) return;
     StripSoul(player);
+
+    AddPlayer(player, 0);
+    AddPlayer(player, params.team);
 
     if (isMiniRoundSetup)
     {
@@ -353,7 +405,13 @@ arenaListener.OnGameEvent_player_death <- function(params)
     local player = GetPlayerFromUserID(params.userid);
     local killer = GetPlayerFromUserID(params.attacker);
     local assister = GetPlayerFromUserID(params.assister);
-    if (!player) return;
+    if (!player)
+    {
+        RebuildPlayerCache();
+        EntFireByHandle(self, "RunScriptCode", "UpdatePlayerCounters()", 0, null, null);
+        EntFireByHandle(self, "RunScriptCode", "CheckAlivePlayers()", 0, null, null);
+        return;
+    }
     if (params.death_flags & 32) return; //Dead Ringer's fake death
 
     StripSoul(player);
@@ -380,12 +438,26 @@ arenaListener.OnGameEvent_player_death <- function(params)
         antiRespawnSpam[player] <- true;
         EntFireByHandle(self, "RunScriptCode", "if (isMiniRoundSetup) activator.ForceRespawn()", 1, player, player);
     }
+
+    local crumpkins = [];
+    for (local tf_ammo_pack = null; tf_ammo_pack = FindByClassname(tf_ammo_pack, "tf_ammo_pack");)
+        if (GetPropInt(tf_ammo_pack, "m_nModelIndex") == CRUMPKIN_INDEX)
+            crumpkins.push(tf_ammo_pack);
+    foreach(crumpkin in crumpkins)
+        crumpkin.Kill();
+
 }.bindenv(this);
 
 arenaListener.OnGameEvent_player_disconnect <- function(params)
 {
     local player = GetPlayerFromUserID(params.userid);
-    if (!player) return;
+    if (!player)
+    {
+        RebuildPlayerCache();
+        EntFireByHandle(self, "RunScriptCode", "UpdatePlayerCounters()", 0, null, null);
+        EntFireByHandle(self, "RunScriptCode", "CheckAlivePlayers()", 0, null, null);
+        return;
+    }
     StripSoul(player);
 
     foreach(team in [0, player.GetTeam()])
@@ -394,7 +466,10 @@ arenaListener.OnGameEvent_player_disconnect <- function(params)
         RemoveAlivePlayer(player, team);
     }
     if(!wasWaitingForPlayers && self && self.IsValid())
+    {
         EntFireByHandle(self, "RunScriptCode", "UpdatePlayerCounters()", 0, null, null);
+        EntFireByHandle(self, "RunScriptCode", "CheckAlivePlayers()", 0, null, null);
+    }
 }.bindenv(this);
 
 arenaListener.OnGameEvent_player_changeclass <- function(params)
@@ -461,9 +536,9 @@ function ResetNewMiniRound()
 
     try
     {
+        pitysoulthresholds <- [ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD, ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD];
         PurgeSouls();
         PurgePitysoul();
-        pitysoulthresholds <- [ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD, ARENA_AFTERLIFE_PITYSOUL_START_THRESHOLD];
     }
     catch (e) { }
 
@@ -519,6 +594,8 @@ function BeginMiniRound()
     }
     catch (e) { }
 
+    RebuildPlayerCache();
+
     //disable first blood if no first blood buffs, or if disabled by convar, or if teams are too small
     if(ARENA_FIRST_BLOOD_BUFFS.len() <= 0)
     {
@@ -560,37 +637,6 @@ function EndMiniRound(winnerTeam, wipeout = true)
 {
     EntFireByHandle(self, "RunScriptCode", "ResetNewMiniRound()", ARENA_HUMILIATION_LENGTH, null, null);
 
-    isMiniRoundOver = true;
-    overtimeTrigerred = false;
-
-    game_forcerespawn.AcceptInput("ForceTeamRespawn", "2", null, null);
-    game_forcerespawn.AcceptInput("ForceTeamRespawn", "3", null, null);
-
-    EntFireByHandle(tf_gamerules, "SetRedTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
-    EntFireByHandle(tf_gamerules, "SetBlueTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
-    DoEntFire("afterlife_fastrespawner*", "Disable", "", 0, null, null);
-
-    foreach(player in GetPlayers(winnerTeam))
-        player.AddCond(TF_COND_CRITBOOSTED_BONUS_TIME);
-
-    local loserTeam = winnerTeam == TF_TEAM_RED ? TF_TEAM_BLUE : winnerTeam == TF_TEAM_BLUE ? TF_TEAM_RED: 0;
-    foreach(player in GetPlayers(loserTeam))
-    {
-        player.StunPlayer(ARENA_HUMILIATION_LENGTH + 1, 1, 96, null);
-        player.StopSound("Halloween.PlayerScream");
-    }
-
-    for (local ent = null; ent = Entities.FindByClassname(ent, "obj_sentrygun");)
-    {
-        if (ent.GetTeam() != winnerTeam)
-            EntFireByHandle(ent, "Disable", "", 0, null, null);
-    }
-
-    DoEntFire("trigger_capture_area", "DisableAndEndTouch", "", 0, null, null);
-    if (ARENA_UNLOCK_TIME > 0)
-        foreach (control_point in control_points)
-            EntFireByHandle(control_point, "SetUnlockTime", "99999", 0, null, null);
-
     EntFireByHandle(self, "FireUser3", "", 0, null, null);
     DoEntFire("arena_win_any*", "Trigger", "", 0, null, null);
     if (winnerTeam == TF_TEAM_RED)
@@ -607,6 +653,39 @@ function EndMiniRound(winnerTeam, wipeout = true)
         DoEntFire("arena_stalemate*", "Trigger", "", 0, null, null);
 
     DisplayVictoryMessage(winnerTeam, wipeout);
+
+    isMiniRoundOver = true;
+    overtimeTrigerred = false;
+
+    game_forcerespawn.AcceptInput("ForceTeamRespawn", "2", null, null);
+    game_forcerespawn.AcceptInput("ForceTeamRespawn", "3", null, null);
+
+    EntFireByHandle(tf_gamerules, "SetRedTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
+    EntFireByHandle(tf_gamerules, "SetBlueTeamRespawnWaveTime", (ARENA_HUMILIATION_LENGTH+1).tostring(), 0, null, null);
+    DoEntFire("afterlife_fastrespawner*", "Disable", "", 0, null, null);
+
+    foreach(player in GetPlayers(winnerTeam))
+        if (IsValidPlayer(player))
+            player.AddCond(TF_COND_CRITBOOSTED_BONUS_TIME);
+
+    local loserTeam = winnerTeam == TF_TEAM_RED ? TF_TEAM_BLUE : winnerTeam == TF_TEAM_BLUE ? TF_TEAM_RED: 0;
+    foreach(player in GetPlayers(loserTeam))
+        if (IsValidPlayer(player))
+        {
+            player.StunPlayer(ARENA_HUMILIATION_LENGTH + 1, 1, 96, null);
+            player.StopSound("Halloween.PlayerScream");
+        }
+
+    for (local ent = null; ent = Entities.FindByClassname(ent, "obj_sentrygun");)
+    {
+        if (ent.GetTeam() != winnerTeam)
+            EntFireByHandle(ent, "Disable", "", 0, null, null);
+    }
+
+    DoEntFire("trigger_capture_area", "DisableAndEndTouch", "", 0, null, null);
+    if (ARENA_UNLOCK_TIME > 0)
+        foreach (control_point in control_points)
+            EntFireByHandle(control_point, "SetUnlockTime", "99999", 0, null, null);
 
     PurgeSouls();
     PurgePitysoul();
@@ -717,9 +796,9 @@ function StripSoul(player)
     }
     catch (e) { }
 
-    player.SetScriptOverlayMaterial("");
-
     soul_cache.rawdelete(player);
+
+    try { player.SetScriptOverlayMaterial(""); } catch(e){};
 }
 
 //this should decisively purge ALL particle effects for souls and reset ALL screens overlays
@@ -735,11 +814,12 @@ function PurgeSouls()
         }
         catch (e) { }
     }
-    foreach (player in GetPlayers())
-    {
-        player.SetScriptOverlayMaterial("");
-    }
+
     soul_cache <- {};
+
+    foreach (player in GetPlayers())
+        if (IsValidPlayer(player))
+            try { player.SetScriptOverlayMaterial(""); } catch(e){};
 }
 
 //=================================================================
@@ -776,14 +856,14 @@ function Resurrect(player)
 
     foreach(team in [0, player.GetTeam()])
         AddAlivePlayer(player, team);
-    UpdatePlayerCounters();
+    try { UpdatePlayerCounters(); } catch (e) {}
     if (activator.GetTeam() == TF_TEAM_RED)
     {
         respoint = red_respawns[rescount%red_respawns.len()];
         activator.Teleport(true, respoint.GetOrigin(), true, respoint.GetAbsAngles(), true, Vector(0, 0, 0));
         //ClientPrint(null, HUD_PRINTTALK, "\x07FF3F3F"+GetPropString(player, "m_szNetname")+ARENA_AFTERLIFE_RESURRECT_MESSAGE); //removing from final version; too many testers found this annoying when it got spammy
 
-        //shouldn't happen unless noclip shenanigans but if it does it breaks shit
+        //shouldn't happen unless noclip shenanigans but if it does it breaks things
         if (player == last_man_red)
         {
             LastManRedStrip(player);
@@ -796,7 +876,7 @@ function Resurrect(player)
         activator.Teleport(true, respoint.GetOrigin(), true, respoint.GetAbsAngles(), true, Vector(0, 0, 0));
         //ClientPrint(null, HUD_PRINTTALK, "\x0799CCFF"+GetPropString(player, "m_szNetname")+ARENA_AFTERLIFE_RESURRECT_MESSAGE); //removing from final version; too many testers found this annoying when it got spammy
 
-        //shouldn't happen unless noclip shenanigans but if it does it breaks shit
+        //shouldn't happen unless noclip shenanigans but if it does it breaks things
         if (player == last_man_blu)
         {
             LastManBluStrip(player);
@@ -820,7 +900,7 @@ function Resurrect(player)
     }
     StripSoul(player);
     player.AcceptInput("SpeakResponseConcept", "TLK_RESURRECTED", null, null);
-    player.AcceptInput("TriggerLootIslandAchievement", "", null, null); //this should allow for contract objective (condition 119), I think
+    player.AcceptInput("TriggerLootIslandAchievement", "", null, null); //this should allow for contract objective (condition 119)
 }
 
 //=================================================================
@@ -878,7 +958,7 @@ function SpawnPitysoul()
     ClientPrint(null, HUD_PRINTTALK, ARENA_AFTERLIFE_PITYSOUL_SPAWN_MESSAGE);
     foreach (player in GetPlayers())
     {
-        if((player != null) && (!IsPlayerAliveInArena(player)) && (!soul_cache.rawin(player)) && (hell_intro_cache.find(player) != null))
+        if(IsValidPlayer(player) && (!IsPlayerAliveInArena(player)) && (!soul_cache.rawin(player)) && (hell_intro_cache.find(player) != null))
             EmitSoundOnClient("Announcer.LooseSoul", player);
     }
 }
@@ -1000,7 +1080,7 @@ function LastManRedStrip(player)
     KillIfValid(lastmanredglowpart);
     lastmanredglow <- null;
     lastmanredglowpart <- null;
-    if (!player || !player.IsValid()) return;
+    if (!IsValidPlayer(player)) return;
     foreach (cond in ARENA_AFTERLIFE_LASTMAN_BUFFS)
         player.RemoveCond(cond);
 }
@@ -1010,7 +1090,7 @@ function LastManBluStrip(player)
     KillIfValid(lastmanbluglowpart);
     lastmanbluglow <- null;
     lastmanbluglowpart <- null;
-    if (!player || !player.IsValid()) return;
+    if (!IsValidPlayer(player)) return;
     foreach (cond in ARENA_AFTERLIFE_LASTMAN_BUFFS)
         player.RemoveCond(cond);
 }
@@ -1018,6 +1098,7 @@ function LastManBluStrip(player)
 //grants lastman boons
 function LastManRedBoost(player)
 {
+    if (!IsValidPlayer(player)) return;
     KillIfValid(lastmanredglow);
     KillIfValid(lastmanredglowpart);
     lastmanredglow <- SpawnEntityFromTable("tf_glow", {
@@ -1043,6 +1124,7 @@ function LastManRedBoost(player)
 }
 function LastManBluBoost(player)
 {
+    if (!IsValidPlayer(player)) return;
     KillIfValid(lastmanbluglow);
     KillIfValid(lastmanbluglowpart);
     lastmanbluglow <- SpawnEntityFromTable("tf_glow", {
@@ -1104,6 +1186,8 @@ if (!disintegrate_proxy_weapon || !disintegrate_proxy_weapon.IsValid())
 function LavaEntered()
 {
 
+    if (!IsValidPlayer(activator)) return;
+
     // Remove conditions that give immunity to damage
     foreach (cond in disintegrate_immune_conds)
         activator.RemoveCondEx(cond, true);
@@ -1114,22 +1198,22 @@ function LavaEntered()
     // Set owner to last damager if there was one, so they can get the soul
     //assister e.g. medic should still get assist credit in this case
     //which counts for getting a soul too
-    if(lava_tracker[activator])
-    {
-        SetPropEntity(disintegrate_proxy_weapon, "m_hOwner", lava_tracker[activator]);
-        // Deal the damage with the weapon
-        activator.TakeDamageCustom(lava_tracker[activator], lava_tracker[activator], disintegrate_proxy_weapon,
-                                    Vector(0,0,0), Vector(0,0,0),
-                                    99999.0, 2056, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
-    }
-    else
-    {
-        SetPropEntity(disintegrate_proxy_weapon, "m_hOwner", activator);
-        // Deal the damage with the weapon
-        activator.TakeDamageCustom(activator, activator, disintegrate_proxy_weapon,
-                                    Vector(0,0,0), Vector(0,0,0),
-                                    99999.0, 2056, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
-    }
+    try {
+        if(lava_tracker[activator] && IsValidPlayer(lava_tracker[activator]))
+        {
+            SetPropEntity(disintegrate_proxy_weapon, "m_hOwner", lava_tracker[activator]);
+            // Deal the damage with the weapon
+            activator.TakeDamageCustom(lava_tracker[activator], lava_tracker[activator], disintegrate_proxy_weapon,
+                                        Vector(0,0,0), Vector(0,0,0),
+                                        99999.0, 2056, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
+            return;
+        }
+    } catch (e) {};
+    SetPropEntity(disintegrate_proxy_weapon, "m_hOwner", activator);
+    // Deal the damage with the weapon
+    activator.TakeDamageCustom(activator, activator, disintegrate_proxy_weapon,
+                                Vector(0,0,0), Vector(0,0,0),
+                                99999.0, 2056, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BURNING);
 }
 
 //Even incinerating the ragdoll, the player's camera follows where the ragdoll "would" go
@@ -1183,6 +1267,11 @@ function PreventSuicideOnClassChange(player)
 {
     local weapon = player.GetActiveWeapon();
     if (!weapon) return;
+    if (player.IsTaunting()) return; // prevent abusing this QOL feature to taunt cancel
+
+    player.StunPlayer(0.1, 1, 96, null); // prevent airjumping in the ghost mode frame
+    player.StopSound("Halloween.PlayerScream");
+
     player.AddCond(TF_COND_HALLOWEEN_GHOST_MODE);
     EntFireByHandle(player, "RunScriptCode", "self.RemoveCond(TF_COND_HALLOWEEN_GHOST_MODE); self.Weapon_Switch(activator);", 0, weapon, weapon);
 }
@@ -1375,7 +1464,7 @@ function SpawnEscrowFlags()
     });
     SetPropInt(escrow_red, "m_nFlagStatus", 1);
 
-    UpdatePlayerCounters();
+    try { UpdatePlayerCounters(); } catch (e) {}
 }
 EntFireByHandle(self, "RunScriptCode", "SpawnEscrowFlags()", 0, null, null);
 
@@ -1422,6 +1511,8 @@ function FixRedPlayerCounter()
     if (redPlayers.len() <= 0)
         return;
     local player = redPlayers[0];
+    if (!IsValidPlayer(player))
+        player = redPlayers[redPlayers.len() - 1];
     SetPropEntity(escrow_red, "m_hPrevOwner", player);
 
     redCounterFixer = Entities.CreateByClassname("prop_dynamic");
