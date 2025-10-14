@@ -5,15 +5,18 @@
 	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phongexponenttexture"		"models/workshop/player/items/medic/hwn2025_mad_drip/hwn2025_mad_drip_phongexponent"
 	"$phong"		"1"
-	"$phongexponent"		"6.000000"
-	"$phongalbedotint"		"1"
-	"$phongboost"		"80.000000"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.000000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
-	"$rimlightexponent"		"2.000000"
-	"$rimlightboost"		"80.000000"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
 	"$rimmask"		"1"
-	"$color2"		"{ 255 255 255 }"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.980000"
+	"$colortint_base"		"{ 190 49 52 }"
+	"$color2"		"{ 190 49 52 }"
+	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -23,10 +26,8 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"1"
+		"$selfillum"		"0"
 	}
-	"$selfillumtint"		"[7.843138 7.843138 7.843138]"
-	"$selfillummask"		"models/workshop/player/items/medic/hwn2025_mad_drip/hwn2025_mad_drip_illum"
 	"proxies"
 	{
 		"invis"
@@ -42,13 +43,24 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"		"$yellow"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}

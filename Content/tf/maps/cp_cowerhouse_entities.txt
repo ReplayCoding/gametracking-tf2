@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 7871
+Revision: 7874
 {
 "world_maxs" "4096 2592 3880"
 "world_mins" "-4832 -8096 -512"
@@ -9,7 +9,7 @@ Revision: 7871
 "detailvbsp" "detail_sawmill.vbsp"
 "detailmaterial" "detail/detailsprites_sawmill"
 "classname" "worldspawn"
-"mapversion" "7871"
+"mapversion" "7874"
 "hammerid" "1"
 }
 {
@@ -21089,7 +21089,7 @@ Revision: 7871
 {
 "origin" "0 -5088 2032"
 "targetname" "dev_print_version"
-"message" "Cowerhouse RC4 (202510130015)"
+"message" "Cowerhouse RC5 (2025-10-13 1820)"
 "icon" "ico_ghost"
 "display_to_team" "0"
 "background" "0"

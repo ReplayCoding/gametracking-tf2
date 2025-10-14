@@ -1510,7 +1510,6 @@
 "TF_TournamentMedal_FBTF2_4v4_Open_2nd"						"Segundo Lugar - FBTF 4v4 Open"
 "TF_TournamentMedal_FBTF2_4v4_Open_3rd"						"Terceiro Lugar - FBTF 4v4 Open"
 "TF_TournamentMedal_FBTF2_4v4_Open_Participant"				"Participante - FBTF 4v4 Open"
-
 "TF_TournamentMedal_Chapelaria_6v6_1st"						"Primeiro Lugar - Chapelaria 6v6"
 "TF_TournamentMedal_Chapelaria_6v6_2nd"						"Segundo Lugar - Chapelaria 6v6"
 "TF_TournamentMedal_Chapelaria_6v6_3rd"						"Terceiro Lugar - Chapelaria 6v6"
@@ -1669,6 +1668,10 @@
 "TF_TournamentMedal_Summer2025"	"Verão 2025"
 "TF_TournamentMedal_Autumn2025"	"Outono 2025"
 "TF_TournamentMedal_Winter2025"	"Inverno 2025"
+"TF_TournamentMedal_Spring2026"	"Primavera 2026"
+"TF_TournamentMedal_Summer2026"	"Verão 2026"
+"TF_TournamentMedal_Autumn2026"	"Outono 2026"
+"TF_TournamentMedal_Winter2026"	"Inverno 2026"
 
 "TF_TournamentMedal_April2019"	"Abril 2019"
 
@@ -2406,7 +2409,7 @@
 
 "TF_TournamentMedal_Canteen_Crasher_Platinum"			"Críts de Platina - Canteen Crasher 2018"
 "TF_TournamentMedal_Canteen_Crasher_Platinum_Desc"		"Demonstraste a tua excelente perícia em resolver problemas instantaneamente! Bom trabalho, mercenário! (Medalha concedida aos participantes do concurso híbrido de MvM dos Potato's MvM Servers!)"
-"TF_TournamentMedal_Canteen_Crasher_Gold"				"Uber de Ouro - Canteen Crasher 2018"
+"TF_TournamentMedal_Canteen_Crasher_Gold"				"Über de Ouro - Canteen Crasher 2018"
 "TF_TournamentMedal_Canteen_Crasher_Gold_Desc"			"Quando a coisa começar a dar para o torto, saca de uma dose de imortalidade, disponível numa loja mais perto de ti! (Medalha concedida aos participantes do concurso híbrido de MvM dos Potato's MvM Servers!)"
 "TF_TournamentMedal_Canteen_Crasher_Silver"				"Construções de Prata - Canteen Crasher 2018"
 "TF_TournamentMedal_Canteen_Crasher_Silver_Desc"		"Esta réplica faz tiquetaque e vibra para que não te esqueças da experiência única que é fugir de um Rebenta-Sentinelas! (Medalha concedida aos participantes do concurso híbrido de MvM dos Potato's MvM Servers!)"
@@ -3537,6 +3540,10 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_Wearable_DivingGear"			"Equipamento de Mergulho"
 "TF_Wearable_Tunic"					"Túnica"
 "TF_Wearable_Wetsuit"				"Fato de Mergulho"
+"TF_Wearable_Sombrero"				"Sombrero"
+"TF_Wearable_Bullets"				"Balas Decorativas"
+"TF_Wearable_LavaHead"				"Cabeça Vulcânica"
+"TF_Wearable_Visor"					"Viseira"
 
 "TF_RobotPart_Type"	"Peça de Robot"
 "TF_CircuitBoard_Type"	"Placa de Circuito"
@@ -3875,8 +3882,8 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_Bundle_WarWednesday_Desc"			"Equipa-te com estes itens temáticos militares para o Soldier:"
 "TF_Bundle_MeetTheMedic"			"Pacote Meet the Medic!"
 "TF_Bundle_MeetTheMedic_Desc"			"Equipa-te com estes itens para celebrar o vídeo do Meet the Medic:"
-"TF_Bundle_Uber"				"O Pacote Uber Atualização"
-"TF_Bundle_Uber_Desc"				"Obtém todos os novos itens da Uber Atualização neste grande pack:"
+"TF_Bundle_Uber"				"O Pacote Über Atualização"
+"TF_Bundle_Uber_Desc"				"Obtém todos os novos itens da Über Atualização neste grande pack:"
 
 "TF_Bundle_Summer2011"				"Conjunto de Verão"
 "TF_Bundle_Summer2011_Desc"			"O perfeito conjunto de itens para desfrutar do calor do sol:"
@@ -5441,6 +5448,11 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "koth_mannhole_authors"			"Harlen \"UEAKCrash\" Linke\nAeon \"Void\" Bollig\nBenjamin \"blaholtzen\" Blåholtz\nAlex \"FGD5\" Stewart\nAl \"Square\" Rodgers\nNorman \"Mikusch\" Masanek\nJuniper\ndonhonk\nFreyja"
 "koth_demolition_authors"		"Entropy Tempus\nAndrea \"DoctorDoomtrain64\" DeStephan\nHunter \"Seacat08\" Way\nGoobert"
 "ctf_pressure_authors"			"Mitchell \"AltraNade\" Leyte\nMuhNamesGreen\nDansky\nJoel \"zythe_\" Morscher\nJames \"lolripk\" Stevens\nSzabó \"Maxxy\" Attila\nJames \"McGuinnsBook\" McGuinn\nAlien31\nPhe\nGlebotron"
+"cp_cowerhouse_authors"			"CanadianBill\nAlex \"FGD5\" Stewart\nPatrick \"Zeus\" Hennessy\nLiam \"Diva Dan\" Moffitt\nPearForceOne"
+"koth_dusker_authors"			"Tristan \"Alox\" Haguet\nJoel \"zythe_\" Morscher\nAeon \"Void\" Bollig\nLothudus\nStuffy360"
+"arena_afterlife_authors"		"John \"Piogre\" Wolfe\nLizard of Oz\nMatvey \"ImAware\" Usatov\nHirschVA\nIsaac \"IJCT\" Cortissoz"
+"ctf_doublecross_event_authors"	"Harlen \"UEAKCrash\" Linke\nLiam \"Diva Dan\" Moffitt\nDaniel \"DJ\" Bennett"
+"sd_marshlands_authors"			"Tristan \"Alox\" Haguet\nLothudus"
 
 "TF_YourStats"					"As tuas estatísticas"
 "TF_DuckPromoList"				"-Acessório para todas as classes com 11 estilos\n-Regista as tuas estatísticas durante o evento do 'End of the Line'\n-Vê as estatísticas dos teus amigos e compete com eles\n-Lucros das vendas remetem para a equipa do 'End of the Line'"
@@ -5859,22 +5871,22 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_MapToken_Selbyen"				"Selo de Mapa - Selbyen"
 "TF_MapToken_Selbyen_Desc"			"Um mapa de Destruição de Jogadores\n\nCriado por Joel \"zythe_\" Morscher, Rhafael \"Rhamkin\" Oliveira, Alex \"FGD5\" Stewart, Benjamin \"blaholtzen\" Blåholtz, Matthew \"MegapiemanPHD\" Simmons e Lo-fi Longcat\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Selbyen. Mostra o teu apoio hoje!"
 "TF_MapToken_Selbyen_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Selbyen."
-"TF_Map_TinyRock"					"Tiny Rock"
-"TF_MapToken_TinyRock"				"Selo de Mapa - Tiny Rock"
+"TF_Map_TinyRock"					"Tiny Rock (VSH)"
+"TF_MapToken_TinyRock"				"Selo de Mapa - Tiny Rock (VSH)"
 "TF_MapToken_TinyRock_Desc"			"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por Jess \"Muddy\" Dabbs, Lizard of Oz, Jason \"Yaki\" Herman, Szabó \"Maxxy\" Attila, Maxim \"VellyVice\" Streltsov, James M., Joaquim \"JPRAS\" Silva e Matthew \"MegapiemanPHD\" Simmons\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Tiny Rock. Mostra o teu apoio hoje!"
-"TF_MapToken_TinyRock_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Tiny Rock."
-"TF_Map_Distillery"					"Distillery"
-"TF_MapToken_Distillery"			"Selo de Mapa - Distillery"
+"TF_MapToken_TinyRock_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Tiny Rock (VSH)."
+"TF_Map_Distillery"					"Distillery (VSH)"
+"TF_MapToken_Distillery"			"Selo de Mapa - Distillery (VSH)"
 "TF_MapToken_Distillery_Desc"		"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por Phe, Lizard Of Oz, Sonoma \"Sono\" Bryer, Szabó \"Maxxy\" Attila, Matthew \"MegapiemanPHD\" Simmons, Stuffy 360, Jason \"Yaki\" Herman, Maxim \"VellyVice\" Streltsov, James M., Joaquim \"JPRAS\" Silva e Aeon \"Void\" Bollig\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Distillery. Mostra o teu apoio hoje!"
-"TF_MapToken_Distillery_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Distillery."
-"TF_Map_Skirmish"					"Skirmish"
-"TF_MapToken_Skirmish"				"Selo de Mapa - Skirmish"
+"TF_MapToken_Distillery_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Distillery (VSH)."
+"TF_Map_Skirmish"					"Skirmish (VSH)"
+"TF_MapToken_Skirmish"				"Selo de Mapa - Skirmish (VSH)"
 "TF_MapToken_Skirmish_Desc"			"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por John \"MilkMaster72\" Worden, Lizard Of Oz, Jason \"Yaki\" Herman, Szabó \"Maxxy\" Attila, Joaquim \"JPRAS\" Silva, Matthew \"MegapiemanPHD\" Simmons, James M., Maxim \"VellyVice\" Streltsov, Aeon \"Void\" Bollig e Louie \"bakscratch\" Turner\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Skirmish. Mostra o teu apoio hoje!"
-"TF_MapToken_Skirmish_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Skirmish."
-"TF_Map_Nucleus"					"Nucleus VSH"
-"TF_MapToken_Nucleus"				"Selo de Mapa - Nucleus VSH"
+"TF_MapToken_Skirmish_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Skirmish (VSH)."
+"TF_Map_Nucleus"					"Nucleus (VSH)"
+"TF_MapToken_Nucleus"				"Selo de Mapa - Nucleus (VSH)"
 "TF_MapToken_Nucleus_Desc"			"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por John \"MilkMaster72\" Worden, Lizard Of Oz, Jason \"Yaki\" Herman, Szabó \"Maxxy\" Attila, Joaquim \"JPRAS\" Silva, Matthew \"MegapiemanPHD\" Simmons, James M., Maxim \"VellyVice\" Streltsov e Aeon \"Void\" Bollig\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Nucleus VSH. Mostra o teu apoio hoje!"
-"TF_MapToken_Nucleus_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Nucleus VSH."
+"TF_MapToken_Nucleus_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Nucleus (VSH)."
 "TF_Map_Perks"						"Perks"
 "TF_MapToken_Perks"					"Selo de Mapa - Perks"
 "TF_MapToken_Perks_Desc"			"Um mapa de Arena\n\nCriado por Philippe \"Le Codex\" Lefebvre, Liam \"Diva Dan\" Moffitt, Daniel \"DJ\" Bennett, Seb \"Tianes\" Necula, Ase \"pont\" Kirkham e E-Arkham\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Perks. Mostra o teu apoio hoje!"
@@ -5903,26 +5915,26 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_MapToken_Corruption"			"Selo de Mapa - Corruption"
 "TF_MapToken_Corruption_Desc"		"Um mapa de Carga Explosiva\n\nCriado por Eric \"erk\" Browning, Matthew \"MegapiemanPHD\" Simmons, Rhafael \"Rhamkin\" Oliveira, Matthew \"Panckakebro\" Hiller e Vasilis \"Billo\" Chatzikostas\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Corruption. Mostra o teu apoio hoje!"
 "TF_MapToken_Corruption_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Corruption."
-"TF_Map_Murky"						"Murky"
-"TF_MapToken_Murky"					"Selo de Mapa - Murky"
+"TF_Map_Murky"						"Murky (ZI)"
+"TF_MapToken_Murky"					"Selo de Mapa - Murky (ZI)"
 "TF_MapToken_Murky_Desc"			"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por netmuck, Liam \"Diva Dan\" Moffitt e E-Arkham\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Murky. Mostra o teu apoio hoje!"
-"TF_MapToken_Murky_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Murky."
-"TF_Map_Atoll"						"Atoll"
-"TF_MapToken_Atoll"					"Selo de Mapa - Atoll"
+"TF_MapToken_Murky_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Murky (ZI)."
+"TF_Map_Atoll"						"Atoll (ZI)"
+"TF_MapToken_Atoll"					"Selo de Mapa - Atoll (ZI)"
 "TF_MapToken_Atoll_Desc"			"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por Patrik \"Nat-Tea\" Naplava, Emil Sharafeev, Danni \"AttaKat\" Bestford, Ben \"Squishy\" Dowman, Jesse \"Custard1\" Budd, Alex \"Zz\" Elliott, Liam \"Diva Dan\" Moffitt e netmuck\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Atoll. Mostra o teu apoio hoje!"
-"TF_MapToken_Atoll_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Atoll."
-"TF_Map_Woods"						"Woods"
-"TF_MapToken_Woods"					"Selo de Mapa - Woods"
+"TF_MapToken_Atoll_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Atoll (ZI)."
+"TF_Map_Woods"						"Woods (ZI)"
+"TF_MapToken_Woods"					"Selo de Mapa - Woods (ZI)"
 "TF_MapToken_Woods_Desc"			"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por George \"I dinne ken\" Norman, netmuck, Liam \"Diva Dan\" Moffitt, Stuffy360, Aeon \"Void\" Bollig e Emil Sharafeev\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Woods. Mostra o teu apoio hoje!"
-"TF_MapToken_Woods_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Woods."
-"TF_Map_Sanitarium"					"Sanitarium"
-"TF_MapToken_Sanitarium"			"Selo de Mapa - Sanitarium"
+"TF_MapToken_Woods_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Woods (ZI)."
+"TF_Map_Sanitarium"					"Sanitarium (ZI)"
+"TF_MapToken_Sanitarium"			"Selo de Mapa - Sanitarium (ZI)"
 "TF_MapToken_Sanitarium_Desc"		"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por Matthew \"Panckakebro\" Hiller, netmuck, Liam \"Diva Dan\" Moffitt, Stuffy360, Elián \"iron\" Rodríguez e Louie \"bakscratch\" Turner\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Sanitarium. Mostra o teu apoio hoje!"
-"TF_MapToken_Sanitarium_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Sanitarium."
-"TF_Map_Devastation"				"Devastation"
-"TF_MapToken_Devastation"			"Selo de Mapa - Devastation"
+"TF_MapToken_Sanitarium_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Sanitarium (ZI)."
+"TF_Map_Devastation"				"Devastation (ZI)"
+"TF_MapToken_Devastation"			"Selo de Mapa - Devastation (ZI)"
 "TF_MapToken_Devastation_Desc"		"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por Jordan \"Ismaciodismorphus\" La Rose, netmuck, Liam \"Diva Dan\" Moffitt, Aeon \"Void\" Bollig e Alex \"FGD5\" Stewart\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Devastation. Mostra o teu apoio hoje!"
-"TF_MapToken_Devastation_AdText"	"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Devastation."
+"TF_MapToken_Devastation_AdText"	"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Devastation (ZI)."
 "TF_Map_Snowtower"					"Snowtower"
 "TF_MapToken_Snowtower"				"Selo de Mapa - Snowtower"
 "TF_MapToken_Snowtower_Desc"		"Um mapa de Rei da Colina\n\nCriado por Aeon \"Void\" Bollig, Al \"Square\" Rodgers, EArkham, Keldos, KrazyZark, Maxime \"fubar\" Dupuis, Tim \"sedisocks\" BL e Zach \"Exactol\" Matuson\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Snowtower. Mostra o teu apoio hoje!"
@@ -6023,14 +6035,14 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_MapToken_Circus"				"Selo de Mapa - Circus"
 "TF_MapToken_Circus_Desc"			"Um mapa de Destruição de Jogadores\n\nCriado por Liam \"Diva Dan\" Moffitt, Aeon \"Void\" Bollig e donhonk\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Circus. Mostra o teu apoio hoje!"
 "TF_MapToken_Circus_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Circus."
-"TF_Map_Outburst"					"Outburst"
-"TF_MapToken_Outburst"				"Selo de Mapa - Outburst"
+"TF_Map_Outburst"					"Outburst (VSH)"
+"TF_MapToken_Outburst"				"Selo de Mapa - Outburst (VSH)"
 "TF_MapToken_Outburst_Desc"			"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por Lizard Of Oz, Phe, Szabó \"Maxxy\" Attila, Maksim \"VellyVice\" Streltsov, Matthew \"MegapiemanPHD\" Simmons, James M., Jason \"Yaki\" Herman, Joaquim \"JPRAS\" Silva e Stuffy360\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Outburst. Mostra o teu apoio hoje!"
-"TF_MapToken_Outburst_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Outburst."
-"TF_Map_Blazehattan"				"Blazehattan"
-"TF_MapToken_Blazehattan"			"Selo de Mapa - Blazehattan"
+"TF_MapToken_Outburst_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Outburst (VSH)."
+"TF_Map_Blazehattan"				"Blazehattan (ZI)"
+"TF_MapToken_Blazehattan"			"Selo de Mapa - Blazehattan (ZI)"
 "TF_MapToken_Blazehattan_Desc"		"Um mapa de Infeção Zombie (Comunidade)\n\nCriado por Emil Sharafeev, Patrik \"Nat-Tea\" Naplava, Aeon \"Void\" Bollig, Liam \"Diva Dan\" Moffitt e netmuck\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Blazehattan. Mostra o teu apoio hoje!"
-"TF_MapToken_Blazehattan_AdText"	"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Blazehattan."
+"TF_MapToken_Blazehattan_AdText"	"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Blazehattan (ZI)."
 "TF_Map_Overcast"					"Overcast"
 "TF_MapToken_Overcast"				"Selo de Mapa - Overcast"
 "TF_MapToken_Overcast_Desc"			"Um mapa de Rei da Colina\n\nCriado por Slowmotion Milk, Ethan Stokes e Dr Vlad Crazy\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Overcast. Mostra o teu apoio hoje!"
@@ -6051,10 +6063,10 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_MapToken_Cutter"				"Selo de Mapa - Cutter"
 "TF_MapToken_Cutter_Desc"			"Um mapa de Carga Explosiva\n\nCriado por Paul \"puxorb\" Broxup, Brie, Nickolas \"KrazyZark\" Fenech, Liam \"Diva Dan\" Moffitt, Aeon \"Void\" Bollig, Erik \"Colteh\" Coltey, Extra Ram, Mattie Konig, Tim \"Sedisocks\" Brown Lees, Patrick \"Zeus\" Hennessy e Zoey Smith\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Cutter. Mostra o teu apoio hoje!"
 "TF_MapToken_Cutter_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Cutter."
-"TF_Map_Maul"						"Maul"
-"TF_MapToken_Maul"					"Selo de Mapa - Maul"
+"TF_Map_Maul"						"Maul (VSH)"
+"TF_MapToken_Maul"					"Selo de Mapa - Maul (VSH)"
 "TF_MapToken_Maul_Desc"				"Um mapa de Versus Saxton Hale (Comunidade)\n\nCriado por Matthew Scott \"MegapiemanPHD\" Simmons, Brandon \"Bonk Nickeltoon\" Koller, Szabó \"Maxxy\" Attila, Patrick \"Zeus\" Hennessy, Lizard Of Oz, Stuffy360, James Jameson, Phe, Mattie Konig, Alex \"FGD5\" Stewart, Maksim \"Velly\" Streltsov, Jason \"Yaki\" Herman, Jesse \"Custard1\" Budd, Joaquim \"JPRAS\" Silva, Samuel \"ChargingTurnip\" Turner, Alex \"Lacry\" Couto, James M., Torkil \"TheLazerSofa\" Malvik Bidtnes e Sky\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Maul. Mostra o teu apoio hoje!"
-"TF_MapToken_Maul_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Maul."
+"TF_MapToken_Maul_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Maul (VSH)."
 "TF_Map_Citadel"					"Citadel"
 "TF_MapToken_Citadel"				"Selo de Mapa - Citadel"
 "TF_MapToken_Citadel_Desc"			"Um mapa de Carga Explosiva\n\nCriado por Evan \"Defcon\" LeBlanc, Nickolas \"KrazyZark\" Fenech, Sarexicus, Freyja e Ficool2\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Citadel. Mostra o teu apoio hoje!"
@@ -6095,6 +6107,26 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_MapToken_Pressure"				"Selo de Mapa - Pressure"
 "TF_MapToken_Pressure_Desc"			"Um mapa de Capturar a Mala\n\nCriado por Mitchell \"AltraNade\" Leyte, MuhNamesGreen, Dansky, Joel \"zythe_\" Morscher, James \"lolripk\" Stevens, Szabó \"Maxxy\" Attila, James \"McGuinnsBook\" McGuinn, Alien31, Phe e Glebotron\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Pressure. Mostra o teu apoio hoje!"
 "TF_MapToken_Pressure_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Pressure."
+"TF_Map_Cowerhouse"					"Cowerhouse"
+"TF_MapToken_Cowerhouse"			"Selo de Mapa - Cowerhouse"
+"TF_MapToken_Cowerhouse_Desc"		"Um mapa de Pontos de Controlo\n\nCriado por CanadianBill, Alex \"FGD5\" Stewart, Patrick \"Zeus\" Hennessy, Liam \"Diva Dan\" Moffitt e PearForceOne\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Cowerhouse. Mostra o teu apoio hoje!"
+"TF_MapToken_Cowerhouse_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Cowerhouse."
+"TF_Map_Dusker"						"Dusker"
+"TF_MapToken_Dusker"				"Selo de Mapa - Dusker"
+"TF_MapToken_Dusker_Desc"			"Um mapa de Rei da Colina\n\nCriado por Tristan \"Alox\" Haguet, Joel \"zythe_\" Morscher, Aeon \"Void\" Bollig, Lothudus e Stuffy360\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Dusker. Mostra o teu apoio hoje!"
+"TF_MapToken_Dusker_AdText"			"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Dusker."
+"TF_Map_Afterlife"					"Afterlife"
+"TF_MapToken_Afterlife"				"Selo de Mapa - Afterlife"
+"TF_MapToken_Afterlife_Desc"		"Um mapa de Arena\n\nCriado por John \"Piogre\" Wolfe, Lizard of Oz, Matvey \"ImAware\" Usatov, HirschVA e Isaac \"IJCT\" Cortissoz\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Afterlife. Mostra o teu apoio hoje!"
+"TF_MapToken_Afterlife_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Afterlife."
+"TF_Map_Devilcross"					"Devilcross"
+"TF_MapToken_Devilcross"			"Selo de Mapa - Devilcross"
+"TF_MapToken_Devilcross_Desc"		"Um mapa de Capturar a Mala\n\nCriado por Harlen \"UEAKCrash\" Linke, Liam \"Diva Dan\" Moffitt e Daniel \"DJ\" Bennett\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Devilcross. Mostra o teu apoio hoje!"
+"TF_MapToken_Devilcross_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Devilcross."
+"TF_Map_Marshlands"					"Marshlands"
+"TF_MapToken_Marshlands"			"Selo de Mapa - Marshlands"
+"TF_MapToken_Marshlands_Desc"		"Um mapa de Proteger a Mala (Comunidade)\n\nCriado por Tristan \"Alox\" Haguet e Lothudus\n\nCom a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Marshlands. Mostra o teu apoio hoje!"
+"TF_MapToken_Marshlands_AdText"		"-Com a compra deste item estarás a apoiar diretamente os criadores do mapa comunitário Marshlands."
 
 "TF_Map_Unknown"				"Mapa não encontrado!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
@@ -6314,6 +6346,11 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_Map_Mannhole_StrangePrefix"			" e Fedorento"
 "TF_Map_Demolition_StrangePrefix"		" e Rebentado"
 "TF_Map_Pressure_StrangePrefix"			" e Pressurizado"
+"TF_Map_Cowerhouse_StrangePrefix"		" e Acobardado"
+"TF_Map_Dusker_StrangePrefix"			" e Carmesim"
+"TF_Map_Afterlife_StrangePrefix"		" e Retornado"
+"TF_Map_Devilcross_StrangePrefix"		" e Endiabrado"
+"TF_Map_Marshlands_StrangePrefix"		" e Pantanoso"
 
 "TF_MapDonationLevel_Bronze"	"Bronze:"
 "TF_MapDonationLevel_Silver"	"Prata:"
@@ -7094,6 +7131,23 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "koth_boardwalk_house"					"o matadouro"
 "koth_boardwalk_pier"					"o cais"
 "koth_mannhole_overpass"				"a passagem debaixo da ponte"
+"arena_afterlife_spawn"					"MORRESTE! Mata ou ajuda a matar um inimigo para lhe roubares a alma e escapares do Inferno!"
+"arena_afterlife_pickup"				"Roubaste uma alma! Trá-la ao altar sacrificial para ressuscitares!"
+"arena_afterlife_soulless"				"Precisas de uma alma para ressuscitares! Mata ou ajuda a matar um inimigo e volta aqui!"
+"arena_afterlife_lastman"				"És o último jogador vivo! A equipa inimiga pode detetar-te!"
+"arena_afterlife_pitysoul_spawn"		"FBECCBUMA A3FBA5ALMA PENADA FBECCBestá à solta no Inferno!"
+"arena_afterlife_nofb_small_teams"		"E7B53BEquipas com poucos jogadores. O bónus pela primeira morte será desativado."
+"arena_afterlife_nofb_disabled"			"E7B53BO bónus pela primeira morte foi desativado pelas definições do servidor."
+"cp_cowerhouse_open_soon"				"As portas do abismo subterrâneo abrem em breve!"
+"cp_cowerhouse_close_soon"				"As portas do abismo subterrâneo fecham em breve!"
+"cp_cowerhouse_closed"					"As portas do abismo subterrâneo estão fechadas!"
+"cp_cowerhouse_open"					"A porta das traseiras para o abismo subterrâneo está aberta!"
+"cp_cowerhouse_blu_open"				"Ambas as portas da equipa BLU para o abismo subterrâneo estão abertas!"
+"cp_cowerhouse_cave_open"				"A porta da caverna para o abismo subterrâneo está aberta!"
+"cp_cowerhouse_red_open"				"Ambas as portas da equipa RED para o abismo subterrâneo estão abertas!"
+"cp_cowerhouse_timer_reset"				"A contagem para o abismo subterrâneo foi reiniciada!"
+"sd_marshlands_hold_3min"				"Mantém a posse da mala durante 3 minutos para vencer!"
+"sd_marshlands_barriers"				"Não atravesses as barreiras mágicas, senão a mala voltará ao ponto central!"
 
 // Win panel strings
 "Winpanel_Team1"			"EQUIPA"
@@ -7384,6 +7438,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "GameType_VSH"					"Versus Saxton Hale (Comunidade)"
 "GameType_ZI"					"Infeção Zombie (Comunidade)"
 "GameType_TOW"					"Rei do Carrinho (Comunidade)"
+"GameType_HTF"					"Proteger a Mala (Comunidade)"
 
 "TF_MMCat_SpecialEvents"		"Eventos Especiais"
 "TF_MMCat_Core"				"Modos de Jogo Principais"
@@ -7878,7 +7933,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_ClassRecord_Alt_MostDominations"	"dominação(ões)"
 "TF_ClassRecord_Alt_LongestLife"		"tempo de vida"
 "TF_ClassRecord_Alt_MostHealing"		"cura"
-"TF_ClassRecord_Alt_MostInvulns"		"ubercarga(s)"
+"TF_ClassRecord_Alt_MostInvulns"		"übercarga(s)"
 "TF_ClassRecord_Alt_MostSentryKills"	"morte(s) por sentinelas"
 "TF_ClassRecord_Alt_MostTeleports"		"utilização(ões) do teletransportador"
 "TF_ClassRecord_Alt_MostHeadshots"		"headshot(s)"
@@ -9782,7 +9837,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "LimitedQualityDesc" " de Edição Limitada"
 
 "KillEaterEventType_Kills"		"Vítimas"
-"KillEaterEventType_Ubers"		"ÜberCargas"
+"KillEaterEventType_Ubers"		"Übers"
 "KillEaterEventType_KillAssists"	"Assistências"
 "KillEaterEventType_SentryKills"	"Vítimas de Sentinela"
 "KillEaterEventType_PeeVictims"	"Vítimas ensopadas"
@@ -10310,6 +10365,16 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "TF_StrangeFilter_CommunityMapDemolition_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Demolition."
 "TF_StrangeFilter_CommunityMapPressure"				"Filtro Estranho: Pressure (Comunidade)"
 "TF_StrangeFilter_CommunityMapPressure_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Pressure."
+"TF_StrangeFilter_CommunityMapCowerhouse"			"Filtro Estranho: Cowerhouse (Comunidade)"
+"TF_StrangeFilter_CommunityMapCowerhouse_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Cowerhouse."
+"TF_StrangeFilter_CommunityMapDusker"				"Filtro Estranho: Dusker (Comunidade)"
+"TF_StrangeFilter_CommunityMapDusker_Desc"			"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Dusker."
+"TF_StrangeFilter_CommunityMapAfterlife"			"Filtro Estranho: Afterlife (Comunidade)"
+"TF_StrangeFilter_CommunityMapAfterlife_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Afterlife."
+"TF_StrangeFilter_CommunityMapDevilcross"			"Filtro Estranho: Devilcross (Comunidade)"
+"TF_StrangeFilter_CommunityMapDevilcross_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Devilcross."
+"TF_StrangeFilter_CommunityMapMarshlands"			"Filtro Estranho: Marshlands (Comunidade)"
+"TF_StrangeFilter_CommunityMapMarshlands_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa Marshlands."
 
 "TF_StrangeFilter_Map2fort"				"Filtro Estranho: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Adicionar este Filtro Estranho a um item Estranho e selecionar uma das suas estatísticas irá restringir a contagem dessa estatística a eventos ocorrentes no mapa 2Fort."
@@ -10434,7 +10499,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "SpiritOfGivingRank0"         "do Comodista"                // intentionally left empty
 "SpiritOfGivingRank1"         "do Benfeitor Básico"
 "SpiritOfGivingRank2"         "do Colaborador Competente"
-"SpiritOfGivingRank3"         "do Altruista Adequado"
+"SpiritOfGivingRank3"         "do Altruísta Adequado"
 "SpiritOfGivingRank4"         "do Pai Natal Porreiro"
 "SpiritOfGivingRank5"         "do Suficientemente Samaritano"
 "SpiritOfGivingRank6"         "do Doador Distinto"
@@ -10449,7 +10514,7 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "SpiritOfGivingRank15"        "do Filantropo Fenomenal"
 "SpiritOfGivingRank16"        "do Herói Humanitário"
 "SpiritOfGivingRank17"        "do Samaritano Solidário"
-"SpiritOfGivingRank18"        "do Über-Altruista"
+"SpiritOfGivingRank18"        "do Über-Altruísta"
 "SpiritOfGivingRank19"        "do Próprio Saxton"
 
 "KillEater_HolidayPunchRank0"			"Estranho"
@@ -11669,6 +11734,17 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 
 "Halloween2024Paintkits_collection"			"Coleção Scream Fortress XVI"
 "Halloween2024Paintkits_collection_desc"		"Itens da Coleção Scream Fortress XVI:"
+
+"halloween2025_collection_name"			"Coleção Spectral Stash"
+"halloween2025_collection_case"			"Caixa Spectral Stash"
+"halloween2025_collection_case_desc"	"Esta caixa está trancada e necessita de uma\nChave Spectral Stash para ser aberta.\n\nContém um item comunitário da Coleção Spectral Stash."
+"halloween2025_collection_case_adtext"	"-Contém acessórios criados pela comunidade.\n-Só pode ser aberta com uma Chave Spectral Stash.\n-Pode conter itens Estranhos e chapéus Inusuais."
+"halloween2025_collection_key"			"Chave Spectral Stash"
+"halloween2025_collection_key_desc"		"Este item serve para abrir uma Caixa Spectral Stash"
+"halloween2025_collection_key_adtext"	"-Usada para abrir uma Caixa Spectral Stash,\nque pode conter itens Estranhos e os chapéus podem ser Inusuais."
+"halloween2025_collection_case_footer"	"Pode conter um item Estranho ou um chapéu Inusual com um efeito exclusivo do Dia das Bruxas de 2025."
+
+"halloween2025_event_footer"			"Durante o evento do Dia das Bruxas, todos os itens Inusuais virão com um efeito exclusivo do Dia das Bruxas de 2025"
 
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
@@ -12915,6 +12991,19 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "Attrib_Particle380"			"Dor Perfurante"
 "Attrib_Particle381"			"Vento Dizimante"
 
+// Halloween 2025 Unusual
+"Attrib_Particle382"			"Remoinho Oceânico"
+"Attrib_Particle383"			"Remoinho Oceânico"
+"Attrib_Particle384"			"Remoinho Tóxico"
+"Attrib_Particle385"			"Luz da Vela"
+"Attrib_Particle386"			"Luz da Vela"
+"Attrib_Particle387"			"Aroma Ardente"
+"Attrib_Particle388"			"Aroma Ardente"
+"Attrib_Particle389"			"Aroma Tóxico"
+"Attrib_Particle390"			"Condutor de Corrente"
+"Attrib_Particle391"			"Condutor de Corrente"
+"Attrib_Particle392"			"Arenoso"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Quente"
 "Attrib_Particle702"			"Isótopo"
@@ -13156,6 +13245,18 @@ Item entregue àqueles que fizeram donativos durante a tour de caridade de novem
 "Attrib_Particle3200"		"Sinal Perdido"
 "Attrib_Particle3201"		"Onda de Verão"
 "Attrib_Particle3202"		"Ataque de Tubarões"
+
+// Halloween 2025 Unusual Taunts
+"Attrib_Particle3203"		"Gás Perigoso"
+"Attrib_Particle3204"		"Fumo Fantasmagórico"
+"Attrib_Particle3205"		"Ar Assombrado"
+"Attrib_Particle3206"		"Malícia Dividida"
+"Attrib_Particle3207"		"Malícia Dividida"
+"Attrib_Particle3208"		"Criaturas do Vazio"
+"Attrib_Particle3209"		"Combustível Fóssil"
+"Attrib_Particle3210"		"Poço de Alcatrão"
+"Attrib_Particle3211"		"Bestialidade Mórbida"
+"Attrib_Particle3212"		"Bestialidade Mórbida"
 
 // End Unusual taunt FX
 
@@ -17996,7 +18097,7 @@ D-pad = mover, gatilhos = mais rápido, Botão A = linha seguinte."
 "TF_short2014_chronoscarf"		"O Cronocachecol" // ADD THE
 "TF_short2014_chemists_pride"		"O Perigo" // ADD THE
 "TF_short2014_badlands_wanderer"		"Djustiça Fronteiriça" // ADD THE
-"TF_short2014_vintage_director"		"Vive La France"
+"TF_short2014_vintage_director"		"Vive la France"
 "TF_short2014_scopers_smoke"		"Cigarro do Sniper" // ADD THE
 "TF_short2014_sniper_cargo_pants"		"Calças Táticas do Caçador" // ADD THE
 
@@ -18532,6 +18633,15 @@ D-pad = mover, gatilhos = mais rápido, Botão A = linha seguinte."
 "TF_taunt_flying_colors"					"Provocação: Bandeira Pregada"
 "TF_taunt_flying_colors_Desc"				"Nome original inglês: TAUNT: FLYING COLORS\nProvocação para todas as classes criada pela comunidade. Pressiona a tecla de provocação para a usares ou interromperes."
 "TF_taunt_flying_colors_AdText"				"-Provocação para todas as classes criada pela\ncomunidade"
+"TF_taunt_heartbreaker"						"Provocação: Quebra-Corações"
+"TF_taunt_heartbreaker_Desc"				"Nome original inglês: TAUNT: HEARTBREAKER\n\nProvocação para o Medic criada pela comunidade."
+"TF_taunt_heartbreaker_AdText"				"-Provocação para o Medic criada pela\ncomunidade"
+"TF_taunt_healthcarehog"					"Provocação: Surripiador de Socorros"
+"TF_taunt_healthcarehog_Desc"				"Nome original inglês: TAUNT: HEALTHCARE HOG\n\nProvocação para o Scout criada pela comunidade."
+"TF_taunt_healthcarehog_AdText"				"-Provocação para o Scout criada pela\ncomunidade"
+"TF_taunt_ring_king"						"Provocação: Rei do Ringue"
+"TF_taunt_ring_king_Desc"					"Nome original inglês: TAUNT: RING KING\n\nProvocação para o Heavy criada pela comunidade."
+"TF_taunt_ring_king_AdText"					"-Provocação para o Heavy criada pela comunidade"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"O Saco Respiratório"	// ADD THE
@@ -19673,6 +19783,8 @@ D-pad = mover, gatilhos = mais rápido, Botão A = linha seguinte."
 "TF_hwn2024_dusk_duster"				"Casaco Crepuscular"
 "TF_hwn2024_dusk_duster_style1"				"Pôr do sol"
 "TF_hwn2024_dusk_duster_style2"				"Crepúsculos"
+"TF_hwn2024_dusk_duster_style3"				"Pôr do sol (Sem balas)"
+"TF_hwn2024_dusk_duster_style4"				"Crepúsculos (Sem balas)"
 "TF_hwn2024_mannhattan_protect"			"Protetor Mannhattan"
 "TF_hwn2024_nuclear_necessity"			"Necessidade Nuclear"
 "TF_hwn2024_contaminated_carryall"		"Carga Contaminada"
@@ -19793,6 +19905,79 @@ D-pad = mover, gatilhos = mais rápido, Botão A = linha seguinte."
 "TF_sum25_shadow_doubt_style1"				"Com cigarro"
 "TF_sum25_shadow_doubt_style2"				"Sem cigarro"
 "TF_sum25_clinical"						"Investigador Médico"
+
+"TF_hwn2025_heat_shield"				"Escudo Térmico"
+"TF_hwn2025_heat_shield_style1"				"Estilo 1"
+"TF_hwn2025_heat_shield_style2"				"Estilo 2"
+"TF_hwn2025_heat_shield_style3"				"Estilo 3"
+"TF_hwn2025_heat_shield_style4"				"Estilo 4"
+"TF_hwn2025_technicians_tunic"			"Túnica do Técnico"
+"TF_hwn2025_technicians_tunic_style1"		"Estilo 1"
+"TF_hwn2025_technicians_tunic_style2"		"Estilo 2"
+"TF_hwn2025_service_satchel"			"Sacola de Serviço"
+"TF_hwn2025_cigarillo"					"Cigarillo Caballero"
+"TF_hwn2025_cigarillo_style1"				"Com lenço"
+"TF_hwn2025_cigarillo_style2"				"Sem lenço"
+"TF_hwn2025_el_gigantes"				"Guarnição del Gigante"
+"TF_hwn2025_el_gigantes_style1"				"Com cinto"
+"TF_hwn2025_el_gigantes_style2"				"Sem cinto"
+"TF_hwn2025_poncho"						"Poncho del Pesado"
+"TF_hwn2025_poncho_style1"					"Com balas"
+"TF_hwn2025_poncho_style2"					"Sem balas"
+"TF_hwn2025_air_exchanger"				"Máscara de Ar"
+"TF_hwn2025_industrial"					"Insurgente Industrial"
+"TF_hwn2025_industrial_style1"				"Nuclear"
+"TF_hwn2025_industrial_style2"				"Incendiário"
+"TF_hwn2025_hellscape"					"Face do Inferno"
+"TF_hwn2025_fused_plates"				"Armadura Armada"
+"TF_hwn2025_feathered_fiend"			"Escroque Emplumado"
+"TF_hwn2025_feathered_fiend_style1"			"Vilanesco"
+"TF_hwn2025_feathered_fiend_style2"			"Só bigode"
+"TF_hwn2025_feathered_fiend_style3"			"Barbeado"
+"TF_hwn2025_velveteen"					"Vilão de Veludo"
+"TF_hwn2025_velveteen_style1"				"Traje completo"
+"TF_hwn2025_velveteen_style2"				"Só colete"
+"TF_hwn2025_velveteen_style3"				"Só camisola"
+"TF_hwn2025_pantaloons"					"Pantalonas da Vilania Desavergonhada"
+"TF_hwn2025_pantaloons_style1"				"Com balas"
+"TF_hwn2025_pantaloons_style2"				"Sem balas"
+"TF_hwn2025_buzz_kill"					"Puto Reguila"
+"TF_hwn2025_buzz_kill_style1"				"Delinquente"
+"TF_hwn2025_buzz_kill_style2"				"Juvenil"
+"TF_hwn2025_torn_terror"				"Terror Rasgado"
+"TF_hwn2025_torn_terror_style1"				"Agressivo"
+"TF_hwn2025_torn_terror_style2"				"Passivo"
+"TF_hwn2025_ripped_runts"				"Equipamento Esburacado"
+"TF_hwn2025_seamanns"					"Barba do Barqueiro"
+"TF_hwn2025_seamanns_style1"				"Cachimbo"
+"TF_hwn2025_seamanns_style2"				"Charuto"
+"TF_hwn2025_misdirector"				"Mestre do Engano" // ADD THE
+"TF_hwn2025_misdirector_style1"				"Tinta: Faixa"
+"TF_hwn2025_misdirector_style2"				"Tinta: Barba"
+"TF_hwn2025_misdirector_style3"				"Sem barba"
+"TF_hwn2025_sleight_hand"				"Truque na Manga"
+"TF_hwn2025_sleight_hand_style1"			"Deslumbrante"
+"TF_hwn2025_sleight_hand_style2"			"Distinto"
+"TF_hwn2025_vanishing_act"				"Manto da Magia"
+"TF_hwn2025_professor_photon"			"Doutor Fótão"
+"TF_hwn2025_professor_photon_style1"		"Aço"
+"TF_hwn2025_professor_photon_style2"		"Rapado a aço"
+"TF_hwn2025_professor_photon_style3"		"Vapor"
+"TF_hwn2025_professor_photon_style4"		"Rapado a vapor"
+"TF_hwn2025_mad_drip"					"Lapela da Loucura"
+"TF_hwn2025_mad_drip_style1"				"Aço"
+"TF_hwn2025_mad_drip_style2"				"Aço - Sem PDA"
+"TF_hwn2025_mad_drip_style3"				"Vapor"
+"TF_hwn2025_mad_drip_style4"				"Vapor - Sem PDA"
+"TF_hwn2025_viscer_visor"				"Viseira Visceral"
+"TF_hwn2025_viscer_visor_style1"			"Ensanguentada"
+"TF_hwn2025_viscer_visor_style2"			"Limpa"
+"TF_hwn2025_pyromantic_plumage"			"Plumagem Piromântica"
+"TF_hwn2025_one_man_convoy"				"Engi Prime"
+"TF_hwn2025_one_man_convoy_style1"			"Tinta: Lentes"
+"TF_hwn2025_one_man_convoy_style2"			"Tinta: Capacete"
+"TF_hwn2025_face_lift"					"Plástica Pavorosa"
+"TF_hwn2025_zepheniahs_shroud"			"Manto de Zepheniah"
 
 "TF_style_bullets"						"Com balas"
 "TF_style_nobullets"					"Sem balas"
@@ -20005,15 +20190,31 @@ D-pad = mover, gatilhos = mais rápido, Botão A = linha seguinte."
 
 "ItemHistory_ItemIsInInventory"		"No teu inventário"
 
-"default_arena_description"			"Objetivo: A tua equipa tem de eliminar todos os jogadores da equipa adversária ou capturar o ponto de controlo que estará ativo durante a ronda. Outras notas: Não é possível reentrar em jogo no modo Arena."
+"default_arena_description"			"Objetivo:
+A tua equipa tem de eliminar todos os jogadores da equipa adversária ou capturar o ponto de controlo que estará ativo durante a ronda.
+
+Outras notas:
+Não é possível reentrar em jogo no modo Arena."
 
 "default_passtime_description"			"Apanha a bola e marca golos!\nAjuda aliados com a bola a chegar à baliza inimiga.\nImpede que os inimigos com a bola cheguem à tua baliza.\nPrime o botão de atacar para atirares ou passares a bola. Mantém premido o botão para apontares ou fixares num alvo.\nPrime o terceiro botão de ataque quando um aliado tiver a bola para pedires que ele te a passe."
 
-"default_cp_description"			"Objetivo: Para ganhar, cada equipa deve ter a posse de todos os Pontos de Controlo. Outras notas: Os Pontos de Controlo não podem ser capturados enquanto estão bloqueados."
+"default_cp_description"			"Objetivo:
+Para ganhar, cada equipa deve ter a posse de todos os Pontos de Controlo.
 
-"default_koth_description"			"Objetivo: Captura o Ponto de Controlo e defende-o até que o temporizador da tua equipa chegue a zero. Outras notas: O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado. Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto."
+Outras notas:
+Os Pontos de Controlo não podem ser capturados enquanto estão bloqueados."
 
-"default_mvm_description"			"Objetivo: Defende-te dos robots invasores. Sobrevive a todas as ondas de ataque para saíres vitorioso!"
+"default_koth_description"			"Objetivo:
+Captura o Ponto de Controlo e defende-o até que o temporizador da tua equipa chegue a zero.
+
+Outras notas:
+O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado.
+
+Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto."
+
+"default_mvm_description"			"Objetivo:
+Defende-te dos robots invasores.
+Sobrevive a todas as ondas de ataque para assegurares a vitória!"
 
 "cp_coldfront_description"			"Um mapa da comunidade criado por \"Icarus\"
 
@@ -20037,7 +20238,13 @@ Para entrares na torre de menagem, captura os Pontos de Controlo A e B. Captura 
 Outras notas:
 Só são permitidos combates honrosos com espadas e outras armas medievais!"
 
-"cp_fastlane_description"			"Um mapa da comunidade criado por \"skdr\". Objetivo: Uma equipa vence ao possuir todos os cinco Pontos de Controlo. Outras notas: Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
+"cp_fastlane_description"			"Um mapa da comunidade criado por \"skdr\".
+
+Objetivo:
+Uma equipa vence ao possuir todos os cinco Pontos de Controlo.
+
+Outras notas:
+Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
 
 "cp_process_final_description"			"Um mapa da comunidade criado por Ian 'Scorpio Uprising' Cuslidge
   
@@ -20052,9 +20259,11 @@ Os Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
 Objetivo:
 Uma equipa ganha ao obter a posse de todos os três Pontos de Controlo."
 
-"cp_snakewater_final1_description"			"Um mapa da comunidade criado por Toivo Sawen
+"cp_snakewater_final1_description"			"Um mapa da comunidade criado por Toivo \"chojje\" Sawen.
+
 Objetivo:
 Para ganhar, cada equipa deve ter a posse de todos os cinco Pontos de Controlo.
+
 Outras notas:
 Os Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
 
@@ -20070,7 +20279,13 @@ A equipa RED vence ao defender os seus Pontos de Controlo. A equipa BLU vence ao
 Outras notas:
 Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados. A equipa RED não pode recuperar o controlo de um ponto depois de ser capturado pela equipa BLU."
 
-"cp_gullywash_final1_description"	"Um mapa da comunidade criado por Jan 'Arnold' Laroy Objetivo: Uma equipa vence ao possuir todos os cinco Pontos de Controlo. Outras notas: Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
+"cp_gullywash_final1_description"	"Um mapa da comunidade criado por Jan \"Arnold\" Laroy.
+
+Objetivo:
+Uma equipa vence ao possuir todos os cinco Pontos de Controlo.
+
+Outras notas:
+Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
 
 "cp_manor_event_description"		"Um mapa da comunidade criado por \"YM\" e \"Rexy\"
 
@@ -20088,13 +20303,38 @@ A equipa RED vence ao defender os seus Pontos de Controlo. A equipa BLU vence ao
 Outras notas:
 Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados. A equipa RED não pode recuperar o controlo de um ponto depois de ser capturado pela equipa BLU."
 
-"ctf_2fort_description"				"Objetivo: Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua cave. Outras notas: Os jogadores deixam cair as informações secretas quando morrem. As informações secretas caídas voltam à respetiva base após 60 segundos."
+"ctf_2fort_description"				"Objetivo:
+Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua cave.
 
-"default_ctf_description"			"Objetivo: Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base. Outras notas: Os jogadores deixam cair as informações secretas quando morrem. As informações secretas caídas voltam à respetiva base após 60 segundos."
+Outras notas:
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 60 segundos."
 
-"ctf_turbine_description"			"Um mapa da comunidade criado por \"Flobster\". Objetivo: Para pontuares, rouba a mala das informações secretas do inimigo e leva-a para a tua base. Outras notas: Os jogadores largam a mala ao morrerem. As malas largadas voltam à base correspondente após 60 segundos."
+"default_ctf_description"			"Objetivo:
+Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base.
 
-"koth_viaduct_event_description"	"Objetivo: Captura o Ponto de Controlo e defende-o até que o temporizador da tua equipa chegue a zero. Cuidado com o MONOCULUS! Outras notas: O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado. Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto. O Ponto de Controlo não será de ninguém enquanto o MONOCULUS! estiver a deambular pelo mapa."
+Outras notas:
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 60 segundos."
+
+"ctf_turbine_description"			"Um mapa da comunidade criado por \"Flobster\".
+
+Objetivo:
+Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base.
+
+Outras notas:
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 60 segundos."
+
+"koth_viaduct_event_description"	"Objetivo:
+Captura o Ponto de Controlo e defende-o até que o temporizador da tua equipa chegue a zero.
+
+Cuidado com o MONOCULUS!
+
+
+Outras notas:
+O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado.
+
+Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto.
+
+O Ponto de Controlo não será de ninguém enquanto o MONOCULUS! estiver a deambular pelo mapa."
 
 "default_payload_description"		"Objetivo:
 Escolta o teu carrinho com a carga explosiva até à base inimiga. Fica perto do carrinho para que se mova.
@@ -20119,8 +20359,8 @@ Os inimigos podem impedir que o carrinho se desloque ao aproximarem-se dele."
 "sd_doomsday_description"		"Objetivo:
 Leva o Austrálio à ogiva do foguetão para ganhar a ronda.
 
-Outras Notas:
-Os jogadores largam o Austrálio quando morrem. Este volta para a zona de captura depois de 15 segundos."
+Outras notas:
+Os jogadores largam o Austrálio quando morrem. Este volta para a posição inicial depois de 15 segundos."
 
 "tc_hydro_description"		"Objetivo:
 Para vencer a ronda, uma equipa deve controlar todos os seis territórios. Obtém novos territórios ao capturar o Ponto de Controlo inimigo em cada fase.
@@ -20128,15 +20368,34 @@ Para vencer a ronda, uma equipa deve controlar todos os seis territórios. Obté
 Outras notas:
 Novas fases serão selecionadas até que uma equipa controle todos os territórios."
 
-"cp_steel_description"		"Variação do modo Ataque/Defesa! A equipa RED tem 60 segundos para preparar a sua defesa antes que a equipa BLU possa atacar. Defende o ponto central E - debaixo do foguetão - até que o tempo acabe! Objetivo: A equipa BLU tem de capturar o ponto central E da equipa RED a qualquer momento para vencer a partida. Capturar os outros pontos facilitará a captura do ponto central. A captura dos cinco pontos causa o seguinte: A) - Abre rotas mais rápidas para os pontos E e D; B) - Move o ponto de reentrada da equipa RED para mais longe da equipa BLU; C) - Ativa 3 pontes em direção ao ponto central; D) - Bloqueia a saída do ponto de reentrada da equipa RED para o ponto E e posiciona corrimões nas pontes do ponto E; E) - A equipa BLU pode capturar este ponto a qualquer momento para vencer a partida. Outras notas: Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
+"cp_steel_description"		"Variação do modo Ataque/Defesa!
+A equipa RED tem 60 segundos para preparar a defesa antes que a equipa BLU possa atacar.
+Defende o ponto central E - debaixo do foguetão - até que o tempo acabe!
 
-"koth_lakeside_event_description"	"Objetivo:
-Captura o Ponto de Controlo e defende-o até que o contador da tua equipa chegue a zero.
+Objetivo:
+A equipa BLU tem de capturar o ponto central E da equipa RED a qualquer momento para vencer a partida. Capturar os outros pontos facilitará a captura do ponto central. A captura dos cinco pontos causa o seguinte:
 
-Cuidado com o MERASMUS!
+A) - Abre rotas mais rápidas para os pontos E e D;
+B) - Move o ponto de reentrada da equipa RED para mais longe da equipa BLU;
+C) - Ativa 3 pontes em direção ao ponto central;
+D) - Bloqueia a saída do ponto de reentrada da equipa RED para o ponto E e posiciona corrimões nas pontes do ponto E;
+E) - A equipa BLU pode capturar este ponto a qualquer momento para vencer a partida.
+
+Outras notas:
+Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados."
+
+"koth_lakeside_event_description"	"Objective:
+Capture the Control Point and defend it until your team's timer runs out.
+
+Beware MERASMUS!
 
 
-Outras notas: O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado. Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto. O Ponto de Controlo não pertence a ninguém enquanto o MERASMUS! estiver a deambular pelo mapa."
+Outras notas:
+O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado.
+
+Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto.
+
+O Ponto de Controlo não pertence a ninguém enquanto o MERASMUS! estiver a deambular pelo mapa."
 
 "plr_hightower_event_description"	"Objetivo:
 Ajudem o fantasma do Blutarch ou do Redmond Mann a ganhar a Guerra da Gravilha de uma vez por todas! Empurrem um velhote numa cadeira de rodas para o inferno antes que a outra equipa o faça. Juntem-se e lancem feitiços. Fiquem perto do carrinho para que se mova.
@@ -20151,22 +20410,24 @@ Ganha a ronda destruindo robots inimigos e recolhendo núcleos do reator. Recupe
 Ganha a ronda destruindo robots inimigos e recolhendo núcleos do reator. Recupera núcleos roubados invadindo o cofre inimigo."
 
 "sd_doomsday_event_description"		"Objetivo:
+
 Apanha os bilhetes e leva-os até ao topo do Strongmann! Prepara-te para testar a tua força!
+
 Outras notas:
 Os jogadores largam os bilhetes quando morrem.
-Estes voltam para a zona de captura depois de 15 segundos."
+Estes voltam para a posição inicial após 15 segundos."
 
 "ctf_foundry_description"			"Objetivo:
 Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base.
 
 Outras notas:
-Os jogadores deixam cair as informações secretas quando morrem. As informações secretas caídas voltam à respetiva base após 60 segundos."
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 60 segundos."
 
 "ctf_gorge_description"			"Objetivo:
 Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base.
 
 Outras notas:
-Os jogadores deixam cair as informações secretas quando morrem. As informações secretas caídas voltam à respetiva base após 60 segundos."
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 60 segundos."
 
 "ctf_foundry_beta"			"Objetivo:
 Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base. A mala das informações secretas caída volta à sua base quando a equipa respetiva tocar nela.
@@ -20187,7 +20448,8 @@ Outras notas:
 Pontos de Controlo não podem ser capturados enquanto estiverem bloqueados. A equipa RED não pode recuperar o controlo de um ponto depois de ser capturado pela equipa BLU."
 
 "arena_byre_description"			"Objetivo:
-A tua equipa tem de eliminar todos os jogadores da equipa adversária ou capturar ambos os pontos de controlo. 
+A tua equipa tem de eliminar todos os jogadores da equipa adversária ou capturar ambos os pontos de controlo.
+
 Outras notas:
 No modo Arena, não é possível reentrar na ronda."
 
@@ -20214,7 +20476,7 @@ Quem tiver mais almas em cada equipa adquire a função de um Distribuidor, pode
 Para ganhares um ponto, rouba a mala de informações secretas do inimigo e leva-a para a tua base.
 
 Outras notas:
-Os jogadores deixam cair as informações secretas quando morrem. As informações secretas perdidas voltam à respetiva base após 35 segundos."
+Os jogadores deixam cair a mala quando morrem. A mala largada volta à respetiva base após 35 segundos."
 
 "pd_watergate_description"			"Objetivo:
 Para que a tua equipa ganhe, tens de apanhar cerveja que os teus inimigos deixam cair depois de morrerem. Deposita a cerveja no raio de luz do OVNI para ganhares pontos (pois o OVNI fica bêbado). Quem tiver mais cerveja em cada equipa passa a poder restaurar vida e munições a companheiros de equipa por perto. 
@@ -20251,7 +20513,7 @@ A primeira equipa que marcar 4 pontos ganha."
 "pd_snowville_event_description"			"Objetivo:
 Mata inimigos e apanha os presentes deles. Deposita os presentes no trenó quando aparecer para uma visita! Entrega mais presentes do que os teus adversários!
 
-Outras notas!
+Outras notas:
 Quem tiver mais presentes em cada equipa fica cheio de espírito natalício e comporta-se como um Distribuidor, podendo restaurar vida e munições a companheiros de equipa por perto!"
 
 "pd_monster_bash_description"			"Objetivo:
@@ -20394,7 +20656,24 @@ Outras notas:
 O Ponto de Controlo não pode ser capturado enquanto estiver bloqueado.
 Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa será pausado até que ela recapture o ponto."
 
+"sd_marshlands_description"			"Proteger a Mala
 
+Objetivo:
+Apanha e protege a mala durante 3 minutos!
+
+Não atravesses as barreiras mágicas enquanto tiveres a mala, senão esta irá desaparecer e reaparecer na posição original!"
+
+"cp_cowerhouse_description"			"Objetivo:
+Para ganhar, cada equipa tem de possuir todos os três pontos de controlo.
+
+Outras notas:
+Existe uma rota alternativa subterrânea dos dois lados, acessível por tempo limitado. Ambas as portas traseiras abrem e a equipa que tiver a posse do ponto de ontrolo central terá acesso a uma entrada frontal de um só sentido! Desce pelas cascatas para o ponto de controlo central!"
+
+"arena_afterlife_description"			"Objetivo:
+A tua equipa tem de eliminar todos os jogadores da equipa adversária ou capturar o ponto de controlo.
+
+Outras notas:
+Os jogadores que morrerem serão enviados diretamente para o Inferno, onde continuarão a lutar. Um jogador que matar ou ajudar a matar um inimigo no Inferno irá roubar a sua alma, podendo levá-la a um altar para ser ressuscitado."
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"Poção de Kritz"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Poção de Über"
@@ -20499,6 +20778,8 @@ Se a equipa inimiga capturar o Ponto de Controlo, o temporizador da tua equipa s
 "TF_DataCenter_bt2"				"Beta 2"
 "TF_DataCenter_dum"				"Dumm1"
 "TF_DataCenter_beta"			"Beta"
+"TF_DataCenter_hel"             "Helsínquia, Finlândia"
+"TF_DataCenter_fsn"             "Falkenstein, Alemanha"
 
 "TF_CaseExclusiveBonusItems"				"Itens exclusivos adicionais:"
 "TF_CaseGlobalUnusualEffects"			"Efeitos Inusuais globais:"
