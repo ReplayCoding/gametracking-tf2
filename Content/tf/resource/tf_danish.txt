@@ -132,10 +132,6 @@
 
 "TF_Timeline_ChangeClass"		"Du valgte at spille %s1" // localized class name
 "TF_Timeline_ChangeTeam"		"Du tilsluttede dig %s1" // localized team name
-"TF_Timeline_Killed"			"Du drabte en %s1" // localized class name
-"TF_Timeline_WereKilled"		"Du blev drabt af en %s1" // localized class name
-"TF_Timeline_KilledEngy"		"Du drabte en %s1" // localized class name
-"TF_Timeline_WereKilledEngy"	"Du blev drabt af en %s1" // localized class name
 "TF_Timeline_Suicide"			"Du sagde farvel til denne verden!"
 "TF_Timeline_CPCaptured"		"Du erobrede et kontrolpunkt"
 "TF_Timeline_IntelCaptured"		"Du erobrede efterretningen"
@@ -149,7 +145,6 @@
 "TF_Timeline_ObjectDestroyedGeneric"	"Bygning ødelagt"
 "TF_Timeline_ObjectDestroyedYours"		"Din %s1 blev ødelagt" // localized building name
 "TF_Timeline_ObjectDestroyed"			"Du ødelagde en %s1" // localized building name
-"TF_Timeline_JackCarrier"		"Du drabte bold-holderen"
 "TF_Timeline_JackLost"			"Du mistede bolden"
 "TF_Timeline_JackPass"			"Du fik fat i bolden"
 "TF_Timeline_JackIntercepted"	"Du opsnappede bolden"
@@ -1495,6 +1490,10 @@
 "TF_TournamentMedal_FBTF2_4v4_Open_2nd"						"2.-pladsen i FBTF 4v4 Open"
 "TF_TournamentMedal_FBTF2_4v4_Open_3rd"						"3.-pladsen i FBTF 4v4 Open"
 "TF_TournamentMedal_FBTF2_4v4_Open_Participant"				"Deltager i FBTF 4v4 Open"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_1st"					"1.-plads i FBTF 4v4 PASS Time"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_2nd"					"2.-plads i FBTF 4v4 PASS Time"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_3rd"					"3.-plads i FBTF 4v4 PASS Time"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_Participant"			"Deltager i FBTF 4v4 PASS Time"
 
 "TF_TournamentMedal_Chapelaria_6v6_1st"						"1.-plads i Chapelaria 6v6"
 "TF_TournamentMedal_Chapelaria_6v6_2nd"						"2.-plads i Chapelaria 6v6"
@@ -1654,6 +1653,10 @@
 "TF_TournamentMedal_Summer2025"	"Sommer 2025"
 "TF_TournamentMedal_Autumn2025"	"Efterår 2025"
 "TF_TournamentMedal_Winter2025"	"Vinter 2025"
+"TF_TournamentMedal_Spring2026"	"Forår 2026"
+"TF_TournamentMedal_Summer2026"	"Sommer 2026"
+"TF_TournamentMedal_Autumn2026"	"Efterår 2026"
+"TF_TournamentMedal_Winter2026"	"Vinter 2026"
 
 "TF_TournamentMedal_April2019"	"April 2019"
 
@@ -1780,6 +1783,7 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"Coach ved AsiaFortress Liquid.tf Newbie Cup"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf Newbie Cup 9"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_10"				"AsiaFortress Liquid.tf Newbie Cup 10"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_11"				"AsiaFortress Liquid.tf Newbie Cup 11"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_1st"				"1.-plads ved AsiaFortress Liquid.tf Gibus Cup"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_2nd"				"2.-plads ved AsiaFortress Liquid.tf Gibus Cup"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_3rd"				"3.-plads ved AsiaFortress Liquid.tf Gibus Cup"
@@ -2388,7 +2392,6 @@
 
 "TF_TournamentMedal_Canteen_Crasher_Platinum"			"Canteen Crasher - Platineret Krit 2018"
 "TF_TournamentMedal_Canteen_Crasher_Platinum_Desc"		"Det har vist sig, at du er knaldgod til øjeblikkelig problemløsning! Godt klaret, kammerat! Givet til deltagerne af Potato's MvM Server's hybride MvM-konkurrence!"
-"TF_TournamentMedal_Canteen_Crasher_Gold"				"Canteen Crasher - Forgyldt Uber 2018"
 "TF_TournamentMedal_Canteen_Crasher_Gold_Desc"			"Når det bliver tid til at sætte hårdt mod hårdt, kan du søge udødelighed i den nærmeste butik! Givet til deltagere i Potato's MvM Servers MvM-hybridkonkurrence!"
 "TF_TournamentMedal_Canteen_Crasher_Silver"				"Canteen Crasher - Sølvbelagt Bygning 2018"
 "TF_TournamentMedal_Canteen_Crasher_Silver_Desc"		"Denne skruenøglekasse har en timer- og rystefunktion, som garanterer de bedste Sentry Buster-oplevelser! Givet til deltagerne af Potato's MvM Server's hybride MvM-konkurrence!"
@@ -3518,6 +3521,9 @@
 "TF_Wearable_DivingGear"			"Dykkerudstyr"
 "TF_Wearable_Tunic"					"Tunika"
 "TF_Wearable_Wetsuit"				"Våddragt"
+"TF_Wearable_Sombrero"				"Sombrero"
+"TF_Wearable_LavaHead"				"Lavahoved"
+"TF_Wearable_Visor"					"Visir"
 
 "TF_RobotPart_Type"	"Robotdel"
 "TF_CircuitBoard_Type"	"Kredsløbsplade"
@@ -3842,9 +3848,6 @@
 "TF_Bundle_WarWednesday_Desc"			"Tag for dig af disse militærmotiv-genstande til Soldier:"
 "TF_Bundle_MeetTheMedic"			"Mød Medicen!-bundt"
 "TF_Bundle_MeetTheMedic_Desc"			"Tag for dig af disse genstande i fejringen af Meet the Medic-videoen:"
-"TF_Bundle_Uber"				"Uber-opdateringsbundtet"
-"TF_Bundle_Uber_Desc"				"Få alle nye genstande fra Uber-opdateringen i ét enormt bundt:"
-
 "TF_Bundle_Summer2011"				"Sommersol-bundt"
 "TF_Bundle_Summer2011_Desc"			"Det perfekte sæt af genstande til at nyde solens varme:"
 
@@ -4504,7 +4507,6 @@
 "TF_CowboyBoots"			"Teufort-tandsparkeren" // ADD THE
 "TF_CowboyBoots_Desc"		"Disse ståltåede hunde var videnskabeligt udviklede, (i en vindtunnel), af Amerikas førende inden for mundsparken, til at passe perfekt til indersiden af en idiots mund."
 "TF_MedicSmokingPipe"		"Ni-pibeproblemet"	// ADD THE
-"TF_MedicSmokingPipe_Desc"	"I den tid det har taget dig at læse denne beskrivelse, har jeg allerede uberet en heavy, erobret din base, opklaret en forbrydelse og røget tre piber."
 "TF_PyroCandle"				"Den Voksede Vejviser" // ADD THE
 "TF_PyroCandle_Desc"		"Lev endelig dit liv som et lys i vinden. (Vind ikke inkluderet.)"
 "TF_ShootManyRobotsPack"		"Skrottasken" // ADD THE
@@ -5316,7 +5318,6 @@
 "koth_mannhole_authors"			"Harlen 'UEAKCrash' Linke\nAeon 'Void' Bollig\nBenjamin 'blaholtzen' Blåholtz\nAlex 'FGD5' Stewart\nAl 'Square' Rodgers\nNorman 'Mikusch' Masanek\nJuniper\ndonhonk\nFreyja"
 "koth_demolition_authors"		"Entropy Tempus\nAndrea 'DoctorDoomtrain64' DeStephan\nHunter 'Seacat08' Way\nGoobert"
 "ctf_pressure_authors"			"Mitchell 'AltraNade' Leyte\nMuhNamesGreen\nDansky\nJoel 'zythe_' Morscher\nJames 'lolripk' Stevens\nSzabó 'Maxxy' Attila\nJames 'McGuinnsBook' McGuinn\nAlien31\nPhe\nGlebotron"
-
 "TF_YourStats"					"Dine statistikker"
 "TF_DuckPromoList"				"-Kosmetik med elleve stile til alle klasser\n-Sporer dine statistikker i løbet af End of the Line-begivenheden\n-Se førertavler og konkurrer med dine venner\n-Salgene støtter holdet bag End of the Line"
 "TF_GetDucky"					"Bliv rappet"
@@ -5733,22 +5734,10 @@
 "TF_MapToken_Selbyen"				"Banefrimærke – Selbyen"
 "TF_MapToken_Selbyen_Desc"			"En Player Destruction-bane\n\nLavet af Joel 'zythe_' Morscher, Rhafael 'Rhamkin' Oliveira, Alex 'FGD5' Stewart, Benjamin 'blaholtzen' Blåholtz, Matthew 'MegapiemanPHD' Simmons og Lo-fi Longcat\n\nKøb af denne genstand støtter direkte skaberne af Selbyen-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Selbyen_AdText"		"-Køb af denne genstand støtter direkte skaberne af Selbyen-fællesskabsbanen."
-"TF_Map_TinyRock"					"Tiny Rock"
-"TF_MapToken_TinyRock"				"Banefrimærke – Tiny Rock"
 "TF_MapToken_TinyRock_Desc"			"En VS Saxton Hale (fællesskab)-bane\n\nLavet af Jess 'Muddy' Dabbs, Lizard of Oz, Jason 'Yaki' Herman, Szabó 'Maxxy' Attila, Maxim 'VellyVice' Streltsov, James M., Joaquim 'JPRAS' Silva og Matthew 'MegapiemanPHD' Simmons\n\nKøb af denne genstand støtter direkte skaberne af VSH Tiny Rock-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_TinyRock_AdText"		"-Køb af denne genstand støtter direkte skaberne af Tiny Rock-fællesskabsbanen."
-"TF_Map_Distillery"					"Distillery"
-"TF_MapToken_Distillery"			"Banefrimærke – Distillery"
 "TF_MapToken_Distillery_Desc"		"En VS Saxton Hale (fællesskab)-bane\n\nLavet af Phe, Lizard Of Oz, Sonoma 'Sono' Bryer, Szabó 'Maxxy' Attila, Matthew 'MegapiemanPHD' Simmons, Stuffy 360, Jason 'Yaki' Herman, Maxim 'VellyVice' Streltsov, James M., Joaquim 'JPRAS' Silva og Aeon 'Void' Bollig\n\nKøb af denne genstand støtter direkte skaberne af VSH Distillery-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Distillery_AdText"		"-Køb af denne genstand støtter direkte skaberne af Distillery-fællesskabsbanen."
-"TF_Map_Skirmish"					"Skirmish"
-"TF_MapToken_Skirmish"				"Banefrimærke – Skirmish"
 "TF_MapToken_Skirmish_Desc"			"En VS Saxton Hale (fællesskab)-bane\n\nLavet af John 'MilkMaster72' Worden, Lizard Of Oz, Jason 'Yaki' Herman, Szabó 'Maxxy' Attila, Joaquim 'JPRAS' Silva, Matthew 'MegapiemanPHD' Simmons, James M., Maxim 'VellyVice' Streltsov, Aeon 'Void' Bollig og Louie 'bakscratch' Turner\n\nKøb af denne genstand støtter direkte skaberne af VSH Skirmish-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Skirmish_AdText"		"-Køb af denne genstand støtter direkte skaberne af Skirmish-fællesskabsbanen."
-"TF_Map_Nucleus"					"Nucleus VSH"
-"TF_MapToken_Nucleus"				"Banefrimærke – Nucleus VSH"
 "TF_MapToken_Nucleus_Desc"			"En VS Saxton Hale (fællesskab)-bane\n\nLavet af John 'MilkMaster72' Worden, Lizard Of Oz, Jason 'Yaki' Herman, Szabó 'Maxxy' Attila, Joaquim 'JPRAS' Silva, Matthew 'MegapiemanPHD' Simmons, James M., Maxim 'VellyVice' Streltsov, Aeon 'Void' Bollig\n\nKøb af denne genstand støtter direkte skaberne af VSH Skirmish-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Nucleus_AdText"		"-Køb af denne genstand støtter direkte skaberne af Nucleus VSH-fællesskabsbanen."
 "TF_Map_Perks"						"Perks"
 "TF_MapToken_Perks"					"Banefrimærke – Perks"
 "TF_MapToken_Perks_Desc"			"En Arena-bane\n\nLavet af Philippe 'Le Codex' Lefebvre, Liam 'Diva Dan' Moffitt, Daniel 'DJ' Bennett, Seb 'Tianes' Necula, Ase 'pont' Kirkham og E-Arkham\n\nKøb af denne genstand støtter direkte skaberne af Perks-fællesskabsbanen. Vis din støtte i dag!"
@@ -5777,26 +5766,11 @@
 "TF_MapToken_Corruption"			"Banefrimærke – Corruption"
 "TF_MapToken_Corruption_Desc"		"En Payload-bane\n\nLavet af Eric 'Erk' Browning, Matthew 'MegapiemanPHD' Simmons, Rhafael 'Rhamkin' Oliveira, Matthew 'Panckakebro' Hiller og Vasilis 'Billo' Chatzikostas\n\nKøb af denne genstand støtter direkte skaberne af Corruption-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Corruption_AdText"		"-Køb af denne genstand støtter direkte skaberne af Corruption-fællesskabsbanen."
-"TF_Map_Murky"						"Murky"
-"TF_MapToken_Murky"					"Banefrimærke – Murky"
 "TF_MapToken_Murky_Desc"			"En Zombie Infection (fællesskab)-bane\n\nLavet af netmuck, Liam 'Diva Dan' Moffitt og E-Arkham\n\nKøb af denne genstand støtter direkte skaberne af Murky-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Murky_AdText"			"-Køb af denne genstand støtter direkte skaberne af Murky-fællesskabsbanen."
-"TF_Map_Atoll"						"Atoll"
-"TF_MapToken_Atoll"					"Banefrimærke – Atoll"
 "TF_MapToken_Atoll_Desc"			"En Zombie Infection (fællesskab)-bane\n\nLavet af Patrik 'Nat-Tea' Naplava, Emil Sharafeev, Danni 'AttaKat' Bestford, Ben 'Squishy' Dowman, Jesse 'Custard1' Budd, Alex 'Zz' Elliott, Liam 'Diva Dan' Moffitt og netmuck\n\nKøb af denne genstand støtter direkte skaberne af Atoll-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Atoll_AdText"			"-Køb af denne genstand støtter direkte skaberne af Atoll-fællesskabsbanen."
-"TF_Map_Woods"						"Woods"
-"TF_MapToken_Woods"					"Banefrimærke – Woods"
 "TF_MapToken_Woods_Desc"			"En Zombie Infection (fællesskab)-bane\n\nLavet af George 'I dinne ken' Norman, netmuck, Liam 'Diva Dan' Moffitt, Stuffy360, Aeon 'Void' Bollig og Emil Sharafeev\n\nKøb af denne genstand støtter direkte skaberne af Woods-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Woods_AdText"			"-Køb af denne genstand støtter direkte skaberne af Woods-fællesskabsbanen."
-"TF_Map_Sanitarium"					"Sanitarium"
-"TF_MapToken_Sanitarium"			"Banefrimærke – Sanitarium"
 "TF_MapToken_Sanitarium_Desc"		"En Zombie Infection (fællesskab)-bane\n\nLavet af Matthew 'Panckakebro' Hiller, netmuck, Liam 'Diva Dan' Moffitt, Stuffy360, Elián 'iron' Rodríguez og Louie 'bakscratch' Turner\n\nKøb af denne genstand støtter direkte skaberne af Sanitarium-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Sanitarium_AdText"		"-Køb af denne genstand støtter direkte skaberne af Sanitarium-fællesskabsbanen."
-"TF_Map_Devastation"				"Devastation"
-"TF_MapToken_Devastation"			"Banefrimærke – Devastation"
 "TF_MapToken_Devastation_Desc"		"En Zombie Infection (fællesskab)-bane\n\nLavet af Jordan 'Ismaciodismorphus' La Rose, netmuck, Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig og Alex 'FGD5' Stewart\n\nKøb af denne genstand støtter direkte skaberne af Devastation-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Devastation_AdText"	"-Køb af denne genstand støtter direkte skaberne af Devastation-fællesskabsbanen."
 "TF_Map_Snowtower"					"Snowtower"
 "TF_MapToken_Snowtower"				"Banefrimærke – Snowtower"
 "TF_MapToken_Snowtower_Desc"		"En King of the Hill-bane\n\nLavet af eon 'Void' Bollig, Al 'Square' Rodgers, EArkham, Keldos, KrazyZark, Maxime 'fubar' Dupuis, Tim 'sedisocks' BL og Zach 'Exactol' Matuson\n\nKøb af denne genstand støtter direkte skaberne af Snowtower-fællesskabsbanen. Vis din støtte i dag!"
@@ -5897,14 +5871,8 @@
 "TF_MapToken_Circus"				"Banefrimærke – Circus"
 "TF_MapToken_Circus_Desc"			"En Player Destruction-bane\n\nLavet af Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig og donhonk\n\nKøb af denne genstand støtter direkte skaberne af Circus-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Circus_AdText"			"-Køb af denne genstand støtter direkte skaberne af Circus-fællesskabsbanen."
-"TF_Map_Outburst"					"Outburst"
-"TF_MapToken_Outburst"				"Banefrimærke – Outburst"
 "TF_MapToken_Outburst_Desc"			"En VS Saxton Hale (fællesskab)-bane\n\nLavet af Lizard Of Oz, Phe, Szabó 'Maxxy' Attila, Maksim 'VellyVice' Streltsov, Matthew 'MegapiemanPHD' Simmons, James M., Jason 'Yaki' Herman, Joaquim 'JPRAS' Silva og Stuffy360\n\nKøb af denne genstand støtter direkte skaberne af Outburst-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Outburst_AdText"		"-Køb af denne genstand støtter direkte skaberne af Outburst-fællesskabsbanen."
-"TF_Map_Blazehattan"				"Blazehattan"
-"TF_MapToken_Blazehattan"			"Banefrimærke – Blazehattan"
 "TF_MapToken_Blazehattan_Desc"		"En Zombie Infection (fællesskab)-bane\n\nLavet af Emil Sharafeev, Patrik 'Nat-Tea' Naplava, Aeon 'Void' Bollig, Liam 'Diva Dan' Moffitt og netmuck\n\nKøb af denne genstand støtter direkte skaberne af Blazehattan-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Blazehattan_AdText"	"-Køb af denne genstand støtter direkte skaberne af Blazehattan-fællesskabsbanen."
 "TF_Map_Overcast"					"Overcast"
 "TF_MapToken_Overcast"				"Banefrimærke – Overcast"
 "TF_MapToken_Overcast_Desc"			"En King of the Hill-bane\n\nLavet af Sean Slowmotion Milk, Ethan Stokes og Dr Vlad Crazy\n\nKøb af denne genstand støtter direkte skaberne af Overcast-fællesskabsbanen. Vis din støtte i dag!"
@@ -5925,10 +5893,7 @@
 "TF_MapToken_Cutter"				"Banefrimærke – Cutter"
 "TF_MapToken_Cutter_Desc"			"En Payload Race-bane\n\nLavet af Paul 'puxorb' Broxup, Brie, Nickolas 'KrazyZark' Fenech, Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig, Erik 'Colteh' Coltey, Extra Ram, Mattie Konig, Tim 'Sedisocks' Brown Lees, Patrick 'Zeus' Hennessy og Zoey Smith\n\nKøb af denne genstand støtter direkte skaberne af Cutter-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Cutter_AdText"			"-Køb af denne genstand støtter direkte skaberne af Cutter-fællesskabsbanen."
-"TF_Map_Maul"						"Maul"
-"TF_MapToken_Maul"					"Banefrimærke – Maul"
 "TF_MapToken_Maul_Desc"				"En VS Saxton Hale (fællesskab)-bane\n\nLavet af Matthew Scott 'MegapiemanPHD' Simmons, Brandon 'Bonk Nickeltoon' Koller, Szabó 'Maxxy' Attila, Patrick 'Zeus' Hennessy, Lizard Of Oz, Stuffy360, James Jameson, Phe, Mattie Konig, Alex 'FGD5' Stewart, Maksim 'Velly' Streltsov, Jason 'Yaki' Herman, Jesse 'Custard1' Budd, Joaquim 'JPRAS' Silva, Samuel 'ChargingTurnip' Turner, Alex 'Lacry' Couto, James M., Torkil 'TheLazerSofa' Malvik Bidtnes og Sky\n\nKøb af denne genstand støtter direkte skaberne af Maul-fællesskabsbanen. Vis din støtte i dag!"
-"TF_MapToken_Maul_AdText"			"-Køb af denne genstand støtter direkte skaberne af Maul-fællesskabsbanen."
 "TF_Map_Citadel"					"Citadel"
 "TF_MapToken_Citadel"				"Banefrimærke – Citadel"
 "TF_MapToken_Citadel_Desc"			"En Payload-bane\n\nLavet af Evan 'Defcon' LeBlanc, Nickolas 'KrazyZark' Fenech, Sarexicus, Freyja og Ficool2\n\nKøb af denne genstand støtter direkte skaberne af Citadel-fællesskabsbanen. Vis din støtte i dag!"
@@ -5969,7 +5934,6 @@
 "TF_MapToken_Pressure"				"Banefrimærke – Pressure"
 "TF_MapToken_Pressure_Desc"			"En Capture the Flag-bane\n\nLavet af Mitchell 'AltraNade' Leyte, MuhNamesGreen, Dansky, Joel 'zythe_' Morscher, James 'lolripk' Stevens, Szabó 'Maxxy' Attila, James 'McGuinnsBook' McGuinn, Alien31, Phe og Glebotron\n\nKøb af denne genstand støtter direkte skaberne af Pressure-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Pressure_AdText"		"-Køb af denne genstand støtter direkte skaberne af Pressure-fællesskabsbanen."
-
 "TF_Map_Unknown"				"Bane ikke fundet!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6188,7 +6152,6 @@
 "TF_Map_Mannhole_StrangePrefix"			" Ildelugtende"
 "TF_Map_Demolition_StrangePrefix"		" Eksploderet"
 "TF_Map_Pressure_StrangePrefix"			" Tryksat"
-
 "TF_MapDonationLevel_Bronze"	"Bronze:"
 "TF_MapDonationLevel_Silver"	"Sølv:"
 "TF_MapDonationLevel_Gold"	"Guld:"
@@ -6968,7 +6931,6 @@
 "koth_boardwalk_house"					"Slagteriet"
 "koth_boardwalk_pier"					"Molen"
 "koth_mannhole_overpass"				"Under Togbanen"
-
 // Win panel strings
 "Winpanel_Team1"			"HOLD"
 "Winpanel_Team2"			"Hold"
@@ -7258,7 +7220,6 @@
 "GameType_VSH"					"Versus Saxton Hale (fællesskab)"
 "GameType_ZI"					"Zombie Infection (fællesskab)"
 "GameType_TOW"					"Tug of War (fællesskab)"
-
 "TF_MMCat_SpecialEvents"		"Særlige begivenheder"
 "TF_MMCat_Core"				"Kernespiltilstande"
 "TF_MMCat_Alternative"		"Alternative spiltilstande"
@@ -7752,7 +7713,6 @@
 "TF_ClassRecord_Alt_MostDominations"	"dominering(er)"
 "TF_ClassRecord_Alt_LongestLife"		"levetid"
 "TF_ClassRecord_Alt_MostHealing"		"heling"
-"TF_ClassRecord_Alt_MostInvulns"		"ÜberLadning(er)"
 "TF_ClassRecord_Alt_MostSentryKills"	"drab med sentry"
 "TF_ClassRecord_Alt_MostTeleports"		"teleporter-anvendelse(r)"
 "TF_ClassRecord_Alt_MostHeadshots"		"hovedskud"
@@ -9656,7 +9616,6 @@
 "LimitedQualityDesc" "Begrænset "
 
 "KillEaterEventType_Kills"		"Drab"
-"KillEaterEventType_Ubers"		"Ubere"
 "KillEaterEventType_KillAssists"	"Assisterede drab"
 "KillEaterEventType_SentryKills"	"Sentry-drab"
 "KillEaterEventType_PeeVictims"	"Gennemblødte ofre"
@@ -10184,7 +10143,6 @@
 "TF_StrangeFilter_CommunityMapDemolition_Desc"		"Ved at sætte dette Sære filter på et Sær-kvalitetsvåben og vælge én af statistikkerne, det holder regnskab over, vil det begrænse den statistik til kun at tælle hændelser i Demolition."
 "TF_StrangeFilter_CommunityMapPressure"				"Sært filter: Pressure (fællesskab)"
 "TF_StrangeFilter_CommunityMapPressure_Desc"		"Ved at sætte dette Sære filter på et Sær-kvalitetsvåben og vælge én af statistikkerne, det holder regnskab over, vil det begrænse den statistik til kun at tælle hændelser i Pressure."
-
 "TF_StrangeFilter_Map2fort"				"Sært filter: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Ved at sætte dette Sære filter på et Sær-kvalitetsvåben og vælge én af statistikkerne, det holder regnskab over, vil det begrænse den statistik til kun at tælle hændelser i 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Sært filter: Dustbowl"
@@ -10323,7 +10281,6 @@
 "SpiritOfGivingRank15"        "Førsteklasses-filantropens"
 "SpiritOfGivingRank16"        "Den humanitære humanes"
 "SpiritOfGivingRank17"        "Den uselviske samaritaners"
-"SpiritOfGivingRank18"        "Über-altruistens"
 "SpiritOfGivingRank19"        "Saxtons egen"
 
 "KillEater_HolidayPunchRank0"			"Sær"
@@ -11540,6 +11497,11 @@
 "Halloween2024Paintkits_collection"			"Scream Fortress XVI-samlingen"
 "Halloween2024Paintkits_collection_desc"		"Genstande fra Scream Fortress XVI-samlingen:"
 
+"halloween2025_collection_name"			"Spøgelsesskat-samling"
+"halloween2025_collection_case"			"Spøgelsesskat-kasse"
+"halloween2025_collection_case_desc"	"Denne kasse er låst og kræver en\nSpøgelsesskat-nøgle for at åbne.\n\nIndeholder en fællesskabsskabt genstand\nfra Spøgelsesskat-samlingen."
+"halloween2025_collection_case_adtext"	"-Indeholder fællesskabskosmetik fra Spøgelsesskat-samlingen\n-Kræver en Spøgelsesskat-nøgle for at åbne\n-Indholdet er muligvis sært og hatte usædvanlige."
+"halloween2025_collection_key"			"Spøgelsesskat-nøgle"
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -12737,7 +12699,6 @@
 "Attrib_Particle345"			"Overgear"
 "Attrib_Particle346"			"Sommerfuglesæson"
 "Attrib_Particle347"			"Sommerfuglesæson"
-"Attrib_Particle348"			"Psyko-delisk"
 "Attrib_Particle349"			"Svimlende Sommerfugle"
 
 // Halloween 2024 Unusual
@@ -12777,7 +12738,6 @@
 "Attrib_Particle379"			"Overopladet"
 "Attrib_Particle380"			"Gennemborende Hovedpine"
 "Attrib_Particle381"			"Orkanstyrke"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Varm"
 "Attrib_Particle702"			"Isotop"
@@ -12928,9 +12888,6 @@
 "Attrib_Particle3121"		"Pastelfarvet Præg"
 "Attrib_Particle3122"		"Pastelfarvet Præg"
 "Attrib_Particle3123"		"Blomstereng"
-
-// Halloween 2023 Unusual Taunts
-"Attrib_Particle3124"		"Dybhavets Fortæring"
 "Attrib_Particle3125"		"Underverdenens Rædsel"
 "Attrib_Particle3126"		"Falmende Skov"
 "Attrib_Particle3127"		"Gravfest"
@@ -13019,7 +12976,6 @@
 "Attrib_Particle3200"		"Flimmer"
 "Attrib_Particle3201"		"Hedebølge"
 "Attrib_Particle3202"		"Hajangreb"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Drabsrækkeeffekt: %s1"
@@ -16977,7 +16933,6 @@
 "TF_TauntSniperISeeYou_Desc"	"Sniper-hån"
 "TF_TauntSoldierCoffee"		"Hån: Friskbrygget Sejr"
 "TF_TauntSoldierCoffee_Desc"	"Soldier-hån"
-"TF_TauntSpyBuyALife"		"Hån: Køb Dig Et Liv"
 "TF_TauntSpyBuyALife_Desc"	"Spy-hån"
 "TF_Taunt_Tank"				"Hån: Pansret Personbil"
 "TF_Taunt_Tank_Desc"		"Soldier-hån\n\nBrug håntasten for at aktivere og afslutte\nBrug skydetasten for særlig bevægelse\nBrug retningstaster for at dreje, imens du bevæger dig"
@@ -17725,7 +17680,6 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_short2014_chronoscarf"		"Chronoklædet" // ADD THE
 "TF_short2014_chemists_pride"		"Faren" // ADD THE
 "TF_short2014_badlands_wanderer"		"Præriens Dhævn" // ADD THE
-"TF_short2014_vintage_director"		"Vive La France"
 "TF_short2014_scopers_smoke"		"Sigterens Smøg" // ADD THE
 "TF_short2014_sniper_cargo_pants"		"De Rumlige Rendebukser" // ADD THE
 
@@ -18227,6 +18181,15 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_taunt_flying_colors"					"Hån: Flagrende Fanebærer"
 "TF_taunt_flying_colors_Desc"				"Fællesskabsskabt hån til alle klasser\n\nBrug håntasten for at aktivere og afslutte."
 "TF_taunt_flying_colors_AdText"				"-Fællesskabsskabt hån til alle klasser"
+"TF_taunt_heartbreaker"						"Hån: Hjerteknuser"
+"TF_taunt_heartbreaker_Desc"				"Fællesskabsskabt Medic-hån"
+"TF_taunt_heartbreaker_AdText"				"-Fællesskabsskabt Medic-hån"
+"TF_taunt_healthcarehog"					"Hån: Velfærdsvandal"
+"TF_taunt_healthcarehog_Desc"				"Fællesskabsskabt Scout-hån"
+"TF_taunt_healthcarehog_AdText"				"-Fællesskabsskabt Scout-hån"
+"TF_taunt_ring_king"						"Hån: Ringens Herre"
+"TF_taunt_ring_king_Desc"					"Fællesskabsskabt Heavy-hån"
+"TF_taunt_ring_king_AdText"					"-Fællesskabsskabt Heavy-hån"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Pusterumsposen"	// ADD THE
@@ -18406,7 +18369,6 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_fall17_vitals_vest_Desc"	" "
 "TF_fall17_battle_boonie"	"Bragende Boonie"
 "TF_fall17_battle_boonie_Desc"	" "
-"TF_fall17_conaghers_utility_idol"	"Conaghers' Hjælpeidol"
 "TF_fall17_conaghers_utility_idol_Desc"	" "
 "TF_fall17_tropical_toad"	"Tropisk Tudse"
 "TF_fall17_tropical_toad_Desc"	" "
@@ -19118,7 +19080,6 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2023_clowns_coverup"				"Klovnens Karnevalsmaske"
 "TF_hwn2023_clowns_coverup_Style0"			"Ingen hat"
 "TF_hwn2023_clowns_coverup_Style1"			"Hat"
-"TF_hwn2023_shortness_breath"			"Stakåndet Sikkerhed"
 "TF_hwn2023_shortness_breath_Style0"		"Ingen Hjelm"
 "TF_hwn2023_shortness_breath_Style1"		"Hjelm"
 "TF_hwn2023_warlocks_warcloak"			"Troldkarlens Kappe"
@@ -19223,7 +19184,6 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_dec23_masked_loyalty"				"Skyttegravskravlet"
 "TF_dec23_impact_impaler"				"Spidende Stålhjelm"
 "TF_dec23_torchers_trench_coat"			"Ildstifterens Indpakning"
-"TF_dec23_balkans_brute"				"Balkan Bissen"
 "TF_dec23_bigger_mann"					"Lærenem Lømmel"
 "TF_dec23_isotopic_insulator"			"Isotopisk Isolering"
 "TF_dec23_bonk_beanie"					"Bonk-beanie"
@@ -19406,7 +19366,6 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_sum25_frogmanns"					"Undertryksudstyret"
 "TF_sum25_oxygen"						"Ildmagerens Iltforsyning"
 "TF_sum25_short_fuse"					"Kort Lunte"
-"TF_sum25_blindin"						"Skyttens Sixpence"
 "TF_sum25_blindin_style1"					"Overskæg"
 "TF_sum25_blindin_style2"					"Intet overskæg"
 "TF_sum25_shady"						"Gyde Skyder"
@@ -19433,6 +19392,31 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_sum25_shadow_doubt_style2"				"Røgfri"
 "TF_sum25_clinical"						"Retsmedicinsk Ransager"
 
+"TF_hwn2025_heat_shield_style1"				"Stil 1"
+"TF_hwn2025_heat_shield_style2"				"Stil 2"
+"TF_hwn2025_heat_shield_style3"				"Stil 3"
+"TF_hwn2025_heat_shield_style4"				"Stil 4"
+"TF_hwn2025_technicians_tunic_style1"		"Stil 1"
+"TF_hwn2025_technicians_tunic_style2"		"Stil 2"
+"TF_hwn2025_cigarillo_style1"				"Halstørklæde"
+"TF_hwn2025_poncho_style1"					"Patroner"
+"TF_hwn2025_poncho_style2"					"Ingen patroner"
+"TF_hwn2025_fused_plates"				"Sammensmeltet Stål"
+"TF_hwn2025_feathered_fiend"			"Befjeret Fjende"
+"TF_hwn2025_feathered_fiend_style1"			"Skurkagtig"
+"TF_hwn2025_pantaloons_style1"				"Patroner"
+"TF_hwn2025_pantaloons_style2"				"Ingen patroner"
+"TF_hwn2025_seamanns_style1"				"Pibe"
+"TF_hwn2025_seamanns_style2"				"Cigar"
+"TF_hwn2025_misdirector_style2"				"Mal: Skæg"
+"TF_hwn2025_misdirector_style3"				"Intet skæg"
+"TF_hwn2025_sleight_hand_style2"			"Elegant"
+"TF_hwn2025_professor_photon"			"Professor Foton"
+"TF_hwn2025_professor_photon_style1"		"Stålsat"
+"TF_hwn2025_mad_drip_style1"				"Stålsat"
+"TF_hwn2025_pyromantic_plumage"			"Pyromanisk Fjerdragt"
+"TF_hwn2025_one_man_convoy"				"Enmandskonvoj"
+"TF_hwn2025_one_man_convoy_style1"			"Mal: Øjne"
 "TF_style_bullets"						"Patroner"
 "TF_style_nobullets"					"Ingen patroner"
 
@@ -20105,8 +20089,6 @@ Kontrolpunktet kan ikke erobres, mens det er låst.
 
 Hvis det fjendtlige hold erobrer kontrolpunktet, vil dit holds timer blive pauset, indtil I generobrer punktet."
 
-
-
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"Kritseliksir"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Übereliksir"
 "TF_hwn2024_Freaky_Fair_Giant_Potion"    			"Kæmpeeliksir"
@@ -20210,7 +20192,6 @@ Hvis det fjendtlige hold erobrer kontrolpunktet, vil dit holds timer blive pause
 "TF_DataCenter_bt2"				"Beta 2"
 "TF_DataCenter_dum"				"Dumm1"
 "TF_DataCenter_beta"			"Beta"
-
 "TF_CaseExclusiveBonusItems"				"Eksklusive bonusgenstande fra kasser:"
 "TF_CaseGlobalUnusualEffects"			"Globale, usædvanlige effekter fra kasser"
 "TF_CaseGlobalBonusItems"				"Globale bonusgenstande fra kasser"
