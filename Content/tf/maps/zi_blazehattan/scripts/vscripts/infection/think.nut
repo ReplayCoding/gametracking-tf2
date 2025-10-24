@@ -68,6 +68,12 @@ PlayerThink <- function()
         // this prevents them from emitting a bunch of particles
         if ( self.GetTeam() == TF_TEAM_BLUE )
         {
+            // fix spy disguise exploit
+            if ( self.InCond( TF_COND_DISGUISED ) )
+            {
+                self.RemoveCond( TF_COND_DISGUISED );
+            }
+
             if ( self.IsFullyInvisible() )
             {
                 if ( !( m_iFlags & ZBIT_PARTICLE_HACK ) )

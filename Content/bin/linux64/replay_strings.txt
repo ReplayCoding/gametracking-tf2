@@ -94,12 +94,12 @@ DevMsg
 isspace
 __cxa_guard_abort
 getenv
+qsort
 tolower
+_ZNV16CThreadFastMutex4LockEyj
 wcstol
 wcstoll
-_ZNV16CThreadFastMutex4LockEyj
 COM_TimestampedLog
-qsort
 __ctype_b_loc
 memcmp
 towupper
@@ -3055,23 +3055,27 @@ G wAH
 AUATtsH
 @ H9
 A\A]]
-AWAVAUI
-D95u
+AWAVI
+AUATI
+F@Hc
+D9=q
+D9=N
+F@Hc
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUA
-@ H9
-@ H9
 A\A]A^]
 @ H9
+@ H9
+@ H9
+C@Hc
 A\A]A^]
 @XA9D$
 A\A]A^]
 A\A]A^]
-AUATI
-\$(I9
-[A\A]]
+P@Hc
+W@Ic
 utUH
 A]A^A_]
 A]A^A_]
@@ -3081,9 +3085,15 @@ AWAVAUATSH
 AVAUI
 \t"I
 [A\A]A^A_]
-AWAVAUATI
+AWAVAUI
+ATSH
+@@Lc
 H[A\A]A^A_]
+@@Lc
 A\A]A^A_]
+@@Lc
+@@Lc
+@@Lc
 A\A]A^A_]
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -3093,50 +3103,36 @@ A\A]A^]
 G0H9
 AUATI
 [A\A]]
-ATSL
-[A\]
-t+UH
 O(H9
 AUATSH
 [A\A]]
 A\A]]
-AVAUATSH
-D$ IcD
+AVAUATI
+C@Hc
+C IcD
 [A\A]A^]
-+C$H
-+C$H
-+S$H
-+C$H
-+S$H
-+S$H
-+S$H
-|$0H
-+S$H
-+C$H
-+C$H
-+C$H
+A+D$$I
+A+D$$I
+A+T$$I
+A+D$$I
+A+T$$I
+A+T$$I
+A+T$$I
+A+T$$I
+A+D$$I
+A+D$$I
+A+D$$I
 ATSH
-D$ A
 D$"M
 [A\A]A^]
 [A\A]A^]
-AWAVAUATSH
-h[A\A]A^A_]
-<}tx<{
-uxHcE
-t3<0u
-u	H9
-h[A\A]A^A_]
 AWE1
 AVE1
 AUATSH
-D$ A
 [(E1
 [A\A]A^A_]
-D$ L
-D$(I
-A\A]]
 AUATSH
+C@Lc
 D$(H
 [A\A]]
 AUATSH
@@ -3146,10 +3142,71 @@ AUATA
 D$(H
 [A\A]]
 AVAUATSH
-d$(M
+t$0M
+F@Lc
+Hc;L
+Hc;I
+[A\A]A^]
+D$0H
 [A\A]A^]
 AVAUATSLcf
 [A\A]A^]
+ATSH
+D$!A
+D$"H
+[A\A]A^]
+[A\A]A^]
+AVAUI
+Hc;u
+D$!A
+D$"H
+[A\A]A^]
+[A\A]A^]
+AVAUI
+ATSD
+ [A\A]A^]
+AWAVA
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+@@Lc
+[(Y^H
+[(XZH
+A\A]A^A_]
+[A\A]A^A_]
+A[~6I
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATSL
+Mcu0E1
+A\A]A^]
+[A\A]A^]
+ATSH
+](I9
+[A\A]]
+D$ L
+D$(I
+A\A]]
+t;UH
+ATSL
+[A\]
+AVAUATSH
+G@Hc
+G@Hc
+h[A\A]A^A_]
+G@Hc
+G@Hc
+u	H9
+G@Hc
+G@Hc
+h[A\A]A^A_]
+G@Hc
+G@Hc
+G@Hc
+G@Hc
+G@Hc
+G@Hc
 AWAVAUATSH
 D$(H
 [A\A]A^A_]
@@ -3158,113 +3215,108 @@ l$(I
 [A\A]A^]
 AUATI
 [A\A]]
-D$(I
-D$ A
+D$(A
+D$8A
 A\A]A^]
 D$(A
-D$ A
+D$8A
 A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 AUATI
 [A\A]]
-D$(I
-D$ A
+D$(A
+D$8A
 A\A]A^]
 AWAVI
 [A\A]A^A_]
 AWAVI
 AUATI
-5Ar	
-@ L9
-5	r	
 [A\A]A^A_]
 @ H9
-=oq	
-@ L9
-@ L9
-=_p	
-@ L9
-@ L9
-@ L9
-@ L9
-=un	
+@ H9
+5m_	
+F@Hc
+@ H9
+@ H9
+=O^	
+@ H9
+@ H9
+@ H9
+@ H9
+=w\	
+==\	
+5c)	
 [A\]
 t E1
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
 D$(A
-D$ A
+D$8A
 [A\A]]
 D$(A
-D$ A
+D$8A
 [A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-D$ A
-+C$H
-+C$H
-+C$H
-+C$H
-ATSH
-D$ A
-D$!A
-D$"H
-[A\A]A^]
-[A\A]A^]
-AVAUA
-[A\A]A^]
-l$0H
-[A\A]A^]
-AWAVAUATSH
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVI
-AUATSH
-[A\A]A^A_]
-F0H9
-AWAVAUATSH
-t7Hc
-D$ A
-D$!A
-D$"E1
-[A\A]A^A_]
-AWAVI
-t+ATM
-~uE1
-D;%t
-=s"	
-xGHc
+AWAVL
+t*ATH
+8XZH
+A^A_H
+E@Hc
+E@Hc
+E@Hc
+E@Hc
+E@Hc
+D9%j
+E@Hc
+xWHc
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
-AVAUI
-ATSD
- [A\A]A^]
-AWAVA
-x[A\A]A^A_]
+AWAVAUATSH
+t7Hc
+D$!A
+D$"E1
 [A\A]A^A_]
-AWAVI
-5~}	
-5k}	
-5x|	
-5i|	
-[(Y^H
-[(XZH
-5#{	
-A\A]A^A_]
+AWAVAUI
+ATSH
+Hc;t}H
+;tpH
+C@Hc
 [A\A]A^A_]
-A[~6I
-AVAUI
+E0H9
+AWAVAUATSH
 [A\A]A^A_]
-[A\A]A^A_]
+D$(I
+D$ A
++C$H
++C$H
+=Yw	
+l$(M
++C$H
+5nu	
++C$H
 AVAUL
 ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
+AUATI
+[A\A]]
+[A\A]]
 AVAUATI
-[A\A]A^]
+8tAH
+@@Lc
+Ic>L
+y/[A\A]A^]
+Ic>I
+8t1H
+@@Lc
+Hc;L
+A\A]A^]
+Hc;I
 [A\]
 [A\]
 ATSH
@@ -3290,13 +3342,11 @@ T$ D9m
 |$XD
 D$hD)
 |$XHc
-AWAVAUL
-o ATSH
-C D9
+ AVAUA
 [A\A]A^A_]
 sXHc
+S D)
 C0E1
-0x'H
 AVMc
 xzD9
 }ID)
@@ -3337,7 +3387,6 @@ tS<0t\<'t;H
 AUATSH
 <.t6
 [A\A]]
--!a	
 	w(f
 [A\D
 [A\A]]
@@ -3370,10 +3419,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%?
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5N
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -3398,12 +3447,13 @@ AUATI
 [A\A]]
  [A\A]A^]
 AWAVA
-=oH	
-5qH	
 ([A\A]A^A_]
 AWAVAUI
 ATLc
+=hC	
+5AC	
 ([A\A]A^A_]
+=uB	
 ([A\A]A^A_]
 ATLc
 	vQD
@@ -3435,6 +3485,8 @@ A\A]A^]
 t	<\u
 AUATSH
 [A\A]]
+5I9	
+5!9	
 ~ Hc
 A\A]A^]
 A]A^]
@@ -3457,11 +3509,12 @@ t	A8
 AUATA
 ~&Lc
 [A\A]]
+=Q7	
 AVLc
 [A\A]A^]
 [A\A]A^A_]
+=y5	
 [A\A]A^A_]
-=a9	
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
@@ -3474,8 +3527,8 @@ A\A]A^]
 [A\A]A^]
 AWAVL
 ~pH9
+5V&	
 [A\A]A^A_]
-5o*	
 AUATL
 [A\A]]
 [A\A]]
@@ -3495,6 +3548,7 @@ tP<[
 [A\A]A^A_]
 u0Hc
 ty;]
+5 "	
 th~.
 t-E1
 < v^<
@@ -3996,6 +4050,7 @@ AUE1
 ATE1
 A\D	
 A]A^]
+o5|C
 t%Hc
 [A\]
 ~&Ai
@@ -4053,9 +4108,9 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%ra
-X-F^
-/-vi
+X%G[
+Y5@e
+Y-=d
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -4063,12 +4118,12 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
+X%*]
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
 C/L)
 AULc
-W=Sw
 [A\A]]
 A\A]]
 A\A]]
@@ -4189,24 +4244,26 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5qq
-o%KV
-o-eS
-o%GP
+o5oi
+o%Gb
+o%lW
 tcf.
-o=4G
+o=DH
+o5DH
+o-lE
 <WH9
-o-4D
+o%S?
 4GI9
-o5"@
 AWAVL
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
 AWAVAUATSH
+o=f0
 ~QHc
 [A\A]A^A_]
 AWAVAUATSH
+o=N,
 ~JLc
 [A\A]A^A_]
 AWAVAUATSH
@@ -4216,6 +4273,7 @@ AWAVAUATSH
 ~GLcM
 [A\A]A^A_]
 AWAVAUATSH
+o=1#
 ~QHc
 [A\A]A^A_]
 AWAVI
@@ -4284,7 +4342,7 @@ AVAUATA
 [A\A]A^A_]
 |tqE
 urf%
-X=(O
+X=xJ
 [A\A]A^A_]
 A]A^A_]
 A]A^A_]
@@ -4341,7 +4399,6 @@ AVAUATSH
 A\A]A^]
 AVAUATSH
 [A\A]A^]
-(%+{
 A\A]A^]
 AVAUATE1
 [A\A]A^A_]
@@ -4468,12 +4525,11 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
-(%:E
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
 AVAUI
-o=99
+(%9<
 A\A]A^A_]
 A\A]A^A_]
 [A\A]A^A_]
@@ -4497,11 +4553,10 @@ AUATA
 [A\A]A^A_]
 AWAVE
 t[;]
-o5N)
-o%X'
-o%6'
-o-u&
-o5?&
+o=_%
+o=q"
+o-a"
+o-:"
 [A\A]A^A_]
 AWAVI
 AUATI
@@ -4585,15 +4640,12 @@ AUATSH
 [A\A]]
 [A\]
  A\A]]
-Lc%s
-Lc%/
 A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 [A\]H
 P8]H
 [A\]
-/%:/
 AWAVAUATSH
 E9i 
 ~;E9
@@ -4901,8 +4953,6 @@ L9(t
 L9(t
 A\A]]
 AWAVAUATI
-o=r(
-o5t(
 \$lE
 \$lA9
 [A\A]A^A_]
@@ -5206,6 +5256,7 @@ AWAVAUATSH
 E9g\
 ([A\A]A^A_]
 AWAVAUATSH
+o5XD
 [A\A]A^A_]
 ATSE
 e$A)
@@ -5454,7 +5505,6 @@ AWAVAUATSH
 8[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-o%9z
 AVAUATI
 ]0tp
 [A\A]A^]
@@ -6265,7 +6315,6 @@ iTXt
 ;sTr
 AWAVAUATSH
 [A\A]A^A_]
-o-MG
 AWAVAUATSH
 [A\A]A^A_]
 IENDH
@@ -6363,6 +6412,7 @@ AUATSH
 [A\A]]
 ATSH
 ~T$0H
+(-nV
 ~D$ f
 D$(f
 0[A\]
@@ -6488,6 +6538,7 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
+H959
 T$(H
 |$ H
 D$(H
@@ -7135,6 +7186,7 @@ SVC_GameEventList::ReadFromBuffer
 SVC_GetCvarValue::ReadFromBuffer
 Legacy SVC_VoiceInit - got a set for sv_use_steam_voice convar, assuming Steam voice
 Base_CmdKeyValues::ReadFromBuffer
+Base_CmdKeyValues::ReadFromBuffer: Not using local storage!
 CLC_ListenEvents::ReadFromBuffer
 CLC_FileCRCCheck::ReadFromBuffer
 Deprecated - placeholder convar for handling old network streams that had an incomplete SVC_VoiceInit packet.  Use "sv_voicecodec steam"
@@ -7545,7 +7597,6 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
-KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -7555,23 +7606,24 @@ LoadFromFile
 %s( %s )
 KeyValues Error: %s in file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 RecursiveLoadFromBuffer:  recursion overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  got conditional between key and value
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::LoadFromBuffer(%s%s%s): Begin
 KeyValues::LoadFromBuffer(%s%s%s): End
 KeyValues::LoadFromFile(%s%s%s): Begin
 KeyValues::LoadFromFile(%s%s%s): End / FileNotFound
 KeyValues::LoadFromFile(%s%s%s): End / Success
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues.cpp
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-0123456789ABCDEF
+;0123456789ABCDEF
 %%.%if%s
 ,%03d
 UCS-2LE
@@ -7764,7 +7816,6 @@ Ga=o
 .M;R
 NAUU
 ?~?a`
-o@5n
 DXT1DXT3DXT5
 DXT1
 INTZRAWZDF16DF24NULLATI2ATI1DXT1DXT5UNKNOWN

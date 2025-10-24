@@ -26,7 +26,7 @@ if ( "InfectionLoaded" in getroottable() )
 ::bNoPyroExplosionMod    <- false;
 
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v3.0.4 - 24/10/2024";
+const VERSION       =  "v3.0.6 - 20/10/2025";
 
 ::INFECTION_CONVARS <-
 {

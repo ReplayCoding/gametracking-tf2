@@ -1428,6 +1428,11 @@
 "TF_TournamentMedal_FBTF2_4v4_Open_2nd"						"FBTF 4v4 公开赛亚军"
 "TF_TournamentMedal_FBTF2_4v4_Open_3rd"						"FBTF 4v4 公开赛季军"
 "TF_TournamentMedal_FBTF2_4v4_Open_Participant"				"FBTF 4v4 公开赛参赛者"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_1st"					"FBTF 4v4 手球时刻冠军"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_2nd"					"FBTF 4v4 手球时刻亚军"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_3rd"					"FBTF 4v4 手球时刻季军"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_Participant"			"FBTF 4v4 手球时刻参赛者"
+
 "TF_TournamentMedal_Chapelaria_6v6_1st"						"Chapelaria 6v6 冠军"
 "TF_TournamentMedal_Chapelaria_6v6_2nd"						"Chapelaria 6v6 亚军"
 "TF_TournamentMedal_Chapelaria_6v6_3rd"						"Chapelaria 6v6 季军"
@@ -1691,6 +1696,7 @@
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_Coach"			"AsiaFortress Liquid.tf 新手杯教练"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_9"				"AsiaFortress Liquid.tf 新手杯 9"
 "TF_TournamentMedal_AF_Liquidtf_NewbieCup_10"				"AsiaFortress Liquid.tf 新手杯 10"
+"TF_TournamentMedal_AF_Liquidtf_NewbieCup_11"				"AsiaFortress Liquid.tf 新手杯 11"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_1st"				"AsiaFortress Liquid.tf 高帽杯冠军"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_2nd"				"AsiaFortress Liquid.tf 高帽杯亚军"
 "TF_TournamentMedal_AF_Liquidtf_GibusCup_3rd"				"AsiaFortress Liquid.tf 高帽杯季军"
@@ -3708,6 +3714,7 @@
 "TF_Bundle_WarWednesday_Desc"			"装入了这些军事主题的物品给士兵："
 "TF_Bundle_MeetTheMedic"			"“拜见医生！”捆绑包"
 "TF_Bundle_MeetTheMedic_Desc"			"装入了这些物品来庆祝《拜见医生》视频的发布："
+"TF_Bundle_Uber"				"超能更新捆绑包"
 "TF_Bundle_Uber_Desc"				"在一个大捆绑包中获取超能更新的每件新物品："
 
 "TF_Bundle_Summer2011"				"夏季太阳捆绑包"
@@ -5852,6 +5859,7 @@
 "TF_MapToken_Devilcross_AdText"		"-购买此物品来直接赞助 Devilcross 社区地图创作者。"
 "TF_Map_Marshlands"					"Marshlands"
 "TF_MapToken_Marshlands"			"地图邮票 - Marshlands"
+"TF_MapToken_Marshlands_Desc"		"一张控旗模式地图\n\n由 Tristan 'Alox' Haguet 和 Lothudus 创作\n\n购买此物品来直接赞助 Marshlands 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Marshlands_AdText"		"-购买此物品来直接赞助 Marshlands 社区地图创作者。"
 
 "TF_Map_Unknown"				"未找到地图！"
@@ -6853,6 +6861,9 @@
 "koth_boardwalk_house"					"屠宰场"
 "koth_boardwalk_pier"					"码头"
 "koth_mannhole_overpass"				"地下通道"
+"arena_afterlife_spawn"					"你已死亡！通过击杀或助攻来窃取灵魂，然后逃出地狱！"
+"arena_afterlife_pickup"				"你成功偷取了一个灵魂！把它送到祭坛上来复活你自己！"
+"arena_afterlife_soulless"				"你需要获得一个灵魂才能复活！去获得一个击杀或助攻再回来！"
 // Win panel strings
 "Winpanel_Team1"			"团队"
 "Winpanel_Team2"			"团队"
@@ -7140,6 +7151,8 @@
 "GameType_VSH"					"大战萨克斯顿.霍尔（社区）"
 "GameType_ZI"					"僵尸感染（社区）"
 "GameType_TOW"					"拉锯战（社区）"
+"GameType_HTF"					"控旗（社区）"
+
 "TF_MMCat_SpecialEvents"		"特别活动"
 "TF_MMCat_Core"				"核心游戏模式"
 "TF_MMCat_Alternative"		"其它游戏模式"
@@ -19858,6 +19871,13 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 控制点锁定时不能占领。
 
 若敌方队伍占领了控制点，你方计时器将暂停，直到你方队伍把控制点夺回来。"
+
+"sd_marshlands_description"			"控旗
+
+目标：
+捡起幽灵公文包并保持携带 3 分钟！
+
+不要在携带着公文包时越过魔法结界，否则公文包会直接消失，并恢复到初始的中立位置！"
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"爆击药水"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Übercharge 药水"

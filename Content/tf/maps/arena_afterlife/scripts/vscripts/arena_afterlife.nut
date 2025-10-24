@@ -291,6 +291,7 @@ function RebuildPlayerCache()
 {
     try
     {
+        local old_alive = alive_player_cache[0];
         player_cache <- [ [], [], [], [], [], [] ];
         alive_player_cache <- [ [], [], [], [], [], [] ];
 
@@ -302,7 +303,7 @@ function RebuildPlayerCache()
                 local team = player.GetTeam();
                 player_cache[0].push(player);
                 player_cache[team].push(player);
-                if (player.GetPlayerClass() > 0)
+                if (player.GetPlayerClass() > 0 && (isMiniRoundSetup || old_alive.find(player) != null))
                 {
                     alive_player_cache[0].push(player);
                     alive_player_cache[team].push(player);
@@ -584,6 +585,7 @@ function BeginMiniRound()
     EntFireByHandle(tf_gamerules, "SetRedTeamRespawnWaveTime", (ARENA_AFTERLIFE_RESPAWNTIME).tostring(), 0, null, null);
     EntFireByHandle(tf_gamerules, "SetBlueTeamRespawnWaveTime", (ARENA_AFTERLIFE_RESPAWNTIME).tostring(), 0, null, null);
     DoEntFire("afterlife_fastrespawner*", "Enable", "", 0, null, null);
+    RebuildPlayerCache();
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "2", null, null);
     game_forcerespawn.AcceptInput("ForceTeamRespawn", "3", null, null);
 
@@ -593,8 +595,6 @@ function BeginMiniRound()
         PurgePitysoul();
     }
     catch (e) { }
-
-    RebuildPlayerCache();
 
     //disable first blood if no first blood buffs, or if disabled by convar, or if teams are too small
     if(ARENA_FIRST_BLOOD_BUFFS.len() <= 0)
@@ -1512,7 +1512,17 @@ function FixRedPlayerCounter()
         return;
     local player = redPlayers[0];
     if (!IsValidPlayer(player))
-        player = redPlayers[redPlayers.len() - 1];
+    {
+        RebuildPlayerCache();
+        redPlayers = GetPlayers(TF_TEAM_RED);
+        if (redPlayers.len() <= 0)
+            return;
+        player = redPlayers[0];
+        if (!IsValidPlayer(player))
+        {
+            player = redPlayers[redPlayers.len() - 1];
+        }
+    }
     SetPropEntity(escrow_red, "m_hPrevOwner", player);
 
     redCounterFixer = Entities.CreateByClassname("prop_dynamic");

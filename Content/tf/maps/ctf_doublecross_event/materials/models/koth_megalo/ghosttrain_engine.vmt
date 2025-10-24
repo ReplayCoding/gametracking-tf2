@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/koth_megalo/train_tex.vtf"
+	"$bumpmap" "models/koth_megalo/train_tex_normal.vtf"
+	"$selfillum" "1"
+	//"$selfillummask" "models/koth_megalo/skull_tex_normal.vtf"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"			"1"
+	"$phongexponent"		"4"
+	"$phongboost"		"8"
+	//phongalbedotint" 		"1"
+	"$phongtint" "[0 1 0.25]"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4.000000"
+	"$rimlightboost"		"2.000000"
+	"$bumpmapalphaphongmask"		"1"
+}
