@@ -158,15 +158,15 @@ getcwd
 dlsym
 KeyValuesSystem
 getenv
-wcslen
-qsort
 tolower
-_ZNV16CThreadFastMutex4LockEyj
+wcslen
 wcstol
 wcstoll
 __isoc99_sscanf
 strncpy
+_ZNV16CThreadFastMutex4LockEyj
 COM_TimestampedLog
+qsort
 __ctype_b_loc
 strcpy
 towupper
@@ -611,7 +611,7 @@ E<IcE
 [A\A]]
 [A\A]]
 AVAUATSH
-8H;=G
+8H;=W
 W(L9
 A;D$<t
 D$<IcD$
@@ -624,11 +624,10 @@ S(H;
 A;E<t
 [A\A]]
 E<IcE
-D9%}
 AUATA
 A;E t
 [A\A]]
-5M{	
+5]{	
 A\A]A^]
 A\A]A^]
 AWAVAUA
@@ -636,7 +635,6 @@ I9D$0
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-5	v	
 H97t%H
 [A\A]A^A_]
 [A\A]]
@@ -649,7 +647,7 @@ A\A]A^]
 A\A]A^]
 ATSL
 C|[A\]
-5eh	
+5uh	
 AUATSH
 xFHc
 A\A]A^]
@@ -663,7 +661,7 @@ H9w(t*H
 c([A\]
 AVAUATSH
 [A\A]A^]
-5\e	
+5le	
 H97t
 AUATI
 D$(H
@@ -673,29 +671,30 @@ ATSH
 [A\A]A^]
 ATSL
 [A\]
-5uX	
 AWAVAUATSH
 D$(H
 [A\A]A^A_]
 AUATL
 A\A]]
-56S	
+5FS	
 ATSH
 [A\]
-=aW	
-5%Q	
+=qW	
+55Q	
 ATSL
 [A\]
 AWAVI
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
+5$S	
 [A\A]A^A_]
 AVAUA
 J(fA
 A;F0t
 [A\A]A^]
 F0IcF$H
+D9% 
 ATSL
 [A\]
 A\A]]
@@ -703,10 +702,10 @@ A\A]]
 AWAVA
 8[A\A]A^A_]
 8[A\A]A^A_]
-=aG	
+=qG	
 AWAVA
 [A\A]A^A_]
-5CG	
+5SG	
 H97t%H
 ATSH
 [A\A]A^A_]
@@ -715,7 +714,6 @@ CpI9
 [A\A]A^A_]
 L;c`H
 [A\]
-=u=	
 [A\]
 AWAVI
 AUATSH
@@ -734,7 +732,7 @@ ATSH
 AWAVAUA
 [A\A]A^A_]
 [A\A]A^A_]
-5O6	
+5_6	
 H97t%H
 Gp~b
 [A\A]A^]
@@ -746,8 +744,8 @@ Gp~Y
 Ch[A\]
 AWAVAUATSH
 spfH
-%s5	
-5cw	
+o-.4	
+5sw	
 ([A\A]A^A_]
 [A\A]A^A_]
 <&A9
@@ -761,6 +759,7 @@ D$8A
 D$HLc
 D$(A
 [A\A]A^A_]
+%$*	
 Ic\$XH
 VUUU
 AVAUA
@@ -789,7 +788,7 @@ Hcs0Ic
 [A\A]]
 AUATI
 [A\A]]
-5n		
+5~		
 AWAVAUATI
 CLt;@
 /w	A
@@ -1453,8 +1452,8 @@ H[A\A]]
 AWAVAUATI
 \$XH
 tML9
-(-%s
-(5 s
+(-5s
+(50s
 [A\A]A^A_]
 [A\]
 [A\]
@@ -1588,7 +1587,7 @@ A\A]A^H
 [A\A]]
 A\]H
 AVAUATS
-Y%*2
+Y%:2
 [A\A]A^A_]
 AUATH
 @PH9
@@ -1830,12 +1829,13 @@ ATSH
 [A\A]A^A_]
 H97t%H
 AWAVA
+=+h	
 ~xMi
-=%r	
+=5r	
 [A\A]A^A_]
 H97t%H
 AWAVAUATI
-=rp	
+-	e	
 [A\A]A^A_]
 H97t
 AUATA
@@ -1854,16 +1854,16 @@ AVE1
 [A\A]A^]
 [A\]
 AVAUATSH
-%U^	
+%e^	
 [A\A]A^]
 H97t
 AWAVAUA
-5vZ	
+5-[	
 [A\A]A^A_]
 [A\A]A^A_]
 H97t
 AWAVAUATSH
-%;`	
+%K`	
 A\A]A^A_]
 AWAVAUA
 uXfE
@@ -1927,7 +1927,7 @@ AVAUI
 A\A]A^]
 A\A]A^]
 AWE1
-%("	
+%8"	
 A\A]A^A_]
 AVAUI
 tAE1
@@ -1961,7 +1961,7 @@ AUATSH
 [A\A]A^A_]
 @HH9
 @PH9
-=){	
+=9{	
 u)UH
 ATSH
 A\A]A^]
@@ -2010,13 +2010,14 @@ D$HM
 AUATI
 \$pH
 [A\A]]
-=.c	
+=>c	
 AVAUATSH
 Mcf0Ic
 [A\A]A^A_]
 AUATSH
 HcV0H
 [A\A]A^A_]
+= ]	
 AVAUA
 E:~ u
 tyLck
@@ -2113,8 +2114,8 @@ ATSH
 [A\A]A^]
 I9D$
 I9D$
+=V5	
 =F5	
-=65	
 `Pf.
 G8#p(
 G8	p(
@@ -2142,17 +2143,18 @@ D$pH
 D$HA
 uGf.
 AUATSH
-=(.	
+-$S	
+=8.	
+=*.	
 [A\A]]
-=z-	
 t(UH
+=,+	
 AUATH
 A\A]A^]
 A]A^]
 AWAVAUATS
-=v*	
 ([A\A]A^A_]
-=[)	
+=k)	
 AWAVAUATI
 x[A\A]A^A_]
 x[A\A]A^A_]
@@ -2160,8 +2162,8 @@ x[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-=I$	
-=5$	
+=Y$	
+=E$	
 d$8I
 |$@D
 IcT$PI
@@ -2172,6 +2174,7 @@ T$|E
 l$(I
 D$XH
 \$ I
+%%"	
 8[A\A]A^A_]
 8[A\A]A^A_]
 D$TA
@@ -2180,7 +2183,6 @@ D$TA
 ATSH
 [A\A]]
 [A\A]]
-5{C	
 [A\A]A^]
 A\A]A^]
 [A\]
@@ -2243,25 +2245,23 @@ G wAH
 AUATtsH
 @ H9
 A\A]]
-AWAVI
-AUATI
-F@Hc
-F@Hc
+AWAVAUI
+D95!
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUA
+@ H9
+@ H9
 A\A]A^]
 @ H9
-@ H9
-@ H9
-C@Hc
 A\A]A^]
 @XA9D$
 A\A]A^]
 A\A]A^]
-P@Hc
-W@Ic
+AUATI
+\$(I9
+[A\A]]
 utUH
 A]A^A_]
 A]A^A_]
@@ -2271,15 +2271,9 @@ AWAVAUATSH
 AVAUI
 \t"I
 [A\A]A^A_]
-AWAVAUI
-ATSH
-@@Lc
+AWAVAUATI
 H[A\A]A^A_]
-@@Lc
 A\A]A^A_]
-@@Lc
-@@Lc
-@@Lc
 A\A]A^A_]
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -2289,36 +2283,50 @@ A\A]A^]
 G0H9
 AUATI
 [A\A]]
+ATSL
+[A\]
+t+UH
 O(H9
 AUATSH
 [A\A]]
 A\A]]
-AVAUATI
-C@Hc
-C IcD
+AVAUATSH
+D$ IcD
 [A\A]A^]
-A+D$$I
-A+D$$I
-A+T$$I
-A+D$$I
-A+T$$I
-A+T$$I
-A+T$$I
-A+T$$I
-A+D$$I
-A+D$$I
-A+D$$I
++C$H
++C$H
++S$H
++C$H
++S$H
++S$H
++S$H
+|$0H
++S$H
++C$H
++C$H
++C$H
 ATSH
+D$ A
 D$"M
 [A\A]A^]
 [A\A]A^]
+AWAVAUATSH
+h[A\A]A^A_]
+<}tx<{
+uxHcE
+t3<0u
+u	H9
+h[A\A]A^A_]
 AWE1
 AVE1
 AUATSH
+D$ A
 [(E1
 [A\A]A^A_]
+D$ L
+D$(I
+A\A]]
 AUATSH
-C@Lc
 D$(H
 [A\A]]
 AUATSH
@@ -2328,71 +2336,10 @@ AUATA
 D$(H
 [A\A]]
 AVAUATSH
-t$0M
-F@Lc
-Hc;L
-Hc;I
-[A\A]A^]
-D$0H
+d$(M
 [A\A]A^]
 AVAUATSLcf
 [A\A]A^]
-ATSH
-D$!A
-D$"H
-[A\A]A^]
-[A\A]A^]
-AVAUI
-Hc;u
-D$!A
-D$"H
-[A\A]A^]
-[A\A]A^]
-AVAUI
-ATSD
- [A\A]A^]
-AWAVA
-x[A\A]A^A_]
-[A\A]A^A_]
-AWAVI
-@@Lc
-[(Y^H
-[(XZH
-A\A]A^A_]
-[A\A]A^A_]
-A[~6I
-AVAUI
-[A\A]A^A_]
-[A\A]A^A_]
-AVAUATSL
-Mcu0E1
-A\A]A^]
-[A\A]A^]
-ATSH
-](I9
-[A\A]]
-D$ L
-D$(I
-A\A]]
-t;UH
-ATSL
-[A\]
-AVAUATSH
-G@Hc
-G@Hc
-h[A\A]A^A_]
-G@Hc
-G@Hc
-u	H9
-G@Hc
-G@Hc
-h[A\A]A^A_]
-G@Hc
-G@Hc
-G@Hc
-G@Hc
-G@Hc
-G@Hc
 AWAVAUATSH
 D$(H
 [A\A]A^A_]
@@ -2401,103 +2348,105 @@ l$(I
 [A\A]A^]
 AUATI
 [A\A]]
-D$(A
-D$8A
+D$(I
+D$ A
 A\A]A^]
 D$(A
-D$8A
+D$ A
 A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 AUATI
 [A\A]]
-D$(A
-D$8A
+D$(I
+D$ A
 A\A]A^]
 AWAVI
 [A\A]A^A_]
 AWAVI
 AUATI
+@ L9
 [A\A]A^A_]
 @ H9
-@ H9
-F@Hc
-@ H9
-@ H9
-@ H9
-@ H9
-@ H9
-@ H9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
 [A\]
 t E1
-AWAVAUATSH
-[A\A]A^A_]
-[A\A]A^A_]
 D$(A
-D$8A
+D$ A
 [A\A]]
 D$(A
-D$8A
-[A\A]A^A_]
-AWAVL
-t*ATH
-8XZH
-A^A_H
-E@Hc
-D9%:
-E@Hc
-E@Hc
-D9%r
-D9%V
-E@Hc
-E@Hc
-E@Hc
-xWHc
+D$ A
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-AWAVAUATSH
-t7Hc
-D$!A
-D$"E1
-[A\A]A^A_]
-AWAVAUI
-ATSH
-Hc;t}H
-;tpH
-C@Hc
-[A\A]A^A_]
-E0H9
-AWAVAUATSH
-[A\A]A^A_]
-D$(I
 D$ A
 +C$H
 +C$H
-l$(M
 +C$H
 +C$H
+ATSH
+D$ A
+D$!A
+D$"H
+[A\A]A^]
+[A\A]A^]
+AVAUA
+[A\A]A^]
+l$0H
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+F0H9
+AWAVAUATSH
+t7Hc
+D$ A
+D$!A
+D$"E1
+[A\A]A^A_]
+AWAVI
+t+ATM
+~uE1
+D9%P
+D;%4
+D9%h
+D9%H
+xGHc
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+AVAUI
+ATSD
+ [A\A]A^]
+AWAVA
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+[(Y^H
+[(XZH
+A\A]A^A_]
+[A\A]A^A_]
+A[~6I
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
 AVAUL
 ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
 AVAUATI
-8tAH
-@@Lc
-Ic>L
-y/[A\A]A^]
-Ic>I
-8t1H
-@@Lc
-Hc;L
-A\A]A^]
-Hc;I
+[A\A]A^]
 [A\]
 [A\]
 ATSH
@@ -2523,12 +2472,14 @@ T$ D9m
 |$XD
 D$hD)
 |$XHc
- AVAUA
+AWAVAUL
+o ATSH
+C D9
 [A\A]A^A_]
 sXHc
-S D)
 C0E1
-t	L9%
+0x'H
+t	L9%t
 ?LZMA
 ?LZMAt
 ?LZMAt
@@ -2617,10 +2568,10 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATS
-Lc%?l
 TUUUv
 [A\A]A^]
 AWAVAUATI
+Lc5~m
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -3556,14 +3507,17 @@ AWAVAUATL
 [A\A]A^A_]
 ~HD9
 tcf.
-o5QV
-o%+;
-o-E8
-o%'5
+o5_W
+o%7P
+o%\E
+o%}B
 tcf.
+o=46
+o546
+o-\3
 <WH9
+o%C-
 4GI9
-o=~%
 AWAVL
 [A\A]A^A_]
 AWAVL
@@ -3631,6 +3585,8 @@ n@ATSH
 5UUUU
 [A\A]A^A_]
 4vD)
+o=XV
+o%CV
 [A\A]]
 u/[D
 A\A]A^]
@@ -3641,7 +3597,6 @@ AWAVAUATA
 [A\A]A^A_]
 t{fA
 AWAVAU
-(=6P
 X[A\A]A^A_]
 AWAVAU
 X[A\A]A^A_]
@@ -3706,7 +3661,6 @@ AVAUATSH
 A\A]A^]
 AVAUATSH
 [A\A]A^]
-(%{l
 A\A]A^]
 AVAUATE1
 [A\A]A^A_]
@@ -3833,12 +3787,12 @@ ATSH
 AVAUATSH
 [A\A]A^A_]
 ATSL
+(-*/
+(%*/
 [A\]
 AWAVAUATSD
 [A\A]A^A_]
 AVAUI
-(-9&
-(%9&
 A\A]A^A_]
 A\A]A^A_]
 [A\A]A^A_]
@@ -3896,6 +3850,7 @@ AWAVAUATS
 [A\A]A^A_]
 AVAUM
 ATSH
+Y%[~
 [A\A]A^A_]
 AWAVAUATI
 ^K,D
@@ -3906,19 +3861,24 @@ A9D$$
 [A\A]A^A_]
 AWAVA
 AUATSH
-o=O^
+o%bb
 [A\A]A^A_]
+o=h^
 ATSH
 0[A\]
  [A\]
  [A\]
+W%PG
 ~_ D
 AVAUL
 [A\A]A^]
 AWAVL
+W=7?
 8[A\A]A^A_]
 AWAVL
+W-J=
 8[A\A]A^A_]
+W%j<
  [A\]
  [A\]
 D$(A
@@ -3953,7 +3913,6 @@ AUATL
 @A\A]]
 A\A]]
 0[A\]
-X%u'
 AVAUA
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -3961,7 +3920,7 @@ AWAVL
 H[A\A]A^A_]
 AUATL
 [A\A]A^]
-X%ZN
+Y%HR
 AWAVAUATLc
 u0Mc
 [A\A]A^A_]
@@ -3981,7 +3940,7 @@ AUATI
 [A\]
 ~Z H
 tYUH
-~-l4
+~-p7
 AVAUL
  [A\A]A^]
 l$<D
@@ -4005,10 +3964,11 @@ HA\A]A^]
 HA\A]A^]
 AWAVL
 [A\A]A^A_]
-o-pv
 tOHc
 tGHc
 VUUU
+o5gy
+o5Mx
 AUATL
 [A\A]]
  ucL
@@ -4093,7 +4053,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95I
 T$(H
 |$ H
 D$(H
@@ -4832,6 +4791,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -4841,21 +4801,20 @@ LoadFromFile
 %s( %s )
 KeyValues Error: %s in file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 RecursiveLoadFromBuffer:  recursion overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  got conditional between key and value
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::LoadFromBuffer(%s%s%s): Begin
 KeyValues::LoadFromBuffer(%s%s%s): End
 KeyValues::LoadFromFile(%s%s%s): Begin
 KeyValues::LoadFromFile(%s%s%s): End / FileNotFound
 KeyValues::LoadFromFile(%s%s%s): End / Success
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 m_mutex
-KeyValues.cpp
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg

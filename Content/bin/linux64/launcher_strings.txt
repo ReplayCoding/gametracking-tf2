@@ -72,17 +72,17 @@ isspace
 __cxa_guard_acquire
 __cxa_guard_release
 __cxa_guard_abort
+tolower
 wcslen
 __cxa_throw_bad_array_new_length
-tolower
-g_Telemetry
-ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
 wcstol
 wcstoll
 __isoc99_sscanf
 strncpy
 _Z6DevMsgPKcz
+g_Telemetry
+ThreadGetCurrentId
+_ZNV16CThreadFastMutex4LockEyj
 __cxa_pure_virtual
 __ctype_b_loc
 memcmp
@@ -569,27 +569,24 @@ G wAH
 AUATtsH
 @ H9
 A\A]]
-AWAVI
-AUATI
-F@Hc
-D9=q
-D9=N
-F@Hc
+AWAVAUI
+D95n
+D95E
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUA
+@ H9
+@ H9
 A\A]A^]
 @ H9
-@ H9
-@ H9
-C@Hc
 A\A]A^]
 @XA9D$
 A\A]A^]
 A\A]A^]
-P@Hc
-W@Ic
+AUATI
+\$(I9
+[A\A]]
 utUH
 A]A^A_]
 A]A^A_]
@@ -599,15 +596,9 @@ AWAVAUATSH
 AVAUI
 \t"I
 [A\A]A^A_]
-AWAVAUI
-ATSH
-@@Lc
+AWAVAUATI
 H[A\A]A^A_]
-@@Lc
 A\A]A^A_]
-@@Lc
-@@Lc
-@@Lc
 A\A]A^A_]
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -617,36 +608,50 @@ A\A]A^]
 G0H9
 AUATI
 [A\A]]
+ATSL
+[A\]
+t+UH
 O(H9
 AUATSH
 [A\A]]
 A\A]]
-AVAUATI
-C@Hc
-C IcD
+AVAUATSH
+D$ IcD
 [A\A]A^]
-A+D$$I
-A+D$$I
-A+T$$I
-A+D$$I
-A+T$$I
-A+T$$I
-A+T$$I
-A+T$$I
-A+D$$I
-A+D$$I
-A+D$$I
++C$H
++C$H
++S$H
++C$H
++S$H
++S$H
++S$H
+|$0H
++S$H
++C$H
++C$H
++C$H
 ATSH
+D$ A
 D$"M
 [A\A]A^]
 [A\A]A^]
+AWAVAUATSH
+h[A\A]A^A_]
+<}tx<{
+uxHcE
+t3<0u
+u	H9
+h[A\A]A^A_]
 AWE1
 AVE1
 AUATSH
+D$ A
 [(E1
 [A\A]A^A_]
+D$ L
+D$(I
+A\A]]
 AUATSH
-C@Lc
 D$(H
 [A\A]]
 AUATSH
@@ -656,71 +661,10 @@ AUATA
 D$(H
 [A\A]]
 AVAUATSH
-t$0M
-F@Lc
-Hc;L
-Hc;I
-[A\A]A^]
-D$0H
+d$(M
 [A\A]A^]
 AVAUATSLcf
 [A\A]A^]
-ATSH
-D$!A
-D$"H
-[A\A]A^]
-[A\A]A^]
-AVAUI
-Hc;u
-D$!A
-D$"H
-[A\A]A^]
-[A\A]A^]
-AVAUI
-ATSD
- [A\A]A^]
-AWAVA
-x[A\A]A^A_]
-[A\A]A^A_]
-AWAVI
-@@Lc
-[(Y^H
-[(XZH
-A\A]A^A_]
-[A\A]A^A_]
-A[~6I
-AVAUI
-[A\A]A^A_]
-[A\A]A^A_]
-AVAUATSL
-Mcu0E1
-A\A]A^]
-[A\A]A^]
-ATSH
-](I9
-[A\A]]
-D$ L
-D$(I
-A\A]]
-t;UH
-ATSL
-[A\]
-AVAUATSH
-G@Hc
-G@Hc
-h[A\A]A^A_]
-G@Hc
-G@Hc
-u	H9
-G@Hc
-G@Hc
-h[A\A]A^A_]
-G@Hc
-G@Hc
-G@Hc
-G@Hc
-G@Hc
-G@Hc
 AWAVAUATSH
 D$(H
 [A\A]A^A_]
@@ -729,101 +673,103 @@ l$(I
 [A\A]A^]
 AUATI
 [A\A]]
-D$(A
-D$8A
+D$(I
+D$ A
 A\A]A^]
 D$(A
-D$8A
+D$ A
 A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 AUATI
 [A\A]]
-D$(A
-D$8A
+D$(I
+D$ A
 A\A]A^]
 AWAVI
 [A\A]A^A_]
 AWAVI
 AUATI
+@ L9
 [A\A]A^A_]
 @ H9
-@ H9
-F@Hc
-@ H9
-@ H9
-@ H9
-@ H9
-@ H9
-@ H9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
+@ L9
 [A\]
 t E1
-AWAVAUATSH
-[A\A]A^A_]
-[A\A]A^A_]
 D$(A
-D$8A
+D$ A
 [A\A]]
 D$(A
-D$8A
-[A\A]A^A_]
-AWAVL
-t*ATH
-8XZH
-A^A_H
-E@Hc
-E@Hc
-E@Hc
-E@Hc
-E@Hc
-D9%j
-E@Hc
-xWHc
+D$ A
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-AWAVAUATSH
-t7Hc
-D$!A
-D$"E1
-[A\A]A^A_]
-AWAVAUI
-ATSH
-Hc;t}H
-;tpH
-C@Hc
-[A\A]A^A_]
-E0H9
-AWAVAUATSH
-[A\A]A^A_]
-D$(I
 D$ A
 +C$H
 +C$H
-l$(M
 +C$H
 +C$H
+ATSH
+D$ A
+D$!A
+D$"H
+[A\A]A^]
+[A\A]A^]
+AVAUA
+[A\A]A^]
+l$0H
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+F0H9
+AWAVAUATSH
+t7Hc
+D$ A
+D$!A
+D$"E1
+[A\A]A^A_]
+AWAVI
+t+ATM
+~uE1
+D9%`
+D;%D
+xGHc
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+AVAUI
+ATSD
+ [A\A]A^]
+AWAVA
+x[A\A]A^A_]
+[A\A]A^A_]
+AWAVI
+[(Y^H
+[(XZH
+A\A]A^A_]
+[A\A]A^A_]
+A[~6I
+AVAUI
+[A\A]A^A_]
+[A\A]A^A_]
 AVAUL
 ATSt1H
 [A\A]A^]
 Mcu0E1
 [A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
 AVAUATI
-8tAH
-@@Lc
-Ic>L
-y/[A\A]A^]
-Ic>I
-8t1H
-@@Lc
-Hc;L
-A\A]A^]
-Hc;I
+[A\A]A^]
 [A\]
 [A\]
 ATSH
@@ -849,11 +795,13 @@ T$ D9m
 |$XD
 D$hD)
 |$XHc
- AVAUA
+AWAVAUL
+o ATSH
+C D9
 [A\A]A^A_]
 sXHc
-S D)
 C0E1
+0x'H
 AVMc
 xzD9
 }ID)
@@ -929,7 +877,6 @@ AVAUATS
 TUUUv
 [A\A]A^]
 AWAVAUATI
-Lc5^p
 [A\A]A^A_]
 tx~.
 AVAUATI
@@ -1839,7 +1786,6 @@ D$(L
 []A\A]A^A_
 Q H;
 []A\A]A^A_
-H95I
 T$(H
 |$ H
 D$(H
@@ -2164,7 +2110,6 @@ $WINDOWS
 $OSX
 $LINUX
 $POSIX
-NULL
 %f %f %f %f
 %lld
 int( %d = 0x%X )
@@ -2173,6 +2118,7 @@ ptr( 0x%p )
 %ls [wstring, len = %d]
 u64( %lld = 0x%llX )
 g_KVMutex
+KeyValues.cpp
 #include
 #include is NULL 
 #base
@@ -2180,27 +2126,27 @@ g_KVMutex
 LoadFromBuffer: missing {
 LoadFromFile
 %s( %s )
+NULL
 KeyValues Error: %s in file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 RecursiveLoadFromBuffer:  recursion overflow
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  got conditional between key and value
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::LoadFromBuffer(%s%s%s): Begin
 KeyValues::LoadFromBuffer(%s%s%s): End
 KeyValues::LoadFromFile(%s%s%s): Begin
 KeyValues::LoadFromFile(%s%s%s): End / FileNotFound
 KeyValues::LoadFromFile(%s%s%s): End / Success
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 m_mutex
-KeyValues.cpp
 21IKeyValuesDumpContext
 27IKeyValuesDumpContextAsText
 29CKeyValuesDumpContextAsDevMsg
-;0123456789ABCDEF
+0123456789ABCDEF
  bytes
 %i%s
 %%.%if%s
