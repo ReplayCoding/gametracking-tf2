@@ -780,6 +780,7 @@
 "TF_TournamentMedal_UGCHL_3rd"						"UGC 全编制赛季军"
 "TF_TournamentMedal_UGCHL_Premium_Participant"		"UGC 全编制赛超级组参赛者"
 "TF_TournamentMedal_UGCHL_Admin"					"UGC 联赛贡献者和管理员"
+"TF_TournamentMedal_UGC6v6_Participant"				"UGC 6V6 参赛者"
 "TF_TournamentMedal_UGC6v6_Platinum_1st"			"UGC 6V6 铂金组冠军"
 "TF_TournamentMedal_UGC6v6_Platinum_2nd"			"UGC 6V6 铂金组亚军"
 "TF_TournamentMedal_UGC6v6_Platinum_3rd"			"UGC 6V6 铂金组季军"
@@ -798,6 +799,10 @@
 "TF_TournamentMedal_UGC6v6_Steel_Participant"		"UGC 6V6 精钢组参赛者"
 "TF_TournamentMedal_UGC6v6_Iron_Participant"		"UGC 6V6 黑铁组参赛者"
 "TF_TournamentMedal_UGC6v6_European_Participant"	"UGC 6V6 欧洲参赛者"
+"TF_TournamentMedal_UGC4v4_Platinum_1st"			"UGC 4V4 铂金组冠军"
+"TF_TournamentMedal_UGC4v4_Platinum_2nd"			"UGC 4V4 铂金组亚军"
+"TF_TournamentMedal_UGC4v4_Platinum_3rd"			"UGC 4V4 铂金组季军"
+"TF_TournamentMedal_UGC4v4_Platinum_Participant"	"UGC 4V4 铂金组参赛者"
 "TF_TournamentMedal_UGC4v4_Gold_1st"				"UGC 4V4 黄金组冠军"
 "TF_TournamentMedal_UGC4v4_Gold_2nd"				"UGC 4V4 黄金组亚军"
 "TF_TournamentMedal_UGC4v4_Gold_3rd"				"UGC 4V4 黄金组季军"
@@ -811,6 +816,7 @@
 "TF_TournamentMedal_UGC4v4_Steel_3rd"				"UGC 4vs4 精钢组季军"
 "TF_TournamentMedal_UGC4v4_Steel_Participant"		"UGC 4V4 精钢组参赛者"
 "TF_TournamentMedal_UGC4v4_Iron_Participant"		"UGC 4V4 钢铁组参赛者"
+"TF_TournamentMedal_UGC4v4_Participant"				"UGC 4V4 参赛者"
 "TF_TournamentMedal_UGCUltiduo_Platinum_1st"			"UGC Ultiduo 铂金组冠军"
 "TF_TournamentMedal_UGCUltiduo_Platinum_2nd"			"UGC Ultiduo 铂金组亚军"
 "TF_TournamentMedal_UGCUltiduo_Platinum_3rd"			"UGC Ultiduo 铂金组季军"
@@ -819,6 +825,7 @@
 "TF_TournamentMedal_UGCUltiduo_Steel_2nd"				"UGC Ultiduo 精钢组亚军"
 "TF_TournamentMedal_UGCUltiduo_Steel_3rd"				"UGC Ultiduo 精钢组季军"
 "TF_TournamentMedal_UGCUltiduo_Steel_Participant"		"UGC Ultiduo 精钢组参赛者"
+"TF_TournamentMedal_UGCUltiduo_Participant"				"UGC Ultiduo 参赛者"
 "TF_TournamentMedal_UGCHL_League_Admin"				"UGC 联赛管理员和贡献者"
 
 "TF_TournamentMedal_Winners_Desc"		"授予获胜队伍！"
@@ -1347,6 +1354,19 @@
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Second_Place"			"ozfortress 实验杯 3 第 4 组亚军"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Third_Place"			"ozfortress 实验杯 3 第 4 组季军"
 "TF_TournamentMedal_OzFortress_ExpCup3_Div4_Participant"			"ozfortress 实验杯 3 第 4 组参赛者"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div1_First_Place"			"ozfortress 实验杯 4 全编制赛甲组冠军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div1_Second_Place"		"ozfortress 实验杯 4 全编制赛甲组亚军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div1_Third_Place"			"ozfortress 实验杯 4 全编制赛甲组季军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div1_Participant"			"ozfortress 实验杯 4 全编制赛甲组参赛者"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div2_First_Place"			"ozfortress 实验杯 4 全编制赛乙组冠军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div2_Second_Place"		"ozfortress 实验杯 4 全编制赛乙组亚军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div2_Third_Place"			"ozfortress 实验杯 4 全编制赛乙组季军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div2_Participant"			"ozfortress 实验杯 4 全编制赛乙组参赛者"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div3_First_Place"			"ozfortress 实验杯 4 全编制赛丙组冠军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div3_Second_Place"		"ozfortress 实验杯 4 全编制赛丙组亚军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div3_Third_Place"			"ozfortress 实验杯 4 全编制赛丙组季军"
+"TF_TournamentMedal_OzFortress_ExpCup4_Highlander_Div3_Participant"			"ozfortress 实验杯 4 全编制赛丙组参赛者"
+
 "TF_TournamentMedal_OzFortress_MayMadness_Finalist"					"ozfortress May Madness 决赛选手"
 "TF_TournamentMedal_OzFortress_MayMadness_Participant"				"ozfortress May Madness 参赛者"
 
@@ -2529,6 +2549,11 @@
 "TF_TournamentMedal_UDL_Bronze_Winter2023"		"奖励给 United Dodgeball League 2023 冬季杯季军"
 "TF_TournamentMedal_UDL_Participant_Winter2023"	"奖励给 United Dodgeball League 2023 冬季杯参赛者"
 "TF_TournamentMedal_UDL_Supporter_Winter2023"	"奖励给为 United Dodgeball League 2023 冬季杯做出宝贵贡献的人"
+"TF_TournamentMedal_UDL_Gold_2025"		"奖励给 United Dodgeball League 2025 年度杯的优胜者"
+"TF_TournamentMedal_UDL_Silver_2025"		"奖励给 United Dodgeball League 2025 年度杯亚军"
+"TF_TournamentMedal_UDL_Bronze_2025"		"奖励给 United Dodgeball League 2025 年度杯季军"
+"TF_TournamentMedal_UDL_Participant_2025"	"奖励给 United Dodgeball League 2025 年度杯参赛者"
+"TF_TournamentMedal_UDL_Supporter_2025"	"奖励给为 United Dodgeball League 2025 年度杯做出宝贵贡献的人"
 
 "TF_TournamentMedal_ESEA_6s_first"			"ESEA 6s 邀请赛冠军"
 "TF_TournamentMedal_ESEA_6s_second"			"ESEA 6s 邀请赛亚军"
@@ -2561,6 +2586,11 @@
 "TF_TournamentMedal_BrazilFortress_6s_Academy_participant"			"Brazil Fortress 6v6 学院组参赛者"
 "TF_TournamentMedal_BrazilFortress_6s_Qualified_Stage_Champions"	"Brazil Fortress 6v6 资格赛冠军"
 "TF_TournamentMedal_BrazilFortress_6s_Helper"						"Brazil Fortress 6v6 协助者"
+"TF_TournamentMedal_BrazilFortress_6s_CustomMaps_first"				"Brazil Fortress 6v6 原创地图杯冠军"
+"TF_TournamentMedal_BrazilFortress_6s_CustomMaps_second"			"Brazil Fortress 6v6 原创地图杯亚军"
+"TF_TournamentMedal_BrazilFortress_6s_CustomMaps_third"				"Brazil Fortress 6v6 原创地图杯季军" 
+"TF_TournamentMedal_BrazilFortress_6s_CustomMaps_participant"		"Brazil Fortress 6v6 原创地图杯参赛者"
+
 "TF_TournamentMedal_BrazilFortress_Jump_Soldier_Div1_1st"			"Brazil Fortress Jump Cup Race 士兵甲组冠军"
 "TF_TournamentMedal_BrazilFortress_Jump_Soldier_Div1_2nd"			"Brazil Fortress Jump Cup Race 士兵甲组亚军"
 "TF_TournamentMedal_BrazilFortress_Jump_Soldier_Div1_3rd"			"Brazil Fortress Jump Cup Race 士兵甲组季军"
@@ -2607,15 +2637,15 @@
 "TF_TournamentMedal_BrazilFortress_Jump_SpeedRun_Demoman_Div2_Participant"	"Brazil Fortress Jump Cup Speed Run 爆破手乙组参赛者"
 "TF_TournamentMedal_BrazilFortress_Jump_Helper"						"Brazil Fortress Jump Cup 协助者"
 
-"TF_TournamentMedal_BrazilFortress_Hwn_First"						"吓人的第一名" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_First"						"骇人冠军" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_First_Desc"					"本次闹鬼盛会的真正冠军，恐怖程度可谓是空前绝后，称霸了 2018 年 Brasil Fortress Halloween 第一季比赛。"
-"TF_TournamentMedal_BrazilFortress_Hwn_Second"						"第二名的魔咒" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Second"						"巫术亚军" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Second_Desc"					"在月黑风高之夜，用强大的魔咒血洗了赛场，在 2018 年 Brasil Fortress Halloween 比赛中获得了人印象深刻的成绩。"
-"TF_TournamentMedal_BrazilFortress_Hwn_Third"						"第三名怪物" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Third"						"怪物季军" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Third_Desc"					"置于死地而后生，你在 Brasil Fortress Halloween 2018 中的杀戮让你的创造者感到骄傲。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Playoffs"					"周五季后赛" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Playoffs_Desc"				"你废寝忘食，杀人如麻，称霸天下。然后船翻了，梦醒了，你在参加 Brasil Fortress Halloween 2018 时淹死了。"
-"TF_TournamentMedal_BrazilFortress_Hwn_Participant"					"吸血鬼参赛者" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Participant"					"血魔参赛者" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Participant_Desc"			"你既没有吸血也没有挨饿；在 Brasil Fortress Halloween 2018 期间，你的参与让大量鲜血四溅。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Assistant"					"被诅咒的助手" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Assistant_Desc"				"整晚聆听着来自彼岸的低语，你让 Brasil Fortress Halloween 2018 成为现实。虽然伤不了你分毫，但它们的诅咒也不会让你安息。"
@@ -2634,6 +2664,51 @@
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Third"				"Brazil Fortress 万圣赛 - 恐怖组季军"
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Participant"			"Brazil Fortress 万圣赛 - 恐怖组参赛者"
 "TF_TournamentMedal_BrazilFortress_Hwn_Helper"						"Brazil Fortress 万圣赛 - 协助者"
+"TF_TournamentMedal_BrazilFortress_Hwn_CursedAssistant"				"Brazil Fortress 万圣节赛 - 被诅咒的助手"
+"TF_TournamentMedal_BrazilFortress_Hwn_FirstScary"					"Brazil Fortress 万圣赛 - 骇人冠军"
+"TF_TournamentMedal_BrazilFortress_Hwn_SecondSpell"					"Brazil Fortress 万圣赛 - 巫术亚军"
+"TF_TournamentMedal_BrazilFortress_Hwn_ThirdMonstrosity"			"Brazil Fortress 万圣赛 - 怪物季军"
+"TF_TournamentMedal_BrazilFortress_Hwn_VampiricParticipant"			"Brazil Fortress 万圣赛 - 血魔参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_First"						"Brazil Fortress QEL 4v4 万圣赛 - 吓人组冠军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Second"					"Brazil Fortress QEL 4v4 万圣赛 - 吓人组亚军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Third"						"Brazil Fortress QEL 4v4 万圣赛 - 吓人组季军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Participant"				"Brazil Fortress QEL 4v4 万圣赛 - 吓人组参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Winner"					"Brazil Fortress QEL 4v4 万圣赛 - 闹鬼组优胜者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_First"					"Brazil Fortress QEL 4v4 万圣赛 - 闹鬼组冠军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Second"					"Brazil Fortress QEL 4v4 万圣赛 - 闹鬼组亚军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Third"					"Brazil Fortress QEL 4v4 万圣赛 - 闹鬼组季军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Participant"				"Brazil Fortress QEL 4v4 万圣赛 - 闹鬼组参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Winner"					"Brazil Fortress QEL 4v4 万圣赛 - 恐怖组优胜者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_First"					"Brazil Fortress QEL 4v4 万圣赛 - 恐怖组冠军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Second"					"Brazil Fortress QEL 4v4 万圣赛 - 恐怖组亚军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Third"					"Brazil Fortress QEL 4v4 万圣赛 - 恐怖组季军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Participant"				"Brazil Fortress QEL 4v4 万圣赛 - 恐怖组参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Winner"					"Brazil Fortress QEL 4v4 万圣赛 - 诡异组优胜者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_First"						"Brazil Fortress QEL 4v4 万圣赛 - 诡异组冠军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Second"					"Brazil Fortress QEL 4v4 万圣赛 - 诡异组亚军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Third"						"Brazil Fortress QEL 4v4 万圣赛 - 诡异组季军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Participant"				"Brazil Fortress QEL 4v4 万圣赛 - 诡异组参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Winner"					"Brazil Fortress QEL 4v4 万圣赛 - 阴森组优胜者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_First"					"Brazil Fortress QEL 4v4 万圣赛 - 阴森组冠军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Second"					"Brazil Fortress QEL 4v4 万圣赛 - 阴森组亚军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Third"					"Brazil Fortress QEL 4v4 万圣赛 - 阴森组季军"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Participant"				"Brazil Fortress QEL 4v4 万圣赛 - 阴森组参赛者"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_CursedAssistant"					"Brazil Fortress QEL 4v4 万圣赛 - 被诅咒的助手"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_First"					"Brazil Fortress 全编制万圣赛 - 吓人组冠军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Second"					"Brazil Fortress 全编制万圣赛 - 吓人组亚军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Third"					"Brazil Fortress 全编制万圣赛 - 吓人组季军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Participant"			"Brazil Fortress 全编制万圣赛 - 吓人组参赛者"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Winner"				"Brazil Fortress 全编制万圣赛 - 闹鬼组优胜者"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_First"				"Brazil Fortress 全编制万圣赛 - 闹鬼组冠军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Second"				"Brazil Fortress 全编制万圣赛 - 闹鬼组亚军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Third"				"Brazil Fortress 全编制万圣赛 - 闹鬼组季军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Participant"			"Brazil Fortress 全编制万圣赛 - 闹鬼组参赛者"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Winner"				"Brazil Fortress 全编制万圣赛 - 恐怖组优胜者"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_First"				"Brazil Fortress 全编制万圣赛 - 恐怖组冠军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Second"				"Brazil Fortress 全编制万圣赛 - 恐怖组亚军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Third"				"Brazil Fortress 全编制万圣赛 - 恐怖组季军"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Participant"			"Brazil Fortress 全编制万圣赛 - 恐怖组参赛者"
+"TF_TournamentMedal_BZ_Highlander_Hwn_CursedAssistant"				"Brazil Fortress 全编制万圣赛 - 被诅咒的助手"
 
 "TF_TournamentMedal_SacredScouts_6v6_Gold"			"Sacred Scouts 6v6 金牌"
 "TF_TournamentMedal_SacredScouts_6v6_Silver"		"Sacred Scouts 6v6 银牌"
@@ -3051,6 +3126,22 @@
 "TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf 欧盟 2v2 公开组季军"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf 欧盟 2v2 公开组参赛者"
 "TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf 欧盟 2v2 公开组助手"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Participant"		"MGE.tf 欧盟 2v2 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Gold"					"MGE.tf 北美 2v2 邀请组冠军"
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Silver"				"MGE.tf 北美 2v2 邀请组亚军"
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Bronze"				"MGE.tf 北美 2v2 邀请组季军"
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Participant"			"MGE.tf 北美 2v2 邀请组参赛者"
+"TF_TournamentMedal_MGE_NA_2v2_Intermediate_Gold"			"MGE.tf 北美 2v2 中级组冠军"
+"TF_TournamentMedal_MGE_NA_2v2_Intermediate_Silver"			"MGE.tf 北美 2v2 中级组亚军"
+"TF_TournamentMedal_MGE_NA_2v2_Intermediate_Bronze"			"MGE.tf 北美 2v2 中级组季军"
+"TF_TournamentMedal_MGE_NA_2v2_Intermediate_Participant"	"MGE.tf 北美 2v2 中级组参赛者"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Gold"					"MGE.tf 北美 2v2 公开组冠军"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Silver"					"MGE.tf 北美 2v2 公开组亚军"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Bronze"					"MGE.tf 北美 2v2 公开组季军"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Participant"			"MGE.tf 北美 2v2 公开组参赛者"
+"TF_TournamentMedal_MGE_NA_2v2_Helper"						"MGE.tf 北美 2v2 助手"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Participant"		"MGE.tf 北美 2v2 新秀赛参赛者"
 
 "TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1v1 世界锦标赛冠军"
 "TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1v1 世界锦标赛亚军"
@@ -5124,10 +5215,10 @@
 "cp_hardwood_final_authors"		"Ben 'Squishy' Dowman\nEmil Sharafeev\nFaye\nPuinguin \nLiam 'Diva Dan' Moffitt\nE-Arkham\nRoman 'FanCyy' Malashkevich"
 "ctf_pelican_peak_authors"		"克里斯-威廉姆斯（Chris 'Another Bad Pun' Williams） 贝克-艾尔斯（Bec 'phi' Ailes） 詹姆斯-海耶斯（James 'chin' Hayes） 埃里克-布朗宁（Eric 'erk' Browning） 利亚姆-莫菲特（Liam 'Diva Dan' Moffitt） 斯塔菲-360（Aneon 'Void' Bollig） 尼古拉斯-费内奇（Nickolas 'KrazyZark' Fenech） 埃米尔-沙拉菲耶夫（Emil Sharafeev）"
 "pd_selbyen_authors"			"Joel 'zythe_' Morscher\nRhafael 'Rhamkin' Oliveira\nAlex 'FGD5' Stewart\nBenjamin 'blaholtzen' Blåholtz\nMatthew 'MegapiemanPHD' Simmons\nLo-fi Longcat"
-"vsh_tinyrock_authors"			"Jess 'Muddy' Dabbs\nLizard of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nMaxim 'VellyVice' Streltsov\nJames M.\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons"
-"vsh_distillery_authors"		"Phe\nLizard Of Oz\nSonoma 'Sono' Bryer\nSzabó 'Maxxy' Attila\nMatthew 'MegapiemanPHD' Simmons\nStuffy 360\nJason 'Yaki' Herman\nMaxim 'VellyVice' Streltsov\nJames M.\nJoaquim 'JPRAS' Silva\nAeon 'Void' Bollig"
-"vsh_skirmish_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames M.\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig\nLouie 'bakscratch' Turner"
-"vsh_nucleus_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames M.\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig"
+"vsh_tinyrock_authors"			"Jess 'Muddy' Dabbs\nLizard of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nMaxim 'VellyVice' Streltsov\nJames 'McGuinnsBook' McGuinn\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons"
+"vsh_distillery_authors"		"Phe\nLizard Of Oz\nSonoma 'Sono' Bryer\nSzabó 'Maxxy' Attila\nMatthew 'MegapiemanPHD' Simmons\nStuffy 360\nJason 'Yaki' Herman\nMaxim 'VellyVice' Streltsov\nJames 'McGuinnsBook' McGuinn\nJoaquim 'JPRAS' Silva\nAeon 'Void' Bollig"
+"vsh_skirmish_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig\nLouie 'bakscratch' Turner"
+"vsh_nucleus_authors"			"John 'MilkMaster72' Worden\nLizard Of Oz\nJason 'Yaki' Herman\nSzabó 'Maxxy' Attila\nJoaquim 'JPRAS' Silva\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nMaxim 'VellyVice' Streltsov\nAeon 'Void' Bollig"
 "arena_perks_authors"			"Philippe 'Le Codex' Lefebvre\nLiam 'Diva Dan' Moffitt\nDaniel 'DJ' Bennett\nSeb 'Tianes' Necula\nAse 'pont' Kirkham\nE-Arkham"
 "koth_slime_authors"			"Harlen 'UEAKCrash' Linke\nFreyja\nBenjamin 'blaholtzen' Blåholtz\nAl 'Square' Rodgers\nAlex 'FGD5' Stewart\nLizard of Oz\nJordan 'hXX' LeBlanc\nSeb 'Tianes' Necula"
 "cp_lavapit_final_authors"		"Stack Man"
@@ -5165,14 +5256,14 @@
 "cp_freaky_fair_authors"		"Emil Sharafeev\nGeorge 'I dinne ken' Norman\nLiam 'Diva Dan' Moffitt\nPatrik 'Nat-Tea' Naplava\nAeon 'Void' Bollig\nWilson\nStuffy360\nRanily"
 "tow_dynamite_authors"			"Will Alfred\nJordan 'Ismac' La Rose\nLizard Of Oz\nHaau\nAydan\nNeal 'Blade x64' Smart\nLiam 'Diva Dan' Moffitt"
 "pd_circus_authors"				"Liam 'Diva Dan' Moffitt\nAeon 'Void' Bollig\ndonhonk"
-"vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó 'Maxxy' Attila\nMaksim 'VellyVice' Streltsov\nMatthew 'MegapiemanPHD' Simmons\nJames M.\nJason 'Yaki' Herman\nJoaquim 'JPRAS' Silva\nStuffy360"
+"vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó 'Maxxy' Attila\nMaksim 'VellyVice' Streltsov\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nJason 'Yaki' Herman\nJoaquim 'JPRAS' Silva\nStuffy360"
 "zi_blazehattan_authors"		"Emil Sharafeev\nPatrik 'Nat-Tea' Naplava\nAeon 'Void' Bollig\nLiam 'Diva Dan' Moffitt\nnetmuck"
 "koth_overcast_final_authors"	"Slowmotion Milk\nEthan Stokes\nDr Vlad Crazy"
 "cp_fortezza_authors"			"Josh 'Gruppy' Baughman\nNickolas 'KrazyZark' Fenech\nKubie\nAlien31"
 "ctf_penguin_peak_authors"		"Chris 'Another Bad Pun' Williams\nBec 'phi' Ailes\nJames 'chin' Hayes\nEric 'erk' Browning\nLiam 'Diva Dan' Moffitt\nStuffy360\nAeon 'Void' Bollig\nNickolas 'KrazyZark' Fenech\nAl 'Square' Rodgers\nSam D. Wich"
 "pl_patagonia_authors"			"Elián 'iron' Rodríguez\nMatthew 'Panckakebro' Hiller\nJoão 'Hoppkins' Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul 'puxorb' Broxup\nBrie\nNickolas 'KrazyZark' Fenech\nLiam 'Diva Dan' Moffitt\nAeon 'Void' Bollig\nErik 'Colteh' Coltey\nExtra Ram\nMattie Konig\nTim 'Sedisocks' Brown Lees\nPatrick 'Zeus' Hennessy\nZoey Smith"
-"vsh_maul_authors"				"Matthew Scott 'MegapiemanPHD' Simmons\nBrandon 'Bonk Nickeltoon' Koller\nSzabó 'Maxxy' Attila\nPatrick 'Zeus' Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex 'FGD5' Stewart\nMaksim 'Velly' Streltsov\nJason 'Yaki' Herman\nJesse 'Custard1' Budd\nJoaquim 'JPRAS' Silva\nSamuel 'ChargingTurnip' Turner\nAlex 'Lacry' Couto\nJames M.\nTorkil 'TheLazerSofa' Malvik Bidtnes\nSky"
+"vsh_maul_authors"				"Matthew Scott 'MegapiemanPHD' Simmons\nBrandon 'Bonk Nickeltoon' Koller\nSzabó 'Maxxy' Attila\nPatrick 'Zeus' Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex 'FGD5' Stewart\nMaksim 'Velly' Streltsov\nJason 'Yaki' Herman\nJesse 'Custard1' Budd\nJoaquim 'JPRAS' Silva\nSamuel 'ChargingTurnip' Turner\nAlex 'Lacry' Couto\nJames 'McGuinnsBook' McGuinn\nTorkil 'TheLazerSofa' Malvik Bidtnes\nSky"
 "pl_citadel_authors"			"Evan 'Defcon' LeBlanc\nNickolas 'KrazyZark' Fenech\nSarexicus\nFreyja\nFicool2"
 "pl_aquarius_authors"			"Alien31\nAndrew 'Bengali Hedgehog' Mishchuk\nChristoph 'Gadget' Manschitz\nDansky\nLogan 'Cipherlock' Eaton\nLucky\nMitchell 'AltraNade' Leyte\nNeal 'Blade x64' Smart\nSzabó 'Maxxy' Attila\nTorkil 'TheLazerSofa' Malvik Bidtnes\nMaxime 'Fubar' Dupuis"
 "cp_fulgur_authors"				"Michał 'AsG_Alligator' Byczko\nAeon 'Void' Bollig\nKimberly 'iiboharz' Riswick\nAlex 'Rexy' Kreeger\nJuniper\nBerry\nMaxime 'Fubar' Dupuis"
@@ -5607,19 +5698,19 @@
 "TF_MapToken_Selbyen_AdText"		"-购买此物品来直接赞助 Selbyen 社区地图创作者。"
 "TF_Map_TinyRock"					"Tiny Rock (VSH)"
 "TF_MapToken_TinyRock"				"地图邮票 - Tiny Rock (VSH)"
-"TF_MapToken_TinyRock_Desc"			"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Jess 'Muddy' Dabbs、Lizard of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Maxim 'VellyVice' Streltsov、James M.、Joaquim 'JPRAS' Silva 和 Matthew 'MegapiemanPHD' Simmons 创作\n\n购买此物品来直接赞助 Tiny Rock 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_TinyRock_Desc"			"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Jess 'Muddy' Dabbs、Lizard of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Maxim 'VellyVice' Streltsov、James 'McGuinnsBook' McGuinn、Joaquim 'JPRAS' Silva 和 Matthew 'MegapiemanPHD' Simmons 创作\n\n购买此物品来直接赞助 Tiny Rock 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_TinyRock_AdText"		"-购买此物品来直接赞助 Tiny Rock (VSH) 社区地图创作者。"
 "TF_Map_Distillery"					"Distillery (VSH)"
 "TF_MapToken_Distillery"			"地图邮票 - Distillery (VSH)"
-"TF_MapToken_Distillery_Desc"		"一张大战萨克斯顿·霍尔（社区）模式地图\n\n由 Phe、Lizard Of Oz、Sonoma 'Sono' Bryer、Szabó 'Maxxy' Attila、Matthew 'MegapiemanPHD' Simmons、Stuffy 360, Jason 'Yaki' Herman、Maxim 'VellyVice' Streltsov、James M.、Joaquim 'JPRAS' Silva 和 Aeon 'Void' Bollig 创作\n\n购买此物品来直接赞助 Distillery 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_Distillery_Desc"		"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Phe、Lizard Of Oz、Sonoma 'Sono' Bryer、Szabó 'Maxxy' Attila、Matthew 'MegapiemanPHD' Simmons、Stuffy 360, Jason 'Yaki' Herman、Maxim 'VellyVice' Streltsov、James 'McGuinnsBook' McGuinn、Joaquim 'JPRAS' Silva 和 Aeon 'Void' Bollig 创作\n\n购买此物品来直接赞助 Distillery 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Distillery_AdText"		"-购买此物品来直接赞助 Distillery (VSH) 社区地图创作者。"
 "TF_Map_Skirmish"					"Skirmish (VSH)"
 "TF_MapToken_Skirmish"				"地图邮票 - Skirmish (VSH)"
-"TF_MapToken_Skirmish_Desc"			"一张大战萨克斯顿·霍尔（社区）模式地图\n\n由 John 'MilkMaster72' Worden、Lizard Of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Joaquim 'JPRAS' Silva、Matthew 'MegapiemanPHD' Simmons、James M.、Maxim 'VellyVice' Streltsov、Aeon 'Void' Bollig 和 Louie 'bakscratch' Turner 创作\n\n购买此物品来直接赞助 Skirmish 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_Skirmish_Desc"			"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 John 'MilkMaster72' Worden、Lizard Of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Joaquim 'JPRAS' Silva、Matthew 'MegapiemanPHD' Simmons、James 'McGuinnsBook' McGuinn、Maxim 'VellyVice' Streltsov、Aeon 'Void' Bollig 和 Louie 'bakscratch' Turner 创作\n\n购买此物品来直接赞助 Skirmish 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Skirmish_AdText"		"-购买此物品来直接赞助 Skirmish (VSH) 社区地图创作者。"
 "TF_Map_Nucleus"					"Nucleus (VSH)"
 "TF_MapToken_Nucleus"				"地图邮票 - Nucleus (VSH)"
-"TF_MapToken_Nucleus_Desc"			"一张大战萨克斯顿·霍尔（社区）模式地图\n\n由 John 'MilkMaster72' Worden、Lizard Of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Joaquim 'JPRAS' Silva、Matthew 'MegapiemanPHD' Simmons、James M.、Maxim 'VellyVice' Streltsov 和 Aeon 'Void' Bollig 创作\n\n购买此物品来直接赞助 Nucleus VSH 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_Nucleus_Desc"			"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 John 'MilkMaster72' Worden、Lizard Of Oz、Jason 'Yaki' Herman、Szabó 'Maxxy' Attila、Joaquim 'JPRAS' Silva、Matthew 'MegapiemanPHD' Simmons、James 'McGuinnsBook' McGuinn、Maxim 'VellyVice' Streltsov 和 Aeon 'Void' Bollig 创作\n\n购买此物品来直接赞助 Nucleus VSH 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Nucleus_AdText"		"-购买此物品来直接赞助 Nucleus (VSH) 社区地图创作者。"
 "TF_Map_Perks"						"Perks"
 "TF_MapToken_Perks"					"地图邮票 - Perks"
@@ -5771,7 +5862,7 @@
 "TF_MapToken_Circus_AdText"			"-购买此物品来直接赞助 Circus 社区地图创作者。"
 "TF_Map_Outburst"					"Outburst (VSH)"
 "TF_MapToken_Outburst"				"地图邮票 - Outburst (VSH)"
-"TF_MapToken_Outburst_Desc"			"一张大战萨克斯顿·霍尔（社区）模式地图\n\n由 Lizard Of Oz、Phe、Szabó 'Maxxy' Attila、Maksim 'VellyVice' Streltsov、Matthew 'MegapiemanPHD' Simmons、James M.、Jason 'Yaki' Herman、Joaquim 'JPRAS' Silva 和 Stuffy360 创作\n\n购买此物品来直接赞助 Outburst 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_Outburst_Desc"			"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Lizard Of Oz、Phe、Szabó 'Maxxy' Attila、Maksim 'VellyVice' Streltsov、Matthew 'MegapiemanPHD' Simmons、James 'McGuinnsBook' McGuinn、Jason 'Yaki' Herman、Joaquim 'JPRAS' Silva 和 Stuffy360 创作\n\n购买此物品来直接赞助 Outburst 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Outburst_AdText"		"-购买此物品来直接赞助 Outburst (VSH) 社区地图创作者。"
 "TF_Map_Blazehattan"				"Blazehattan (ZI)"
 "TF_MapToken_Blazehattan"			"地图邮票 - Blazehattan (ZI)"
@@ -5799,7 +5890,7 @@
 "TF_MapToken_Cutter_AdText"			"-购买此物品来直接赞助 Cutter 社区地图创作者。"
 "TF_Map_Maul"						"Maul (VSH)"
 "TF_MapToken_Maul"					"地图邮票 - Maul (VSH)"
-"TF_MapToken_Maul_Desc"				"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Matthew Scott 'MegapiemanPHD' Simmons、Brandon 'Bonk Nickeltoon' Koller、Szabó 'Maxxy' Attila、Patrick 'Zeus' Hennessy、Lizard Of Oz、Stuffy360、James Jameson、Phe、Mattie Konig、Alex 'FGD5' Stewart、Maksim 'Velly' Streltsov、Jason 'Yaki' Herman、Jesse 'Custard1' Budd、Joaquim 'JPRAS' Silva、Samuel 'ChargingTurnip' Turner、Alex 'Lacry' Couto、James M.、Torkil 'TheLazerSofa' Malvik Bidtnes 和 Sky 创作\n\n购买此物品来直接赞助 Maul 社区地图创作者。快来表示你的支持吧！"
+"TF_MapToken_Maul_Desc"				"一张大战萨克斯顿.霍尔（社区）模式地图\n\n由 Matthew Scott 'MegapiemanPHD' Simmons、Brandon 'Bonk Nickeltoon' Koller、Szabó 'Maxxy' Attila、Patrick 'Zeus' Hennessy、Lizard Of Oz、Stuffy360、James Jameson、Phe、Mattie Konig、Alex 'FGD5' Stewart、Maksim 'Velly' Streltsov、Jason 'Yaki' Herman、Jesse 'Custard1' Budd、Joaquim 'JPRAS' Silva、Samuel 'ChargingTurnip' Turner、Alex 'Lacry' Couto、James 'McGuinnsBook' McGuinn、Torkil 'TheLazerSofa' Malvik Bidtnes 和 Sky 创作\n\n购买此物品来直接赞助 Maul 社区地图创作者。快来表示你的支持吧！"
 "TF_MapToken_Maul_AdText"			"-购买此物品来直接赞助 Maul (VSH) 社区地图创作者。"
 "TF_Map_Citadel"					"Citadel"
 "TF_MapToken_Citadel"				"地图邮票 - Citadel"
@@ -6343,7 +6434,7 @@
 "hightower_cap_red"			"红队高塔"
 "hightower_cap_blue"			"蓝队高塔"
 "helltower_setup_goal_red"			"帮助布鲁塔克.曼恩或雷德蒙德.曼恩的鬼魂一举赢得碎石战争！"
-"helltower_setup_goal_blue"			"帮助布鲁塔克·曼恩或雷德蒙德·曼恩的鬼魂一举赢得碎石战争！"
+"helltower_setup_goal_blue"			"帮助布鲁塔克.曼恩或雷德蒙德.曼恩的鬼魂一举赢得碎石战争！"
 "helltower_cap_red"			"布鲁塔克的遗体"
 "helltower_cap_blue"			"雷德蒙德的遗体"
 
@@ -6427,7 +6518,7 @@
 "pl_fifthcurve_event_gratanter"			"愉悦"
 "pl_fifthcurve_event_congeriae"			"混沌"
 "pl_fifthcurve_event_veteris"			"亘古"
-"pl_fifthcurve_event_blu_objective"			"把雷德蒙德·曼恩的遗体连同里面的炸药一起还给红队！"
+"pl_fifthcurve_event_blu_objective"			"把雷德蒙德.曼恩的遗体连同里面的炸药一起还给红队！"
 "pl_fifthcurve_event_red_objective"			"虽然布鲁塔克已经下地狱了，但我们还是得把老板的遗体从蓝队那里抢回来！"
 "koth_maple_ridge_event_maple"			"Maple Ridge"
 "pd_watergate_objective"				"收集啤酒，将啤酒送入 UFO 中可获得分数！"
@@ -6616,7 +6707,6 @@
 "arena_lumberyard_event_red_buffed"		"红队的最后一个玩家已获得增益效果！"
 "arena_lumberyard_event_skeleton"		"骷髅王已经随机生成！"
 "arena_lumberyard_event_heal"			"FF69B4你已阵亡！FBECCB作为FF69B4幽灵FBECCB来为队友提供治疗！"
-"arena_lumberyard_event_spell"			"FBECCBA FF69B4稀有魔咒FBECCB正在随机位置上生成！"
 "ctf_crasher_objective"					"护送你们的巨人向敌方大门进击！"
 "ctf_crasher_giant_down"				"我方巨人已经倒下，炸弹正在重新部署！"
 "ctf_crasher_new_giant"					"我方的新巨人登场了！"
@@ -6864,6 +6954,21 @@
 "arena_afterlife_spawn"					"你已死亡！通过击杀或助攻来窃取灵魂，然后逃出地狱！"
 "arena_afterlife_pickup"				"你成功偷取了一个灵魂！把它送到祭坛上来复活你自己！"
 "arena_afterlife_soulless"				"你需要获得一个灵魂才能复活！去获得一个击杀或助攻再回来！"
+"arena_afterlife_lastman"				"你是最后一个存活的玩家！敌人可以直接透视你的位置！"
+"arena_afterlife_pitysoul_spawn"		"FBECCB有一个 A3FBA5孤魂 FBECCB被落在了地狱的某处！"
+"arena_afterlife_nofb_small_teams"		"E7B53B发现存在组队情况。已禁用第一滴血奖励。"
+"arena_afterlife_nofb_disabled"			"E7B53B服务器设置已禁用第一滴血奖励。"
+"cp_cowerhouse_open_soon"				"地下裂谷的大门即将开启！"
+"cp_cowerhouse_close_soon"				"地下裂谷的大门即将关闭！"
+"cp_cowerhouse_closed"					"地下裂谷的大门已经关闭！"
+"cp_cowerhouse_open"					"地下裂谷的后方大门已经开启！"
+"cp_cowerhouse_blu_open"				"蓝队全部的地下裂谷大门均已开启！"
+"cp_cowerhouse_cave_open"				"地下裂谷的洞穴大门已经开启！"
+"cp_cowerhouse_red_open"				"红队全部的地下裂谷大门均已开启！"
+"cp_cowerhouse_timer_reset"				"地下裂谷大门的倒计时已经重置！"
+"sd_marshlands_hold_3min"				"持有公文包累计达 3 分钟方可获胜！"
+"sd_marshlands_barriers"				"不要越过魔法结界，否则公文包会归回原位！"
+
 // Win panel strings
 "Winpanel_Team1"			"团队"
 "Winpanel_Team2"			"团队"
@@ -7410,7 +7515,7 @@
 "Tip_3_19"				"作为士兵，平底煎锅和铁锹造成的伤害值完全相等，但声响更大。当你想保持隐蔽时，不要选择它，它那清脆的声音很容易暴露你的位置。"
 "Tip_3_20"				"作为士兵，用指挥官的军鞭打队友可以在几秒钟内大幅提升自己和队友的移动速度。用它来鞭打那些走得较慢的兵种，如士兵和机枪手，以快速抵达前线。"
 "Tip_3_21"				"作为士兵，按下 %attack2% 可以激活绞牛机 5000 的蓄力攻击，造成更高的伤害并使敌人暂时着火。但注意，一次蓄力攻击就会完全消耗已装入的弹药。"
-"Tip_3_22"				"作为士兵，踏步靴能显著地减小敌人武器对你的击退作用。用它来防止你自己被自然之力、爆炸伤害或步哨枪等击退。"
+"Tip_3_22"				"作为士兵，踏步靴能显著地减小敌人武器对你的击退作用。用它来防止你自己被自然之力、爆炸伤害或步哨枪造成击退。"
 "Tip_3_23"				"作为士兵，务必要注意黑匣子一次只能装填三发火箭。尽量打准，否则会给敌人留下反击的机会。"
 "Tip_3_24"				"作为士兵，以火箭跳迅速接近敌人，然后用市场花园铁锹，在落地前一瞬间解决敌人。"
 "Tip_3_25"				"作为士兵，如果敌方火焰兵反弹你的火箭，可以考虑使用霰弹枪对付他们。"
@@ -7645,6 +7750,7 @@
 "TF_ClassRecord_Alt_MostDominations"	"控制次数"
 "TF_ClassRecord_Alt_LongestLife"		"生存时间"
 "TF_ClassRecord_Alt_MostHealing"		"治疗量"
+"TF_ClassRecord_Alt_MostInvulns"		"Uber 激活次数"
 "TF_ClassRecord_Alt_MostSentryKills"	"步哨杀敌数"
 "TF_ClassRecord_Alt_MostTeleports"		"传送次数"
 "TF_ClassRecord_Alt_MostHeadshots"		"爆头数"
@@ -8358,7 +8464,7 @@
 "TF_SCOUT_DODGE_DAMAGE_NAME"		"狡猾闪躲"
 "TF_SCOUT_DODGE_DAMAGE_DESC"		"用原子能饮料在一次生命中抵消 1000 点伤害。"
 "TF_SCOUT_KNOCK_INTO_TRAIN_NAME"	"秋季经典"
-"TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"使用“自然之力”的击退功能制造自然死亡或自杀。"
+"TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"利用“自然之力”的击退功能达成一次环境致死或自杀。"
 "TF_SCOUT_KILL_STUNNED_NAME"		"好球区"
 "TF_SCOUT_KILL_STUNNED_DESC"		"杀死或助攻 50 个被击昏或减速的敌人。"
 "TF_SCOUT_STUN_INTO_TRAIN_NAME"		"界外区"
@@ -9548,6 +9654,7 @@
 "LimitedQualityDesc" "限量"
 
 "KillEaterEventType_Kills"		"杀敌数"
+"KillEaterEventType_Ubers"		"Uber 激活数"
 "KillEaterEventType_KillAssists"	"助攻数"
 "KillEaterEventType_SentryKills"	"步哨杀敌数"
 "KillEaterEventType_PeeVictims"	"羞辱人数"
@@ -10075,6 +10182,17 @@
 "TF_StrangeFilter_CommunityMapDemolition_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Demolition 中发生的事件。"
 "TF_StrangeFilter_CommunityMapPressure"				"奇异过滤器：Pressure（社区）"
 "TF_StrangeFilter_CommunityMapPressure_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Pressure 中发生的事件。"
+"TF_StrangeFilter_CommunityMapCowerhouse"			"奇异过滤器：Cowerhouse（社区）"
+"TF_StrangeFilter_CommunityMapCowerhouse_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Cowerhouse 中发生的事件。"
+"TF_StrangeFilter_CommunityMapDusker"				"奇异过滤器：Dusker（社区）"
+"TF_StrangeFilter_CommunityMapDusker_Desc"			"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Dusker 中发生的事件。"
+"TF_StrangeFilter_CommunityMapAfterlife"			"奇异过滤器：Afterlife（社区）"
+"TF_StrangeFilter_CommunityMapAfterlife_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Afterlife 中发生的事件。"
+"TF_StrangeFilter_CommunityMapDevilcross"			"奇异过滤器：Devilcross（社区）"
+"TF_StrangeFilter_CommunityMapDevilcross_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Devilcross 中发生的事件。"
+"TF_StrangeFilter_CommunityMapMarshlands"			"奇异过滤器：Marshlands（社区）"
+"TF_StrangeFilter_CommunityMapMarshlands_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 Marshlands 中发生的事件。"
+
 "TF_StrangeFilter_Map2fort"				"奇异过滤器：2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"将此奇异过滤器添加到奇异品质物品并选择其跟踪的某项统计数据后，该统计数据将仅限于记录在地图 2Fort 中发生的事件。"
 "TF_StrangeFilter_MapDustbowl"				"奇异过滤器：Dustbowl"
@@ -10213,6 +10331,7 @@
 "SpiritOfGivingRank15"        "云行雨施"
 "SpiritOfGivingRank16"        "鞠躬尽瘁"
 "SpiritOfGivingRank17"        "厚德载物"
+"SpiritOfGivingRank18"        "雷锋再世"
 "SpiritOfGivingRank19"        "雷锋御用"
 
 "KillEater_HolidayPunchRank0"			"疏若陌路"
@@ -11382,6 +11501,10 @@
 "halloween2025_collection_key"			"惊魂秘藏钥匙"
 "halloween2025_collection_key_desc"		"用于开启惊魂秘藏石匣"
 "halloween2025_collection_key_adtext"	"-用于开启惊魂秘藏石匣\n-内含物品可能具有奇异品质，其中的帽子可能具有稀有品质。"
+"halloween2025_collection_case_footer"	"内含物品可能具有奇异品质，其中的帽子可能具有稀有品质及 2025 年万圣节特效"
+
+"halloween2025_event_footer"			"在尖叫要塞活动期间，获得的稀有物品全都会拥有 2025 年万圣节特效"
+
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -11892,9 +12015,8 @@
 "Attrib_Unlimited"						"无限使用"
 "Attrib_UberDurationBonus"				"Ubercharge 持续时间增加 %s1 秒"
 "Attrib_RefillAmmo"						"可消耗：瞬间装满弹匣和后备弹药"
-"Attrib_FastReload"						"+%s1% 装填速度"
 "Attrib_BuffTime_Increased"				"增益持续时间 +%s1%"
-"Attrib_BuildRateBonus"					"+%s1% 修建速度"
+"Attrib_BuildRateBonus"					"建造速度 +%s1%"
 "Attrib_AttackProjectiles"				"子弹可以击落飞行中的火箭和榴弹。每次升级提升精准度和击落频率。"
 "Attrib_AccurScalesDmg"					"精准度决定伤害值"
 "Attrib_CurrencyBonus"					"拾取获得的金钱数目 +%s1%"
@@ -12539,6 +12661,7 @@
 "Attrib_Particle345"			"超负荷"
 "Attrib_Particle346"			"蝴蝶热季"
 "Attrib_Particle347"			"蝴蝶热季"
+"Attrib_Particle348"			"精神迷幻"
 "Attrib_Particle349"			"迷人飞虫"
 
 // Halloween 2024 Unusual
@@ -12578,8 +12701,20 @@
 "Attrib_Particle379"			"超量充能"
 "Attrib_Particle380"			"脑洞大开"
 "Attrib_Particle381"			"风卷残云"
+
+// Halloween 2025 Unusual
+"Attrib_Particle382"			"大洋漩涡"
+"Attrib_Particle383"			"大洋漩涡"
+"Attrib_Particle384"			"剧毒漩涡"
 "Attrib_Particle385"			"摇曳烛火"
 "Attrib_Particle386"			"摇曳烛火"
+"Attrib_Particle387"			"滋油喷香"
+"Attrib_Particle388"			"滋油喷香"
+"Attrib_Particle389"			"毒液迷臭"
+"Attrib_Particle390"			"电流导体"
+"Attrib_Particle391"			"电流导体"
+"Attrib_Particle392"			"灰头土脸"
+
 // Weapon Unusual
 "Attrib_Particle701"			"炽热发烟"
 "Attrib_Particle702"			"绿色辐射"
@@ -12705,6 +12840,9 @@
 "Attrib_Particle3121"		"粉色幻境"
 "Attrib_Particle3122"		"粉色幻境"
 "Attrib_Particle3123"		"野花草甸"
+
+// Halloween 2023 Unusual Taunts
+"Attrib_Particle3124"		"深海吞噬"
 "Attrib_Particle3125"		"克式恐怖"
 "Attrib_Particle3126"		"秋风落叶"
 "Attrib_Particle3127"		"亡者派对"
@@ -12793,6 +12931,19 @@
 "Attrib_Particle3200"		"信号丢失"
 "Attrib_Particle3201"		"盛夏波澜"
 "Attrib_Particle3202"		"鲨鱼袭击"
+
+// Halloween 2025 Unusual Taunts
+"Attrib_Particle3203"		"致命毒气"
+"Attrib_Particle3204"		"妖风四起"
+"Attrib_Particle3205"		"鬼影重重"
+"Attrib_Particle3206"		"恶意撕裂"
+"Attrib_Particle3207"		"恶意撕裂"
+"Attrib_Particle3208"		"虚空爬物"
+"Attrib_Particle3209"		"化石燃料"
+"Attrib_Particle3210"		"焦油深坑"
+"Attrib_Particle3211"		"病态恶兽"
+"Attrib_Particle3212"		"病态恶兽"
+
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"连杀者特效：%s1"
@@ -16742,6 +16893,7 @@
 "TF_TauntSniperISeeYou_Desc"	"狙击手嘲讽"
 "TF_TauntSoldierCoffee"		"嘲讽：先干为敬"
 "TF_TauntSoldierCoffee_Desc"	"士兵嘲讽"
+"TF_TauntSpyBuyALife"		"嘲讽：强者的施舍"
 "TF_TauntSpyBuyALife_Desc"	"间谍嘲讽"
 "TF_Taunt_Tank"				"嘲讽：装甲之裤"
 "TF_Taunt_Tank_Desc"		"士兵嘲讽\n\n按下嘲讽键来进入或退出状态\n按下主要攻击键以展示特殊动作\n使用左右平移键在行进中转向"
@@ -17487,6 +17639,7 @@
 "TF_short2014_chronoscarf"		"时空围巾" // ADD THE
 "TF_short2014_chemists_pride"		"绝命毒工" // ADD THE
 "TF_short2014_badlands_wanderer"		"边疆正义" // ADD THE
+"TF_short2014_vintage_director"		"法兰西万岁"
 "TF_short2014_scopers_smoke"		"烟枪狙击手" // ADD THE
 "TF_short2014_sniper_cargo_pants"		"射手的战术长裤" // ADD THE
 
@@ -17985,7 +18138,11 @@
 "TF_taunt_heartbreaker_Desc"				"社区创作的医生嘲讽"
 "TF_taunt_heartbreaker_AdText"				"-社区创作的医生嘲讽"
 "TF_taunt_healthcarehog"					"嘲讽：有药不给拿"
+"TF_taunt_healthcarehog_Desc"				"社区创作的侦察兵嘲讽"
+"TF_taunt_healthcarehog_AdText"				"-社区创作的侦察兵嘲讽"
 "TF_taunt_ring_king"						"嘲讽：王者金腰带"
+"TF_taunt_ring_king_Desc"					"社区创作的机枪手嘲讽"
+"TF_taunt_ring_king_AdText"					"-社区创作的机枪手嘲讽"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"呼吸头袋"	// ADD THE
@@ -18165,6 +18322,7 @@
 "TF_fall17_vitals_vest_Desc"	" "
 "TF_fall17_battle_boonie"	"军医布尼帽"
 "TF_fall17_battle_boonie_Desc"	" "
+"TF_fall17_conaghers_utility_idol"	"工程之神的塑像"
 "TF_fall17_conaghers_utility_idol_Desc"	" "
 "TF_fall17_tropical_toad"	"热带蟾蜍"
 "TF_fall17_tropical_toad_Desc"	" "
@@ -18858,6 +19016,7 @@
 "TF_hwn2023_clowns_coverup"				"小丑化身"
 "TF_hwn2023_clowns_coverup_Style0"			"摘下帽子"
 "TF_hwn2023_clowns_coverup_Style1"			"戴上帽子"
+"TF_hwn2023_shortness_breath"			"绝息面具"
 "TF_hwn2023_shortness_breath_Style0"		"无头盔"
 "TF_hwn2023_shortness_breath_Style1"		"有头盔"
 "TF_hwn2023_warlocks_warcloak"			"战巫战袍"
@@ -18962,6 +19121,7 @@
 "TF_dec23_masked_loyalty"				"效忠者的面罩"
 "TF_dec23_impact_impaler"				"冲击刺盔"
 "TF_dec23_torchers_trench_coat"			"火炬手的堑壕风衣"
+"TF_dec23_balkans_brute"				"巴尔干蛮族"
 "TF_dec23_bigger_mann"					"校园巨咖"
 "TF_dec23_isotopic_insulator"			"同位素绝缘衣"
 "TF_dec23_bonk_beanie"					"原子能滑雪帽"
@@ -19146,6 +19306,7 @@
 "TF_sum25_frogmanns"					"蛙人潜水套件"
 "TF_sum25_oxygen"						"氧气供给装置"
 "TF_sum25_short_fuse"					"暴脾气小帽"
+"TF_sum25_blindin"						"掩目剃刀帽"
 "TF_sum25_blindin_style1"					"有胡须"
 "TF_sum25_blindin_style2"					"无胡须"
 "TF_sum25_shady"						"西装暴徒"
@@ -19172,14 +19333,40 @@
 "TF_sum25_shadow_doubt_style2"				"不吸烟"
 "TF_sum25_clinical"						"临床调查员"
 
+"TF_hwn2025_heat_shield"				"隔热面罩"
+"TF_hwn2025_heat_shield_style1"				"样式 1"
+"TF_hwn2025_heat_shield_style2"				"样式 2"
+"TF_hwn2025_heat_shield_style3"				"样式 3"
+"TF_hwn2025_heat_shield_style4"				"样式 4"
+"TF_hwn2025_technicians_tunic"			"技术员的制服"
+"TF_hwn2025_technicians_tunic_style1"		"样式 1"
+"TF_hwn2025_technicians_tunic_style2"		"样式 2"
+"TF_hwn2025_service_satchel"			"维护小工具"
 "TF_hwn2025_cigarillo"					"叼雪茄的绅士"
 "TF_hwn2025_cigarillo_style1"				"有围巾"
 "TF_hwn2025_cigarillo_style2"				"无围巾"
 "TF_hwn2025_el_gigantes"				"巨汉的武装挂袋"
+"TF_hwn2025_el_gigantes_style1"				"有腰带"
+"TF_hwn2025_el_gigantes_style2"				"无腰带"
 "TF_hwn2025_poncho"						"厚重披风"
+"TF_hwn2025_poncho_style1"					"有子弹"
 "TF_hwn2025_poncho_style2"					"无子弹"
+"TF_hwn2025_air_exchanger"				"新风换气面罩"
+"TF_hwn2025_industrial"					"工业叛乱者"
+"TF_hwn2025_industrial_style1"				"核武器"
+"TF_hwn2025_industrial_style2"				"纵火犯"
+"TF_hwn2025_hellscape"					"狱火石骸"
 "TF_hwn2025_fused_plates"				"易爆板甲"
 "TF_hwn2025_feathered_fiend"			"仇敌的夹羽帽"
+"TF_hwn2025_feathered_fiend_style1"			"邪恶"
+"TF_hwn2025_feathered_fiend_style2"			"浓密小胡须"
+"TF_hwn2025_feathered_fiend_style3"			"圆滑"
+"TF_hwn2025_velveteen"					"反派的仿鹅绒大衣"
+"TF_hwn2025_velveteen_style1"				"穿戴整齐"
+"TF_hwn2025_velveteen_style2"				"只留马甲"
+"TF_hwn2025_velveteen_style3"				"只留衬衫"
+"TF_hwn2025_pantaloons"					"无耻行径"
+"TF_hwn2025_pantaloons_style1"				"有子弹"
 "TF_hwn2025_pantaloons_style2"				"无子弹"
 "TF_hwn2025_buzz_kill"					"扫兴鬼"
 "TF_hwn2025_buzz_kill_style1"				"罪大恶极"
@@ -19188,6 +19375,17 @@
 "TF_hwn2025_torn_terror_style1"				"生性好斗"
 "TF_hwn2025_torn_terror_style2"				"天生颓废"
 "TF_hwn2025_ripped_runts"				"犟牛破洞裤"
+"TF_hwn2025_seamanns"					"水手的络腮胡"
+"TF_hwn2025_seamanns_style1"				"烟斗"
+"TF_hwn2025_seamanns_style2"				"雪茄"
+"TF_hwn2025_misdirector"				"误导艺术" // ADD THE
+"TF_hwn2025_misdirector_style1"				"帽带染色"
+"TF_hwn2025_misdirector_style2"				"胡须染色"
+"TF_hwn2025_misdirector_style3"				"无胡须"
+"TF_hwn2025_sleight_hand"				"魔术妙妙手"
+"TF_hwn2025_sleight_hand_style1"			"光彩照人"
+"TF_hwn2025_sleight_hand_style2"			"衣冠楚楚"
+"TF_hwn2025_vanishing_act"				"大变活人"
 "TF_hwn2025_professor_photon"			"光子教授"
 "TF_hwn2025_professor_photon_style1"		"钢铁工业"
 "TF_hwn2025_professor_photon_style2"		"钢铁工业 - 无胡须"
@@ -19195,10 +19393,19 @@
 "TF_hwn2025_professor_photon_style4"		"蒸汽动力 - 无胡须"
 "TF_hwn2025_mad_drip"					"狂妄之人"
 "TF_hwn2025_mad_drip_style1"				"钢铁工业"
+"TF_hwn2025_mad_drip_style2"				"钢铁工业 - 无 PDA"
 "TF_hwn2025_mad_drip_style3"				"蒸汽动力"
+"TF_hwn2025_mad_drip_style4"				"蒸汽动力 - 无 PDA"
 "TF_hwn2025_viscer_visor"				"破脏护脸罩"
+"TF_hwn2025_viscer_visor_style1"			"血污"
+"TF_hwn2025_viscer_visor_style2"			"洁净"
 "TF_hwn2025_pyromantic_plumage"			"浴火金羽"
 "TF_hwn2025_one_man_convoy"				"一人成军"
+"TF_hwn2025_one_man_convoy_style1"			"目镜染色"
+"TF_hwn2025_one_man_convoy_style2"			"头盔染色"
+"TF_hwn2025_face_lift"					"人皮面具"
+"TF_hwn2025_zepheniahs_shroud"			"泽老的裹尸床单"
+
 "TF_style_bullets"						"有子弹"
 "TF_style_nobullets"					"无子弹"
 
@@ -19614,7 +19821,7 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 马拉莫斯出现时，控制点将恢复中立。"
 
 "plr_hightower_event_description"	"目标：
-帮助布鲁塔克或雷德蒙德·曼恩的鬼魂一举赢得碎石战争！抢在对手之前将战车上老家伙的遗体推入地狱。收集并施放致命的魔咒。站在战车附近使其移动。
+帮助布鲁塔克.曼恩或雷德蒙德.曼恩的鬼魂一举赢得碎石战争！抢在对手之前将战车上老家伙的遗体推入地狱。收集并施放致命的魔咒。站在战车附近使其移动。
 
 其他说明：
 敌人可以通过接近战车阻止其移动。"
@@ -19677,7 +19884,7 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 "pl_fifthcurve_event_description"			"万圣节快乐！
 
 目标：
-蓝队：把雷德蒙德·曼恩的遗体投入地狱火坑！
+蓝队：把雷德蒙德.曼恩的遗体投入地狱火坑！
 红队：阻止蓝队，抢回老板的遗体！"
 
 "pd_pit_of_death_event_description"			"目标：
@@ -19738,10 +19945,10 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 每支队伍中尸块桶数最多的玩家会给附近的队友提供生命值和弹药，而他们的位置也会暴露给敌人。"
 
 "pd_cursed_cove_event_description"			"目标：
-从阵亡的敌人手中夺取灵魂并将灵魂存放至海底深渊中，以此获取分数并夺得胜利。戴维·琼斯的船会定期在地图上穿行。双方队伍中所持灵魂数最多的玩家能够为附近的队友补给生命值与弹药。
+从阵亡的敌人手中夺取灵魂并将灵魂存放至海底深渊的沉船中，以此获取分数并夺得胜利。戴维.琼斯的船会定期在地图上穿行。双方队伍中所持灵魂数最多的玩家能够为附近的队友补给生命值与弹药。
 
 其它说明：
-你可以敌人尝试存放灵魂时跳入海底深渊所在区域，以阻止敌人存放灵魂。"
+你可以在敌人尝试存放灵魂时跳入沉船区域，以阻止敌人存放灵魂。"
 
 "koth_slasher_description"			"目标：
 占领控制点并保卫它，直到你方计时器归零。
@@ -19787,8 +19994,8 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 敌人可以通过接近战车阻止其移动。"
 
 "default_vsh_description"						"目标：
-作为雇佣兵，击败萨克斯顿·霍尔。
-作为萨克斯顿·霍尔，除掉那些麻烦的雇佣兵。
+作为雇佣兵，击败萨克斯顿.霍尔。
+作为萨克斯顿.霍尔，除掉那些麻烦的雇佣兵。
 
 其他说明：
 雇佣兵可以使用近战武器击中墙壁从而进行爬墙。"
@@ -19879,8 +20086,20 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 不要在携带着公文包时越过魔法结界，否则公文包会直接消失，并恢复到初始的中立位置！"
 
+"cp_cowerhouse_description"			"目标：
+要获胜，每个队伍必须拥有全部三个控制点。
+
+其他说明：
+每个基地内都有通往地下裂谷的限时路线。两队的后方入口都会按时固定开启，占领了中央控制点的队伍会额外开启另一个单向入口！在裂谷内可以顺着瀑布冲向中央控制点！"
+
+"arena_afterlife_description"			"目标：
+你的队伍必须消灭对方队伍中的所有玩家或者成功占领控制点才能获胜。
+
+其他说明：
+已死亡的玩家会被送往地狱继续战斗。在地狱中获得击杀或助攻后，玩家可以夺走死者的灵魂，并将其送到祭坛上完成复活。"
+
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"爆击药水"
-"TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Übercharge 药水"
+"TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"无敌药水"
 "TF_hwn2024_Freaky_Fair_Giant_Potion"    			"巨人药水"
 "TF_hwn2024_Freaky_Fair_Buster_Potion"    	    	"南瓜毁灭者药水"
 "TF_hwn2024_Freaky_Fair_Healing_Potion"    			"治疗药水"
@@ -19981,6 +20200,9 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 "TF_DataCenter_bt2"				"测试 2"
 "TF_DataCenter_dum"				"Dumm1"
 "TF_DataCenter_beta"			"测试"
+"TF_DataCenter_hel"             "芬兰赫尔辛基"
+"TF_DataCenter_fsn"             "德国法尔肯斯坦"
+
 "TF_CaseExclusiveBonusItems"				"此箱专属的额外奖励物品："
 "TF_CaseGlobalUnusualEffects"			"此箱共享的稀有特效"
 "TF_CaseGlobalBonusItems"				"此箱共享的额外奖励物品"
@@ -20048,11 +20270,11 @@ E) - 蓝队在任何时候占领它，都会直接胜利
 
 "arena_perks_message_tie"		"打成平手！"
 
-"TF_IM_VSH_Intro"				"准备好大战萨克斯顿·霍尔！"
-"TF_IM_VSH_RandomTeam"			"回合开始时，会有一名玩家被选为萨克斯顿·霍尔"
+"TF_IM_VSH_Intro"				"准备与萨克斯顿.霍尔决一死战！"
+"TF_IM_VSH_RandomTeam"			"回合开始时，将会有一名玩家被选为萨克斯顿.霍尔"
 "TF_IM_VSH_ToWin1"				"若要取胜，你必须消灭敌方队伍……"
 "TF_IM_VSH_ToWin2"				"...或夺取当局时间内激活的控制点"
-"TF_IM_VSH_Notes1"				"萨克斯顿·霍尔拥有各种特殊能力来击败雇佣兵们"
+"TF_IM_VSH_Notes1"				"萨克斯顿.霍尔拥有各种可以用来击败雇佣兵的特殊能力"
 "TF_IM_VSH_Notes2"				"没有重生机会，所以最好别死了！"
 
 "TF_SDK_LocalLoadout"               "对配置所做的任何更改均为针对此模组的本地更改。"

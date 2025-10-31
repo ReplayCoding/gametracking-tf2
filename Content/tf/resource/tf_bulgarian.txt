@@ -814,6 +814,7 @@
 "TF_TournamentMedal_UGCHL_3rd"						"UGC Highlander — III място"
 "TF_TournamentMedal_UGCHL_Premium_Participant"		"UGC Highlander Premium — Участник"
 "TF_TournamentMedal_UGCHL_Admin"					"UGC лига — Сътрудник и администратор"
+"TF_TournamentMedal_UGC6v6_Participant"				"UGC 6 срещу 6 — Участник"
 "TF_TournamentMedal_UGC6v6_Platinum_1st"			"UGC 6 срещу 6 платина — I място"
 "TF_TournamentMedal_UGC6v6_Platinum_2nd"			"UGC 6 срещу 6 платина — II място"
 "TF_TournamentMedal_UGC6v6_Platinum_3rd"			"UGC 6 срещу 6 платина — III място"
@@ -832,6 +833,10 @@
 "TF_TournamentMedal_UGC6v6_Steel_Participant"		"UGC 6 срещу 6 стомана — Участник"
 "TF_TournamentMedal_UGC6v6_Iron_Participant"		"UGC 6 срещу 6 желязо — Участник"
 "TF_TournamentMedal_UGC6v6_European_Participant"	"UGC 6 срещу 6 Европа — Участник"
+"TF_TournamentMedal_UGC4v4_Platinum_1st"			"UGC 4 срещу 4 платина — I място"
+"TF_TournamentMedal_UGC4v4_Platinum_2nd"			"UGC 4 срещу 4 платина — II място"
+"TF_TournamentMedal_UGC4v4_Platinum_3rd"			"UGC 4 срещу 4 платина — III място"
+"TF_TournamentMedal_UGC4v4_Platinum_Participant"	"UGC 4 срещу 4 платина — Участник"
 "TF_TournamentMedal_UGC4v4_Gold_1st"				"UGC 4 срещу 4 злато — I място"
 "TF_TournamentMedal_UGC4v4_Gold_2nd"				"UGC 4 срещу 4 злато — II място"
 "TF_TournamentMedal_UGC4v4_Gold_3rd"				"UGC 4 срещу 4 злато — III място"
@@ -845,6 +850,7 @@
 "TF_TournamentMedal_UGC4v4_Steel_3rd"				"UGC 4 срещу 4 стомана — III място"
 "TF_TournamentMedal_UGC4v4_Steel_Participant"		"UGC 4 срещу 4 стомана — Участник"
 "TF_TournamentMedal_UGC4v4_Iron_Participant"		"UGC 4 срещу 4 желязо — Участник"
+"TF_TournamentMedal_UGC4v4_Participant"				"UGC 4 срещу 4 — Участник"
 "TF_TournamentMedal_UGCUltiduo_Platinum_1st"			"UGC Ultiduo Platinum — I място"
 "TF_TournamentMedal_UGCUltiduo_Platinum_2nd"			"UGC Ultiduo Platinum — II място"
 "TF_TournamentMedal_UGCUltiduo_Platinum_3rd"			"UGC Ultiduo Platinum — III място"
@@ -853,6 +859,7 @@
 "TF_TournamentMedal_UGCUltiduo_Steel_2nd"				"UGC Ultiduo Steel — II място"
 "TF_TournamentMedal_UGCUltiduo_Steel_3rd"				"UGC Ultiduo Steel — III място"
 "TF_TournamentMedal_UGCUltiduo_Steel_Participant"		"UGC Ultiduo Steel — участник"
+"TF_TournamentMedal_UGCUltiduo_Participant"				"UGC Ultiduo — Участник"
 "TF_TournamentMedal_UGCHL_League_Admin"				"UGC League — Админ. и сътрудник"
 
 "TF_TournamentMedal_Winners_Desc"		"Дадено на победителите!"
@@ -1511,6 +1518,11 @@
 "TF_TournamentMedal_FBTF2_4v4_Open_2nd"						"FBTF 4 срещу 4 отворена категория — II място"
 "TF_TournamentMedal_FBTF2_4v4_Open_3rd"						"FBTF 4 срещу 4 отворена категория — III място"
 "TF_TournamentMedal_FBTF2_4v4_Open_Participant"				"FBTF 4 срещу 4 отворена категория — Участник"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_1st"					"FBTF 4 срещу 4 PASS Time — I място"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_2nd"					"FBTF 4 срещу 4 PASS Time — II място"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_3rd"					"FBTF 4 срещу 4 PASS Time — III място"
+"TF_TournamentMedal_FBTF2_4v4_PassTime_Participant"			"FBTF 4 срещу 4 PASS Time — Участник"
+
 "TF_TournamentMedal_Chapelaria_6v6_1st"						"Chapelaria 6 срещу 6 — I място"
 "TF_TournamentMedal_Chapelaria_6v6_2nd"						"Chapelaria 6 срещу 6 — II място"
 "TF_TournamentMedal_Chapelaria_6v6_3rd"						"Chapelaria 6 срещу 6 — III място"
@@ -2409,6 +2421,7 @@
 
 "TF_TournamentMedal_Canteen_Crasher_Platinum"			"Платинен критичен удар | Грохот на манерки 2018"
 "TF_TournamentMedal_Canteen_Crasher_Platinum_Desc"		"Доказали сте, че изпъквате при мигновеното решаване на проблеми! Добра работа, наемнико! Връчвано на участници в хибридния МсМ конкурс за МсМ сървърите на Potato!"
+"TF_TournamentMedal_Canteen_Crasher_Gold"				"Златен убер | Грохот на манерки 2018"
 "TF_TournamentMedal_Canteen_Crasher_Gold_Desc"			"Когато ситуацията загрубее, потърсете безсмъртие от най-близкия търговец на дребно! Връчвано на участници в хибридния МсМ конкурс за МсМ сървърите на Potato!"
 "TF_TournamentMedal_Canteen_Crasher_Silver"				"Сребърно съоръжение | Грохот на манерки 2018"
 "TF_TournamentMedal_Canteen_Crasher_Silver_Desc"		"Тази кутия за гаечен ключ има брояч и вибрационна функция за най-доброто преживяване при разрушаване на сензорни картечници! Връчвано на участници в хибридния МсМ конкурс за МсМ сървърите на Potato!"
@@ -2655,7 +2668,6 @@
 "TF_TournamentMedal_UDL_Bronze_Winter2023"		"Връчвано на играчите, които са се класирали трети в United Dodgeball лига — зимна купа 2023"
 "TF_TournamentMedal_UDL_Participant_Winter2023"	"Връчвано на участниците от United Dodgeball лига — зимна купа 2023"
 "TF_TournamentMedal_UDL_Supporter_Winter2023"	"Връчвано на ценни сътрудници от United Dodgeball лига — зимна купа 2023"
-
 "TF_TournamentMedal_ESEA_6s_first"			"ESEA 6s — I място (с покана)"
 "TF_TournamentMedal_ESEA_6s_second"			"ESEA 6s — II място (с покана)"
 "TF_TournamentMedal_ESEA_6s_third"			"ESEA 6s — III място (с покана)"
@@ -2760,7 +2772,6 @@
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Third"				"Brazil Fortress Halloween — Зловещата група — Трето място"
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Participant"			"Brasil Fortress Halloween — Зловещата група — Участник"
 "TF_TournamentMedal_BrazilFortress_Hwn_Helper"						"Brasil Fortress Halloween — Помощник"
-
 "TF_TournamentMedal_SacredScouts_6v6_Gold"			"Sacred Scouts 6 срещу 6 — Златен медал"
 "TF_TournamentMedal_SacredScouts_6v6_Silver"		"Sacred Scouts 6 срещу 6 — Сребърен медал"
 "TF_TournamentMedal_SacredScouts_6v6_Bronze"		"Sacred Scouts 6 срещу 6 — Бронзов медал"
@@ -3188,7 +3199,14 @@
 "TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf EU 2 с/у 2 отворена категория — III място"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf EU 2 с/у 2 отворена категория — Участник"
 "TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf EU 2 с/у 2 — Помощник"
-
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Gold"					"MGE.tf СА 2 с/у 2 категория с покани — I място"
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Silver"				"MGE.tf СА 2 с/у 2 категория с покани — II място"
+"TF_TournamentMedal_MGE_NA_2v2_Invite_Bronze"				"MGE.tf СА 2 с/у 2 категория с покани — III място"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Gold"					"MGE.tf СА 2 с/у 2 отворена категория — I място"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Silver"					"MGE.tf СА 2 с/у 2 отворена категория — II място"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Bronze"					"MGE.tf СА 2 с/у 2 отворена категория — III място"
+"TF_TournamentMedal_MGE_NA_2v2_Open_Participant"			"MGE.tf СА 2 с/у 2 отворена категория — Участник"
+"TF_TournamentMedal_MGE_NA_2v2_Helper"						"MGE.tf СА 2 с/у 2 — Помощник"
 "TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1 с/у 1 световен шампионат — I място"
 "TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1 с/у 1 световен шампионат — II място"
 "TF_TournamentMedal_MGE_1v1_World_Bronze"			"MGE.tf 1 с/у 1 световен шампионат — III място"
@@ -3539,6 +3557,7 @@
 "TF_Wearable_Tunic"					"Туника"
 "TF_Wearable_Wetsuit"				"Неопренов костюм"
 "TF_Wearable_Sombrero"				"Сомбреро"
+"TF_Wearable_Bullets"				"Декоративни куршуми"
 "TF_Wearable_LavaHead"				"Глава от лава"
 "TF_Wearable_Visor"					"Визьор"
 
@@ -3881,6 +3900,7 @@
 "TF_Bundle_WarWednesday_Desc"			"Заредете се с тези артикули на армейска тематика за Войника:"
 "TF_Bundle_MeetTheMedic"			"Комплект „Запознайте се с Медика!“"
 "TF_Bundle_MeetTheMedic_Desc"			"Заредете се с тези артикули, отбелязващи видеото „Запознайте се с Медика“:"
+"TF_Bundle_Uber"				"Комплект „Убер обновлението“"
 "TF_Bundle_Summer2011"				"Комплект „Лятно слънце“"
 "TF_Bundle_Summer2011_Desc"			"Идеалният набор от артикули, с който да се насладите на слънчевата топлина:"
 
@@ -4174,7 +4194,7 @@
 "TF_TW_Sniper_Hat"			"Снайперисткият висок кивер" // ADD THE
 "TF_TW_Sniper_Hat_Desc"			"Тази шапка е перфектна за снайпериста, който обича да се крие в сенките, а след това изненадващо изскача от там и повеждайки някой парад."
 "TF_TW_Medic_Coat"			"Наконтеният лекар" // ADD THE
-"TF_TW_Medic_Coat_Desc"			"Независимо от това дали извършвате черепна трепанация, за да освободите духовете на болестта, прикрепяте толкова много пиявици по някой пациент, така че той да припадне от загубата на кръв или преди да отрежете някакъв съмнително изглеждащ крайник. Тази спретната надиплена риза и това палто ще убедят пациентите Ви, че са дошли на правилното място, за да получат ненормално опасната Ви медицина от XVIII век."
+"TF_TW_Medic_Coat_Desc"			"Независимо от това дали извършвате черепна трепанация, за да освободите духовете на болестта, прикрепяте толкова много пиявици по някой пациент, така че той да припадне от загубата на кръв или преди да отрежете някакъв съмнително изглеждащ крайник. Тази елегантно надиплена риза и това палто ще убедят пациентите Ви, че са дошли на правилното място, за да получат ненормално опасната Ви медицина от XVIII век."
 "TF_TW_Medic_Coat_Style1"		"Вратовръзка"
 "TF_TW_Medic_Coat_Style2"		"Пагони"
 "TF_TW_Spy_Coat"			"Изисканият измамник" // ADD THE
@@ -4422,7 +4442,7 @@
 "TF_HeavyUmbrella_Desc"		"Никога не може да сте прекалено внимателни,\nкогато има „Джарате“ наоколо."
 "TF_DemoStuntHelmet"		"Трезвеният каскадьор"
 "TF_DemoStuntHelmet_Desc"	"За любителите на скачането чрез лепкави бомби."
-"TF_Seuss"			"Спретнатият цилиндър на д-р Сюс"
+"TF_Seuss"			"Елегантният цилиндър на д-р Сюс"
 "TF_Seuss_Desc"			""
 "TF_PyroBeanie"			"Шапката на поспаланкото"
 "TF_PyroBeanie_Desc"		"След един дълъг ден от обгаряне на разузнавачи."
@@ -5428,10 +5448,6 @@
 "cp_hardwood_final_authors"		"Бен „Squishy“ Дауман\nЕмил Шарафеев\n„Faye“\n„Puinguin“\nЛиъм „Diva Dan“ Мофит\n„E-Arkham“\nРоман „FanCyy“ Малашкевич"
 "ctf_pelican_peak_authors"		"Крис „Another Bad Pun“ Уилиямс\nБека „phi“ Айлис\nДжеймс „chin“ Хейс\nЕрик „erk“ Браунинг\nЛиъм „Diva Dan“ Мофит\n„Stuffy360“\nАеон „Void“ Болиг\nНиколас „KrazyZark“ Фенек\nЕмил Шарафеев"
 "pd_selbyen_authors"			"Джоел „zythe_“ Моршер\nРафаел „Rhamkin“ Оливейра\nАлекс „FGD5“ Стюарт\nБенджамин „blaholtzen“ Блахолтц\nМатю „MegapiemanPHD“ Симънс\n„Lo-fi Longcat“"
-"vsh_tinyrock_authors"			"Джес „Muddy“ Дабс\n„Lizard of Oz“\nДжейсън „Yaki“ Херман\nСабо „Maxxy“ Атила\nМаксим „VellyVice“ Стрелцов\nДжеймс М.\nХоаким „JPRAS“ Силва\nМатю „MegapiemanPHD“ Симънс"
-"vsh_distillery_authors"		"„Phe“\n„Lizard Of Oz“\nСонома „Sono“ Брайър\nСабо „Maxxy“ Атила\nМатю „MegapiemanPHD“ Симънс\n„Stuffy360“\nДжейсън „Yaki“ Херман\nМаксим „VellyVice“ Стрелцов\nДжеймс М.\nХоаким „JPRAS“ Силва\nАеон „Void“ Болиг"
-"vsh_skirmish_authors"			"Джон „MilkMaster72“ Уордън\n„Lizard Of Oz“\nДжейсън „Yaki“ Херман\nСабо „Maxxy“ Атила\nХоаким „JPRAS“ Силва\nМатю „MegapiemanPHD“ Симънс\nДжеймс М.\nМаксим „VellyVice“ Стрелцов\nАеон „Void“ Болиг\nЛуи „bakscratch“ Търнър"
-"vsh_nucleus_authors"			"Джон „MilkMaster72“ Уордън\n„Lizard Of Oz“\nДжейсън „Yaki“ Херман\nСабо „Maxxy“ Атила\nХоаким „JPRAS“ Силва\nМатю „MegapiemanPHD“ Симънс\nДжеймс М.\nМаксим „VellyVice“ Стрелцов\nАеон „Void“ Болиг"
 "arena_perks_authors"			"Филип „Le Codex“ Льофевр\nЛиъм „Diva Dan“ Мофит\nДаниел „DJ“ Бенет\nСеб „Tianes“ Некула\nЕйс „Pont“ Киркхъм\n„E-Arkham“"
 "koth_slime_authors"			"Харлен „UEAKCrash“ Линке\n„Freyja“\nБенджамин „blaholtzen“ Блахолтц\nАл „Square“ Роджърс\nАлекс „FGD5“ Стюарт\n„Lizard of Oz“\nДжордан „hXX“ Льобланк\nСеб „Tianes“ Некула"
 "cp_lavapit_final_authors"		"„Stack Man“"
@@ -5469,14 +5485,12 @@
 "cp_freaky_fair_authors"		"Емил Шарафеев\nДжордж „I dinne ken“ Норман\nЛиъм „Diva Dan“ Мофит\nПатрик „Nat-Tea“ Наплава\nАеон „Void“ Болиг\n„Wilson“\n„Stuffy360“\n„Ranily“"
 "tow_dynamite_authors"			"Уил Алфред\nДжордан „Ismac“ Ла Роуз\n„Lizard of Oz“\n„Haau“\n„Aydan“\nНийл „Blade x64“ Смарт\nЛиъм „Diva Dan“ Мофит"
 "pd_circus_authors"				"Лиъм „Diva Dan“ Мофит\nАеон „Void“ Болиг\n„donhonk“"
-"vsh_outburst_authors"			"„Lizard of Oz“\n„Phe“\nСабо „Maxxy“ Атила\nМаксим „VellyVice“ Стрелцов\nМатю „MegapiemanPHD“ Симънс\nДжеймс М.\nДжейсън „Yaki“ Херман\nХоаким „JPRAS“ Силва\n„Stuffy360“"
 "zi_blazehattan_authors"		"Емил Шарафеев\nПатрик „Nat-Tea“ Наплава\nАеон „Void“ Болиг\nЛиъм „Diva Dan“ Мофит\n„netmuck“"
 "koth_overcast_final_authors"	"„Slowmotion Milk“\nИтън Стоукс\n„Dr Vlad Crazy“"
 "cp_fortezza_authors"			"Джош „Gruppy“ Боуман\nНиколас „KrazyZark“ Фенек\n„Kubie“\n„Alien31“"
 "ctf_penguin_peak_authors"		"Крис „Another Bad Pun“ Уилиямс\nБека „phi“ Айлис\nДжеймс „chin“ Хейс\nЕрик „erk“ Браунинг\nЛиъм „Diva Dan“ Мофит\n„Stuffy360“\nАеон „Void“ Болиг\nНиколас „KrazyZark“ Фенек\nАл „Square“ Роджърс\nСам Д. Уич"
 "pl_patagonia_authors"			"Елиан „iron“ Родригес\nМатю „Panckakebro“ Хилер\nЖоао „Hoppkins“ Маркос\n„Stuffy360“"
 "plr_cutter_authors"			"Пол „puxorb“ Броксъп\n„Brie“\nНиколас „KrazyZark“ Фенек\nЛиъм „Diva Dan“ Мофит\nАеон „Void“ Болиг\nЕрик „Colteh“ Колтий\n„Extra Ram“\nМати Конинг\nТим „SediSocks“ Браун Лийс\nПатрик „Zeus“ Хенеси\nЗоуи Смит"
-"vsh_maul_authors"				"Матю Скот „MegapiemanPHD“ Симънс\nБрандън „Bonk Nickeltoon“ Колър\nСабо „Maxxy“ Атила\nПатрик „Zeus“ Хенеси\n„Lizard of Oz“\n„Stuffy360“\nДжеймс Джеймсън\n„Phe“\nМати Конинг\nАлекс „FGD5“ Стюарт\nМаксим „Velly“ Стрелцов\nДжейсън „Yaki“ Херман\nДжеси „Custard1“ Бъд\nХоаким „JPRAS“ Силва\nСамюел „ChargingTurnip“ Търнър\nАлекс „Lacry“ Коуто\nДжеймс М.\nТоркил „TheLazerSofa“ Малвик Бидтнес\n„Sky“"
 "pl_citadel_authors"			"Евън „Defcon“ Лебланк\nНиколас „KrazyZark“ Фенек\n„Sarexicus“\n„Freyja“\n„Ficool2“"
 "pl_aquarius_authors"			"„Alien31“\nАндрю „Bengali Hedgehog“ Мишчук\nКристоф „Gadget“ Маншитц\n„Dansky“\nЛоган „Cipherlock“ Итън\n„Lucky“\nМичъл „AltraNade“ Лейте\nНийл „Blade x64“ Смарт\nСабо „Maxxy“ Атила\nТоркил „TheLazerSofa“ Малвик Бидтнес\nМаксим „Fubar“ Дюпуи"
 "cp_fulgur_authors"				"Михал „AsG_Alligator“ Бучко\nАеон „Void“ Болиг\nКимбърли „iiboharz“ Ризуик\nАлекс „Rexy“ Крийгър\n„Juniper“\n„Berry“\nМаксим „Fubar“ Дюпуи"
@@ -5903,10 +5917,14 @@
 "TF_MapToken_Selbyen"				"Марка на карта — Selbyen"
 "TF_MapToken_Selbyen_Desc"			"Карта в режим „Унищожение на играчи“\n\nНаправена от Джоел „zythe_“ Моршер, Рафаел „Rhamkin“ Оливейра, Алекс „FGD5“ Стюарт, Бенджамин „blaholtzen“ Блахолтц, Матю „MegapiemanPHD“ Симънс и „Lo-fi Longcat“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Selbyen “. Покажете своята подкрепа още днес!"
 "TF_MapToken_Selbyen_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Selbyen“."
-"TF_MapToken_TinyRock_Desc"			"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от Джес „Muddy“ Дабс, „Lizard of Oz“, Джейсън „Yaki“ Херман, Сабо „Maxxy“ Атила, Максим „VellyVice“ Стрелцов, Джеймс М., Хоаким „JPRAS“ Силва и Матю „MegapiemanPHD“ Симънс.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Tiny Rock“. Покажете своята подкрепа още днес!"
-"TF_MapToken_Distillery_Desc"		"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от „Phe“, „Lizard Of Oz“, Сонома „Sono“ Брайър, Сабо „Maxxy“ Атила, Матю „MegapiemanPHD“ Симънс, „Stuffy360“, Джейсън „Yaki“ Херман, Максим „VellyVice“ Стрелцов, Джеймс М., Хоаким „JPRAS“ Силва и Аеон „Void“ Болиг.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Distillery“. Покажете своята подкрепа още днес!"
-"TF_MapToken_Skirmish_Desc"			"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от Джон „MilkMaster72“ Уордън, „Lizard Of Oz“, Джейсън „Yaki“ Херман, Сабо „Maxxy“ Атила, Хоаким „JPRAS“ Силва, Матю „MegapiemanPHD“ Симънс, Джеймс М., Максим „VellyVice“ Стрелцов, Аеон „Void“ Болиг и Луи „bakscratch“ Търнър.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Skirmish“. Покажете своята подкрепа още днес!"
-"TF_MapToken_Nucleus_Desc"			"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от Джон „MilkMaster72“ Уордън, „Lizard Of Oz“, Джейсън „Yaki“ Херман, Сабо „Maxxy“ Атила, Хоаким „JPRAS“ Силва, Матю „MegapiemanPHD“ Симънс, Джеймс М., Максим „VellyVice“ Стрелцов и Аеон „Void“ Болиг.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Nucleus“. Покажете своята подкрепа още днес!"
+"TF_Map_TinyRock"					"Tiny Rock (VSH)"
+"TF_MapToken_TinyRock"				"Марка на карта — Tiny Rock (VSH)"
+"TF_Map_Distillery"					"Distillery (VSH)"
+"TF_MapToken_Distillery"			"Марка на карта — Distillery (VSH)"
+"TF_Map_Skirmish"					"Skirmish (VSH)"
+"TF_MapToken_Skirmish"				"Марка на карта — Skirmish (VSH)"
+"TF_Map_Nucleus"					"Nucleus (VSH)"
+"TF_MapToken_Nucleus"				"Марка на карта — Nucleus (VSH)"
 "TF_Map_Perks"						"Perks"
 "TF_MapToken_Perks"					"Марка на карта — Perks"
 "TF_MapToken_Perks_Desc"			"Карта в режим „Арена“\n\nНаправена от Филип „Le Codex“ Льофевр, Лиъм „Diva Dan“ Мофит, Даниел „DJ“ Бенет, Себ „Tianes“ Некула, Ейс „Pont“ Киркхъм и „E-Arkham“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Perks“. Покажете своята подкрепа още днес!"
@@ -5936,12 +5954,19 @@
 "TF_MapToken_Corruption_Desc"		"Карта в режим „Придвижване на товара“\n\nНаправена от Ерик „erk“ Браунинг, Матю „MegapiemanPHD“ Симънс, Рафаел „Rhamkin“ Оливейра, Матю „Panckakebro“ Хилер и Василис „Billo“ Хацикостас.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Corruption“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Corruption_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Corruption“."
 "TF_Map_Murky"						"Murky (ZI)"
+"TF_MapToken_Murky"					"Марка на карта — Murky (ZI)"
 "TF_MapToken_Murky_Desc"			"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от „netmuck“, Лиъм „Diva Dan“ Мофит и „E-Arkham“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Murky“. Покажете своята подкрепа още днес!"
 "TF_Map_Atoll"						"Atoll (ZI)"
+"TF_MapToken_Atoll"					"Марка на карта — Atoll (ZI)"
 "TF_MapToken_Atoll_Desc"			"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от Патрик „Nat-Tea“ Наплава, Емил Шарафеев, Дани „AttaKat“ Бестфорд, Бен „Squishy“ Дауман, Джеси „Custard1“ Бъд, Алекс „Zz“ Елиът, Лиъм „Diva Dan“ Мофит и „netmuck“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Atoll“. Покажете своята подкрепа още днес!"
 "TF_Map_Woods"						"Woods (ZI)"
+"TF_MapToken_Woods"					"Марка на карта — Woods (ZI)"
 "TF_MapToken_Woods_Desc"			"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от Джордж „I dinne ken“ Норман, „netmuck“, Лиъм „Diva Dan“ Мофит, „Stuffy360“, Аеон „Void“ Болиг и Емил Шарафеев.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Woods“. Покажете своята подкрепа още днес!"
+"TF_Map_Sanitarium"					"Sanitarium (ZI)"
+"TF_MapToken_Sanitarium"			"Марка на карта — Sanitarium (ZI)"
 "TF_MapToken_Sanitarium_Desc"		"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от Матю „Panckakebro“ Хилер, „netmuck“, Лиъм „Diva Dan“ Мофит, „Stuffy360“, Елиан „iron“ Родригес и Луи „bakscratch“ Търнър.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Sanitarium“. Покажете своята подкрепа още днес!"
+"TF_Map_Devastation"				"Devastation (ZI)"
+"TF_MapToken_Devastation"			"Марка на карта — Devastation (ZI)"
 "TF_MapToken_Devastation_Desc"		"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от Джордан „Ismaciodismorphus“ Ла Роуз, „netmuck“, Лиъм „Diva Dan“ Мофит, Аеон „Void“ Болиг и Алекс „FGD5“ Стюарт.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Devastation“. Покажете своята подкрепа още днес!"
 "TF_Map_Snowtower"					"Snowtower"
 "TF_MapToken_Snowtower"				"Марка на карта — Snowtower"
@@ -6043,7 +6068,10 @@
 "TF_MapToken_Circus"				"Марка на карта — Circus"
 "TF_MapToken_Circus_Desc"			"Карта в режим „Унищожение на играчи“\n\nНаправена от Лиъм „Diva Dan“ Мофит, Аеон „Void“ Болиг и „donhonk“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Circus“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Circus_AdText"			"— Закупуването на този артикул директно подкрепя творците на обществената карта „Circus“."
-"TF_MapToken_Outburst_Desc"			"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от „Lizard of Oz“, „Phe“, Сабо „Maxxy“ Атила, Максим „VellyVice“ Стрелцов, Матю „MegapiemanPHD“ Симънс, Джеймс М., Джейсън „Yaki“ Херман, Хоаким „JPRAS“ Силва и „Stuffy360“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Outburst“. Покажете своята подкрепа още днес!"
+"TF_Map_Outburst"					"Outburst (VSH)"
+"TF_MapToken_Outburst"				"Марка на карта — Outburst (VSH)"
+"TF_Map_Blazehattan"				"Blazehattan (ZI)"
+"TF_MapToken_Blazehattan"			"Марка на карта — Blazehattan (ZI)"
 "TF_MapToken_Blazehattan_Desc"		"Карта в режим „Зомби инфекция (обществен)“\n\nНаправена от Емил Шарафеев, Патрик „Nat-Tea“ Наплава, Аеон „Void“ Болиг, Лиъм „Diva Dan“ Мофит и „netmuck“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Blazehattan“. Покажете своята подкрепа още днес!"
 "TF_Map_Overcast"					"Overcast"
 "TF_MapToken_Overcast"				"Марка на карта — Overcast"
@@ -6066,7 +6094,7 @@
 "TF_MapToken_Cutter_Desc"			"Карта в режим „Състезание за придвижване на товара“\n\nНаправена от Пол „puxorb“ Броксъп, „Brie“, Николас „KrazyZark“ Фенек, Лиъм „Diva Dan“ Мофит, Аеон „Void“ Болиг, Ерик „Colteh“ Колтий, „Extra Ram“, Мати Конинг, Тим „SediSocks“ Браун Лийс, Патрик „Zeus“ Хенеси и Зоуи Смит.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Cutter“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Cutter_AdText"			"— Закупуването на този артикул директно подкрепя творците на обществената карта „Cutter“."
 "TF_Map_Maul"						"Maul (VSH)"
-"TF_MapToken_Maul_Desc"				"Карта в обществения режим „Срещу Сакстън Хейл“\n\nНаправена от Матю Скот „MegapiemanPHD“ Симънс, Брандън „Bonk Nickeltoon“ Колър, Сабо „Maxxy“ Атила, Патрик „Zeus“ Хенеси, „Lizard of Oz“, „Stuffy360“, Джеймс Джеймсън, „Phe“, Мати Конинг, Алекс „FGD5“ Стюарт, Максим „Velly“ Стрелцов, Джейсън „Yaki“ Херман, Джеси „Custard1“ Бъд, Хоаким „JPRAS“ Силва, Самюел „ChargingTurnip“ Търнър, Алекс „Lacry“ Коуто, Джеймс М., Торкил „TheLazerSofa“ Малвик Бидтнес и „Sky“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Maul“. Покажете своята подкрепа още днес!"
+"TF_MapToken_Maul"					"Марка на карта — Maul (VSH)"
 "TF_Map_Citadel"					"Citadel"
 "TF_MapToken_Citadel"				"Марка на карта — Citadel"
 "TF_MapToken_Citadel_Desc"			"Карта в режим „Придвижване на товара“\n\nНаправена от Евън „Defcon“ Лебланк, Николас „KrazyZark“ Фенек, „Sarexicus“, „Freyja“ и „Ficool2“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Citadel“. Покажете своята подкрепа още днес!"
@@ -6108,10 +6136,15 @@
 "TF_MapToken_Pressure_Desc"			"Карта в режим „Превземане на флага“\n\nНаправена от Мичъл „AltraNade“ Лейте, „MuhNamesGreen“, „Dansky“, Джоел „zythe_“ Моршер, Джеймс „лолрипк“ Стивънс, Сабо „Maxxy“ Атила, Джеймс „McGuinnsBook“ Макгийн, „Alien31“, „Phe“ и „Glebotron“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Pressure“. Покажете своята подкрепа още днес!"
 "TF_MapToken_Pressure_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Pressure“."
 "TF_Map_Cowerhouse"					"Cowerhouse"
+"TF_MapToken_Cowerhouse"			"Марка на карта — Cowerhouse"
 "TF_Map_Dusker"						"Dusker"
+"TF_MapToken_Dusker"				"Марка на карта — Dusker"
 "TF_Map_Afterlife"					"Afterlife"
+"TF_MapToken_Afterlife"				"Марка на карта — Afterlife"
 "TF_Map_Devilcross"					"Devilcross"
+"TF_MapToken_Devilcross"			"Марка на карта — Devilcross"
 "TF_Map_Marshlands"					"Marshlands"
+"TF_MapToken_Marshlands"			"Марка на карта — Marshlands"
 "TF_Map_Unknown"				"Картата не е намерена!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -7404,6 +7437,8 @@
 "GameType_VSH"					"Срещу Сакстън Хейл (обществен)"
 "GameType_ZI"					"Зомби инфекция (обществен)"
 "GameType_TOW"					"Противопоставяне (обществен)"
+"GameType_HTF"					"Удържане на флага (обществен)"
+
 "TF_MMCat_SpecialEvents"		"Специални събития"
 "TF_MMCat_Core"				"Основни игрални режими"
 "TF_MMCat_Alternative"		"Алтернативни игрални режими"
@@ -7593,11 +7628,9 @@
 "Tip_1_3"				"Като Разузнавач сте най-ефективен, когато се движите непрестанно и използвате бързината си в своя полза."
 "Tip_1_4"				"Като Разузнавач пистолетът Ви е чудесен за отстраняване на врагове от разстояние."
 "Tip_1_5"				"Като Разузнавач Вашият „Разпръсквач“ нанася големи поражения от упор, убивайки повечето класове с 2 изстрела."
-"Tip_1_6"				"Като Разузнавач стреляйки с „Природната стихия“, докато сте във въздуха ще бъдете отблъснат в обратна посока, от тази на прицелването. Можете да използвате това, за да увеличите разстоянието на скоковете си."
 "Tip_1_7"				"Като Разузнавач се възползвайте от алтернативните маршрути, за да заобикаляте враговете и нанасяте изненадващи атаки."
 "Tip_1_8"				"Като Разузнавач, когато размахвате „Сънчото“ използвайте %attack2% за мятане на бейзболна топка към далечните врагове, така че да ги преустановите."
 "Tip_1_9"				"Като Разузнавач екипирането на „Сънчото“ ще понижи максималното Ви здраве. Придържайте се към бухалката си, ако оцеляването е главен приоритет."
-"Tip_1_10"				"Като Разузнавач, ако уцелите неприятели с „Природната стихия“, ще ги отблъснете далеч от Вас."
 "Tip_1_11"				"Като Разузнавач, колкото по-далеч лети бейзболната топка на „Сънчото“, толкова по-дълго ще зашемети врага, който удари — до максимум от 7 секунди."
 "Tip_1_12"				"Като Разузнавач не можете да зашеметите неприятели от близко разстояние с бейзболната топка на „Сънчото“, но ще ги зашеметите напълно при максималния обсег."
 "Tip_1_13"				"Като Разузнавач използвайте енергийната напитка „Бонк! Атомен пунш“, за да преминете през опасни терени и поемете огъня от сензорна картечница вместо съотборниците си."
@@ -7610,7 +7643,6 @@
 "Tip_1_20"				"Като Разузнавач, „Слънцето на пръчка“ нанася критични щети на горящите неприятели, но иначе е по-слабо от бухалката. Действайте съвместно с приятелските Подпалвачи, за да извлечете най-голяма полза от него."
 "Tip_1_21"				"Като Разузнавач, ударът от „Военното ветрило“ на свой ред превръща по-нататъшните атаки срещу същата цел в мини критични. Използвайте съотборниците си и други оръжия, за да извлечете най-голяма полза от увеличението на щетите."
 "Tip_1_22"				"Като Разузнавач следете здравето си, когато ползвате „Пулверизатора“. Грешно премерен троен скок може да Ви коства живота!"
-"Tip_1_23"				"Като Разузнавач можете да се възползвате от отблъскването на „Природната стихия“ и тройния скок на „Пулверизатора“, така ще изпълните четворен!"
 "Tip_1_24"				"Като Разузнавач, „Пулверизаторът“ ще Ви позволи да изпълнявате троен скок! Използвайте го, за да надхитрите враговете и достигнете труднодостъпните места!"
 "Tip_1_25"				"Като Разузнавач, „Крилатият“ нанася повече щети от пистолета, но това е балансирано от понижения размер на пълнителя. Използвайте „Крилатия“ на близки разстояния, за да сте сигурни, че ще уцелите своята цел!"
 "Tip_1_26"				"Като Разузнавач, „Стоперът“ Ви е много ефикасен на средно и далечно разстояние, като позволява да спазвате дистанция от опасни врагове. Също така можете да натиснете %attack2%, за да избутате враговете!"
@@ -7661,7 +7693,6 @@
 "Tip_3_19"				"Като Войник, „Тиганът за пържене“ нанася същите щети като „Лопатата“, но е много по-шумен. Не го ползвайте, когато се опитвате да останете скрити, тъй като специфичният му звук ще издаде позицията Ви!"
 "Tip_3_20"				"Като Войник, удряйки съотборник с „Дисциплинарното действие“, драматично ще увеличи Вашата скорост и тази на съюзника Ви за няколко секунди! Използвайте го над бавни класове като други Войници и Картечари, за да достигнете фронтовите линии по-бързо!"
 "Tip_3_21"				"Като Войник, използвайте %attack2%, когато носите „Кравешкият обезобразител 5000“, за да произведете зареден изстрел, нанасяйки допълнителни щети и подпалвайки врага за кратко. Внимавайте! Зареденият изстрел изчерпва изцяло мунициите на „Кравешкият обезобразител 5000“."
-"Tip_3_22"				"Като Войник, „Мъжките боти“ драматично понижават отката на оръжията. Използвайте ги, за да избегне отблъсването от „Природната стихия“, експлозии или сензорните картечници!"
 "Tip_3_23"				"Като Войник, „Черната кутия“ може да побере само три ракети по всяко време. Постарайте се всеки изстрел да е от значение, защото иначе може да се окажете уязвим."
 "Tip_3_24"				"Като Войник, правете ракетни скокове, така че бързо да скъсите разстоянието между Вас и враговете Ви, а след това използвайте „Пазарският градинар“, за да ги довършите при приземяването си."
 "Tip_3_25"				"Като Войник обмислете да използвате „Пушката“ си срещу вражеските Подпалвачи, които отблъскват ракетите Ви."
@@ -7897,6 +7928,7 @@
 "TF_ClassRecord_Alt_MostDominations"	"доминация(ции)"
 "TF_ClassRecord_Alt_LongestLife"		"продължителност на живота"
 "TF_ClassRecord_Alt_MostHealing"		"лечение"
+"TF_ClassRecord_Alt_MostInvulns"		"убер заряд(и)"
 "TF_ClassRecord_Alt_MostSentryKills"	"убийство(а) от сензорна картечница"
 "TF_ClassRecord_Alt_MostTeleports"		"използвания на телепортатора"
 "TF_ClassRecord_Alt_MostHeadshots"		"изстрел(и) в главата"
@@ -8610,7 +8642,6 @@
 "TF_SCOUT_DODGE_DAMAGE_NAME"		"Изкусен хитрец"
 "TF_SCOUT_DODGE_DAMAGE_DESC"		"Отбегнете 1 000 щети в един живот, използвайки Вашия „Бонк! Атомен пунш“."
 "TF_SCOUT_KNOCK_INTO_TRAIN_NAME"	"Класическо падане"
-"TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"Причинете смърт чрез околната среда или самоубийство, като използвате изблъскването на „Природната стихия“."
 "TF_SCOUT_KILL_STUNNED_NAME"		"Ударна зона"
 "TF_SCOUT_KILL_STUNNED_DESC"		"Убийте или асистирайте при убийството на 50 врага, докато са зашеметени или забавени."
 "TF_SCOUT_STUN_INTO_TRAIN_NAME"		"Неблагоприятна територия"
@@ -8626,7 +8657,6 @@
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_NAME"	"Пенсионирайте бързоходеца"
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"Убийте Разузнавач, докато той е под влиянието на „Критичната кола“."
 "TF_SCOUT_KILL_FROM_BEHIND_NAME"	"Хванат неподготвен"
-"TF_SCOUT_KILL_FROM_BEHIND_DESC"	"Убийте 50 врага в гръб с „Природната стихия“."
 "TF_SCOUT_CAPTURE_LAST_POINT_NAME"	"Отпратени на скамейката"
 "TF_SCOUT_CAPTURE_LAST_POINT_DESC"	"Превземете последната контролна точка на карта в такъв режим."
 "TF_SCOUT_CAPTURE_THREE_POINTS_NAME"	"Тройна игра"
@@ -9800,6 +9830,7 @@
 "LimitedQualityDesc" "Ограничено"
 
 "KillEaterEventType_Kills"		"Убийства"
+"KillEaterEventType_Ubers"		"Убер заряди"
 "KillEaterEventType_KillAssists"	"Асистирани убийства"
 "KillEaterEventType_SentryKills"	"Убийства със сензорна картечница"
 "KillEaterEventType_PeeVictims"	"Залети жертви"
@@ -10465,6 +10496,7 @@
 "SpiritOfGivingRank15"        "Първокласният филантроп"
 "SpiritOfGivingRank16"        "Хуманитарната голяма клечка"
 "SpiritOfGivingRank17"        "Безкористният самарянин"
+"SpiritOfGivingRank18"        "Убер алтруистът"
 "SpiritOfGivingRank19"        "Самият Сакстън"
 
 "KillEater_HolidayPunchRank0"			"Странен"
@@ -10607,7 +10639,7 @@
 "KillEater_PointsScored4"		"Противен"
 "KillEater_PointsScored5"		"Крещящо ярък"
 "KillEater_PointsScored6"		"Удобен"
-"KillEater_PointsScored7"		"Спретнат"
+"KillEater_PointsScored7"		"Елегантен"
 "KillEater_PointsScored8"		"Остър"
 "KillEater_PointsScored9"		"Луксозен"
 "KillEater_PointsScored10"		"Изключително луксозен"
@@ -11683,6 +11715,9 @@
 "Halloween2024Paintkits_collection"			"Колекцията „Крепостта на писъците XVI“"
 "Halloween2024Paintkits_collection_desc"		"Артикули от колекцията „Крепостта на писъците XVI“:"
 
+"halloween2025_collection_name"			"Колекцията „Спектрална контрабанда“"
+"halloween2025_collection_case"			"Сандък „Спектрална контрабанда“"
+"halloween2025_collection_key"			"Ключ за „Спектрална контрабанда“"
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -12887,6 +12922,7 @@
 "Attrib_Particle345"			"Пренатоварване"
 "Attrib_Particle346"			"Сезонът на пеперудите"
 "Attrib_Particle347"			"Сезонът на пеперудите"
+"Attrib_Particle348"			"Психо-делично"
 "Attrib_Particle349"			"Омайващи буболечки"
 
 // Halloween 2024 Unusual
@@ -12926,7 +12962,18 @@
 "Attrib_Particle379"			"Свръхзаредено"
 "Attrib_Particle380"			"Пронизващо главоболие"
 "Attrib_Particle381"			"Погубващ вятър"
+
+// Halloween 2025 Unusual
+"Attrib_Particle382"			"Океанска вихрушка"
+"Attrib_Particle383"			"Океанска вихрушка"
+"Attrib_Particle384"			"Токсична вихрушка"
 "Attrib_Particle385"			"Пламък от свещ"
+"Attrib_Particle386"			"Пламък от свещ"
+"Attrib_Particle387"			"Цвъртящ аромат"
+"Attrib_Particle388"			"Цвъртящ аромат"
+"Attrib_Particle389"			"Токсичен аромат"
+"Attrib_Particle390"			"Проводник на напрежение"
+"Attrib_Particle391"			"Проводник на напрежение"
 "Attrib_Particle392"			"Пясъчно"
 
 // Weapon Unusual
@@ -12971,7 +13018,7 @@
 "Attrib_Particle3027"		"Зловеща светлина"
 "Attrib_Particle3028"		"Ужасяваща гръмотевица"
 "Attrib_Particle3029"		"Джарате шок"
-"Attrib_Particle3030"		"Долна празнота"
+"Attrib_Particle3030"		"Долна бездна"
 
 // Smissmas 2019 Unusual Taunts
 "Attrib_Particle3031"		"Добросърдечни благини"
@@ -13079,6 +13126,9 @@
 "Attrib_Particle3121"		"Пастелен транс"
 "Attrib_Particle3122"		"Пастелен транс"
 "Attrib_Particle3123"		"Дивоцветни ливади"
+
+// Halloween 2023 Unusual Taunts
+"Attrib_Particle3124"		"Дълбоководният поглъщащ"
 "Attrib_Particle3125"		"Неестественият ужас"
 "Attrib_Particle3126"		"Есенен листопад"
 "Attrib_Particle3127"		"Празненството на мъртвеца"
@@ -13167,6 +13217,19 @@
 "Attrib_Particle3200"		"Загубен сигнал"
 "Attrib_Particle3201"		"Лятна вълна"
 "Attrib_Particle3202"		"Атака на акула"
+
+// Halloween 2025 Unusual Taunts
+"Attrib_Particle3203"		"Опасен газ"
+"Attrib_Particle3204"		"Призрачна мъгла"
+"Attrib_Particle3205"		"Обладана мъгла"
+"Attrib_Particle3206"		"Разделена злонамереност"
+"Attrib_Particle3207"		"Разделена злонамереност"
+"Attrib_Particle3208"		"Пълзящи от бездната"
+"Attrib_Particle3209"		"Фосилни горива"
+"Attrib_Particle3210"		"Катранена яма"
+"Attrib_Particle3211"		"Болезнено зверче"
+"Attrib_Particle3212"		"Болезнено зверче"
+
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Сериен убиец: %s1"
@@ -17026,7 +17089,7 @@
 "TF_Clacker2012"					"Значката във формата на филмова клапа от Сакси" // ADD THE
 "TF_Clacker2012_Desc"					"Обуздайте съблазнителната черна магия на Холивуд с тази възпоменателна филмова клапа. Същата тази, която истинските филмови режисьори използват. Сега ВИЕ можете да нареждате на Райън Рейнолдс какво да прави!"
 "TF_Tuxxy"							"Смокингът" // ADD THE
-"TF_Tuxxy_Desc"							"Килимите ще почервенеят от кръвта на враговете Ви, заради този спретнат тоалет от вторите годишни награди Сакси."
+"TF_Tuxxy_Desc"							"Килимите ще почервенеят от кръвта на враговете Ви, заради този елегантен тоалет от вторите годишни награди Сакси."
 
 "TF_Faerie_Solitaire_Pin"			"Значката „Faerie Solitaire“"
 "TF_Faerie_Solitaire_Pin_Desc"			"Направена с изключително внимание към детайлите, тази значка, наподобяваща крило на фея е неразличима от действителната такава. Най-сетне можете да се отървете от всички онези разлагащи се крила на истински феи, които са окичени по дрехите Ви. Същевременно с това ще продължите да показвате на хората, че имате категорично мнение за митичните същества."
@@ -17145,6 +17208,7 @@
 "TF_TauntSniperISeeYou_Desc"	"Присмех на Снайпериста"
 "TF_TauntSoldierCoffee"		"Присмех — Прясно сварена победа"
 "TF_TauntSoldierCoffee_Desc"	"Присмех на Войника"
+"TF_TauntSpyBuyALife"		"Присмех — Купи си живот"
 "TF_TauntSpyBuyALife_Desc"	"Присмех на Шпионина"
 "TF_Taunt_Tank"				"Присмех — Танковите панталони"
 "TF_Taunt_Tank_Desc"		"Присмех на Войника.\n\nНатиснете клавиша за присмех, така че да го превключите.\nОсновната стрелба демонстрира елегантно движение.\nИзползвайте клавишите за движение настрани, така че да се въртите, докато шофирате."
@@ -18012,6 +18076,7 @@
 "TF_short2014_chronoscarf"		"Хроношалът" // ADD THE
 "TF_short2014_chemists_pride"		"Опасността" // ADD THE
 "TF_short2014_badlands_wanderer"		"Граничната справедливост" // ADD THE
+"TF_short2014_vintage_director"		"Вива ла Франс"
 "TF_short2014_scopers_smoke"		"Цигарата на съгледвача" // ADD THE
 "TF_short2014_sniper_cargo_pants"		"Панталоните на убиеца" // ADD THE
 
@@ -18546,6 +18611,14 @@
 "TF_taunt_flying_colors"					"Присмех — С развято знаме"
 "TF_taunt_flying_colors_Desc"				"Присмех за всички класове, създаден от общността.\n\nНатиснете клавиша за присмех, така че да го превключите."
 "TF_taunt_flying_colors_AdText"				"— Присмех за всички класове, създаден от общността."
+"TF_taunt_heartbreaker"						"Присмех — Сърцеразбивачът"
+"TF_taunt_heartbreaker_Desc"				"Присмех на Медика, създаден от общността"
+"TF_taunt_heartbreaker_AdText"				"— Присмех на Медика, създаден от общността."
+"TF_taunt_healthcarehog"					"Присмех — Здравеопазваният шопар"
+"TF_taunt_healthcarehog_Desc"				"Присмех на Разузнавача, създаден от общността."
+"TF_taunt_healthcarehog_AdText"				"— Присмех на Разузнавача, създаден от общността."
+"TF_taunt_ring_king"						"Присмех — Кралят на ринга"
+"TF_taunt_ring_king_Desc"					"Присмех на Картечаря, създаден от общността."
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Респираторната торба"	// ADD THE
@@ -18780,6 +18853,7 @@
 "TF_fall17_vitals_vest_Desc"	" "
 "TF_fall17_battle_boonie"	"Бойната шапка идиотка"
 "TF_fall17_battle_boonie_Desc"	" "
+"TF_fall17_conaghers_utility_idol"	"Пригодният идол на Конагер"
 "TF_fall17_conaghers_utility_idol_Desc"	" "
 "TF_fall17_tropical_toad"	"Тропическата крастава жаба"
 "TF_fall17_tropical_toad_Desc"	" "
@@ -19004,7 +19078,7 @@
 "TF_dec19_gingerbread_mann_style0"		"Захаросана прилика"
 "TF_dec19_gingerbread_mann_style1"		"Захарен Сакстън"
 "TF_dec19_smissmas_saxton"			"Смисмаският Сакстън"
-"TF_dec19_globetrotter"				"Пътешественикът по земното кълбо"
+"TF_dec19_globetrotter"				"Околосветският пътешественик"
 "TF_dec19_globetrotter_style0"			"Снежен"
 "TF_dec19_globetrotter_style1"			"Прашен"
 "TF_dec19_citizen_cane"				"Гражданинът на захарните сладости"
@@ -19491,6 +19565,7 @@
 "TF_hwn2023_clowns_coverup"				"Клоунското потулване"
 "TF_hwn2023_clowns_coverup_Style0"			"Без шапка"
 "TF_hwn2023_clowns_coverup_Style1"			"С шапка"
+"TF_hwn2023_shortness_breath"			"Задухът"
 "TF_hwn2023_shortness_breath_Style0"		"Без каска"
 "TF_hwn2023_shortness_breath_Style1"		"С каска"
 "TF_hwn2023_warlocks_warcloak"			"Военният плащ на вълшебника"
@@ -19595,6 +19670,7 @@
 "TF_dec23_masked_loyalty"				"Маскираната лоялност"
 "TF_dec23_impact_impaler"				"Пробождащото стълкновение"
 "TF_dec23_torchers_trench_coat"			"Шлиферът на подпалвача"
+"TF_dec23_balkans_brute"				"Балканската гад"
 "TF_dec23_bigger_mann"					"По-важната клечка в общежитието"
 "TF_dec23_isotopic_insulator"			"Изотопната изолация"
 "TF_dec23_bonk_beanie"					"Бонк шапчицата"
@@ -19683,6 +19759,8 @@
 "TF_hwn2024_dusk_duster"				"Смрачаващият шлифер"
 "TF_hwn2024_dusk_duster_style1"				"Залез"
 "TF_hwn2024_dusk_duster_style2"				"Здрач"
+"TF_hwn2024_dusk_duster_style3"				"Залез (без куршуми)"
+"TF_hwn2024_dusk_duster_style4"				"Здрач ​​(без куршуми)"
 "TF_hwn2024_mannhattan_protect"			"Маннхатънската защита"
 "TF_hwn2024_nuclear_necessity"			"Ядрени необходимости"
 "TF_hwn2024_contaminated_carryall"		"Преносител за всякакви замърсявания"
@@ -19697,7 +19775,7 @@
 "TF_hwn2024_defaced_style1"					"Отдясно"
 "TF_hwn2024_defaced_style2"					"Отляво"
 
-"TF_dec24_dapper_noel"					"Спретнатият Ноел"
+"TF_dec24_dapper_noel"					"Елегантният Ноел"
 "TF_dec24_necroprancer"					"Некропрансър" // ADD THE
 "TF_dec24_necroprancer_style1"				"С нос"
 "TF_dec24_necroprancer_style2"				"Без нос"
@@ -19777,6 +19855,7 @@
 "TF_sum25_frogmanns"					"Жабоманнските принадлежности"
 "TF_sum25_oxygen"						"Кислородното хранилище"
 "TF_sum25_short_fuse"					"Късият фитил"
+"TF_sum25_blindin"						"Ослепителната шапчица"
 "TF_sum25_blindin_style1"					"С мустак"
 "TF_sum25_blindin_style2"					"Без мустак"
 "TF_sum25_shady"						"Съмнителният Шелби"
@@ -19803,31 +19882,78 @@
 "TF_sum25_shadow_doubt_style2"				"Без цигара"
 "TF_sum25_clinical"						"Клиничният следовател"
 
+"TF_hwn2025_heat_shield"				"Топлинен щит"
 "TF_hwn2025_heat_shield_style1"				"Стил 1"
 "TF_hwn2025_heat_shield_style2"				"Стил 2"
 "TF_hwn2025_heat_shield_style3"				"Стил 3"
 "TF_hwn2025_heat_shield_style4"				"Стил 4"
+"TF_hwn2025_technicians_tunic"			"Куртката на техника"
 "TF_hwn2025_technicians_tunic_style1"		"Стил 1"
 "TF_hwn2025_technicians_tunic_style2"		"Стил 2"
+"TF_hwn2025_service_satchel"			"Сервизната чанта за кръст"
+"TF_hwn2025_cigarillo"					"Пуретата на кабалерото"
 "TF_hwn2025_cigarillo_style1"				"Шал"
+"TF_hwn2025_cigarillo_style2"				"Без шал"
+"TF_hwn2025_el_gigantes"				"Оръжейният пояс на Ел гранде"
+"TF_hwn2025_el_gigantes_style1"				"С колан"
+"TF_hwn2025_el_gigantes_style2"				"Без колан"
+"TF_hwn2025_poncho"						"Пончо дел Песадо"
 "TF_hwn2025_poncho_style1"					"С куршуми"
 "TF_hwn2025_poncho_style2"					"Без куршуми"
+"TF_hwn2025_air_exchanger"				"Въздушният обменник"
+"TF_hwn2025_industrial"					"Индустриалният бунтовник"
+"TF_hwn2025_industrial_style1"				"Ядрен"
+"TF_hwn2025_industrial_style2"				"Възпламенителен"
+"TF_hwn2025_hellscape"					"Адски релеф"
 "TF_hwn2025_fused_plates"				"Слетите пластини"
+"TF_hwn2025_feathered_fiend"			"Пернатият неприятел"
 "TF_hwn2025_feathered_fiend_style1"			"Злодейски"
+"TF_hwn2025_feathered_fiend_style2"			"Със засукан мустак"
+"TF_hwn2025_feathered_fiend_style3"			"Изкусен"
+"TF_hwn2025_velveteen"					"Памучно кадифеният злодей"
+"TF_hwn2025_velveteen_style1"				"Напълно облечен"
+"TF_hwn2025_velveteen_style2"				"Само с жилетка"
+"TF_hwn2025_velveteen_style3"				"Само с риза"
 "TF_hwn2025_pantaloons_style1"				"С куршуми"
 "TF_hwn2025_pantaloons_style2"				"Без куршуми"
 "TF_hwn2025_buzz_kill"					"Досадният мърморко"
+"TF_hwn2025_buzz_kill_style1"				"Углавно престъпни"
+"TF_hwn2025_buzz_kill_style2"				"Непълнолетно закононарушителни"
 "TF_hwn2025_torn_terror"				"Разкъсаният терор"
+"TF_hwn2025_torn_terror_style1"				"Агресивен"
+"TF_hwn2025_torn_terror_style2"				"Пасивен"
+"TF_hwn2025_ripped_runts"				"Разпорените изтърсаци"
+"TF_hwn2025_seamanns"					"Небръснатият моряк"
 "TF_hwn2025_seamanns_style1"				"Тръба"
 "TF_hwn2025_seamanns_style2"				"Пура"
+"TF_hwn2025_misdirector"				"Разсейващият" // ADD THE
+"TF_hwn2025_misdirector_style1"				"Боядисана лента"
 "TF_hwn2025_misdirector_style2"				"Боядисана брада"
 "TF_hwn2025_misdirector_style3"				"Без брада"
-"TF_hwn2025_sleight_hand_style2"			"Спретнат"
-"TF_hwn2025_professor_photon_style3"		"Пара"
+"TF_hwn2025_sleight_hand"				"Ловката измама"
+"TF_hwn2025_sleight_hand_style1"			"Ослепителна"
+"TF_hwn2025_sleight_hand_style2"			"Елегантна"
+"TF_hwn2025_vanishing_act"				"Трикът за изчезване"
+"TF_hwn2025_professor_photon"			"Професор Фотон"
+"TF_hwn2025_professor_photon_style1"		"Стоманен"
+"TF_hwn2025_professor_photon_style2"		"Стоманен (избръснат)"
+"TF_hwn2025_professor_photon_style3"		"Парен"
+"TF_hwn2025_professor_photon_style4"		"Парен (избръснат)"
 "TF_hwn2025_mad_drip"					"Лудото претрупване"
-"TF_hwn2025_mad_drip_style3"				"Пара"
+"TF_hwn2025_mad_drip_style1"				"Стоманено"
+"TF_hwn2025_mad_drip_style2"				"Стоманено (без ПДА)"
+"TF_hwn2025_mad_drip_style3"				"Парно"
+"TF_hwn2025_mad_drip_style4"				"Парно (без ПДА)"
+"TF_hwn2025_viscer_visor"				"Визьорът за вътрешности"
+"TF_hwn2025_viscer_visor_style1"			"Кървав"
 "TF_hwn2025_viscer_visor_style2"			"Изчистен"
+"TF_hwn2025_pyromantic_plumage"			"Пиромантичното оперение"
+"TF_hwn2025_one_man_convoy"				"Човекът конвой"
 "TF_hwn2025_one_man_convoy_style1"			"Боядисани очи"
+"TF_hwn2025_one_man_convoy_style2"			"Боядисан шлем"
+"TF_hwn2025_face_lift"					"Гепеното лице"
+"TF_hwn2025_zepheniahs_shroud"			"Покровът на Зефеная"
+
 "TF_style_bullets"						"С куршуми"
 "TF_style_nobullets"					"Без куршуми"
 
@@ -20048,7 +20174,7 @@
 "default_passtime_description"			"Грабнете подемното устройство и отбележете гол с него!\nПомогнете на приятелските носители да достигнат до голлинията.\nСпрете вражеските носители на подемното устройство да достигнат до Вашата.\nНатиснете „АТАКУВАНЕ“, за да го хвърлите или подметнете. Задръжте, за да се прицелите или поддържате проследяване.\nНатиснете „АТАКУВАНЕ 2“, за да отмените прицелването.\nНатиснете „АТАКУВАНЕ 3“, когато подемното устройство е в притежание на съотборник, така че да извикате за подаване."
 
 "default_cp_description"			"Цел:
-За да победи, някой от отборите трябва да притежава всичките пет контролни точки.
+С цел да победи, някой от отборите трябва да притежава всичките пет контролни точки.
 
 Други забележки:
 Контролните точки не могат да бъдат превзети, докато са заключени."
@@ -20068,7 +20194,7 @@
 "cp_coldfront_description"			"Обществена карта, създадена от „Icarus“
 
 Цел:
-За да победи, някой от отборите трябва да притежава всичките пет контролни точки.
+С цел да победи, някой от отборите трябва да притежава всичките пет контролни точки.
 
 Други забележки:
 Контролните точки не могат да бъдат превзети, докато са заключени."
@@ -20090,7 +20216,7 @@
 "cp_fastlane_description"			"Обществена карта, създадена от „skdr“
  
 Цел:
-За да победи, някой от отборите трябва да притежава всичките пет контролни точки.
+С цел да победи, някой от отборите трябва да притежава всичките пет контролни точки.
 
 Други забележки:
 Контролните точки не могат да бъдат превзети, докато са заключени."
@@ -20129,7 +20255,7 @@
 "cp_gullywash_final1_description"	"Обществена карта, създадена от Ян „Arnold“ Ларой
 
 Цел:
-За да победи, някой от отборите трябва да притежава всичките пет контролни точки.
+С цел да победи, някой от отборите трябва да притежава всичките пет контролни точки.
 
 Други забележки:
 Контролните точки не могат да бъдат превзети, докато са заключени."
@@ -20603,6 +20729,9 @@ E) — Сините могат да превземат тази точка по 
 "TF_DataCenter_bt2"				"Бета 2"
 "TF_DataCenter_dum"				"Дъмм1"
 "TF_DataCenter_beta"			"Бета"
+"TF_DataCenter_hel"             "Хелзинки, Финландия"
+"TF_DataCenter_fsn"             "Фалкенщайн, Германия"
+
 "TF_CaseExclusiveBonusItems"				"Ексклузивен(ни) бонус артикул(и) за сандъка:"
 "TF_CaseGlobalUnusualEffects"			"Глобален(ни) необичаен(айни) ефект(и) за сандъка"
 "TF_CaseGlobalBonusItems"				"Глобален(ни) бонус артикул(и) за сандъка"
