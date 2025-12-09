@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001A_90.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cppl_gavle/c-2031_-1331_-64"
+	}
+}

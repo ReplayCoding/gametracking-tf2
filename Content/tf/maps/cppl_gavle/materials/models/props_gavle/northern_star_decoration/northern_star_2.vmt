@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_gavle/northern_star_decoration/northern_star_2"
+
+	"$selfillum" "1"
+	"$selfillumtint"        "[ 3 3 2 ]"
+	"$selfillumfresnel"        "1"
+	"$selfillumfresnelminmaxexp"        "[0.05 4 20]"
+
+//	"$selfillummask" "models/props_gavle/northern_star_decoration/northern_star_1"
+
+}

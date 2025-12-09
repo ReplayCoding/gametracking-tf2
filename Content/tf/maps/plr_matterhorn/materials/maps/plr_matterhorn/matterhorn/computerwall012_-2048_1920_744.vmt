@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MATTERHORN/COMPUTERWALL012.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_matterhorn/c-2048_1920_744"
+	}
+}

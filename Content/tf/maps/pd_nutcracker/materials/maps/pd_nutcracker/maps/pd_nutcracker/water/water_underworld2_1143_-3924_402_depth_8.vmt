@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/pd_nutcracker/water/water_underworld2_1143_-3924_402.vmt"
+	"insert"
+	{
+		"$waterdepth"		"8"
+	}
+}

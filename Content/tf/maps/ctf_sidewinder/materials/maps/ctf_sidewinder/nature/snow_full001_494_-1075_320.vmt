@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/SNOW_FULL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_sidewinder/c494_-1075_320"
+	}
+}

@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+//	"$basetexture" "models/props_gavle/bigbock/bigbock_hay_volume"
+
+//	"$basetexture"	"farmageddon/hay_messy"
+	"$basetexture"	"gavle/straw"
+
+	"$basetexturetransform" 	"center .5 .5		scale 4 4		rotate 45		translate 0.3 0.6"	
+
+	"$bumpmap"	"models/effects/flat_normal"
+
+//	"$selfillum" "1"
+//	"$selfillummask" "models/props_gavle/bigbock/bigbock_hay_volume_lit"
+
+	"$detail"	"models/props_gavle/bigbock/bigbock_hay_volume"
+
+	"$detailblendmode"		"0"
+	"$detailblendfactor"	"1"
+	"$detailscale"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "0.01"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+
+	"$halflambert" "1"
+
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+//	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" ".5"
+}

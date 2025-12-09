@@ -1,0 +1,249 @@
+Nutcracker.ScoutEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/scouteaten1.wav
+        wave mvm/nutcracker/scouteaten2.wav
+        wave mvm/nutcracker/scouteaten3.wav
+    }
+}
+
+Nutcracker.SoldierEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/soldiereaten1.wav
+        wave mvm/nutcracker/soldiereaten2.wav
+        wave mvm/nutcracker/soldiereaten3.wav
+    }
+}
+
+Nutcracker.PyroEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/pyroeaten1.wav
+        wave mvm/nutcracker/pyroeaten2.wav
+        wave mvm/nutcracker/pyroeaten3.wav
+    }
+}
+
+Nutcracker.DemoEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/demoeaten1.wav
+        wave mvm/nutcracker/demoeaten2.wav
+        wave mvm/nutcracker/demoeaten3.wav
+    }
+}
+
+Nutcracker.HeavyEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/heavyeaten1.wav
+        wave mvm/nutcracker/heavyeaten2.wav
+        wave mvm/nutcracker/heavyeaten3.wav
+    }
+}
+
+Nutcracker.EngieEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/engieeaten1.wav
+        wave mvm/nutcracker/engieeaten2.wav
+        wave mvm/nutcracker/engieeaten3.wav
+    }
+}
+
+Nutcracker.MedicEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/mediceaten1.wav
+        wave mvm/nutcracker/mediceaten2.wav
+        wave mvm/nutcracker/mediceaten3.wav
+        wave mvm/nutcracker/mediceaten4.wav
+        wave mvm/nutcracker/mediceaten5.wav
+    }
+}
+
+Nutcracker.SniperEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/snipereaten1.wav
+        wave mvm/nutcracker/snipereaten2.wav
+        wave mvm/nutcracker/snipereaten3.wav
+    }
+}
+
+Nutcracker.SpyEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/spyeaten1.wav
+        wave mvm/nutcracker/spyeaten2.wav
+        wave mvm/nutcracker/spyeaten3.wav
+    }
+}
+
+Nutcracker.MouthClosing
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/Closing1.wav
+        wave mvm/nutcracker/Closing2.wav
+        wave mvm/nutcracker/Closing3.wav
+        wave mvm/nutcracker/Closing4.wav
+        wave mvm/nutcracker/Closing5.wav
+        wave mvm/nutcracker/Closing6.wav
+        wave mvm/nutcracker/Closing7.wav
+        wave mvm/nutcracker/Closing8.wav
+        wave mvm/nutcracker/Closing9.wav
+        wave mvm/nutcracker/Closing10.wav
+        wave mvm/nutcracker/Closing11.wav
+        wave mvm/nutcracker/Closing12.wav
+        wave mvm/nutcracker/Closing13.wav
+        wave mvm/nutcracker/Closing14.wav
+    }
+}
+
+Nutcracker.GameWon
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/GameWon1.wav
+        wave mvm/nutcracker/GameWon2.wav
+        wave mvm/nutcracker/GameWon3.wav
+        wave mvm/nutcracker/GameWon4.wav
+        wave mvm/nutcracker/GameWon5.wav
+        wave mvm/nutcracker/GameWon6.wav
+        wave mvm/nutcracker/GameWon7.wav
+        wave mvm/nutcracker/GameWon8.wav
+    }
+}
+
+Nutcracker.Intro
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/Intro1.wav
+        wave mvm/nutcracker/Intro2.wav
+        wave mvm/nutcracker/Intro3.wav
+        wave mvm/nutcracker/Intro4.wav
+        wave mvm/nutcracker/Intro5.wav
+        wave mvm/nutcracker/Intro6.wav
+        wave mvm/nutcracker/Intro7.wav
+        wave mvm/nutcracker/Intro8.wav
+        wave mvm/nutcracker/Intro9.wav
+        wave mvm/nutcracker/Intro10.wav
+        wave mvm/nutcracker/Intro11.wav
+        wave mvm/nutcracker/Intro12.wav
+    }
+}
+
+Nutcracker.MouthOpening
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/opening1.wav
+        wave mvm/nutcracker/opening2.wav
+        wave mvm/nutcracker/opening3.wav
+        wave mvm/nutcracker/opening4.wav
+        wave mvm/nutcracker/opening5.wav
+        wave mvm/nutcracker/opening6.wav
+        wave mvm/nutcracker/opening7.wav
+        wave mvm/nutcracker/opening8.wav
+        wave mvm/nutcracker/opening9.wav
+        wave mvm/nutcracker/opening10.wav
+        wave mvm/nutcracker/opening11.wav
+        wave mvm/nutcracker/opening12.wav
+        wave mvm/nutcracker/opening13.wav
+        wave mvm/nutcracker/opening14.wav
+    }
+}
+
+Nutcracker.FailedToDeliverNuts
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        "wave" "mvm/nutcracker/failed to deliver nuts1.wav"
+        "wave" "mvm/nutcracker/failed to deliver nuts2.wav"
+        "wave" "mvm/nutcracker/failed to deliver nuts3.wav"
+        "wave" "mvm/nutcracker/failed to deliver nuts4.wav"
+    }
+}
+
+Nutcracker.MultipleMercenariesEaten
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      PITCH_NORM
+    soundlevel SNDLVL_NONE
+    rndwave
+    {
+        wave mvm/nutcracker/multipleeatenatonce1.wav
+        wave mvm/nutcracker/multipleeatenatonce2.wav
+		wave mvm/nutcracker/multipleeatenatonce3.wav
+		wave mvm/nutcracker/multipleeatenatonce4.wav
+    }
+}

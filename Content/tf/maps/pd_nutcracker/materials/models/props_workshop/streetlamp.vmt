@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_workshop/streetlamp"
+	"$selfillum"  "1"  
+	"$selfillummask" "models/props_workshop/streetlamp_illum"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".25"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

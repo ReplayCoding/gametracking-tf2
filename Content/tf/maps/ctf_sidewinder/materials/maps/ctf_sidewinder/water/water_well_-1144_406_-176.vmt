@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_sidewinder/c-1144_406_-176"
+		"Proxies"
+		{
+		}
+	}
+}

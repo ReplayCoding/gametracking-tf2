@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/snow_full001"
+	"$basetexture2" "gavle/cobblestone_pavement"
+
+	"$blendmodulatetexture" "gavle/CobblePavementToSnowShoveledBlendMod"
+
+	"%tooltexture" "gavle/blendShoveledSnow2CobblePavement_tooltexture"
+
+	"$bumpmap" "Nature/snow_full001_normal"
+	"$bumpmap2"	"gavle/cobblestone_pavement_normal"
+
+	"$surfaceprop" "snow"
+//	"$surfaceprop2" "snow"	//default sound
+
+//	"$normalmapalphaenvmapmask" 1
+//	"$envmap" "env_cubemap"
+
+	"%keywords" "tf"
+}

@@ -1,0 +1,426 @@
+//generic outdoors
+"2Abbey.GenericOutdoors"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"wave"		"ambient/windwinter.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/lightwindcreaks.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"8, 15"
+		"volume"	"0.8, 1"
+		"pitch"		"80, 100"
+		"rndwave"
+		{
+			"wave"		"ambient\crow1.wav"
+			"wave"		"ambient\crow2.wav"
+			"wave"		"ambient\crow3.wav"
+			"wave"		"ambient\crow4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"15,20"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\bird1.wav"
+			"wave"		"ambient\bird2.wav"
+			"wave"		"ambient\bird3.wav"
+			"wave"		"ambient\forest_bird1.wav"
+			"wave"		"ambient\forest_bird2.wav"
+			"wave"		"ambient\forest_bird3.wav"
+			"wave"		"ambient\forest_bird4.wav"
+			"wave"		"ambient\forest_bird5.wav"
+			"wave"		"ambient\forest_bird6.wav"
+			"wave"		"ambient\forest_bird7.wav"
+			"wave"		"ambient\forest_bird8.wav"
+			"wave"		"ambient\forest_bird9.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".8"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient_mp3/shutter4.mp3"
+			"wave"		"ambient_mp3/shutter5.mp3"
+			"wave"		"ambient_mp3/shutter6.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".7"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient\levels\canals\windchime5.wav"
+			"wave"		"ambient\levels\canals\windchime4.wav"
+		}
+	}
+}
+
+// Near the river
+"2Abbey.Riverside"
+{
+	"dsp"	"16"
+
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/outdoors.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"wave"		"ambient/windwinter.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/lightwindcreaks.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/pondwater.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\crow1.wav"
+			"wave"		"ambient\crow2.wav"
+			"wave"		"ambient\crow3.wav"
+			"wave"		"ambient\crow4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	".4"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\bird1.wav"
+			"wave"		"ambient\bird2.wav"
+			"wave"		"ambient\bird3.wav"
+			"wave"		"ambient\forest_bird1.wav"
+			"wave"		"ambient\forest_bird2.wav"
+			"wave"		"ambient\forest_bird3.wav"
+			"wave"		"ambient\forest_bird4.wav"
+			"wave"		"ambient\forest_bird5.wav"
+			"wave"		"ambient\forest_bird6.wav"
+			"wave"		"ambient\forest_bird7.wav"
+			"wave"		"ambient\forest_bird8.wav"
+			"wave"		"ambient\forest_bird9.wav"
+		}
+	}
+	
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient_mp3/shutter4.mp3"
+			"wave"		"ambient_mp3/shutter5.mp3"
+			"wave"		"ambient_mp3/shutter6.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".7"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient\levels\canals\windchime5.wav"
+			"wave"		"ambient\levels\canals\windchime4.wav"
+		}
+	}
+}
+
+// Spytech spawns
+"2Abbey.Spawns"
+{
+	"dsp"	"1"
+	
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient/lair/cap_3_tone2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".9"
+		"pitch"		"100"
+		"wave"		"ambient\lair\spawn_tone1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	
+	//tape
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient\computer_tape.wav"
+	}
+	
+	//map radar
+	//"playlooping"
+	//{
+	//	"position"	"0"
+	//	"volume"	".8"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\lair\cap_3_inside_radar1.wav"
+	//}
+	
+	//map radar2
+	//"playlooping"
+	//{
+	//	"position"	"1"
+	//	"volume"	".8"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\lair\cap_3_inside_computer_bank1.wav"
+	//}
+	
+	//computerhum
+	"playlooping"
+	{
+		"position"	"2"
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\computer_working2.wav"
+	}
+	
+	//phone
+	//"playlooping" 
+	//{
+	//	"volume"	".4"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\lair\cap_3_inside_telephone_bank2.wav"
+	//}
+	
+	//phone2
+	//"playrandom" 
+	//{
+	//	"time"		"7,10"
+	//	"volume"	".4"
+	//	"pitch"		"100"
+	//	"wave"		"ambient\lair\cap_3_inside_telephone_bank1.wav"
+	//}
+}
+
+// Church interior with chill ambience
+"2Abbey.ChurchInterior"
+{
+	"dsp"	"10"
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/lightwindcreaks.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"130"
+		"wave"		"ambient\hallowloop.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	".6"
+		"pitch"		"80,100"
+		"rndwave"
+		{
+			"wave"		"ambient\creatures\town_scared_breathing1.wav"
+			"wave"		"ambient\creatures\town_scared_breathing2.wav"
+			"wave"		"ambient\creatures\town_scared_sob1.wav"
+			"wave"		"ambient\creatures\town_scared_sob2.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"3,15"
+		"volume"	".4"
+		"pitch"		"120"
+		"rndwave"
+		{
+			"wave"		"ambient\hallow01.wav"
+			"wave"		"ambient\hallow02.wav"
+			"wave"		"ambient\hallow03.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,15"
+		"volume"	".1"
+		"pitch"		"110"
+		"rndwave"
+		{
+			"wave"		"vo\halloween_moan1.mp3"
+			"wave"		"vo\halloween_moan2.mp3"
+			"wave"		"vo\halloween_moan3.mp3"
+			"wave"		"vo\halloween_moan4.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	".7"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{		
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+		}
+	}
+}
+
+// Generic interior
+"2Abbey.GenericInterior"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".7"
+		"pitch"		"100"
+		"wave"		"ambient/lightwindcreaks.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	".7"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}
+}

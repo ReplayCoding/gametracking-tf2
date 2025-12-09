@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_gavle/sandbox_blue"
+
+	"$detail"	"overlays/detail001"
+	"$detailtexturetransform"	"center .5 .5 scale .3 .3 rotate 0 translate 0.31 0.32"
+	"$detailblendmode" "0"
+	"$detailblendfactor" ".6"
+}

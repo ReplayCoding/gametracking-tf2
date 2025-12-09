@@ -1,0 +1,1 @@
+SpawnEntityFromTable("entity_soldier_statue", { origin = "-4625 664 -512" });

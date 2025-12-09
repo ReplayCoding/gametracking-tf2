@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_matterhorn/matterhorn_bomb_barrel"
+	"$bumpmap" "models/props_matterhorn/matterhorn_bomb_barrel_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "models/props_matterhorn/matterhorn_bomb_barrel_exp"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$halflambert" "1"
+}

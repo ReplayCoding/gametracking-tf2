@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_frankenizer/church_windows/frank_church_window_large_panel_outside"
+
+	"$bumpmap" "models/props_frankenizer/church_windows/frank_church_window_large_panel_normal"
+
+	"$selfillum" "1"
+	"$selfillumfresnel"        "1"
+	"$selfillumfresnelminmaxexp"        "[0.2 3 4]"
+//	"$selfillumtint"        "[.5 1 0]"
+
+//	"$basealphaenvmapmask"		"1"
+//	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent"	"199"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$envmap"	"env_cubemap"
+	"$envmapfresnel"	"1"
+
+//	"$envmapcontrast" .5
+//	"$envmapsaturation" 1
+
+	"$envmaptint" "[ .5 .5 .5 ]"
+
+
+}

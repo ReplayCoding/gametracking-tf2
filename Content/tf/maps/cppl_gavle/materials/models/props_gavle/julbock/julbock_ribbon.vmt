@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_gavle/julbock/julbock"
+	"$bumpmap"	"models/effects/flat_normal"
+
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	"1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+//	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$detail"	"models/props_gavle/julbock/julbock_ribbon_red"
+	"$detailscale" "1"
+	"$detailblendmode"	"0"
+	"$detailblendfactor"		"1.25"
+
+	"$phongwarptexture" "models/props_gavle/bigbock/ribbon_phongwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+}

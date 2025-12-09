@@ -1,0 +1,22 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "blade/fog001a"
+	"$texture2" "blade/fog001"
+	"$texture2transform" "center .5 .5 scale 0.4 0.7 rotate 0 translate 0 0"
+	"$color" "{181 160 201}"
+	"$nocull" "1"
+	"$additive" "1"
+//	"$model" "1"
+//	"$nofog" "1"
+ 	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2Transform"
+			"texturescrollrate" 0.06
+			"texturescrollangle" 50
+		}
+	}	
+
+}

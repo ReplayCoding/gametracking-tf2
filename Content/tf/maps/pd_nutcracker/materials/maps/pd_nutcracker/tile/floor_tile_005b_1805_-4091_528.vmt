@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_nutcracker/c1805_-4091_528"
+	}
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_SURF.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_sidewinder/c-1136_-1792_-616"
+		"Proxies"
+		{
+		}
+	}
+}

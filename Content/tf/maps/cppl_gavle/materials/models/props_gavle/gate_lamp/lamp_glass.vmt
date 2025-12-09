@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_gavle/gate_lamp/lamp_glass"
+
+	"$selfillum" "1"
+	"$selfillumtint"        "[ 10 5 5 ]"
+	"$selfillumfresnel"        "1"
+	"$selfillumfresnelminmaxexp"        "[0.1 1 5]"
+
+	"$lightwarptexture" "models/props_gavle/gate_lamp/reflector_warp"
+	"$nodecal" "1"
+}
+

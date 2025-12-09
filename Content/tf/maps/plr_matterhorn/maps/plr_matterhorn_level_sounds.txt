@@ -1,0 +1,42 @@
+"Matterhorn.Rumble"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"	")ambient/lair/cap_3_mountain_rumble.wav"
+}
+"Matterhorn.Wheel"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"	")ambient\levels\labs\machine_moving_loop4.wav"
+}
+"Matterhorn.Music"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"	")music\swiss_theme_stereo.wav"
+}
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"#misc/swiss_your_team_lost.mp3"
+}
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"#misc/swiss_your_team_won.mp3"
+}

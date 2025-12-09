@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_christmas/christmastrim01"
+	"$bumpmap"				"models/props_christmas/christmastrim01_nrm"
+	"$surfaceprop" 			"metal"
+	
+	"$alphatest"			"1"
+	"$alphatestreference"	".6"
+	"$nocull"				"1"
+	
+//	"$phong" "1"
+//	"$phongexponent" "12"
+//	"$phongboost" ".5"	
+//	"$halflambert"	"1"
+//	"$phongfresnelranges"	"[.7 15 10]"
+	//"$bumpmap" "Models/effects/flat_normal"
+	
+}

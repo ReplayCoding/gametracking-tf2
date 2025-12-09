@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cppl_gavle/water/water_2fort_666_748_48.vmt"
+	"insert"
+	{
+		"$waterdepth"		"6"
+	}
+}

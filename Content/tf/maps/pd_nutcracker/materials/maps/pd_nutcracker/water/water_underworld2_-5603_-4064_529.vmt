@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_UNDERWORLD2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_nutcracker/c-5603_-4064_529"
+		"Proxies"
+		{
+		}
+	}
+}

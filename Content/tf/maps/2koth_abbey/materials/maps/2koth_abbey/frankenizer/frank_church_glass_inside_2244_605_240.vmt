@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/FRANKENIZER/FRANK_CHURCH_GLASS_INSIDE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/2koth_abbey/c2244_605_240"
+	}
+}

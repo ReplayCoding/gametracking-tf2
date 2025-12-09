@@ -37,19 +37,19 @@ MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 ************"
 	"quest25000name0"		"スカウトのコントラクト"
-	"quest25000objectivedesc0"		"スカウトでポイントを取得： %s1"
-	"quest25000objectivedesc1"		"スカウトで空中でキル： %s1"
-	"quest25000objectivedesc10"		"スカウトでスタンされた敵をキル：%s1"
+	"quest25000objectivedesc0"		"スカウトでポイントを獲得する：%s1"
+	"quest25000objectivedesc1"		"スカウトで空中でキルする： %s1"
+	"quest25000objectivedesc10"		"スカウトで気絶した敵をキルする：%s1"
 	"quest25000objectivedesc11"		"スカウトで100ダメージを防ぐ：%s1"
 	"quest25000objectivedesc12"		"ミニクリットキル：%s1"
-	"quest25000objectivedesc2"		"スカウトでデモマンをキル： %s1"
-	"quest25000objectivedesc3"		"スカウトで目標をキャプチャー： %s1"
-	"quest25000objectivedesc4"		"スカウトでキル： %s1"
-	"quest25000objectivedesc5"		"スカウトでメディックをキル： %s1"
-	"quest25000objectivedesc7"		"スカウトでトリプルジャンプ中にキル：%s1"
-	"quest25000objectivedesc8"		"スカウトで100HPを回復する： %s1"
-	"quest25000objectivedesc9"		"スカウトで出血中の敵をキル： %s1"
-	"quest25001desc0"		"このコントラクトを完了するには、さまざまなタスクを達成する必要あります。"
+	"quest25000objectivedesc2"		"スカウトでデモマンをキルする：%s1"
+	"quest25000objectivedesc3"		"スカウトで目標をキャプチャーする：%s1"
+	"quest25000objectivedesc4"		"スカウトでキルする：%s1"
+	"quest25000objectivedesc5"		"スカウトでメディックをキルする：%s1"
+	"quest25000objectivedesc7"		"スカウトでトリプルジャンプ中にキルする：%s1"
+	"quest25000objectivedesc8"		"スカウトで100ヘルス回復する：%s1"
+	"quest25000objectivedesc9"		"スカウトで出血中の敵をキルする：%s1"
+	"quest25001desc0"		"このコントラクトを完了するには、ソルジャーでさまざまなタスクを達成する必要あります。"
 	"quest25001desc1"		"************
 
 MANNCOコントラクトCALL-TO-FAX 1.54.45
@@ -131,23 +131,23 @@ MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 ************"
 	"quest25001name0"		"ソルジャーのコントラクト"
-	"quest25001objectivedesc0"		"ソルジャーでポイントを獲得：%s1"
-	"quest25001objectivedesc1"		"ソルジャーでサブ武器キル：%s1"
-	"quest25001objectivedesc10"		"ソルジャーでキルしたスナイパー：%s1"
-	"quest25001objectivedesc11"		"ソルジャーでキルしたスパイ：%s1"
-	"quest25001objectivedesc12"		"ソルジャーでキル：%s1"
-	"quest25001objectivedesc2"		"ソルジャーでブラストジャンプ中にキル: %s1"
+	"quest25001objectivedesc0"		"ソルジャーでポイントを獲得する：%s1"
+	"quest25001objectivedesc1"		"ソルジャーでサブ武器キルする：%s1"
+	"quest25001objectivedesc10"		"ソルジャーでキルしたスナイパー数：%s1"
+	"quest25001objectivedesc11"		"ソルジャーでキルしたスパイ数：%s1"
+	"quest25001objectivedesc12"		"ソルジャーでキルする：%s1"
+	"quest25001objectivedesc2"		"ソルジャーでブラストジャンプ中にキルする：%s1"
 	"quest25001objectivedesc3"		"ソルジャーでキルしたスカウト：%s1"
-	"quest25001objectivedesc4"		"サブ攻撃で空中のターゲットを倒す：%s1"
+	"quest25001objectivedesc4"		"サブ攻撃で空中のターゲットをキルする：%s1"
 	"quest25001objectivedesc5"		"ロケットを直撃させる：%s1"
 	"quest25001objectivedesc6"		"ソルジャーでキルしたデモマン：%s1"
-	"quest25001objectivedesc7"		"ソルジャーでのミニクリットキル：%s1"
-	"quest25001objectivedesc8"		"ソルジャーで200ダメージを回復：%s1"
+	"quest25001objectivedesc7"		"ソルジャーでミニクリットキル：%s1"
+	"quest25001objectivedesc8"		"ソルジャーで200ダメージを回復する：%s1"
 	"quest25001objectivedesc9"		"ソルジャーでキルしたメディック：%s1"
-	"quest25002desc0"		"このコントラクトを完了するには、パイロとしてさまざまなタスクを完了する必要があります。"
+	"quest25002desc0"		"このコントラクトを完了するには、パイロでさまざまなタスクを完了する必要があります。"
 	"quest25002desc1"		"************
 
-MANNCOコントラクト：CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID：<915PAULING>
@@ -163,7 +163,7 @@ MANNCOコントラクト：CALL-TO-FAX 1.54.45
 ************"
 	"quest25002desc2"		"************
 
-MANNCOコントラクト：CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID：<915PAULING>
@@ -178,15 +178,15 @@ MANNCOコントラクト：CALL-TO-FAX 1.54.45
 
 ************"
 	"quest25002name0"		"パイロのコントラクト"
-	"quest25002objectivedesc0"		"パイロでポイントを獲得：%s1"
+	"quest25002objectivedesc0"		"パイロでポイントを獲得する：%s1"
 	"quest25002objectivedesc1"		"パイロでチームメイトを消火する：%s1"
-	"quest25002objectivedesc2"		"パイロで跳ね返した投射物でキル：%s1"
-	"quest25002objectivedesc3"		"パイロでの環境キル：%s1"
-	"quest25002objectivedesc4"		"パイロで透明または変装したスパイに火をつける：%s1"
-	"quest25002objectivedesc5"		"パイロでキル：%s1"
+	"quest25002objectivedesc2"		"パイロで跳ね返した投射物でキルする：%s1"
+	"quest25002objectivedesc3"		"パイロで環境キルする：%s1"
+	"quest25002objectivedesc4"		"パイロで透明化または変装したスパイに火をつける：%s1"
+	"quest25002objectivedesc5"		"パイロでキルする：%s1"
 	"quest25002objectivedesc7"		"クリットキル：%s1"
 	"quest25002objectivedesc8"		"ミニクリットキル：%s1"
-	"quest25003desc0"		"このコントラクトを完了するには、デモマンとしてさまざまなタスクを完了する必要があります。"
+	"quest25003desc0"		"このコントラクトを完了するには、デモマンでさまざまなタスクを完了する必要があります。"
 	"quest25003desc1"		"************
 
 MANNCOコントラクトCALL-TO-FAX 1.54.45
@@ -268,13 +268,13 @@ MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 ************"
 	"quest25003name0"		"デモマンのコントラクト"
-	"quest25003objectivedesc0"		"デモマンでポイントを獲得：%s1"
-	"quest25003objectivedesc1"		"デモマンでスティッキーグレネードキル：%s1"
-	"quest25003objectivedesc2"		"デモマンで近接キル：%s1"
-	"quest25003objectivedesc3"		"デモマンで目標達成中の敵をキル：%s1"
-	"quest25003objectivedesc4"		"デモマンでキルを達成：%s1"
+	"quest25003objectivedesc0"		"デモマンでポイントを獲得する：%s1"
+	"quest25003objectivedesc1"		"デモマンでスティッキーグレネードキルする：%s1"
+	"quest25003objectivedesc2"		"デモマンで近接キルする：%s1"
+	"quest25003objectivedesc3"		"デモマンで目標を遂行中の敵をキルする：%s1"
+	"quest25003objectivedesc4"		"デモマンでキルする：%s1"
 	"quest25003objectivedesc5"		"盾で敵を攻撃する：%s1"
-	"quest25003objectivedesc7"		"頭を収集する：%s1"
+	"quest25003objectivedesc7"		"首を集める：%s1"
 	"quest25004desc0"		"このコントラクトを完了するには、ヘビーで様々なタスクを完了する必要があります。"
 	"quest25004desc1"		"************
 
@@ -287,7 +287,7 @@ MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 ************
 
-ヘビー、ポーリンよ。勤務中よね。ってことは人を殺してる最中かしら。[00:03沈黙] 手が離せないでしょうけど、こんな仕事が入ったの。
+ヘビー、ポーリンよ。勤務中よね。ってことは人を殺してる最中かしら。[00:03 無音] 手が離せないでしょうけど、こんな仕事が入ったの。
 
 <END TRANSCRIPT>
 
@@ -303,24 +303,24 @@ MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 ************
 
-ヘビー。この案件は極秘にしてほしいの。[00:04沈黙] まあ、あなたは無口だものね。心配ないか。
+ヘビー。この案件は極秘にしてほしいの。[00:04 無音] まあ、あなたは無口だものね。心配ないか。
 
 <END TRANSCRIPT>
 
 ************"
 	"quest25004name0"		"ヘビーのコントラクト"
-	"quest25004objectivedesc0"		"ヘビーでポイントを獲得：%s1"
+	"quest25004objectivedesc0"		"ヘビーでポイントを獲得する：%s1"
 	"quest25004objectivedesc1"		"ヘビーで設置物をキャプチャーあるいは防衛する：%s1"
-	"quest25004objectivedesc2"		"ヘビーでスカウトをキル：%s1"
+	"quest25004objectivedesc2"		"ヘビーでスカウトをキルする：%s1"
 	"quest25004objectivedesc3"		"ヘビーでエンジニアの装置を破壊する：%s1"
-	"quest25004objectivedesc4"		"ヘビーでヘビーをキル：%s1"
-	"quest25004objectivedesc5"		"ヘビーで1ライフで1000ダメージを受ける：%s1"
-	"quest25004objectivedesc6"		"ヘビーでキルを達成：%s1"
-	"quest25004objectivedesc8"		"ヘビーでチームメイトで食料を与える：%s1"
+	"quest25004objectivedesc4"		"ヘビーでヘビーをキルする：%s1"
+	"quest25004objectivedesc5"		"ヘビーで1回のライフで1000ダメージを受ける：%s1"
+	"quest25004objectivedesc6"		"ヘビーでキルする：%s1"
+	"quest25004objectivedesc8"		"ヘビーで味方に食料を与える：%s1"
 	"quest25005desc0"		"このコントラクトを完了するには、エンジニアで様々なタスクを完了する必要があります。"
 	"quest25005desc1"		"<915PAULING>**********
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 MESSAGE-ID: <915PAULING>
@@ -329,14 +329,14 @@ MESSAGE-ID: <915PAULING>
 
 ************
 
-エンジニア。あなたの倉庫に液化できるものはない？ [00:03沈黙] そうね… [00:04沈黙] ざっと80人くらいかしら。これでも私の粉砕機で少し減らしたのよ。とにかく、何かいい方法があったら教えてちょうだい。仕事があるの。
+エンジニア。あなたの倉庫に液化できるものはない？ [00:03 無音] そうね… [00:04 無音] ざっと80人くらいかしら。これでも私の粉砕機で少し減らしたのよ。とにかく、何かいい方法があったら教えてちょうだい。仕事があるの。
 
 <END TRANSCRIPT>
 
 ************"
 	"quest25005desc2"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージ ID: <915PAULING>
@@ -352,7 +352,7 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25005desc3"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージ ID: <915PAULING>
@@ -367,21 +367,21 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 **************"
 	"quest25005name0"		"エンジニアのコントラクト"
-	"quest25005objectivedesc0"		"エンジニアでポイントを獲得：%s1"
-	"quest25005objectivedesc1"		"セントリー1個で5キルを達成する：%s1"
-	"quest25005objectivedesc2"		"セントリーを使用してキルを達成する：%s1"
-	"quest25005objectivedesc3"		"チームメイトをテレポートさせる：%s1"
-	"quest25005objectivedesc4"		"エンジニアでキルを達成する：%s1"
-	"quest25005objectivedesc5"		"チームメイトに体力を500与える: %s1"
-	"quest25005objectivedesc7"		"ラングル・セントリーを使用してキル：%s1"
-	"quest25005objectivedesc8"		"リベンジクリットキル：%s1"
+	"quest25005objectivedesc0"		"エンジニアでポイントを獲得する：%s1"
+	"quest25005objectivedesc1"		"セントリー1個で5キルする：%s1"
+	"quest25005objectivedesc2"		"セントリーを使用してキルする：%s1"
+	"quest25005objectivedesc3"		"味方をテレポートする：%s1"
+	"quest25005objectivedesc4"		"エンジニアでキルする：%s1"
+	"quest25005objectivedesc5"		"味方に500ヘルス与える：%s1"
+	"quest25005objectivedesc7"		"ラングルド・セントリーを使用してキルする：%s1"
+	"quest25005objectivedesc8"		"リベンジ・クリティカルキル：%s1"
 	"quest25006desc0"		"このコントラクトを完了するには、メディックで様々なタスクを完了する必要があります。"
 	"quest25006desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
-メッセージID： <915PAULING>
+新着メッセージ1件 
+メッセージID：<915PAULING>
 
 処理中…
 
@@ -394,41 +394,41 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25006desc2"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中…
 
 ************
 
-メェェェディーーーック！ちょっとモノマネしてみたの。[00:03 沈黙] 今思うとちょっと不謹慎だったわね。だってその言葉を叫んでる人たちって大抵 [00:06 沈黙] その…死にかけてるときだし。
+メェェェディーーーック！ちょっとモノマネしてみたの。[00:03 無音] 今思うとちょっと不謹慎だったわね。だってその言葉を叫んでる人たちって大抵 [00:06 無音] その…死にかけてるときだし。
 
 <END TRANSCRIPT>
 
 ************"
 	"quest25006desc3"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
 
 ************
 
-メディック、ポーリングよ。今回は手袋を外しておいて。[00:04 沈黙] やっぱり、手袋はつけたままで。ちょっと荒れるかもしれないわ。
+メディック、ポーリングよ。今回は手袋を外しておいて。[00:04 無音] やっぱり、手袋はつけたままで。ちょっと荒れるかもしれないわ。
 
 <END TRANSCRIPT>
 
 ************"
 	"quest25006desc4"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -441,16 +441,16 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 ************"
 	"quest25006name0"		"メディックのコントラクト"
-	"quest25006objectivedesc0"		"メディックでポイントを獲得：%s1"
-	"quest25006objectivedesc1"		"ユーバーチャージしたヘビーを使用してアシストを達成：%s1"
-	"quest25006objectivedesc2"		"ユーバーチャージ中にセントリーの破壊をアシスト：%s1"
-	"quest25006objectivedesc3"		"ユーバーチャージしたデモマンを使用してアシストを達成：%s1"
-	"quest25007desc0"		"このコントラクトを完了するには、スナイパーで様々なタスクを完了する必要があります。"
+	"quest25006objectivedesc0"		"メディックでポイントを獲得する：%s1"
+	"quest25006objectivedesc1"		"ユーバーチャージしたヘビーを使用してアシストする：%s1"
+	"quest25006objectivedesc2"		"ユーバーチャージ中にセントリーの破壊をアシストする：%s1"
+	"quest25006objectivedesc3"		"ユーバーチャージしたデモマンを使用してアシストする：%s1"
+	"quest25007desc0"		"このコントラクトを完了するには、スナイパーでさまざまなタスクを完了する必要があります。"
 	"quest25007desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -464,7 +464,7 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25007desc2"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件
 メッセージID：<915PAULING>
@@ -479,23 +479,23 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 ************"
 	"quest25007name0"		"スナイパーのコントラクト"
-	"quest25007objectivedesc0"		"スナイパーでポイントを獲得： %s1"
-	"quest25007objectivedesc1"		"スナイパーでスコープを使用してボディショットキル：%s1"
-	"quest25007objectivedesc10"		"スコープを使用せずにヘッドショット：%s1"
-	"quest25007objectivedesc11"		"矢を使用してヘッドショット：%s1"
-	"quest25007objectivedesc2"		"スナイパーでヘッドショットキル：%s1"
-	"quest25007objectivedesc3"		"スナイパーでメディックを倒す：%s1"
-	"quest25007objectivedesc4"		"スナイパーでヘビーを倒す：%s1"
-	"quest25007objectivedesc5"		"スナイパーでスナイパーを倒す：%s1"
-	"quest25007objectivedesc6"		"スナイパーでキルを達成する： %s1"
-	"quest25007objectivedesc8"		"ブッシュワッカで、ジャラテされた敵をキルする：%s1"
-	"quest25007objectivedesc9"		"ジャラテされた敵をキルする：%s1"
+	"quest25007objectivedesc0"		"スナイパーでポイントを獲得する：%s1"
+	"quest25007objectivedesc1"		"スナイパーでスコープを使用してボディショットキルする：%s1"
+	"quest25007objectivedesc10"		"スコープを使用せずにヘッドショットする：%s1"
+	"quest25007objectivedesc11"		"矢を使用してヘッドショットする：%s1"
+	"quest25007objectivedesc2"		"スナイパーでヘッドショットキルする：%s1"
+	"quest25007objectivedesc3"		"スナイパーでメディックをキルする：%s1"
+	"quest25007objectivedesc4"		"スナイパーでヘビーをキルする：%s1"
+	"quest25007objectivedesc5"		"スナイパーでスナイパーをキルする：%s1"
+	"quest25007objectivedesc6"		"スナイパーでキルする：%s1"
+	"quest25007objectivedesc8"		"ブッシュワッカでジャラテを受けた敵をキルする：%s1"
+	"quest25007objectivedesc9"		"ジャラテ受けた敵をキルする：%s1"
 	"quest25008desc0"		"このコントラクトを完了するには、スパイで様々なタスクを完了する必要があります。"
 	"quest25008desc1"		"************
 
-MANNCO コントラクト C ALL ~TO -FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件　
 メッセージID：<915PAULING>
 
 処理中...
@@ -509,7 +509,7 @@ MANNCO コントラクト C ALL ~TO -FAX 1.54.45
 ************"
 	"quest25008desc2"		"*************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件
 メッセージID：<915PAULING>
@@ -524,20 +524,20 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 ***********"
 	"quest25008name0"		"スパイのコントラクト"
-	"quest25008objectivedesc0"		"スパイでポイント獲得：%s1"
-	"quest25008objectivedesc1"		"サッパーを使って装置を破壊：%s1"
-	"quest25008objectivedesc2"		"バックスタブを達成：%s1"
-	"quest25008objectivedesc3"		"スパイでメディックを倒す：%s1"
-	"quest25008objectivedesc4"		"スパイでエンジニアを倒す：%s1"
-	"quest25008objectivedesc5"		"スパイでスナイパーを倒す：%s1"
-	"quest25008objectivedesc6"		"スパイで敵を倒す：%s1"
-	"quest25008objectivedesc8"		"ヘッドショットでキル：%s1"
+	"quest25008objectivedesc0"		"スパイでポイント獲得する：%s1"
+	"quest25008objectivedesc1"		"サッパーを使って装置を破壊する：%s1"
+	"quest25008objectivedesc2"		"バックスタブする：%s1"
+	"quest25008objectivedesc3"		"スパイでメディックをキルする：%s1"
+	"quest25008objectivedesc4"		"スパイでエンジニアをキルする：%s1"
+	"quest25008objectivedesc5"		"スパイでスナイパーをキルする：%s1"
+	"quest25008objectivedesc6"		"スパイで敵をキルする：%s1"
+	"quest25008objectivedesc8"		"ヘッドショットキル：%s1"
 	"quest25008objectivedesc9"		"サイレント・バックスタブ：%s1"
 	"quest25009desc0"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -551,9 +551,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25009desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -567,9 +567,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25009desc2"		"*************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -584,9 +584,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ***********"
 	"quest25009desc3"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -599,14 +599,14 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 ************"
 	"quest25009name0"		"パワーハウスの契約"
-	"quest25009objectivedesc0"		"パワーハウスでキルを達成する：%s1"
+	"quest25009objectivedesc0"		"パワーハウスでキルする：%s1"
 	"quest25009objectivedesc1"		"パワーハウスで設置物をキャプチャーする: %s1"
-	"quest25009objectivedesc2"		"パワーハウスのコントロールポイントをキャプチャーして敵を倒す：%s1"
-	"quest25009objectivedesc3"		"パワーハウスでラウンドを勝つ： %s1"
-	"quest25009objectivedesc4"		"パワーハウスで得点する： %s1"
+	"quest25009objectivedesc2"		"パワーハウスでコントロールポイントをキャプチャーしている敵をキルする：%s1"
+	"quest25009objectivedesc3"		"パワーハウスでラウンドを勝つ：%s1"
+	"quest25009objectivedesc4"		"パワーハウスでポイントを獲得する：%s1"
 	"quest25010desc0"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID：<915PAULING>
@@ -622,9 +622,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25010desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -638,9 +638,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25010desc2"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -653,13 +653,13 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 
 ************"
 	"quest25010name0"		"スノープラウでの契約"
-	"quest25010objectivedesc0"		"スノープラウで得点する： %s1"
-	"quest25010objectivedesc1"		"スノープラウで目標をキャプチャーする： %s1"
-	"quest25010objectivedesc2"		"スノープラウで目標を防衛する： %s1"
-	"quest25010objectivedesc3"		"スノープラウでラウンドを勝つ： %s1"
+	"quest25010objectivedesc0"		"スノープラウでポイントを獲得する：%s1"
+	"quest25010objectivedesc1"		"スノープラウで設置物をキャプチャーする：%s1"
+	"quest25010objectivedesc2"		"スノープラウで設置物を防衛する：%s1"
+	"quest25010objectivedesc3"		"スノープラウでラウンドを勝つ：%s1"
 	"quest25011desc0"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID： <915PAULING>
@@ -675,7 +675,7 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25011desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件
 メッセージID：<915PAULING>
@@ -689,16 +689,16 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 <END TRANSCRIPT>
 
 ************"
-	"quest25011name0"		"ボルネオでの契約"
-	"quest25011objectivedesc0"		"ボルネオで得点する： %s1"
-	"quest25011objectivedesc1"		"ボルネオで目標をキャプチャーする： %s1"
-	"quest25011objectivedesc2"		"ボルネオでカートを防衛する： %s1"
-	"quest25011objectivedesc3"		"ボルネオでラウンドを勝つ： %s1"
+	"quest25011name0"		"ボルネオのコントラクト"
+	"quest25011objectivedesc0"		"ボルネオでポイントを獲得する：%s1"
+	"quest25011objectivedesc1"		"ボルネオで設置物をキャプチャーする：%s1"
+	"quest25011objectivedesc2"		"ボルネオでカートを防衛する：%s1"
+	"quest25011objectivedesc3"		"ボルネオでラウンドを勝つ：%s1"
 	"quest25012desc0"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -712,9 +712,9 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25012desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中...
@@ -726,15 +726,15 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 <END TRANSCRIPT>
 
 ************"
-	"quest25012name0"		"スイジンでの契約"
+	"quest25012name0"		"スイジンのコントラクト"
 	"quest25012objectivedesc0"		"スイジンでポイントを獲得する：%s1"
-	"quest25012objectivedesc1"		"スイジンで目標を防衛する： %s1"
-	"quest25012objectivedesc2"		"スイジンで目標をキャプチャーする： %s1"
+	"quest25012objectivedesc1"		"スイジンで設置物を防衛する：%s1"
+	"quest25012objectivedesc2"		"スイジンで設置物をキャプチャーする：%s1"
 	"quest25012objectivedesc3"		"スイジンでラウンドを勝つ：%s1"
-	"quest25013desc0"		"この契約を完了するには、任意のマップと任意のクラスでポイントを獲得する必要があります。"
+	"quest25013desc0"		"このコントラクトを完了するには、任意のマップと任意のクラスでポイントを獲得する必要があります。"
 	"quest25013desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID：<915PAULING>
@@ -748,16 +748,16 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 <END TRANSCRIPT>
 
 ************"
-	"quest25013name0"		"契約を開く"
+	"quest25013name0"		"コントラクトを開く"
 	"quest25013objectivedesc0"		"ポイントを獲得する：%s1"
 	"quest25013objectivedesc1"		"1回のライフで 10 ポイント獲得する：%s1"
-	"quest25013objectivedesc2"		"ラウンド終了時に、MVPになる：%s1"
-	"quest25014desc0"		"この契約を完了するには、キルを達成する必要があります"
+	"quest25013objectivedesc2"		"ラウンド終了時にMVPになる：%s1"
+	"quest25014desc0"		"このコントラクトを完了するには、キルを達成する必要があります"
 	"quest25014desc1"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
-新着メッセージ1件
+新着メッセージ1件 
 メッセージID：<915PAULING>
 
 処理中…
@@ -771,7 +771,7 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 ************"
 	"quest25014desc2"		"************
 
-MANNCO コントラクト CALL-TO-FAX 1.54.45
+MANNCOコントラクトCALL-TO-FAX 1.54.45
 
 新着メッセージ1件 
 メッセージID：<915PAULING>
@@ -788,25 +788,25 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 	"quest25014name0"		"死の契約"
 	"quest25014objectivedesc0"		"キルを達成する：%s1"
 	"quest25014objectivedesc1"		"1回のライフで5キルを達成する：%s1"
-	"quest25014objectivedesc10"		"スパイを倒す：%s1"
-	"quest25014objectivedesc2"		"スカウトを倒す：%s1"
-	"quest25014objectivedesc3"		"ソルジャーを倒す：%s1"
-	"quest25014objectivedesc4"		"パイロを倒す：%s1"
-	"quest25014objectivedesc5"		"デモマンを倒す：%s1"
-	"quest25014objectivedesc6"		"ヘビーを倒す：%s1"
-	"quest25014objectivedesc7"		"エンジニアを倒す： %s1"
-	"quest25014objectivedesc8"		"メディックを倒す：%s1"
-	"quest25014objectivedesc9"		"スナイパーを倒す：%s1"
+	"quest25014objectivedesc10"		"スパイをキルする：%s1"
+	"quest25014objectivedesc2"		"スカウトをキルする：%s1"
+	"quest25014objectivedesc3"		"ソルジャーをキルする：%s1"
+	"quest25014objectivedesc4"		"パイロをキルする：%s1"
+	"quest25014objectivedesc5"		"デモマンをキルする：%s1"
+	"quest25014objectivedesc6"		"ヘビーをキルする：%s1"
+	"quest25014objectivedesc7"		"エンジニアをキルする：%s1"
+	"quest25014objectivedesc8"		"メディックをキルする：%s1"
+	"quest25014objectivedesc9"		"スナイパーをキルする：%s1"
 	"quest25015desc1"		"このクエストには、目標がてんこ盛りだ！ワオ！"
 	"quest25015name1"		"メラミッション1"
 	"quest25015name1632016"		"ハロウィン2015・テストクエスト"
 	"quest25015objectivedesc1"		"クランプキンでキルする：%s1"
-	"quest25015objectivedesc10"		"アイダクトのパーガトリーで敵を倒す：%s1"
+	"quest25015objectivedesc10"		"アイアダクトのパーガトリーで敵をキルする：%s1"
 	"quest25015objectivedesc11"		"ゴーストフォートのスカルアイランドを脱出する：%s1"
 	"quest25015objectivedesc12"		"ボムヘッドでメラスマスを気絶させる：%s1"
 	"quest25015objectivedesc13"		"メラスマスが隠れている小道具を探す：%s1"
-	"quest25015objectivedesc14"		"ヘルタワーの地獄で敵を倒す：%s1"
-	"quest25015objectivedesc15"		"ヘルタワーのスケルトンを倒す：%s1"
+	"quest25015objectivedesc14"		"ヘルタワーの地獄で敵をキルする：%s1"
+	"quest25015objectivedesc15"		"ヘルタワーのスケルトンをキルする：%s1"
 	"quest25015objectivedesc16"		"ヘルタワーのスペクトラルブリッジを渡る：%s1"
 	"quest25015objectivedesc17"		"ヘルタワーのヘルから脱出する：%s1"
 	"quest25015objectivedesc18"		"バンパーカートのミニゲームで勝つ：%s1"
@@ -814,12 +814,12 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 	"quest25015objectivedesc2"		"クランプキンを拾う：%s1"
 	"quest25015objectivedesc20"		"バンパーカートでアヒルを集める：%s1"
 	"quest25015objectivedesc21"		"敵を衝突で倒す：%s1"
-	"quest25015objectivedesc22"		"アイダクトで魂を集める：%s1"
-	"quest25015objectivedesc3"		"ヤイクスされた敵を倒す：%s1"
+	"quest25015objectivedesc22"		"アイアダクトで魂を集める：%s1"
+	"quest25015objectivedesc3"		"ヤイクスされた敵をキルする：%s1"
 	"quest25015objectivedesc4"		"パンプキンボムでキルする：%s1"
-	"quest25015objectivedesc5"		"HHHを倒す：%s1"
-	"quest25015objectivedesc6"		"メラスマスを倒す：%s1"
-	"quest25015objectivedesc7"		"モノキュラスを倒す：%s1"
+	"quest25015objectivedesc5"		"HHHをキルする：%s1"
+	"quest25015objectivedesc6"		"メラスマスをキルする：%s1"
+	"quest25015objectivedesc7"		"モノキュラスをキルする：%s1"
 	"quest25015objectivedesc8"		"アイダクトでルートアイランドから脱出する：%s1"
 	"quest25015objectivedesc9"		"マンマナーでプレイヤーを「IT」のタグをつける：%s1"
 	"quest25016desc1"		"次のお前の地獄の契約は…なんと…俺を殺すことだ。
@@ -829,12 +829,271 @@ MANNCO コントラクト CALL-TO-FAX 1.54.45
 	"quest25016desc3"		"メラスマス本体を…殺してくれるか？それから、もし可能であれば、ロシア軍がやってしまう前に片付けてくれないか？だって、あいつらがメラスマスをあっさりころしてくれ「ない」のは極めて明白だからな。"
 	"quest25016name1"		"メラスマス"
 	"quest25016name1632016"		"メラスマス討伐クエスト"
-	"quest25016objectivedesc1"		"メラスマスを倒す：%s1"
-	"quest25017desc1"		"この私がこの契約の詳細を声に出して読み上げよう者なら、お前が知っている小さな世界はバラバラになるであろう！悪夢へようこそ、死せる者よ！読むのだ！"
+	"quest25016objectivedesc1"		"メラスマスをキルする：%s1"
+	"quest25017desc1"		"この私がこの契約の詳細を声に出して読み上げよう者なら、お前が知っている小さな世界はバラバラになるであろう！悪夢へようこそ、人間よ！読むのだ！"
 	"quest25017name1"		"モノキュラス"
-	"quest25017name1632016"		"キル・モノキュラス"
-	"quest25017objectivedesc1"		"アイダクトでモノキュラスを倒す：%s1"
-	"quest25022name1"		"Carnival of Carnage"
-	}
+	"quest25017name1632016"		"モノキュラスをキルする"
+	"quest25017objectivedesc1"		"アイダクトでモノキュラスをキルする：%s1"
+	"quest25018desc1"		"今夜、貴様は過去のハロウィンの世界を訪れることになる！私のコネを使ってホースレス・ヘッドレス・ホースマンに現れて貴様を殺させた時のことを覚えているか？うらやましい限りだ！今夜、私が殺されたらいいのにと思っている自分もいるほどだ！"
+	"quest25018desc2"		"人間よ。もし失敗すれば、コントラクトを違反することになるぞ！そうなれば、貴様の魂で償ってもらわねばな…もちろん金銭的補償もしてもらうぞ。メラスマスはYに住んでいる。"
+	"quest25018name1"		"ホースレス・ヘッドレス・ホースマン"
+	"quest25018name1632016"		"HHHクエスト"
+	"quest25018objectivedesc1"		"マンマナーでホースレス・ヘッドレス・ホースマンを倒す：%s1"
+	"quest25019desc1"		"今夜、貴様は過去のハロウィンの世界を訪れることになる！デモマンの片目を操って、貴様ら全員を襲わせた時のことを覚えているか？あれは実に邪悪だった！メラスマスはそろそろ、邪悪賞を飾る棚をさらに大きくせねばならんだろうな。賞の方も、間違いなくその棚に飾られることを望んでいるだろうな。"
+	"quest25019desc2"		"今夜、貴様は過去のハロウィンの世界を訪れることになる！ソルジャーが、私の悪の城をアライグマの保護施設にしてしまった時のようだな！その時のことを覚えているか？あれは…メラスマスにとって最悪の日だった。立ち直るのにかなりの時間がかかったからな。"
+	"quest25019name1"		"アイアダクト"
+	"quest25019name1632016"		"アイアダクト・クエスト"
+	"quest25019objectivedesc1"		"パーガトリーで敵をキルする：%s1"
+	"quest25019objectivedesc2"		"ルートアイランドから脱出する：%s1"
+	"quest25019objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25019objectivedesc4"		"ハロウィンパンプキンを集める：%s1"
+	"quest25019objectivedesc5"		"パンプキンクリットのブースト中にキルする：%s1"
+	"quest25019objectivedesc6"		"ゴーストに怯えているプレイヤーをキルする：%s1"
+	"quest25019objectivedesc7"		"アイアダクトで魂を集める：%s1"
+	"quest25020desc1"		"この契約を勝ち抜くできる自信があるのか？ならば、賭けられるか…貴様のその魂を？念押ししておくが、これはあからさまに脅しているわけはない。さもなくば、貴様は強要されてこの契約に同意したことになってしまうからな。それは…ふん、メラスマスにとっては不都合なのだ。"
+	"quest25020desc2"		"今宵、境界は消え去る！既知と未知の間に！現実と非現実の間に！ロシア人マフィアへの支払い済みの借金と未払いの借金の間に！フハハ！ハハ…。人間よ、奴らはメラスマスをトランクに閉じ込めてしまったぞ！"
+	"quest25020name1"		"ゴーストフォート"
+	"quest25020name1632016"		"ゴーストフォート"
+	"quest25020objectivedesc1"		"ゴーストフォートのスカルアイランドを脱出する：%s1"
+	"quest25020objectivedesc2"		"爆弾でメラスマスを気絶させる：%s1"
+	"quest25020objectivedesc3"		"メラスマスの隠れ場所を見つける：%s1"
+	"quest25020objectivedesc4"		"ゴーストフォートで魂を集める：%s1"
+	"quest25021desc1"		"このコントラクトは、悪そのものなのだ！法的拘束力があるわけではないがな！メラスマスは法学を学んだわけではないからな！彼は、すべて路上で学んだのだ！ヘルタワーの路上でな！"
+	"quest25021desc2"		"この契約は単なる悪事などではない！ハワイ州を除くすべての州で法的に拘束力があるのだ！フハハ！アロハだ、死せる者よ！"
+	"quest25021name1"		"ヘルタワー"
+	"quest25021name1632016"		"ヘルタワー"
+	"quest25021objectivedesc1"		"ヘルタワーでボンビノミコンに到達する：%s1"
+	"quest25021objectivedesc2"		"ヘルタワーでスケルトンを倒す：%s1"
+	"quest25021objectivedesc3"		"ヘルタワーのヘルで敵をキルする：%s1"
+	"quest25021objectivedesc4"		"魔女の時間帯に時計台に進入する：%s1"
+	"quest25021objectivedesc5"		"ヘルタワーで魂を集める：%s1"
+	"quest25022desc1"		"あんた、いい魂をしているね。もしこのミッションに失敗したら、魔法使いがそれを奪っちまうかもしれない！ヒヒヒ！そうだ、メラスマス、よろしい。さりげない感じがいい。多分誰も気づいていないだろう。うまく紛れ込ませたね。"
+	"quest25022desc2"		"おののけ、人間よ！この邪悪なコントラクトの深淵に渦巻く、底知れぬ悪に震え上がるのだ！フハハハ！おまけに、二重行間だぞ！"
+	"quest25022name1"		"虐殺のカーニバル"
+	"quest25022name1632016"		"虐殺のカーニバル"
+	"quest25022objectivedesc1"		"バンパーカー中に味方を蘇生する：%s1"
+	"quest25022objectivedesc2"		"アヒルを集める：%s1"
+	"quest25022objectivedesc3"		"敵を衝突で倒す：%s1"
+	"quest25022objectivedesc4"		"バンパーカーゲームで勝つ：%s1"
+	"quest25022objectivedesc5"		"呪われている状態で敵をキルする：%s1"
+	"quest25022objectivedesc6"		"虐殺のカーニバルで魂を集める：%s1"
+	"quest25023desc1"		"おや、サウロン。こんにちは。なに？そうさ、メラスマスは鍛えているよ。気づいてくれて光栄だ、あの…ちょっと待って、間抜けな傭兵に契約書を渡さないと。"
+	"quest25023desc2"		"このメラスミッションを凝視してくれるな！ここには。人間の科学者がシルバーフィッシュと呼ぶであろう地獄の虫たちが巣食っている。その通りだ、死せる者よ。メラスマスのストレージユニットは重大な水害に見舞われていたのだ！"
+	"quest25023name1"		"マンマナー"
+	"quest25023name1632016"		"マンマナー"
+	"quest25023objectivedesc1"		"マンマナーでプレイヤーに「IT」のタグをつける：%s1"
+	"quest25023objectivedesc2"		"マンマナーで魂を集める：%s1"
+	"quest25023objectivedesc3"		"マンマナーで設置物をキャプチャーもしくは防衛する：%s1"
+	"quest25024desc1"		"親愛なる人間よ！お前の愛するものは夜明けまでに皆死ぬであろう！メラスマスより！追伸：私はまだ死んでなどおらんぞ。なぜなら、お前が憎いからな！"
+	"quest25024name1"		"ハーベスト"
+	"quest25024name1632016"		"ハーベスト"
+	"quest25024objectivedesc1"		"ハーベストイベントで怯えている敵をキルする：%s1"
+	"quest25024objectivedesc2"		"ハーベストイベントでハロウィンパンプキンを集める：%s1"
+	"quest25024objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25024objectivedesc4"		"ハーベストイベントで魂を集める：%s1"
+	"quest25025desc1"		"君がこの契約を最後まで「履行」してくれると信じている。途中で「解約」されるのは嫌いでね。ハハ。契約上の... 義務を「果たしてくれる」ことを願ってるよ。いいかい、もっとマシな結末を思いついたらメラスマスにメールしてくれ。"
+	"quest25025name0"		"ゴージイベント"
+	"quest25025name1"		"ゴージイベント"
+	"quest25025objectivedesc1"		"ゴージイベントで魂を集める：%s1"
+	"quest25025objectivedesc2"		"ハロウィンパンプキンを集める：%s1"
+	"quest25025objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25026desc1"		"満ちた月が夜空にぶら下がっているぞ、人間よ！貴様にはこの契約を完結できまい！月を間抜けに見せる勇気はあるか？"
+	"quest25026name0"		"ムーンシャイン"
+	"quest25026name1"		"ムーンシャイン"
+	"quest25026objectivedesc1"		"ムーンシャインイベントで魂を集める：%s1"
+	"quest25026objectivedesc2"		"ハロウィンパンプキンをを集める：%s1"
+	"quest25026objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25027desc1"		"人間よ、背中に熱を感じるか？感じるだろう！なぜなら、このコントラクトがお前を追い立てるのだからな！"
+	"quest25027name0"		"ヘルストーン"
+	"quest25027name1"		"ヘルストーン"
+	"quest25027objectivedesc1"		"ヘルストーンで魂を集める：%s1"
+	"quest25027objectivedesc2"		"ハロウィンパンプキンを集める：%s1"
+	"quest25027objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25028desc1"		"外壁、墓地。 血まみれの契約書を保持している死体にズームインします：なんとあの死体はあなたです！そうに違いありません！メラスマスの脚本は本当に素晴らしい！"
+	"quest25028name0"		"シンシャイン"
+	"quest25028name1"		"シンシャインイベント"
+	"quest25028objectivedesc1"		"シンシャインで魂を集める：%s1"
+	"quest25028objectivedesc2"		"ハロウィンパンプキンを集める：%s1"
+	"quest25028objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25029name0"		"ペイロードクエスト"
+	"quest25029name1"		"ペイロード"
+	"quest25029objectivedesc1"		"ペイロードマップでポイントを獲得する：%s1"
+	"quest25029objectivedesc2"		"ペイロードカートを押す：%s1"
+	"quest25029objectivedesc3"		"カートを押している敵をキルする：%s1"
+	"quest25029objectivedesc4"		"ペイロードでラウンドを勝利する：%s1"
+	"quest25030name0"		"CPクエスト"
+	"quest25030name1"		"キャプチャーポイント"
+	"quest25030objectivedesc1"		"CPマップでポイントを稼ぐ：%s1"
+	"quest25030objectivedesc2"		"CPマップでコントロールポイントをキャプチャーする：%s1"
+	"quest25030objectivedesc3"		"CPマップでコントロールポイントを防衛する：%s1"
+	"quest25030objectivedesc4"		"CPマップでラウンドを勝利する：%s1"
+	"quest25031desc1"		"このコントラクトを完了するには、スカウトでソーダポッパーを使用する必要があります。"
+	"quest25031name0"		"スカウト — ソーダポッパー"
+	"quest25031name1"		"ソーダポッパー"
+	"quest25031objectivedesc1"		"スカウトでポイントを獲得する：%s1"
+	"quest25031objectivedesc2"		"スカウトでキルする：%s1"
+	"quest25031objectivedesc3"		"スカウトでジャンプ中にキルする：%s1"
+	"quest25031objectivedesc4"		"スカウトでトリプルジャンプ中にキルする：%s1"
+	"quest25032name0"		"スカウト — サンドマン"
+	"quest25032name1"		"サンドマン"
+	"quest25032objectivedesc1"		"スカウトでポイントを獲得する：%s1"
+	"quest25032objectivedesc2"		"スカウトでキルする：%s1"
+	"quest25032objectivedesc3"		"気絶した敵をキルする：%s1"
+	"quest25032objectivedesc4"		"スカウトで設置物をキャプチャーする：%s1"
+	"quest25033name0"		"ソルジャー — ダイレクトヒット"
+	"quest25033name1"		"ダイレクトヒット"
+	"quest25033objectivedesc1"		"ソルジャーでポイントを獲得：%s1"
+	"quest25033objectivedesc2"		"ソルジャーで敵をキルする：%s1"
+	"quest25033objectivedesc3"		"ソルジャーでミニクリットキル：%s1"
+	"quest25033objectivedesc4"		"ソルジャーで空中の敵をダイレクトヒットする：%s1"
+	"quest25033objectivedesc5"		"ソルジャーで敵をダイレクトヒットする：%s1"
+	"quest25034name0"		"ソルジャー — ブラックボックス"
+	"quest25034name1"		"ブラックボックス"
+	"quest25034objectivedesc1"		"ソルジャーでポイントを獲得する：%s1"
+	"quest25034objectivedesc2"		"ソルジャーでキルする：%s1"
+	"quest25034objectivedesc3"		"ソルジャーでブラストジャンプ中にキルする：%s1"
+	"quest25034objectivedesc4"		"ソルジャーで、1回のライフでヒット時に100ダメージを回復する：%s1"
+	"quest25035name0"		"パイロ — エアーブラスト"
+	"quest25035name1"		"エアーブラスト"
+	"quest25035objectivedesc1"		"パイロでポイントを獲得する：%s1"
+	"quest25035objectivedesc2"		"燃えている味方の火を消す：%s1"
+	"quest25035objectivedesc3"		"パイロで跳ね返した投射物でキルする：%s1"
+	"quest25035objectivedesc4"		"パイロで環境キルする：%s1"
+	"quest25036name0"		"パイロ — デトネーター、バックバーナー"
+	"quest25036name1"		"デトネーター、バックバーナー"
+	"quest25036objectivedesc1"		"パイロでポイントを獲得する：%s1"
+	"quest25036objectivedesc2"		"パイロでキルする：%s1"
+	"quest25036objectivedesc3"		"パイロでミニクリットキル：%s1"
+	"quest25036objectivedesc4"		"パイロでクリティカルキルする：%s1"
+	"quest25037name0"		"デモマン — タージ、アイランダー"
+	"quest25037name1"		"デモナイト"
+	"quest25037objectivedesc1"		"デモマンでポイントを獲得: %s1"
+	"quest25037objectivedesc2"		"デモマンで近接キルする：%s1"
+	"quest25037objectivedesc3"		"デモマンで首を集める：%s1"
+	"quest25037objectivedesc4"		"盾で敵を攻撃する：%s1"
+	"quest25037objectivedesc5"		"デモマンで挑発キルする：%s1"
+	"quest25038name0"		"デモマン — ルーズキャノン"
+	"quest25038name1"		"ルーズキャノン"
+	"quest25038objectivedesc1"		"デモマンでポイントを獲得：%s1"
+	"quest25038objectivedesc2"		"スティッキーグレネードでキルする：%s1"
+	"quest25038objectivedesc3"		"目標を遂行中の敵をキルする：%s1"
+	"quest25038objectivedesc4"		"ルーズキャノンでダブルドンクを決める：%s1"
+	"quest25039name0"		"ヘビー — サンドヴィッチ"
+	"quest25039name1"		"サンドヴィッチ"
+	"quest25039objectivedesc1"		"ヘビーでポイントを獲得する：%s1"
+	"quest25039objectivedesc2"		"ヘビーで設置物をキャプチャーあるいは防衛する：%s1"
+	"quest25039objectivedesc3"		"負傷した味方に食料を与える：%s1"
+	"quest25039objectivedesc4"		"1回のライフで1000ダメージを受ける：%s1"
+	"quest25040name0"		"ヘビー — フィスト・オブ・スティール"
+	"quest25040name1"		"フィスト・オブ・スティール"
+	"quest25040objectivedesc1"		"ヘビーでポイントを獲得する：%s1"
+	"quest25040objectivedesc2"		"ヘビーでキルする：%s1"
+	"quest25040objectivedesc3"		"ヘビーで500ダメージを防ぐ：%s1"
+	"quest25040objectivedesc4"		"1回のライフで1000ダメージを受ける：%s1"
+	"quest25041name0"		"エンジニア — ラングラー"
+	"quest25041name1"		"ラングラー"
+	"quest25041objectivedesc1"		"エンジニアでポイントを獲得する：%s1"
+	"quest25041objectivedesc2"		"セントリーを使用してキルする：%s1"
+	"quest25041objectivedesc3"		"ラングルド・セントリーを使用してキルする：%s1"
+	"quest25041objectivedesc4"		"1回のライフでセントリーでのキルを5回達成する：%s1"
+	"quest25042name0"		"エンジニア — フロンティア・ジャスティス"
+	"quest25042name1"		"フロンティア・ジャスティス"
+	"quest25042objectivedesc1"		"エンジニアでポイントを獲得する： %s1"
+	"quest25042objectivedesc2"		"味方に500ヘルスを与える：%s1"
+	"quest25042objectivedesc3"		"味方をテレポートする：%s1"
+	"quest25042objectivedesc4"		"フロンティア・ジャスティスを使用してリベンジ・クリティカルキルをする：%s1"
+	"quest25043name0"		"メディック — クルセイダーズ・クロスボウ"
+	"quest25043name1"		"クルセイダーズ・クロスボウ"
+	"quest25043objectivedesc1"		"メディックでポイントを獲得する：%s1"
+	"quest25043objectivedesc2"		"クルセイダーズ・クロスボウを使用して50ヘルス回復する：%s1"
+	"quest25043objectivedesc3"		"メディックで200ヘルスを回復または集める：%s1"
+	"quest25043objectivedesc4"		"クルセイダーズ・クロスボウを使用して遠距離回復をする：%s1"
+	"quest25044name0"		"メディック — クリッツクリーク"
+	"quest25044name1"		"クリッツクリーク"
+	"quest25044objectivedesc1"		"メディックでポイントを獲得する：%s1"
+	"quest25044objectivedesc2"		"メディックでキルをアシストする：%s1"
+	"quest25044objectivedesc3"		"クリティカルブーストでのキルをアシストする：%s1"
+	"quest25044objectivedesc4"		"1回のクリッツクリーク・ウーバーで3キルをアシストする：%s1"
+	"quest25045name0"		"スナイパー — ジャラテ"
+	"quest25045name1"		"ジャラテ"
+	"quest25045objectivedesc1"		"スナイパーでポイントを獲得する：%s1"
+	"quest25045objectivedesc2"		"スナイパーでキルする：%s1"
+	"quest25045objectivedesc3"		"スナイパーでジャラテアシストする：%s1"
+	"quest25045objectivedesc4"		"ジャラテに覆われた敵をキルする：%s1"
+	"quest25046name0"		"スナイパー — ハンツマン"
+	"quest25046name1"		"ハンツマン"
+	"quest25046objectivedesc1"		"スナイパーでポイントを獲得する：%s1"
+	"quest25046objectivedesc2"		"スナイパーで矢を使用してヘッドショットする：%s1"
+	"quest25046objectivedesc3"		"スナイパーで矢を使用した遠距離攻撃でキルする：%s1"
+	"quest25046objectivedesc4"		"スナイパーで矢を使用した近距離攻撃でキルする：%s1"
+	"quest25046objectivedesc5"		"スナイパーで挑発キルする：%s1"
+	"quest25047name0"		"スパイ — デッドリンガー"
+	"quest25047name1"		"デッドリンガー"
+	"quest25047objectivedesc1"		"スパイでポイントを獲得する：%s1"
+	"quest25047objectivedesc2"		"サッパーを使用して建物を破壊する：%s1"
+	"quest25047objectivedesc3"		"致命的な攻撃を生き延びる：%s1"
+	"quest25047objectivedesc4"		"デッドリンガーを使用して125ヘルスを吸収する：%s1"
+	"quest25048name0"		"スパイ — ディスガイズ"
+	"quest25048name1"		"マスター・オブ・ディスガイズ"
+	"quest25048objectivedesc1"		"スパイでポイントを獲得する：%s1"
+	"quest25048objectivedesc2"		"サッパーを使用して建物を破壊する：%s1"
+	"quest25048objectivedesc3"		"変装に使用した敵をバックスタブする：%s1"
+	"quest25048objectivedesc4"		"スパイで変装せずにキルする：%s1"
+	"quest25048objectivedesc5"		"スパイで、ヘビー、メディック、スナイパー、もしくはエンジニアをキルする：%s1"
+	"quest25049name0"		"スノーウィーコースト・コミュニティマップ"
+	"quest25049name1"		"スノーウィーコースト"
+	"quest25049objectivedesc1"		"スノーウィーコーストでポイントを獲得する：%s1"
+	"quest25049objectivedesc2"		"スノーウィーコーストでラウンドを勝つ： %s1"
+	"quest25049objectivedesc3"		"スノーウィーコーストでペイロードカートを押す：%s1"
+	"quest25049objectivedesc4"		"スノーウィーコーストでカートを押している敵をキルする：%s1"
+	"quest25050name0"		"ヴァンガード・コミュニティマップ"
+	"quest25050name1"		"ヴァンガード・コミュニティマップ"
+	"quest25050objectivedesc1"		"ヴァンガードでポイントを獲得する：%s1"
+	"quest25050objectivedesc2"		"ヴァンガードでラウンドを勝つ：%s1"
+	"quest25051name0"		"ランドフォール・コミュニティマップ"
+	"quest25051name1"		"ランドフォール・コミュニティマップ"
+	"quest25051objectivedesc1"		"ランドフォールでポイントを獲得する：%s1"
+	"quest25051objectivedesc2"		"ランドフォールでラウンドを勝つ：%s1"
+	"quest25052name0"		"ハイパス・コミュニティマップ"
+	"quest25052name1"		"ハイパス・コミュニティマップ"
+	"quest25052objectivedesc1"		"ハイパスでポイントを獲得する：%s1"
+	"quest25052objectivedesc2"		"ハイパスでラウンドを勝つ：%s1"
+	"quest25053name0"		"メープル・リッジ"
+	"quest25053name1"		"メープル・リッジ"
+	"quest25053objectivedesc1"		"メープル・リッジイベントで魂を集める：%s1"
+	"quest25053objectivedesc2"		"ハロウィンパンプキンを集める：%s1"
+	"quest25053objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25054name0"		"ブリムストーン"
+	"quest25054name1"		"ブリムストーン"
+	"quest25054objectivedesc1"		"ブリムストーンで魂を集める：%s1"
+	"quest25054objectivedesc2"		"ハロウィンパンプキンを集める：%s1"
+	"quest25054objectivedesc3"		"パンプキンボムでキルする：%s1"
+	"quest25055name0"		"死の穴"
+	"quest25055name1"		"死の穴"
+	"quest25055objectivedesc1"		"死の穴で魂を集める：%s1"
+	"quest25055objectivedesc2"		"呪われた魂を集める：%s1"
+	"quest25055objectivedesc3"		"呪われた魂をアンダーワールドに預ける：%s1"
+	"quest25056desc0"		"このコントラクトを完了するには、マーセナリー・パークで様々なタスクを達成する必要があります。"
+	"quest25056name0"		"マーセナリー・パーク"
+	"quest25056objectivedesc1"		"マーセナリー・パークでポイントを獲得する：%s1"
+	"quest25056objectivedesc2"		"マーセナリー・パークでコントロールポイントをキャプチャーする：%s1"
+	"quest25056objectivedesc3"		"マーセナリー・パークでコントロールポイントを防衛する：%s1"
+	"quest25056objectivedesc4"		"マーセナリー・パークでラウンドを勝利する：%s1"
+	"questname25000"		"スカウトのクエスト"
+	"questname25001"		"ソルジャーのクエスト"
+	"questname25002"		"パイロのクエスト"
+	"questname25003"		"デモマンのクエスト"
+	"questname25004"		"ヘビーのクエスト"
+	"questname25005"		"エンジニアのクエスト"
+	"questname25006"		"メディックのクエスト"
+	"questname25007"		"Sniper 任務"
+	"questname25008"		"スパイのクエスト"
+	"questname25009"		"パワーハウスのクエスト"
+	"questname25010"		"スノープラウのクエスト"
+	"questname25011"		"ボルネオのクエスト"
+	"questname25012"		"スイジンのクエスト"
+	"questname25013"		"ポイント・グラインド"
+	"questname25014"		"ヘッドハンター"
+}
 }
  

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pd_nutcracker/c-2933_-4361_256"
+	}
+}

@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_gavle/cart_fireworks"
+	"$bumpmap" "models/props_gavle/cart_fireworks_normal"
+
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" ".2"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+//	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	"$phongfresnelranges"	"[1 2 8]"
+//	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".4"										// Boost for ambient cube component of rim lighting
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props_trainyard\cart_selfillum"
+
+	"$detail" "overlays/detail004"
+	"$detailscale" "2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" ".4"
+}

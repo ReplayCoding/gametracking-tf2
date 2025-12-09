@@ -56,10 +56,13 @@ __isoc99_sscanf@GLIBC_2.7
 __pthread_key_create@GLIBC_2.2.5
 _setjmp@GLIBC_2.2.5
 abort@GLIBC_2.2.5
+acos@GLIBC_2.2.5
 acosf@GLIBC_2.2.5
+asin@GLIBC_2.2.5
 asinf@GLIBC_2.2.5
 atan2@GLIBC_2.2.5
 atan2f@GLIBC_2.2.5
+atan@GLIBC_2.2.5
 atanf@GLIBC_2.2.5
 cbrtf@GLIBC_2.2.5
 chdir@GLIBC_2.2.5
@@ -73,8 +76,9 @@ dlopen@GLIBC_2.2.5
 dlsym@GLIBC_2.2.5
 exit@GLIBC_2.2.5
 exp@GLIBC_2.29
-expf@GLIBC_2.27
 fclose@GLIBC_2.2.5
+fedisableexcept@GLIBC_2.2.5
+feenableexcept@GLIBC_2.2.5
 fflush@GLIBC_2.2.5
 fgets@GLIBC_2.2.5
 finite@GLIBC_2.2.5
@@ -117,6 +121,7 @@ puts@GLIBC_2.2.5
 qsort@GLIBC_2.2.5
 rand@GLIBC_2.2.5
 sin@GLIBC_2.2.5
+sincos@GLIBC_2.2.5
 sincosf@GLIBC_2.2.5
 sinf@GLIBC_2.2.5
 sprintf@GLIBC_2.2.5

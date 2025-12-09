@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/plr_matterhorn/water/water_well_-9_-160_448.vmt"
+	"insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

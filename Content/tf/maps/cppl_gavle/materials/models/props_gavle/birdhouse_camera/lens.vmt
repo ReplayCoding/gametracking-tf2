@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_gavle/birdhouse_camera/birdhouse"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[.04 .04 .04]"
+	"$envmapfresnel"	"10"
+
+	"$detail"			"models/props_gavle/birdhouse_camera/birdhouse"
+	"$detailscale"		"1"
+	"$detailblendmode"		"5"
+	"$detailblendfactor"	"3"
+}
+
+
+
+

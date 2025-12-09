@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/props_christmas/christmastree_branch_white"
+	"$surfaceprop" 			"grass"
+	"$detail"				"models/props_christmas/christmastree_branch_lights"
+	"$detailscale"			"1"
+	"$detailblendmode"		"5"
+	"$detailblendfactor"	"2"
+	"$detailcolor"			"{252 241 206}"
+	
+	"$alphatest"			"1"
+	"$alphatestreference"	".5"
+	"$nocull"				"1"
+	//"$bumpmap" "Models/effects/flat_normal"
+	
+}

@@ -132,6 +132,10 @@
 
 "TF_Timeline_ChangeClass"		"Du valgte at spille %s1" // localized class name
 "TF_Timeline_ChangeTeam"		"Du tilsluttede dig %s1" // localized team name
+"TF_Timeline_Killed"			"Du dræbte en %s1" // localized class name
+"TF_Timeline_WereKilled"		"Du blev dræbt af en %s1" // localized class name
+"TF_Timeline_KilledEngy"		"Du dræbte en %s1" // localized class name
+"TF_Timeline_WereKilledEngy"	"Du blev dræbt af en %s1" // localized class name
 "TF_Timeline_Suicide"			"Du sagde farvel til denne verden!"
 "TF_Timeline_CPCaptured"		"Du erobrede et kontrolpunkt"
 "TF_Timeline_IntelCaptured"		"Du erobrede efterretningen"
@@ -145,6 +149,7 @@
 "TF_Timeline_ObjectDestroyedGeneric"	"Bygning ødelagt"
 "TF_Timeline_ObjectDestroyedYours"		"Din %s1 blev ødelagt" // localized building name
 "TF_Timeline_ObjectDestroyed"			"Du ødelagde en %s1" // localized building name
+"TF_Timeline_JackCarrier"		"Du dræbte boldbæreren"
 "TF_Timeline_JackLost"			"Du mistede bolden"
 "TF_Timeline_JackPass"			"Du fik fat i bolden"
 "TF_Timeline_JackIntercepted"	"Du opsnappede bolden"
@@ -824,6 +829,10 @@
 "TF_TournamentMedal_UGC6v6_Steel_Participant"		"Deltager i UGC 6vs6 Steel"
 "TF_TournamentMedal_UGC6v6_Iron_Participant"		"Deltager i UGC 6vs6 Iron"
 "TF_TournamentMedal_UGC6v6_European_Participant"	"Deltager i UGC 6vs6 European"
+"TF_TournamentMedal_UGC4v4_Platinum_1st"			"1.-plads i UGC 4v4 Platinum"
+"TF_TournamentMedal_UGC4v4_Platinum_2nd"			"2.-plads i UGC 4v4 Platinum"
+"TF_TournamentMedal_UGC4v4_Platinum_3rd"			"3.-plads i UGC 4v4 Platinum"
+"TF_TournamentMedal_UGC4v4_Platinum_Participant"	"Deltager i UGC 4v4 Platinum"
 "TF_TournamentMedal_UGC4v4_Gold_1st"				"1.-plads i UGC 4vs4 Gold"
 "TF_TournamentMedal_UGC4v4_Gold_2nd"				"2.-plads i UGC 4vs4 Gold"
 "TF_TournamentMedal_UGC4v4_Gold_3rd"				"3.-plads i UGC 4vs4 Gold"
@@ -2655,6 +2664,12 @@
 "TF_TournamentMedal_UDL_Bronze_Winter2023"		"Tildelt spillerne, der fik tredjepladsen i United Dodgeball League Winter Cup 2023"
 "TF_TournamentMedal_UDL_Participant_Winter2023"	"Tildelt deltagerne i United Dodgeball League Winter Cup 2023"
 "TF_TournamentMedal_UDL_Supporter_Winter2023"	"Tildelt United Dodgeball League Winter Cup 2023's mest værdifulde bidragsydere"
+"TF_TournamentMedal_UDL_Gold_2025"		"Tildelt vinderne af United Dodgeball League Cup 2025"
+"TF_TournamentMedal_UDL_Silver_2025"		"Tildelt spillerne, der fik andenpladsen i United Dodgeball League Cup 2025"
+"TF_TournamentMedal_UDL_Bronze_2025"		"Tildelt spillerne, der fik tredjepladsen i United Dodgeball League Cup 2025"
+"TF_TournamentMedal_UDL_Participant_2025"	"Tildelt deltagerne i United Dodgeball League Cup 2025"
+"TF_TournamentMedal_UDL_Supporter_2025"	"Tildelt United Dodgeball League Cup 2025's mest værdifulde bidragsydere"
+
 "TF_TournamentMedal_ESEA_6s_first"			"1.-plads i ESEA 6s Invite"
 "TF_TournamentMedal_ESEA_6s_second"			"2.-plads i ESEA 6s Invite"
 "TF_TournamentMedal_ESEA_6s_third"			"3.-plads i ESEA 6s Invite"
@@ -2764,6 +2779,52 @@
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Third"				"Gyselig Gruppe 3.- Pladsen - Brazil Fortress Halloween"
 "TF_TournamentMedal_BrazilFortress_Hwn_Ghastly_Participant"			"Gyselig Gruppe Deltager - Brazil Fortress Halloween"
 "TF_TournamentMedal_BrazilFortress_Hwn_Helper"						"Hjælper i Brazil Fortress Halloween"
+"TF_TournamentMedal_BrazilFortress_Hwn_CursedAssistant"				"Forbandet Assistent – Brazil Fortress Halloween"
+"TF_TournamentMedal_BrazilFortress_Hwn_FirstScary"					"Første Forskrækkelse – Brazil Fortress Halloween"
+"TF_TournamentMedal_BrazilFortress_Hwn_SecondSpell"					"Anden Besværgelse – Brazil Fortress Halloween"
+"TF_TournamentMedal_BrazilFortress_Hwn_ThirdMonstrosity"			"Tredje Traume – Brazil Fortress Halloween"
+"TF_TournamentMedal_BrazilFortress_Hwn_VampiricParticipant"			"Vampyrisk Deltager – Brazil Fortress Halloween"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_First"						"Brazil Fortress QEL 4v4 Halloween – Scary-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Second"					"Brazil Fortress QEL 4v4 Halloween – Scary-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Third"						"Brazil Fortress QEL 4v4 Halloween – Scary-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Scary_Participant"				"Brazil Fortress QEL 4v4 Halloween – Scary-gruppe – Deltager"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Winner"					"Brazil Fortress QEL 4v4 Halloween – Haunted-gruppe – Vinder"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_First"					"Brazil Fortress QEL 4v4 Halloween – Haunted-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Second"					"Brazil Fortress QEL 4v4 Halloween – Haunted-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Third"					"Brazil Fortress QEL 4v4 Halloween – Haunted-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Haunted_Participant"				"Brazil Fortress QEL 4v4 Halloween – Haunted-gruppe – Deltager"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Winner"					"Brazil Fortress QEL 4v4 Halloween – Ghastly-gruppe – Vinder"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_First"					"Brazil Fortress QEL 4v4 Halloween – Ghastly-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Second"					"Brazil Fortress QEL 4v4 Halloween – Ghastly-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Third"					"Brazil Fortress QEL 4v4 Halloween – Ghastly-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Ghastly_Participant"				"Brazil Fortress QEL 4v4 Halloween – Ghastly-gruppe – Deltager"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Winner"					"Brazil Fortress QEL 4v4 Halloween – Eerie-gruppe – Vinder"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_First"						"Brazil Fortress QEL 4v4 Halloween – Eerie-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Second"					"Brazil Fortress QEL 4v4 Halloween – Eerie-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Third"						"Brazil Fortress QEL 4v4 Halloween – Eerie-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Eerie_Participant"				"Brazil Fortress QEL 4v4 Halloween – Eerie-gruppe – Deltager"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Winner"					"Brazil Fortress QEL 4v4 Halloween – Spooky-gruppe – Vinder"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_First"					"Brazil Fortress QEL 4v4 Halloween – Spooky-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Second"					"Brazil Fortress QEL 4v4 Halloween – Spooky-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Third"					"Brazil Fortress QEL 4v4 Halloween – Spooky-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_Spooky_Participant"				"Brazil Fortress QEL 4v4 Halloween – Spooky-gruppe – Deltager"
+"TF_TournamentMedal_BZ_QEL_4v4_Hwn_CursedAssistant"					"Brazil Fortress QEL 4v4 Halloween – Forbandet Assistent"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_First"					"Brazil Fortress Highlander Halloween – Scary-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Second"					"Brazil Fortress Highlander Halloween – Scary-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Third"					"Brazil Fortress Highlander Halloween – Scary-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Scary_Participant"			"Brazil Fortress Highlander Halloween – Scary-gruppe – Deltager"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Winner"				"Brazil Fortress Highlander Halloween – Haunted-gruppe – Vinder"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_First"				"Brazil Fortress Highlander Halloween – Haunted-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Second"				"Brazil Fortress Highlander Halloween – Haunted-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Third"				"Brazil Fortress Highlander Halloween – Haunted-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Haunted_Participant"			"Brazil Fortress Highlander Halloween – Haunted-gruppe – Deltager"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Winner"				"Brazil Fortress Highlander Halloween – Ghastly-gruppe – Vinder"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_First"				"Brazil Fortress Highlander Halloween – Ghastly-gruppe – 1.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Second"				"Brazil Fortress Highlander Halloween – Ghastly-gruppe – 2.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Third"				"Brazil Fortress Highlander Halloween – Ghastly-gruppe – 3.-plads"
+"TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Participant"			"Brazil Fortress Highlander Halloween – Ghastly-gruppe – Deltager"
+"TF_TournamentMedal_BZ_Highlander_Hwn_CursedAssistant"				"Brazil Fortress Highlander Halloween – Forbandet Assistent"
+
 "TF_TournamentMedal_SacredScouts_6v6_Gold"			"Guldmedalje fra Sacred Scouts 6v6"
 "TF_TournamentMedal_SacredScouts_6v6_Silver"		"Sølvmedalje fra Sacred Scouts 6v6"
 "TF_TournamentMedal_SacredScouts_6v6_Bronze"		"Bronzemedalje fra Sacred Scouts 6v6"
@@ -4547,6 +4608,7 @@
 "TF_CowboyBoots"			"Teufort-tandsparkeren" // ADD THE
 "TF_CowboyBoots_Desc"		"Disse ståltåede hunde var videnskabeligt udviklede, (i en vindtunnel), af Amerikas førende inden for mundsparken, til at passe perfekt til indersiden af en idiots mund."
 "TF_MedicSmokingPipe"		"Ni-pibeproblemet"	// ADD THE
+"TF_MedicSmokingPipe_Desc"	"I den tid, det har taget dig at læse denne beskrivelse, har jeg allerede überet en heavy, erobret din base, opklaret en forbrydelse og røget tre piber."
 "TF_PyroCandle"				"Den Voksede Vejviser" // ADD THE
 "TF_PyroCandle_Desc"		"Lev endelig dit liv som et lys i vinden. (Vind ikke inkluderet.)"
 "TF_ShootManyRobotsPack"		"Skrottasken" // ADD THE
@@ -6017,6 +6079,7 @@
 "TF_MapToken_Pressure_Desc"			"En Capture the Flag-bane\n\nLavet af Mitchell 'AltraNade' Leyte, MuhNamesGreen, Dansky, Joel 'zythe_' Morscher, James 'lolripk' Stevens, Szabó 'Maxxy' Attila, James 'McGuinnsBook' McGuinn, Alien31, Phe og Glebotron\n\nKøb af denne genstand støtter direkte skaberne af Pressure-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Pressure_AdText"		"-Køb af denne genstand støtter direkte skaberne af Pressure-fællesskabsbanen."
 "TF_Map_Cowerhouse"					"Cowerhouse"
+"TF_MapToken_Cowerhouse"			"Banefrimærke – Cowerhouse"
 "TF_MapToken_Cowerhouse_Desc"		"En Control Point-bane\n\nLavet af CanadianBill, Alex 'FGD5' Stewart, Patrick 'Zeus' Hennessy, Liam 'Diva Dan' Moffitt og PearForceOne\n\nKøb af denne genstand støtter direkte skaberne af Cowerhouse-fællesskabsbanen. Vis din støtte i dag!"
 "TF_MapToken_Cowerhouse_AdText"		"-Køb af denne genstand støtter direkte skaberne af Cowerhouse-fællesskabsbanen."
 "TF_Map_Dusker"						"Dusker"
@@ -6255,6 +6318,7 @@
 "TF_Map_Demolition_StrangePrefix"		" Eksploderet"
 "TF_Map_Pressure_StrangePrefix"			" Tryksat"
 "TF_Map_Cowerhouse_StrangePrefix"		" Sammenkrøbet"
+"TF_Map_Dusker_StrangePrefix"			" Karmoisinrød"
 "TF_Map_Afterlife_StrangePrefix"		" Hinsides"
 "TF_Map_Devilcross_StrangePrefix"		" Djævelsk"
 "TF_Map_Marshlands_StrangePrefix"		" Ulækker"
@@ -7038,15 +7102,24 @@
 "koth_boardwalk_house"					"Slagteriet"
 "koth_boardwalk_pier"					"Molen"
 "koth_mannhole_overpass"				"Under Togbanen"
+"arena_afterlife_spawn"					"DU ER DØD! Få et drab eller et assisterende drab for at stjæle en sjæl og komme ud af Helvede!"
 "arena_afterlife_pickup"				"Du stjal en sjæl! Tag den hen til offeralteret og genopliv dig selv!"
+"arena_afterlife_soulless"				"Du skal bruge en sjæl for at blive genoplivet! Få et drab eller et assisterende drab og kom tilbage!"
 "arena_afterlife_lastman"				"Du er den sidste spiller i live! Modstanderholdet kan se dig!"
+"arena_afterlife_pitysoul_spawn"		"FBECCBEN A3FBA5FREDLØS SJÆL FBECCBbefinder sig et sted i Helvede!"
+"arena_afterlife_nofb_small_teams"		"E7B53BHoldene er for små. Slår bonus for første blod fra."
+"arena_afterlife_nofb_disabled"			"E7B53BBonus for første blod er slået fra i serverindstillingerne."
 "cp_cowerhouse_open_soon"				"De underjordiske genvejstunneller vil åbne snart!"
 "cp_cowerhouse_close_soon"				"De underjordiske genvejstunneller lukker snart!"
 "cp_cowerhouse_closed"					"De underjordiske genvejstunneller er lukkede!"
 "cp_cowerhouse_open"					"Den bagerste underjordiske genvejstunnel er åben!"
+"cp_cowerhouse_blu_open"				"Begge BLU's underjordiske genvejstunneller er åbne!"
 "cp_cowerhouse_cave_open"				"Den underjordiske genvejstunnel er åben!"
+"cp_cowerhouse_red_open"				"Begge RED's underjordiske genvejstunneller er åbne!"
 "cp_cowerhouse_timer_reset"				"Timeren på de underjordiske genvejstunneller er nulstillet!"
 "sd_marshlands_hold_3min"				"Hold på kufferten i 3 minutter for at vinde!"
+"sd_marshlands_barriers"				"Gå ikke ud over den magiske barriere, ellers vil kufferten forsvinde!"
+
 // Win panel strings
 "Winpanel_Team1"			"HOLD"
 "Winpanel_Team2"			"Hold"
@@ -7527,9 +7600,11 @@
 "Tip_1_3"				"Som Scout er du mest effektiv, når du hele tiden holder dig i bevægelse og bruger din fart til din egen fordel."
 "Tip_1_4"				"Som Scout er din Pistol fremragende til at plukke fjender på større afstand."
 "Tip_1_5"				"Som Scout udretter din Haglspreder stor skade på klods hold, og dræber dermed de fleste klasser med 2 træffere."
+"Tip_1_6"				"Som Scout kan du affyre Naturkraften, når du er midt i luften, for at skubbe dig selv tilbage og væk fra den retning, du sigter mod. Du kan bruge dette til at forlænge afstanden på dine hop."
 "Tip_1_7"				"Som Scout kan du drage fordel af alternative ruter for at flanke fjender for overraskelsesangreb."
 "Tip_1_8"				"Som Scout kan du, når du er udstyret med Ole Lukøje, bruge %attack2% for at affyre en baseball mod fjerne fjender og lamme dem."
 "Tip_1_9"				"Som Scout vil du, når du er udstyret med Ole Lukøje, have mindre maksimalt helbred. Hold dig til dit bat hvis overlevelse er topprioritet."
+"Tip_1_10"				"Som Scout skubber du fjender, som du er tæt på, væk, når du rammer dem med Naturkraften."
 "Tip_1_11"				"Som Scout vil Ole Lukøjes baseball lamme i længere tid jo længere væk den ramte fjende er - i op til 7 sekunder."
 "Tip_1_12"				"Som Scout vil Ole Lukøjes baseball ikke lamme fjender på nært hold, men vil fuldstændigt lamme en fjende fra den længste afstand."
 "Tip_1_13"				"Som Scout kan du bruge Bonk!-Atompunch-energidrikken til at passere gennem farlige omgivelser og absorbere Sentry-skade for holdkammerater."
@@ -7542,6 +7617,7 @@
 "Tip_1_20"				"Som Scout gør Solen-på-en-Pind kritisk skade mod brændende fjender, men ellers er den svagere end Battet. Arbejd sammen med venlige Pyros for at udnytte den fuldt ud."
 "Tip_1_21"				"Som Scout gør efterfølgende angreb, på en fjende ramt af Krigsviften, at disse forårsager småkritisk skade. Brug allierede og andre våben til at få mest ud af det påførte skade-boost."
 "Tip_1_22"				"Som Scout skal du holde øje med dit helbred, når du bruger Atombattet. Et dårligt timet tredobbelt hop kan koste dig livet!"
+"Tip_1_23"				"Som Scout kan du udnytte både Naturkraftens tilbageslag og Atombattets tredobbelte hop i en firdobbelt hopkombination!"
 "Tip_1_24"				"Som Scout gør Atombattet dig i stand til at foretage et tredobbelt hop! Brug det til at udmanøvrere fjender og få adgang til svært tilgængelige områder!"
 "Tip_1_25"				"Som Scout forårsager Fløjspilleren mere skade end pistolen, men dette udlignes af dens reducerede magasinstørrelse. Brug Fløjspilleren på tæt afstand for at sikre, at du rammer dit mål!"
 "Tip_1_26"				"Som Scout er Håndbremsen meget effektiv på medium til lang afstand, hvilket tillader dig at holde farlige fjender på afstand. Du kan også bruge %attack2% til at skubbe fjender væk!"
@@ -7592,6 +7668,7 @@
 "Tip_3_19"				"Som Soldier gør Stegepanden samme skade som Skovlen, men den er meget højlydt. Brug den ikke, når du forsøger at forblive skjult, da den tydelige lyd vil afsløre din position!"
 "Tip_3_20"				"Som Soldier vil du, ved at ramme en holdkammerat med Disciplinærsagen, øge både din og din allieredes hastighed dramatisk i nogle få sekunder! Brug det på langsommere klasser som andre Soldiers eller Heavies for at nå frontlinjen hurtigere!"
 "Tip_3_21"				"Som Soldier kan du bruge %attack2%, når du er udstyret med Kokvæster 5000, for at affyre et ladet skud, der gør ekstra skade og kortvarigt sætter ild til fjenden. Vær forsigtigt! Et opladet skud tømmer alle Kokvæster 5000's skud."
+"Tip_3_22"				"Som Soldier reducerer Mandetræderne dramatisk våbentilbageslag. Brug dem for at undgå at blive skubbet tilbage af Naturkraften, sprængstoffer eller Sentries!"
 "Tip_3_23"				"Som Soldier lader Den Sorte Boks kun tre raketter ad gangen. Sørg for, at hvert skud tæller, eller du risikerer at blive sårbar."
 "Tip_3_24"				"Som Soldier kan du rakethoppe for at hurtigt at indhente fjender og derefter bruge Krigerens Kampskovl for at gøre det af med dem, mens du lander."
 "Tip_3_25"				"Som Soldier bør du overveje at bruge dit Haglgevær mod fjendtlige Pyros, der reflekterer dine raketter."
@@ -8541,6 +8618,7 @@
 "TF_SCOUT_DODGE_DAMAGE_NAME"		"Undvigemanøvrer"
 "TF_SCOUT_DODGE_DAMAGE_DESC"		"Undvig 1000 skadespoint i et enkelt liv vha. din Bonk!-Atompunch."
 "TF_SCOUT_KNOCK_INTO_TRAIN_NAME"	"Fald ned"
+"TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"Få en fjende til at falde i døden vha. Naturkraftens tilbageslag."
 "TF_SCOUT_KILL_STUNNED_NAME"		"Angrebszone"
 "TF_SCOUT_KILL_STUNNED_DESC"		"Dræb 50 fjender eller assistér andre i at dræbe dem, mens de er lammet eller hæmmet."
 "TF_SCOUT_STUN_INTO_TRAIN_NAME"		"Fjendtligt område"
@@ -8556,6 +8634,7 @@
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_NAME"	"Pensioner løberen"
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"Dræb en Scout, mens han er påvirket af Krit-a-Cola."
 "TF_SCOUT_KILL_FROM_BEHIND_NAME"	"Bagholdsangreb"
+"TF_SCOUT_KILL_FROM_BEHIND_DESC"	"Dræb 50 fjender bagfra med Naturkraften."
 "TF_SCOUT_CAPTURE_LAST_POINT_NAME"	"Det sidste stik"
 "TF_SCOUT_CAPTURE_LAST_POINT_DESC"	"Erobr det sidste point i en CP-bane."
 "TF_SCOUT_CAPTURE_THREE_POINTS_NAME"	"3 på stribe"
@@ -11628,6 +11707,8 @@
 "halloween2025_collection_case_desc"	"Denne kasse er låst og kræver en\nSpøgelsesskat-nøgle for at åbne.\n\nIndeholder en fællesskabsskabt genstand\nfra Spøgelsesskat-samlingen."
 "halloween2025_collection_case_adtext"	"-Indeholder fællesskabskosmetik fra Spøgelsesskat-samlingen\n-Kræver en Spøgelsesskat-nøgle for at åbne\n-Indholdet er muligvis sært og hatte usædvanlige."
 "halloween2025_collection_key"			"Spøgelsesskat-nøgle"
+"halloween2025_collection_key_desc"		"Bruges til at åbne Spøgelsesskat-kassen"
+"halloween2025_collection_key_adtext"	"-Bruges til at åbne Spøgelsesskat-kassen\n-Indholdet er muligvis sært og hatte usædvanlige."
 "halloween2025_collection_case_footer"	"Indholdet er muligvis sært, og hatte kan være usædvanlige med halloween 2025-effekt"
 
 "halloween2025_event_footer"			"Under Scream Fortress-begivenheden har alle usædvanlige genstande en halloween 2025-effekt"
@@ -12879,6 +12960,8 @@
 "Attrib_Particle387"			"Sydende Aroma"
 "Attrib_Particle388"			"Sydende Aroma"
 "Attrib_Particle389"			"Sygelig Aroma"
+"Attrib_Particle390"			"Strømafleder"
+"Attrib_Particle391"			"Strømafleder"
 "Attrib_Particle392"			"Sandet"
 
 // Weapon Unusual
@@ -13200,6 +13283,7 @@
 "TF_Unique_Achievement_Minigun"		"Natascha"
 "TF_Unique_Achievement_Fists"		"Kalinins Grusomme Boksehandsker"	// ADD THE
 "TF_Unique_Achievement_Bat"		"Ole Lukøje"	// ADD THE
+"TF_Unique_Achievement_Scattergun_Double" "Naturkraften"	// ADD THE
 "TF_Unique_Achievement_Scattergun_Double_desc"	"Dette våben genlader hele sit magasin på en gang"
 "TF_Unique_Achievement_EnergyDrink"	"Bonk!-Atompunch"
 "TF_Unique_Achievement_EnergyDrink_desc"	"Drik for at blive usårlig i 8 sekunder. Kan ikke angribe under denne tid.\nAbsorberet skade hæmmer dig, når effekten udløber."
@@ -17037,6 +17121,7 @@
 "TF_Weapon_Ambassador_Festive2012"		"Festlig Ambassadør"
 "TF_Weapon_GrenadeLauncher_Festive2012"	"Festlig Granatkaster"
 
+"TF_Weapon_ForceANature_Festive2013"		"Festlig Naturkraft"
 "TF_Weapon_CrusaderCrossbow_Festive2013"	"Festlig Korsridders Armbrøst"
 "TF_Weapon_Sapper_Festive2013"				"Festive Sapper"
 "TF_Weapon_Flaregun_Festive2013"			"Festlig Signalpistol"
@@ -18823,6 +18908,7 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2020_handy_thing_style2"			"Over salgsdato"
 "TF_hwn2020_king_cardbeard"			"Kong Kartonskæg"
 "TF_hwn2020_sir_pumpkinton"			"Hr. Pumpkinton"
+"TF_hwn2020_wrap_a_khamon"			"Bandagesvøbt Bowlerhat"
 "TF_hwn2020_wrap_a_khamon_style1"		"Prangende"
 "TF_hwn2020_wrap_a_khamon_style2"		"Sky"
 "TF_hwn2020_boom_boxers"			"Blottet Bagdel" // ADD THE
@@ -18879,6 +18965,7 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_dec20_festive_fascinator_style0"	"Munter"
 "TF_dec20_festive_fascinator_style1"	"Glad"
 "TF_dec20_pile_of_presents"			"Tårnende Gavestak"
+"TF_dec20_round_a_bout"				"Snurretop" // ADD THE
 "TF_dec20_blitzen_bowl"				"Julemandens Vejleder"
 "TF_dec20_elf_care_provider"		"Klinisk Vatnisse"
 "TF_dec20_night_ward"				"Nattevagt"
@@ -19568,10 +19655,13 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2025_cigarillo_style1"				"Halstørklæde"
 "TF_hwn2025_cigarillo_style2"				"Intet halstørklæde"
 "TF_hwn2025_el_gigantes"				"El Gigantes Pistolbælte"
+"TF_hwn2025_el_gigantes_style1"				"Bælte"
+"TF_hwn2025_el_gigantes_style2"				"Intet bælte"
 "TF_hwn2025_poncho"						"Cowboyens Poncho"
 "TF_hwn2025_poncho_style1"					"Patroner"
 "TF_hwn2025_poncho_style2"					"Ingen patroner"
 "TF_hwn2025_air_exchanger"				"Lydig Luftforandring"
+"TF_hwn2025_industrial"					"Forklædeforkæmper"
 "TF_hwn2025_industrial_style1"				"Kernekraft"
 "TF_hwn2025_industrial_style2"				"Brandfarlig"
 "TF_hwn2025_hellscape"					"Ulmende Udbrud"
@@ -19580,6 +19670,7 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2025_feathered_fiend_style1"			"Skurkagtig"
 "TF_hwn2025_feathered_fiend_style2"			"Ondskabsfuldt Overskæg"
 "TF_hwn2025_feathered_fiend_style3"			"Kæk"
+"TF_hwn2025_velveteen"					"Fjendtlig Fløjlsfrakke"
 "TF_hwn2025_velveteen_style1"				"Fuld mundering"
 "TF_hwn2025_velveteen_style2"				"Kun vest"
 "TF_hwn2025_velveteen_style3"				"Kun skjorte"
@@ -19590,11 +19681,13 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2025_buzz_kill_style1"				"Forbryder"
 "TF_hwn2025_buzz_kill_style2"				"Ungdomsforbryder"
 "TF_hwn2025_torn_terror"				"Sønderflænget Shirt"
+"TF_hwn2025_torn_terror_style1"				"Aggressiv"
 "TF_hwn2025_torn_terror_style2"				"Passiv"
 "TF_hwn2025_ripped_runts"				"Ribbede Røjsere"
 "TF_hwn2025_seamanns"					"Søfarens Skægvækst"
 "TF_hwn2025_seamanns_style1"				"Pibe"
 "TF_hwn2025_seamanns_style2"				"Cigar"
+"TF_hwn2025_misdirector"				"Pif-Paf-Fupmageren" // ADD THE
 "TF_hwn2025_misdirector_style1"				"Mal: Bånd"
 "TF_hwn2025_misdirector_style2"				"Mal: Skæg"
 "TF_hwn2025_misdirector_style3"				"Intet skæg"
@@ -19605,8 +19698,13 @@ Retningsknap for at bevæge, aftrækker=hurtigere, A-knap for næste linje."
 "TF_hwn2025_professor_photon"			"Professor Foton"
 "TF_hwn2025_professor_photon_style1"		"Stålsat"
 "TF_hwn2025_professor_photon_style2"		"Stål-Barberet"
+"TF_hwn2025_professor_photon_style3"		"Messing"
+"TF_hwn2025_professor_photon_style4"		"Messing-Barberet"
 "TF_hwn2025_mad_drip"					"Sprød Stil"
 "TF_hwn2025_mad_drip_style1"				"Stålsat"
+"TF_hwn2025_mad_drip_style2"				"Stål (ingen PDA)"
+"TF_hwn2025_mad_drip_style3"				"Messing"
+"TF_hwn2025_mad_drip_style4"				"Messing (ingen PDA)"
 "TF_hwn2025_viscer_visor"				"Indvoldsvisiret"
 "TF_hwn2025_viscer_visor_style1"			"Blodig"
 "TF_hwn2025_viscer_visor_style2"			"Ensfarvet"
@@ -20289,6 +20387,25 @@ Kontrolpunktet kan ikke erobres, mens det er låst.
 
 Hvis det fjendtlige hold erobrer kontrolpunktet, vil dit holds timer blive pauset, indtil I generobrer punktet."
 
+"sd_marshlands_description"			"Hold Flaget
+
+Mål:
+Saml kufferten op og hold den i 3 minutter!
+
+Kryds ikke de magiske barrierer, imens du holder kufferten, ellers forsvinder den tilbage til det oprindelige opsamlingssted!"
+
+"cp_cowerhouse_description"			"Mål:
+For at vinde skal ét af holdene have overtaget alle tre kontrolpunkter.
+
+Andre bemærkninger:
+Der er en tidsbegrænset underjordisk genvejstunnel på begge sider. De to bagerste døre åbner, og holdet, som kontrollerer midterpunktet, får deres ensrettede genvej åbnet! Tag ned af vandfaldet for at gå direkte til midterpunktet!"
+
+"arena_afterlife_description"			"Mål:
+Dit hold skal enten dræbe alle modstandere eller erobre kontrolpunktet.
+
+Andre bemærkninger:
+Spillere, som dør, ryger direkte i Helvede og fortsætter med at kæmpe. En spiller, som får et drab eller assisterer med et, stjæler deres offers sjæl og vil kunne tage den til et alter for at blive levende igen."
+
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"Kritseliksir"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Übereliksir"
 "TF_hwn2024_Freaky_Fair_Giant_Potion"    			"Kæmpeeliksir"
@@ -20392,6 +20509,9 @@ Hvis det fjendtlige hold erobrer kontrolpunktet, vil dit holds timer blive pause
 "TF_DataCenter_bt2"				"Beta 2"
 "TF_DataCenter_dum"				"Dumm1"
 "TF_DataCenter_beta"			"Beta"
+"TF_DataCenter_hel"             "Helsingfors, Finland"
+"TF_DataCenter_fsn"             "Falkenstein, Tyskland"
+
 "TF_CaseExclusiveBonusItems"				"Eksklusive bonusgenstande fra kasser:"
 "TF_CaseGlobalUnusualEffects"			"Globale, usædvanlige effekter fra kasser"
 "TF_CaseGlobalBonusItems"				"Globale bonusgenstande fra kasser"

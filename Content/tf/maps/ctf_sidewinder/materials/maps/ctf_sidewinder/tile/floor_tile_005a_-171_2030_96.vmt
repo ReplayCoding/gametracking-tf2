@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/FLOOR_TILE_005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_sidewinder/c-171_2030_96"
+	}
+}

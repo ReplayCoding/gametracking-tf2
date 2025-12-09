@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_matterhorn/c-1072_2784_896"
+	}
+}

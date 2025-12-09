@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_2FORT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cppl_gavle/c-9208_1792_208"
+		"Proxies"
+		{
+		}
+	}
+}

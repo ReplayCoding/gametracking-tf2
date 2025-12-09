@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"          "models/props_matterhorn/wheel_color.vtf"
+	"$bumpmap"              "models/props_matterhorn/wheel_normal.vtf"
+
+	"$lightwarptexture"     "models/weapons/c_items/c_ambassador_lightwarp.vtf"
+	
+	"$phongexponenttexture"	"models/props_matterhorn/wheel_expmask.vtf"
+	"$phong"                "1"
+	"$phongexponent"        "0"
+	"$phongboost"           "34"
+	"$phongfresnelranges"   "[.25 .5 1]"
+	"$basemapalphaphongmask"	"0"
+
+	"$rimlight"             "1"     // To enable rim lighting (requires phong)
+	"$rimlightexponent"     "4"     // Exponent for phong component of rim 
+	"$rimlightboost"        ".5"     // Boost for ambient cube component of rim lighting
+	"$rimmask"				"1"
+	"$halflambert"			"0"
+	"$phongalbedotint"			"1"
+}

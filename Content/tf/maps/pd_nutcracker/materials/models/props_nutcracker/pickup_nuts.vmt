@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_nutcracker/pickup_nuts"
+
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongboost" "0.2"
+	"$phongexponent" "1"
+	"$phongfresnelranges" "[3 5 8]"
+}

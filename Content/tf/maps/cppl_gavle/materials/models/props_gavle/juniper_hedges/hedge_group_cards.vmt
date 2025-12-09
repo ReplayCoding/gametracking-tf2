@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/props_gavle/juniper_hedges/hedge_group_cards"
+
+	"$halflambert" "1"
+
+//	"$translucent"	"1"
+	"$alphatest"	"1"
+	"$alphatestreference"	".25"
+
+	"$nodecal"	"1"
+	"$nocull"		"1"
+
+	"$detail"	"models/props_gavle/juniper_hedges/hedge_overlay"
+	"$detailtexturetransform" 	"center .5 .5		scale 2.5 2.5		rotate 45		translate 0.3 0.6"	
+	"$detailblendmode"		"0"
+	"$detailblendfactor"	".5"
+	"$detailscale"	"1"
+}
+
+
+

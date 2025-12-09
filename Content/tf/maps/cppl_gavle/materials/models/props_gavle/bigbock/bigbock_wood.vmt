@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Wood/wood_beam03"
+	"$basetexturetransform" 	"center .5 .5		scale 6.027  3.0135		rotate 180		translate 0.54 0.4"	
+
+	"$bumpmap"	"models/effects/flat_normal"
+
+	"$detail"	"models/props_gavle/bigbock/bigbock_wood"
+
+	"$detailblendmode"		"0"
+	"$detailblendfactor"	"1"
+	"$detailscale"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "0.01"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$halflambert" "1"
+
+}
+

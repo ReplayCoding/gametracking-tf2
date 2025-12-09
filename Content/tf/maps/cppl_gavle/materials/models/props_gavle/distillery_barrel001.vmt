@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_gavle/distillery_barrel001"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".7"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$bumpmap" "Models/props_gavle/distillery_barrel001_normal"
+}
+

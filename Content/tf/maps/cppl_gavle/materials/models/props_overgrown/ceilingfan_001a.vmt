@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_overgrown/ceilingfan_001a"
+	$surfaceprop Metal
+
+	$phong 1
+	$phongfresnelranges "[0.66 0.83 1]"
+	$phongtint "[0.81 0.77 0.60]"
+	$halflambert 1
+	$phongexponent 44
+	$phongboost 0.8
+	$basemapalphaphongmask 1
+}

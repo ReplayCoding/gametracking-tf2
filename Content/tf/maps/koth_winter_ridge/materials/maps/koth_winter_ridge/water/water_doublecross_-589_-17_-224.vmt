@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_winter_ridge/c-589_-17_-224"
+		"Proxies"
+		{
+		}
+	}
+}

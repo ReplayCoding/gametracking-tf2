@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+//	"$basetexture" "cable/pure_white"
+//	"$color2"		"{60 30 30}"
+
+	"$basetexture" "models/props_gavle/soda_bottle"
+
+	"$phong" "1"
+	"$phongexponent"	"100"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$lightwarptexture"	"models/props_gavle/bottle_warp"
+
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[.01 .01 .01]"
+	"$envmapfresnel"	"10"
+
+}

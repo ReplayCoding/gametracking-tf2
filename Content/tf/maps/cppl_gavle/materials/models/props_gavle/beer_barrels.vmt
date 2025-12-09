@@ -1,0 +1,11 @@
+ "VertexLitGeneric"
+{
+	$baseTexture "\models\props_gavle\beer_barrels"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".7"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+	"$basemapalphaphongmask"	"1"
+}

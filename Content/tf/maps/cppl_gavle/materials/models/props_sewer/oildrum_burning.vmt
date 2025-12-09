@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/oildrum_burning"
+
+	"$detail"	"models/props_sewer/oildrum_burning_glow"
+	"$detailscale"	"1"
+	"$detailblendfactor"	".25"
+	"$detailblendmode"	"5"
+
+//	"$selfillum" "1"
+//	"$selfillumtint"        "[ 2 1 0 ]"
+//	"$selfillummask"	"models/props_sewer/oildrum_burning_glow"
+}

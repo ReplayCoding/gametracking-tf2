@@ -1,0 +1,7 @@
+"sky"
+{
+    $basetexture "skybox/sky_gavle_01dn"
+    $hdrbasetexture "skybox/sky_gavle_01dn" // this must be here otherwise hdr will have missing textures
+    $nofog 1
+    $ignorez 1
+}

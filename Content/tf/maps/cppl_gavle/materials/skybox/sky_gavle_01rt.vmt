@@ -1,0 +1,9 @@
+"sky"
+{
+    $basetexture "skybox/sky_gavle_01rt"
+    $hdrbasetexture "skybox/sky_gavle_01rt" // this must be here otherwise hdr will have missing textures
+    $nofog 1
+    $ignorez 1
+    "$basetexturetransform" "center 0 0 scale 1 2 rotate 0 translate 0 0"
+	"%keywords" "tf"
+}

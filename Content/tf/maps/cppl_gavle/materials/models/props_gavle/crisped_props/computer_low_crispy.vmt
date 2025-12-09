@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models\props_gavle\crisped_props\computer_low_crispy"
+    "$basemapalphaphongmask" "1"
+    "$phong" "1"
+    "$phongexponent" "10"
+    "$phongboost" ".1"	
+	//$bumpmap "models\props_gavle\crisped_props\computer_low_crispy_normal"
+}

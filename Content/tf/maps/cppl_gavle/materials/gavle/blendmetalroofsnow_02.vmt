@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "pl_barnblitz/metalroof_panels001"
+	"$basetexture2" "Nature/snow_full001"
+
+	"%tooltexture" "gavle/BlendSnowToMetalroof_Panels001Tooltexture"
+
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+
+	"$bumpmap" "models/effects/flat_normal"
+	"$bumpmap2" "Nature/snow_full001_normal"
+
+	"%keywords" "tf"
+
+	"$surfaceprop" "metal"
+	"$surfaceprop2" "snow"
+
+}

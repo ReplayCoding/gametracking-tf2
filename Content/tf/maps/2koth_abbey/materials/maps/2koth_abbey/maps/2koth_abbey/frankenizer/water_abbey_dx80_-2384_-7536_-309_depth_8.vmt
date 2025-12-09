@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/2koth_abbey/frankenizer/water_abbey_dx80_-2384_-7536_-309.vmt"
+	"insert"
+	{
+		"$waterdepth"		"8"
+	}
+}

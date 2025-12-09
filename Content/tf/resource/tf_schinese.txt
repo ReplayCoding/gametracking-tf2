@@ -6707,6 +6707,7 @@
 "arena_lumberyard_event_red_buffed"		"红队的最后一个玩家已获得增益效果！"
 "arena_lumberyard_event_skeleton"		"骷髅王已经随机生成！"
 "arena_lumberyard_event_heal"			"FF69B4你已阵亡！FBECCB作为FF69B4幽灵FBECCB来为队友提供治疗！"
+"arena_lumberyard_event_spell"			"FBECCB有个 FF69B4稀有魔咒FBECCB正在某个随机位置上生成！"
 "ctf_crasher_objective"					"护送你们的巨人向敌方大门进击！"
 "ctf_crasher_giant_down"				"我方巨人已经倒下，炸弹正在重新部署！"
 "ctf_crasher_new_giant"					"我方的新巨人登场了！"
@@ -9640,7 +9641,7 @@
 // %s5 is for a restriction on that event;
 // %s6 is for a secondary rank token. Example: "(Veteran) (Solid )(Fish), (Kills)( on Hightower): (82948)"
 // %s7 is Limited Quantity Tag if applicable
-"ItemTypeDescKillEater"		"%s7%s1%s6 %s2 - %s4%s5: %s3"
+"ItemTypeDescKillEater"		"%s7%s1%s6 %s2－%s4%s5：%s3"
 
 "ItemTypeDescKillEaterAlt"		"（%s2%s3：%s1）" // maps to s3/s4/s5 above. Example: "(Critical Kills)(): (8129)"
 "ItemTypeDescKillEaterAltv2"	"   %s2%s3：%s1" // maps to s3/s4/s5 above. Example: "(Critical Kills)(): (8129)"
@@ -12015,6 +12016,7 @@
 "Attrib_Unlimited"						"无限使用"
 "Attrib_UberDurationBonus"				"Ubercharge 持续时间增加 %s1 秒"
 "Attrib_RefillAmmo"						"可消耗：瞬间装满弹匣和后备弹药"
+"Attrib_FastReload"						"装填速度 +%s1%"
 "Attrib_BuffTime_Increased"				"增益持续时间 +%s1%"
 "Attrib_BuildRateBonus"					"建造速度 +%s1%"
 "Attrib_AttackProjectiles"				"子弹可以击落飞行中的火箭和榴弹。每次升级提升精准度和击落频率。"

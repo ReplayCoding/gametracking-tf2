@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "patterns/solid_orange_bright"
+
+	"$detail"	"gavle/Industrial_metal_wall_overlay"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+	"$bumpmap" "gavle/Industrial_metal_wall_normal"
+//	"$ssbump" "1"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

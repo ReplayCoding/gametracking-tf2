@@ -2,54 +2,49 @@
 // Coal Pit Script //
 /////////////////////
 
-local statue = null
-while (statue = Entities.FindByClassname(statue, "entity_soldier_statue"))
-{
-	DoEntFire("entity_soldier_statue", "Kill", "0", 0, null, null);					//prevent duplicate statues from taking up edicts
-}
-
 function checkCoalPitHolidays()
 {
 	local timetable = {}
 	LocalTime(timetable)
 
-	// Rick May ///////////////////////////////////////////////////
-	if(IsHolidayActive(12))
+	// Rick May / Soldier /////////////////////////////////////////
+	if(IsHolidayActive( Constants.EHoliday.kHoliday_Soldier ))
 	{
-		DoEntFire("relay_rickmay", "Trigger", "0", 0, null, null);
-		printl("Enabled Rick May event");
+		DoEntFire("tf_gamerules", "RunScriptFile", "coalpit/holiday/soldier.nut", 0.3, null, null);
+		printl("Coal Pit: enabled Soldier holiday event");
 	}
 	///////////////////////////////////////////////////////////////
 
 	// Invasion ///////////////////////////////////////////////////
 	if(timetable.day == 6 && timetable.month == 10)
 	{
-		DoEntFire("invasion*", "Enable", "0", 0, null, null);
-		printl("Enabled Invasion anniversary event");
+		DoEntFire("tf_gamerules", "RunScriptFile", "coalpit/holiday/invasion.nut", 0.3, null, null);
+		printl("Coal Pit: enabled Invasion anniversary event");
 	}
 	///////////////////////////////////////////////////////////////
 
 	// Halloween //////////////////////////////////////////////////
-	if(IsHolidayActive(2) || IsHolidayActive(9))
+	if(IsHolidayActive( Constants.EHoliday.kHoliday_Halloween ) || IsHolidayActive( Constants.EHoliday.kHoliday_FullMoon ))
 	{
 		DoEntFire("relay_halloween", "Trigger", "0", 0, null, null);
-		printl("Enabled Halloween/Full Moon event");
+		DoEntFire("tf_gamerules", "RunScriptFile", "coalpit/holiday/halloween.nut", 0.3, null, null);
+		printl("Coal Pit: enabled Halloween/Full Moon holiday event");
 	}
 	///////////////////////////////////////////////////////////////
 
 	// End of the Line ////////////////////////////////////////////
-	if(timetable.day == 8 && timetable.month == 12)
+	if(timetable.day == 8 && timetable.month == 12 || IsHolidayActive( Constants.EHoliday.kHoliday_EOTL ))
 	{
 		DoEntFire("relay_eotl", "Trigger", "0", 0, null, null);
-		printl("Enabled End of the Line anniversary event");
+		printl("Coal Pit: enabled End of the Line anniversary event");
 	}
 	///////////////////////////////////////////////////////////////
 	
 	// Summer /////////////////////////////////////////////////////
-	if(IsHolidayActive(13))
+	if(IsHolidayActive( Constants.EHoliday.kHoliday_Summer ))
 	{
-		DoEntFire("relay_summer", "Trigger", "0", 0, null, null);
-		printl("Enabled Summer event");
+		DoEntFire("tf_gamerules", "RunScriptFile", "coalpit/holiday/summer.nut", 0.3, null, null);
+		printl("Coal Pit: enabled Summer holiday event");
 	}
 	///////////////////////////////////////////////////////////////
 }

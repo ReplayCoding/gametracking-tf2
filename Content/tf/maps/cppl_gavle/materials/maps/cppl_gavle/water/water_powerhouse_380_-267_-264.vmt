@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_POWERHOUSE.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cppl_gavle/c380_-267_-264"
+		"Proxies"
+		{
+		}
+	}
+}

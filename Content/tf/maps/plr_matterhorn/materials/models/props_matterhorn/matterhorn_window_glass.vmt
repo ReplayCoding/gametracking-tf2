@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+    "$basetexture"          "models/props_matterhorn/matterhorn_window_glass"
+    "$lightwarptexture"     "models/weapons/c_items/c_ambassador_lightwarp"
+    "$halflambert"          "0"
+    
+    // Add transparency
+
+    "$additive"             "1"          
+
+    // Reflection settings
+    "$envmap"               "env_cubemap"      
+    "$envmaptint"           "[0.8 0.6 0.5]"   
+    "$envmapcontrast"       "1"               
+    "$envmapsaturation"     "1"                
+
+
+    // Fresnel reflection effect to make edges more reflective
+    "$phong"                "1"
+    "$phongboost"           "0.7"              // Reduced for less intensity
+    "$phongfresnelranges"   "[0.1 0.4 0.9]"    // Adjusted for subtler highlights
+    "$phongexponent"        "15"               // Softens the specular highlight
+
+    // Optional: adjust $alpha to control base transparency
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR004.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cppl_gavle/c-6571_-336_384"
+	}
+}

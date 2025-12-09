@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008_REFLECT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/plr_matterhorn/c1076_2784_896"
+	}
+}

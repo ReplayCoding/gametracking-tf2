@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "frankenizer/CryptDarkStoneSolid"
+	"$basetexturetransform" "center 49 1.11 scale 1.1 2.2 rotate -1 translate 0 0"
+
+	"$model" 1
+	"$detail" "models/props_frankenizer/church_windows/frank_church_window_large_frame"
+
+//	"$detailtexturetransform" "center .49 1.11 scale .35 .7 rotate -5 translate 0 0"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2"
+	"$detailscale"	"1"
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"          "models/props_matterhorn/matterhorn_skilift_chair.vtf"
+	"$lightwarptexture"     "models/weapons/c_items/c_ambassador_lightwarp.vtf"
+	
+	"$phong"              		"1"
+	"$basemapalphaphongmask"	"1"
+	"$phongboost"         		"1.4"
+	"$phongexponent"			"12"
+	"$phongfresnelranges"	"[1 1.5 1]"
+
+	"$rimlight"					"1" 
+	"$rimlightexponent"     	"4"
+	"$rimlightboost"        	".1"
+	"$rimmask"					"1"
+	"$halflambert"				"0"
+
+}

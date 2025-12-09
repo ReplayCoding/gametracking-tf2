@@ -1,0 +1,2 @@
+SpawnEntityFromTable("prop_soccer_ball", { origin = "1072 3868 -432", targetname = "summer_ball", model = "models/props_gameplay/ball001.mdl" });
+SpawnEntityFromTable("prop_soccer_ball", { origin = "-4768 1312 -488", targetname = "summer_ball", model = "models/props_gameplay/ball001.mdl" });
