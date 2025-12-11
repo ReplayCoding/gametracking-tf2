@@ -2174,7 +2174,6 @@
 "TF2MapsCharitableHeart2023_Desc"			"Tildelt til givere i løpet av TF2Maps 72hr TF2Jam 2023!"
 "TF2MapsCharitableHeart2024"				"TF2Maps – Veldedig hjerte 2024"
 "TF2MapsCharitableHeart2024_Desc"			"Tildelt givere under TF2Maps 72hr TF2Jam 2024!"
-
 "TF_TournamentMedal_MappersVsMachines_2017"			"Mappers vs. Machines 2017 – Deltakermedalje"
 "TF_TournamentMedal_MappersVsMachines_2017_Desc"	"Er du Mann nok til å hamre en tikkende tidsbombe på brystet ditt? Tildelt alle som deltok i kartkonkurransen til TF2Maps.net i 2017!"
 
@@ -3623,7 +3622,6 @@
 "TF_Wearable_Bullets"				"Dekorative kuler"
 "TF_Wearable_LavaHead"				"Lavahode"
 "TF_Wearable_Visor"					"Visir"
-
 "TF_RobotPart_Type"	"Robotdel"
 "TF_CircuitBoard_Type"	"Kretskort"
 
@@ -5423,7 +5421,6 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "arena_afterlife_authors"		"John \"Piogre\" Wolfe\nLizard of Oz\nMatvey \"ImAware\" Usatov\nHirschVA\nIsaac \"IJCT\" Cortissoz"
 "ctf_doublecross_event_authors"	"Harlen \"UEAKCrash\" Linke\nLiam \"Diva Dan\" Moffitt\nDaniel \"DJ\" Bennett"
 "sd_marshlands_authors"			"Tristan \"Alox\" Haguet\nLothudus"
-
 "TF_YourStats"					"Din statistikk"
 "TF_DuckPromoList"				"– Tilbehør for alle klasser, med elleve stiler\n– Registrerer statistikken din i løpet av Endestasjon-arrangementet\n– Se ledertavler og konkurrer med venner\n– Salg støtter Endestasjon-teamet"
 "TF_GetDucky"					"Få tak i Ducky"
@@ -6096,7 +6093,6 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "TF_MapToken_Marshlands"			"Kartfrimerke – Marshlands"
 "TF_MapToken_Marshlands_Desc"		"Et kart for hold flagget (samfunn)\n\nUtviklet av Tristan \"Alox\" Haguet og Lothudus\n\nKjøp av denne gjenstanden støtter utviklerne av samfunnskartet Marshlands direkte. Vis støtte i dag!"
 "TF_MapToken_Marshlands_AdText"		"– Kjøp av denne gjenstanden støtter utviklerne av samfunnskartet Marshlands direkte."
-
 "TF_Map_Unknown"				"Fant ikke kartet!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6320,7 +6316,6 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "TF_Map_Afterlife_StrangePrefix"		" spøkende"
 "TF_Map_Devilcross_StrangePrefix"		" djevla"
 "TF_Map_Marshlands_StrangePrefix"		" vemmelig"
-
 "TF_MapDonationLevel_Bronze"	"Bronse:"
 "TF_MapDonationLevel_Silver"	"Sølv:"
 "TF_MapDonationLevel_Gold"	"Gull:"
@@ -6544,10 +6539,10 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "Hydro_blue_base_defend"		"Forsvar det siste kontrollpunktet ditt mot RED, ellers vinner de!"
 "Hydro_cap_red_base"		"basen til RED"
 "Hydro_cap_blue_base"		"basen til BLU"
-"Hydro_cap_radar_dish"		"Radarantennen"
-"Hydro_cap_dam"				"Dammen"
-"Hydro_cap_power_plant"		"Kraftstasjonen"
-"Hydro_cap_warehouse"		"Varehuset"
+"Hydro_cap_radar_dish"		"radarantennen"
+"Hydro_cap_dam"				"demningen"
+"Hydro_cap_power_plant"		"kraftstasjonen"
+"Hydro_cap_warehouse"		"varehuset"
 
 // Well level strings
 "Well_red_setup_goal"			"Erobre alle fem kontrollpunktene for å vinne spillet!"
@@ -7117,6 +7112,7 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "cp_cowerhouse_timer_reset"				"Den underjordiske tiden er blitt tilbakestilt!"
 "sd_marshlands_hold_3min"				"Hold etterretningen i 3 minutter for å vinne!"
 "sd_marshlands_barriers"				"Ikke kryss de magiske barrierene, ellers havner kofferten tilbake!"
+"ctf_sidewinder_goal"					"Stjel kofferten fra fiendens base."
 
 // Win panel strings
 "Winpanel_Team1"			"LAG"
@@ -7369,7 +7365,7 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "GameType_Misc"					"Diverse"
 "GameType_Misc_Desc"			"Unike moduser som territorialkontroll, middelaldersk modus mer mer."
 "GameType_Powerup"				"Mannsterk"
-"GameType_Powerup_Desc"			"Bruk forsterkninger og gripekroker i denne varianten av Ta flagget."
+"GameType_Powerup_Desc"			"Bruk styrkelser og gripekroker i denne varianten av Ta flagget."
 "GameType_Passtime"				"PASS Time"
 "GameType_Passtime_Desc"		"Spill en dødelig kamp med fothockeybasketball."
 "Gametype_Halloween"			"Halloween"
@@ -10345,7 +10341,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_StrangeFilter_CommunityMapDevilcross_Desc"		"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, begrenses statistikken slik at det kun telles hendelser på Devilcross."
 "TF_StrangeFilter_CommunityMapMarshlands"			"Merkelig filter: Marshlands (samfunn)"
 "TF_StrangeFilter_CommunityMapMarshlands_Desc"		"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, begrenses statistikken slik at det kun telles hendelser på Marshlands."
-
 "TF_StrangeFilter_Map2fort"				"Merkelig filter: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Hvis du legger til dette merkelige filteret på en gjenstand av merkelig kvalitet og velger én av statistikkene den fører, vil det begrense statistikken slik at det kun telles hendelser på 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Merkelig filter: Dustbowl"
@@ -11221,7 +11216,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Winter2024Cosmetics_collection_desc"		"Gjenstander fra vintertilbehørskolleksjonen 2024:"
 "Summer2025Cosmetics_collection"			"Sommertilbehørskolleksjonen 2025"
 "Summer2025Cosmetics_collection_desc"		"Gjenstander fra sommertilbehørskolleksjonen 2025:"
-
 "Footer_GunMettleCosmetics"					"Innhold kan være merkelig eller en uvanlig Gun Mettle-hatt"
 "TF_GunMettleCosmeticCase"					"Gun Mettle-tilbehørskasse"
 "TF_GunMettleCosmeticCase_desc"				"Denne kassen er låst og krever\nen Gun Mettle-tillbehørsnøkkel for å åpnes.\n\nInneholder en samfunnsskapt gjenstand\nfra Gun Mettle-tilbehørskolleksjonen."
@@ -12962,7 +12956,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Attrib_Particle390"			"Strømavleder"
 "Attrib_Particle391"			"Strømavleder"
 "Attrib_Particle392"			"Sandfokk"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Varm"
 "Attrib_Particle702"			"Isotop"
@@ -13216,7 +13209,6 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "Attrib_Particle3210"		"Tjæregrop"
 "Attrib_Particle3211"		"Makabert beist"
 "Attrib_Particle3212"		"Makabert beist"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Drapsrekkeeffekt: %s1"
@@ -14997,8 +14989,8 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_GameModeDetail_SD"			"Begge lagene slåss om en koffert med australium, samt æren ved å levere den.\n\nNår fienden mister kofferten må laget ditt forsvare den til kofferten har returnert til det nøytrale startområdet."
 "TF_GameModeDesc_RobotDestruction"	"Ødelegg roboter og stjel poeng raskere enn fiendelaget."
 "TF_GameModeDetail_RobotDestruction" "Poeng skaffes ved å ødelegge robotene til fiendens lag. Robotene må ødelegges i rekkefølge, med de forreste robotene først.\n\nPoeng kan også stjeles ved å stjele etterretningskofferten fra dypt inne i fiendens base og ta den med tilbake til egen base."
-"TF_GameModeDesc_Powerup"		 "Bruk forsterkninger og gripekroken i Ta flagget med en ny vri."
-"TF_GameModeDetail_Powerup" "Standard Ta flagget, men flagget deres teleporteres umiddelbart til basen når det berøres av en fra laget.\n\nForsterkninger ligger strødd omkring på kartet og kan plukkes opp for å gi forskjellige fortryllelser. Du kan kun ha én forsterkning om gangen, og du slipper forsterkningen når du dør.\n\nDu har tilgang til en gripekrok som du kan bruke til å fly omkring på kartet."
+"TF_GameModeDesc_Powerup"		 "Bruk styrkelser og gripekroker i denne varianten av Ta flagget."
+"TF_GameModeDetail_Powerup" "Standard Ta flagget, men flagget deres teleporteres umiddelbart til basen når det berøres av en fra laget.\n\nStyrkelser ligger strødd omkring på kartet og kan plukkes opp for å gi forskjellige fortryllelser. Du kan kun ha én styrkelse om gangen, og du slipper styrkelsen når du dør.\n\nDu har tilgang til en gripekrok som du kan bruke til å fly omkring på kartet."
 "TF_GameModeDesc_Featured"		"Tjenestegjør i de fremhevede kartene fra Tough Break-oppdateringen."
 "TF_GameModeDetail_Featured"	"Velg dette alternativet for å bli med på en server som kontinuerlig kjører de fremhevede kartene i Tough Break-oppdateringen."
 "TF_GameModeDesc_Passtime"		"Hent jekken og få poeng før fiendelaget gjør det!"
@@ -17851,7 +17843,7 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_sbox2014_teutonic_toque"		"Teutonsk kokkelue" // ADD THE
 "TF_sbox2014_mustachioed_mann"		"Bartet mann" // ADD THE
 "TF_sbox2014_spy_snake"		"Ryggdolkerens boomslange" // ADD THE
-"TF_sbox2014_rat_stompers"		"Råttetrampere" // ADD THE
+"TF_sbox2014_rat_stompers"		"Rottestøvler" // ADD THE
 "TF_sbox2014_sole_mate"		"Sjeleflyndre"
 "TF_sbox2014_knight_helmet"		"Mørk Falkirk-hjelm" // ADD THE
 "TF_sbox2014_knight_helmet_style0"	"Åpen"
@@ -18085,9 +18077,7 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_invasion_jupiter_jetpack"		"Jupiter-rakettsekk"
 "TF_invasion_the_space_diver"		"Romdykker" // ADD THE
 "TF_invasion_sniperrifle"			"Stjerneskudd"
-"TF_invasion_sniperrifle_Desc"		"Gjør om fiendene til aske!"
 "TF_invasion_pistol"				"C.A.P.P.E.R" // ADD THE
-"TF_invasion_pistol_Desc"			"Gjør om fiendene til aske!"
 "TF_invasion_bat"					"Ballsabel"
 "TF_invasion_bat_Desc"				"Overveldende energi!\nDesintegrer dine fiender!"
 "TF_invasion_wrangler"				"Gigerteller" // ADD THE
@@ -18397,6 +18387,14 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_taunt_ring_king"						"Hån: Kongen av ringen"
 "TF_taunt_ring_king_Desc"					"Samfunnsskapt hån for Heavy."
 "TF_taunt_ring_king_AdText"					"– Samfunnsskapt hån for Heavy"
+"TF_taunt_dead_manns_drink"					"Hån: Dødmannsdrikk"
+"TF_taunt_dead_manns_drink_Desc"			"Samfunnsskapt hån for Demoman."
+"TF_taunt_dead_manns_drink_AdText"			"– Samfunnsskapt hån for Demoman"
+"TF_taunt_the_critical_fail"				"Hån: Kritisk feil"
+"TF_taunt_the_critical_fail_Desc"			"Samfunnsskapt hån for alle klasser."
+"TF_taunt_the_critical_fail_AdText"			"– Samfunnsskapt hån for alle klasser"
+"TF_taunt_chairholder"						"Hån: Sitte godt i det"
+"TF_taunt_chairholder_AdText"				"– Samfunnsskapt hån for Scout"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Pustepose"	// ADD THE
@@ -19637,6 +19635,20 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_hwn2025_face_lift"					"Ansiktsløft"
 "TF_hwn2025_zepheniahs_shroud"			"Zephaniahs slør"
 
+"TF_dec25_snow_merc_style1"					"Klasse"
+"TF_dec25_snow_merc_style2"					"Tradisjonell"
+"TF_dec25_old_days_style1"					"Bowlerhatt"
+"TF_dec25_chill_seeker_style1"				"Malt hatt"
+"TF_dec25_punchers_polar_style1"			"Arktisk"
+"TF_dec25_punchers_polar_style2"			"Sibirsk"
+"TF_dec25_blizzard_bonnet_style2"			"Rutete"
+"TF_dec25_festive_fleece_style2"			"Rutete"
+"TF_dec25_air_head_style1"					"Bart"
+"TF_dec25_scrooge_style1"					"Stil 1"
+"TF_dec25_scrooge_style2"					"Stil 2"
+"TF_dec25_scrooge_style3"					"Stil 3"
+"TF_dec25_scrooge_style4"					"Stil 4"
+"TF_dec25_black_tie_style2"					"Festbrems"
 "TF_style_bullets"						"Kuler"
 "TF_style_nobullets"					"Ingen kuler"
 
@@ -19659,56 +19671,56 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_SaxtonHat"			       "Saxton" // ADD THE
 "TF_SaxtonHat_Desc"            "Nå kan du se ut som Mann Co.s eier og direktør! Spesielt på hode-delen, ikke de fortreffelige, muskuløse under-hode-delene."
 
-"TF_Powerup_Strength"				"Forsterkning: Styrke"
+"TF_Powerup_Strength"				"Styrkelse: Styrke"
 "TF_Powerup_Strength_Desc"			"Økt skade på alle våpen\nImmunitet mot minkende avstandsskade"
-"TF_Powerup_Haste"					"Powerup: Hastverk"
+"TF_Powerup_Haste"					"Styrkelse: Hastverk"
 "TF_Powerup_Haste_Desc"				"Økt skytehastighet, omladningshastighet,\nmagasinstørrelse og maks ammunisjonsmengde\nØkt bevegelseshastighet"
-"TF_Powerup_Regen"					"Powerup: Regenerering"
+"TF_Powerup_Regen"					"Styrkelse: Regenerering"
 "TF_Powerup_Regen_Desc"				"Helse, ammunisjon og metall regenereres"
-"TF_Powerup_Resist"					"Powerup: Resistens"
+"TF_Powerup_Resist"					"Styrkelse: Resistens"
 "TF_Powerup_Resist_Desc"			"Innkommende skade reduseres\nImmun mot kritisk skade-multiplikator"
-"TF_Powerup_Vampire"				"Powerup: Vampyr"
+"TF_Powerup_Vampire"				"Styrkelse: Vampyr"
 "TF_Powerup_Vampire_Desc"			"Skade gjort returneres som helse\nInnkommende skade reduseres\nØkt makshelse"
-"TF_Powerup_Reflect"				"Powerup: Reflektering"
+"TF_Powerup_Reflect"				"Styrkelse: Reflektering"
 "TF_Powerup_Reflect_Desc"			"Mottatt skade reflekteres delvis tilbake til angriperen\nØkt makshelse"
-"TF_Powerup_Precision"				"Powerup: Presisjon"
+"TF_Powerup_Precision"				"Styrkelse: Presisjon"
 "TF_Powerup_Precision_Desc"			"Redusert kulespredning\nImmunitet mot minkende avstandsskade\nØkt hastighet på rakett og granat"
-"TF_Powerup_Agility"				"Powerup: Fleksibilitet"
+"TF_Powerup_Agility"				"Styrkelse: Smidighet"
 "TF_Powerup_Agility_Desc"			"Økt bevegelseshastighet\nØkt gripekrokhastighet\nØkt hoppehøyde\nUmiddelbart våpenbytte"
-"TF_Powerup_Knockout"				"Powerup: Knockout"
+"TF_Powerup_Knockout"				"Styrkelse: Knockout"
 "TF_Powerup_Knockout_Desc"			"Kritisk nærkampskade\nNærkampskade skubber ofre og får dem til å slippe powerupen sin\nØkt makshelse\nImmun mot tilbakeslag"
-"TF_Powerup_King"					"Powerup: Konge"
+"TF_Powerup_King"					"Styrkelse: Konge"
 "TF_Powerup_King_Desc"				"Områdelagstyrkning\nKongen og lagkamerater i nærheten får helseregenerering og økt angreps- og omladningshastighet"
-"TF_Powerup_Plague"					"Powerup: Pest"
+"TF_Powerup_Plague"					"Styrkelse: Pest"
 "TF_Powerup_Plague_Desc"			"Ta på fiendtlige spillere for å infisere dem og fiender i nærheten\nInfiserte fiender blør i hjel med mindre de plukker opp en helsepakke\nResistens mot infiserte fiender"
-"TF_Powerup_Supernova"				"Powerup: Supernova"
+"TF_Powerup_Supernova"				"Styrkelse: Supernova"
 "TF_Powerup_Supernova_Desc"			"Lammende angrep med virkeområde\nGjør skade for å bygge ladning\nBruk ladning for å lamslå fiender og tvinge dem til å slippe powerupen sin"
 
-"TF_Powerup_Pickup_Strength"		"Du fikk powerupen STYRKE!"
-"TF_Powerup_Pickup_Resist"			"Du fikk powerupen RESISTENS!"
-"TF_Powerup_Pickup_Regen"			"Du fikk powerupen REGENERERING!"
-"TF_Powerup_Pickup_Haste"			"Du fikk powerupen HASTVERK!"
-"TF_Powerup_Pickup_Vampire"			"Du fikk powerupen VAMPYR!"
-"TF_Powerup_Pickup_Reflect"			"Du fikk powerupen REFLEKTERING!"
-"TF_Powerup_Pickup_Precision"		"Du fikk powerupen PRESISJON!"
-"TF_Powerup_Pickup_Agility"			"Du fikk powerupen FLEKSIBEL!"
-"TF_Powerup_Pickup_Knockout"		"Du fikk powerupen KNOCKOUT!"
-"TF_Powerup_Pickup_King"			"Du fikk powerupen KONGE!"
-"TF_Powerup_Pickup_Plague"			"Du fikk powerupen PEST!"
-"TF_Powerup_Pickup_Supernova"		"Du fikk powerupen SUPERNOVA!"
+"TF_Powerup_Pickup_Strength"		"Du fikk styrkelsen STYRKE!"
+"TF_Powerup_Pickup_Resist"			"Du fikk styrkelsen RESISTENS!"
+"TF_Powerup_Pickup_Regen"			"Du fikk styrkelsen REGENERERING!"
+"TF_Powerup_Pickup_Haste"			"Du fikk styrkelsen HASTVERK!"
+"TF_Powerup_Pickup_Vampire"			"Du fikk styrkelsen VAMPYR!"
+"TF_Powerup_Pickup_Reflect"			"Du fikk styrkelsen REFLEKTERING!"
+"TF_Powerup_Pickup_Precision"		"Du fikk styrkelsen PRESISJON!"
+"TF_Powerup_Pickup_Agility"			"Du fikk styrkelsen SMIDIGHET!"
+"TF_Powerup_Pickup_Knockout"		"Du fikk styrkelsen KNOCKOUT!"
+"TF_Powerup_Pickup_King"			"Du fikk styrkelsen KONGE!"
+"TF_Powerup_Pickup_Plague"			"Du fikk styrkelsen PEST!"
+"TF_Powerup_Pickup_Supernova"		"Du fikk styrkelsen SUPERNOVA!"
 
-"TF_Powerup_Pickup_Deny"			"Du har allerede en powerup!"
-"TF_Powerup_Pickup_Deny_Crit"		"Denne kan ikke brukes med din nåværende powerup"
-"TF_Powerup_Pickup_Deny_Spy"		"Spioner kan ikke bruke KNOCKOUT-powerupen"
-"TF_Powerup_Knocked_Out"			"Powerupen din ble slått ut!"
-"TF_Powerupvolume_Available"		"Lagets hevn-powerup er nå tilgjengelig, hent den!"
+"TF_Powerup_Pickup_Deny"			"Du har allerede en styrkelse!"
+"TF_Powerup_Pickup_Deny_Crit"		"Denne kan ikke brukes sammen med gjeldende styrkelse"
+"TF_Powerup_Pickup_Deny_Spy"		"Spies kan ikke bruke styrkelsen KNOCKOUT"
+"TF_Powerup_Knocked_Out"			"Styrkelsen din ble slått ut!"
+"TF_Powerupvolume_Available"		"Lagets hevnstyrkelse er nå tilgjengelig, hent den!"
 "TF_Powerup_Supernova_Deny"			"Det er ingen gyldige fiendtlige mål!"
 "TF_Powerup_Supernova_Deploy"		"Gripekrokens SEKUNDÆRANGREP for å bruke Supernova-angrep!"
-"TF_Powerup_Contract_Plague"		"Du har blitt smittet med pesten. Finn ett helsesett fort!"
-"TF_Powerup_No_Building_Pickup"		"Du kan ikke plukke opp bygninger mens du har KNOCKOUT-powerupen"
+"TF_Powerup_Contract_Plague"		"Du har blitt smittet med pesten. Finn en helsepakke fort!"
+"TF_Powerup_No_Building_Pickup"		"Du kan ikke plukke opp bygninger mens du har styrkelsen KNOCKOUT"
 "TF_Powerup_Dominant"				"Du har gått amok og dominerer det andre laget!\nKonkurransevilkårene er blitt jevnet ut i deres favør"
 "TF_Powerup_Dominant_Continue"		"Du dominerer fremdeles det andre laget!\nKonkurransevilkårene forblir jevnet ut i deres favør"
-"TF_Powerup_Dominant_StillIn"		"Du er fremdeles dominant.\nForsterkninger er mindre effektive og du har fått dødsmerket"
+"TF_Powerup_Dominant_StillIn"		"Du er fremdeles dominant.\nStyrkelser er mindre effektive og du har fått dødsmerket"
 "TF_Powerup_Dominant_Other_Team"	"En fiendtlig spiller dominerer kampen.\nKonkurransevilkårene er blitt jevnet ut i din favør"
 "TF_Powerup_OutOfDominant"			"Du er ikke lenger dominant!"
 
@@ -20087,13 +20099,13 @@ Spillere mister etterretningen når de dør. Mistet etterretning returneres til 
 For å få poeng må du stjele fiendens etterretningskoffert og ta den med tilbake til basen din. Mistet etteretning returnerer umiddelbart til basen når den berøres av laget sitt.
 
 Andre merknader:
-Powerups kan plukkes for å gi deg forskjellige forbedringer. Du kan bare bære én powerup om gangen, og du slipper powerupen når du dør. Du har tilgang til en gripekrok som du kan bruke til å fly rundt på kartet."
+Styrkelser kan plukkes for å gi deg forskjellige forbedringer. Du kan bare bære én styrkelse om gangen, og du slipper styrkelsen når du dør. Du har tilgang til en gripekrok som du kan bruke til å fly rundt på kartet."
 
 "ctf_gorge_beta"			"Mål:
 For å få poeng må du stjele fiendens etterretningskoffert og ta den med tilbake til basen din. Mistet etteretning returnerer umiddelbart til basen når den berøres av laget sitt.
 
 Andre merknader:
-Powerups kan plukkes for å gi deg forskjellige forbedringer. Du kan bare bære én powerup om gangen, og du slipper powerupen når du dør. Du har tilgang til en gripekrok som du kan bruke til å fly rundt på kartet."
+Styrkelser kan plukkes for å gi deg forskjellige forbedringer. Du kan bare bære én styrkelse om gangen, og du slipper styrkelsen når du dør. Du har tilgang til en gripekrok som du kan bruke til å fly rundt på kartet."
 
 "cp_snowplow_description"				"Mål:
 RED-laget vinner ved å forsvare kontrollpunktene sine. BLU-laget vinner ved å ta alle kontrollpunktene før togets helse når null.

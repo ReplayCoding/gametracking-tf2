@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"frankenizer/roof_copper_patina"
+	"$surfaceprop"	"metal"
+	"%keywords"	"tf"
+
+	"$color"		"[0.25 0.2 0.18]"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "frankenizer/roof_copper_patina"
+	"$envmaptint" "[0.18 0.4 0.2]"
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/wall029a"
+	//"$bumpmap" "Metal/wall029_height-ssbump"
+        	//"$ssbump" "1"
+	"$color"		"[0.22 0.6 0.4]"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "Metal/wall029a"
+	"$envmaptint" "[0.18 0.4 0.2]"
+}

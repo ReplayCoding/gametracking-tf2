@@ -2174,6 +2174,8 @@
 "TF2MapsCharitableHeart2023_Desc"			"Concedido a quem doou durante a TF2Jam de 72 horas do TF2Maps em setembro de 2023!"
 "TF2MapsCharitableHeart2024"				"Coração Caridoso do TF2Maps de 2024"
 "TF2MapsCharitableHeart2024_Desc"			"Concedido a quem doou durante a TF2Jam de 72 horas do TF2Maps em 2024!"
+"TF2MapsCharitableHeart2025"				"Coração Caridoso do TF2Maps de 2025"
+"TF2MapsCharitableHeart2025_Desc"			"Concedido a quem doou durante a TF2Jam de 72 horas do TF2Maps em 2025!"
 
 "TF_TournamentMedal_MappersVsMachines_2017"			"Participação - Mappers vs. Machines 2017"
 "TF_TournamentMedal_MappersVsMachines_2017_Desc"	"Você se considera um Mann para martelar uma bomba-relógio no seu peitoral? Concedida a quem participou da edição de 2017 do concurso de mapas de MvM do site TF2Maps.net!"
@@ -3622,6 +3624,7 @@
 "TF_Wearable_Bullets"				"Balas Decorativas"
 "TF_Wearable_LavaHead"				"Cabeça de Lava"
 "TF_Wearable_Visor"					"Visor"
+"TF_Wearable_Lazers"				"Lasers"
 
 "TF_RobotPart_Type"	"Peça de Robô"
 "TF_CircuitBoard_Type"	"Placa de Circuito"
@@ -5424,7 +5427,7 @@
 "arena_afterlife_authors"		"John \"Piogre\" Wolfe\nLizard of Oz\nMatvey \"ImAware\" Usatov\nHirschVA\nIsaac \"IJCT\" Cortissoz"
 "ctf_doublecross_event_authors"	"Harlen \"UEAKCrash\" Linke\nLiam \"Diva Dan\" Moffitt\nDaniel \"DJ\" Bennett"
 "sd_marshlands_authors"			"Tristan \"Alox\" Haguet\nLothudus"
-
+"pd_nutcracker_authors"			"Vasilis \"Billo\" Chatzikostas\nWiktor \"Doom\" Pieńkowski\nAlex \"FGD5\" Stewart\nApostolos Mpaltas\nStuffy360"
 "TF_YourStats"					"Suas estatísticas"
 "TF_DuckPromoList"				"— Cosmético para todas as classes com 11 estilos\n— Contabiliza estatísticas durante o evento do End of the Line\n— Veja as classificações de amigos no evento\n— Vendas apoiam a equipe do End of the Line"
 "TF_GetDucky"					"Pagar o pato"
@@ -6097,7 +6100,9 @@
 "TF_MapToken_Marshlands"			"Selo - Marshlands"
 "TF_MapToken_Marshlands_Desc"		"Um mapa de Segure a Bandeira (Comunidade)\n\nFeito por Tristan \"Alox\" Haguet e Lothudus\n\nComprar este item apoiará diretamente os criadores do mapa comunitário Marshlands. Demonstre o seu apoio hoje mesmo!"
 "TF_MapToken_Marshlands_AdText"		"— Comprar este item apoiará diretamente os criadores do mapa comunitário Marshlands."
-
+"TF_MapToken_Gavle_AdText"			"— Comprar este item apoiará diretamente os criadores do mapa comunitário Gavle."
+"TF_Map_Sidewinder"					"Sidewinder"
+"TF_MapToken_Sidewinder"			"Selo - Sidewinder"
 "TF_Map_Unknown"				"Mapa não encontrado!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6321,7 +6326,7 @@
 "TF_Map_Afterlife_StrangePrefix"		" e Fantasma"
 "TF_Map_Devilcross_StrangePrefix"		" e Endiabrado"
 "TF_Map_Marshlands_StrangePrefix"		" e Pantanoso"
-
+"TF_Map_Abbey_StrangePrefix"			" e Sagrado"
 "TF_MapDonationLevel_Bronze"	"Bronze:"
 "TF_MapDonationLevel_Silver"	"Prata:"
 "TF_MapDonationLevel_Gold"	"Ouro:"
@@ -7118,6 +7123,12 @@
 "cp_cowerhouse_timer_reset"				"O tempo de acesso ao abismo subterrâneo foi reiniciado!"
 "sd_marshlands_hold_3min"				"Fique com a maleta por três minutos para vencer!"
 "sd_marshlands_barriers"				"Não atravesse as barreiras mágicas ou perderá a posse da maleta!"
+"cppl_gavle_factory"					"a Fábrica"
+"cppl_gavle_warehouse"					"o Depósito"
+"cppl_gavle_base"						"a Base"
+"cppl_gavle_village"					"o Vilarejo"
+"koth_winter_ridge_barn"				"o Celeiro Congelado"
+"ctf_sidewinder_goal"					"Roube a maleta da base inimiga."
 
 // Win panel strings
 "Winpanel_Team1"			"EQUIPE"
@@ -10345,6 +10356,17 @@
 "TF_StrangeFilter_CommunityMapDevilcross_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Devilcross."
 "TF_StrangeFilter_CommunityMapMarshlands"			"Filtro Estranho: Marshlands (Comunidade)"
 "TF_StrangeFilter_CommunityMapMarshlands_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Marshlands."
+"TF_StrangeFilter_CommunityMapNutcracker"			"Filtro Estranho: Nutcracker (Comunidade)"
+"TF_StrangeFilter_CommunityMapGavle"			"Filtro Estranho: Gavle (Comunidade)"
+"TF_StrangeFilter_CommunityMapGavle_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Gavle."
+"TF_StrangeFilter_CommunityMapSidewinder"			"Filtro Estranho: Sidewinder (Comunidade)"
+"TF_StrangeFilter_CommunityMapSidewinder_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Sidewinder."
+"TF_StrangeFilter_CommunityMapAbbey"			"Filtro Estranho: Abbey (Comunidade)"
+"TF_StrangeFilter_CommunityMapAbbey_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Abbey."
+"TF_StrangeFilter_CommunityMapWinterRidge"			"Filtro Estranho: Winter Ridge (Comunidade)"
+"TF_StrangeFilter_CommunityMapWinterRidge_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Winter Ridge."
+"TF_StrangeFilter_CommunityMapMatterhorn"			"Filtro Estranho: Matterhorn (Comunidade)"
+"TF_StrangeFilter_CommunityMapMatterhorn_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em Matterhorn."
 
 "TF_StrangeFilter_Map2fort"				"Filtro Estranho: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Adicionar este Filtro Estranho a um item de qualidade Estranha e selecionar um dos contadores fará com que este só seja atualizado com eventos em 2Fort."
@@ -10949,6 +10971,7 @@
 "TF_StockingStuffer_2022"			"Meia Cheia de Presentes de 2022"
 "TF_StockingStuffer_2023"			"Meia Cheia de Presentes de 2023"
 "TF_StockingStuffer_2024"			"Meia Cheia de Presentes de 2024"
+"TF_StockingStuffer_2025"			"Meia Cheia de Presentes de 2025"
 "TF_StockingStuffer_Desc"		"Contém presentes sortidos para mercenários que se comportaram bem durante o ano."
 
 "TF_WinterCrate"			"Caixa Festiva de Fim de Ano"
@@ -11222,6 +11245,8 @@
 "Winter2024Cosmetics_collection_desc"		"Itens da Coleção de Cosméticos de Fim de Ano de 2024:"
 "Summer2025Cosmetics_collection"			"Coleção de Cosméticos das Férias de 2025"
 "Summer2025Cosmetics_collection_desc"		"Itens da Coleção de Cosméticos das Férias de 2025:"
+"Winter2025Cosmetics_collection"				"Coleção de Cosméticos de Fim de Ano de 2025"
+"Winter2025Cosmetics_collection_desc"		"Itens da Coleção de Cosméticos de Fim de Ano de 2025:"
 
 "Footer_GunMettleCosmetics"					"O conteúdo pode ser um item Estranho ou um chapéu Incomum do Arsenal Artístico"
 "TF_GunMettleCosmeticCase"					"Caixa de Cosméticos do Arsenal Artístico"
@@ -11359,6 +11384,8 @@
 "TF_Tool_Summer2025CosmeticKey_desc"			"Usada para abrir uma Caixa de Cosméticos das Férias de 2025"
 "TF_Tool_Summer2025CosmeticKey_AdText"		"— Usada para abrir uma Caixa de Cosméticos das Férias de 2025\n— A caixa pode conter um item Estranho ou um chapéu Incomum das Férias de 2025"
 
+"Footer_Winter2025Cosmetics"					"O conteúdo pode ser um item Estranho ou um chapéu Incomum de Fim de Ano de 2025"
+"TF_Winter2025CosmeticCase"					"Caixa de Cosméticos de Fim de Ano de 2025"
 "Footer_RainyDayCosmetics"					"O conteúdo pode ser um item Estranho ou um chapéu Incomum do Dia Chuvoso"
 "TF_RainyDayCosmeticCase"					"Caixa de Cosméticos do Dia Chuvoso"
 "TF_RainyDayCosmeticCase_desc"				"Esta caixa está trancada e requer uma Chave da Caixa de Cosméticos do Dia Chuvoso para ser aberta.\n\nContém um item criado pela comunidade da Coleção de Cosméticos do Dia Chuvoso."
@@ -12962,7 +12989,6 @@
 "Attrib_Particle390"			"Condutor de corrente"
 "Attrib_Particle391"			"Condutor de corrente"
 "Attrib_Particle392"			"Arenoso"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Quente"
 "Attrib_Particle702"			"Isótopo"
@@ -13216,7 +13242,6 @@
 "Attrib_Particle3210"		"Poço de piche"
 "Attrib_Particle3211"		"Miasma mórbido"
 "Attrib_Particle3212"		"Miasma mórbido"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Efeito de combo: %s1"
@@ -18083,9 +18108,7 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_invasion_jupiter_jetpack"		"Mochila a Jato de Júpiter"
 "TF_invasion_the_space_diver"		"O Mergulhador Espacial" // ADD THE
 "TF_invasion_sniperrifle"			"Estrela Cadente"
-"TF_invasion_sniperrifle_Desc"		"Transforme os seus inimigos em poeira!"
 "TF_invasion_pistol"				"O C.A.U.B.O.I." // ADD THE
-"TF_invasion_pistol_Desc"			"Transforme os seus inimigos em poeira!"
 "TF_invasion_bat"					"Taco de Luz"
 "TF_invasion_bat_Desc"				"Energia absurda!\nDesintegre os seus inimigos!"
 "TF_invasion_wrangler"				"O Contador Giger" // ADD THE
@@ -18433,6 +18456,15 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_taunt_ring_king"						"Provocação: Rei do Ringue"
 "TF_taunt_ring_king_Desc"					"Provocação de Heavy criada pela comunidade"
 "TF_taunt_ring_king_AdText"					"— Provocação de Heavy criada pela comunidade"
+"TF_taunt_dead_manns_drink"					"Provocação: Uma pro Zepheniah"
+"TF_taunt_dead_manns_drink_Desc"			"Provocação de Demoman criada pela comunidade"
+"TF_taunt_dead_manns_drink_AdText"			"— Provocação de Demoman criada pela comunidade"
+"TF_taunt_the_critical_fail"				"Provocação: Fracasso Crítico"
+"TF_taunt_the_critical_fail_Desc"			"Provocação para todas as classes criada pela comunidade"
+"TF_taunt_the_critical_fail_AdText"			"— Provocação para todas as classes criada pela comunidade"
+"TF_taunt_chairholder"						"Provocação: Trono do Dono"
+"TF_taunt_chairholder_Desc"					"Provocação de Scout criada pela comunidade\n\nPressione a tecla de provocação para interromper."
+"TF_taunt_chairholder_AdText"				"— Provocação de Scout criada pela comunidade"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"O Saco Respiratório"	// ADD THE
@@ -19714,6 +19746,17 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_hwn2025_face_lift"					"É a Sua Cara"
 "TF_hwn2025_zepheniahs_shroud"			"Semblante do Zepheniah"
 
+"TF_dec25_old_days"						"A Devoção dos Velhos Tempos" // ADD THE
+"TF_dec25_old_days_style1"					"Coqueiro"
+"TF_dec25_old_days_style2"					"Cartoleiro"
+"TF_dec25_old_days_style3"					"Baldieiro"
+"TF_dec25_scrooge_style1"					"Estilo 1"
+"TF_dec25_scrooge_style2"					"Estilo 2"
+"TF_dec25_scrooge_style3"					"Estilo 3"
+"TF_dec25_scrooge_style4"					"Estilo 4"
+"TF_dec25_flatline_flatcap_style1"			"Chapéu pintado"
+"TF_dec25_flatline_flatcap_style2"			"Cabelo pintado"
+"TF_dec25_cardiologists_cardigan"		"Cardigã do Cardiologista"
 "TF_style_bullets"						"Com balas"
 "TF_style_nobullets"					"Sem balas"
 

@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"Nature/grass_07"
+	"$basetexture2"	"Frankenizer/CryptFloor4a"
+
+	//"%tooltexture" "Frankenizer/CryptFloor4b_to_grass07_tooltexture"
+
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+
+	"$bumpmap"	"Frankenizer/ssbump_flat"
+	"$bumpmap2"	"Frankenizer/CryptFloor4a_ssbump"
+
+	"%detailtype" "tf_forest_grass"
+	"%keywords" "tf"
+
+	"$ssbump" "1"
+	"$surfaceprop"	"dirt"
+	"$surfaceprop2"	"concrete"
+
+}

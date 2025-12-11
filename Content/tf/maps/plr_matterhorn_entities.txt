@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 1209
+Revision: 1277
 {
 "world_maxs" "6272 9216 7156"
 "world_mins" "-6912 -5760 -1920"
@@ -8,7 +8,7 @@ Revision: 1209
 "detailvbsp" "detail.vbsp"
 "detailmaterial" "detail/detailsprites"
 "classname" "worldspawn"
-"mapversion" "1209"
+"mapversion" "1277"
 "hammerid" "1"
 }
 {
@@ -264,7 +264,6 @@ Revision: 1209
 "hammerid" "726690"
 }
 {
-"origin" "-1364 2352 934.53"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -276,6 +275,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1364 2352 934.53"
 "modelscale" "1.0"
 "model" "models/props_2fort/lantern001.mdl"
 "MinAnimTime" "5"
@@ -544,7 +544,6 @@ Revision: 1209
 "hammerid" "781398"
 }
 {
-"origin" "1364.15 2343.76 932.53"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -556,6 +555,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1364.15 2343.76 932.53"
 "modelscale" "1.0"
 "model" "models/props_2fort/lantern001.mdl"
 "MinAnimTime" "5"
@@ -987,12 +987,12 @@ Revision: 1209
 "hammerid" "726361"
 }
 {
-"origin" "40 1794.5 747.82"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "40 1794.5 747.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -1005,12 +1005,12 @@ Revision: 1209
 "hammerid" "724480"
 }
 {
-"origin" "0 1796 779.82"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "0 1796 779.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -1023,12 +1023,12 @@ Revision: 1209
 "hammerid" "724484"
 }
 {
-"origin" "-40 1794.5 747.82"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-40 1794.5 747.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -1499,7 +1499,6 @@ Revision: 1209
 "hammerid" "111175"
 }
 {
-"origin" "1264 1664 744.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -1513,6 +1512,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu128_1a"
+"origin" "1264 1664 744.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_bottom.mdl"
 "MinAnimTime" "5"
@@ -1530,7 +1530,6 @@ Revision: 1209
 "hammerid" "111179"
 }
 {
-"origin" "1264 1664 824.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -1544,6 +1543,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu128_1b"
+"origin" "1264 1664 824.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_top.mdl"
 "MinAnimTime" "5"
@@ -1748,7 +1748,6 @@ Revision: 1209
 "hammerid" "747794"
 }
 {
-"origin" "632 2476 852"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -1761,6 +1760,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "632 2476 852"
 "modelscale" "2.00"
 "model" "models/props_powerhouse/powerhouse_stapler.mdl"
 "mindxlevel" "0"
@@ -1780,7 +1780,6 @@ Revision: 1209
 "hammerid" "606551"
 }
 {
-"origin" "632 2452.3 852"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -1793,6 +1792,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "632 2452.3 852"
 "modelscale" "2.00"
 "model" "models/props_powerhouse/powerhouse_stapler.mdl"
 "mindxlevel" "0"
@@ -2150,7 +2150,6 @@ Revision: 1209
 "hammerid" "748199"
 }
 {
-"origin" "-1224.02 1760 825.25"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -2162,6 +2161,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1224.02 1760 825.25"
 "modelscale" "1.0"
 "model" "models/props_2fort/lantern001.mdl"
 "MinAnimTime" "5"
@@ -2257,7 +2257,6 @@ Revision: 1209
 "hammerid" "780072"
 }
 {
-"origin" "1232 1752.02 836.14"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -2269,6 +2268,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1232 1752.02 836.14"
 "modelscale" "1.0"
 "model" "models/props_2fort/lantern001.mdl"
 "MinAnimTime" "5"
@@ -2951,7 +2951,6 @@ Revision: 1209
 "hammerid" "230191"
 }
 {
-"origin" "0 2300 1128"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -2965,6 +2964,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 2300 1128"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -3236,7 +3236,7 @@ Revision: 1209
 "origin" "-64 -256 800"
 "team_base_icon_3" "sprites/obj_icons/icon_base_blu"
 "team_base_icon_2" "sprites/obj_icons/icon_base_red"
-"switch_teams" "1"
+"switch_teams" "0"
 "score_style" "0"
 "play_all_rounds" "0"
 "partial_cap_points_rate" "0.1"
@@ -3263,6 +3263,7 @@ Revision: 1209
 "OnSetupFinished" "ssplr_timerDisable0-1"
 "OnSetupFinished" "ssplr_red_pushzoneEnable0-1"
 "OnSetupFinished" "ssplr_blu_pushzoneEnable0-1"
+"OnSetupFinished" "steam_whistleTrigger01"
 }
 {
 "origin" "-64 -272 784"
@@ -3328,12 +3329,12 @@ Revision: 1209
 "hammerid" "112545"
 }
 {
-"origin" "40 1794.5 1008"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "40 1794.5 1008"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3346,12 +3347,12 @@ Revision: 1209
 "hammerid" "557528"
 }
 {
-"origin" "0 1796 1040"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "0 1796 1040"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3364,12 +3365,12 @@ Revision: 1209
 "hammerid" "557532"
 }
 {
-"origin" "-40 1794.5 1008"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-40 1794.5 1008"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3522,12 +3523,12 @@ Revision: 1209
 "hammerid" "730640"
 }
 {
-"origin" "372 736 276"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "372 736 276"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3540,12 +3541,12 @@ Revision: 1209
 "hammerid" "557549"
 }
 {
-"origin" "288 736 276.82"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "288 736 276.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3558,12 +3559,12 @@ Revision: 1209
 "hammerid" "557553"
 }
 {
-"origin" "204 736 276"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "204 736 276"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -3642,7 +3643,6 @@ Revision: 1209
 "hammerid" "111267"
 }
 {
-"origin" "1520 1061.73 505.13"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -3656,6 +3656,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu192_2a"
+"origin" "1520 1061.73 505.13"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_bottom.mdl"
 "MinAnimTime" "5"
@@ -3672,7 +3673,6 @@ Revision: 1209
 "hammerid" "111271"
 }
 {
-"origin" "1520 1141.73 505.13"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -3686,6 +3686,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu192_2b"
+"origin" "1520 1141.73 505.13"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_top.mdl"
 "MinAnimTime" "5"
@@ -4358,7 +4359,6 @@ Revision: 1209
 "hammerid" "748020"
 }
 {
-"origin" "1721.68 1705.68 672.16"
 "targetname" "prop_locker_blu_1"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -4371,6 +4371,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1721.68 1705.68 672.16"
 "modelscale" "1.0"
 "model" "models/props_gameplay/resupply_locker.mdl"
 "MinAnimTime" "5"
@@ -4733,7 +4734,6 @@ Revision: 1209
 "hammerid" "229813"
 }
 {
-"origin" "288 704 128"
 "targetname" "ssplr_red_lift_finale1_direction_setter"
 "StartDisabled" "1"
 "spawnflags" "0"
@@ -4742,6 +4742,7 @@ Revision: 1209
 "rendermode" "10"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "288 704 128"
 "modelscale" "1"
 "model" "models/props_skybox/train_enginecar_skybox.mdl"
 "MinAnimTime" "5"
@@ -5040,7 +5041,6 @@ Revision: 1209
 "hammerid" "111224"
 }
 {
-"origin" "1624.31 776 552.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -5054,6 +5054,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu128_2a"
+"origin" "1624.31 776 552.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_bottom.mdl"
 "MinAnimTime" "5"
@@ -5071,7 +5072,6 @@ Revision: 1209
 "hammerid" "111228"
 }
 {
-"origin" "1624.31 776 632.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -5085,6 +5085,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu128_2b"
+"origin" "1624.31 776 632.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_top.mdl"
 "MinAnimTime" "5"
@@ -5282,7 +5283,6 @@ Revision: 1209
 "hammerid" "112195"
 }
 {
-"origin" "-1689.68 1753.68 672.16"
 "targetname" "prop_locker_red_1"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -5295,6 +5295,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1689.68 1753.68 672.16"
 "modelscale" "1.0"
 "model" "models/props_gameplay/resupply_locker.mdl"
 "MinAnimTime" "5"
@@ -5458,7 +5459,6 @@ Revision: 1209
 "hammerid" "111373"
 }
 {
-"origin" "-1280 2384 872.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -5472,6 +5472,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red192_1a"
+"origin" "-1280 2384 872.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_bottom.mdl"
 "MinAnimTime" "5"
@@ -5488,7 +5489,6 @@ Revision: 1209
 "hammerid" "111377"
 }
 {
-"origin" "-1280 2384 952.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -5502,6 +5502,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red192_1b"
+"origin" "-1280 2384 952.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_top.mdl"
 "MinAnimTime" "5"
@@ -5784,7 +5785,6 @@ Revision: 1209
 "hammerid" "229598"
 }
 {
-"origin" "-288 704 128"
 "targetname" "ssplr_blu_lift_finale1_direction_setter"
 "StartDisabled" "1"
 "spawnflags" "0"
@@ -5793,6 +5793,7 @@ Revision: 1209
 "rendermode" "10"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-288 704 128"
 "modelscale" "1"
 "model" "models/props_skybox/train_enginecar_skybox.mdl"
 "MinAnimTime" "5"
@@ -6057,7 +6058,6 @@ Revision: 1209
 "hammerid" "111400"
 }
 {
-"origin" "-1623.69 776 552.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -6071,6 +6071,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red128_2a"
+"origin" "-1623.69 776 552.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_bottom.mdl"
 "MinAnimTime" "5"
@@ -6088,7 +6089,6 @@ Revision: 1209
 "hammerid" "111404"
 }
 {
-"origin" "-1623.69 776 632.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -6102,6 +6102,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red128_2b"
+"origin" "-1623.69 776 632.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_top.mdl"
 "MinAnimTime" "5"
@@ -6219,7 +6220,6 @@ Revision: 1209
 "hammerid" "111919"
 }
 {
-"origin" "-288 736 328"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -6233,6 +6233,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-288 736 312.46"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -6250,7 +6251,7 @@ Revision: 1209
 "hammerid" "229860"
 }
 {
-"origin" "-288 756 327.989"
+"origin" "-288 756 312.449"
 "targetname" "gate1_alarm_yellow_flash"
 "start_active" "0"
 "flag_as_weather" "0"
@@ -6312,7 +6313,6 @@ Revision: 1209
 "hammerid" "111929"
 }
 {
-"origin" "-1263.85 1664.15 744.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -6326,6 +6326,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red128_1a"
+"origin" "-1263.85 1664.15 744.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_bottom.mdl"
 "MinAnimTime" "5"
@@ -6343,7 +6344,6 @@ Revision: 1209
 "hammerid" "111933"
 }
 {
-"origin" "-1263.85 1664.15 824.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -6357,6 +6357,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red128_1b"
+"origin" "-1263.85 1664.15 824.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate002_top.mdl"
 "MinAnimTime" "5"
@@ -6414,7 +6415,6 @@ Revision: 1209
 "OnEndTouchAll" "gratedoor_red128_1bClose0-1"
 }
 {
-"origin" "0 1794 1078.46"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -6428,6 +6428,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 1794 1078.46"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -6807,7 +6808,6 @@ Revision: 1209
 "hammerid" "38527"
 }
 {
-"origin" "0 1772 816.46"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -6821,6 +6821,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 1772 816.46"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -7056,7 +7057,6 @@ Revision: 1209
 "hammerid" "111443"
 }
 {
-"origin" "-1520 1061.73 506.88"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7070,6 +7070,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red192_2a"
+"origin" "-1520 1061.73 506.88"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_bottom.mdl"
 "MinAnimTime" "5"
@@ -7086,7 +7087,6 @@ Revision: 1209
 "hammerid" "111447"
 }
 {
-"origin" "-1520 1141.73 506.88"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7100,6 +7100,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_red192_2b"
+"origin" "-1520 1141.73 506.88"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_top.mdl"
 "MinAnimTime" "5"
@@ -7321,7 +7322,6 @@ Revision: 1209
 "hammerid" "111148"
 }
 {
-"origin" "1280 2384 872.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7335,6 +7335,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu192_1a"
+"origin" "1280 2384 872.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_bottom.mdl"
 "MinAnimTime" "5"
@@ -7351,7 +7352,6 @@ Revision: 1209
 "hammerid" "111152"
 }
 {
-"origin" "1280 2384 952.44"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7365,6 +7365,7 @@ Revision: 1209
 "pressubluelay" "0"
 "PerformanceMode" "0"
 "parentname" "gratedoor_blu192_1b"
+"origin" "1280 2384 952.44"
 "modelscale" "1.0"
 "model" "models/props_gameplay/door_grate003_top.mdl"
 "MinAnimTime" "5"
@@ -7400,7 +7401,6 @@ Revision: 1209
 "hammerid" "111168"
 }
 {
-"origin" "288 736 312.46"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -7414,6 +7414,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "288 736 312.46"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -7616,7 +7617,6 @@ Revision: 1209
 "hammerid" "730453"
 }
 {
-"origin" "-632 2476 852"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7629,6 +7629,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-632 2476 852"
 "modelscale" "2.00"
 "model" "models/props_powerhouse/powerhouse_stapler.mdl"
 "mindxlevel" "0"
@@ -7648,7 +7649,6 @@ Revision: 1209
 "hammerid" "634922"
 }
 {
-"origin" "-632 2452.3 852"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -7661,6 +7661,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-632 2452.3 852"
 "modelscale" "2.00"
 "model" "models/props_powerhouse/powerhouse_stapler.mdl"
 "mindxlevel" "0"
@@ -7787,12 +7788,12 @@ Revision: 1209
 "OnTrue" "status_yellowTrigger0-1"
 }
 {
-"origin" "-372 736 276"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-372 736 276"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -7805,12 +7806,12 @@ Revision: 1209
 "hammerid" "635612"
 }
 {
-"origin" "-288 736 276.82"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-288 736 276.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -7823,12 +7824,12 @@ Revision: 1209
 "hammerid" "635616"
 }
 {
-"origin" "-204 736 276"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-204 736 276"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -8093,7 +8094,6 @@ Revision: 1209
 "hammerid" "640061"
 }
 {
-"origin" "-2452.53 1875.7 733.46"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -8106,6 +8106,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2452.53 1875.7 733.46"
 "modelscale" "1.0"
 "model" "models/player/items/all_class/xms_santa_hat_demo.mdl"
 "mindxlevel" "0"
@@ -8169,7 +8170,6 @@ Revision: 1209
 "hammerid" "640506"
 }
 {
-"origin" "-2454 1872 670.48"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -8182,6 +8182,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2454 1872 670.48"
 "modelscale" "1.0"
 "model" "models/player/demo.mdl"
 "mindxlevel" "0"
@@ -8209,16 +8210,6 @@ Revision: 1209
 "hammerid" "640451"
 }
 {
-"origin" "-1632 701.504 1344.01"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_chimney_gameroofs"
-"angles" "-90 0 0"
-"classname" "info_particle_system"
-"hammerid" "633697"
-}
-{
-"origin" "-2336 912 512.1"
 "spawnflags" "0"
 "solid" "0"
 "skin" "2"
@@ -8230,6 +8221,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2336 912 512.1"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -8300,7 +8292,6 @@ Revision: 1209
 "hammerid" "634185"
 }
 {
-"origin" "-2964 1648.04 642"
 "spawnflags" "0"
 "solid" "0"
 "skin" "2"
@@ -8312,6 +8303,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2964 1648.04 642"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -8347,7 +8339,6 @@ Revision: 1209
 "hammerid" "634404"
 }
 {
-"origin" "-2768 1728 716.11"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -8360,6 +8351,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2768 1728 716.11"
 "modelscale" "1.0"
 "model" "models/weapons/c_models/c_demo_arms.mdl"
 "mindxlevel" "0"
@@ -8379,7 +8371,6 @@ Revision: 1209
 "hammerid" "634485"
 }
 {
-"origin" "-2912 1736 808"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -8392,8 +8383,9 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-2912 1736 808"
 "modelscale" "1.0"
-"model" "models/player/hwm/heavy.mdl"
+"model" "models/player/heavy.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
 "maxdxlevel" "0"
@@ -8482,7 +8474,6 @@ Revision: 1209
 "hammerid" "640832"
 }
 {
-"origin" "-1632 1808 672"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -8494,6 +8485,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1632 1808 672"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -8513,15 +8505,6 @@ Revision: 1209
 "angles" "0 195 0"
 "classname" "prop_dynamic_override"
 "hammerid" "639360"
-}
-{
-"origin" "-2156 2340.67 1316"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_chimney_gameroofs"
-"angles" "-90 0 0"
-"classname" "info_particle_system"
-"hammerid" "640185"
 }
 {
 "portalnumber" "26"
@@ -8583,7 +8566,6 @@ Revision: 1209
 "hammerid" "640493"
 }
 {
-"origin" "363 -212.14 -424"
 "targetname" "vista1_spy"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -8598,6 +8580,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "vista1_tracktrain_props"
+"origin" "363 -212.14 -424"
 "modelscale" "1.0"
 "model" "models/player/spy.mdl"
 "mindxlevel" "95"
@@ -9049,7 +9032,6 @@ Revision: 1209
 "hammerid" "1186035"
 }
 {
-"origin" "696 352 256.25"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "6"
@@ -9062,6 +9044,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "696 352 256.25"
 "modelscale" "1.0"
 "model" "models/props_manor/grandfather_clock_01.mdl"
 "mindxlevel" "0"
@@ -9082,7 +9065,6 @@ Revision: 1209
 "hammerid" "275973"
 }
 {
-"origin" "456 382 262"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "Use VPhysics"
@@ -9095,6 +9077,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "456 382 262"
 "modelscale" "2.2"
 "model" "models/player/items/soldier/xms_nade_socks.mdl"
 "mindxlevel" "0"
@@ -9174,7 +9157,6 @@ Revision: 1209
 "hammerid" "1398864"
 }
 {
-"origin" "-696 352 256.25"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "6"
@@ -9187,6 +9169,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-696 352 256.25"
 "modelscale" "1.0"
 "model" "models/props_manor/grandfather_clock_01.mdl"
 "mindxlevel" "0"
@@ -10446,6 +10429,20 @@ Revision: 1209
 "hammerid" "1705199"
 }
 {
+"occludernumber" "0"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773431"
+}
+{
+"occludernumber" "1"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773372"
+}
+{
 "origin" "-2049 1917 972.068"
 "pitch" "-90"
 "angles" "-90 180 0"
@@ -10510,15 +10507,6 @@ Revision: 1209
 "hammerid" "69170"
 }
 {
-"origin" "876.061 2048 1255.55"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "832636"
-}
-{
 "origin" "-8.17053 2048 1255.55"
 "start_active" "1"
 "flag_as_weather" "1"
@@ -10543,7 +10531,6 @@ Revision: 1209
 "hammerid" "477154"
 }
 {
-"origin" "147.95 -236 270"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -10556,6 +10543,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "147.95 -236 270"
 "modelscale" ".75"
 "model" "models/props_matterhorn/matterhorn_skilift_pylon_wheels.mdl"
 "mindxlevel" "0"
@@ -10616,15 +10604,6 @@ Revision: 1209
 "hammerid" "727177"
 }
 {
-"origin" "-876.061 2048 1255.55"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 180 0"
-"classname" "info_particle_system"
-"hammerid" "832837"
-}
-{
 "origin" "1992 365.89 893.41"
 "Width" "2"
 "Type" "0"
@@ -10681,7 +10660,7 @@ Revision: 1209
 "hammerid" "229302"
 }
 {
-"origin" "896 -899.991 368"
+"origin" "896 -896 512"
 "start_active" "1"
 "flag_as_weather" "1"
 "effect_name" "matterhorn_env_snow_big_sphere_cheap"
@@ -10737,7 +10716,6 @@ Revision: 1209
 "hammerid" "731052"
 }
 {
-"origin" "-146 -112 270"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -10750,6 +10728,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-146 -112 270"
 "modelscale" ".75"
 "model" "models/props_matterhorn/matterhorn_skilift_pylon_wheels.mdl"
 "mindxlevel" "0"
@@ -10769,7 +10748,7 @@ Revision: 1209
 "hammerid" "729032"
 }
 {
-"origin" "-908 -899.991 368"
+"origin" "-908 -896 512"
 "start_active" "1"
 "flag_as_weather" "1"
 "effect_name" "matterhorn_env_snow_big_sphere_cheap"
@@ -10792,7 +10771,6 @@ Revision: 1209
 "hammerid" "731195"
 }
 {
-"origin" "0 1800 816.46"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -10806,6 +10784,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 1800 816.46"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -11581,7 +11560,6 @@ Revision: 1209
 "hammerid" "111114"
 }
 {
-"origin" "0 796 178"
 "targetname" "gate1_emergency_light"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -11595,6 +11573,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 796 178"
 "modelscale" "0.9"
 "model" "models/props_gameplay/mvm_gemergency_light.mdl"
 "MinAnimTime" "5"
@@ -11620,7 +11599,7 @@ Revision: 1209
 "hammerid" "111125"
 }
 {
-"origin" "-8.17053 -899.991 368"
+"origin" "-8.17053 -896 512"
 "start_active" "1"
 "flag_as_weather" "1"
 "effect_name" "matterhorn_env_snow_big_sphere_cheap"
@@ -11802,15 +11781,6 @@ Revision: 1209
 "hammerid" "885916"
 }
 {
-"origin" "2156 2340.67 1312"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_chimney_gameroofs"
-"angles" "-90 0 0"
-"classname" "info_particle_system"
-"hammerid" "75319"
-}
-{
 "origin" "-1120 10040 7820"
 "targetname" "avalanche_particle_end"
 "start_active" "0"
@@ -11829,7 +11799,6 @@ Revision: 1209
 "hammerid" "477300"
 }
 {
-"origin" "-620 382 262"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "Use VPhysics"
@@ -11842,6 +11811,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-620 382 262"
 "modelscale" "2.2"
 "model" "models/player/items/soldier/xms_nade_socks.mdl"
 "mindxlevel" "0"
@@ -12080,7 +12050,6 @@ Revision: 1209
 "hammerid" "242287"
 }
 {
-"origin" "146 -112 270"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -12093,6 +12062,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "146 -112 270"
 "modelscale" ".75"
 "model" "models/props_matterhorn/matterhorn_skilift_pylon_wheels.mdl"
 "mindxlevel" "0"
@@ -12220,7 +12190,6 @@ Revision: 1209
 "hammerid" "724119"
 }
 {
-"origin" "-416 2624 1520"
 "targetname" "fin_westwheel"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -12234,6 +12203,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-416 2624 1520"
 "modelscale" "1.5"
 "model" "models/props_matterhorn/wheelaxis.mdl"
 "MinAnimTime" "5"
@@ -12465,7 +12435,6 @@ Revision: 1209
 "OnFalse" "status_bluTrigger0-1"
 }
 {
-"origin" "408 2624 1520"
 "targetname" "fin_eastwheel"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -12479,6 +12448,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "408 2624 1520"
 "modelscale" "1.5"
 "model" "models/props_matterhorn/wheelaxis.mdl"
 "MinAnimTime" "5"
@@ -12509,7 +12479,6 @@ Revision: 1209
 "hammerid" "730961"
 }
 {
-"origin" "-148.3 -236 270"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -12522,6 +12491,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-148.3 -236 270"
 "modelscale" ".75"
 "model" "models/props_matterhorn/matterhorn_skilift_pylon_wheels.mdl"
 "mindxlevel" "0"
@@ -13056,7 +13026,6 @@ Revision: 1209
 "hammerid" "111117"
 }
 {
-"origin" "2449 1869.23 734.42"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -13069,6 +13038,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2449 1869.23 734.42"
 "modelscale" "1.0"
 "model" "models/player/items/all_class/xms_santa_hat_demo.mdl"
 "mindxlevel" "0"
@@ -13089,7 +13059,6 @@ Revision: 1209
 "hammerid" "518975"
 }
 {
-"origin" "2768 1728 716.11"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -13102,6 +13071,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2768 1728 716.11"
 "modelscale" "1.0"
 "model" "models/weapons/c_models/c_demo_arms.mdl"
 "mindxlevel" "0"
@@ -13190,7 +13160,6 @@ Revision: 1209
 "hammerid" "91275"
 }
 {
-"origin" "2964 1648.04 642"
 "spawnflags" "0"
 "solid" "0"
 "skin" "2"
@@ -13202,6 +13171,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2964 1648.04 642"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -13317,15 +13287,6 @@ Revision: 1209
 "angles" "0 180 0"
 "classname" "move_rope"
 "hammerid" "728974"
-}
-{
-"origin" "-8.17053 -899.991 1168.01"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_big_sphere_cheap"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "1014739"
 }
 {
 "origin" "-1327.99 2696.01 1012"
@@ -13445,12 +13406,12 @@ Revision: 1209
 "hammerid" "758070"
 }
 {
-"origin" "-40 797 107.82"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-40 797 107.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -13598,12 +13559,12 @@ Revision: 1209
 "hammerid" "866511"
 }
 {
-"origin" "-40 1769.79 747.82"
 "targetname" "status_sign_blu"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-40 1769.79 747.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -13702,13 +13663,13 @@ Revision: 1209
 "hammerid" "866788"
 }
 {
-"origin" "0 2300.29 1096"
 "targetname" "status_sign_hold"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "0 2300.29 1096"
 "modelscale" ".9"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -13719,15 +13680,6 @@ Revision: 1209
 "angles" "0 270 0"
 "classname" "prop_dynamic"
 "hammerid" "725730"
-}
-{
-"origin" "876.061 1048 1255.55"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "832702"
 }
 {
 "origin" "512 2432 384"
@@ -13773,15 +13725,6 @@ Revision: 1209
 "OnCase03" "branch_isBluLiftAtBottomSetValue00-1"
 "OnCase04" "branch_isBluLiftAtBottomSetValue00-1"
 "OnCase05" "branch_isBluLiftAtBottomSetValue00-1"
-}
-{
-"origin" "876.061 96 984"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "832768"
 }
 {
 "origin" "-112 768 224"
@@ -13837,6 +13780,7 @@ Revision: 1209
 "OnTrigger" "avalanche_shake_2StartShake8-1"
 "OnTrigger" "avalanche_shake_3StartShake10-1"
 "OnTrigger" "avalanche_soundVolume105-1"
+"OnTrigger" "playerRunScriptCodeself.SetScriptOverlayMaterial(``)5-1"
 }
 {
 "origin" "1276 2524 936"
@@ -13854,7 +13798,7 @@ Revision: 1209
 "start_active" "1"
 "flag_as_weather" "1"
 "effect_name" "matterhorn_env_snow_ref"
-"angles" "0 180 0"
+"angles" "0 0 0"
 "classname" "info_particle_system"
 "hammerid" "886120"
 }
@@ -13912,12 +13856,12 @@ Revision: 1209
 "hammerid" "904916"
 }
 {
-"origin" "40 797 107.82"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "40 797 107.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -14036,13 +13980,13 @@ Revision: 1209
 "hammerid" "110963"
 }
 {
-"origin" "-36 2301.79 1071.36"
 "targetname" "status_sign_red"
 "spawnflags" "0"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-36 2301.79 1071.36"
 "modelscale" ".9"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -14055,13 +13999,13 @@ Revision: 1209
 "hammerid" "725734"
 }
 {
-"origin" "36 2301.79 1071.36"
 "targetname" "status_sign_blu"
 "spawnflags" "0"
 "solid" "0"
 "skin" "4"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "36 2301.79 1071.36"
 "modelscale" ".9"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -14307,15 +14251,6 @@ Revision: 1209
 "angles" "0 0 0"
 "classname" "move_rope"
 "hammerid" "594122"
-}
-{
-"origin" "896 -899.991 1168.01"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_big_sphere_cheap"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "1014805"
 }
 {
 "origin" "150 384 208"
@@ -14772,12 +14707,12 @@ Revision: 1209
 "hammerid" "729010"
 }
 {
-"origin" "-0 796.29 139.82"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-0 796.29 139.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -14851,7 +14786,6 @@ Revision: 1209
 "hammerid" "758004"
 }
 {
-"origin" "2336 912 512.1"
 "spawnflags" "0"
 "solid" "0"
 "skin" "2"
@@ -14863,6 +14797,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2336 912 512.1"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -14940,20 +14875,11 @@ Revision: 1209
 "hammerid" "229312"
 }
 {
-"origin" "-908 -899.991 1168.01"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_big_sphere_cheap"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "1014871"
-}
-{
 "origin" "-876.061 3096.01 776.009"
 "start_active" "1"
 "flag_as_weather" "1"
 "effect_name" "matterhorn_env_snow_ref"
-"angles" "0 180 0"
+"angles" "0 0 0"
 "classname" "info_particle_system"
 "hammerid" "833656"
 }
@@ -15087,7 +15013,6 @@ Revision: 1209
 "hammerid" "286407"
 }
 {
-"origin" "1632 1808 672"
 "spawnflags" "0"
 "solid" "0"
 "skin" "1"
@@ -15099,6 +15024,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1632 1808 672"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_maypole_large.mdl"
 "mindxlevel" "0"
@@ -15229,16 +15155,6 @@ Revision: 1209
 "hammerid" "607424"
 }
 {
-"origin" "-876.061 96 984"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 180 0"
-"classname" "info_particle_system"
-"hammerid" "832969"
-}
-{
-"origin" "-288 2624 1520"
 "targetname" "fin_westwheel"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -15253,6 +15169,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "wheel_blu"
+"origin" "-288 2624 1520"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/bigwheel.mdl"
 "MinAnimTime" "5"
@@ -15269,7 +15186,6 @@ Revision: 1209
 "hammerid" "67613"
 }
 {
-"origin" "288 2624 1520"
 "targetname" "fin_eastwheel"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -15284,6 +15200,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "wheel_red"
+"origin" "288 2624 1520"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/bigwheel.mdl"
 "MinAnimTime" "5"
@@ -15317,12 +15234,12 @@ Revision: 1209
 "hammerid" "295811"
 }
 {
-"origin" "-0 1768.29 779.82"
 "targetname" "status_sign_hold"
 "solid" "0"
 "skin" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "-0 1768.29 779.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -15335,12 +15252,12 @@ Revision: 1209
 "hammerid" "724750"
 }
 {
-"origin" "40 1769.79 747.82"
 "targetname" "status_sign_red"
 "solid" "0"
 "skin" "2"
 "rendercolor" "255 255 255"
 "renderamt" "255"
+"origin" "40 1769.79 747.82"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/sign_gameplay01.mdl"
 "MinAnimTime" "5"
@@ -15470,7 +15387,6 @@ Revision: 1209
 "hammerid" "728983"
 }
 {
-"origin" "2454 1872 672"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -15483,6 +15399,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2454 1872 672"
 "modelscale" "1.0"
 "model" "models/player/demo.mdl"
 "mindxlevel" "0"
@@ -15533,15 +15450,6 @@ Revision: 1209
 "angles" "0 180 0"
 "classname" "move_rope"
 "hammerid" "729395"
-}
-{
-"origin" "-876.061 1048 1255.55"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_env_snow_ref"
-"angles" "0 180 0"
-"classname" "info_particle_system"
-"hammerid" "832903"
 }
 {
 "origin" "-32 760 168"
@@ -15805,15 +15713,6 @@ Revision: 1209
 "hammerid" "111048"
 }
 {
-"origin" "1632 701.504 1343.44"
-"start_active" "1"
-"flag_as_weather" "1"
-"effect_name" "matterhorn_chimney_gameroofs"
-"angles" "-90 0 0"
-"classname" "info_particle_system"
-"hammerid" "91345"
-}
-{
 "origin" "1328 2696 992"
 "pitch" "-90"
 "angles" "-90 0 0"
@@ -15859,7 +15758,6 @@ Revision: 1209
 "hammerid" "729022"
 }
 {
-"origin" "2912 1736 808"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -15872,8 +15770,9 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "2912 1736 808"
 "modelscale" "1.0"
-"model" "models/player/hwm/heavy.mdl"
+"model" "models/player/heavy.mdl"
 "mindxlevel" "0"
 "MinAnimTime" "5"
 "maxdxlevel" "0"
@@ -15906,7 +15805,6 @@ Revision: 1209
 "hammerid" "1109536"
 }
 {
-"origin" "0 2720 1144"
 "targetname" "fin_eastbuilding_fx"
 "StartDisabled" "1"
 "spawnflags" "0"
@@ -15920,6 +15818,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 2720 1144"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_explosion_right.mdl"
 "mindxlevel" "0"
@@ -15940,7 +15839,6 @@ Revision: 1209
 "hammerid" "1144746"
 }
 {
-"origin" "0 2720 1144"
 "targetname" "fin_westbuilding_fx"
 "StartDisabled" "1"
 "spawnflags" "0"
@@ -15954,6 +15852,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 2720 1144"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_explosion_left.mdl"
 "mindxlevel" "0"
@@ -16150,7 +16049,6 @@ Revision: 1209
 "hammerid" "1249439"
 }
 {
-"origin" "288 704 -4"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -16163,6 +16061,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "ssplr_red_lift_finale1_train"
+"origin" "288 704 -4"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_elevator_platform.mdl"
 "mindxlevel" "0"
@@ -16183,7 +16082,6 @@ Revision: 1209
 "hammerid" "1272925"
 }
 {
-"origin" "-288 704 -4"
 "spawnflags" "0"
 "solid" "0"
 "skin" "1"
@@ -16196,6 +16094,7 @@ Revision: 1209
 "pressuredelay" "0"
 "PerformanceMode" "0"
 "parentname" "ssplr_blu_lift_finale1_train"
+"origin" "-288 704 -4"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_elevator_platform.mdl"
 "mindxlevel" "0"
@@ -16228,7 +16127,7 @@ Revision: 1209
 "hammerid" "1273649"
 }
 {
-"occludernumber" "0"
+"occludernumber" "2"
 "model" ""
 "targetname" "fin_westoccluder"
 "StartActive" "1"
@@ -16236,7 +16135,7 @@ Revision: 1209
 "hammerid" "1307256"
 }
 {
-"occludernumber" "1"
+"occludernumber" "3"
 "model" ""
 "targetname" "fin_eastoccluder"
 "StartActive" "1"
@@ -16258,39 +16157,25 @@ Revision: 1209
 "hammerid" "1307262"
 }
 {
-"occludernumber" "2"
+"occludernumber" "4"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "1307264"
 }
 {
-"occludernumber" "3"
+"occludernumber" "5"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
 "hammerid" "1307266"
 }
 {
-"occludernumber" "4"
-"model" ""
-"StartActive" "1"
-"classname" "func_occluder"
-"hammerid" "1307268"
-}
-{
-"occludernumber" "5"
-"model" ""
-"StartActive" "1"
-"classname" "func_occluder"
-"hammerid" "1307270"
-}
-{
 "occludernumber" "6"
 "model" ""
 "StartActive" "1"
 "classname" "func_occluder"
-"hammerid" "1307272"
+"hammerid" "1307268"
 }
 {
 "occludernumber" "7"
@@ -16567,7 +16452,6 @@ Revision: 1209
 "hammerid" "1378431"
 }
 {
-"origin" "1.47 2316 1420"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -16580,6 +16464,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1.47 2316 1420"
 "modelscale" ".25"
 "model" "models/props_matterhorn/matterhorn_grand_lounge_sign.mdl"
 "MinAnimTime" "5"
@@ -17355,7 +17240,6 @@ Revision: 1209
 "hammerid" "1630423"
 }
 {
-"origin" "338 4206 1004"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17367,6 +17251,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "338 4206 1004"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_raven.mdl"
 "mindxlevel" "0"
@@ -17482,7 +17367,6 @@ Revision: 1209
 "hammerid" "1725856"
 }
 {
-"origin" "-888.01 1663.99 849.3"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17494,6 +17378,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-888.01 1663.99 849.3"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling_short.mdl"
 "mindxlevel" "0"
@@ -17549,7 +17434,6 @@ Revision: 1209
 "hammerid" "1725887"
 }
 {
-"origin" "-184 1056.01 650.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17561,6 +17445,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-184 1056.01 650.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -17616,7 +17501,6 @@ Revision: 1209
 "hammerid" "1725918"
 }
 {
-"origin" "184 1055.99 650.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17628,6 +17512,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "184 1055.99 650.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -17683,7 +17568,6 @@ Revision: 1209
 "hammerid" "1725949"
 }
 {
-"origin" "0.01 688 152"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17695,6 +17579,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0.01 688 152"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling.mdl"
 "mindxlevel" "0"
@@ -17750,7 +17635,6 @@ Revision: 1209
 "hammerid" "1725980"
 }
 {
-"origin" "888.01 1663.99 849.3"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17762,6 +17646,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "888.01 1663.99 849.3"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling_short.mdl"
 "mindxlevel" "0"
@@ -17817,7 +17702,6 @@ Revision: 1209
 "hammerid" "1726011"
 }
 {
-"origin" "0 2863.99 1048"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17829,6 +17713,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0 2863.99 1048"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling.mdl"
 "mindxlevel" "0"
@@ -17884,7 +17769,6 @@ Revision: 1209
 "hammerid" "1726042"
 }
 {
-"origin" "-0.01 2264 714.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17896,6 +17780,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-0.01 2264 714.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -17951,7 +17836,6 @@ Revision: 1209
 "hammerid" "1726073"
 }
 {
-"origin" "392 192.01 554.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -17963,6 +17847,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "392 192.01 554.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18018,7 +17903,6 @@ Revision: 1209
 "hammerid" "1726104"
 }
 {
-"origin" "-392 191.99 554.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18030,6 +17914,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-392 191.99 554.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18085,7 +17970,6 @@ Revision: 1209
 "hammerid" "1726135"
 }
 {
-"origin" "0.01 1192 602.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18097,6 +17981,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0.01 1192 602.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18152,7 +18037,6 @@ Revision: 1209
 "hammerid" "1726166"
 }
 {
-"origin" "0.01 1016 426.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18164,6 +18048,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "0.01 1016 426.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18219,7 +18104,6 @@ Revision: 1209
 "hammerid" "1726197"
 }
 {
-"origin" "-447.99 360 106.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18231,6 +18115,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-447.99 360 106.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18286,7 +18171,6 @@ Revision: 1209
 "hammerid" "1726228"
 }
 {
-"origin" "456.09 360 106.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18298,6 +18182,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "456.09 360 106.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18353,7 +18238,6 @@ Revision: 1209
 "hammerid" "1726259"
 }
 {
-"origin" "-0.01 920 442.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18365,6 +18249,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-0.01 920 442.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18564,7 +18449,6 @@ Revision: 1209
 "hammerid" "1741735"
 }
 {
-"origin" "-272.01 2824 970.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18576,6 +18460,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-272.01 2824 970.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18631,7 +18516,6 @@ Revision: 1209
 "hammerid" "1741766"
 }
 {
-"origin" "-287.99 776 330.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18643,6 +18527,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-287.99 776 330.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18698,7 +18583,6 @@ Revision: 1209
 "hammerid" "1741797"
 }
 {
-"origin" "-392 1247.99 490.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18710,6 +18594,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-392 1247.99 490.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18765,7 +18650,6 @@ Revision: 1209
 "hammerid" "1741828"
 }
 {
-"origin" "-392 1535.99 682.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18777,6 +18661,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-392 1535.99 682.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18832,7 +18717,6 @@ Revision: 1209
 "hammerid" "1741859"
 }
 {
-"origin" "-623.99 1576 474.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18844,6 +18728,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-623.99 1576 474.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -18899,7 +18784,6 @@ Revision: 1209
 "hammerid" "1741890"
 }
 {
-"origin" "-593.2 831.99 182"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18911,6 +18795,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-593.2 831.99 182"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling_short.mdl"
 "mindxlevel" "0"
@@ -18966,7 +18851,6 @@ Revision: 1209
 "hammerid" "1741921"
 }
 {
-"origin" "-1675.72 1163.71 642.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -18978,6 +18862,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1675.72 1163.71 642.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19033,7 +18918,6 @@ Revision: 1209
 "hammerid" "1741952"
 }
 {
-"origin" "-1387.72 1195.71 346.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19045,6 +18929,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1387.72 1195.71 346.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19100,7 +18985,6 @@ Revision: 1209
 "hammerid" "1741983"
 }
 {
-"origin" "-1104.01 1240 346.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19112,6 +18996,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-1104.01 1240 346.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19167,7 +19052,6 @@ Revision: 1209
 "hammerid" "1742014"
 }
 {
-"origin" "-688.01 1408 424"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19179,6 +19063,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-688.01 1408 424"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling.mdl"
 "mindxlevel" "0"
@@ -19234,7 +19119,6 @@ Revision: 1209
 "hammerid" "1742045"
 }
 {
-"origin" "-287.99 56 362.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19246,6 +19130,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "-287.99 56 362.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19301,7 +19186,6 @@ Revision: 1209
 "hammerid" "1742076"
 }
 {
-"origin" "271.99 2824 970.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19313,6 +19197,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "271.99 2824 970.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19368,7 +19253,6 @@ Revision: 1209
 "hammerid" "1742107"
 }
 {
-"origin" "288.01 776 330.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19380,6 +19264,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "288.01 776 330.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19435,7 +19320,6 @@ Revision: 1209
 "hammerid" "1742138"
 }
 {
-"origin" "392 1248.01 490.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19447,6 +19331,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "392 1248.01 490.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19502,7 +19387,6 @@ Revision: 1209
 "hammerid" "1742169"
 }
 {
-"origin" "392 1536.01 682.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19514,6 +19398,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "392 1536.01 682.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19569,7 +19454,6 @@ Revision: 1209
 "hammerid" "1742200"
 }
 {
-"origin" "624.01 1576 474.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19581,6 +19465,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "624.01 1576 474.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19636,7 +19521,6 @@ Revision: 1209
 "hammerid" "1742231"
 }
 {
-"origin" "593.2 831.99 182"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19648,6 +19532,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "593.2 831.99 182"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling_short.mdl"
 "mindxlevel" "0"
@@ -19703,7 +19588,6 @@ Revision: 1209
 "hammerid" "1742262"
 }
 {
-"origin" "1675.71 1163.72 642.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19715,6 +19599,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1675.71 1163.72 642.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19770,7 +19655,6 @@ Revision: 1209
 "hammerid" "1742293"
 }
 {
-"origin" "1387.71 1195.72 346.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19782,6 +19666,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1387.71 1195.72 346.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19837,7 +19722,6 @@ Revision: 1209
 "hammerid" "1742324"
 }
 {
-"origin" "1103.99 1240 346.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19849,6 +19733,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "1103.99 1240 346.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -19904,7 +19789,6 @@ Revision: 1209
 "hammerid" "1742355"
 }
 {
-"origin" "688.01 1408 424"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19916,6 +19800,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "688.01 1408 424"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_ceiling.mdl"
 "mindxlevel" "0"
@@ -19971,7 +19856,6 @@ Revision: 1209
 "hammerid" "1742386"
 }
 {
-"origin" "288.01 56 362.09"
 "spawnflags" "0"
 "solid" "0"
 "skin" "0"
@@ -19983,6 +19867,7 @@ Revision: 1209
 "RandomAnimation" "0"
 "pressuredelay" "0"
 "PerformanceMode" "0"
+"origin" "288.01 56 362.09"
 "modelscale" "1.0"
 "model" "models/props_matterhorn/matterhorn_oillamp_wall.mdl"
 "mindxlevel" "0"
@@ -20002,6 +19887,92 @@ Revision: 1209
 "angles" "0 90 0"
 "classname" "prop_dynamic_override"
 "hammerid" "1742392"
+}
+{
+"model" "*126"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "1773215"
+}
+{
+"model" "*127"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "1773241"
+}
+{
+"occludernumber" "8"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773255"
+}
+{
+"occludernumber" "9"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773267"
+}
+{
+"occludernumber" "10"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773283"
+}
+{
+"occludernumber" "11"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "1773304"
+}
+{
+"model" "*128"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "1789643"
+}
+{
+"model" "*129"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "1789662"
+}
+{
+"origin" "876.061 2048 1255.55"
+"start_active" "1"
+"flag_as_weather" "1"
+"effect_name" "matterhorn_env_snow_ref"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "832636"
+}
+{
+"origin" "-876.061 2048 1255.55"
+"start_active" "1"
+"flag_as_weather" "1"
+"effect_name" "matterhorn_env_snow_ref"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "832837"
 }
 {
 "cheapwaterenddistance" "2000"

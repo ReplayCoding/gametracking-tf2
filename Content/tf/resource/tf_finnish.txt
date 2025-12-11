@@ -2137,7 +2137,6 @@
 "TF2MapsCharitableHeart2023_Desc"			"Myönnetty TF2Maps 72hr TF2Jam 2023 -tapahtuman lahjoittajille."
 "TF2MapsCharitableHeart2024"				"TF2Maps 2024 – Aulis sydän"
 "TF2MapsCharitableHeart2024_Desc"			"Myönnetty TF2Maps 72hr TF2Jam 2024 -tapahtuman lahjoittajille."
-
 "TF_TournamentMedal_MappersVsMachines_2017"			"Mappers vs. Machines 2017 – Osallistumismitali"
 "TF_TournamentMedal_MappersVsMachines_2017_Desc"	"Onko sinussa riittävästi miestä vasaroimaan rinnuksillasi tikittävä aikapommi? Myönnetty niille, jotka osallistuivat 2017 TF2Maps.net – yhteisön MvM-karttakisaan."
 
@@ -10983,7 +10982,6 @@ Tämä näyttää hyvältä. Todella terävää."
 "Winter2024Cosmetics_collection_desc"		"Talven 2024 kosmetiikkakokoelman esineet:"
 "Summer2025Cosmetics_collection"			"Kesän 2025 kosmetiikkakokoelma"
 "Summer2025Cosmetics_collection_desc"		"Kesän 2025 kosmetiikkakokoelman esineet:"
-
 "Footer_GunMettleCosmetics"					"Saattaa sisältää kummallisen esineen tai epätavallisen Gun Mettle -hatun"
 "TF_GunMettleCosmeticCase"					"Gun Mettle -kosmetiikkapakkaus"
 "TF_GunMettleCosmeticCase_desc"				"Tämä salkku on lukittu, ja sen avaamiseen\n vaaditaan Gun Mettle -kosmetiikka-avain.\nSisältää yhteisön tekemän esineen\nGun Mettle -kosmetiikkakokoelmasta."
@@ -12699,8 +12697,10 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle380"			"Mahtava migreeni"
 "Attrib_Particle381"			"Aivomyrsky"
 "Attrib_Particle385"			"Kynttilän liekki"
+"Attrib_Particle387"			"Tirisevä tuoksu"
+"Attrib_Particle388"			"Tirisevä tuoksu"
+"Attrib_Particle389"			"Toksinen tuoksu"
 "Attrib_Particle392"			"Santaisa"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Kuuma"
 "Attrib_Particle702"			"Isotooppi"
@@ -17800,9 +17800,7 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_invasion_jupiter_jetpack"		"Saturnuksen suihkureppu"
 "TF_invasion_the_space_diver"		"Sukkulasukeltaja" // ADD THE
 "TF_invasion_sniperrifle"			"Tähdenlento"
-"TF_invasion_sniperrifle_Desc"		"Polta vihollisesi tuhkaksi!"
 "TF_invasion_pistol"				"K.A.A.P.P.A.R.I" // ADD THE
-"TF_invasion_pistol_Desc"			"Polta vihollisesi tuhkaksi!"
 "TF_invasion_bat"					"Valomaila"
 "TF_invasion_bat_Desc"				"Tuutin täydeltä energiaa!\nHöyrystä sillä vihollisesi!"
 "TF_invasion_wrangler"				"Gigermittari" // ADD THE

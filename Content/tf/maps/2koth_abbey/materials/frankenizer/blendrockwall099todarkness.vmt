@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "tools/toolsblack"
+	"$basetexture2" "frankenizer/rockwall099"
+//	"%tooltexture" "Nature/blendrockgroundwallforest004_tooltexture"
+//	"$blendmodulatetexture" "Nature/dirtground002_blendmask"
+//	"$bumpmap" "Nature/rockwall001_normal"
+//	"%detailtype" "tf_forest_grass"
+
+	"$basetexturetransform" "center 0 0 scale 0.05 0.05 rotate 0 translate 0 0"
+
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"%keywords" "tf"
+}

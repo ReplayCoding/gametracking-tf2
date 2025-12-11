@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture2"	"winter/rockground010"
+	"$basetexture"	"Frankenizer/CryptFloor4a"
+
+	"$bumpmap2"	"Frankenizer/ssbump_flat"
+	"$bumpmap"	"Frankenizer/CryptFloor4a_ssbump"
+
+	"$ssbump" "1"
+
+	"%tooltexture"	"Frankenizer/CryptFloor4a_to_rockground010_tooltexture"
+	"$blendmodulatetexture"	"Frankenizer/CryptFloor4a_blendmask"
+	"%keywords"	"tf"
+
+	"$surfaceprop2"	"dirt"
+	"$surfaceprop"	"concrete"
+
+}
