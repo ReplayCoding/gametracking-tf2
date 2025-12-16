@@ -12955,6 +12955,15 @@
 "Attrib_Particle390"			"電流導體"
 "Attrib_Particle391"			"電流導體"
 "Attrib_Particle392"			"灰頭土臉"
+
+// Smissmas 2025 Unusual
+"Attrib_Particle393"			"色彩閃焰"
+"Attrib_Particle394"			"霜火"
+"Attrib_Particle395"			"烈炎光譜"
+"Attrib_Particle397"			"團隊認可"
+"Attrib_Particle398"			"團隊認可"
+"Attrib_Particle405"			"低溫"
+
 // Weapon Unusual
 "Attrib_Particle701"			"炙熱化學"
 "Attrib_Particle702"			"同位素"
@@ -13208,6 +13217,8 @@
 "Attrib_Particle3210"		"焦油坑洞"
 "Attrib_Particle3211"		"病態野獸"
 "Attrib_Particle3212"		"病態野獸"
+"Attrib_Particle3215"		"灼熱感"
+"Attrib_Particle3216"		"燃燒感"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"連殺效果：%s1"
@@ -18426,6 +18437,9 @@ ________________________________________
 "TF_taunt_ring_king"						"嘲諷：拳擊場之王"
 "TF_taunt_ring_king_Desc"					"社群製作的 Heavy 嘲諷"
 "TF_taunt_ring_king_AdText"					"- 社群製作的 Heavy 嘲諷"
+"TF_taunt_dead_manns_drink"					"嘲諷：死人飲"
+"TF_taunt_the_critical_fail"				"嘲諷：關鍵敗筆"
+"TF_taunt_chairholder"						"嘲諷：金錢王座"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"打洞呼吸袋"	// ADD THE
@@ -19706,6 +19720,7 @@ ________________________________________
 "TF_hwn2025_one_man_convoy_style2"			"頭盔上色"
 "TF_hwn2025_face_lift"					"人皮面具"
 "TF_hwn2025_zepheniahs_shroud"			"薩凡尼亞裹屍布"
+"TF_dec25_air_head"						"傻裡傻氣"
 "TF_style_bullets"						"有子彈"
 "TF_style_nobullets"					"無子彈"
 

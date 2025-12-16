@@ -12964,6 +12964,15 @@
 "Attrib_Particle390"			"Переменчивый проводник"
 "Attrib_Particle391"			"Переменчивый проводник"
 "Attrib_Particle392"			"Песочник"
+
+// Smissmas 2025 Unusual
+"Attrib_Particle393"			"Хроматическое пламя"
+"Attrib_Particle394"			"Ледяной огонь"
+"Attrib_Particle395"			"Спектральное пылание"
+"Attrib_Particle397"			"Признание команды"
+"Attrib_Particle398"			"Признание команды"
+"Attrib_Particle405"			"Криоген"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Жар"
 "Attrib_Particle702"			"Изотоп"
@@ -13217,6 +13226,8 @@
 "Attrib_Particle3210"		"Смоляная скважина"
 "Attrib_Particle3211"		"Болезнетворный бестиарий"
 "Attrib_Particle3212"		"Болезнетворный бестиарий"
+"Attrib_Particle3215"		"Обжигающее ощущение"
+"Attrib_Particle3216"		"Палящее ощущение"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Серийный убийца: %s1"
@@ -18454,6 +18465,12 @@
 "TF_taunt_ring_king"						"Насмешка: Король ринга"
 "TF_taunt_ring_king_Desc"					"Насмешка для пулемётчика от сообщества."
 "TF_taunt_ring_king_AdText"					"- Насмешка для пулемётчика от сообщества"
+"TF_taunt_dead_manns_drink_Desc"			"Насмешка для подрывника от сообщества"
+"TF_taunt_dead_manns_drink_AdText"			"- Насмешка для подрывника от сообщества"
+"TF_taunt_the_critical_fail"				"Насмешка: Лютый стыд"
+"TF_taunt_the_critical_fail_Desc"			"Насмешка для всех классов от сообщества"
+"TF_taunt_the_critical_fail_AdText"			"- Насмешка для всех классов от сообщества"
+"TF_taunt_chairholder_AdText"				"- Насмешка для разведчика от сообщества"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Дыхательный мешок"	// ADD THE
@@ -19774,6 +19791,7 @@
 "TF_hwn2025_one_man_convoy_style2"			"Крашеный шлем"
 "TF_hwn2025_face_lift"					"Подтяжка лица"
 "TF_hwn2025_zepheniahs_shroud"			"Завеса Зефенайи"
+"TF_dec25_air_head"						"Авиатор"
 "TF_style_bullets"						"С пулями"
 "TF_style_nobullets"					"Без пуль"
 

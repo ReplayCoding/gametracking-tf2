@@ -36,20 +36,34 @@ function Precache()
 
 function Freeze()
 {
-	// Remove conditions that give immunity to damage
-	foreach (cond in freeze_immune_conds)
-		activator.RemoveCondEx(cond, true)
+    // Don't allow razorback to block it
+    local razorback
+    for (local wearable = activator.FirstMoveChild(); wearable; wearable = wearable.NextMovePeer())
+    {
+        if (wearable.GetClassname() == "tf_wearable_razorback")
+        {
+            wearable.DisableDraw()
+            razorback = wearable
+        }
+    }
+    
+    // Remove conditions that give immunity to damage
+    foreach (cond in freeze_immune_conds)
+        activator.RemoveCondEx(cond, true)
 
-	// Set any owner on the weapon to prevent a crash
-	NetProps.SetPropEntity(freeze_proxy_weapon, "m_hOwner", activator)
+    // Set any owner on the weapon to prevent a crash
+    NetProps.SetPropEntity(freeze_proxy_weapon, "m_hOwner", activator)
 
-	// Deal the damage with the weapon
-	activator.TakeDamageCustom(activator, activator, freeze_proxy_weapon,
-								Vector(0,0,-9999999), Vector(0,0,0),
-								99999.0, Constants.FDmgType.DMG_FALL, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BACKSTAB)
-
-	// I don't remember why this is needed but it's important
-	local ragdoll = NetProps.GetPropEntity(activator, "m_hRagdoll")
-	if (ragdoll)
-		NetProps.SetPropInt(ragdoll, "m_iDamageCustom", 0)
+    // Deal the damage with the weapon
+    activator.TakeDamageCustom(activator, activator, freeze_proxy_weapon,
+                                Vector(0,0,-9999999), Vector(0,0,0),
+                                99999.0, Constants.FDmgType.DMG_FALL, Constants.ETFDmgCustom.TF_DMG_CUSTOM_BACKSTAB)
+    
+    if (razorback)
+        razorback.EnableDraw()
+    
+    // I don't remember why this is needed but it's important
+    local ragdoll = NetProps.GetPropEntity(activator, "m_hRagdoll")
+    if (ragdoll)
+        NetProps.SetPropInt(ragdoll, "m_iDamageCustom", 0)
 }

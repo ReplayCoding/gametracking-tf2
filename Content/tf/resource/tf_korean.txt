@@ -5421,6 +5421,13 @@
 "arena_afterlife_authors"		"John 'Piogre' Wolfe\nLizard of Oz\nMatvey 'ImAware' Usatov\nHirschVA\nIsaac 'IJCT' Cortissoz"
 "ctf_doublecross_event_authors"	"Harlen 'UEAKCrash' Linke\nLiam 'Diva Dan' Moffitt\nDaniel 'DJ' Bennett"
 "sd_marshlands_authors"			"Tristan 'Alox' Haguet\nLothudus"
+"pd_nutcracker_authors"			"Vasilis 'Billo' Chatzikostas\nWiktor 'Doom' Pieńkowski\nAlex 'FGD5' Stewart\nApostolos Mpaltas\nStuffy360"
+"cppl_gavle_authors"			"Harlen 'UEAKCrash' Linke\nPearForceOne\nBenjamin 'blaholtzen' Blåholtz\nDaniel 'DJ' Bennett\nSeb 'Tianes' Necula\nAlex 'FGD5' Stewart\nJuniper"
+"ctf_sidewinder_authors"		"Tanner Lauren\nHarlen 'UEAKCrash' Linke\nPaul 'Brokk' Clausen\nKirill 'Badasscook' Ruzanov\nLauren 'Yrrzy' Godfrey"
+"2koth_abbey_authors"			"Liam 'Diva Dan' Moffitt\nEmil 'Эмil' Sharafeev\nSeb 'Tianes' Necula\nBenjamin 'blaholtzen' Blåholtz\nFreyja\nSonoma 'Sono' Bryer\nLizard Of Oz"
+"koth_winter_ridge_authors"		"Tristan 'Alox' Haguet"
+"plr_matterhorn_authors"		"João 'Hoppkins' Marcos\nNeal 'Bladex64' Smart\nRenato 'Corvalho' Gomes\nSzabó 'Maxxy' Attila\nMaksim 'Velly' Streltsov\nTorkil 'TheLazerSofa' Malvik Bidtnes\nMisanthЯope\nRotemHecht\nAl 'Square' Rodgers\nChickenman"
+
 "TF_YourStats"					"내 통계"
 "TF_DuckPromoList"				"11가지 스타일을 구비한 모든 병과용 장식 아이템!\n선로의 끝 이벤트 기간의 통계를 기록합니다.\n순위표를 보면서 친구들과 겨뤄보세요!\n수익금은 선로의 끝 동영상 제작팀 후원에 쓰입니다."
 "TF_GetDucky"					"오리 획득"
@@ -6093,6 +6100,12 @@
 "TF_MapToken_Marshlands"			"맵 후원 우표 - Marshlands"
 "TF_MapToken_Marshlands_Desc"		"깃발 방어전(커뮤니티) 맵\n\n제작자: Tristan 'Alox' Haguet, Lothudus\n\n이 아이템을 구매하면 커뮤니티 맵 Marshlands 제작자를 직접 후원할 수 있습니다. 여러분의 성원을 보여주세요!"
 "TF_MapToken_Marshlands_AdText"		"-이 아이템을 구매하면 커뮤니티 맵 Marshlands 제작자를 직접 후원할 수 있습니다."
+"TF_MapToken_Nutcracker"			"맵 후원 우표 - Nutcracker"
+"TF_MapToken_Nutcracker_AdText"		"-이 아이템을 구매하면 커뮤니티 맵 Nutcracker 제작자를 직접 후원할 수 있습니다."
+"TF_Map_Gavle"						"Gavle"
+"TF_MapToken_Gavle"					"맵 후원 우표 - Gavle"
+"TF_Map_Sidewinder"					"Sidewinder"
+"TF_Map_Abbey"						"Abbey"
 "TF_Map_Unknown"				"맵을 찾을 수 없습니다!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -7112,6 +7125,9 @@
 "cp_cowerhouse_timer_reset"				"지하 틈새 타이머가 초기화되었습니다!"
 "sd_marshlands_hold_3min"				"3분 동안 기밀 서류 가방을 지켜내면 승리합니다!"
 "sd_marshlands_barriers"				"마법의 장벽을 넘지 마세요. 넘으면 서류 가방이 다시 생성됩니다!"
+"2koth_abbey_a"							"점령 지점: A"
+"2koth_abbey_b"							"점령 지점: B"
+"2koth_abbey_goal"						"점령 지점을 끝까지 장악하여 승리하세요!"
 // Win panel strings
 "Winpanel_Team1"			"팀"
 "Winpanel_Team2"			"팀"
@@ -11214,6 +11230,7 @@
 "Winter2024Cosmetics_collection_desc"		"2024년 겨울 장식 수집품에 들어 있는 아이템:"
 "Summer2025Cosmetics_collection"			"2025 여름 장식 수집품"
 "Summer2025Cosmetics_collection_desc"		"2025 여름 장식 수집품에 들어 있는 아이템:"
+"Winter2025Cosmetics_collection"				"2025 겨울 장식 수집품"
 "Footer_GunMettleCosmetics"					"내용물은 이상한 또는 범상찮은 총기 패기 모자일 수 있습니다."
 "TF_GunMettleCosmeticCase"					"총기 패기 장식 상자"
 "TF_GunMettleCosmeticCase_desc"				"이 상자는 잠겨있으며\n총기 패기 장식 상자 열쇠로 열 수 있습니다.\n\n상자에는 총기 패기 장식 수집품\n커뮤니티 제작 아이템이 들어있습니다."
@@ -12951,6 +12968,15 @@
 "Attrib_Particle390"			"전류 전도체"
 "Attrib_Particle391"			"전류 전도체"
 "Attrib_Particle392"			"모래 먼지"
+
+// Smissmas 2025 Unusual
+"Attrib_Particle393"			"크로매틱 블레이즈"
+"Attrib_Particle394"			"프로스트파이어"
+"Attrib_Particle395"			"스펙트럼 인페르노"
+"Attrib_Particle397"			"팀 인식"
+"Attrib_Particle398"			"팀 인식"
+"Attrib_Particle405"			"극저온"
+
 // Weapon Unusual
 "Attrib_Particle701"			"뜨거운 열기"
 "Attrib_Particle702"			"동위 원소"
@@ -13204,6 +13230,8 @@
 "Attrib_Particle3210"		"타르 구덩이"
 "Attrib_Particle3211"		"섬뜩한 야수"
 "Attrib_Particle3212"		"섬뜩한 야수"
+"Attrib_Particle3215"		"초록빛 열기"
+"Attrib_Particle3216"		"황금빛 열기"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"연속 처치 효과: %s1"
@@ -18388,6 +18416,14 @@
 "TF_taunt_ring_king"						"도발: 내가 챔피언"
 "TF_taunt_ring_king_Desc"					"커뮤니티 제작 헤비 도발"
 "TF_taunt_ring_king_AdText"					"-커뮤니티 제작 헤비 도발"
+"TF_taunt_dead_manns_drink"					"도발: 죽은 Mann의 술"
+"TF_taunt_dead_manns_drink_Desc"			"커뮤니티 제작 데모맨 도발"
+"TF_taunt_dead_manns_drink_AdText"			"-커뮤니티 제작 데모맨 도발"
+"TF_taunt_the_critical_fail"				"도발: 치명적인 실패"
+"TF_taunt_the_critical_fail_Desc"			"커뮤니티 제작 모든 병과 도발"
+"TF_taunt_the_critical_fail_AdText"			"-커뮤니티 제작 모든 병과 도발"
+"TF_taunt_chairholder"						"도발: 현금 의자"
+"TF_taunt_chairholder_AdText"				"-커뮤니티 제작 스카웃 도발"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"호흡용 봉투"	// ADD THE
@@ -19669,6 +19705,15 @@
 "TF_hwn2025_one_man_convoy_style2"			"도색 머리 보호구"
 "TF_hwn2025_face_lift"					"페이스 리프트"
 "TF_hwn2025_zepheniahs_shroud"			"제페니아의 장막"
+
+"TF_dec25_snow_merc_style1"					"병과"
+"TF_dec25_air_head"						"파일럿 머리"
+"TF_dec25_air_head_style1"					"콧수염 있음"
+"TF_dec25_willis_warmer"				"윌리스의 스웨터"
+"TF_dec25_willis_warmer_style1"				"집어넣지 않음"
+"TF_dec25_willis_warmer_style2"				"집어넣음"
+"TF_dec25_scrooge_style1"					"스타일 1"
+"TF_dec25_scrooge_style2"					"스타일 2"
 "TF_style_bullets"						"탄환"
 "TF_style_nobullets"					"탄환 없음"
 
