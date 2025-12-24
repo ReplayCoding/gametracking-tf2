@@ -11,7 +11,7 @@ Revision: 237
 "detailmaterial" "detail/detailsprites_hacksaw"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "8317"
+"mapversion" "8318"
 "hammerid" "1"
 }
 {
@@ -9214,6 +9214,9 @@ Revision: 237
 "model" "*14"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-1152 -1536 -400"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -9224,6 +9227,9 @@ Revision: 237
 "model" "*15"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-1152 1536 -400"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -9243,6 +9249,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1.5"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9272,6 +9279,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1.5"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9301,6 +9309,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9330,6 +9339,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9359,6 +9369,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9388,6 +9399,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9417,6 +9429,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1.5"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9446,6 +9459,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1.5"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9475,6 +9489,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9504,6 +9519,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9533,6 +9549,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9562,6 +9579,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9591,6 +9609,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9620,6 +9639,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9649,6 +9669,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9678,6 +9699,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9707,6 +9729,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9736,6 +9759,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9765,6 +9789,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9794,6 +9819,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1"
 "model" "models/props_abbey/bannerflag.mdl"
@@ -9809,6 +9835,28 @@ Revision: 237
 "angles" "0 270 0"
 "classname" "prop_dynamic"
 "hammerid" "1931615"
+}
+{
+"model" "*16"
+"wait" "0"
+"vscripts" "icedeath.nut"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-1152 -1536 -400"
+"angles" "0 0 0"
+"classname" "trigger_multiple"
+"hammerid" "2046390"
+}
+{
+"model" "*17"
+"wait" "0"
+"vscripts" "icedeath.nut"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-1152 1536 -400"
+"angles" "0 0 0"
+"classname" "trigger_multiple"
+"hammerid" "2046393"
 }
 {
 "origin" "2048 -1024 528"
@@ -10173,7 +10221,7 @@ Revision: 237
 "hammerid" "252253"
 }
 {
-"model" "*16"
+"model" "*18"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10406,7 +10454,7 @@ Revision: 237
 "hammerid" "347810"
 }
 {
-"model" "*17"
+"model" "*19"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_blue_alt_top"
@@ -10433,7 +10481,7 @@ Revision: 237
 "hammerid" "347913"
 }
 {
-"model" "*18"
+"model" "*20"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_blue_alt_bot"
@@ -10460,7 +10508,7 @@ Revision: 237
 "hammerid" "347917"
 }
 {
-"model" "*19"
+"model" "*21"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10475,7 +10523,7 @@ Revision: 237
 "OnEndTouchAll" "sd_blue_alt_botClose0-1"
 }
 {
-"model" "*20"
+"model" "*22"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -10517,7 +10565,7 @@ Revision: 237
 "hammerid" "352040"
 }
 {
-"model" "*21"
+"model" "*23"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10563,7 +10611,7 @@ Revision: 237
 "hammerid" "352147"
 }
 {
-"model" "*22"
+"model" "*24"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_left_top"
@@ -10590,7 +10638,7 @@ Revision: 237
 "hammerid" "352151"
 }
 {
-"model" "*23"
+"model" "*25"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_left_bot"
@@ -10648,7 +10696,7 @@ Revision: 237
 "hammerid" "352159"
 }
 {
-"model" "*24"
+"model" "*26"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -10668,7 +10716,7 @@ Revision: 237
 "hammerid" "352171"
 }
 {
-"model" "*25"
+"model" "*27"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10683,7 +10731,7 @@ Revision: 237
 "OnEndTouchAll" "sd_red_right_botClose0-1"
 }
 {
-"model" "*26"
+"model" "*28"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -10703,7 +10751,7 @@ Revision: 237
 "hammerid" "352177"
 }
 {
-"model" "*27"
+"model" "*29"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_right_top"
@@ -10730,7 +10778,7 @@ Revision: 237
 "hammerid" "352184"
 }
 {
-"model" "*28"
+"model" "*30"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_right_bot"
@@ -11018,7 +11066,7 @@ Revision: 237
 "hammerid" "437813"
 }
 {
-"model" "*29"
+"model" "*31"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "4416 992 -128"
@@ -11032,7 +11080,7 @@ Revision: 237
 "hammerid" "438730"
 }
 {
-"model" "*30"
+"model" "*32"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "4416 -992 -128"
@@ -11075,7 +11123,7 @@ Revision: 237
 "hammerid" "451083"
 }
 {
-"model" "*31"
+"model" "*33"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-96 -288 608"
@@ -11089,7 +11137,7 @@ Revision: 237
 "hammerid" "461538"
 }
 {
-"model" "*32"
+"model" "*34"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-96 -288 608"
@@ -11125,7 +11173,7 @@ Revision: 237
 "hammerid" "483587"
 }
 {
-"model" "*33"
+"model" "*35"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11145,7 +11193,7 @@ Revision: 237
 "hammerid" "482062"
 }
 {
-"model" "*34"
+"model" "*36"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11267,7 +11315,7 @@ Revision: 237
 "hammerid" "527462"
 }
 {
-"model" "*35"
+"model" "*37"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11282,6 +11330,7 @@ Revision: 237
 "InputFilter" "0"
 "disableshadows" "1"
 "disablereceiveshadows" "0"
+"angles" "0 0 0"
 "classname" "func_brush"
 "hammerid" "531893"
 }
@@ -11473,7 +11522,7 @@ Revision: 237
 "hammerid" "548241"
 }
 {
-"model" "*36"
+"model" "*38"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11493,7 +11542,7 @@ Revision: 237
 "hammerid" "581482"
 }
 {
-"model" "*37"
+"model" "*39"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11508,11 +11557,12 @@ Revision: 237
 "InputFilter" "0"
 "disableshadows" "1"
 "disablereceiveshadows" "0"
+"angles" "0 0 0"
 "classname" "func_brush"
 "hammerid" "582981"
 }
 {
-"model" "*38"
+"model" "*40"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -11532,7 +11582,7 @@ Revision: 237
 "hammerid" "583317"
 }
 {
-"model" "*39"
+"model" "*41"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -12030,7 +12080,7 @@ Revision: 237
 "hammerid" "641829"
 }
 {
-"model" "*40"
+"model" "*42"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -13554,7 +13604,7 @@ Revision: 237
 "hammerid" "713611"
 }
 {
-"model" "*41"
+"model" "*43"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -13890,7 +13940,7 @@ Revision: 237
 "hammerid" "719209"
 }
 {
-"model" "*42"
+"model" "*44"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -13910,7 +13960,7 @@ Revision: 237
 "hammerid" "719297"
 }
 {
-"model" "*43"
+"model" "*45"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14423,7 +14473,7 @@ Revision: 237
 "hammerid" "784226"
 }
 {
-"model" "*44"
+"model" "*46"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14763,7 +14813,7 @@ Revision: 237
 "hammerid" "890774"
 }
 {
-"model" "*45"
+"model" "*47"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14839,7 +14889,7 @@ Revision: 237
 "hammerid" "891281"
 }
 {
-"model" "*46"
+"model" "*48"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14852,7 +14902,7 @@ Revision: 237
 "hammerid" "891552"
 }
 {
-"model" "*47"
+"model" "*49"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14953,7 +15003,7 @@ Revision: 237
 "hammerid" "1000473"
 }
 {
-"model" "*48"
+"model" "*50"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14973,7 +15023,7 @@ Revision: 237
 "hammerid" "1017926"
 }
 {
-"model" "*49"
+"model" "*51"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -14985,7 +15035,7 @@ Revision: 237
 "hammerid" "1029797"
 }
 {
-"model" "*50"
+"model" "*52"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -14997,7 +15047,7 @@ Revision: 237
 "hammerid" "1029806"
 }
 {
-"model" "*51"
+"model" "*53"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15009,7 +15059,7 @@ Revision: 237
 "hammerid" "1029815"
 }
 {
-"model" "*52"
+"model" "*54"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15021,7 +15071,7 @@ Revision: 237
 "hammerid" "1029819"
 }
 {
-"model" "*53"
+"model" "*55"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15033,7 +15083,7 @@ Revision: 237
 "hammerid" "1029603"
 }
 {
-"model" "*54"
+"model" "*56"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15045,7 +15095,7 @@ Revision: 237
 "hammerid" "1029607"
 }
 {
-"model" "*55"
+"model" "*57"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "2208 -1280 728"
@@ -15059,7 +15109,7 @@ Revision: 237
 "hammerid" "1029611"
 }
 {
-"model" "*56"
+"model" "*58"
 "StartDisabled" "0"
 "speed" "500"
 "spawnflags" "1"
@@ -15071,7 +15121,7 @@ Revision: 237
 "hammerid" "1029533"
 }
 {
-"model" "*57"
+"model" "*59"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "1376 -1280 728"
@@ -15085,7 +15135,7 @@ Revision: 237
 "hammerid" "1029554"
 }
 {
-"model" "*58"
+"model" "*60"
 "StartDisabled" "0"
 "speed" "500"
 "spawnflags" "1"
@@ -15097,7 +15147,7 @@ Revision: 237
 "hammerid" "1029542"
 }
 {
-"model" "*59"
+"model" "*61"
 "StartDisabled" "0"
 "speed" "500"
 "spawnflags" "1"
@@ -15109,7 +15159,7 @@ Revision: 237
 "hammerid" "1029727"
 }
 {
-"model" "*60"
+"model" "*62"
 "StartDisabled" "0"
 "speed" "500"
 "spawnflags" "1"
@@ -15121,7 +15171,7 @@ Revision: 237
 "hammerid" "1029731"
 }
 {
-"model" "*61"
+"model" "*63"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "2208 1280 728"
@@ -15135,7 +15185,7 @@ Revision: 237
 "hammerid" "1029735"
 }
 {
-"model" "*62"
+"model" "*64"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15147,7 +15197,7 @@ Revision: 237
 "hammerid" "1029758"
 }
 {
-"model" "*63"
+"model" "*65"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "1376 1280 728"
@@ -15161,7 +15211,7 @@ Revision: 237
 "hammerid" "1029762"
 }
 {
-"model" "*64"
+"model" "*66"
 "StartDisabled" "0"
 "speed" "300"
 "spawnflags" "1"
@@ -15173,7 +15223,7 @@ Revision: 237
 "hammerid" "1029765"
 }
 {
-"model" "*65"
+"model" "*67"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -15231,7 +15281,7 @@ Revision: 237
 "hammerid" "1032476"
 }
 {
-"model" "*66"
+"model" "*68"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -15463,7 +15513,7 @@ Revision: 237
 "hammerid" "1038209"
 }
 {
-"model" "*67"
+"model" "*69"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15478,7 +15528,7 @@ Revision: 237
 "OnEndTouchAll" "sd_red_alt_botClose0-1"
 }
 {
-"model" "*68"
+"model" "*70"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_alt_top"
@@ -15505,7 +15555,7 @@ Revision: 237
 "hammerid" "1038507"
 }
 {
-"model" "*69"
+"model" "*71"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "sd_red_alt_bot"
@@ -15594,7 +15644,7 @@ Revision: 237
 "hammerid" "1038527"
 }
 {
-"model" "*70"
+"model" "*72"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -15614,18 +15664,24 @@ Revision: 237
 "hammerid" "1038531"
 }
 {
-"model" "*71"
+"model" "*73"
 "TeamNum" "2"
 "targetname" "spawn_red"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 3552 544"
+"angles" "0 0 0"
 "classname" "func_respawnroom"
 "hammerid" "1066149"
 }
 {
-"model" "*72"
+"model" "*74"
 "TeamNum" "3"
 "targetname" "spawn_blu"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 -3552 544"
+"angles" "0 0 0"
 "classname" "func_respawnroom"
 "hammerid" "1066169"
 }
@@ -16313,7 +16369,7 @@ Revision: 237
 "hammerid" "651553"
 }
 {
-"model" "*73"
+"model" "*75"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -16523,7 +16579,7 @@ Revision: 237
 "hammerid" "1402370"
 }
 {
-"model" "*74"
+"model" "*76"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_b_neutral"
 "StartDisabled" "0"
@@ -16544,7 +16600,7 @@ Revision: 237
 "hammerid" "1440171"
 }
 {
-"model" "*75"
+"model" "*77"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -16585,6 +16641,7 @@ Revision: 237
 "renderamt" "255"
 "RandomAnimation" "0"
 "pressuredelay" "0"
+"physdamagescale" "1.0"
 "PerformanceMode" "0"
 "modelscale" "1.3"
 "model" "models/effects/cappoint_hologram.mdl"
@@ -16643,7 +16700,7 @@ Revision: 237
 "hammerid" "1440069"
 }
 {
-"model" "*76"
+"model" "*78"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_a_neutral"
 "StartDisabled" "0"
@@ -16664,7 +16721,7 @@ Revision: 237
 "hammerid" "1440767"
 }
 {
-"model" "*77"
+"model" "*79"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -16767,7 +16824,7 @@ Revision: 237
 "OnCapTeam2" "prop_sign_aSkin50-1"
 }
 {
-"model" "*78"
+"model" "*80"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_a_neutral"
 "StartDisabled" "0"
@@ -17342,7 +17399,7 @@ Revision: 237
 "hammerid" "1552755"
 }
 {
-"model" "*79"
+"model" "*81"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17361,7 +17418,7 @@ Revision: 237
 "hammerid" "1588516"
 }
 {
-"model" "*80"
+"model" "*82"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17380,7 +17437,7 @@ Revision: 237
 "hammerid" "1588528"
 }
 {
-"model" "*81"
+"model" "*83"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17399,7 +17456,7 @@ Revision: 237
 "hammerid" "1588536"
 }
 {
-"model" "*82"
+"model" "*84"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17432,7 +17489,7 @@ Revision: 237
 "hammerid" "1588755"
 }
 {
-"model" "*83"
+"model" "*85"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17451,7 +17508,7 @@ Revision: 237
 "hammerid" "1589041"
 }
 {
-"model" "*84"
+"model" "*86"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17470,7 +17527,7 @@ Revision: 237
 "hammerid" "1589049"
 }
 {
-"model" "*85"
+"model" "*87"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17489,7 +17546,7 @@ Revision: 237
 "hammerid" "1589058"
 }
 {
-"model" "*86"
+"model" "*88"
 "StartDisabled" "0"
 "spawnflags" "0"
 "Solidity" "2"
@@ -17748,7 +17805,7 @@ Revision: 237
 "hammerid" "1535671"
 }
 {
-"model" "*87"
+"model" "*89"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17790,7 +17847,7 @@ Revision: 237
 "hammerid" "1535662"
 }
 {
-"model" "*88"
+"model" "*90"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17832,7 +17889,7 @@ Revision: 237
 "hammerid" "1534884"
 }
 {
-"model" "*89"
+"model" "*91"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17874,7 +17931,7 @@ Revision: 237
 "hammerid" "1534918"
 }
 {
-"model" "*90"
+"model" "*92"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -17916,7 +17973,7 @@ Revision: 237
 "hammerid" "1535099"
 }
 {
-"model" "*91"
+"model" "*93"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -18060,22 +18117,22 @@ Revision: 237
 "hammerid" "1682546"
 }
 {
-"model" "*92"
+"model" "*94"
 "classname" "func_nobevel"
 "hammerid" "1721249"
 }
 {
-"model" "*93"
+"model" "*95"
 "classname" "func_nobevel"
 "hammerid" "1721282"
 }
 {
-"model" "*94"
+"model" "*96"
 "classname" "func_nobevel"
 "hammerid" "1721394"
 }
 {
-"model" "*95"
+"model" "*97"
 "classname" "func_nobevel"
 "hammerid" "1721422"
 }
@@ -18254,11 +18311,12 @@ Revision: 237
 "filename" "scripts/2fort_global.raw"
 "fadeOutDuration" "0.0"
 "fadeInDuration" "0.0"
+"angles" "0 0 0"
 "classname" "color_correction"
 "hammerid" "1829230"
 }
 {
-"model" "*96"
+"model" "*98"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18278,7 +18336,7 @@ Revision: 237
 "hammerid" "1829310"
 }
 {
-"model" "*97"
+"model" "*99"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18320,29 +18378,32 @@ Revision: 237
 "hammerid" "948887"
 }
 {
-"model" "*98"
+"model" "*100"
 "classname" "func_nobevel"
 "hammerid" "1830291"
 }
 {
-"model" "*99"
+"model" "*101"
 "classname" "func_nobevel"
 "hammerid" "1830293"
 }
 {
-"model" "*100"
+"model" "*102"
 "classname" "func_nobevel"
 "hammerid" "1830295"
 }
 {
-"model" "*101"
+"model" "*103"
 "classname" "func_nobevel"
 "hammerid" "1830297"
 }
 {
-"model" "*102"
+"model" "*104"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 1872 680"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18350,9 +18411,12 @@ Revision: 237
 "hammerid" "1830346"
 }
 {
-"model" "*103"
+"model" "*105"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 -1872 680"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18360,9 +18424,12 @@ Revision: 237
 "hammerid" "1830351"
 }
 {
-"model" "*104"
+"model" "*106"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "576 1016 312"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18370,9 +18437,12 @@ Revision: 237
 "hammerid" "1830355"
 }
 {
-"model" "*105"
+"model" "*107"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "576 -1016 312"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18380,9 +18450,12 @@ Revision: 237
 "hammerid" "1830365"
 }
 {
-"model" "*106"
+"model" "*108"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-328 -864 168.25"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18390,9 +18463,12 @@ Revision: 237
 "hammerid" "1830369"
 }
 {
-"model" "*107"
+"model" "*109"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-328 864 168.25"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18400,9 +18476,12 @@ Revision: 237
 "hammerid" "1830374"
 }
 {
-"model" "*108"
+"model" "*110"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "2560 2048 536.5"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18410,9 +18489,12 @@ Revision: 237
 "hammerid" "1830382"
 }
 {
-"model" "*109"
+"model" "*111"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "2560 -2048 536.5"
+"angles" "0 0 0"
 "AllowTeleporters" "1"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18420,9 +18502,12 @@ Revision: 237
 "hammerid" "1830392"
 }
 {
-"model" "*110"
+"model" "*112"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 2672 1344"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18430,9 +18515,12 @@ Revision: 237
 "hammerid" "1830408"
 }
 {
-"model" "*111"
+"model" "*113"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1792 -2720 1344"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18440,7 +18528,7 @@ Revision: 237
 "hammerid" "1830411"
 }
 {
-"model" "*112"
+"model" "*114"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18455,6 +18543,7 @@ Revision: 237
 "InputFilter" "0"
 "disableshadows" "1"
 "disablereceiveshadows" "0"
+"angles" "0 0 0"
 "classname" "func_brush"
 "hammerid" "1879724"
 }
@@ -18716,7 +18805,7 @@ Revision: 237
 "hammerid" "1968015"
 }
 {
-"model" "*113"
+"model" "*115"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18731,13 +18820,17 @@ Revision: 237
 "InputFilter" "0"
 "disableshadows" "1"
 "disablereceiveshadows" "0"
+"angles" "0 0 0"
 "classname" "func_brush"
 "hammerid" "1968124"
 }
 {
-"model" "*114"
+"model" "*116"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1608 -1008 612"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18745,9 +18838,12 @@ Revision: 237
 "hammerid" "2046004"
 }
 {
-"model" "*115"
+"model" "*117"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1608 1008 612"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18755,9 +18851,12 @@ Revision: 237
 "hammerid" "2046021"
 }
 {
-"model" "*116"
+"model" "*118"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1992 672 600"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
@@ -18765,36 +18864,17 @@ Revision: 237
 "hammerid" "2046033"
 }
 {
-"model" "*117"
+"model" "*119"
 "TeamNum" "0"
 "StartDisabled" "0"
+"spawnflags" "1"
+"origin" "1992 -672 604"
+"angles" "0 0 0"
 "AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
 "hammerid" "2046050"
-}
-{
-"model" "*118"
-"wait" "0"
-"vscripts" "icedeath.nut"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "-1152 -1536 -400"
-"angles" "0 0 0"
-"classname" "trigger_multiple"
-"hammerid" "2046390"
-}
-{
-"model" "*119"
-"wait" "0"
-"vscripts" "icedeath.nut"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "-1152 1536 -400"
-"angles" "0 0 0"
-"classname" "trigger_multiple"
-"hammerid" "2046393"
 }
 {
 "origin" "2233.89 -2550.44 583.711"

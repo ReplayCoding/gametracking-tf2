@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 6876
+Revision: 6900
 {
 "world_maxs" "3584 -2528 1216"
 "world_mins" "-6784 -8608 -512"
@@ -11,7 +11,7 @@ Revision: 6876
 "detailmaterial" "detail/detailsprites_2fort"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "6876"
+"mapversion" "6900"
 "hammerid" "1"
 }
 {
@@ -5323,7 +5323,7 @@ Revision: 6876
 "hammerid" "1678492"
 }
 {
-"origin" "-4862.71 -3821.85 137.028"
+"origin" "-4958.71 -3821.85 137.028"
 "start_active" "1"
 "effect_name" "env_snow_light_001"
 "angles" "0 180 0"
@@ -5347,7 +5347,7 @@ Revision: 6876
 "hammerid" "1678825"
 }
 {
-"origin" "-192 -5760 137.028"
+"origin" "-192 -5856 137.028"
 "start_active" "1"
 "effect_name" "env_snow_light_001"
 "angles" "0 180 0"
@@ -10634,7 +10634,7 @@ Revision: 6876
 "hammerid" "2228665"
 }
 {
-"origin" "714 -5712 306"
+"origin" "722 -5720 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -10652,7 +10652,7 @@ Revision: 6876
 "hammerid" "2228747"
 }
 {
-"origin" "961 -5680 306"
+"origin" "961 -5688 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -10670,7 +10670,7 @@ Revision: 6876
 "hammerid" "2228757"
 }
 {
-"origin" "1089 -5616 306"
+"origin" "1089 -5620 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -10688,7 +10688,7 @@ Revision: 6876
 "hammerid" "2228763"
 }
 {
-"origin" "1170 -5472 306"
+"origin" "1178 -5472 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -10706,7 +10706,7 @@ Revision: 6876
 "hammerid" "2228768"
 }
 {
-"origin" "1169 -5360 306"
+"origin" "1177 -5368 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -10989,7 +10989,7 @@ Revision: 6876
 "hammerid" "2289056"
 }
 {
-"origin" "1040 -5584 288.492"
+"origin" "1098.99 -5574.57 288.492"
 "TeamNum" "0"
 "StartDisabled" "0"
 "rendercolor" "255 255 255"
@@ -10998,12 +10998,12 @@ Revision: 6876
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 345 0"
+"angles" "0 0 0"
 "classname" "item_healthkit_medium"
 "hammerid" "2301320"
 }
 {
-"origin" "960 -5616 288.256"
+"origin" "1030 -5626.19 288.256"
 "TeamNum" "0"
 "StartDisabled" "0"
 "rendercolor" "255 255 255"
@@ -11012,7 +11012,7 @@ Revision: 6876
 "fadescale" "1.0"
 "fademindist" "-1"
 "AutoMaterialize" "1"
-"angles" "0 345 0"
+"angles" "0 0 0"
 "classname" "item_ammopack_medium"
 "hammerid" "2301324"
 }
@@ -11278,7 +11278,7 @@ Revision: 6876
 "hammerid" "2386877"
 }
 {
-"origin" "-4741.26 -5554.74 292.256"
+"origin" "-4805.26 -5554.74 292.256"
 "TeamNum" "0"
 "StartDisabled" "0"
 "rendercolor" "255 255 255"
@@ -11292,7 +11292,7 @@ Revision: 6876
 "hammerid" "2433911"
 }
 {
-"origin" "-4688 -5608 292.256"
+"origin" "-4752 -5608 292.256"
 "TeamNum" "0"
 "StartDisabled" "0"
 "rendercolor" "255 255 255"
@@ -11306,7 +11306,7 @@ Revision: 6876
 "hammerid" "2433920"
 }
 {
-"origin" "-4432 -5712 306"
+"origin" "-4440 -5720 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -11324,7 +11324,7 @@ Revision: 6876
 "hammerid" "2434928"
 }
 {
-"origin" "-4672 -5680 306"
+"origin" "-4672 -5688 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -11342,7 +11342,7 @@ Revision: 6876
 "hammerid" "2434951"
 }
 {
-"origin" "-4808 -5608 306"
+"origin" "-4812 -5612 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -11360,7 +11360,7 @@ Revision: 6876
 "hammerid" "2434962"
 }
 {
-"origin" "-4880 -5472 306"
+"origin" "-4888 -5472 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -11378,7 +11378,7 @@ Revision: 6876
 "hammerid" "2434976"
 }
 {
-"origin" "-4880 -5360 306"
+"origin" "-4888 -5368 290"
 "spotlightwidth" "20"
 "spotlightlength" "30"
 "spawnflags" "3"
@@ -16811,6 +16811,28 @@ Revision: 6876
 "angles" "0 300 180"
 "classname" "prop_dynamic"
 "hammerid" "3336910"
+}
+{
+"model" "*62"
+"TeamNum" "0"
+"StartDisabled" "0"
+"DestroyBuildings" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "3366528"
+}
+{
+"model" "*63"
+"TeamNum" "0"
+"StartDisabled" "0"
+"DestroyBuildings" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "3366539"
 }
 {
 "cheapwaterenddistance" "2000"

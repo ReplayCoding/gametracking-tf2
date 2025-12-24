@@ -12955,6 +12955,8 @@
 "Attrib_Particle3200"		"Kayıp Sinyal"
 "Attrib_Particle3201"		"Yaz Dalgası"
 "Attrib_Particle3202"		"Köpekbalığı Saldırısı"
+// Smissmas 2025 Unusual Taunts
+"Attrib_Particle3213"		"Buz Küresi"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Katliam Efekti: %s1"
@@ -13027,7 +13029,7 @@
 "TF_Unique_Achievement_CloakWatch"	"Pelerin ve Hançer"	// ADD THE
 "TF_Unique_Achievement_FeignWatch"	"Kusursuz Kopya"	// ADD THE
 "TF_Unique_Achievement_Revolver"	"Elçi"	// ADD THE
-"TF_Unique_Backstab_Shield"		"Jiletsırt"	// ADD THE
+"TF_Unique_Backstab_Shield"		"Sırt Kalkanı"	// ADD THE
 "TF_Unique_Achievement_Jar"		"Kavate"
 "TF_Unique_Achievement_CompoundBow"	"Avcı"	// ADD THE
 "TF_Unique_Achievement_SoldierBuff"	"Destek Sancağı"	// ADD THE
@@ -15260,7 +15262,7 @@ Kapasitesini genişletmek için çanta genişletici satın alabilirsiniz."
 "SystemMessage_WinterCrateWarning_30Minute"	"Keyifli Kış Kutuları yakında kaybolacak! Sonsuza kadar yok olmalarına sadece otuz dakika kaldı!"
 
 "GameUI_CrosshairNone"						"Varsayılan"
-"GameUI_ParticleHatUseHead"					"Olağandışı Ayarı"
+"GameUI_ParticleHatUseHead"					"Olağan Dışı Ayarı"
 "GameUI_HudPlayerClassUsePlayerModel"		"Oyuncu sınıfı sembolünde oyuncu modelini kullan"
 "GameUI_HudPlayerClassUsePlayerModelDialogTitle"	"HUD 3D Karakter"
 "GameUI_HudPlayerClassUsePlayerModelDialogMessage"	"Bu özellik güçlü olmayan makineler için tavsiye edilmez ve Gelişmiş Seçenekler'den değiştirilebilir.\n\nÖzelliği açık tutmak ister misin?"
@@ -19405,6 +19407,9 @@ Hareket için D-pad, arka tuşlar=daha hızlı, sonraki çizgi için A tuşu."
 "TF_hwn2025_viscer_visor_style2"			"Temiz"
 "TF_hwn2025_pyromantic_plumage"			"Pyromantik Tüyler"
 "TF_hwn2025_one_man_convoy"				"Tek Kişilik Birlik"
+"TF_dec25_punchers_polar"				"Dayakçının Şişme Poları"
+"TF_dec25_festive_fleece"				"Yılbaşı Poları"
+"TF_dec25_scrooge"						"Scrooge McCrocket"
 "TF_style_bullets"						"Mermili"
 "TF_style_nobullets"					"Mermisiz"
 

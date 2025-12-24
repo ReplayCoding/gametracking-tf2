@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/SNOW_FULL001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cppl_gavle/c520_-1710_-61"
+	}
+}
