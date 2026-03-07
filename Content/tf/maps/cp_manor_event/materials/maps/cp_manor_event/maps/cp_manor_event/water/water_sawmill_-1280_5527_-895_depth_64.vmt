@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_manor_event/water/water_sawmill_-1280_5527_-895.vmt"
+	"insert"
+	{
+		"$waterdepth"		"64"
+	}
+}

@@ -298,12 +298,13 @@
 "ClassTips_8_5_MvM"			"== In Mann vs. Machine =="
 "ClassTips_8_6_MvM"			"Sapperverbetering verdooft en vertraagt robots in een straal"
 "ClassTips_8_6_Icon"		"/achievements/tf_spy_sapper_grind.vmt"
-"ClassTips_8_7_MvM"			"Je maakt verhulde spy's rond je zichtbaar voor je team!"
+"ClassTips_8_7_MvM"			"Je maakt verhulde, vijandelijke Spy's om je heen zichtbaar voor je team!"
 "ClassTips_8_7_Icon"		"/achievements/tf_soldier_kill_spy_killer.vmt"
 "ClassTips_8_8_MvM"			"Voeg pantserdoorboring aan je mes toe om te helpen bij het uitschakelen van Reuzenrobots!"
 "ClassTips_8_8_Icon"		"/achievements/tf_get_turretkills.vmt"
 // Engi
 "ClassTips_9_Count"			"8"
+"ClassTips_9_1"				"Verzamel metaal van gevallen munitiedozen om mee te bouwen!"
 "ClassTips_9_1_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_9_2"				"Bouw sentry's om je basis te verdedigen! Upgrade ze tot level 3!"
 "ClassTips_9_2_Icon"		"/pve/chalf_circle.vmt"
@@ -601,7 +602,7 @@
 "TF_Weapon_SyringeGun"		"Injectiepistool"
 "TF_Weapon_SyringeGun_Prototype" "Injectiepistoolprototype"
 "TF_Weapon_Watch"		"Onzichtbaarheidshorloge"
-"TF_Weapon_Watch_desc"	"Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn."
+"TF_Weapon_Watch_desc"	"Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aan loopt, word je een klein beetje zichtbaar."
 "TF_Weapon_FlareGun"		"Lichtpistool"
 "TF_Weapon_LunchBox"		"Lunchtrommel"
 "TF_Weapon_SoldierSashimono"	"Sashimono"
@@ -960,15 +961,15 @@
 
 "TF_TournamentMedal_Ready_Steady_Pan_FirstS4"				"Fry Hard - Finalist"
 "TF_TournamentMedal_Ready_Steady_Pan_FirstS4_Desc"			"Dit seizoen heb je met een ijzeren vuist geheerst. Het uitdagen van deze spelers is een grote onderneming, en is werkelijk om problemen vragen. Gefeliciteerd met je pantastische prestaties in het vierde seizoen van Ready Steady Pan!"
-"TF_TournamentMedal_Ready_Steady_Pan_SecondS4"				"Tweede Seizoensgebonden Stamper" // ADD THE
+"TF_TournamentMedal_Ready_Steady_Pan_SecondS4"				"De Tweede Gepeperde Stamper" // ADD THE
 "TF_TournamentMedal_Ready_Steady_Pan_SecondS4_Desc"			"Dit is niet zomaar een medaille, hij kan ook niet aanbranden! Aangezien je goed hebt bekokstoofd met keukengerei en niet in pan-iek bent geraakt, heb je de heerlijke titel van de tweede gepeperde stamper in het vierde seizoen van Ready Steady Pan verdiend!"
-"TF_TournamentMedal_Ready_Steady_Pan_ThirdS4"				"Derde Kruidenkampioen" // ADD THE
+"TF_TournamentMedal_Ready_Steady_Pan_ThirdS4"				"De Derde Kruidenkampioen" // ADD THE
 "TF_TournamentMedal_Ready_Steady_Pan_ThirdS4_Desc"			"Je hebt misschien niet gewonnen, maar je bent zeker niet van gist-eren! Je mag trots zijn op wat je hebt ber-ei-kt in het vierde seizoen van Ready Steady Pan!"
 "TF_TournamentMedal_Ready_Steady_Pan_PlayoffS4"				"Ready Steady Pan-tastische play-offs - Deelnemer"
 "TF_TournamentMedal_Ready_Steady_Pan_PlayoffS4_Desc"		"Zo zie je maar hoe ver je komt met een frituurpan, je hebt al die zwakkere steelpannen stijf geslagen met een vrij degelijke antikleefpan! Ik moet zeggen, dat is niet enkel goed maar zeer goed doorbakken!"
 "TF_TournamentMedal_Ready_Steady_Pan_ParticipantS4"			"Vierdeseizoens Pan-ticipant"
 "TF_TournamentMedal_Ready_Steady_Pan_ParticipantS4_Desc"	"Gefeliciteerd met je prestatie tijdens het vierde seizoen van Ready Steady Pan! Je hebt iedereen een koekje van eigen deeg gegeven!"
-"TF_TournamentMedal_Ready_Steady_Pan_HelperS4"				"Eizersterke hulp" // ADD THE
+"TF_TournamentMedal_Ready_Steady_Pan_HelperS4"				"De Eizersterke Hulp" // ADD THE
 "TF_TournamentMedal_Ready_Steady_Pan_HelperS4_Desc"			"Dit smaakt naar meer! Bedankt voor het rondscharrelen en je hulp om het vierde seizoen van Ready Steady Pan te realiseren! Jij bent de echte MVP (meest veelzijdige poelier)."
 
 "TF_TournamentMedal_Ready_Steady_Pan_First_S5"				"Held van de hete plaat"
@@ -1363,18 +1364,18 @@
 "TF_TournamentMedal_OzFortress_Winter_Div4_Second_Place"				"ozfortress Winter League Division 4 - Tweede plaats"
 "TF_TournamentMedal_OzFortress_Winter_Div4_Third_Place"					"ozfortress Winter League Division 4 - Derde plaats"
 "TF_TournamentMedal_OzFortress_Winter_Div4_Participant"					"ozfortress Winter League Division 4 - Deelnemer"
-"TF_TournamentMedal_OzFortress_Highlander_Premier_First_Place"			"ozfortress Highlander Premier Eerste Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Premier_Second_Place"			"ozfortress Highlander Premier Tweede Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Premier_Third_Place"			"ozfortress Highlander Premier Derde Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Premier_Participant"			"ozfortress Highlander Premier Deelnemer"
-"TF_TournamentMedal_OzFortress_Highlander_Intermediate_First_Place"		"ozfortress Highlander Intermediate Eerste Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Second_Place"	"ozfortress Highlander Intermediate Tweede Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Third_Place"		"ozfortress Highlander Intermediate Derde Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Participant"		"ozfortress Highlander Intermediate Deelnemer"
-"TF_TournamentMedal_OzFortress_Highlander_Open_First_Place"				"ozfortress Highlander Open Eerste Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Open_Second_Place"			"ozfortress Highlander Open Tweede Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Open_Third_Place"				"ozfortress Highlander Open Derde Plaats"
-"TF_TournamentMedal_OzFortress_Highlander_Open_Participant"				"ozfortress Highlander Open Deelnemer"
+"TF_TournamentMedal_OzFortress_Highlander_Premier_First_Place"			"ozfortress Highlander Premier - Eerste plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Premier_Second_Place"			"ozfortress Highlander Premier - Tweede plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Premier_Third_Place"			"ozfortress Highlander Premier - Derde plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Premier_Participant"			"ozfortress Highlander Premier - Deelnemer"
+"TF_TournamentMedal_OzFortress_Highlander_Intermediate_First_Place"		"ozfortress Highlander Intermediate - Eerste plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Second_Place"	"ozfortress Highlander Intermediate - Tweede plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Third_Place"		"ozfortress Highlander Intermediate - Derde plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Intermediate_Participant"		"ozfortress Highlander Intermediate - Deelnemer"
+"TF_TournamentMedal_OzFortress_Highlander_Open_First_Place"				"ozfortress Highlander Open - Eerste plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Open_Second_Place"			"ozfortress Highlander Open - Tweede plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Open_Third_Place"				"ozfortress Highlander Open - Derde plaats"
+"TF_TournamentMedal_OzFortress_Highlander_Open_Participant"				"ozfortress Highlander Open - Deelnemer"
 "TF_TournamentMedal_OzFortress_Highlander_Main_First_Place"				"ozfortress Highlander Main - Eerste plaats"
 "TF_TournamentMedal_OzFortress_Highlander_Main_Second_Place"			"ozfortress Highlander Main - Tweede plaats"
 "TF_TournamentMedal_OzFortress_Highlander_Main_Third_Place"				"ozfortress Highlander Main - Derde plaats"
@@ -1876,10 +1877,10 @@
 "TF_TF2Connexion_Division_2_Bronze"				"TF2Connexion Division 2 - Brons"
 "TF_TF2Connexion_Division_3_Bronze"				"TF2Connexion Division 3 - Brons"
 "TF_TF2Connexion_Division_4_Bronze"				"TF2Connexion Division 4 - Brons"
-"TF_TF2Connexion_Division_1_Participant"		"TF2Connexion Division 1 - deelnemer"
-"TF_TF2Connexion_Division_2_Participant"		"TF2Connexion Division 2 - deelnemer"
-"TF_TF2Connexion_Division_3_Participant"		"TF2Connexion Division 3 - deelnemer"
-"TF_TF2Connexion_Division_4_Participant"		"TF2Connexion Division 4 - deelnemer"
+"TF_TF2Connexion_Division_1_Participant"		"TF2Connexion Division 1 - Deelnemer"
+"TF_TF2Connexion_Division_2_Participant"		"TF2Connexion Division 2 - Deelnemer"
+"TF_TF2Connexion_Division_3_Participant"		"TF2Connexion Division 3 - Deelnemer"
+"TF_TF2Connexion_Division_4_Participant"		"TF2Connexion Division 4 - Deelnemer"
 
 "TF_TournamentMedal_OSLTF_First_Place"			"OSL.tf - Eerste plaats"
 "TF_TournamentMedal_OSLTF_Second_Place"			"OSL.tf - Tweede plaats"
@@ -2096,6 +2097,8 @@
 "TF_Medal_TipOfTheHatsTier3_2017"				"Vrolijke Globetrotter"
 "TF_Medal_TipOfTheHats2017_Desc"				"Uitgereikt aan degenen die hebben bijgedragen aan het liefdadigheidsevenement Tip of the Hats 2017"
 
+"TF_Medal_TipOfTheHatsTier1_2018"				"Zwierige Ontdekkingsreiziger"
+"TF_Medal_TipOfTheHatsTier2_2018"				"Zwierige Verkenner"
 "TF_Medal_TipOfTheHatsTier3_2018"				"Vrolijke bergbeklimmer"
 "TF_Medal_TipOfTheHats2018_Desc"				"Uitgereikt aan degenen die hebben bijgedragen aan het liefdadigheidsevenement Tip of the Hats 2018"
 
@@ -2105,7 +2108,7 @@
 "TF_Medal_TipOfTheHats2019_Desc"				"Uitgereikt aan degenen die hebben bijgedragen aan het liefdadigheidsevenement Tip of the Hats 2019"
 
 "TF_Medal_SpecialSnowflake"						"Speciale Sneeuwvlok"
-"TF_Medal_SpecialSnowflake_Desc"					"Laat de opwarming van de aarde zien wie de baas is door een nep-sneeuwvlok op je borst te dragen. Toegekend aan de deelnemers van de Workshop Wonderland 2015-communityshowcase!"
+"TF_Medal_SpecialSnowflake_Desc"					"Laat de klimaatverandering zien wie de baas is door een nepsneeuwvlok op je borst te dragen. Uitgereikt aan de deelnemers van de Workshop Wonderland 2015-communityshowcase!"
 "TF_Medal_GiftOfGiving"							"Geschenk van het Geven"
 "TF_Medal_GiftOfGiving_Desc"						"Geef wat, krijg wat. Voor de liefdadige gouden harten van de inzamelingsactie van de Workshop Wonderland 2015-communityshowcase!"
 
@@ -2114,11 +2117,15 @@
 "TF_Medal_GiftOfGiving2016"						"Geschenk van het Geven 2016"
 "TF_Medal_GiftOfGiving2016_Desc"						"Zodat iedereen kan spelen. Voor de liefdadige gouden harten van de inzamelingsactie van de Workshop Wonderland 2016-communityshowcase!"
 
-"TF_Medal_HugsTF_2017"		"Lieflijke Liefkozing" // ADD THE
+"TF_Medal_HugsTF_2017"		"De Lieflijke Liefkozing" // ADD THE
 "TF_Medal_HugsTF_2017_Desc"		"Uitgereikt aan degenen die hebben bijgedragen of deelgenomen aan het liefdadigheidsevenement Hugs.tf 2017"
-"TF_Medal_HugsTF_2018"		"Hartelijke Held" // ADD THE
+"TF_Medal_HugsTF_2018"		"De Hartelijke Held" // ADD THE
 "TF_Medal_HugsTF_2018_Desc"		"Uitgereikt aan degenen die hebben bijgedragen of deelgenomen aan het liefdadigheidsevenement Hugs.tf 2018"
+"TF_Medal_HeartfeltHug_2023"		"De Hartelijke Knuffel 2023" // ADD THE
+"TF_Medal_HeartfeltHug_2023_Desc"		"Er was ooit een wijs iemand die een geheim met ons deelde: je moet elke dag iemand een dikke knuffel geven! Maar die persoon had niet verwacht dat we dat letterlijk zouden opvatten en een wereldwijd knuffelfestijn zouden ontketenen."
 "TF_Medal_HeartfeltHero_2023"		"Hartelijke Held 2023" // ADD THE
+"TF_Medal_HeartfeltHero_2023_Desc"		"Oké modepopje, we laten je deze keer de heldhaftige cape aantrekken. Maar zorg er wel voor dat je je extra grote plumeau en trouwe hulpje meeneemt."
+
 "TF_MapperMedal"				"De Mappersmedaille" // ADD THE
 "TF_style0"						"Stijl 1"
 "TF_style1"						"Stijl 2"
@@ -2156,16 +2163,20 @@
 "TF2MapsRayOfSunshine2018"					"TF2Maps - Zonnestraal 2018"
 "TF2MapsRayOfSunshine2018_Desc"				"Prijs de zon en zamel geld in! Uitgereikt  aan donateurs van de TF2 Summer Jam 2018!"
 "TF2MapsRayOfSunshine2019"					"TF2Maps - Zonnestraal 2019"
-"TF2MapsRayOfSunshine2019_Desc"				"Laat het zonnetje in iemands leven schijnen! Toegekend aan donateurs van The Trevor Project gedurende de TF2 72hr Jam 2019!"
+"TF2MapsRayOfSunshine2019_Desc"				"Laat het zonnetje in iemands leven schijnen! Uitgereikt aan donateurs van The Trevor Project gedurende de TF2 72hr Jam 2019!"
 "TF2MapsRayOfSunshine2020"					"TF2Maps - Zonnestraal 2020"
 "TF2MapsRayOfSunshine2020_Desc"				"Maak anderen blij op een grijze dag! Uitgereikt aan donateurs van de TF2Maps 72hr TF2Jam 2020!"
 "TF2MapsCharitableHeart2021"				"TF2Maps - Liefdadigheidshart 2021"
 "TF2MapsCharitableHeart2021_Desc"			"Uitgereikt aan donateurs tijdens de Winter 2021 TF2Maps 72hr TF2Jam!"
 "TF2MapsRayOfSunshine2022"					"TF2Maps - Zonnestraal 2022"
+"TF2MapsRayOfSunshine2022_Desc"				"Vrolijk ze op wanneer de zon niet schijnt. Uitgereikt aan donateurs van de TF2Maps 72hr TF2Jam 2022!"
 "TF2MapsCharitableHeart2023"				"TF2Maps - Liefdadigheidshart 2023"
 "TF2MapsCharitableHeart2023_Desc"			"Uitgereikt aan donateurs tijdens de 2023 TF2Maps 72hr TF2Jam!"
 "TF2MapsCharitableHeart2024"				"TF2Maps - Liefdadigheidshart 2024"
 "TF2MapsCharitableHeart2024_Desc"			"Uitgereikt aan donateurs tijdens de TF2Maps 72hr TF2Jam 2024!"
+"TF2MapsCharitableHeart2025"				"TF2Maps - Liefdadigheidshart 2025"
+"TF2MapsCharitableHeart2025_Desc"			"Uitgereikt aan donateurs tijdens de TF2Maps 72hr TF2Jam 2025!"
+
 "TF_TournamentMedal_MappersVsMachines_2017"			"Mappers vs. Machines 2017 - Deelnemer"
 "TF_TournamentMedal_MappersVsMachines_2017_Desc"	"Ben je Manns genoeg om op een tikkende tijdbom op je borstkas te hameren? Uitgereikt aan alle deelnemers van de MvM-mapwedstrijd 2017 van de TF2Maps.net-community!"
 
@@ -2384,11 +2395,19 @@
 "TF_TournamentMedal_RGLgg_6v6_Newcomer_Cup"				"RGL.gg - Newcomer Cup - 6v6"
 
 "TF_TournamentMedal_TitaniumTank_Participant_2017"	"Titanium Tank 2017 - Deelnemer"
+"TF_TournamentMedal_TitaniumTank_Participant_2017_Desc"	"Deze badge is het bewijs dat je je moed hebt bewezen door tegen een horde losgeslagen robots te vechten! Goed gedaan, bikkel! Uitgereikt aan alle deelnemers van de MvM-evenementen van Potato's MvM Server-community."
+
 "TF_TournamentMedal_TitaniumTank_Participant_2020"		"Replica Titanium Tank 2020"
-"TF_rewind_lan_gold"			"ESA Rewind - 1e plaats"
-"TF_rewind_lan_silver"			"ESA Rewind - 2e plaats"
-"TF_rewind_lan_bronze"			"ESA Rewind - 3e plaats"
-"TF_rewind_lan_participant"		"ESA Rewind - deelnemer"
+"TF_TournamentMedal_TitaniumTank_Participant_2020_Desc"	"We hebben de medailledrukpers op volle kracht laten draaien en speciaal voor jou een aantal replica's van deze tijdloze klassieker gemaakt. De bollebozen zeiden dat daar geen geld voor was, maar we vallen nog liever dood dan dat jij niet beloond wordt. Uitgereikt aan spelers van de liefdadigheidstournee van Potato's MvM Server!"
+"TF_TournamentMedal_TitaniumTank_Donator_2020"				"Titanium Tank 2020 - Vergulde Gever"
+"TF_TournamentMedal_TitaniumTank_Donator_2020_Desc"			"Je moet wel een gouden hart hebben om uit quarantaine te komen en hordes bloeddorstige robots te verslaan terwijl er een wereldwijde pandemie gaande is. In ruil voor je heldhaftige daden heb jij het recht verdiend om eindelijk je huis te verlaten. Uitgereikt aan donateurs van de liefdadigheidstournee van Potato's MvM Server!"
+"TF_TournamentMedal_TitaniumTank_Donator_Rainbow_2020"		"Titanium Tank 2020 - Chromatisch Hart"
+"TF_TournamentMedal_TitaniumTank_Donator_Rainbow_2020_Desc"	"Met dank aan spelers zoals jij zullen we deze pandemie de baas worden, net zoals jij eindeloze stromen aan moordzuchtige robots de baas was. Uitgereikt aan donateurs van de liefdadigheidstournee van Potato's MvM Server!"
+
+"TF_rewind_lan_gold"			"ESA Rewind - Eerste plaats"
+"TF_rewind_lan_silver"			"ESA Rewind - Tweede plaats"
+"TF_rewind_lan_bronze"			"ESA Rewind - Derde plaats"
+"TF_rewind_lan_participant"		"ESA Rewind - Deelnemer"
 "TF_TournamentMedal_RewindII_DonorT1"				"ESA Rewind II - Donateur (niveau 1)"
 "TF_TournamentMedal_RewindII_DonorT2"				"ESA Rewind II - Donateur (niveau 2)"
 "TF_TournamentMedal_RewindII_DonorT3"				"ESA Rewind II - Donateur (niveau 3)"
@@ -2400,13 +2419,25 @@
 
 "TF_TournamentMedal_Canteen_Crasher_Platinum"			"Canteen Crasher 2018 - Platina voltreffersmedaille"
 "TF_TournamentMedal_Canteen_Crasher_Platinum_Desc"		"Je hebt bewezen dat je een expert bent in het onmiddellijk oplossen van problemen! Goed werk, huurling! Uitgereikt aan deelnemers van de hybride MvM-wedstrijd van Potato's MvM Server!"
+"TF_TournamentMedal_Canteen_Crasher_Gold"				"Canteen Crasher 2018 - Gouden übermedaille"
+"TF_TournamentMedal_Canteen_Crasher_Gold_Desc"			"In het heetst van de strijd vraag je bij je dichtstbijzijnde leverancier gewoon even wat onsterfelijkheid aan! Uitgereikt aan deelnemers van de hybride MvM-wedstrijd van Potato's MvM Server!"
 "TF_TournamentMedal_Canteen_Crasher_Silver"				"Canteen Crasher 2018 - Zilveren constructiemedaille"
+"TF_TournamentMedal_Canteen_Crasher_Silver_Desc"		"Deze veldfles wordt geleverd met een combinatiesleutel en heeft een timer en trilfunctie om het vernietigen van sentry's zo makkelijk mogelijk te maken! Uitgereikt aan deelnemers van de hybride MvM-wedstrijd van Potato's MvM Server!"
 "TF_TournamentMedal_Canteen_Crasher_Bronze"				"Canteen Crasher 2018 - Bronzen munitiemedaille"
 "TF_TournamentMedal_Canteen_Crasher_Bronze_Desc"		"Hier is een eeuwenoude vraag: hoe gebruik je iets dat in brons is omhuld? Uitgereikt aan deelnemers van de Potato's MvM Server's hybrid MvM-wedstrijd!"
 "TF_TournamentMedal_Canteen_Crasher_Iron"				"Canteen Crasher 2018 - IJzeren teleportatiemedaille"
-"TF_TournamentMedal_Canteen_Crasher_Iron_Desc"			"Klik op deze knop om terug naar de basis te gaan en tetanus of een dodelijke stroomstoot te krijgen! Uitgereikt aan deelnemers van de Potato's MvM Server's hybrid MvM-wedstrijd!"
+"TF_TournamentMedal_Canteen_Crasher_Iron_Desc"			"Druk op de knop om terug naar de basis te gaan en tetanus of een dodelijke stroomstoot te krijgen! Uitgereikt aan deelnemers van de hybride MvM-wedstrijd van Potato's MvM Server!"
 "TF_TournamentMedal_Canteen_Crasher_Rust"				"Canteen Crasher 2018 - Roestige beginnersmedaille"
 "TF_TournamentMedal_Canteen_Crasher_Rust_Desc"			"Als beloning voor het opdagen presenteren we je iets dat we in onze gereedschapsschuur hebben gevonden! Uitgereikt aan deelnemers van de hybride MvM-wedstrijd van Potato's MvM Servers!"
+"TF_TournamentMedal_HolographicHarvest_Carbon"			"Holographic Harvest 2022 - Briljante Barmhartigheid"
+"TF_TournamentMedal_HolographicHarvest_Carbon_Desc"		"Er lag een zak vol met deze dingen voor onze deur met de instructie om ze naar coördinaten in Zuid-Amerika te versturen. We weten niet zeker waarom we ze hebben gekregen, maar we zijn niet van plan om ze terug te geven! Uitgereikt aan donateurs van de Holographic Harvest-liefdadigheidsactie!"
+"TF_TournamentMedal_HolographicHarvest_Zebra"			"Holographic Harvest 2022 - Zebrazirkonia"
+"TF_TournamentMedal_HolographicHarvest_Zebra_Desc"		"Nerds zullen je vertellen dat er in het regenwoud geen zebra's zitten, maar ga zelf maar kijken! De afgelopen jaren hebben we elke week steeds stiekem drie zebra's Colombia binnengesmokkeld. Waarom? Waarom niet! Ze zijn daar veilig. Uitgereikt aan donateurs van de Holographic Harvest-liefdadigheidsactie!"
+"TF_TournamentMedal_HolographicHarvest_Lahsuniya"		"Holographic Harvest 2022 - Lahsuniya Ratna"
+"TF_TournamentMedal_HolographicHarvest_Lahsuniya_Desc"	"Tijgers behoren tot de meest gevreesde wilde dieren en laten we eerlijk zijn, je zou het waarschijnlijk niet lang overleven als je het tegen zo'n beest zou moeten opnemen. Maar niet getreurd, want jij kunt dan weer veel dingen die tijgers niet kunnen, zoals pronken met deze coole edelsteen! Uitgereikt aan donateurs van de Holographic Harvest-inzamelingsactie!"
+"TF_TournamentMedal_HolographicHarvest_Canteen"			"Holographic Harvest 2022 - Bespookte Schrootveldfles"
+"TF_TournamentMedal_HolographicHarvest_Canteen_Desc"	"Op het eerste gezicht lijkt dit misschien een doodgewone veldfles die z'n beste tijd gehad heeft. Maar als je hem oppakt, wordt het duidelijk dat er iets onheilspellends in zit opgesloten. Het is waarschijnlijk maar goed dat dit ding dichtgeroest zit. Uitgereikt aan spelers van het Holographic Harvest-evenement van Potato MvM!"
+
 "TF_TournamentMedal_Copenhagen_6v6_Gold"			"Copenhagen Games 6v6 - Eerste plaats"
 "TF_TournamentMedal_Copenhagen_6v6_Silver"			"Copenhagen Games 6v6 - Tweede plaats"
 "TF_TournamentMedal_Copenhagen_6v6_Bronze"			"Copenhagen Games 6v6 - Derde plaats"
@@ -2453,20 +2484,31 @@
 "TF_TournamentMedal_Beginnings5_Helper"				"Beginnings 5 - Helper"
 "TF_TournamentMedal_Beginnings5_Helper_Desc"		"Uitgereikt aan degenen die hebben geholpen bij de vijfde springcompetitie van TF2RJweekly."
 
-"TF_TournamentMedal_Blapature2018_Tier1"			"Blapature Co. - Ondersteuner"
+"TF_TournamentMedal_Blapature2018_Tier1"			"Blapature Co. - Backer"
 "TF_TournamentMedal_Blapature2018_Tier1_Desc"		"De belangrijkste stap bij het maken van jam is het vervangen van letterlijk alles door avocado. Bedankt voor je steun aan de Blapature Co. Charity Bash 2018!"
 "TF_TournamentMedal_Blapature2018_Tier2"			"Blapature Co. - Supporter"
 "TF_TournamentMedal_Blapature2018_Tier2_Desc"		"Een avocado per dag houdt de dokter weg, zolang je 'm maar tussen de ogen raakt. Bedankt voor je steun aan de Blapature Co. Charity Bash 2018!"
 "TF_TournamentMedal_Blapature2018_Tier3"			"Blapature Co. - Weldoener"
 "TF_TournamentMedal_Blapature2018_Tier3_Desc"		"Onderscheid jezelf van de millennials door trots te verkondigen dat je toast met avocado eet. Bedankt voor je steun aan de Blapature Co. Charity Bash 2018!"
 "TF_TournamentMedal_Blapature2019_Tier1"			"BlapBash 2019 - Backer"
+"TF_TournamentMedal_Blapature2019_Tier1_Desc"		"Het belangrijkste bij het maken van jam is dat je de avocado's platstampt, maar de huizenmarkt heel laat. Bedankt voor het steunen van BlapBash 2019!"
 "TF_TournamentMedal_Blapature2019_Tier2"			"BlapBash 2019 - Supporter"
 "TF_TournamentMedal_Blapature2019_Tier2_Desc"		"Een avocado per dag houdt de dokter weg: allebei is gewoon te duur. Bedankt voor je steun aan Blapature 2019!"
 "TF_TournamentMedal_Blapature2019_Tier3"			"BlapBash 2019 - Weldoener"
+"TF_TournamentMedal_Blapature2019_Tier3_Desc"		"Als avocadotoast tot een onbetaalbare woningmarkt leidt, heb je in elk geval nog wel een heerlijk ontbijt. Bedankt voor het steunen van BlapBash 2019!"
 "TF_TournamentMedal_Blapature2021_Tier1"			"BlapBash 2021 - Backer"
+"TF_TournamentMedal_Blapature2021_Tier1_Desc"		"Het belangrijkste bij het maken van jam is niet de manier waarop je die maakt, maar dat je eraan denkt om de meest betaalbare en geschikte avocado's te gebruiken. Bedankt voor het steunen van BlapBash 2022!"
 "TF_TournamentMedal_Blapature2021_Tier2"			"BlapBash 2021 - Supporter"
+"TF_TournamentMedal_Blapature2021_Tier2_Desc"		"Een avocado per dag houdt je gezond. Maar waar is Blap-Chan? Bedankt voor het steunen van BlapBash 2021!"
 "TF_TournamentMedal_Blapature2021_Tier3"			"BlapBash 2021 - Weldoener"
+"TF_TournamentMedal_Blapature2021_Tier3_Desc"		"Je hebt niet alleen voor verse avocadotoast gezorgd, je hebt mensen die willen meedoen ook blij gemaakt. Bedankt voor het steunen van BlapBash 2021!"
+"TF_TournamentMedal_Blapature2022_Tier1"			"BlapBash 2022 - Backer"
+"TF_TournamentMedal_Blapature2022_Tier1_Desc"		"Het belangrijkste bij het maken van jam is het negeren van de verslagen blikken van je geliefden terwijl je het hun voor de zevende week op rij voorschotelt. Bedankt voor het steunen van BlapBash 2022!"
+"TF_TournamentMedal_Blapature2022_Tier2"			"BlapBash 2022 - Supporter"
 "TF_TournamentMedal_Blapature2022_Tier2_Desc"		"Een avocado per dag is niet veel, maar het is eerlijk fruit. Bedankt voor het steunen van BlapBash 2022!"
+"TF_TournamentMedal_Blapature2022_Tier3"			"BlapBash 2022 - Weldoener"
+"TF_TournamentMedal_Blapature2022_Tier3_Desc"		"Wanneer je merk draait om avocado's, moet je het niet erg vinden om voor je ontbijt, lunch en avondeten avocadotoast te eten en dat vol te houden tot al je geld op is. Bedankt voor het steunen van BlapBash 2022!"
+"TF_TournamentMedal_Blapature2022_Tier4"			"BlapBash 2022 - Avocado-advocaat"
 "TF_TournamentMedal_Blapature2022_Tier4_Desc"		"De beste jam is gemaakt van extra belegen avocado's. Bedankt voor het steunen van BlapBash 2022!"
 
 "TF_TournamentMedal_Fresh_Meat_Prolander_Helper"				"Fresh Meat Prolander Cup - Helper"
@@ -2502,8 +2544,10 @@
 "TF_TournamentMedal_PASSTime_Federation_NA_2nd"				"PASS Time Federation - NA - Tweede plaats"
 "TF_TournamentMedal_PASSTime_Federation_NA_3rd"				"PASS Time Federation - NA - Derde plaats"
 "TF_TournamentMedal_PASSTime_Federation_NA_Participant"		"PASS Time Federation - NA - Deelnemer"
+"TF_TournamentMedal_PASSTime_Federation_Season3_1st_Desc"				"Gefeliciteerd! Je hebt iedereen laten zien wie de ware meester van alle sporten is. Je weet precies welke bewegingen je moet maken, welke hoek je moet kiezen, wanneer je moet ademhalen en welke valkuilen je moet vermijden. Je hebt pure perfectie laten zien. Ja, jij! Je hebt het respect van anderen verdiend en nieuwkomers zullen je bewonderen. Nu kun je aan iedereen laten zien dat je precies weet wat je doet!\n\n Uitgereikt aan winnaars van de eerste plaats tijdens seizoen 3 van PASS Time Federation."
 "TF_TournamentMedal_PASSTime_Federation_Season3_2nd_Desc"				"Luister goed, huurling. Zie je die berg lichamen van mensen die om die stomme bal hebben gevochten? Kijk eens hoe ver je bent gekomen! Je dacht dat je ook op die berg zou eindigen, maar nu sta je erbovenop. Je hebt binnen je team je vaardigheden, teamwerk en ware vriendschap bewezen. Je hoeft je nergens voor te schamen! Je bent een ware huurling die trots op zichzelf mag zijn. De mensen zullen je naam kennen en je de hand willen schudden. Goed gedaan!\n\nUitgereikt aan winnaars van de tweede plaats tijdens seizoen 3 van PASS Time Federation."
 "TF_TournamentMedal_PASSTime_Federation_Season3_3rd_Desc"				"Ben je een beetje gespannen? Vrees niet! Jij bent degene die de spanning van zich af heeft weten te vechten. Je bent erin geslaagd om elk mogelijk obstakel weg te schoppen: ballen, stof, takken, zweet en ... raketten? Ik weet niet zeker waarom er explosieven betrokken zijn bij sport, maar wat maakt het ook uit. Je hebt het hem toch maar mooi geflikt, topper!\n\nUitgereikt aan winnaars van de derde plaats tijdens seizoen 3 van PASS Time Federation."
+"TF_TournamentMedal_PASSTime_Federation_Season3_Participant_Desc"		"Je hebt misschien mensen de bal zien schoppen, slaan, gooien of misschien zelfs bijten... gatver. Of misschien iets anders op tv. Hoe dan ook heb je een keer een gooi gedaan (letterlijk) en het is je gelukt! Je hebt anderen laten zien dat je geen lafaard bent, maar een huurling die in elk geval zijn best heeft gedaan.\n\nUitgereikt aan deelnemers van seizoen 3 van PASS Time Federation."
 "TF_TournamentMedal_PASSTime_Federation_Season4_1st_Desc"				"Gefeliciteerd! Je hebt duidelijk laten zien wie er de baas is. Je weet elke beweging die je moet maken, hoek die je moet meten, ademteug die je moet nemen en trigger die je moet vermijden. Je krijgt toestemming om op te scheppen over je meesterschap!\n\nUitgereikt aan de winnaars van de eerste plaats van seizoen 4 van PASS Time Federation - EU-regio."
 "TF_TournamentMedal_PASSTime_Federation_Season4_2nd_Desc"				"Luister eens, huurling. Je hebt het strijdveld overleefd waar anderen gesneuveld zijn. Je blinkt uit in je vaardigheden, teamwerk, loyaliteit en verbondenheid met je team. Houd je hoofd hoog; je hebt alle respect verdiend. Goed gedaan!\n\nUitgereikt aan de winnaars van de tweede plaats van de PASS Time Federation Seizoen 4 - EU-regio."
 "TF_TournamentMedal_PASSTime_Federation_Season4_3rd_Desc"				"Voel je je een beetje gespannen? Vrees niet! Jij bent degene die de spanning van zich af heeft weten te vechten. Je bent erin geslaagd om elk obstakel weg te schoppen - ballen, stof, takken, zweet en ... raketten? Ik weet niet zeker waarom er explosieven betrokken zijn bij sport, maar wie boeit het? Je hebt je erdoorheen geslagen, topper!\n\nUitgereikt aan de winnaars van de derde plaats van PASS Time Federation Seizoen 4 - EU-regio."
@@ -2706,18 +2750,12 @@
 "TF_TournamentMedal_BrazilFortress_Jump_SpeedRun_Demoman_Div2_3rd"			"Brazil Fortress Jump Cup Speed Run Demoman Division 2 - Derde plaats"
 "TF_TournamentMedal_BrazilFortress_Jump_SpeedRun_Demoman_Div2_Participant"	"Brazil Fortress Jump Cup Speed Run Demoman Division 2 - Deelnemer"
 "TF_TournamentMedal_BrazilFortress_Jump_Helper"						"Brazil Fortress Jump Cup - Helper"
-
-"TF_TournamentMedal_BrazilFortress_Hwn_First"						"Griezelige eerste" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_First_Desc"					"De ware kampioenen van deze bespookte competitie. De beste tijdens het eerste seizoen van Brasil Fortress Halloween 2018, dat enger was dan ooit."
-"TF_TournamentMedal_BrazilFortress_Hwn_Second"						"Betoverende tweede" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Second_Desc"					"In het donker van de nacht werden krachtige spreuken gebruikt om monsters te elimineren en deze opmerkelijke plek bij Brasil Fortress Halloween 2018 te behalen."
-"TF_TournamentMedal_BrazilFortress_Hwn_Third"						"Monsterlijke derde" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Third_Desc"					"Uiteen gescheurd, maar weer tot leven gewekt. Jij maakt je maker trots met al het door jou gedane doden in Brasil Fortress Halloween 2018."
 "TF_TournamentMedal_BrazilFortress_Hwn_Playoffs"					"Friday's - Play-offs" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Playoffs_Desc"				"Hen allen vermoordend, één voor één, deed je hard je best en kwam je ver, maar je boot kapseisde en je dromen verdronken in Brasil Fortress Halloween 2018."
-"TF_TournamentMedal_BrazilFortress_Hwn_Participant"					"Vampirische deelnemer" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Participant_Desc"			"Je zoog niet, noch verhongerde je en het bloed vloeide in grote hoeveelheden, allemaal dankzij jouw aanwezigheid in in Brasil Fortress Halloween 2018."
-"TF_TournamentMedal_BrazilFortress_Hwn_Assistant"					"Vervloekte assistent" // ADD THE
 "TF_TournamentMedal_BrazilFortress_Hwn_Assistant_Desc"				"Gedurende de gehele nacht stemmen horende vanuit het hiernamaals zorgde jij ervoor dat Brasil Fortress Halloween 2018 kon plaatshebben. Aanraken kunnen ze je niet, maar hun vloek zal je niet in vrede doen rusten."
 "TF_TournamentMedal_BrazilFortress_Hwn_Scary_First"					"Brazil Fortress Halloween - Scary Group - Eerste plaats"
 "TF_TournamentMedal_BrazilFortress_Hwn_Scary_Second"				"Brazil Fortress Halloween - Scary Group - Tweede plaats"
@@ -2823,7 +2861,6 @@
 "TF_TournamentMedal_Madness_Silver_2019"				"Madness vs Machines 2019 - Getemperd toermalijn"
 "TF_TournamentMedal_Madness_Gold_2019"					"Madness vs Machines 2019 - Koninklijk rhodoniet"
 "TF_TournamentMedal_Madness_Platinum_2019"				"Madness vs Machines 2019 - Chaotisch kristal"
-"TF_TournamentMedal_Madness_Platinum_2019_Desc"			"Kracht die je verbeelding te boven gaat, samengeperst in een diamanten omhulsel. Eenvoudig tegen je borst houden vult je ziel met onbegrensde mogelijkheden. Toegekend aan spelers van Potato's MvM Server's co-op campagne!"
 "TF_TournamentMedal_Madness_Donator_2019"				"Madness vs Machines 2019 - Hoopvol hart"
 "TF_TournamentMedal_Madness_Donator_Rainbow_2019"		"Madness vs Machines 2019 - Grenzeloos hart"
 "TF_TournamentMedal_Madness_Creator_2019"				"Madness vs Machines 2019 - Toppunt van vindingrijkheid"
@@ -3012,7 +3049,9 @@
 "TF_TournamentMedal_MvM_Memes_Creator_Desc"		"Je borst is de perfecte plaats om extra bootlegservers te installeren. Geen zorgen, je gebruikt die waardevolle opslagruimte toch zelden. Uitgereikt aan makers die hebben deelgenomen aan de April Fools-wedstrijd van Potato's MvM Server!"
 "TF_TournamentMedal_MvM_Mashed_Player"			"Mashed Mediocrity 2020 - Aardappel"
 "TF_TournamentMedal_MvM_Mashed_Player_Desc"		"Deze aardappel is een jaar oud en is dan misschien wel niet meer te eten, maar je kunt hem wel mooi op je borst dragen als accessoire! Uitgereikt aan spelers van de April Fools-tournee van Potato's MvM Server!"
+"TF_TournamentMedal_MvM_Mashed_Creator"			"Mashed Mediocrity 2020 - Superaardappel"
 "TF_TournamentMedal_MvM_Mashed_Creator_Desc"	"In 1845 beleefde Ierland een hongersnood als gevolg van een aardappelschaarste. Breng een eerbetoon aan dit verleden door wat computeronderdelen in een aardappel te stoppen en het geheel te dragen als een medaille! Uitgereikt aan makers die hebben deelgenomen aan de April Fools-wedstrijd van Potato's MvM Server!"
+"TF_TournamentMedal_MvM_Mashed_Helper"			"Mashed Mediocrity 2020 - Memermoederbord"
 "TF_TournamentMedal_MvM_Mashed_Helper_Desc"		"Maniakale militair manifesteert mechanische moordpartijen, meriteert mythische meme-medaille. Magnifiek meesterwerk, maker! Uitgereikt aan helpers van de April Fools-wedstrijd van Potato's MvM Server!"
 
 "TF_TournamentMedal_StarchedSilliness_Player_Desc"		"Soms is een aardappel gewoon een aardappel. Dit is echter geen aardappel, maar een uit een nabije rivier opgeviste steen die beige is geschilderd. Uitgereikt aan spelers van de 2021 April Fools MvM-liefdadigheidsreis van Tindall Berry!"
@@ -3242,8 +3281,6 @@
 "TF_reddit_random_acts2_Desc"		"Een medaille om de gulle gevers van de Random Acts of TF2-groep te erkennen"
 
 "TF_spectral_snowflake"				"Spookachtige Sneeuwvlok"
-"TF_spectral_snowflake_Desc"		"Oh, het weer buiten is afschuwelijk. Toegekend aan de deelnemers van de Nightmare Before Smissmas 2017-communityshowcase!"
-
 "TF_TournamentMedal_Blapature2017"			"Blapature Co. - Bijdrager"
 "TF_TournamentMedal_Blapature2017_Desc"		"De beste jam wordt gemaakt van avocado's. Bedankt voor je steun aan de Blapature Co. Summer Jam 2017!"
 
@@ -3278,11 +3315,12 @@
 "TF_TournamentMedal_Osmium_Ordinance_Cobalt"			"Osmium Ordinance - Kobaltkruik 2024"
 "TF_TournamentMedal_Osmium_Ordinance_Cobalt_Desc"		"Mindere mensen zouden met geld in hun hand naar een fraai ding als dit kijken en de bescheidenheid ervan bespotten. \"Denk je dat ik zelfs dood met zo'n stuk metaal gevonden zou willen worden? Wie denk je wel niet dat ik ben?\" Jij bent echter niet zo kieskeurig, wetende dat nederigheid een deugd op zich is. Uitgereikt aan donateurs van het Osmium Ordinance-evenement van Potato MvM!"
 
-"TF_heals4reals_gold"			"Heals for Reals-evenement - 1e plaats"
-"TF_heals4reals_silver"			"Heals for Reals-evenement - 2e plaats"
-"TF_heals4reals_bronze"			"Heals for Reals-evenement - 3e plaats"
-"TF_heals4reals_participant"	"Heals for Reals-evenement - deelnemer"
-"TF_heals4reals_donor"			"Heals for Reals - donor"
+"TF_TournamentMedal_Supreme_Strategist"					"Statussymbool van de Superieure Strateeg"
+"TF_heals4reals_gold"			"Heals for Reals Event - Eerste plaats"
+"TF_heals4reals_silver"			"Heals for Reals Event - Tweede plaats"
+"TF_heals4reals_bronze"			"Heals for Reals Event - Derde plaats"
+"TF_heals4reals_participant"	"Heals for Reals Event - Deelnemer"
+"TF_heals4reals_donor"			"Heals for Reals - Donateur"
 
 "TF_MapToken"			"Mappostzegel"
 
@@ -3459,9 +3497,12 @@
 "TF_Wearable_RoboticHead"			"Robotisch hoofd"
 "TF_Wearable_Cloak"					"Verhulling"
 "TF_Wearable_BearHead"				"Berenkop"
+"TF_Wearable_Gambeson"				"Wambuis"
 "TF_Wearable_Headache"				"Hoofdpijn"
 "TF_Wearable_Butler"				"Butler"
+"TF_Wearable_Sombrero"				"Sombrero"
 "TF_Wearable_Bullets"				"Decoratieve Kogels"
+"TF_Wearable_LavaHead"				"Lavahoofd"
 "TF_RobotPart_Type"	"Robotonderdeel"
 "TF_CircuitBoard_Type"	"Printplaat"
 
@@ -3949,8 +3990,6 @@
 "TF_Bundle_STSBundle"			"Steam Translation-bundel"
 "TF_RandomDroppablePaintPackage"		"Mann Co.-verfset"
 "TF_RandomDroppablePaintPackage_Desc"	"Deze doe-het-zelf-Mann Co.-verfset komt inbegrepen met monsters van een paar verschillende kleuren die, legaal gesproken, totaal, zeker niet giftige dampen afgeven."
-
-"TF_HA_Demo"			"De Grenadier-helm" // ADD THE
 "TF_HA_Demo_Desc"			"Argghhh! Je bent boos! En je bent klein! En je moet deze feiten uitdrukken door middel van een enkel accessoire! Draag de Grenadier-helm en stuur je vijanden richting het niveau van de Dwergenhel die jij geschikt voor ze vindt."
 "TF_HA_Pyro"			"De Stambotten" // ADD THE
 "TF_HA_Pyro_Desc"			"Geen ritueel dat eindigt met de nutteloze vernietiging van menselijk leven in opdracht van een kwade god is compleet zonder een Stambottenketting. Net zoals al onze moeders op de een of andere manier hebben gezegd, als je wat menselijke opofferingen gaat doen, moet je er wel goed uitzien."
@@ -4002,7 +4041,6 @@
 "TF_Robot_Sandvich_Desc"	"Robots lopen niet alleen op olie. Ze lopen ook op metalen dingen die gemaakt zijn om op menselijk eten te lijken. Waarom? Waarom vertel jij me het niet, als je zo slim bent? Het eten van een metalen sandwich is in ieder geval wat logischer. Waarom nemen jij en olie geen baby waar je de voogdij over deelt nadat jij en olie een slordige scheiding hebben gehad, als je zoveel van olie houdt?"
 "TF_CompanionSquare_Badge"		"De Eeuwige Vrienden-Gezelschapsvierkantspeld" // ADD THE
 "TF_CompanionSquare_Badge_Desc"		"Je bent een ervaren vriendschapsveteraan. Je bloed, zweet en tranen zijn in de constructie van talloze dekenforten gestoken. Je hebt in honderden hartverscheurende kussengevechten gevochten. Laat deze Eeuwige Vrienden-badge aan iedereen tonen dat jij echt weet wat het betekent om een bro te zijn."
-"TF_ThreeA_Badge"		"Triple A-badge" // ADD THE
 "TF_ThreeA_Badge_Desc"		"De letter \"a\" is een geweldige letter. We houden er zo veel van, dat we 'm op een badge hebben geplaatst. En we dachten dat deze gozer met een gasmasker er gaaf uitzag, dus we hebben hem er ook op geplaatst. We gaan op ons gevoel af; het heeft tot nu toe goede resultaten. Ons gevoel zegt ons dat het volgende voorwerp dat we maken... een of andere hoed zal zijn. We hebben hier een heel goed gevoel over."
 
 "TF_COH2_Heavy"			"De Zwaar Geschutsofficiersmuts" // ADD THE
@@ -4265,7 +4303,7 @@
 "TF_MannCoOnlineCap"			"Mann Co. Online-pet"
 "TF_UnusualCap"				"Bijzondere Pet"
 "TF_Polycount_Pin"			"Polycount-speld"
-"TF_Polycount_Pin_Desc"		"Toegekend aan deelnemers van de Polycount wedstrijd."
+"TF_Polycount_Pin_Desc"		"Uitgereikt aan deelnemers van de Polycount-wedstrijd."
 "TF_EllisHat"			"Ellis' Pet"
 //"TF_EllisHat_Desc"		""
 "TF_FlippedTrilby"		"Gekantelde Gleufhoed"
@@ -4302,6 +4340,7 @@
 "TF_Hwn_DemoMisc1"		"De Schotse Snauw" // ADD THE
 "TF_Hwn_DemoMisc2"		"De Gepekelde Poten" // ADD THE
 "TF_Hwn_ScoutHat"		"De Verpakkingsstrijder" // ADD THE
+"TF_Hwn_ScoutMisc1"		"B-ankh!"
 "TF_Hwn_ScoutMisc2"		"De Futankhamun" // ADD THE
 "TF_Hwn_PyroHat"		"De Brandende Bul" // ADD THE
 "TF_Hwn_PyroMisc1"		"De Gevallen Engel" // ADD THE
@@ -4444,14 +4483,10 @@
 "TF_PyroCandle_Desc"		"Leef je leven eindelijk als een kaars in de wind. (Wind niet bijgeleverd.)"
 "TF_ShootManyRobotsPack"		"De Schrootbundel" // ADD THE
 "TF_ShootManyRobotsPack_Desc"	"Waarom zou alleen de voorkant lol mogen hebben? Voeg meer rotzooi toe aan de bovenkant van je achterkant met behulp van de beste schroothopen in Parijs!"
-"TF_CrimeCraftHelmet"			"Bolt Action Blitzer" // ADD THE
 "TF_CrimeCraftHelmet_Desc"		"Haal maar rustig adem, jongens. Welnu, iedere helm beschermt je hoofd wanneer je hem draagt - maar wat nou als je hem NIET draagt? De Bolt Action Blitzer lost dat probleem op door zich in je schedel vast te boren met drie diepgegroefde bouten van drie centimeter lang, afgewerkt met gegalvaniseerd staal. Zorg er maar voor dat je hem in je favoriete kleur kiest, want je ZULT ermee begraven worden."
-"TF_EngineerChaps"			"Texaanse Half-Broek" // ADD THE
 "TF_EngineerChaps_Desc"		"Het is een broek... maar dan in Texas-stijl! Deze kruisloze leren leggings zijn perfect voor als je al een broek hebt. Denk eraan: alleen te gebruiken als aanvullende broek. Gebruik het alsjeblieft niet als primaire broek."
 "TF_EngineerChaps_Style0"	"Gebruind"
 "TF_EngineerChaps_Style1"	"Middernacht"
-"TF_HeavyBoxingTowel"		"Trainingshanddoek" // ADD THE
-"TF_HeavyBoxingTowel_Desc"	"Zorg ervoor dat je nooit de handdoek in de ring gooit, zelfs per ongeluk, door 'm lekker dichtbij je te houden, zodat ie niet als een angsthaas weg kan rennen om zich over te geven wanneer je niet oplet."
 "TF_SniperAppleArrow"			"Het Schietfruit" // ADD THE
 "TF_SniperAppleArrow_Desc"		"Deze leuke activiteit voor alle leeftijden brengt de geschiedenis tot leven! Het enige wat je nodig hebt is een boog, een pijl, een appel en een idioot."
 "TF_SniperAppleArrow_Style0"	"Dodelijk"
@@ -4545,12 +4580,8 @@
 
 "TF_HalloweenCauldron2011"			"Antieke Halloween-verrassingsketel"
 "TF_HalloweenCauldron2011_Desc"		"Je kunt het deksel van deze ketel loswrikken om te zien wat voor rare dingen erin zitten... vanuit je rugzak... ALS JE DURFT."
-
-"TF_Luchador"					"Koude Oorlog-Luchador" // ADD THE
 "TF_Luchador_Desc"					"Het meest angstaanjagende Sovjet/Latino-partnerschap sinds de Cubacrisis."
-"TF_Apocofists"					"Apoco-Vuisten" // ADD THE
 "TF_Apocofists_Desc"				"Maak elk van je vingers één van de vier ruiters van de Apocalyps! Dat zijn meer dan negentien ruiters van de Apocalyps per handschoen! Dat is het meeste Apocalyps dat we ooit aan een hand vast hebben durven maken!"
-"TF_Saint_Pin"					"Symbool van de Saint" // ADD THE
 "TF_TrnHat"						"De Richt en Schiet" // ADD THE
 "TF_TrnHat_Desc"				"De volgende keer dat iemand je beschuldigt dat je geen echte tovenaar bent omdat je weigert spreuken uit te spreken (lees: niet kan uitspreken), prik ze dan in hun oog met deze magisch verblindende puntige hoed en ren weg."
 "TF_TrnHelmet"					"De Gevechtskop" // ADD THE
@@ -4698,6 +4729,7 @@
 "TF_Winter2011_GiftHat_Desc"	"Vrolijk Smissmas, iedereen! Moge al jullie diverse feestdagen leuk zijn (of somber, afhankelijk van je culturele tradities) met dit extreem zeldzame TF-voorwerp, gedoneerd door Steam-gebruiker BANG!"
 "TF_Winter2011_SantaHat"			"De Kerstmuts" // ADD THE
 "TF_Winter2011_SantaHat_Desc"	"Wees de grote man van kerst met deze bontomzeemde pomponhoed!"
+"TF_SpyCicle"					"De Spy-spegel" // ADD THE
 "TF_SpyCicle_Desc"				"Het is het perfecte cadeau voor de man die alles heeft: een ijspegel in de rug. Zelfs rijke mensen kunnen dat niet in winkels kopen."
 "TF_BallBuster"				"De Verpakte Moordenaar
 " // ADD THE
@@ -4709,7 +4741,6 @@
 
 "TF_Winter2013_SpiritDispenser"		"De draagbare Smissmas-geest-verdeler" // ADD THE
 "TF_Winter2013_SpiritDispenser_Desc"	"Verkregen door het ontwerpen van de Steam-feestdagenuitverkoop 2013-badge."
-"TF_Winter2013_BattleHood"			"Smissmas's Gevechtskap" // ADD THE
 "TF_Winter2013_BattleHood_Desc"			"Verkregen door het ontwerpen van de Steam-feestdagenuitverkoop 2013-badge."
 "TF_Winter2013_BattleHood_Style0"		"Geen helm"
 "TF_Winter2013_BattleHood_Style1"		"Helm"
@@ -4981,6 +5012,7 @@
 "TF_Item_VoodooCursedRobotArm_Desc"		"Er zit in deze arm nog een klein beetje vloek. Je kunt zeven vervloekte voorwerpen samen ontwerpen om een grotere vloek te krijgen. Er kan van alles gebeuren!"
 "TF_Item_VoodooCursedBass"				"Voodoo-vervloekte Speelgoedbaars"
 "TF_Item_VoodooCursedBass_Desc"			"Om welke reden dan ook zit er in deze vis nog een klein beetje vloek. Je kunt zeven vervloekte voorwerpen samen ontwerpen om een grotere vloek te krijgen. Er kan van alles gebeuren!"
+"TF_Item_VoodooCursedStickyBomb"		"Voodoo-vervloekte Kleefbom"
 "TF_Item_VoodooCursedStickyBomb_Desc"	"Er zit in deze scherven nog een klein beetje vloek. Je kunt zeven vervloekte voorwerpen samen ontwerpen om een grotere vloek te krijgen. Er kan van alles gebeuren!"
 "TF_Item_VoodooCursedNail"				"Voodoo-vervloekte Spijker"
 "TF_Item_VoodooCursedNail_Desc"			"Er zit in deze spijker nog een klein beetje vloek. Je kunt zeven vervloekte voorwerpen samen ontwerpen om een grotere vloek te krijgen. Er kan van alles gebeuren!"
@@ -5015,8 +5047,6 @@
 
 "TF_Grandmaster"					"De Grootmeester" // ADD THE
 "TF_Grandmaster_Desc"					"Bezit dezelfde schaakhoed die Garry Kasparov op had toen hij Deep Blue versloeg met zijn wereldbefaamde thaiboksbewegingen."
-
-"TF_AudioFile"					"Audiofiel" // ADD THE
 "TF_AudioFile_Desc"					"Helemaal zelf in elkaar gedraaid."
 
 // Style
@@ -5119,6 +5149,7 @@
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin 'Ravidge' Brook\nMaxime 'Mimas Torres' Dupuis"
 "ctf_2fort_invasion_authors"	"Miguel 'BANG!' Melara\nThe Ronin\nMichael Egan\nAeon 'Void' Bollig\nMartin 'Chaofanatic' Ellis\nRyan 'Freeflow' Leitao\nHarlen 'UEAKCrash' Linke\nJames 'Retro' Wright\n"
 "pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
+"arena_byre_authors"			"Anya 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
 "cp_gorge_event_authors"		"Paul 'puxorb' Broxup"
 "cp_sunshine_event_authors"		"Rebecca 'phi' Ailes\nKimberly 'iiboharz' Riswick\nHarlen 'UEAKCrash' Linke"
@@ -5228,12 +5259,34 @@
 "cp_freaky_fair_authors"		"Emil Sharafeev\nGeorge 'I dinne ken' Norman\nLiam 'Diva Dan' Moffitt\nPatrik 'Nat-Tea' Naplava\nAeon 'Void' Bollig\nWilson\nStuffy360\nRanily"
 "tow_dynamite_authors"			"Will Alfred\nJordan 'Ismac' La Rose\nLizard Of Oz\nHaau\nAydan\nNeal 'Blade x64' Smart\nLiam 'Diva Dan' Moffitt"
 "pd_circus_authors"				"Liam 'Diva Dan' Moffitt\nAeon 'Void' Bollig\ndonhonk"
+"vsh_outburst_authors"			"Lizard Of Oz\nPhe\nSzabó 'Maxxy' Attila\nMaksim 'VellyVice' Streltsov\nMatthew 'MegapiemanPHD' Simmons\nJames 'McGuinnsBook' McGuinn\nJason 'Yaki' Herman\nJoaquim 'JPRAS' Silva\nStuffy360"
 "zi_blazehattan_authors"		"Emil Sharafeev\nPatrik 'Nat-Tea' Naplava\nAeon 'Void' Bollig\nLiam 'Diva Dan' Moffitt\nnetmuck"
 "koth_overcast_final_authors"	"Slowmotion Milk\nEthan Stokes\nDr Vlad Crazy"
 "cp_fortezza_authors"			"Josh 'Gruppy' Baughman\nNickolas 'KrazyZark' Fenech\nKubie\nAlien31"
 "ctf_penguin_peak_authors"		"Chris 'Another Bad Pun' Williams\nBec 'phi' Ailes\nJames 'chin' Hayes\nEric 'erk' Browning\nLiam 'Diva Dan' Moffitt\nStuffy360\nAeon 'Void' Bollig\nNickolas 'KrazyZark' Fenech\nAl 'Square' Rodgers\nSam D. Wich"
 "pl_patagonia_authors"			"Elián 'iron' Rodríguez\nMatthew 'Panckakebro' Hiller\nJoão 'Hoppkins' Marcos\nStuffy360"
 "plr_cutter_authors"			"Paul 'puxorb' Broxup\nBrie\nNickolas 'KrazyZark' Fenech\nLiam 'Diva Dan' Moffitt\nAeon 'Void' Bollig\nErik 'Colteh' Coltey\nExtra Ram\nMattie Konig\nTim 'Sedisocks' Brown Lees\nPatrick 'Zeus' Hennessy\nZoey Smith"
+"vsh_maul_authors"				"Matthew Scott 'MegapiemanPHD' Simmons\nBrandon 'Bonk Nickeltoon' Koller\nSzabó 'Maxxy' Attila\nPatrick 'Zeus' Hennessy\nLizard Of Oz\nStuffy360\nJames Jameson\nPhe\nMattie Konig\nAlex 'FGD5' Stewart\nMaksim 'Velly' Streltsov\nJason 'Yaki' Herman\nJesse 'Custard1' Budd\nJoaquim 'JPRAS' Silva\nSamuel 'ChargingTurnip' Turner\nAlex 'Lacry' Couto\nJames 'McGuinnsBook' McGuinn\nTorkil 'TheLazerSofa' Malvik Bidtnes\nSky"
+"pl_citadel_authors"			"Evan 'Defcon' LeBlanc\nNickolas 'KrazyZark' Fenech\nSarexicus\nFreyja\nFicool2"
+"pl_aquarius_authors"			"Alien31\nAndrew 'Bengali Hedgehog' Mishchuk\nChristoph 'Gadget' Manschitz\nDansky\nLogan 'Cipherlock' Eaton\nLucky\nMitchell 'AltraNade' Leyte\nNeal 'Blade x64' Smart\nSzabó 'Maxxy' Attila\nTorkil 'TheLazerSofa' Malvik Bidtnes\nMaxime 'Fubar' Dupuis"
+"cp_fulgur_authors"				"Michał 'AsG_Alligator' Byczko\nAeon 'Void' Bollig\nKimberly 'iiboharz' Riswick\nAlex 'Rexy' Kreeger\nJuniper\nBerry\nMaxime 'Fubar' Dupuis"
+"cp_cargo_authors"				"Phe\nJoel 'zythe_' Morscher\nIlija 'Potat Master' Radošević\nChristoph 'Gadget' Manschitz\nFreyja\nAlex 'FGD5' Stewart\nBenjamin 'blaholtzen' Blåholtz\nSonoma 'Sono' Bryer"
+"cp_conifer_authors"			"Michał 'AsG_Alligator' Byczko\nAeon 'Void' Bollig\nKimberly 'iiboharz' Riswick\nIvan 'Crowbar' Sokolov\nEArkham\nAlex 'MaccyF' MacFarquhar\nMaxime 'Fubar' Dupuis"
+"koth_boardwalk_authors"		"Aeon 'Void' Bollig\nJuniper\nCody 'MasterGir' Littlefield\nLiam 'Diva Dan' Moffitt\nFreyja\nZoey\nBenjamin 'blaholtzen' Blåholtz"
+"koth_blowout_authors"			"Joel 'zythe_' Morscher\nPhe\nAlex 'FGD5' Stewart\nBenjamin 'blaholtzen' Blåholtz\nLothudus\nMitchell 'AltraNade' Leyte"
+"koth_mannhole_authors"			"Harlen 'UEAKCrash' Linke\nAeon 'Void' Bollig\nBenjamin 'blaholtzen' Blåholtz\nAlex 'FGD5' Stewart\nAl 'Square' Rodgers\nNorman 'Mikusch' Masanek\nJuniper\ndonhonk\nFreyja"
+"koth_demolition_authors"		"Entropy Tempus\nAndrea 'DoctorDoomtrain64' DeStephan\nHunter 'Seacat08' Way\nGoobert"
+"ctf_pressure_authors"			"Mitchell 'AltraNade' Leyte\nMuhNamesGreen\nDansky\nJoel 'zythe_' Morscher\nJames 'lolripk' Stevens\nSzabó 'Maxxy' Attila\nJames 'McGuinnsBook' McGuinn\nAlien31\nPhe\nGlebotron"
+"cp_cowerhouse_authors"			"CanadianBill\nAlex 'FGD5' Stewart\nPatrick 'Zeus' Hennessy\nLiam 'Diva Dan' Moffitt\nPearForceOne"
+"koth_dusker_authors"			"Tristan 'Alox' Haguet\nJoel 'zythe_' Morscher\nAeon 'Void' Bollig\nLothudus\nStuffy360"
+"arena_afterlife_authors"		"John 'Piogre' Wolfe\nLizard of Oz\nMatvey 'ImAware' Usatov\nHirschVA\nIsaac 'IJCT' Cortissoz"
+"ctf_doublecross_event_authors"	"Harlen 'UEAKCrash' Linke\nLiam 'Diva Dan' Moffitt\nDaniel 'DJ' Bennett"
+"sd_marshlands_authors"			"Tristan 'Alox' Haguet\nLothudus"
+"pd_nutcracker_authors"			"Vasilis 'Billo' Chatzikostas\nWiktor 'Doom' Pieńkowski\nAlex 'FGD5' Stewart\nApostolos Mpaltas\nStuffy360"
+"cppl_gavle_authors"			"Harlen 'UEAKCrash' Linke\nPearForceOne\nBenjamin 'blaholtzen' Blåholtz\nDaniel 'DJ' Bennett\nSeb 'Tianes' Necula\nAlex 'FGD5' Stewart\nJuniper"
+"ctf_sidewinder_authors"		"Tanner Lauren\nHarlen 'UEAKCrash' Linke\nPaul 'Brokk' Clausen\nKirill 'Badasscook' Ruzanov\nLauren 'Yrrzy' Godfrey"
+"2koth_abbey_authors"			"Liam 'Diva Dan' Moffitt\nEmil 'Эмil' Sharafeev\nSeb 'Tianes' Necula\nBenjamin 'blaholtzen' Blåholtz\nFreyja\nSonoma 'Sono' Bryer\nLizard Of Oz"
+"koth_winter_ridge_authors"		"Tristan 'Alox' Haguet"
 "TF_YourStats"					"Jouw statistieken"
 "TF_DuckPromoList"				"- Cosmetisch voorwerp voor alle klassen met elf stijlen\n- Houdt je statistieken tijdens het End of the Line-evenement bij\n- Bekijk de klassementen en neem het op tegen je vrienden\n- Opbrengsten steunen het End of the Line-team"
 "TF_GetDucky"					"Eend kopen"
@@ -5578,6 +5631,7 @@
 "TF_Map_Spookeyridge"				"Spookeyridge"
 "TF_MapToken_Spookeyridge"			"Mappostzegel - Spookeyridge"
 "TF_MapToken_Spookeyridge_AdText"	"- De aankoop van dit voorwerp steunt de makers van de Spookeyridge-communitymap rechtstreeks."
+"TF_Map_Frostwatch"					"Frostwatch"
 "TF_MapToken_Frostwatch"			"Mappostzegel - Frostwatch"
 "TF_MapToken_Frostwatch_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Frostwatch-communitymap rechtstreeks."
 "TF_Map_Frostcliff"					"Frostcliff"
@@ -5624,29 +5678,51 @@
 "TF_Map_Selbyen"					"Selbyen"
 "TF_MapToken_Selbyen"				"Mappostzegel - Selbyen"
 "TF_MapToken_Selbyen_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Selbyen-communitymap rechtstreeks."
+"TF_Map_TinyRock"					"Tiny Rock (VSH)"
+"TF_MapToken_TinyRock"				"Mappostzegel - Tiny Rock (VSH)"
+"TF_Map_Distillery"					"Distillery (VSH)"
+"TF_MapToken_Distillery"			"Mappostzegel - Distillery (VSH)"
+"TF_Map_Skirmish"					"Skirmish (VSH)"
+"TF_MapToken_Skirmish"				"Mappostzegel - Skirmish (VSH)"
+"TF_Map_Nucleus"					"Nucleus (VSH)"
+"TF_MapToken_Nucleus"				"Mappostzegel - Nucleus (VSH)"
 "TF_Map_Perks"						"Perks"
 "TF_MapToken_Perks"					"Mappostzegel - Perks"
 "TF_MapToken_Perks_AdText"			"- De aankoop van dit voorwerp steunt de makers van de Perks-communitymap rechtstreeks."
+"TF_Map_Slime"						"Slime"
 "TF_MapToken_Slime"					"Mappostzegel - Slime"
 "TF_MapToken_Slime_AdText"			"- De aankoop van dit voorwerp steunt de makers van de Slime-communitymap rechtstreeks."
 "TF_Map_LavaPit"					"Lava Pit"
 "TF_MapToken_LavaPit"				"Mappostzegel - Lava Pit"
 "TF_MapToken_LavaPit_AdText"		"- De aankoop van dit voorwerp steunt de maker van de Lava Pit-communitymap rechtstreeks."
+"TF_Map_Mannsylvania"				"Mannsylvania"
 "TF_MapToken_Mannsylvania"			"Mappostzegel - Mannsylvania"
 "TF_MapToken_Mannsylvania_AdText"	"- De aankoop van dit voorwerp steunt de makers van de Mannsylvania-communitymap rechtstreeks."
+"TF_Map_Sandcastle"					"Sandcastle"
 "TF_MapToken_Sandcastle"			"Mappostzegel - Sandcastle"
 "TF_MapToken_Sandcastle_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Sandcastle-communitymap rechtstreeks."
 "TF_Map_Spineyard"					"Spineyard"
 "TF_MapToken_Spineyard"				"Mappostzegel - Spineyard"
 "TF_MapToken_Spineyard_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Spineyard-communitymap rechtstreeks."
+"TF_Map_Corruption"					"Corruption"
 "TF_MapToken_Corruption"			"Mappostzegel - Corruption"
 "TF_MapToken_Corruption_Desc"		"Een springladingmap\n\nGemaakt door Eric 'Erk' Browning, Matthew 'MegapiemanPHD' Simmons, Rhafael 'Rhamkin' Oliveira, Matthew 'Panckakebro' Hiller en Vasilis 'Billo' Chatzikostas\n\nDe aankoop van dit voorwerp steunt de makers van de Corruption-communitymap rechtstreeks. Toon je steun vandaag nog!"
 "TF_MapToken_Corruption_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Corruption-communitymap rechtstreeks."
+"TF_Map_Murky"						"Murky (ZI)"
+"TF_MapToken_Murky"					"Mappostzegel - Murky (ZI)"
 "TF_MapToken_Murky_Desc"			"Een Zombie-infectiemap (Community)\n\nGemaakt door netmuck, Liam 'Diva Dan' Moffitt en E-Arkham\n\nDe aankoop van dit voorwerp steunt de makers van de Murky-communitymap rechtstreeks. Toon je steun vandaag nog!"
+"TF_Map_Atoll"						"Atoll (ZI)"
+"TF_MapToken_Atoll"					"Mappostzegel - Atoll (ZI)"
 "TF_MapToken_Atoll_Desc"			"Een Zombie-infectiemap (Community)\n\nGemaakt door Patrik 'Nat-Tea' Naplava, Emil Sharafeev, Danni 'AttaKat' Bestford, Ben 'Squishy' Dowman, Jesse 'Custard1' Budd, Alex 'Zz' Elliott, Liam 'Diva Dan' Moffitt en netmuck\n\nDe aankoop van dit voorwerp steunt de makers van de Atoll-communitymap rechtstreeks. Toon je steun vandaag nog!"
+"TF_Map_Woods"						"Woods (ZI)"
+"TF_MapToken_Woods"					"Mappostzegel - Woods (ZI)"
 "TF_MapToken_Woods_Desc"			"Een Zombie-infectiemap (Community)\n\nGemaakt door George 'I dinne ken' Norman, netmuck, Liam 'Diva Dan' Moffitt, Stuffy360, Aeon 'Void' Bollig en Emil Sharafeev\n\nDe aankoop van dit voorwerp steunt de makers van de Woods-communitymap rechtstreeks. Toon je steun vandaag nog!"
+"TF_MapToken_Woods_AdText"			"- De aankoop van dit voorwerp steunt de makers van de Woods (ZI)-communitymap rechtstreeks."
+"TF_Map_Sanitarium"					"Sanitarium (ZI)"
+"TF_MapToken_Sanitarium"			"Mappostzegel - Sanitarium (ZI)"
 "TF_MapToken_Sanitarium_Desc"		"Een Zombie-infectiemap (Community)\n\nGemaakt door Matthew 'Panckakebro' Hiller, netmuck, Liam 'Diva Dan' Moffitt, Stuffy360, Elián 'iron' Rodríguez en Louie 'bakscratch' Turner\n\nDe aankoop van dit voorwerp steunt de makers van de Sanitarium-communitymap rechtstreeks. Toon je steun vandaag nog!"
-"TF_MapToken_Devastation_Desc"		"Een Zombie-infectionmap (Community)\n\nGemaakt door Jordan 'Ismaciodismorphus' La Rose, netmuck, Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig en Alex 'FGD5' Stewart\n\nDe aankoop van dit voorwerp steunt de makers van de Devastation-communitymap rechtstreeks. Toon je steun vandaag nog!"
+"TF_Map_Devastation"				"Devastation (ZI)"
+"TF_MapToken_Devastation"			"Mappostzegel - Devastation (ZI)"
 "TF_Map_Snowtower"					"Snowtower"
 "TF_MapToken_Snowtower"				"Mappostzegel - Snowtower"
 "TF_MapToken_Snowtower_AdText"		"- De aankoop van dit voorwerp steunt de makers van de Snowtower-communitymap rechtstreeks."
@@ -5736,6 +5812,10 @@
 "TF_MapToken_Circus"				"Mappostzegel - Circus"
 "TF_MapToken_Circus_Desc"			"Een spelervernietigingsmap\n\nGemaakt door Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig en donhonk\n\nDe aankoop van dit voorwerp steunt de makers van Circus-communitymap rechtstreeks. Toon je steun vandaag nog!"
 "TF_MapToken_Circus_AdText"			"- De aankoop van dit voorwerp steunt de makers van de Circus-communitymap rechtstreeks."
+"TF_Map_Outburst"					"Outburst (VSH)"
+"TF_MapToken_Outburst"				"Mappostzegel - Outburst (VSH)"
+"TF_Map_Blazehattan"				"Blazehattan (ZI)"
+"TF_MapToken_Blazehattan"			"Mappostzegel - Blazehattan (ZI)"
 "TF_MapToken_Blazehattan_Desc"		"Een Zombie-infectiemap (Community)\n\nGemaakt door Emil Sharafeev, Patrik 'Nat-Tea' Naplava, Aeon 'Void' Bollig, Liam 'Diva Dan' Moffitt en netmuck\n\nDe aankoop van dit voorwerp steunt de makers van de Blazehattan-communitymap rechtstreeks. Toon je steun vandaag nog!"
 "TF_Map_Overcast"					"Overcast"
 "TF_MapToken_Overcast"				"Mappostzegel - Overcast"
@@ -5757,6 +5837,50 @@
 "TF_MapToken_Cutter"				"Mappostzegel - Cutter"
 "TF_MapToken_Cutter_Desc"			"Een springladingracemap\n\nGemaakt door Paul 'puxorb' Broxup, Brie, Nickolas 'KrazyZark' Fenech, Liam 'Diva Dan' Moffitt, Aeon 'Void' Bollig, Erik 'Colteh' Coltey, Extra Ram, Mattie Konig, Tim 'Sedisocks' Brown Lees, Patrick 'Zeus' Hennessy en Zoey Smith\n\nDe aankoop van dit voorwerp steunt de makers van de Cutter-communitymap rechtstreeks. Toon je steun vandaag nog!"
 "TF_MapToken_Cutter_AdText"			"- De aankoop van dit voorwerp steunt de makers van de Cutter-communitymap rechtstreeks."
+"TF_Map_Maul"						"Maul (VSH)"
+"TF_MapToken_Maul"					"Mappostzegel - Maul (VSH)"
+"TF_Map_Citadel"					"Citadel"
+"TF_MapToken_Citadel"				"Mappostzegel - Citadel"
+"TF_Map_Aquarius"					"Aquarius"
+"TF_MapToken_Aquarius"				"Mappostzegel - Aquarius"
+"TF_Map_Fulgur"						"Fulgur"
+"TF_MapToken_Fulgur"				"Mappostzegel - Fulgur"
+"TF_Map_Cargo"						"Cargo"
+"TF_MapToken_Cargo"					"Mappostzegel - Cargo"
+"TF_Map_Conifer"					"Conifer"
+"TF_MapToken_Conifer"				"Mappostzegel - Conifer"
+"TF_Map_Boardwalk"					"Boardwalk"
+"TF_MapToken_Boardwalk"				"Mappostzegel - Boardwalk"
+"TF_Map_Blowout"					"Blowout"
+"TF_MapToken_Blowout"				"Mappostzegel - Blowout"
+"TF_Map_Mannhole"					"Mannhole"
+"TF_MapToken_Mannhole"				"Mappostzegel - Mannhole"
+"TF_Map_Demolition"					"Demolition"
+"TF_MapToken_Demolition"			"Mappostzegel - Demolition"
+"TF_Map_Pressure"					"Pressure"
+"TF_MapToken_Pressure"				"Mappostzegel - Pressure"
+"TF_Map_Cowerhouse"					"Cowerhouse"
+"TF_MapToken_Cowerhouse"			"Mappostzegel - Cowerhouse"
+"TF_Map_Dusker"						"Dusker"
+"TF_MapToken_Dusker"				"Mappostzegel - Dusker"
+"TF_Map_Afterlife"					"Afterlife"
+"TF_MapToken_Afterlife"				"Mappostzegel - Afterlife"
+"TF_Map_Devilcross"					"Devilcross"
+"TF_MapToken_Devilcross"			"Mappostzegel - Devilcross"
+"TF_Map_Marshlands"					"Marshlands"
+"TF_MapToken_Marshlands"			"Mappostzegel - Marshlands"
+"TF_Map_Nutcracker"					"Nutcracker"
+"TF_MapToken_Nutcracker"			"Mappostzegel - Nutcracker"
+"TF_Map_Gavle"						"Gavle"
+"TF_MapToken_Gavle"					"Mappostzegel - Gavle"
+"TF_Map_Sidewinder"					"Sidewinder"
+"TF_MapToken_Sidewinder"			"Mappostzegel - Sidewinder"
+"TF_Map_Abbey"						"Abbey"
+"TF_MapToken_Abbey"					"Mappostzegel - Abbey"
+"TF_Map_WinterRidge"				"Winter Ridge"
+"TF_MapToken_WinterRidge"			"Mappostzegel - Winter Ridge"
+"TF_Map_Matterhorn"					"Matterhorn"
+"TF_MapToken_Matterhorn"			"Mappostzegel - Matterhorn"
 "TF_Map_Unknown"				"Map niet gevonden!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -5882,28 +6006,56 @@
 "TF_Map_Pier_StrangePrefix"				" Vermakelijke"
 "TF_Map_SnowVille_StrangePrefix"		" Bevroren"
 "TF_Map_Snowfall_StrangePrefix"			" Besneeuwde"
+"TF_Map_Wutville_StrangePrefix"			" Levendige"
 "TF_Map_Farmageddon_StrangePrefix"		" Agrarische"
 "TF_Map_Sinthetic_StrangePrefix"		" Boosaardige"
 "TF_Map_Erebus_StrangePrefix"			" Onderwereldlijke"
 "TF_Map_Terror_StrangePrefix"			" Doodenge"
+"TF_Map_Graveyard_StrangePrefix"		" Uit een graf gestolen"
 "TF_Map_Polar_StrangePrefix"			" Arctische"
+"TF_Map_BreadSpace_StrangePrefix"		" Maanverlichte"
+"TF_Map_Chilly_StrangePrefix"			" Verkwikkende"
 "TF_Map_Cascade_StrangePrefix"			" Bergbeklimmende"
 "TF_Map_Altitude_StrangePrefix"			" Alpiene"
+"TF_Map_Doublefrost_StrangePrefix"		" Bevroren"
 "TF_Map_SoulMill_StrangePrefix"			" Bezield"
+"TF_Map_Helltrain_StrangePrefix"		" Duivelse"
+"TF_Map_Bonesaw_StrangePrefix"			" Gebrande"
 "TF_Map_Crasher_StrangePrefix"			" Grote"
+"TF_Map_Frostwatch_StrangePrefix"		" Vriezende"
+"TF_Map_Frostcliff_StrangePrefix"		" Rillende"
+"TF_Map_Rumford_StrangePrefix"			" Versplinterde"
 "TF_Map_Frosty_StrangePrefix"			" IJskoude"
+"TF_Map_CoalPit_StrangePrefix"			" Stoute"
+"TF_Map_Sharkbay_StrangePrefix"			" Onveilige"
+"TF_Map_Rotunda_StrangePrefix"			" Ronde"
 "TF_Map_Phoenix_StrangePrefix"			" Herboren"
 "TF_Map_Venice_StrangePrefix"			" Venetiaanse"
 "TF_Map_Reckoner_StrangePrefix"			" Gecultiveerde"
 "TF_Map_Sulfur_StrangePrefix"			" Zen"
+"TF_Map_Hardwood_StrangePrefix"			" Houthakkende"
 "TF_Map_PelicanPeak_StrangePrefix"		" Gepiekte"
+"TF_Map_Selbyen_StrangePrefix"			" Souvenir"
+"TF_Map_TinyRock_StrangePrefix"			" Kleine"
 "TF_Map_Distillery_StrangePrefix"		" Gedestilleerde"
 "TF_Map_Skirmish_StrangePrefix"			" Yeti-vechtende"
 "TF_Map_Nucleus_StrangePrefix"			" Radioactieve"
 "TF_Map_Slime_StrangePrefix"			" Slijmerige"
+"TF_Map_LavaPit_StrangePrefix"			" Vulkanische"
+"TF_Map_Mannsylvania_StrangePrefix"		" Vampirische"
+"TF_Map_Sandcastle_StrangePrefix"		" Leuke Kleine"
+"TF_Map_Atoll_StrangePrefix"			" Gestrande"
+"TF_Map_Woods_StrangePrefix"			" Kleverige"
 "TF_Map_Sanitarium_StrangePrefix"		" Gestoorde"
+"TF_Map_Devastation_StrangePrefix"		" Verwoeste"
+"TF_Map_Snowtower_StrangePrefix"		" Torenhoge"
+"TF_Map_Krampus_StrangePrefix"			" Gemene"
+"TF_Map_Haarp_StrangePrefix"			" Elektromagnetische"
+"TF_Map_Brew_StrangePrefix"				" Bedwelmende"
 "TF_Map_Hacksaw_StrangePrefix"			" Gehackte"
+"TF_Map_TurbineEvent_StrangePrefix"		" Turbulente"
 "TF_Map_Carrier_StrangePrefix"			" Reusachtige"
+"TF_Map_Galleria_StrangePrefix"			" Afgeprijsde"
 "TF_Map_Emerge_StrangePrefix"			" Modderige"
 "TF_Map_Camber_StrangePrefix"			" Gebogen"
 "TF_Map_Embargo_StrangePrefix"			" Cubaans"
@@ -6121,8 +6273,6 @@
 "Thunderm_cap_2_B"		"De kuil, fase twee"
 "Thunderm_cap_3_A"		"Gebouw A, gedeelte drie"
 "Thunderm_cap_3_B"		"Gebouw B, gedeelte drie"
-"Thunderm_cap_3_C"		"Toren, laatste punt"
-
 // 2fort level strings
 "2fort_red_setup_goal"			"Pak de koffer met inlichtingen uit de kelder van de vijand. Breng het naar jouw kelder om te winnen!"
 "2fort_blue_setup_goal"			"Pak de koffer met inlichtingen uit de kelder van de vijand. Breng het naar jouw kelder om te winnen!"
@@ -6139,10 +6289,6 @@
 // Gravelpit level strings
 "Gravelpit_red_setup_goal"		"Verdedig alle drie controleposten tegen team BLU om het spel te winnen!"
 "Gravelpit_blue_setup_goal"		"Verover alle drie controleposten om te winnen! Verover eerst A en B, en ga dan naar C."
-"Gravelpit_cap_A"			"punt A, de radiotoren"
-"Gravelpit_cap_B"			"punt B, de radar"
-"Gravelpit_cap_C"			"punt C, het lasergeweer"
-
 // Hydro level strings
 "Hydro_red_setup_goal"			"Verover de enige controlepost van BLU om de ronde te winnen. Zorg dat zij niet hetzelfde doen!"
 "Hydro_blue_setup_goal"			"Verover de enige controlepost van RED om de ronde te winnen. Zorg dat zij niet hetzelfde doen!"
@@ -6181,10 +6327,6 @@
 // Standin level strings
 "standin_red_setup_goal"			"Verover alle drie controleposten om het spel te winnen!"
 "standin_blue_setup_goal"			"Verover alle drie controleposten om het spel te winnen!"
-"standin_cap_A"			"punt A, de beek"
-"standin_cap_B"			"punt B, de brug"
-"standin_cap_C"			"punt C, de controlekamer"
-
 // Hightower level strings
 "hightower_setup_goal"			"Breng je kar naar de top van je eigen hoge toren om te winnen!"
 "hightower_cap_red"			"de hoge toren van RED"
@@ -6224,9 +6366,6 @@
 // Steel
 "steel_setup_goal_red"		"Verdedig de hoofdcontrolepost terwijl je ook de buitenste post verdedigt!"
 "steel_setup_goal_blue"		"Verover de hoofdcontrolepost van RED om te winnen. Als je de andere posten verovert, zullen je kansen om te winnen stijgen!"
-
-// Frontier
-"frontier_setup_goal_red"		"Voorkom dat BLU de springlading naar de laserarray brengt!"
 "frontier_setup_goal_blue"		"Begeleid Lil' Chew-Chew naar de bezorgplaats!"
 "doomsday_event_setup_goal"			"Breng de tickets naar de top van de Strongmann!"
 
@@ -6274,6 +6413,7 @@
 "pl_fifthcurve_event_blu_objective"			"Breng Redmond Mann met de in hem verborgen TNT terug naar de basis van RED!"
 "pl_fifthcurve_event_red_objective"			"Blutarch is nog steeds in de hel, maar we moeten Redmond redden van het gruwelijke BLU-team!"
 "koth_maple_ridge_event_maple"			"Esdoornrichel"
+"pd_watergate_objective"				"Verzamel en stort bier in de straal van de ufo om punten te scoren!"
 "pd_watergate_thanks"					"Bedankt voor het spelen van de map!"
 "pd_monster_bash_objective"				"Verzamel gevallen lichaamsdelen en breng deze naar de herbezieler om punten te scoren!"
 "pd_monster_bash_message"				"Het schild is uitgeschakeld: deponeer nu je punten!"
@@ -6391,7 +6531,9 @@
 "cp_ambush_event_passing"				"A - DE DOORGANG"
 "cp_ambush_event_hellmouth"				"B - HELLEMOND"
 "cp_ambush_event_souls"					"B - AFGROND DER ZIELEN"
-"koth_undergrove_event_objective"		"Verover de controlepost en open daarmee portalen naar een 3-tegen-3-gevecht voor kritz voor het hele team! Houd het punt bezet om het spel te winnen."
+"koth_cascade_cap"						"De Controlepost"
+"koth_megalo_turntable"					"De Draaischijf"
+"koth_undergrove_event_bridge"			"De Brug"
 "koth_undergrove_event_not_enough"		"Er waren onvoldoende spelers!"
 "koth_undergrove_event_2v2"				"2v2-gevecht in:"
 "koth_undergrove_event_portal"			"Vind een portaal om deel te nemen aan het 3v3-gevecht!"
@@ -6407,7 +6549,7 @@
 "pl_breadspace_caves"					"De Grotten"
 "pl_chilly_pit"							"PUT DER CADEAUTJES"
 "pl_chilly_b"							"B - CADEAUTJESKLOOF"
-"pl_chilly_red_objective"				"Voorkom dat team BLU de springlading naar onze basis escorteert!"
+"pl_chilly_d"							"D - RUDOLPHS ROUTE"
 "pl_chilly_blu_objective"				"Verwoest de raket van RED! Lever de springlading af!"
 "pl_coal_event_gate"					"Poort"
 "pl_coal_event_silo"					"Silo"
@@ -6415,6 +6557,7 @@
 "pl_coal_event_house"					"Huis"
 "pl_pier_town_bridge"					"Stadsbrug"
 "pl_pier_pier"							"Pierbrug"
+"pl_pier_coaster"						"Houten Achtbaan"
 "pl_pier_town"							"Stadje"
 "pl_pier_boathouse"						"Boothuis BLU"
 "pl_sludgepit_event_death"				"Dood"
@@ -6426,10 +6569,12 @@
 "pl_terror_event_d"						"D - LAATSTE VERVLOEKINGEN"
 "pl_terror_event_blu_objective"			"Vernietig Gonzo, de broer van de uit de oudheid afkomstige circusgod Bonzo!"
 "arena_lumberyard_event_objective"		"Dood alle vijandige spelers of verover de controlepost om de ronde te winnen! Wanneer je doodgaat, kun je je teamgenoten als geest genezen!"
+"arena_lumberyard_event_sudden_death"	"SUDDEN DEATH!"
 "arena_lumberyard_event_red_wins"		"RED wint een ronde!"
 "arena_lumberyard_event_blu_wins"		"BLU wint een ronde!"
 "arena_lumberyard_event_blu_buffed"		"De LAATSTE SPELER van BLU is nu VERSTERKT!"
 "arena_lumberyard_event_red_buffed"		"De LAATSTE SPELER van RED is nu VERSTERKT!"
+"arena_lumberyard_event_skeleton"		"DE SKELETTENKONING IS WILLEKEURIG GESPAWND!"
 "arena_lumberyard_event_heal"			"FF69B4YJE BENT DOOD! FBECCBJe bent een FF69B4GEESTFBECCB. Genees je team!"
 "ctf_crasher_objective"					"Begeleid jullie reus naar de vijandelijke poort!"
 "ctf_crasher_new_giant"					"We hebben een nieuwe reus!"
@@ -6442,9 +6587,9 @@
 "ctf_crasher_escort_giant"				"Begeleid onze reus naar de vijandelijke poort!"
 "ctf_crasher_giant_almost_here_enemy"	"Hun reus is er bijna!"
 "ctf_crasher_pickup_bomb"				"Pak de bom op om een reus te worden!"
+"ctf_crasher_civilian"					"Burgerlijke aankondiger ingeschakeld"
 "ctf_helltrain_event_red_objective"		"Verover de Kolenkern van BLU om te winnen!"
 "ctf_helltrain_event_blu_objective"		"Verover de Kolenkern van RED om te winnen!"
-"pd_farmageddon_objective"				"Verzamel onkruidverdelger van het andere team en stort het in het pompoenmonster!"
 "cp_frostwatch_east"					"Oostelijke wachttoren"
 "cp_frostwatch_west"					"Westelijke wachttoren"
 "cp_frostwatch_south"					"Zuidelijke wachttoren"
@@ -6455,12 +6600,19 @@
 "pl_frostcliff_b"						"B - ONDERDOORGANG"
 "pl_frostcliff_c"						"C - RODE SCHUUR"
 "pl_frostcliff_d"						"D - KOUDE ROUTE"
+"pl_frostcliff_e"						"E - BEVROREN MIJNSCHACHT"
 "cp_gorge_event_gored"					"Gespietst"
 "CoalPit_setup_goal_red"				"Verdedig de vriesstraal tegen team BLU!"
 "CoalPit_setup_goal_blue"				"Schakel de vriesstraal van RED uit voordat zij de aarde afkoelen!"
+"cp_reckoner_red_greenhouse"			"de Broeikas van RED"
+"cp_reckoner_red_offices"				"de Kantoren van RED"
+"cp_reckoner_blu_greenhouse"			"de Broeikas van BLU"
+"cp_reckoner_blue_offices"				"de Kantoren van BLU"
+"cp_reckoner_bridge"					"De Brug"
 "cp_sulfur_garden"						"Tuin"
 "cp_sulfur_onsen"						"Onsen"
 "cp_sulfur_waterfall"					"Waterval"
+"koth_rotunda_mcguffin"					"De MacGuffin"
 "pl_cashworks_serpentines"				"Zigzag"
 "pl_cashworks_dock"						"Laaddok"
 "pl_cashworks_vault"					"Kluis"
@@ -6472,9 +6624,28 @@
 "pl_spineyard_city"						"de stad"
 "pl_spineyard_winery"					"de wijnmakerij"
 "koth_slime_salmann"					"ZALMANN"
+"arena_perks_message_bluvoted"          "BLU heeft gestemd voor:"
+"arena_perks_message_redvoted"          "RED heeft gestemd voor:"
 "arena_perks_message_latejoin"          "Er is momenteel een ronde aan de gang"
+"arena_perks_skeleton_name"             "Grafgraven"
+"arena_perks_haste_desc"                "Je krijgt +10% bewegingssnelheid"
+"arena_perks_haste_name"                "Haast"
+"arena_perks_precision_desc"            "Je krijgt +50% projectielsnelheid\nen verminderde spreiding"
+"arena_perks_precision_name"            "Nauwkeurigheid"
 "arena_perks_minitofull_desc"           "Je minivoltreffers zijn\nnu volledige voltreffers"
+"arena_perks_minitofull_name"           "Conversie"
+"arena_perks_reveal_name"               "Onthulling"
 "arena_perks_mark_name"                 "Spokend"
+"arena_perks_resistance_desc"           "Je ontvangt 10% minder schade"
+"arena_perks_resistance_name"           "Weerstand"
+"arena_perks_healing_desc"              "Alle genezing is 40%\neffectiever"
+"arena_perks_focus_name"                "Bolwerk"
+"arena_perks_quickfingers_desc"         "Je krijgt +15% vuur-,\nherlaad- en\nwisselsnelheid"
+"arena_perks_quickfingers_name"         "Snelschieter"
+"arena_perks_killcrits_name"            "Bloeddorst"
+"arena_perks_reserve_desc"              "Je krijgt +50% magazijngrootte\nen herstellende\nmunitie en metaal"
+"arena_perks_cloak_desc"                "Je begint met 15\nseconden onzichtbaarheid\n(eindigt als je schiet)"
+"arena_perks_cloak_name"                "Verhulling"
 "koth_krampus_boss"						"KRAMPUS"
 "koth_krampus_spawn"					"FFCC22Je bent dit jaar stout geweest! Bereid je voor om KRAMPUS! te ontmoeten!"
 "koth_krampus_death"					"FFCC22KRAMPUS! is verslagen!"
@@ -6482,6 +6653,8 @@
 "cp_brew_blue_goal"						"Verover beide controleposten van RED om de brouwerij te veroveren!"
 "cp_brew_gate"							"de poort"
 "ctf_turbine_winter_team_goal"			"Steel de koffer met inlichtingen uit de vijandelijke basis."
+"plr_hacksaw_blu_terminal"				"Terminal van BLU"
+"plr_hacksaw_red_terminal"				"Terminal van RED"
 "plr_hacksaw_blu_hacked"				"De console van BLU wordt gehackt!"
 "plr_hacksaw_red_hacked"				"De console van RED wordt gehackt!"
 "plr_hacksaw_progress_red0"				"RED - Voortgang hacken: 0%"
@@ -6528,6 +6701,10 @@
 "plr_hacksaw_progress_blu95"			"BLU - Voortgang hacken: 95%"
 "plr_hacksaw_progress_blu99"			"BLU - Voortgang hacken: 99%"
 "plr_hacksaw_progress_blu100"			"BLU - Voortgang hacken: GEHACKT!"
+"cp_carrier_bot_new_red"				"BLU heeft een nieuwe drager!"
+"cp_carrier_bot_new_blue"				"Je team heeft een nieuwe drager!"
+"cp_carrier_bot_dead_red"				"De drager van BLU is vernietigd!"
+"cp_carrier_bot_dead_blue"				"De drager van je team is vernietigd!"
 "ctf_frosty_team_goal"					"Steel de koffer met inlichtingen uit de vijandelijke basis."
 "cp_canaveral_5cp_blubase"				"Basis van BLU"
 "cp_canaveral_5cp_redradar"				"Radar van RED"
@@ -6584,6 +6761,12 @@
 "pl_citadel_b"							"B"
 "pl_citadel_c"							"C"
 "pl_citadel_d"							"D"
+"koth_boardwalk_house"					"het Slachthuis"
+"koth_boardwalk_pier"					"de Pier"
+"arena_afterlife_pickup"				"Je hebt een ziel gestolen! Breng deze naar het offeraltaar om jezelf weer tot leven te wekken!"
+"arena_afterlife_soulless"				"Je hebt een ziel nodig om jezelf weer tot leven te wekken! Scoor een kill of assist en kom terug!"
+"ctf_sidewinder_goal"					"Steel de koffer met inlichtingen uit de vijandelijke basis."
+
 // Win panel strings
 "Winpanel_Team1"			"TEAM"
 "Winpanel_Team2"			"Team"
@@ -6862,7 +7045,6 @@
 "Gametype_HalloweenMix"			"Halloween-mix"
 "Gametype_Halloween247"			"Halloween 2015"
 "Gametype_SD"					"Speciale levering"
-"Gametype_SD_Desc"				"Vecht om een enkele vlag met een gedeeld veroveringspunt."
 "Gametype_RobotDestruction"		"Robotvernietiging"
 "Gametype_PlayerDestruction"	"Spelervernietiging"
 "Gametype_MVM"					"Mann vs. Machine"
@@ -6901,7 +7083,6 @@
 // Gravelpit intro
 
 "Intro_attack_defense_intro"		"Dit is een aanval-verdedigingsmap, \nBLU probeert gebieden te veroveren en RED probeert dit tegen te gaan."
-"Intro_attack_defense_capping"		"BLU moet dichtbij de veroveringspost staan om deze te veroveren.\nDe HUD geeft de veroveringsvoortgang weer."
 "Intro_attack_defense_cap_a"		"BLU moet zowel post A..."
 "Intro_attack_defense_cap_b"		"als post B veroveren.    \nBLU kan de posten in willekeurige volgorde veroveren."
 "Intro_attack_defense_cap_final"	"Wanneer BLU posten A en B bezit, wordt de laatste post ontsloten"
@@ -6951,9 +7132,6 @@
 
 "Hint_object_your_object_sapped"	"Eén van je constructies wordt verwoest!"
 "Hint_enemy_using_dispenser"		"Een vijand gebruikt jouw dispenser!"
-"Hint_enemy_using_tp_entrance"		"Een vijand is dichtbij jouw teleporteringang!"
-"Hint_enemy_using_tp_exit"			"Een vijand is dichtbij jouw teleporter-uitgang!"
-
 "Hint_inspect_weapon"				"Houd '%s1' ingedrukt om je wapen te inspecteren."
 
 "WinPanel_Red_Team_Wins"			"Team RED wint"
@@ -7003,26 +7181,6 @@
 "StatPanel_Revenge_Tie"				"Je had deze ronde als %s1 evenveel wraak als je record tot nog toe."
 "StatPanel_PointsScored_Tie"			"Je hebt deze ronde als %s1 evenveel punten gescoord als je record tot nog toe."
 
-"StatPanel_Kills_Close"				"Je was deze ronde als %s1 dichtbij je record voor doden."
-"StatPanel_Captures_Close"			"Je was deze ronde als %s1 dichtbij je record voor veroveringen."
-"StatPanel_Defenses_Close"			"Je was deze ronde als %s1 dichtbij je record voor verdedigingen."
-"StatPanel_DamageDealt_Close"			"Je was deze ronde als %s1 dichtbij je record voor toegebrachte schade."
-"StatPanel_PlayTime_Close"			"Je was deze ronde als %s1 dichtbij je record voor tijd in leven."
-"StatPanel_Healing_Close"			"Je was deze ronde als %s1 dichtbij je record voor genezing."
-"StatPanel_Invulnerable_Close"			"Je was deze ronde dichtbij je record voor onkwetsbaarheid."
-"StatPanel_KillAssists_Close"			"Je was deze ronde als %s1 dichtbij je record voor dodelijke assists."
-"StatPanel_Backstabs_Close"			"Je was deze ronde dichtbij je record voor rugsteken."
-"StatPanel_HealthLeached_Close"			"Je was deze ronde dichtbij je record voor van de vijand gestolen gezondheid."
-"StatPanel_BuildingsBuilt_Close"		"Je was deze ronde dichtbij je record voor het aantal gebouwde constructies."
-"StatPanel_BuildingsDestroyed_Close"		"Je was deze ronde als %s1 dichtbij je record voor aantal verwoeste constructies."
-"StatPanel_Headshots_Close"			"Je was deze ronde dichtbij je record voor hoofdschoten."
-"StatPanel_SentryKills_Close"			"Je was deze ronde dichtbij je record voor doden door je sentry."
-"StatPanel_Teleports_Close"			"Je was deze ronde dichtbij je record voor telepoorten."
-"StatPanel_Dominations_Close"			"Je was deze ronde als %s1 dichtbij je record voor overheerste tegenstanders."
-"StatPanel_Revenge_Close"			"Je was deze ronde als %s1 dichtbij je record voor wraak."
-"StatPanel_PointsScored_Close"			"Je was deze ronde als %s1 dichtbij je record voor gescoorde punten."
-
-
 "StatPanel_Label_Kills"				"Doden: "
 "StatPanel_Label_DamageDealt"		"Toegebrachte schade: "
 "StatPanel_Label_PlayTime"			"Speeltijd: "
@@ -7062,9 +7220,11 @@
 "Tip_1_3"				"Als Scout ben je het effectiefst wanneer je blijft bewegen en je je snelheid in jouw voordeel gebruikt."
 "Tip_1_4"				"Als Scout kun je met je Pistool prima de vijanden op afstand één voor één neerschieten."
 "Tip_1_5"				"Als Scout ben je met je Scattergun dodelijk op korte afstand, en dood je de meeste klassen met twee schoten."
+"Tip_1_6"				"Als je als Scout vanuit de lucht de Kracht-der-Natuur afvuurt, word je teruggestoten in de tegenovergestelde richting van waar je naartoe schiet. Je kunt dit gebruiken om verder te kunnen springen."
 "Tip_1_7"				"Gebruik als Scout alternatieve routes in je voordeel om vijanden te flanken voor verrassingsaanvallen."
 "Tip_1_8"				"Gebruik als Scout, wanneer je de Klaas Vaak gebruikt, %attack2% om een honkbal naar vijanden te slaan en ze te verdoven."
 "Tip_1_9"				"Als Scout is je maximale gezondheid als je de Klaas Vaak draagt lager. Houd het bij je knuppel als overleven je belangrijkste prioriteit is."
+"Tip_1_10"				"Als je als Scout nabije vijanden raakt met de Kracht-der-Natuur, worden ze van je weggestoten."
 "Tip_1_11"				"Als Scout zal de honkbal van de Klaas Vaak een vijand langer verdoven als je hem van verder weg raakt - tot een maximum van 7 seconden."
 "Tip_1_12"				"Als Scout kan de honkbal van de Klaas Vaak vijanden op korte afstand niet verdoven, maar het zet vijanden op maximale afstand compleet stil."
 "Tip_1_13"				"Gebruik als Scout de Bonk! Atomic Punch-energiedrank om door gevaarlijke gebieden te manoeuvreren en sentryvuur te absorberen voor teamleden."
@@ -7077,6 +7237,7 @@
 "Tip_1_20"				"Als Scout deelt de Zon-op-een-Stok kritieke schade uit aan brandende vijanden, maar is anderzijds zwakker dan de Knuppel. Werk samen met vriendelijke Pyro's om er volledig gebruik van te maken."
 "Tip_1_21"				"Als Scout verandert de Oorlogswaaier opvolgende aanvallen tegen het doelwit in minivoltreffers. Gebruik teamleden en andere wapens om het meeste uit de schadebonus te krijgen."
 "Tip_1_22"				"Pas als Scout op je gezondheid wanneer je de Atoomeerder gebruikt. Een slecht getimede sprong kan je je leven kosten!"
+"Tip_1_23"				"Als Scout kun je de terugslag van de Kracht-der-Natuur samen met de driedubbele sprong van de Atoomeerder gebruiken voor een vierdubbele sprong!"
 "Tip_1_24"				"Als Scout staat de Atoomeerder je toe om een driedubbele sprong te gebruiken! Gebruik het om vijanden te slim af te zijn en bij moeilijk te bereiken gebieden te komen!"
 "Tip_1_25"				"Als Scout richt de Flanker meer schade aan dan het pistool, maar de Flanker heeft een kleinere magazijngrootte. Gebruik de Flanker dus op korte afstand zodat je zeker weet dat je je doelwit raakt!"
 "Tip_1_26"				"Als Scout is de Korte Stop erg effectief op gemiddelde tot lange afstand, wat je toestaat om afstand te houden van gevaarlijke vijanden. Je kunt %attack2% daarnaast gebruiken om vijanden weg te duwen!"
@@ -7106,7 +7267,6 @@
 "Tip_2_21"				"Als Sniper deelt de Shahanshah meer schade uit als je gezondheid onder 50% is. Gebruik het om te vechten tegen vijanden die je lastigvallen als je schade hebt ontvangen."
 
 "Tip_3_Count"				"26"
-"Tip_3_1"				"Als Soldier kom je met de raketsprong op grote hoogte door gelijktijdig te springen en een raket op de grond of muur dichtbij je te vuren; als je bukt terwijl je springt vlieg je ook sneller weg door de raket."
 "Tip_3_2"				"Richt als Soldier je raketten op de voeten van de vijand zodat ze de ontploffingsschade niet kunnen ontwijken."
 "Tip_3_3"				"Als Soldier moet je je Raketwerper altijd geladen houden. Druk op %reload% om hem te herladen wanneer je maar wilt."
 "Tip_3_4"				"Als Soldier loop je het risico om ontploffingsschade op te lopen wanneer je raketten afvuurt op nabije vijanden. Probeer van wapens te wisselen om te voorkomen dat je jezelf pijn doet."
@@ -7127,6 +7287,7 @@
 "Tip_3_19"				"Als Soldier doet de Koekenpan evenveel schade als de Schep, maar maakt een stuk meer geluid. Gebruik hem niet als je onopgemerkt probeert te blijven, want het distinctieve geluid kan je positie weggeven!"
 "Tip_3_20"				"Als je als Soldier een teamlid slaat met de Disciplinaire Actie zal de snelheid van jou en je bondgenoot een paar seconden lang sterk verhogen! Gebruik het op langzamere klassen zoals Soldiers en Heavy's om sneller de frontlinies te bereiken."
 "Tip_3_21"				"Als Soldier kun je %attack2% gebruiken wanneer je de Koeienverscheurder 5000 gebruikt om een opgeladen schot af te vuren, wat extra schade aanricht en de vijand kort in de brand steekt. Let wel op! Met een opgeladen schot zal de munitie van de Koeienverscheurder 5000 compleet geleegd worden."
+"Tip_3_22"				"Als Soldier kun je met de Manzolen de terugslag van wapens drastisch verlagen. Gebruik ze om te voorkomen dat je wordt teruggestoten door de Kracht-der-Natuur, explosieven of sentry's!"
 "Tip_3_23"				"Als Soldier kunnen er in de Zwarte Doos maar drie raketten tegelijkertijd. Zorg ervoor dat elk schot telt, anders ben je kwetsbaar."
 "Tip_3_24"				"Maak als Soldier raketsprongen om snel dichter bij vijanden te komen, en gebruik dan de Markttuinier om met ze af te rekenen wanneer je landt."
 "Tip_3_25"				"Overweeg als Soldier om je Shotgun te gebruiken tegen vijandelijke Pyro's die je raketten terugstoten."
@@ -7218,7 +7379,6 @@
 
 "Tip_7_Count"				"30"
 "Tip_7_1"				"Als Pyro brengt je Vlammenwerper meer schade toe als je dichterbij de vijand bent."
-"Tip_7_2"				"Als Pyro lok je vijanden in een hinderlaag om er zeker van te zijn dat ze dichtbij je zijn en dus maximale schade ontvangen van je vlammenwerper. Gebruik hoeken en inhammen in je voordeel."
 "Tip_7_3"				"Als Pyro raak je aardig wat munitie kwijt aan je vlammenwerper. Raap gevallen munitievoorwerpen op om je voorraad aan te vullen."
 "Tip_7_4"				"Schakel als Pyro naar je shotgun als vijanden zich terugtrekken buiten het kleine bereik van je vlammenwerper."
 "Tip_7_5"				"Als Pyro kun je vijanden vaak in brand zetten en je terugtrekken, terwijl je ze achterlaat om te sterven."
@@ -7702,7 +7862,6 @@
 "TF_IM_CP_Locked"	"Controleposten kunnen niet worden veroverd als ze vergrendeld zijn."
 
 "TF_IM_Goldrush_Intro"	"Gold Rush is een springladingmap met drie fasen"
-"TF_IM_Goldrush_BlueWin"	"Team BLU wint door de kar naar de laatste post van team RED te brengen voor de tijd voorbij is"
 "TF_IM_Goldrush_RedWin"	"Team RED wint door te voorkomen dat de kar hun laatste post bereikt"
 "TF_IM_Goldrush_MoveCart"	"De kar gaat voorwaarts wanneer er spelers van BLU in de buurt van de kar zijn"
 "TF_IM_Goldrush_CartHeals"	"De kar voorziet team BLU van gezondheid en munitie"
@@ -7710,7 +7869,6 @@
 "TF_IM_Goldrush_TimeAdd"	"Bij elke controlepost die de kar bereikt, komt er extra tijd op de klok"
 
 "TF_IM_Basin_Intro"	 "Badwater Basin is een springladingmap met maar één fase"
-"TF_IM_Basin_BlueWin"	 "Team BLU wint door de kar naar de laatste post van team RED te brengen voor de tijd voorbij is"
 "TF_IM_Basin_RedWin"	 "Team RED wint door te voorkomen dat de kar hun laatste post bereikt"
 "TF_IM_Basin_MoveCart"	 "De kar gaat voorwaarts wanneer er spelers van BLU in de buurt van de kar zijn"
 "TF_IM_Basin_CartHeals" "De kar voorziet team BLU van gezondheid en munitie"
@@ -8073,6 +8231,7 @@
 "TF_SCOUT_DODGE_DAMAGE_NAME"		"De kunst van het ontwijken"
 "TF_SCOUT_DODGE_DAMAGE_DESC"		"Ontwijk in één leven 1000 schadepunten door Bonk! Atomic Punch te drinken."
 "TF_SCOUT_KNOCK_INTO_TRAIN_NAME"	"Omgevingsramp"
+"TF_SCOUT_KNOCK_INTO_TRAIN_DESC"	"Veroorzaak een omgevingsdood of zelfmoord door middel van de terugslag van de Kracht-der-Natuur."
 "TF_SCOUT_KILL_STUNNED_NAME"		"Gevoelloos"
 "TF_SCOUT_KILL_STUNNED_DESC"		"Assisteer in of dood zelf 50 vijanden terwijl ze verdoofd of vertraagd zijn."
 "TF_SCOUT_STUN_INTO_TRAIN_NAME"		"Vuil spel"
@@ -8088,6 +8247,7 @@
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_NAME"	"Slakkenmepper"
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"Dood een Scout terwijl hij nog onder het effect is van de Crit-a-Cola."
 "TF_SCOUT_KILL_FROM_BEHIND_NAME"	"In slaap sussen"
+"TF_SCOUT_KILL_FROM_BEHIND_DESC"	"Dood 50 vijanden van achteren met de Kracht-der-Natuur."
 "TF_SCOUT_CAPTURE_LAST_POINT_NAME"	"Hekkensluiter"
 "TF_SCOUT_CAPTURE_LAST_POINT_DESC"	"Verover de laatste post op een controlepostenmap."
 "TF_SCOUT_CAPTURE_THREE_POINTS_NAME"	"Drie-in-één"
@@ -8293,7 +8453,6 @@
 "TF_HALLOWEEN_BOSS_KILL_MELEE_NAME"             "Gespietst!"
 "TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"             "Verzamel het Bespookte Metaal van de Paardloze Hoofdloze Paardmann."
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"           "Gemaskerde Mann"
-"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "Verzamel een Zielenwaterspuwer in Mann Manor."
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "Zakston Hale"
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_DESC"           "Ontwerp het Saxton Hale-masker."
 "TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"De Paardloze Hoofdloze Paardmann"
@@ -8419,7 +8578,6 @@
 "TF_SOLDIER_MVP_NAME"				"Eremedaille"
 "TF_SOLDIER_MVP_DESC"				"Voltooi 10 rondes als beste speler in een team van 6 of meer spelers."
 "TF_SOLDIER_RIDE_THE_CART_NAME"			"Rumoerige rit"
-"TF_SOLDIER_RIDE_THE_CART_DESC"			"Maak een ritje van 30 seconden op de wagen."
 "TF_SOLDIER_ASSIST_MEDIC_UBER_NAME"		"S*M*A*S*H"
 "TF_SOLDIER_ASSIST_MEDIC_UBER_DESC"		"Help een Medic 5 vijanden op te blazen met één enkele überlading."
 "TF_SOLDIER_PARACHUTE_KILL_GROUP_NAME"		"Overhand"
@@ -8469,7 +8627,6 @@
 "TF_DEMOMAN_DAMAGE_GRIND_NAME"			"Vernielzucht"
 "TF_DEMOMAN_DAMAGE_GRIND_DESC"			"Behaal 1 miljoen punten aan totale ontploffingsschade."
 "TF_DEMOMAN_KILL_X_CAPPING_ONEDET_NAME"		"Drie keer is scheepsrecht"
-"TF_DEMOMAN_KILL_X_CAPPING_ONEDET_DESC"		"Dood drie afzonderlijke keren met één enkele kleefbomexplosie 3 vijanden terwijl die bezig zijn met een verovering of een wagen voortduwen."
 "TF_DEMOMAN_KILL_X_DEFENDING_NAME"		"Dode verdediger"
 "TF_DEMOMAN_KILL_X_DEFENDING_DESC"		"Dood 25 spelers die een controlepost of een kar verdedigen."
 "TF_DEMOMAN_DESTROY_BUILDINGS_GRIND_NAME"	"Puinzooi"
@@ -8675,7 +8832,6 @@
 "TF_MVM_COMPLETE_TOUR_NAME"						"Tour compleet"
 "TF_MVM_COMPLETE_TOUR_DESC"						"Voltooi de missies Spoedcursus, Doe's Oefening en Manoeuvres."
 "TF_MVM_USE_TELEPORT_BOTTLE_NAME"				"Geest in de machine"
-"TF_MVM_USE_TELEPORT_BOTTLE_DESC"				"Gebruik een veldfles met de lading 'Teleporteer naar spawn' en dood dan binnen 5 seconden de bomdrager."
 "TF_MVM_USE_CRIT_BOTTLE_NAME"					"Kritische Fout"
 "TF_MVM_USE_CRIT_BOTTLE_DESC"					"Gebruik een veldfles met de lading 'Voltreffers' om een reuzenrobot te vernietigen."
 "TF_MVM_USE_UBER_BOTTLE_NAME"					"Duitse bouwkunde"
@@ -10111,7 +10267,7 @@
 "CraftNoMatch"			"Geen bijbehorende blauwdruk"
 "CraftNoknownRecipes"	"Geen bekende blauwdrukken."
 "CraftTryYourLuck"		"Druk op Ontwerpen om je geluk te beproeven."
-"CraftReady"			"Je hebt de items die je nodig hebt voor deze blauwdruk.\nKlik op het vinkje om de items naar het ontwerpgebied te verplaatsen."
+"CraftReady"			"Je hebt de voorwerpen die je nodig hebt voor deze blauwdruk.\nKlik op het vinkje om de voorwerpen naar het ontwerpgebied te verplaatsen."
 "Craft_Untradable_Title" "Waarschuwing"
 "Craft_Untradable_Text" "Ten minste één van de voorwerpen die je probeert te ontwerpen kan niet geruild en niet verhandeld worden. Daardoor worden ontworpen voorwerpen ook onruilbaar en onverhandelbaar. Weet je zeker dat je door wilt gaan?"
 "Craft_SelectItemPanel"	"SELECTEER VOORWERP OM IN ONTWERP TE GEBRUIKEN"
@@ -10156,9 +10312,7 @@
 "RI_Pi"					"van hetzelfde primaire wapen"
 "RI_Pp"					"primaire wapens"
 "RI_P"					"primair wapen"
-"RI_Ic"					"items gebruikt door dezelfde klasse"
 "RI_Wc"					"wapens gebruikt door dezelfde klasse"
-"RI_Is"					"items gebruikt in dezelfde uitrustingspositie"
 "RI_Ws"					"wapens gebruikt in dezelfde uitrustingspositie"
 "RI_Si"					"van hetzelfde secundaire wapen"
 "RI_Sp"					"secundaire wapens"
@@ -10267,12 +10421,9 @@
 "TF_CrateKey_BL"				"Mann Co.-provisiekratsleutel"
 "TF_CrateKey_BL_Desc"			"Wordt gebruikt voor het openen van gesloten Mann Co.-provisiekratten."
 "TF_SupplyCrate_BL"				"Mann Co.-provisiekrat"
-"TF_SupplyCrate_BL_Desc"		"Dit krat bevat vier willekeurig gekozen items uit een kleine reeks. Je kan in je rugzak de keuze van de vier gekozen items aanpassen.\n\nJe hebt een Mann Co.-provisiekratssleutel nodig om dit te openen. Deze zijn verkrijgbaar in de Mann Co.-winkel."
 "TF_SupplyCrate_BLTaunt"		"Mann Co.-auditiefilmrol"
 "TF_SupplyCrate_BLTaunt_Desc"	"Deze gesloten filmrol bevat een willekeurige bespotting uit de Liefde en Oorlog-update, en er is ook een kleine kans dat het een bijzondere bespotting met speciale effecten bevat!\n\nJe hebt een standaard Mann Co.-voorraadkratsleutel nodig om dit te openen. Deze zijn verkrijgbaar in de Mann Co.-winkel."
 "TF_SupplyCrate_ShuffleTaunt"			"Mann Co.-regisseursfilmrol"
-"TF_SupplyCrate_ShuffleTaunt_Desc"		"Dit krat bevat vier willekeurig gekozen items uit een kleine reeks. Je kan in je rugzak de keuze van de vier gekozen items aanpassen.\n\nJe hebt een Mann Co.-voorraadkratssleutel nodig om dit te openen. Deze zijn verkrijgbaar in de Mann Co.-winkel."
-
 "TF_Tool_WinterKey"			"Feestelijk Winterkratsleutel"
 "TF_Tool_WinterKey_Desc"		"Wordt gebruikt om ongebruikelijk feestelijke gesloten winterkratten te openen.\nNa 31/12/2010 zal deze in een normale sleutel veranderen."
 "TF_Tool_SummerKey"				"Verfrissende Zomerkoelersleutel"
@@ -10417,8 +10568,6 @@
 "TF_StrongboxKey_Desc"			"Wordt gebruikt om een Mann Co.-brandkast te openen."
 
 "TF_EOTL_Crate"				"End of the Line-communitykrat"
-"TF_EOTL_Crate_Desc"		"Dit krat is speciaal.\nDe inhoud is onbekend en\nvereist een End of the Line-communitykratsleutel om geopend te kunnen worden\n\nItems verkregen van een EOTL-communitykrat voor 5 januari 2015 krijgen een vroegtijdige supporter-tag ter nagedachtenis.\n\nHet End of the Line-communitykrat bevat bijzondere effecten die alleen in dit krat voorkomen."
-
 "TF_EOTL_Key"				"End of the Line-sleutel"
 "TF_EOTL_Key_Desc"			"Wordt gebruikt om een End of the Line-communitykrat te openen.\nVoorwerpen die voor 5 januari 2015 in een EOTL-communitykrat gevonden worden krijgen een vroegtijdige supporter-tag ter nagedachtenis."
 
@@ -10908,6 +11057,8 @@
 "TF_Tool_Invasion2015Key_Desc"			"Wordt gebruikt om de in quarantaine geplaatste verzamelingskist\nof de vertrouwelijke verzamelingskist te openen"
 "TF_Tool_Invasion2015Key_AdText"		"- Wordt gebruikt om de in quarantaine geplaatste verzamelingskist\nof de vertrouwelijke verzamelingskist te openen\n- Inhoud kan vreemd zijn\n- De kisten bevatten bijzondere effecten met Invasion-thema"
 
+"Invasion_collection_02"				"Vertrouwelijke Verzameling"
+
 "TF_Invasion2015Case01"					"In quarantaine geplaatste verzamelingskist"
 "TF_Invasion2015Case01_Desc"			"Invasion-communityupdate-kist\n\nVereist een Invasion-communityupdate-sleutel om te openen\n\nBevat bijzondere effecten met Invasion-thema"
 "TF_Invasion2015Case01_AdText"			"- Communityupdate-kist\n- Vereist een Invasion-communityupdate-sleutel om te openen\n- Inhoud kan vreemd zijn\n- Bevat bijzondere effecten met Invasion-thema"
@@ -11280,7 +11431,6 @@
 "Attrib_SniperZoom_Penalty"					"%s1% zoomvermindering"
 "Attrib_SniperNoCharge"						"Geen vuurkracht opbouwen bij inzoomen en schade"
 "Attrib_CloakIsFeignDeath"					"Verhullingstype: Valse Dood.\nLaat een vals lijk achter bij het nemen van schade\nen krijg tijdelijke onzichtbaarheid, snelheid en schadeweerstand."
-"Attrib_CloakIsMovementBased"				"Verhullingstype: Bewegingsgevoelig.\nAlt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.\nVerhulling vermindert op basis van bewegingssnelheid."
 "Attrib_NoDoubleJump"						"Schakelt dubbelsprong uit"
 "Attrib_AbsorbDmgWhileCloaked"				"Absorbeert %s1% schade bij verhulling"
 "Attrib_RevolverUseHitLocations"			"Voltreffer bij een hoofdschot"
@@ -11290,6 +11440,7 @@
 "Attrib_Jarate_Description"					"Bedekte vijanden ontvangen minivoltreffers\nKan worden gebruikt om vuur te blussen"
 "Attrib_HealthRegen"						"De gezondheid van de drager herstelt met +%s1 per seconde"
 "Attrib_HealthDrain"						"De gezondheid van de drager gaat met %s1 per seconde achteruit"
+"Attrib_HealthDrainMedic"					"De gezondheid van de drager herstelt met %s1 per seconde"
 "Attrib_SelfDmgPush_Increased"				"+%s1% zelfschade"
 "Attrib_SelfDmgPush_Decreased"				"%s1% zelfschade"
 "Attrib_DmgTaken_From_Fire_Reduced"			"+%s1% bestendigheid tegen vuurschade voor de drager"
@@ -11654,8 +11805,6 @@
 "Attrib_AOEHealChance_Large"			"Grote kans om teamleden rond je te genezen wanneer je schade uitdeelt"
 "Attrib_StunChance_Small"				"Kleine kans om vijanden die je raakt te verdoven"
 "Attrib_StunChance_Large"				"Grote kans om vijanden die je raakt te verdoven"
-"Attrib_AOEDamageChance_Small"			"Kleine kans om vijanden dichtbij doelwitten die je raakt ook te raken"
-"Attrib_AOEDamageChance_Large"			"Grote kans om vijanden dichtbij doelwitten die je raakt ook te raken"
 "Attrib_CritStreakChance_Small"			"Kleine kans op voltrefferboost wanneer je schade uitdeelt"
 "Attrib_CritStreakChance_Large"			"Grote kans op voltrefferboost wanneer je schade uitdeelt"
 "Attrib_UberOnHitChance"				"+%s1% kans om een überlading te krijgen wanneer vijanden je schade toebrengen"
@@ -12020,73 +12169,162 @@
 "Attrib_Particle150"			 "Prismatica"
 "Attrib_Particle151"			 "Bijenzwerm"
 "Attrib_Particle152"			 "Vrolijke Vuurvliegjes"
+"Attrib_Particle153"			 "Smeulende Zielen"
+"Attrib_Particle154"			 "Dolende Dwaallichten"
 "Attrib_Particle155"			 "Caleidoscoop"
 
 // Halloween 2020 Unusual
 "Attrib_Particle156"			"Groene Giechelaar"
+"Attrib_Particle157"			"Kakelende Kalebas"
+"Attrib_Particle159"			"Pyroland-nachtmerrie"
+"Attrib_Particle160"			"Grindachtige Griezel"
 "Attrib_Particle162"			"Beschermbengel"
 "Attrib_Particle163"			"Pompoenpartijtje"
 
 // Smissmas 2020 Unusual
 "Attrib_Particle164"			"Vriezende Fractalen"
+"Attrib_Particle166"			"Speciale Sneeuwval"
+"Attrib_Particle167"			"Goddelijk Verlangen"
+"Attrib_Particle168"			"Verre Droom"
+"Attrib_Particle169"			"Winterwervel"
 "Attrib_Particle172"			"Genus Plasmos"
 "Attrib_Particle173"			"Serenus Lumen"
 "Attrib_Particle174"			"Ventum Maris"
+"Attrib_Particle175"			"Montere Maretak"
+
 // Summer 2021 Unusual
 "Attrib_Particle177"			"Resonantie"
 "Attrib_Particle178"			"Aggradatie"
 "Attrib_Particle181"			"Ardentum Saturnalis"
 "Attrib_Particle182"			"Fragrancium Elementalis"
 "Attrib_Particle183"			"Reverium Irregularis"
+"Attrib_Particle185"			"Blijvende Bloembladeren"
+"Attrib_Particle186"			"Zalige Zonsondergang"
+"Attrib_Particle187"			"Frambozengloed"
+"Attrib_Particle188"			"Regenboogkleurig"
+
 // Halloween 2021 Unusual
 "Attrib_Particle189"			"Driftige Doornen"
+"Attrib_Particle190"			"Duivelse Diablo"
+"Attrib_Particle192"			"Schril Schreeuwende Schaduwen"
+"Attrib_Particle193"			"Huilende Hoofden"
+"Attrib_Particle194"			"Huilende Hoofden"
+"Attrib_Particle195"			"Helse Verschijning"
 "Attrib_Particle196"			"Fantoomkroon"
+"Attrib_Particle197"			"Eeuwenoude Schim"
 "Attrib_Particle198"			"Groengloeiende Gluurder"
+"Attrib_Particle199"			"Smeltende Ogen"
 "Attrib_Particle200"			"Onheilspellende Blik"
 "Attrib_Particle201"			"Pompoenmaan"
+"Attrib_Particle202"			"Dol Spook"
+"Attrib_Particle203"			"Geschrokken Klopgeest"
+"Attrib_Particle204"			"Energieke Rondspoker"
+
 // Smissmas 2021 Unusual
 "Attrib_Particle205"			"Smissboom"
+"Attrib_Particle206"			"Gastvrije Feestelijkheid"
+"Attrib_Particle207"			"Neerbuigende Omhelzing"
+"Attrib_Particle208"			"Neerbuigende Omhelzing"
 "Attrib_Particle209"			"Sprankelende Spar"
 "Attrib_Particle210"			"Glinsterende Jeneverbes"
+"Attrib_Particle211"			"Disco-den"
+"Attrib_Particle212"			"Kronkelende Lichtjes"
+"Attrib_Particle213"			"Wentelende Lichtjes"
+"Attrib_Particle214"			"Pad van Sterrenstof"
 "Attrib_Particle216"			"Smissmasvonk"
 "Attrib_Particle217"			"Smissmasvonk"
+"Attrib_Particle218"			"IJzige Weersvoorspelling"
+"Attrib_Particle220"			"Feestdagengewei"
+"Attrib_Particle221"			"Vurig Gewei"
+"Attrib_Particle222"			"Vurig Gewei"
 "Attrib_Particle223"			"Feestelijke Lichtjes"
 
 // Summer 2022 Unusual
 "Attrib_Particle224"			"Schaaldiersensatie"
+"Attrib_Particle225"			"Schaaldiersensatie"
+"Attrib_Particle226"			"Geglaceerde Decadentie"
+"Attrib_Particle227"			"Geglaceerde Decadentie"
+"Attrib_Particle231"			"Bloeiende Passie"
+"Attrib_Particle232"			"Verblindend Vuurwerk"
+"Attrib_Particle233"			"Vlammend Vuurwerk"
+"Attrib_Particle234"			"Flikkerend Vuurwerk"
+"Attrib_Particle235"			"Fonkelend Vuurwerk"
+"Attrib_Particle236"			"Sprankelend Vuurwerk"
+"Attrib_Particle237"			"Gloeiend Vuurwerk"
+"Attrib_Particle238"			"Glinsterend Vuurwerk"
+"Attrib_Particle243"			"Koude Kosmos"
+"Attrib_Particle245"			"Sterrentrance"
+"Attrib_Particle246"			"Sterrentrance"
+"Attrib_Particle247"			"Sterrenweelde"
+"Attrib_Particle248"			"Sterrenvuur"
 "Attrib_Particle249"			"Sterrenstof"
+"Attrib_Particle250"			"Besmettelijke Uitbarsting"
+"Attrib_Particle251"			"Dagdromende Uitbarsting"
+"Attrib_Particle253"			"Goddelijk Zonlicht"
+"Attrib_Particle254"			"Audiofiel"
+"Attrib_Particle255"			"Geluidsgolf"
+"Attrib_Particle256"			"Synesthesie"
+
 // Halloween 2022 Unusual
 "Attrib_Particle257"			"Behekste Kraken"
+"Attrib_Particle258"			"Griezelige Kraken"
 "Attrib_Particle259"			"Bezielde Bijl"
 "Attrib_Particle260"			"Houw van de Hoofdloze"
 "Attrib_Particle261"			"Voor Altijd Bezeten!"
 "Attrib_Particle262"			"Voor Altijd Bezeten!"
 "Attrib_Particle263"			"Voor Eeuwig en Eeuwig!"
+"Attrib_Particle265"			"Mottenplaag"
 "Attrib_Particle266"			"Malicieuze Monoculi"
+"Attrib_Particle267"			"Behekste Kousjes"
+"Attrib_Particle268"			"Behekste Kousjes"
+"Attrib_Particle269"			"Slechte Kousjes"
+"Attrib_Particle270"			"Spookachtige Kousjes"
+
 // Smissmas 2022 Unusual
 "Attrib_Particle271"			"Muzikale Maalstroom"
 "Attrib_Particle272"			"Groene Virtuoos"
 "Attrib_Particle273"			"Zilveren Serenade"
 "Attrib_Particle277"			"Bloederige Bevriezing"
+"Attrib_Particle278"			"Sterrenlichtnevel"
+
 // Summer 2023 Unusual
 "Attrib_Particle279"			"Harde Koffer"
 "Attrib_Particle280"			"Harde Koffer"
+"Attrib_Particle281"			"Kwallenveld"
+"Attrib_Particle282"			"Kwallenveld"
+"Attrib_Particle283"			"Kwallenjager"
+"Attrib_Particle284"			"Kwallenjam"
 "Attrib_Particle285"			"Groene Sterrenwolk"
 "Attrib_Particle286"			"Paarse Sterrenwolk"
 "Attrib_Particle287"			"Oranje Sterrenwolk"
+"Attrib_Particle288"			"Sakura-rookbom"
 "Attrib_Particle290"			"Bubbelbriesje"
 "Attrib_Particle291"			"Vuurvliegjes"
 // Halloween 2023 Unusual
 "Attrib_Particle293"			"Hemelse Heuveltop"
 "Attrib_Particle294"			"Paarse Sterrenhemel"
+"Attrib_Particle297"			"Helse Hoorns"
 "Attrib_Particle298"			"Helse Hoorns"
+"Attrib_Particle299"			"Demonische Spietser"
+"Attrib_Particle300"			"Gehoornde Geest"
+"Attrib_Particle301"			"Zesde Zintuig"
+"Attrib_Particle302"			"Zesde Zintuig"
 "Attrib_Particle303"			"Amygdala"
+"Attrib_Particle305"			"Arachnes Web"
+"Attrib_Particle306"			"Zuur Klimaat"
+"Attrib_Particle312"			"Roemrijke Rivaliteit"
+"Attrib_Particle313"			"Roemrijke Rivaliteit"
+"Attrib_Particle315"			"Steenkoude Smaken"
+"Attrib_Particle316"			"Steenkoude Smaken"
 "Attrib_Particle318"			"Poolster"
 "Attrib_Particle319"			"Poolster"
 "Attrib_Particle320"			"Mooiste Ster"
 "Attrib_Particle321"			"Feeselijke Vallende Ster"
 "Attrib_Particle322"			"Maanlichtjes"
 "Attrib_Particle323"			"Maanlichtjes"
+"Attrib_Particle324"			"Feeënlichtjes"
+"Attrib_Particle325"			"Natuurlijke Lichtjes"
+
 // Summer 2024 Unusual
 "Attrib_Particle327"			"Loyalistenkroon"
 "Attrib_Particle328"			"Loyalistenkroon"
@@ -12134,6 +12372,14 @@
 "Attrib_Particle370"			"Stralende Bokeh"
 "Attrib_Particle371"			"Speels Noorderlicht"
 "Attrib_Particle372"			"Olijke Ochtend"
+"Attrib_Particle374"			"Dolken van Verraad"
+"Attrib_Particle375"			"Dolken van Verraad"
+"Attrib_Particle376"			"Messen van Magere Hein"
+"Attrib_Particle377"			"Volledig Opgeladen"
+"Attrib_Particle378"			"Volledig Opgeladen"
+"Attrib_Particle379"			"Overbelast"
+"Attrib_Particle380"			"Knallende Koppijn"
+"Attrib_Particle381"			"Verwoestende Wind"
 // Weapon Unusual
 "Attrib_Particle701"			"Heet"
 "Attrib_Particle702"			"Isotoop"
@@ -12180,52 +12426,113 @@
 // Smissmas 2019 Unusual Taunts
 "Attrib_Particle3031"		"Cadeautjesregen"
 "Attrib_Particle3032"		"Winterse Mist"
+"Attrib_Particle3033"		"Poollicht"
 "Attrib_Particle3034"		"Winterstemming"
 "Attrib_Particle3035"		"Feeststemming"
 "Attrib_Particle3036"		"Magische Stemming"
 
 // Halloween 2020 Unusual Taunts
 "Attrib_Particle3037"		"Geestige Begeleiding"
+"Attrib_Particle3038"		"Onstoffelijke Aanwezigheid"
+"Attrib_Particle3039"		"Geheimzinnige Assistentie"
+"Attrib_Particle3041"		"Smaragdgroene Sensatie"
 "Attrib_Particle3042"		"Pyroforische Persoonlijkheid"
+"Attrib_Particle3043"		"Betoverende Aanblik"
 "Attrib_Particle3044"		"Statische Schok"
+"Attrib_Particle3045"		"Giftige Schok"
+"Attrib_Particle3046"		"Giftig Gevaar"
 // Smissmas 2020 Unusual Taunts
 "Attrib_Particle3049"		"Genoegzame Ster"
+"Attrib_Particle3050"		"Bevroren Ster"
 "Attrib_Particle3051"		"Apotheose"
 "Attrib_Particle3052"		"Hemelvaart"
 "Attrib_Particle3053"		"Rendonhoornboer"
 "Attrib_Particle3054"		"Rendonhoornboer"
+"Attrib_Particle3055"		"Fonkelende Lichten"
 "Attrib_Particle3056"		"Flikkerende Lichten"
 
 // Halloween 2021 Unusual Taunts
 "Attrib_Particle3059"		"Bovennatuurlijke Boeien"
+"Attrib_Particle3060"		"Vervloekte Vrijheidsberoving"
 "Attrib_Particle3061"		"Cavalier de Carte"
 "Attrib_Particle3062"		"Cavalier de Carte"
+"Attrib_Particle3064"		"Magisch Schudden"
+"Attrib_Particle3065"		"Levendige Schok"
+"Attrib_Particle3066"		"Donderende Geest"
+"Attrib_Particle3068"		"Flarden Halo's"
+"Attrib_Particle3069"		"Helse Pluim"
 "Attrib_Particle3070"		"Aurora Borealis"
 "Attrib_Particle3071"		"Aurora Australis"
 "Attrib_Particle3072"		"Aurora Polaris"
 
 // Smissmas 2021 Unusual Taunts
 "Attrib_Particle3073"		"Violette Windvlagen"
+"Attrib_Particle3074"		"Gouden Windstoten"
+"Attrib_Particle3075"		"Smissmas-werveling"
+"Attrib_Particle3076"		"Smissmas-werveling"
 "Attrib_Particle3079"		"Sprankelende Den"
 "Attrib_Particle3080"		"Sprankelende Den"
 "Attrib_Particle3081"		"Kerstkoorts"
 "Attrib_Particle3082"		"Kerstkoorts"
 "Attrib_Particle3083"		"Gouden Glitters"
+"Attrib_Particle3084"		"Vrieskoud Zilver"
+"Attrib_Particle3085"		"Glamoureuze Verblinding"
+"Attrib_Particle3086"		"Glamoureuze Verblinding"
 "Attrib_Particle3087"		"Sublieme Sneeuwstorm"
 
 // Halloween 2022 Unusual Taunts
 "Attrib_Particle3088"		"Goudsbloemenritueel"
+"Attrib_Particle3089"		"Goudsbloemenritueel"
 "Attrib_Particle3090"		"Goor Gifbad"
+"Attrib_Particle3091"		"Gebrand Brouwsel"
+"Attrib_Particle3092"		"Mysterieus Mengsel"
+"Attrib_Particle3093"		"Linguïstieke Afwijking"
+"Attrib_Particle3094"		"Gouden Zegel"
+"Attrib_Particle3097"		"Prismatische Nevel"
+"Attrib_Particle3098"		"Rijzend Ritueel"
+"Attrib_Particle3099"		"Rijzend Ritueel"
+"Attrib_Particle3100"		"Bloedige Greep"
+"Attrib_Particle3101"		"Bloedige Greep"
+"Attrib_Particle3102"		"Giftige Greep"
+"Attrib_Particle3103"		"Helse Greep"
+"Attrib_Particle3104"		"Doodsgreep"
+
+// Smissmas 2022 Unusual Taunts
+"Attrib_Particle3105"		"Geladen Geheim"
+"Attrib_Particle3107"		"Stuiptrekkende Vurigheid"
+"Attrib_Particle3108"		"Verfeestelijkte Verschijning"
+"Attrib_Particle3109"		"Verfeestelijkte Verschijning"
+"Attrib_Particle3113"		"Grenzeloze Sneeuwstorm"
+
+// Summer 2023 Unusual Taunts
+"Attrib_Particle3114"		"Zongeschroeid"
 "Attrib_Particle3115"		"Diepzee-Rave"
 "Attrib_Particle3116"		"Diepzee-Rave"
+"Attrib_Particle3117"		"Bloeiend Baken"
+"Attrib_Particle3118"		"Stralend Baken"
+"Attrib_Particle3119"		"Brandend Baken"
 "Attrib_Particle3121"		"Pasteldance"
 "Attrib_Particle3122"		"Pasteldance"
 "Attrib_Particle3123"		"Wildebloemenwei"
+"Attrib_Particle3125"		"Griezelig Gat"
+"Attrib_Particle3126"		"Herfstbladeren"
 "Attrib_Particle3127"		"Dodemans-dans"
+"Attrib_Particle3128"		"Barstende Brouwsels"
+"Attrib_Particle3129"		"Behekste Crematie"
+"Attrib_Particle3130"		"Crematie"
+"Attrib_Particle3132"		"Cosmische Connectie"
+"Attrib_Particle3133"		"Cosmische Connectie"
+"Attrib_Particle3134"		"Duistere Schemering"
+"Attrib_Particle3135"		"Griezelige Gloed"
 "Attrib_Particle3136"		"Onbaatzuchtige Opschudding"
+"Attrib_Particle3137"		"Verafgelegen Verlangen"
 "Attrib_Particle3139"		"Permafrost-extract"
 "Attrib_Particle3140"		"Permafrost-extract"
+"Attrib_Particle3141"		"Poolpret"
 "Attrib_Particle3142"		"Winnaarsmentaliteit"
+"Attrib_Particle3143"		"Blije Blaadjes"
+"Attrib_Particle3144"		"Blije Blaadjes"
+
 // Summer 2024 Unusual Taunts
 "Attrib_Particle3145"		"Libellenomarming"
 "Attrib_Particle3146"		"Libellenomarming"
@@ -12283,6 +12590,12 @@
 
 // Summer 2025 Unusual Taunts
 "Attrib_Particle3194"		"Zeemijn"
+"Attrib_Particle3195"		"Zeemijn"
+"Attrib_Particle3198"		"Subtiel Silhouet"
+"Attrib_Particle3199"		"Oceaanbodem"
+"Attrib_Particle3200"		"Verbroken Verbinding"
+"Attrib_Particle3201"		"Zomerse Golven"
+"Attrib_Particle3202"		"Haaienaanval"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -12337,6 +12650,7 @@
 "TF_NonUnique_Append_Proper"	"(%s1)"				// DEPRECATED
 "TF_Unique_Achievement_Medigun1"	"De Kritzkrieg"	// ADD THE
 "TF_Unique_Achievement_Syringegun1"	"De Blutsauger"	// ADD THE
+"TF_Unique_Achievement_Bonesaw1"	"Überzaag"	// ADD THE
 "TF_Unique_Achievement_FireAxe1"	"De Bijlblusser"	// ADD THE
 "TF_Unique_Achievement_FlareGun"	"Het Lichtpistool"	// ADD THE
 "TF_Unique_Achievement_Flaregun_desc"	"Dit wapen zal automatisch herladen terwijl het niet in gebruik is"
@@ -12346,6 +12660,7 @@
 "TF_Unique_Achievement_Minigun"		"Natascha"
 "TF_Unique_Achievement_Fists"		"De Moordende Bokshandschoenen"	// ADD THE
 "TF_Unique_Achievement_Bat"		"De Klaas Vaak"	// ADD THE
+"TF_Unique_Achievement_Scattergun_Double" "De Kracht-der-Natuur"	// ADD THE
 "TF_Unique_Achievement_Scattergun_Double_desc"	"Dit wapen herlaadt het volledige magazijn in een keer"
 "TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch"
 "TF_Unique_Achievement_EnergyDrink_desc"	"Drink om 8 seconden lang onkwetsbaar te worden. Je kunt tijdens deze periode niet aanvallen.\nGeabsorbeerde schade zal je vertragen nadat het effect verloopt."
@@ -12389,7 +12704,6 @@
 "TF_TheShortstop"			"De Korte Stop"	// ADD THE
 "TF_LEtranger"				"L'Étranger"
 "TF_EternalReward"			"Je Eeuwige Beloning"
-"TF_TheBattalionsBackup"		"Back-up van het Bataljon"	// ADD THE
 "TF_TheBlackBox"			"De Zwarte Doos"	// ADD THE
 "TF_SydneySleeper"			"De Sydney-slaper"	// ADD THE
 "TF_DarwinsDangerShield"		"Darwins Gevaarschild"
@@ -12526,7 +12840,7 @@
 "TF_Weapon_SelfAwareBeautyMark_desc" "Geïnspireerd door de TF2-film 'Expiration Date'"
 "TF_Weapon_MutatedMilk"				"Gemuteerde melk"
 "TF_Weapon_MutatedMilk_desc" 		"Spelers herstellen 60% van de toegebrachte schade aan een met melk bedekte vijand.\n\nGeïnspireerd door de TF2-film 'Expiration Date'"
-"TF_Weapon_BaseJumper"				"De basejumper" // ADD THE
+"TF_Weapon_BaseJumper"				"De Basejumper" // ADD THE
 "TF_Weapon_BaseJumper_Desc"			"Druk op de 'SPRING'-toets in de lucht om het in te zetten.\nIngezette parachutes vertragen je afdaling."
 "TF_Weapon_BackScatter"				"De Rugbeuker" // ADD THE
 "Attrib_BackAttackMinicrits"		"Raakt doelwitten met minivoltreffers wanneer ze van achter op korte afstand worden beschoten"
@@ -12625,8 +12939,6 @@
 "ItemDescUnusualify"						"Deze Bijzondermaker kan worden gebruikt op een %s1."
 
 "TF_CheatDetected_Title"			"WAARSCHUWING"
-"TF_CheatDetectedMinor"				"Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.\n\nBij verdere overtredingen verlies je al je items."
-"TF_CheatDetectedMajor"				"Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.\n\nBij verdere overtredingen wordt je account mogelijk geblokkeerd."
 "TF_HonestyReward"					"Gefeliciteerd! Jouw eerlijkheid is beloond met een nieuwe hoed!\n\n(Een aantal andere spelers was minder gewetensvol en minder fortuinlijk)"
 
 //----------------------------------------------------------------------------------------
@@ -13012,7 +13324,7 @@ uitrustingsplek."
 "CraftingStartExplanation_Title"	"Ontwerpen"
 "CraftingStartExplanation_Text"		"Hier kun je nieuwe voorwerpen maken met de voorwerpen uit je rugzak. Om de voorwerpen met elkaar te combineren moeten ze een overeenkomende blauwdruk hebben."
 "CraftingRecipesExplanation_Title"	"Blauwdrukken"
-"CraftingRecipesExplanation_Text"	"Blauwdrukken geven informatie over voorwerpen die je met elkaar kunt combineren om er één of meer items mee te maken. Klik op deze knop om de lijst met blauwdrukken te bekijken die je tot nu toe hebt gevonden.\n\nOm aanvullende blauwdrukken te vinden kun je andere combinaties van voorwerpen proberen te maken. Zodra je een nieuwe blauwdruk hebt gevonden, wordt deze permanent aan de lijst Bestaand toegevoegd."
+"CraftingRecipesExplanation_Text"	"Blauwdrukken geven informatie over voorwerpen die je met elkaar kunt combineren om er één of meer voorwerpen mee te maken. Klik op deze knop om de lijst met blauwdrukken te bekijken die je tot nu toe hebt gevonden.\n\nOm aanvullende blauwdrukken te vinden, kun je andere combinaties van voorwerpen proberen te maken. Zodra je een nieuwe blauwdruk hebt gevonden, wordt deze permanent aan de lijst met bestaande blauwdrukken toegevoegd."
 "CraftingStep1Explanation_Title"	"Een ontwerp beginnen"
 "CraftingStep1Explanation_Text"		"Selecteer twee of meer voorwerpen uit je rugzak om ze met elkaar te combineren. Dubbelklik erop of sleep ze naar het ontwerpgebied."
 "CraftingStep2Explanation_Title"	"Ontwerpgebied"
@@ -13038,9 +13350,6 @@ Voorwerpen die recentelijk zijn toegevoegd staan onder het 'Nieuw!' tabblad.
 Gereedschappen die voorwerpen, cadeaus, en andere speciale voorwerpen
 kunnen aanpassen staan onder het 'Overig' tabblad."
 "StoreItemsExplanation_Title"		"Koopbaar voorwerp"
-"StoreItemsExplanation_Text"		"Voorwerpen geven hun prijs weer en of ze op het moment in de uitverkoop zijn.
-Selecteer een item om hem aan je winkelwagen toe te voegen of te bekijken
-voordat je het aanschaft."
 "StoreDetailsExplanation_Title"		"Voorwerp Details"
 "StoreDetailsExplanation_Text"		"Het voorwerp details scherm omschrijft de specifieke eigenschappen
 van het voorwerp alsmede hoe hij gebruikt wordt tijdens het spelen."
@@ -13054,7 +13363,6 @@ op elk personage. Deze voorwerpen hoef je maar één keer te kopen."
 "StoreAddToCartExplanation_Text"	"Als je een voorwerp ziet dat je wilt aanschaffen, selecteer het en klik op
 de VOEG AAN WINKELWAGEN TOE knop."
 "StoreCartStatusExplanation_Title"	"Status van Winkelwagen"
-"StoreCartStatusExplanation_Text"	"Hier kun je de status van je winkelwagen bekijken. Als je er iets uit wilt verwijderen, klik je op het winkelwagenpictogram. Er wordt ook aangegeven hoeveel plek je nog beschikbaar hebt in je rugzak. Voor elk voorwerp dat je aanschaft heb je één lege plek nodig in je rugzak."
 "StoreCheckoutExplanation_Title"	"Afrekenen"
 "StoreCheckoutExplanation_Text"		"Druk op de afrekenknop om de voorwerpen in je winkelwagentje aan te schaffen!
 Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
@@ -13073,10 +13381,6 @@ Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
 "TradeUpsExplanation_Signing_Title"	"Ondertekenen"
 "TradeUpsExplanation_Signing_Text"	"Schrijf hier je retouradres. Schrijf leesbaar en alleen op de voorziene lijnen."
 "TradeUpsExplanation_Stamp_Title"	"Postzegel"
-"TradeUpsExplanation_Stamp_Text"	"Klik hier om een postzegel te plakken.\n\nZodra het retouradres is ingevuld en de postzegel is geplakt kun je je items naar Mann Co versturen."
-
-
-
 //----------------------------------------------------------------------------------------
 // Right Click Context Menu
 "Context_UseTool"			"Gebruiken met..."
@@ -13428,7 +13732,6 @@ Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
 "TR_Eng_SentryHint"		"Bouw sentry hier"
 
 "TR_Eng_SentryErrorTitle"	"Oeps!"
-"TR_Eng_SentryErrorPos"		"Plaats de constructie op de aangeduide positie. Ga dichtbij je constructie staan en druk op %attack2% om het op te pakken en te herpositioneren. Zet het neer door %attack%te gebruiken."
 "TR_Eng_SentryErrorAng"		"De sentry kijkt de verkeerde kant op. Pak je sentry op door %attack2%te gebruiken. Laat de positie van het silhouet overeenkomen en plaats de sentry weer neer met %attack%."
 
 "TR_Eng_SentryAttackTitle"	"Verdedigen!"
@@ -13538,15 +13841,11 @@ Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
 
 "TR_DemoRush_HintCart"		"Springladingkar"
 "TR_DemoRush_EndDialog"		"Geweldig! Je hebt je team geholpen om het eerste niveau in %s1 te winnen en hebt Demoman-training voltooid!\n\nSpy-training is nu ontgrendeld! Kies het TRAINING-icoon op het hoofdmenu om hem uit te proberen.\n\nBen je klaar om het online tegen andere spelers op te nemen? Druk dan op SPEL ZOEKEN in het hoofdmenu."
-
-//engineer training - UNUSED DO NOT SHIP
-"TR_Eng1_IntroTitle"		"Verdedig het punt"
 "TR_Eng1_Intro"			"Welkom bij Dustbowl. Je verdedigt de tweede Controlepost op team RED."
 "TR_Eng1_DefenseTitle"		"Vastgestelde verdediging"
 "TR_Eng1_Defense"		"De Engineer helpt zijn team met bepaalde structuren die verdediging, gezondheid, munitie en transportatie naar de voorlinie verstrekken!"
 "TR_Eng1_TeleTitle"		"De Teleporter"
 "TR_Eng1_Tele"			"Een teleporter kan je team helpen met aanvallen of verdedigen door teamleden snel naar de voorlinie te verplaatsen."
-"TR_Eng1_TeleBuild"		"Bouw een teleporteringang dichtbij de spawn op de aangegeven positie om door te gaan."
 "TR_Eng1_TeleBuildHint"		"Plaats ingang hier"
 "TR_Eng1_TeleBuildHintExit"	"Plaats uitgang hier"
 "TR_Eng1_TeleExit"		"Een teleporter heeft altijd een bijbehorende uitgang of ingang nodig. Bouw een uitgang op de aangegeven positie om verder te gaan."
@@ -13766,7 +14065,6 @@ Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
 "TF_CollectionCrafting_Halloween_Paragraph3" "TWIJFEL AAN JE ZINTUIGEN door de schrik van\nEEN ZENUWSLOPENDE BONUS na elke tien repulsieve ruilen!"
 "TF_CollectionCrafting_Halloween_Explanation_Overview_Title"	"Halloween-transformaties"
 "TF_CollectionCrafting_Halloween_Explanation_Overview_Text"	"Hier kun je 3 voorwerpen omtoveren tot een 'klassiek' Halloween-voorwerp dat niet geruild, op de markt verkocht of bij ontwerpen gebruikt kan worden. Alleen bepaalde voorwerpen kunnen gebruikt worden in een transformatie."
-"TF_CollectionCrafting_Halloween_Explanation_ItemToTrade_Title"	"Items om te transformeren"
 "TF_CollectionCrafting_Halloween_Explanation_ItemToTrade_Text"	"Klik hier om voorwerpen toe te voegen die je wilt transformeren. Alleen geldige voorwerpen zullen getoond worden als je een voorwerp om te transformeren gaat selecteren."
 
 "TF_CollectionCrafting_Result0"		"Je hebt omhoog geruild voor:"
@@ -14048,11 +14346,8 @@ Deze knop geeft je Steam Overlay weer om je door het afrekenproces te leiden."
 "TF_GameModeDesc_CP"			"Verover alle punten om te winnen."
 "TF_GameModeDetail_CP"			"Om te winnen moet elk team alle controleposten bezitten.\n\nSommige controleposten zijn vergrendeld totdat anderen zijn veroverd."
 "TF_GameModeDesc_Escort"		"BLU duwt de kar over het spoor. RED moet ze tegenhouden."
-"TF_GameModeDetail_Escort"		"Team BLU wint door de springlading naar de vijandelijke basis te escorteren. Als je in de buurt van de springlading staat beweegt het.\n\nTeam RED wint door te voorkomen dat de springlading het hart van hun basis bereikt.\n\nVijanden kunnen de springlading blokkeren door er in de buurt van te staan."
 "TF_GameModeDesc_EscortRace"	"Twee teams. Twee bommen. Twee sporen.\nGegarandeerde hilariteit."
-"TF_GameModeDetail_EscortRace"	"Escorteer je springladingkar naar de eindstreep voordat het vijandelijke team die van hen bezorgt.\n\nSta in de buurt van de kar om hem te bewegen."
 "TF_GameModeDesc_Koth"			"Eèn team moet èèn punt behouden totdat de tijd op is."
-"TF_GameModeDetail_Koth"		"Verover de controlepost en verdedig hem totdat de timer van je team is afgelopen.\n\nDe controlepost kan niet veroverd worden als hij vergrendeld is.\n\nAls het vijandelijke team de controlepost pakt, pauzeert de timer van jouw team totdat je het punt herverovert."
 "TF_GameModeDesc_HalloweenMix"		"Speel op alle Halloween-eventmaps."
 "TF_GameModeDetail_HalloweenMix"	"Maak een rondreis door alle Halloween-maps, uit het heden en verleden: Gorge Event (2015), Sinshine (2015), Moonshine Event (2015), Hellstone (2015), Carnival of Carnage (2014), Helltower (2013), Ghost Fort (2012), Eyeaduct (2011), Mann Manor (2010) en Harvest (2009)."
 "TF_GameModeDesc_Halloween247"		"Speel alle Halloween-communitymaps van 2015."
@@ -14211,6 +14506,7 @@ je er meer mag verzenden."
 // Armory
 "ArmoryFilter_AllItems"		"Alle voorwerpen"
 "ArmoryFilter_Weapons"		"Wapens"
+"ArmoryFilter_MiscItems"	"Cosmetica"
 "ArmoryFilter_ActionItems"	"Actievoorwerpen"
 "ArmoryFilter_CraftItems"	"Ontwerpvoorwerpen"
 "ArmoryFilter_Tools"		"Gereedschap"
@@ -14508,6 +14804,7 @@ je er meer mag verzenden."
 "IT_Apply"				"Toepassen"
 
 "IT_TestingSlot_Weapon"		"Wapen:"
+"IT_TestingSlot_Misc2"		"Cosmetica 3:"
 "IT_TestingSlot_Empty"		"<geen>"
 
 "IT_BotAddition_Title"		"Bots:"
@@ -14616,6 +14913,7 @@ je er meer mag verzenden."
 "Tooltip_simple_disguise_menu_option" "Het beknopte vermommingsmenu voor de Spy is een alternatief menu dat meerdere toetsindrukkingen nodig heeft in het vermommingsproces, maar alleen de nummertoetsen 1 tot en met 4 gebruikt."
 "Tooltip_CombatText"		"Als je dit hebt ingesteld, zul je schade-aantallen zien boven de hoofden van vijanden wanneer je ze verwondt."
 "Tooltip_CombatTextBatching" "Als je dit hebt ingesteld en je de schadetekstoptie gebruikt, zullen meerdere treffers na elkaar op hetzelfde doelwit worden samengevoegd tot een enkel getal."
+"Tooltip_CombatTextColors"	"Verander de tekstkleur die boven het hoofd van je doelwit verschijnt."
 "Tooltip_CombatTextRed"		"Roodkanaal schadetekst (standaard: 255)"
 "Tooltip_CombatTextGreen"	"Groenkanaal schadetekst (standaard: 0)"
 "Tooltip_CombatTextBlue"	"Blauwkanaal schadetekst (standaard: 0)"
@@ -14636,6 +14934,7 @@ je er meer mag verzenden."
 "Tooltip_ReplayPyroVision" "Als je dit hebt ingesteld, zie je replays in Pyro-visie"
 "Tooltip_CombatTextDoesntBlock"	"Als je dit hebt ingesteld, zal schadetekst niet voorkomen dat de tekst van bonuseffecten ook boven de hoofden van spelers verschijnt (bijv. \"CRIT!\")."
 "ToolTip_HudPlayerClassUsePlayerModel"	"Als je dit hebt ingesteld, zal de karakterklasse op de HUD het echte spelersmodel gebruiken."
+"Tooltip_EnableVoiceChat"		"Als je dit hebt ingesteld, wordt spraakcommunicatie in het spel toegestaan"
 "Tooltip_EnableTextChat"		"Staat tekstcommunicatie in het spel toe, indien ingeschakeld"
 "TFOption_httpproxy"		"HTTP-proxy:"
 "Tooltip_httpproxy"			"Als je achter een HTTP-proxy zit moet je daar hier meer informatie over geven, anders kan je geen films naar YouTube uploaden."
@@ -14745,6 +15044,8 @@ je er meer mag verzenden."
 "TF_PVE_Player_UsedBuildingUpgrade"	"%player% heeft zijn of haar CONSTRUCTIE-UPGRADE-veldfles gebruikt!"
 "TF_PVE_Server_Message_Reset" 		"Volgende missie wordt over %s1 seconden geladen..."
 "TF_PVE_Server_Message_ResetNoS" 	"Volgende missie wordt over %s1 seconde geladen..."
+"TF_PVE_Server_Message_Kick" 		"Je gaat over %s1 seconde terug naar het hoofdmenu..."
+"TF_PVE_Server_Message_KickNoS" 	"Je gaat over %s1 seconde terug naar het hoofdmenu..."
 "TF_PVE_Server_GCDownHeader" "Voorwerpserver momenteel niet beschikbaar"
 "TF_PVE_Server_GCDownMessage" "Tickets en waardebonnen zullen worden omgewisseld voor voorwerpen wanneer de server weer beschikbaar is"
 "TF_PVE_Server_SquadVoucherMissing" "Surplus-waardebon is verwijderd door de speler. Er zullen geen waardebonvoorwerpen worden uitgedeeld."
@@ -15376,14 +15677,11 @@ je er meer mag verzenden."
 "Tip_MvM_10_3"		"Tip: Gevallen credits verdwijnen na korte tijd"
 "Tip_MvM_10_4"		"Tip: Bonuscredits worden uitgereikt als alle credits in een ronde worden verzameld"
 "Tip_MvM_10_5"		"Tip: Nieuwe klassevaardigheden zijn beschikbaar in Mann vs. Machine. Bekijk een overzicht op het klasseselectiescherm!"
-"Tip_MvM_10_6"		"Tip: Hologrammen tonen het pad dat de bomdragende robot zal volgen"
 "Tip_MvM_10_7"		"Tip: Je kunt indien nodig je klasse en wapens veranderen. Onthoud wel dat je upgrades op die wapens en klasses achterblijven!"
 "Tip_MvM_10_8"		"Tip: Hoe langer een robot de bom draagt, des te krachtiger hij wordt."
 "Tip_MvM_10_9"		"Tip: Je kunt snel respawnen door op '%+use_action_slot_item%' te drukken, maar let op, het kan na verloop van tijd erg duur worden!"
 "Tip_MvM_10_10"		"Tip: Veldflessen geven je toegang tot onmiddellijke voltreffers, über, en meer. Plaats het in je actievak en koop ladingen bij het Upgradestation. Activeer het met '%+use_action_slot_item%'!"
 "Tip_MvM_10_11"		"Tip: Er is maar één bom nodig om een faciliteit te vernietigen"
-"Tip_MvM_10_12"		"Tip: Bomdragers kunnen teruggeduwd worden. De luchtstoot van een Pyro of de woede van een Heavy kunnen je team wat meer zorg besparen!"
-
 "NewItemMethod_MvMBadgeCompletionReward"			"Je hebt wat gekregen:"
 "NewItemMethod_MvMSquadSurplusReward"			"Ontvangen surplus:"
 "Attrib_SquadSurplusClaimerAccountID"	"Troep overschot opgeëist door: %s1"
@@ -15792,7 +16090,6 @@ je er meer mag verzenden."
 "TF_SteamWorkshop_Tag_PassTime"			"PASS-tijd"
 "TF_SteamWorkshop_Tag_PD"	"Spelervernietiging"
 
-"TF_SteamWorkshop_PopulatingList"		"Lijst met gepubliceerde Steam Workshop-items wordt opgehaald."
 "TF_SteamWorkshop_Error"		"Fout"
 "TF_SteamWorkshop_ErrorText"		"Er is een probleem opgetreden tijdens het communiceren met de Steam Workshop-server."
 "TF_SteamWorkshop_DeletingFile"		"Steam Workshop-item wordt verwijderd."
@@ -15985,7 +16282,6 @@ je er meer mag verzenden."
 "AbuseReport_ContentLabel"	"Aanstootgevende inhoud:"
 "AbuseReport_CategoryLabel"	"Aanstootgevende categorie:"
 "AbuseReport_NoAvatar"	"(Speler heeft geen avatarafbeelding)"
-"AbuseReport_NoCustomTextures"	"(Speler heeft geen items met decals)"
 "AbuseReport_DescriptionLabel"	"Omschrijving:"
 "AbuseReport_Submit"	"Verzenden"
 "AbuseReport_Discard"	"Verwerpen"
@@ -16040,6 +16336,8 @@ je er meer mag verzenden."
 "TF_DailyGiftGiverRewardHat_Desc"	"Gefeliciteerd, je hebt gisteren meer geschenken gegeven dan alle andere TF2-spelers! Draag dit met trots voordat hij morgen weer naar iemand anders doorschuift."
 "TF_DailyDuelWinnerRewardHat"		"Duelleerder"
 "TF_DailyDuelWinnerRewardHat_Desc"	"Gefeliciteerd, je hebt gisteren meer duels gewonnen dan alle andere TF2-spelers! Draag dit met trots voordat hij morgen weer naar iemand anders doorschuift."
+
+"TF_Heavy_Robot_Ushanka_Hat"		"De Oe-klank-a" // ADD THE
 "TF_Heavy_Robot_Ushanka_Hat_Desc"	"Rooster deze stalen oesjanka in het vuur en draag hem op je hoofd voor warmte gedurende de hele dag. Denk er wel aan om een indrukwekkend klinkend verhaal te verzinnen over waarom je al die derdegraads brandwonden hebt."
 "TF_Spy_Robot_Fedora"				"De Stalen Sluiperd" // ADD THE
 "TF_Spy_Robot_Fedora_Desc"			"Hebben rugsteken hun charme verloren? Is sluipen te simpel? Probeer deze metalen hoed van 7 kilo op je hoofd te dragen! Geniet van de extra uitdaging van het voorkomen dat je je nek breekt terwijl je sentry's sapt! Dit is ruggengraatverpletterend entertainment!"
@@ -16157,11 +16455,13 @@ je er meer mag verzenden."
 "TF_Weapon_Axtinguisher_Festive2012"	"Feestelijke Bijlblusser"
 "TF_Weapon_BuffBanner_Festive2012"		"Feestelijk Versterkende Banier"
 "TF_Weapon_Sandvich_Festive2012"		"Feestelijke Sandvich"
+"TF_Weapon_Ubersaw_Festive2012"			"Feestelijke Überzaag"
 "TF_Weapon_FrontierJustice_Festive2012"	"Feestelijke Grensgerechtigheid"
 "TF_Weapon_Huntsman_Festive2012"		"Feestelijke Jachtman"
 "TF_Weapon_Ambassador_Festive2012"		"Feestelijke Ambassadeur"
 "TF_Weapon_GrenadeLauncher_Festive2012"	"Feestelijke Granaatwerper"
 
+"TF_Weapon_ForceANature_Festive2013"		"Feestelijke Kracht-der-Natuur"
 "TF_Weapon_CrusaderCrossbow_Festive2013"	"Feestelijke Kruisvaarderskruisboog"
 "TF_Weapon_Sapper_Festive2013"				"Feestelijke Sapper"
 "TF_Weapon_Flaregun_Festive2013"			"Feestelijk Lichtpistool"
@@ -16262,6 +16562,7 @@ je er meer mag verzenden."
 "TF_taunt_maggots_condolence_Desc"	"Door de community gemaakte Soldier-bespotting\nLaat die maden zien waar ze thuishoren!"
 "TF_taunt_maggots_condolence_AdText"	"- Door de community gemaakte Soldier-bespotting\n- Laat die maden zien waar ze thuishoren!"
 "TF_zoomin_broom"	"Bespotting: Bliksemse Bezem"
+"TF_zoomin_broom_Desc"	"Door de community gemaakte bespotting voor alle klassen\nLaat ze zien wie de beste bezemkunsten heeft!\n\nGebruik vooruit en achteruit om te bewegen\n en beweeg opzij om te draaien."
 "TF_zoomin_broom_AdText"	"- Door de community gemaakte bespotting voor alle klassen\n- Laat ze zien wie de beste bezemskills heeft!"
 
 "TF_TauntAllClassKart"				"Bespotting: De Ereronde"
@@ -16593,6 +16894,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_jul13_positive_pressure_veil_Desc"			"\"Ademen vind ik aangenaam, maar soms is er luchtstank. Nu lach ik de lucht uit. Bedankt, deze hoed.\" (Beschrijving vertaald vanuit het Duits.)"
 "TF_jul13_emergency_supplies"			"Das Betervoelenbager"
 "TF_jul13_emergency_supplies_Desc"			"\"Hallo, oorlogsman! Jij bent binnenkort dood. Hier zijn pillen.\" (Beschrijving vertaald vanuit het Duits.)"
+"TF_jul13_secret_state_surgeon"			"Das Übersternmann"
 "TF_jul13_secret_state_surgeon_Desc"			"\"Jij bent niet belangrijk maar ik wel. Mijn hoed is een geheime hoed.\" (Beschrijving vertaald vanuit het Duits.)"
 "TF_jul13_heavy_defender"			"Das Metaalvlezencasen"
 "TF_jul13_heavy_defender_Desc"			"\"Er zit kracht in je stalen boezemblouse. Je borstvlees is op zijn gemak.\" (Beschrijving vertaald vanuit het Duits.)"
@@ -16717,7 +17019,6 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_fall2013_superthief_Desc"		"Frans voor 'De Hamburgerdief.'"
 "TF_fall2013_escapist"		"Ontsnapper"
 "TF_fall2013_neo_tokyo_runner"		"De Flapjacket" // ADD THE
-"TF_fall2013_medic_wc_beard"		"Dichtbij de Dood"
 "TF_fall2013_medic_wc_hair"		"Het Gladde Kapsel" // ADD THE
 "TF_fall2013_spy_fancycoat"		"De Formele Fransman" // ADD THE
 "TF_fall2013_spy_fancycoat_style1"		"Opzichtig"
@@ -17093,6 +17394,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_cc_summer2015_white_russian"		"White Russian"
 "TF_cc_summer2015_el_duderino"		"El Duderino"
 "TF_invasion_taunt_burstchester"		"Bespotting: Borstbreker"
+"TF_invasion_taunt_burstchester_desc"	"Door de community gemaakte bespotting voor alle klassen"
 "TF_invasion_captain_space_mann"		"Kapitein Ruimtemann"
 "TF_invasion_phononaut"		"Telefonaut"
 "TF_invasion_corona_australis"		"Corona Australis"
@@ -17104,6 +17406,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_invasion_life_support_system"		"Levensondersteunend Systeem"
 "TF_invasion_rocket_operator"		"Raketoperateur"
 "TF_invasion_universal_translator"		"Universele Vertaler"
+"TF_invasion_universal_translator_Style0"	"Koptelefoon (alleen Scout)"
 "TF_invasion_universal_translator_Style1"	"Geen koptelefoon (alleen Scout)"
 "TF_invasion_cadet_visor"		"Kadettenvizier"
 "TF_invasion_a_head_full_of_hot_air"		"Een Hoofd Vol Hete Lucht"
@@ -17148,9 +17451,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_bak_buttler"				"Buttler"
 "TF_bak_teufort_knight"			"Teufort Knight"
 "TF_bak_sidekicks_side_slick"	"Haardos van het Hulpje"
-"TF_bak_sidekicks_side_slick_style1_NoHat"	"Stijl 1 zonder hoed"
 "TF_bak_sidekicks_side_slick_style1_Hat"	"Stijl 1 met hoed"
-"TF_bak_sidekicks_side_slick_style2_NoHat"	"Stijl 2 zonder hoed"
 "TF_bak_sidekicks_side_slick_style2_Hat"	"Stijl 2 met hoed"
 "TF_bak_bat_backup"				"De Bat-bijstand" // ADD THE
 "TF_bak_crook_combatant"		"Boevenbevechter"
@@ -17326,6 +17627,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_taunt_shipwheel"						"Bespotting: De Dronken Zeeman"
 "TF_Taunt_shipwheel_Desc"					"Door de community gemaakte Demoman-bespotting\n\nPrimair en alt-vuur laten je verschillende bewegingen gebruiken"
 "TF_Taunt_shipwheel_AdText"					"- Door de community gemaakte Demoman-bespotting\n- Primair en alt-vuur laten je verschillende bewegingen gebruiken"
+"TF_taunt_the_profane_puppeteer"			"Bespotting: De Bitse Buikspreker"
 "TF_taunt_the_profane_puppeteer_Desc"		"Door de community gemaakte Soldier-bespotting"
 "TF_taunt_the_profane_puppeteer_AdText"		"- Door de community gemaakte Soldier-bespotting"
 "TF_taunt_the_mannbulance"					"Bespotting: De Mannbulance!"
@@ -17339,6 +17641,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_tauntdoctors_defibrillators"			"Bespotting: Dokters Defibrillators"
 "TF_tauntdoctors_defibrillators_Desc"		"Door de community gemaakte Medic-bespotting"
 "TF_tauntdoctors_defibrillators_AdText"		"- Door de community gemaakte Medic-bespotting"
+"TF_tauntshooters_stakeout"					"Bespotting: Schutters Surveillance"
 "TF_tauntshooters_stakeout_Desc"			"Door de community gemaakte Sniper-bespotting"
 "TF_tauntshooters_stakeout_AdText"			"- Door de community gemaakte Sniper-bespotting"
 "TF_taunt_the_hot_wheeler"					"Bespotting: De Hot Wheeler"
@@ -17444,6 +17747,11 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_taunt_healthcarehog_AdText"				"- Door de community gemaakte Scout-bespotting"
 "TF_taunt_ring_king_Desc"					"Door de community gemaakte Heavy-bespotting"
 "TF_taunt_ring_king_AdText"					"- Door de community gemaakte Heavy-bespotting"
+"TF_taunt_dead_manns_drink_Desc"			"Door de community gemaakte Demoman-bespotting"
+"TF_taunt_dead_manns_drink_AdText"			"- Door de community gemaakte Demoman-bespotting"
+"TF_taunt_the_critical_fail_Desc"			"Door de community gemaakte bespotting voor alle klassen"
+"TF_taunt_the_critical_fail_AdText"			"- Door de community gemaakte bespotting voor alle klassen"
+"TF_taunt_chairholder_AdText"				"- Door de community gemaakte Scout-bespotting"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"De Ademzak"	// ADD THE
@@ -17609,6 +17917,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_fall17_crit_cloak_Desc"	" "
 "TF_fall17_firemans_essentials"	"Brandweersbenodigdheden"
 "TF_fall17_firemans_essentials_Desc"	" "
+"TF_fall17_deyemonds"	"Diamantogen"
 "TF_fall17_deyemonds_Desc"	" "
 "TF_fall17_deitys_dress"	"Godheidsgedracht"
 "TF_fall17_deitys_dress_Desc"	" "
@@ -17685,6 +17994,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 
 "TF_hwn2018_shell_of_a_mann"	"Een Mannelijk Schild"
 "TF_hwn2018_dell_in_the_shell"	"Dell in het Schild"
+"TF_hwn2018_terror_antula"	"Terror-antula"
 "TF_hwn2018_deadbeats"	"Pipse Puls"
 "TF_hwn2018_deadbeats_Style0"	"Hoed"
 "TF_hwn2018_deadbeats_Style1"	"Geen hoed"
@@ -17708,6 +18018,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2018_aimbot_assistant_style1"	"Normaal"
 "TF_hwn2018_aimbot_assistant_style2"	"Mini"
 "TF_hwn2018_mini_engy"	"Mini-Engy"
+"TF_hwn2018_dressperado"	"Geklede Gladjakker"
 "TF_hwn2018_bandits_boots"	"Misdadigersmuilen"
 "TF_hwn2018_murderers_motif"	"Moordenaarsmotief"
 "TF_hwn2018_gaelic_glutton"	"Gaelische Gulzigaard"
@@ -17861,43 +18172,63 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec19_pocketmedes_style0"			"Buideltje"
 "TF_dec19_pocketmedes_style1"			"Bandje"
 "TF_dec19_spiky_viking"				"Puntige Viking"
+"TF_dec19_spiky_viking_style0"			"De Kleverige Wijze"
 "TF_dec19_missing_piece"			"Ontbrekend Stukje" // ADD THE
 "TF_dec19_mislaid_sweater"			"Zoekgemaakte Trui" // ADD THE
 
+"TF_sum20_spectre_cles"			"Hypnogen"
 "TF_sum20_spectre_cles_style1"		"Glimmend"
 "TF_sum20_spectre_cles_style2"		"Tollend"
 "TF_sum20_breadcrab"			"Broodkrab"
+"TF_sum20_loaf_loafers"			"Broodsloffen"
 "TF_sum20_loaf_loafers_style1"		"Vers gebakken"	
 "TF_sum20_loaf_loafers_style2"		"Vers geteleporteerd"
 "TF_sum20_sophisticated_smoker"	"Geraffineerde Roker" // ADD THE
 "TF_sum20_flamehawk"			"Vlammenkam"
 "TF_sum20_fire_fighter_style1"		"Ultra"
 "TF_sum20_crabe_de_chapeau"		"Crabe de Chapeau"
+"TF_sum20_birds_eye_viewer"		"Vogelperspectief"
 "TF_sum20_birds_eye_viewer_style1"	"Burger"
 "TF_sum20_birds_eye_viewer_style2"	"Informant"
 "TF_sum20_hawk_warrior"			"Havikskrijger"
+"TF_sum20_bazaar_bauble"		"Soldaatje-uit-een-doosje"
 "TF_sum20_head_of_defense"		"Hoofd Defensie"
 "TF_sum20_head_of_defense_style1"	"Handhaver"
 "TF_sum20_head_of_defense_style2"	"Beschermer"
+"TF_sum20_hazard_headgear"		"Gehelmd gevaar"
 "TF_sum20_soda_specs"			"Bruisende Bril"
 "TF_sum20_soda_specs_style1"		"Bonk"
 "TF_sum20_soda_specs_style2"		"Crit-a-Cola"
+"TF_sum20_california_cap"		"Op z'n Californisch"
+"TF_sum20_poolside_polo"		"Zwembadshirt"
+"TF_sum20_jarmaments"			"Jarnaten" // ADD THE
+"TF_sum20_flatliner"			"Dokter Hartman" // ADD THE
+"TF_sum20_self_care"			"Zelfzorg"
 "TF_sum20_momma_kiev"			"Mama Kiev"
 "TF_sum20_momma_kiev_style1"		"Standaard"
 "TF_sum20_momma_kiev_style2"		"Kameraad"
+"TF_sum20_smoking_jacket"		"Rokersjaquet"
+
 "TF_hwn2020_impish_ears_WithHat"		"Hoed"
 "TF_hwn2020_impish_ears_WithNoHat"		"Geen hoed"
+"TF_hwn2020_balloonicorpse"			"Ballonlijk"
+"TF_hwn2020_gourd_grin"				"Kalachbas"
 "TF_hwn2020_hollowed_helm"			"Holle Helm"
 "TF_hwn2020_handy_thing"			"Een Handig Hoofdding"
 "TF_hwn2020_handy_thing_style1"			"Vers"
 "TF_hwn2020_handy_thing_style2"			"Verlopen"
 "TF_hwn2020_king_cardbeard"			"Koning Kartonbaard"
+"TF_hwn2020_wrap_a_khamon"			"Hoedanchamon"
+"TF_hwn2020_wrap_a_khamon_style1"		"Pronkerig"
 "TF_hwn2020_wrap_a_khamon_style2"		"Verlegen"
+"TF_hwn2020_boom_boxers"			"Onthuld Ondergoed" // ADD THE
 "TF_hwn2020_eye_see_you_Style_WithHat"		"Hoed"
 "TF_hwn2020_eye_see_you_Style_WithNoHat"	"Geen hoed"
 "TF_hwn2020_handsome_devil"			"Knappe Duivel"
 "TF_hwn2020_handsome_devil_Style_WithNoHat"		"Geen hoed"
 "TF_hwn2020_handsome_devil_Style_WithHat"		"Hoed"
+"TF_hwn2020_misfortune_fedora"		"Onfortuinlijke Fedora"
+"TF_hwn2020_war_blunder"			"Oorlogsblunder"
 "TF_hwn2020_rolfe_copter"			"Rolfkopter"
 "TF_hwn2020_pug_mug"				"Mopskop" // ADD THE
 "TF_hwn2020_pug_mug_style1"				"Verf: kraag"
@@ -17919,8 +18250,10 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2020_glow_below"				"Gloed van Onder"
 "TF_hwn2020_glow_below_style1"			"Verf: vinnen"
 "TF_hwn2020_glow_below_style2"			"Verf: lichaam"
+"TF_hwn2020_goblineer"				"Kobolgineer"
 "TF_hwn2020_goblineer_style1"			"Normaal"
 "TF_hwn2020_goblineer_style2"			"Zombie"
+"TF_hwn2020_ghoul_box"				"Ghoulkist" // ADD THE
 "TF_hwn2020_hallows_hatte"			"Allerheiligenhoed"
 
 "TF_dec20_particulate_protector"	"Deeltjesbeschermer"
@@ -17940,6 +18273,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec20_festive_fascinator_style0"	"Vrolijk"
 "TF_dec20_festive_fascinator_style1"	"Blij"
 "TF_dec20_pile_of_presents"			"Torende Stapel van Cadeautjes"
+"TF_dec20_round_a_bout"				"Carrouselkroon" // ADD THE
 "TF_dec20_blitzen_bowl"				"Blitzen-bol"
 "TF_dec20_elf_care_provider"		"Elfenhulp Bij Ongelukken"
 "TF_dec20_night_ward"				"Nachtafdeling"
@@ -17951,9 +18285,12 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec20_killing_tree"				"Koude Kerst" // ADD THE
 "TF_dec20_helm_helm"				"Helmstokhelm"
 
+"TF_sum21_ballooniphones"			"Ballontelefoon"
+"TF_sum21_manndatory_attire"		"Zakenmann"
 "TF_sum21_manndatory_attire_style1"		"Specialist"
 "TF_sum21_manndatory_attire_style2"		"Hobbyist"
 "TF_sum21_manndatory_attire_style3"		"Generalist"
+"TF_sum21_brim_of_fire"				"Op de Rand van de Hel"
 "TF_sum21_reel_fly_hat"				"Vliegende Vissershoed"
 "TF_sum21_hook_line_cinder"			"Aan het Lijntje Houden"
 "TF_sum21_water_waders"				"Waterwaders"
@@ -17999,6 +18336,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2021_hat_outta_hell_style0"		"Verdoemd"
 "TF_hwn2021_hat_outta_hell_style1"		"Demon"
 "TF_hwn2021_hat_outta_hell_style2"		"Duivel"
+"TF_hwn2021_goalkeeper"				"Doelmann"
 "TF_hwn2021_bone_cone"				"Knokenkegel" // ADD THE
 "TF_hwn2021_bone_cone_style0"			"Kille botten"
 "TF_hwn2021_bone_cone_style1"			"Zere huid"
@@ -18028,20 +18366,37 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec21_gnome_dome_style1"			"Tuin"
 "TF_dec21_gnome_dome_style2"			"Klassiek"
 "TF_dec21_gnome_dome_style3"			"Elf"
+"TF_dec21_jolly_jester"				"Vrolijke Nar"
+"TF_dec21_seasonal_spring"			"Seizoensgebonden Springveer"
 "TF_dec21_oh_deer_style0"				"Neus"
 "TF_dec21_oh_deer_style1"				"Neusloos"
+"TF_dec21_giftcrafter"				"Geschenkenschepper" // ADD THE
 "TF_dec21_brain_cane"				"Breinstok"
+"TF_dec21_reindoonihorns"			"Rendonhoorns"
 "TF_dec21_festive_frames"			"Feestelijk Frame"
 "TF_dec21_festive_frames_style0"		"Feestelijk (geen hoed)"
 "TF_dec21_festive_frames_style1"		"Verfeestelijkt (geen hoed)"
 "TF_dec21_festive_frames_style2"		"Feestelijk (hoed)"
 "TF_dec21_festive_frames_style3"		"Verfeestelijkt (hoed)"
+"TF_dec21_elf_ignition_style1"			"Ingestopt"
 "TF_dec21_train_of_thought_style0"		"Noordpool"
 "TF_dec21_mooshanka"				"Moesjanka"
+"TF_dec21_elf_defence"				"Elfverdediging"
 "TF_dec21_seasonal_employee"		"Seizoensarbeider"
 "TF_dec21_seasonal_employee_style0"		"Noordpool"
 "TF_dec21_seasonal_employee_style1"		"Zuidpool"
+"TF_dec21_elf_made_bandanna"		"Elfgemaakte Bandana"
+
+"TF_sum22_decorated_veteran"	"Onderscheiden Veteraan" // ADD THE
 "TF_sum22_decorated_veteran_style0"		"Elite"
+"TF_sum22_decorated_veteran_style1"		"Commando"
+"TF_sum22_decorated_veteran_style2"		"Burger"
+"TF_sum22_kazan_karategi"		"Kazan Karategi"
+"TF_sum22_soda_cap"				"Sodapet"
+"TF_sum22_soda_cap_style0"				"Snor"
+"TF_sum22_soda_cap_style1"				"Gladgeschoren"
+"TF_sum22_fizzy_pharmacist"		"Bruisende Apotheker"
+"TF_sum22_fizzy_pharmacist_style0"		"Bruisend"
 "TF_sum22_fizzy_pharmacist_style1"		"Zonder prik"
 "TF_sum22_squatters_right_style0"		"Ruitje"
 "TF_sum22_squatters_right_style1"		"Leder"
@@ -18054,12 +18409,31 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_sum22_tropical_camo"		"Tropische Camouflage"
 "TF_sum22_tropical_camo_style0"			"Gewaagd"
 "TF_sum22_tropical_camo_style1"			"Bowling"
+"TF_sum22_hawaiian_hunter"		"Hawaïaanse Jager"
 "TF_sum22_hawaiian_hunter_style0"		"Gewaagd"
+"TF_sum22_hawaiian_hunter_style1"		"Saai"
+"TF_sum22_lawnmaker"			"Plantsoendienst" // ADD THE
 "TF_sum22_lawnmaker_style0"				"Hobby"
 "TF_sum22_lawnmaker_style1"				"Werk"
+"TF_sum22_hawaiian_hangover"	"Hawaïaanse Kater" // ADD THE
+"TF_sum22_hawaiian_hangover_style1"		"Granaten"
+"TF_sum22_chaser"				"Achtervolger" // ADD THE
+"TF_sum22_chaser_style1"				"Granaten"
+"TF_sum22_detective"			"Detective" // ADD THE
+"TF_sum22_tactical_turtleneck"	"Tactische Coltrui"
+"TF_sum22_monsieur_grenouille"	"Monsieur Grenouille"
+"TF_sum22_ripped_rider"			"Ruige Rijder" // ADD THE
+"TF_sum22_throttlehead_style0"			"Bril"
+"TF_sum22_team_player"			"Teamspeler" // ADD THE
+"TF_sum22_brain_bucket_style0"			"Honkbal"
 "TF_sum22_brain_bucket_style1"			"Bonk!"
+"TF_sum22_brain_bucket_style2"			"Kip"
+"TF_sum22_brain_bucket_style3"			"Klasselogo"
 "TF_sum22_brain_bucket_style4"			"Blanco"
+"TF_sum22_pests_pads_style0"			"Honkbal"
 "TF_sum22_pests_pads_style1"			"Bonk!"
+"TF_sum22_pests_pads_style2"			"Kip"
+"TF_sum22_pests_pads_style3"			"Klasselogo"
 "TF_sum22_pests_pads_style4"			"Blanco"
 
 "TF_hwn2022_beaten_bruised"	"Bont en Blauw"
@@ -18078,6 +18452,9 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2022_dustbowl_devil"	"Dustbowl-Duivel"
 "TF_hwn2022_more_gun_marshal"	"Maarschalk van Munitie"
 "TF_hwn2022_more_gun_marshal_style0"	"Beteugelaar"
+"TF_hwn2022_more_gun_marshal_style1"	"Onruststoker"
+"TF_hwn2022_more_gun_marshal_style2"	"Wurger"
+"TF_hwn2022_lavish_labwear"	"Luxe Laboratoriumkleding" // ADD THE
 "TF_hwn2022_victorian_villainy"	"Victoriaanse Verdorvenheid"
 "TF_hwn2022_victorian_villainy_style0"	"Mesjogge Medicus"
 "TF_hwn2022_victorian_villainy_style1"	"Gluiperige Geneesheer"
@@ -18094,24 +18471,101 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2022_alcoholic_automaton"	"Alcoholische Automaat"
 "TF_hwn2022_alcoholic_automaton_style0"	"Vonk"
 "TF_hwn2022_alcoholic_automaton_style1"	"Stoom"
+"TF_hwn2022_bombard_brigadier_style0"	"Fuselier"
+"TF_hwn2022_bombard_brigadier_style1"	"Grenadier"
+"TF_hwn2022_firearm_protector"	"Vuurwapenbeschermer"
 "TF_hwn2022_safety_stripes"	"Veiligheidsstrepen"
 "TF_hwn2022_cranial_cowl"	"Schedelkap"
 "TF_hwn2022_cranial_cowl_style0"	"Botten"
 "TF_hwn2022_cranial_cowl_style1"	"Bottenloos"
+"TF_hwn2022_hunting_cloak"	"Jagersmantel"
+"TF_hwn2022_mishas_maw"	"Misha's Muil"
 "TF_hwn2022_mishas_maw_style0"	"Siberische beer"
 "TF_hwn2022_mishas_maw_style1"	"IJsbeer"
 "TF_hwn2022_cabinet_mann"	"Automaatmann"
 "TF_hwn2022_fire_breather"	"Vuurspuwer" // ADD THE
+"TF_hwn2022_magical_mount"	"Magisch Rijdier"
+"TF_dec22_battle_bear"				"Strijdbeer"
+"TF_dec22_battle_bear_style1"			"Stijlvol"
 "TF_dec22_colonel_kringle"			"Kolonel Kerstmis"
+"TF_dec22_festive_rack"				"Feestelijk Gewei"
 "TF_dec22_festive_rack_style1"			"Normaal"
+"TF_dec22_partizan"					"Partizaan"
+"TF_dec22_soft_hard_hat"			"Zachte Helm" // ADD THE
+"TF_dec22_cool_warm_sweater"		"Coole Warme Trui" // ADD THE
 "TF_dec22_cool_warm_sweater_style1"		"Normaal"
+"TF_dec22_arctic_mole"				"Poolmol"
+"TF_dec22_arctic_mole_style2"			"Verf: bont"
+"TF_dec22_arctic_mole_style3"			"Verf: ogen"
+"TF_dec22_underminers_style1"			"Verf: trui"
+"TF_dec22_underminers_style2"			"Verf: alles"
+"TF_dec22_bulb_bonnet_style1"			"Feestelijk"
+"TF_dec22_bulb_bonnet_style2"			"Blanco"
+"TF_dec22_infiltrators_insulation"	"Isolatie van de Infiltreerder"
+"TF_dec22_plaid_lad_style2"				"Bakkebaarden"
+"TF_dec22_plaid_lad_style3"				"Saai"
+"TF_dec22_wooly_pulli"				"Pluizige Pulli" // ADD THE
+"TF_dec22_wooly_pulli_style1"			"Feestelijk"
 "TF_dec22_wooly_pulli_style3"			"Formeel"
+"TF_dec22_ol_reliable"				"Oude Vertrouwde"
+"TF_dec22_ol_reliable_style3"			"Taiga"
+"TF_dec22_heavy_heating_style3"			"Taiga"
+"TF_sum23_soho_sleuth"				"Speurder uit Soho" // ADD THE
+"TF_sum23_glorious_gambeson"		"Glorieuze Gambeson" // ADD THE
 "TF_sum23_cranium_cover"			"Schedelbeschutting"
+"TF_sum23_preventative_measure"		"Preventieve Maatregel"
+"TF_sum23_medical_emergency"		"Medisch Noodgeval"
+"TF_sum23_prohibition_opposition"	"Droogleggingsverzet"
+"TF_sum23_heavy_metal"				"Heavy Metal"
+"TF_sum23_blast_bowl_style2"			"Springer"
 "TF_sum23_shrapnel_shell"			"Granaatscherf" // ADD THE
+"TF_sum23_shrapnel_shell_style2"		"Springer"
+"TF_sum23_hazard_handler"			"Risicoregelaar"
 "TF_sum23_cleaners_cap"				"Reinigersmuts"
+"TF_sum23_cleaners_cap_style2"			"Verf: alles"
+"TF_sum23_professionnel"			"Le Professionnel"
+"TF_sum23_professionnel_style1"			"Coltrui"
+"TF_sum23_professionnel_style2"			"Singlet"
+"TF_sum23_close_quarters_style3"		"Alert"
+"TF_sum23_close_quarters_style4"		"Ontwijking"
+"TF_sum23_stealth_bomber_style2"		"Boscamouflage"
+
+"TF_hwn2023_lunatic_fedora_neon"		"Lachwekkend Lijpe Lunon-fedora"
+"TF_hwn2023_meancaptain"				"Kwaadaardige Captain" // ADD THE
 "TF_hwn2023_shortness_breath_Style1"		"Helm"
+"TF_hwn2023_dead_heat"					"Nek aan nek"
+"TF_hwn2023_thunder_dome"				"Donderkop"
+"TF_hwn2023_thunder_dome_style0"			"Bombarderend"
+"TF_hwn2023_thunder_dome_style1"			"Bestormend"
+"TF_hwn2023_thunder_dome_style2"			"Springend"
 "TF_hwn2023_stunt_suit"					"Stuntpak"
+"TF_hwn2023_stunt_suit_style0"				"Piloot"
+"TF_hwn2023_stunt_suit_style1"				"Waaghals"
+"TF_hwn2023_stunt_suit_style2"				"Wegwerker"
+"TF_hwn2023_mad_lad_style0"					"Panzerpletter"
+"TF_hwn2023_dell_dynamic"				"Dynamische Dell"
+"TF_hwn2023_constructors_cover"			"Bouwersbeschutting"
+"TF_hwn2023_classic_criminal"			"Klassieke Crimineel"
+"TF_hwn2023_concealed_convict"			"Verborgen Veroordeelde"
+"TF_hwn2023_medical_mummy"				"Medische Mummie"
+"TF_hwn2023_main_cast_style0"				"Kritiek"
+"TF_hwn2023_main_cast_style1"				"Levensbedreigend"
+"TF_hwn2023_bare_bear_bones"			"Blote Berenbotten"
+"TF_hwn2023_sightseer"					"Alziende Scherpschutter"
+"TF_hwn2023_sightseer_style0"				"Baard"
+"TF_hwn2023_sharpshooters_shroud"		"Schoudermantel van de Scherpschutter"
+"TF_hwn2023_last_laugh"					"De Laatste Lach" // ADD THE
+"TF_hwn2023_last_laugh_style0"				"Nar"
+"TF_hwn2023_last_laugh_style1"				"Jongleur"
+"TF_hwn2023_blastphomet"				"Knalphomet"
+"TF_hwn2023_spyder"						"Spynnenkostuum"
 "TF_hwn2023_carry_van"					"Sjouwto"
+"TF_hwn2023_fiercesome_fluorescence"	"Verlichte Vissenkop"
+"TF_hwn2023_fiercesome_fluorescence_style0"		"Angstaanjagend"
+"TF_hwn2023_fiercesome_fluorescence_style1"		"Vriendelijk"
+
+"TF_dec23_boarders_beanie"				"Boardersbeanie"
+"TF_dec23_boarders_beanie_style1"			"Gepersonaliseerd"
 "TF_dec23_cozy_coverup"					"Behaaglijke Dekking"
 "TF_dec23_cozy_coverup_style1_nohat"		"Warme Kop (geen hoed)"
 "TF_dec23_cozy_coverup_style2_nohat"		"Warme Oren (geen hoed)"
@@ -18122,11 +18576,29 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec23_trench_warefarer"				"Loopgraafsoldaat"
 "TF_dec23_wanderers_wool"				"Dwalersdos"
 "TF_dec23_wanderers_wool_style1"			"Vrolijk..?"
+"TF_dec23_wanderers_wool_style5"			"Straten"
+"TF_dec23_puffed_practitioner"			"Donzige Dokter" // ADD THE
+"TF_dec23_frigid_fashion"				"Koele Kledij" // ADD THE
+"TF_dec23_nightcap"						"Slaapmutsje"
+"TF_dec23_nightcap_style1"					"Diepe slaap"
+"TF_dec23_nightcap_style2"					"Snurkend"
+"TF_dec23_lazy_lounger"					"Sluimershirt"
+"TF_dec23_slumber_slacks"				"Droomdracht"
 "TF_dec23_clue_hairdo"					"Colum-bos"
+"TF_dec23_clue_hairdo_style1"				"Onopgeloste Zaak"
+"TF_dec23_clue_hairdo_style2"				"Opgeloste Zaak"
+"TF_dec23_clue_hairdo_style3"				"Hopeloze Zaak"
 "TF_dec23_sleuth_suit"					"Speurderspak"
 "TF_dec23_sleuth_suit_style1"				"Dagdienst"
+"TF_dec23_sleuth_suit_style2"				"Vrije Dag"
+"TF_dec23_sleuth_suit_style3"				"Overwerk"
+"TF_dec23_sleuth_suit_style4"				"Nachtdienst"
 "TF_dec23_strasbourg_scholar"			"Franse Filosoof"
+"TF_dec23_covert_covers"				"Winterse Dekmantel" // ADD THE
 "TF_dec23_scruffed_stitched"			"Smerig Steekwerk"
+"TF_dec23_masked_loyalty"				"Gemaskerde Loyaliteit"
+"TF_dec23_torchers_trench_coat"			"Brandstichters Bedekking"
+"TF_dec23_bonk_beanie"					"Bonkmuts"
 "TF_sum24_botler_2000"					"Robutler 2000"
 "TF_sum24_botler_2000_style1"				"Dorstig"
 "TF_sum24_botler_2000_style2"				"Niet Dorstig"
@@ -18273,6 +18745,22 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec24_westcoat_style2"					"The Bad"
 "TF_dec24_westcoat_style3"					"The Ugly"
 "TF_dec24_snug_sharpshooter"			"Gezellige scherpschutter"
+
+"TF_sum25_team_cap"						"Teampet"
+"TF_sum25_cattlemans_kettle_style1"			"Ridder"
+"TF_sum25_cattlemans_kettle_style2"			"Schildknaap"
+"TF_sum25_sir_buildsalot"				"Heer Bouwveel"
+"TF_sum25_hunk_style3"						"Heilige Geest"
+"TF_sum25_mr_rostov"					"Meneer Rostov"
+"TF_sum25_hardcore_style1"					"Nuchter"
+"TF_sum25_hardcore_style2"					"Dronken"
+"TF_sum25_abyss"						"Diepzeeduiker" // ADD THE
+"TF_sum25_short_fuse"					"Kort Lontje"
+"TF_sum25_blindin_style1"					"Snor"
+"TF_sum25_le_sapeur_style1"					"Stijl 1"
+"TF_sum25_le_sapeur_style2"					"Stijl 2"
+"TF_sum25_le_sapeur_style3"					"Stijl 3"
+"TF_sum25_spy_ties_style5"					"Teamspeler"
 "TF_hwn2025_heat_shield_style1"				"Stijl 1"
 "TF_hwn2025_heat_shield_style2"				"Stijl 2"
 "TF_hwn2025_heat_shield_style3"				"Stijl 3"
@@ -18281,9 +18769,15 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_hwn2025_technicians_tunic_style2"		"Stijl 2"
 "TF_hwn2025_cigarillo_style1"				"Sjaal"
 "TF_hwn2025_poncho_style1"					"Kogels"
+"TF_hwn2025_poncho_style2"					"Geen Kogels"
 "TF_hwn2025_pantaloons_style1"				"Kogels"
+"TF_hwn2025_pantaloons_style2"				"Geen Kogels"
+"TF_hwn2025_buzz_kill_style2"				"Jeugdig"
 "TF_hwn2025_seamanns_style1"				"Pijp"
 "TF_hwn2025_seamanns_style2"				"Sigaar"
+"TF_hwn2025_one_man_convoy_style1"			"Verf: ogen"
+"TF_dec25_snow_merc_style1"					"Klasse"
+"TF_dec25_old_days_style1"					"Bolhoed"
 "TF_dec25_air_head_style1"					"Snor"
 "TF_dec25_air_head_style2"					"Geen snor"
 "TF_dec25_willis_warmer_style1"				"Niet ingestopt"
@@ -18292,6 +18786,7 @@ Vierpuntsdruktoets om te bewegen, triggers=sneller, A-knop voor volgende regel."
 "TF_dec25_scrooge_style2"					"Stijl 2"
 "TF_dec25_scrooge_style3"					"Stijl 3"
 "TF_dec25_scrooge_style4"					"Stijl 4"
+"TF_dec25_black_tie_style2"					"Feestverpester"
 "TF_style_bullets"						"Kogels"
 "TF_style_nobullets"					"Geen kogels"
 
@@ -18505,106 +19000,14 @@ Je kunt niet respawnen in de Arena-modus."
 
 "default_passtime_description"			"Pak de bal en scoor ermee!\nHelp bevriende baldragers het doel te bereiken.\nVerhinder dat baldragers van de tegenstander jouw doel bereiken.\nDruk op ATTACK om de bal te gooien of een pass te maken. Houd ATTACK ingedrukt om te richten of op een doel te vergrendelen.\nDruk op ATTACK3 als een teamlid de bal heeft om om een pass te vragen."
 
-"default_cp_description"			"Doel:
-Een team moet alle vijf controleposten bezitten om te winnen.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten."
-
-"default_koth_description"			"Doel:
-Verover de controlepost en verdedig het totdat je timer op is.
-
-Andere opmerkingen:
-De controlepost kan niet veroverd worden als het gesloten is.
-
-Als het vijandelijke team de controlepost verovert zal je eigen timer pauzeren totdat je het punt weer herovert."
-
 "default_mvm_description"			"Doel:
 Verdedig tegen de robotinvasie.
 Voltooi alle rondes om te winnen!"
-
-"cp_coldfront_description"			"Een communitymap gemaakt door \"Icarus\"
-
-Doel:
-Verover alle vijf controleposten om te winnen.
-
-Overige opmerkingen:
-Controleposten kunnen niet veroverd worden als ze gesloten zijn."
-
-"cp_dustbowl_description"			"Doel:
-Team BLU wint als het beide controleposten heeft veroverd in elk van de drie fasen, voordat de tijd om is. Team RED wint als het voorkomt dat beide controleposten worden veroverd.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten."
-
-"cp_degrootkeep_description"		  "Doel:
-Team RED wint door de laatste controlepost te verdedigen. Team BLU wint door de laatste controlepost te veroveren voordat de tijd op is.
-
-Verover controlepost A en B om toegang te krijgen tot de burcht. Verover controlepost C voordat de poort weer dicht gaat!
-
-Andere opmerkingen:
-Alles behalve eervol hand- en zwaardvechten is verboden!"
-
-"cp_fastlane_description"			"Een communitymap gemaakt door \"skdr\"
-
-Doel:
-Verover alle vijf controleposten om te winnen.
-
-Overige opmerkingen:
-Controleposten kunnen niet veroverd worden als ze gesloten zijn."
-
-"cp_process_final_description"			"Een communitymap gemaakt door Ian 'Scorpio Uprising' Cuslidge
- 
-Doel:
-Om te winnen moet een team alle vijf controleposten in zijn bezit hebben.
-
-Overige opmerkingen:
-Controleposten kunnen niet worden veroverd als ze gesloten zijn."
 
 "cp_standin_final_description"			"Een communitymap gemaakt door Ian 'Scorpio Uprising' Cuslidge
  
 Doel:
 Om te winnen moet een team alle drie controleposten in zijn bezit hebben."
-
-"cp_snakewater_final1_description"			"Een communitymap gemaakt door Toivo Sawen
-Doel:
-Verover alle vijf controleposten om te winnen.
-Overige opmerkingen:
-Controleposten kunnen niet veroverd worden als ze gesloten zijn."
-
-"cp_gorge_description"				"Doel:
-Team Red wint door de eigen controleposten te verdedigen. Team Blue wint door alle controleposten te veroveren voordat de tijd op is.
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten. Team Red kan niet de controle over een controlepost terugkrijgen als Blue het heeft veroverd."
-
-"cp_gravelpit_description"			"Doel:
-Team Red wint door de eigen controleposten te verdedigen. Team Blue wint door alle controleposten te veroveren voordat de tijd op is.
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten. Team Red kan niet de controle over een controlepost terugkrijgen als Blue het heeft veroverd."
-
-"cp_gullywash_final1_description"	"Een communitymap gemaakt door Jan 'Arnold' Laroy
-
-Doel:
-Verover alle vijf controleposten om te winnen.
-
-Overige opmerkingen:
-Controleposten kunnen niet veroverd worden als ze gesloten zijn."
-
-"cp_manor_event_description"		"Een communitymap gemaakt door \"YM\" en \"Rexy\"
-
-Doel:
-Team RED wint door de eigen controleposten te verdedigen. Team BLU wint door alle controleposten te veroveren voordat de tijd op is.
-
-Overige opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten. Team RED kan niet de controle over een controlepost terugkrijgen als BLU het heeft veroverd."
-
-"cp_mountainlab_description"		"Een communitymap gemaakt door \"3Dnj\"
-
-Doel:
-Team RED wint door de eigen controleposten te verdedigen. Team BLU wint door alle controleposten te veroveren voordat de tijd op is.
-
-Overige opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn gesloten. Team RED kan niet de controle over een controlepost terugkrijgen als BLU het heeft veroverd."
 
 "ctf_2fort_description"				"Doel:
 Je wint een punt door het koffertje met de vijandelijke inlichtingen te stelen en naar jouw kelder te brengen.
@@ -18626,38 +19029,11 @@ Je wint een punt door het koffertje met de vijandelijke inlichtingen te stelen e
 Verdere opmerkingen:
 Als spelers worden gedood, laten zij de inlichtingen vallen. Achtergelaten inlichtingen keren na 60 seconden weer terug naar de basis."
 
-"koth_viaduct_event_description"	"Doel:
-Verover de controlepost en verdedig het totdat de timer van je team op nul staat.
-
-Pas op voor MONOCULUS!
-
-
-Andere opmerkingen:
-De controlepost kan niet worden veroverd als het gesloten is.
-
-Als het vijandelijke team de controlepost heeft veroverd zal de timer van je eigen team pauzeren totdat je het punt weer herovert hebt.
-
-MONOCULUS! zal het eigendom van de controlepost resetten wanneer hij verschijnt."
-
 "default_payload_description"		"Doel:
 Begeleid de springlading naar de vijandelijke basis. Ga bij de springlading staan om deze in beweging te brengen.
 
 Verdere opmerkingen:
 Als de vijand de springlading te dicht nadert, wordt deze geblokkeerd."
-
-"default_payload_race_description"		"Doel:
-Breng je wagen met springlading eerder naar de finish dan de tegenpartij. Ga bij de wagen staan om deze in beweging te brengen.
-
-Verdere opmerkingen:
-Als de vijand de wagen te dicht nadert, wordt deze geblokkeerd."
-
-"plr_pipeline_description"		"Doel:
-Breng je wagen met springlading eerder naar de finish dan de tegenpartij. Ga bij de wagen staan om deze in beweging te brengen.
-
-Verdere opmerkingen:
-Win een van de eerste twee ronden zodat het startpunt van je wagen de volgende ronde verder naar voren ligt.
-
-Als de vijand de wagen te dicht nadert, wordt deze geblokkeerd."
 
 "sd_doomsday_description"		"Doel:
 Bezorg het Australium naar de kop van de raket om de ronde te winnen.
@@ -18670,40 +19046,6 @@ Een team moet alle zes territoriums beheersen om te winnen. Fasen worden gespeel
 
 Verdere opmerkingen:
 De rondes zullen doorgaan totdat één team alle gebieden heeft veroverd."
-
-"cp_steel_description"		"Variant van Aanvallen en Verdedigen!
-RED heeft 60 seconden om hun verdediging voor te bereiden voordat BLU mag aanvallen.
-Verdedig de middelste post E - onder de raket - totdat de tijd op is!
-
-Doel:
-BLU moet REDs middelste post E veroveren gedurende het spel om te winnen. Het veroveren van omliggende posten maakt de middelste post toegankelijker. De vijf posten doen het volgende:
-
-A) - Opent makkelijkere routes naar E en D
-B) - Verplaatst de spawn van RED verder van BLU vandaan
-C) - Verstrekt 3 bruggen naar het middelste punt
-D) - Blokkeert de uitgang van REDs spawn naar punt E en verstrekt rails naar E
-E) - BLU kan op ieder gegeven moment dit punt veroveren om het spel te winnen
-
-Andere Opmerkingen:
-Controleposten kunnen niet worden veroverd als ze gesloten zijn."
-
-"koth_lakeside_event_description"	"Doel:
-Verover de controlepost en verdedig hem totdat de timer van je team is afgelopen.
-
-Pas op voor MERASMUS!
-
-
-Andere opmerkingen:
-De controlepost kan niet veroverd worden als hij vergrendeld is.
-
-Als het vijandelijke team de controlepost pakt, pauzeert de timer van jouw team totdat je het punt herovert.
-
-MERASMUS! zal het eigendom van de controlepost resetten terwijl hij aanwezig is."
-
-"plr_hightower_event_description"	"Doel:
-Help de geest van Blutarch of Redmond Mann de grindoorlog voorgoed te winnen! Duw een oude, dode man in een rolstoel naar de hel voordat het andere team hetzelfde kan doen. Verzamel en gebruik dodelijke spreuken. Ga bij de wagen staan om deze in beweging te brengen.
-Verdere opmerkingen:
-Als de vijand de wagen te dicht nadert, wordt deze geblokkeerd."
 
 "default_rd_description"		"Doel:
 Om de ronde te winnen vernietig je de vijandelijke robots en verzamel je reactorkernen. Haal gestolen reactorkernen terug door de vijandelijke kluis binnen te dringen."
@@ -18739,12 +19081,6 @@ Je wint een punt door het koffertje met de vijandelijke inlichtingen te stelen e
 
 Verdere opmerkingen:
 Powerups kunnen opgepakt worden om je verschillende versterkingen te geven. Je kunt maar één powerup tegelijk dragen en je laat het vallen als je doodgaat. Je hebt toegang tot een grijphaak om rond de map te vliegen."
-
-"cp_snowplow_description"				"Doel:
-Team RED wint door de eigen controleposten te verdedigen. Team BLU wint door alle controleposten te veroveren voordat de gezondheid van de trein nul is.
-
-Verdere opmerkingen:
-Controleposten kunnen niet worden veroverd als ze zijn vergrendeld. Team RED kan de controle over een post niet terugkrijgen nadat Blue het heeft veroverd."
 
 "arena_byre_description"			"Doel:
 Je team moet ofwel alle spelers van het team van de tegenstander elimineren of beide controleposten veroveren en behouden.
@@ -18799,19 +19135,6 @@ Verzamel Australium-capsules van verslagen vijanden en lever ze af bij de centra
 
 Verdere opmerkingen:
 De spelers met het meeste Australium in ieder team delen automatisch gezondheid en munitie uit aan nabije teamgenoten, maar hun locatie wordt aan de vijanden onthuld."
-
-"tow_dynamite_description"			"Doel:
-Begeleid de springlading naar de vijandelijke basis en verdedig deze tot je tijd op is. Ga op de springlading staan om deze in beweging te brengen.
-
-Verdere opmerkingen:
-Als de vijand op de springlading staat, wordt deze geblokkeerd."
-
-"koth_overcast_final_description"			"Doel:
-Verover de controlepost en verdedig hem totdat je timer op is.
-
-Andere opmerkingen:
-Een gesloten controlepost kan niet veroverd worden.
-Als het vijandelijke team de controlepost verovert, stopt je eigen timer totdat je het punt weer herovert."
 
 "TF_hwn2024_Freaky_Fair_Kritz_Potion"   	    	"Kritz-drankje"
 "TF_hwn2024_Freaky_Fair_Uber_Potion"    	    	"Über-drankje"
@@ -18931,7 +19254,12 @@ Als het vijandelijke team de controlepost verovert, stopt je eigen timer totdat 
 "TF_MutePlayerCaps"					"SPELER DEMPEN"
 "TF_Disconnected"					"Verbinding verbroken"
 "TF_Muted"							"Gedempt"
+"TF_Chat_Unavailable"				"Tekstcommunicatie is niet beschikbaar voor dit account."
+"TF_Voice_Unavailable"				"Spraakcommunicatie is niet beschikbaar voor dit account."
+
 "TF_Invalid_Inspect_Target"			"Ongeldig doelwit voor onderzoek"
+
+"vsh_end_this"						"Maak hier een einde aan voordat de tijd om is!"
 
 "tf_zi_ui_survivor_die"					" is geïnfecteerd door "
 "tf_zi_ui_last_survivor_minicrit"		"FBECCB%d RESTERENDE OVERLEVENDEN! Ze hebben nu FFD700%sFBECCB!"
@@ -18950,6 +19278,7 @@ Als het vijandelijke team de controlepost verovert, stopt je eigen timer totdat 
 "tf_zi_medic_heal_name"					"Genezen"
 "tf_zi_soldier_pounce_name"				"Bespringen"
 "tf_zi_spy_reveal_name"					"Onthullen"
+"tf_zi_intro_welcome"					"Welkom bij Zombie-infectie!"
 "tf_zi_intro_part1"						"Overleef als mens totdat de tijd om is om de overwinning te behalen!"
 "tf_zi_intro_part5"						"Infecteer als zombie alle menselijke spelers om te winnen!"
 "tf_zi_team_red"						"Overlevenden"
@@ -18961,8 +19290,7 @@ Als het vijandelijke team de controlepost verovert, stopt je eigen timer totdat 
 "tow_dynamite_part4"					"Wanneer de kar de basis van een van beide teams bereikt, worden de springplatformen geactiveerd." 
 "tow_dynamite_part5"					"Wees dus voorzichtig!"
 "tow_dynamite_part6"					"Ieder slachtoffer kan een springspreuk laten vallen waarmee je door de lucht kunt vliegen."
-"tow_dynamite_part7"					"Jouw team moet de kar naar de vijandelijke basis brengen en deze verdedigen totdat de tijd van je team op is." 
-"tow_setup_goal"						"Neem de controle over de kar en breng deze naar de vijandelijke basis. Houd hem daar tot je tijd op is."
+"arena_perks_message_tie"		"Het is gelijkspel!"
 
 "TF_IM_VSH_Intro"				"Maak je klaar voor Versus Saxton Hale!"
 "TF_IM_VSH_RandomTeam"			"Aan het begin van de ronde wordt een van jullie geselecteerd als Saxton Hale."

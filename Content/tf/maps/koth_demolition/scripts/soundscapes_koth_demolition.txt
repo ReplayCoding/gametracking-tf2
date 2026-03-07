@@ -14,6 +14,16 @@
         "pitch"        "100"
         "wave"        "ambient/lair/perimeter_waves_close.wav"
     }
+    "playlooping"
+    {
+        "volume"    ".7"
+        "pitch"        "150"
+		
+		"position" "0"
+		"attenuation"	"1"			
+		
+        "wave"        "ambient/cp_harbor/cauldron_lp_main.wav"
+    }
     "playrandom"
     {
         "time"        "15, 25"
@@ -40,24 +50,6 @@
         "pitch"        "110"
         "wave"        "ambient/lightwindcreaks.wav"
     }
-    "playlooping"
-    {
-        "volume"    ".1"
-        "pitch"        "100"
-
-        "position"    "2"
-
-        "wave"        "ambient/lair/perimeter_waves_close.wav"
-    }
-    "playlooping"
-    {
-        "volume"    ".6"
-        "pitch"        "100"
-
-        "position"    "0"
-
-        "wave"       "ambient/command_center.wav"
-    }
     "playrandom"
     {
         "time"        "15, 25"
@@ -70,5 +62,33 @@
             "wave"       "ambient/mvm_warehouse/seagull_02.wav"
             "wave"       "ambient/mvm_warehouse/seagull_03.wav"
         }
+    }
+    "playlooping"
+    {
+        "volume"    ".1"
+        "pitch"        "150"
+		
+		"position" "0"
+		"attenuation"	"1"			
+		
+        "wave"        "ambient/lair/perimeter_waves_close.wav"
+    }
+    "playlooping"
+    {
+        "volume"    ".6"
+        "pitch"        "100"
+
+        "position"    "0"
+		
+        "wave"       "ambient/command_center_red.wav"
+    }
+    "playlooping"
+    {
+        "volume"    ".6"
+        "pitch"        "100"
+
+        "position"    "1"
+		
+        "wave"       "ambient/command_center_blue.wav"
     }
 }

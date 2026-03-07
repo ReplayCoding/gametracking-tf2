@@ -120,7 +120,7 @@
 "Scoreboard_TimeLeft"			"Temps de serveur restant pour la carte : %s1:%s2:%s3"
 "Scoreboard_TimeLeftNoHours"		"Temps de serveur restant pour la carte : %s1:%s2"
 "Scoreboard_NoTimeLimit"		"Temps de serveur restant pour la carte : illimité"
-"Scoreboard_ChangeOnRoundEnd"		"(Changement de carte à la fin du round...) Temps de serveur restant pour la carte : 00:00"
+"Scoreboard_ChangeOnRoundEnd"		"(Changement de carte à la fin de la manche...) Temps de serveur restant pour la carte : 00:00"
 "TF_HUD_ServerTimeLeft"			"%s1:%s2:%s3"
 "TF_HUD_ServerTimeLeftNoHours"		"%s1:%s2"
 "TF_HUD_ServerChangeOnRoundEnd"		"00:00"
@@ -130,15 +130,15 @@
 "Scoreboard_NoTimeLimitNew"			"Temps illimité"
 "Scoreboard_ChangeOnRoundEndNew"	"Changement de la carte à la fin de la manche..."
 
-"TF_Timeline_ChangeClass"		"Vous avez choisi la classe %s1" // localized class name
+"TF_Timeline_ChangeClass"		"Vous avez sélectionné la classe « %s1 »" // localized class name
 "TF_Timeline_ChangeTeam"		"Vous avez rejoint l'équipe %s1" // localized team name
 "TF_Timeline_Killed"			"Vous avez tué un %s1" // localized class name
 "TF_Timeline_WereKilled"		"Un %s1 vous a tué(e)" // localized class name
 "TF_Timeline_KilledEngy"		"Vous avez tué un %s1" // localized class name
 "TF_Timeline_WereKilledEngy"	"Un %s1 vous a tué(e)" // localized class name
 "TF_Timeline_Suicide"			"Adieu, monde cruel !"
-"TF_Timeline_CPCaptured"		"Vous avez capturé le point de contrôle"
-"TF_Timeline_IntelCaptured"		"Vous avez volé les documents"
+"TF_Timeline_CPCaptured"		"Vous avez sécurisé le point de contrôle"
+"TF_Timeline_IntelCaptured"		"Vous avez sécurisé les documents"
 "TF_Timeline_IntelPickedUp"		"Vous avez récupéré les documents"
 "TF_Timeline_IntelCarrier"		"Vous avez tué l'unité qui portait les documents"
 "TF_Timeline_IntelDropped"		"Vous avez lâché les documents"
@@ -277,7 +277,7 @@
 "ClassTips_7_2"				"Votre lance-flammes est redoutable si vous êtes proche de votre cible !"
 "ClassTips_7_2_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_7_3_MvM"			"== Dans Mann vs. Machine =="
-"ClassTips_7_4_MvM"			"L'amélioration du souffle aide à arrêter les porteurs de bombe et les coureurs"
+"ClassTips_7_4_MvM"			"L'amélioration du tir d'air comprimé aide à arrêter les porteurs de bombe et les coureurs"
 "ClassTips_7_4_Icon"		"/achievements/tf_pyro_reflect_projectiles.vmt"
 "ClassTips_7_5_MvM"			"Améliorez la durée et les dégâts de brûlure du lance-flammes"
 "ClassTips_7_5_Icon"		"/achievements/tf_pyro_ignite_with_rainbow.vmt"
@@ -293,10 +293,9 @@
 "ClassTips_8_2_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_8_3"				"Poignardez vos ennemis dans le dos pour une mort instantanée !"
 "ClassTips_8_3_Icon"		"/pve/chalf_circle.vmt"
-"ClassTips_8_4"				"Placez des saboteurs sur les mitrailleuses adverses pour les détruire !"
+"ClassTips_8_4"				"Placez des saboteurs sur les mitrailleuses adverses pour les détruire !"
 "ClassTips_8_4_Icon"		"/pve/chalf_circle.vmt"
 "ClassTips_8_5_MvM"			"== Dans Mann vs. Machine =="
-"ClassTips_8_6_MvM"			"L'amélioration du saboteur étourdit et ralentit dans une zone les robots."
 "ClassTips_8_6_Icon"		"/achievements/tf_spy_sapper_grind.vmt"
 "ClassTips_8_7_MvM"			"Vous révélez les espions ennemis invisibles à votre équipe !"
 "ClassTips_8_7_Icon"		"/achievements/tf_soldier_kill_spy_killer.vmt"
@@ -348,7 +347,7 @@
 "TF_SelectAClass"			"SÉLECTIONNEZ UNE CLASSE"
 "TF_AutoTeamSelect"			"AUTO"
 "TF_Spectate"				"OBSERVER"
-"TF_Play"				"JOUER"
+"TF_Play"				"JOUER !"
 "TF_Close"				"&FERMER"
 "TF_ResetStats"				"&RÉINITIALISER STATS"
 "TF_NextTip"				"&ASTUCE SUIVANTE"
@@ -387,8 +386,8 @@
 
 "TF_Cloak"					"INVIS"
 "TF_CloakDagger"			"MOUVEMENT"
-"TF_Feign"					"INVIS."
-"TF_Metal"					"METAL"
+"TF_Feign"					"FEINDRE"
+"TF_Metal"					"MÉTAL"
 "TF_Phase"					"BALLE AU"
 "TF_Ball"					"BALLE"
 "TF_Jar"					"BOCAL"
@@ -418,7 +417,7 @@
 "TF_BONUS"					"BONUS"
 "TF_KART"					"KART"
 "TF_BOLT"					"FLÈCHE"
-"TF_SmgCharge"				"WOW"
+"TF_SmgCharge"				"SPLENDIDE"
 
 "TF_OUT_OF_AMMO"			"MUNITIONS ÉPUISÉES"
 
@@ -429,8 +428,8 @@
 "game_spawn_asrandom"			"* Vous commencerez dans une classe aléatoire"
 "game_respawn_asrandom"			"* Vous réapparaîtrez dans une classe aléatoire"
 
-"round_restart_in_sec"			"Le round reprendra dans %s1 seconde"
-"round_restart_in_secs"			"Le round reprendra dans %s1 secondes"
+"round_restart_in_sec"			"La manche reprendra dans %s1 seconde"
+"round_restart_in_secs"			"La manche reprendra dans %s1 secondes"
 
 "game_restart_in_sec"			"La partie reprendra dans %s1 seconde"
 "game_restart_in_secs"			"La partie reprendra dans %s1 secondes"
@@ -566,7 +565,7 @@
 "TF_Weapon_Crowbar"		"Pied-de-biche"
 "TF_Weapon_Bonesaw"		"Scie à amputation"
 "TF_Weapon_FlameThrower"	"Lance-flammes"
-"TF_Weapon_FlameThrower_desc"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.\nTir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+"TF_Weapon_FlameThrower_desc"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.\nTir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 "TF_Weapon_GrenadeLauncher"	"Lance-grenades"
 "TF_Weapon_PipebombLauncher"	"Lanceur de bombes collantes"
 "TF_Weapon_PipebombLauncher_desc"	"Tir secondaire : fait exploser toutes les bombes collantes"
@@ -634,7 +633,7 @@
 "TF_Weapon_RiftFireMace"	"Masse enflammée de RIFT"
 "TF_Weapon_RocketPack"		"Jetpack"
 "TF_Weapon_Sign"			"Pancarte"
-"TF_Weapon_Staff"			"Bâton"
+"TF_Weapon_Staff"			"Sceptre"
 "TF_Weapon_Cleaver"			"Couperet"
 "TF_Weapon_Camera"			"Caméra"
 "TF_Weapon_Medigun_Resist"	"Vaccinateur"
@@ -655,7 +654,7 @@
 "TF_Weapon_FireballLauncher"	"Lanceur de flamme"
 "TF_Weapon_DragonsFury"	"La fureur du dragon" // ADD THE
 "TF_Weapon_DragonsFury_Desc"	"Ce puissant lance-flammes récompense les coups consécutifs en infligeant des dégâts supplémentaires et en réduisant le temps de recharge."
-"TF_Weapon_DragonsFury_NeutralDesc"	"Utilise un réservoir sous pression partagé.\n\nTir principal : lance un projectile à grande vitesse enflammant brièvement les ennemis.\n\nTir secondaire : libère un souffle d'air repoussant les ennemis et les projectiles, et éteignant les coéquipiers enflammés."
+"TF_Weapon_DragonsFury_NeutralDesc"	"Utilise un réservoir sous pression partagé.\n\nTir principal : lance un projectile à grande vitesse enflammant brièvement les ennemis.\n\nTir secondaire : libère un tir d'air comprimé repoussant les ennemis et les projectiles, et éteignant les coéquipiers enflammés."
 "TF_Weapon_DragonsFury_PositiveDesc"	"Inflige 300% de dégâts aux joueurs enflammés.\n50% de taux de pressurisation lorsqu'un ennemi est touché."
 "TF_Weapon_DragonsFury_NegativeDesc"	"-50% de taux de pressurisation (tir secondaire)"
 "TF_ThermalThruster"			"Le propulseur thermique" // ADD THE
@@ -4009,12 +4008,12 @@
 
 "TF_Bundle_Summer2012_UrbanProfessional"		"Pack du Professionnel Urbain"
 "TF_Bundle_Summer2012_UrbanProfessional_Desc"	"Rien n'inspire plus le respect qu'un bonnet, des lunettes noires et un fusil de sniper incroyablement imposant :"
-"TF_Bundle_Summer2012_DumpsterDiver"			"Ensemble \"fouilleur de benne à ordure\""
+"TF_Bundle_Summer2012_DumpsterDiver"			"Pack du Fouilleur de bennes à ordure"
 "TF_Bundle_Summer2012_DumpsterDiver_Desc"		"Ayez enfin la sensation d'être à la rue tout en étant dans votre nid douillet :"
 "TF_Bundle_Summer2012_PublicEnemy"				"Pack de l'Ennemi Public"
 "TF_Bundle_Summer2012_PublicEnemy_Desc"			"Vous hésitez à lancer votre propre syndicat du crime ? Tâtez le terrain avec le pack de l'Ennemi Public :"
 "TF_Bundle_Summer2012_Pyromania"				"Mégapack Pyromania"
-"TF_Bundle_Summer2012_Pyromania_Desc"			"Si vous achetez tout cet équipement séparément, il faudra dépenser plus de 100 €. Si vous les achetez tous via ce pack, il faudra dépenser moins. Il nous semble donc que le choix est évident : achetez-les séparément. S'il vous plaît ?"
+"TF_Bundle_Summer2012_Pyromania_Desc"			"Si vous achetez tout cet équipement séparément, il faudra dépenser plus de 100 USD. Si vous les achetez tous via ce pack, il faudra dépenser moins. Le choix nous parait évident : achetez-les séparément. S'il vous plait ?"
 "TF_Bundle_Summer2012_Community"				"Pack communautaire de l'été 2012"
 "TF_Bundle_Summer2012_Community_Desc"			"Le pack communautaire de l'été 2012 est rempli d'incroyables créations des membres de la communauté TF2. Dans le cas où vous seriez en liberté conditionnelle, ceci peut probablement faire office de travaux d'intérêt général :"
 
@@ -4207,8 +4206,8 @@
 "TF_TW_Spy_Coat_Desc"			"Cette veste fait son maximum pour que vous ayez l'air d'un espion sophistiqué, vous n'aurez donc pas besoin de porter autre chose. Regardez les têtes se tourner lorsque vous vous présentez à un gala luxueux nu comme un ver : si l'on omet votre veste. Ils sont tous jaloux. Cet homme là-bas qui appelle la police, est-il jaloux ? Assurément !"
 "TF_TW_Spy_Coat_Style1"			"Cravate"
 "TF_TW_Spy_Coat_Style2"			"Épaulettes"
-"TF_TW_Staff"				"Le bâton de la liberté" // ADD THE
-"TF_TW_Staff_Desc"				"Depuis que l'Amérique fut fondée il y a plus de dix mille ans, le noble aigle a été son symbole de liberté. Montrez aux gens combien vous aimez la liberté en les frappant de façon insensée avec un aigle doré sur un bâton, tout comme Kofi Annan."
+"TF_TW_Staff"				"Le sceptre de la liberté" // ADD THE
+"TF_TW_Staff_Desc"				"Depuis la création de l'Amérique il y a plus de dix-mille ans, le noble pygargue à tête blanche est son emblème de liberté. Montrez votre attachement à la liberté en frappant vos adversaires avec un sceptre surmonté d'un aigle doré, à l'instar de Kofi Annan."
 
 "TF_tw_demobot_armor"		"Armure de Demobot"
 "TF_tw_demobot_helmet"		"Casque de Demobot"
@@ -6384,7 +6383,7 @@
 "Msg_Dominating_What"	"est LE MEILLEUR COPAIN de"
 "Msg_Revenge_What"		"N'EST PLUS COPAIN avec"
 "Msg_PickedUpFlag"		"a récupéré les documents."
-"Msg_CapturedFlag"		"a volé les documents."
+"Msg_CapturedFlag"		"a volé les documents !"
 "Msg_DefendedFlag"		"a défendu les documents."
 "Msg_DefendedBomb"		"a défendu la bombe !"
 "Msg_PickedUpFlagHalloween2014"		"a ramassé les tickets !"
@@ -7529,7 +7528,7 @@
 "Hint_Engineer_build_sentrygun"		"Montez des mitrailleuses pour défendre votre base.\nLe quatrième emplacement d'arme contient les armes à monter."
 "Hint_Engineer_build_dispenser"		"Montez des distributeurs pour réapprovisionner vos coéquipiers.\nLe quatrième emplacement d'arme contient les armes à monter."
 "Hint_Engineer_build_teleporters"	"Montez des téléporteurs pour aider la défense des zones avancées.\nLe quatrième emplacement d'arme contient les armes à monter."
-"Hint_Engineer_pickup_metal"		"Récupérez le métal des armes abandonnées\npour monter d'autres objets."
+"Hint_Engineer_pickup_metal"		"Récupérez du métal dans des boites de munitions abandonnées\npour monter d'autres objets."
 "Hint_Engineer_repair_object"		"Donnez aux objets endommagés un coup de clé pour les réparer."
 "Hint_Engineer_metal_to_upgrade"	"Il vous faut plus de métal pour améliorer votre mitrailleuse !"
 "Hint_Engineer_upgrade_sentrygun"	"Améliorez vos mitrailleuses en leur donnant des coups de clé.\nElles peuvent être améliorées jusqu'au niveau 3 !"
@@ -11943,7 +11942,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_Set_Heavy_Fairy"				"La Grande Duchesse"
 "TF_Sniper_UrbanProfessional"		"Le Professionnel Urbain"
 "TF_Scout_PublicEnemy"				"L'Ennemi Public"
-"TF_Set_Soldier_DumpsterDiver"		"Le fouilleur de benne à ordure"
+"TF_Set_Soldier_DumpsterDiver"		"Le Fouilleur de bennes à ordure"
 "TF_Set_HalloweenPyroMalice"		"Malice au pays du Pyro"
 "TF_Set_HalloweenMedicSpaceSurgeon"	"Docteur Galactique"
 "TF_Set_SoldierRocketRanger"		"Le Rocket Ranger"
@@ -12152,11 +12151,11 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Attrib_FlameSize_Positive"					"Zone d'effet du lance-flammes augmentée de +%s1%"
 "Attrib_FlameLife_Negative"					"Portée du lance-flammes réduite de %s1%"
 "Attrib_FlameLife_Positive"					"Portée du lance-flammes augmentée de +%s1%"
-"Attrib_ChargedAirblast"					"Possibilité de charger le souffle du Pyro afin de repousser plus loin les ennemis"
+"Attrib_ChargedAirblast"					"Possibilité de charger le tir d'air comprimé du Pyro afin de repousser plus loin les ennemis"
 "Attrib_AirblastDisabled"					"Pas d'air comprimé"
 "Attrib_DmgFromSentryReduced"				"+%s1% de résistance aux dégâts des mitrailleuses quand équipé"
-"Attrib_AirblastCost_Increased"				"Augmentation du coût du souffle de +%s1%"
-"Attrib_AirblastCost_Decreased"				"Réduction du coût du souffle de %s1%"
+"Attrib_AirblastCost_Increased"				"Augmentation du cout du tir d'air comprimé : +%s1%"
+"Attrib_AirblastCost_Decreased"				"Réduction du cout du tir d'air comprimé : %s1%"
 "Attrib_ExtinguishRestoresHealth"			"Éteindre un allié en feu vous redonne %s1 points de vie"
 "Attrib_ExtinguishReducesCooldown"			"Éteindre un allié en feu réduit le temps de recharge de %s1%"
 "Attrib_Purchased"							"Acheté : non échangeable, négociable ou utilisable pour la fabrication"
@@ -12248,7 +12247,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Attrib_SpeedBuffAlly"						"Si vous touchez un coéquipier : augmente sa vitesse de déplacement ainsi que la vôtre pendant plusieurs secondes"
 "Attrib_DamageForceReduction"				"Réduction de %s1% des contre-coups subis suite aux dégâts"
 "Attrib_DamageForceIncrease"				"Augmentation de %s1% des contre-coups subis suite aux dégâts"
-"Attrib_DamageForceIncreaseString"			"Augmentation des contre-coups subis suite aux dégâts et au souffle"
+"Attrib_DamageForceIncreaseString"			"Augmentation des contrecoups subis suite aux dégâts et aux tirs d'air comprimé"
 "Attrib_CloakRate"							"Augmente le temps de mise en route de l'invisibilité de %s1 s"
 "Attrib_NoCloakWhenCloaked"					"Aucune barre d'invisibilité provenant des boîtes de munitions lorsque invisible"
 "Attrib_ReducedCloakFromAmmo"				"%s1% de barre d'invisibilité provenant des boîtes de munitions"
@@ -12309,7 +12308,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Attrib_AppliesSnareEffect"				"%s1% Vitesse de déplacement des cibles"
 "Attrib_BuildingInstaUpgrade"			"Consommable : améliore instantanément toutes les constructions au niveau maximal"
 "Attrib_BiDirectionalTP"				"Les téléporteurs peuvent être utilisés dans les deux sens"
-"Attrib_AirBlastPushScale"				"Puissance effet de souffle +%s1%"
+"Attrib_AirBlastPushScale"				"Puissance du tir d'air comprimé : +%s1%"
 "Attrib_AirBlastVulnerabilityMultipier"	"Vulnérabilité aux tirs d'air comprimé réduite de +%s1%"
 "Attrib_BombinomiconEffectOnDeath"		"Explose de façon spectaculaire lors de la mort"
 "Attrib_CritKillWillGib"				"Tuer un ennemi avec un coup critique démembrera votre victime. Douloureusement."
@@ -12486,7 +12485,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Attrib_UberchargeSavedOnHit"			"Récupère les organes des joueurs que vous touchez"
 "Attrib_SpreadPenaltyScalesCons"		"Les tirs successifs deviennent moins précis"
 "Attrib_FixedShotPattern"				"Tire un grand motif de balles prédéfini"
-"Attrib_SpunUpPushForceResist"			"Insensible aux contre-coups subis suite aux dégâts et au souffle lorsque déployé"
+"Attrib_SpunUpPushForceResist"			"Insensible aux contrecoups subis suite aux dégâts et aux tirs d'air comprimé lorsque déployé"
 "Attrib_DisguiseConsumesCloak"			"Votre barre d'invisibilité doit être pleine pour vous déguiser"
 "Attrib_MaxHealthDrain"					"Vos points de santé maximums sont perdus au fil du temps lorsque déployé"
 "Attrib_ImpactPushback"					"Repousse les ennemis lorsque vous atterrissez (puissance et rayon basé sur votre vitesse)"
@@ -12595,7 +12594,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 // Pyro
 "Attrib_WpnBurnDmg_Increased_shortdesc"			"+%s1% Dégâts de brûlure"
 "Attrib_WpnBurnTime_Increased_shortdesc"		"+%s1% Durée de brûlure"
-"Attrib_AirBlastPushScale_shortdesc"			"+%s1% Force du souffle"
+"Attrib_AirBlastPushScale_shortdesc"			"Force du tir d'air comprimé : +%s1%"
 
 // Demo
 "Attrib_ChargeImpactDamageIncreased_shortdesc"	"+%s1% Dégâts de charge"
@@ -15481,7 +15480,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_VoteKickReason_Scamming"		"Escroqueries"
 
 "TF_vote_td_start_round"		"Démarrer le round actuel ?"
-"TF_vote_passed_td_start_round"	"Démarrage du round..."
+"TF_vote_passed_td_start_round"	"Début de la manche..."
 
 "TF_vote_extendlevel"			"Prolonger le niveau actuel ?"
 
@@ -16186,7 +16185,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_Matchmaking_PartyMember_CompetitiveBanned"	"Banni du matchmaking compétitif"
 "TF_Matchmaking_PartyMember_Leader"		"Leader du groupe"
 "TF_Matchmaking_PartyMember_Offline"	"Hors ligne"
-"TF_Matchmaking_PartyMember_OutOfDate"	"Redémarrage de TF2 nécessaire"
+"TF_Matchmaking_PartyMember_OutOfDate"	"Redémarrage de TF2 nécessaire pour appliquer la mise à jour"
 
 "TF_Competitive_Pass_Beta"				"Passe de matchmaking compétitif bêta"
 "TF_Competitive_Pass_Beta_Desc"			"Un souvenir de votre participation à la bêta du mode compétitif en 2016. Merci de votre aide !"
@@ -16400,7 +16399,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Tip_MvM_2_1"		"Astuce : Améliorez votre drapeau buff pour multiplier les dégâts de tous les coéquipiers à proximité"
 
 "Tip_MvM_3_Count"	"1"
-"Tip_MvM_3_1"		"Astuce : améliorez le souffle d'air comprimé pour pousser les robots portant une bombe dans des fosses (ce qui réinitialise la bombe) ou pour allonger leur parcours"
+"Tip_MvM_3_1"		"Astuce : améliorez le tir d'air comprimé pour pousser les robots portant une bombe dans des fosses (ce qui réinitialise la bombe) ou pour allonger leur parcours"
 
 "Tip_MvM_4_Count"	"1"
 "Tip_MvM_4_1"		"Astuce : améliorez les dégâts des bombes collantes pour détruire instantanément les cibles hautement prioritaires avec de puissants pièges collants"
@@ -17698,7 +17697,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_jul13_the_presidential"			"Le Tricorne de Valley Forge" // ADD THE
 "TF_jul13_the_presidential_Desc"			"Ce tricorne est un hommage au plus grand Président de notre pays. La petite médaille accrochée dessus est un hommage au ruban d'enfant qu'il a gagné pour avoir inventé l'Amérique."
 "TF_jul13_soldier_eagle"			"Le compatriote" // ADD THE
-"TF_jul13_soldier_eagle_Desc"			"« Ce n'est pas un oiseau, idiot ! C'est un symbole de liberté porté sur l'épaule, et vous le SALUEREZ dans cette armée ! »"
+"TF_jul13_soldier_eagle_Desc"			"« Ce n'est pas un oiseau, vermine ! C'est un symbole de liberté porté sur l'épaule, et vous le SALUEREZ dans cette armée ! »"
 "TF_jul13_the_caribbean_conqueror"			"Le conquérant des Caraïbes" // ADD THE
 "TF_jul13_the_caribbean_conqueror_Desc"			"« Toi ! Cesse d'empanner la grand-voile et fais m'en vingt ! Toi là haut dans le nid-de-pie ! Lâche ce télescope et face contre terre ! Que tout le monde sur ce navire se mette à faire des pompes ! »"
 "TF_jul13_colonial_clogs"			"Les Sabots Coloniaux" // ADD THE

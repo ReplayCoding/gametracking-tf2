@@ -2171,7 +2171,9 @@
 "TF2MapsRayOfSunshine2022"					"TF2Maps 2022 – Sonnenschein"
 "TF2MapsRayOfSunshine2022_Desc"				"Mach sie glücklich, wenn der Himmel grau ist. Verliehen an Spender während des TF2Maps 72hr TF2Jam 2022!"
 "TF2MapsCharitableHeart2023"				"TF2Maps 2023 – Großzügiges Herz"
+"TF2MapsCharitableHeart2023_Desc"			"Verliehen an Spender zugunsten der Wohltätigkeitsaktion von TF2Maps während des 72-Stunden-Jams 2023."
 "TF2MapsCharitableHeart2024"				"TF2Maps 2024 – Großzügiges Herz"
+"TF2MapsCharitableHeart2024_Desc"			"Verliehen an Spender zugunsten der Wohltätigkeitsaktion von TF2Maps während des 72-Stunden-Jams 2024."
 "TF2MapsCharitableHeart2025"				"TF2Maps 2025 – Großzügiges Herz"
 "TF2MapsCharitableHeart2025_Desc"			"Verliehen an Spender zugunsten der Wohltätigkeitsaktion von TF2Maps während des 72-Stunden-Jams 2025."
 
@@ -13446,6 +13448,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "TF_Amputator"				"Der Amputator"	// ADD THE
 "TF_CrusadersCrossbow"			"Die Armbrust des Kreuzritters"	// ADD THE
 "TF_CrusadersCrossbow_desc"		"Verschießt spezielle Bolzen, die abhängig von der zurückgelegten Distanz\n Teammitglieder heilen und Schaden verursachen\nDiese Waffe lädt automatisch nach, wenn nicht aktiv"
+"TF_UllapoolCaber"			"Der Ullapool’sche Stiel" // ADD THE
 "TF_LochNLoad"				"Der Lochnesser" // ADD THE
 "TF_BuffaloSteak"			"Das Büffelsteak-Sandvich" // ADD THE
 "TF_GatlingGun"				"Das Messingmonster" // ADD THE
@@ -13557,7 +13560,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "TF_RiftFireAxe_Desc"				"Verbessert Mutter Naturs ursprüngliches Design von Vulkanen durch Erhöhung der Portabilität. Die moderne Wissenschaft kann nicht so genau erklären, woher die Lava eigentlich kommt."
 "TF_RiftFireMace_Desc"			"Das spitze Ende geht in den Gegner."
 
-"TF_Unique_Gloves_of_Running_Urgently"	"Die Handschuhe der schnellen Flucht"	// ADD THE
+"TF_Unique_Gloves_of_Running_Urgently"	"Die Handschuhe der flinken Ausflucht"	// ADD THE
 
 "TF_TideTurner" 					"Das Steuerrad" // ADD THE
 "TF_TideTurner_Desc" 				"Alt.-Feuer: Führen Sie Sturmangriffe durch und entfernen Sie Debuffs.\nErhalten Sie einen mini-kritischen Nahkampftreffer, nachdem Sie einen weit entfernten Gegner gerammt haben."
@@ -14148,6 +14151,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "Store_Special_Items"		"Werkzeuge"
 "Store_New_Items"		"Neu!"
 "Store_Sale_Items"		"* Angebot *"
+"Store_Home"			"Startseite"
 "Store_Items"			"Gegenstände"
 "Store_Bundles"			"Pakete"
 "Store_Halloween"		"Halloween"
@@ -14744,6 +14748,7 @@ verkleiden Sie sich schnell als Ihr Opfer"
 //----------------------------------------------------------------------------------------
 // Use Item
 "TF_UseItem_Title"					   "Gegenstand benutzen?"
+"TF_UseItem_Text"					   "Möchten Sie „%item_name%“ wirklich anwenden? Noch %uses_left% Anwendung(en) übrig, bevor der Gegenstand aus Ihrem Inventar verschwindet."
 "TF_UseItem_Success"				   "Der Gegenstand im Aktionsslot wurde erfolgreich verwendet!"
 "TF_UseItem_GiftNoPlayers"			   "In Ihrem Spiel sind keine anderen Spieler anwesend, die Ihr Geschenk in Empfang nehmen könnten!"
 "TF_UseItem_Error"					   "Beim Versuch, den Gegenstand in Ihrem Aktionsslot zu verwenden, ist ein Fehler aufgetreten."
@@ -15539,6 +15544,7 @@ ________________________________________
 //----------------------------------------------------------------------------------------
 // Item Testing
 "IT_Title"				"Gegenstand-Testlabor"
+"IT_CurrentlyTesting"	"Wird derzeit getestet:"
 "IT_ClassUsage"			"Zu testende Klassen:"
 "IT_Classes_All"		"Alle Klassen"
 "IT_Ok"					"Testggst. anwenden"
@@ -15548,6 +15554,8 @@ ________________________________________
 "IT_TestingSlot_Headgear"	"Kosmetika 1:"
 "IT_TestingSlot_Misc1"		"Kosmetika 2:"
 "IT_TestingSlot_Misc2"		"Kosmetika 3:"
+"IT_TestingSlot_Empty"		"<Nichts ausgewählt>"
+
 "IT_BotAddition_Title"		"Bots:"
 "IT_Bot_AutoAdd"			"Autom. hinzufügen"
 "IT_Bot_BlueTeam"			"Team BLU"
@@ -15576,8 +15584,14 @@ ________________________________________
 "IT_Item_Remove"		"X"
 
 "IT_Title_0"	"Waffe testen"
+"IT_Title_1"	"Kosmetika 1 testen"
+"IT_Title_2"	"Kosmetika 2 testen"
+"IT_Title_3"	"Kosmetika 3 testen"
+
 "IT_YourModel"		"Ihr neues Modell:"
 "IT_MDL_Files"		"Modell-Dateien (*.mdl)"
+"IT_NoModel"		"<Nichts ausgewählt>"
+"IT_ExistingItem"	"Oder vorh. Ggst.:"
 "IT_SelectModel"	"Modell auswählen"
 "IT_ItemType"		"Gegenstandstyp:"
 "IT_ItemReplaces"	"Ersetzt:"
@@ -15598,6 +15612,7 @@ ________________________________________
 "IT_Customizations"			"Anpassungen:"
 "IT_PaintTitle"				"Bemalt mit:"
 "IT_PaintNone"				"Nichts"
+"IT_UnusualTitle"			"Ungewöhnl. Effekt:"
 "IT_UnusualNone"			"Nichts"
 
 "IT_ItemReplaced_Select"	"Gegenstand auswählen"
@@ -19900,7 +19915,13 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_dec25_veterans_visor"				"Helmvisier des Veteranen"
 "TF_dec25_deserters_duster"				"Staubmantel des Deserteurs"
 "TF_dec25_blizzard_bonnet"				"Schneesturm-Barett"
+"TF_dec25_blizzard_bonnet_style1"			"Gestrickt"
+"TF_dec25_blizzard_bonnet_style2"			"Kariert"
+"TF_dec25_blizzard_bonnet_style3"			"Rautiert"
 "TF_dec25_festive_fleece"				"Festlicher Vlies"
+"TF_dec25_festive_fleece_style1"			"Gestrickt"
+"TF_dec25_festive_fleece_style2"			"Kariert"
+"TF_dec25_festive_fleece_style3"			"Rautiert"
 "TF_dec25_air_head"						"Luftikus"
 "TF_dec25_air_head_style1"					"Schnurrbart"
 "TF_dec25_air_head_style2"					"Kein Schnurrbart"
@@ -19909,6 +19930,7 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_dec25_willis_warmer"				"Willis’ Wollwärmer"
 "TF_dec25_willis_warmer_style1"				"Offen getragen"
 "TF_dec25_willis_warmer_style2"				"Eingesteckt"
+"TF_dec25_sole_providers"				"Die Erwachsenenhose" // ADD THE
 "TF_dec25_scrooge"						"Ebenezer McRocket"
 "TF_dec25_scrooge_style1"					"Stil 1"
 "TF_dec25_scrooge_style2"					"Stil 2"

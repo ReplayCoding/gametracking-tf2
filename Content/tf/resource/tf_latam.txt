@@ -954,7 +954,7 @@
 "TF_TournamentMedal_Ready_Steady_Pan_WinnerS3"			"Frienalista"
 "TF_TournamentMedal_Ready_Steady_Pan_WinnerS3_Desc"		"Cuando veas al portador de este brillante pin sacar la sartén, mejor será que corras. Esta medalla fue otorgada a los finalistas de la tercera temporada de Ready Steady Pan."
 "TF_TournamentMedal_Ready_Steady_Pan_ParticipantS3"		"Panticipante de Ready Steady Pan"
-"TF_TournamentMedal_Ready_Steady_Pan_ParticipantS3_Desc"		"Formar un grupo de seis personas y liarse a sartenazos unos con otros es una extraña afición, pero nosotros la entendemos. ¡Gracias por participar en la tercera temporada de Ready Steady Pan!"
+"TF_TournamentMedal_Ready_Steady_Pan_ParticipantS3_Desc"		"Formar un grupo de seis personas y dar sartenazos unos con otros es una extraña afición, pero nosotros la entendemos. ¡Gracias por participar en la tercera temporada de Ready Steady Pan!"
 "TF_TournamentMedal_Ready_Steady_Pan_PlayoffS3"		"Pantástico Campeón de las Eliminatorias"
 "TF_TournamentMedal_Ready_Steady_Pan_PlayoffS3_Desc"		"¿Meterse en las eliminatorias del torneo competitivo de sartenes? Eso suena bastante prestigioso. ¡Felicidades por tu posición en la tercera temporada de Ready Steady Pan!"
 "TF_TournamentMedal_Ready_Steady_Pan_HelperS3_Desc"		"¡Gracias por el gran trabajo y dedicación que has puesto en hacer realidad la tercera temporada de Ready Steady Pan! Tú eres el verdadero MJ."
@@ -3452,7 +3452,7 @@
 "TF_Wearable_Holiday_Hat"	"Sombrero de Fiesta"
 "TF_Wearable_HonestyHalo" 	"Aura de Incorruptibilidad"
 "TF_Wearable_Glasses"		"Gafas"
-"TF_Wearable_Apparel"		"Accesorios"
+"TF_Wearable_Apparel"		"Vestimenta"
 "TF_Wearable_Spurs"			"Espuelas"
 "TF_Wearable_Conscience"	"Conciencia"
 "TF_Wearable_Flair"			"¡Estilo!"
@@ -3629,7 +3629,7 @@
 "TF_RobotPart_Type"	"Parte Robótica"
 "TF_CircuitBoard_Type"	"Panel de Circuitos"
 
-"TF_TauntEnabler_Laugh"		"Burla: La Schadenfreude"
+"TF_TauntEnabler_Laugh"		"Burla: Schadenfreude"
 "TF_TauntEnabler_Laugh_Desc"	"Burla para todas las clases\nComparte unas buenas risas con todo el mundo menos con el tipo al que acabas de disparar."
 
 "TF_TauntEnabler_MedicHeroicPose"		"Burla: Conoce a Medic"
@@ -3645,7 +3645,7 @@
 
 "ToolAction_WeddingRing_AcceptReject"		"Aceptar / Rechazar"
 "TF_UseWeddingRing_Title"					"¿Aceptar propuesta?"
-"TF_UseWeddingRing_Text"					"¿Quieres aceptar esta propuesta de %proposer_name%?\n\nPiensa que este objeto solamente se puede usar una vez, pero los diamantes son para siempre."
+"TF_UseWeddingRing_Text"					"¿Quieres aceptar esta propuesta de %proposer_name%?\n\nTen en cuenta que este objeto solo se puede usar una vez, pero los diamantes son para siempre."
 "TF_WeddingRing_AcceptProposal"				"¡Sí, quiero!"
 "TF_WeddingRing_RejectProposal"				"Cancelar"
 "TF_WeddingRing_ClientMessageTitle"			"¡Notición!" // unused
@@ -3822,9 +3822,9 @@
 "TF_SelectPlayer_Duel_PlayerClass"	"Usted y su oponente deben enfrentarse utilizando su clase actual: %s1."
 "TF_Usable_Duel"		"Minijuego de Duelos"
 "TF_Usable_Duel_Desc"	"¿Un jugador enemigo está poniendo en duda tus habilidades, higiene personal o ascendencia?\n¡Usa estas elegantes armas de fuego para retarlo a un duelo!\nConsulta el Catálogo Mann Co. para conocer más detalles."
-"TF_Duel_Request"			"¡%initiator% te retó a un duelo! ¿Vas a defender tu honor?"
+"TF_Duel_Request"			"%initiator% te retó a un duelo. ¿Vas a defender tu honor?"
 "TF_Duel_Request_Class"			"%initiator% te retó a un Duelo por Clases de %player_class%. ¿Vas a defender tu honor, o no?"
-"TF_Duel_Challenge"			"¡%initiator% retó a %target% a un duelo!"
+"TF_Duel_Challenge"			"%initiator% retó a %target% a un duelo."
 "TF_Duel_Challenge_Class"			"%initiator% retó a %target% a un Duelo por Clases de %player_class%."
 "TF_Duel_Accept"			"%target% aceptó enfrentarse a un duelo con %initiator%."
 "TF_Duel_Decline"			"El cobarde de %target% rechazó un duelo con el honorable %initiator%."
@@ -4813,7 +4813,7 @@
 "TF_PyroHat3_Desc"						"Ayuda a tus enemigos a celebrar el Día de Muertos llevando este sombrero y matándolos."
 "TF_EngineerHat2"						"El Visor de Realidad Virtual" // ADD THE
 "TF_EngineerHat2_Desc"					"Con esto puesto, puedes fingir que estás ganando."
-"TF_SpyGlasses"							"Las Lentes del Ente" // ADD THE
+"TF_SpyGlasses"							"Lentes del Ente" // ADD THE
 "TF_SpyGlasses_Desc"					"Tan misterioso. Tan letal. Tan miope."
 "TF_ScoutGlasses"						"Las Gafas Estereoscópicas" // ADD THE
 "TF_ScoutGlasses_Desc"					"Si cierras un ojo, uno de los equipos se desaparecerá. Así que no lo hagas."
@@ -4888,7 +4888,7 @@
 "TF_Winter2013_BattleHood_Style1"		"Con casco"
 "TF_Winter2013_BattleSocks"			"Los Calcetines de Combate de la Guerra Navideña" // ADD THE
 "TF_Winter2013_BattleSocks_Desc"		"Otorgados por fabricar la insignia Rebajas Navideñas de Steam 2013"
-"TF_Winter2013_SmissmasSack"		"El Saco Petao de Navidad" // ADD THE
+"TF_Winter2013_SmissmasSack"		"Saco a Tope de Navidad" // ADD THE
 "TF_Winter2013_SmissmasSack_Desc"		"Otorgado por fabricar la insignia Rebajas Navideñas de Steam 2013."
 "TF_Winter2013_Caribou"				"El Cornudo Navideño" // ADD THE
 "TF_Winter2013_Caribou_Desc"			"Otorgado por fabricar la insignia Rebajas Navideñas de Steam 2013."
@@ -4980,7 +4980,7 @@
 "TF_TheWinterWonderlandWrap_Style0"		"A rayas"
 "TF_TheWinterWonderlandWrap_Style1"		"Sin rayas"
 
-"TF_DerWintermantel"			"La Bata Invernal"
+"TF_DerWintermantel"			"Der Wintermantel"
 "TF_DerWintermantel_Desc"		"Esta combinación de abrigo y suéter forrada de piel viene con la garantía de Mann Co. que, como todos nuestros productos, al menos tres especies protegidas se extinguieron durante la fabricación de esta prenda. Nota: la piel es sintética."
 "TF_DerWintermantel_Style0"		"Enseñando el suéter de la abuela"
 "TF_DerWintermantel_Style1"		"Ocultando el suéter de la Abuela"
@@ -5448,9 +5448,9 @@
 
 "ToolDuckTokenConfirm"			"¿Seguro que quieres usar la Patomoneda\nen este Patodiario?"
 "TF_Tool_DuckToken"				"Patomoneda"
-"TF_Tool_DuckToken_Desc"		"Úsala para incrementar el nivel de poder de un Patodiario existente.\nLos diarios tienen un nivel máximo de 5.\n\nLas insignias de mayor nivel pueden encontrar más patos.\nDespués del 5 de enero de 2015 no se podrán encontrar más patos."
+"TF_Tool_DuckToken_Desc"		"Se utiliza para aumentar el nivel de poder de un Patodiario existente.\nLos diarios tienen un nivel máximo de 5.\n\nLas insignias de mayor nivel pueden encontrar más patos.\nDespués del 5 de enero de 2015 no se podrán encontrar más patos."
 "TF_Item_DuckBadge"				"Patodiario"
-"TF_Item_DuckBadge_Desc"		"Equípalo en el espacio de acción para aumentar la cantidad de patos que puedes conseguir.\nUsa Patomonedas para incrementar el nivel de poder.\nUn mayor nivel significa mayor posibilidad de encontrar patos."
+"TF_Item_DuckBadge_Desc"		"Equípalo en el espacio de acción para aumentar la cantidad de patos que puedes conseguir.\nUsa Patomonedas para aumentar el nivel de poder.\nUn mayor nivel significa mayor posibilidad de encontrar patos."
 "TF_Armory_Item_DuckBadge"		"Equípalo en el espacio de acción para aumentar tu habilidad de encontrar patos.\nUsa Patomonedas para incrementar el nivel de la insignia hasta un máximo de 5.\n\nInspecciónala en tu mochila para ver los marcadores de tus amigos.\nDespués del 5 de enero de 2015 no se podrán encontrar más patos y se cerrarán las tablas de clasificación.\n\nApoya al equipo de \"End of the Line\" con cada una de las ventas."
 "TF_DuckBadge_Style0"			"Ninguno"
 "TF_DuckBadge_Style1"			"Scout"
@@ -7405,7 +7405,7 @@
 // Intro
 
 "Gametype_AttackDefense"		"Ataque / Defensa"
-"Gametype_AttackDefense_Desc"	"Por turnos, captura los puntos del enemigo o impide que él capture los tuyos."
+"Gametype_AttackDefense_Desc"	"Por turnos, captura los puntos enemigos o impide que el enemigo capture los tuyos."
 "Gametype_CTF"					"Captura la bandera"
 "Gametype_CTF_Desc"				"¡Roba el dosier del enemigo y llévalo de vuelta a tu base!"
 "Gametype_CP"					"Puntos de control"
@@ -7540,7 +7540,7 @@
 "Hint_enemy_using_tp_entrance"		"¡Un enemigo está cerca de la entrada de tu teletransportador!"
 "Hint_enemy_using_tp_exit"			"¡Un enemigo está cerca de la salida de tu teletransportador!"
 
-"Hint_inspect_weapon"				"Mantén la tecla \"%s1\" para inspeccionar tu arma."
+"Hint_inspect_weapon"				"Mantén presionada la tecla \"%s1\" para inspeccionar tu arma."
 
 "WinPanel_Red_Team_Wins"			"Gana el equipo RED"
 "WinPanel_Blue_Team_Wins"			"Gana el equipo BLU"
@@ -7924,7 +7924,7 @@
 "Tip_arena_8"			"Como Medic, parte de tu Supercarga se transferirá de una vida a la siguiente cuando uses la Vitasierra."
 "Tip_arena_9"			"Como Pyro, lanza fuego sobre tus compañeros para descubrir Spies disfrazados y así prevenir que estos le den al otro equipo una ventaja estratégica."
 
-"Tip_Abuse_Report"		"Para informar del uso de imágenes o comportamientos abusivos, presiona la tecla %abuse_report_queue% para hacer una captura y recopilar información de la partida y enviarla directamente al equipo de soporte."
+"Tip_Abuse_Report"		"Para denunciar del uso de imágenes o comportamientos abusivos, presiona la tecla %abuse_report_queue% para hacer una captura y recopilar información de la partida y enviarla directamente al equipo de soporte."
 
 "TF_ClassRecord_MostPoints"		"Máx. puntos:"
 "TF_ClassRecord_MostKills"		"Máx. víctimas:"
@@ -8056,7 +8056,7 @@
 // ScoreBoard context menu
 "TF_ScoreBoard_Context_Report"	"Denunciar"
 "TF_ScoreBoard_Context_Report_Reason1"	"Hace trampas"
-"TF_ScoreBoard_Context_Report_Reason2"	"Inactivo/Ausente"
+"TF_ScoreBoard_Context_Report_Reason2"	"Ausente"
 "TF_ScoreBoard_Context_Report_Reason3"	"Acoso"
 "TF_ScoreBoard_Context_Report_Reason4"	"Conducta molesta"
 
@@ -9762,7 +9762,7 @@
 "ToolCustomizeTextureBrowseButton"	"Buscar imagen..."
 "ToolCustomizeTextureOKButton"	"Aplicar"
 "ToolCustomizeTextureBrowseDialogTitle"	"Selecciona un archivo de imagen personalizado."
-"ToolCustomizeTextureConfirmWarning" "Esta acción consumirá tu herramienta de adhesivos y no puede deshacerse.\n\nLa imagen debe cumplir con el Acuerdo de Suscripción a Steam. El uso de imágenes ofensivas o que incurran en una infracción podría resultar en la eliminación de la imagen o del objeto. No se ofrecerá reembolso del dinero ni sustitución por otro objeto.\n\nSi no sabes si la imagen cumple estos requisitos, no la subas."
+"ToolCustomizeTextureConfirmWarning" "Esta acción consumirá tu herramienta de adhesivos y no se podrá deshacer.\n\nLa imagen debe cumplir con el Acuerdo de Suscriptor a Steam. Subir imágenes que contengan material ofensivo o ilícito puede dar lugar a la eliminación de la imagen o del objeto. No se ofrecerá ningún reembolso ni sustitución.\n\nSi no estás seguro de que sea adecuado, no lo subas."
 "ToolCustomizeTexturePleaseWait" "Espera mientras se aplica tu calco."
 "ToolCustomizeTextureFilter" "Filtro:"
 "ToolDecodeInProgress"    	"Desempaquetando tu recompensa"
@@ -11819,11 +11819,11 @@
 "TFUI_InvTooltip_RarityNoWear"			"%s2 de Grado %s3%s1"			// name, grade, noWear
 "TFUI_InvTooltip_Wear"					"Exterior:"
 "TFUI_InvTooltip_ItemFound"				"%s3%s4%s1%s2%s5"		// szStrange, szUnusual, szItemname, szRarity, szWear
-"TFUI_InvTooltip_ItemFound_Itemname" 		"%s1 "
-"TFUI_InvTooltip_ItemFound_Wear" 				"(%s1) "
-"TFUI_InvTooltip_ItemFound_Rarity" 			"de Grado %s1 "
-"TFUI_InvTooltip_ItemFound_Strange"			"%s1 "
-"TFUI_InvTooltip_ItemFound_Unusual"			"%s1 "
+"TFUI_InvTooltip_ItemFound_Itemname" 		"%s1"
+"TFUI_InvTooltip_ItemFound_Wear" 				" (%s1)"
+"TFUI_InvTooltip_ItemFound_Rarity" 			" de Grado %s1"
+"TFUI_InvTooltip_ItemFound_Strange"			"%s1"
+"TFUI_InvTooltip_ItemFound_Unusual"			"%s1"
 
 "TF_Tool_PaintCan"			"Bote de Pintura"
 "TF_Tool_PaintCan_Desc"			"Se usa para pintar otros objetos."
@@ -12029,7 +12029,7 @@
 "Attrib_RevolverUseHitLocations"			"Críticos por disparo a la cabeza."
 "Attrib_FireRetardant"						"El portador no puede arder."
 "Attrib_BackstabShield"						"Bloquea un único intento de puñalada por la espalda."
-"Attrib_MoveSpeed_Penalty"					"-%s1 % de velocidad de movimiento al portador."
+"Attrib_MoveSpeed_Penalty"					"−%s1 % de velocidad de movimiento al portador."
 "Attrib_Jarate_Description"					"Los enemigos empapados sufren minicríticos.\nPuede usarse para apagar el fuego."
 "Attrib_HealthRegen"						"+%s1 de salud regenerada por segundo al portador."
 "Attrib_HealthDrain"						"%s1 de salud perdida por segundo al portador."
@@ -12062,11 +12062,11 @@
 "Attrib_MaxammoSecondary_Reduced"			"%s1 % de munición secundaria máxima al portador."
 "Attrib_MaxammoMetal_Increased"				"+%s1 % de metal máximo al portador."
 "Attrib_MaxammoMetal_Reduced"				"%s1 % de metal máximo al portador."
-"Attrib_CloakConsumeRate_Increased"			"-%s1 % de duración de invisibilidad."
+"Attrib_CloakConsumeRate_Increased"			"−%s1 % de duración de invisibilidad."
 "Attrib_CloakConsumeRate_Decreased"			"+%s1 % de duración de invisibilidad."
 "Attrib_CloakRegenRate_Increased"			"+%s1 % de velocidad de regeneración de invisibilidad."
 "Attrib_CloakRegenRate_Decreased"			"%s1 % de velocidad de regeneración de invisibilidad."
-"Attrib_MinigunSpinup_Increased"			"-%s1 % de velocidad de giro."
+"Attrib_MinigunSpinup_Increased"			"−%s1 % de velocidad de giro."
 "Attrib_MinigunSpinup_Decreased"			"+%s1 % de velocidad de giro."
 "Attrib_MaxPipebombs_Increased"				"Máximo de bombas pegajosas desplegadas aumentado en %s1."
 "Attrib_MaxPipebombs_Decreased"				"Máximo de bombas pegajosas desplegadas: %s1."
@@ -12075,10 +12075,10 @@
 "Attrib_ConstructionRate_Increased"			"Las construcciones se construyen en un %s1 % más rápido cuando las golpeas."
 "Attrib_ConstructionRate_Decreased"			"Las construcciones se construyen en un %s1 % más lenta cuando las golpeas."
 "Attrib_RepairRate_Increased"				"Velocidad de reparación en un %s1 % más rápida."
-"Attrib_RepairRate_Decreased"				"-%s1 % de velocidad de reparación."
-"Attrib_UpgradeRate_Decreased"				"-%s1 % de velocidad de mejora."
+"Attrib_RepairRate_Decreased"				"−%s1 % de velocidad de reparación."
+"Attrib_UpgradeRate_Decreased"				"−%s1 % de velocidad de mejora."
 "Attrib_metal_pickup_decreased"				"%s1 % menos de metal de cajas y dispensadores."
-"Attrib_ReloadTime_Increased"				"-%s1 % de velocidad de recarga."
+"Attrib_ReloadTime_Increased"				"−%s1 % de velocidad de recarga."
 "Attrib_ReloadTime_Decreased"				"+%s1 % de velocidad de recarga."
 "Attrib_BlastRadius_Increased"				"+%s1 % de radio de explosión."
 "Attrib_BlastRadius_Decreased"				"%s1 % de radio de explosión."
@@ -12407,7 +12407,7 @@
 "Attrib_TeleportInsteadOfDie"			"+%s1 % de probabilidad de teletransportarte a la base al recibir daño mortal."
 "Attrib_MeleeCleaveAttack"				"Ataque cortante."
 "Attrib_Sentry_Build_Rate"				"Velocidad de construcción del arma centinela en un %s1 % más rápida."
-"Attrib_Teleporter_Build_Rate"			"Incrementa la velocidad de construcción de los teletransportadores en un %s1 %."
+"Attrib_Teleporter_Build_Rate"			"Aumenta la velocidad de construcción de los teletransportadores en un %s1 %."
 "Attrib_Grenade_Launcher_Mortar_Mode"	"Las balas de cañón tienen un tiempo de detonación de 1 segundo; para que exploten antes, mantén presionada la tecla de disparo."
 "Attrib_Grenade_Not_Explode_On_Impact"	"Las balas de cañón no explotan al impactar."
 "Attrib_Grenade_Damage_Reduction_On_World_Contact"	"%s1 % de daño al entrar en contacto con las superficies."
@@ -12906,7 +12906,7 @@
 "Attrib_Particle278"			"Aureola estelar"
 
 // Summer 2023 Unusual
-"Attrib_Particle279"			"Acarreo Pesado"
+"Attrib_Particle279"			"Acarreo pesado"
 "Attrib_Particle280"			"Acarreo Pesado"
 "Attrib_Particle281"			"Campo de medusas"
 "Attrib_Particle282"			"Campo de medusas"
@@ -13409,8 +13409,8 @@
 "TF_Lunchbox_Chocolate_desc"		"Al consumirlo, recuperas hasta 100 de salud.\nDisparo secundario: lanza la Barra de Dalokohs para que otro jugador pueda utilizarlo (el mismo efecto que un botiquín pequeño)."
 "TF_Unique_Lunchbox_Banana"			"El Plátano Segundón"	// ADD THE
 "TF_Lunchbox_Banana_desc"			"Al consumirlo, recuperas hasta 200 de salud.\nDisparo secundario: lanza el plátano para que otro jugador pueda utilizarlo (el mismo efecto que un botiquín pequeño)."
-"TF_TTG_MaxGun"						"La Lugermorfa"	// ADD THE
-"TF_TTG_SamRevolver"				"El Gran Revólver"	// ADD THE
+"TF_TTG_MaxGun"						"Lugermorfa"	// ADD THE
+"TF_TTG_SamRevolver"				"Gran Revólver"	// ADD THE
 "TF_Unique_EnergyDrink_CritCola"	"CritiCola"
 "TF_Unique_Golden_Wrench"			"La Llave Inglesa Dorada"	// ADD THE
 "TF_Unique_TribalmanKukri"			"La Cuchilla Tribal"	// ADD THE
@@ -13437,8 +13437,8 @@
 "TF_Unique_FryingPan"		"La Sartén"	// ADD THE
 "TF_Gold_FryingPan"			"Sartén Dorada"
 "TF_HalloweenBoss_Axe"			"El Decapitador del Jinete Decapitado sin Montura"	// ADD THE
-"TF_Iron_Curtain"			"El Telón de Acero"	// ADD THE
-"TF_TTG_Watch"				"El Reloj del Coleccionista"	// ADD THE
+"TF_Iron_Curtain"			"Telón de Acero"	// ADD THE
+"TF_TTG_Watch"				"Reloj del Coleccionista"	// ADD THE
 "TF_Amputator"				"El Amputador"	// ADD THE
 "TF_CrusadersCrossbow"			"La Ballesta del Cruzado"	// ADD THE
 "TF_CrusadersCrossbow_desc"		"Dispara jeringas especiales que curan a los compañeros e inflige daño basado en la distancia recorrida.\nEsta arma se recarga automáticamente cuando no está activa."
@@ -13526,7 +13526,7 @@
 "TF_BucketHat"			"Cubeta de Sesos"
 "TF_BucketHat_Desc"		"Tu cereeeebro, a prueba de zombis."
 "TF_TrafficCone"			"Cono Fúnebre"
-"TF_TrafficCone_Desc"		"Los pararás en seco poniéndote este elegante cono de tráfico."
+"TF_TrafficCone_Desc"		"Los detendrás de golpe con este elegante cono de tráfico."
 
 "TF_ScoutSword"			"Cuchilla Trirrúnica"
 "TF_ScoutHair"			"Coleta del Héroe"
@@ -13551,7 +13551,7 @@
 "TF_TTG_MaxGun_Desc"				"Lo último en armamento semioculto. No hay duda de que necesitas esta arma. La única pregunta es: ¿dónde vas a guardarla?"
 "TF_TTG_SamRevolver_Desc"			"Combina estilo con poder armamentístico. Durante mucho tiempo exclusiva solo para policías independientes, ahora está disponible para otros mercenarios sanguinarios."
 "TF_TTG_MaxsHat_Desc"				"Sombrero de fabricación magistral procedente de granjas libres de crueldad en Filipinas. Este cráneo hueco previene el sudor en el fragor de la batalla."
-"TF_RiftFireAxe_Desc"				"Perfecciona el diseño original de los volcanes incrementando su portabilidad. La ciencia moderna es incapaz de explicar exactamente de dónde proviene la lava."
+"TF_RiftFireAxe_Desc"				"Perfecciona el diseño original de los volcanes mejorando su portabilidad. La ciencia moderna es incapaz de explicar exactamente de dónde proviene la lava."
 "TF_RiftFireMace_Desc"			"La punta puntiaguda va hacia el otro tipo."
 
 "TF_Unique_Gloves_of_Running_Urgently"	"Los Guantes de Rapidez Ultraterrena"	// ADD THE
@@ -14756,7 +14756,7 @@
 "TF_GifterText_SelfOpen"				"%giver% abrió un paquete."
 "TF_UsePaintkit_Title"					"¿Pintar esta arma?"
 "TF_UsePaintkit_Text"					"Tu %item_name% se consumirá en el proceso."
-"TF_UsePaintkit_Working"				"Canjeando tu Pintura de Guerra..."
+"TF_UsePaintkit_Working"				"Aplicando tu Pintura de Guerra"
 "TF_UsePaintkit_Failed"					"No se pudo aplicar la Pintura de Guerra. Inténtalo más tarde."
 "TF_UsePaintkit_Panel_Title"					"Aplicando pintura de guerra"
 "TF_UsePaintkit_Panel_Desc"					"Selecciona el objeto al que quieres aplicar esta Pintura de Guerra."
@@ -16870,7 +16870,7 @@
 "TF_PublishFile_NoFileSelected" "<no seleccionado>"
 "TF_PublishFile_Optional" "<opcional>"
 "TF_PublishFile_PreviewDesc"	"Haz clic en \"Buscar\" para seleccionar una imagen de previsualización.\n\n\nSe redimensionará a una imagen .jpg de 512x512"
-"TF_PublishFile_BrowseDesc"		"Usa los botones de arriba para seleccionar los archivos a subir a Steam Workshop. Los accesorios y otros tipos de subidas deben estar comprimidas en archivos .zip. Los mapas a subir deben ser archivos .bsp."
+"TF_PublishFile_BrowseDesc"		"Utiliza los botones de arriba para seleccionar los archivos que deseas subir a Steam Workshop. Los archivos de accesorios y otros tipos de archivos deben estar en formato .zip. Los archivos de mapas deben estar en formato .bsp."
 "TF_PublishFile_kFailedToPublishFile" "Error al publicar el archivo. Comprueba que no tienes más artículos con el mismo nombre."
 "TF_PublishFile_kFailedToPrepareFile" "¡No se pudo preparar el mapa! Asegúrate de haber seleccionado un BSP válido."
 "TF_PublishFile_kFailedToUpdateFile"  "Error al actualizar el archivo publicado."
@@ -17032,7 +17032,7 @@
 
 "AbuseReport_QueueCommandName"	"Tomar una captura de un abuso"
 
-"AbuseReport_DialogTitle"	"Enviar informe de abuso a Steam"
+"AbuseReport_DialogTitle"	"Enviar denuncia de abuso a Steam"
 "AbuseReport_PlayerLabel"	"Jugador:"
 "AbuseReport_Player"		"Jugador abusivo"
 "AbuseReport_GameServer"	"Servidor abusivo"
@@ -17045,9 +17045,9 @@
 "AbuseReport_Discard"	"Descartar"
 "AbuseReport_SaveForLater"	"Finalizar luego"
 "AbuseReport_SelectOne"	"--seleccionar--"
-"AbuseReport_UploadScreenshot"	"La captura muestra el abuso; súbela junto con el informe."
+"AbuseReport_UploadScreenshot"	"La captura muestra el abuso; súbela junto con la denuncia."
 
-"AbuseReport_Notification"	"Informe de abuso listo para enviar"
+"AbuseReport_Notification"	"Denuncia de abuso lista para enviar"
 "AbuseReport_Notification_Help"	"Presiona [ %cl_trigger_first_notification% ] para ENVIAR AHORA.\nPresiona [ %cl_decline_first_notification% ] para ENVIAR MÁS TARDE."
 
 "AbuseReport_ContentAvatarImage" "Imagen de avatar"
@@ -17068,17 +17068,17 @@
 "AbuseReport_TypeInappropriate" "Material/comportamiento inapropiado"
 "AbuseReport_TypeOther" "Otro"
 
-"AbuseReport_Busy" "Enviando informe de abuso"
+"AbuseReport_Busy" "Enviando denuncia de abuso"
 
-"AbuseReport_NoSteamTitle" "Informe de abuso"
-"AbuseReport_NoSteamMessage" "Debes haber iniciado sesión en Steam para procesar un informe de abuso."
+"AbuseReport_NoSteamTitle" "Denuncia de abuso"
+"AbuseReport_NoSteamMessage" "Tienes que iniciar sesión en Steam para procesar una denuncia de abuso."
 "AbuseReport_SucceededTitle" "¡Listo!"
-"AbuseReport_SucceededMessage" "Informe de abuso enviado"
+"AbuseReport_SucceededMessage" "Denuncia de abuso enviada"
 "AbuseReport_GenericFailureTitle" "¡Error!"
-"AbuseReport_GenericFailureMessage" "Error al enviar el informe de abuso."
+"AbuseReport_GenericFailureMessage" "Error al enviar la denuncia de abuso."
 "AbuseReport_TooMuchFailedTitle" "¡Gracias!"
-"AbuseReport_TooMuchFailedMessage" "Ya enviaste un informe de abuso de este jugador, o bien ya enviaste varios informes de abuso en un corto periodo de tiempo."
-"AbuseReport_TooMuchFailedMessageGameServer" "Ya enviaste un informe de abuso de este servidor, o bien ya enviaste varios informes de abuso en un corto periodo de tiempo."
+"AbuseReport_TooMuchFailedMessage" "Ya enviaste una denuncia de abuso de este jugador, o bien ya enviaste varias denuncias de abuso en un corto periodo de tiempo."
+"AbuseReport_TooMuchFailedMessageGameServer" "Ya enviaste una denuncia de abuso de este servidor, o bien ya enviaste varias denuncias de abuso en un corto periodo de tiempo."
 
 "TF_Package_Type"				"Paquete"
 
@@ -17404,15 +17404,15 @@
 "TF_TombWrapper_Desc"			"Estas vendas de tejido grueso usadas fueron robadas de una momia cuando estaba siendo preparada para una operación en una pirámide hospital del antiguo Egipto. ¡Están asquerosas! Pero su valor es incalculable."
 
 "TF_SamsonSkewer"			"El Puñal de Samson" // ADD THE
-"TF_SamsonSkewer_Desc"			"La empuñadura de este cuchillo de supervivencia forjado a mano está abarrotada de cosas que necesitarás para sobrevivir en la naturaleza, a saber, una caja de cerillas y tres uvas pasas."
+"TF_SamsonSkewer_Desc"			"La empuñadura de este cuchillo de supervivencia forjado a mano contiene todo lo necesario para sobrevivir en la naturaleza, es decir, una caja de cerillas y tres pasas."
 "TF_SamsonSkewer_Style0"		"Amenazador"
 "TF_SamsonSkewer_Style1"		"Intimidatorio"
-"TF_Bloodhound"				"El Perro Policía" // ADD THE
+"TF_Bloodhound"				"Perro Policía" // ADD THE
 "TF_Bloodhound_Desc"			"Ponte en la piel de un vicario detective seductor de mujeres y sin pelos en la lengua leyéndote las obras completas de Raymond Chandler. Después de todo eso tómate un descanso y pruébate este innovador sombrero del tamaño de un perro de dibujos animados."
 "TF_DapperDisguise"			"El Disfraz Discreto" // ADD THE
-"TF_DapperDisguise_Desc"		"Ve de incógnito como un hombre guapo y disfruta de los beneficios secretos de un extraordinario atractivo. ¡Trabajos bien pagados! ¡Encuentros eróticos! ¡Tapas gratis en el bar de la esquina! Come todo lo que puedas, porque al final la máscara se acaba pudriendo, dejándote incluso más feo que antes."
+"TF_DapperDisguise_Desc"		"Ve de incógnito como un hombre guapo y disfruta de los beneficios secretos de ser excepcionalmente atractivo. ¡Trabajos bien remunerados! ¡Encuentros eróticos! ¡Palitos de pan gratis en la cafetería de la esquina! Come todo lo que puedas, porque al final la máscara se pudrirá y te dejará más feo que antes."
 "TF_Necronomicrown"			"La Necronomicorona" // ADD THE
-"TF_Necronomicrown_Desc"		"Como todos los gemelos idénticos, naciste a partir de un quiste en el cuello de tu hermano, te convertiste en una cabeza maligna y finalmente te desprendiste de él convertido en su propio clon. ¡Ahora no se os puede distinguir al uno del otro! Ayúdales a salir de dudas con este característico y demoníaco casco."
+"TF_Necronomicrown_Desc"		"Como todos los gemelos idénticos, naciste a partir de un quiste en el cuello de tu hermano, te convertiste en una cabeza maligna y finalmente te desprendiste de él convertido en su propio clon. ¡Ahora no se pueden distinguir el uno del otro! Ayúdales a salir de dudas con este característico y demoníaco casco."
 "TF_LongFallLoafers"		"Las Deportivas de Caída Libre" // ADD THE
 "TF_LongFallLoafers_Desc"		"Estos amortiguadores curvos de titanio están conectados a tu columna vertebral y recorren el interior de ambas piernas. Ahora cuando caigas desde muy alto, se absorberá el dolor del impacto y se redistribuirá convenientemente por todas las partes de tu cuerpo."
 
@@ -18042,7 +18042,7 @@ Pad direccional: moverse, gatillos: ir más rápido, botón A: siguiente línea.
 
 "TF_sf14_medic_herzensbrecher"          "El Herzensbrecher" // ADD THE
 "TF_sf14_medic_hundkopf"                "El Hundkopf" // ADD THE
-"TF_sf14_medic_kriegsmaschine_9000"     "La Kriegsmaschine-9000" // ADD THE
+"TF_sf14_medic_kriegsmaschine_9000"     "Kriegsmaschine-9000" // ADD THE
 "TF_sf14_vampire_makeover"              "La Transformación del Transilvano" // ADD THE
 "TF_sf14_vampiric_vesture"              "La Vestimenta Vampírica" // ADD THE
 "TF_sf14_nugget_noggin"                 "El Cabezapollo" // ADD THE
@@ -19190,7 +19190,7 @@ Pad direccional: moverse, gatillos: ir más rápido, botón A: siguiente línea.
 "TF_dec21_festive_frames_style2"		"Festivas (con sombrero)"
 "TF_dec21_festive_frames_style3"		"Festivizadas (con sombrero)"
 "TF_dec21_elf_ignition"				"Elfoignición"
-"TF_dec21_elf_ignition_style0"			"Sin Remeter"
+"TF_dec21_elf_ignition_style0"			"Sin remeter"
 "TF_dec21_elf_ignition_style1"			"Remetida"
 "TF_dec21_train_of_thought"			"Tren de Pensamiento"
 "TF_dec21_train_of_thought_style0"		"Polo Norte"
@@ -19828,7 +19828,7 @@ Pad direccional: moverse, gatillos: ir más rápido, botón A: siguiente línea.
 "TF_dec25_lazer_gazers"					"Visores Alucinados"
 "TF_dec25_snow_merc"					"Mercenario de Nieve"
 "TF_dec25_snow_merc_style1"					"Clase"
-"TF_dec25_snow_merc_style2"					"El Clásico"
+"TF_dec25_snow_merc_style2"					"Clásico"
 "TF_dec25_old_days"						"Devoción por los Viejos Tiempos" // ADD THE
 "TF_dec25_old_days_style1"					"Bombín"
 "TF_dec25_old_days_style2"					"Apostador"
