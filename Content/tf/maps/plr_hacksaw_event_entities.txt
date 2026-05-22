@@ -8,7 +8,7 @@ Revision: 3
 "detailvbsp" "detail_doomsday.vbsp"
 "detailmaterial" "detail/detailsprites_hacksaw"
 "classname" "worldspawn"
-"mapversion" "4842"
+"mapversion" "4863"
 "hammerid" "1"
 }
 {
@@ -705,42 +705,6 @@ Revision: 3
 "_constant_attn" "0"
 "classname" "light"
 "hammerid" "1935996"
-}
-{
-"origin" "920 1552 -1482"
-"style" "0"
-"pitch" "-90"
-"angles" "-90 90 0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "153 161 208 400"
-"_inner_cone" "45"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "1572726"
-}
-{
-"origin" "920 1552 -1482"
-"spawnflags" "0"
-"scale" ".75"
-"rendermode" "9"
-"renderfx" "0"
-"rendercolor" "153 161 208"
-"renderamt" "255"
-"model" "materials/Sprites/light_glow03.vmt"
-"mindxlevel" "0"
-"maxdxlevel" "0"
-"HDRColorScale" "1.0"
-"GlowProxySize" "4"
-"framerate" "10.0"
-"disablereceiveshadows" "0"
-"classname" "env_sprite"
-"hammerid" "1572732"
 }
 {
 "origin" "1657.99 1984 -1472"
@@ -7074,42 +7038,6 @@ Revision: 3
 "hammerid" "1507498"
 }
 {
-"origin" "1552 920 -1482"
-"style" "0"
-"pitch" "-90"
-"angles" "-90 90 0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "153 161 208 400"
-"_inner_cone" "45"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "1572766"
-}
-{
-"origin" "1552 920 -1482"
-"spawnflags" "0"
-"scale" ".75"
-"rendermode" "9"
-"renderfx" "0"
-"rendercolor" "153 161 208"
-"renderamt" "255"
-"model" "materials/Sprites/light_glow03.vmt"
-"mindxlevel" "0"
-"maxdxlevel" "0"
-"HDRColorScale" "1.0"
-"GlowProxySize" "4"
-"framerate" "10.0"
-"disablereceiveshadows" "0"
-"classname" "env_sprite"
-"hammerid" "1572772"
-}
-{
 "origin" "3070.05 1334.61 -1821.52"
 "targetname" "crow_prop_3"
 "StartDisabled" "0"
@@ -11300,23 +11228,6 @@ Revision: 3
 "hammerid" "2572624"
 }
 {
-"origin" "801.616 1447.64 -1422.18"
-"style" "0"
-"spawnflags" "0"
-"_zero_percent_distance" "400"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "237 163 34 50"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "200"
-"_distance" "0"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "2969850"
-}
-{
 "origin" "1467.79 817.411 -1420.06"
 "style" "0"
 "spawnflags" "0"
@@ -11332,6 +11243,23 @@ Revision: 3
 "_constant_attn" "0"
 "classname" "light"
 "hammerid" "2970347"
+}
+{
+"origin" "801.616 1447.64 -1422.18"
+"style" "0"
+"spawnflags" "0"
+"_zero_percent_distance" "400"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "237 163 34 50"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "200"
+"_distance" "0"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "2969850"
 }
 {
 "origin" "-704 1984 -640"
@@ -11800,7 +11728,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_underworld_tutorial"
 "spawnflags" "1"
-"message" "Race to the end, and step on buttons"
+"message" "#plr_hacksaw_event_progress_message1"
 "holdtime" "10"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -11989,26 +11917,6 @@ Revision: 3
 "hammerid" "2885131"
 }
 {
-"model" "*53"
-"vrad_brush_cast_shadows" "0"
-"targetname" "brush_window_barn_red"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "1552 860 -1380"
-"invert_exclusion" "0"
-"InputFilter" "0"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_brush"
-"hammerid" "1220994"
-}
-{
 "origin" "1280 3031.72 -1876.74"
 "spawnflags" "257"
 "skin" "0"
@@ -12151,7 +12059,7 @@ Revision: 3
 "hammerid" "2889585"
 }
 {
-"model" "*54"
+"model" "*53"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -12170,7 +12078,7 @@ Revision: 3
 "hammerid" "2929858"
 }
 {
-"model" "*55"
+"model" "*54"
 "value" "0.001"
 "StartDisabled" "0"
 "spawnflags" "65"
@@ -12182,7 +12090,7 @@ Revision: 3
 "hammerid" "2889700"
 }
 {
-"model" "*56"
+"model" "*55"
 "value" "0.001"
 "StartDisabled" "0"
 "spawnflags" "65"
@@ -12230,7 +12138,7 @@ Revision: 3
 "hammerid" "713015"
 }
 {
-"model" "*57"
+"model" "*56"
 "StartDisabled" "0"
 "speed" "400"
 "spawnflags" "1"
@@ -12252,7 +12160,7 @@ Revision: 3
 "hammerid" "572397"
 }
 {
-"model" "*58"
+"model" "*57"
 "wait" "3"
 "targetname" "button_touch_trigger4"
 "StartDisabled" "0"
@@ -12268,7 +12176,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_015"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 15%"
+"message" "#plr_hacksaw_event_progress_red15"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -12322,7 +12230,7 @@ Revision: 3
 "hammerid" "1719739"
 }
 {
-"model" "*59"
+"model" "*58"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -12339,7 +12247,7 @@ Revision: 3
 "hammerid" "512392"
 }
 {
-"model" "*60"
+"model" "*59"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -12399,7 +12307,7 @@ Revision: 3
 "hammerid" "805288"
 }
 {
-"model" "*61"
+"model" "*60"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -12429,7 +12337,7 @@ Revision: 3
 "hammerid" "1979571"
 }
 {
-"model" "*62"
+"model" "*61"
 "wait" "1"
 "targetname" "loot_island_win_blue"
 "StartDisabled" "0"
@@ -12550,7 +12458,7 @@ Revision: 3
 "hammerid" "2023243"
 }
 {
-"model" "*63"
+"model" "*62"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -12565,7 +12473,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_00"
 "spawnflags" "73"
-"message" "BLU Gravedigging Progress: 0%"
+"message" "#plr_hacksaw_event_progress_blu0"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -12840,7 +12748,7 @@ Revision: 3
 "hammerid" "2806742"
 }
 {
-"model" "*64"
+"model" "*63"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -12850,7 +12758,7 @@ Revision: 3
 "OnStartTouch" "!activatorSpeakResponseConceptTLK_PLAYER_GO012"
 }
 {
-"model" "*65"
+"model" "*64"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -13329,7 +13237,7 @@ Revision: 3
 "OnPass" "ssplr_red_crossover3_relayTrigger0-1"
 }
 {
-"model" "*66"
+"model" "*65"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -13339,7 +13247,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_indoors0-1"
 }
 {
-"model" "*67"
+"model" "*66"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a"
@@ -13435,7 +13343,7 @@ Revision: 3
 "hammerid" "8000"
 }
 {
-"model" "*68"
+"model" "*67"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "button_door3"
@@ -13475,7 +13383,7 @@ Revision: 3
 "OnPass" "counter_intersection_1Add10-1"
 }
 {
-"model" "*69"
+"model" "*68"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -13485,7 +13393,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_indoors0-1"
 }
 {
-"model" "*70"
+"model" "*69"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawmovelinear4"
@@ -13602,7 +13510,7 @@ Revision: 3
 "hammerid" "2336345"
 }
 {
-"model" "*71"
+"model" "*70"
 "targetname" "sawmovelinear4"
 "startposition" "0"
 "speed" "160"
@@ -13821,7 +13729,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_04"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 40%"
+"message" "#plr_hacksaw_event_progress_blu40"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -13953,7 +13861,7 @@ Revision: 3
 "hammerid" "890951"
 }
 {
-"model" "*72"
+"model" "*71"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawmovelinear2"
@@ -14230,7 +14138,7 @@ Revision: 3
 "hammerid" "1956493"
 }
 {
-"origin" "1584 -8 -1432"
+"origin" "1584 816 -1432"
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 180 0"
@@ -14255,7 +14163,7 @@ Revision: 3
 "hammerid" "1835047"
 }
 {
-"model" "*73"
+"model" "*72"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -14293,7 +14201,7 @@ Revision: 3
 "hammerid" "1302836"
 }
 {
-"model" "*74"
+"model" "*73"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -14450,7 +14358,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_065"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 65%"
+"message" "#plr_hacksaw_event_progress_red65"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -14677,7 +14585,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_095"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 95%"
+"message" "#plr_hacksaw_event_progress_red95"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -14709,7 +14617,7 @@ Revision: 3
 "OnTrigger" "book_talking_relayEnable20-1"
 }
 {
-"model" "*75"
+"model" "*74"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -14817,7 +14725,7 @@ Revision: 3
 "hammerid" "3227"
 }
 {
-"model" "*76"
+"model" "*75"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -14861,7 +14769,7 @@ Revision: 3
 "hammerid" "1835160"
 }
 {
-"model" "*77"
+"model" "*76"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-1408 -1920 -2688"
@@ -14994,7 +14902,7 @@ Revision: 3
 "hammerid" "1956132"
 }
 {
-"model" "*78"
+"model" "*77"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a1"
@@ -15076,7 +14984,7 @@ Revision: 3
 "hammerid" "1835137"
 }
 {
-"model" "*79"
+"model" "*78"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -15093,7 +15001,7 @@ Revision: 3
 "hammerid" "1405878"
 }
 {
-"model" "*80"
+"model" "*79"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15194,7 +15102,7 @@ Revision: 3
 "hammerid" "1827908"
 }
 {
-"origin" "-8 1584 -1432"
+"origin" "816 1584 -1432"
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 270 0"
@@ -15241,7 +15149,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_025"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 25%"
+"message" "#plr_hacksaw_event_progress_blu25"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -15286,7 +15194,7 @@ Revision: 3
 "hammerid" "281908"
 }
 {
-"model" "*81"
+"model" "*80"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "treasure_door"
@@ -15329,7 +15237,7 @@ Revision: 3
 "hammerid" "890840"
 }
 {
-"model" "*82"
+"model" "*81"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15374,7 +15282,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_06"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 60%"
+"message" "#plr_hacksaw_event_progress_blu60"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -15497,7 +15405,7 @@ Revision: 3
 "hammerid" "8429"
 }
 {
-"model" "*83"
+"model" "*82"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -15511,7 +15419,7 @@ Revision: 3
 "OnEndTouchAll" "redbase3_door2b3Close0-1"
 }
 {
-"model" "*84"
+"model" "*83"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -15550,7 +15458,7 @@ Revision: 3
 "hammerid" "512339"
 }
 {
-"model" "*85"
+"model" "*84"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b2"
@@ -15576,7 +15484,7 @@ Revision: 3
 "hammerid" "899863"
 }
 {
-"model" "*86"
+"model" "*85"
 "targetname" "button_squish5"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -15641,7 +15549,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_05"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 50%"
+"message" "#plr_hacksaw_event_progress_blu50"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -15878,7 +15786,7 @@ Revision: 3
 "hammerid" "7581"
 }
 {
-"model" "*87"
+"model" "*86"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -15924,7 +15832,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_075"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 75%"
+"message" "#plr_hacksaw_event_progress_blu75"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -16001,7 +15909,7 @@ Revision: 3
 "hammerid" "2051309"
 }
 {
-"model" "*88"
+"model" "*87"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -16032,7 +15940,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_045"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 45%"
+"message" "#plr_hacksaw_event_progress_red45"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -16045,7 +15953,7 @@ Revision: 3
 "hammerid" "1546897"
 }
 {
-"model" "*89"
+"model" "*88"
 "wait" "0"
 "targetname" "trigger_hacking_blue_effects"
 "StartDisabled" "0"
@@ -16238,7 +16146,7 @@ Revision: 3
 "hammerid" "2050907"
 }
 {
-"model" "*90"
+"model" "*89"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "1984 3328 -2784"
@@ -16251,7 +16159,7 @@ Revision: 3
 "hammerid" "7876"
 }
 {
-"model" "*91"
+"model" "*90"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -16261,7 +16169,7 @@ Revision: 3
 "OnTrigger" "tele_tunnel_boss_laugh_7PlaySound0-1"
 }
 {
-"model" "*92"
+"model" "*91"
 "vrad_brush_cast_shadows" "1"
 "targetname" "static_grave_red"
 "StartDisabled" "0"
@@ -16300,7 +16208,7 @@ Revision: 3
 "hammerid" "219761"
 }
 {
-"model" "*93"
+"model" "*92"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -16319,7 +16227,7 @@ Revision: 3
 "hammerid" "512389"
 }
 {
-"model" "*94"
+"model" "*93"
 "targetname" "ssplr_red_dispenser"
 "parentname" "plr_red_train"
 "classname" "dispenser_touch_trigger"
@@ -16427,7 +16335,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_065"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 65%"
+"message" "#plr_hacksaw_event_progress_blu65"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -16445,7 +16353,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_085"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 85%"
+"message" "#plr_hacksaw_event_progress_blu85"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -16458,7 +16366,7 @@ Revision: 3
 "hammerid" "1545701"
 }
 {
-"model" "*95"
+"model" "*94"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -16576,7 +16484,7 @@ Revision: 3
 "hammerid" "468636"
 }
 {
-"model" "*96"
+"model" "*95"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -16684,7 +16592,7 @@ Revision: 3
 "hammerid" "147374"
 }
 {
-"model" "*97"
+"model" "*96"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -16954,7 +16862,7 @@ Revision: 3
 "hammerid" "2205278"
 }
 {
-"model" "*98"
+"model" "*97"
 "targetname" "long_fall_trigger_hurt_backup"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -17033,7 +16941,7 @@ Revision: 3
 "hammerid" "2075472"
 }
 {
-"model" "*99"
+"model" "*98"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -17319,7 +17227,7 @@ Revision: 3
 "hammerid" "2255524"
 }
 {
-"model" "*100"
+"model" "*99"
 "targetname" "trigger_remove_bonk"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -17329,7 +17237,7 @@ Revision: 3
 "hammerid" "2862747"
 }
 {
-"model" "*101"
+"model" "*100"
 "wait" "1"
 "targetname" "treasure_door_trigger"
 "StartDisabled" "0"
@@ -17352,7 +17260,7 @@ Revision: 3
 "hammerid" "2023253"
 }
 {
-"model" "*102"
+"model" "*101"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -17428,7 +17336,7 @@ Revision: 3
 "hammerid" "2335986"
 }
 {
-"model" "*103"
+"model" "*102"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -17464,7 +17372,7 @@ Revision: 3
 "hammerid" "904336"
 }
 {
-"model" "*104"
+"model" "*103"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -17535,7 +17443,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_005"
 "spawnflags" "73"
-"message" "BLU Gravedigging Progress: 5%"
+"message" "#plr_hacksaw_event_progress_blu5"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -17607,7 +17515,7 @@ Revision: 3
 "hammerid" "2336830"
 }
 {
-"model" "*105"
+"model" "*104"
 "trigger_delay" "0"
 "targetname" "stun_blu"
 "stun_type" "2"
@@ -17641,7 +17549,7 @@ Revision: 3
 "hammerid" "2255764"
 }
 {
-"model" "*106"
+"model" "*105"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawmovelinear3"
@@ -17727,7 +17635,7 @@ Revision: 3
 "hammerid" "2255758"
 }
 {
-"model" "*107"
+"model" "*106"
 "StartDisabled" "0"
 "spawnflags" "64"
 "parentname" "plr_blu_train"
@@ -17742,7 +17650,7 @@ Revision: 3
 "hammerid" "8424"
 }
 {
-"model" "*108"
+"model" "*107"
 "trigger_delay" "0"
 "targetname" "stun_red"
 "stun_type" "2"
@@ -17874,7 +17782,7 @@ Revision: 3
 "hammerid" "1937197"
 }
 {
-"model" "*109"
+"model" "*108"
 "targetname" "trigger_remove_bonk"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -17943,22 +17851,6 @@ Revision: 3
 "_cone" "65"
 "classname" "light_spot"
 "hammerid" "692863"
-}
-{
-"origin" "-1120 1680 -789.375"
-"start_active" "1"
-"flag_as_weather" "0"
-"effect_name" "pyre_plume"
-"cpoint7_parent" "0"
-"cpoint6_parent" "0"
-"cpoint5_parent" "0"
-"cpoint4_parent" "0"
-"cpoint3_parent" "0"
-"cpoint2_parent" "0"
-"cpoint1_parent" "0"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "2310531"
 }
 {
 "origin" "2846 1838 3360"
@@ -18419,7 +18311,7 @@ Revision: 3
 "OnTrigger" "button_door2Open0-1"
 }
 {
-"model" "*110"
+"model" "*109"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -18449,7 +18341,7 @@ Revision: 3
 "hammerid" "573201"
 }
 {
-"model" "*111"
+"model" "*110"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -18480,7 +18372,7 @@ Revision: 3
 "hammerid" "8870"
 }
 {
-"model" "*112"
+"model" "*111"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -18541,7 +18433,7 @@ Revision: 3
 "hammerid" "1937326"
 }
 {
-"model" "*113"
+"model" "*112"
 "targetname" "button_squish4"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -18611,7 +18503,7 @@ Revision: 3
 "hammerid" "572137"
 }
 {
-"model" "*114"
+"model" "*113"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -18626,7 +18518,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_01"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 10%"
+"message" "#plr_hacksaw_event_progress_blu10"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -18676,7 +18568,7 @@ Revision: 3
 "hammerid" "2002144"
 }
 {
-"model" "*115"
+"model" "*114"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "3328 1984 -2784"
@@ -18689,7 +18581,7 @@ Revision: 3
 "hammerid" "6395"
 }
 {
-"model" "*116"
+"model" "*115"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -18702,7 +18594,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_02Display0-1"
 }
 {
-"model" "*117"
+"model" "*116"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -18715,7 +18607,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_03Display0-1"
 }
 {
-"model" "*118"
+"model" "*117"
 "wait" "3"
 "targetname" "button_touch_trigger3"
 "StartDisabled" "0"
@@ -18726,7 +18618,7 @@ Revision: 3
 "OnStartTouchAll" "hammer_smash_trigger_relay3Trigger0-1"
 }
 {
-"model" "*119"
+"model" "*118"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -18765,7 +18657,7 @@ Revision: 3
 "hammerid" "1719972"
 }
 {
-"model" "*120"
+"model" "*119"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -18790,7 +18682,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_final"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: DESECRATED!"
+"message" "#plr_hacksaw_event_progress_red100"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -18808,7 +18700,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_final"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: DESECRATED!"
+"message" "#plr_hacksaw_event_progress_blu100"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -18904,7 +18796,7 @@ Revision: 3
 "hammerid" "368249"
 }
 {
-"model" "*121"
+"model" "*120"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -19575,7 +19467,7 @@ Revision: 3
 "hammerid" "584691"
 }
 {
-"model" "*122"
+"model" "*121"
 "volume" "10"
 "targetname" "sawrotate2"
 "spawnflags" "131"
@@ -19641,7 +19533,7 @@ Revision: 3
 "hammerid" "2050886"
 }
 {
-"model" "*123"
+"model" "*122"
 "wait" "3"
 "targetname" "button_touch_trigger"
 "StartDisabled" "0"
@@ -19847,7 +19739,7 @@ Revision: 3
 "hammerid" "2050898"
 }
 {
-"model" "*124"
+"model" "*123"
 "vrad_brush_cast_shadows" "0"
 "targetname" "static_grave_red"
 "StartDisabled" "0"
@@ -19942,7 +19834,7 @@ Revision: 3
 "hammerid" "2050892"
 }
 {
-"model" "*125"
+"model" "*124"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "button_door5"
@@ -20011,7 +19903,7 @@ Revision: 3
 "hammerid" "220099"
 }
 {
-"model" "*126"
+"model" "*125"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -20082,7 +19974,7 @@ Revision: 3
 "hammerid" "899855"
 }
 {
-"model" "*127"
+"model" "*126"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -20092,7 +19984,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_indoors0-1"
 }
 {
-"model" "*128"
+"model" "*127"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -20242,7 +20134,7 @@ Revision: 3
 "hammerid" "159867"
 }
 {
-"model" "*129"
+"model" "*128"
 "TeamNum" "3"
 "StartDisabled" "0"
 "associatedmodel" "prop_locker_blu_2"
@@ -20268,7 +20160,7 @@ Revision: 3
 "hammerid" "890501"
 }
 {
-"origin" "-8 1520 -1432"
+"origin" "816 1520 -1432"
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 270 0"
@@ -20322,7 +20214,7 @@ Revision: 3
 "hammerid" "892295"
 }
 {
-"origin" "1520 -8 -1432"
+"origin" "1520 816 -1432"
 "fademindist" "-1"
 "AutoMaterialize" "1"
 "angles" "0 180 0"
@@ -20371,7 +20263,7 @@ Revision: 3
 "hammerid" "891076"
 }
 {
-"model" "*130"
+"model" "*129"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -20399,7 +20291,7 @@ Revision: 3
 "hammerid" "712921"
 }
 {
-"model" "*131"
+"model" "*130"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -20449,7 +20341,7 @@ Revision: 3
 "hammerid" "1887860"
 }
 {
-"model" "*132"
+"model" "*131"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -20537,7 +20429,7 @@ Revision: 3
 "hammerid" "1887893"
 }
 {
-"model" "*133"
+"model" "*132"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -20571,7 +20463,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_075"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 75%"
+"message" "#plr_hacksaw_event_progress_red75"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -20628,7 +20520,7 @@ Revision: 3
 "hammerid" "1887903"
 }
 {
-"model" "*134"
+"model" "*133"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -21136,7 +21028,7 @@ Revision: 3
 "hammerid" "1888013"
 }
 {
-"model" "*135"
+"model" "*134"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -21147,7 +21039,7 @@ Revision: 3
 "hammerid" "597779"
 }
 {
-"model" "*136"
+"model" "*135"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -21214,7 +21106,7 @@ Revision: 3
 "hammerid" "2638967"
 }
 {
-"model" "*137"
+"model" "*136"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a4"
@@ -21274,7 +21166,7 @@ Revision: 3
 "hammerid" "1888023"
 }
 {
-"model" "*138"
+"model" "*137"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -21387,7 +21279,7 @@ Revision: 3
 "hammerid" "2051234"
 }
 {
-"model" "*139"
+"model" "*138"
 "target" "fall_eject_destination"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -21767,7 +21659,7 @@ Revision: 3
 "hammerid" "1956471"
 }
 {
-"model" "*140"
+"model" "*139"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "1024 1024 4672"
@@ -21780,7 +21672,7 @@ Revision: 3
 "hammerid" "2001965"
 }
 {
-"model" "*141"
+"model" "*140"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -21850,14 +21742,14 @@ Revision: 3
 "hammerid" "1888113"
 }
 {
-"model" "*142"
+"model" "*141"
 "TeamNum" "0"
 "StartDisabled" "0"
 "classname" "func_nobuild"
 "hammerid" "1888118"
 }
 {
-"model" "*143"
+"model" "*142"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b3"
@@ -21927,7 +21819,7 @@ Revision: 3
 "hammerid" "159739"
 }
 {
-"model" "*144"
+"model" "*143"
 "wait" ".1"
 "targetname" "long_fall_kill_players"
 "StartDisabled" "0"
@@ -21957,7 +21849,7 @@ Revision: 3
 "hammerid" "2257431"
 }
 {
-"model" "*145"
+"model" "*144"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -22015,7 +21907,7 @@ Revision: 3
 "hammerid" "892030"
 }
 {
-"model" "*146"
+"model" "*145"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -22058,7 +21950,7 @@ Revision: 3
 "hammerid" "2126157"
 }
 {
-"model" "*147"
+"model" "*146"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -22137,7 +22029,7 @@ Revision: 3
 "hammerid" "769993"
 }
 {
-"model" "*148"
+"model" "*147"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -22175,7 +22067,7 @@ Revision: 3
 "hammerid" "572610"
 }
 {
-"model" "*149"
+"model" "*148"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "button_door2"
@@ -22208,7 +22100,7 @@ Revision: 3
 "hammerid" "887493"
 }
 {
-"model" "*150"
+"model" "*149"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -22361,7 +22253,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_055"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 55%"
+"message" "#plr_hacksaw_event_progress_red55"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -22374,7 +22266,7 @@ Revision: 3
 "hammerid" "1546899"
 }
 {
-"model" "*151"
+"model" "*150"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "plr_red_train"
@@ -22437,7 +22329,7 @@ Revision: 3
 "hammerid" "572343"
 }
 {
-"model" "*152"
+"model" "*151"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -22447,7 +22339,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_indoors0-1"
 }
 {
-"model" "*153"
+"model" "*152"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -22562,7 +22454,7 @@ Revision: 3
 "hammerid" "886907"
 }
 {
-"model" "*154"
+"model" "*153"
 "TeamNum" "0"
 "StartDisabled" "1"
 "spawnflags" "0"
@@ -22596,7 +22488,7 @@ Revision: 3
 "hammerid" "2051316"
 }
 {
-"model" "*155"
+"model" "*154"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -22626,7 +22518,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_085"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 85%"
+"message" "#plr_hacksaw_event_progress_red85"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -22721,7 +22613,7 @@ Revision: 3
 "hammerid" "1750118"
 }
 {
-"model" "*156"
+"model" "*155"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -22883,7 +22775,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_095"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 95%"
+"message" "#plr_hacksaw_event_progress_blu95"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -22905,7 +22797,7 @@ Revision: 3
 "hammerid" "2051543"
 }
 {
-"model" "*157"
+"model" "*156"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -22956,23 +22848,6 @@ Revision: 3
 "_cone" "65"
 "classname" "light_spot"
 "hammerid" "1720099"
-}
-{
-"origin" "1552 640 -1288"
-"style" "0"
-"spawnflags" "0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "229 190 156 120"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_distance" "0"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "585818"
 }
 {
 "occludernumber" "8"
@@ -23158,7 +23033,7 @@ Revision: 3
 "hammerid" "1750570"
 }
 {
-"model" "*158"
+"model" "*157"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -23185,7 +23060,7 @@ Revision: 3
 "hammerid" "741509"
 }
 {
-"model" "*159"
+"model" "*158"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -23265,7 +23140,7 @@ Revision: 3
 "hammerid" "857278"
 }
 {
-"model" "*160"
+"model" "*159"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a3"
@@ -23300,7 +23175,7 @@ Revision: 3
 "hammerid" "891219"
 }
 {
-"model" "*161"
+"model" "*160"
 "targetname" "sawmovelinear3"
 "startposition" "0"
 "speed" "160"
@@ -23375,7 +23250,7 @@ Revision: 3
 "hammerid" "529418"
 }
 {
-"model" "*162"
+"model" "*161"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement02_blue"
 "StartDisabled" "0"
@@ -23542,7 +23417,7 @@ Revision: 3
 "hammerid" "2052070"
 }
 {
-"model" "*163"
+"model" "*162"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -23701,7 +23576,7 @@ Revision: 3
 "hammerid" "8143"
 }
 {
-"model" "*164"
+"model" "*163"
 "vrad_brush_cast_shadows" "0"
 "targetname" "static_grave_blue"
 "StartDisabled" "0"
@@ -23721,7 +23596,7 @@ Revision: 3
 "hammerid" "2178040"
 }
 {
-"model" "*165"
+"model" "*164"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -23747,7 +23622,7 @@ Revision: 3
 "hammerid" "2203302"
 }
 {
-"model" "*166"
+"model" "*165"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement03_blue"
 "StartDisabled" "0"
@@ -23767,7 +23642,7 @@ Revision: 3
 "hammerid" "1244579"
 }
 {
-"model" "*167"
+"model" "*166"
 "wait" "0"
 "StartDisabled" "0"
 "spawnflags" "72"
@@ -23803,7 +23678,7 @@ Revision: 3
 "hammerid" "2750719"
 }
 {
-"model" "*168"
+"model" "*167"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "button_door"
@@ -23846,7 +23721,7 @@ Revision: 3
 "hammerid" "1750524"
 }
 {
-"model" "*169"
+"model" "*168"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -23917,7 +23792,7 @@ Revision: 3
 "hammerid" "8014"
 }
 {
-"model" "*170"
+"model" "*169"
 "targetname" "underworld_skull_zap_hurt_end"
 "StartDisabled" "1"
 "spawnflags" "65"
@@ -24010,7 +23885,7 @@ Revision: 3
 "hammerid" "2177180"
 }
 {
-"model" "*171"
+"model" "*170"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -24030,7 +23905,7 @@ Revision: 3
 "hammerid" "220103"
 }
 {
-"model" "*172"
+"model" "*171"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b4"
@@ -24056,7 +23931,7 @@ Revision: 3
 "hammerid" "512346"
 }
 {
-"model" "*173"
+"model" "*172"
 "targetname" "button_squish2"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -24070,14 +23945,14 @@ Revision: 3
 "hammerid" "2051331"
 }
 {
-"model" "*174"
+"model" "*173"
 "targetname" "ssplr_blu_dispenser"
 "parentname" "plr_blu_train"
 "classname" "dispenser_touch_trigger"
 "hammerid" "8354"
 }
 {
-"model" "*175"
+"model" "*174"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -24151,7 +24026,7 @@ Revision: 3
 "hammerid" "2336140"
 }
 {
-"model" "*176"
+"model" "*175"
 "targetname" "button_squish3"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -24234,7 +24109,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_035"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 35%"
+"message" "#plr_hacksaw_event_progress_blu35"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -24306,7 +24181,7 @@ Revision: 3
 "hammerid" "928567"
 }
 {
-"model" "*177"
+"model" "*176"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -24477,7 +24352,7 @@ Revision: 3
 "hammerid" "1209858"
 }
 {
-"model" "*178"
+"model" "*177"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -24598,7 +24473,7 @@ Revision: 3
 "hammerid" "7982"
 }
 {
-"model" "*179"
+"model" "*178"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -24690,7 +24565,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_underworld_tutorial"
 "spawnflags" "1"
-"message" "glowing green crosses!"
+"message" "#plr_hacksaw_event_progress_message3"
 "holdtime" "10"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -24703,7 +24578,7 @@ Revision: 3
 "hammerid" "2336849"
 }
 {
-"model" "*180"
+"model" "*179"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -24737,7 +24612,7 @@ Revision: 3
 "hammerid" "887761"
 }
 {
-"model" "*181"
+"model" "*180"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -25004,7 +24879,7 @@ Revision: 3
 "hammerid" "1915172"
 }
 {
-"model" "*182"
+"model" "*181"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "2528 400 -2624"
@@ -25090,7 +24965,7 @@ Revision: 3
 "hammerid" "1851901"
 }
 {
-"model" "*183"
+"model" "*182"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -25439,16 +25314,6 @@ Revision: 3
 "hammerid" "2023249"
 }
 {
-"portalnumber" "59"
-"TranslucencyLimit" "0"
-"target" "brush_window_barn_blue"
-"PortalVersion" "1"
-"FadeStartDist" "1700"
-"FadeDist" "1800"
-"classname" "func_areaportalwindow"
-"hammerid" "1314026"
-}
-{
 "origin" "2956 2768 -1828"
 "volstart" "0"
 "targetname" "crow_sound_2"
@@ -25583,7 +25448,7 @@ Revision: 3
 "hammerid" "1828049"
 }
 {
-"model" "*184"
+"model" "*183"
 "vrad_brush_cast_shadows" "1"
 "targetname" "static_grave_blue"
 "StartDisabled" "0"
@@ -25603,7 +25468,7 @@ Revision: 3
 "hammerid" "2102178"
 }
 {
-"model" "*185"
+"model" "*184"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -25745,7 +25610,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_005"
 "spawnflags" "73"
-"message" "RED Gravedigging Progress: 5%"
+"message" "#plr_hacksaw_event_progress_red5"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -25756,23 +25621,6 @@ Revision: 3
 "channel" "2"
 "classname" "game_text"
 "hammerid" "1546889"
-}
-{
-"origin" "816 1568 -1296"
-"style" "0"
-"spawnflags" "0"
-"_zero_percent_distance" "400"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "218 104 35 50"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "200"
-"_distance" "0"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "1779333"
 }
 {
 "origin" "848 80 -1624"
@@ -25800,7 +25648,7 @@ Revision: 3
 "hammerid" "3293"
 }
 {
-"model" "*186"
+"model" "*185"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -25841,7 +25689,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_055"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 55%"
+"message" "#plr_hacksaw_event_progress_blu55"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -25903,7 +25751,7 @@ Revision: 3
 "hammerid" "2052128"
 }
 {
-"model" "*187"
+"model" "*186"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "plr_blu_train"
@@ -25937,7 +25785,7 @@ Revision: 3
 "hammerid" "1978545"
 }
 {
-"model" "*188"
+"model" "*187"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -25959,7 +25807,7 @@ Revision: 3
 "hammerid" "1956458"
 }
 {
-"model" "*189"
+"model" "*188"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -25998,7 +25846,7 @@ Revision: 3
 "hammerid" "512312"
 }
 {
-"model" "*190"
+"model" "*189"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -26025,7 +25873,7 @@ Revision: 3
 "hammerid" "1750478"
 }
 {
-"model" "*191"
+"model" "*190"
 "vrad_brush_cast_shadows" "1"
 "targetname" "physics_Grave_blue"
 "StartDisabled" "0"
@@ -26045,7 +25893,7 @@ Revision: 3
 "hammerid" "2150169"
 }
 {
-"portalnumber" "60"
+"portalnumber" "59"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26241,7 +26089,7 @@ Revision: 3
 "hammerid" "2256452"
 }
 {
-"model" "*192"
+"model" "*191"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -26345,7 +26193,7 @@ Revision: 3
 "hammerid" "8127"
 }
 {
-"portalnumber" "61"
+"portalnumber" "60"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26395,7 +26243,7 @@ Revision: 3
 "hammerid" "1750575"
 }
 {
-"model" "*193"
+"model" "*192"
 "wait" ".1"
 "targetname" "long_fall_kill_players"
 "StartDisabled" "0"
@@ -26431,7 +26279,7 @@ Revision: 3
 "hammerid" "571783"
 }
 {
-"model" "*194"
+"model" "*193"
 "TeamNum" "3"
 "targetname" "blu_respawn_tigger"
 "StartDisabled" "0"
@@ -26472,7 +26320,7 @@ Revision: 3
 "hammerid" "2052049"
 }
 {
-"portalnumber" "62"
+"portalnumber" "61"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26510,7 +26358,7 @@ Revision: 3
 "hammerid" "915275"
 }
 {
-"model" "*195"
+"model" "*194"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -26628,7 +26476,7 @@ Revision: 3
 "OnPass" "plr_red_trainSetSpeedForwardModifier0.040-1"
 }
 {
-"portalnumber" "63"
+"portalnumber" "62"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26675,7 +26523,7 @@ Revision: 3
 "OnPass" "ssplr_blu_crossover2_relayTrigger0-1"
 }
 {
-"model" "*196"
+"model" "*195"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -26726,7 +26574,7 @@ Revision: 3
 "hammerid" "159894"
 }
 {
-"model" "*197"
+"model" "*196"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -26777,7 +26625,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_02"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 20%"
+"message" "#plr_hacksaw_event_progress_blu20"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -26790,7 +26638,7 @@ Revision: 3
 "hammerid" "1046907"
 }
 {
-"model" "*198"
+"model" "*197"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -26800,14 +26648,14 @@ Revision: 3
 "OnTrigger" "tele_tunnel_ghostmoan_3PlaySound0-1"
 }
 {
-"portalnumber" "64"
+"portalnumber" "63"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "588367"
 }
 {
-"portalnumber" "65"
+"portalnumber" "64"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26830,7 +26678,7 @@ Revision: 3
 "hammerid" "1187020"
 }
 {
-"model" "*199"
+"model" "*198"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a5"
@@ -26905,7 +26753,7 @@ Revision: 3
 "hammerid" "1915979"
 }
 {
-"portalnumber" "66"
+"portalnumber" "65"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -26965,12 +26813,12 @@ Revision: 3
 "hammerid" "2179264"
 }
 {
-"model" "*200"
+"model" "*199"
 "classname" "func_nobuild"
 "hammerid" "1915251"
 }
 {
-"portalnumber" "67"
+"portalnumber" "66"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -27006,7 +26854,7 @@ Revision: 3
 "hammerid" "1834157"
 }
 {
-"model" "*201"
+"model" "*200"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -27027,7 +26875,7 @@ Revision: 3
 "OnTrue" "ssplr_blu_crossover2_relayEnable0-1"
 }
 {
-"model" "*202"
+"model" "*201"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
 "team_spawn_3" "0"
@@ -27155,7 +27003,7 @@ Revision: 3
 "hammerid" "963345"
 }
 {
-"model" "*203"
+"model" "*202"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b"
@@ -27317,7 +27165,7 @@ Revision: 3
 "hammerid" "903980"
 }
 {
-"model" "*204"
+"model" "*203"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -27398,7 +27246,7 @@ Revision: 3
 "hammerid" "2255559"
 }
 {
-"portalnumber" "68"
+"portalnumber" "67"
 "TranslucencyLimit" "0"
 "target" "brush_window_basement03_blue"
 "PortalVersion" "1"
@@ -27442,7 +27290,7 @@ Revision: 3
 "hammerid" "572353"
 }
 {
-"model" "*205"
+"model" "*204"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-1920 -1408 -2688"
@@ -27560,7 +27408,7 @@ Revision: 3
 "hammerid" "1750660"
 }
 {
-"model" "*206"
+"model" "*205"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "button_door4"
@@ -27586,7 +27434,7 @@ Revision: 3
 "hammerid" "2309725"
 }
 {
-"model" "*207"
+"model" "*206"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b1"
@@ -27627,7 +27475,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_045"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 45%"
+"message" "#plr_hacksaw_event_progress_blu45"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -27640,7 +27488,7 @@ Revision: 3
 "hammerid" "1545693"
 }
 {
-"model" "*208"
+"model" "*207"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -27650,7 +27498,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_outdoors0-1"
 }
 {
-"model" "*209"
+"model" "*208"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2a2"
@@ -27741,7 +27589,7 @@ Revision: 3
 "hammerid" "2176133"
 }
 {
-"model" "*210"
+"model" "*209"
 "targetname" "button_squish"
 "StartDisabled" "1"
 "spawnflags" "1"
@@ -27894,14 +27742,14 @@ Revision: 3
 "hammerid" "890231"
 }
 {
-"portalnumber" "69"
+"portalnumber" "68"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "8030"
 }
 {
-"model" "*211"
+"model" "*210"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -28009,7 +27857,7 @@ Revision: 3
 "hammerid" "1244647"
 }
 {
-"model" "*212"
+"model" "*211"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement03_red"
 "StartDisabled" "0"
@@ -28029,7 +27877,7 @@ Revision: 3
 "hammerid" "1244543"
 }
 {
-"model" "*213"
+"model" "*212"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -28037,16 +27885,6 @@ Revision: 3
 "classname" "trigger_soundscape"
 "hammerid" "1011512"
 "OnEndTouch" "!activatorSetFogControllerfog_outdoors0-1"
-}
-{
-"portalnumber" "70"
-"TranslucencyLimit" "0"
-"target" "brush_window_barn_red"
-"PortalVersion" "1"
-"FadeStartDist" "1700"
-"FadeDist" "1800"
-"classname" "func_areaportalwindow"
-"hammerid" "1313995"
 }
 {
 "origin" "1128 1600 -1588.89"
@@ -28105,7 +27943,7 @@ Revision: 3
 "hammerid" "147380"
 }
 {
-"model" "*214"
+"model" "*213"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -28115,7 +27953,7 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_indoors0-1"
 }
 {
-"model" "*215"
+"model" "*214"
 "StartDisabled" "0"
 "spawnflags" "64"
 "parentname" "plr_red_train"
@@ -28130,7 +27968,7 @@ Revision: 3
 "hammerid" "8512"
 }
 {
-"model" "*216"
+"model" "*215"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement02_red"
 "StartDisabled" "0"
@@ -28166,7 +28004,7 @@ Revision: 3
 "hammerid" "1793934"
 }
 {
-"model" "*217"
+"model" "*216"
 "StartDisabled" "0"
 "speed" "400"
 "spawnflags" "1"
@@ -28177,7 +28015,7 @@ Revision: 3
 "hammerid" "597749"
 }
 {
-"model" "*218"
+"model" "*217"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement01_blue"
 "StartDisabled" "0"
@@ -28202,7 +28040,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_035"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 35%"
+"message" "#plr_hacksaw_event_progress_red35"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -28215,7 +28053,7 @@ Revision: 3
 "hammerid" "1546895"
 }
 {
-"model" "*219"
+"model" "*218"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_basement01_red"
 "StartDisabled" "0"
@@ -28268,7 +28106,7 @@ Revision: 3
 "hammerid" "219818"
 }
 {
-"model" "*220"
+"model" "*219"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_staircase_blue"
 "StartDisabled" "0"
@@ -28288,7 +28126,7 @@ Revision: 3
 "hammerid" "1244406"
 }
 {
-"model" "*221"
+"model" "*220"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_staircase_red"
 "StartDisabled" "0"
@@ -28308,7 +28146,7 @@ Revision: 3
 "hammerid" "1244386"
 }
 {
-"model" "*222"
+"model" "*221"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -28322,7 +28160,7 @@ Revision: 3
 "OnEndTouchAll" "redbase3_door2bClose0-1"
 }
 {
-"model" "*223"
+"model" "*222"
 "wait" "3"
 "targetname" "button_touch_trigger5"
 "StartDisabled" "0"
@@ -28333,7 +28171,7 @@ Revision: 3
 "OnStartTouchAll" "hammer_smash_trigger_relay5Trigger0-1"
 }
 {
-"model" "*224"
+"model" "*223"
 "StartDisabled" "0"
 "speed" "250"
 "spawnflags" "1"
@@ -28391,7 +28229,7 @@ Revision: 3
 "hammerid" "3155"
 }
 {
-"model" "*225"
+"model" "*224"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_balcony_blue"
 "StartDisabled" "0"
@@ -28421,7 +28259,7 @@ Revision: 3
 "OnTrigger" "relay_engage_redTrigger1.5-1"
 }
 {
-"model" "*226"
+"model" "*225"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_window_balcony_red"
 "StartDisabled" "0"
@@ -28451,7 +28289,7 @@ Revision: 3
 "hammerid" "8115"
 }
 {
-"model" "*227"
+"model" "*226"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -28580,7 +28418,7 @@ Revision: 3
 "hammerid" "2417337"
 }
 {
-"model" "*228"
+"model" "*227"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -28651,7 +28489,7 @@ Revision: 3
 "hammerid" "2255778"
 }
 {
-"model" "*229"
+"model" "*228"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -28698,7 +28536,7 @@ Revision: 3
 "hammerid" "1651753"
 }
 {
-"model" "*230"
+"model" "*229"
 "spawnobject" "0"
 "spawnflags" "0"
 "rendermode" "0"
@@ -28802,7 +28640,7 @@ Revision: 3
 "hammerid" "573197"
 }
 {
-"model" "*231"
+"model" "*230"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -28856,7 +28694,7 @@ Revision: 3
 "hammerid" "1779269"
 }
 {
-"model" "*232"
+"model" "*231"
 "vrad_brush_cast_shadows" "1"
 "targetname" "physics_grave_red"
 "StartDisabled" "0"
@@ -28919,7 +28757,7 @@ Revision: 3
 "hammerid" "901934"
 }
 {
-"model" "*233"
+"model" "*232"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -29012,7 +28850,7 @@ Revision: 3
 "hammerid" "572653"
 }
 {
-"model" "*234"
+"model" "*233"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -29045,7 +28883,7 @@ Revision: 3
 "hammerid" "903635"
 }
 {
-"model" "*235"
+"model" "*234"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29097,7 +28935,7 @@ Revision: 3
 "hammerid" "1831884"
 }
 {
-"model" "*236"
+"model" "*235"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -29112,7 +28950,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_025"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 25%"
+"message" "#plr_hacksaw_event_progress_red25"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29136,7 +28974,7 @@ Revision: 3
 "hammerid" "571812"
 }
 {
-"portalnumber" "71"
+"portalnumber" "69"
 "TranslucencyLimit" "0"
 "target" "brush_window_staircase_red"
 "PortalVersion" "1"
@@ -29146,7 +28984,7 @@ Revision: 3
 "hammerid" "435865"
 }
 {
-"model" "*237"
+"model" "*236"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -29186,7 +29024,7 @@ Revision: 3
 "hammerid" "159877"
 }
 {
-"portalnumber" "72"
+"portalnumber" "70"
 "TranslucencyLimit" "0"
 "target" "brush_window_staircase_blue"
 "PortalVersion" "1"
@@ -29227,7 +29065,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_10"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 99%"
+"message" "#plr_hacksaw_event_progress_red99"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29245,7 +29083,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_09"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 90%"
+"message" "#plr_hacksaw_event_progress_red90"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29258,7 +29096,7 @@ Revision: 3
 "hammerid" "1047600"
 }
 {
-"portalnumber" "73"
+"portalnumber" "71"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -29287,7 +29125,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_08"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 80%"
+"message" "#plr_hacksaw_event_progress_red80"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29305,7 +29143,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_07"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 70%"
+"message" "#plr_hacksaw_event_progress_red70"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29318,7 +29156,7 @@ Revision: 3
 "hammerid" "1047596"
 }
 {
-"model" "*238"
+"model" "*237"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29365,7 +29203,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_06"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 60%"
+"message" "#plr_hacksaw_event_progress_red60"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29417,7 +29255,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_05"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 50%"
+"message" "#plr_hacksaw_event_progress_red50"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29457,7 +29295,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_04"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 40%"
+"message" "#plr_hacksaw_event_progress_red40"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29507,7 +29345,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_03"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 30%"
+"message" "#plr_hacksaw_event_progress_red30"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29525,7 +29363,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_02"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 20%"
+"message" "#plr_hacksaw_event_progress_red20"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29588,7 +29426,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_01"
 "spawnflags" "1"
-"message" "RED Gravedigging Progress: 10%"
+"message" "#plr_hacksaw_event_progress_red10"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29599,26 +29437,6 @@ Revision: 3
 "channel" "2"
 "classname" "game_text"
 "hammerid" "1047584"
-}
-{
-"model" "*239"
-"vrad_brush_cast_shadows" "0"
-"targetname" "brush_window_barn_blue"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solidbsp" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "860 1552 -1380"
-"invert_exclusion" "0"
-"InputFilter" "0"
-"disableshadows" "1"
-"disablereceiveshadows" "1"
-"classname" "func_brush"
-"hammerid" "1221087"
 }
 {
 "origin" "-1832 80 6784"
@@ -29634,7 +29452,7 @@ Revision: 3
 "OnTrigger" "players_in_hell_relay1Trigger0-1"
 }
 {
-"model" "*240"
+"model" "*238"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -29658,7 +29476,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_red_00"
 "spawnflags" "73"
-"message" "RED Gravedigging Progress: 0%"
+"message" "#plr_hacksaw_event_progress_red0"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -29671,7 +29489,7 @@ Revision: 3
 "hammerid" "1047582"
 }
 {
-"model" "*241"
+"model" "*239"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -29699,7 +29517,7 @@ Revision: 3
 "hammerid" "805281"
 }
 {
-"model" "*242"
+"model" "*240"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29722,7 +29540,7 @@ Revision: 3
 "hammerid" "8289"
 }
 {
-"portalnumber" "74"
+"portalnumber" "72"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -29764,7 +29582,7 @@ Revision: 3
 "hammerid" "1507220"
 }
 {
-"model" "*243"
+"model" "*241"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29797,7 +29615,7 @@ Revision: 3
 "hammerid" "2023240"
 }
 {
-"model" "*244"
+"model" "*242"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29810,7 +29628,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_075Display0-1"
 }
 {
-"model" "*245"
+"model" "*243"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29920,7 +29738,7 @@ Revision: 3
 "hammerid" "1750637"
 }
 {
-"portalnumber" "75"
+"portalnumber" "73"
 "TranslucencyLimit" "0"
 "target" "brush_window_basement02_blue"
 "PortalVersion" "1"
@@ -29943,7 +29761,7 @@ Revision: 3
 "OnPass" "counter_intersection_1Add10-1"
 }
 {
-"model" "*246"
+"model" "*244"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -29953,7 +29771,7 @@ Revision: 3
 "hammerid" "2205562"
 }
 {
-"model" "*247"
+"model" "*245"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -29966,7 +29784,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_055Display0-1"
 }
 {
-"model" "*248"
+"model" "*246"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30028,7 +29846,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_015"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 15%"
+"message" "#plr_hacksaw_event_progress_blu15"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -30041,7 +29859,7 @@ Revision: 3
 "hammerid" "1545687"
 }
 {
-"model" "*249"
+"model" "*247"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30054,7 +29872,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_035Display0-1"
 }
 {
-"model" "*250"
+"model" "*248"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30067,7 +29885,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_025Display0-1"
 }
 {
-"model" "*251"
+"model" "*249"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -30103,7 +29921,7 @@ Revision: 3
 "hammerid" "903385"
 }
 {
-"model" "*252"
+"model" "*250"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30177,7 +29995,7 @@ Revision: 3
 "hammerid" "891862"
 }
 {
-"model" "*253"
+"model" "*251"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30190,7 +30008,7 @@ Revision: 3
 "OnEndTouch" "text_hack_red_005Display0-1"
 }
 {
-"model" "*254"
+"model" "*252"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30203,7 +30021,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_065Display0-1"
 }
 {
-"model" "*255"
+"model" "*253"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30233,7 +30051,7 @@ Revision: 3
 "hammerid" "1750563"
 }
 {
-"model" "*256"
+"model" "*254"
 "wheels" "20"
 "volume" "10"
 "velocitytype" "1"
@@ -30295,7 +30113,7 @@ Revision: 3
 "hammerid" "8433"
 }
 {
-"model" "*257"
+"model" "*255"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30308,7 +30126,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_045Display0-1"
 }
 {
-"model" "*258"
+"model" "*256"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Inside"
@@ -30329,7 +30147,7 @@ Revision: 3
 "hammerid" "571995"
 }
 {
-"portalnumber" "76"
+"portalnumber" "74"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -30371,7 +30189,7 @@ Revision: 3
 "hammerid" "1750804"
 }
 {
-"model" "*259"
+"model" "*257"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -30381,7 +30199,7 @@ Revision: 3
 "OnTrigger" "tele_tunnel_boss_laugh_5PlaySound0-1"
 }
 {
-"model" "*260"
+"model" "*258"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30394,7 +30212,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_035Display0-1"
 }
 {
-"model" "*261"
+"model" "*259"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30407,7 +30225,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_025Display0-1"
 }
 {
-"model" "*262"
+"model" "*260"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30420,7 +30238,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_015Display0-1"
 }
 {
-"model" "*263"
+"model" "*261"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -30433,14 +30251,14 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_005Display0-1"
 }
 {
-"portalnumber" "77"
+"portalnumber" "75"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "825286"
 }
 {
-"portalnumber" "78"
+"portalnumber" "76"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -30452,7 +30270,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_10"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 99%"
+"message" "#plr_hacksaw_event_progress_blu99"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -30470,7 +30288,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_09"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 90%"
+"message" "#plr_hacksaw_event_progress_blu90"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -30488,7 +30306,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_08"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 80%"
+"message" "#plr_hacksaw_event_progress_blu80"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -30506,7 +30324,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_07"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 70%"
+"message" "#plr_hacksaw_event_progress_blu70"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -30614,7 +30432,7 @@ Revision: 3
 "hammerid" "2336810"
 }
 {
-"model" "*264"
+"model" "*262"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -30851,7 +30669,7 @@ Revision: 3
 "hammerid" "2023257"
 }
 {
-"portalnumber" "79"
+"portalnumber" "77"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -30868,7 +30686,7 @@ Revision: 3
 "hammerid" "220093"
 }
 {
-"portalnumber" "80"
+"portalnumber" "78"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -31078,7 +30896,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_underworld_welcome"
 "spawnflags" "1"
-"message" "WELCOME TO HELL!"
+"message" "#plr_hacksaw_event_hell"
 "holdtime" "11"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -31113,7 +30931,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_hack_blu_03"
 "spawnflags" "1"
-"message" "BLU Gravedigging Progress: 30%"
+"message" "#plr_hacksaw_event_progress_blu30"
 "holdtime" "3"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -31159,7 +30977,7 @@ Revision: 3
 "hammerid" "2051615"
 }
 {
-"model" "*265"
+"model" "*263"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -31169,28 +30987,28 @@ Revision: 3
 "OnEndTouch" "!activatorSetFogControllerfog_outdoors0-1"
 }
 {
-"portalnumber" "81"
+"portalnumber" "79"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "587157"
 }
 {
-"portalnumber" "82"
+"portalnumber" "80"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "8024"
 }
 {
-"portalnumber" "83"
+"portalnumber" "81"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "987835"
 }
 {
-"model" "*266"
+"model" "*264"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -31226,7 +31044,7 @@ Revision: 3
 "hammerid" "2309143"
 }
 {
-"model" "*267"
+"model" "*265"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -31384,7 +31202,7 @@ Revision: 3
 "hammerid" "2098652"
 }
 {
-"model" "*268"
+"model" "*266"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawrotate1"
@@ -31466,7 +31284,7 @@ Revision: 3
 "hammerid" "131262"
 }
 {
-"model" "*269"
+"model" "*267"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -31479,7 +31297,7 @@ Revision: 3
 "OnEndTouch" "text_hack_blu_095Display0-1"
 }
 {
-"model" "*270"
+"model" "*268"
 "targetname" "sawmovelinear2"
 "startposition" "0"
 "speed" "160"
@@ -31500,7 +31318,7 @@ Revision: 3
 "OnFullyOpen" "!selfClose0.2-1"
 }
 {
-"portalnumber" "84"
+"portalnumber" "82"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -31547,7 +31365,7 @@ Revision: 3
 "hammerid" "572266"
 }
 {
-"model" "*271"
+"model" "*269"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -31588,7 +31406,7 @@ Revision: 3
 "hammerid" "1887753"
 }
 {
-"model" "*272"
+"model" "*270"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -31643,7 +31461,7 @@ Revision: 3
 "hammerid" "572060"
 }
 {
-"model" "*273"
+"model" "*271"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -31745,7 +31563,7 @@ Revision: 3
 "hammerid" "2638637"
 }
 {
-"portalnumber" "85"
+"portalnumber" "83"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -31803,7 +31621,7 @@ Revision: 3
 "OnSetupFinished" "tf_gamerulesPlayVOBonesaw.RoundStart0-1"
 }
 {
-"model" "*274"
+"model" "*272"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "400 2528 -2624"
@@ -31816,7 +31634,7 @@ Revision: 3
 "hammerid" "360466"
 }
 {
-"model" "*275"
+"model" "*273"
 "targetname" "sawmovelinear5"
 "startposition" "0"
 "speed" "160"
@@ -31837,38 +31655,6 @@ Revision: 3
 "OnFullyOpen" "!selfClose0.2-1"
 }
 {
-"origin" "896 1680 -1430.74"
-"spawnflags" "257"
-"skin" "0"
-"shadowcastdist" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"pressuredelay" "0"
-"physicsmode" "0"
-"physdamagescale" "0.1"
-"PerformanceMode" "0"
-"nodamageforces" "0"
-"modelscale" "1.0"
-"model" "models/props_gameplay/bottle001.mdl"
-"minhealthdmg" "0"
-"massScale" "0"
-"inertiaScale" "1.0"
-"forcetoenablemotion" "0"
-"fadescale" "1"
-"fademindist" "800"
-"fademaxdist" "1000"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disablereceiveshadows" "0"
-"Damagetype" "0"
-"damagetoenablemotion" "0"
-"angles" "0 90 0"
-"classname" "prop_physics_multiplayer"
-"hammerid" "1571687"
-}
-{
 "origin" "1328 416 -1776"
 "style" "0"
 "spawnflags" "0"
@@ -31886,7 +31672,7 @@ Revision: 3
 "hammerid" "1827922"
 }
 {
-"model" "*276"
+"model" "*274"
 "TeamNum" "2"
 "targetname" "red_respawn_tigger"
 "StartDisabled" "0"
@@ -31932,7 +31718,7 @@ Revision: 3
 "hammerid" "1406493"
 }
 {
-"model" "*277"
+"model" "*275"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -31965,7 +31751,7 @@ Revision: 3
 "hammerid" "1887848"
 }
 {
-"model" "*278"
+"model" "*276"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -32008,7 +31794,7 @@ Revision: 3
 "hammerid" "1793522"
 }
 {
-"model" "*279"
+"model" "*277"
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
@@ -32050,7 +31836,7 @@ Revision: 3
 "hammerid" "571771"
 }
 {
-"portalnumber" "86"
+"portalnumber" "84"
 "TranslucencyLimit" "0.2"
 "target" "brush_window_basement03_red"
 "PortalVersion" "1"
@@ -32060,7 +31846,7 @@ Revision: 3
 "hammerid" "352659"
 }
 {
-"model" "*280"
+"model" "*278"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "redbase3_door2b5"
@@ -32086,7 +31872,7 @@ Revision: 3
 "hammerid" "512382"
 }
 {
-"model" "*281"
+"model" "*279"
 "StartDisabled" "0"
 "spawnflags" "1"
 "soundscape" "Outside"
@@ -32218,7 +32004,7 @@ Revision: 3
 "hammerid" "1936357"
 }
 {
-"model" "*282"
+"model" "*280"
 "wait" "0"
 "targetname" "trigger_dig_text"
 "StartDisabled" "0"
@@ -32370,7 +32156,7 @@ Revision: 3
 "hammerid" "2023227"
 }
 {
-"model" "*283"
+"model" "*281"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawmovelinear5"
@@ -32393,7 +32179,7 @@ Revision: 3
 "x" "-1"
 "targetname" "text_underworld_tutorial"
 "spawnflags" "1"
-"message" "to squash players in the lead- beware the"
+"message" "#plr_hacksaw_event_progress_message2"
 "holdtime" "10"
 "fxtime" "0.25"
 "fadeout" "0.15"
@@ -32475,7 +32261,7 @@ Revision: 3
 "hammerid" "2097877"
 }
 {
-"model" "*284"
+"model" "*282"
 "StartDisabled" "0"
 "spawnflags" "65"
 "origin" "1984 3328 -2752"
@@ -32492,7 +32278,7 @@ Revision: 3
 "OnStartTouch" "rarespellKill0.21"
 }
 {
-"model" "*285"
+"model" "*283"
 "StartDisabled" "0"
 "spawnflags" "65"
 "origin" "3328 1984 -2752"
@@ -32520,7 +32306,7 @@ Revision: 3
 "hammerid" "572401"
 }
 {
-"model" "*286"
+"model" "*284"
 "StartDisabled" "0"
 "spawnflags" "65"
 "origin" "-1408 -1920 -2624"
@@ -32536,7 +32322,7 @@ Revision: 3
 "OnStartTouch" "rarespellKill0.21"
 }
 {
-"model" "*287"
+"model" "*285"
 "StartDisabled" "0"
 "spawnflags" "65"
 "origin" "-1920 -1408 -2624"
@@ -32552,7 +32338,7 @@ Revision: 3
 "OnStartTouch" "rarespellKill0.21"
 }
 {
-"model" "*288"
+"model" "*286"
 "StartDisabled" "0"
 "spawnflags" "65"
 "origin" "1408 1408 -2944"
@@ -32568,7 +32354,7 @@ Revision: 3
 "OnStartTouch" "explosion_hhhExplode0.1-1"
 }
 {
-"model" "*289"
+"model" "*287"
 "StartDisabled" "0"
 "spawnflags" "1"
 "parentname" "sawrotate1"
@@ -32637,7 +32423,7 @@ Revision: 3
 "hammerid" "2098306"
 }
 {
-"model" "*290"
+"model" "*288"
 "volume" "10"
 "targetname" "sawrotate1"
 "spawnflags" "193"
@@ -32666,6 +32452,99 @@ Revision: 3
 "hammerid" "2098451"
 }
 {
+"portalnumber" "85"
+"TranslucencyLimit" "0"
+"target" "brush_window_barn_red"
+"PortalVersion" "1"
+"FadeStartDist" "2000"
+"FadeDist" "2200"
+"classname" "func_areaportalwindow"
+"hammerid" "3050196"
+}
+{
+"model" "*289"
+"vrad_brush_cast_shadows" "0"
+"targetname" "brush_window_barn_red"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solidbsp" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1552 860 -1380"
+"invert_exclusion" "0"
+"InputFilter" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "1"
+"classname" "func_brush"
+"hammerid" "3050202"
+}
+{
+"model" "*290"
+"vrad_brush_cast_shadows" "0"
+"targetname" "brush_window_barn_blue"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solidbsp" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "860 1552 -1380"
+"invert_exclusion" "0"
+"InputFilter" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "1"
+"classname" "func_brush"
+"hammerid" "3050216"
+}
+{
+"portalnumber" "86"
+"TranslucencyLimit" "0"
+"target" "brush_window_barn_blue"
+"PortalVersion" "1"
+"FadeStartDist" "2000"
+"FadeDist" "2200"
+"classname" "func_areaportalwindow"
+"hammerid" "3050219"
+}
+{
+"origin" "1552 640 -1288"
+"style" "0"
+"spawnflags" "0"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "229 190 156 120"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_distance" "0"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "585818"
+}
+{
+"origin" "-1120 1680 -789.375"
+"start_active" "1"
+"flag_as_weather" "0"
+"effect_name" "pyre_plume"
+"cpoint7_parent" "0"
+"cpoint6_parent" "0"
+"cpoint5_parent" "0"
+"cpoint4_parent" "0"
+"cpoint3_parent" "0"
+"cpoint2_parent" "0"
+"cpoint1_parent" "0"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "2310531"
+}
+{
 "model" "*291"
 "angles" "-0 -23.5 0"
 "vrad_brush_cast_shadows" "1"
@@ -32683,7 +32562,7 @@ Revision: 3
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3011009"
+"hammerid" "3050237"
 }
 {
 "origin" "-3584 -3584 -9344"
@@ -32712,7 +32591,7 @@ Revision: 3
 "DisableBoneFollowers" "1"
 "angles" "-2.5 90 0"
 "classname" "prop_dynamic"
-"hammerid" "3029784"
+"hammerid" "3069012"
 }
 {
 "origin" "-11264 -3584 -9600"
@@ -32741,7 +32620,7 @@ Revision: 3
 "DisableBoneFollowers" "1"
 "angles" "-3.5 180 0"
 "classname" "prop_dynamic"
-"hammerid" "3029757"
+"hammerid" "3068985"
 }
 {
 "origin" "-11322.9 -10775.3 -8962.32"
@@ -32770,7 +32649,7 @@ Revision: 3
 "DisableBoneFollowers" "1"
 "angles" "-6.49862 270.105 -1.50827"
 "classname" "prop_dynamic"
-"hammerid" "3029775"
+"hammerid" "3069003"
 }
 {
 "origin" "-3584 -11264 -9415.66"
@@ -32799,7 +32678,7 @@ Revision: 3
 "DisableBoneFollowers" "1"
 "angles" "0 0 0"
 "classname" "prop_dynamic"
-"hammerid" "3029788"
+"hammerid" "3069016"
 }
 {
 "origin" "-6970.56 -6248.68 -9493.96"
@@ -32832,7 +32711,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-13.7134 281.842 -2.84571"
 "classname" "prop_dynamic"
-"hammerid" "3043191"
+"hammerid" "3082419"
 }
 {
 "origin" "-6069.76 -6197.42 -9625"
@@ -32865,7 +32744,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-13.5948 176.357 -0.79116"
 "classname" "prop_dynamic"
-"hammerid" "3043210"
+"hammerid" "3082438"
 }
 {
 "origin" "-5992.18 -4998.88 -9441.58"
@@ -32898,7 +32777,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-4.65664 243.148 -0.863808"
 "classname" "prop_dynamic"
-"hammerid" "3043223"
+"hammerid" "3082451"
 }
 {
 "origin" "-6581.44 -3882.06 -9216"
@@ -32931,7 +32810,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-10.6014 284.686 -16.2867"
 "classname" "prop_dynamic"
-"hammerid" "3043260"
+"hammerid" "3082488"
 }
 {
 "origin" "-4144.88 -4832.66 -9046.12"
@@ -32964,7 +32843,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-13.7134 216.342 -2.84571"
 "classname" "prop_dynamic"
-"hammerid" "3043362"
+"hammerid" "3082590"
 }
 {
 "origin" "-3640.56 -7466.29 -9138.68"
@@ -32997,7 +32876,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-4.65664 168.148 -0.863808"
 "classname" "prop_dynamic"
-"hammerid" "3043236"
+"hammerid" "3082464"
 }
 {
 "origin" "-3862.88 -6457.32 -9037.66"
@@ -33030,7 +32909,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-12.0594 172.706 15.5459"
 "classname" "prop_dynamic"
-"hammerid" "3043246"
+"hammerid" "3082474"
 }
 {
 "origin" "-3908.53 -9535.4 -9214.96"
@@ -33063,7 +32942,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-1.53105 141.608 -12.8616"
 "classname" "prop_dynamic"
-"hammerid" "3043327"
+"hammerid" "3082555"
 }
 {
 "origin" "-6230.71 -9510.79 -9600"
@@ -33096,7 +32975,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-9.3124 103.289 16.2679"
 "classname" "prop_dynamic"
-"hammerid" "3043320"
+"hammerid" "3082548"
 }
 {
 "origin" "-7833.1 -10640.4 -8916.18"
@@ -33129,7 +33008,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-1.53105 97.1084 -12.8616"
 "classname" "prop_dynamic"
-"hammerid" "3043352"
+"hammerid" "3082580"
 }
 {
 "origin" "-9941.44 -10033.2 -8457.42"
@@ -33162,7 +33041,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-4.65664 78.148 -0.863808"
 "classname" "prop_dynamic"
-"hammerid" "3043295"
+"hammerid" "3082523"
 }
 {
 "origin" "-9250.04 -8712.21 -9376.74"
@@ -33195,7 +33074,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-1.53105 36.6084 -12.8616"
 "classname" "prop_dynamic"
-"hammerid" "3043272"
+"hammerid" "3082500"
 }
 {
 "origin" "-10066.3 -7267.92 -8928.33"
@@ -33228,7 +33107,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-4.65664 3.148 -0.863808"
 "classname" "prop_dynamic"
-"hammerid" "3043307"
+"hammerid" "3082535"
 }
 {
 "origin" "-8757.28 -5205.96 -9605.8"
@@ -33261,7 +33140,7 @@ Revision: 3
 "DisableBoneFollowers" "0"
 "angles" "-4.53465 331.288 15.0341"
 "classname" "prop_dynamic"
-"hammerid" "3043339"
+"hammerid" "3082567"
 }
 {
 "origin" "-7168 -7168 -9352"
@@ -33278,7 +33157,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3040992"
+"hammerid" "3080220"
 }
 {
 "model" "*292"
@@ -33297,7 +33176,7 @@ Revision: 3
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3040835"
+"hammerid" "3080063"
 }
 {
 "origin" "-8683.34 -8579.35 -9415.98"
@@ -33313,7 +33192,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3037989"
+"hammerid" "3077217"
 }
 {
 "origin" "-8786.65 -8540.11 -9362.98"
@@ -33329,7 +33208,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3037923"
+"hammerid" "3077151"
 }
 {
 "origin" "-6770.94 -7266.11 -9320.51"
@@ -33345,7 +33224,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3040155"
+"hammerid" "3079383"
 }
 {
 "origin" "-7161.14 -7691.9 -9324"
@@ -33361,7 +33240,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3037658"
+"hammerid" "3076886"
 }
 {
 "origin" "-7393.4 -7654.89 -9252.74"
@@ -33377,7 +33256,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "3037526"
+"hammerid" "3076754"
 }
 {
 "origin" "-6320 -6896 -9440"
@@ -33393,7 +33272,7 @@ Revision: 3
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "3036281"
+"hammerid" "3075509"
 }
 {
 "origin" "-7145.35 -7210 -9112.16"
@@ -33407,7 +33286,7 @@ Revision: 3
 "_ambientHDR" "-1 -1 -1 1"
 "_ambient" "57 45 79 50"
 "classname" "light_environment"
-"hammerid" "3035310"
+"hammerid" "3074538"
 }
 {
 "origin" "-7168 -7168 -9112"
@@ -33423,7 +33302,7 @@ Revision: 3
 "fogblend" "1"
 "angles" "0 0 0"
 "classname" "sky_camera"
-"hammerid" "3011044"
+"hammerid" "3050272"
 }
 {
 "origin" "-7168 -7168 -8192"
@@ -33455,7 +33334,7 @@ Revision: 3
 "DisableBoneFollowers" "1"
 "angles" "0 0 180"
 "classname" "prop_dynamic"
-"hammerid" "3042508"
+"hammerid" "3081736"
 }
 {
 "model" "*293"
@@ -33475,7 +33354,7 @@ Revision: 3
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3043364"
+"hammerid" "3082592"
 }
 {
 "model" "*294"
@@ -33494,7 +33373,7 @@ Revision: 3
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3043379"
+"hammerid" "3082607"
 }
 {
 "model" "*295"
@@ -33513,7 +33392,7 @@ Revision: 3
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3043394"
+"hammerid" "3082622"
 }
 {
 "model" "*296"
@@ -33532,6 +33411,6 @@ Revision: 3
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "3043409"
+"hammerid" "3082637"
 }
  
