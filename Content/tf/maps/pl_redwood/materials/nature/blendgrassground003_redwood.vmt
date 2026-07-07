@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/ground_redwood_02"
+	"$basetexture2" "Nature/gravelgrayred001"
+	"%tooltexture" "Nature/ground_redwood_01"
+
+	"%keywords" "tf"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/dirtground005_height-ssbump"
+	"$ssbump" "1"
+	"$surfaceprop" "grass"
+	"$surfaceprop2" "dirt"
+
+
+}

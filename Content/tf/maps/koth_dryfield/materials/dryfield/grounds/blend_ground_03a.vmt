@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "concrete/concretefloor003"
+	"$baseTexture2" "cp_mountainlab/concrete/concretefloor003"
+
+	"%keywords" "tf"
+	"$surfaceprop" "concrete"
+
+//	"$ssbump" "1 "
+
+//	"$bumpmap" "concrete/concretefloor007b_height-ssbump"
+//	"$bumpmap2" "concrete/concretefloor007b_height-ssbump"
+
+
+	"$blendmodulatetexture" "concrete/concretefloor007b_blendmask"
+
+}

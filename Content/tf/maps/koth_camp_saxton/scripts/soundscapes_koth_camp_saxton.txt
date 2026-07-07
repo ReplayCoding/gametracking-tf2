@@ -1,0 +1,170 @@
+"CampSaxton.Inside"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"45,50,55"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"camp_saxton/tpt_assembly.mp3"
+			"wave"		"camp_saxton/tpt_firstcall.mp3"
+			"wave"		"camp_saxton/tpt_messcall.mp3"
+			"wave"		"camp_saxton/tpt_reveille.mp3"
+
+		}
+	}
+
+}
+
+
+"CampSaxton.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".35"
+		"pitch"		"100"
+		"wave"		"ambient/forest_high_wind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"3,5"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hawk.mp3"
+			"wave"		"ambient_mp3/warbler.mp3"
+			"wave"		"ambient_mp3/forest_bird1.mp3"
+			"wave"		"ambient_mp3/forest_bird2.mp3"
+			"wave"		"ambient_mp3/forest_bird3.mp3"
+			"wave"		"ambient_mp3/forest_bird4.mp3"
+			"wave"		"ambient_mp3/forest_bird5.mp3"
+			"wave"		"ambient_mp3/forest_bird6.mp3"
+			"wave"		"ambient_mp3/forest_bird7.mp3"
+			"wave"		"ambient_mp3/forest_bird8.mp3"
+			"wave"		"ambient_mp3/forest_bird9.mp3"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"45,50,55"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"camp_saxton/tpt_assembly.mp3"
+			"wave"		"camp_saxton/tpt_firstcall.mp3"
+			"wave"		"camp_saxton/tpt_messcall.mp3"
+			"wave"		"camp_saxton/tpt_reveille.mp3"
+
+		}
+	}
+
+}
+
+"CampSaxton.Cave"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".1,"
+		"pitch"		"100"
+		"wave"		"ambient/forest_life.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,6"
+		"volume"	".7"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/water/distant_drip1.wav"
+			"wave"		"ambient/water/distant_drip2.wav"
+			"wave"		"ambient/water/distant_drip3.wav"
+			"wave"		"ambient/water/distant_drip4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	"1"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"2,10"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"rndwave"
+		{
+		"wave"		"ambient\materials\wood_creak1.wav"
+		"wave"		"ambient\materials\wood_creak2.wav"
+		"wave"		"ambient\materials\wood_creak3.wav"
+		"wave"		"ambient\materials\wood_creak4.wav"
+		"wave"		"ambient\materials\wood_creak5.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"45,50,55"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"camp_saxton/tpt_assembly.mp3"
+			"wave"		"camp_saxton/tpt_firstcall.mp3"
+			"wave"		"camp_saxton/tpt_messcall.mp3"
+			"wave"		"camp_saxton/tpt_reveille.mp3"
+
+		}
+	}
+}

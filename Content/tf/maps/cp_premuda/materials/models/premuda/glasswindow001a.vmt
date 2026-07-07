@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\premuda\glasswindow001a"
+	"$model" 1
+	"$translucent"	1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.4 .4 .6]"
+	"$surfaceprop" "glass"
+}

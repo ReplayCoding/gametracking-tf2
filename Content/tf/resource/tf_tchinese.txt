@@ -764,6 +764,7 @@
 "TF_Weapon_Knife_AdvancedMVMRareLoot_Engineer"				"黃金破械者刀子 Mk.II"
 
 "TF_TournamentMedal_Empty"				"錦標賽獎章"
+
 "TF_TournamentMedal_GWJ_1st"						"冠軍 － Gamers With Jobs 錦標賽"
 "TF_TournamentMedal_GWJ_2nd"						"亞軍 － Gamers With Jobs 錦標賽"
 "TF_TournamentMedal_GWJ_3rd"						"參加獎 － Gamers With Jobs 錦標賽"
@@ -1050,6 +1051,14 @@
 "TF_TournamentMedal_ETF2L_Ultiduo7_Silver_Medal"						"ETF2L Ultiduo #7 銀牌"
 "TF_TournamentMedal_ETF2L_Ultiduo7_Bronze_Medal"						"ETF2L Ultiduo #7 銅牌"
 "TF_TournamentMedal_ETF2L_Ultiduo7_Participation_Medal"					"ETF2L Ultiduo #7 參賽獎牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Professional_Gold_Medal"				"ETF2L Ultiduo #8 職業賽金牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Professional_Silver_Medal"			"ETF2L Ultiduo #8 職業賽銀牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Professional_Bronze_Medal"			"ETF2L Ultiduo #8 職業賽銅牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Professional_Participation_Medal"	"ETF2L Ultiduo #8 職業賽參與獎牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Amateur_Gold_Medal"					"ETF2L Ultiduo #8 業餘賽金牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Amateur_Silver_Medal"				"ETF2L Ultiduo #8 業餘賽銀牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Amateur_Bronze_Medal"				"ETF2L Ultiduo #8 業餘賽銅牌"
+"TF_TournamentMedal_ETF2L_Ultiduo8_Amateur_Participation_Medal"			"ETF2L Ultiduo #8 業餘賽參與獎牌"
 "TF_TournamentMedal_ESH_Ultiduo1_Gold_Medal"							"ESH Ultiduo #1 金牌"
 "TF_TournamentMedal_ESH_Ultiduo2_Gold_Medal"							"ESH Ultiduo #2 金牌"
 "TF_TournamentMedal_ESH_Ultiduo3_Gold_Medal"							"ESH Ultiduo #3 金牌"
@@ -1074,18 +1083,23 @@
 "TF_TournamentMedal_ETF2L_6v6_Division1_Gold"							"ETF2L 6v6 第一組金牌"
 "TF_TournamentMedal_ETF2L_6v6_Division1_Silver"							"ETF2L 6v6 第一組銀牌"
 "TF_TournamentMedal_ETF2L_6v6_Division1_Bronze"							"ETF2L 6v6 第一組銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Division1_Playoff"						"ETF2L 6v6 第一組季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_Division2_Gold"							"ETF2L 6v6 第二組金牌"
 "TF_TournamentMedal_ETF2L_6v6_Division2_Silver"							"ETF2L 6v6 第二組銀牌"
 "TF_TournamentMedal_ETF2L_6v6_Division2_Bronze"							"ETF2L 6v6 第二組銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Division2_Playoff"						"ETF2L 6v6 第二組季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_Division3_Gold"							"ETF2L 6v6 第三組金牌"
 "TF_TournamentMedal_ETF2L_6v6_Division3_Silver"							"ETF2L 6v6 第三組銀牌"
 "TF_TournamentMedal_ETF2L_6v6_Division3_Bronze"							"ETF2L 6v6 第三組銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Division3_Playoff"						"ETF2L 6v6 第三組季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_Division4_Gold"							"ETF2L 6v6 第四組金牌"
 "TF_TournamentMedal_ETF2L_6v6_Division4_Silver"							"ETF2L 6v6 第四組銀牌"
 "TF_TournamentMedal_ETF2L_6v6_Division4_Bronze"							"ETF2L 6v6 第四組銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Division4_Playoff"						"ETF2L 6v6 第四組季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_Division5_Gold"							"ETF2L 6v6 第五組金牌"
 "TF_TournamentMedal_ETF2L_6v6_Division5_Silver"							"ETF2L 6v6 第五組銀牌"
 "TF_TournamentMedal_ETF2L_6v6_Division5_Bronze"							"ETF2L 6v6 第五組銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Division5_Playoff"						"ETF2L 6v6 第五組季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_High_Gold"								"ETF2L 6v6 高階賽金牌"
 "TF_TournamentMedal_ETF2L_6v6_High_Silver"								"ETF2L 6v6 高階賽銀牌"
 "TF_TournamentMedal_ETF2L_6v6_High_Bronze"								"ETF2L 6v6 高階賽銅牌"
@@ -1106,6 +1120,11 @@
 "TF_TournamentMedal_ETF2L_6v6_Low_Bronze"								"ETF2L 6v6 Low 銅牌"
 "TF_TournamentMedal_ETF2L_6v6_Low_Playoff"								"ETF2L 6v6 Low 季後賽獎牌"
 "TF_TournamentMedal_ETF2L_6v6_Low_Participation"						"ETF2L 6v6 Low 參賽獎牌"
+"TF_TournamentMedal_ETF2L_6v6_Fresh_Gold"								"ETF2L 6v6 新鮮人金牌"
+"TF_TournamentMedal_ETF2L_6v6_Fresh_Silver"								"ETF2L 6v6 新鮮人銀牌"
+"TF_TournamentMedal_ETF2L_6v6_Fresh_Bronze"								"ETF2L 6v6 新鮮人銅牌"
+"TF_TournamentMedal_ETF2L_6v6_Fresh_Playoff"							"ETF2L 6v6 新鮮人季後賽獎牌"
+"TF_TournamentMedal_ETF2L_6v6_Fresh_Participation"						"ETF2L 6v6 新鮮人參與獎牌"
 "TF_TournamentMedal_ETF2L_Highlander_Premiership_Gold"					"ETF2L Highlander 超級聯賽金牌"
 "TF_TournamentMedal_ETF2L_Highlander_Premiership_Silver"				"ETF2L Highlander 超級聯賽銀牌"
 "TF_TournamentMedal_ETF2L_Highlander_Premiership_Bronze"				"ETF2L Highlander 超級聯賽銅牌"
@@ -1135,6 +1154,16 @@
 "TF_TournamentMedal_ETF2L_Highlander_Open_Bronze"						"ETF2L Highlander 公開賽銅牌"
 "TF_TournamentMedal_ETF2L_Highlander_Open_Playoff"						"ETF2L Highlander 公開季後賽獎牌"
 "TF_TournamentMedal_ETF2L_Highlander_Open_Participation"				"ETF2L Highlander 公開賽參與獎牌"
+"TF_TournamentMedal_ETF2L_Highlander_Fresh_Gold"						"ETF2L Highlander 新鮮人金牌"
+"TF_TournamentMedal_ETF2L_Highlander_Fresh_Silver"						"ETF2L Highlander 新鮮人銀牌"
+"TF_TournamentMedal_ETF2L_Highlander_Fresh_Bronze"						"ETF2L Highlander 新鮮人銅牌"
+"TF_TournamentMedal_ETF2L_Highlander_Fresh_Playoff"						"ETF2L Highlander 新鮮人季後賽獎牌"
+"TF_TournamentMedal_ETF2L_Highlander_Fresh_Participation"				"ETF2L Highlander 新鮮人參與獎牌"
+"TF_TournamentMedal_ETF2L_Highlander_Freshest_Gold"							"ETF2L Highlander 極鮮人金牌"
+"TF_TournamentMedal_ETF2L_Highlander_Freshest_Silver"						"ETF2L Highlander 極鮮人銀牌"
+"TF_TournamentMedal_ETF2L_Highlander_Freshest_Bronze"						"ETF2L Highlander 極鮮人銅牌"
+"TF_TournamentMedal_ETF2L_Highlander_Freshest_Playoff"						"ETF2L Highlander 極鮮人季後賽獎牌"
+"TF_TournamentMedal_ETF2L_Highlander_Freshest_Participation"					"ETF2L Highlander 極鮮人參與獎牌"
 "TF_TournamentMedal_ETF2L_Highlander_Open_1st"				"ETF2L Highlander 公開賽冠軍"
 "TF_TournamentMedal_ETF2L_Highlander_Open_2nd"				"ETF2L Highlander 公開賽亞軍"
 "TF_TournamentMedal_ETF2L_Highlander_Open_3rd"				"ETF2L Highlander 公開賽季軍"
@@ -1155,6 +1184,9 @@
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Silver"			"ETF2L 小鮮肉挑戰賽銀牌"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Bronze"			"ETF2L 小鮮肉挑戰賽銅牌"
 "TF_TournamentMedal_ETF2L_Meat_Challenge_Participant"		"ETF2L 小鮮肉挑戰賽參加獎"
+"TF_TournamentMedal_ETF2L_AFA_2025"											"2025 AFA"
+"TF_TournamentMedal_ETF2L_AFS_2025"											"2025 AFS"
+
 "TF_TournamentMedal_OzFortress_OWL10_6v6_Premier_Division_First_Place"	"OWL 10 Premier Division 冠軍"
 "TF_TournamentMedal_OzFortress_OWL10_6v6_Premier_Division_Second_Place"	"OWL 10 Premier Division 亞軍"
 "TF_TournamentMedal_OzFortress_OWL10_6v6_Premier_Division_Third_Place"	"OWL 10 Premier Division 季軍"
@@ -1732,6 +1764,95 @@
 "TF_TournamentMedal_AF_Qualifiers_Participant_Fall2023"	"頒發給參與 AsiaFortress 2023 年秋季資格賽的隊伍的選手"
 "TF_TournamentMedal_AF_International_Jade"			"AsiaFortress 國際賽翠玉勳章"
 "TF_TournamentMedal_AF_International_Jade_Summer2023"		"頒發給 AsiaFortress 國際比賽賽季 0 獲勝者"
+"TF_TournamentMedal_AF_Open_1st"				"AsiaFortress 公開賽冠軍"
+"TF_TournamentMedal_AF_Open_1st_Spring2024"	"頒發給 AsiaFortress 2024 年春季公開賽的冠軍選手"
+"TF_TournamentMedal_AF_Open_1st_Fall2024"	"頒發給 AsiaFortress 2024 年秋季公開賽的冠軍選手"
+"TF_TournamentMedal_AF_Open_2nd"				"AsiaFortress 公開賽亞軍"
+"TF_TournamentMedal_AF_Open_2nd_Spring2024"	"頒發給 AsiaFortress 2024 年春季公開賽的亞軍選手"
+"TF_TournamentMedal_AF_Open_2nd_Fall2024"	"頒發給 AsiaFortress 2024 年秋季公開賽的亞軍選手"
+"TF_TournamentMedal_AF_Open_3rd"				"AsiaFortress 公開賽季軍"
+"TF_TournamentMedal_AF_Open_3rd_Spring2024"	"頒發給 AsiaFortress 2024 年春季公開賽的季軍選手"
+"TF_TournamentMedal_AF_Open_3rd_Fall2024"	"頒發給 AsiaFortress 2024 年秋季公開賽的季軍選手"
+"TF_TournamentMedal_AF_Open_Participant"				"AsiaFortress 公開賽參賽者"
+"TF_TournamentMedal_AF_Open_Participant_Spring2024"	"頒發給 AsiaFortress 2024 年春季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Open_Participant_Spring2025"	"頒發給 AsiaFortress 2025 年春季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Main_1st"				"AsiaFortress 主賽冠軍"
+"TF_TournamentMedal_AF_Main_1st_Spring2025"	"頒發給 AsiaFortress 2025 年春季主賽的冠軍選手"
+"TF_TournamentMedal_AF_Main_2nd"				"AsiaFortress 主賽亞軍"
+"TF_TournamentMedal_AF_Main_2nd_Spring2025"	"頒發給 AsiaFortress 2025 年春季主賽的亞軍選手"
+"TF_TournamentMedal_AF_Main_3rd"				"AsiaFortress 主賽季軍"
+"TF_TournamentMedal_AF_Main_3rd_Spring2025"	"頒發給 AsiaFortress 2025 年春季主賽的季軍選手"
+"TF_TournamentMedal_AF_Main_Participant"				"AsiaFortress 主賽參賽者"
+"TF_TournamentMedal_AF_Main_Participant_Spring2025"	"頒發給 AsiaFortress 2025 年春季主賽的參賽選手"
+"TF_TournamentMedal_AF_Open_Participant_Fall2024"	"頒發給 AsiaFortress 2024 年秋季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Invite_1st_Spring2024"	"頒發給 AsiaFortress 2024 年春季邀請賽冠軍隊伍 Xiao 的選手"
+"TF_TournamentMedal_AF_Invite_1st_Fall2024"	"頒發給 AsiaFortress 2024 年秋季邀請賽冠軍隊伍 Kankuay 的選手"
+"TF_TournamentMedal_AF_Invite_1st_Spring2025"	"頒發給 AsiaFortress 2025 年春季邀請賽冠軍隊伍 Heretics 的選手"
+"TF_TournamentMedal_AF_Invite_1st_Winter2026"	"頒發給 AsiaFortress 2026 年冬季邀請賽隊伍 T6 的選手"
+"TF_TournamentMedal_AF_Invite_2nd_Spring2024"	"頒發給 AsiaFortress 2024 年春季邀請賽亞軍隊伍 Ex Nihilo 的選手"
+"TF_TournamentMedal_AF_Invite_2nd_Fall2024"	"頒發給 AsiaFortress 2024 年秋季邀請賽亞軍隊伍 Togenashi Togeari 的選手"
+"TF_TournamentMedal_AF_Invite_2nd_Spring2025"	"頒發給 AsiaFortress 2025 年春季邀請賽亞軍隊伍 Ex Nihilo 的選手"
+"TF_TournamentMedal_AF_Invite_2nd_Winter2026"	"頒發給 AsiaFortress 2026 年冬季邀請賽隊伍 Shohoku 的選手"
+"TF_TournamentMedal_AF_Invite_3rd_Spring2024"	"頒發給 AsiaFortress 2024 年春季邀請賽季軍隊伍 United Beasts 的選手"
+"TF_TournamentMedal_AF_Invite_3rd_Fall2024"	"頒發給 AsiaFortress 2024 年秋季邀請賽季軍隊伍 HONGPRUMP 的選手"
+"TF_TournamentMedal_AF_Invite_3rd_Spring2025"	"頒發給 AsiaFortress 2025 年春季邀請賽季軍隊伍 MRST 的選手"
+"TF_TournamentMedal_AF_Invite_3rd_Winter2026"	"頒發給 AsiaFortress 2026 年冬季邀請賽隊伍 Meow 的選手"
+"TF_TournamentMedal_AF_Invite_Participant_Spring2024"	"頒發給 AsiaFortress 2024 年春季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_Invite_Participant_Fall2024"	"頒發給 AsiaFortress 2024 年秋季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_Invite_Participant_Spring2025"	"頒發給 AsiaFortress 2025 年春季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Open_1st"				"AsiaFortress Highlander 公開賽冠軍"
+"TF_TournamentMedal_AF_Highlander_Open_1st_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季公開賽的冠軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_1st_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季公開賽的冠軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_1st_Summer2025"		"頒發給 AsiaFortress Highlander 2025 年夏季公開賽的冠軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_2nd"				"AsiaFortress Highlander 公開賽亞軍"
+"TF_TournamentMedal_AF_Highlander_Open_2nd_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季公開賽的亞軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_2nd_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季公開賽的亞軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_2nd_Summer2025"		"頒發給 AsiaFortress Highlander 2025 年夏季公開賽的亞軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_3rd"				"AsiaFortress Highlander 公開賽季軍"
+"TF_TournamentMedal_AF_Highlander_Open_3rd_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季公開賽的季軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_3rd_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季公開賽的季軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_3rd_Summer2025"		"頒發給 AsiaFortress Highlander 2025 年夏季公開賽的季軍選手"
+"TF_TournamentMedal_AF_Highlander_Open_Participant"				"AsiaFortress Highlander 公開賽參賽者"
+"TF_TournamentMedal_AF_Highlander_Open_Participant_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Open_Participant_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Open_Participant_Summer2025"		"頒發給 AsiaFortress Highlander 2025 年夏季公開賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Invite_1st"				"AsiaFortress Highlander 邀請賽冠軍"
+"TF_TournamentMedal_AF_Highlander_Invite_1st_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季邀請賽冠軍隊伍 Elysium 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_1st_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季邀請賽冠軍隊伍 Austrasia 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_2nd"				"AsiaFortress Highlander 邀請賽亞軍"
+"TF_TournamentMedal_AF_Highlander_Invite_2nd_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季邀請賽隊伍 Snacks On A Plane 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_2nd_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季邀請賽隊伍 Ambulas 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_3rd"				"AsiaFortress Highlander 邀請賽季軍"
+"TF_TournamentMedal_AF_Highlander_Invite_3rd_Summer2024"		"頒發給 AsiaFortress Highlander 2024 年夏季邀請賽隊伍 Thai Resurgence 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_3rd_Winter2024"		"頒發給 AsiaFortress Highlander 2024 年冬季邀請賽隊伍 Significant Otter 的選手"
+"TF_TournamentMedal_AF_Highlander_Invite_Participant"				"AsiaFortress Highlander 邀請賽參賽者"
+"TF_TournamentMedal_AF_Highlander_Invite_Participant_Summer2024"	"頒發給 AsiaFortress Highlander 2024 年夏季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Invite_Participant_Winter2024"	"頒發給 AsiaFortress Highlander 2024 年冬季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Invite_Participant_Summer2025"	"頒發給 AsiaFortress Highlander 2025 年夏季邀請賽的參賽選手"
+"TF_TournamentMedal_AF_MercenaryMashup_Participant"				"AsiaFortress 傭兵混戰獎"
+"TF_TournamentMedal_AF_MercenaryMashup_Participant_May2024"		"MCM 倫敦 2024 年 5 月"
+"TF_TournamentMedal_AF_NewbieCup_1st"				"AsiaFortress 新手盃冠軍"
+"TF_TournamentMedal_AF_NewbieCup_2nd"				"AsiaFortress 新手盃亞軍"
+"TF_TournamentMedal_AF_NewbieCup_3rd"				"AsiaFortress 新手盃季軍"
+"TF_TournamentMedal_AF_NewbieCup_Participant"		"AsiaFortress 新手盃參賽者"
+"TF_TournamentMedal_AF_NewbieCup_Coach"			"AsiaFortress 新手盃教練"
+"TF_TournamentMedal_AF_NewbieCup_9"				"AsiaFortress 新手盃 9"
+"TF_TournamentMedal_AF_NewbieCup_10"				"AsiaFortress 新手盃 10"
+"TF_TournamentMedal_AF_NewbieCup_11"				"AsiaFortress 新手盃 11"
+"TF_TournamentMedal_AF_NewbieCup_12"				"AsiaFortress 新手盃 12"
+"TF_TournamentMedal_AF_GibusCup_1st"				"AsiaFortress Gibus 盃冠軍"
+"TF_TournamentMedal_AF_GibusCup_2nd"				"AsiaFortress Gibus 盃亞軍"
+"TF_TournamentMedal_AF_GibusCup_3rd"				"AsiaFortress Gibus 盃季軍"
+"TF_TournamentMedal_AF_GibusCup_Participant"		"AsiaFortress Gibus 盃參賽者"
+"TF_TournamentMedal_AF_GibusCup_Coach"				"AsiaFortress Gibus 盃教練"
+"TF_TournamentMedal_AF_GibusCup_1"					"AsiaFortress Gibus 盃 1"
+"TF_TournamentMedal_AF_ChampionsCup_Participant"	"AsiaFortress 冠軍盃參賽者"
+"TF_TournamentMedal_AF_ChampionsCup_Desc"			"頒發給 AsiaFortress 冠軍盃的參賽選手"
+"TF_TournamentMedal_AF_Highlander_Cup_1st"			"AsiaFortress Highlander 盃冠軍"
+"TF_TournamentMedal_AF_Highlander_Cup_2nd"			"AsiaFortress Highlander 盃亞軍"
+"TF_TournamentMedal_AF_Highlander_Cup_3rd"			"AsiaFortress Highlander 盃季軍"
+"TF_TournamentMedal_AF_Highlander_Cup_Participant"	"AsiaFortress Highlander 盃參賽者"
+																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 贏家"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 參與者"
 "TF_RETF2_EE22_4v4_Winner"					"RETF2 EE22 4v4 贏家"
@@ -1868,6 +1989,11 @@
 "TF_TournamentMedal_TFCL_SummerCup_Participant"		"TFCL 夏季盃參賽者"
 "TF_TournamentMedal_TFCL_Helper"					"TFCL 幫手"
 "TF_TournamentMedal_TFCL_Helper_Desc"				"你為 TFCL 提供了莫大的幫助，現在這枚閃亮亮的勳章交給你，證明你曾付出的努力！"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season1"			"TFCL Alpha 第一季參賽者"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season1_Desc"	"頒贈給所有參與 TFCL 2026 年首次 Alpha 測試（3 月 15 日至 3 月 22 日）的各位，感謝你們成為早期測試者。"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2"			"TFCL Alpha 第二季參賽者"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2_Desc"	"頒贈給所有參與 TFCL 2026 年第二次 Alpha 測試的各位，感謝你們成為早期測試者。"
+
 "TF_TournamentMedal_NHBL_Sasha_Season1"			"NHBL 1st Sasha Cup 冠軍"
 "TF_TournamentMedal_NHBL_Sasha_Season1_Desc"	"Dr. Splints"
 "TF_TournamentMedal_NHBL_Sasha_Season2"			"NHBL 2nd Sasha Heavyweight 冠軍"
@@ -2040,6 +2166,7 @@
 "TF_Medal_HeartfeltHero_2023_Desc"		"好吧，這位大人物，這次就讓你披上英雄的披風吧。不過，下次記得要帶上你的超大雞毛撢子和忠心耿耿的跟班。"
 
 "TF_MapperMedal"				"製圖家的大獎章" // ADD THE
+
 "TF_style0"						"樣式 1"
 "TF_style1"						"樣式 2"
 "TF_style2"						"樣式 3"
@@ -2221,6 +2348,14 @@
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_2nd"				"RGL.gg - 進階組亞軍 - Highlander "
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_3rd"				"RGL.gg - 進階組季軍 - Highlander "
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_Participant"		"RGL.gg - 進階組參賽者 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Champions"		"RGL.gg - 進階一組冠軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_2nd"				"RGL.gg - 進階一組亞軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_3rd"				"RGL.gg - 進階一組季軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Participant"		"RGL.gg - 進階一組參賽者 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Champions"		"RGL.gg - 進階二組冠軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_2nd"				"RGL.gg - 進階二組亞軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_3rd"				"RGL.gg - 進階二組季軍 - Highlander "
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Participant"		"RGL.gg - 進階二組參賽者 - Highlander "
 "TF_TournamentMedal_RGLgg_Highlander_Main_Champions"			"RGL.gg - 主賽冠軍 - Highlander "
 "TF_TournamentMedal_RGLgg_Highlander_Main_2nd"					"RGL.gg - 主賽亞軍 - Highlander "
 "TF_TournamentMedal_RGLgg_Highlander_Main_3rd"					"RGL.gg - 主賽季軍 - Highlander "
@@ -2586,6 +2721,11 @@
 "TF_TournamentMedal_UDL_Bronze_2025"		"頒給 2025 年 United Dodgeball League 盃的季軍"
 "TF_TournamentMedal_UDL_Participant_2025"	"頒給 2025 年 United Dodgeball League 盃的參賽者"
 "TF_TournamentMedal_UDL_Supporter_2025"	"頒給 2025 年 United Dodgeball League 盃的重要支持者"
+"TF_TournamentMedal_UDL_Season1_Gold"			"United Dodgeball League 第一賽季盃金牌"
+"TF_TournamentMedal_UDL_Season1_Silver"			"United Dodgeball League 第一賽季盃銀牌"
+"TF_TournamentMedal_UDL_Season1_Bronze"			"United Dodgeball League 第一賽季盃銅牌"
+"TF_TournamentMedal_UDL_Season1_Participant"	"United Dodgeball League 第一賽季盃參賽者"
+"TF_TournamentMedal_UDL_Season1_Supporter"		"United Dodgeball League 第一賽季盃支持者"
 
 "TF_TournamentMedal_ESEA_6s_first"			"ESEA 6s 邀請賽冠軍"
 "TF_TournamentMedal_ESEA_6s_second"			"ESEA 6s 邀請賽亞軍"
@@ -2735,6 +2875,58 @@
 "TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Third"				"Brazil Fortress Highlander Halloween - 可怕組季軍"
 "TF_TournamentMedal_BZ_Highlander_Hwn_Ghastly_Participant"			"Brazil Fortress Highlander Halloween - 可怕組參賽者"
 "TF_TournamentMedal_BZ_Highlander_Hwn_CursedAssistant"				"Brazil Fortress Highlander Halloween - 被詛咒的助手"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Invite_First"					"Brazil Fortress QEL 6v6 試煉場南美邀請賽冠軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Invite_Second"				"Brazil Fortress QEL 6v6 試煉場南美邀請賽亞軍"				
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Invite_Third"					"Brazil Fortress QEL 6v6 試煉場南美邀請賽季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Invite_Participant"			"Brazil Fortress QEL 6v6 試煉場南美邀請賽參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv1_First"					"Brazil Fortress QEL 6v6 試煉場南美第一組冠軍"			
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv1_Second"					"Brazil Fortress QEL 6v6 試煉場南美第一組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv1_Third"					"Brazil Fortress QEL 6v6 試煉場南美第一組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv1_Participant"				"Brazil Fortress QEL 6v6 試煉場南美第一組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv2_First"					"Brazil Fortress QEL 6v6 試煉場南美第二組冠軍"	
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv2_Second"					"Brazil Fortress QEL 6v6 試煉場南美第二組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv2_Third"					"Brazil Fortress QEL 6v6 試煉場南美第二組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv2_Participant"				"Brazil Fortress QEL 6v6 試煉場南美第二組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv3_First"					"Brazil Fortress QEL 6v6 試煉場南美第三組冠軍"				
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv3_Second"					"Brazil Fortress QEL 6v6 試煉場南美第三組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv3_Third"					"Brazil Fortress QEL 6v6 試煉場南美第三組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_SA_Dv3_Participant"				"Brazil Fortress QEL 6v6 試煉場南美第三組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Invite_First"					"Brazil Fortress QEL 6v6 試煉場北美邀請賽冠軍"		
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Invite_Second"				"Brazil Fortress QEL 6v6 試煉場北美邀請賽亞軍"	
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Invite_Third"					"Brazil Fortress QEL 6v6 試煉場北美邀請賽季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Invite_Participant"			"Brazil Fortress QEL 6v6 試煉場北美邀請賽參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv1_First"					"Brazil Fortress QEL 6v6 試煉場北美第一組冠軍"			
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv1_Second"					"Brazil Fortress QEL 6v6 試煉場北美第一組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv1_Third"					"Brazil Fortress QEL 6v6 試煉場北美第一組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv1_Participant"				"Brazil Fortress QEL 6v6 試煉場北美第一組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv2_First"					"Brazil Fortress QEL 6v6 試煉場北美第二組冠軍"			
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv2_Second"					"Brazil Fortress QEL 6v6 試煉場北美第二組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv2_Third"					"Brazil Fortress QEL 6v6 試煉場北美第二組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv2_Participant"				"Brazil Fortress QEL 6v6 試煉場北美第二組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv3_First"					"Brazil Fortress QEL 6v6 試煉場北美第三組冠軍"			
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv3_Second"					"Brazil Fortress QEL 6v6 試煉場北美第三組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv3_Third"					"Brazil Fortress QEL 6v6 試煉場北美第三組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_NA_Dv3_Participant"				"Brazil Fortress QEL 6v6 試煉場北美第三組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Invite_First"					"Brazil Fortress QEL 6v6 試煉場歐洲邀請賽冠軍"	
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Invite_Second"				"Brazil Fortress QEL 6v6 試煉場歐洲邀請賽亞軍"	
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Invite_Third"					"Brazil Fortress QEL 6v6 試煉場歐洲邀請賽季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Invite_Participant"			"Brazil Fortress QEL 6v6 試煉場歐洲邀請賽參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv1_First"					"Brazil Fortress QEL 6v6 試煉場歐洲第一組冠軍"	
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv1_Second"					"Brazil Fortress QEL 6v6 試煉場歐洲第一組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv1_Third"					"Brazil Fortress QEL 6v6 試煉場歐洲第一組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv1_Participant"				"Brazil Fortress QEL 6v6 試煉場歐洲第一組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv2_First"					"Brazil Fortress QEL 6v6 試煉場歐洲第二組冠軍"		
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv2_Second"					"Brazil Fortress QEL 6v6 試煉場歐洲第二組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv2_Third"					"Brazil Fortress QEL 6v6 試煉場歐洲第二組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv2_Participant"				"Brazil Fortress QEL 6v6 試煉場歐洲第二組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv3_First"					"Brazil Fortress QEL 6v6 試煉場歐洲第三組冠軍"		
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv3_Second"					"Brazil Fortress QEL 6v6 試煉場歐洲第三組亞軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv3_Third"					"Brazil Fortress QEL 6v6 試煉場歐洲第三組季軍"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_EU_Dv3_Participant"				"Brazil Fortress QEL 6v6 試煉場歐洲第三組參賽者"
+"TF_TournamentMedal_BZ_QEL_6v6_PG_Staff"							"Brazil Fortress QEL 6v6 試煉場工作人員"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1_Staff_Desc"						"謹以此獻給 Brazil Fortress x QEL 試驗場 1 的工作人員"
+"TF_TournamentMedal_BZ_QEL_6v6_PG1"									"試煉場 1"
+
 "TF_TournamentMedal_SacredScouts_6v6_Gold"			"Sacred Scouts 6v6 金牌"
 "TF_TournamentMedal_SacredScouts_6v6_Silver"		"Sacred Scouts 6v6 銀牌"
 "TF_TournamentMedal_SacredScouts_6v6_Bronze"		"Sacred Scouts 6v6 銅牌"
@@ -3161,6 +3353,8 @@
 "TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf EU 2v2 公開賽季軍"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf EU 2v2 公開賽參賽獎"
 "TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf EU 2v2 協助者"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Gold"				"MGE.tf EU 2v2 新手組冠軍"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Silver"				"MGE.tf EU 2v2 新手組亞軍"
 "TF_TournamentMedal_MGE_EU_2v2_Newcomer_Participant"		"MGE.tf EU 2v2 新手組參賽者"
 
 "TF_TournamentMedal_MGE_NA_2v2_Invite_Gold"					"MGE.tf NA 2v2 邀請賽冠軍"
@@ -3176,7 +3370,77 @@
 "TF_TournamentMedal_MGE_NA_2v2_Open_Bronze"					"MGE.tf NA 2v2 公開賽季軍"
 "TF_TournamentMedal_MGE_NA_2v2_Open_Participant"			"MGE.tf NA 2v2 公開賽參賽者"
 "TF_TournamentMedal_MGE_NA_2v2_Helper"						"MGE.tf NA 2v2 協助者"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Gold"				"MGE.tf NA 2v2 新手組冠軍"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Silver"				"MGE.tf NA 2v2 新手組亞軍"
 "TF_TournamentMedal_MGE_NA_2v2_Newcomer_Participant"		"MGE.tf NA 2v2 新手組參賽者"
+
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Gold"				"MGE.tf ASIA 2v2 邀請賽冠軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Silver"				"MGE.tf ASIA 2v2 邀請賽亞軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Bronze"				"MGE.tf ASIA 2v2 邀請賽季軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Participant"		"MGE.tf ASIA 2v2 邀請賽參賽者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Gold"			"MGE.tf ASIA 2v2 中級組冠軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Silver"		"MGE.tf ASIA 2v2 中級組亞軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Bronze"		"MGE.tf ASIA 2v2 中級組季軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Participant"	"MGE.tf ASIA 2v2 中級組參賽者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Gold"					"MGE.tf ASIA 2v2 公開賽冠軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Silver"				"MGE.tf ASIA 2v2 公開賽亞軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Bronze"				"MGE.tf ASIA 2v2 公開賽季軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Participant"			"MGE.tf ASIA 2v2 公開賽參賽者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Gold"				"MGE.tf ASIA 2v2 新手組冠軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Silver"			"MGE.tf ASIA 2v2 新手組亞軍"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Participant"		"MGE.tf ASIA 2v2 新手組參賽者"
+
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Gold"				"MGE.tf EU 1v1 首位組冠軍"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Silver"				"MGE.tf EU 1v1 首位組亞軍"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Bronze"				"MGE.tf EU 1v1 首位組季軍"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Participant"			"MGE.tf EU 1v1 首位組參賽者"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Gold"			"MGE.tf EU 1v1 中級組冠軍"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Silver"			"MGE.tf EU 1v1 中級組亞軍"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Bronze"			"MGE.tf EU 1v1 中級組季軍"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Participant"	"MGE.tf EU 1v1 中級組參賽者"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Gold"					"MGE.tf EU 1v1 公開賽冠軍"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Silver"					"MGE.tf EU 1v1 公開賽亞軍"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Bronze"					"MGE.tf EU 1v1 公開賽季軍"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Participant"			"MGE.tf EU 1v1 公開賽參賽者"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Gold"				"MGE.tf EU 1v1 新手組冠軍"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Silver"				"MGE.tf EU 1v1 新手組亞軍"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Participant"		"MGE.tf EU 1v1 新手組參賽者"
+
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Gold"					"MGE.tf NA 1v1 邀請賽冠軍"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Silver"				"MGE.tf NA 1v1 邀請賽亞軍"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Bronze"				"MGE.tf NA 1v1 邀請賽季軍"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Participant"			"MGE.tf NA 1v1 邀請賽參賽者"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Gold"			"MGE.tf NA 1v1 中級組冠軍"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Silver"			"MGE.tf NA 1v1 中級組亞軍"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Bronze"			"MGE.tf NA 1v1 中級組季軍"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Participant"	"MGE.tf NA 1v1 中級組參賽者"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Gold"					"MGE.tf NA 1v1 公開賽冠軍"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Silver"					"MGE.tf NA 1v1 公開賽亞軍"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Bronze"					"MGE.tf NA 1v1 公開賽季軍"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Participant"			"MGE.tf NA 1v1 公開賽參賽者"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Gold"				"MGE.tf NA 1v1 新手組冠軍"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Silver"				"MGE.tf NA 1v1 新手組亞軍"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Participant"		"MGE.tf NA 1v1 新手組參賽者"
+
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Gold"				"MGE.tf ASIA 1v1 邀請賽冠軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Silver"				"MGE.tf ASIA 1v1 邀請賽亞軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Bronze"				"MGE.tf ASIA 1v1 邀請賽季軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Participant"		"MGE.tf ASIA 1v1 邀請賽參賽者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Gold"			"MGE.tf ASIA 1v1 中級組冠軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Silver"		"MGE.tf ASIA 1v1 中級組亞軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Bronze"		"MGE.tf ASIA 1v1 中級組季軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Participant"	"MGE.tf ASIA 1v1 中級組參賽者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Gold"					"MGE.tf ASIA 1v1 公開賽冠軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Silver"				"MGE.tf ASIA 1v1 公開賽亞軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Bronze"				"MGE.tf ASIA 1v1 公開賽季軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Participant"			"MGE.tf ASIA 1v1 公開賽參賽者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Gold"				"MGE.tf ASIA 1v1 新手組冠軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Silver"			"MGE.tf ASIA 1v1 新手組亞軍"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Participant"		"MGE.tf ASIA 1v1 新手組參賽者"
+
+"TF_TournamentMedal_MGE_EU_Helper"							"MGE.tf EU 協助者"
+"TF_TournamentMedal_MGE_NA_Helper"							"MGE.tf NA 協助者"
+"TF_TournamentMedal_MGE_ASIA_Helper"						"MGE.tf ASIA 協助者"
 
 "TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1v1 世界冠軍盃冠軍"
 "TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1v1 世界冠軍盃亞軍"
@@ -3698,7 +3962,9 @@
 "TF_DemoSombrero" "墨西哥酒聖" // ADD THE
 "TF_DemomanMargaritaShades" "醉茫茫"
 "TF_DemomanBeerGrenades" "佳釀套件"
+
 "TF_Bowtie"			"哇哇博士"
+
 "TF_ClaimCode"		"索取密碼"
 
 "TF_Party_Favor"		"派對禮物"
@@ -3848,6 +4114,7 @@
 "TF_Bundle_SpyStarter_Desc"				"想要擔任 Spy 嗎？我們把所有他擁有過、各具獨特功能的武器都放進好拿又便宜的組合包裡了。"
 
 "TF_PurityFist_Promo"				"純淨之拳促銷"
+
 "TF_Bundle_MobsterMonday"			"暴徒星期一組合包"
 "TF_Bundle_MobsterMonday_Desc"			"收集這些黑手黨主題的物品來給 Heavy 和 Spy 整裝吧："
 "TF_Bundle_TimbukTuesday"			"廷巴克圖星期二組合包"
@@ -3962,9 +4229,13 @@
 "TF_Bundle_Byzantine_Desc"				"為何羅馬帝國會滅亡？因為這樣才能東山再起；這完全都要歸功於當時這些流行的服飾（包括創造羅馬視野的黃金桂冠）。"
 
 "TF_Spycrab_Promo"						"促銷 諜腦蟲"
+
 "TF_RPS_Promo"							"RPS 網站促銷物"
+
 "TF_AI_Promo"							"《異形：孤立》宣傳物"
+
 "TF_Bundle_BatmanArkhamKnightPromo"			"《蝙蝠俠：阿卡漢騎士》促銷物品"
+
 "SteamPackage_HA_Council"				"英雄學院－Council 軍和 TF2 軍"
 "SteamPackage_HA_DarkElves"				"英雄學院－暗黑精靈軍"
 "SteamPackage_HA_Dwarves"				"英雄學院－矮人軍"
@@ -3986,7 +4257,6 @@
 "TF_Portal2_Soundtrack_Promo_Package"			"《傳送門 2》原聲帶促銷物？"
 "TF_Portal2_Soundtrack_Promo_Package_Desc"		"打開《傳送門 2》原聲帶盒以揭開它的內容。"
 "TF_TeamFortress2_Soundtrack_Promo"		"《Team Fortress 2》原聲帶促銷"
-"TF_TeamFortress2_Soundtrack_Promo_Desc"				"　"
 "TF_TeamFortress2_Soundtrack_Promo_Package"			"《絕地要塞 2》原聲帶中包含了甚麼？"
 "TF_TeamFortress2_Soundtrack_Promo_Package_Desc"		"打開《絕地要塞 2》原聲帶以揭曉它的內容。"
 "TF_TotalWarBundle"					"《全軍破敵》組合包"
@@ -4018,9 +4288,9 @@
 "TF_JingleJam_Community_Event_2016_Promo"	"Yogscast Jingle Jam 2016 促銷贈品"
 "TF_JingleJam_Community_Event_2017_Promo"	"Yogscast Jingle Jam 2017 促銷贈品"
 "TF_ChefStepsJoulePromo"	"ChefSteps Joule 促銷贈品"
-"TF_ChefStepsJoulePromo_Desc"	"　"
 
 "TF_Bundle_STSBundle"			"STS組合包"
+
 "TF_RandomDroppablePaintPackage"		"曼恩油漆組"
 "TF_RandomDroppablePaintPackage_Desc"	"這個曼恩DIY油漆組裡面有幾罐依法規定、絕對、完全沒有任何有害物質的不同顏色油漆。"
 
@@ -4135,6 +4405,7 @@
 "TF_tw_spybot_armor"		"間諜機器人裝甲"
 "TF_tw_spybot_hood"			"間諜機器人兜帽"
 "TF_tw_sentrybuster"		"防禦槍剋星"
+
 "TF_HatAndHeadphones_Style"		"帽子和耳機"
 "TF_NoHat_NoHeadphones_Style"	"沒有帽子和耳機"
 "TF_NoHat_Style"				"無帽"
@@ -4342,7 +4613,6 @@
 "TF_Polycount_Pin"			"Polycount 別針"
 "TF_Polycount_Pin_Desc"		"Polycount 競賽參加者的獎勵。"
 "TF_EllisHat"			"Ellis 的鴨舌帽"
-//"TF_EllisHat_Desc"		""
 "TF_FlippedTrilby"		"翻轉的軟氈帽"
 "TF_GermanGonzila"		"德國圓帽"
 "TF_BuckaroosHat"		"西班牙牛仔帽"
@@ -4400,6 +4670,7 @@
 "TF_Hwn_EngineerHat"		"殺人蠅" // ADD THE
 "TF_Hwn_EngineerMisc1"		"前線飛行員" // ADD THE
 "TF_Hwn_EngineerMisc2"		"傳說中的大蟲腳" // ADD THE
+
 "TF_Hwn_PyroGasmask"	"最後之息" // ADD THE
 "TF_UnarmedCombat"		"一臂之力"
 "TF_UnarmedCombat_Desc"	"Spy 人真好，願意伸出援手..."
@@ -4408,6 +4679,7 @@
 "TF_InfernalImpaler"	"煉獄穿刺魔" // ADD THE
 
 "TF_Nabler"			"奈伯勒" // ADD THE
+
 "TF_BigChief"			"大酋長" // ADD THE
 "TF_CaponesCapper"		"黑幫幹部帽"
 "TF_CaponesCapper_Desc"		"這頂新潮的帽子會幫助你幹遍任何種類的犯罪－除了對抗流行之外。"
@@ -4423,7 +4695,6 @@
 "TF_EngineerTopHat_Desc"	"蠻荒西部，還沒看過這種東西呢。"
 
 "TF_Cadavers_Cranium"		"死屍的頭蓋骨"
-//"TF_Cadavers_Cranium_Desc"	""
 "TF_Horrific_Headsplitter"	"可怕的劈頭者"
 "TF_Horrific_Headsplitter_Desc"	"帶著這項頭飾時最好是保持開放的思想。"
 "TF_Halloween_Skullcap"		"毛骨悚然的骷髏頭"
@@ -4611,6 +4882,7 @@
 "TF_MNC_Hat_Desc"			"[在此輸入最喜歡的隊伍]"
 "TF_MNC_Mascot_Hat"			"超級粉絲鴨舌帽"
 "TF_MNC_Mascot_Outfit"		"基礎配備"
+
 "TF_Halloween_Mask_Scout"		"Scout 面具"
 "TF_Halloween_Mask_Sniper"		"Sniper 面具"
 "TF_Halloween_Mask_Soldier"		"Soldier 面具"
@@ -4630,6 +4902,7 @@
 "TF_Apocofists"					"末世戰拳" // ADD THE
 "TF_Apocofists_Desc"				"將您的每一根手指頭都變成啟示錄中的四騎士吧！這樣的話每一隻手就會有超過十九名騎士啦！這根本就是我們都沒膽戴上，最強大的破壞手套啊！"
 "TF_Saint_Pin"					"聖徒徽章" // ADD THE
+
 "TF_TrnHat"						"速成法師帽" // ADD THE
 "TF_TrnHat_Desc"				"下次如果有人敢因為你拒（ㄅㄨˊ）絕（ㄏㄨㄟˋ）施法而說你是個冒牌巫師，請用這頂有神奇魔力的尖頭帽帽尖戳他們的眼睛，然後開溜。"
 "TF_TrnHelmet"					"釘頭戰盔" // ADD THE
@@ -5078,6 +5351,7 @@
 "TF_Item_ZombieSpy"						"巫毒間諜殭屍"
 "TF_Item_ZombiePyro"					"巫毒火焰殭屍"
 "TF_Item_ZombieSniper"					"巫毒狙擊殭屍"
+
 "RummageThroughCurses"					"伸進"
 "TF_PileOfCurses"						"詛咒堆"
 "TF_PileOfCurses_Desc"					"看起來裡面好像有東西...敢開的話就試試看啊！\n\n過了2014年11月12日後這物品就會消失。"
@@ -5147,7 +5421,9 @@
 "TF_SpineChillingSkull2011_Style3"	"驚悚扭曲"
 
 "TF_Birthday2011_Hat"			"生日派對帽"
+
 "TF_Tropico4_Hat"			"革命領袖"
+
 "TF_HerosTail_Style0"		"色素流失"
 "TF_HerosTail_Style1"		"色素健全"
 
@@ -5334,6 +5610,7 @@
 "koth_dusker_authors"			"Tristan 'Alox' Haguet\nJoel 'zythe_' Morscher\nAeon 'Void' Bollig\nLothudus\nStuffy360"
 "arena_afterlife_authors"		"John 'Piogre' Wolfe\nLizard of Oz\nMatvey 'ImAware' Usatov\nHirschVA\nIsaac 'IJCT' Cortissoz"
 "ctf_doublecross_event_authors"	"Harlen 'UEAKCrash' Linke\nLiam 'Diva Dan' Moffitt\nDaniel 'DJ' Bennett"
+"htf_marshlands_authors"		"Tristan 'Alox' Haguet\nLothudus"
 "pd_nutcracker_authors"			"Vasilis 'Billo' Chatzikostas\nWiktor 'Doom' Pieńkowski\nAlex 'FGD5' Stewart\nApostolos Mpaltas\nStuffy360"
 "cppl_gavle_authors"			"Harlen 'UEAKCrash' Linke\nPearForceOne\nBenjamin 'blaholtzen' Blåholtz\nDaniel 'DJ' Bennett\nSeb 'Tianes' Necula\nAlex 'FGD5' Stewart\nJuniper"
 "ctf_sidewinder_authors"		"Tanner Lauren\nHarlen 'UEAKCrash' Linke\nPaul 'Brokk' Clausen\nKirill 'Badasscook' Ruzanov\nLauren 'Yrrzy' Godfrey"
@@ -11135,7 +11412,6 @@
 "RainyDayCosmetics_collection"				"下雨天裝飾品收藏"
 "RainyDayCosmetics_collection_desc"			"來自下雨天裝飾品收藏的物品："
 "campaign3_master_collection"				"叢林煉獄收藏"
-"campaign3_master_collection_desc"			"　"
 "Campaign3Cosmetics_Case1_collection"		"憎惡飾品收藏"
 "Campaign3Cosmetics_Case1_collection_desc"	"來自憎惡飾品收藏的物品："
 "Campaign3Cosmetics_Case2_collection"		"「解放的野獸 」飾品收藏品"
@@ -12243,7 +12519,6 @@
 "Attrib_AimingKnockbackResistance"		"瞄準時被震退的距離 -%s1%"
 "Attrib_SniperAimingMoveSpeed_Decreased"	"瞄準時移動速度 %s1%"
 "Attrib_RageGainOnKill"					"殺敵或助攻可獲得聚焦力"	// Text is made for sniper only, fix this
-//"Attrib_RageGainOnAssists"				""
 "Attrib_ShotPenetration"				"攻擊能打穿多個敵人"
 "Attrib_HeadshotDamageIncrease"			"爆頭能增加 +%s1% 額外傷害"
 "Attrib_MysterySolvingTimeDecrease"		"破解謎題所需要的時間減少 %s1%"
@@ -13409,6 +13684,7 @@
 "TF_DEX_Shotgun"			"黑寡夫" // ADD THE
 "TF_DEX_Pistol"				"脈衝電場放射儀" // ADD THE
 "TF_CozyCamper"				"舒適的露營家" // ADD THE
+
 "TF_SpaceChem_MoustachiumBar"		"鍸元素燃料棒"
 "TF_SpaceChem_MoustachiumBar_Desc"	"純淨的鍸元素，採取自澳大利亞內陸深處的全天然資源。"
 "TF_SpaceChem_FishcakeFragmentType"	"魚酥餅化石"
@@ -16000,6 +16276,7 @@ ________________________________________
 "TF_Matchmaking_RollingQueue_NewMatchReady" "您的比賽已準備好！"
 "TF_Matchmaking_RollingQueue_NewTypedMatchReady" "您的 %matchtype% 比賽已經就緒"
 "TF_Matchmaking_RollingQueue_MatchReadyInGame" "您的 %matchtype% 比賽已經就緒。\n\n於 %time% 內加入。"
+"TF_Matchmaking_RollingQueue_AutoJoin"	"將於 %time% 秒內加入。"
 "TF_Matchmaking_RollingQueue_MatchReadyJoining" "加入中…"
 "TF_Matchmaking_RollingQueue_MatchOver"	"票選下—張地圖！"
 "TF_Matchmaking_RollingQueue_NextMapWinner" "下一張地圖"
@@ -17135,6 +17412,7 @@ ________________________________________
 "TF_Weapon_Wrangler_Festive2013"			"聖誕遙控器"
 
 "TF_Weapon_Necro_Smasher"		"滅絕之錘"
+
 "TF_Backpack_ShowNoBorders"				"無物品邊框"
 "TF_Backpack_ShowQualityBorders"		"顯示屬性顏色邊框"
 "TF_Backpack_ShowMarketableBorders"		"只顯示可販售物品的邊框"
@@ -17697,6 +17975,7 @@ ________________________________________
 "TF_fall2013_spy_fancycoat_style1"		"瀟灑"
 "TF_fall2013_spy_fancycoat_style2"		"邪惡"
 "TF_fall2013_medic_wc_coat"		"獄囚管理者" // ADD THE
+
 "TF_hw2013_beast_from_below"		"地獄怪客" // ADD THE
 "TF_hw2013_hardheaded_hardware"		"鬼頭鬼腦鬼面罩"
 "TF_hw2013_octo_face"		"烏賊船長"
@@ -17799,6 +18078,7 @@ ________________________________________
 "TF_hw2013_rogues_brogues"		"傻瓜皮鞋"
 "TF_hw2013_all_skull_necklace"		"神秘紀念品" // ADD THE
 "TF_hw2013_the_abhorrent_appendages"	"沼澤怪四肢" // ADD THE
+
 "TF_xms2013_pyro_arctic_mask"		"探險者面罩" // ADD THE
 "TF_xms2013_pyro_arctic_suit"		"零度探險者" // ADD THE
 "TF_xms2013_soviet_stache"		"大獨裁者" // ADD THE
@@ -18020,6 +18300,7 @@ ________________________________________
 "TF_EOTL_coldfront_curbstompers"		"凍土踐踏者"
 "TF_EOTL_winter_coat"				"寒流外套"
 "TF_EOTL_medal"						"鐵道盡頭社群更新勳章"
+
 "TF_dec2014_marauders_mask"		"騙子假面"
 "TF_dec2014_truands_tunic"		"奉承者衣領"
 "TF_dec2014_fools_footwear"		"丑角之蹄"
@@ -18157,40 +18438,24 @@ ________________________________________
 "TF_dec15_medic_winter_jacket2_emblem"		"君醫"
 "TF_dec15_a_hat_to_kill_for"				"罪惡之帽"
 "TF_dec15_shin_shredders"					"破滅護脛"
+
 "TF_dec16_stocking"							"整襪待發"
-"TF_dec16_stocking_Desc"						"　"
 "TF_dec16_flammable_favor"					"可燃小禮物"
-"TF_dec16_flammable_favor_Desc"					"　"
 "TF_dec16_snowwing"							"雪原飛翼"
-"TF_dec16_snowwing_Desc"						"　"
 "TF_dec16_packable_provisions"				"隨身補給器"
-"TF_dec16_packable_provisions_Desc"				"　"
 "TF_dec16_handy_canes"						"胸掛式拐杖糖"
-"TF_dec16_handy_canes_Desc"						"　"
 "TF_dec16_bomb_beanie"						"無邊黏彈軟帽"
-"TF_dec16_bomb_beanie_Desc"						"　"
 "TF_dec16_electric_twanger"					"放浪電吉他" // ADD THE
-"TF_dec16_electric_twanger_Desc"				"　"
 "TF_dec16_santarchimedes"					"聖誕阿基米德"
-"TF_dec16_santarchimedes_Desc"					"　"
 "TF_dec16_smissmas_sweater"					"窩心聖彈毛衣"
-"TF_dec16_smissmas_sweater_Desc"				"　"
 "TF_dec16_brain_warming_wear"				"暖呼呼護耳帽"
-"TF_dec16_brain_warming_wear_Desc"				"　"
 "TF_dec16_snowmann"							"雪人毛帽" // ADD THE
-"TF_dec16_snowmann_Desc"						"　"
 "TF_dec16_bomber_knight"					"炸彈騎士" // ADD THE
-"TF_dec16_bomber_knight_Desc"					"　"
 "TF_dec16_readers_choice"					"讀者之選"
-"TF_dec16_readers_choice_Desc"					"　"
 "TF_dec16_woolen_warmer"					"暖暖羊毛帽" // ADD THE
-"TF_dec16_woolen_warmer_Desc"					"　"
 "TF_dec16_pyro_the_flamedeer"				"馴鹿火焰兵"
-"TF_dec16_pyro_the_flamedeer_Desc"				"　"
 "TF_dec16_elf_esteem"						"小精靈的自尊"
-"TF_dec16_elf_esteem_Desc"						"　"
 "TF_dec16_head_prize"						"狩獵頭獎" // ADD THE
-"TF_dec16_head_prize_Desc"						"　"
 
 "TF_may16_airdog"						"空戰鬥犬" // ADD THE
 "TF_may16_bedouin_bandana"				"貝都因頭套"
@@ -18208,46 +18473,26 @@ ________________________________________
 "TF_may16_gauzed_gaze"					"紗布後的凝視" // ADD THE
 "TF_may16_demos_dustcatcher"			"炸彈專家的防爆披巾" // ADD THE
 "TF_may16_scoped_spartan"				"斯巴達神狙披風" // ADD THE
-"TF_spr17_plumbers_cap"		"水管工帽"
-"TF_spr17_plumbers_cap_Desc"	"　"
-"TF_spr17_the_upgrade"		"系統升級" // ADD THE
-"TF_spr17_the_upgrade_Desc"	"　"
-"TF_spr17_pocket_pauling"		"迷你寶琳"
-"TF_spr17_pocket_pauling_Desc"	"　"
-"TF_spr17_flakcatcher"		"防嘴砲背心"
-"TF_spr17_flakcatcher_Desc"	"　"
-"TF_spr17_down_under_duster"		"澳式長衣"
-"TF_spr17_down_under_duster_Desc"	"　"
-"TF_spr17_guilden_guardian"		"基爾特衛隊"
-"TF_spr17_guilden_guardian_Desc"	"
 
-"
+"TF_spr17_plumbers_cap"		"水管工帽"
+"TF_spr17_the_upgrade"		"系統升級" // ADD THE
+"TF_spr17_pocket_pauling"		"迷你寶琳"
+"TF_spr17_flakcatcher"		"防嘴砲背心"
+"TF_spr17_down_under_duster"		"澳式長衣"
+"TF_spr17_guilden_guardian"		"基爾特衛隊"
 "TF_spr17_hawk_eyed_hunter"		"鷹眼獵手"
-"TF_spr17_hawk_eyed_hunter_Desc"	"　"
 "TF_spr17_airtight_arsonist"		"氣密式縱火面罩"
-"TF_spr17_airtight_arsonist_Desc"	"　"
 "TF_spr17_field_practice"		"野外實測"
-"TF_spr17_field_practice_Desc"	"　"
 "TF_spr17_blast_defense"		"防爆措施"
-"TF_spr17_blast_defense_Desc"	"　"
 "TF_spr17_warhood"		"戰鬥面罩"
-"TF_spr17_warhood_Desc"	"　"
 "TF_spr17_the_lightning_lid"		"雷霆戰盔" // ADD THE
-"TF_spr17_the_lightning_lid_Desc"	"　"
 "TF_spr17_legendary_lid"		"傳奇斗笠"
-"TF_spr17_legendary_lid_Desc"	"　"
 "TF_spr17_messengers_mail_bag"		"信使的郵務包"
-"TF_spr17_messengers_mail_bag_Desc"	"　"
 "TF_spr17_flash_of_inspiration"		"靈光一閃"
-"TF_spr17_flash_of_inspiration_Desc"	"　"
 "TF_spr17_double_observatory"		"兩件式頭戴觀測站"
-"TF_spr17_double_observatory_Desc"	"　"
 "TF_spr17_wingman"		"空降部隊"
-"TF_spr17_wingman_Desc"	"　"
 "TF_spr17_archers_sterling"		"弓箭手的白銀"
-"TF_spr17_archers_sterling_Desc"	"　"
 "TF_spr17_speedsters_spandex"	"疾跑者的彈性衣"
-"TF_spr17_speedsters_spandex_Desc"	"　"
 
 "TF_taunt_disco_fever"					"嘲諷：迪斯可狂熱"
 "TF_taunt_disco_fever_Desc"				"社群製作的 Spy 嘲諷\n顛簸舞過漫山遍海的敵人屍骨吧。"
@@ -18477,14 +18722,18 @@ ________________________________________
 "TF_CriminalCloak"					"俠盜披風" // ADD THE
 "TF_DreadHidingHood"				"恐慌隱蔽兜帽" // ADD THE
 "TF_BaronialBadge"					"男爵徽章" // ADD THE
+
 "TF_ClassicSniperRifle"				"典雅絕殺獵槍" // ADD THE
+
 "TF_LittleBear"						"口袋小熊" // ADD THE
 "TF_LittleBear_Desc"					"確保你口袋已被實施最新的共產口袋公平容量分配。"
 
 "TF_ItemType_Journal"			"日誌"
 
 "TF_spycrab"						"諜腦蟲" // ADD THE
+
 "TF_Horace"						"賀瑞斯熊帽"
+
 "TF_Set_AI_Pack"				"《異形：孤立》組合包"
 "TF_Set_AI_Merc_Pack"			"孤獨傭兵"
 "TF_XenoSuit"					"異形裝" // ADD THE
@@ -18492,6 +18741,7 @@ ________________________________________
 "TF_BiomechBackpack"			"生物力學背包" // ADD THE
 "TF_NostromoNapalmer"			"諾斯托羅莫火焰噴射器" // ADD THE
 "TF_MK50"						"MK 50 頭盔" // ADD THE
+
 "TF_Set_SF14_Medic_Dog"						"科學狼人"
 "TF_Set_SF14_Medic_Templar"					"聖殿騎士"
 "TF_Set_SF14_Scout_Hunter"					"屋頂的反叛者"
@@ -18524,6 +18774,7 @@ ________________________________________
 "TF_brimstone_Style_WithNoHat"				"無帽"
 
 "TF_CrossingGuard"						"此路不通" // ADD THE
+
 "TF_FindersFee"							"尋錯者的報酬" // ADD THE
 "TF_FindersFee_Desc"						"如果您擁有這頂帽子，這表示您通報了重大破壞遊戲經濟或遠端指令執行的錯誤並使遊戲變得更好。而這也表示你是個值得尊敬之人，就跟甘地一樣（他也有一頂同樣的帽子）。"
 
@@ -18539,6 +18790,7 @@ ________________________________________
 "TF_prinny_machete"						"普利尼短刀"
 "TF_prinny_pouch"						"普利尼腰包"
 "TF_prinny_hat"							"普利尼帽"
+
 // Halloween 2016
 "TF_hwn2016_colossal_cranium_2"			"絕妙好頭"
 "TF_hwn2016_aerobatics_demonstrator"	"特技飛行示範者"
@@ -18564,88 +18816,49 @@ ________________________________________
 "TF_hwn2016_lil_bitey"					"蝙蝙小頭"
 "TF_hwn2016_mad_mask"					"瘋狂面具"
 "TF_hwn2016_burly_beast"				"魁武胸猛獸"
+
 "TF_fall17_hunter_in_darkness"	"黑暗獵手" // ADD THE
-"TF_fall17_hunter_in_darkness_Desc"	"　"
 "TF_fall17_quizzical_quetzal"	"古怪的格查爾鳥"
-"TF_fall17_quizzical_quetzal_Desc"	"　"
 "TF_fall17_aztec_warrior"	"阿茲特克戰士" // ADD THE
-"TF_fall17_aztec_warrior_Desc"	"　"
 "TF_fall17_pocket_saxton"	"迷你薩克斯頓"
-"TF_fall17_pocket_saxton_Desc"	"　"
 "TF_fall17_croaking_hazard"	"呱呱危機" // ADD THE
-"TF_fall17_croaking_hazard_Desc"	"　"
 "TF_fall17_jungle_wreath"	"叢林草圈"
-"TF_fall17_jungle_wreath_Desc"	"　"
 "TF_fall17_slithering_scarf"	"嘶嘶作響圍巾" // ADD THE
-"TF_fall17_slithering_scarf_Desc"	"　"
 "TF_fall17_aloha_apparel"	"夏威夷襯衫"
-"TF_fall17_aloha_apparel_Desc"	"　"
 "TF_fall17_nuke"	"公爵髮式" // ADD THE
-"TF_fall17_nuke_Desc"	"　"
 "TF_fall17_bananades"	"蕉榴彈"
-"TF_fall17_bananades_Desc"	"　"
 "TF_fall17_war_eagle"	"戰鷹" // ADD THE
-"TF_fall17_war_eagle_Desc"	"　"
 "TF_fall17_jungle_jersey"	"叢林毛線衫"
-"TF_fall17_jungle_jersey_Desc"	"　"
 "TF_fall17_transparent_trousers"	"顯而易見的迷彩褲"
-"TF_fall17_transparent_trousers_Desc"	"　"
 "TF_fall17_forest_footwear"	"叢林靴"
-"TF_fall17_forest_footwear_Desc"	"　"
 "TF_fall17_cammy_jammies"	"迷彩褲" // ADD THE
-"TF_fall17_cammy_jammies_Desc"	"　"
 "TF_fall17_conspicuous_camouflage"	"可疑的偽裝" // ADD THE
-"TF_fall17_conspicuous_camouflage_Desc"	"　"
 "TF_fall17_conspicuous_camouflage_style0"	"拉開拉鍊"
 "TF_fall17_conspicuous_camouflage_style1"	"拉上拉鍊"
 "TF_fall17_classy_capper"	"氣派的軍士帽" // ADD THE
-"TF_fall17_classy_capper_Desc"	"　"
 "TF_fall17_most_dangerous_mane"	"極危險的鬍鬚" // ADD THE
-"TF_fall17_most_dangerous_mane_Desc"	"　"
 "TF_fall17_riflemans_regalia"	"步槍兵軍裝"
-"TF_fall17_riflemans_regalia_Desc"	"　"
 "TF_fall17_attack_packs"	"攻擊背帶"
-"TF_fall17_attack_packs_Desc"	"　"
 "TF_fall17_shellmet"	"叢林頭盔" // ADD THE
-"TF_fall17_shellmet_Desc"	"　"
 "TF_fall17_chest_pain"	"穿心尖刀"
-"TF_fall17_chest_pain_Desc"	"　"
 "TF_fall17_crit_cloak"	"爆擊斗篷" // ADD THE
-"TF_fall17_crit_cloak_Desc"	"　"
 "TF_fall17_firemans_essentials"	"消防必備品"
-"TF_fall17_firemans_essentials_Desc"	"　"
 "TF_fall17_deyemonds"	"寶石眼"
-"TF_fall17_deyemonds_Desc"	"　"
 "TF_fall17_deitys_dress"	"羽蛇神祭祀服"
-"TF_fall17_deitys_dress_Desc"	"　"
 "TF_fall17_feathered_fiend"	"羽蛇神面具"
-"TF_fall17_feathered_fiend_Desc"	"　"
 "TF_fall17_sacrificial_stone"	"祭獻的石塊"
-"TF_fall17_sacrificial_stone_Desc"	"　"
 "TF_fall17_hot_huaraches"	"火熱夾腳拖" // ADD THE
-"TF_fall17_hot_huaraches_Desc"	"　"
 "TF_fall17_vitals_vest"	"命脈背心"
-"TF_fall17_vitals_vest_Desc"	"　"
 "TF_fall17_battle_boonie"	"軍醫叢林帽"
-"TF_fall17_battle_boonie_Desc"	"　"
 "TF_fall17_conaghers_utility_idol"	"工程之神雕像"
-"TF_fall17_conaghers_utility_idol_Desc"	"　"
 "TF_fall17_tropical_toad"	"熱帶蟾蜍"
-"TF_fall17_tropical_toad_Desc"	"　"
 "TF_fall17_heavy_harness"	"重型背帶"
-"TF_fall17_heavy_harness_Desc"	"　"
 "TF_fall17_fat_mans_field_cap"	"胖子野戰帽"
-"TF_fall17_fat_mans_field_cap_Desc"	"　"
 "TF_fall17_commando_elite"	"菁英指揮官"
-"TF_fall17_commando_elite_Desc"	"　"
 "TF_fall17_siberian_tigerstripe"	"西伯利亞虎紋衣"
-"TF_fall17_siberian_tigerstripe_Desc"	"　"
 "TF_fall17_aztec_aggressor"	"阿茲特克侵略者" // ADD THE
-"TF_fall17_aztec_aggressor_Desc"	"　"
 "TF_fall17_pithy_pro"	"精闢的專業傭兵" // ADD THE
-"TF_fall17_pithy_pro_Desc"	"　"
 "TF_fall17_bait_and_bite"	"魚誘工具包"
-"TF_fall17_bait_and_bite_Desc"		"　"
 
 "TF_dec17_sledders_sidekick"	"雪橇助手"
 "TF_dec17_balloonihoodie"	"獨角獸氣球兜帽"

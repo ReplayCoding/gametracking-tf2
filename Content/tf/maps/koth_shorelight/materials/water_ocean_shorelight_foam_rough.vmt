@@ -1,0 +1,28 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "shorelight_assets/materials/water_ocean_shorelight_foam_rough"
+	"$normalmap" "shorelight_assets/materials/water_ocean_shorelight_normal"
+	"$surfaceprop" "Water"
+	"$nodecal" 1
+	"$decal" "1"
+	"$translucent" 1
+	"%keywords" "tf"
+	"$vertexcolor" "1"
+    	"$vertexalpha" "1"
+//	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"Proxies"
+	{
+	"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "30"
+		}
+	"AnimatedTexture"
+		{
+		"animatedtexturevar" "$normalmap"
+		"animatedtextureframenumvar" "$bumpframe"
+		"animatedtextureframerate" 30.00
+		}
+	}
+}

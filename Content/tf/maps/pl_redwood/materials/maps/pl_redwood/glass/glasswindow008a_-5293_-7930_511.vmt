@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW008A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_redwood/c-5293_-7930_511"
+	}
+}

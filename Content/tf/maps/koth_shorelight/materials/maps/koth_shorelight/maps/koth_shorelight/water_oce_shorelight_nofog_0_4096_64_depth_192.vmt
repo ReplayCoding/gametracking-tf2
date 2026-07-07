@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_shorelight/water_oce_shorelight_nofog_0_4096_64.vmt"
+	"insert"
+	{
+		"$waterdepth"		"192"
+	}
+}

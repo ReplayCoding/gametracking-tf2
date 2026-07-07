@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	<dx90
+		{
+			"$fallbackmaterial" "premuda/cap_point_intel_red_dx80"
+		}
+
+	"$basetexture" "premuda/cap_point_intel_red"
+	"$bumpmap" "premuda/cap_point_intel_normal"
+	"$selfillummask" 	"premuda/cap_point_intel_selfillum"
+
+	"$selfillum" "1"
+
+"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 6
+		}
+}
+
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[1 1 1]"
+	"$phongfresnelranges" "[.6 2 5]"
+
+	//"$rimlight" "1"
+	//"$rimlightboost" "5"
+	//"$rimlightexponent" "10"
+
+
+
+	
+}

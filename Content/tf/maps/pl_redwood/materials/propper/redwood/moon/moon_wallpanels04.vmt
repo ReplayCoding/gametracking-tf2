@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"moon/moon_wallpanels04"
+	"$basealphaenvmapmask"		"1"
+	"$envmapcontrast"		"0"
+	"$envmap"		"cubemaps\cubemap_specular001"
+	"$envmaptint"		"[ 0.08 0.080 0.08 ]"
+	"$detail"		"detail/moon_wallpanels02_detail.vtf"
+	"$detailscale"		"0.500000"
+	"$detailblendmode"		"0"
+	"$detailblendfactor"		"1"
+	"$model"		"1"
+}

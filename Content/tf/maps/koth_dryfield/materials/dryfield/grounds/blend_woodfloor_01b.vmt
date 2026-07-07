@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "Wood/wood_floor002"
+	"$basetexture2" "Nature/rockground008"
+
+	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+
+//	$bumpmap "Wood/hwn_track_ssbump"
+//	"$bumpmap2" "Nature/rockground001_height-ssbump"
+
+//	$ssbump 1
+
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+
+}

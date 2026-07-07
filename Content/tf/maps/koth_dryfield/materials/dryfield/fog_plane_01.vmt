@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "dryfield/cloud_dryfield_01a"
+	"$translucent" 1
+//	"$nofog" "1"
+	"%keywords" "tf"
+ 
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.012
+			"texturescrollangle" 0
+		}
+	}
+}

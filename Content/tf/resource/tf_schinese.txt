@@ -734,6 +734,7 @@
 "TF_Weapon_Knife_AdvancedMVMRareLoot_Engineer"				"黄金机器人毁灭者刀子 Mk.II"
 
 "TF_TournamentMedal_Empty"				"锦标赛奖牌"
+
 "TF_TournamentMedal_GWJ_1st"						"冠军 - Gamers With Jobs 锦标赛"
 "TF_TournamentMedal_GWJ_2nd"						"亚军 - Gamers With Jobs 锦标赛"
 "TF_TournamentMedal_GWJ_3rd"						"参赛者 - Gamers With Jobs 锦标赛"
@@ -1695,12 +1696,15 @@
 "TF_TournamentMedal_AF_Invite_1st_Spring2024"	"此奖项颁发给在 AsiaFortress 2024 春季邀请赛中荣获冠军的 Xiao 战队选手"
 "TF_TournamentMedal_AF_Invite_1st_Fall2024"	"此奖项颁发给在 AsiaFortress 2024 秋季邀请赛中荣获冠军的 Kankuay 战队选手"
 "TF_TournamentMedal_AF_Invite_1st_Spring2025"	"此奖项颁发给在 AsiaFortress 2025 春季邀请赛中荣获冠军的 Heretics 战队选手"
+"TF_TournamentMedal_AF_Invite_1st_Winter2026"	"此奖项颁发给参加了AsiaFortress 2026 冬季邀请赛的 T6 战队的选手"
 "TF_TournamentMedal_AF_Invite_2nd_Spring2024"	"此奖项颁发给在 AsiaFortress 2024 春季邀请赛中荣获亚军的 Ex Nihilo 战队选手"
 "TF_TournamentMedal_AF_Invite_2nd_Fall2024"	"此奖项颁发给在 AsiaFortress 2024 秋季邀请赛中荣获亚军的 Togenashi Togeari 战队选手"
 "TF_TournamentMedal_AF_Invite_2nd_Spring2025"	"此奖项颁发给在 AsiaFortress 2025 春季邀请赛中荣获亚军的 Ex Nihilo 战队选手"
+"TF_TournamentMedal_AF_Invite_2nd_Winter2026"	"此奖项颁发给参加了AsiaFortress 2026 冬季邀请赛的 Shohoku 战队的选手"
 "TF_TournamentMedal_AF_Invite_3rd_Spring2024"	"此奖项颁发给在 AsiaFortress 2024 春季邀请赛中荣获季军的 United Beasts 战队选手"
 "TF_TournamentMedal_AF_Invite_3rd_Fall2024"	"此奖项颁发给在 AsiaFortress 2024 秋季邀请赛中荣获季军的 HONGPRUMP 战队选手"
 "TF_TournamentMedal_AF_Invite_3rd_Spring2025"	"此奖项颁发给在 AsiaFortress 2025 春季邀请赛中荣获季军的 MRST 战队选手"
+"TF_TournamentMedal_AF_Invite_3rd_Winter2026"	"此奖项颁发给参加了AsiaFortress 2026 冬季邀请赛的 Meow 战队的选手"
 "TF_TournamentMedal_AF_Invite_Participant_Spring2024"	"此奖项颁发给在 AsiaFortress 2024 春季赛邀请组中参赛的选手"
 "TF_TournamentMedal_AF_Invite_Participant_Fall2024"	"此奖项颁发给在 AsiaFortress 2024 秋季赛邀请组中参赛的选手"
 "TF_TournamentMedal_AF_Invite_Participant_Spring2025"	"此奖项颁发给在 AsiaFortress 2025 春季赛邀请组中参赛的选手"
@@ -1743,6 +1747,7 @@
 "TF_TournamentMedal_AF_NewbieCup_9"				"AsiaFortress 新手杯 9"
 "TF_TournamentMedal_AF_NewbieCup_10"				"AsiaFortress 新手杯 10"
 "TF_TournamentMedal_AF_NewbieCup_11"				"AsiaFortress 新手杯 11"
+"TF_TournamentMedal_AF_NewbieCup_12"				"AsiaFortress 新手杯 12"
 "TF_TournamentMedal_AF_GibusCup_1st"				"AsiaFortress 高帽杯冠军"
 "TF_TournamentMedal_AF_GibusCup_2nd"				"AsiaFortress 高帽杯亚军"
 "TF_TournamentMedal_AF_GibusCup_3rd"				"AsiaFortress 高帽杯季军"
@@ -1751,6 +1756,10 @@
 "TF_TournamentMedal_AF_GibusCup_1"					"AsiaFortress 高帽杯 1"
 "TF_TournamentMedal_AF_ChampionsCup_Participant"	"AsiaFortress 冠军杯参赛者"
 "TF_TournamentMedal_AF_ChampionsCup_Desc"			"此奖项颁发给在 AsiaFortress 冠军杯中参赛的选手"
+"TF_TournamentMedal_AF_Highlander_Cup_1st"			"AsiaFortress 全编制赛冠军"
+"TF_TournamentMedal_AF_Highlander_Cup_2nd"			"AsiaFortress 全编制赛亚军"
+"TF_TournamentMedal_AF_Highlander_Cup_3rd"			"AsiaFortress 全编制赛季军"
+"TF_TournamentMedal_AF_Highlander_Cup_Participant"	"AsiaFortress 全编制赛参赛者"
 																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 胜出者"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 参赛者"
@@ -1838,7 +1847,7 @@
 
 "TF_TournamentMedal_EdgeGamersUltiDuo_Participant"		"EdgeGamers UltiDuo 参赛者"
 
-"TF_TournamentMedal_TFCL_6v6_Alpha"				"TFCL 6v6 初始赛季"
+"TF_TournamentMedal_TFCL_6v6_Alpha"				"TFCL 6v6 Alpha 赛季"
 "TF_TournamentMedal_TFCL_6v6_Gold"				"TFCL 6v6 冠军"
 "TF_TournamentMedal_TFCL_6v6_Silver"			"TFCL 6v6 亚军"
 "TF_TournamentMedal_TFCL_6v6_Bronze"			"TFCL 6v6 季军"
@@ -1857,13 +1866,13 @@
 "TF_TournamentMedal_TFCL_6v6_Division3_Participant"		"TFCL 6v6 丙组参赛者"
 "TF_TournamentMedal_TFCL_6v6_Helper"					"TFCL 6v6 协助者"
 "TF_TournamentMedal_TFCL_6v6_2025_Desc"					" 2025 年季后赛杯 2"
-"TF_TournamentMedal_TFCL_Ultiduo_Alpha"			"TFCL Ultiduo 初始赛季"
+"TF_TournamentMedal_TFCL_Ultiduo_Alpha"			"TFCL Ultiduo Alpha 赛季"
 "TF_TournamentMedal_TFCL_Ultiduo_Gold"			"TFCL Ultiduo 冠军"
 "TF_TournamentMedal_TFCL_Ultiduo_Silver"		"TFCL Ultiduo 亚军"
 "TF_TournamentMedal_TFCL_Ultiduo_Bronze"		"TFCL Ultiduo 季军"
 "TF_TournamentMedal_TFCL_Ultiduo_Participant"	"TFCL Ultiduo 参赛者"
-"TF_TournamentMedal_TFCL_Alpha_Season"			"初始赛季"
-"TF_TournamentMedal_TFCL_Alpha_Desc"			"此奖项颁发给在 TFCL 初始赛季中战斗过的玩家们"
+"TF_TournamentMedal_TFCL_Alpha_Season"			"Alpha 赛季"
+"TF_TournamentMedal_TFCL_Alpha_Desc"			"此奖项颁发给在 TFCL Alpha 赛季中战斗过的玩家们"
 "TF_TournamentMedal_TFCL_Highlander_Gold"			"TFCL 全编制赛冠军"
 "TF_TournamentMedal_TFCL_Highlander_Silver"			"TFCL 全编制赛亚军"
 "TF_TournamentMedal_TFCL_Highlander_Bronze"			"TFCL 全编制赛季军"
@@ -1888,8 +1897,10 @@
 "TF_TournamentMedal_TFCL_SummerCup_Participant"		"TFCL 夏季杯参赛者"
 "TF_TournamentMedal_TFCL_Helper"					"TFCL 协助者"
 "TF_TournamentMedal_TFCL_Helper_Desc"				"有你在，TFCL 才能圆满成功，而你现在有了一枚闪亮的勋章作为证明！"
-"TF_TournamentMedal_TFCL_Alpha_Participant_Season1"			"TFCL Alpha 第 1 赛季参赛者"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season1"			"TFCL Alpha 第 1 赛季参与者"
 "TF_TournamentMedal_TFCL_Alpha_Participant_Season1_Desc"	"此奖项颁发给所有参与 TFCL 2026 年首次 Alpha 测试（3 月 15 日至 3 月 22 日）的玩家。感谢你们为早期测试捧场。"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2"			"TFCL Alpha 第 2 赛季参与者"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2_Desc"	"此奖项颁发给所有参与 TFCL 2026 年第二次 Alpha 测试的玩家。感谢你们为早期测试捧场。"
 
 "TF_TournamentMedal_NHBL_Sasha_Season1"			"第一届 NHBL “萨莎”级冠军"
 "TF_TournamentMedal_NHBL_Sasha_Season1_Desc"	"Dr. Splints"
@@ -2053,6 +2064,7 @@
 "TF_Medal_HeartfeltHero_2023_Desc"		"好吧，贵公子，这次就让你披上英雄的披风。不过记得带上你的超大号鸡毛掸子和忠实的跟班哦。"
 
 "TF_MapperMedal"				"地图制作者勋章" // ADD THE
+
 "TF_style0"						"样式 1"
 "TF_style1"						"样式 2"
 "TF_style2"						"样式 3"
@@ -2219,6 +2231,14 @@
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_2nd"				"RGL.gg - 全编制赛- 高级组亚军"
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_3rd"				"RGL.gg - 全编制赛- 高级组季军"
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_Participant"		"RGL.gg - 全编制赛- 高级组参赛者"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Champions"		"RGL.gg - 全编制赛 - 1号高级组冠军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_2nd"				"RGL.gg - 全编制赛 - 1号高级组亚军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_3rd"				"RGL.gg - 全编制赛 - 1号高级组季军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Participant"		"RGL.gg - 全编制赛 - 1号高级组参赛者"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Champions"		"RGL.gg - 全编制赛 - 2号高级组冠军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_2nd"				"RGL.gg - 全编制赛 - 2号高级组亚军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_3rd"				"RGL.gg - 全编制赛 - 2号高级组季军"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Participant"		"RGL.gg - 全编制赛 - 2号高级组参赛者"
 "TF_TournamentMedal_RGLgg_Highlander_Main_Champions"			"RGL.gg - 全编制赛- 主组冠军"
 "TF_TournamentMedal_RGLgg_Highlander_Main_2nd"					"RGL.gg - 全编制赛- 主组亚军"
 "TF_TournamentMedal_RGLgg_Highlander_Main_3rd"					"RGL.gg - 全编制赛- 主组季军"
@@ -2584,6 +2604,11 @@
 "TF_TournamentMedal_UDL_Bronze_2025"		"奖励给 United Dodgeball League 2025 年度杯季军"
 "TF_TournamentMedal_UDL_Participant_2025"	"奖励给 United Dodgeball League 2025 年度杯参赛者"
 "TF_TournamentMedal_UDL_Supporter_2025"	"奖励给为 United Dodgeball League 2025 年度杯做出宝贵贡献的人"
+"TF_TournamentMedal_UDL_Season1_Gold"			"United Dodgeball League 第 1 赛季联赛冠军"
+"TF_TournamentMedal_UDL_Season1_Silver"			"United Dodgeball League 第 1 赛季联赛亚军"
+"TF_TournamentMedal_UDL_Season1_Bronze"			"United Dodgeball League 第 1 赛季联赛季军"
+"TF_TournamentMedal_UDL_Season1_Participant"	"United Dodgeball League 第 1 赛季联赛参赛者"
+"TF_TournamentMedal_UDL_Season1_Supporter"		"United Dodgeball League 第 1 赛季联赛支持者"
 
 "TF_TournamentMedal_ESEA_6s_first"			"ESEA 6s 邀请赛冠军"
 "TF_TournamentMedal_ESEA_6s_second"			"ESEA 6s 邀请赛亚军"
@@ -3086,6 +3111,15 @@
 "TF_TournamentMedal_StarchedSilliness_Donor"			"糊里糊涂好奇碳石 2021"
 "TF_TournamentMedal_StarchedSilliness_Donor_Desc"		"有人在得知你捐了钱来帮助阻止病毒肆虐时，给了你这块据称是在地底采矿时发现的闪亮石头。你“石”在是太棒了！颁发给 Tindall Berry 2021 年愚人节 MvM 慈善之旅的捐赠者！"
 
+"TF_TournamentMedal_MvM_Memes2026_Player"				"梗王大战机器：半削不去皮土豆 2026"
+"TF_TournamentMedal_MvM_Memes2026_Player_Desc"			"我们花了几个月的时间把手里的土豆全部都精雕细琢了一遍，然后我们才发现，有时候返璞归真才是最好的结果。所以我们又费工夫把那些花里胡哨的东西又压回了普通的土豆。你可能会说，这个披着土豆皮的怪物好像算不上什么“返璞”，但我们觉得心意才是最重要的。颁发给 Potato MvM 梗王大战机器：再战行动活动的参与玩家！"
+"TF_TournamentMedal_MvM_Memes2026_Participant"			"梗王大战机器：再度奉献坦克 2026"
+"TF_TournamentMedal_MvM_Memes2026_Participant_Desc"		"这件尘封已久的战场遗物已被重铸，用以坚定你的信念——笑是最好的良药。当然了，你那份慷慨解囊的善款也算。颁发给 Potato MvM 梗王大战机器：再战行动活动的参与玩家！"
+"TF_TournamentMedal_MvM_Memes2026_Donate"				"梗王大战机器：归来骑师磷光石 2026"
+"TF_TournamentMedal_MvM_Memes2026_Donate_Desc"			"一颗刚从本地胶水厂新鲜出炉的宝石，拿来送老婆再合适不过了。它不仅象征着马儿任劳任怨的天性，还透着那股子威风劲儿。在下次的编织聚会上，这件宝贝绝对能让所有的姐妹们嫉妒得直跺脚。说不定还会像马一样“吁！”一嗓子。颁发给 Potato MvM 梗王大战机器：再战行动活动的参与玩家！"
+"TF_TournamentMedal_MvM_Memes2026_Donate2"				"梗王大战机器：水渍斑斑蓝宝石 2026"
+"TF_TournamentMedal_MvM_Memes2026_Donate2_Desc"			"这块水晶是我们从湖底里捞上来的，用来当浴室摆件很不错，不过我们觉得你把它胸前会更好看一点。就是别让怕水的猫碰这东西。颁发给 Potato MvM 梗王大战机器：再战行动活动的参与玩家！"
+
 "TF_TournamentMedal_Potato_Labor"			"劳动马铃薯"
 "TF_TournamentMedal_Potato_Labor_Desc"		"有时候，我们会觉得每块石头都已经被翻遍，每个点子都已经被尝试过了，直到像你这样的人带来了真正独特的创意。为了表彰你的创造力和努力，我们授予你一份至高无上的奖励。只是要小心别让它过热哦。颁发给 Potato.TF 活动的贡献者！"
 
@@ -3211,6 +3245,8 @@
 "TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf 欧盟 2v2 公开组季军"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf 欧盟 2v2 公开组参赛者"
 "TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf 欧盟 2v2 公开组助手"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Gold"				"MGE.tf 欧盟 2v2 新秀赛冠军"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Silver"				"MGE.tf 欧盟 2v2 新秀赛亚军"
 "TF_TournamentMedal_MGE_EU_2v2_Newcomer_Participant"		"MGE.tf 欧盟 2v2 新秀赛参赛者"
 
 "TF_TournamentMedal_MGE_NA_2v2_Invite_Gold"					"MGE.tf 北美 2v2 邀请组冠军"
@@ -3226,7 +3262,77 @@
 "TF_TournamentMedal_MGE_NA_2v2_Open_Bronze"					"MGE.tf 北美 2v2 公开组季军"
 "TF_TournamentMedal_MGE_NA_2v2_Open_Participant"			"MGE.tf 北美 2v2 公开组参赛者"
 "TF_TournamentMedal_MGE_NA_2v2_Helper"						"MGE.tf 北美 2v2 助手"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Gold"				"MGE.tf 北美 2v2 新秀赛冠军"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Silver"				"MGE.tf 北美 2v2 新秀赛亚军"
 "TF_TournamentMedal_MGE_NA_2v2_Newcomer_Participant"		"MGE.tf 北美 2v2 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Gold"				"MGE.tf 亚洲 2v2 邀请赛冠军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Silver"				"MGE.tf 亚洲 2v2 邀请赛亚军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Bronze"				"MGE.tf 亚洲 2v2 邀请赛季军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Participant"		"MGE.tf 亚洲 2v2 邀请赛参赛者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Gold"			"MGE.tf 亚洲 2v2 中级组冠军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Silver"		"MGE.tf 亚洲 2v2 中级组亚军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Bronze"		"MGE.tf 亚洲 2v2 中级组季军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Participant"	"MGE.tf 亚洲 2v2 中级组参赛者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Gold"					"MGE.tf 亚洲 2v2 公开组冠军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Silver"				"MGE.tf 亚洲 2v2 公开组亚军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Bronze"				"MGE.tf 亚洲 2v2 公开组季军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Participant"			"MGE.tf 亚洲 2v2 公开组参赛者"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Gold"				"MGE.tf 亚洲 2v2 新秀赛冠军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Silver"			"MGE.tf 亚洲 2v2 新秀赛亚军"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Participant"		"MGE.tf 亚洲 2v2 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Gold"				"MGE.tf 欧盟 1v1 超级组冠军"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Silver"				"MGE.tf 欧盟 1v1 超级组亚军"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Bronze"				"MGE.tf 欧盟 1v1 超级组季军"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Participant"			"MGE.tf 欧盟 1v1 超级组参赛者"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Gold"			"MGE.tf 欧盟 1v1 中级组冠军"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Silver"			"MGE.tf 欧盟 1v1 中级组亚军"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Bronze"			"MGE.tf 欧盟 1v1 中级组季军"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Participant"	"MGE.tf 欧盟 1v1 中级组参赛者"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Gold"					"MGE.tf 欧盟 1v1 公开组冠军"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Silver"					"MGE.tf 欧盟 1v1 公开组亚军"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Bronze"					"MGE.tf 欧盟 1v1 公开组季军"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Participant"			"MGE.tf 欧盟 1v1 公开组参赛者"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Gold"				"MGE.tf 欧盟 1v1 新秀赛冠军"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Silver"				"MGE.tf 欧盟 1v1 新秀赛亚军"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Participant"		"MGE.tf 欧盟 1v1 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Gold"					"MGE.tf 北美 1v1 邀请组冠军"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Silver"				"MGE.tf 北美 1v1 邀请组亚军"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Bronze"				"MGE.tf 北美 1v1 邀请组季军"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Participant"			"MGE.tf 北美 1v1 邀请组参赛者"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Gold"			"MGE.tf 北美 1v1 中级组冠军"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Silver"			"MGE.tf 北美 1v1 中级组亚军"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Bronze"			"MGE.tf 北美 1v1 中级组季军"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Participant"	"MGE.tf 北美 1v1 中级组参赛者"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Gold"					"MGE.tf 北美 1v1 公开组冠军"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Silver"					"MGE.tf 北美 1v1 公开组亚军"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Bronze"					"MGE.tf 北美 1v1 公开组季军"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Participant"			"MGE.tf 北美 1v1 公开组参赛者"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Gold"				"MGE.tf 北美 1v1 新秀赛冠军"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Silver"				"MGE.tf 北美 1v1 新秀赛亚军"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Participant"		"MGE.tf 北美 1v1 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Gold"				"MGE.tf 亚洲 1v1 邀请赛冠军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Silver"				"MGE.tf 亚洲 1v1 邀请赛亚军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Bronze"				"MGE.tf 亚洲 1v1 邀请赛季军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Participant"		"MGE.tf 亚洲 1v1 邀请赛参赛者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Gold"			"MGE.tf 亚洲 1v1 中级组冠军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Silver"		"MGE.tf 亚洲 1v1 中级组亚军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Bronze"		"MGE.tf 亚洲 1v1 中级组季军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Participant"	"MGE.tf 亚洲 1v1 中级组参赛者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Gold"					"MGE.tf 亚洲 1v1 公开组冠军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Silver"				"MGE.tf 亚洲 1v1 公开组亚军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Bronze"				"MGE.tf 亚洲 1v1 公开组季军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Participant"			"MGE.tf 亚洲 1v1 公开组参赛者"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Gold"				"MGE.tf 亚洲 1v1 新秀赛冠军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Silver"			"MGE.tf 亚洲 1v1 新秀赛亚军"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Participant"		"MGE.tf 亚洲 1v1 新秀赛参赛者"
+
+"TF_TournamentMedal_MGE_EU_Helper"							"MGE.tf 欧盟赛区助手"
+"TF_TournamentMedal_MGE_NA_Helper"							"MGE.tf 北美赛区助手"
+"TF_TournamentMedal_MGE_ASIA_Helper"						"MGE.tf 亚洲赛区助手"
 
 "TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1v1 世界锦标赛冠军"
 "TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1v1 世界锦标赛亚军"
@@ -3733,7 +3839,9 @@
 "TF_DemoSombrero" "墨西哥草帽" // ADD THE
 "TF_DemomanMargaritaShades" "醉汉太阳镜"
 "TF_DemomanBeerGrenades" "六瓶装啤酒"
+
 "TF_Bowtie"			"绅士的蝴蝶结"
+
 "TF_ClaimCode"		"兑换码"
 
 "TF_Party_Favor"		"派对礼物"
@@ -3883,6 +3991,7 @@
 "TF_Bundle_SpyStarter_Desc"				"内含所有具有独特属性的间谍武器。物美价廉。"
 
 "TF_PurityFist_Promo"				"净化之拳促销赠品"
+
 "TF_Bundle_MobsterMonday"			"恶徒星期一捆绑包"
 "TF_Bundle_MobsterMonday_Desc"			"装入了这些黑手党主题的物品给机枪手和间谍："
 "TF_Bundle_TimbukTuesday"			"荒漠星期二捆绑包"
@@ -3997,9 +4106,13 @@
 "TF_Bundle_Byzantine_Desc"				"罗马帝国为何会衰亡？多蒙提供这些具有时代特色的服饰，帝国将再次崛起（包括能创造罗马幻境的哈台桂冠）。"
 
 "TF_Spycrab_Promo"						"间谍蟹促销赠品"
+
 "TF_RPS_Promo"							"石头、剪刀、猎枪促销赠品"
+
 "TF_AI_Promo"							"Alien: Isolation 促销赠品"
+
 "TF_Bundle_BatmanArkhamKnightPromo"			"《蝙蝠侠：阿卡姆骑士》促销物品"
+
 "SteamPackage_HA_Council"				"英雄学院政务会和 TF2 雇佣兵"
 "SteamPackage_HA_DarkElves"				"英雄学院黑暗精灵军队"
 "SteamPackage_HA_Dwarves"				"英雄学院矮人军队"
@@ -4020,7 +4133,6 @@
 "TF_Portal2_Soundtrack_Promo_Package"			"Portal 2 原声音轨盒里有些什么呢？"
 "TF_Portal2_Soundtrack_Promo_Package_Desc"		"这个锁定的 Portal 2 原声大碟目录将会在一些日子后开放。"
 "TF_TeamFortress2_Soundtrack_Promo"		"《军团要塞 2》原声音轨促销赠品"
-"TF_TeamFortress2_Soundtrack_Promo_Desc"				" "
 "TF_TeamFortress2_Soundtrack_Promo_Package"			"《军团要塞 2》原声音轨盒里有些什么呢？"
 "TF_TeamFortress2_Soundtrack_Promo_Package_Desc"		"打开这个《军团要塞 2》原声音轨盒，看看里面有什么。"
 "TF_TotalWarBundle"					"全面战争捆绑包"
@@ -4051,11 +4163,10 @@
 "TF_JingleJam_Community_Event_2015_Promo"	"Yogscast Jingle Jam 2015 促销赠品"
 "TF_JingleJam_Community_Event_2016_Promo"	"Yogscast Jingle Jam 2016 促销赠品"
 "TF_JingleJam_Community_Event_2017_Promo"	"Yogscast Jingle Jam 2017 促销赠品"
-"TF_JingleJam_Community_Event_2017_Promo_Desc"	"　"
 "TF_ChefStepsJoulePromo"	"ChefSteps 牌 Joule 厨具促销赠品"
-"TF_ChefStepsJoulePromo_Desc"	" "
 
 "TF_Bundle_STSBundle"			"Steam 翻译捆绑包"
+
 "TF_RandomDroppablePaintPackage"		"曼恩公司油漆套装"
 "TF_RandomDroppablePaintPackage_Desc"	"这罐曼恩公司 DIY 的油漆套装包含几种不同的颜色样本，如果完全从法律上来说的话，它绝对不会放出有害气味。"
 
@@ -4170,6 +4281,7 @@
 "TF_tw_spybot_armor"		"机器间谍的铠甲"
 "TF_tw_spybot_hood"			"机器间谍的披风"
 "TF_tw_sentrybuster"		"古罗马式步哨毁灭者"
+
 "TF_HatAndHeadphones_Style"		"戴上帽子和耳机"
 "TF_NoHat_NoHeadphones_Style"	"摘下头饰和耳机"
 "TF_NoHat_Style"				"摘下头饰"
@@ -4376,7 +4488,6 @@
 "TF_Polycount_Pin"			"Polycount 胸针"
 "TF_Polycount_Pin_Desc"		"奖励给 Polycount 竞赛参赛者。"
 "TF_EllisHat"			"Ellis 的鸭舌帽"
-//"TF_EllisHat_Desc"		""
 "TF_FlippedTrilby"		"翻转的圆毡帽"
 "TF_GermanGonzila"		"提洛尔圆帽"
 "TF_BuckaroosHat"		"西班牙牛仔帽"
@@ -4434,6 +4545,7 @@
 "TF_Hwn_EngineerHat"		"苍蝇怪人头套" // ADD THE
 "TF_Hwn_EngineerMisc1"		"巨大的昆虫翅膀" // ADD THE
 "TF_Hwn_EngineerMisc2"		"巨大的昆虫脚掌" // ADD THE
+
 "TF_Hwn_PyroGasmask"	"骷髅头骨" // ADD THE
 "TF_UnarmedCombat"		"一臂之力"
 "TF_UnarmedCombat_Desc"	"多谢间谍助我一臂之力……"
@@ -4442,6 +4554,7 @@
 "TF_InfernalImpaler"	"炼狱穿眼魔" // ADD THE
 
 "TF_Nabler"			"内布勒的脑袋" // ADD THE
+
 "TF_BigChief"			"大酋长" // ADD THE
 "TF_CaponesCapper"		"干部的软呢帽"
 "TF_CaponesCapper_Desc"		"这顶潇洒的帽子会帮助你犯下所有类型的犯罪 — 除了反对潮流。"
@@ -4457,7 +4570,6 @@
 "TF_EngineerTopHat_Desc"	"从来没有在这古老的西部见过这种款式。"
 
 "TF_Cadavers_Cranium"		"死尸的头盖骨"
-//"TF_Cadavers_Cranium_Desc"	""
 "TF_Horrific_Headsplitter"	"可怕的劈头者"
 "TF_Horrific_Headsplitter_Desc"	"戴着这项头饰时最好保持开放的思想。"
 "TF_Halloween_Skullcap"		"毛骨悚然的骷髅头"
@@ -4648,6 +4760,7 @@
 "TF_MNC_Hat_Desc"			"[在这里写上你最喜欢的运动队]"
 "TF_MNC_Mascot_Hat"			"超级粉丝的太阳帽"
 "TF_MNC_Mascot_Outfit"		"必不可少的运动装备"
+
 "TF_Halloween_Mask_Scout"		"侦察兵面具"
 "TF_Halloween_Mask_Sniper"		"狙击手面具"
 "TF_Halloween_Mask_Soldier"		"士兵面具"
@@ -4667,6 +4780,7 @@
 "TF_Apocofists"					"天灾之拳" // ADD THE
 "TF_Apocofists_Desc"				"将你的每根手指都化作末日天启骑士！如此一来，每一只拳套就能降临不止十九位灭世使徒！区区一拳，竟能掌握如此终焉之力！"
 "TF_Saint_Pin"					"圣徒之印" // ADD THE
+
 "TF_TrnHat"						"速成法师帽" // ADD THE
 "TF_TrnHat_Desc"				"下次如果有人敢因为你拒（不）绝（会）施法而说你是个冒牌魔法师，就用这顶有神奇魔力的法师帽的帽尖戳瞎他们的眼睛，然后开溜。"
 "TF_TrnHelmet"					"钉刺战盔" // ADD THE
@@ -5115,6 +5229,7 @@
 "TF_Item_ZombieSpy"						"巫毒诅咒的间谍灵魂"
 "TF_Item_ZombiePyro"					"巫毒诅咒的火焰兵灵魂"
 "TF_Item_ZombieSniper"					"巫毒诅咒的狙击手灵魂"
+
 "RummageThroughCurses"					"使用"
 "TF_PileOfCurses"						"不祥之物"
 "TF_PileOfCurses_Desc"					"里面好像藏着什么.......你敢把它拿出来吗？\n\n2014年11月12日它就消失了。"
@@ -5184,7 +5299,9 @@
 "TF_SpineChillingSkull2011_Style3"	"令人恐惧"
 
 "TF_Birthday2011_Hat"			"派对尖帽"
+
 "TF_Tropico4_Hat"			"革命家之帽"
+
 "TF_HerosTail_Style0"		"色素未沉着"
 "TF_HerosTail_Style1"		"色素已沉着"
 
@@ -11145,7 +11262,6 @@
 "RainyDayCosmetics_collection"				"雨季饰品收藏品"
 "RainyDayCosmetics_collection_desc"			"雨季饰品收藏品包含："
 "campaign3_master_collection"				"丛林炼狱收藏品"
-"campaign3_master_collection_desc"			" "
 "Campaign3Cosmetics_Case1_collection"		"憎恶之物饰品收藏品"
 "Campaign3Cosmetics_Case1_collection_desc"	"憎恶之物饰品收藏品包含："
 "Campaign3Cosmetics_Case2_collection"		"释放野兽饰品收藏品"
@@ -12217,7 +12333,6 @@
 "Attrib_AimingKnockbackResistance"		"瞄准时减少 %s1% 击退效果"
 "Attrib_SniperAimingMoveSpeed_Decreased"	"瞄准时的移动速度减慢 %s1%"
 "Attrib_RageGainOnKill"					"杀敌或助攻即可积累“专注”能量"	// Text is made for sniper only, fix this
-//"Attrib_RageGainOnAssists"				""
 "Attrib_ShotPenetration"				"攻击能穿透敌人"
 "Attrib_HeadshotDamageIncrease"			"爆头伤害加成 %s1%"
 "Attrib_MysterySolvingTimeDecrease"		"最多降低 %s1% 的谜案侦破时间"
@@ -13324,6 +13439,7 @@
 "TF_DEX_Shotgun"			"寡妇制造者" // ADD THE
 "TF_DEX_Pistol"				"短路发生器" // ADD THE
 "TF_CozyCamper"				"惬意蹲坑汉" // ADD THE
+
 "TF_SpaceChem_MoustachiumBar"		"胡子元素锭"
 "TF_SpaceChem_MoustachiumBar_Desc"	"纯正胡子元素，天然源自澳洲腹地。"
 "TF_SpaceChem_FishcakeFragmentType"	"炸鱼饼碎片"
@@ -17045,6 +17161,7 @@
 "TF_Weapon_Wrangler_Festive2013"			"节日遥控手柄"
 
 "TF_Weapon_Necro_Smasher"		"大力碎尸锤"
+
 "TF_Backpack_ShowNoBorders"				"无物品品质边框"
 "TF_Backpack_ShowQualityBorders"		"显示品质颜色边框"
 "TF_Backpack_ShowMarketableBorders"		"只显示可出售物品的边框"
@@ -17604,6 +17721,7 @@
 "TF_fall2013_spy_fancycoat_style1"		"时髦华丽"
 "TF_fall2013_spy_fancycoat_style2"		"低俗卑鄙"
 "TF_fall2013_medic_wc_coat"		"病房大衣" // ADD THE
+
 "TF_hw2013_beast_from_below"		"下界恶兽" // ADD THE
 "TF_hw2013_hardheaded_hardware"		"硬头硬脑"
 "TF_hw2013_octo_face"		"鱿鱼船长"
@@ -17706,6 +17824,7 @@
 "TF_hw2013_rogues_brogues"		"笨蛋的土皮鞋"
 "TF_hw2013_all_skull_necklace"		"神秘的骨链" // ADD THE
 "TF_hw2013_the_abhorrent_appendages"	"可憎的四肢" // ADD THE
+
 "TF_xms2013_pyro_arctic_mask"		"暴风雪呼吸面具" // ADD THE
 "TF_xms2013_pyro_arctic_suit"		"极地防寒服" // ADD THE
 "TF_xms2013_soviet_stache"		"独裁者之须" // ADD THE
@@ -17927,6 +18046,7 @@
 "TF_EOTL_coldfront_curbstompers"		"冷锋践踏者"
 "TF_EOTL_winter_coat"				"寒潮外套"
 "TF_EOTL_medal"						"End of the Line 社区更新勋章"
+
 "TF_dec2014_marauders_mask"		"行骗者的面具"
 "TF_dec2014_truands_tunic"		"谄媚者的衣领"
 "TF_dec2014_fools_footwear"		"小丑靴子"
@@ -18064,40 +18184,24 @@
 "TF_dec15_medic_winter_jacket2_emblem"		"医疗之王"
 "TF_dec15_a_hat_to_kill_for"				"谋帽害命"
 "TF_dec15_shin_shredders"					"武士钢甲"
+
 "TF_dec16_stocking"							"武装之袜"
-"TF_dec16_stocking_Desc"						" "
 "TF_dec16_flammable_favor"					"易燃之礼"
-"TF_dec16_flammable_favor_Desc"					" "
 "TF_dec16_snowwing"							"雪翼滑板"
-"TF_dec16_snowwing_Desc"						" "
 "TF_dec16_packable_provisions"				"随身补给器"
-"TF_dec16_packable_provisions_Desc"				" "
 "TF_dec16_handy_canes"						"拐杖糖"
-"TF_dec16_handy_canes_Desc"						" "
 "TF_dec16_bomb_beanie"						"黏弹头套"
-"TF_dec16_bomb_beanie_Desc"						" "
 "TF_dec16_electric_twanger"					"三昧电弦" // ADD THE
-"TF_dec16_electric_twanger_Desc"				" "
 "TF_dec16_santarchimedes"					"圣基米德"
-"TF_dec16_santarchimedes_Desc"					" "
 "TF_dec16_smissmas_sweater"					"甜蜜的圣诞毛衣"
-"TF_dec16_smissmas_sweater_Desc"				" "
 "TF_dec16_brain_warming_wear"				"暖脑毛绒帽"
-"TF_dec16_brain_warming_wear_Desc"				" "
 "TF_dec16_snowmann"							"曼恩雪人帽" // ADD THE
-"TF_dec16_snowmann_Desc"						" "
 "TF_dec16_bomber_knight"					"炸弹骑士头盔" // ADD THE
-"TF_dec16_bomber_knight_Desc"					" "
 "TF_dec16_readers_choice"					"睹者之选"
-"TF_dec16_readers_choice_Desc"					" "
 "TF_dec16_woolen_warmer"					"羊毛针织帽" // ADD THE
-"TF_dec16_woolen_warmer_Desc"					" "
 "TF_dec16_pyro_the_flamedeer"				"火焰驯鹿"
-"TF_dec16_pyro_the_flamedeer_Desc"				" "
 "TF_dec16_elf_esteem"						"黏弹小精灵"
-"TF_dec16_elf_esteem_Desc"						" "
 "TF_dec16_head_prize"						"头等大奖" // ADD THE
-"TF_dec16_head_prize_Desc"						" "
 
 "TF_may16_airdog"						"天狗滑雪盔" // ADD THE
 "TF_may16_bedouin_bandana"				"贝督因蒙面头巾"
@@ -18115,44 +18219,26 @@
 "TF_may16_gauzed_gaze"					"蒙面神医" // ADD THE
 "TF_may16_demos_dustcatcher"			"爆破手的遮风围巾" // ADD THE
 "TF_may16_scoped_spartan"				"斯巴达披风" // ADD THE
+
 "TF_spr17_plumbers_cap"		"水管工之帽"
-"TF_spr17_plumbers_cap_Desc"	"­"
 "TF_spr17_the_upgrade"		"高科技间谍" // ADD THE
-"TF_spr17_the_upgrade_Desc"	"­"
 "TF_spr17_pocket_pauling"		"宝琳玩偶"
-"TF_spr17_pocket_pauling_Desc"	"­"
 "TF_spr17_flakcatcher"		"火力集中背心"
-"TF_spr17_flakcatcher_Desc"	"­"
 "TF_spr17_down_under_duster"		"遮尘风衣"
-"TF_spr17_down_under_duster_Desc"	"­"
 "TF_spr17_guilden_guardian"		"皇家卫队"
-"TF_spr17_guilden_guardian_Desc"	"­"
 "TF_spr17_hawk_eyed_hunter"		"鹰眼猎手"
-"TF_spr17_hawk_eyed_hunter_Desc"	"­"
 "TF_spr17_airtight_arsonist"		"气密式纵火狂面罩"
-"TF_spr17_airtight_arsonist_Desc"	"­"
 "TF_spr17_field_practice"		"战地医生贝雷帽"
-"TF_spr17_field_practice_Desc"	"­"
 "TF_spr17_blast_defense"		"钢铁防爆盔"
-"TF_spr17_blast_defense_Desc"	"­"
 "TF_spr17_warhood"		"蒙面兜帽"
-"TF_spr17_warhood_Desc"	"­"
 "TF_spr17_the_lightning_lid"		"闪电之盔" // ADD THE
-"TF_spr17_the_lightning_lid_Desc"	"­"
 "TF_spr17_legendary_lid"		"传奇武士的斗笠"
-"TF_spr17_legendary_lid_Desc"	"­"
 "TF_spr17_messengers_mail_bag"		"信使邮包"
-"TF_spr17_messengers_mail_bag_Desc"	"­"
 "TF_spr17_flash_of_inspiration"		"灵光一闪"
-"TF_spr17_flash_of_inspiration_Desc"	"­"
 "TF_spr17_double_observatory"		"头戴式双筒观测器"
-"TF_spr17_double_observatory_Desc"	"­"
 "TF_spr17_wingman"		"飞行员夹克"
-"TF_spr17_wingman_Desc"	"­"
 "TF_spr17_archers_sterling"		"弓手的护鼻头盔"
-"TF_spr17_archers_sterling_Desc"	"­"
 "TF_spr17_speedsters_spandex"	"疾跑者的肩带"
-"TF_spr17_speedsters_spandex_Desc"	"­"
 
 "TF_taunt_disco_fever"					"嘲讽：狂热迪斯科"
 "TF_taunt_disco_fever_Desc"				"社区创作的间谍嘲讽\n在敌人的坟头上面蹦迪。"
@@ -18375,14 +18461,18 @@
 "TF_CriminalCloak"					"神偷披风" // ADD THE
 "TF_DreadHidingHood"				"惊惧隐蔽兜帽" // ADD THE
 "TF_BaronialBadge"					"男爵徽章" // ADD THE
+
 "TF_ClassicSniperRifle"				"经典狙击步枪" // ADD THE
+
 "TF_LittleBear"						"育熊袋" // ADD THE
 "TF_LittleBear_Desc"					"别忘了让你口袋里的东西根据最新修订的《共产主义口袋强制法》得到公平分配。"
 
 "TF_ItemType_Journal"			"日志"
 
 "TF_spycrab"						"间谍蟹" // ADD THE
+
 "TF_Horace"						"无尽之熊贺拉斯"
+
 "TF_Set_AI_Pack"				"潜伏异形"
 "TF_Set_AI_Merc_Pack"			"孤胆猎手"
 "TF_XenoSuit"					"异形四肢" // ADD THE
@@ -18390,6 +18480,7 @@
 "TF_BiomechBackpack"			"异形之尾" // ADD THE
 "TF_NostromoNapalmer"			"诺斯魔焰" // ADD THE
 "TF_MK50"						"MK 50 增压头盔" // ADD THE
+
 "TF_Set_SF14_Medic_Dog"						"犬形兽医"
 "TF_Set_SF14_Medic_Templar"					"圣殿骑士"
 "TF_Set_SF14_Scout_Hunter"					"屋顶猎手"
@@ -18422,6 +18513,7 @@
 "TF_brimstone_Style_WithNoHat"				"摘下头饰"
 
 "TF_CrossingGuard"						"铁轨管制员" // ADD THE
+
 "TF_FindersFee"							"寻错者的报酬" // ADD THE
 "TF_FindersFee_Desc"						"如果你拥有这顶帽子，这意味着你汇报了破坏游戏经济体系的重大漏洞或是远程代码执行漏洞，使游戏变得更加完善。这也意味着你是一位值得尊敬的人。和甘地一样受人尊敬（他也拥有这顶帽子）。"
 
@@ -18437,6 +18529,7 @@
 "TF_prinny_machete"						"普利尼砍刀"
 "TF_prinny_pouch"						"普利尼腰包"
 "TF_prinny_hat"							"普利尼企鹅帽"
+
 // Halloween 2016
 "TF_hwn2016_colossal_cranium_2"			"巨型光头"
 "TF_hwn2016_aerobatics_demonstrator"	"醉酒驾机"
@@ -18462,88 +18555,49 @@
 "TF_hwn2016_lil_bitey"					"吸血蝙蝠帽"
 "TF_hwn2016_mad_mask"					"疯狂面具"
 "TF_hwn2016_burly_beast"				"胸毛怪兽"
+
 "TF_fall17_hunter_in_darkness"	"暗夜猎手" // ADD THE
-"TF_fall17_hunter_in_darkness_Desc"	" "
 "TF_fall17_quizzical_quetzal"	"古怪的格查尔鸟"
-"TF_fall17_quizzical_quetzal_Desc"	" "
 "TF_fall17_aztec_warrior"	"阿兹特克战盔" // ADD THE
-"TF_fall17_aztec_warrior_Desc"	" "
 "TF_fall17_pocket_saxton"	"口袋萨克斯顿"
-"TF_fall17_pocket_saxton_Desc"	" "
 "TF_fall17_croaking_hazard"	"危险的呱呱" // ADD THE
-"TF_fall17_croaking_hazard_Desc"	" "
 "TF_fall17_jungle_wreath"	"丛林里的花环"
-"TF_fall17_jungle_wreath_Desc"	" "
 "TF_fall17_slithering_scarf"	"嘶嘶作响的围巾" // ADD THE
-"TF_fall17_slithering_scarf_Desc"	" "
 "TF_fall17_aloha_apparel"	"夏威夷衬衫"
-"TF_fall17_aloha_apparel_Desc"	" "
 "TF_fall17_nuke"	"公爵发型" // ADD THE
-"TF_fall17_nuke_Desc"	" "
 "TF_fall17_bananades"	"香蕉炸弹"
-"TF_fall17_bananades_Desc"	" "
 "TF_fall17_war_eagle"	"战鹰图腾面具" // ADD THE
-"TF_fall17_war_eagle_Desc"	" "
 "TF_fall17_jungle_jersey"	"丛林毛线衫"
-"TF_fall17_jungle_jersey_Desc"	" "
 "TF_fall17_transparent_trousers"	"显而易见的裤子"
-"TF_fall17_transparent_trousers_Desc"	" "
 "TF_fall17_forest_footwear"	"丛林之靴"
-"TF_fall17_forest_footwear_Desc"	" "
 "TF_fall17_cammy_jammies"	"迷彩之裤" // ADD THE
-"TF_fall17_cammy_jammies_Desc"	" "
 "TF_fall17_conspicuous_camouflage"	"引人注目的伪装服" // ADD THE
-"TF_fall17_conspicuous_camouflage_Desc"	" "
 "TF_fall17_conspicuous_camouflage_style0"	"拉开拉链"
 "TF_fall17_conspicuous_camouflage_style1"	"拉上拉链"
 "TF_fall17_classy_capper"	"气派的骑士帽" // ADD THE
-"TF_fall17_classy_capper_Desc"	" "
 "TF_fall17_most_dangerous_mane"	"超级危险的胡须" // ADD THE
-"TF_fall17_most_dangerous_mane_Desc"	" "
 "TF_fall17_riflemans_regalia"	"步枪手军装"
-"TF_fall17_riflemans_regalia_Desc"	" "
 "TF_fall17_attack_packs"	"作战装具"
-"TF_fall17_attack_packs_Desc"	" "
 "TF_fall17_shellmet"	"丛林老兵的头盔" // ADD THE
-"TF_fall17_shellmet_Desc"	" "
 "TF_fall17_chest_pain"	"胸口插大刀"
-"TF_fall17_chest_pain_Desc"	" "
 "TF_fall17_crit_cloak"	"爆击火箭神教徒" // ADD THE
-"TF_fall17_crit_cloak_Desc"	" "
 "TF_fall17_firemans_essentials"	"消防员的必备品"
-"TF_fall17_firemans_essentials_Desc"	" "
 "TF_fall17_deyemonds"	"宝石之眼"
-"TF_fall17_deyemonds_Desc"	" "
 "TF_fall17_deitys_dress"	"羽蛇神祭服"
-"TF_fall17_deitys_dress_Desc"	" "
 "TF_fall17_feathered_fiend"	"羽蛇神面具"
-"TF_fall17_feathered_fiend_Desc"	" "
 "TF_fall17_sacrificial_stone"	"献祭之石"
-"TF_fall17_sacrificial_stone_Desc"	" "
 "TF_fall17_hot_huaraches"	"灼热人字拖" // ADD THE
-"TF_fall17_hot_huaraches_Desc"	" "
 "TF_fall17_vitals_vest"	"医疗必备品背心"
-"TF_fall17_vitals_vest_Desc"	" "
 "TF_fall17_battle_boonie"	"军医布尼帽"
-"TF_fall17_battle_boonie_Desc"	" "
 "TF_fall17_conaghers_utility_idol"	"工程之神的塑像"
-"TF_fall17_conaghers_utility_idol_Desc"	" "
 "TF_fall17_tropical_toad"	"热带蟾蜍"
-"TF_fall17_tropical_toad_Desc"	" "
 "TF_fall17_heavy_harness"	"重型背带"
-"TF_fall17_heavy_harness_Desc"	" "
 "TF_fall17_fat_mans_field_cap"	"肥佬的野战帽"
-"TF_fall17_fat_mans_field_cap_Desc"	" "
 "TF_fall17_commando_elite"	"精英特种兵"
-"TF_fall17_commando_elite_Desc"	" "
 "TF_fall17_siberian_tigerstripe"	"西伯利亚之虎"
-"TF_fall17_siberian_tigerstripe_Desc"	" "
 "TF_fall17_aztec_aggressor"	"阿兹特克狂战士" // ADD THE
-"TF_fall17_aztec_aggressor_Desc"	" "
 "TF_fall17_pithy_pro"	"精干的专业佣兵" // ADD THE
-"TF_fall17_pithy_pro_Desc"	" "
 "TF_fall17_bait_and_bite"	"钓鱼工具包"
-"TF_fall17_bait_and_bite_Desc"		" "
 
 "TF_dec17_sledders_sidekick"	"雪橇小伙伴"
 "TF_dec17_balloonihoodie"	"气球独角兽兜帽"

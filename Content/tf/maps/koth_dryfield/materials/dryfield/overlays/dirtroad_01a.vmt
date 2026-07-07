@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dryfield/overlays/DirtRoad_01a"
+//	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 90 translate 0 0"
+
+
+	"$decal" "1"
+	"$translucent" 1
+
+	"%keywords" "tf"
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

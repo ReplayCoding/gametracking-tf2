@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_shorelight/life_preserver_02"
+	"$basemapalphaphongmask" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".08"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}

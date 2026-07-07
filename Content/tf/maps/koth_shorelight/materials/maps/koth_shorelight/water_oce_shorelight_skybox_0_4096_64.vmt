@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER_OCE_SHORELIGHT_SKYBOX.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_shorelight/c0_4096_64"
+		"Proxies"
+		{
+		}
+	}
+}

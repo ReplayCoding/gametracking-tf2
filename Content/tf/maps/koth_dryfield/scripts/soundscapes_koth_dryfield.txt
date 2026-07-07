@@ -1,0 +1,898 @@
+"Dryfield.InsideBLU01"
+{
+	"dsp"	"1"  	
+
+			"playlooping"
+	{
+		"volume"	"0.08"
+		"pitch"		"75"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.60"
+		"pitch"		"95"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+		"playrandom"
+	{
+		"time"		"2,8"
+		"volume"	".25"
+		"pitch"		"85"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\metal_stress1.wav"
+			"wave"		"ambient\materials\metal_stress2.wav"
+			"wave"		"ambient\materials\metal_stress3.wav"
+			"wave"		"ambient\materials\metal_stress4.wav"
+			"wave"		"ambient\materials\metal_stress5.wav"
+		}
+	}		
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"1.1"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5" 
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1"	
+		"wave"		"ambient\boiler_01.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.1"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+		"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}
+	
+
+
+	
+}
+
+"Dryfield.InsideBLU02"
+{
+	"dsp"	"1"  	
+	
+		"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"92"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.60"
+		"pitch"		"95"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav" 
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"   
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"1.2"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\drips1.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"95"
+		"position"	"3"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\gas\steam2.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+	
+	
+		"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"6"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\water\leak_1.wav"
+	}
+	
+
+
+}
+
+"Dryfield.CourtyardBLU01"
+{
+	"dsp"	"129"  
+	
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"92"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"90"
+		"wave"		"ambient\lightwindcreaks.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"110"
+		"wave"		"ambient\outdoors_quiet_birds.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".45"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/dog1.mp3"
+			"wave"		"ambient_mp3/dog2.mp3"
+			"wave"		"ambient_mp3/dog3.mp3"
+			"wave"		"ambient_mp3/dog4.mp3"
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+			"wave"		"ambient_mp3/crow3.mp3"
+			"wave"		"ambient_mp3/crow4.mp3"
+		}
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"0.55"	
+		"wave"		"ambient\cp_harbor\outdoor_lp_01.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.15"	
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"0.75" 	
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\lair\cap_2_boiler_rough1.wav"
+	}	
+	
+		"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\engine_idle.wav"
+	}
+	
+}
+
+"Dryfield.SpawnBLU01"
+{
+	"dsp"	"1"  
+	
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"80"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".35"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"115"
+		"position"	"0"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\command_center2.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1"	
+		"wave"		"ambient\cp_harbor\indoor_lp_03.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.15"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"5"
+		"attenuation"	"1"	
+		"wave"		"ambient\desert_rustle.wav"
+	}	
+
+
+
+	
+}
+
+"Dryfield.OutsideMain"
+{
+	"dsp"	"129"	
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"92"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"90"
+		"wave"		"ambient\lightwindcreaks.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/dog1.mp3"
+			"wave"		"ambient_mp3/dog2.mp3"
+			"wave"		"ambient_mp3/dog3.mp3"
+			"wave"		"ambient_mp3/dog4.mp3"
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+			"wave"		"ambient_mp3/crow3.mp3"
+			"wave"		"ambient_mp3/crow4.mp3"
+		}
+	}	
+	
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1"	
+		"wave"		"ambient\lair\cap_2_boiler_smooth1.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\lair\light_hum3.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"85"
+		"position"	"3"
+		"attenuation"	"1.2"	
+		"wave"		"ambient\gas\steam_loop1.wav"
+	}
+	
+					"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}	
+	
+					"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"5"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\ac_vent3.wav"
+	}	
+	
+	
+	
+	
+}
+
+"Dryfield.CoveredOutside"
+{
+	"dsp"	"1"
+	"playsoundscape"
+	{
+		"name"		"Dryfield.OutsideMain"
+		"volume"	".35"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.08"
+		"pitch"		"75"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".25"
+		"pitch"		"80"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}	
+		"playrandom"
+	{
+		"time"		"4,12"
+		"volume"	".2"
+		"pitch"		"85"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\metal_stress1.wav"
+			"wave"		"ambient\materials\metal_stress2.wav"
+			"wave"		"ambient\materials\metal_stress3.wav"
+			"wave"		"ambient\materials\metal_stress4.wav"
+			"wave"		"ambient\materials\metal_stress5.wav"
+		}
+	}	
+}
+
+"Dryfield.Underpoint"
+{
+	"dsp"	"17"	
+	
+	"playlooping"
+	{
+		"volume"	"0.65"
+		"pitch"		"70"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"75"
+		"wave"		"ambient\cp_harbor\machinery_in_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"95"
+		"position"	"0"
+		"attenuation"	"1.3"	
+		"wave"		"ambient\computer_working2.wav"
+	}
+
+	"playlooping"	
+	{
+		"volume"	"0.3"
+		"pitch"		"90"
+		"position"	"1"
+		"attenuation"	"1.3"
+		"wave"		"ambient\computer_working.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"95"
+		"position"	"2"
+		"attenuation"	"1.5"
+		"wave"		"ambient\gas\steam2.wav"
+	}
+
+	"playlooping"	
+	{
+		"volume"	"0.35"
+		"pitch"		"90"
+		"position"	"3"
+		"attenuation"	"1.4"
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.15"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}	
+}
+
+"Dryfield.InsideRED01"
+
+{
+	"dsp"	"1"	
+	"playlooping"
+	{
+		"volume"	"0.08"
+		"pitch"		"75"
+		"wave"		"ambient\cp_harbor\indoor_lp_04.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.60"
+		"pitch"		"95"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+		"playrandom"
+	{
+		"time"		"2,8"
+		"volume"	".25"
+		"pitch"		"85"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\metal_stress1.wav"
+			"wave"		"ambient\materials\metal_stress2.wav"
+			"wave"		"ambient\materials\metal_stress3.wav"
+			"wave"		"ambient\materials\metal_stress4.wav"
+			"wave"		"ambient\materials\metal_stress5.wav"
+		}
+	}		
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"1.1"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\cp_harbor\indoor_lp_02.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5" 
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1"	
+		"wave"		"ambient\boiler_01.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.1"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+		"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}
+	
+	
+}
+
+"Dryfield.InsideRED02"
+{
+	"dsp"	"1"  	
+	
+		"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"92"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.60"
+		"pitch"		"95"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav" 
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"   
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"1.2"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\drips1.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"95"
+		"position"	"3"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\gas\steam2.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+		"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"6"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\water\leak_1.wav"
+	}
+	 
+						"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1.35"	
+		"wave"		"ambient\lair\ac_vent3.wav"
+	}	
+	
+	
+
+
+}
+
+"Dryfield.CourtyardRED01"
+{
+	"dsp"	"129"  
+	
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"92"
+		"wave"		"ambient\desert_rustle.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"90"
+		"wave"		"ambient\lightwindcreaks.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"110"
+		"wave"		"ambient\outdoors_quiet_birds.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".45"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/dog1.mp3"
+			"wave"		"ambient_mp3/dog2.mp3"
+			"wave"		"ambient_mp3/dog3.mp3"
+			"wave"		"ambient_mp3/dog4.mp3"
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+			"wave"		"ambient_mp3/crow3.mp3"
+			"wave"		"ambient_mp3/crow4.mp3"
+		}
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"0.55"	
+		"wave"		"ambient\cp_harbor\outdoor_lp_01.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.15"	
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"0.75" 	
+		"wave"		"ambient\cp_harbor\indoor_lp_01.wav"
+	}	
+	
+				"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\lair\cap_2_boiler_rough1.wav"
+	}	
+	
+		"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\engine_idle.wav"
+	}
+	
+}
+
+"Dryfield.SpawnRED01"
+{
+	"dsp"	"1"  
+	
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"pitch"		"80"
+		"wave"		"ambient\lair\wind_elevated_area.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,11"
+		"volume"	".35"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+		}
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"115"
+		"position"	"0"
+		"attenuation"	"1.25"	
+		"wave"		"ambient\command_center2.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\levels\canals\water_rivulet_loop2.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"1"	
+		"wave"		"ambient\cp_harbor\indoor_lp_03.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.5"	
+		"wave"		"ambient\levels\canals\waterleak_loop1.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"position"	"4"
+		"attenuation"	"1.15"	
+		"wave"		"ambient\lair\electric_box_hum.wav"
+	}	
+	
+			"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"position"	"5"
+		"attenuation"	"1"	
+		"wave"		"ambient\desert_rustle.wav"
+	}	
+
+
+
+	
+}

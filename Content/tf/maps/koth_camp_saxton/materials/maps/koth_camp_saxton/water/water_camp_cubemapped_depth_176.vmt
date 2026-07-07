@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/water/water_camp_cubemapped.vmt"
+	"insert"
+	{
+		"$waterdepth"		"176"
+	}
+}

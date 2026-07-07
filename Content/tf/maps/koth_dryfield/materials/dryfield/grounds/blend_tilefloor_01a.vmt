@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "tile/floor_tile_007a"
+	"$basetexture2" "tile/floor_tile_007b"
+
+	"$blendmodulatetexture" "dryfield/grounds/tile_floor_01a_blendmask"
+
+	"$surfaceprop" "tile"
+	"%keywords" "tf"
+
+//	"$detail" "overlays/detail006"
+//	"$detailscale" "1"
+//	"$detailblendmode" "0"
+//	"$detailblendfactor" "1"
+}

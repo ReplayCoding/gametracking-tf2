@@ -764,6 +764,7 @@
 "TF_Weapon_Knife_AdvancedMVMRareLoot_Engineer"				"ゴールドボットキラーナイフ Mk.II"
 
 "TF_TournamentMedal_Empty"				"トーナメントメダル"
+
 "TF_TournamentMedal_GWJ_1st"						"優勝 - Gamers With Jobs Tournament"
 "TF_TournamentMedal_GWJ_2nd"						"準優勝 - Gamers With Jobs Tournament"
 "TF_TournamentMedal_GWJ_3rd"						"参加賞 - Gamers With Jobs Tournament"
@@ -1787,12 +1788,15 @@
 "TF_TournamentMedal_AF_Invite_1st_Spring2024"	"AsiaFortress Spring 2024 Invite 優勝「Xiao」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_1st_Fall2024"	"AsiaFortress Fall 2024 Invite 優勝「Kankuay」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_1st_Spring2025"	"AsiaFortress Spring 2025 Invite 優勝「Heretics」チームのプレイヤーに授与されました"
+"TF_TournamentMedal_AF_Invite_1st_Winter2026"	"AsiaFortress Winter 2026 Inviteに参加した「T6」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_2nd_Spring2024"	"AsiaFortress Spring 2024 Invite 準優勝の「Ex Nihilo」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_2nd_Fall2024"	"AsiaFortress Fall 2024 Invite 準優勝の「Togenashi Togeari」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_2nd_Spring2025"	"AsiaFortress Spring 2025 Invite 準優勝「Ex Nihilo」チームのプレイヤーに授与されました"
+"TF_TournamentMedal_AF_Invite_2nd_Winter2026"	"AsiaFortress Winter 2026 Inviteに参加した「Shohoku」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_3rd_Spring2024"	"AsiaFortress Spring 2024 Invite 第3位の「United Beasts」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_3rd_Fall2024"	"AsiaFortress Fall 2024 Invite 第3位の「HONGPRUMP」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_3rd_Spring2025"	"AsiaFortress Spring 2025 Invite 第3位「MRST」チームのプレイヤーに授与されました"
+"TF_TournamentMedal_AF_Invite_3rd_Winter2026"	"AsiaFortress Winter 2026 Inviteに参加した「Meow」チームのプレイヤーに授与されました"
 "TF_TournamentMedal_AF_Invite_Participant_Spring2024"	"AsiaFortress Spring 2024 Invite 参加者に授与されました"
 "TF_TournamentMedal_AF_Invite_Participant_Fall2024"	"AsiaFortress Fall 2024 Invite 参加者に授与されました"
 "TF_TournamentMedal_AF_Invite_Participant_Spring2025"	"AsiaFortress Spring 2025 Invite 参加者に授与されました"
@@ -1835,6 +1839,7 @@
 "TF_TournamentMedal_AF_NewbieCup_9"				"AsiaFortress Newbie Cup 9"
 "TF_TournamentMedal_AF_NewbieCup_10"				"AsiaFortress Newbie Cup 10"
 "TF_TournamentMedal_AF_NewbieCup_11"				"AsiaFortress Newbie Cup 11"
+"TF_TournamentMedal_AF_NewbieCup_12"				"AsiaFortress Newbie Cup 12"
 "TF_TournamentMedal_AF_GibusCup_1st"				"AsiaFortress Gibus Cup 優勝"
 "TF_TournamentMedal_AF_GibusCup_2nd"				"AsiaFortress Gibus Cup 準優勝"
 "TF_TournamentMedal_AF_GibusCup_3rd"				"AsiaFortress Gibus Cup 第3位"
@@ -1843,6 +1848,10 @@
 "TF_TournamentMedal_AF_GibusCup_1"					"AsiaFortress Gibus Cup 1"
 "TF_TournamentMedal_AF_ChampionsCup_Participant"	"AsiaFortress Champions Cup 参加賞"
 "TF_TournamentMedal_AF_ChampionsCup_Desc"			"AsiaFortress Champions Cupの参加者に授与されました"
+"TF_TournamentMedal_AF_Highlander_Cup_1st"			"AsiaFortress Highlander Cup 優勝"
+"TF_TournamentMedal_AF_Highlander_Cup_2nd"			"AsiaFortress Highlander Cup 準優勝"
+"TF_TournamentMedal_AF_Highlander_Cup_3rd"			"AsiaFortress Highlander Cup 第3位"
+"TF_TournamentMedal_AF_Highlander_Cup_Participant"	"AsiaFortress Highlander Cup 参加賞"
 																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 勝者"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 参加賞"
@@ -1982,6 +1991,8 @@
 "TF_TournamentMedal_TFCL_Helper_Desc"				"TFCLにポジティブな影響を与えてくれたあなたに、この輝くメダルを贈ります！"
 "TF_TournamentMedal_TFCL_Alpha_Participant_Season1"			"TFCL Alpha Season 1 参加賞"
 "TF_TournamentMedal_TFCL_Alpha_Participant_Season1_Desc"	"3月15日から3月22日まで実施した、2026年初のTFCLアルファテストにご参加くださった皆さん、早期テスターとなっていただき、ありがとうございます。"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2"			"TFCL Alpha Season 2 参加賞"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2_Desc"	"TFCLの2026年で2回目となるアルファテストに参加した方へ。早期テスターとしてのご協力に感謝します。"
 
 "TF_TournamentMedal_NHBL_Sasha_Season1"			"NHBL 1st Sasha Cup チャンピオン"
 "TF_TournamentMedal_NHBL_Sasha_Season1_Desc"	"Dr. Splint"
@@ -2156,6 +2167,7 @@
 "TF_Medal_HeartfeltHero_2023_Desc"		"わかった、しゃれた格好をした君に今回はヒーローのマントを許そう。ただし、巨大な羽根ほうきと頼りになる相棒を忘れずにね。"
 
 "TF_MapperMedal"				"マップ制作者のメダル" // ADD THE
+
 "TF_style0"						"スタイル1"
 "TF_style1"						"スタイル2"
 "TF_style2"						"スタイル3"
@@ -2335,6 +2347,14 @@
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_2nd"				"RGL.gg - Advanced 準優勝 - ハイランダー"
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_3rd"				"RGL.gg - Advanced 第3位 - ハイランダー"
 "TF_TournamentMedal_RGLgg_Highlander_Advanced_Participant"		"RGL.gg - Advanced 参加賞 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Champions"		"RGL.gg - Advanced-1 チャンピオン - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_2nd"				"RGL.gg - Advanced-1 準優勝 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_3rd"				"RGL.gg - Advanced-1 第3位 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced1_Participant"		"RGL.gg - Advanced-1 参加賞 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Champions"		"RGL.gg - Advanced-2 チャンピオン - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_2nd"				"RGL.gg - Advanced-2 準優勝 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_3rd"				"RGL.gg - Advanced-2 第3位 - ハイランダー"
+"TF_TournamentMedal_RGLgg_Highlander_Advanced2_Participant"		"RGL.gg - Advanced-2 参加賞 - ハイランダー"
 "TF_TournamentMedal_RGLgg_Highlander_Main_Champions"			"RGL.gg - Main チャンピオン - ハイランダー"
 "TF_TournamentMedal_RGLgg_Highlander_Main_2nd"					"RGL.gg - Main 準優勝 - ハイランダー"
 "TF_TournamentMedal_RGLgg_Highlander_Main_3rd"					"RGL.gg - Main 第3位 - ハイランダー"
@@ -2704,6 +2724,11 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_TournamentMedal_UDL_Bronze_2025"		"United Dodgeball League Cup 2025で第3位に入賞したプレイヤーに授与されました"
 "TF_TournamentMedal_UDL_Participant_2025"	"United Dodgeball League Cup 2025の参加者に授与されました"
 "TF_TournamentMedal_UDL_Supporter_2025"	"United Dodgeball League Cup 2025の多大な貢献者へ授与されました"
+"TF_TournamentMedal_UDL_Season1_Gold"			"United Dodgeball League シーズン1 カップ 金メダル"
+"TF_TournamentMedal_UDL_Season1_Silver"			"United Dodgeball League シーズン1 カップ 銀メダル"
+"TF_TournamentMedal_UDL_Season1_Bronze"			"United Dodgeball League シーズン1 カップ 銅メダル"
+"TF_TournamentMedal_UDL_Season1_Participant"	"United Dodgeball League シーズン1 カップ 参加賞"
+"TF_TournamentMedal_UDL_Season1_Supporter"		"United Dodgeball League シーズン1 カップ サポーター賞"
 
 "TF_TournamentMedal_ESEA_6s_first"			"ESEA 6s Invite 優勝"
 "TF_TournamentMedal_ESEA_6s_second"			"ESEA 6s Invite 準優勝"
@@ -3220,6 +3245,15 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_TournamentMedal_StarchedSilliness_Donor"			"Starched Silliness Curious Carbon 2021"
 "TF_TournamentMedal_StarchedSilliness_Donor_Desc"		"猛威を振るうウイルスを食い止めるために寄付をしたあなたに、この光る石を採掘して地底から見つけたと主張する人が贈りました。あなたは最高です！Tindall Berry's 2021 April Fools MvM charity tourの寄付者に授与されました！"
 
+"TF_TournamentMedal_MvM_Memes2026_Player"				"ミーム vs マシン：リピール Un-Peeled Potato 2026"
+"TF_TournamentMedal_MvM_Memes2026_Player_Desc"			"数ヶ月かけて持っているすべてのジャガイモを彫って絵を描いた末、時に基礎に勝るものはないと気づきました。派手な装飾が加わったジャガイモをできる限り通常のジャガイモに戻しました。このジャガイモの皮を被った怪物のどこが「基礎」なのかと思う方もいるでしょうが、私たちはそう考えることが大切だと思っています。Potate MvMのイベント「ミーム vs マシン」：リピールに参加したプレイヤーに授与されます！"
+"TF_TournamentMedal_MvM_Memes2026_Participant"			"ミーム vs マシン：リピール・キビング・タンクス 2026"
+"TF_TournamentMedal_MvM_Memes2026_Participant_Desc"		"遠い昔の紛争の遺物であるこのレリックは、笑いこそが最高の薬であるという信念を強めるために作り直されました。そして、あなたが惜しみなく寄付したお金にも感謝を。Potato MvMのイベント「ミーム vs マシン」：リピールで寄付をした方に授与されます！"
+"TF_TournamentMedal_MvM_Memes2026_Donate"				"ミーム vs マシン：リピール・エケストリアン・エオスフォライト 2026"
+"TF_TournamentMedal_MvM_Memes2026_Donate_Desc"			"地元の接着剤工場から届いたばかりの宝石。奥様への贈り物に最適です。ウマの勤勉な性格だけでなく威厳をも象徴しています。次の編み物パーティーで姉妹たちを羨ましがらせること間違いなしの美しさ。「うげ！」というかもしれません。Potato MvMのイベント「ミーム vs マシン」：リピールで寄付をした方に授与されます！"
+"TF_TournamentMedal_MvM_Memes2026_Donate2"				"ミーム vs マシン：リピール・ソギーサファイア 2026"
+"TF_TournamentMedal_MvM_Memes2026_Donate2_Desc"			"とある湖の底で見つけたこのクリスタルは、バスルームの装飾に最適。ですが、あなたの胸に飾る方が見栄えがいいと思います。とにかく、ネコを近づけず、濡らさないように気をつけてください。Potato MvMのイベント「ミーム vs マシン」：リピールで寄付をした方へ授与されます！"
+
 "TF_TournamentMedal_Potato_Labor"			"ポテトオブレイバー"
 "TF_TournamentMedal_Potato_Labor_Desc"		"あらゆる石がひっくり返され、あらゆるアイデアが試され尽くしたように感じることもありますが、そんな中であなたのような特別な存在が現れます。その創造力と努力に敬意を表し、最強の報酬が贈られます。ただし、熱くなりすぎないように気をつけてください。Potato.TF eventの貢献者に授与されました！"
 
@@ -3345,6 +3379,8 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Bronze"					"MGE.tf EU 2v2 Open 第3位"
 "TF_TournamentMedal_MGE_EU_2v2_Open_Participant"			"MGE.tf EU 2v2 Open 参加賞"
 "TF_TournamentMedal_MGE_EU_2v2_Helper"						"MGE.tf EU 2v2 協力者"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Gold"				"MGE.tf EU 2v2 Newcomer 優勝"
+"TF_TournamentMedal_MGE_EU_2v2_Newcomer_Silver"				"MGE.tf EU 2v2 Newcomer 準優勝"
 "TF_TournamentMedal_MGE_EU_2v2_Newcomer_Participant"		"MGE.tf EU 2v2 Newcomer 参加賞"
 
 "TF_TournamentMedal_MGE_NA_2v2_Invite_Gold"					"MGE.tf NA 2v2 Invite 優勝"
@@ -3360,7 +3396,77 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_TournamentMedal_MGE_NA_2v2_Open_Bronze"					"MGE.tf NA 2v2 Open 第3位"
 "TF_TournamentMedal_MGE_NA_2v2_Open_Participant"			"MGE.tf NA 2v2 Open 参加賞"
 "TF_TournamentMedal_MGE_NA_2v2_Helper"						"MGE.tf NA 2v2 協力者"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Gold"				"MGE.tf NA 2v2 Newcomer 優勝"
+"TF_TournamentMedal_MGE_NA_2v2_Newcomer_Silver"				"MGE.tf NA 2v2 Newcomer 準優勝"
 "TF_TournamentMedal_MGE_NA_2v2_Newcomer_Participant"		"MGE.tf NA 2v2 Newcomer 参加賞"
+
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Gold"				"MGE.tf ASIA 2v2 Invite 優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Silver"				"MGE.tf ASIA 2v2 Invite 準優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Bronze"				"MGE.tf ASIA 2v2 Invite 第3位"
+"TF_TournamentMedal_MGE_ASIA_2v2_Invite_Participant"		"MGE.tf ASIA 2v2 Invite 参加賞"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Gold"			"MGE.tf ASIA 2v2 Intermediate 優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Silver"		"MGE.tf ASIA 2v2 Intermediate 準優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Bronze"		"MGE.tf ASIA 2v2 Intermediate 第3位"
+"TF_TournamentMedal_MGE_ASIA_2v2_Intermediate_Participant"	"MGE.tf ASIA 2v2 Intermediate 参加賞"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Gold"					"MGE.tf ASIA 2v2 Open 優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Silver"				"MGE.tf ASIA 2v2 Open 準優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Bronze"				"MGE.tf ASIA 2v2 Open 第3位"
+"TF_TournamentMedal_MGE_ASIA_2v2_Open_Participant"			"MGE.tf ASIA 2v2 Open 参加賞"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Gold"				"MGE.tf ASIA 2v2 Newcomer 優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Silver"			"MGE.tf ASIA 2v2 Newcomer 準優勝"
+"TF_TournamentMedal_MGE_ASIA_2v2_Newcomer_Participant"		"MGE.tf ASIA 2v2 Newcomer 参加賞"
+
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Gold"				"MGE.tf EU 1v1 Premier 優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Silver"				"MGE.tf EU 1v1 Premier 準優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Bronze"				"MGE.tf EU 1v1 Premier 第3位"
+"TF_TournamentMedal_MGE_EU_1v1_Premier_Participant"			"MGE.tf EU 1v1 Premier 参加賞"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Gold"			"MGE.tf EU 1v1 Intermediate 優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Silver"			"MGE.tf EU 1v1 Intermediate 準優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Bronze"			"MGE.tf EU 1v1 Intermediate 第3位"
+"TF_TournamentMedal_MGE_EU_1v1_Intermediate_Participant"	"MGE.tf EU 1v1 Intermediate 参加賞"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Gold"					"MGE.tf EU 1v1 Open 優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Silver"					"MGE.tf EU 1v1 Open 準優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Bronze"					"MGE.tf EU 1v1 Open 第3位"
+"TF_TournamentMedal_MGE_EU_1v1_Open_Participant"			"MGE.tf EU 1v1 Open 参加賞"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Gold"				"MGE.tf EU 1v1 Newcomer 優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Silver"				"MGE.tf EU 1v1 Newcomer 準優勝"
+"TF_TournamentMedal_MGE_EU_1v1_Newcomer_Participant"		"MGE.tf EU 1v1 Newcomer 参加賞"
+
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Gold"					"MGE.tf NA 1v1 Invite 優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Silver"				"MGE.tf NA 1v1 Invite 準優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Bronze"				"MGE.tf NA 1v1 Invite 第3位"
+"TF_TournamentMedal_MGE_NA_1v1_Invite_Participant"			"MGE.tf NA 1v1 Invite 参加賞"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Gold"			"MGE.tf NA 1v1 Intermediate 優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Silver"			"MGE.tf NA 1v1 Intermediate 準優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Bronze"			"MGE.tf NA 1v1 Intermediate 第3位"
+"TF_TournamentMedal_MGE_NA_1v1_Intermediate_Participant"	"MGE.tf NA 1v1 Intermediate 参加賞"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Gold"					"MGE.tf NA 1v1 Open 優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Silver"					"MGE.tf NA 1v1 Open 準優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Bronze"					"MGE.tf NA 1v1 Open 第3位"
+"TF_TournamentMedal_MGE_NA_1v1_Open_Participant"			"MGE.tf NA 1v1 Open 参加賞"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Gold"				"MGE.tf NA 1v1 Newcomer 優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Silver"				"MGE.tf NA 1v1 Newcomer 準優勝"
+"TF_TournamentMedal_MGE_NA_1v1_Newcomer_Participant"		"MGE.tf NA 1v1 Newcomer 参加賞"
+
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Gold"				"MGE.tf ASIA 1v1 Invite 優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Silver"				"MGE.tf ASIA 1v1 Invite 準優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Bronze"				"MGE.tf ASIA 1v1 Invite 第3位"
+"TF_TournamentMedal_MGE_ASIA_1v1_Invite_Participant"		"MGE.tf ASIA 1v1 Invite 参加賞"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Gold"			"MGE.tf ASIA 1v1 Intermediate 優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Silver"		"MGE.tf ASIA 1v1 Intermediate 準優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Bronze"		"MGE.tf ASIA 1v1 Intermediate 第3位"
+"TF_TournamentMedal_MGE_ASIA_1v1_Intermediate_Participant"	"MGE.tf ASIA 1v1 Intermediate 参加賞"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Gold"					"MGE.tf ASIA 1v1 Open 優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Silver"				"MGE.tf ASIA 1v1 Open 準優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Bronze"				"MGE.tf ASIA 1v1 Open 第3位"
+"TF_TournamentMedal_MGE_ASIA_1v1_Open_Participant"			"MGE.tf ASIA 1v1 Open 参加賞"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Gold"				"MGE.tf ASIA 1v1 Newcomer 優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Silver"			"MGE.tf ASIA 1v1 Newcomer 準優勝"
+"TF_TournamentMedal_MGE_ASIA_1v1_Newcomer_Participant"		"MGE.tf ASIA 1v1 Newcomer 参加賞"
+
+"TF_TournamentMedal_MGE_EU_Helper"							"MGE.tf EU 協力者"
+"TF_TournamentMedal_MGE_NA_Helper"							"MGE.tf NA 協力者"
+"TF_TournamentMedal_MGE_ASIA_Helper"						"MGE.tf ASIA 協力者"
 
 "TF_TournamentMedal_MGE_1v1_World_Gold"				"MGE.tf 1v1 World Championship 優勝"
 "TF_TournamentMedal_MGE_1v1_World_Silver"			"MGE.tf 1v1 World Championship 準優勝"
@@ -3882,7 +3988,9 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_DemoSombrero" "アルブレロ" // ADD THE
 "TF_DemomanMargaritaShades" "シーイングダブル"
 "TF_DemomanBeerGrenades" "6パックの腹筋"
+
 "TF_Bowtie"			"Dr. Whoa"
+
 "TF_ClaimCode"		"コードを入手する"
 
 "TF_Party_Favor"		"パーティーフィーバー"
@@ -4032,6 +4140,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Bundle_SpyStarter_Desc"				"スパイとしてプレイしたいですか？彼が手に入れたすべての機能的にユニークな武器を、便利でお手頃なセットにまとめました。"
 
 "TF_PurityFist_Promo"				"ピュリティ・フィスト・プロモーション"
+
 "TF_Bundle_MobsterMonday"			"モンスターマンデーバンドル"
 "TF_Bundle_MobsterMonday_Desc"			"ヘビーとスパイ用のマフィア風アイテムを揃えよう："
 "TF_Bundle_TimbukTuesday"			"ティンバック・チューズデー・バンドル"
@@ -4146,9 +4255,13 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Bundle_Byzantine_Desc"				"ローマ帝国はなぜ滅びたのでしょうか？それは、再び立ち上がるためです。この時代っぽい衣装（ローマビジョンを見られるHardy Laurl付き）のおかげですね。"
 
 "TF_Spycrab_Promo"						"スパイクラブプロモ"
+
 "TF_RPS_Promo"							"RPSプロモーション"
+
 "TF_AI_Promo"							"エイリアン：アイソレーション・プロモ"
+
 "TF_Bundle_BatmanArkhamKnightPromo"			"バットマン・アーカム・ナイト・プロモーション"
+
 "SteamPackage_HA_Council"				"評議会軍とTF2軍が使えるHero Academy"
 "SteamPackage_HA_DarkElves"				"Hero Academy ダークエルフアーミー"
 "SteamPackage_HA_Dwarves"				"Hero Academy ドワーフアーミー"
@@ -4201,7 +4314,9 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_JingleJam_Community_Event_2016_Promo"	"Yogscast Jingle Jam 2016 Promo"
 "TF_JingleJam_Community_Event_2017_Promo"	"Yogscast Jingle Jam 2017 Promo"
 "TF_ChefStepsJoulePromo"	"ChefSteps Joule Promo"
+
 "TF_Bundle_STSBundle"			"Steam 翻訳バンドル"
+
 "TF_RandomDroppablePaintPackage"		"Mann社ペインティングセット"
 "TF_RandomDroppablePaintPackage_Desc"	"このDIY Mann社ペイントセットには、いくつかの色見本が含まれています。法的に言っても、決して有毒ガスを出していません。本当ですってば。"
 
@@ -4317,6 +4432,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_tw_spybot_armor"		"スパイボットアーマー"
 "TF_tw_spybot_hood"			"スパイボットフード"
 "TF_tw_sentrybuster"		"セントリーバスター"
+
 "TF_HatAndHeadphones_Style"		"帽子あり、ヘッドホンあり"
 "TF_NoHat_NoHeadphones_Style"	"帽子無し、ヘッドホン無し"
 "TF_NoHat_Style"				"帽子なし"
@@ -4523,7 +4639,6 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Polycount_Pin"			"ポリカウントピン"
 "TF_Polycount_Pin_Desc"		"ポリカウントコンテスト参加者に授与されました。"
 "TF_EllisHat"			"エリスのキャップ"
-//"TF_EllisHat_Desc"		""
 "TF_FlippedTrilby"		"Flipped Trilby"
 "TF_GermanGonzila"		"German Gonzila"
 "TF_BuckaroosHat"		"Buckaroos Hat"
@@ -4581,6 +4696,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Hwn_EngineerHat"		"バズキラー" // ADD THE
 "TF_Hwn_EngineerMisc1"		"フロンティアフライボーイ" // ADD THE
 "TF_Hwn_EngineerMisc2"		"レジェンド・オブ・バグフット" // ADD THE
+
 "TF_Hwn_PyroGasmask"	"Last Breath" // ADD THE
 "TF_UnarmedCombat"		"アンアームドコンバット"
 "TF_UnarmedCombat_Desc"	"腕を貸してくれるなんて、スパイは親切だな…"
@@ -4589,6 +4705,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_InfernalImpaler"	"インファーナル・インパラー" // ADD THE
 
 "TF_Nabler"			"ネーブラー" // ADD THE
+
 "TF_BigChief"			"ビッグチーフ" // ADD THE
 "TF_CaponesCapper"		"カポズキャッパー"
 "TF_CaponesCapper_Desc"		"この華麗なアイテムがあれば、あらゆる犯罪に手を染められる＿ただしファッションに対しては例外です。"
@@ -4604,7 +4721,6 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_EngineerTopHat_Desc"	"昔の西部ではこのような上品さはありませんでした。"
 
 "TF_Cadavers_Cranium"		"Cadaver's Cranium"
-//"TF_Cadavers_Cranium_Desc"	""
 "TF_Horrific_Headsplitter"	"Horrific Headsplitter"
 "TF_Horrific_Headsplitter_Desc"	"そういうヘッドギアを着用する際は、先入観を持たないことが一番です。"
 "TF_Halloween_Skullcap"		"背筋がゾッとするような頭蓋骨"
@@ -4795,6 +4911,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_MNC_Hat_Desc"			"[お気に入りの地域チームをこちらにどうぞ]"
 "TF_MNC_Mascot_Hat"			"スーパーファン"
 "TF_MNC_Mascot_Outfit"		"エッセンシャルアクセサリー"
+
 "TF_Halloween_Mask_Scout"		"スカウトマスク"
 "TF_Halloween_Mask_Sniper"		"スナイパーマスク"
 "TF_Halloween_Mask_Soldier"		"ソルジャーマスク"
@@ -4814,6 +4931,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Apocofists"					"アポコ・フィスト" // ADD THE
 "TF_Apocofists_Desc"				"あなたの指すべてを黙示録の四騎士に変えよう！グローブ1つでなんと19人以上の黙示録の騎士がいる計算だ！これまでで最も多くの黙示録を片手に装着したぞ！"
 "TF_Saint_Pin"					"マーク・オブ・ザ・セイント" // ADD THE
+
 "TF_TrnHat"						"ポイントアンドシュート" // ADD THE
 "TF_TrnHat_Desc"				"次に誰かに「本物の魔法使いじゃない」と呪文を使わない（使えない）ことで責められたら、この魔法のように目をくらませる尖った帽子で相手の目を突いて、その場を逃げ出そう。"
 "TF_TrnHelmet"					"ウォーヘッド" // ADD THE
@@ -5261,6 +5379,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Item_ZombieSpy"						"ブードゥー教の呪われたスパイソウル"
 "TF_Item_ZombiePyro"					"ブードゥー教の呪われたパイロソウル"
 "TF_Item_ZombieSniper"					"ブードゥー教の呪われたスナイパーソウル"
+
 "RummageThroughCurses"					"リーチイン"
 "TF_PileOfCurses"						"呪いの山"
 "TF_PileOfCurses_Desc"					"中に何か入っているようだ… 挑戦するなら！\n\n2014年11月12日以降、この山は消えます。"
@@ -5330,7 +5449,9 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_SpineChillingSkull2011_Style3"	"背筋がねじれる"
 
 "TF_Birthday2011_Hat"			"パーティー帽子"
+
 "TF_Tropico4_Hat"			"El Jefe"
+
 "TF_HerosTail_Style0"		"根本染め"
 "TF_HerosTail_Style1"		"全体染め"
 
@@ -5577,7 +5698,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 
 "TF_MapAuthors_Community_Title"		"このコミュニティマップの制作者："
 "TF_MapDonators_Title"			"サポーター (全世界で %s1 人います！)"
-"TF_WorldTraveler"				"World Traveler's Hat"
+"TF_WorldTraveler"				"世界旅行者の帽子"
 "TF_WorldTraveler_Desc"			"コミュニティマップ制作者への太っ腹な心意気に対して贈られました。寄付をしたマップでは独自のエフェクトが現れます！"
 "TF_Egypt"						"Egypt"
 "TF_MapToken_Egypt"				"マップスタンプ - Egypt"
@@ -7892,7 +8013,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "Tip_6_14"				"ヘビー - Dalokohs Barの一時的なヘルス増加は、戦闘中の強力なアドバンテージになります。"
 "Tip_6_15"				"ヘビー - Fists of Steelは遠距離武器からの被ダメージを軽減してくれるので、敵スナイパーの脅威に対抗するのに役立ちます。開けた場所を移動する際に、このスキルを活用して身を守りましょう！"
 "Tip_6_16"				"ヘビー - Fists of Steelは遠距離攻撃ダメージ軽減効果がある一方、近接攻撃ダメージは増加します。敵の戦線を突破したり敵との距離を詰めたりするときに使用しましょう。"
-"Tip_6_17"				"ヘビー - Fists of Steel は遠距離からのダメージを劇的に軽減させますが、近接武器によるダメージは増加させてしまいます。敵の戦線を突破するときや、敵との間合いを詰めたいときに使用しましょう。"
+"Tip_6_17"				"ヘビー - Tomislavは、ミニガンよりも素早く回転するだけでなく、無音でです！敵を奇襲攻撃し、不意を突くのに活用しましょう！"
 "Tip_6_18"				"ヘビー - Nataschaは、命中した敵の動きを遅くします。チームメイトをサポートし、ダメージ出力を高めるために使用しましょう。"
 "Tip_6_19"				"ヘビー - Eviction Noticeは近接攻撃速度を上げ、敵に命中すると移動速度が上昇します。これらを活用することで、移動速度の速いクラスを攻撃する機会を増やしましょう！"
 "Tip_6_20"				"ヘビー - Holiday Punchをクリティカルヒットさせると、敵は爆笑し、無防備状態になります！敵を無力化し、チームを助けて重要な脅威を排除しましょう。"
@@ -12431,7 +12552,6 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "Attrib_AimingKnockbackResistance"		"ズーム中のノックバックを %s1% 緩和"
 "Attrib_SniperAimingMoveSpeed_Decreased"	"照準を合わせての移動速度が%s1%遅くなる"
 "Attrib_RageGainOnKill"					"キルとアシストでフォーカスを獲得"	// Text is made for sniper only, fix this
-//"Attrib_RageGainOnAssists"				""
 "Attrib_ShotPenetration"				"ショットが複数の敵を貫通する"
 "Attrib_HeadshotDamageIncrease"			"ヘッドショット時に追加で%s1%のダメージを与える"
 "Attrib_MysterySolvingTimeDecrease"		"謎解き時間が最大 %s1%減少します"
@@ -13456,8 +13576,8 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_GrapplingHook_EquipAction"	"グラップリングフックが装備されていません。使用するにはアクションスロットに装備することを承諾してください。"
 
 // Unique item names
-"TF_Unique_Prepend_Proper"			"The "			// the space at the end is important
-"TF_Unique_Prepend_Proper_Quality"	"The"			// no space; English-only
+"TF_Unique_Prepend_Proper"			""			// the space at the end is important
+"TF_Unique_Prepend_Proper_Quality"	""			// no space; English-only
 "TF_NonUnique_Prepend_Proper"		"A"				// DEPRECATED
 "TF_NonUnique_Append_Proper"	"(%s1)"				// DEPRECATED
 "TF_Unique_Achievement_Medigun1"	"クリッツクリーク"	// ADD THE
@@ -13471,7 +13591,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_Sandvich_desc"					"食べると最大300のヘルスを回復。\nオルトファイア：サンドヴィッチをフレンドとシェアする（中型ヘルスキット）"
 "TF_Unique_Achievement_Minigun"		"ナターシャ"
 "TF_Unique_Achievement_Fists"		"キリング・グローブ・オブ・ボクシング"	// ADD THE
-"TF_Unique_Achievement_Bat"		"Sandman"	// ADD THE
+"TF_Unique_Achievement_Bat"		"サンドマン"	// ADD THE
 "TF_Unique_Achievement_Scattergun_Double" "フォース・ア・ネイチャー"	// ADD THE
 "TF_Unique_Achievement_Scattergun_Double_desc"	"この武器は弾倉を一度にリロードします"
 "TF_Unique_Achievement_EnergyDrink"	"喉ごしガツン! アトミックパンチ"
@@ -13557,7 +13677,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_BazaarBargain"			"バザールバーゲン" // ADD THE
 "TF_BazaarBargain_Desc"			"スコープ付きのヘッドショットキルごとに、武器のチャージ速度が25％ずつ最大200％まで上昇します。"
 "TF_PersianPersuader"			"ペルシャ・パースエイダー" // ADD THE
-"TF_Ali_Babas_Wee_Booties"		"Ali Baba's Wee Booties"
+"TF_Ali_Babas_Wee_Booties"		"アリ・ババの小っちゃなブーツ"
 "TF_SultansCeremonial"			"スルタンの儀式"
 "TF_SplendidScreen"			"スプレンディッド・スクリーン" // ADD THE
 "TF_SplendidScreen_desc"			"オルトファイア：敵に突進してデバフを解除する。\n敵に当たるとクリティカル近接攻撃を得る。"
@@ -13599,6 +13719,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 "TF_DEX_Shotgun"			"ウィドウメーカー" // ADD THE
 "TF_DEX_Pistol"				"ショート・サーキット" // ADD THE
 "TF_CozyCamper"				"コージー・キャンパー" // ADD THE
+
 "TF_SpaceChem_MoustachiumBar"		"ムスタキウムバー"
 "TF_SpaceChem_MoustachiumBar_Desc"	"純粋なマスタシウム、オーストラリア奥地の天然資源から採取。"
 "TF_SpaceChem_FishcakeFragmentType"	"フィッシュケーキのかけら"
@@ -17335,6 +17456,7 @@ ________________________________________
 "TF_Weapon_Wrangler_Festive2013"			"フェスティブ・ラングラー"
 
 "TF_Weapon_Necro_Smasher"		"ネクロスマッシャー"
+
 "TF_Backpack_ShowNoBorders"				"アイテム枠がありません"
 "TF_Backpack_ShowQualityBorders"		"高品質カラーボーダーを表示する"
 "TF_Backpack_ShowMarketableBorders"		"販売可能なボーダーのみを表示する"
@@ -17902,6 +18024,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_fall2013_spy_fancycoat_style1"		"ダッシング"
 "TF_fall2013_spy_fancycoat_style2"		"卑劣な"
 "TF_fall2013_medic_wc_coat"		"病棟着" // ADD THE
+
 "TF_hw2013_beast_from_below"		"地底怪物" // ADD THE
 "TF_hw2013_hardheaded_hardware"		"やり手のハードウェア"
 "TF_hw2013_octo_face"		"カラマリ船長"
@@ -18004,6 +18127,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_hw2013_rogues_brogues"		"愚か者のブローグ"
 "TF_hw2013_all_skull_necklace"		"謎めいた記念品" // ADD THE
 "TF_hw2013_the_abhorrent_appendages"	"忌まわしき手足" // ADD THE
+
 "TF_xms2013_pyro_arctic_mask"		"Blizzard Breather" // ADD THE
 "TF_xms2013_pyro_arctic_suit"		"零下スーツ" // ADD THE
 "TF_xms2013_soviet_stache"		"Dictator" // ADD THE
@@ -18225,6 +18349,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_EOTL_coldfront_curbstompers"		"コールドフロントカーブストンパーズ"
 "TF_EOTL_winter_coat"				"冷たいスナップコート"
 "TF_EOTL_medal"						"エンド・オブ・ザ・ライン・コミュニティ・アップデート・メダル"
+
 "TF_dec2014_marauders_mask"		"マウントバンクのマスク"
 "TF_dec2014_truands_tunic"		"廷臣の首輪"
 "TF_dec2014_fools_footwear"		"ハーレクインのひづめ"
@@ -18364,6 +18489,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_dec15_medic_winter_jacket2_emblem"		"メディカルモナーク"
 "TF_dec15_a_hat_to_kill_for"				"ア・帽子・トゥ・キル"
 "TF_dec15_shin_shredders"					"シンシュレッダー"
+
 "TF_dec16_stocking"							"靴下とロード"
 "TF_dec16_flammable_favor"					"可燃性フレーバー"
 "TF_dec16_snowwing"							"スノーウィング"
@@ -18381,6 +18507,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_dec16_pyro_the_flamedeer"				"パイロ・ザ・フレイムディア"
 "TF_dec16_elf_esteem"						"エルフ・エスティーム"
 "TF_dec16_head_prize"						"ヘッド賞" // ADD THE
+
 "TF_may16_airdog"						"エアドッグ" // ADD THE
 "TF_may16_bedouin_bandana"				"ベドウィンバンダナ"
 "TF_may16_heralds_helm"					"ヘラルドヘルム"
@@ -18397,6 +18524,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_may16_gauzed_gaze"					"ガーゼ付きゲイズ" // ADD THE
 "TF_may16_demos_dustcatcher"			"デモ用ダストキャッチャー" // ADD THE
 "TF_may16_scoped_spartan"				"スコープスパルタン" // ADD THE
+
 "TF_spr17_plumbers_cap"		"配管工の帽子"
 "TF_spr17_the_upgrade"		"アップグレード" // ADD THE
 "TF_spr17_pocket_pauling"		"ポケットポーリング"
@@ -18416,6 +18544,7 @@ Dパッドで移動、トリガーで高速移動、Aボタンで次の行。"
 "TF_spr17_wingman"		"エアボーン・アタイア"
 "TF_spr17_archers_sterling"		"弓兵のスターリング"
 "TF_spr17_speedsters_spandex"	"スピードスタースパンデックス"
+
 "TF_taunt_disco_fever"					"挑発：ディスコフィーバー"
 "TF_taunt_disco_fever_Desc"				"コミュニティ製スパイ挑発
 敵のバラバラ死体の上で押しのけて華麗に動け。"
@@ -18730,14 +18859,18 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_CriminalCloak"					"クリミナル・クローク" // ADD THE
 "TF_DreadHidingHood"				"ドレッド・ハイディング・フード" // ADD THE
 "TF_BaronialBadge"					"バロニアルバッジ" // ADD THE
+
 "TF_ClassicSniperRifle"				"クラシック" // ADD THE
+
 "TF_LittleBear"						"リトルベア" // ADD THE
 "TF_LittleBear_Desc"					"ポケットの中身が平等に分配されるよう、最新の共産主義ポケット管理を導入しよう。"
 
 "TF_ItemType_Journal"			"ジャーナル"
 
 "TF_spycrab"						"スパイカニ" // ADD THE
+
 "TF_Horace"						"ホレス"
+
 "TF_Set_AI_Pack"				"アイソラショニストパック"
 "TF_Set_AI_Merc_Pack"			"孤立したマーク"
 "TF_XenoSuit"					"ゼノスーツ" // ADD THE
@@ -18745,6 +18878,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_BiomechBackpack"			"バイオバックパック" // ADD THE
 "TF_NostromoNapalmer"			"ノストロモ・ナパーマー" // ADD THE
 "TF_MK50"						"MK 50" // ADD THE
+
 "TF_Set_SF14_Medic_Dog"						"カニス・エクス・マキナ"
 "TF_Set_SF14_Medic_Templar"					"テンプラー"
 "TF_Set_SF14_Scout_Hunter"					"ザ・ルーフトップ・レベル"
@@ -18777,6 +18911,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_brimstone_Style_WithNoHat"				"帽子なし"
 
 "TF_CrossingGuard"						"クロッシングガード" // ADD THE
+
 "TF_FindersFee"							"ファインダー手数料" // ADD THE
 "TF_FindersFee_Desc"						"この帽子を持っているということは、重大な経済バランスを崩すバグやリモートコード実行のバグを報告してゲームを改善した証拠です。つまり、あなたは尊敬に値する人物です。ガンジー（この帽子も所有していた）と同じように。"
 
@@ -18792,6 +18927,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_prinny_machete"						"プリニー・マチェーテ"
 "TF_prinny_pouch"						"プリニーポーチ"
 "TF_prinny_hat"							"プリニー帽子"
+
 // Halloween 2016
 "TF_hwn2016_colossal_cranium_2"			"コロッサル・クラニウム"
 "TF_hwn2016_aerobatics_demonstrator"	"曲技飛行デモンストレーター"
@@ -18817,6 +18953,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_hwn2016_lil_bitey"					"リル・ビトリー"
 "TF_hwn2016_mad_mask"					"マッドマスク"
 "TF_hwn2016_burly_beast"				"バーリー・ビースト"
+
 "TF_fall17_hunter_in_darkness"	"ハンター・イン・ダークネス" // ADD THE
 "TF_fall17_quizzical_quetzal"	"クイジカル・ケツァル"
 "TF_fall17_aztec_warrior"	"アステカ戦士" // ADD THE
@@ -18859,6 +18996,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_fall17_aztec_aggressor"	"アステカ・アグレッサー" // ADD THE
 "TF_fall17_pithy_pro"	"ピシープロフェッショナル" // ADD THE
 "TF_fall17_bait_and_bite"	"ベイト・アンド・バイト"
+
 "TF_dec17_sledders_sidekick"	"スレーダーのサイドキック"
 "TF_dec17_balloonihoodie"	"バルーニパーカー"
 "TF_dec17_pocket_yeti"	"ポケットイエティ"

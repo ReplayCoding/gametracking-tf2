@@ -2,7 +2,7 @@
 {
 	"$basetexture"	"models/player/items/mvm_loot/all_class/fob_heavy"
 	"$bumpmap" "models/player/items/mvm_loot/all_class/fob_heavy_normal"
-	"$basemapalphaphongmask" "0"
+	"$normalmapalphaenvmapmask" "1"
 
 	"$phong" "1"
 	"$phongexponent" "55"

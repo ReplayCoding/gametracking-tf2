@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/OFFICE/WOODPANEL01A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_redwood/c-8896_-2848_64"
+	}
+}

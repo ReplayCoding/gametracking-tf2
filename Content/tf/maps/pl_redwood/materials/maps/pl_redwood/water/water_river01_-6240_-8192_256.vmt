@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_RIVER01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/pl_redwood/c-6240_-8192_256"
+		"Proxies"
+		{
+		}
+	}
+}

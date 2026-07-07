@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_shorelight/water/water_hydro_cheap_0_-1088_-144.vmt"
+	"insert"
+	{
+		"$waterdepth"		"108"
+	}
+}

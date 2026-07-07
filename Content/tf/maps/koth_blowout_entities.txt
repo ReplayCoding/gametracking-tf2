@@ -11,7 +11,7 @@ Revision: 75
 "detailmaterial" "detailsprites"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "2700"
+"mapversion" "2747"
 "hammerid" "1"
 }
 {
@@ -8327,6 +8327,34 @@ Revision: 75
 "hammerid" "758620"
 }
 {
+"occludernumber" "4"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "828642"
+}
+{
+"occludernumber" "5"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "828658"
+}
+{
+"occludernumber" "6"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "828670"
+}
+{
+"occludernumber" "7"
+"model" ""
+"StartActive" "1"
+"classname" "func_occluder"
+"hammerid" "828682"
+}
+{
 "origin" "9216 -512 -64"
 "start_active" "1"
 "flag_as_weather" "0"
@@ -8340,7 +8368,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "822437"
+"hammerid" "831359"
 }
 {
 "origin" "9216 0 -64"
@@ -8356,7 +8384,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "822371"
+"hammerid" "831293"
 }
 {
 "origin" "9216 512 -64"
@@ -8372,7 +8400,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "822305"
+"hammerid" "831227"
 }
 {
 "origin" "11264 -512 -64"
@@ -8388,7 +8416,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "823484"
+"hammerid" "832406"
 }
 {
 "origin" "11264 -9.31323e-10 -64"
@@ -8404,7 +8432,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "823550"
+"hammerid" "832472"
 }
 {
 "origin" "11264 512 -64"
@@ -8420,7 +8448,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "823616"
+"hammerid" "832538"
 }
 {
 "origin" "13312 -1280 -64"
@@ -8436,7 +8464,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "823909"
+"hammerid" "832831"
 }
 {
 "origin" "13312 -768 -64"
@@ -8452,7 +8480,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "823975"
+"hammerid" "832897"
 }
 {
 "origin" "13312 -256 -64"
@@ -8468,7 +8496,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "824041"
+"hammerid" "832963"
 }
 {
 "origin" "7168 -1280 -64"
@@ -8484,7 +8512,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "824334"
+"hammerid" "833256"
 }
 {
 "origin" "7168 -768 -64"
@@ -8500,7 +8528,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "824400"
+"hammerid" "833322"
 }
 {
 "origin" "7168 -256 -64"
@@ -8516,7 +8544,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "824466"
+"hammerid" "833388"
 }
 {
 "origin" "13312 256 -64"
@@ -8532,7 +8560,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825028"
+"hammerid" "833950"
 }
 {
 "origin" "13312 768 -64"
@@ -8548,7 +8576,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825094"
+"hammerid" "834016"
 }
 {
 "origin" "13312 1280 -64"
@@ -8564,7 +8592,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825160"
+"hammerid" "834082"
 }
 {
 "origin" "7168 256 -64"
@@ -8580,7 +8608,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825228"
+"hammerid" "834150"
 }
 {
 "origin" "7168 768 -64"
@@ -8596,7 +8624,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825294"
+"hammerid" "834216"
 }
 {
 "origin" "7168 1280 -64"
@@ -8612,7 +8640,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 0 0"
 "classname" "info_particle_system"
-"hammerid" "825360"
+"hammerid" "834282"
 }
 {
 "origin" "9727.95 -2048.07 -64"
@@ -8628,7 +8656,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826557"
+"hammerid" "835479"
 }
 {
 "origin" "10239.9 -2048.07 -64"
@@ -8644,7 +8672,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826623"
+"hammerid" "835545"
 }
 {
 "origin" "10751.9 -2048.07 -64"
@@ -8660,7 +8688,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826689"
+"hammerid" "835611"
 }
 {
 "origin" "9728 2048 -64"
@@ -8676,7 +8704,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826760"
+"hammerid" "835682"
 }
 {
 "origin" "10240 2048 -64"
@@ -8692,7 +8720,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826826"
+"hammerid" "835748"
 }
 {
 "origin" "10752 2048 -64"
@@ -8708,7 +8736,7 @@ Revision: 75
 "cpoint1_parent" "0"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "826892"
+"hammerid" "835814"
 }
 {
 "origin" "10240 0 0"
@@ -8725,7 +8753,7 @@ Revision: 75
 "fogblend" "1"
 "angles" "0 135 0"
 "classname" "sky_camera"
-"hammerid" "820239"
+"hammerid" "829161"
 }
 {
 "origin" "10240 7168 32"
@@ -8739,6 +8767,6 @@ Revision: 75
 "_light" "255 255 255 200"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "820931"
+"hammerid" "829853"
 }
  

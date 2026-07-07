@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_medieval/medieval_windows_doors_lit.vtf"
+	"$bumpmap" "models/props_medieval/medieval_windows_doors_lit_mask.vtf"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	"$selfillum" 1
+}
