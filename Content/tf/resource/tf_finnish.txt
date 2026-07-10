@@ -4696,7 +4696,7 @@ Yritä hetken kuluttua uudelleen."
 "TF_Horrific_Headsplitter_Desc"	"Tämänlaisen päähineen kanssa tulisi pitää mieli avoinna."
 "TF_Halloween_Skullcap"		"Selkäpiitä karmiva kallo"
 "TF_Halloween_Skullcap_Desc"	"Ilmaise kuolematonta vihaasi eläviä kohtaan."
-"TF_Halloween_Voodoo"		"Voodoo juju"
+"TF_Halloween_Voodoo"		"Voodoojuju"
 "TF_Halloween_Voodoo_Desc"	"Vain parhaimmissa nahkahatuissa on tatuointeja ja lävistyksiä."
 "TF_TTG_PokerVisor"		"Jakajan visiiri"
 "TF_TTG_PokerVisor2026"		"Julkaistiin Jakajan visiiri uudelleen."
@@ -5232,7 +5232,7 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_GrandDuchessTiara_Desc"			"Juhlista suurherttuatar Anastasia Nikolaevnan elämää tällä historiallisella asusteella. Nauti hänen valtaistuinaikojen tiaran kopiosta."
 "TF_DeadLittleBuddy"				"Kamu-vainaa" // ADD THE
 "TF_DeadLittleBuddy_Desc"			"Lähtekää litomaan, koirat--kaupoissa on nyt uusi ihmisen paras ystävä. Voimme taata, että lemmikkihaamusi on uskollinen (hän on kuollut! Hän ei tiedä ketään muuta!), hyvä lapsien kanssa (hän oli itsekin lapsi!), sekä sisäsiisti (haamut eivät kakkaa)."
-"TF_VoodooJuJu"						"Voodoo juju (Pienoinen paluu)" // ADD THE
+"TF_VoodooJuJu"						"Voodoojuju (lievä palautus)" // ADD THE
 "TF_VoodooJuJu_Desc"				"Luut: ne pitävät ruumiisi kasassa, pitävät lihasi paikoillaan, ja ne erottavat meidät meduusoista. Miksi pitää niitä sisälläsi, jossa ne eivät saa sitä huomiota, joka niiden kuuluisi saada? Saanko esitellä, luita."
 
 "TF_SirHootsalot"					"Sir Huuhkalot"
@@ -13175,7 +13175,7 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle366"			"Kristallikruunu"
 "Attrib_Particle367"			"Halcyonin kehä"
 "Attrib_Particle368"			"Smissmas-muistelot"
-"Attrib_Particle369"			"Revontulet"
+"Attrib_Particle369"			"Revontulitaivas"
 "Attrib_Particle370"			"Hohtava bokeh"
 "Attrib_Particle371"			"Leikkisät revontulet"
 "Attrib_Particle372"			"Viileä aamu"
@@ -13218,6 +13218,15 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle403"			"Keskiyön kuura"
 "Attrib_Particle404"			"Ehtoon tuisku"
 "Attrib_Particle405"			"Kryogeeninen kylmennys"
+
+// Summer 2026 Unusual
+"Attrib_Particle407"			"Pimeyden tango"
+"Attrib_Particle408"			"Pohjolan yö"
+"Attrib_Particle409"			"Aurinkotuulet"
+"Attrib_Particle413"			"Lepattavat lentelijät"
+"Attrib_Particle414"			"Lepattavat lentelijät"
+"Attrib_Particle415"			"Suhisevat siivet"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Kuuma"
 "Attrib_Particle702"			"Isotooppi"
@@ -13306,7 +13315,7 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle3067"		"Uskomaton uhma"
 "Attrib_Particle3068"		"Harsokehrät"
 "Attrib_Particle3069"		"Alaharsot"
-"Attrib_Particle3070"		"Revontulet"
+"Attrib_Particle3070"		"Pohjantulet"
 "Attrib_Particle3071"		"Aurora Australis"
 "Attrib_Particle3072"		"Napa-alueen revontulet"
 
@@ -13479,9 +13488,9 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle3216"		"Leimuava lieska"
 "Attrib_Particle3217"		"Galaksipöly"
 "Attrib_Particle3218"		"Galaksin kajo"
-"Attrib_Particle3219"		"Revontulet"
-"Attrib_Particle3220"		"Revontulet"
-"Attrib_Particle3221"		"Pohjan yö"
+"Attrib_Particle3219"		"Taivaan tulet"
+"Attrib_Particle3220"		"Taivaan tulet"
+"Attrib_Particle3221"		"Pohjolan yö"
 "Attrib_Particle3222"		"Hyinen utu"
 "Attrib_Particle3223"		"Kipinänpoikanen"
 // End Unusual taunt FX
@@ -13636,6 +13645,7 @@ Tämä näyttää hyvältä. Todella terävää."
 "TF_Ali_Babas_Wee_Booties"		"Ali Baban pikku poposet"
 "TF_SultansCeremonial"			"Sulttaanin seremoniallinen"
 "TF_SplendidScreen"			"Suotuisa suoja" // ADD THE
+"TF_SplendidScreen_desc"			"Vaihtoehtoinen tulitus: rynnäköi kohti vihollisia ja poista heikennyksiä itsestäsi.\nSaat kriittisen lähitaisteluiskun osuttuasi viholliseen tietyllä välimatkalla."
 "TF_MarketGardener"			"Joukkohaudankaivaja" // ADD THE
 "TF_ReserveShooter"			"Reserviräiskijä" // ADD THE
 "TF_LibertyLauncher"			"Vapaudenheitin" // ADD THE
@@ -18660,6 +18670,16 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_taunt_the_critical_fail_AdText"			"– Yhteisön luoma pilkka kaikille luokille"
 "TF_taunt_chairholder"						"Pilkka: Setelituoli"
 "TF_taunt_chairholder_AdText"				"– Yhteisön luoma pilkka Scoutille"
+"TF_taunt_the_circuit_breaker"				"Pilkka: Masiinat mäsäksi"
+"TF_taunt_the_circuit_breaker_Desc"			"Yhteisön luoma pilkka Heavylle"
+"TF_taunt_the_circuit_breaker_AdText"		"– Yhteisön luoma pilkka Heavylle"
+"TF_taunt_buffoons_bivouac"					"Pilkka: Pösilön riippumatto"
+"TF_taunt_buffoons_bivouac_AdText"			"– Yhteisön luoma pilkka Soldierille"
+"TF_taunt_fauxcalization"					"Pilkka: Imitaatio"
+"TF_taunt_fauxcalization_Desc"				"Yhteisön luoma pilkka Spylle"
+"TF_taunt_friendly_fire"					"Pilkka: Vaahtosammutin"
+"TF_taunt_friendly_fire_Desc"				"Yhteisön luoma pilkka Pyrolle"
+"TF_taunt_friendly_fire_AdText"				"– Yhteisön luoma pilkka Pyrolle"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Happihuppu"	// ADD THE
@@ -19964,6 +19984,12 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_dec25_flatline_flatcap_style2"			"Värjätyt hiukset"
 "TF_dec25_cardiologists_cardigan"		"Lääkärin liivi"
 "TF_dec25_scrub_stompers"				"Klinikkakengät"
+
+"TF_sum26_hard_hearing"					"Kuulonmenetyksen ehkäisijät"
+"TF_sum26_beachcombers"					"Komea kesäkotsa"
+"TF_sum26_pyros_overalls"				"Pyron pelihaalari"
+"TF_sum26_atomic_kicks_style2"				"Krittikola"
+"TF_sum26_delusions_style2"					"Yksivärinen"
 "TF_style_bullets"						"Luodeilla"
 "TF_style_nobullets"					"Ei luoteja"
 

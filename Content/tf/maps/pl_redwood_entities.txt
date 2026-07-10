@@ -8,7 +8,7 @@ Revision: 57
 "detailvbsp" "detail_trainyard.vbsp"
 "detailmaterial" "detail/detailsprites_trainyard"
 "classname" "worldspawn"
-"mapversion" "13366"
+"mapversion" "13372"
 "hammerid" "1"
 }
 {
@@ -10917,7 +10917,7 @@ Revision: 57
 "hammerid" "1930873"
 }
 {
-"origin" "-6040 -4248 304"
+"origin" "-6036 -4252 304"
 "targetname" "sspl_path_B_8"
 "target" "sspl_path_B_9"
 "spawnflags" "64"
@@ -10928,7 +10928,7 @@ Revision: 57
 "OnPass" "sspl_watcherSetSpeedForwardModifier50-1"
 }
 {
-"origin" "-5848 -4440 176"
+"origin" "-5844 -4444 176"
 "targetname" "sspl_path_B_9"
 "target" "sspl_path_B_10"
 "spawnflags" "64"

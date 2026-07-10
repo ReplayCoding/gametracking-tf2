@@ -7354,6 +7354,7 @@ Men så snart du tar på deg disse stilige gamasjene i kalveskinn, vil du at ALL
 "cppl_gavle_village"					"landsbyen"
 "koth_winter_ridge_barn"				"det frosne låven"
 "ctf_sidewinder_goal"					"Stjel kofferten fra fiendens base."
+"koth_camp_saxton_campground"			"leirplassen"
 // Win panel strings
 "Winpanel_Team1"			"LAG"
 "Winpanel_Team2"			"Lag"
@@ -15039,9 +15040,9 @@ Finn et trygt sted godt unna fienden for å bli synlig."
 "TF_SpellbookPage"				"Tryllebokside"
 "TF_SpellbookPage_Desc"			"Denne trylleboksiden har fremdeles litt magisk energi igjen.\n\nHvis du har noen tryllebøker liggende, kan du legge inn denne siden fra ryggsekken."
 
-"TF_ServerEnchantmentType"		"Serverfortryllelse"
+"TF_ServerEnchantmentType"		"Tjenerfortryllelse"
 "TF_Eternaween"					"Fortryllelse: Evigween"
-"TF_Eternaween_Desc"			"Denne fortryllelsen for hele serveren kan brukes til å aktivere halloween- eller fullmånegjenstander på en registrert server i to timer.\n\nNår denne fortryllelsen brukes, åpnes en avstemning for å samle samtykke fra de andre spillerne på\nserveren. Denne gjenstanden konsummeres når serverfortryllelsen slutter."
+"TF_Eternaween_Desc"			"Denne fortryllelsen for hele tjeneren kan brukes til å aktivere halloween- eller fullmånegjenstander på en registrert tjener i to timer.\n\nNår denne fortryllelsen brukes, åpnes en avstemning for å samle samtykke fra de andre spillerne på tjeneren.\nDenne gjenstanden brukes opp når tjenerfortryllelsen slutter."
 
 "TF_Eternaween__AlreadyInUse"					"Denne Evigween-fortryllelsen er allerede i bruk og kan ikke brukes igjen!"
 "TF_Eternaween__AuthenticatedServerRequired"	"Evigween-fortryllelsen kan kun brukes mens du er tilkoblet en registrert server."
@@ -18677,6 +18678,13 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_taunt_the_critical_fail_AdText"			"– Samfunnsskapt hån for alle klasser"
 "TF_taunt_chairholder"						"Hån: Sitte godt i det"
 "TF_taunt_chairholder_AdText"				"– Samfunnsskapt hån for Scout"
+"TF_taunt_the_circuit_breaker_Desc"			"Samfunnsskapt hån for Heavy."
+"TF_taunt_the_circuit_breaker_AdText"		"– Samfunnsskapt hån for Heavy"
+"TF_taunt_buffoons_bivouac_AdText"			"– Samfunnsskapt hån for Soldier"
+"TF_taunt_fauxcalization_Desc"				"Samfunnsskapt hån for Spy."
+"TF_taunt_fauxcalization_AdText"			"– Samfunnsskapt hån for Spy"
+"TF_taunt_friendly_fire_Desc"				"Samfunnsskapt hån for Pyro."
+"TF_taunt_friendly_fire_AdText"				"– Samfunnsskapt hån for Pyro"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Pustepose"	// ADD THE
@@ -19981,6 +19989,14 @@ Styrekors for å bevege deg, avtrekkere = raskere, A-knappen for neste linje."
 "TF_dec25_flatline_flatcap_style2"			"Farget hår"
 "TF_dec25_cardiologists_cardigan"		"Kardiologens kardigan"
 "TF_dec25_scrub_stompers"				"Operasjonssko"
+
+"TF_sum26_chief_executor_style1"			"Stil 1"
+"TF_sum26_chief_executor_style2"			"Stil 2"
+"TF_sum26_chief_executor_style3"			"Stil 3"
+"TF_sum26_vested_investors_style1"			"Stil 1"
+"TF_sum26_vested_investors_style2"			"Stil 2"
+"TF_sum26_standing_offer_style1"			"Stil 1"
+"TF_sum26_standing_offer_style2"			"Stil 2"
 "TF_style_bullets"						"Kuler"
 "TF_style_nobullets"					"Ingen kuler"
 

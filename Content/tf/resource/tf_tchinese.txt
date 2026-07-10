@@ -13204,6 +13204,14 @@
 "Attrib_Particle403"			"午夜霜降"
 "Attrib_Particle404"			"暮色降雪"
 "Attrib_Particle405"			"低溫"
+
+// Summer 2026 Unusual
+"Attrib_Particle407"			"極影之光"
+"Attrib_Particle408"			"北國之夜"
+"Attrib_Particle409"			"日光灼燒"
+"Attrib_Particle413"			"幸福舞蝶"
+"Attrib_Particle415"			"輕柔翅膀"
+
 // Weapon Unusual
 "Attrib_Particle701"			"炙熱化學"
 "Attrib_Particle702"			"同位素"
@@ -13619,6 +13627,7 @@
 "TF_Ali_Babas_Wee_Booties"		"阿里巴巴尖頭靴"
 "TF_SultansCeremonial"			"蘇丹的皇家頭巾"
 "TF_SplendidScreen"			"輝煌戰盾" // ADD THE
+"TF_SplendidScreen_desc"			"次要攻擊：向敵人衝鋒並移除負面效果\n從遠距離衝撞到敵人後的近戰攻擊會有爆擊"
 "TF_MarketGardener"			"市場花園園丁" // ADD THE
 "TF_ReserveShooter"			"後勤防空員" // ADD THE
 "TF_LibertyLauncher"			"自由推進者" // ADD THE
@@ -18643,8 +18652,10 @@ ________________________________________
 "TF_taunt_the_critical_fail_AdText"			"-社群製作的全兵種嘲諷"
 "TF_taunt_chairholder"						"嘲諷：金錢王座"
 "TF_taunt_chairholder_AdText"				"- 社群製作的 Scout 嘲諷"
+"TF_taunt_the_circuit_breaker"				"嘲諷：電路破壞者"
 "TF_taunt_the_circuit_breaker_Desc"			"社群製作的 Heavy 嘲諷"
 "TF_taunt_the_circuit_breaker_AdText"		"- 社群製作的 Heavy 嘲諷"
+"TF_taunt_buffoons_bivouac"					"嘲諷：活寶營地"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"打洞呼吸袋"	// ADD THE
@@ -19949,6 +19960,10 @@ ________________________________________
 "TF_dec25_flatline_flatcap_style2"			"頭髮染色"
 "TF_dec25_cardiologists_cardigan"		"心臟科醫生的開襟毛衣"
 "TF_dec25_scrub_stompers"				"手術專用鞋"
+
+"TF_sum26_hard_hearing"					"降噪耳機"
+"TF_sum26_beachcombers"					"海灘拾荒者的寬帽"
+"TF_sum26_pyros_overalls"				"Pyro 的吊帶褲"
 "TF_style_bullets"						"有子彈"
 "TF_style_nobullets"					"無子彈"
 

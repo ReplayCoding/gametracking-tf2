@@ -1,10 +1,10 @@
 // VScript Zipline logic, for pl_redwood
 // by Sarexicus. Only use with permission!
 
-::ZIPLINE_SCRIPT_VERSION <- "1.7.4";
+::ZIPLINE_SCRIPT_VERSION <- "1.9.0";
 
 // attachment
-::latch_tolerance_angle <- 30;      // angle (in degrees) that the player can be looking away from an endpoint to attach
+::latch_tolerance_angle <- 20;      // angle (in degrees) that the player can be looking away from an endpoint to attach
 ::max_dist <- 128; 			        // maximum distance player can be from line to still be able to use line
 ::latch_dist <- 128;		        // distance from player to the visual point the zipline indicator will show
 ::hang_dist <- 32;                  // distance below the zipline the player will hang
@@ -17,11 +17,13 @@
 ::distance_threshold <- 32;         // distance to the end of a path before the player is dismounted
 
 // dismount
-::dismount_boost_mult <- 1.8;       // multiple of a player's maximum move speed applied when jumping to dismount
+::dismount_boost_mult_min <- 1.1;   // multiple of a player's maximum move speed applied when jumping to dismount at max speed
+::dismount_boost_mult_max <- 1.8;   // multiple of a player's maximum move speed applied when jumping to dismount at min speed
 ::dismount_str <- 0.66;             // force a player is launched by when the zipline concludes (as mult of zip speed)
 ::jump_up_height <- 350;            // height a player "jumps" when jumping to dismount
-::hook_cooldown_jump <- 0.6; 	    // time between attaching and being allowed to dismount by jumping
-::hook_cooldown_crouch <- 0.3; 	    // time between attaching and being allowed to dismount by crouching
+::hook_cooldown_jump <- 0.25; 	    // time between attaching and being allowed to dismount by jumping
+::hook_velocity_ramp_jump <- 0.7;   // time upon which the maximum zipline dismount strength is attained
+::hook_cooldown_crouch <- 0.1; 	    // time between attaching and being allowed to dismount by crouching
 ::zipline_cooldown <- 1.25;         // time between dismount and being allowed to reattach
 
 // visuals & sound
@@ -41,9 +43,6 @@ Convars.SetValue("tf_grapplinghook_prevent_fall_damage", "1");
 Convars.SetValue("tf_resolve_stuck_players", "0");
 ::MaxPlayers <- MaxClients().tointeger();
 
-debug <- (developer() >= 1);
-half_max_dist <- max_dist * 0.5;
-
 // constants
 CONTENTS_PLAYERS <- Constants.FContents.CONTENTS_MONSTER;
 CONTENTS_WORLD <- Constants.FContents.CONTENTS_SOLID
@@ -53,7 +52,6 @@ CONTENTS_TEAM2 <- Constants.FContents.CONTENTS_TEAM2;
 
 BUTTONS_JUMP <- Constants.FButtons.IN_JUMP;
 BUTTONS_CROUCH <- Constants.FButtons.IN_DUCK;
-
 RAD2DEG <- 360.0 / (PI * 2);
 
 function CheckSpaceFree(player, loc, mask = null) {
@@ -78,18 +76,19 @@ function CheckHitboxOverlapAtLocation(loc, player1, player2)
     return (xmins.x <= ymaxs.x && xmaxs.x >= ymins.x) && (xmins.y <= ymaxs.y && xmaxs.y >= ymins.y) && (xmins.z <= ymaxs.z && xmaxs.z >= ymins.z);
 }
 
-function CheckSpaceFreeEnemyTeam(player, loc) {
+function CheckHitEnemyTeam(player, loc) {
     local team = player.GetTeam() == 2 ? 3 : 2;
     for (local i = 1; i <= MaxPlayers; i++)
     {
         local pl = PlayerInstanceFromIndex(i);
         if (pl == null || pl.GetTeam() != team) continue;
         if(NetProps.GetPropInt(pl, "m_lifeState") != 0) continue;
-        if(CheckHitboxOverlapAtLocation(loc, player, pl)) return false;
+        if(CheckHitboxOverlapAtLocation(loc, player, pl)) return pl;
     }
 
-    return true;
+    return null;
 }
+
 
 function max(a, b) { return a > b ? a : b; }
 function min(a, b) { return a < b ? a : b; }
@@ -146,13 +145,14 @@ function AngleBetween(angle, start, end) {
     local vec1 = angle;
     local vec2 = end - start;
     vec2.Norm();
-    // DebugDrawBox(end, vectriple(-5), vectriple(5), 0, 128, 192, 1.0, 0.5);
     return acos(vec1.Dot(vec2) / (vec1.Norm() * vec2.Norm()));
 }
 
-function LineProximity(point, angle, C, D) {
+function LineProximity(point, angle, start, end) {
     local A = point;
     local B = point + (angle * 2048);
+    local C = start;
+    local D = end;
 
     local U = B - A;
     local V = D - C;
@@ -367,12 +367,8 @@ function CreateZiplineAttachment(player, attachment_point, path, next_path) {
         ropesB[1].SetLocalOrigin(Vector(dir_2 * 13, 0, 0));
     }
 
-
-    // DebugDrawBox(zipline_hook.GetOrigin(), vectriple(-12), vectriple(12), 128, 128, 0, 128, 10);
-
     scope.zipline_model_parent <- zip_parent;
     scope.zipline_model_pulley <- zipline_pulley;
-    // scope.zipline_model_hook <- zipline_hook;
 }
 
 function PlayZiplineAttachStartEnd(player, path, next_path) {
@@ -403,7 +399,7 @@ function SetupZiplineAndAttach(player, path, next_path, nearest_point, attachmen
     StartLoopingSoundForPlayer(player, "WeaponGrapplingHook.ReelStart", 1, volume);
     StartLoopingSoundForPlayer(player, "WeaponGrapplingHook.Wind", 1, 0.2, 110);
 
-    scope.velocity <- player.GetAbsVelocity() + (player.GetOrigin() - nearest_point);
+    scope.zipline_velocity <- player.GetAbsVelocity() + (player.GetOrigin() - nearest_point);
     player.SetAbsVelocity(vectriple(0));
 
     scope.prev_path <- path;
@@ -421,12 +417,13 @@ function SetupZiplineAndAttach(player, path, next_path, nearest_point, attachmen
 
 function CheckZiplineHooks(player) {
     local scope = player.GetScriptScope();
-
     local delta = Time() - scope.last_detach;
 
-    // if grounded, halve zipline cooldown
-    if (NetProps.GetPropEntity(player, "m_hGroundEntity") != null && delta < (zipline_cooldown/2)) {
-        scope.last_detach = Time() - (zipline_cooldown / 2);
+    if (NetProps.GetPropEntity(player, "m_hGroundEntity") != null && scope.attached_airborne) {
+        scope.attached_airborne <- false;
+
+        // if grounded, halve zipline cooldown
+        if(delta < (zipline_cooldown/2)) scope.last_detach = Time() - (zipline_cooldown / 2);
     }
 
     if(delta < zipline_cooldown) return;
@@ -434,14 +431,15 @@ function CheckZiplineHooks(player) {
     local player_pos = player.GetCenter();
     local player_eye_height = player.GetClassEyeHeight();
     local hitbox_size = 8;
+    local half_max_dist = max_dist * 0.5;
 
     foreach (track in zipline_tracks)
     {
         local next = NetProps.GetPropEntity(track, "m_pnext");
         if(!next) continue;
 
-        local path_pos = track.GetOrigin();
-        local dist_path_to_player = Distance(path_pos, player_pos);
+        local prev_pos = track.GetOrigin();
+        local dist_path_to_player = Distance(prev_pos, player_pos);
         if(dist_path_to_player > 2048) continue;
 
         local next_pos = next.GetOrigin();
@@ -449,14 +447,14 @@ function CheckZiplineHooks(player) {
         if(dist_next_to_player > 2048) continue;
 
 
-        local isVertical = (DistanceFlat(path_pos, next_pos) < 64);
+        local isVertical = (DistanceFlat(prev_pos, next_pos) < 64);
         if(isVertical && (dist_path_to_player > 512 && dist_next_to_player > 512)) continue;
 
-        local P = PointClosestToLine(player_pos, path_pos, next_pos);
+        local P = PointClosestToLine(player_pos, prev_pos, next_pos);
 
-        local dist_path_to_P = Distance(path_pos, P);
+        local dist_path_to_P = Distance(prev_pos, P);
         local dist_next_to_P = Distance(next_pos, P);
-        local dist_path_to_next = Distance(path_pos, next_pos);
+        local dist_path_to_next = Distance(prev_pos, next_pos);
         local max_dist_from_endpoints = dist_path_to_next + half_max_dist;
 
         // clamp attachment point between start and end of line segment
@@ -469,26 +467,26 @@ function CheckZiplineHooks(player) {
         local eyeAngle = player.EyeAngles().Forward();
         local eyePos = player.GetOrigin() + player.GetClassEyeHeight();
 
-        local lookA = AngleBetween(eyeAngle, eyePos, path_pos) * RAD2DEG;
-        local lookB = AngleBetween(eyeAngle, eyePos, next_pos) * RAD2DEG;
+        local look_prev = AngleBetween(eyeAngle, eyePos, prev_pos) * RAD2DEG;
+        local look_next = AngleBetween(eyeAngle, eyePos, next_pos) * RAD2DEG;
 
-        local lookingPoint = (lookA < lookB) ? path_pos : next_pos;
-        local moveForward = !(lookA < lookB);
+        local looking_point = (look_prev < look_next) ? prev_pos : next_pos;
+        local move_forward = !(look_prev < look_next);
 
         // if you're close *enough* to an endpoint, go the opposite way
-        local thisisAnEndpoint = NetProps.GetPropEntity(track, "m_pprevious") == null || NetProps.GetPropEntity(track, "m_pnext") == null;
-        local nextisAnEndpoint = NetProps.GetPropEntity(next, "m_pprevious") == null || NetProps.GetPropEntity(next, "m_pnext") == null;
-        if(Distance(player_pos, path_pos) < 192 && thisisAnEndpoint) {
-            moveForward = true;
-            lookingPoint = next_pos;
+        local prev_is_endpoint = NetProps.GetPropEntity(track, "m_pprevious") == null || NetProps.GetPropEntity(track, "m_pnext") == null;
+        local next_is_endpoint = NetProps.GetPropEntity(next, "m_pprevious") == null || NetProps.GetPropEntity(next, "m_pnext") == null;
+        if(Distance(player_pos, prev_pos) < 192 && prev_is_endpoint) {
+            move_forward = true;
+            looking_point = next_pos;
         }
-        if(Distance(player_pos, next_pos) < 192 && nextisAnEndpoint) {
-            moveForward = false;
-            lookingPoint = path_pos;
+        if(Distance(player_pos, next_pos) < 192 && next_is_endpoint) {
+            move_forward = false;
+            looking_point = prev_pos;
         }
 
-        local furtherPoint = MoveTowards(P, lookingPoint, latch_dist);
-        furtherPoint = ClampToLine(furtherPoint, path_pos, next_pos);
+        local furtherPoint = MoveTowards(P, looking_point, latch_dist);
+        furtherPoint = ClampToLine(furtherPoint, prev_pos, next_pos);
 
         local lookThreshold = latch_tolerance_angle;
 
@@ -497,28 +495,28 @@ function CheckZiplineHooks(player) {
         if(right_next_to_endpoint) lookThreshold = latch_tolerance_angle * 1.25;
 
         // check if player is looking directly at or close to one of the endpoints
-        local primaryLookCheck = (lookA < lookThreshold) || (lookB < lookThreshold);
+        local primaryLookCheck = (look_prev < lookThreshold) || (look_next < lookThreshold);
 
         if(!primaryLookCheck) {
             // more variation from line is allowed for verticals (harder to "look along" them)
             local lookThreshold2 = isVertical ? 30 : 10;
 
             // check if player is looking at somewhere on the line generally
-            local prox = LineProximity(eyePos, eyeAngle, path_pos, next_pos) / (Distance(player_pos, P) / 4) * 10;
+            local prox = LineProximity(eyePos, eyeAngle, prev_pos, next_pos) / (Distance(player_pos, P) / 4) * 10;
             local secondaryLookCheck = (prox < lookThreshold2);
             if(!secondaryLookCheck) continue;
         }
 
         // if too close to one of the ends, don't attach
-        if(Distance(furtherPoint, player_pos) < max_dist / 2 || Distance(furtherPoint, path_pos) < 32 || Distance(furtherPoint, next_pos) < 32) continue;
+        if(Distance(furtherPoint, player_pos) < max_dist / 2 || Distance(furtherPoint, prev_pos) < 32 || Distance(furtherPoint, next_pos) < 32) continue;
 
-
-        // position zipline indicator
+        // place the zipline indicator
+        //  (skip for high player counts to save edicts)
         if(MaxPlayers <= 32) {
             if(isVertical) {
                 if(Distance(player_pos, P) > 40) {
-                    local dest = (moveForward) ? next_pos : path_pos;
-                    local src  = (moveForward) ? path_pos : next_pos;
+                    local dest = (move_forward) ? next_pos : prev_pos;
+                    local src  = (move_forward) ? prev_pos : next_pos;
                     local is_upwards = src.z > dest.z;
 
                     local closer = MoveTowards(P, eyePos, 16);
@@ -540,27 +538,44 @@ function CheckZiplineHooks(player) {
 
         if(!scope.attached && is_attaching && is_not_grounded) {
             scope.attached = true;
+
+            // midair jump will engage parachute; forgivingly reset the first time
+            player.RemoveCond(Constants.ETFCond.TF_COND_PARACHUTE_ACTIVE);
+            if(!scope.attached_airborne) {
+                player.RemoveCond(Constants.ETFCond.TF_COND_PARACHUTE_DEPLOYED);
+            }
+
+            scope.attached_airborne = true;
             scope.can_attach = false;
             scope.attach_location <- player.GetOrigin();
             scope.zipline_is_vertical <- isVertical;
             scope.last_hook <- Time();
 
-            SetupZiplineAndAttach(player, track, next, P, furtherPoint, moveForward, isVertical);
+            SetupZiplineAndAttach(player, track, next, P, furtherPoint, move_forward, isVertical);
+
+            FireScriptEvent("zipline_attach", {
+                "player": player,
+                "track_prev": track,
+                "track_next": next,
+                "move_forward": move_forward,
+                "attachment_point": P,
+                "zipline_is_vertical": isVertical
+            });
             return;
         }
     }
 }
 
 function PositionZiplineIndicator(player, scope, attachment_point, rotate = false) {
-    if(scope.zipline_marker == null || !scope.zipline_marker.IsValid()) {
-        scope.zipline_marker <- CreateZiplineIndicator(player, attachment_point);
+    if(scope.zipline_indicator == null || !scope.zipline_indicator.IsValid()) {
+        scope.zipline_indicator <- CreateZiplineIndicator(player, attachment_point);
     }
-    scope.zipline_marker.SetOrigin(attachment_point);
+    scope.zipline_indicator.SetOrigin(attachment_point);
 
     // rotate by model to face the right direction
-    local rot = VectorAngles((player.GetOrigin() + player.GetClassEyeHeight()) - scope.zipline_marker.GetOrigin());
+    local rot = VectorAngles((player.GetOrigin() + player.GetClassEyeHeight()) - scope.zipline_indicator.GetOrigin());
     rot.z += (rotate) ? -90 : 90;
-    scope.zipline_marker.SetAbsAngles(rot);
+    scope.zipline_indicator.SetAbsAngles(rot);
 }
 
 // ---------------------------------------------------------------
@@ -633,25 +648,35 @@ function ProcessZiplineMovement(player, scope) {
     if(scope.zipline_model_pulley != null) scope.zipline_model_pulley.SetOrigin(pulley_point);
 
     local v = vectriple(0);
-    if(scope.velocity.Length() > 2) {
-        v = scope.velocity * FrameTime() * 4;
-        scope.velocity -= v * 2;
+    if(scope.zipline_velocity.Length() > 2) {
+        v = scope.zipline_velocity * FrameTime() * 4;
+        scope.zipline_velocity -= v * 2;
     }
-    else scope.velocity = vectriple(0);
+    else scope.zipline_velocity = vectriple(0);
 
     local alt_pos = (desired_pos - current_pos) * (FrameTime() * zipline_inertia * 12);
     local new_pos = current_pos + alt_pos + v;
 
     local too_recent = Time() - scope.last_hook < 0.75;
-    if(CheckSpaceFreeEnemyTeam(player, new_pos)) {
+    local player_collide = CheckHitEnemyTeam(player, new_pos);
+    if(player_collide == null) {
+        // smooth interpolation
+        // local frame = NetProps.GetPropInt(player, "m_ubInterpolationFrame");
         player.SetOrigin(new_pos);
+        // NetProps.SetPropInt(player, "m_ubInterpolationFrame", frame);
     }
     else {
         // collided with an enemy player!
         PlaySoundAt(player, player.GetOrigin(), "Flesh.StepRight", 6, 0.9, 100);
         PlaySoundAt(player, scope.attachment_point, "MetalVent.ImpactHard", 6, 0.4, 120);
 
-        DetachPlayerHook(player, scope);
+        FireScriptEvent("zipline_player_collide", {
+            "player": player,
+            "other_player": player_collide,
+            "collision_point": new_pos
+        })
+
+        DetachPlayerHook(player, scope, false);
     }
 }
 
@@ -682,12 +707,12 @@ function CheckZiplineReachEndpoint(player, scope) {
     if(endpoint_distance < 128 || current_zip_duration < 0.4) {
         if(!CheckSpaceFree(player, player.GetOrigin(), CONTENTS_WORLD)) {
             // don't continue to visually clip into the world where possible
-            scope.velocity = vectriple(0);
+            scope.zipline_velocity = vectriple(0);
 
             // check if you're near the end but stuck in the world based on velocity or something
             if(current_zip_duration > 1.0) {
                 DismountVelocity(player, scope, dest, src);
-                DetachPlayerHook(player, scope);
+                DetachPlayerHook(player, scope, false);
             }
             return;
         }
@@ -715,7 +740,7 @@ function CheckZiplineReachEndpoint(player, scope) {
     DismountVelocity(player, scope, dest, src);
 
     // actually do the detach
-    DetachPlayerHook(player, scope);
+    DetachPlayerHook(player, scope, false);
 }
 
 function RealignPulley(scope) {
@@ -780,20 +805,24 @@ function CheckPlayerDetach(player, scope) {
 
         // manually recreate grapple jump
         if(jump_disengage) {
+            local T = (attach_time - hook_cooldown_jump) / (hook_velocity_ramp_jump - hook_cooldown_jump);
+            T = clamp(T, 0.0, 1.0);
+            local jump_strength = Lerp(dismount_boost_mult_min, dismount_boost_mult_max, T);
+
             if(jump_up_height > 0) {
                 local zip_dir = dest.GetOrigin() - src.GetOrigin();
                 zip_dir.Norm();
                 local player_speed =  NetProps.GetPropFloat(player, "m_flMaxspeed");
 
                 // use mult of player speed as "existing speed" to allow a balanced boost when dismounting
-                local preserved_vel = zip_dir * (player_speed * dismount_boost_mult);
+                local preserved_vel = zip_dir * (player_speed * jump_strength);
 
                 local eye_dir = player.EyeAngles().Forward();
-                local vel = Vector(0, 0, jump_up_height) + (eye_dir * (player_speed * 0.25));
+                local vel = Vector(0, 0, jump_up_height) + (eye_dir * (player_speed * 0.25 * jump_strength));
 
                 // prioritise forward movement when zipline is vertical
                 if(vert) {
-                    vel = eye_dir * (player_speed * dismount_boost_mult);
+                    vel = eye_dir * (player_speed * jump_strength);
                     preserved_vel = zip_dir * (player_speed / 2);
                 }
 
@@ -805,18 +834,18 @@ function CheckPlayerDetach(player, scope) {
             local player_speed =  NetProps.GetPropFloat(player, "m_flMaxspeed");
 
             // use mult of player speed as "existing speed" to allow a balanced boost when dismounting
-            local preserved_vel = zip_dir * (player_speed * dismount_boost_mult);
+            local preserved_vel = zip_dir * (player_speed * dismount_boost_mult_max);
             player.SetAbsVelocity(preserved_vel);
         }
 
-        DetachPlayerHook(player, scope);
+        DetachPlayerHook(player, scope, true);
     }
 }
 
 function RemoveZiplineMarker(player, scope) {
-    if(scope.zipline_marker != null && scope.zipline_marker.IsValid()) {
-        scope.zipline_marker.Destroy();
-        scope.zipline_marker <- null;
+    if(scope.zipline_indicator != null && scope.zipline_indicator.IsValid()) {
+        scope.zipline_indicator.Destroy();
+        scope.zipline_indicator <- null;
     }
 }
 
@@ -880,7 +909,7 @@ function RemoveZiplineAttachments(player, scope) {
     SafeDeleteFromScope(scope, "zipline_model_parent");
 }
 
-function DetachPlayerHook(player, scope) {
+function DetachPlayerHook(player, scope, is_manual_detach = false) {
     StopLoopingSoundForPlayer(player, "WeaponGrapplingHook.ReelStart");
     StopLoopingSoundForPlayer(player, "WeaponGrapplingHook.Wind");
 
@@ -897,6 +926,16 @@ function DetachPlayerHook(player, scope) {
 
     player.RemoveCond(Constants.ETFCond.TF_COND_GRAPPLINGHOOK);
     player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK_SAFEFALL, 20, player);
+
+    FireScriptEvent("zipline_detach", {
+        "player": player,
+        "is_manual_detach": is_manual_detach,
+        "track_prev": scope.prev_path,
+        "track_next": scope.next_path,
+        "move_forward": scope.zipline_is_forward,
+        "detachment_point": scope.attachment_point,
+        "zipline_is_vertical": scope.zipline_is_vertical
+    });
 
     scope.attached <- false;
     scope.can_attach <- false;
@@ -971,11 +1010,11 @@ function SetupPlayer(player) {
     player.ValidateScriptScope();
     local scope = player.GetScriptScope();
 
+    // initialise input setup early to pass to player think
     scope.buttons_last <- 0;
     scope.buttons_changed <- 0;
     scope.buttons_pressed <- 0;
     scope.buttons_released <- 0;
-
     scope.PlayerThink <- PlayerThink;
     AddThinkToEnt(player, "PlayerThink");
 
@@ -985,36 +1024,42 @@ function SetupPlayer(player) {
 function ResetPlayer(player) {
     local scope = player.GetScriptScope();
 
+    // entities
     scope.zipline_model_pulley <- null;
     scope.zipline_model_hook <- null;
     scope.zipline_ropes <- [];
+    scope.zipline_indicator <- null;
 
+    // ability
     scope.attached <- false;
     scope.can_attach <- false;
+    scope.attached_airborne <- false;
 
-    scope.zipline_is_vertical <- false;
-    scope.zipline_is_forward <- false;
+    // locations
     scope.attach_location <- null;
+    scope.attachment_point <- null;
 
-    scope.zipline_marker <- null;
-
+    // timing
     scope.last_hook <- Time();
     scope.last_detach <- Time();
 
+    // input
     scope.buttons_last <- 0;
     scope.buttons_changed <- 0;
     scope.buttons_pressed <- 0;
     scope.buttons_released <- 0;
-
     scope.analysed_attach <- false;
     scope.holding_jump_to_attach <- false;
 
+    // status
+    scope.zipline_is_vertical <- false;
+    scope.zipline_is_forward <- false;
     scope.prev_path <- null;
     scope.next_path <- null;
-    scope.attachment_point <- null;
-    scope.velocity <- null;
+    scope.zipline_velocity <- null;
     scope.zipline_offset <- Vector(0,0,0);
 
+    // interactions
     scope.remove_forced_minicrit <- false;
 }
 
@@ -1030,6 +1075,11 @@ function RemoveForcedMinicrit(player)
 
 CollectEventsInScope
 ({
+    // gamemode-defined script events
+    // function OnScriptEvent_zipline_attach(params) {}
+    // function OnScriptEvent_zipline_detach(params) {}
+    // function OnScriptEvent_zipline_player_collide(params) {}
+
     function OnGameEvent_player_spawn(params)
     {
         local player = GetPlayerFromUserID(params.userid);
@@ -1047,10 +1097,11 @@ CollectEventsInScope
 
         local scope = player.GetScriptScope();
         if (params.team != params.oldteam && scope.attached) {
-            DetachPlayerHook(player, player.GetScriptScope());
+            DetachPlayerHook(player, player.GetScriptScope(), false);
         }
         ResetPlayer(player);
     }
+
 
     function OnGameEvent_player_disconnect(params){
         local player = GetPlayerFromUserID(params.userid);
@@ -1058,7 +1109,7 @@ CollectEventsInScope
 
         local scope = player.GetScriptScope();
         if (scope.attached) {
-            DetachPlayerHook(player, scope);
+            DetachPlayerHook(player, scope, false);
         }
     }
 
@@ -1075,7 +1126,7 @@ CollectEventsInScope
             return;
         }
 
-        DetachPlayerHook(player, scope);
+        DetachPlayerHook(player, scope, false);
     }
 
     function OnGameEvent_teamplay_round_start(params) {
@@ -1098,7 +1149,7 @@ CollectEventsInScope
         local victim = params.const_entity;
         if(victim == null || !victim.IsValid()) return;
         local victim_scope = victim.GetScriptScope();
-		if (!("attached" in victim_scope) || !victim_scope.attached) return;
+		if (!("attached" in victim_scope) || !victim_scope.attached_airborne) return;
 
         // if already going to minicrit, don't bother
 		if (attacker.InCond(Constants.ETFCond.TF_COND_OFFENSEBUFF)) return;

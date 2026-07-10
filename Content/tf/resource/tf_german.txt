@@ -1712,6 +1712,11 @@
 "TF_TournamentMedal_Summer2026"	"Sommer 2026"
 "TF_TournamentMedal_Autumn2026"	"Herbst 2026"
 "TF_TournamentMedal_Winter2026"	"Winter 2026"
+"TF_TournamentMedal_Spring2027"	"Frühling 2027"
+"TF_TournamentMedal_Summer2027"	"Sommer 2027"
+"TF_TournamentMedal_Autumn2027"	"Herbst 2027"
+"TF_TournamentMedal_Winter2027"	"Winter 2027"
+
 "TF_TournamentMedal_April2019"	"April 2019"
 
 "TF_TournamentMedal_Cup1"		"Cup 1"
@@ -4430,7 +4435,7 @@
 //"TF_Demo_Hat_1_Desc"			"Demoman's Fro Description"
 "TF_Medic_Hat_1"		"Preußische Pickelhaube"
 "TF_Medic_Hat_1_Desc"		"Ein Relikt eines Krieges, mitgebracht in einen anderen.\nIhr Feind wird es spitze finden."
-"TF_Pyro_Hat_1"			"Propellermützchen"
+"TF_Pyro_Hat_1"			"Pyro-Propellermützchen"
 //"TF_Pyro_Hat_1_Desc"			"Pyro's Beanie Description"
 "TF_Heavy_Hat_1"		"Footballhelm"
 //"TF_Heavy_Hat_1_Desc"		"Football Helmet Description"
@@ -7351,6 +7356,7 @@
 "cppl_gavle_village"					"das Dorf"
 "koth_winter_ridge_barn"				"die zugefrorene Scheune"
 "ctf_sidewinder_goal"					"Stehlen Sie den Aktenkoffer mit dem Geheimmaterial aus der gegnerischen Basis."
+"koth_camp_saxton_campground"			"Der Campingplatz"
 // Win panel strings
 "Winpanel_Team1"			"TEAM"
 "Winpanel_Team2"			"Team"
@@ -13229,6 +13235,14 @@ verkleiden Sie sich schnell als Ihr Opfer"
 "Attrib_Particle403"			"Kälteeinbruch um Mitternacht"
 "Attrib_Particle404"			"Schnee bei Dämmerung"
 "Attrib_Particle405"			"Tieftemperatur"
+
+// Summer 2026 Unusual
+"Attrib_Particle407"			"Schattenlichter"
+"Attrib_Particle408"			"Nordische Nächte"
+"Attrib_Particle409"			"Solarbrand"
+"Attrib_Particle413"			"Glückselige Schmetterlinge"
+"Attrib_Particle415"			"Irrlichternde Falter"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Heiß"
 "Attrib_Particle702"			"Isotop"
@@ -18042,7 +18056,7 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_hw2013_zombie_chameleon"		"Das Karies-Chamäleon" // ADD THE
 "TF_hw2013_dragon_shoes"		"Die Monsterstampfer" // ADD THE
 "TF_hw2013_blood_banker"		"Die freigiebige Fliege" // ADD THE
-"TF_hw2013_harmburg"		"Candymans Hut" // ADD THE
+"TF_hw2013_harmburg"		"Der Candyman-Hut" // ADD THE
 "TF_hw2013_medic_undertaker_vest"		"Die Pastorenrobe" // ADD THE
 "TF_hw2013_rocket_ranger"		"Der Hartium-Helm" // ADD THE
 "TF_hw2013_jupiter_jumpers"		"Der Saturn-Springer" // ADD THE
@@ -18675,6 +18689,17 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_taunt_the_critical_fail_AdText"			"-Von der Community erstellte Verspottung für alle Klassen"
 "TF_taunt_chairholder"						"Verspottung: Monetärer Be-sitz"
 "TF_taunt_chairholder_AdText"				"-Von der Community erstellte Scout-Verspottung"
+"TF_taunt_the_circuit_breaker"				"Verspottung: Der Schaltkreisunterbrecher"
+"TF_taunt_the_circuit_breaker_Desc"			"Von der Community erstellte Heavy-Verspottung"
+"TF_taunt_the_circuit_breaker_AdText"		"-Von der Community erstellte Heavy-Verspottung"
+"TF_taunt_buffoons_bivouac"					"Verspottung: Bummler-Biwak"
+"TF_taunt_buffoons_bivouac_AdText"			"-Von der Community erstellte Soldier-Verspottung"
+"TF_taunt_fauxcalization"					"Verspottung: Falsche Identität"
+"TF_taunt_fauxcalization_Desc"				"Von der Community erstellte Spy-Verspottung"
+"TF_taunt_fauxcalization_AdText"			"-Von der Community erstellte Spy-Verspottung"
+"TF_taunt_friendly_fire"					"Verspottung: Feuerunterstützung"
+"TF_taunt_friendly_fire_Desc"				"Von der Community erstellte Pyro-Verspottung"
+"TF_taunt_friendly_fire_AdText"				"-Von der Community erstellte Pyro-Verspottung"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Der Belüftungsbeutel"	// ADD THE
@@ -19979,6 +20004,30 @@ Steuerkreuz zum Bewegen, Trigger-Tasten=schneller, A-Taste für nächste Zeile."
 "TF_dec25_flatline_flatcap_style2"			"Farbige Haare"
 "TF_dec25_cardiologists_cardigan"		"Pullunder des Kardiologen"
 "TF_dec25_scrub_stompers"				"OP-Latschen"
+
+"TF_sum26_hard_hearing"					"Gehörsturzschutz"
+"TF_sum26_beachcombers"					"Strandgutsammlerkrempe"
+"TF_sum26_chief_executor_style1"			"Stil 1"
+"TF_sum26_chief_executor_style2"			"Stil 2"
+"TF_sum26_chief_executor_style3"			"Stil 3"
+"TF_sum26_vested_investors_style1"			"Stil 1"
+"TF_sum26_vested_investors_style2"			"Stil 2"
+"TF_sum26_standing_offer_style1"			"Stil 1"
+"TF_sum26_standing_offer_style2"			"Stil 2"
+"TF_sum26_barbeque_style1"					"Hell"
+"TF_sum26_barbeque_style2"					"Dunkel"
+"TF_sum26_tropical_torcher_style1"			"Keine Granaten"
+"TF_sum26_tropical_torcher_style2"			"Granaten"
+"TF_sum26_pyros_overalls"				"Pyro-Latzhose"
+"TF_sum26_deadliest_match_style1"			"Bart"
+"TF_sum26_deadliest_match_style2"			"Kein Bart"
+"TF_sum26_handsome_style2"					"Dienstschluss"
+"TF_sum26_atomic_kicks_style1"				"Bonk!"
+"TF_sum26_atomic_kicks_style2"				"Krit-a-Cola"
+"TF_sum26_lieutenants_cut_style1"			"Zigarre"
+"TF_sum26_lieutenants_cut_style2"			"Keine Zigarre"
+"TF_sum26_lieutenants_cut_style3"			"Kein Schnurrbart"
+"TF_sum26_delusions_style2"					"Schlicht"
 "TF_style_bullets"						"Patronengurt"
 "TF_style_nobullets"					"Kein Patronengurt"
 

@@ -6761,7 +6761,12 @@
 "koth_brazil_pillar"					"Mast"
 "koth_lazarus_fountain"					"de Fontein van de Eeuwige Jeugd"
 "koth_suijin_pagoda"					"The Pagoda"
+"pl_borneo_cp1"							"Borneo - Veroveringspost 1"
+"pl_borneo_cp2"							"Borneo - Veroveringspost 2"
+"pl_borneo_cp3"							"Borneo - Veroveringspost 3"
+"pl_borneo_cp4"							"Borneo - Veroveringspost 4"
 "pl_snowycoast_radio"					"Zendmast"
+"pl_snowycoast_kennel"					"Het Kennelhek"
 "pl_snowycoast_mines"					"De Mijnen"
 "pl_snowycoast_vessel"					"Het Bevroren Schip"
 "pl_hoodoo_final_cp_a2"					"Veroveringspost A 2"
@@ -6856,8 +6861,11 @@
 "pl_breadspace_outer"					"Buitengebied"
 "pl_breadspace_caves"					"De Grotten"
 "pl_chilly_pit"							"PUT DER CADEAUTJES"
+"pl_chilly_a"							"A - GULLE GAVE"
 "pl_chilly_b"							"B - CADEAUTJESKLOOF"
 "pl_chilly_d"							"D - RUDOLPHS ROUTE"
+"pl_chilly_c"							"C - BESNEEUWD BOS"
+"pl_chilly_red_objective"				"Voorkom dat team BLU de springlading naar onze basis begeleidt!"
 "pl_chilly_blu_objective"				"Verwoest de raket van RED! Lever de springlading af!"
 "pl_coal_event_gate"					"Poort"
 "pl_coal_event_silo"					"Silo"
@@ -6873,8 +6881,11 @@
 "pl_sludgepit_event_pestilence"			"Epidemie"
 "pl_sludgepit_event_war"				"Oorlog"
 "pl_terror_event_gonzo"					"GONZO, DE BROER VAN DE CIRCUSGOD"
+"pl_terror_event_a"						"A - DE BRENGER DES DOODS"
 "pl_terror_event_b"						"B - AFGROND VAN DE HEL"
 "pl_terror_event_d"						"D - LAATSTE VERVLOEKINGEN"
+"pl_terror_event_c"						"C - SPOOKBOS"
+"pl_terror_event_red_objective"			"Voorkom dat BLU Gonzo, de broer van de uit de oudheid afkomstige circusgod Bonzo, vernietigt!"
 "pl_terror_event_blu_objective"			"Vernietig Gonzo, de broer van de uit de oudheid afkomstige circusgod Bonzo!"
 "arena_lumberyard_event_objective"		"Dood alle vijandige spelers of verover de controlepost om de ronde te winnen! Wanneer je doodgaat, kun je je teamgenoten als geest genezen!"
 "arena_lumberyard_event_sudden_death"	"SUDDEN DEATH!"
@@ -6909,6 +6920,8 @@
 "pl_frostcliff_c"						"C - RODE SCHUUR"
 "pl_frostcliff_d"						"D - KOUDE ROUTE"
 "pl_frostcliff_e"						"E - BEVROREN MIJNSCHACHT"
+"pl_frostcliff_blue_goal"				"Duw de springladingkar de bevroren kuil van RED in!"
+"pl_frostcliff_red_goal"				"Voorkom koste wat het kost dat BLU vooruitkomt!"
 "cp_gorge_event_gored"					"Gespietst"
 "CoalPit_setup_goal_red"				"Verdedig de vriesstraal tegen team BLU!"
 "CoalPit_setup_goal_blue"				"Schakel de vriesstraal van RED uit voordat zij de aarde afkoelen!"
@@ -10874,8 +10887,10 @@
 "TF_StrongboxKey_Desc"			"Wordt gebruikt om een Mann Co.-brandkast te openen."
 
 "TF_EOTL_Crate"				"End of the Line-communitykrat"
+"TF_EOTL_Crate_Desc"		"Dit krat is speciaal.\nDe inhoud is onbekend en vereist een\nEnd of the Line-communitykratsleutel om geopend te worden.\n\nVoorwerpen die voor 5 januari 2015 in een EOTL-communitykrat worden gevonden, krijgen als aandenken een tag voor vroegtijdige supporters.\n\nHet End of the Line-communitykrat bevat bijzondere effecten die alleen in dit krat voorkomen."
+
 "TF_EOTL_Key"				"End of the Line-sleutel"
-"TF_EOTL_Key_Desc"			"Wordt gebruikt om een End of the Line-communitykrat te openen.\nVoorwerpen die voor 5 januari 2015 in een EOTL-communitykrat gevonden worden krijgen een vroegtijdige supporter-tag ter nagedachtenis."
+"TF_EOTL_Key_Desc"			"Wordt gebruikt om een End of the Line-communitykrat te openen.\nVoorwerpen die voor 5 januari 2015 in een EOTL-communitykrat worden gevonden, krijgen als aandenken een tag voor vroegtijdige supporters."
 
 "TF_Gift_EOTL_RandomPerson" 		"Een Willekeurig End of the Line-Sleutelgeschenk"
 "TF_Gift_EOTL_RandomPerson_Desc" 	"Bij gebruik geeft dit Actievoorwerp\neen End of the Line-Sleutel\naan een willekeurig persoon op de server!"
@@ -12684,6 +12699,7 @@
 "Attrib_Particle379"			"Overbelast"
 "Attrib_Particle380"			"Knallende Koppijn"
 "Attrib_Particle381"			"Verwoestende Wind"
+"Attrib_Particle408"			"Noordelijke Nachten"
 // Weapon Unusual
 "Attrib_Particle701"			"Heet"
 "Attrib_Particle702"			"Isotoop"
@@ -12900,6 +12916,7 @@
 "Attrib_Particle3200"		"Verbroken Verbinding"
 "Attrib_Particle3201"		"Zomerse Golven"
 "Attrib_Particle3202"		"Haaienaanval"
+"Attrib_Particle3221"		"Noordelijke Nachten"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Killstreaker: %s1"
@@ -13008,6 +13025,7 @@
 "TF_TheDegreaser"			"De Ontvetter"	// ADD THE
 "TF_TheShortstop"			"De Korte Stop"	// ADD THE
 "TF_EternalReward"			"Je Eeuwige Beloning"
+"TF_TheBattalionsBackup"		"De Back-up van het Bataljon"	// ADD THE
 "TF_TheBlackBox"			"De Zwarte Doos"	// ADD THE
 "TF_SydneySleeper"			"De Sydney-slaper"	// ADD THE
 "TF_DarwinsDangerShield"		"Darwins Gevaarschild"
