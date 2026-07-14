@@ -1535,6 +1535,10 @@
 "TF_TournamentMedal_FBTF_Cup_6v6_Joten_Klopp_2nd"			"FBTF Cup 6 с/у 6 Jöten Klopp — II място"
 "TF_TournamentMedal_FBTF_Cup_6v6_Joten_Klopp_3rd"			"FBTF Cup 6 с/у 6 Jöten Klopp — III място"
 "TF_TournamentMedal_FBTF_Cup_6v6_Joten_Klopp_Participant"	"FBTF Cup 6 с/у 6 Jöten Klopp — Участник"
+"TF_TournamentMedal_FBTF_Conecta_PassTime"						"FBTF Conecta PASS Time — Участник"
+"TF_TournamentMedal_FBTF_Conecta_PubVsPro"						"FBTF Conecta Pub vs Pro — Участник"
+"TF_TournamentMedal_FBTF_Conecta_JumpCup"						"FBTF Conecta Jump купа — Участник"
+
 "TF_TournamentMedal_FBTF2_4v4_Elite_1st"					"FBTF 4 срещу 4 Elite — I място"
 "TF_TournamentMedal_FBTF2_4v4_Elite_2nd"					"FBTF 4 срещу 4 Elite — II място"
 "TF_TournamentMedal_FBTF2_4v4_Elite_3rd"					"FBTF 4 срещу 4 Elite — III място"
@@ -1990,6 +1994,9 @@
 "TF_TournamentMedal_TFCL_SummerCup_Participant"		"TFCL лятна купа — Участник"
 "TF_TournamentMedal_TFCL_Helper"					"TFCL — Помощник"
 "TF_TournamentMedal_TFCL_Helper_Desc"				"Оказахте положително влияние върху TFCL, а вече имате лъскав медал, за да го докажете!"
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season1_Desc"	"За участници в първия сезон на алфа изпитанието от TFCL в 2026, което се провежда от 15 до 22 март. Благодарим Ви, че бяхте ранни изпитатели."
+"TF_TournamentMedal_TFCL_Alpha_Participant_Season2_Desc"	"За участници в първия сезон на алфа изпитанието от TFCL в 2026. Благодарим Ви, че бяхте ранни изпитатели."
+
 "TF_TournamentMedal_NHBL_Sasha_Season1"			"NHBL I Sasha Cup — Шампион"
 "TF_TournamentMedal_NHBL_Sasha_Season1_Desc"	"Dr. Splints"
 "TF_TournamentMedal_NHBL_Sasha_Season2"			"NHBL II Sasha Heavyweight — Шампион"
@@ -3810,6 +3817,10 @@
 "TF_Wearable_LavaHead"				"Глава от лава"
 "TF_Wearable_Visor"					"Визьор"
 "TF_Wearable_Lazers"				"Лазери"
+"TF_Wearable_Overalls"				"Гащеризон"
+"TF_Wearable_Blanket"				"Одеяло"
+"TF_Wearable_HeadMirror"			"Огледало за глава"
+
 "TF_RobotPart_Type"	"Роботска част"
 "TF_CircuitBoard_Type"	"Платка"
 
@@ -5605,6 +5616,7 @@
 "koth_overcast_final_authors"	"„Slowmotion Milk“\nИтън Стоукс\n„Dr Vlad Crazy“"
 "cp_fortezza_authors"			"Джош „Gruppy“ Боуман\nНиколас „KrazyZark“ Фенек\n„Kubie“\n„Alien31“"
 "ctf_penguin_peak_authors"		"Крис „Another Bad Pun“ Уилиямс\nБека „phi“ Айлис\nДжеймс „chin“ Хейс\nЕрик „erk“ Браунинг\nЛиъм „Diva Dan“ Мофит\n„Stuffy360“\nАеон „Void“ Болиг\nНиколас „KrazyZark“ Фенек\nАл „Square“ Роджърс\nСам Д. Уич"
+"pl_patagonia_authors"			"Елиан „iron“ Родригес\nМатю „Panckakebro“ Хилер\n„Stuffy360“"
 "plr_cutter_authors"			"Пол „puxorb“ Броксъп\n„Brie“\nНиколас „KrazyZark“ Фенек\nЛиъм „Diva Dan“ Мофит\nАеон „Void“ Болиг\nЕрик „Colteh“ Колтий\n„Extra Ram“\nМати Конинг\nТим „SediSocks“ Браун Лийс\nПатрик „Zeus“ Хенеси\nЗоуи Смит"
 "vsh_maul_authors"				"Матю Скот „MegapiemanPHD“ Симънс\nБрандън „Bonk Nickeltoon“ Колър\nСабо „Maxxy“ Атила\nПатрик „Zeus“ Хенеси\n„Lizard of Oz“\n„Stuffy360“\nДжеймс Джеймсън\n„Phe“\nМати Конинг\nАлекс „FGD5“ Стюарт\nМаксим „Velly“ Стрелцов\nДжейсън „Yaki“ Херман\nДжеси „Custard1“ Бъд\nХоаким „JPRAS“ Силва\nСамюел „ChargingTurnip“ Търнър\nАлекс „Lacry“ Коуто\nДжеймс „McGuinnsBook“ Макгийн\nТоркил „TheLazerSofa“ Малвик Бидтнес\n„Sky“"
 "pl_citadel_authors"			"Евън „Defcon“ Лебланк\nНиколас „KrazyZark“ Фенек\n„Sarexicus“\n„Freyja“\n„Ficool2“"
@@ -5627,6 +5639,14 @@
 "ctf_sidewinder_authors"		"Танер Лорън\nХарлен „UEAKCrash“ Линке\nПол „Brokk“ Клаузен\nКирил „BadassCook“ Рузанов\nЛоурен „Yrrzy“ Годфрей"
 "2koth_abbey_authors"			"Лиъм „Diva Dan“ Мофит\nЕмил „Эмil” Шарафеев\nСеб „Tianes“ Некула\nБенджамин „blaholtzen“ Блахолтц\n„Freyja“\nСонома „Sono“ Брайър\n„Lizard of Oz“"
 "koth_winter_ridge_authors"		"Тристан „Alox“ Хаге"
+"plr_matterhorn_authors"		"Нийл „Bladex64“ Смарт\nРенато „Corvalho“ Гомес\nСабо „Maxxy“ Атила\nМаксим „Velly“ Стрелцов\nТоркил „TheLazerSofa“ Малвик Бидтнес\n„MisanthЯope“\n„RotemHecht“\nАл „Square“ Роджърс\n„Chickenman“"
+"koth_dryfield_authors"			"Валентайн „ElectroSheep“ Левилиан"
+"koth_camp_saxton_authors"		"Аеон „Void“ Болиг\n„Juniper“\nЛиъм „Diva Dan“ Мофит\nМайк „CornetTheory“ Хилард"
+"koth_shorelight_authors"		"Джоел „zythe_“ Моршер\nЛоурен „Yrrzy“ Годфрей\nНиколас „KrazyZark“ Фенек\nДжеси „Custard1“ Бъд"
+"pl_redwood_authors"			"Евън „Defcon“ Лебланк\n„Sarexicus“\n„Stuffy360“"
+"cp_premuda_authors"			"Войчех „eerieone“ Михалак\nМориц „moe012“ Хорн"
+"cp_mojave_authors"				"Ханнес „Hanz“ Тирез\nАнтон „DaBeatzProject“ Лекок"
+
 "TF_YourStats"					"Статистиките Ви"
 "TF_DuckPromoList"				"—Козметичен артикул с единадесет стила за всички класове;\n—Проследява статистиката Ви, докато трае събитието „End of the Line“ („Краят на релсите“)\n—Преглеждайте класациите и се съревновавайте с приятелите си\n—Продажбите подкрепят екипа на „End of the Line“"
 "TF_GetDucky"					"Получаване на патица"
@@ -6319,6 +6339,16 @@
 "TF_Map_Matterhorn"					"Matterhorn"
 "TF_MapToken_Matterhorn"			"Марка на карта — Matterhorn"
 "TF_MapToken_Matterhorn_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Matterhorn“."
+"TF_MapToken_Dryfield_Desc"			"Карта в режим „Краля на хълма“\n\nНаправена от Валентайн „ElectroSheep“ Левилиан.\n\nЗакупуването на този артикул директно подкрепя твореца на обществената карта „Dryfield“. Покажете своята подкрепа още днес!"
+"TF_MapToken_Dryfield_AdText"		"— Закупуването на този артикул директно подкрепя твореца на обществената карта „Dryfield“."
+"TF_MapToken_CampSaxton"			"Марка на карта — Camp Saxton"
+"TF_MapToken_CampSaxton_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Camp Saxton“."
+"TF_MapToken_Shorelight_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Shorelight“."
+"TF_MapToken_Redwood_Desc"			"Карта в режим „Придвижване на товара“\n\nНаправена от Евън „Defcon“ Лебланк, „Sarexicus“ и „Stuffy360“.\n\nЗакупуването на този артикул директно подкрепя творците на обществената карта „Redwood“. Покажете своята подкрепа още днес!"
+"TF_MapToken_Redwood_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Redwood“."
+"TF_MapToken_Premuda_AdText"		"— Закупуването на този артикул директно подкрепя творците на обществената карта „Premuda“."
+"TF_MapToken_Mojave_AdText"			"— Закупуването на този артикул директно подкрепя творците на обществената карта „Mojave“."
+
 "TF_Map_Unknown"				"Картата не е намерена!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -7354,6 +7384,8 @@
 "cppl_gavle_village"					"селцето"
 "koth_winter_ridge_barn"				"замразеният хамбар"
 "ctf_sidewinder_goal"					"Откраднете куфарчето със сведенията от вражеската база."
+"cp_premuda_blue"						"Превземете и преустановете сателитните чинии!"
+"cp_premuda_red"						"Спрете СИНИТЕ, така че да не преустановят сателитните чинии!"
 // Win panel strings
 "Winpanel_Team1"			"ОТБОР"
 "Winpanel_Team2"			"Отбор"
@@ -13657,6 +13689,7 @@
 "TF_Ali_Babas_Wee_Booties"		"Ботушките на Али Баба"
 "TF_SultansCeremonial"			"Церемониалните одежди на султана"
 "TF_SplendidScreen"			"Разкошният параван" // ADD THE
+"TF_SplendidScreen_desc"			"Алт. стрелба: Връхлитате с щурм към враговете си и дебъфовете се премахват.\nПридобивате критичен ръкопашен удар при стълкновение с враг на разстояние."
 "TF_MarketGardener"			"Пазарският градинар" // ADD THE
 "TF_ReserveShooter"			"Запасният офицер" // ADD THE
 "TF_LibertyLauncher"			"Ракетометът на свободата" // ADD THE
@@ -18690,6 +18723,15 @@
 "TF_taunt_the_critical_fail_AdText"			"— Присмех за всички класове, създаден от общността."
 "TF_taunt_chairholder"						"Присмех — Столовият акционер"
 "TF_taunt_chairholder_AdText"				"— Присмех на Разузнавача, създаден от общността."
+"TF_taunt_the_circuit_breaker"				"Присмех — Прекъсвач"
+"TF_taunt_the_circuit_breaker_Desc"			"Присмех на Картечаря, създаден от общността."
+"TF_taunt_the_circuit_breaker_AdText"		"— Присмех на Картечаря, създаден от общността."
+"TF_taunt_buffoons_bivouac"					"Присмех — Бивакът на простака"
+"TF_taunt_buffoons_bivouac_AdText"			"— Присмех на Войника, създаден от общността."
+"TF_taunt_fauxcalization_Desc"				"Присмех на Шпионина, създаден от общността."
+"TF_taunt_fauxcalization_AdText"			"— Присмех на Шпионина, създаден от общността."
+"TF_taunt_friendly_fire_Desc"				"Присмех на Подпалвача, създаден от общността."
+"TF_taunt_friendly_fire_AdText"				"— Присмех на Подпалвача, създаден от общността."
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Респираторната торба"	// ADD THE
@@ -19737,9 +19779,6 @@
 "TF_hwn2024_strikeout"					"Страйкаутът" // ADD THE
 "TF_hwn2024_hellish_overlord"			"Адски повелител"
 "TF_hwn2024_strigoi_stare"				"Стригойското вторачване"
-"TF_hwn2024_strigoi_stare_style1"			"Стил 1"
-"TF_hwn2024_strigoi_stare_style2"			"Стил 2"
-"TF_hwn2024_strigoi_stare_style3"			"Стил 3"
 "TF_hwn2024_dusk_duster"				"Смрачаващият шлифер"
 "TF_hwn2024_dusk_duster_style1"				"Залез"
 "TF_hwn2024_dusk_duster_style2"				"Здрач"
@@ -19831,7 +19870,7 @@
 "TF_sum25_mr_rostov_style2"					"Ловък"
 "TF_sum25_esprit"						"Корпоративният дух"
 "TF_sum25_esprit_style1"					"Рутинен"
-"TF_sum25_esprit_style2"					"Слубен"
+"TF_sum25_esprit_style2"					"Служебен"
 "TF_sum25_hardcore"						"Закоравелите панталони"
 "TF_sum25_hardcore_style1"					"Трезвен"
 "TF_sum25_hardcore_style2"					"Пиян"
@@ -19851,9 +19890,6 @@
 "TF_sum25_jarhead_style2"					"Без очила"
 "TF_sum25_jarhead_style3"					"Без коса"
 "TF_sum25_le_sapeur"					"Льо саботьорът"
-"TF_sum25_le_sapeur_style1"					"Стил 1"
-"TF_sum25_le_sapeur_style2"					"Стил 2"
-"TF_sum25_le_sapeur_style3"					"Стил 3"
 "TF_sum25_le_morne"						"Льо унилата униформа"
 "TF_sum25_spy_ties"						"Шпионски вратовръзки"
 "TF_sum25_spy_ties_style1"					"Шарка"
@@ -19867,13 +19903,7 @@
 "TF_sum25_clinical"						"Клиничният следовател"
 
 "TF_hwn2025_heat_shield"				"Топлинен щит"
-"TF_hwn2025_heat_shield_style1"				"Стил 1"
-"TF_hwn2025_heat_shield_style2"				"Стил 2"
-"TF_hwn2025_heat_shield_style3"				"Стил 3"
-"TF_hwn2025_heat_shield_style4"				"Стил 4"
 "TF_hwn2025_technicians_tunic"			"Куртката на техника"
-"TF_hwn2025_technicians_tunic_style1"		"Стил 1"
-"TF_hwn2025_technicians_tunic_style2"		"Стил 2"
 "TF_hwn2025_service_satchel"			"Сервизната чанта за кръст"
 "TF_hwn2025_cigarillo"					"Пуретата на кабалерото"
 "TF_hwn2025_cigarillo_style1"				"Шал"
@@ -19979,10 +20009,6 @@
 "TF_dec25_willis_warmer_style2"				"Запасана"
 "TF_dec25_sole_providers"				"Единствените доставчици" // ADD THE
 "TF_dec25_scrooge"						"Скрудж МакКрокет"
-"TF_dec25_scrooge_style1"					"Стил 1"
-"TF_dec25_scrooge_style2"					"Стил 2"
-"TF_dec25_scrooge_style3"					"Стил 3"
-"TF_dec25_scrooge_style4"					"Стил 4"
 "TF_dec25_black_tie"					"Аферата за черна вратовръзка"
 "TF_dec25_black_tie_style1"					"Живецът на празненството"
 "TF_dec25_black_tie_style2"					"Сухарът на празненството"
