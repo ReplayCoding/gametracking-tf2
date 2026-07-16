@@ -1607,7 +1607,6 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"RGB 7 LAN 2위"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"RGB 7 LAN 3위"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"RGB 7 LAN 참가자"
-
 "TF_TournamentMedal_Season1"	"1기"
 "TF_TournamentMedal_Season2"	"2기"
 "TF_TournamentMedal_Season3"	"3기"
@@ -13226,6 +13225,8 @@
 "Attrib_Particle403"			"한밤중의 눈서리"
 "Attrib_Particle404"			"황혼의 눈꽃 송이"
 "Attrib_Particle405"			"극저온"
+"Attrib_Particle410"			"개화"
+"Attrib_Particle411"			"개화"
 // Weapon Unusual
 "Attrib_Particle701"			"뜨거운 열기"
 "Attrib_Particle702"			"동위 원소"
@@ -18669,6 +18670,7 @@
 "TF_taunt_the_critical_fail_AdText"			"- 커뮤니티 제작 모든 병과 도발"
 "TF_taunt_chairholder"						"도발: 현금 의자"
 "TF_taunt_chairholder_AdText"				"- 커뮤니티 제작 스카웃 도발"
+"TF_taunt_the_circuit_breaker"				"도발: 서킷 브레이커"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"호흡용 봉투"	// ADD THE
@@ -19958,6 +19960,11 @@
 "TF_dec25_flatline_flatcap_style2"			"염색한 머리"
 "TF_dec25_cardiologists_cardigan"		"심장 전문의 카디건"
 "TF_dec25_scrub_stompers"				"수술실 작업복"
+"TF_sum26_bald_spotter"					"대머리 감지기"
+"TF_sum26_bald_spotter_style1"				"근시"
+"TF_sum26_bald_spotter_style2"				"원시"
+"TF_sum26_surgical_shroud"				"수술복"
+
 "TF_style_bullets"						"탄환"
 "TF_style_nobullets"					"탄환 없음"
 

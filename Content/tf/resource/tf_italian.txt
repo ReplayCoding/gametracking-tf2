@@ -1611,6 +1611,10 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"RGB 7 LAN - Secondo posto"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"RGB 7 LAN - Terzo posto"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"RGB 7 LAN - Partecipante"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"RGB 8 LAN - Primo posto"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"RGB 8 LAN - Secondo posto"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"RGB 8 LAN - Terzo posto"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"RGB 8 LAN - Partecipante"
 
 "TF_TournamentMedal_Season1"	"Stagione 1"
 "TF_TournamentMedal_Season2"	"Stagione 2"
@@ -3616,6 +3620,16 @@
 
 "TF_TournamentMedal_Supreme_Strategist"					"Sigillo dello Status di Superstratega"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"Una medaglia speciale assegnata dal CEO di Gray Gravel Co. a tutti coloro che hanno dimostrato fedeltà alla causa. Solo i più abili nell'arte di guidare i suoi eserciti l'hanno potuta tenere tra le mani. Si raccomanda di non indossarla in pubblico. Conferita agli autori dei contenuti degli eventi MvM di Moonlight!"
+
+"TF_TournamentMedal_JF_Soldier_1st"						"Play-off di Jump Fortress Soldier - Primo posto"
+"TF_TournamentMedal_JF_Soldier_2nd"						"Play-off di Jump Fortress Soldier - Secondo posto"
+"TF_TournamentMedal_JF_Soldier_3rd"						"Play-off di Jump Fortress Soldier - Terzo posto"
+"TF_TournamentMedal_JF_Soldier_Participant"				"Play-off di Jump Fortress Soldier - Partecipante"
+"TF_TournamentMedal_JF_Demoman_1st"						"Play-off di Jump Fortress Demoman - Primo posto"
+"TF_TournamentMedal_JF_Demoman_2nd"						"Play-off di Jump Fortress Demoman - Secondo posto"
+"TF_TournamentMedal_JF_Demoman_3rd"						"Play-off di Jump Fortress Demoman - Terzo posto"
+"TF_TournamentMedal_JF_Demoman_Participant"				"Play-off di Jump Fortress Demoman - Partecipante"
+"TF_TournamentMedal_JF_Contributor"						"Play-off di Jump Fortress - Collaboratore "
 
 "TF_heals4reals_gold"			"Heals for Reals Event - Primo posto"
 "TF_heals4reals_silver"			"Heals for Reals Event - Secondo posto"
@@ -13311,15 +13325,15 @@
 "Attrib_Particle405"			"Criogenico"
 
 // Summer 2026 Unusual
-"Attrib_Particle407"			"Luci del Nord"
-"Attrib_Particle408"			"Notti del Nord"
-"Attrib_Particle409"			"Aurora Solare"
-"Attrib_Particle410"			"Crescita Floreale"
-"Attrib_Particle411"			"Crescita Floreale"
-"Attrib_Particle412"			"Orbita Stellare"
-"Attrib_Particle413"			"Farfalle Estatiche"
-"Attrib_Particle414"			"Farfalle Estatiche"
-"Attrib_Particle415"			"Ali Eteree"
+"Attrib_Particle407"			"Luci del nord"
+"Attrib_Particle408"			"Prisma polare"
+"Attrib_Particle409"			"Aurora solare"
+"Attrib_Particle410"			"Crescita floreale"
+"Attrib_Particle411"			"Crescita floreale"
+"Attrib_Particle412"			"Orbita stellare"
+"Attrib_Particle413"			"Farfalle estatiche"
+"Attrib_Particle414"			"Farfalle estatiche"
+"Attrib_Particle415"			"Ali eteree"
 
 // Weapon Unusual
 "Attrib_Particle701"			"Scottante"
@@ -13589,12 +13603,12 @@
 "Attrib_Particle3223"		"Interruzione del circuito"
 
 // Summer 2026 Unusual Taunts
-"Attrib_Particle3224"		"Campo di Grano"
-"Attrib_Particle3225"		"Deriva Luminosa"
-"Attrib_Particle3226"		"Deriva Luminosa"
+"Attrib_Particle3224"		"Campo di grano"
+"Attrib_Particle3225"		"Deriva luminosa"
+"Attrib_Particle3226"		"Deriva luminosa"
 "Attrib_Particle3227"		"Bioluminescenza"
-"Attrib_Particle3228"		"Luci della Ribalta"
-"Attrib_Particle3229"		"Immersione Profonda"
+"Attrib_Particle3228"		"Luci della ribalta"
+"Attrib_Particle3229"		"Immersione profonda"
 
 // End Unusual taunt FX
 

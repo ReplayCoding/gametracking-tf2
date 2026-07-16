@@ -1611,6 +1611,10 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"Второе место в RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"Третье место в RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"Участник RGB 7 LAN"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"Первое место в RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"Второе место в RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"Третье место в RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"Участник RGB 8 LAN"
 
 "TF_TournamentMedal_Season1"	"1-й сезон"
 "TF_TournamentMedal_Season2"	"2-й сезон"
@@ -3625,6 +3629,16 @@
 
 "TF_TournamentMedal_Supreme_Strategist"					"Сигил статуса сверхумного стратега"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"Особая медаль, вручаемая генеральным директором \"Грей Гравий Ко.\" самым верным последователям. Такой чести удостоены лишь самые изысканные стратеги, умело управляющие армией роботов. Директор также не рекомендует выставлять её напоказ. Выдано пользователям, создавшим контент для мероприятий от Moonlight MvM!"
+
+"TF_TournamentMedal_JF_Soldier_1st"						"Первое место в Jump Fortress Play-Offs 2026 (солдат)"
+"TF_TournamentMedal_JF_Soldier_2nd"						"Второе место в Jump Fortress Play-Offs 2026 (солдат)"
+"TF_TournamentMedal_JF_Soldier_3rd"						"Третье место в Jump Fortress Play-Offs 2026 (солдат)"
+"TF_TournamentMedal_JF_Soldier_Participant"				"Участник Jump Fortress Play-Offs 2026 (солдат)"
+"TF_TournamentMedal_JF_Demoman_1st"						"Первое место в Jump Fortress Play-Offs 2026 (подрывник)"
+"TF_TournamentMedal_JF_Demoman_2nd"						"Второе место в Jump Fortress Play-Offs 2026 (подрывник)"
+"TF_TournamentMedal_JF_Demoman_3rd"						"Третье место в Jump Fortress Play-Offs 2026 (подрывник)"
+"TF_TournamentMedal_JF_Demoman_Participant"				"Участник Jump Fortress Play-Offs 2026 (подрывник)"
+"TF_TournamentMedal_JF_Contributor"						"Помощник Jump Fortress Playoffs"
 
 "TF_heals4reals_gold"			"Первое место в Heals for Reals"
 "TF_heals4reals_silver"			"Второе место в Heals for Reals"
@@ -13357,7 +13371,7 @@
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"Смутное сияние"
-"Attrib_Particle408"			"Северное свечение"
+"Attrib_Particle408"			"Полярная призма"
 "Attrib_Particle409"			"Солнечное сверкание"
 "Attrib_Particle410"			"Цвет-расцвет"
 "Attrib_Particle411"			"Цвет-расцвет"
@@ -20153,8 +20167,14 @@
 "TF_dec25_scrub_stompers"				"Докторские давители"
 
 "TF_sum26_hard_hearing"					"Слухоподавители"
+"TF_sum26_hard_hearing_style1"				"Профессионального образца"
+"TF_sum26_hard_hearing_style2"				"Стандартного образца"
+"TF_sum26_hard_hearing_style3"				"Военного образца"
+"TF_sum26_hard_hearing_style4"				"Слухового образца"
 "TF_sum26_deadwave"						"Передатчик мёртвых частот"
 "TF_sum26_beachcombers"					"Брыль бездельника"
+"TF_sum26_beachcombers_style1"				"Растительный"
+"TF_sum26_beachcombers_style2"				"Тропический"
 "TF_sum26_chief_executor"				"Генеральный исполнитель"
 "TF_sum26_vested_investors"				"Ангажированный акционер"
 "TF_sum26_standing_offer"				"Портки предпринимателя"

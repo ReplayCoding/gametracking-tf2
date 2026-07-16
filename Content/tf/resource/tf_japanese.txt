@@ -1611,6 +1611,10 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"RGB 7 LAN 準優勝"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"RGB 7 LAN 第3位"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"RGB 7 LAN 参加賞"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"RGB 8 LAN 優勝"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"RGB 8 LAN 準優勝"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"RGB 8 LAN 第3位"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"RGB 8 LAN 参加賞"
 
 "TF_TournamentMedal_Season1"	"シーズン 1"
 "TF_TournamentMedal_Season2"	"シーズン 2"
@@ -3633,6 +3637,16 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 
 "TF_TournamentMedal_Supreme_Strategist"					"Supreme Strategist's Sigil of Status"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"Gray Gravel社のCEOから、会社への忠誠を誓う社員たちに贈られる特別なメダルです。彼の軍を指揮する技術に長けた者だけが、このメダルを手にすることができます。公の場で身につけることは推奨していません。Moonlight MvM's eventsのコンテンツクリエイターに授与されました！"
+
+"TF_TournamentMedal_JF_Soldier_1st"						"ジャンプフォートレス・プレイオフ ソルジャー 優勝"
+"TF_TournamentMedal_JF_Soldier_2nd"						"ジャンプ フォートレス・プレイオフ ソルジャー 準優勝"
+"TF_TournamentMedal_JF_Soldier_3rd"						"ジャンプフォートレス・プレイオフ ソルジャー 第3位"
+"TF_TournamentMedal_JF_Soldier_Participant"				"ジャンプフォートレス・プレイオフ ソルジャー 参加賞"
+"TF_TournamentMedal_JF_Demoman_1st"						"ジャンプフォートレス・プレイオフ デモマン 優勝"
+"TF_TournamentMedal_JF_Demoman_2nd"						"ジャンプフォートレス・プレイオフ デモマン 準優勝"
+"TF_TournamentMedal_JF_Demoman_3rd"						"ジャンプフォートレス・プレイオフ デモマン 第3位"
+"TF_TournamentMedal_JF_Demoman_Participant"				"ジャンプフォートレス・プレイオフ デモマン 参加賞"
+"TF_TournamentMedal_JF_Contributor"						"ジャンプフォートレス・プレイオフ 貢献者"
 
 "TF_heals4reals_gold"			"Heals for Reals Event 優勝"
 "TF_heals4reals_silver"			"Heals for Reals Event 準優勝"
@@ -13360,7 +13374,7 @@ Potato MvM's Holographic Harvest eventの参加者に授与されました！"
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"アンブラルライト"
-"Attrib_Particle408"			"ノーザンナイト"
+"Attrib_Particle408"			"ポーラープリズム"
 "Attrib_Particle409"			"ソーラーシング"
 "Attrib_Particle410"			"花の生育"
 "Attrib_Particle411"			"花の生育"

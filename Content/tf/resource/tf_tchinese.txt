@@ -1606,7 +1606,6 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"RGB 7 LAN 亞軍"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"RGB 7 LAN 季軍"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"RGB 7 LAN 參賽獎"
-
 "TF_TournamentMedal_Season1"	"第一季"
 "TF_TournamentMedal_Season2"	"第二季"
 "TF_TournamentMedal_Season3"	"第三季"
@@ -2803,11 +2802,17 @@
 "TF_TournamentMedal_BrazilFortress_Jump_Helper"						"Brazil Fortress JumpCup 協助者"
 
 "TF_TournamentMedal_BrazilFortress_Hwn_First"						"可怕的第一名" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_First_Desc"					"這場鬧鬼比賽的真正冠軍。比所有人都還要嚇人，2018 年 Brazil Fortress Halloween 第 1 賽季冠軍。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Second"						"法力高強的第二名" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Second_Desc"					"在月黑風高的夜裡，四處施放法術消滅怪物，在 2018 年 Brazil Fortress Halloween 第 1 賽季達到傲人的名次。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Third"						"怪物般的第三名" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Third_Desc"					"雖四分五裂，仍死而復生，你在 2018 年 Brazil Fortress Halloween 中大殺四方的表現讓創造者感到十分驕傲。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Playoffs"					"週五季後賽" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Playoffs_Desc"				"你一個一個殺光他們，你努力取得好成績，但是你在 2018 年 Brazil Fortress Halloween 的夢想中途翻船，讓你意外沉沒。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Participant"					"吸血鬼參賽者" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Participant_Desc"			"你大吸特吸，吃飽喝足，感謝你參與了 2018 年 Brazil Fortress Halloween，讓鮮血噴濺四方。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Assistant"					"被詛咒的助手" // ADD THE
+"TF_TournamentMedal_BrazilFortress_Hwn_Assistant_Desc"				"整個晚上，遠處不斷傳來聲響，多虧了你 2018 年 Brazil Fortress Halloween 才能圓滿落幕。他們雖然不會對你動手，但會詛咒你永遠不得安息。"
 "TF_TournamentMedal_BrazilFortress_Hwn_Scary_First"					"Brazil Fortress Halloween - 嚇人組冠軍"
 "TF_TournamentMedal_BrazilFortress_Hwn_Scary_Second"				"Brazil Fortress Halloween - 嚇人組亞軍"
 "TF_TournamentMedal_BrazilFortress_Hwn_Scary_Third"					"Brazil Fortress Halloween - 嚇人組季軍"
@@ -3077,6 +3082,9 @@
 "TF_TournamentMedal_AHH_Participant2022"	"為了追求瘋狂的 Highjinx、混亂，或是單純為了好玩，你與其他 8 人鐵了心挑戰 Hightower。感謝你參與 2022 年 AHH！"
 "TF_TournamentMedal_AHH_Donor2022"			"不論你是來為了行善而捐款，或是為了展現你對 Hightower 的愛，你都證明了自己是頂尖中的頂尖。恭喜你參與 2022 年 AHH！"
 "TF_TournamentMedal_AHH_Helper2022"			"這面獎章是為了表彰那些讓 Highjinx 不至於失控，確保傷亡人數降至最低，並讓 2022 年的 Highjinx 得以順利運作的人！"
+"TF_TournamentMedal_AHH_RoyaltyDesc"		"憑藉著慷慨的捐贈與純粹的競技精神，你成功登上了高塔頂端！士兵，辛苦你了！恭喜你見證了巔峰，但也別忘了向著更高的目標繼續翱翔，還有許多座高塔等著你來征服。感謝你一起參與這趟旅程！我們為你感到驕傲！"
+"TF_TournamentMedal_AHH_ParticipantDesc"	"為了追求瘋狂的 Highjinx、混亂，或是單純為了好玩，你與你的同伴鐵了心挑戰 Hightower。感謝你參與這一切！"
+"TF_TournamentMedal_AHH_DonorDesc"			"不論你是來為了行善而捐款，或是為了展現你對 Hightower 的愛，你都證明了自己是頂尖中的頂尖。恭喜你成為 AHH 的一份子！"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_First"				"South American Vanilla Fortress 6v6 邀請賽冠軍"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Second"				"South American Vanilla Fortress 6v6 邀請賽亞軍"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Third"				"South American Vanilla Fortress 6v6 邀請賽季軍"
@@ -13207,7 +13215,6 @@
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"極影之光"
-"Attrib_Particle408"			"北國之夜"
 "Attrib_Particle409"			"日光灼燒"
 "Attrib_Particle413"			"幸福舞蝶"
 "Attrib_Particle415"			"輕柔翅膀"
@@ -18656,6 +18663,10 @@ ________________________________________
 "TF_taunt_the_circuit_breaker_Desc"			"社群製作的 Heavy 嘲諷"
 "TF_taunt_the_circuit_breaker_AdText"		"- 社群製作的 Heavy 嘲諷"
 "TF_taunt_buffoons_bivouac"					"嘲諷：活寶營地"
+"TF_taunt_fauxcalization_Desc"				"社群製作的 Spy 嘲諷"
+"TF_taunt_fauxcalization_AdText"			"- 社群製作的 Spy 嘲諷"
+"TF_taunt_friendly_fire_Desc"				"社群製作的 Pyro 嘲諷"
+"TF_taunt_friendly_fire_AdText"				"- 社群製作的 Pyro 嘲諷"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"打洞呼吸袋"	// ADD THE
@@ -19946,9 +19957,27 @@ ________________________________________
 "TF_dec25_scrub_stompers"				"手術專用鞋"
 
 "TF_sum26_hard_hearing"					"降噪耳機"
+"TF_sum26_hard_hearing_style1"				"特殊問題"
+"TF_sum26_hard_hearing_style2"				"標準問題"
+"TF_sum26_hard_hearing_style3"				"軍方問題"
+"TF_sum26_hard_hearing_style4"				"聽力問題"
 "TF_sum26_beachcombers"					"海灘拾荒者的寬帽"
+"TF_sum26_beachcombers_style1"				"植物學家"
+"TF_sum26_beachcombers_style2"				"熱帶"
+"TF_sum26_barbeque_style1"					"亮色"
+"TF_sum26_barbeque_style2"					"暗色"
+"TF_sum26_tropical_torcher_style1"			"沒有手榴彈"
+"TF_sum26_tropical_torcher_style2"			"手榴彈"
 "TF_sum26_pyros_overalls"				"Pyro 的吊帶褲"
+"TF_sum26_deadliest_match_style1"			"鬍子"
+"TF_sum26_deadliest_match_style2"			"無鬍子"
+"TF_sum26_handsome_style2"					"下班後"
+"TF_sum26_atomic_kicks_style1"				"Bonk！"
+"TF_sum26_atomic_kicks_style2"				"爆擊可樂"
+"TF_sum26_lieutenants_cut_style1"			"雪茄"
+"TF_sum26_lieutenants_cut_style3"			"沒鬍子"
 "TF_sum26_inglorious_patriot"			"無恥愛國者"
+"TF_sum26_delusions_style2"					"素色"
 "TF_style_bullets"						"有子彈"
 "TF_style_nobullets"					"無子彈"
 
@@ -20613,6 +20642,11 @@ E)－藍隊可在任何時候搶下這點以獲得勝利
 備註：
 控制點上鎖時無法佔領。 
 如果敵隊佔領了控制點，您的隊伍的計時器在重新奪回控制點前會暫停倒數。"
+
+"htf_marshlands_description"			"目標： 
+撿起並保住情報箱 3 分鐘！
+
+手持情報箱時不要越過魔法結界，否則情報箱會消失並返回原位！"
 
 "cp_cowerhouse_description"			"目標：
 隊伍必須要奪得全部三個控制點以獲得勝利。

@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 8
+Revision: 10
 {
 "world_maxs" "4176 3715 1616"
 "world_mins" "-3180 -2688 0"
@@ -13,7 +13,7 @@ Revision: 8
 "author" "Valentin 'ElectroSheep/3Dnj' Levillain"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "2409"
+"mapversion" "2421"
 "hammerid" "1"
 }
 {
@@ -10399,6 +10399,19 @@ Revision: 8
 "hammerid" "1719394"
 }
 {
+"model" "*80"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "288 288 320"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"angles" "0 0 0"
+"classname" "func_illusionary"
+"hammerid" "1747269"
+}
+{
 "origin" "-8736 9696 -6200"
 "use_angles" "0"
 "scale" "16"
@@ -10413,7 +10426,7 @@ Revision: 8
 "fogblend" "0"
 "angles" "0 313 0"
 "classname" "sky_camera"
-"hammerid" "1719396"
+"hammerid" "1747271"
 }
 {
 "origin" "-8763.79 9481.2 -6132.2"
@@ -10427,7 +10440,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729901 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742317"
+"hammerid" "1770192"
 }
 {
 "origin" "-8754.47 9530.34 -6136.6"
@@ -10442,7 +10455,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729901 84.0444 6.96203"
 "classname" "move_rope"
-"hammerid" "1742320"
+"hammerid" "1770195"
 }
 {
 "origin" "-8767.43 9421.38 -6132.05"
@@ -10456,7 +10469,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729905 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742353"
+"hammerid" "1770228"
 }
 {
 "origin" "-8701.69 9329.78 -6121.92"
@@ -10470,7 +10483,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729905 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742466"
+"hammerid" "1770341"
 }
 {
 "origin" "-8775.31 9422.66 -6132.05"
@@ -10484,7 +10497,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729905 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742469"
+"hammerid" "1770344"
 }
 {
 "origin" "-8771.77 9481.12 -6132.05"
@@ -10498,7 +10511,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729905 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742473"
+"hammerid" "1770348"
 }
 {
 "origin" "-8762.68 9532.02 -6136.56"
@@ -10511,7 +10524,7 @@ Revision: 8
 "MoveSpeed" "64"
 "angles" "0.729906 84.0444 6.96203"
 "classname" "keyframe_rope"
-"hammerid" "1742476"
+"hammerid" "1770351"
 }
 {
 "origin" "-8923.11 9591.53 -6050.57"
@@ -10520,7 +10533,7 @@ Revision: 8
 "effect_name" "smoke_urbantower_skybox"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "1767127"
+"hammerid" "1795002"
 }
 {
 "origin" "-8508.04 9882.82 -6065.12"
@@ -10529,10 +10542,10 @@ Revision: 8
 "effect_name" "smoke_urbantower_skybox"
 "angles" "0 270 0"
 "classname" "info_particle_system"
-"hammerid" "1769479"
+"hammerid" "1797354"
 }
 {
-"model" "*80"
+"model" "*81"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10543,10 +10556,10 @@ Revision: 8
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "1773235"
+"hammerid" "1801110"
 }
 {
-"model" "*81"
+"model" "*82"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -10557,6 +10570,6 @@ Revision: 8
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "1773653"
+"hammerid" "1801528"
 }
  
