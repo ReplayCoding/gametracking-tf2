@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW006C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_medi_evil/c-944_-1424_-62"
+	}
+}

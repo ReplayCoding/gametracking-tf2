@@ -1,0 +1,21 @@
+//-----------------------------------------------------------------------------
+// Deer Kill
+//-----------------------------------------------------------------------------
+
+"Announcer.Deer"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"		"vo/compmode/cm_admin_misc_01.mp3"
+		"wave"		"vo/compmode/cm_admin_misc_02.mp3"
+		"wave"		"vo/compmode/cm_admin_misc_07.mp3"
+		"wave"		"vo/compmode/cm_admin_misc_08.mp3"
+		"wave"		"vo/compmode/cm_admin_misc_09.mp3"
+	}
+}

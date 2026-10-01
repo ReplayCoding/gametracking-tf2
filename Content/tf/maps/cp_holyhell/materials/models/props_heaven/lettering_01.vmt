@@ -1,0 +1,28 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "custom/heaven/lettering_01"
+	"$surfaceprop"	"concrete"
+	"%keywords"	"tf"
+	
+	
+
+	"$model" "1"
+
+	
+	"$yellow" "0"
+
+	"$envmap" "effects/saxxy/saxxy_gold"
+	"$envmaptint" "[.1 .1 .1]"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+
+
+
+
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_wildcat_event/swamp/water/water_swamp_-608_-1815_48.vmt"
+	"insert"
+	{
+		"$waterdepth"		"120"
+	}
+}

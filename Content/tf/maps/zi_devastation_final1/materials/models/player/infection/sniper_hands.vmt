@@ -10,7 +10,7 @@
 	"$lightwarptexture" "models/player/engineer/engineer_hands_lightwarp"
 	"$phongfresnelranges"	"[1 5 60]"
 	"$halflambert" "1"
-	"$phongtint" "{118 158 44}"
+	//"$phongtint" "{118 158 44}"
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)

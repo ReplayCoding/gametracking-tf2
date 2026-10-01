@@ -1,7 +1,7 @@
 BSP Version: 20
 Revision: 1
 {
-"world_maxs" "3776 864 2280"
+"world_maxs" "2224 864 2280"
 "world_mins" "-1088 -2032 -1344"
 "skyname" "sky_night_02"
 "minoccluderarea" "0.0"
@@ -11,7 +11,7 @@ Revision: 1
 "detailmaterial" "detail/detailsprites_2fort"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "1176"
+"mapversion" "1390"
 "hammerid" "1"
 }
 {
@@ -37,7 +37,7 @@ Revision: 1
 "fogstart" "-1"
 "fogmaxdensity" "1"
 "foglerptime" "0"
-"fogend" "2500"
+"fogend" "2100"
 "fogenable" "1"
 "fogdir" "1 0 0"
 "fogcolor2" "28 27 34"
@@ -203,6 +203,156 @@ Revision: 1
 "hammerid" "278532"
 }
 {
+"origin" "-80 448 512.005"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 300 0"
+"classname" "info_player_teamspawn"
+"hammerid" "415089"
+}
+{
+"origin" "152 -1960 0.00457001"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 30 0"
+"classname" "info_player_teamspawn"
+"hammerid" "415115"
+}
+{
+"origin" "-600 464 128.005"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 315 0"
+"classname" "info_player_teamspawn"
+"hammerid" "415163"
+}
+{
+"origin" "-812.522 -1009.65 0.00457764"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 30 0"
+"classname" "info_player_teamspawn"
+"hammerid" "415124"
+}
+{
+"origin" "1656 -320 272"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "78408"
+}
+{
+"origin" "1984 16 512.005"
+"TeamNum" "3"
+"StartDisabled" "0"
+"SpawnMode" "0"
+"spawnflags" "511"
+"model" "models/editor-abs/dev_engy.mdl"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "384369"
+}
+{
+"origin" "243.48 -121.03 1028"
+"spawnflags" "1"
+"scale" ".75"
+"rendermode" "9"
+"renderfx" "0"
+"rendercolor" "235 250 254"
+"renderamt" "255"
+"model" "materials/Sprites/light_glow03.vmt"
+"mindxlevel" "0"
+"maxdxlevel" "0"
+"HDRColorScale" "1.0"
+"GlowProxySize" "4"
+"framerate" "10.0"
+"disablereceiveshadows" "0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "71071"
+}
+{
+"origin" "244 -120 1022.37"
+"pitch" "-88"
+"angles" "-88 210 180"
+"_quadratic_attn" "1"
+"_lightscaleHDR" ".8"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "211 216 231 600"
+"_inner_cone" "30"
+"_exponent" "1"
+"_cone" "55"
+"classname" "light_spot"
+"hammerid" "71065"
+}
+{
+"origin" "243.64 -120.21 1010.38"
+"_quadratic_attn" "1"
+"_lightscaleHDR" ".5"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "154 158 211 40"
+"classname" "light"
+"hammerid" "71060"
+}
+{
+"origin" "1099.48 -397.03 1028"
+"spawnflags" "1"
+"scale" ".75"
+"rendermode" "9"
+"renderfx" "0"
+"rendercolor" "235 250 254"
+"renderamt" "255"
+"model" "materials/Sprites/light_glow03.vmt"
+"mindxlevel" "0"
+"maxdxlevel" "0"
+"HDRColorScale" "1.0"
+"GlowProxySize" "4"
+"framerate" "10.0"
+"disablereceiveshadows" "0"
+"angles" "0 0 0"
+"classname" "env_sprite"
+"hammerid" "71139"
+}
+{
+"origin" "1100 -396 1022.37"
+"pitch" "-88"
+"angles" "-88 210 -180"
+"_quadratic_attn" "1"
+"_lightscaleHDR" ".8"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "211 216 231 1200"
+"_inner_cone" "20"
+"_exponent" "1"
+"_cone" "30"
+"classname" "light_spot"
+"hammerid" "71133"
+}
+{
+"origin" "1099.64 -396.21 1010.38"
+"_quadratic_attn" "1"
+"_lightscaleHDR" ".5"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "154 158 211 40"
+"classname" "light"
+"hammerid" "71128"
+}
+{
 "portalnumber" "1"
 "StartOpen" "1"
 "PortalVersion" "1"
@@ -222,7 +372,7 @@ Revision: 1
 "hammerid" "78183"
 }
 {
-"origin" "1584 -1840 16"
+"origin" "1192 -1752 16"
 "TeamNum" "2"
 "StartDisabled" "0"
 "SpawnMode" "0"
@@ -233,7 +383,7 @@ Revision: 1
 "hammerid" "78172"
 }
 {
-"origin" "1400.45 -936 12"
+"origin" "1120 -624 12"
 "TeamNum" "2"
 "StartDisabled" "0"
 "SpawnMode" "0"
@@ -553,14 +703,17 @@ Revision: 1
 }
 {
 "origin" "-536 0 20.2106"
+"TeamNum" "0"
+"StartDisabled" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "modelscale" "1.0"
 "fadescale" "1.0"
 "fademindist" "-1"
+"fademaxdist" "0"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_healthammokit"
+"classname" "item_healthkit_small"
 "hammerid" "47752"
 }
 {
@@ -691,28 +844,6 @@ Revision: 1
 "_cone" "65"
 "classname" "light_spot"
 "hammerid" "410179"
-}
-{
-"origin" "1656 -964 768.005"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "410438"
-}
-{
-"origin" "1824.23 -964 768.005"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "410436"
 }
 {
 "origin" "-471.2 -728 408"
@@ -929,83 +1060,6 @@ Revision: 1
 "hammerid" "78414"
 }
 {
-"origin" "1952 -528 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78408"
-}
-{
-"origin" "2024 -528 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78406"
-}
-{
-"origin" "1880 -528 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78404"
-}
-{
-"origin" "2024 -600 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78398"
-}
-{
-"origin" "1952 -600 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78396"
-}
-{
-"origin" "1880 -600 272"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78392"
-}
-{
-"origin" "-864 -1344 16"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78341"
-}
-{
 "model" "*13"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -1015,28 +1069,6 @@ Revision: 1
 "angles" "0 0 0"
 "classname" "trigger_add_tf_player_condition"
 "hammerid" "389006"
-}
-{
-"origin" "1576 -1088 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 0 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78299"
-}
-{
-"origin" "848 240 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 135 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78267"
 }
 {
 "portalnumber" "5"
@@ -1140,12 +1172,6 @@ Revision: 1
 "angles" "0 0 0"
 "classname" "item_ammopack_small"
 "hammerid" "400954"
-}
-{
-"origin" "400.5 -76.5 520"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263983"
 }
 {
 "origin" "-768 -1535.11 165.368"
@@ -1287,64 +1313,11 @@ Revision: 1
 "hammerid" "72620"
 }
 {
-"origin" "1712 -919.5 264"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263980"
-}
-{
-"origin" "1667.5 282.5 520"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263977"
-}
-{
-"origin" "-355.5 -774 264"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263974"
-}
-{
-"origin" "2056.5 -821 16"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263965"
-}
-{
-"origin" "1576.5 -1763 16"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263962"
-}
-{
-"origin" "1754 -927.5 16"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263959"
-}
-{
-"origin" "510 -414.5 232"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263956"
-}
-{
 "portalnumber" "9"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77459"
-}
-{
-"origin" "692 236 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78265"
 }
 {
 "portalnumber" "10"
@@ -1375,28 +1348,6 @@ Revision: 1
 "_light" "154 158 211 40"
 "classname" "light"
 "hammerid" "71145"
-}
-{
-"origin" "1888 -1024 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 135 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78295"
-}
-{
-"origin" "1888 -1088 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 180 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78297"
 }
 {
 "portalnumber" "11"
@@ -1447,34 +1398,6 @@ Revision: 1
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "856.79 -466.85 546.44"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "393928"
-}
-{
-"model" "*24"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "476 -716 546.42"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "393893"
-}
-{
-"model" "*25"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
 "origin" "-196 -928 112.82"
 "croc_model" "models/props_island/crocodile/crocodile.mdl"
 "angles" "0 0 0"
@@ -1482,7 +1405,7 @@ Revision: 1
 "hammerid" "393966"
 }
 {
-"model" "*26"
+"model" "*24"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -1495,7 +1418,7 @@ Revision: 1
 "hammerid" "395181"
 }
 {
-"model" "*27"
+"model" "*25"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -1516,7 +1439,7 @@ Revision: 1
 "hammerid" "396312"
 }
 {
-"model" "*28"
+"model" "*26"
 "wait" "1"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -1529,7 +1452,7 @@ Revision: 1
 "OnEndTouchAll" "swr_exit_door_1Close0-1"
 }
 {
-"model" "*29"
+"model" "*27"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "swr_exit_door_1"
@@ -1556,7 +1479,7 @@ Revision: 1
 "hammerid" "396286"
 }
 {
-"model" "*30"
+"model" "*28"
 "wait" "-1"
 "unlocked_sentence" "0"
 "targetname" "swr_exit_door_2"
@@ -1617,7 +1540,7 @@ Revision: 1
 "hammerid" "396193"
 }
 {
-"model" "*31"
+"model" "*29"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "46 -374 308"
@@ -1628,7 +1551,7 @@ Revision: 1
 "hammerid" "395599"
 }
 {
-"model" "*32"
+"model" "*30"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "54 -970 564.25"
@@ -1639,7 +1562,7 @@ Revision: 1
 "hammerid" "395578"
 }
 {
-"model" "*33"
+"model" "*31"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -1650,48 +1573,6 @@ Revision: 1
 "angles" "0 0 0"
 "classname" "func_illusionary"
 "hammerid" "395191"
-}
-{
-"origin" "483.64 -88.21 1010.38"
-"_quadratic_attn" "1"
-"_lightscaleHDR" ".5"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "154 158 211 40"
-"classname" "light"
-"hammerid" "71060"
-}
-{
-"origin" "484 -88 1022.37"
-"pitch" "-88"
-"angles" "-88 210 -180"
-"_quadratic_attn" "1"
-"_lightscaleHDR" ".8"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "211 216 231 600"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "55"
-"classname" "light_spot"
-"hammerid" "71065"
-}
-{
-"origin" "483.48 -89.03 1028"
-"spawnflags" "1"
-"scale" ".75"
-"rendermode" "9"
-"renderfx" "0"
-"rendercolor" "235 250 254"
-"renderamt" "255"
-"model" "materials/Sprites/light_glow03.vmt"
-"mindxlevel" "0"
-"maxdxlevel" "0"
-"HDRColorScale" "1.0"
-"GlowProxySize" "4"
-"framerate" "10.0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "env_sprite"
-"hammerid" "71071"
 }
 {
 "origin" "319.48 -657.03 1028"
@@ -1736,7 +1617,7 @@ Revision: 1
 "hammerid" "71085"
 }
 {
-"model" "*34"
+"model" "*32"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -1760,7 +1641,7 @@ Revision: 1
 "hammerid" "255977"
 }
 {
-"model" "*35"
+"model" "*33"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -1773,13 +1654,7 @@ Revision: 1
 "hammerid" "255621"
 }
 {
-"origin" "627.5 -1646.5 72"
-"angles" "0 0 0"
-"classname" "tf_halloween_gift_spawn_location"
-"hammerid" "263986"
-}
-{
-"model" "*36"
+"model" "*34"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -1839,17 +1714,6 @@ Revision: 1
 "OnUser1" "!selfRoundWin0-1"
 }
 {
-"origin" "-736 -1544 16"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 0 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78335"
-}
-{
 "origin" "256 504 155.3"
 "style" "0"
 "pitch" "-90"
@@ -1902,15 +1766,6 @@ Revision: 1
 "hammerid" "71125"
 }
 {
-"origin" "1163.64 -380.21 1010.38"
-"_quadratic_attn" "1"
-"_lightscaleHDR" ".5"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "154 158 211 40"
-"classname" "light"
-"hammerid" "71128"
-}
-{
 "origin" "847.48 -125.03 1028"
 "spawnflags" "1"
 "scale" ".75"
@@ -1930,25 +1785,6 @@ Revision: 1
 "hammerid" "71156"
 }
 {
-"origin" "1163.48 -381.03 1028"
-"spawnflags" "1"
-"scale" ".75"
-"rendermode" "9"
-"renderfx" "0"
-"rendercolor" "235 250 254"
-"renderamt" "255"
-"model" "materials/Sprites/light_glow03.vmt"
-"mindxlevel" "0"
-"maxdxlevel" "0"
-"HDRColorScale" "1.0"
-"GlowProxySize" "4"
-"framerate" "10.0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "env_sprite"
-"hammerid" "71139"
-}
-{
 "origin" "-480 -1320 166.371"
 "style" "0"
 "pitch" "-90"
@@ -1966,20 +1802,6 @@ Revision: 1
 "_cone" "50"
 "classname" "light_spot"
 "hammerid" "74605"
-}
-{
-"origin" "1164 -380 1022.37"
-"pitch" "-88"
-"angles" "-88 210 180"
-"_quadratic_attn" "1"
-"_lightscaleHDR" ".8"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "211 216 231 600"
-"_inner_cone" "30"
-"_exponent" "1"
-"_cone" "55"
-"classname" "light_spot"
-"hammerid" "71133"
 }
 {
 "origin" "600 -697.03 1028"
@@ -2010,7 +1832,7 @@ Revision: 1
 "hammerid" "71114"
 }
 {
-"model" "*37"
+"model" "*35"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2023,7 +1845,7 @@ Revision: 1
 "hammerid" "71218"
 }
 {
-"model" "*38"
+"model" "*36"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2034,17 +1856,6 @@ Revision: 1
 "angles" "0 0 0"
 "classname" "func_illusionary"
 "hammerid" "22077"
-}
-{
-"origin" "916 248 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 135 0"
-"classname" "info_player_teamspawn"
-"hammerid" "97180"
 }
 {
 "origin" "-768 -1288.8 165.368"
@@ -2069,7 +1880,7 @@ Revision: 1
 "hammerid" "71955"
 }
 {
-"model" "*39"
+"model" "*37"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -2116,7 +1927,7 @@ Revision: 1
 "hammerid" "201783"
 }
 {
-"model" "*40"
+"model" "*38"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2129,7 +1940,7 @@ Revision: 1
 "hammerid" "201893"
 }
 {
-"model" "*41"
+"model" "*39"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2142,7 +1953,7 @@ Revision: 1
 "hammerid" "201991"
 }
 {
-"model" "*42"
+"model" "*40"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2155,7 +1966,7 @@ Revision: 1
 "hammerid" "201903"
 }
 {
-"model" "*43"
+"model" "*41"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2168,7 +1979,7 @@ Revision: 1
 "hammerid" "201916"
 }
 {
-"model" "*44"
+"model" "*42"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2181,7 +1992,7 @@ Revision: 1
 "hammerid" "201925"
 }
 {
-"model" "*45"
+"model" "*43"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2310,28 +2121,6 @@ Revision: 1
 "hammerid" "86113"
 }
 {
-"origin" "-744 -1336 16"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78325"
-}
-{
-"origin" "-736 -1480 16"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 0 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78323"
-}
-{
 "origin" "-160 504 214.119"
 "style" "0"
 "pitch" "-90"
@@ -2370,18 +2159,7 @@ Revision: 1
 "hammerid" "74571"
 }
 {
-"origin" "772 236 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 90 0"
-"classname" "info_player_teamspawn"
-"hammerid" "97178"
-}
-{
-"model" "*46"
+"model" "*44"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2418,14 +2196,17 @@ Revision: 1
 }
 {
 "origin" "1950 -606 26"
+"TeamNum" "0"
+"StartDisabled" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "modelscale" "1.0"
 "fadescale" "1.0"
 "fademindist" "-1"
+"fademaxdist" "0"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_healthammokit"
+"classname" "item_healthkit_small"
 "hammerid" "200513"
 }
 {
@@ -2470,36 +2251,7 @@ Revision: 1
 "hammerid" "86154"
 }
 {
-"portalnumber" "19"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "86160"
-}
-{
-"origin" "1525.85 -751.688 879.696"
-"style" "0"
-"spawnflags" "0"
-"pitch" "-67.5"
-"angles" "-67.5 0 0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 125"
-"_inner_cone" "45"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "51972"
-}
-{
-"model" "*47"
+"model" "*45"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2512,12 +2264,12 @@ Revision: 1
 "hammerid" "97279"
 }
 {
-"origin" "1051.99 -518.206 744"
+"origin" "-160 -480 1072"
 "volstart" "0"
 "spinup" "0"
 "spindown" "0"
 "spawnflags" "0"
-"radius" "428"
+"radius" "2000"
 "preset" "0"
 "pitchstart" "100"
 "pitch" "100"
@@ -2556,7 +2308,7 @@ Revision: 1
 "hammerid" "314208"
 }
 {
-"model" "*48"
+"model" "*46"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2569,7 +2321,7 @@ Revision: 1
 "hammerid" "71240"
 }
 {
-"model" "*49"
+"model" "*47"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2714,7 +2466,7 @@ Revision: 1
 "hammerid" "201716"
 }
 {
-"model" "*50"
+"model" "*48"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2727,7 +2479,7 @@ Revision: 1
 "hammerid" "202000"
 }
 {
-"model" "*51"
+"model" "*49"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2740,35 +2492,28 @@ Revision: 1
 "hammerid" "12400"
 }
 {
-"portalnumber" "20"
+"portalnumber" "19"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "202190"
 }
 {
-"portalnumber" "21"
+"portalnumber" "20"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "202208"
 }
 {
-"portalnumber" "22"
+"portalnumber" "21"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "202223"
 }
 {
-"portalnumber" "23"
-"StartOpen" "1"
-"PortalVersion" "1"
-"classname" "func_areaportal"
-"hammerid" "202248"
-}
-{
-"model" "*52"
+"model" "*50"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2801,7 +2546,7 @@ Revision: 1
 "hammerid" "201789"
 }
 {
-"model" "*53"
+"model" "*51"
 "TeamNum" "3"
 "targetname" "zombie_spawn"
 "StartDisabled" "0"
@@ -2932,7 +2677,7 @@ Revision: 1
 "hammerid" "199730"
 }
 {
-"model" "*54"
+"model" "*52"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -2945,7 +2690,7 @@ Revision: 1
 "hammerid" "201937"
 }
 {
-"model" "*55"
+"model" "*53"
 "TeamNum" "3"
 "targetname" "zombie_spawn"
 "StartDisabled" "0"
@@ -2957,50 +2702,28 @@ Revision: 1
 "hammerid" "384379"
 }
 {
-"origin" "1864 220 512.005"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 270 0"
-"classname" "info_player_teamspawn"
-"hammerid" "384369"
-}
-{
-"origin" "1864 284 512.005"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 270 0"
-"classname" "info_player_teamspawn"
-"hammerid" "384367"
-}
-{
-"portalnumber" "24"
+"portalnumber" "22"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86119"
 }
 {
-"portalnumber" "25"
+"portalnumber" "23"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86135"
 }
 {
-"portalnumber" "26"
+"portalnumber" "24"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86141"
 }
 {
-"portalnumber" "27"
+"portalnumber" "25"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -3054,7 +2777,7 @@ Revision: 1
 "hammerid" "78121"
 }
 {
-"model" "*56"
+"model" "*54"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "522 -472 57"
@@ -3095,26 +2818,6 @@ Revision: 1
 "hammerid" "81311"
 }
 {
-"model" "*57"
-"vrad_brush_cast_shadows" "0"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solid_to_enemies" "1"
-"respawnroomname" "zombie_spawn"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "564 -1016 632"
-"InputFilter" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_respawnroomvisualizer"
-"hammerid" "181727"
-}
-{
 "origin" "-727.503 -550.561 16"
 "radius" "-1"
 "MainSoundscapeName" "ss_sewers"
@@ -3151,14 +2854,14 @@ Revision: 1
 "hammerid" "90551"
 }
 {
-"portalnumber" "28"
+"portalnumber" "26"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77523"
 }
 {
-"portalnumber" "29"
+"portalnumber" "27"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -3319,7 +3022,7 @@ Revision: 1
 "hammerid" "75452"
 }
 {
-"model" "*58"
+"model" "*55"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -3368,7 +3071,7 @@ Revision: 1
 "hammerid" "174654"
 }
 {
-"origin" "864 106.133 944"
+"origin" "832 108 960"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
@@ -3388,207 +3091,6 @@ Revision: 1
 "_cone" "45"
 "classname" "light_spot"
 "hammerid" "66556"
-}
-{
-"origin" "3476.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_spy.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305616"
-}
-{
-"origin" "3348.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_demo.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305620"
-}
-{
-"origin" "3284.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_medic.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305624"
-}
-{
-"origin" "3220.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_heavy.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305628"
-}
-{
-"origin" "3584 -640 412"
-"style" "0"
-"spawnflags" "0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 200"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_distance" "0"
-"_constant_attn" "0"
-"classname" "light"
-"hammerid" "305632"
-}
-{
-"origin" "3584 -640 300"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/w_grenade_emp.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"angles" "0 0 0"
-"classname" "prop_dynamic"
-"hammerid" "305637"
-}
-{
-"model" "*59"
-"vrad_brush_cast_shadows" "0"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solid_to_enemies" "1"
-"respawnroomname" "zombie_spawn"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "1012 -1016 608"
-"InputFilter" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_respawnroomvisualizer"
-"hammerid" "185093"
 }
 {
 "origin" "150.038 -113.383 316"
@@ -3654,7 +3156,7 @@ Revision: 1
 "hammerid" "71170"
 }
 {
-"portalnumber" "30"
+"portalnumber" "28"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -3668,28 +3170,28 @@ Revision: 1
 "hammerid" "85903"
 }
 {
-"portalnumber" "31"
+"portalnumber" "29"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86086"
 }
 {
-"portalnumber" "32"
+"portalnumber" "30"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86093"
 }
 {
-"portalnumber" "33"
+"portalnumber" "31"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "86101"
 }
 {
-"portalnumber" "34"
+"portalnumber" "32"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -3810,7 +3312,7 @@ Revision: 1
 "hammerid" "82037"
 }
 {
-"portalnumber" "35"
+"portalnumber" "33"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -3950,7 +3452,7 @@ Revision: 1
 "hammerid" "74769"
 }
 {
-"model" "*60"
+"model" "*56"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "524 -476 52"
@@ -3983,7 +3485,7 @@ Revision: 1
 "hammerid" "139757"
 }
 {
-"origin" "52.1289 -899.031 986"
+"origin" "50.6041 -890.16 1001.94"
 "StartDisabled" "0"
 "spawnflags" "0"
 "solid" "0"
@@ -4008,12 +3510,12 @@ Revision: 1
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "DisableBoneFollowers" "1"
-"angles" "16.8243 57.805 124.103"
+"angles" "88.1307 275.571 -41.0983"
 "classname" "prop_dynamic"
 "hammerid" "243939"
 }
 {
-"portalnumber" "36"
+"portalnumber" "34"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -4043,7 +3545,7 @@ Revision: 1
 "hammerid" "47683"
 }
 {
-"model" "*61"
+"model" "*57"
 "TeamNum" "3"
 "targetname" "zombie_spawn"
 "StartDisabled" "0"
@@ -4055,7 +3557,7 @@ Revision: 1
 "hammerid" "78248"
 }
 {
-"model" "*62"
+"model" "*58"
 "TeamNum" "3"
 "targetname" "zombie_spawn"
 "StartDisabled" "0"
@@ -4067,19 +3569,7 @@ Revision: 1
 "hammerid" "78224"
 }
 {
-"model" "*63"
-"TeamNum" "3"
-"targetname" "zombie_spawn"
-"StartDisabled" "0"
-"spawnflags" "1"
-"rendermode" "1"
-"origin" "1732 -744 864"
-"angles" "0 0 0"
-"classname" "func_respawnroom"
-"hammerid" "78206"
-}
-{
-"model" "*64"
+"model" "*59"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4114,17 +3604,6 @@ Revision: 1
 "hammerid" "58666"
 }
 {
-"origin" "1576 -1024 776"
-"TeamNum" "3"
-"StartDisabled" "0"
-"SpawnMode" "0"
-"spawnflags" "511"
-"model" "models/editor-abs/dev_engy.mdl"
-"angles" "0 45 0"
-"classname" "info_player_teamspawn"
-"hammerid" "78301"
-}
-{
 "origin" "163.106 -1935.93 9.02826"
 "start_active" "1"
 "flag_as_weather" "1"
@@ -4141,14 +3620,14 @@ Revision: 1
 "hammerid" "82235"
 }
 {
-"portalnumber" "37"
+"portalnumber" "35"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77770"
 }
 {
-"portalnumber" "38"
+"portalnumber" "36"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -4297,7 +3776,7 @@ Revision: 1
 "hammerid" "12932"
 }
 {
-"model" "*65"
+"model" "*60"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "2072 224 448.25"
@@ -4330,7 +3809,7 @@ Revision: 1
 "hammerid" "375564"
 }
 {
-"model" "*66"
+"model" "*61"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4445,7 +3924,7 @@ Revision: 1
 "hammerid" "374518"
 }
 {
-"model" "*67"
+"model" "*62"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4458,7 +3937,7 @@ Revision: 1
 "hammerid" "374382"
 }
 {
-"model" "*68"
+"model" "*63"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4471,7 +3950,7 @@ Revision: 1
 "hammerid" "374352"
 }
 {
-"portalnumber" "39"
+"portalnumber" "37"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -4495,7 +3974,7 @@ Revision: 1
 "hammerid" "75785"
 }
 {
-"model" "*69"
+"model" "*64"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4508,7 +3987,7 @@ Revision: 1
 "hammerid" "75811"
 }
 {
-"model" "*70"
+"model" "*65"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4528,7 +4007,7 @@ Revision: 1
 "hammerid" "75821"
 }
 {
-"model" "*71"
+"model" "*66"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4548,7 +4027,7 @@ Revision: 1
 "hammerid" "75860"
 }
 {
-"model" "*72"
+"model" "*67"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4568,7 +4047,7 @@ Revision: 1
 "hammerid" "75907"
 }
 {
-"model" "*73"
+"model" "*68"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4588,7 +4067,7 @@ Revision: 1
 "hammerid" "75959"
 }
 {
-"model" "*74"
+"model" "*69"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4608,7 +4087,7 @@ Revision: 1
 "hammerid" "75974"
 }
 {
-"model" "*75"
+"model" "*70"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4628,7 +4107,7 @@ Revision: 1
 "hammerid" "75995"
 }
 {
-"model" "*76"
+"model" "*71"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4648,7 +4127,7 @@ Revision: 1
 "hammerid" "76036"
 }
 {
-"model" "*77"
+"model" "*72"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4668,27 +4147,7 @@ Revision: 1
 "hammerid" "76063"
 }
 {
-"model" "*78"
-"vrad_brush_cast_shadows" "0"
-"StartDisabled" "0"
-"spawnflags" "2"
-"Solidity" "1"
-"solid_to_enemies" "1"
-"respawnroomname" "zombie_spawn"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "1656 -580.01 753.78"
-"InputFilter" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"angles" "0 0 0"
-"classname" "func_respawnroomvisualizer"
-"hammerid" "76132"
-}
-{
-"model" "*79"
+"model" "*73"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4701,7 +4160,7 @@ Revision: 1
 "hammerid" "76261"
 }
 {
-"model" "*80"
+"model" "*74"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4714,14 +4173,14 @@ Revision: 1
 "hammerid" "76272"
 }
 {
-"portalnumber" "40"
+"portalnumber" "38"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77786"
 }
 {
-"model" "*81"
+"model" "*75"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4734,7 +4193,7 @@ Revision: 1
 "hammerid" "46213"
 }
 {
-"model" "*82"
+"model" "*76"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4747,63 +4206,63 @@ Revision: 1
 "hammerid" "22009"
 }
 {
-"portalnumber" "41"
+"portalnumber" "39"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77573"
 }
 {
-"portalnumber" "42"
+"portalnumber" "40"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77601"
 }
 {
-"portalnumber" "43"
+"portalnumber" "41"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77627"
 }
 {
-"portalnumber" "44"
+"portalnumber" "42"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77639"
 }
 {
-"portalnumber" "45"
+"portalnumber" "43"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77659"
 }
 {
-"portalnumber" "46"
+"portalnumber" "44"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77677"
 }
 {
-"portalnumber" "47"
+"portalnumber" "45"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77691"
 }
 {
-"portalnumber" "48"
+"portalnumber" "46"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "77726"
 }
 {
-"portalnumber" "49"
+"portalnumber" "47"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -4824,21 +4283,7 @@ Revision: 1
 "hammerid" "47483"
 }
 {
-"model" "*83"
-"TeamNum" "0"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "1037.41 -714.93 562.44"
-"DestroyBuildings" "0"
-"angles" "0 0 0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "393910"
-}
-{
-"model" "*84"
+"model" "*77"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4851,7 +4296,7 @@ Revision: 1
 "hammerid" "12352"
 }
 {
-"model" "*85"
+"model" "*78"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4886,7 +4331,7 @@ Revision: 1
 "hammerid" "50727"
 }
 {
-"model" "*86"
+"model" "*79"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -4943,15 +4388,7 @@ Revision: 1
 "hammerid" "363815"
 }
 {
-"origin" "1249.59 -1032 896"
-"start_active" "1"
-"effect_name" "pyre_plume"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "174759"
-}
-{
-"origin" "1344 -972 955.837"
+"origin" "1312 -1120 955.837"
 "style" "0"
 "spawnflags" "0"
 "_zero_percent_distance" "0"
@@ -4959,7 +4396,7 @@ Revision: 1
 "_linear_attn" "1"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "253 162 64 200"
+"_light" "255 121 22 200"
 "_hardfalloff" "0"
 "_fifty_percent_distance" "0"
 "_distance" "0"
@@ -4968,7 +4405,7 @@ Revision: 1
 "hammerid" "174864"
 }
 {
-"origin" "1136 -628 740"
+"origin" "1248 -928 960"
 "volstart" "0"
 "spinup" "0"
 "spindown" "0"
@@ -4990,29 +4427,7 @@ Revision: 1
 "hammerid" "174889"
 }
 {
-"origin" "1137.89 -628 740"
-"volstart" "0"
-"spinup" "0"
-"spindown" "0"
-"spawnflags" "0"
-"radius" "462"
-"preset" "0"
-"pitchstart" "100"
-"pitch" "100"
-"message" "ambient/fire/fire_med_loop1.wav"
-"lfotype" "0"
-"lforate" "0"
-"lfomodvol" "0"
-"lfomodpitch" "0"
-"health" "10"
-"fadeoutsecs" "0"
-"fadeinsecs" "0"
-"cspinup" "0"
-"classname" "ambient_generic"
-"hammerid" "174894"
-}
-{
-"origin" "1164 -663.081 836"
+"origin" "656 -832 836"
 "volstart" "0"
 "spinup" "0"
 "spindown" "0"
@@ -5057,484 +4472,6 @@ Revision: 1
 "_constant_attn" "0"
 "classname" "light"
 "hammerid" "13086"
-}
-{
-"origin" "3412.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/engineer_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305494"
-}
-{
-"origin" "3284.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/medic_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305498"
-}
-{
-"origin" "3220.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/heavy_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305502"
-}
-{
-"origin" "3348.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/demo_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305506"
-}
-{
-"origin" "3476.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/spy_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305510"
-}
-{
-"origin" "3540.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/soldier_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305514"
-}
-{
-"origin" "3604.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/pyro_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305518"
-}
-{
-"origin" "3668.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/sniper_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305522"
-}
-{
-"origin" "3732.91 -608 284"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/scout_zombie_wearable.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305526"
-}
-{
-"origin" "3648 -640 285.005"
-"start_active" "1"
-"flag_as_weather" "0"
-"effect_name" "zombie_eyeflare"
-"cpoint7_parent" "0"
-"cpoint6_parent" "0"
-"cpoint5_parent" "0"
-"cpoint4_parent" "0"
-"cpoint3_parent" "0"
-"cpoint2_parent" "0"
-"cpoint1_parent" "0"
-"angles" "0 0 0"
-"classname" "info_particle_system"
-"hammerid" "305530"
-}
-{
-"origin" "3732.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_scout.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305596"
-}
-{
-"origin" "3668.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_sniper.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305600"
-}
-{
-"origin" "3604.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_pyro.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305604"
-}
-{
-"origin" "3540.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_soldier.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305608"
-}
-{
-"origin" "3412.91 -560 316"
-"spawnflags" "0"
-"solid" "6"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"physdamagescale" "1.0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/player/infection/v_models/v_infected_engineer.mdl"
-"mindxlevel" "0"
-"MinAnimTime" "5"
-"maxdxlevel" "0"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "0"
-"disablereceiveshadows" "0"
-"DisableBoneFollowers" "0"
-"DefaultAnim" "idle"
-"angles" "0 90 0"
-"classname" "prop_dynamic"
-"hammerid" "305612"
 }
 {
 "origin" "1384 -2016 16"
@@ -5595,7 +4532,7 @@ Revision: 1
 "hammerid" "37884"
 }
 {
-"model" "*87"
+"model" "*80"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -5666,7 +4603,7 @@ Revision: 1
 "hammerid" "21684"
 }
 {
-"model" "*88"
+"model" "*81"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -5701,7 +4638,7 @@ Revision: 1
 "hammerid" "46502"
 }
 {
-"model" "*89"
+"model" "*82"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -5714,7 +4651,7 @@ Revision: 1
 "hammerid" "46634"
 }
 {
-"model" "*90"
+"model" "*83"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -5727,33 +4664,21 @@ Revision: 1
 "hammerid" "46645"
 }
 {
-"portalnumber" "50"
+"portalnumber" "48"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "167254"
 }
 {
-"portalnumber" "51"
+"portalnumber" "49"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
 "hammerid" "167264"
 }
 {
-"model" "*91"
-"TeamNum" "3"
-"targetname" "zombie_spawn"
-"StartDisabled" "0"
-"spawnflags" "1"
-"rendermode" "1"
-"origin" "1096 -1184 640"
-"angles" "0 0 0"
-"classname" "func_respawnroom"
-"hammerid" "167283"
-}
-{
-"model" "*92"
+"model" "*84"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -5968,28 +4893,6 @@ Revision: 1
 "hammerid" "163413"
 }
 {
-"origin" "1946.15 -1056.31 876.875"
-"style" "0"
-"spawnflags" "0"
-"pitch" "-67.5"
-"angles" "-67.5 180 0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 125"
-"_inner_cone" "45"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "163487"
-}
-{
 "origin" "-349.909 425.85 137.028"
 "start_active" "1"
 "flag_as_weather" "1"
@@ -6006,7 +4909,7 @@ Revision: 1
 "hammerid" "81443"
 }
 {
-"model" "*93"
+"model" "*85"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -6085,7 +4988,7 @@ Revision: 1
 "hammerid" "163839"
 }
 {
-"model" "*94"
+"model" "*86"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -6098,7 +5001,7 @@ Revision: 1
 "hammerid" "18727"
 }
 {
-"model" "*95"
+"model" "*87"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -6111,7 +5014,7 @@ Revision: 1
 "hammerid" "18792"
 }
 {
-"model" "*96"
+"model" "*88"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -6235,14 +5138,17 @@ Revision: 1
 }
 {
 "origin" "-16 -1392 284.261"
+"TeamNum" "0"
+"StartDisabled" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "modelscale" "1.0"
 "fadescale" "1.0"
 "fademindist" "-1"
+"fademaxdist" "0"
 "AutoMaterialize" "1"
 "angles" "0 0 0"
-"classname" "item_healthammokit"
+"classname" "item_healthkit_small"
 "hammerid" "19531"
 }
 {
@@ -6268,7 +5174,7 @@ Revision: 1
 "hammerid" "70938"
 }
 {
-"portalnumber" "52"
+"portalnumber" "50"
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
@@ -6363,50 +5269,6 @@ Revision: 1
 "angles" "0 0 0"
 "classname" "item_healthkit_medium"
 "hammerid" "48961"
-}
-{
-"origin" "1522.16 -415.688 878.165"
-"style" "0"
-"spawnflags" "0"
-"pitch" "-67.5"
-"angles" "-67.5 0 0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 125"
-"_inner_cone" "45"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "51998"
-}
-{
-"origin" "1528 -1047.69 882.124"
-"style" "0"
-"spawnflags" "0"
-"pitch" "-67.5"
-"angles" "-67.5 0 0"
-"_zero_percent_distance" "0"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "255 255 255 125"
-"_inner_cone" "45"
-"_hardfalloff" "0"
-"_fifty_percent_distance" "0"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "65"
-"classname" "light_spot"
-"hammerid" "161808"
 }
 {
 "origin" "1149.04 160 432"
@@ -6862,7 +5724,7 @@ Revision: 1
 "hammerid" "157591"
 }
 {
-"model" "*97"
+"model" "*89"
 "rendermode" "10"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -6875,12 +5737,626 @@ Revision: 1
 "hammerid" "46240"
 }
 {
+"origin" "-611.472 283.794 304.033"
+"style" "0"
+"spawnflags" "0"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "229 119 119 200"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "54"
+"_distance" "0"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "415188"
+}
+{
+"model" "*90"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419686"
+}
+{
+"model" "*91"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419700"
+}
+{
+"model" "*92"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419709"
+}
+{
+"model" "*93"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419719"
+}
+{
+"model" "*94"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419729"
+}
+{
+"model" "*95"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419736"
+}
+{
+"model" "*96"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419744"
+}
+{
+"model" "*97"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419750"
+}
+{
+"model" "*98"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419754"
+}
+{
+"model" "*99"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419760"
+}
+{
+"model" "*100"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1368 -1640 0"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "419772"
+}
+{
+"model" "*101"
+"TeamNum" "3"
+"targetname" "zombie_spawn"
+"StartDisabled" "0"
+"spawnflags" "1"
+"rendermode" "1"
+"origin" "1960 -304 352"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "424237"
+}
+{
+"origin" "1248 -1152 1120"
+"start_active" "1"
+"flag_as_weather" "0"
+"effect_name" "blazehattan_hatch_burn"
+"cpoint7_parent" "0"
+"cpoint6_parent" "0"
+"cpoint5_parent" "0"
+"cpoint4_parent" "0"
+"cpoint3_parent" "0"
+"cpoint2_parent" "0"
+"cpoint1_parent" "0"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "425162"
+}
+{
+"model" "*102"
+"rendermode" "10"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "-151.36 -297.48 697.61"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"angles" "0 0 0"
+"classname" "func_illusionary"
+"hammerid" "429932"
+}
+{
+"origin" "-152 -288 696"
+"style" "0"
+"pitch" "-68.5"
+"angles" "-68.5 90 0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 100"
+"_inner_cone" "15"
+"_fifty_percent_distance" "0"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "50"
+"classname" "light_spot"
+"hammerid" "429939"
+}
+{
+"model" "*103"
+"vrad_brush_cast_shadows" "1"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "2"
+"solidbsp" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "262.88 -184 487.34"
+"invert_exclusion" "0"
+"InputFilter" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_brush"
+"hammerid" "430771"
+}
+{
+"origin" "304 -176 944"
+"style" "0"
+"spawnflags" "0"
+"pitch" "-90"
+"angles" "-90 0 0"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 255 255 200"
+"_inner_cone" "30"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "45"
+"classname" "light_spot"
+"hammerid" "430871"
+}
+{
+"model" "*104"
+"vrad_brush_cast_shadows" "1"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "2"
+"solidbsp" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "293.59 -168.16 -25.54"
+"invert_exclusion" "0"
+"InputFilter" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_brush"
+"hammerid" "431661"
+}
+{
+"model" "*105"
+"vrad_brush_cast_shadows" "0"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solid_to_enemies" "1"
+"respawnroomname" "zombie_spawn"
+"rendermode" "1"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "480 -160 1728"
+"InputFilter" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_respawnroomvisualizer"
+"hammerid" "436590"
+}
+{
+"model" "*106"
+"vrad_brush_cast_shadows" "0"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solid_to_enemies" "1"
+"respawnroomname" "zombie_spawn"
+"rendermode" "1"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1088 -512 1728"
+"InputFilter" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_respawnroomvisualizer"
+"hammerid" "436599"
+}
+{
+"model" "*107"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "784 36 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438815"
+}
+{
+"model" "*108"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "464 -772 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438856"
+}
+{
+"model" "*109"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1240 -516 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438861"
+}
+{
+"model" "*110"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1040 -724 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438878"
+}
+{
+"model" "*111"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1744 -516 -4"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438888"
+}
+{
+"model" "*112"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1280 -916 252"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438916"
+}
+{
+"model" "*113"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1080 -100 252"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "438932"
+}
+{
+"model" "*114"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1365.33 -52 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "439333"
+}
+{
+"model" "*115"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1312 124 -4"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"classname" "func_illusionary"
+"hammerid" "440586"
+}
+{
+"model" "*116"
+"vrad_brush_cast_shadows" "0"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solid_to_enemies" "1"
+"respawnroomname" "zombie_spawn"
+"rendermode" "1"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "480 -192 880.16"
+"InputFilter" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_respawnroomvisualizer"
+"hammerid" "440613"
+}
+{
+"model" "*117"
+"vrad_brush_cast_shadows" "0"
+"StartDisabled" "0"
+"spawnflags" "2"
+"Solidity" "1"
+"solid_to_enemies" "1"
+"respawnroomname" "zombie_spawn"
+"rendermode" "1"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "1088 -512 880.16"
+"InputFilter" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"classname" "func_respawnroomvisualizer"
+"hammerid" "440624"
+}
+{
+"origin" "-256 -896 1120"
+"start_active" "1"
+"flag_as_weather" "0"
+"effect_name" "blazehattan_hatch_burn"
+"cpoint7_parent" "0"
+"cpoint6_parent" "0"
+"cpoint5_parent" "0"
+"cpoint4_parent" "0"
+"cpoint3_parent" "0"
+"cpoint2_parent" "0"
+"cpoint1_parent" "0"
+"angles" "0 0 0"
+"classname" "info_particle_system"
+"hammerid" "440700"
+}
+{
+"origin" "-192 -864 1024"
+"style" "0"
+"spawnflags" "0"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "0"
+"_linear_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "255 121 22 200"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_distance" "0"
+"_constant_attn" "0"
+"classname" "light"
+"hammerid" "440766"
+}
+{
+"origin" "1232.47 104.95 328"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449888"
+}
+{
+"origin" "352.47 -871.05 16"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449895"
+}
+{
+"origin" "512.47 -415.05 240"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449900"
+}
+{
+"origin" "512.47 -415.05 496"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449905"
+}
+{
+"origin" "568.47 -1183.05 592"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449910"
+}
+{
+"portalnumber" "51"
+"StartOpen" "1"
+"PortalVersion" "1"
+"classname" "func_areaportal"
+"hammerid" "449919"
+}
+{
+"portalnumber" "52"
+"StartOpen" "1"
+"PortalVersion" "1"
+"classname" "func_areaportal"
+"hammerid" "449931"
+}
+{
+"origin" "960.46 -722.28 576"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449961"
+}
+{
+"origin" "672.47 -1919.05 80"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449966"
+}
+{
+"origin" "2032.47 -667.05 16"
+"angles" "0 0 0"
+"classname" "tf_halloween_gift_spawn_location"
+"hammerid" "449974"
+}
+{
+"origin" "75.328 125.75 453.159"
+"style" "0"
+"spawnflags" "0"
+"pitch" "-32"
+"angles" "-32 309.5 -90"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "240 233 212 1000"
+"_inner_cone" "30"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "65"
+"classname" "light_spot"
+"hammerid" "450418"
+}
+{
+"origin" "83.328 -474.25 709.159"
+"style" "0"
+"spawnflags" "0"
+"pitch" "-32"
+"angles" "-32 309.5 -90"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "240 233 212 1000"
+"_inner_cone" "30"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "65"
+"classname" "light_spot"
+"hammerid" "450448"
+}
+{
+"origin" "66.25 -332.672 709.159"
+"style" "0"
+"spawnflags" "0"
+"pitch" "-32"
+"angles" "-32 39.5 -90"
+"_zero_percent_distance" "0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "240 233 212 1000"
+"_inner_cone" "30"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "65"
+"classname" "light_spot"
+"hammerid" "450476"
+}
+{
 "origin" "3584 -3584 66"
 "use_angles" "0"
 "scale" "16"
 "fogstart" "-1"
 "fogmaxdensity" "1"
-"fogend" "2500"
+"fogend" "4000"
 "fogenable" "1"
 "fogdir" "1 0 0"
 "fogcolor2" "40 40 49"
@@ -6888,7 +6364,7 @@ Revision: 1
 "fogblend" "1"
 "angles" "0 0 0"
 "classname" "sky_camera"
-"hammerid" "413038"
+"hammerid" "453100"
 }
 {
 "origin" "-435.917 -1037.05 976"
@@ -6910,6 +6386,6 @@ Revision: 1
 "_constant_attn" "0"
 "_cone" "45"
 "classname" "light_spot"
-"hammerid" "413152"
+"hammerid" "453214"
 }
  

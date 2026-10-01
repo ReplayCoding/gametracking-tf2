@@ -1,0 +1,999 @@
+"holyhell.hell.outside"
+{
+	"dsp" "1"
+"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient\hell\hell_atmos.wav"
+	}
+	
+			"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7, 12"
+		"volume"	"1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hell\hell_rumbles_01.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_02.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_03.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_04.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_05.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_06.mp3"	
+			"wave"		"ambient_mp3/hell\hell_rumbles_07.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"8, 14"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\thunder_01.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_02.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_03.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_04.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_05.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_06.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_07.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_08.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_09.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_10.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7, 11"
+		"volume"	".2, .4"
+		"pitch"		"80, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	"playrandom"
+	{
+		"time"		"6, 11"
+		"volume" ".1, .3"
+		"pitch" "100"
+		"rndwave"
+		{
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement1.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement2.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement3.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement4.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement5.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement6.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement7.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+
+}
+
+
+
+
+
+"holyhell.hell.middle"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient\hell\hell_atmos.wav"
+	}
+		"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\field_loop2.wav"
+	}
+
+	
+		"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\zapper_ambient_loop1.wav"
+	}
+			"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\portal_beam_loop1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"4, 9"
+		"volume"	".2"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\citadel\portal_beam_shoot1.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot2.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot3.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot4.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot5.wav"			
+		}
+	}	
+	"playrandom"
+	{
+		"time"		"7, 12"
+		"volume"	"1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hell\hell_rumbles_01.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_02.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_03.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_04.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_05.mp3"
+			"wave"		"ambient_mp3/hell\hell_rumbles_06.mp3"	
+			"wave"		"ambient_mp3/hell\hell_rumbles_07.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"8, 14"
+		"volume"	"0.5"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\thunder_01.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_02.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_03.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_04.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_05.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_06.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_07.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_08.mp3"	
+			"wave"		"ambient_mp3\halloween\thunder_09.mp3"
+			"wave"		"ambient_mp3\halloween\thunder_10.mp3"			
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7, 11"
+		"volume"	".1, .4"
+		"pitch"		"80, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+}
+
+
+
+"holyhell.hell.inside"
+{
+	"dsp" "1"
+		"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 15"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"2, 4"
+		"volume"	".2, .1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+	"playrandom"
+	{
+		"time"		"4, 7"
+		"volume"	".4, .7"
+		"pitch"		"110, 125"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\mysterious_perc_01.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_02.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_03.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_04.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_05.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_06.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_07.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_08.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_09.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_10.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_11.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_12.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_13.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_14.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_15.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_16.mp3"				
+		}
+	}
+	"playrandom"
+	{
+		"time"		"9, 16"
+		"volume" "1"
+		"pitch" "100"
+		"rndwave"
+		{
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement1.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement2.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement3.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement4.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement5.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement6.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement7.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"9, 14"
+		"volume" ".2"
+		"pitch" "70"
+		"rndwave"
+		{
+			"wave"  "ambient\halloween\thunder_01.wav"
+			"wave"  "ambient\halloween\thunder_02.wav"
+			"wave"  "ambient\halloween\thunder_03.wav"
+			"wave"  "ambient\halloween\thunder_04.wav"
+			"wave"  "ambient\halloween\thunder_05.wav"
+			"wave"  "ambient\halloween\thunder_06.wav"
+			"wave"  "ambient\halloween\thunder_07.wav"
+		}
+	}
+}
+
+
+"holyhell.hell.deepinside"
+{
+	"dsp" "1"
+		"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	".2"
+		"pitch"		"100"
+		"wave"		"ambient\hell\hell_atmos.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 15"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"2, 4"
+		"volume"	".2, .1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+	"playrandom"
+	{
+		"time"		"4, 7"
+		"volume"	".4, 7"
+		"pitch"		"110, 125"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\mysterious_perc_01.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_02.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_03.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_04.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_05.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_06.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_07.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_08.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_09.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_10.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_11.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_12.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_13.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_14.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_15.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_16.mp3"				
+		}
+	}
+	"playrandom"
+	{
+		"time"		"9, 16"
+		"volume" "1"
+		"pitch" "100"
+		"rndwave"
+		{
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement1.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement2.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement3.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement4.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement5.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement6.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement7.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"9, 14"
+		"volume" ".2"
+		"pitch" "70"
+		"rndwave"
+		{
+			"wave"  "ambient\halloween\thunder_01.wav"
+			"wave"  "ambient\halloween\thunder_02.wav"
+			"wave"  "ambient\halloween\thunder_03.wav"
+			"wave"  "ambient\halloween\thunder_04.wav"
+			"wave"  "ambient\halloween\thunder_05.wav"
+			"wave"  "ambient\halloween\thunder_06.wav"
+			"wave"  "ambient\halloween\thunder_07.wav"
+		}
+	}
+}
+
+
+"holyhell.heaven.inside"
+{
+	"dsp" "1"
+"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 30"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+}
+
+
+"holyhell.heaven.outside"
+{
+	"dsp" "1"
+	
+	
+	"playlooping"
+	{
+		"volume"		".2, .3"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+}
+
+"holyhell.heaven.middle"
+{
+	"dsp" "1"
+
+
+
+"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\field_loop2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\zapper_ambient_loop1.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"9, 14"
+		"volume" ".1"
+		"pitch" "70"
+		"rndwave"
+		{
+			"wave"  "ambient\halloween\thunder_01.wav"
+			"wave"  "ambient\halloween\thunder_02.wav"
+			"wave"  "ambient\halloween\thunder_03.wav"
+			"wave"  "ambient\halloween\thunder_04.wav"
+			"wave"  "ambient\halloween\thunder_05.wav"
+			"wave"  "ambient\halloween\thunder_06.wav"
+			"wave"  "ambient\halloween\thunder_07.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"		".2, .3"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/owl1.mp3"
+			"wave"		"ambient_mp3/owl2.mp3"
+			"wave"		"ambient_mp3/owl3.mp3"
+			"wave"		"ambient_mp3/wolf01.mp3"
+			"wave"		"ambient_mp3/wolf02.mp3"
+			"wave"		"ambient_mp3/wolf03.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/crow1.mp3"
+			"wave"		"ambient_mp3/crow2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}	
+}
+
+"holyhell.hell.mine"
+{
+	"dsp" "1"
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 15"
+		"volume"	".2"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow04.mp3"
+			"wave"		"ambient_mp3/hallow05.mp3"
+			"wave"		"ambient_mp3/hallow06.mp3"
+			"wave"		"ambient_mp3/hallow07.mp3"
+			"wave"		"ambient_mp3/hallow08.mp3"					
+		}
+	}
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\materials\rock1.wav"
+			"wave"		"ambient\materials\rock2.wav"
+			"wave"		"ambient\materials\rock3.wav"
+			"wave"		"ambient\materials\rock4.wav"
+			"wave"		"ambient\materials\rock5.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"2, 4"
+		"volume"	".2, .1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\windgust_01.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_02.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_03.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_04.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_05.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_06.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_07.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_08.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_09.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_10.mp3"		
+			"wave"		"ambient_mp3\halloween\windgust_11.mp3"
+			"wave"		"ambient_mp3\halloween\windgust_12.mp3"		
+		}
+	}
+	"playrandom"
+	{
+		"time"		"4, 7"
+		"volume"	".3, .5"
+		"pitch"		"110, 125"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3\halloween\mysterious_perc_01.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_02.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_03.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_04.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_05.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_06.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_07.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_08.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_09.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_10.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_11.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_12.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_13.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_14.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_15.mp3"
+			"wave"		"ambient_mp3\halloween\mysterious_perc_16.mp3"				
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 10"
+		"volume" "1"
+		"pitch" "100"
+		"rndwave"
+		{
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement1.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement2.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement3.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement4.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement5.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement6.mp3"
+			"wave"  "ambient_mp3/lair/cap_1_tone_metal_movement7.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"9, 14"
+		"volume" ".2"
+		"pitch" "70"
+		"rndwave"
+		{
+			"wave"  "ambient\halloween\thunder_01.wav"
+			"wave"  "ambient\halloween\thunder_02.wav"
+			"wave"  "ambient\halloween\thunder_03.wav"
+			"wave"  "ambient\halloween\thunder_04.wav"
+			"wave"  "ambient\halloween\thunder_05.wav"
+			"wave"  "ambient\halloween\thunder_06.wav"
+			"wave"  "ambient\halloween\thunder_07.wav"
+		}
+	}
+	
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\portal_beam_loop1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"4, 9"
+		"volume"	".4"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\citadel\portal_beam_shoot1.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot2.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot3.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot4.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot5.wav"			
+		}
+	}
+}
+
+
+
+"holyhell.heaven.town"
+{
+	"dsp" "1"
+"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 30"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/wind_gust1.mp3"
+			"wave"		"ambient_mp3/wind_gust2.mp3"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/hallow01.mp3"
+			"wave"		"ambient_mp3/hallow02.mp3"
+			"wave"		"ambient_mp3/hallow03.mp3"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient_mp3/creak01.mp3"
+			"wave"		"ambient_mp3/creak02.mp3"
+			"wave"		"ambient_mp3/creak03.mp3"			
+		}
+	}
+
+
+
+
+"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\field_loop2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	".1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\zapper_ambient_loop1.wav"
+	}
+
+
+
+	
+	
+	"playrandom"
+	{
+		"time"		"4, 9"
+		"volume"	".1"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\citadel\portal_beam_shoot1.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot2.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot3.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot4.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot5.wav"			
+		}
+	}
+}
+
+
+"holyhell.both.middle"
+{
+	"dsp" "1"
+	
+		"playrandom"
+	{
+		"time"		"5, 10"
+		"volume" ".1"
+		"pitch" "100"
+		"rndwave"
+		{
+			"wave"  "ambient\halloween\thunder_01.wav"
+			"wave"  "ambient\halloween\thunder_02.wav"
+			"wave"  "ambient\halloween\thunder_03.wav"
+			"wave"  "ambient\halloween\thunder_04.wav"
+			"wave"  "ambient\halloween\thunder_05.wav"
+			"wave"  "ambient\halloween\thunder_06.wav"
+			"wave"  "ambient\halloween\thunder_07.wav"
+		}
+	}
+	
+
+
+	
+		
+		"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\field_loop2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\halloween\Underground_wind_lp_04.wav"
+	}
+	
+		"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient\levels\citadel\zapper_ambient_loop1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"4, 9"
+		"volume"	".3"
+		"pitch"		"95, 105"
+		"rndwave"
+		{
+			"wave"		"ambient\levels\citadel\portal_beam_shoot1.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot2.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot3.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot4.wav"
+			"wave"		"ambient\levels\citadel\portal_beam_shoot5.wav"			
+		}
+	}
+}

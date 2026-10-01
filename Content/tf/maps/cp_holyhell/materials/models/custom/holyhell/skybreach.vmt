@@ -1,0 +1,25 @@
+"Unlittwotexture"
+{
+	"$basetexture" "models/custom/holyhell/skybreach01"
+	"$texture2" "models/custom/holyhell/skybreach02"
+	"$translucent"	"1"
+	"$additive"		"1"
+	"$color2"	"{95 222 97}"
+	"$nodecal" 1
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.1
+			"texturescrollangle" 90
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" -.4
+			"texturescrollangle" 180
+		}
+	}
+}

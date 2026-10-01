@@ -1,0 +1,17 @@
+"Unlitgeneric"
+{
+	"$basetexture" "models/custom/holyhell/skybreach01"
+	"$translucent"	"1"
+	//"$color2"	"{128 35 7}"
+	"$color2"	"{95 222 97}"
+	"$nofog"	"1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.2
+			"texturescrollangle" 90
+		}
+	}
+}

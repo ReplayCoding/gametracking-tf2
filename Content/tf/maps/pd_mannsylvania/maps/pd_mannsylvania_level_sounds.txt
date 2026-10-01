@@ -253,6 +253,9 @@
 	{
 		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
 		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big01.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big03.mp3"
 	}
 }
 
@@ -267,6 +270,9 @@
 	{
 		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
 		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big01.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big03.mp3"
 	}
 }
 
@@ -281,6 +287,9 @@
 	{
 		"wave"	"vo/soldier_sf12_goodmagic01.mp3"
 		"wave"	"vo/soldier_sf12_goodmagic02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big01.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big02.mp3"
+		"wave" 	"vo/soldier_sf13_influx_big03.mp3"
 	}
 }
 
@@ -294,6 +303,12 @@
 	{
 		"wave"	"vo/scout_sf12_badmagic05.mp3"
 		"wave"	"vo/scout_sf12_badmagic06.mp3"
+		"wave"	"vo/scout_sf12_badmagic07.mp3"
+		"wave"	"vo/scout_sf12_goodmagic03.mp3"
+		"wave"	"vo/scout_sf12_goodmagic04.mp3"
+		"wave"	"vo/scout_sf12_goodmagic05.mp3"
+		"wave"	"vo/scout_sf12_goodmagic09.mp3"
+		
 	}
 }
 
@@ -307,7 +322,14 @@
 	{
 		"wave"	"vo/scout_sf12_badmagic05.mp3"
 		"wave"	"vo/scout_sf12_badmagic06.mp3"
+		"wave"	"vo/scout_sf12_badmagic07.mp3"
+		"wave"	"vo/scout_sf12_goodmagic03.mp3"
+		"wave"	"vo/scout_sf12_goodmagic04.mp3"
+		"wave"	"vo/scout_sf12_goodmagic05.mp3"
+		"wave"	"vo/scout_sf12_goodmagic09.mp3"
+		
 	}
+
 }
 
 "Scout.AutoCappedControlPoint03"
@@ -320,7 +342,14 @@
 	{
 		"wave"	"vo/scout_sf12_badmagic05.mp3"
 		"wave"	"vo/scout_sf12_badmagic06.mp3"
+		"wave"	"vo/scout_sf12_badmagic07.mp3"
+		"wave"	"vo/scout_sf12_goodmagic03.mp3"
+		"wave"	"vo/scout_sf12_goodmagic04.mp3"
+		"wave"	"vo/scout_sf12_goodmagic05.mp3"
+		"wave"	"vo/scout_sf12_goodmagic09.mp3"
+		
 	}
+
 }
 
 "Scout.AutoCappedControlPoint04"
@@ -333,7 +362,14 @@
 	{
 		"wave"	"vo/scout_sf12_badmagic05.mp3"
 		"wave"	"vo/scout_sf12_badmagic06.mp3"
+		"wave"	"vo/scout_sf12_badmagic07.mp3"
+		"wave"	"vo/scout_sf12_goodmagic03.mp3"
+		"wave"	"vo/scout_sf12_goodmagic04.mp3"
+		"wave"	"vo/scout_sf12_goodmagic05.mp3"
+		"wave"	"vo/scout_sf12_goodmagic09.mp3"
+		
 	}
+
 }
 "Medic.AutoCappedControlPoint01"
 {
@@ -349,6 +385,9 @@
 		"wave"		"vo/medic_sf12_badmagic08.mp3"
 		"wave"		"vo/medic_sf12_badmagic09.mp3"
 		"wave"		"vo/medic_sf12_badmagic12.mp3"
+		"wave"		"vo/medic_sf12_goodmagic01.mp3"
+		"wave"		"vo/medic_sf12_goodmagic02.mp3"
+		"wave"		"vo/medic_sf12_goodmagic04.mp3"
 	}
 }
 
@@ -366,7 +405,11 @@
 		"wave"		"vo/medic_sf12_badmagic08.mp3"
 		"wave"		"vo/medic_sf12_badmagic09.mp3"
 		"wave"		"vo/medic_sf12_badmagic12.mp3"
+		"wave"		"vo/medic_sf12_goodmagic01.mp3"
+		"wave"		"vo/medic_sf12_goodmagic02.mp3"
+		"wave"		"vo/medic_sf12_goodmagic04.mp3"
 	}
+
 }
 
 "Medic.AutoCappedControlPoint03"
@@ -383,7 +426,11 @@
 		"wave"		"vo/medic_sf12_badmagic08.mp3"
 		"wave"		"vo/medic_sf12_badmagic09.mp3"
 		"wave"		"vo/medic_sf12_badmagic12.mp3"
+		"wave"		"vo/medic_sf12_goodmagic01.mp3"
+		"wave"		"vo/medic_sf12_goodmagic02.mp3"
+		"wave"		"vo/medic_sf12_goodmagic04.mp3"
 	}
+
 }
 
 "Demoman.AutoCappedControlPoint01"
@@ -392,7 +439,16 @@
 	"volume"		"1.000"
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
-	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+	"rndwave"
+	{
+		"wave"		"vo/demoman_sf12_goodmagic03.mp3"
+		"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+		"wave"		"vo/demoman_sf12_badmagic05.mp3"
+		"wave"		"vo/demoman_sf12_badmagic08.mp3"
+		"wave"		"vo/demoman_sf12_badmagic09.mp3"
+		"wave"		"vo/demoman_sf12_badmagic10.mp3"
+		"wave"		"vo/demoman_sf12_badmagic11.mp3"
+	}
 }
 
 "Demoman.AutoCappedControlPoint02"
@@ -401,7 +457,17 @@
 	"volume"		"1.000"
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
-	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+	"rndwave"
+	{
+		"wave"		"vo/demoman_sf12_goodmagic03.mp3"
+		"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+		"wave"		"vo/demoman_sf12_badmagic05.mp3"
+		"wave"		"vo/demoman_sf12_badmagic08.mp3"
+		"wave"		"vo/demoman_sf12_badmagic09.mp3"
+		"wave"		"vo/demoman_sf12_badmagic10.mp3"
+		"wave"		"vo/demoman_sf12_badmagic11.mp3"
+	}
+
 }
 
 "Demoman.AutoCappedControlPoint03"
@@ -410,7 +476,17 @@
 	"volume"		"1.000"
 	"pitch"		"PITCH_NORM"
 	"soundlevel"		"SNDLVL_95dB"
-	"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+	"rndwave"
+	{
+		"wave"		"vo/demoman_sf12_goodmagic03.mp3"
+		"wave"		"vo/demoman_sf12_goodmagic04.mp3"
+		"wave"		"vo/demoman_sf12_badmagic05.mp3"
+		"wave"		"vo/demoman_sf12_badmagic08.mp3"
+		"wave"		"vo/demoman_sf12_badmagic09.mp3"
+		"wave"		"vo/demoman_sf12_badmagic10.mp3"
+		"wave"		"vo/demoman_sf12_badmagic11.mp3"
+	}
+
 }
 
 "Heavy.AutoCappedControlPoint01"
@@ -421,10 +497,14 @@
 	"soundlevel"		"SNDLVL_95dB"
 	"rndwave"		
 	{
+		"wave"		"vo/heavy_sf12_badmagic04.mp3"
 		"wave"		"vo/heavy_sf12_badmagic06.mp3"
 		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic08.mp3"
 		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+		"wave"		"vo/heavy_sf12_goodmagic02.mp3"
 	}
+
 }
 
 "Heavy.AutoCappedControlPoint02"
@@ -435,9 +515,12 @@
 	"soundlevel"		"SNDLVL_95dB"
 	"rndwave"		
 	{
+		"wave"		"vo/heavy_sf12_badmagic04.mp3"
 		"wave"		"vo/heavy_sf12_badmagic06.mp3"
 		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic08.mp3"
 		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+		"wave"		"vo/heavy_sf12_goodmagic02.mp3"
 	}
 }
 
@@ -449,10 +532,14 @@
 	"soundlevel"		"SNDLVL_95dB"
 	"rndwave"		
 	{
+		"wave"		"vo/heavy_sf12_badmagic04.mp3"
 		"wave"		"vo/heavy_sf12_badmagic06.mp3"
 		"wave"		"vo/heavy_sf12_badmagic07.mp3"
+		"wave"		"vo/heavy_sf12_badmagic08.mp3"
 		"wave"		"vo/heavy_sf12_badmagic09.mp3"
+		"wave"		"vo/heavy_sf12_goodmagic02.mp3"
 	}
+
 }
 
 "Engineer.AutoCappedControlPoint01"
@@ -505,7 +592,7 @@
 		"wave"		"vo/spy_sf12_goodmagic06.mp3"
 		"wave"		"vo/spy_sf12_goodmagic07.mp3"
 		"wave"		"vo/spy_sf12_goodmagic08.mp3"
-		"wave"		"vo/spy_sf12_goodmagic09.mp3"
+		"wave"		"vo/spy_sf12_badmagic03.mp3"
 	}
 }
 
@@ -527,7 +614,6 @@
 		"wave"		"vo/spy_sf12_goodmagic06.mp3"
 		"wave"		"vo/spy_sf12_goodmagic07.mp3"
 		"wave"		"vo/spy_sf12_goodmagic08.mp3"
-		"wave"		"vo/spy_sf12_goodmagic09.mp3"
 	}
 }
 
@@ -549,7 +635,6 @@
 		"wave"		"vo/spy_sf12_goodmagic06.mp3"
 		"wave"		"vo/spy_sf12_goodmagic07.mp3"
 		"wave"		"vo/spy_sf12_goodmagic08.mp3"
-		"wave"		"vo/spy_sf12_goodmagic09.mp3"
 	}
 }
 "Pyro.AutoCappedControlPoint01"

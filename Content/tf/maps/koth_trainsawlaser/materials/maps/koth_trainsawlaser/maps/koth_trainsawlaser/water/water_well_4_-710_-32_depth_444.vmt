@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/koth_trainsawlaser/water/water_well_4_-710_-32.vmt"
+	"insert"
+	{
+		"$waterdepth"		"444"
+	}
+}

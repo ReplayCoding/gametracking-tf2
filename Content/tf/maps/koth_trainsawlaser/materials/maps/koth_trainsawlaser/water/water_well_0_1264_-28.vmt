@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_trainsawlaser/c0_1264_-28"
+		"Proxies"
+		{
+		}
+	}
+}

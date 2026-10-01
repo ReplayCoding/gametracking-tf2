@@ -9,6 +9,7 @@
 
 	"$yellow" "0"
 	"$one" "1"
+	"$glowcolor" "1"
 
 	"$phong" "1"
 	"$phongexponent" "20"
@@ -69,6 +70,21 @@
 		{
 			"srcVar1"	"$colortint_tmp"
 			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$glowcolor"
 			"resultVar" "$color2"
 		}
 		"YellowLevel"

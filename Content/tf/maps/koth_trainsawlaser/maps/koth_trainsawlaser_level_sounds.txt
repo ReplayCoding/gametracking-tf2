@@ -1,0 +1,201 @@
+"TSL_VO.Intro"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/Intro01.mp3"
+        "wave"    "vo/trainsawlaser/Intro02.mp3"
+        "wave"    "vo/trainsawlaser/Intro03.mp3"
+        "wave"    "vo/trainsawlaser/Intro04.mp3"
+        "wave"    "vo/trainsawlaser/Intro05.mp3"
+        "wave"    "vo/trainsawlaser/Intro06.mp3"
+        "wave"    "vo/trainsawlaser/Intro07.mp3"
+        "wave"    "vo/trainsawlaser/Intro08.mp3"
+        "wave"    "vo/trainsawlaser/Intro09.mp3"
+    }
+}
+
+"TSL_VO.TrainRain"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/TrainRain01.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain02.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain03.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain04.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain05.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain06.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain07.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain08.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain09.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain10.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain11.mp3"
+        "wave"    "vo/trainsawlaser/TrainRain12.mp3"
+    }
+}
+
+"TSL_VO.TrainRainRare"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/TrainRainRare01.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare02.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare03.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare04.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare05.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare06.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare07.mp3"
+        "wave"    "vo/trainsawlaser/TrainRainRare08.mp3"
+    }
+}
+
+"TSL_VO.OnKillRare"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/OnKillRare01.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare02.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare03.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare04.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare05.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare06.mp3"
+        "wave"    "vo/trainsawlaser/OnKillRare07.mp3"
+    }
+}
+
+"TSL_VO.SpellSpawn"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/SpellSpawn01.mp3"
+        "wave"    "vo/trainsawlaser/SpellSpawn02.mp3"
+        "wave"    "vo/trainsawlaser/SpellSpawn03.mp3"
+        "wave"    "vo/trainsawlaser/SpellSpawn04.mp3"
+        "wave"    "vo/trainsawlaser/SpellSpawn05.mp3"
+        "wave"    "vo/trainsawlaser/SpellSpawn06.mp3"
+    }
+}
+
+"TSL_VO.Outro"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/Outro01.mp3"
+        "wave"    "vo/trainsawlaser/Outro02.mp3"
+        "wave"    "vo/trainsawlaser/Outro03.mp3"
+        "wave"    "vo/trainsawlaser/Outro04.mp3"
+        "wave"    "vo/trainsawlaser/Outro05.mp3"
+        "wave"    "vo/trainsawlaser/Outro06.mp3"
+    }
+}
+
+"TSL_VO.DeadRinger"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/DeadRinger01.mp3"
+        "wave"    "vo/trainsawlaser/DeadRinger02.mp3"
+        "wave"    "vo/trainsawlaser/DeadRinger03.mp3"
+    }
+}
+
+"TSL_VO.ScoutKilled"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/ScoutKilled01.mp3"
+        "wave"    "vo/trainsawlaser/ScoutKilled02.mp3"
+    }
+}
+
+"TSL_VO.HellIntro"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+    "rndwave"
+    {
+        "wave"    "vo/trainsawlaser/HellIntro01.mp3"
+        "wave"    "vo/trainsawlaser/HellIntro02.mp3"
+        "wave"    "vo/trainsawlaser/HellIntro03.mp3"
+        "wave"    "vo/trainsawlaser/HellIntro04.mp3"
+    }
+}
+
+"TSL.Counter"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui\credits_updated.wav"
+}
+
+"TSL_VO.Null"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        ".6"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"    "SNDLVL_NONE"
+	
+	"wave"			"vo/null.mp3"
+}
+
+"TSL.Thunder"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	
+	"soundlevel"	"SNDLVL_150dB"
+
+	"rndwave"
+	{
+		"wave"	"ambient/medieval_thunder2.wav"
+		"wave"	"ambient/medieval_thunder3.wav"
+		"wave"	"ambient/medieval_thunder4.wav"
+	}
+}

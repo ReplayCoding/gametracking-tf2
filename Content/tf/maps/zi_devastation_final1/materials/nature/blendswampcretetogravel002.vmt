@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "Nature/gravelgrayred003"
+	"$basetexture" "concrete/concretefloor007_harbor"
+
+	//"$blendmodulatetexture" "winter/snowgravelblend"
+
+	"$blendmodulatetexture" "nature/dirtground002_blendmask"
+	"%keywords" "tf"
+	"$surfaceprop" "concrete"
+}

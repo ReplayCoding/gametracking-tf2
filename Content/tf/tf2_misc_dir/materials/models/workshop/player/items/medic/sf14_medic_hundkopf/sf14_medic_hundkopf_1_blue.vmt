@@ -2,15 +2,14 @@
 {
 	"$basetexture"		"models/workshop/player/items/medic/sf14_medic_hundkopf/sf14_medic_hundkopf_blue_color"
 	"$bumpmap"		"models/workshop/player/items/medic/sf14_medic_hundkopf/sf14_medic_hundkopf_normal"
-	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
-	"$phongexponenttexture"		"models/workshop/player/items/medic/sf14_medic_hundkopf/sf14_medic_hundkopf_phongexponent"
+	"$lightwarptexture"		"models/weapons/c_items/c_ambassador_lightwarp"
 	"$phong"		"1"
-	"$phongexponent"		"12.000000"
-	"$phongboost"		"1.000000"
+	"$phongexponent"		"50"
+	"$phongboost"		"4"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
-	"$rimlightboost"		"2"
+	"$rimlightboost"		"16"
 	"$rimmask"		"0"
 	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
@@ -22,8 +21,11 @@
 	"$yellow"		"0"
 	">=DX90"
 	{
-		"$selfillum"		"0"
+		"$selfillum"		"1"
 	}
+	"$selfillumfresnel"        "1"
+	"$selfillumfresnelminmaxexp"        "[0 20 20]"
+
 	"proxies"
 	{
 		"invis"

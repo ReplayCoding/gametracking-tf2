@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "custom/heaven/treecard_fir"
+	
+	"$nocull" 1
+	$alphatest 1
+	$alphatestreference ".5"
+	
+	//$halflambert 1
+	
+	"$color" "[ 2 2 2 ]"
+	
+	
+}

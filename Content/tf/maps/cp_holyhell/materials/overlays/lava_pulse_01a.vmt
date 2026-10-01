@@ -1,0 +1,25 @@
+"UnLitTwoTexture"
+{
+    "$basetexture"    "overlays/lava_pulse_01a"
+   	"$texture2"    "overlays/lava_pulse_base"
+    "$additive" "1"
+    "$decal" 1
+	"$decalscale" .25
+	"$translucent" 1
+	"$vertexalpha" "1"
+    	"%keywords" "tf"
+		//$color2 "[ 1 1 1 ]"
+		"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" -.1
+			"texturescrollangle" 90
+		}
+	}
+}
+
+
+
+

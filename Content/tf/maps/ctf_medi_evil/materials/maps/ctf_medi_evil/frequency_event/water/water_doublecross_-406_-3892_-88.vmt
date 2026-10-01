@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/FREQUENCY_EVENT/WATER/WATER_DOUBLECROSS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ctf_medi_evil/c-406_-3892_-88"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,13 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models\props_gothic/baby_grand_02"
+	"$model" "1"
+	"%keywords" "tf"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+}

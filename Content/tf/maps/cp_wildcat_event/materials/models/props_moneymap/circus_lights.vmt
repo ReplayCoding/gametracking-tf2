@@ -1,0 +1,16 @@
+"Unlitgeneric"
+{
+	"$basetexture"	"models/props_moneymap/circus_lights"
+	$model 1
+		"Proxies"
+		{
+			"Sine"
+			{
+				"sinemin" ".5"
+				"sinemax" "1"
+				"sineperiod" "1"
+				"resultVar" "$color2"
+			}
+		}
+}
+

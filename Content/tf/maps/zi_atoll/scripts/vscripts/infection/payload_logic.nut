@@ -1,7 +1,7 @@
 // --------------------------------------------------------------------------------------- //
 // Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
-// All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
+// All Code By: netmuck (https://steamcommunity.com/profiles/76561198025795825)            //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
 // --------------------------------------------------------------------------------------- //
 // payload logic                                                                           //
@@ -20,7 +20,7 @@ function initPayload()
     local _payload   = Entities.FindByClassname( null, "func_tracktrain" );
     local _teamspawn;
 
-    printl( "** You are running Zombie Infection on a Payload map. Initializing EXPERIMENTAL ZI_PL Logic **" );
+    ZIDebug.Log( "payload map detected - initialising experimental ZI_PL logic" );
 
     while ( _teamspawn = Entities.FindByClassname( _teamspawn, "info_player_teamspawn" ) )
     {

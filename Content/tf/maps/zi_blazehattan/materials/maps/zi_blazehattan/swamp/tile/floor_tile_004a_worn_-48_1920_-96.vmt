@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SWAMP/TILE/FLOOR_TILE_004A_WORN.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_blazehattan/c-48_1920_-96"
+	}
+}

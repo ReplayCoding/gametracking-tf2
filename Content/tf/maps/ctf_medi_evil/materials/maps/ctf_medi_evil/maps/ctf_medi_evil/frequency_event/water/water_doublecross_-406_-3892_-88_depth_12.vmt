@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/ctf_medi_evil/frequency_event/water/water_doublecross_-406_-3892_-88.vmt"
+	"insert"
+	{
+		"$waterdepth"		"12"
+	}
+}

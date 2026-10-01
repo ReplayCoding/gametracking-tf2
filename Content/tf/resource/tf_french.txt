@@ -1611,6 +1611,11 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"2ᵉ place - RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"3ᵉ place - RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"Médaille de participation - RGB 7 LAN"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"1ʳᵉ place - RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"2ᵉ place - RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"3ᵉ place - RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"Médaille de participation - RGB 8 LAN"
+
 "TF_TournamentMedal_Season1"	"Saison 1"
 "TF_TournamentMedal_Season2"	"Saison 2"
 "TF_TournamentMedal_Season3"	"Saison 3"
@@ -2241,10 +2246,6 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2nd"			"2ᵉ place - CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_SummerBrawl_3rd"			"3ᵉ place - CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"Médaille de participation - CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"1ʳᵉ place - CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"2ᵉ place - CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"3ᵉ place - CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"Médaille de participation - CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"1ʳᵉ place - CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"2e place - CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"3ᵉ place - CappingTV PASS Time Championship"
@@ -2256,6 +2257,7 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Brisbane, Australie, 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"Brisbane, Australie, 2024"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2025"		"Brisbane, Australie, 2025"
+"TF_TournamentMedal_CappingTV_SummerBrawl_2026"		"Brisbane, Australie, 2026"
 
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Médaille d'or - Snack's Summery Ultiduo Siesta"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Médaille d'argent - Snack's Summery Ultiduo Siesta"
@@ -2492,7 +2494,7 @@
 "TF_TournamentMedal_HolographicHarvest_Zebra_Desc"		"Les je-sais-tout vous diront que les zèbres ne vivent pas dans la forêt tropicale, mais allez voir, vous, s'ils n'y sont pas ! Au cours de ces dernières années, nous avons discrètement passé en contrebande trois zèbres par semaine en Colombie. Pourquoi avons-nous fait une chose pareille ? Mais, pourquoi pas ! Ils y seront très bien. Cette récompense est décernée aux personnes qui ont fait des dons lors de l'évènement caritatif de Holographic Harvest !"
 "TF_TournamentMedal_HolographicHarvest_Lahsuniya"		"Œil-de-chat Ratna - Holographic Harvest 2022"
 "TF_TournamentMedal_HolographicHarvest_Lahsuniya_Desc"	"Les tigres comptent parmi les animaux les plus redoutés dans la nature, et soyons honnêtes : vous ne résisteriez probablement pas très longtemps si vous deviez en affronter un. Mais pas d'inquiétude, vous êtes capable de tout plein de choses qu'un tigre ne peut pas faire, par exemple, vous pouvez montrer cette jolie pierre précieuse à tout votre entourage ! Cette récompense est décernée aux personnes qui ont fait des dons lors de l'évènement caritatif Holographic Harvest !"
-"TF_TournamentMedal_HolographicHarvest_Canteen"			"Gourde en ferraille - Holographic Harvest 2022"
+"TF_TournamentMedal_HolographicHarvest_Canteen"			"Gourde de deuxième main hantée - Holographic Harvest 2022"
 "TF_TournamentMedal_HolographicHarvest_Canteen_Desc"	"À première vue, elle ne semble être qu'une vieille gourde ordinaire usée. Mais si on la ramasse, il devient clair que quelque chose de véritablement sinistre a été condamné à pourrir derrière ces soudures. Heureusement, elle est si rouillée qu'il est impossible de l'ouvrir. Cette récompense est décernée aux personnes qui ont fait des dons lors de l'évènement caritatif Holographic Harvest de Potato MvM !"
 
 "TF_TournamentMedal_Copenhagen_6v6_Gold"			"1ʳᵉ place - Copenhagen Games 6v6"
@@ -2952,6 +2954,7 @@
 "TF_TournamentMedal_LAN_Downunder_Champion"				"Médaille d'or - LAN Downunder"
 "TF_TournamentMedal_LAN_Downunder_2024"					"Melbourne, Australie, 2024"
 "TF_TournamentMedal_LAN_Downunder_2025"					"Melbourne, Australie, 2025"
+"TF_TournamentMedal_LAN_Downunder_2026"					"Melbourne, Australie, 2026"
 
 "TF_TournamentMedal_RussianHighlander_1st"				"1ʳᵉ place - Russian Highlander"
 "TF_TournamentMedal_RussianHighlander_2nd"				"2ᵉ place - Russian Highlander"
@@ -3625,6 +3628,16 @@
 "TF_TournamentMedal_Supreme_Strategist"					"Sceau de suprématie stratégique"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"Médaille spéciale accordée par le PDG de Gray Gravel Co. aux mercenaires fidèles à sa cause. Quelques rares stratèges extrêmement habiles dans l'art du commandement de ses armées ont réussi à l'obtenir. Il recommande de ne pas la porter en public. Récompense décernée aux personnes ayant participé à l'évènement caritatif de novembre 2023 de Moonlight MvM !"
 
+"TF_TournamentMedal_JF_Soldier_1st"						"1ʳᵉ place - Éliminatoires de Jump Fortress (Soldier)"
+"TF_TournamentMedal_JF_Soldier_2nd"						"2ᵉ place - Éliminatoires de Jump Fortress (Soldier)"
+"TF_TournamentMedal_JF_Soldier_3rd"						"3ᵉ place - Éliminatoires de Jump Fortress (Soldier)"
+"TF_TournamentMedal_JF_Soldier_Participant"				"Médaille de participation - Éliminatoires de Jump Fortress (Soldier)"
+"TF_TournamentMedal_JF_Demoman_1st"						"1ʳᵉ place - Éliminatoires de Jump Fortress (Demoman)"
+"TF_TournamentMedal_JF_Demoman_2nd"						"2ᵉ place - Éliminatoires de Jump Fortress (Demoman)"
+"TF_TournamentMedal_JF_Demoman_3rd"						"3ᵉ place - Éliminatoires de Jump Fortress (Demoman)"
+"TF_TournamentMedal_JF_Demoman_Participant"				"Médaille de participation - Éliminatoires de Jump Fortress (Demoman)"
+"TF_TournamentMedal_JF_Contributor"						"Médaille de contribution - Éliminatoires de Jump Fortress"
+
 "TF_heals4reals_gold"			"1ʳᵉ place - Heals for Reals Event"
 "TF_heals4reals_silver"			"2ᵉ place - Heals for Reals Event"
 "TF_heals4reals_bronze"			"3ᵉ place - Heals for Reals Event"
@@ -3830,7 +3843,7 @@
 "TF_RobotPart_Type"	"Pièce robotique"
 "TF_CircuitBoard_Type"	"Circuit imprimé"
 
-"TF_TauntEnabler_Laugh"		"Raillerie : La Schadenfreude"
+"TF_TauntEnabler_Laugh"		"Raillerie : Le Plaisir Sadique"
 "TF_TauntEnabler_Laugh_Desc"	"Partagez une bonne tranche de rigolade avec tout le monde sauf ce gars que vous venez de flinguer."
 
 "TF_TauntEnabler_MedicHeroicPose"		"Raillerie : À la Rencontre du Medic"
@@ -6606,6 +6619,8 @@
 "TF_Map_WinterRidge_StrangePrefix"		" Slave"
 "TF_Map_Matterhorn_StrangePrefix"		" En équilibre"
 "TF_Map_Dryfield_StrangePrefix"			" Déshydraté"
+"TF_Map_CampSaxton_StrangePrefix"		" du Campeur"
+"TF_Map_Shorelight_StrangePrefix"		" du Gardien"
 "TF_Map_Redwood_StrangePrefix"			" Boisé"
 "TF_Map_Premuda_StrangePrefix"			" Venteux"
 "TF_Map_Mojave_StrangePrefix"			" Aride"
@@ -8138,6 +8153,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "Tip_8_30"				"En tant que Spy, si vous êtes trop lent pour saboter une Mitrailleuse après avoir poignardé un Engineer, vous pouvez devenir invisible ou vous cacher derrière son distributeur."
 "Tip_8_31"				"En tant que Spy, Ton Éternelle Récompense vous déguise automatiquement comme la dernière personne que vous avez poignardé. Notez néanmoins que vous perdrez ce déguisement à votre mort ou si vous attaquez."
 "Tip_8_32"				"En tant que Spy, vous pouvez voir l'état de santé de vos ennemis. Utilisez cette information pour tuer les ennemis blessés avec votre Revolver."
+"Tip_8_33"				"Pour le Spy, l'Étranger augmente la durée max. de votre invisiblité et la recharge quand vous réussissez à toucher un ennemi."
 "Tip_8_34"				"En tant que Spy, vos Saboteurs désactivent les Mitrailleuses avant de les détruire. Communiquez avec votre équipe, et sabotez une Mitrailleuse juste avant que vos coéquipiers n'attaquent. Cela empêchera la Mitrailleuse de tirer, et rendra sa réparation par un Engineer plus difficile."
 "Tip_8_35"				"En tant que Spy, le Kunaï du Conspirateur vous permet d'absorber les points de vie de votre victime au moment d'un poignardage réussi. Soyez néanmoins vigilants, étant donné que vos points de vie sont drastiquement diminués quand vous équipez cette arme : il est donc impératif de rester indétectable !"
 "Tip_8_36"				"En tant que Spy, une bonne technique est de poignarder les ennemis isolés ou vulnérables. Vérifiez toujours les alentours avant de poignarder un ennemi afin de vous assurer que vous restez inaperçu."
@@ -8711,7 +8727,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_MEDIC_KILL_HEALED_SPY_DESC"	"Tuez un Spy ennemi que vous avez soigné."
 "TF_MEDIC_SAVE_FALLING_TEAMMATE_NAME"	"Intervention médicale"
 "TF_MEDIC_SAVE_FALLING_TEAMMATE_DESC"	"Sauvez un coéquipier d'une chute mortelle."
-"TF_MEDIC_CHARGE_JUGGLE_NAME"	"Second diagnostic"
+"TF_MEDIC_CHARGE_JUGGLE_NAME"	"Deuxième avis"
 "TF_MEDIC_CHARGE_JUGGLE_DESC"	"Immunisez 2 coéquipiers simultanément."
 "TF_MEDIC_FREEZECAM_RAGDOLL_NAME"	"Rapport d'autopsie"
 "TF_MEDIC_FREEZECAM_RAGDOLL_DESC"	"Immortalisez la défaite d'un ennemi en posant triomphalement sur son cadavre."
@@ -13348,6 +13364,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"Lueurs lilas"
+"Attrib_Particle408"			"Prisme polaire"
 "Attrib_Particle409"			"Radiation solaire"
 "Attrib_Particle410"			"Croissance florale"
 "Attrib_Particle411"			"Croissance florale"
@@ -13739,6 +13756,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_ThePowerjack"			"Le Powerjack"	// ADD THE
 "TF_TheDegreaser"			"Le Dégraisseur"	// ADD THE
 "TF_TheShortstop"			"L'Arrêt-court"	// ADD THE
+"TF_LEtranger"				"L'Étranger"
 "TF_EternalReward"			"Ton Éternelle Récompense"
 "TF_TheBattalionsBackup"		"Le Soutien du Bataillon"	// ADD THE
 "TF_TheBlackBox"			"La Boîte Noire"	// ADD THE
@@ -13783,6 +13801,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_Ali_Babas_Wee_Booties"		"Les Alibabouches"
 "TF_SultansCeremonial"			"Turban Cérémonial du Sultan"
 "TF_SplendidScreen"			"Le Mirage Éblouissant" // ADD THE
+"TF_SplendidScreen_desc"			"Tir secondaire : percutez vos ennemis et supprimez les malus.\nGagnez un bonus critique au corps à corps si vous infligez des dégâts à un ennemi distant."
 "TF_MarketGardener"			"Le Jardinier" // ADD THE
 "TF_ReserveShooter"			"Le Tireur Réserviste" // ADD THE
 "TF_LibertyLauncher"			"Le Libérateur" // ADD THE
@@ -17618,6 +17637,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_taunt_proletariat_showoff_AdText"	"- Raillerie du Heavy créée par la communauté\n- Montrez-leur qui est le patron !"
 
 "TF_TauntAllClassAerobic"			"Raillerie : Mannrobic"
+"TF_TauntAllClassAerobic_Desc"		"Une raillerie communautaire pour toutes les classes.\nUne danse d’aérobic ardue pour bien se marrer.\nLes autres mercenaires peuvent se joindre à la danse en effectuant une raillerie.\n\n Appuyez sur la touche de raillerie pour l'activer.\nAppuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes.\nUtilisez les touches Avancer/Reculer pour vous déplacer et les touches Gauche/Droite pour tourner."
 "TF_TauntAllClassAerobic_AdText"	"- Une raillerie communautaire pour toutes les classes.\n- Une danse d’aérobic ardue pour bien se marrer.\n- Les autres joueurs peuvent se joindre à la danse en effectuant une raillerie."
 "TF_true_scotsmans_call"		"Raillerie : Corne'amuse"
 "TF_true_scotsmans_call_Desc"	"Raillerie du Demoman créée par la communauté"
@@ -18122,7 +18142,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_hw2013_space_oddity"		"L'Explorateur spectral" // ADD THE
 "TF_hw2013_ethereal_hood"		"Capuche éthérée"
 "TF_hw2013_maniacs_manacles"		"Les Menottes du maniaque" // ADD THE
-"TF_hw2013_second_opinion"		"Le Deuxième diagnostic" // ADD THE
+"TF_hw2013_second_opinion"		"Le Deuxième avis" // ADD THE
 "TF_hw2013_allclass_horseman"		"Le Cavalier sans Tête de poche" // ADD THE
 "TF_hw2013_last_bite"		"L'Ultime bouchée" // ADD THE
 "TF_hw2013_scout_demo_faunlegs"		"Les Baphomet trotteurs" // ADD THE
@@ -18645,6 +18665,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_taunt_the_skating_scorcher_Desc"		"Raillerie du Pyro créée par la communauté.\n\nUtilisez les touches de déplacement pour changer de direction.\nAppuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes."
 "TF_taunt_the_skating_scorcher_AdText"		"- Raillerie du Pyro créée par la communauté.\n- Appuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes."
 "TF_taunt_the_bunnyhopper"					"Raillerie : Le coup du lapin"
+"TF_taunt_the_bunnyhopper_Desc"				"Raillerie du Scout créée par la communauté.\n\nUtilisez les touches Avancer et Reculer pour vous déplacer\n et les touches Gauche/Droite pour tourner.\nAppuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes."
 "TF_taunt_the_bunnyhopper_AdText"			"- Raillerie du Scout créée par la communauté.\n- Appuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes."
 "TF_taunt_runners_rhythm"					"Raillerie : Garde le rythme"
 "TF_taunt_runners_rhythm_Desc"				"Raillerie du Scout créée par la communauté"
@@ -18813,6 +18834,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_taunt_texan_trickshot_Desc"				"Raillerie pour l'Engineer créée par la communauté\n\nAttaquez les joueurs ennemis qui se trouvent devant vous !"
 "TF_taunt_texan_trickshot_AdText"			"- Raillerie de l'Engineer créée par la communauté"
 "TF_taunt_flying_colors"					"Raillerie : La bannière solennelle"
+"TF_taunt_flying_colors_Desc"				"Raillerie pour toutes les classes créée par la communauté.\n\nAppuyez sur la touche de raillerie pour l'activer/désactiver."
 "TF_taunt_flying_colors_AdText"				"- Raillerie pour toutes les classes créée par la communauté"
 "TF_taunt_heartbreaker"						"Raillerie : Brisecœur"
 "TF_taunt_heartbreaker_Desc"				"Raillerie du Medic créée par la communauté."
@@ -18836,9 +18858,12 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_taunt_the_circuit_breaker_Desc"			"Raillerie du Heavy créée par la communauté."
 "TF_taunt_the_circuit_breaker_AdText"		"- Raillerie du Heavy créée par la communauté."
 "TF_taunt_buffoons_bivouac"					"Raillerie : Le Bivouac du bouffon"
+"TF_taunt_buffoons_bivouac_Desc"			"Raillerie du Soldier créée par la communauté.\n\nAppuyez sur la touche de raillerie pour l'activer/désactiver.\nAppuyez sur les touches associées à l'attaque principale et à l'attaque secondaire pour jouer des animations différentes."
 "TF_taunt_buffoons_bivouac_AdText"			"- Raillerie du Soldier créée par la communauté."
+"TF_taunt_fauxcalization"					"Raillerie : Faux-calise"
 "TF_taunt_fauxcalization_Desc"				"Raillerie du Spy créée par la communauté"
 "TF_taunt_fauxcalization_AdText"			"- Raillerie du Spy créée par la communauté"
+"TF_taunt_friendly_fire"					"Raillerie : feux de l'amitié"
 "TF_taunt_friendly_fire_Desc"				"Raillerie du Pyro créée par la communauté."
 "TF_taunt_friendly_fire_AdText"				"- Raillerie du Pyro créée par la communauté."
 // END WORKSHOP ITEMS
@@ -20132,27 +20157,64 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_dec25_cardiologists_cardigan"		"Cardigan de cardiologue"
 "TF_dec25_scrub_stompers"				"Mocassins médicaux"
 
+"TF_sum26_hard_hearing"					"Troubles auditifs"
 "TF_sum26_hard_hearing_style1"				"Modèle spécialisé"
 "TF_sum26_hard_hearing_style2"				"Modèle standard"
 "TF_sum26_hard_hearing_style3"				"Modèle militaire"
 "TF_sum26_hard_hearing_style4"				"Modèle sans casque"
+"TF_sum26_deadwave"						"Transpondeur d'ondes mortes"
 "TF_sum26_beachcombers"					"Chapeau de paille"
 "TF_sum26_beachcombers_style1"				"Botanique"
 "TF_sum26_beachcombers_style2"				"Tropique"
+"TF_sum26_chief_executor"				"Directeur général"
+"TF_sum26_vested_investors"				"Veste de l'investisseur investi"
+"TF_sum26_standing_offer"				"Offre d'aplomb"
+"TF_sum26_tzar_athlete"					"Athlète tsar"
+"TF_sum26_tzar_athlete_style1"				"Coach"
+"TF_sum26_tzar_athlete_style2"				"Coach sur canapé"
+"TF_sum26_barbeque"						"Pantalon graisseux"
 "TF_sum26_barbeque_style1"					"Clair"
+"TF_sum26_barbeque_style2"					"Foncé"
+"TF_sum26_unknown_warrior"				"Soldat Inconnu" // ADD THE
+"TF_sum26_tropical_torcher"				"Flamme des Tropiques"
 "TF_sum26_tropical_torcher_style1"			"Sans grenades"
 "TF_sum26_tropical_torcher_style2"			"Avec grenades"
 "TF_sum26_pyros_overalls"				"Salopette du Pyro"
+"TF_sum26_pyros_overalls_style1"			"Débutant"
+"TF_sum26_pyros_overalls_style2"			"Intermédiaire"
+"TF_sum26_pyros_overalls_style3"			"Confirmé"
+"TF_sum26_deadliest_match"				"Craquage d'allumettes" // ADD THE
 "TF_sum26_deadliest_match_style1"			"Barbe"
+"TF_sum26_deadliest_match_style2"			"Sans barbe"
+"TF_sum26_bomb_blanket"					"Couverture explosive"
+"TF_sum26_handsome"						"Garde bon chic bon genre" // ADD THE
+"TF_sum26_handsome_style1"					"De service"
+"TF_sum26_handsome_style2"					"En civil"
+"TF_sum26_long_shot"					"Veste d'élite" // ADD THE
+"TF_sum26_long_shot_style1"					"Shérif"
+"TF_sum26_long_shot_style2"					"Hors-la-loi"
+"TF_sum26_night_riders"					"Cavaliers de la nuit" // ADD THE
+"TF_sum26_night_riders_style1"				"Équipé"
+"TF_sum26_night_riders_style2"				"Non équipé"
+"TF_sum26_atomic_bomber"				"Blouson Atomique"
+"TF_sum26_atomic_kicks"					"Boing ! Godasses atomiques"
 "TF_sum26_atomic_kicks_style1"				"Boing !"
 "TF_sum26_atomic_kicks_style2"				"Crit-a-Cola"
+"TF_sum26_lieutenants_cut"				"Coupe du Lieutenant"
 "TF_sum26_lieutenants_cut_style1"			"Cigare"
 "TF_sum26_lieutenants_cut_style2"			"Pas de cigare"
 "TF_sum26_lieutenants_cut_style3"			"Rasé de près"
+"TF_sum26_lieutenants_cut_style4"			"Coupe de cheveux seulement"
+"TF_sum26_inglorious_patriot"			"Patriote sans honneur"
 "TF_sum26_delusions"					"La Folie des Grandeurs"
 "TF_sum26_delusions_style1"					"Feutre rayé"
+"TF_sum26_delusions_style2"					"Basique"
+"TF_sum26_unruly_ruler"					"Consul cabochard"
+"TF_sum26_bald_spotter"					"Observateur dégarni"
 "TF_sum26_bald_spotter_style1"				"Myope"
 "TF_sum26_bald_spotter_style2"				"Hypermétrope"
+"TF_sum26_surgical_shroud"				"Linceul chirurgical"
+
 "TF_style_bullets"						"Avec munitions"
 "TF_style_nobullets"					"Sans munitions"
 

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\custom\iron\badwater_event\gothic_lamp_wall01_glass_base"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$color2" "[.9 .9 .8]"
+	"$translucent"	1
+    "$nocull"                1
+    "$selfillum"                1
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$model" 1
+	"$basetexture" "models\props_hearth/typewriter_01"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "1"	
+	"$envmaptint" "[.05 .05 .05]"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

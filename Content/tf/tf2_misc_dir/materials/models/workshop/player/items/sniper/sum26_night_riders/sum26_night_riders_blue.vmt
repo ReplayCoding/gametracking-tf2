@@ -6,17 +6,13 @@
 	"$phongexponenttexture"		"models/workshop/player/items/sniper/sum26_night_riders/sum26_night_riders_phongexponent"
 	"$phong"		"1"
 	"$phongexponent"		"19.879999"
-	"$phongboost"		"0.430000"
+	"$phongboost"		"1.030000"
 	"$phongfresnelranges"		"[.25 .5 1]"
 	"$rimlight"		"1"
 	"$rimlightexponent"		"3.600000"
 	"$rimlightboost"		"2.700000"
 	"$rimmask"		"1"
-	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"0"
-	"$colortint_base"		"{ 100 95 105 }"
-	"$color2"		"{ 100 95 105 }"
-	"$colortint_tmp"		"[0 0 0]"
+	"$color2"		"{ 255 255 255 }"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
@@ -43,24 +39,13 @@
 		{
 			"resultVar"		"$detailblendfactor"
 		}
-		"ItemTintColor"
-		{
-			"resultVar"		"$colortint_tmp"
-		}
-		"SelectFirstIfNonZero"
-		{
-			"srcVar1"		"$colortint_tmp"
-			"srcVar2"		"$colortint_base"
-			"resultVar"		"$color2"
-		}
 		"YellowLevel"
 		{
 			"resultVar"		"$yellow"
 		}
-		"Multiply"
+		"Equals"
 		{
-			"srcVar1"		"$color2"
-			"srcVar2"		"$yellow"
+			"srcVar1"		"$yellow"
 			"resultVar"		"$color2"
 		}
 	}

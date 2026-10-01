@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SWAMP/WATER_MURKY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/zi_murky/c518_1481_156"
+		"Proxies"
+		{
+		}
+	}
+}

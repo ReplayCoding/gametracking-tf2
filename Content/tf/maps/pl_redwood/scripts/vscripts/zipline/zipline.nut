@@ -1,14 +1,15 @@
 // VScript Zipline logic, for pl_redwood
 // by Sarexicus. Only use with permission!
 
-::ZIPLINE_SCRIPT_VERSION <- "1.9.0";
+::ZIPLINE_SCRIPT_VERSION <- "1.9.7";
 
 // attachment
-::latch_tolerance_angle <- 20;      // angle (in degrees) that the player can be looking away from an endpoint to attach
+::latch_tolerance_angle <- 30;      // angle (in degrees) that the player can be looking away from an endpoint to attach
 ::max_dist <- 128; 			        // maximum distance player can be from line to still be able to use line
 ::latch_dist <- 128;		        // distance from player to the visual point the zipline indicator will show
 ::hang_dist <- 32;                  // distance below the zipline the player will hang
 ::offset_dist_vertical <- 32;       // distance from a vertical zipline a player will be positioned
+::hook_analysis_time <- 0.4; 	    // time before analysing whether the player is holding or pressing jump
 
 // speed
 ::zipline_speed <- 900;		        // speed player travels along horizontal ziplines
@@ -30,7 +31,7 @@
 ::indicator_model <- "models/props_hydro/cap_point_arrow_small.mdl";
 ::attachment_model <- "models/propper/redwood/zipline_pulley_01.mdl";
 ::hook_model <- "models/props_mining/cranehook001.mdl";
-::zipline_volume <- 0.7;            // default zipline sound volume
+::zipline_volume <- 0.56;           // default zipline sound volume
 ::spy_zipline_volume_mult <- 0.3;   // invisible spies taking ziplines have the zipline volume multiplied by this value
 
 // ---------------------------------------------------------------
@@ -39,7 +40,7 @@
 zipline_tracks <- [];
 zipline_endpoints <- [];
 
-Convars.SetValue("tf_grapplinghook_prevent_fall_damage", "1");
+Convars.SetValue("tf_grapplinghook_prevent_fall_damage", "0");
 Convars.SetValue("tf_resolve_stuck_players", "0");
 ::MaxPlayers <- MaxClients().tointeger();
 
@@ -52,7 +53,12 @@ CONTENTS_TEAM2 <- Constants.FContents.CONTENTS_TEAM2;
 
 BUTTONS_JUMP <- Constants.FButtons.IN_JUMP;
 BUTTONS_CROUCH <- Constants.FButtons.IN_DUCK;
+BUTTONS_FORWARD <- Constants.FButtons.IN_FORWARD;
+BUTTONS_BACK <- Constants.FButtons.IN_BACK;
 RAD2DEG <- 360.0 / (PI * 2);
+WORLDSPAWN <- Entities.First();
+MAX_WEAPONS <- 8;
+STATIC_CHECK <- IsHolidayActive(11);
 
 function CheckSpaceFree(player, loc, mask = null) {
     local trace_table = {
@@ -234,6 +240,12 @@ function CreateAndParentModelToPlayer(player, worldModelIndex)
     return parented_model;
 }
 
+function SetOriginInterpolated(entity, origin) {
+    local frame = NetProps.GetPropInt(entity, "m_ubInterpolationFrame");
+    entity.SetOrigin(origin);
+    NetProps.SetPropInt(entity, "m_ubInterpolationFrame", frame);
+}
+
 // #endregion
 // ---------------------------------------------------------------
 
@@ -372,8 +384,8 @@ function CreateZiplineAttachment(player, attachment_point, path, next_path) {
 }
 
 function PlayZiplineAttachStartEnd(player, path, next_path) {
-    PlaySoundAt(player, path.GetOrigin(), "ChainLink.ImpactSoft", 6, 0.2, 80);
-    PlaySoundAt(player, next_path.GetOrigin(), "ChainLink.ImpactSoft", 6, 0.2, 80);
+    PlaySoundAt(player, path.GetOrigin(), "Zipline.Endpoint", 6, 0.2, 80);
+    PlaySoundAt(player, next_path.GetOrigin(), "Zipline.Endpoint", 6, 0.2, 80);
 }
 
 function SetupZiplineAndAttach(player, path, next_path, nearest_point, attachment_point, move_forward, is_vertical) {
@@ -396,8 +408,9 @@ function SetupZiplineAndAttach(player, path, next_path, nearest_point, attachmen
     local pclass = player.GetPlayerClass();
     local volume = (pclass == Constants.ETFClass.TF_CLASS_SPY && player.IsFullyInvisible()) ? spy_zipline_volume_mult * zipline_volume : zipline_volume;
 
-    StartLoopingSoundForPlayer(player, "WeaponGrapplingHook.ReelStart", 1, volume);
-    StartLoopingSoundForPlayer(player, "WeaponGrapplingHook.Wind", 1, 0.2, 110);
+    StartLoopingSoundForPlayer(player, "Zipline.Attach", 1, volume);
+    StartLoopingSoundForPlayer(player, "Zipline.Loop", 1, 0.2, 110);
+    if(STATIC_CHECK) PlaySoundAt(player, player.GetOrigin(), "Halloween.Quack", 6, 0.4, 110);
 
     scope.zipline_velocity <- player.GetAbsVelocity() + (player.GetOrigin() - nearest_point);
     player.SetAbsVelocity(vectriple(0));
@@ -412,7 +425,6 @@ function SetupZiplineAndAttach(player, path, next_path, nearest_point, attachmen
 
     // player should be counted as grappling
     player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK, 20, null);
-    player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK_SAFEFALL, 20, null);
 }
 
 function CheckZiplineHooks(player) {
@@ -473,16 +485,42 @@ function CheckZiplineHooks(player) {
         local looking_point = (look_prev < look_next) ? prev_pos : next_pos;
         local move_forward = !(look_prev < look_next);
 
-        // if you're close *enough* to an endpoint, go the opposite way
+        // also factor input into endpoint choice
+        local intends_to_move_backward = scope.buttons_last & BUTTONS_BACK;
+
+        // if you're close *enough* to an endpoint (and not moving towards it), go the opposite way
         local prev_is_endpoint = NetProps.GetPropEntity(track, "m_pprevious") == null || NetProps.GetPropEntity(track, "m_pnext") == null;
         local next_is_endpoint = NetProps.GetPropEntity(next, "m_pprevious") == null || NetProps.GetPropEntity(next, "m_pnext") == null;
-        if(Distance(player_pos, prev_pos) < 192 && prev_is_endpoint) {
-            move_forward = true;
-            looking_point = next_pos;
+        if(isVertical) {
+            if(Distance(player_pos, prev_pos) < 192 && prev_is_endpoint) {
+                move_forward = true;
+                looking_point = next_pos;
+            }
+            if(Distance(player_pos, next_pos) < 192 && next_is_endpoint) {
+                move_forward = false;
+                looking_point = prev_pos;
+            }
         }
-        if(Distance(player_pos, next_pos) < 192 && next_is_endpoint) {
-            move_forward = false;
-            looking_point = prev_pos;
+        else {
+            if(Distance(player_pos, prev_pos) < 192 && prev_is_endpoint) {
+                local looking_at_prev = looking_point == prev_pos;
+                local wants_to_go_backward = (intends_to_move_backward && looking_at_prev);
+                local between_terminals = (dist_next_to_player < dist_path_to_next);
+                if((looking_at_prev && !between_terminals) || wants_to_go_backward) {
+                    move_forward = true;
+                    looking_point = next_pos;
+                }
+            }
+
+            if(Distance(player_pos, next_pos) < 192 && next_is_endpoint) {
+                local looking_at_next = looking_point == next_pos;
+                local wants_to_go_backward = (intends_to_move_backward && looking_at_next);
+                local between_terminals = (dist_path_to_player < dist_path_to_next);
+                if((looking_at_next && !between_terminals) || wants_to_go_backward) {
+                    move_forward = false;
+                    looking_point = prev_pos;
+                }
+            }
         }
 
         local furtherPoint = MoveTowards(P, looking_point, latch_dist);
@@ -605,14 +643,13 @@ function Think() {
             continue;
         }
 
-        if(!scope.analysed_attach && (Time() - scope.last_hook > hook_cooldown_jump)) {
+        if(!scope.analysed_attach && (Time() - scope.last_hook > hook_analysis_time)) {
             scope.analysed_attach = true;
             local is_holding_jump = (scope.buttons_last & BUTTONS_JUMP);
             scope.holding_jump_to_attach <- (is_holding_jump) ? true : false;
         }
 
         player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK, 20, null);
-        player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK_SAFEFALL, 20, null);
 
         ProcessZiplineMovement(player, scope);
         if(!scope.attached) continue;
@@ -645,7 +682,9 @@ function ProcessZiplineMovement(player, scope) {
     if(scope.zipline_is_vertical) {
         pulley_point = Vector(scope.attachment_point.x, scope.attachment_point.y, current_pos.z + (player.GetClassEyeHeight().z));
     }
-    if(scope.zipline_model_pulley != null) scope.zipline_model_pulley.SetOrigin(pulley_point);
+    if(scope.zipline_model_pulley != null) {
+        SetOriginInterpolated(scope.zipline_model_pulley, pulley_point);
+    }
 
     local v = vectriple(0);
     if(scope.zipline_velocity.Length() > 2) {
@@ -661,14 +700,18 @@ function ProcessZiplineMovement(player, scope) {
     local player_collide = CheckHitEnemyTeam(player, new_pos);
     if(player_collide == null) {
         // smooth interpolation
-        // local frame = NetProps.GetPropInt(player, "m_ubInterpolationFrame");
-        player.SetOrigin(new_pos);
-        // NetProps.SetPropInt(player, "m_ubInterpolationFrame", frame);
+        SetOriginInterpolated(player, new_pos);
     }
     else {
         // collided with an enemy player!
-        PlaySoundAt(player, player.GetOrigin(), "Flesh.StepRight", 6, 0.9, 100);
-        PlaySoundAt(player, scope.attachment_point, "MetalVent.ImpactHard", 6, 0.4, 120);
+        if(STATIC_CHECK) {
+            PlaySoundAt(player, player.GetOrigin(), "Flesh.StepRight", 6, 0.9, 100);
+            PlaySoundAt(player, scope.attachment_point, "Bounce.Concrete", 6, 0.6, 100);
+        }
+        else {
+            PlaySoundAt(player, player.GetOrigin(), "Flesh.StepRight", 6, 0.9, 100);
+            PlaySoundAt(player, scope.attachment_point, "MetalVent.ImpactHard", 6, 0.4, 120);
+        }
 
         FireScriptEvent("zipline_player_collide", {
             "player": player,
@@ -685,7 +728,7 @@ function ProcessZiplineMovement(player, scope) {
 // ---------------------------------------------------------------
 
 function CheckZiplineReachEndpoint(player, scope) {
-    local not_too_recent = Time() - scope.last_hook > 0.5;
+    local not_too_recent = Time() - scope.last_hook > 0.75;
     local vert = scope.zipline_is_vertical;
 
     // if(!not_too_recent || Distance(player.GetOrigin(), scope.attach_location) < distance_threshold * 0.75) return;
@@ -704,7 +747,7 @@ function CheckZiplineReachEndpoint(player, scope) {
     local origin_endpoint_distance = Distance(dest.GetOrigin(), desired_pos);
 
     local current_zip_duration = Time() - scope.last_hook;
-    if(endpoint_distance < 128 || current_zip_duration < 0.4) {
+    if(endpoint_distance < collection_distance || current_zip_duration < 0.4) {
         if(!CheckSpaceFree(player, player.GetOrigin(), CONTENTS_WORLD)) {
             // don't continue to visually clip into the world where possible
             scope.zipline_velocity = vectriple(0);
@@ -720,6 +763,14 @@ function CheckZiplineReachEndpoint(player, scope) {
 
     if(is_vert_downwards && origin_endpoint_distance > collection_distance) return;
     if(!is_vert_downwards && endpoint_distance > collection_distance) return;
+
+    // prevent the effects of inertia causing issues when attaching to a zipline right near the end
+    if(!vert) {
+        local offset = scope.zipline_offset;
+        local desired_pos = scope.attachment_point - player.GetClassEyeHeight() + (Vector(0, 0, -hang_dist)) + offset;
+        local vertical_diff = fabs(player.GetOrigin().z - desired_pos.z);
+        if(vertical_diff > distance_threshold / 2) return;
+    }
 
     // transfer to track along path if available
     local dest_next = NetProps.GetPropEntity(dest, "m_pnext");
@@ -780,7 +831,8 @@ function DismountVelocity(player, scope, dest, src) {
     if(vert && is_upwards) {
         local tracestart = dest.GetOrigin() - player.GetClassEyeHeight() - Vector(0, 0, 32);
         if(CheckSpaceFree(player, tracestart, CONTENTS_WORLD)) {
-            player.SetOrigin(tracestart);
+            // smooth interpolation
+            SetOriginInterpolated(player, tracestart);
         }
     }
 
@@ -793,10 +845,12 @@ function CheckPlayerDetach(player, scope) {
     local jump_disengage = (scope.holding_jump_to_attach) ?
         (scope.buttons_released & BUTTONS_JUMP) :
         (scope.buttons_pressed & BUTTONS_JUMP);
-    local is_jump_disengaging = (scope.analysed_attach && jump_disengage && attach_time > hook_cooldown_jump);
+    local is_jump_disengaging = (!scope.holding_jump_to_attach && scope.buttons_pressed & BUTTONS_JUMP && attach_time > hook_cooldown_jump) || (scope.analysed_attach && jump_disengage && attach_time > hook_analysis_time);
 
     local crouch_disengage = (scope.buttons_pressed & Constants.FButtons.IN_DUCK);
     local is_crouch_disengaging = (crouch_disengage && attach_time > hook_cooldown_crouch);
+
+    local is_charging = (player != null && player.IsValid() && player.InCond(Constants.ETFCond.TF_COND_SHIELD_CHARGE));
 
     if(is_jump_disengaging || is_crouch_disengaging) {
         local vert = scope.zipline_is_vertical;
@@ -814,11 +868,24 @@ function CheckPlayerDetach(player, scope) {
                 zip_dir.Norm();
                 local player_speed =  NetProps.GetPropFloat(player, "m_flMaxspeed");
 
+                // lower impact of "charge-tapping", (also wrongly known as C-tapping. this will have no consequences whatsoever)
+                if(is_charging) { player_speed /= 2; }
+
                 // use mult of player speed as "existing speed" to allow a balanced boost when dismounting
                 local preserved_vel = zip_dir * (player_speed * jump_strength);
 
                 local eye_dir = player.EyeAngles().Forward();
-                local vel = Vector(0, 0, jump_up_height) + (eye_dir * (player_speed * 0.25 * jump_strength));
+
+                local final_jump_height = jump_up_height;
+                local weapon = player.GetActiveWeapon();
+                if(weapon != null && weapon.IsValid()) {
+                    local itemIndex = NetProps.GetPropInt(weapon, "m_AttributeManager.m_Item.m_iItemDefinitionIndex");
+                    if(itemIndex == 449) {
+                        final_jump_height *= 1.25;
+                    }
+                }
+
+                local vel = Vector(0, 0, final_jump_height) + (eye_dir * (player_speed * 0.25 * jump_strength));
 
                 // prioritise forward movement when zipline is vertical
                 if(vert) {
@@ -863,7 +930,8 @@ function NudgePlayer(player) {
     foreach(dir in nudge_dirs) {
         local newSpace = player.GetOrigin() + dir;
         if(CheckSpaceFree(player, newSpace, CONTENTS_WORLD)) {
-            player.SetOrigin(newSpace);
+            // smooth interpolation
+            SetOriginInterpolated(player, newSpace);
             return true;
         }
     }
@@ -885,7 +953,8 @@ function CheckUnstickPlayer(player, scope) {
         else newSpace += Vector(0, 0, 8);
 
         if(CheckSpaceFree(player, newSpace, CONTENTS_WORLD)) {
-            player.SetOrigin(newSpace);
+            // smooth interpolation
+            SetOriginInterpolated(player, newSpace);
             return;
         }
 
@@ -910,8 +979,8 @@ function RemoveZiplineAttachments(player, scope) {
 }
 
 function DetachPlayerHook(player, scope, is_manual_detach = false) {
-    StopLoopingSoundForPlayer(player, "WeaponGrapplingHook.ReelStart");
-    StopLoopingSoundForPlayer(player, "WeaponGrapplingHook.Wind");
+    StopLoopingSoundForPlayer(player, "Zipline.Attach");
+    StopLoopingSoundForPlayer(player, "Zipline.Loop");
 
     if(scope.prev_path && scope.next_path) {
         PlayZiplineAttachStartEnd(player, scope.prev_path, scope.next_path);
@@ -922,10 +991,10 @@ function DetachPlayerHook(player, scope, is_manual_detach = false) {
     local pclass = player.GetPlayerClass();
     local volume = (pclass == Constants.ETFClass.TF_CLASS_SPY && player.IsFullyInvisible()) ? spy_zipline_volume_mult * zipline_volume : zipline_volume;
 
-    PlaySoundForPlayer(player, "WeaponGrapplingHook.ReelStop", 6, volume);
+    if(STATIC_CHECK) PlaySoundForPlayer(player, "Zipline.Detach2", 6, 0.5);
+    PlaySoundForPlayer(player, "Zipline.Detach", 6, volume);
 
     player.RemoveCond(Constants.ETFCond.TF_COND_GRAPPLINGHOOK);
-    player.AddCondEx(Constants.ETFCond.TF_COND_GRAPPLINGHOOK_SAFEFALL, 20, player);
 
     FireScriptEvent("zipline_detach", {
         "player": player,
@@ -1073,6 +1142,37 @@ function RemoveForcedMinicrit(player)
 	}
 }
 
+function ProcessFallDamagePropagation(params) {
+    local victim = params.const_entity;
+    local ground = NetProps.GetPropEntity(victim, "m_hGroundEntity");
+
+    // never disable fall damage if there's an attacker DEALING the fall damage (e.g. Mantreads)
+    local attacker = params.attacker;
+    if (attacker && (attacker.IsPlayer() || attacker instanceof NextBotCombatCharacter)) return;
+
+    // only disable fall damage if we've just come off a zipline
+    local victim_scope = victim.GetScriptScope();
+    if(!victim_scope.attached_airborne) return;
+
+    // never disable the fall damage if the victim is landing on a player under the right circumstances
+    // (otherwise the fall damage isn't propagated properly)
+    if(ground != null && (ground.IsPlayer() || ground instanceof NextBotCombatCharacter)) {
+        // if the player is using the Thermal Thruster, don't disable
+        if(victim.InCond(Constants.ETFCond.TF_COND_ROCKETPACK)) return;
+
+        // check for the Mantreads (they count as a wearable), and if worn, don't disable
+        for (local wearable = victim.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer())
+        {
+            if (wearable.GetClassname() != "tf_wearable") continue;
+            local itemIndex = NetProps.GetPropInt(wearable, "m_AttributeManager.m_Item.m_iItemDefinitionIndex");
+            if(itemIndex == 444) return;
+        }
+    }
+
+    params.early_out <- true;
+    params.damage <- 0;
+}
+
 CollectEventsInScope
 ({
     // gamemode-defined script events
@@ -1110,7 +1210,8 @@ CollectEventsInScope
         local scope = player.GetScriptScope();
         if (scope.attached) {
             DetachPlayerHook(player, scope, false);
-        }
+        }    
+        StopLoopingSoundForPlayer(player, "Zipline.Loop");
     }
 
     function OnGameEvent_player_death(params){
@@ -1127,6 +1228,8 @@ CollectEventsInScope
         }
 
         DetachPlayerHook(player, scope, false);
+        StopLoopingSoundForPlayer(player, "Zipline.Loop");
+        scope.attached_airborne <- false;
     }
 
     function OnGameEvent_teamplay_round_start(params) {
@@ -1140,11 +1243,17 @@ CollectEventsInScope
         }
     }
 
-    // Force Direct Hit / Reserve Shooter interactions to work (zipline should count as "airborne")
     function OnScriptHook_OnTakeDamage(params)
 	{
+        // Force Mantreads / Thermal Thruster interactions to work (zipline should not disable fall damage when landing on players in these cases)
+        if(params.damage_type & Constants.FDmgType.DMG_FALL) {
+            ProcessFallDamagePropagation(params);
+            return;
+        }
+
+        // Force Direct Hit / Reserve Shooter interactions to work (zipline should count as "airborne")
 		local attacker = params.attacker;
-		if (!attacker) return;
+		if (!attacker || !(attacker.IsPlayer() || attacker instanceof NextBotCombatCharacter)) return;
 
         local victim = params.const_entity;
         if(victim == null || !victim.IsValid()) return;
@@ -1256,10 +1365,15 @@ function Precache() {
 
     PrecacheScriptSound("Flesh.StepRight");
     PrecacheScriptSound("MetalVent.ImpactHard");
+    PrecacheScriptSound("Bounce.Concrete");
+    PrecacheScriptSound("BumperCar.Bump");
+    PrecacheScriptSound("Halloween.Quack");
 
-    PrecacheScriptSound("WeaponGrapplingHook.ReelStart");
-    PrecacheScriptSound("WeaponGrapplingHook.ReelStop");
-    PrecacheScriptSound("WeaponGrapplingHook.Wind");
+    PrecacheScriptSound("Zipline.Attach");
+    PrecacheScriptSound("Zipline.Endpoint");
+    PrecacheScriptSound("Zipline.Loop");
+    PrecacheScriptSound("Zipline.Detach");
+    PrecacheScriptSound("Zipline.Detach2");
 
     // models
     PrecacheModel(indicator_model);

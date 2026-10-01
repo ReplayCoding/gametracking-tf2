@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SWAMP/WATER/WATER_SWAMP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_wildcat_event/c-608_-1815_48"
+		"Proxies"
+		{
+		}
+	}
+}

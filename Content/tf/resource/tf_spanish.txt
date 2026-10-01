@@ -1611,6 +1611,11 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"Segundo Puesto de RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"Tercer Puesto de RGB 7 LAN"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"Participante de RGB 7 LAN"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"Primer Puesto de RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"Segundo Puesto de RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"Tercer Puesto de RGB 8 LAN"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"Participante de RGB 8 LAN"
+
 "TF_TournamentMedal_Season1"	"Temporada 1"
 "TF_TournamentMedal_Season2"	"Temporada 2"
 "TF_TournamentMedal_Season3"	"Temporada 3"
@@ -2241,10 +2246,6 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2nd"			"Segundo Puesto de CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_SummerBrawl_3rd"			"Tercer Puesto de CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_SummerBrawl_Participant"	"Participante de CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"Primer Puesto de CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"Segundo Puesto de CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"Tercer Puesto de CappingTV Summer Brawl"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"Participante de CappingTV Summer Brawl"
 "TF_TournamentMedal_CappingTV_PASS_Time_1st"			"Primer Puesto de CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_2nd"			"Segundo Puesto de CappingTV PASS Time Championship"
 "TF_TournamentMedal_CappingTV_PASS_Time_3rd"			"Tercer Puesto de CappingTV PASS Time Championship"
@@ -2256,6 +2257,7 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"Brisbane, Australia, 2023"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"Brisbane, Australia, 2024"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2025"		"Brisbane, Australia, 2025"
+"TF_TournamentMedal_CappingTV_SummerBrawl_2026"		"Brisbane, Australia, 2026"
 
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Medalla de Oro de Snack's Summery Ultiduo Siesta"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Medalla de Plata de Snack's Summery Ultiduo Siesta"
@@ -2952,6 +2954,7 @@
 "TF_TournamentMedal_LAN_Downunder_Champion"				"Campeón de LAN Downunder"
 "TF_TournamentMedal_LAN_Downunder_2024"					"Melburne, Australia, 2024"
 "TF_TournamentMedal_LAN_Downunder_2025"					"Melburne, Australia, 2025"
+"TF_TournamentMedal_LAN_Downunder_2026"					"Melburne, Australia, 2026"
 
 "TF_TournamentMedal_RussianHighlander_1st"				"Primer Puesto de Russian Highlander"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Segundo Puesto de Russian Highlander"
@@ -3624,6 +3627,16 @@
 
 "TF_TournamentMedal_Supreme_Strategist"					"Emblema de Estatus del Estratega Supremo"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"Una medalla especial entregada por el director ejecutivo de Gray Gravel Co. a quienes son leales a su causa. Solo aquellos que son extremadamente hábiles en el arte de comandar sus ejércitos la han tenido en sus manos. Nos ha recomendado no llevarla en público. ¡Otorgada a los creadores de contenido de los eventos de Moonlight MvM!"
+
+"TF_TournamentMedal_JF_Soldier_1st"						"Primer Puesto de las Eliminatorias de Jump Fortress de Soldier"
+"TF_TournamentMedal_JF_Soldier_2nd"						"Segundo Puesto de las Eliminatorias de Jump Fortress de Soldier"
+"TF_TournamentMedal_JF_Soldier_3rd"						"Tercer Puesto de las Eliminatorias de Jump Fortress de Soldier"
+"TF_TournamentMedal_JF_Soldier_Participant"				"Participante de las Eliminatorias de Jump Fortress de Soldier"
+"TF_TournamentMedal_JF_Demoman_1st"						"Primer Puesto de las Eliminatorias de Jump Fortress de Demoman"
+"TF_TournamentMedal_JF_Demoman_2nd"						"Segundo Puesto de las Eliminatorias de Jump Fortress de Demoman"
+"TF_TournamentMedal_JF_Demoman_3rd"						"Tercer Puesto de las Eliminatorias de Jump Fortress de Demoman"
+"TF_TournamentMedal_JF_Demoman_Participant"				"Participante de las Eliminatorias de Jump Fortress de Demoman"
+"TF_TournamentMedal_JF_Contributor"						"Colaborador de las Eliminatorias de Jump Fortress"
 
 "TF_heals4reals_gold"			"Primer Puesto del Evento Heals for Reals"
 "TF_heals4reals_silver"			"Segundo Puesto del Evento Heals for Reals"
@@ -13350,6 +13363,7 @@
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"Luces umbrales"
+"Attrib_Particle408"			"Prisma polar"
 "Attrib_Particle409"			"Aurora solar"
 "Attrib_Particle410"			"Crecimiento floral"
 "Attrib_Particle411"			"Crecimiento floral"

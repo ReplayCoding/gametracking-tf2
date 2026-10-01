@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/SWAMP/WATER/WATER_MURKY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_holyhell/c1938_2182_-30"
+		"Proxies"
+		{
+		}
+	}
+}

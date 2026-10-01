@@ -1,0 +1,18 @@
+"Refract"
+{
+	<dx90
+	{
+ 		$normalmap "effects/workshop/boil_skull1"
+	}
+	"$normalmap" "effects/workshop/boil_skull1"
+ 	$refractamount 0
+	$vertexalpha 1
+	$vertexcolor 1
+	$translucent 1
+	$forcerefract 0
+	$blendframes 1
+ 	$bluramount 0
+	$nofog 1
+	$nocull 1
+	$vertexcolormodulate 1
+}

@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_TSL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/koth_trainsawlaser/c0_-2304_0"
+		"Proxies"
+		{
+		}
+	}
+}

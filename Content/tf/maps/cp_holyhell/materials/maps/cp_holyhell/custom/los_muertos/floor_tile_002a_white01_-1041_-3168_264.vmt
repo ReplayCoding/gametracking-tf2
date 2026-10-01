@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/LOS_MUERTOS/FLOOR_TILE_002A_WHITE01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_holyhell/c-1041_-3168_264"
+	}
+}

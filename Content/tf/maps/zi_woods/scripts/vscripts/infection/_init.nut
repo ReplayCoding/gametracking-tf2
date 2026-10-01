@@ -1,7 +1,7 @@
 // --------------------------------------------------------------------------------------- //
 // Zombie Infection                                                                        //
 // --------------------------------------------------------------------------------------- //
-// All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
+// All Code By: netmuck (https://steamcommunity.com/profiles/76561198025795825)            //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
 // --------------------------------------------------------------------------------------- //
 // init script                                                                             //
@@ -10,7 +10,6 @@
 if ( "InfectionLoaded" in getroottable() )
     return;
 
-::DEBUG_MODE           <- 0;
 ::MaxPlayers           <- MaxClients().tointeger();
 ::bGameStarted         <- false;
 ::TFPlayerManager      <- Entities.FindByClassname( null, "tf_player_manager" );
@@ -18,15 +17,21 @@ if ( "InfectionLoaded" in getroottable() )
 ::worldspawn           <- Entities.FindByClassname( null, "worldspawn" );
 ::flTimeLastBell       <- 0.0;
 ::flTimeLastSpawnSFX   <- 0.0;
-::PDLogic              <- null;
 ::bSetupHasEnded       <- false;
-::bIsPayload           <- false;
 
 ::bNewFirstWaveBehaviour <- false;
 ::bNoPyroExplosionMod    <- false;
 
+::bZombieGibsOn          <- false;
+
+::arrZombieBeacons       <- [];
+::tblLastRoundZombies <- {};
+::bZombieQuotaBuffOn     <- false;
+
+::iSplatFireSerial       <- 0;
+
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v3.0.6 - 20/10/2025";
+const VERSION       =  "v4 workshop release - 31/08/2026";
 
 ::INFECTION_CONVARS <-
 {
@@ -74,8 +79,40 @@ foreach (k, v in ::NetProps.getclass())
     if (k != "IsValid")
         getroottable()[k] <- ::NetProps[k].bindenv(::NetProps);
 
+// engie beacon
+PrecacheModel       ( MDL_ENGIE_BEACON );
+PrecacheModel       ( MDL_ENGIE_BEACON_TOOLBOX );
+
+foreach ( _szGibModel in ARR_MDL_BEACON_GIBS )
+    PrecacheModel   ( _szGibModel );
+PrecacheScriptSound ( SFX_BEACON_BUILD );
+PrecacheScriptSound ( SFX_BEACON_READY );
+PrecacheScriptSound ( SFX_BEACON_DESTROY );
+
 // engie nade
 PrecacheModel       ( MDL_WORLD_MODEL_ENGIE_NADE );
+
+// heavy rock throw
+PrecacheModel       ( MDL_HEAVY_ROCK );
+foreach ( _szGibModel in ARR_MDL_HEAVY_ROCK_GIBS )
+    PrecacheModel   ( _szGibModel );
+PrecacheScriptSound ( SFX_HEAVY_ROCK_WORLD );
+PrecacheScriptSound ( SFX_HEAVY_ROCK_FLESH );
+PrecacheScriptSound ( SFX_HEAVY_ROCK_CONCRETE );
+PrecacheScriptSound ( SFX_HEAVY_FOOTSTEP );
+
+PrecacheScriptSound ( SFX_SOLDIER_FALL );
+
+// zombie voice
+PrecacheScriptSound ( SFX_ZOMBIE_EMERGE_RISE );
+PrecacheScriptSound ( SFX_ZOMBIE_VO_MOAN );
+
+foreach ( _szZombieVO in szArrZombieVOEvilLaugh )
+    PrecacheScriptSound ( _szZombieVO );
+
+//PrecacheScriptSound ( "TFPlayer.StunImpactRange" );
+//PrecacheScriptSound ( "TFPlayer.StunImpact" );
+
 PrecacheScriptSound ( "Building_Sentry.Damage" );
 PrecacheScriptSound ( "Halloween.PlayerEscapedUnderworld" );
 PrecacheScriptSound ( "Weapon_Grenade_Det_Pack.Timer" );
@@ -86,6 +123,13 @@ PrecacheScriptSound ( "Infection.SniperSpitEnd" );
 PrecacheScriptSound ( "Halloween.PumpkinExplode" );
 PrecacheScriptSound ( "Underwater.BulletImpact" );
 PrecacheScriptSound ( "Infection.SpyReveal" );
+
+foreach ( _szSpyRevealWav in ARR_SFX_SPY_REVEAL_WAVS )
+    PrecacheSound ( _szSpyRevealWav );
+
+foreach ( _szSpewSpitWav in ARR_SFX_SPEW_SPIT_WAVS )
+    PrecacheSound ( _szSpewSpitWav );
+PrecacheSound ( SFX_SPEW_IMPACT_WAV );
 PrecacheScriptSound ( "Powerup.PickUpRegeneration" );
 PrecacheScriptSound ( "DemoCharge.HitFlesh" );
 PrecacheScriptSound ( "Infection.SoldierPounce" );
@@ -95,6 +139,9 @@ PrecacheScriptSound ( "Infection.SoldierPounce" );
 PrecacheScriptSound ( "Infection.EngineerEMP" );
 PrecacheScriptSound ( "Infection.MedicZombieHeal" );
 PrecacheScriptSound ( "Infection.DemoChargeRamp" );
+PrecacheScriptSound ( "Infection.HeavyRockGrab" );
+PrecacheScriptSound ( "Infection.HeavyRockThrow" );
+PrecacheScriptSound ( "Infection.HeavyRockImpact" );
 
 PrecacheScriptSound ( "WeaponGrapplingHook.ImpactFlesh" );
 PrecacheScriptSound ( "Bounce.Flesh" );
@@ -214,6 +261,5 @@ arrZombieFXWearable <-
 
 PrecacheResources();
 
-printl( "_init.nut Complete." )
 printl( GAMEMODE_NAME + "\n" + VERSION )
 InfectionLoaded <- true;

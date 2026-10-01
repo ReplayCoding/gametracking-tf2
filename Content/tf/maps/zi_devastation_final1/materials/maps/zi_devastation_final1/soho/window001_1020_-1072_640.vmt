@@ -1,7 +1,7 @@
 "patch"
 {
 	"include"		"materials/SOHO/WINDOW001.vmt"
-	"replace"
+	"insert"
 	{
 		"$envmap"		"maps/zi_devastation_final1/c1020_-1072_640"
 	}

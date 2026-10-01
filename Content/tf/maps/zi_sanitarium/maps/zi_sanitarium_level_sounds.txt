@@ -1,10 +1,10 @@
 // --------------------------------------------------------------------------------------- //
-// Zombie Infection                                                                        //
+// Infection - Version 4 RC 1 - 28/08/2026				                   //
 // --------------------------------------------------------------------------------------- //
-// All Code By: Harry Colquhoun (https://steamcommunity.com/profiles/76561198025795825)    //
+// Code By: netmuck (https://steamcommunity.com/profiles/76561198025795825)   	           //
 // Assets/Game Design by: Diva Dan (https://steamcommunity.com/profiles/76561198072146551) //
 // --------------------------------------------------------------------------------------- //
-// Infection _level_sounds.txt								   							   //
+// Infection _level_sounds.txt								   // 
 // --------------------------------------------------------------------------------------- //
 
 "Infection.EMP_Grenade_Beep"
@@ -117,12 +117,52 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"pitch"		"100"
-	"soundlevel" 	"SNDLVL_110dB"
+	"soundlevel" 	"SNDLVL_100dB"
 	"rndwave"
 	{
 		"wave"	"infection/demo_charge_rampup_01.wav"
 		"wave"	"infection/demo_charge_rampup_02.wav"
 		"wave"	"infection/demo_charge_rampup_03.wav"
+	}
+}
+
+"Infection.HeavyRockGrab"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_80dB"
+	"rndwave"
+	{
+		"wave"	"infection/heavy_rock_grab1.wav"
+		"wave"	"infection/heavy_rock_grab2.wav"
+		"wave"	"infection/heavy_rock_grab3.wav"
+		"wave"	"infection/heavy_rock_grab4.wav"
+		"wave"	"infection/heavy_rock_grab5.wav"
+	}
+}
+
+"Infection.HeavyRockThrow"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_80dB"
+	"rndwave"
+	{
+		"wave"	"infection/heavy_rock_throw.wav"
+	}
+}
+
+"Infection.HeavyRockImpact"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"infection/heavy_rock_impact.wav"
 	}
 }
 
@@ -132,4 +172,27 @@
     "volume"        "VOL_NORM"
     "pitch"            "PITCH_NORM"
     "soundlevel"    "SNDLVL_NONE"
+}
+
+"Infection.PyroSpewCast"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_80dB"
+	"rndwave"
+	{
+		"wave"	"infection/pyro_spew_cast01.wav"
+		"wave"	"infection/pyro_spew_cast02.wav"
+		"wave"	"infection/pyro_spew_cast03.wav"
+	}
+}
+
+"Infection.PyroSpewSong"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"		"100"
+	"soundlevel" 	"SNDLVL_NONE"
+	"wave"		"infection/pyro_spew_song.wav"
 }

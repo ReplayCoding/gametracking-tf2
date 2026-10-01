@@ -1,0 +1,99 @@
+"MatchMaking.MatchEndLoseMusicCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ctf_medievil/mm_match_end_lose_music_casual.wav"
+}
+
+"MatchMaking.MatchEndWinMusicCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ctf_medievil/mm_match_end_win_music_casual.wav"
+}
+
+"MatchMaking.RoundStartCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+    {
+    }
+}
+
+"Hud.PointCaptured"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"misc/halloween/strongman_bell_01.wav"
+}
+
+"Game.Stalemate"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+	
+	"wave"		"ctf_medievil/your_team_stalemate.wav"
+}
+
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ctf_medievil/your_team_lost.wav"
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ctf_medievil/your_team_won.wav"
+}
+
+"Medievil.TeamScore"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ctf_medievil/teamscore.wav"
+}
+
+"Medievil.EnemyScore"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ctf_medievil/enemyscore.wav"
+}
+
+"Medievil.RoundStart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"ctf_medievil/roundstart01.wav"
+		"wave"	"ctf_medievil/roundstart02.wav"
+	}
+}

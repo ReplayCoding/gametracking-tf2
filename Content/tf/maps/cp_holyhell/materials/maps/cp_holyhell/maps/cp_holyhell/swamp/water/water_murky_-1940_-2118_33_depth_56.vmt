@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_holyhell/swamp/water/water_murky_-1940_-2118_33.vmt"
+	"insert"
+	{
+		"$waterdepth"		"56"
+	}
+}

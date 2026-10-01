@@ -16,6 +16,7 @@
 	"$lightwarptexture" "models\lightwarps\rainblower_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "1"
+	"$glowcolor" "1"
 	
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
@@ -54,13 +55,28 @@
 		{
 			"resultVar" "$detailblendfactor"
 		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar" "$yellow"
 		}
-		"Equals"
+		"Multiply"
 		{
-			"srcVar1"  "$yellow"
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
 			"resultVar" "$color2"
 		}
 	}

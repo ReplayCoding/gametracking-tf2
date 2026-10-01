@@ -32,6 +32,7 @@
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
 
+	"$glowcolor" "1"
 	"Proxies"
 	{
 		"AnimatedWeaponSheen"
@@ -63,6 +64,21 @@
    			"srcVar2" "$colortint_base"
    			"resultVar" "$color2"
   		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$glowcolor"
+			"resultVar" "$color2"
+		}
 		"YellowLevel"
 		{
 			"resultVar" "$yellow"

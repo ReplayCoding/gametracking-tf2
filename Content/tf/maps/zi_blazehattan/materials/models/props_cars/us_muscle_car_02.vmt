@@ -2,14 +2,21 @@
 {
 	"$basetexture" "models\props_cars\us_muscle_car_02"	
 
+	"$basemapalphaphongmask" "1"
+
 	"$envmap"	"env_cubemap"
-	"$envmaptint" "[0.9 0.9 0.9]"	
-	"$basealphaenvmapmask" 1 
+	"$envmaptint" "[.1 .1 .1]"	
+	
 
 	$phong 1
 	
-	$phongexponent	5
-	$phongboost	1.0
-	$phongfresnelranges	"[0 0.5 1]"
+	$phongexponent	3
+	$phongboost	1
+	$phongfresnelranges	"[0.3 2 5]"
+	
+	//"$rimlight" "1"
+	
+	"$rimlightboost" "2.5"
+	"$rimlightexponent" "15"
 }
 	

@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "custom/holyhell/redbase_prison_fence_simple01"
+	"$basetexture" "custom/holyhell/redbase_prison_fence_simple01"
+	
+	"$blendmodulatetexture" "custom/holyhell/redbase_prison_fence_simple01_mask"
+	
+	"$alphatest" "1"
+	
+	"$alphatestreference" "0.5"
+
+	//"$translucent" "1"
+	
+	"$surfaceprop"	"metal"
+	"$surfaceprop2" "metal"
+}

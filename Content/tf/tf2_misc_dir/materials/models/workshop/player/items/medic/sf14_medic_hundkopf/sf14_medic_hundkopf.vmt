@@ -11,11 +11,11 @@
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
-	"$rimmask"		"0"
+	"$rimmask"		"1"
 	"$blendtintbybasealpha"		"1"
-	"$blendtintcoloroverbase"		"0.000000"
-	"$colortint_base"		"{ 255 255 255 }"
-	"$color2"		"{ 255 255 255 }"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 202 187 173 }"
+	"$color2"		"{ 202 187 173 }"
 	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
@@ -24,11 +24,6 @@
 	"$detailblendfactor"		"0"
 	"$detailblendmode"		"6"
 	"$yellow"		"0"
-	">=DX90"
-	{
-		"$selfillum"		"1"
-	}
-	"$selfillumtint"		"[0.945098 0.270588 0.286275]"
 	"proxies"
 	{
 		"invis"

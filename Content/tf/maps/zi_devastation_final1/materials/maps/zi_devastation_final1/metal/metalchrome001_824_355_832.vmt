@@ -1,7 +1,7 @@
 "patch"
 {
 	"include"		"materials/METAL/METALCHROME001.vmt"
-	"replace"
+	"insert"
 	{
 		"$envmap"		"maps/zi_devastation_final1/c824_355_832"
 	}

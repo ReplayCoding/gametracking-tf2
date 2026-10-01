@@ -1544,6 +1544,11 @@
 "TF_TournamentMedal_RGB7_LAN_Silver"			"RGB 7 LAN 亚军"
 "TF_TournamentMedal_RGB7_LAN_Bronze"			"RGB 7 LAN 季军"
 "TF_TournamentMedal_RGB7_LAN_Participant"		"RGB 7 LAN 参赛者"
+"TF_TournamentMedal_RGB8_LAN_Gold"				"RGB 8 LAN 冠军"
+"TF_TournamentMedal_RGB8_LAN_Silver"			"RGB 8 LAN 亚军"
+"TF_TournamentMedal_RGB8_LAN_Bronze"			"RGB 8 LAN 季军"
+"TF_TournamentMedal_RGB8_LAN_Participant"		"RGB 8 LAN 参赛者"
+
 "TF_TournamentMedal_Season1"	"第 1 赛季"
 "TF_TournamentMedal_Season2"	"第 2 赛季"
 "TF_TournamentMedal_Season3"	"第 3 赛季"
@@ -2130,10 +2135,6 @@
 "TF_TournamentMedal_CappingTV_WinterSilver"			"CappingTV Ultiduo 冬季杯亚军"
 "TF_TournamentMedal_CappingTV_WinterBronze"			"CappingTV Ultiduo 冬季杯季军"
 "TF_TournamentMedal_CappingTV_WinterParticipant"	"CappingTV Ultiduo 冬季杯参赛者"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"			"CappingTV 夏季乱斗冠军"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"			"CappingTV 夏季乱斗亚军"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"			"CappingTV 夏季乱斗季军"
-"TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"	"CappingTV 夏季乱斗参赛者"
 "TF_TournamentMedal_CappingTV_Gold"				"CappingTV Ultiduo 夏日喧哗赛冠军"
 "TF_TournamentMedal_CappingTV_Silver"			"CappingTV Ultiduo 夏日喧哗赛亚军"
 "TF_TournamentMedal_CappingTV_Bronze"			"CappingTV Ultiduo 夏日喧哗赛季军"
@@ -2141,6 +2142,7 @@
 "TF_TournamentMedal_CappingTV_SummerBrawl_2023"		"2023 年，澳大利亚布里斯班"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2024"		"2024 年，澳大利亚布里斯班"
 "TF_TournamentMedal_CappingTV_SummerBrawl_2025"		"2025 年，澳大利亚布里斯班"
+"TF_TournamentMedal_CappingTV_SummerBrawl_2026"		"2026 年，澳大利亚布里斯班"
 
 "TF_TournamentMedal_SnacksSummeryUltiduo_Gold"			"Snack 的夏季午休时刻 Ultiduo 金牌"
 "TF_TournamentMedal_SnacksSummeryUltiduo_Silver"		"Snack 的夏季午休时刻 Ultiduo 银牌"
@@ -2836,6 +2838,7 @@
 "TF_TournamentMedal_LAN_Downunder_Participant"			"LAN Downunder 参赛者"
 "TF_TournamentMedal_LAN_Downunder_2024"					"2024 年，澳大利亚，墨尔本"
 "TF_TournamentMedal_LAN_Downunder_2025"					"2025 年，澳大利亚墨尔本"
+"TF_TournamentMedal_LAN_Downunder_2026"					"2026 年，澳大利亚墨尔本"
 
 "TF_TournamentMedal_RussianHighlander_1st"				"Russian 全编制赛冠军"
 "TF_TournamentMedal_RussianHighlander_2nd"				"Russian 全编制赛亚军"
@@ -2976,7 +2979,7 @@
 "TF_TournamentMedal_AHH_Participant"		"Australian Hightower Highjinx 参赛者"
 "TF_TournamentMedal_AHH_Donor"				"Australian Hightower Highjinx 捐赠者"
 "TF_TournamentMedal_AHH_Helper"				"Australian Hightower Highjinx 协助者"
-"TF_TournamentMedal_AHH_Royalty"			"Australian Hightower Highjinx 捐赠者"
+"TF_TournamentMedal_AHH_Royalty"			"Australian Hightower Highjinx 皇室"
 "TF_TournamentMedal_AHH_Royalty2022"		"凭借慷慨丰厚的捐赠或无与伦比的竞争精神，你已成功登上塔顶！ 一路走来，士兵，你做得很棒！ 恭喜你看到了顶峰，但别忘了继续高飞，因为还有更多的高山在等你攀登。感谢你加入 2022 年的旅程，我们为你感到骄傲！"
 "TF_TournamentMedal_AHH_Participant2022"	"为了追求疯狂的 Highjinx 和混乱，又或者只是为了找乐子，你和另外 8 个人找到了玩 Hightower 的意愿。感谢你在 2022 年成为 AHH 的一份子！"
 "TF_TournamentMedal_AHH_Donor2022"			"无论是为了捐助慈善事业，还是为了彰显对 Hightower 的热爱，你都证明了自己是精英中的精英。祝贺你在 2022 年成为 AHH 的一份子！"
@@ -3498,6 +3501,16 @@
 
 "TF_TournamentMedal_Supreme_Strategist"					"高级战略家的地位符印"
 "TF_TournamentMedal_Supreme_Strategist_Desc"			"这是一枚由灰砾公司（Gray Gravel Co.）的 CEO 亲自颁发的特殊勋章，专门授予那些忠于他事业的人。只有在指挥他的军队方面极其出色的人，才有机会获得它。不过，他并不建议你在公众场合佩戴。颁发给月光 MvM 活动的内容创作者！"
+
+"TF_TournamentMedal_JF_Soldier_1st"						"Jump Fortress 季后赛士兵组冠军"
+"TF_TournamentMedal_JF_Soldier_2nd"						"Jump Fortress 季后赛士兵组亚军"
+"TF_TournamentMedal_JF_Soldier_3rd"						"Jump Fortress 季后赛士兵组季军"
+"TF_TournamentMedal_JF_Soldier_Participant"				"Jump Fortress 季后赛士兵组参赛者"
+"TF_TournamentMedal_JF_Demoman_1st"						"Jump Fortress 季后赛爆破手组冠军"
+"TF_TournamentMedal_JF_Demoman_2nd"						"Jump Fortress 季后赛爆破手组亚军"
+"TF_TournamentMedal_JF_Demoman_3rd"						"Jump Fortress 季后赛爆破手组季军"
+"TF_TournamentMedal_JF_Demoman_Participant"				"Jump Fortress 季后赛爆破手组参赛者"
+"TF_TournamentMedal_JF_Contributor"						"Jump Fortress 季后赛贡献者"
 
 "TF_heals4reals_gold"			"Heals for Reals 冠军"
 "TF_heals4reals_silver"			"Heals for Reals 亚军"
@@ -13104,6 +13117,7 @@
 
 // Summer 2026 Unusual
 "Attrib_Particle407"			"本影夜光"
+"Attrib_Particle408"			"极地棱镜"
 "Attrib_Particle409"			"日光灼烧"
 "Attrib_Particle410"			"花卉丛生"
 "Attrib_Particle411"			"花卉丛生"

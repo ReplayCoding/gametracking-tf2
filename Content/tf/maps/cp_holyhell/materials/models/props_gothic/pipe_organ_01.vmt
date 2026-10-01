@@ -1,0 +1,11 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models\props_gothic/pipe_organ_01"
+	"$model" "1"
+	"%keywords" "tf"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+}

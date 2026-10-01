@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_medieval/treasure_chest01_blue"
+	
+	//"$envmap" "env_cubemap"
+	//"$envmap" "cubemaps/cubemap_sheen001"
+	//"$envmapcontrast" "1"
+	//"$envmapsaturation" "1"
+	//"$envmaptint" "[ .3 .3 .8]"
+	//"$basealphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "3"      
+	"$phongboost" "3"
+	"$phongfresnelranges"	"[.5 2 1]"
+//  "$phongfresnelranges"	"[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+	
+	"$PhongAlbedoTint" "1"
+	"$phongtint" "[.5 .5 1]"
+
+	"$detail" "models/props_medieval/treasure_chest01_pickedup_blue"
+	"$detailscale" "1"
+	"$detailblendfactor" 1
+	"$detailblendmode" 6
+}
