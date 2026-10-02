@@ -1683,6 +1683,7 @@
 "TF_TournamentMedal_2025"	"2025"
 "TF_TournamentMedal_2026"	"2026"
 "TF_TournamentMedal_2027"	"2027"
+"TF_TournamentMedal_2028"	"2028"
 
 "TF_TournamentMedal_Summer2017"	"2017. nyár"
 "TF_TournamentMedal_Winter2017"	"2017. tél"
@@ -2692,8 +2693,6 @@
 "TF_TournamentMedal_Moscow_LAN_2nd"				"Moscow LAN második helyezett"
 "TF_TournamentMedal_Moscow_LAN_3rd"				"Moscow LAN harmadik helyezett"
 "TF_TournamentMedal_Moscow_LAN_Participant"		"Moscow LAN résztvevő"
-"TF_TournamentMedal_Moscow_LAN_Helper"			"Moscow LAN személyzet"
-
 "TF_TournamentMedal_TFNew_Gold"					"TFNew Cup első helyezett"
 "TF_TournamentMedal_TFNew_Gold_Desc"			"Azok a játékosok vagy edzők kapták, akik csapata 1. helyet ért el a TFNew 6v6 Newbie Cupon."
 "TF_TournamentMedal_TFNew_Silver"				"TFNew Cup második helyezett"
@@ -3098,14 +3097,8 @@
 "TF_TournamentMedal_AHH_Helper"				"Australian Hightower Highjinx segítő"
 "TF_TournamentMedal_AHH_Royalty"			"Australian Hightower Highjinx méltóság"
 "TF_TournamentMedal_AHH_Royalty2022"		"Bőséges adományaid vagy puszta versenyszellemed tekintetében sikerült felkapaszkodnod a torony tetejéig. Messzire jutottál, katona! Gratulálunk a csúcs eléréséhez, de ne feledj egyre magasabbra és magasabbra repülni. Mivel sok megmászandó torony van még. Köszönjük, hogy velünk tartottál az AHH menetre 2022-ben. Büszkék vagyunk rád!"
-"TF_TournamentMedal_AHH_Participant2022"	"Te és 8 másik játékos megtaláltátok az akaraterőt Hightowert játszani a durva Highjinx-ezés, felfordulás, és talán egyszerűen a móka kedvért. Köszönjük, hogy az AHH részese voltál 2022-ben!"
-"TF_TournamentMedal_AHH_Donor2022"			"Akár jó ügyért adakozni jöttél, akár a Hightower iránti szereteted kimutatására, bizonyítottad, hogy a legjobbak legjobbjai közé tartozol. Gratulálunk a 2022-es AHH-n való részvételedhez!"
 "TF_TournamentMedal_AHH_Helper2022"			"Ez az érem elismerés azoknak, akik ellenőrzés alatt tartották a Highjinx-et, gondoskodtak róla, hogy minimális legyen az áldozatok száma, és hogy a fogaskerekek simán fussanak a toronyban a Highjinx egésze során 2022-ben!"
-"TF_TournamentMedal_AHH_RoyaltyDesc"		"Bőséges adományaid vagy puszta versenyszellemed tekintetében sikerült felkapaszkodnod a torony tetejéig. Messzire jutottál, katona! Gratulálunk a csúcs eléréséhez, de ne feledj egyre magasabbra és magasabbra repülni. Mivel sok megmászandó torony van még. Köszönjük, hogy velünk tartottál. Büszkék vagyunk rád!"
-"TF_TournamentMedal_AHH_ParticipantDesc"	"Te és a társaid megtaláltátok az akaraterőt Hightowert játszani a durva Highjinxezés, felfordulás, és talán egyszerűen a móka kedvéért. Köszönjük, hogy a részese voltál!"
 "TF_TournamentMedal_AHH_DonorDesc"			"Akár jó ügyért adakozni jöttél, akár a Hightower iránti szereteted kimutatására, bizonyítottad, hogy a legjobbak legjobbjai közé tartozol. Gratulálunk az AHH-ben való részvételedhez!"
-"TF_TournamentMedal_AHH_HelperDesc"			"Ez az érem elismerés azoknak, akik ellenőrzés alatt tartották a Highjinxet, gondoskodtak róla, hogy minimális legyen az áldozatok száma, és hogy a fogaskerekek simán fussanak a toronyban a Highjinx egésze során!"
-
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_First"				"Dél-amerikai Vanilla Fortress 6v6 meghívásos első helyezett"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Second"				"Dél-amerikai Vanilla Fortress 6v6 meghívásos második helyezett"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Third"				"Dél-amerikai Vanilla Fortress 6v6 meghívásos harmadik helyezett"
@@ -3840,7 +3833,6 @@
 "TF_Wearable_Overalls"				"kezeslábas"
 "TF_Wearable_Blanket"				"takaró"
 "TF_Wearable_HeadMirror"			"vizsgálótükör"
-
 "TF_RobotPart_Type"	"Robotalkatrész"
 "TF_CircuitBoard_Type"	"Nyomtatott áramkör"
 
@@ -5669,7 +5661,6 @@
 "pl_redwood_authors"			"Evan 'Defcon' LeBlanc\nSarexicus\nStuffy360"
 "cp_premuda_authors"			"Wojciech 'eerieone' Michalak\nMoritz 'moe012' Horn"
 "cp_mojave_authors"				"Hannes 'Hanz' Tirez\nAnton 'DaBeatzProject' Lecock"
-
 "TF_YourStats"					"Statisztikáid"
 "TF_DuckPromoList"				"- Díszítő tárgy tizenegy stílussal, minden osztálynak\n- Nyomon követi statisztikáid a Végállomás esemény alatt\n- Nézd meg a ranglistákat és versengj barátaiddal\n- Az eladások a Végállomás csapatot támogatják"
 "TF_GetDucky"					"Légy Kacsás"
@@ -6390,7 +6381,6 @@
 "TF_MapToken_Mojave"				"Pályabélyeg - Mojave"
 "TF_MapToken_Mojave_Desc"			"Támadó/védő ellenőrzőpontos pálya\n\nKészítette: Hannes 'Hanz' Tirez és Anton 'DaBeatzProject' Lecock\n\nE tárgy megvásárlásával közvetlenül a Mojave közösségi pálya készítőit támogatod. Mutasd ki támogatásod!"
 "TF_MapToken_Mojave_AdText"			"- E tárgy megvásárlásával közvetlenül a Mojave közösségi pálya készítőit támogatod."
-
 "TF_Map_Unknown"				"A pálya nem található!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6626,7 +6616,10 @@
 "TF_Map_Redwood_StrangePrefix"			" Erdős"
 "TF_Map_Premuda_StrangePrefix"			" Szeles"
 "TF_Map_Mojave_StrangePrefix"			" Csontszáraz"
-
+"TF_Map_HolyHell_StrangePrefix"			" Isteni"
+"TF_Map_Scarypass_StrangePrefix"		" Rémisztő"
+"TF_Map_Trainsawlaser_StrangePrefix"	" Veszélyes"
+"TF_Map_MediEvil_StrangePrefix"			" Démonikus"
 "TF_MapDonationLevel_Bronze"	"Bronz:"
 "TF_MapDonationLevel_Silver"	"Ezüst:"
 "TF_MapDonationLevel_Gold"	"Arany:"
@@ -7451,6 +7444,8 @@
 "pl_redwood_grove"						"a Ligetet"
 "pl_redwood_mill"						"a Malmot"
 "pl_redwood_tower"						"a Rádiótornyot"
+"cp_holyhell_red_wins"					"A RED nyerte a játékot!"
+"cp_holyhell_blue_wins"					"A BLU nyerte a játékot!"
 
 // Win panel strings
 "Winpanel_Team1"			"CSAPAT"
@@ -10702,7 +10697,6 @@
 "TF_StrangeFilter_CommunityMapPremuda_Desc"			"Ha ezt a Fura Szűrőt egy Fura ritkaságú tárgyhoz adod, és kiválasztod az egyik statisztikát, akkor csak a Premuda pályán fogja számolni azt."
 "TF_StrangeFilter_CommunityMapMojave"				"Fura Szűrő: Mojave (közösségi)"
 "TF_StrangeFilter_CommunityMapMojave_Desc"			"Ha ezt a Fura Szűrőt egy Fura ritkaságú tárgyhoz adod, és kiválasztod az egyik statisztikát, akkor csak a Mojave pályán fogja számolni azt."
-
 "TF_StrangeFilter_Map2fort"				"Fura Szűrő: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Ha ezt a Fura Szűrőt egy Fura ritkaságú tárgyhoz adod, és kiválasztod az egyik statisztikát, akkor csak a 2Fort pályán fogja számolni azt."
 "TF_StrangeFilter_MapDustbowl"				"Fura Szűrő: Dustbowl"
@@ -13375,7 +13369,6 @@
 "Attrib_Particle413"			"Boldog pillangók"
 "Attrib_Particle414"			"Boldog pillangók"
 "Attrib_Particle415"			"Leheletfinom szárnyak"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Forróság"
 "Attrib_Particle702"			"Izotóp"
@@ -13650,7 +13643,6 @@
 "Attrib_Particle3227"		"Fénylő váltás"
 "Attrib_Particle3228"		"Reflektorfények"
 "Attrib_Particle3229"		"Mélymerülés"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Ámokfutó: %s1"
@@ -17351,7 +17343,6 @@
 "TF_ImportPreview_Taunt"		"Beszólás"
 "TF_ImportPreview_EffectLabel"	"Effekt"
 "TF_ImportPreview_Effect0"		"Nincs"
-"TF_ImportPreview_Effect1"		"Über"
 "TF_ImportPreview_Effect2"		"Vizelharc"
 "TF_ImportPreview_Effect3"		"Lángoló"
 "TF_ImportPreview_Refresh"		"Frissítés"
@@ -18868,6 +18859,15 @@ D-pad mozgatás, ravaszok=gyorsabb, A-gomb-köv. sor."
 "TF_taunt_friendly_fire"					"Beszólás: Baráti tűz"
 "TF_taunt_friendly_fire_Desc"				"Közösség készítette Piró beszólás."
 "TF_taunt_friendly_fire_AdText"				"- Közösség készítette Piró beszólás."
+"TF_taunt_hippocratic_hypocrite_Desc"		"Közösség készítette Szanitéc beszólás."
+"TF_taunt_hippocratic_hypocrite_AdText"		"- Közösség készítette Szanitéc beszólás."
+"TF_taunt_oneeyed_punt_Desc"				"Közösség készítette Katona beszólás."
+"TF_taunt_oneeyed_punt_AdText"				"- Közösség készítette Katona beszólás"
+"TF_taunt_showrunners_spirit_Desc"			"Közösség készítette Felderítő beszólás."
+"TF_taunt_showrunners_spirit_AdText"		"- Közösség készítette Felderítő beszólás."
+"TF_taunt_barrel_roll_AdText"				"- Közösség készítette Robbantós beszólás."
+"TF_taunt_sear_you_later_Desc"				"Közösség készítette Piró beszólás."
+"TF_taunt_sear_you_later_AdText"			"- Közösség készítette Piró beszólás."
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"A Szusszantó Szatyor"	// ADD THE
@@ -20215,7 +20215,12 @@ D-pad mozgatás, ravaszok=gyorsabb, A-gomb-köv. sor."
 "TF_sum26_bald_spotter_style1"				"Rövidlátó"
 "TF_sum26_bald_spotter_style2"				"Távollátó"
 "TF_sum26_surgical_shroud"				"Sebészi Lepel"
-
+"TF_hwn2026_high_caliber_style1"			"Csíkos"
+"TF_hwn2026_high_caliber_style2"			"Sima"
+"TF_hwn2026_showdown_slacks_style1"			"Csíkos"
+"TF_hwn2026_showdown_slacks_style2"			"Sima"
+"TF_hwn2026_clowning_cowl_style1"			"Betűretlen"
+"TF_hwn2026_clowning_cowl_style2"			"Betűrt"
 "TF_style_bullets"						"Tölténnyel"
 "TF_style_nobullets"					"Töltény nélkül"
 

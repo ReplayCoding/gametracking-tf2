@@ -16,7 +16,8 @@ CollectEventsInScope({
 			pickup.SetSkin(1)
 
 			EntityOutputs.AddOutput(pickup, "OnUser1", pickupName, "RunScriptCode", "MakeAllPlayersWithinRangeAPumpkinFrom(self)", 0, -1)
-			EntityOutputs.AddOutput(pickup, "OnUser1", pickupName, "RunScriptCode", "self.EmitSound(PUMPKINAPPEARSOUND)", 0, -1)
+			EntityOutputs.AddOutput(pickup, "OnUser1", pickupName, "RunScriptCode",
+				format("EmitSoundEx({sound_name = `%s`, sound_level = %i, entity = self})", PUMPKINAPPEARSOUND, GetSoundLevelFromRadius(PUMPKINAPPEARSOUNDRANGE)), 0, -1)
 			EntityOutputs.AddOutput(pickup, "OnUser1", "!activator", "RunScriptCode", "SetPlayerIsAPumpkin(self, true, false)", 0, -1)
 			EntityOutputs.AddOutput(pickup, "OnUser1", pickupName, "Disable", "", 0, -1)
 
@@ -82,7 +83,6 @@ CollectEventsInScope({
 		player.RemoveCondEx(TF_COND_SHIELD_CHARGE, true)
 		player.RemoveCondEx(TF_COND_CRITBOOSTED, true)
 		player.RemoveCondEx(TF_COND_ZOOMED, true)
-		player.RemoveCondEx(TF_COND_AIMING, true)
 		player.RemoveCondEx(TF_COND_URINE, true)
 		player.RemoveCondEx(TF_COND_MAD_MILK, true)
 		player.RemoveCondEx(TF_COND_MARKEDFORDEATH, true)
@@ -93,6 +93,18 @@ CollectEventsInScope({
 		NetProps.SetPropInt(player, "m_iFOV", 0)
 		// #endregion
 
+		//Heavy/sniper with classic or huntsman aiming at full speed fix
+		if (player.GetPlayerClass() == TF_CLASS_SNIPER)
+		{
+			local hit = false
+			foreach (weaponId in SNIPERWEAPONIDSTONOTREMOVEAIMCONDITIONWITH) //If the player is a sniper and DOESN'T have the classic or the huntsman/fortified compound
+			{
+				if (GetPlayerWeaponIds(player).find(weaponId) != null) { hit = true; break }
+			}
+
+			if (!hit) { player.RemoveCondEx(TF_COND_AIMING, true) }
+		}
+
 		scope.isAPumpkin <- true
 		scope.highestHealthAsPumpkin <- 0
 
@@ -101,9 +113,13 @@ CollectEventsInScope({
 			player.Weapon_Switch(GetPlayerWeapons(player, false)[0])
 		}
 
-		EmitSoundOnPlayer(player, SKELETONGIGGLESOUNDS[RandomInt(0, SKELETONGIGGLESOUNDS.len() -1)])
+		EmitSoundEx({
+			sound_name = PUMPKINGIGGLESOUNDS[RandomInt(0, PUMPKINGIGGLESOUNDS.len() -1)],
+			sound_level = GetSoundLevelFromRadius(PUMPKINGIGGLESOUNDRANGE),
+			entity = player
+		})
 
-		player.AddCustomAttribute("increase player capture value", player.GetPlayerClass() == TF_CLASS_SCOUT ? -2 : -1, -1)
+		player.AddCustomAttribute("increase player capture value", -2, -1)
 		player.AddCustomAttribute("no double jump", 1, -1)
 		player.AddCustomAttribute("voice pitch scale", 1.4, -1)
 		player.AddCustomAttribute("cannot disguise", 1, -1)
@@ -205,14 +221,14 @@ CollectEventsInScope({
 	local attackerPlayer = GetPlayerFromUserID(attackerUserId)
 	local isEligible =
 	attackerPlayer != null //Grabbing the attacker doesn't return a null pointer
-	&& attackerPlayer.GetClassname() == "player" //Attacker's classname is player
+	&& attackerPlayer.IsPlayer() //Attacker is a player
 	&& GetPlayerScope(hurtPlayer).isAPumpkin //hurt player is a pumpkin
 	&& hurtUserId != attackerUserId //Hurt user is not the same as the attacker
 	&& (attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) //Attacker is either on Blue or Red
 	&& hurtPlayer.GetTeam() != attackerPlayer.GetTeam() //Attacker and Hurt player are on different teams
 
 	// printl("(attackerPlayer != null " + (attackerPlayer != null ))
-	// printl("(attackerPlayer.GetClassname() == player " + (attackerPlayer.GetClassname() == "player" ))
+	// printl("(attackerPlayer.IsPlayer() " + (attackerPlayer.IsPlayer()))
 	// printl("(GetPlayerScope(hurtPlayer).isAPumpkin " + (GetPlayerScope(hurtPlayer).isAPumpkin ))
 	// printl("(hurtUserId != attackerUserId " + (hurtUserId != attackerUserId ))
 	// printl("((attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) " + ((attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) ))
@@ -236,7 +252,6 @@ CollectEventsInScope({
 		origin = pos,
 		damage = 0,
 		radius = 0
-		sound = "items/pumpkin_explode1.wav",
 		explode_particle = "pumpkin_explode",
 	})
 
@@ -244,6 +259,12 @@ CollectEventsInScope({
 		origin = pos,
 		model = PUMPKINEXPLODEMODEL,
 		solid = "0"
+	})
+
+	EmitSoundEx({
+		sound_name = PUMPKINEXPLODESOUND,
+		sound_level = GetSoundLevelFromRadius(PUMPKINEXPLODESOUNDRANGE),
+		origin = pumpkin.GetOrigin()
 	})
 
 	EntFireByHandle(pumpkin_dynamic, "Break", "", 0, null, null)
@@ -289,7 +310,7 @@ CollectEventsInScope({
 	local wearables = []
 	for (local wearable = player.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer())
 	{
-		if (wearable.GetClassname() == "tf_wearable" || wearable.GetClassname() == "tf_powerup_bottle" || wearable.GetClassname() == "tf_wearable_demoshield" || wearable.GetClassname() == "tf_wearable_razorback") { wearables.push(wearable); }
+		if (wearable.GetClassname() == "tf_wearable" || wearable.GetClassname() == "tf_wearable_demoshield" || wearable.GetClassname() == "tf_wearable_razorback") { wearables.push(wearable); }
 	}
 	return wearables
 }
@@ -312,13 +333,13 @@ CollectEventsInScope({
 	return weapons
 }
 
-::EmitSoundOnPlayer <- function(player, sound)
+::EmitHardCutOffSoundInRadius <- function(position, sound, radius)
 {
-	for (local noiseRecipient; noiseRecipient = Entities.FindByClassnameWithin(noiseRecipient, "player", player.GetOrigin(), PUMPKINSOUNDSRANGE);)
+	for (local noiseRecipient; noiseRecipient = Entities.FindByClassnameWithin(noiseRecipient, "player", position, PUMPKINSOUNDSRANGE);)
 	{
 		EmitSoundEx({
 		sound_name = sound,
-		origin = player.GetCenter(),
+		origin = position,
 		entity = noiseRecipient,
 		filter_type = RECIPIENT_FILTER_SINGLE_PLAYER})
 	}
@@ -338,7 +359,7 @@ CollectEventsInScope({
 	return allPlayers
 }
 
-local blacklist = [ "worldspawn", "func_door", "info_particle_system"]
+local blacklist = [ "worldspawn", "func_door"]
 // FindByClassnameWithin but will be trace checked for worldspawn or other entities that should be used to block Line of Sight
 ::FindByClassnameWithinTraced <- function(entWithin, filter, vecCenter, flRadius, ignored){
 	// Set bounding boxes to 0,0,0 so the trace can continue, then revert afterwards.
@@ -459,3 +480,5 @@ local blacklist = [ "worldspawn", "func_door", "info_particle_system"]
 }
 
 ::GetPlayerUserID <- function(player) { return NetProps.GetPropIntArray(PlayerManager, "m_iUserID", player.entindex()) }
+
+::GetSoundLevelFromRadius <- function(radius) { return (40 + (20 * log10(radius / 36.0))).tointeger(); }

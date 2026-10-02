@@ -9,18 +9,23 @@ const TEAM_UNASSIGNED = 0
 
 const PUMPKINEXPLODEMODEL = "models/props_halloween/pumpkin_explode.mdl"
 const PUMPKINPICKUPPOTIONMODEL = "models/wildcat_event/hwn_flask_vial_pumpkin.mdl"
-const PUMPKINAPPEARSOUND = "misc/halloween/merasmus_appear.wav"
 const PUMPKINAPPEARPARTICLE = "jackolantern_transform"
-const PUMPKINEXPLODESOUND = "items/pumpkin_explode1.wav"
-const PUMPKINSOUNDSRANGE = 512
+
 const PUMPKINSPEED = 320
 const PUMPKINSPEEDBOOSTSPEED = 448
 const PUMPKINHEALTHDECREASETHRESHOLD = 50
 const PUMPKINTRANSFORMATIONRANGE = 128
 
+const PUMPKINAPPEARSOUND = "misc/halloween/merasmus_appear.wav"
+const PUMPKINAPPEARSOUNDRANGE = 2048
+
+const PUMPKINEXPLODESOUND = "items/pumpkin_explode1.wav"
+const PUMPKINEXPLODESOUNDRANGE = 4096
+
+::SNIPERWEAPONIDSTONOTREMOVEAIMCONDITIONWITH <- [1098, 56, 1005, 1092]
 ::WEAPONIDSTOSWITCHFROMWHENTRANSFORMING <- [239, 426, 1084, 1100]
 
-::SKELETONGIGGLESOUNDS <- [
+::PUMPKINGIGGLESOUNDS <- [
 	"misc/halloween/skeletons/skelly_medium_01.wav",
 	"misc/halloween/skeletons/skelly_medium_02.wav",
 	"misc/halloween/skeletons/skelly_medium_03.wav",
@@ -51,6 +56,8 @@ const PUMPKINTRANSFORMATIONRANGE = 128
 	"misc/halloween/skeletons/skelly_small_21.wav",
 	"misc/halloween/skeletons/skelly_small_22.wav",
 ]
+
+const PUMPKINGIGGLESOUNDRANGE = 2048
 
 ::CRUMPKIN_INDEX <- PrecacheModel("models/props_halloween/pumpkin_loot.mdl")
 ::PlayerManager <- Entities.FindByClassname(null, "tf_player_manager")

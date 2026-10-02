@@ -10,7 +10,7 @@ function Precache()
 
 	PrecacheEntityFromTable({ classname = "info_particle_system", effect_name = PUMPKINAPPEARPARTICLE })
 
-	foreach (sound in SKELETONGIGGLESOUNDS) { PrecacheSound(sound) }
+	foreach (sound in PUMPKINGIGGLESOUNDS) { PrecacheSound(sound) }
 }
 
 Precache()

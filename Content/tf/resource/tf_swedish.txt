@@ -1682,7 +1682,6 @@
 "TF_TournamentMedal_2025"	"2025"
 "TF_TournamentMedal_2026"	"2026"
 "TF_TournamentMedal_2027"	"2027"
-
 "TF_TournamentMedal_Summer2017"	"Sommar 2017"
 "TF_TournamentMedal_Winter2017"	"Winter 2017"
 "TF_TournamentMedal_Spring2018"	"Våren 2018"
@@ -2691,8 +2690,6 @@
 "TF_TournamentMedal_Moscow_LAN_2nd"				"Moscow LAN - 2:a plats"
 "TF_TournamentMedal_Moscow_LAN_3rd"				"Moscow LAN - 3:e plats"
 "TF_TournamentMedal_Moscow_LAN_Participant"		"Moscow LAN – Deltagare"
-"TF_TournamentMedal_Moscow_LAN_Helper"			"Moscow LAN - Personal"
-
 "TF_TournamentMedal_TFNew_Gold"					"TFNew Cup - 1:a plats"
 "TF_TournamentMedal_TFNew_Gold_Desc"			"Tilldelad spelare eller coacher tillhörande laget som kom på 1:a plats i en TFNew 6v6 Newbie Cup"
 "TF_TournamentMedal_TFNew_Silver"				"TFNew Cup - 2:a plats"
@@ -3097,14 +3094,8 @@
 "TF_TournamentMedal_AHH_Helper"				"Australian Hightower Highjinx – Medhjälpare"
 "TF_TournamentMedal_AHH_Royalty"			"Australian Hightower Highjinx – adlig"
 "TF_TournamentMedal_AHH_Royalty2022"		"Du har lyckats klättra upp till toppen av tornet när det gäller dina rikliga donationer eller din rena konkurrensanda! Du har kommit långt, soldat! Grattis till toppen, men glöm inte att fortsätta flyga högre och högre. Eftersom det finns många fler torn att klättra där ute. Tack för att du deltog i AHH 2022! Vi är stolta över dig!"
-"TF_TournamentMedal_AHH_Participant2022"	"Du och åtta andra hittade viljan att spela Hightower för att delta i vilda Highjinx, kaos och kanske bara ha kul. Tack för att du deltog i AHH 2022!"
-"TF_TournamentMedal_AHH_Donor2022"			"Oavsett om du deltog för att skänka till en god sak eller för att visa din kärlek för Hightower, bevisade du att du är den bästa av de bästa. Tack för ditt deltagande i AHH 2022!"
 "TF_TournamentMedal_AHH_Helper2022"			"Denna medalj erkänner dem som höll i tömmarna, begränsade antalet skadade till ett minimum och fick kuggarna i tornet att snurra som smorda genom allt ståhej under Highjinx 2022!"
-"TF_TournamentMedal_AHH_RoyaltyDesc"		"Du har lyckats klättra upp till toppen av tornet tack vare dina rikliga donationer eller din rena konkurrensanda! Du har kommit långt, soldat! Grattis till toppen, men glöm inte att fortsätta flyga högre och högre. Det finns nämligen många fler torn att bestiga där ute. Tack för att du deltog! Vi är stolta över dig!"
-"TF_TournamentMedal_AHH_ParticipantDesc"	"Du och dina polare hittade viljan att spela hightower för att delta i vilda highjinx, kaos och kanske bara ha kul. Tack för att du deltog!"
 "TF_TournamentMedal_AHH_DonorDesc"			"Oavsett om du deltog för att skänka till en god sak eller för att visa din kärlek för Hightower, bevisade du att du är den bästa av de bästa. Tack för ditt deltagande i AHH!"
-"TF_TournamentMedal_AHH_HelperDesc"			"Denna medalj erkänner dem som höll i tömmarna, begränsade antalet skadade till ett minimum och fick kuggarna i tornet att snurra som smorda genom allt ståhej under Highjinx!"
-
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_First"				"South American Vanilla Fortress 6v6 Invite – Förstaplats"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Second"				"South American Vanilla Fortress 6v6 Invite – Andraplats"
 "TF_TournamentMedal_SA_Vanilla_6v6_Invite_Third"				"South American Vanilla Fortress 6v6 Invite – Tredjeplats"
@@ -3839,7 +3830,6 @@
 "TF_Wearable_Overalls"				"Overaller"
 "TF_Wearable_Blanket"				"Filt"
 "TF_Wearable_HeadMirror"			"Huvudspegel"
-
 "TF_RobotPart_Type"	"Robotdel"
 "TF_CircuitBoard_Type"	"Kretskort"
 
@@ -5667,7 +5657,6 @@
 "pl_redwood_authors"			"Evan ”Defcon” LeBlanc\nSarexicus\nStuffy360"
 "cp_premuda_authors"			"Wojciech ”eerieone” Michalak\nMoritz ”moe012” Horn"
 "cp_mojave_authors"				"Hannes ”Hanz” Tirez\nAnton ”DaBeatzProject” Lecock"
-
 "TF_YourStats"					"Din statistik"
 "TF_DuckPromoList"				"-Föremål till alla klasser med elva stilar\n-Spårar din statistik under End of the Line-händelsen\n-Visa poängtavlor och tävla med dina vänner\n-Försäljningar stödjer teamet bakom End of the Line"
 "TF_GetDucky"					"Bli ankig"
@@ -6388,7 +6377,6 @@
 "TF_MapToken_Mojave"				"Banmärke – Mojave"
 "TF_MapToken_Mojave_Desc"			"En anfall/försvar-bana med kontrollpunkter\n\nHannes ”Hanz” Tirez och Anton ”DaBeatzProject” Lecock\n\nKöp av detta föremål stödjer skaparna av gemenskapsbanan Mojave direkt. Visa ditt stöd idag!"
 "TF_MapToken_Mojave_AdText"			"–Köp av detta föremål stödjer skaparna av gemenskapsbanan Mojave direkt."
-
 "TF_Map_Unknown"				"Banan hittades inte!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -6624,7 +6612,6 @@
 "TF_Map_Redwood_StrangePrefix"			" Skogsbevuxen"
 "TF_Map_Premuda_StrangePrefix"			" Byig"
 "TF_Map_Mojave_StrangePrefix"			" Snustorr"
-
 "TF_MapDonationLevel_Bronze"	"Brons:"
 "TF_MapDonationLevel_Silver"	"Silver:"
 "TF_MapDonationLevel_Gold"	"Guld:"
@@ -7448,7 +7435,6 @@
 "pl_redwood_grove"						"lunden"
 "pl_redwood_mill"						"sågverket"
 "pl_redwood_tower"						"kommunikationsmasten"
-
 // Win panel strings
 "Winpanel_Team1"			"LAG"
 "Winpanel_Team2"			"Lag"
@@ -10699,7 +10685,6 @@
 "TF_StrangeFilter_CommunityMapPremuda_Desc"			"Lägg till detta märkliga filter på ett föremål av märklig kvalitet och välj en statistik som det spårar för att begränsa statistiken till att endast räkna händelser på Premuda."
 "TF_StrangeFilter_CommunityMapMojave"				"Märkligt filter: Mojave (gemenskap)"
 "TF_StrangeFilter_CommunityMapMojave_Desc"			"Lägg till detta märkliga filter på ett föremål av märklig kvalitet och välj en statistik som det spårar för att begränsa statistiken till att endast räkna händelser på Mojave."
-
 "TF_StrangeFilter_Map2fort"				"Märkligt filter: 2Fort"
 "TF_StrangeFilter_Map2fort_Desc"		"Lägg till detta märkliga filter på ett föremål av märklig kvalitet och välj en statistik som det spårar för att begränsa statistiken till att endast räkna händelser på 2Fort."
 "TF_StrangeFilter_MapDustbowl"				"Märkligt filter: Dustbowl"
@@ -13370,7 +13355,6 @@
 "Attrib_Particle413"			"Förnöjda fjärilar"
 "Attrib_Particle414"			"Förnöjda fjärilar"
 "Attrib_Particle415"			"Vindsvepta vingar"
-
 // Weapon Unusual
 "Attrib_Particle701"			"Varm"
 "Attrib_Particle702"			"Isotop"
@@ -13645,7 +13629,6 @@
 "Attrib_Particle3227"		"Skimrande skiftning"
 "Attrib_Particle3228"		"Rampljus"
 "Attrib_Particle3229"		"Djupdykning"
-
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Mördarserieeffekt: %s1"
@@ -17348,7 +17331,6 @@ ________________________________________
 "TF_ImportPreview_Taunt"		"Hån"
 "TF_ImportPreview_EffectLabel"	"Effekt"
 "TF_ImportPreview_Effect0"		"Ingen"
-"TF_ImportPreview_Effect1"		"Uber"
 "TF_ImportPreview_Effect2"		"Jarate"
 "TF_ImportPreview_Effect3"		"Brinnande"
 "TF_ImportPreview_Refresh"		"Uppdatera"
@@ -20210,7 +20192,6 @@ Styrkors för att flytta, avtryckare=snabbare, A-knappen för nästa rad."
 "TF_sum26_bald_spotter_style1"				"Närsynt"
 "TF_sum26_bald_spotter_style2"				"Långsynt"
 "TF_sum26_surgical_shroud"				"Kirurgisk klädnad"
-
 "TF_style_bullets"						"Patroner"
 "TF_style_nobullets"					"Utan patroner"
 

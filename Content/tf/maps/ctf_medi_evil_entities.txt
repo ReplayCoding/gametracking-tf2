@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 1439
+Revision: 1444
 {
 "world_maxs" "1928 1040 2200"
 "world_mins" "-5832 -4576 -704"
@@ -8,7 +8,7 @@ Revision: 1439
 "detailvbsp" "detail_dustbowl.vbsp"
 "detailmaterial" "ctf_medievil/detailsprites_medievil"
 "classname" "worldspawn"
-"mapversion" "1439"
+"mapversion" "1444"
 "hammerid" "1"
 }
 {
@@ -5321,7 +5321,7 @@ Revision: 1439
 }
 {
 "origin" "-2224 -1432 -168"
-"timer_length" "480"
+"timer_length" "600"
 "targetname" "timer"
 "StartDisabled" "0"
 "start_paused" "0"
@@ -5433,7 +5433,7 @@ Revision: 1439
 "origin" "-2240 -1432 -168"
 "targetname" "ctf_gamerules"
 "hud_type" "1"
-"ctf_overtime" "1"
+"ctf_overtime" "0"
 "classname" "tf_gamerules"
 "hammerid" "42686"
 }
