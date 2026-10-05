@@ -11,7 +11,7 @@ Revision: 240
 "detailmaterial" "detail/detailsprites"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "2243"
+"mapversion" "2254"
 "hammerid" "1"
 }
 {
@@ -5654,18 +5654,6 @@ Revision: 240
 "hammerid" "1296082"
 }
 {
-"model" "*43"
-"TeamNum" "3"
-"targetname" "blu_respawnroom"
-"StartDisabled" "0"
-"spawnflags" "1"
-"rendermode" "1"
-"origin" "-1616 -2744 5.26"
-"angles" "0 0 0"
-"classname" "func_respawnroom"
-"hammerid" "1262429"
-}
-{
 "origin" "-984 -1045.02 16.7599"
 "style" "0"
 "spawnflags" "0"
@@ -6159,7 +6147,7 @@ Revision: 240
 "hammerid" "1191917"
 }
 {
-"model" "*44"
+"model" "*43"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6178,7 +6166,7 @@ Revision: 240
 "hammerid" "1380977"
 }
 {
-"model" "*45"
+"model" "*44"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6197,7 +6185,7 @@ Revision: 240
 "hammerid" "1381015"
 }
 {
-"model" "*46"
+"model" "*45"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6298,7 +6286,7 @@ Revision: 240
 "hammerid" "1391846"
 }
 {
-"model" "*47"
+"model" "*46"
 "vrad_brush_cast_shadows" "0"
 "targetname" "pmodel"
 "StartDisabled" "0"
@@ -6630,7 +6618,7 @@ Revision: 240
 "hammerid" "1263063"
 }
 {
-"model" "*48"
+"model" "*47"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_portal_factory6"
 "StartDisabled" "0"
@@ -7068,7 +7056,7 @@ Revision: 240
 "hammerid" "1449995"
 }
 {
-"model" "*49"
+"model" "*48"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_portal_spawn05"
 "StartDisabled" "0"
@@ -7118,7 +7106,7 @@ Revision: 240
 "hammerid" "1450096"
 }
 {
-"model" "*50"
+"model" "*49"
 "vrad_brush_cast_shadows" "0"
 "targetname" "brush_portal_factory_windows1"
 "StartDisabled" "1"
@@ -7260,7 +7248,7 @@ Revision: 240
 "hammerid" "1472460"
 }
 {
-"model" "*51"
+"model" "*50"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -7681,7 +7669,7 @@ Revision: 240
 "hammerid" "1457443"
 }
 {
-"model" "*52"
+"model" "*51"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-386.8 -2237.8 -203.26"
@@ -7762,7 +7750,7 @@ Revision: 240
 "hammerid" "1516066"
 }
 {
-"model" "*53"
+"model" "*52"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -7785,7 +7773,7 @@ Revision: 240
 "hammerid" "1516094"
 }
 {
-"model" "*54"
+"model" "*53"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -7808,7 +7796,7 @@ Revision: 240
 "hammerid" "1516132"
 }
 {
-"model" "*55"
+"model" "*54"
 "TeamNum" "3"
 "targetname" "blu_respawnroom2"
 "StartDisabled" "0"
@@ -7820,7 +7808,7 @@ Revision: 240
 "hammerid" "1516145"
 }
 {
-"model" "*56"
+"model" "*55"
 "TeamNum" "3"
 "targetname" "blu_respawnroom3"
 "StartDisabled" "0"
@@ -7832,7 +7820,7 @@ Revision: 240
 "hammerid" "1516169"
 }
 {
-"model" "*57"
+"model" "*56"
 "vrad_brush_cast_shadows" "0"
 "texframeindex" "0"
 "TeamNum" "0"
@@ -7855,7 +7843,7 @@ Revision: 240
 "hammerid" "1516190"
 }
 {
-"model" "*58"
+"model" "*57"
 "TeamNum" "3"
 "targetname" "blu_respawnroom4"
 "StartDisabled" "0"
@@ -7884,7 +7872,7 @@ Revision: 240
 "hammerid" "1516332"
 }
 {
-"model" "*59"
+"model" "*58"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-40 1424 -624"
@@ -7983,7 +7971,7 @@ Revision: 240
 "hammerid" "1475313"
 }
 {
-"model" "*60"
+"model" "*59"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -7995,7 +7983,7 @@ Revision: 240
 "hammerid" "1529530"
 }
 {
-"model" "*61"
+"model" "*60"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -8007,7 +7995,7 @@ Revision: 240
 "hammerid" "1529616"
 }
 {
-"model" "*62"
+"model" "*61"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -8019,7 +8007,7 @@ Revision: 240
 "hammerid" "1529626"
 }
 {
-"model" "*63"
+"model" "*62"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -8031,7 +8019,7 @@ Revision: 240
 "hammerid" "1529632"
 }
 {
-"model" "*64"
+"model" "*63"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -8043,7 +8031,7 @@ Revision: 240
 "hammerid" "1529638"
 }
 {
-"model" "*65"
+"model" "*64"
 "rendermode" "0"
 "renderfx" "0"
 "rendercolor" "255 255 255"
@@ -8055,7 +8043,7 @@ Revision: 240
 "hammerid" "1542973"
 }
 {
-"model" "*66"
+"model" "*65"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -9399,7 +9387,7 @@ Revision: 240
 "hammerid" "1635308"
 }
 {
-"model" "*67"
+"model" "*66"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
