@@ -728,12 +728,6 @@ function OnGameEvent_player_death( params )
     if ( _sc != null )
         _hPlayer.SpoofZombieBuffFX( false );
 
-    if ( _sc != null && ( "m_iFlags" in _sc ) && ( _sc.m_iFlags & ZBIT_SOLDIER_IN_POUNCE ) )
-    {
-        _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_SOLDIER_IN_POUNCE );
-        _hPlayer.EndSoldierFall();
-    };
-
     // a death mid-picker/emerge leaks locked state - the exit path is otherwise
     // only reachable from FinishSpawnEmerge, which a corpse never gets to
     if ( _sc != null && ( "m_iFlags" in _sc ) )
@@ -990,13 +984,6 @@ function OnGameEvent_player_changeclass( params )
     if ( _sc == null )
         return;
 
-    // a class change mid-pounce skips the landing, leaving the fall whistle looping
-    if ( ( "m_iFlags" in _sc ) && ( _sc.m_iFlags & ZBIT_SOLDIER_IN_POUNCE ) )
-    {
-        _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_SOLDIER_IN_POUNCE );
-        _hPlayer.EndSoldierFall();
-    };
-
     if ( _hPlayer.GetTeam() != TF_TEAM_BLUE )
         return;
 
@@ -1236,7 +1223,6 @@ function OnScriptHook_OnTakeDamage( params )
                     EmitAmbientSoundOn  ( "Player.FallDamageDealt", 10, 1, 100, _hGroundEnt );
 
                     _sc.m_iFlags = (  _sc.m_iFlags & ~ZBIT_SOLDIER_IN_POUNCE );
-                    _hVictim.EndSoldierFall();
                 };
             };
 

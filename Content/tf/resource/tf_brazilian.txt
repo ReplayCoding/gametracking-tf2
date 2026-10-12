@@ -6377,6 +6377,8 @@
 "TF_MapToken_Mojave"				"Selo - Mojave"
 "TF_MapToken_Mojave_Desc"			"Um mapa de Pontos de Controle Ataque/Defesa\n\nFeito por Hannes \"Hanz\" Tirez e Anton \"DaBeatzProject\" Lecock\n\nComprar este item apoiará diretamente os criadores do mapa comunitário Mojave. Demonstre o seu apoio hoje mesmo!"
 "TF_MapToken_Mojave_AdText"			"— Comprar este item apoiará diretamente os criadores do mapa comunitário Mojave."
+"TF_Map_Trainsawlaser"				"Trainsawlaser"
+"TF_Map_ScaredyCat"					"Scaredy-Cat"
 "TF_Map_Unknown"				"Mapa não encontrado!"
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -12081,6 +12083,13 @@
 "Summer2026Paintkits_collection"			"Coleção das Férias de 2026"
 "Summer2026Paintkits_collection_desc"		"Itens da Coleção das Férias de 2026:"
 
+"halloween2026_collection_name"			"Coleção do Tesouro Assombrado"
+"halloween2026_collection_case"			"Caixa do Tesouro Assombrado"
+"halloween2026_collection_case_desc"	"Esta caixa está trancada e requer uma Chave da Caixa do Tesouro Assombrado para ser aberta.\n\nContém um item criado pela comunidade da Coleção do Tesouro Assombrado."
+"halloween2026_collection_case_adtext"	"— Contém cosméticos criados pela\ncomunidade\n— Requer chave especial\n— Pode conter um item Estranho ou um chapéu Incomum temático"
+"halloween2026_collection_key"			"Chave da Caixa do Tesouro Assombrado"
+"halloween2026_collection_key_desc"		"Usada para abrir a Caixa do Tesouro Assombrado"
+"halloween2026_collection_key_adtext"	"— Usada para abrir a Caixa do Tesouro Assombrado\n— A caixa pode conter um item Estranho ou um chapéu Incomum"
 // Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -13356,6 +13365,7 @@
 "Attrib_Particle413"			"Borboletas bonitas"
 "Attrib_Particle414"			"Borboletas bonitas"
 "Attrib_Particle415"			"Asas espirituais"
+"Attrib_Particle418"			"Brisa de outono"
 // Weapon Unusual
 "Attrib_Particle701"			"Quente"
 "Attrib_Particle702"			"Isótopo"
@@ -18844,6 +18854,9 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_taunt_friendly_fire"					"Provocação: Fogo Amigo"
 "TF_taunt_friendly_fire_Desc"				"Provocação de Pyro criada pela comunidade"
 "TF_taunt_friendly_fire_AdText"				"— Provocação de Pyro criada pela comunidade"
+"TF_taunt_hippocratic_hypocrite"			"Provocação: Hipócrita Hipocrático"
+"TF_taunt_oneeyed_punt"						"Provocação: De-GOOOL-ado"
+"TF_taunt_barrel_roll"						"Provocação: TNTunô Barril"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"O Saco Respiratório"	// ADD THE
@@ -20191,6 +20204,12 @@ Direcionais para se movimentar, gatilhos=mais rápido, botão A=próxima linha."
 "TF_sum26_bald_spotter_style1"				"Miopia"
 "TF_sum26_bald_spotter_style2"				"Hiperopia"
 "TF_sum26_surgical_shroud"				"Agasalho Antisséptico"
+
+"TF_hwn2026_skeleton_crew"				"Equipe Esquelética"
+"TF_hwn2026_bone_chiller"				"Cara de Caveira"
+"TF_hwn2026_clowning_cowl"				"Palhaço Piromaníaco"
+"TF_hwn2026_clowning_cowl_style1"			"Solto"
+"TF_hwn2026_clowning_cowl_style2"			"Preso"
 "TF_style_bullets"						"Com balas"
 "TF_style_nobullets"					"Sem balas"
 
@@ -21061,8 +21080,8 @@ Jogadores que morrerem são mandados para o Inferno para continuar lutando. Um j
 "tf_zi_intro_part5"						"Os zumbis vencem ao infectar todos os humanos!"
 "tf_zi_team_red"						"Sobreviventes"
 "tf_zi_team_blue"						"Zumbis"
-"tf_zi_pyro_blast_name"					"Baforada de Dragão" 
-
+"tf_zi_pyro_blast_name"					"Baforada de Dragão"
+"tf_zi_engie_beacon_name"				"Farol" 
 "tow_dynamite_welcome"					"Bem-vindo(a) a Dynamite!"
 "tow_dynamite_part1"					"Dynamite é um mapa de Cabo de Guerra"
 "tow_dynamite_part2"					"Para empurrar o carrinho, fique sobre ele até capturá-lo"

@@ -541,16 +541,9 @@ PlayerThink <- function()
 
             if ( m_iFlags & ZBIT_SOLDIER_IN_POUNCE )
             {
-                if ( !m_bSoldierFallSfx && self.GetAbsVelocity().z < 0 )
-                {
-                    m_bSoldierFallSfx = true;
-                    EmitSoundOn( SFX_SOLDIER_FALL, self );
-                };
-
                 if ( self.GetFlags() & FL_ONGROUND )
                 {
                     m_iFlags = ( m_iFlags & ~ZBIT_SOLDIER_IN_POUNCE );
-                    self.EndSoldierFall();
                 };
             };
 

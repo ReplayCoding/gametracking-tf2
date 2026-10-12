@@ -64,12 +64,12 @@ const ZSOLDIER_DMG_MULTI               = 1;     // Soldier  Zombie Damage Multip
 const ZDEMOMAN_DMG_MULTI               = 1;     // Demoman  Zombie Damage Multiplier       //
 const ZMEDIC_DMG_MULTI                 = 1;     // Medic    Zombie Damage Multiplier       //
 const ZHEAVY_DMG_MULTI                 = 2.2;   // Heavy    Zombie Damage Multiplier       //
-const ZHEAVY_KNOCKBACK_MULT            = 0.15;  // Heavy    knockback + airblast kept      //
-const ZHEAVY_MELEE_BUILDING_DMG_CAP    = 90;    // Heavy    punch vs buildings, 2 hits on  //
+const ZHEAVY_KNOCKBACK_MULT            = 0.1;   // Heavy    knockback + airblast kept      //
+const ZHEAVY_MELEE_BUILDING_DMG_CAP    = 120;   // Heavy    punch vs buildings, 2 hits on  //
 const ZHEAVY_DEATH_GIB_Z_OFF           = 40;    // Heavy    rock gib burst height on death //
-const ZPYRO_FIRE_DMG_MULT              = 0.30;  // Pyro     zombie fire damage kept        //
+const ZPYRO_FIRE_DMG_MULT              = 0.35;  // Pyro     zombie fire damage kept        //
 const ZPYRO_DMG_MULTI                  = 0.7;   // Pyro     Zombie Damage Multiplier       //
-const ZSPY_DMG_MULTI                   = 0.69;  // Spy      Zombie Damage Multiplier       //
+const ZSPY_DMG_MULTI                   = 1;     // Spy      Zombie Damage Multiplier       //
 const ZENGINEER_DMG_MULTI              = 1;     // Engineer Zombie Damage Multiplier       //
 // --------------------------------------------------------------------------------------- //
 // Item Definition Index (IDX) for each class' Zombie weapon                               //
@@ -343,16 +343,26 @@ arrHUDTextClassYOffsets <-
 
 szArrZombieAbilityUI <-
 [
-    "vgui/infection/zability_scout_",
-    "vgui/infection/zability_scout_",
-    "vgui/infection/zability_sniper_",
-    "vgui/infection/zability_soldier_",
-    "vgui/infection/zability_demo_",
-    "vgui/infection/zability_medic_",
-    "vgui/infection/zability_heavy_",
-    "vgui/infection/zability_pyro_",
-    "vgui/infection/zability_spy_",
-    "vgui/infection/zability_engineer_",
+    //"vgui/infection/zability_scout_",
+    //"vgui/infection/zability_scout_",
+    //"vgui/infection/zability_sniper_",
+    //"vgui/infection/zability_soldier_",
+    //"vgui/infection/zability_demo_",
+    //"vgui/infection/zability_medic_",
+    //"vgui/infection/zability_heavy_",
+    //"vgui/infection/zability_pyro_",
+    //"vgui/infection/zability_spy_",
+    //"vgui/infection/zability_engineer_",
+	"vgui/replay/thumbnails/infection/zability_scout_",
+    "vgui/replay/thumbnails/infection/zability_scout_",
+    "vgui/replay/thumbnails/infection/zability_sniper_",
+    "vgui/replay/thumbnails/infection/zability_soldier_",
+    "vgui/replay/thumbnails/infection/zability_demo_",
+    "vgui/replay/thumbnails/infection/zability_medic_",
+    "vgui/replay/thumbnails/infection/zability_heavy_",
+    "vgui/replay/thumbnails/infection/zability_pyro_",
+    "vgui/replay/thumbnails/infection/zability_spy_",
+    "vgui/replay/thumbnails/infection/zability_engineer_",
 ];
 
 idxArrZombiePlayerModels <-
@@ -457,7 +467,6 @@ const FX_SPEW_TRAIL            = "zombie_tar";
 const FX_SPEW_IMPACT           = "zombie_tar_impact";
 const FX_SPEW_DRIP             = "zombie_peejar_drips_tar";
 const FX_SOLDIER_LIFTOFF      = "rocketjump_smoke";
-const SFX_SOLDIER_FALL        = "BlastJump.Whistle";
 const FX_ZOMBIE_SPAWN         = "zombie_spawn_parent";
 const FX_TF_STOMP_TEXT        = "stomp_text";
 const FX_MEDIC_HEAL           = "zombie_heal_parent";

@@ -11,8 +11,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 ENGIE_EMP_LIFETIME               <- 1.75;  // How long the EMP lasts for once thrown       //
 // --------------------------------------------------------------------------------------- //
-ENGIE_EMP_BUILDING_DISABLE_TIME  <- 5.5;   // how long is a hit buildable disabled         //
-ENGIE_EMP_BUILDING_DISABLE_RANGE <- 450;   // range from grenade explode to disable        //
+ENGIE_EMP_BUILDING_DISABLE_TIME  <- 6.5;   // how long is a hit buildable disabled         //
+ENGIE_EMP_BUILDING_DISABLE_RANGE <- 500;   // range from grenade explode to disable        //
 // --------------------------------------------------------------------------------------- //
 ENGIE_EMP_THROW_DIST_FROM_EYES   <- -20;   // distance from eyes to spawn grenade          //
 ENGIE_EMP_THROW_FORCE            <- 1500;  // initial force to apply to nade               //
@@ -41,7 +41,7 @@ ENGIE_BEACON_SKIN                 <- 1;     // buildable skins are 0 red / 1 blu
 ENGIE_BEACON_MINIROOT_LEN         <- 0.25;  // root duration after throwing the beacon      //
 // --------------------------------------------------------------------------------------- //
 ENGIE_BEACON_HEALTH               <- 150;   // beacon hp (lvl 1 tele) humans can destroy    //
-ENGIE_BEACON_BUILD_TIME           <- 4.0;   // secs of building before becoming a beacon    //
+ENGIE_BEACON_BUILD_TIME           <- 2.0;   // secs of building before becoming a beacon    //
 // --------------------------------------------------------------------------------------- //
 ENGIE_BEACON_BUILD_ANIM           <- "build";   // tele unfold sequence played on landing   //
 ENGIE_BEACON_IDLE_ANIM            <- "running"; // looping sequence once fully built        //
@@ -124,10 +124,10 @@ SPIT_ZONE_ALPHA                  <- 30;    // zone box alpha                    
 /////////////////////////////////////////////////////////////////////////////////////////////
 // ZombieSpy EMP Ability |---------------------------------------------------------------- //
 /////////////////////////////////////////////////////////////////////////////////////////////
-SPY_REVEAL_RANGE                 <- 900;   // Maximum distance for player to be hit        //
+SPY_REVEAL_RANGE                 <- 1000;  // Maximum distance for player to be hit        //
 SPY_REVEAL_LENGTH                <- 20;    // how long players are revealed for (sec)      //
 SPY_RECLOAK_TIME                 <- 3;     // how long before spy becomes cloaked again    //
-SPY_EMP_BUILDING_GLOW_LEN        <- 5.5;   // how long buildings stay outlined (sec)       //
+SPY_EMP_BUILDING_GLOW_LEN        <- 6.5;   // how long buildings stay outlined (sec)       //
 SPY_REVEAL_SNDLVL                <- 135;   // reveal sfx soundlevel (db), higher = louder  //
 // --------------------------------------------------------------------------------------- //
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -167,7 +167,7 @@ PYRO_SPEW_CHARGE_BASE_SPEED       <- 750;   // stock charge speed the cap derive
 PYRO_SPEW_TICK_DAMAGE             <- 1;     // hp drained per tick while spewed             //
 PYRO_SPEW_TICK_INTERVAL           <- 1.0;   // seconds between drain ticks                  //
 // --------------------------------------------------------------------------------------- //
-PYRO_SPEW_TINT                    <- 0xFF9B6487; // packed abgr model tint - muted purple      //
+PYRO_SPEW_TINT                    <- 0xFF555A64; // packed abgr model tint - oily brown-black //
 PYRO_SPEW_ZONE_BOX_HEIGHT         <- 6;     // z extent of the drawn zone box               //
 PYRO_SPEW_ZONE_COLOR_R            <- 140;   // zone box rgb                                 //
 PYRO_SPEW_ZONE_COLOR_G            <- 110;   //                                              //
@@ -233,7 +233,7 @@ HEAVY_ROCK_SPLASH_AIM_Z          <- 40;    // aim height up the victim, chest no
 HEAVY_ROCK_HULL_SIZE             <- 12;    // half-width of the in-flight contact hull     //
 // --------------------------------------------------------------------------------------- //
 HEAVY_ROCK_BUILDING_DAMAGE       <- 70;    // flat damage to every building in the blast   //
-HEAVY_ROCK_BUILDING_DISABLE_TIME <- 2.5;   // brief emp-style knockout, shorter than the   //
+HEAVY_ROCK_BUILDING_DISABLE_TIME <- 3.0;   // brief emp-style knockout, shorter than the   //
                                            // spy nade's 6.5                               //
 // --------------------------------------------------------------------------------------- //
 // brush-only so a player in the way doesn't absorb the blast for everyone behind them     //
@@ -1132,6 +1132,61 @@ class CPyroSpew extends CZombieAbility
         return;
     };
 }
+
+::DebugSpewMe <- function( _bNoOverlay = 0 )
+{
+    local _hPlayer = GetListenServerHost();
+
+    if ( _hPlayer == null )
+        return;
+
+    ::bSpewNoScreenOverlay = ( _bNoOverlay != 0 );
+
+    if ( ::bSpewNoScreenOverlay && _hPlayer.GetScriptOverlayMaterial() == MAT_SPEW_OVERLAY )
+        _hPlayer.SetScriptOverlayMaterial( "" );
+
+    local _vecFwd = _hPlayer.EyeAngles().Forward();
+    local _vecPos = ( _hPlayer.EyePosition() + ( _vecFwd * 10 ) );
+
+    local _hGlobEnt = Entities.CreateByClassname( "prop_physics_override" );
+
+    _hGlobEnt.SetModel  ( MDL_WORLD_MODEL_ENGIE_NADE );
+    _hGlobEnt.SetOrigin ( _vecPos );
+
+    SetPropInt ( _hGlobEnt, "m_nRenderMode", kRenderTransColor );
+    SetPropInt ( _hGlobEnt, "m_clrRender", 0 );
+    SetPropInt ( _hGlobEnt, "m_CollisionGroup", COLLISION_GROUP_DEBRIS );
+
+    local _hPfxEnt = SpawnEntityFromTable( "info_particle_system",
+    {
+        effect_name  = FX_SPEW_TRAIL,
+        start_active = "1",
+        origin       = _vecPos
+    } );
+
+    EntFireByHandle( _hPfxEnt, "SetParent", "!activator", 0, _hGlobEnt, _hGlobEnt );
+
+    _hGlobEnt.DispatchSpawn   ();
+    _hGlobEnt.SetPhysVelocity ( _vecFwd * -300 );
+
+    _hGlobEnt.ValidateScriptScope();
+
+    local _sc = _hGlobEnt.GetScriptScope();
+
+    _sc.m_hOwner            <-  _hPlayer;
+    _sc.m_bCanHitOwner      <-  true;
+    _sc.m_hPfx              <-  _hPfxEnt;
+    _sc.m_iState            <-  PYRO_SPEW_STATE_IN_TRANSIT;
+    _sc.m_flKillMeTime      <-  ( Time() + PYRO_SPEW_GLOB_LIFETIME ).tofloat();
+    _sc.m_fZoneEndTime      <-  0.0;
+    _sc.m_vecHitPosition    <-  Vector( 0, 0, 0 );
+    _sc.m_iDistanceToGround <-  0;
+    _sc.m_vecSpewDir        <-  Vector( -_vecFwd.x, -_vecFwd.y, 0 );
+    _sc.m_tblSplat          <-  null;
+
+    AddThinkToEnt( _hGlobEnt, "PyroSpewGlobThink" );
+    return;
+};
 
 class CHeavyRockThrow extends CZombieAbility
 {

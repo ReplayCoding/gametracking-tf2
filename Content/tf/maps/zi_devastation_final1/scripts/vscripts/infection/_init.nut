@@ -101,8 +101,6 @@ PrecacheScriptSound ( SFX_HEAVY_ROCK_FLESH );
 PrecacheScriptSound ( SFX_HEAVY_ROCK_CONCRETE );
 PrecacheScriptSound ( SFX_HEAVY_FOOTSTEP );
 
-PrecacheScriptSound ( SFX_SOLDIER_FALL );
-
 // zombie voice
 PrecacheScriptSound ( SFX_ZOMBIE_EMERGE_RISE );
 PrecacheScriptSound ( SFX_ZOMBIE_VO_MOAN );

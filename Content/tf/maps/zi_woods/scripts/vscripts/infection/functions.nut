@@ -162,10 +162,7 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
 {
     ScreenShake ( _vecLocation, 5000, 5000, 4, 350, 0, true );
 
-    // a corpse re-armed to 1hp and re-killed here fires a second player_death
-    local _bDeadPlayer = ( _hInflictor.IsPlayer() && GetPropInt( _hInflictor, "m_lifeState" ) != ALIVE );
-
-    if ( _hInflictor.IsPlayer() && !_bDeadPlayer )
+    if ( _hInflictor.IsPlayer() )
     {
         _hInflictor.SetHealth( 1 );
     }
@@ -213,9 +210,7 @@ CreateExplosion <- function( _vecLocation, _flDmg, _flRange, _hInflictor, _iTeam
     // EntFireByHandle ( _hBomb,   "Detonate", "", -1, _hInflictor, _hInflictor )
     _hBomb.KeyValueFromString( "classname", KILLICON_DEMOMAN_BOOM );
     _hBomb.TakeDamage(1, DMG_CLUB, _hInflictor)
-
-    if ( !_bDeadPlayer )
-        _hInflictor.TakeDamage(1, DMG_NEVERGIB, _hInflictor)
+    _hInflictor.TakeDamage(1, DMG_NEVERGIB, _hInflictor)
     return;
 };
 
@@ -632,14 +627,6 @@ CTFPlayer_EndSpitCharge <- function()
 
     if ( _sc.m_hZombieWep != null && _sc.m_hZombieWep.IsValid() )
         SetPropFloat( _sc.m_hZombieWep, "m_flNextPrimaryAttack", 0.0 );
-};
-
-CTFPlayer_EndSoldierFall <- function()
-{
-    local _sc = this.GetScriptScope();
-
-    _sc.m_bSoldierFallSfx <- false;
-    StopSoundOn( SFX_SOLDIER_FALL, this );
 };
 
 CTFPlayer_GiveZombieAbility <- function()
@@ -2368,7 +2355,6 @@ CTFPlayer_ResetInfectionVars <- function()
     _sc.m_hZombieFXWearable     <- null;
     _sc.m_hZombieAbility        <- null;
     _sc.m_hTempEntity           <- null;
-    _sc.m_bSoldierFallSfx       <- false;
     _sc.m_hHUDText              <- null;
     _sc.m_hHUDTextAbilityName   <- null;
     _sc.m_hLinkedSpitPool       <- null;

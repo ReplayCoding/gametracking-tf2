@@ -679,7 +679,7 @@
 "TF_Weapon_FestiveRevolver"			"Juhlava revolveri"
 "TF_Weapon_FestiveBonesaw"			"Juhlava luusaha"
 "TF_Weapon_FestiveTarge"			"Juhlava rynnäkkökilpi"
-"TF_Weapon_FestiveBonk"				"Juhlava naps! Atomi-isku"
+"TF_Weapon_FestiveBonk"				"Juhlava Bonk-atomijuoma"
 "TF_Weapon_FestiveBackburner"		"Juhlava jälkipoltin"
 "TF_Weapon_FestiveSMG"				"Juhlava konepistooli"
 
@@ -2682,7 +2682,6 @@
 "TF_TournamentMedal_Moscow_LAN_1st"				"Moscow LAN – Voittaja"
 "TF_TournamentMedal_Moscow_LAN_2nd"				"Moscow LAN – 2. sija"
 "TF_TournamentMedal_Moscow_LAN_3rd"				"Moscow LAN – 3. sija"
-"TF_TournamentMedal_Moscow_LAN_Participant"		"Osallistuja – Moscow LAN"
 "TF_TournamentMedal_TFNew_Gold"					"TFNew Cup – Voittaja"
 "TF_TournamentMedal_TFNew_Gold_Desc"			"Myönnetty TFNew 6v6 Newbie Cup -tapahtuman voittaneille pelaajille ja valmentajille."
 "TF_TournamentMedal_TFNew_Silver"				"TFNew Cup – 2. sija"
@@ -13346,6 +13345,7 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle413"			"Lepattavat lentelijät"
 "Attrib_Particle414"			"Lepattavat lentelijät"
 "Attrib_Particle415"			"Suhisevat siivet"
+"Attrib_Particle418"			"Syystuulahdus"
 // Weapon Unusual
 "Attrib_Particle701"			"Kuuma"
 "Attrib_Particle702"			"Isotooppi"
@@ -18362,7 +18362,7 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sf14_talon_trotters"                "Linnun läpsyttimet" // ADD THE
 "TF_sf14_scout_hunter_head"             "Päänpopsija" // ADD THE
 "TF_sf14_scout_hunter_arm"              "Saastuneen silpojat"  // ADD THE
-"TF_sf14_scout_hunter_legs"             "Hullummoiset hyppyttäjät"  // ADD THE
+"TF_sf14_scout_hunter_legs"             "Hullunmoiset hyppyyttäjät"  // ADD THE
 "TF_sf14_ghost_of_spies_checked_past"   "Vakoojavainaa"  // ADD THE
 "TF_sf14_hooded_haunter_classes"        "Huputettu hirmu" // ADD THE
 "TF_sf14_conspiratorial_cut"            "Salalisko" // ADD THE
@@ -18833,6 +18833,10 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_taunt_friendly_fire"					"Pilkka: Vaahtosammutin"
 "TF_taunt_friendly_fire_Desc"				"Yhteisön luoma pilkka Pyrolle"
 "TF_taunt_friendly_fire_AdText"				"– Yhteisön luoma pilkka Pyrolle"
+"TF_taunt_hippocratic_hypocrite"			"Pilkka: Tekopyhän tehotipat"
+"TF_taunt_oneeyed_punt"						"Pilkka: Yksisilmäinen potkupallo"
+"TF_taunt_showrunners_spirit"				"Pilkka: Totaalinen tuuletus"
+"TF_taunt_barrel_roll"						"Pilkka: Tynnyritanssi"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Happihuppu"	// ADD THE
@@ -20172,6 +20176,10 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sum26_bald_spotter_style1"				"Likinäköinen"
 "TF_sum26_bald_spotter_style2"				"Kaukonäköinen"
 "TF_sum26_surgical_shroud"				"Kirurgin käärinliina"
+"TF_hwn2026_clowning_cowl"				"Klovnin päähine"
+"TF_hwn2026_clowning_cowl_style1"			"Hattu kauluksen ulkopuolella"
+"TF_hwn2026_clowning_cowl_style2"			"Hattu kauluksen sisäpuolella"
+"TF_hwn2026_bounty_hunters_brim"		"Palkkionmetsästäjän lierihattu"
 "TF_style_bullets"						"Luodeilla"
 "TF_style_nobullets"					"Ei luoteja"
 
@@ -21012,13 +21020,15 @@ Kuollut pelaaja joutuu manalaan, mutta jatkaa vielä taistelemista. Manalassa pe
 "tf_zi_intro_part5"						"Zombit voittavat saatuaan kaikki ihmispelaajat tartutettua!"
 "tf_zi_team_red"						"Selviytyjät"
 "tf_zi_team_blue"						"Zombit"
-"tf_zi_pyro_blast_name"					"Lohikäärmeen henkäys" 
-
+"tf_zi_pyro_blast_name"					"Lohikäärmeen henkäys"
+"tf_zi_pyro_spew_name"					"Yrmeä yskös" 
+"tf_zi_heavy_rock_name"					"Kivenheitto" 
+"tf_zi_engie_beacon_name"				"Majakka" 
 "tow_dynamite_welcome"					"Tervetuloa Dynamiteen!"
 "tow_dynamite_part1"					"Dynamite on Köydenveto-kartta"
 "tow_dynamite_part2"					"Seiso vaunun päällä, kunnes omistat sen. Sitten voit työntää sitä."
 "tow_dynamite_part3"					"Kumpikin joukkue voi työntää vaunun vihollisen tukikohtaan."
-"tow_dynamite_part4"					"Hyppyalustoja voi käyttää, kun vaunu on siirretty kumman tahansa joukkueen tukikohtaan." 
+"tow_dynamite_part4"					"Hyppytyynyjä voi käyttää, kun vaunu on siirretty kumman tahansa joukkueen tukikohtaan." 
 "tow_dynamite_part5"					"Nyt kieli keskellä suuta!"
 "tow_dynamite_part6"					"Vastustajan tappaminen saattaa pudottaa hyppyloitsun, jolla pelaaja pääsee nousemaan entistä korkeammalle."
 "tow_dynamite_part7"					"Joukkueesi on saatettava vaunu vihollisen tukikohtaan ja puolustettava sitä, kunnes joukkueesi ajastimen aika kuluu loppuun." 

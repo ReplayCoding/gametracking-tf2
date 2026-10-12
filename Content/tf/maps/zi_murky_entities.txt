@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 929
+Revision: 932
 {
 "world_maxs" "5760 3584 4160"
 "world_mins" "-3584 -3584 -960"
@@ -11,7 +11,7 @@ Revision: 929
 "detailmaterial" "detail/detailsprites_swamp"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "2698"
+"mapversion" "2700"
 "hammerid" "1"
 }
 {
@@ -3593,17 +3593,6 @@ Revision: 929
 "hammerid" "105417"
 }
 {
-"model" "*18"
-"TeamNum" "2"
-"targetname" "red_spawnroom"
-"StartDisabled" "0"
-"spawnflags" "1"
-"origin" "1152 -16 208"
-"angles" "0 0 0"
-"classname" "func_respawnroom"
-"hammerid" "125455"
-}
-{
 "origin" "-587.484 1534.83 16"
 "spawn_manager_name" "pumpkinManager"
 "angles" "0 0 0"
@@ -3829,7 +3818,7 @@ Revision: 929
 "hammerid" "206711"
 }
 {
-"model" "*19"
+"model" "*18"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4103,7 +4092,7 @@ Revision: 929
 "hammerid" "136000"
 }
 {
-"model" "*20"
+"model" "*19"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4141,7 +4130,7 @@ Revision: 929
 "hammerid" "129057"
 }
 {
-"model" "*21"
+"model" "*20"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4161,7 +4150,7 @@ Revision: 929
 "hammerid" "66857"
 }
 {
-"model" "*22"
+"model" "*21"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4257,7 +4246,7 @@ Revision: 929
 "hammerid" "139653"
 }
 {
-"model" "*23"
+"model" "*22"
 "TeamNum" "3"
 "targetname" "blu_respawnroom"
 "StartDisabled" "0"
@@ -4813,7 +4802,7 @@ Revision: 929
 "hammerid" "234976"
 }
 {
-"model" "*24"
+"model" "*23"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -4837,7 +4826,7 @@ Revision: 929
 "hammerid" "227655"
 }
 {
-"model" "*25"
+"model" "*24"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -4857,7 +4846,7 @@ Revision: 929
 "hammerid" "68444"
 }
 {
-"model" "*26"
+"model" "*25"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -4870,7 +4859,7 @@ Revision: 929
 "hammerid" "245452"
 }
 {
-"model" "*27"
+"model" "*26"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -4881,7 +4870,7 @@ Revision: 929
 "hammerid" "254762"
 }
 {
-"model" "*28"
+"model" "*27"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -4892,7 +4881,7 @@ Revision: 929
 "hammerid" "254774"
 }
 {
-"model" "*29"
+"model" "*28"
 "TeamNum" "2"
 "targetname" "red_spawnroom"
 "StartDisabled" "0"
@@ -5441,7 +5430,7 @@ Revision: 929
 "hammerid" "367642"
 }
 {
-"model" "*30"
+"model" "*29"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5645,7 +5634,7 @@ Revision: 929
 "hammerid" "402550"
 }
 {
-"model" "*31"
+"model" "*30"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5875,7 +5864,7 @@ Revision: 929
 "hammerid" "402998"
 }
 {
-"model" "*32"
+"model" "*31"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6089,6 +6078,28 @@ Revision: 929
 "hammerid" "436815"
 }
 {
+"model" "*32"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-48 1360 204"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "447541"
+}
+{
+"model" "*33"
+"TeamNum" "2"
+"targetname" "red_spawnroom"
+"StartDisabled" "0"
+"spawnflags" "1"
+"origin" "-48 1360 204"
+"angles" "0 0 0"
+"classname" "func_respawnroom"
+"hammerid" "447547"
+}
+{
 "origin" "-2.26801 -1420.32 228.549"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -6115,7 +6126,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 89.176 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "437285"
+"hammerid" "448017"
 }
 {
 "angles" "-0 90 0"
@@ -6133,7 +6144,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "437289"
+"hammerid" "448021"
 }
 {
 "angles" "-0 90 0"
@@ -6151,7 +6162,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "436968"
+"hammerid" "447700"
 }
 {
 "angles" "-0 90 0"
@@ -6169,7 +6180,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "436973"
+"hammerid" "447705"
 }
 {
 "origin" "-333.732 -1251.68 216.549"
@@ -6198,7 +6209,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -90.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "438065"
+"hammerid" "448797"
 }
 {
 "angles" "-0 90 0"
@@ -6216,7 +6227,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "438069"
+"hammerid" "448801"
 }
 {
 "origin" "122.611 -938.072 194.038"
@@ -6245,7 +6256,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 -31.5 0"
 "classname" "prop_dynamic"
-"hammerid" "438141"
+"hammerid" "448873"
 }
 {
 "angles" "-0 90 0"
@@ -6263,7 +6274,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "438145"
+"hammerid" "448877"
 }
 {
 "origin" "770.268 -1187.68 250.549"
@@ -6292,7 +6303,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -90.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "438706"
+"hammerid" "449438"
 }
 {
 "angles" "-0 90 0"
@@ -6310,7 +6321,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "438710"
+"hammerid" "449442"
 }
 {
 "origin" "317.732 -1008.32 104.549"
@@ -6339,7 +6350,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 89.176 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "439166"
+"hammerid" "449898"
 }
 {
 "angles" "-0 90 0"
@@ -6357,7 +6368,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "439170"
+"hammerid" "449902"
 }
 {
 "origin" "93.732 -747.584 248.267"
@@ -6386,7 +6397,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0.925664 89.186 0.794145"
 "classname" "prop_dynamic"
-"hammerid" "439184"
+"hammerid" "449916"
 }
 {
 "angles" "-0 90 0"
@@ -6404,7 +6415,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "439188"
+"hammerid" "449920"
 }
 {
 "origin" "232 -1024 325.75"
@@ -6422,7 +6433,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "442471"
+"hammerid" "453203"
 }
 {
 "origin" "249.732 -1432.32 72.549"
@@ -6451,7 +6462,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 89.176 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "442594"
+"hammerid" "453326"
 }
 {
 "angles" "-0 90 0"
@@ -6469,7 +6480,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "442598"
+"hammerid" "453330"
 }
 {
 "origin" "235.268 -1186.06 306.603"
@@ -6487,7 +6498,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "442882"
+"hammerid" "453614"
 }
 {
 "origin" "235.268 -1186.06 290.603"
@@ -6505,7 +6516,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "442888"
+"hammerid" "453620"
 }
 {
 "origin" "78.548 -1037.68 104.549"
@@ -6534,7 +6545,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -45.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "443326"
+"hammerid" "454058"
 }
 {
 "angles" "-0 90 0"
@@ -6552,7 +6563,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "443330"
+"hammerid" "454062"
 }
 {
 "origin" "315.679 -687.732 275.22"
@@ -6581,7 +6592,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -0.824008 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "443879"
+"hammerid" "454611"
 }
 {
 "angles" "-0 90 0"
@@ -6599,7 +6610,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "443883"
+"hammerid" "454615"
 }
 {
 "origin" "4 -1412 256"
@@ -6617,7 +6628,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "437292"
+"hammerid" "448024"
 }
 {
 "origin" "316 -694 302.671"
@@ -6635,7 +6646,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "443886"
+"hammerid" "454618"
 }
 {
 "angles" "-0 90 0"
@@ -6653,7 +6664,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442552"
+"hammerid" "453284"
 }
 {
 "angles" "-0 90 0"
@@ -6671,19 +6682,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442572"
-}
-{
-"model" "*33"
-"angles" "-0 90 0"
-"origin" "480 -1424 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "1"
-"AllowDispenser" "1"
-"classname" "func_nobuild"
-"hammerid" "447154"
+"hammerid" "453304"
 }
 {
 "model" "*34"
@@ -6695,7 +6694,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "447146"
+"hammerid" "457886"
 }
 {
 "model" "*35"
@@ -6707,7 +6706,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "447140"
+"hammerid" "457878"
 }
 {
 "model" "*36"
@@ -6719,7 +6718,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "447130"
+"hammerid" "457872"
 }
 {
 "model" "*37"
@@ -6728,10 +6727,22 @@ Revision: 929
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
+"AllowSentry" "1"
+"AllowDispenser" "1"
+"classname" "func_nobuild"
+"hammerid" "457862"
+}
+{
+"model" "*38"
+"angles" "-0 90 0"
+"origin" "480 -1424 196"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "447114"
+"hammerid" "457846"
 }
 {
 "origin" "-336 -1264 244"
@@ -6749,7 +6760,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "438072"
+"hammerid" "448804"
 }
 {
 "origin" "107.457 -944 300.069"
@@ -6781,7 +6792,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 36.5 0"
 "classname" "prop_dynamic"
-"hammerid" "442577"
+"hammerid" "453309"
 }
 {
 "angles" "-0 90 0"
@@ -6799,7 +6810,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442530"
+"hammerid" "453262"
 }
 {
 "angles" "-0 90 0"
@@ -6817,7 +6828,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442856"
+"hammerid" "453588"
 }
 {
 "angles" "-0 90 0"
@@ -6835,7 +6846,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442869"
+"hammerid" "453601"
 }
 {
 "origin" "148.672 -993.045 164"
@@ -6845,7 +6856,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 180 0"
 "classname" "item_ammopack_medium"
-"hammerid" "438132"
+"hammerid" "448864"
 }
 {
 "origin" "132.542 -945.045 203.86"
@@ -6863,7 +6874,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "438148"
+"hammerid" "448880"
 }
 {
 "origin" "256 -1424 100"
@@ -6881,7 +6892,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "442601"
+"hammerid" "453333"
 }
 {
 "angles" "-0 90 0"
@@ -6899,7 +6910,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "442535"
+"hammerid" "453267"
 }
 {
 "origin" "768 -1200 278"
@@ -6917,7 +6928,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "438713"
+"hammerid" "449445"
 }
 {
 "origin" "100 -736 276"
@@ -6935,7 +6946,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "439191"
+"hammerid" "449923"
 }
 {
 "origin" "148.672 -1057.05 164"
@@ -6945,7 +6956,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 180 0"
 "classname" "item_healthkit_medium"
-"hammerid" "438123"
+"hammerid" "448855"
 }
 {
 "origin" "324 -1000 132"
@@ -6963,10 +6974,10 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "439173"
+"hammerid" "449905"
 }
 {
-"model" "*38"
+"model" "*39"
 "angles" "-0 90 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -6983,7 +6994,7 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "444978"
+"hammerid" "455710"
 }
 {
 "origin" "80 -1048 132"
@@ -7001,7 +7012,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "443333"
+"hammerid" "454065"
 }
 {
 "angles" "-0 90 0"
@@ -7019,7 +7030,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "444012"
+"hammerid" "454744"
 }
 {
 "angles" "-0 90 0"
@@ -7037,7 +7048,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "444077"
+"hammerid" "454809"
 }
 {
 "origin" "235.268 -1196 296"
@@ -7055,19 +7066,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "442942"
-}
-{
-"model" "*39"
-"angles" "-0 90 0"
-"origin" "480 -1424 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "446439"
+"hammerid" "453674"
 }
 {
 "model" "*40"
@@ -7079,7 +7078,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "447472"
+"hammerid" "458204"
 }
 {
 "origin" "256 -1040 804"
@@ -7099,7 +7098,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "100"
 "classname" "light_spot"
-"hammerid" "448260"
+"hammerid" "458992"
 }
 {
 "origin" "-1005.07 1232.82 261.993"
@@ -7128,7 +7127,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-6.31411 -142.504 2.77956"
 "classname" "prop_dynamic"
-"hammerid" "448316"
+"hammerid" "459048"
 }
 {
 "angles" "-0 105 0"
@@ -7146,7 +7145,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "448320"
+"hammerid" "459052"
 }
 {
 "origin" "-1748.85 1085.86 308"
@@ -7164,7 +7163,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448393"
+"hammerid" "459125"
 }
 {
 "origin" "-1748.85 1085.86 292"
@@ -7182,7 +7181,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448399"
+"hammerid" "459131"
 }
 {
 "angles" "-0 105 0"
@@ -7200,7 +7199,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "448440"
+"hammerid" "459172"
 }
 {
 "angles" "-0 105 0"
@@ -7218,7 +7217,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "448445"
+"hammerid" "459177"
 }
 {
 "angles" "-0 105 0"
@@ -7236,7 +7235,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "448564"
+"hammerid" "459296"
 }
 {
 "angles" "-0 105 0"
@@ -7254,7 +7253,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "448569"
+"hammerid" "459301"
 }
 {
 "origin" "-1751.03 753.988 308"
@@ -7272,7 +7271,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448619"
+"hammerid" "459351"
 }
 {
 "origin" "-1751.03 753.988 292"
@@ -7290,7 +7289,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448625"
+"hammerid" "459357"
 }
 {
 "origin" "-1950.65 439.279 248.549"
@@ -7319,7 +7318,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 104.176 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "448757"
+"hammerid" "459489"
 }
 {
 "angles" "-0 105 0"
@@ -7337,7 +7336,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "448761"
+"hammerid" "459493"
 }
 {
 "origin" "-1591.53 962.37 376"
@@ -7355,7 +7354,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448738"
+"hammerid" "459470"
 }
 {
 "origin" "-1183.06 959.328 261.398"
@@ -7384,7 +7383,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-5.79917 80.552 -1.10374"
 "classname" "prop_dynamic"
-"hammerid" "453464"
+"hammerid" "464196"
 }
 {
 "angles" "-0 105 0"
@@ -7402,7 +7401,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "453468"
+"hammerid" "464200"
 }
 {
 "origin" "-1639.7 780.009 248.549"
@@ -7431,7 +7430,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -75.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "453503"
+"hammerid" "464235"
 }
 {
 "angles" "-0 105 0"
@@ -7449,7 +7448,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "453507"
+"hammerid" "464239"
 }
 {
 "origin" "-2070.63 833.996 308"
@@ -7467,7 +7466,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "453813"
+"hammerid" "464545"
 }
 {
 "origin" "-2070.63 833.996 292"
@@ -7485,7 +7484,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "453819"
+"hammerid" "464551"
 }
 {
 "origin" "-1651.11 1054.41 104.549"
@@ -7514,7 +7513,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -75.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "454498"
+"hammerid" "465230"
 }
 {
 "angles" "-0 105 0"
@@ -7532,7 +7531,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "454502"
+"hammerid" "465234"
 }
 {
 "origin" "-1593.45 845.904 104.549"
@@ -7561,7 +7560,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 105 0"
 "classname" "prop_dynamic"
-"hammerid" "454516"
+"hammerid" "465248"
 }
 {
 "angles" "-0 105 0"
@@ -7579,7 +7578,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "454520"
+"hammerid" "465252"
 }
 {
 "origin" "-1160.7 1202.38 104.549"
@@ -7608,7 +7607,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -75.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "454561"
+"hammerid" "465293"
 }
 {
 "angles" "-0 105 0"
@@ -7626,7 +7625,90 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "454565"
+"hammerid" "465297"
+}
+{
+"origin" "-1984.11 842.996 456.733"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"modelscale" "1.0"
+"model" "models/props_2fort/lantern001.mdl"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"fadescale" "1"
+"fademindist" "2000"
+"fademaxdist" "2300"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"angles" "-4.43434 -70.688 1.44428"
+"classname" "prop_dynamic"
+"hammerid" "471888"
+}
+{
+"angles" "-0 105 0"
+"origin" "-1984.59 843.626 466.452"
+"scale" ".75"
+"rendermode" "9"
+"renderfx" "0"
+"rendercolor" "254 216 146"
+"renderamt" "255"
+"model" "materials/Sprites/light_glow03.vmt"
+"mindxlevel" "0"
+"maxdxlevel" "0"
+"HDRColorScale" "1.0"
+"GlowProxySize" "4"
+"framerate" "10.0"
+"disablereceiveshadows" "0"
+"classname" "env_sprite"
+"hammerid" "471892"
+}
+{
+"origin" "-1989.21 839.247 484.326"
+"style" "0"
+"pitch" "-59.9981"
+"angles" "-59.9981 -75.866 0.499986"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "254 216 146 400"
+"_inner_cone" "30"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "471881"
+}
+{
+"origin" "-1977.9 858.843 484.326"
+"style" "0"
+"pitch" "-32.1138"
+"angles" "-32.1138 31.703 17.2024"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "254 216 146 400"
+"_inner_cone" "30"
+"_exponent" "1"
+"_distance" "0"
+"_constant_attn" "0"
+"_cone" "70"
+"classname" "light_spot"
+"hammerid" "471895"
 }
 {
 "origin" "-1869.71 887.83 376"
@@ -7644,7 +7726,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448749"
+"hammerid" "459481"
 }
 {
 "angles" "-0 105 0"
@@ -7653,7 +7735,7 @@ Revision: 929
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
-"hammerid" "449549"
+"hammerid" "460281"
 }
 {
 "model" "*41"
@@ -7665,7 +7747,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "458949"
+"hammerid" "469681"
 }
 {
 "model" "*42"
@@ -7677,7 +7759,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "458945"
+"hammerid" "469677"
 }
 {
 "model" "*43"
@@ -7689,7 +7771,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "458939"
+"hammerid" "469671"
 }
 {
 "model" "*44"
@@ -7701,7 +7783,7 @@ Revision: 929
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "458927"
+"hammerid" "469659"
 }
 {
 "origin" "-1154.65 1062.87 324"
@@ -7715,7 +7797,7 @@ Revision: 929
 "_ambientHDR" "-1 -1 -1 1"
 "_ambient" "61 67 80 55"
 "classname" "light_environment"
-"hammerid" "448712"
+"hammerid" "459444"
 }
 {
 "angles" "-0 105 0"
@@ -7733,7 +7815,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "453743"
+"hammerid" "464475"
 }
 {
 "origin" "-1729.61 303.148 92.069"
@@ -7765,7 +7847,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -8.5 0"
 "classname" "prop_dynamic"
-"hammerid" "453739"
+"hammerid" "464471"
 }
 {
 "origin" "-1946.75 448.938 276"
@@ -7783,7 +7865,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448764"
+"hammerid" "459496"
 }
 {
 "origin" "-1421.52 1007.92 356"
@@ -7801,7 +7883,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448357"
+"hammerid" "459089"
 }
 {
 "origin" "-1655.01 1044.75 132"
@@ -7819,7 +7901,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "454505"
+"hammerid" "465237"
 }
 {
 "origin" "-1199.91 984.483 312"
@@ -7837,7 +7919,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "453477"
+"hammerid" "464209"
 }
 {
 "angles" "-0 105 0"
@@ -7846,7 +7928,7 @@ Revision: 929
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
-"hammerid" "449543"
+"hammerid" "460275"
 }
 {
 "angles" "-0 105 0"
@@ -7864,7 +7946,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "453732"
+"hammerid" "464464"
 }
 {
 "origin" "-2168.74 608.934 124.069"
@@ -7896,7 +7978,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -98.5 0"
 "classname" "prop_dynamic"
-"hammerid" "453728"
+"hammerid" "464460"
 }
 {
 "angles" "-0 105 0"
@@ -7914,7 +7996,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "453703"
+"hammerid" "464435"
 }
 {
 "origin" "-1643.6 770.349 276"
@@ -7932,7 +8014,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "453510"
+"hammerid" "464242"
 }
 {
 "origin" "-1071.45 1200.56 156.069"
@@ -7964,7 +8046,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -23.5 0"
 "classname" "prop_dynamic"
-"hammerid" "453688"
+"hammerid" "464420"
 }
 {
 "angles" "-0 105 0"
@@ -7982,7 +8064,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "453692"
+"hammerid" "464424"
 }
 {
 "origin" "-1541.05 888.297 156.069"
@@ -8014,7 +8096,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -98.5 0"
 "classname" "prop_dynamic"
-"hammerid" "453699"
+"hammerid" "464431"
 }
 {
 "angles" "-0 105 0"
@@ -8032,7 +8114,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "457645"
+"hammerid" "468377"
 }
 {
 "origin" "-1164.6 1192.72 132"
@@ -8050,19 +8132,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "454568"
-}
-{
-"model" "*45"
-"angles" "-0 105 0"
-"origin" "-1488 576 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "457900"
+"hammerid" "465300"
 }
 {
 "origin" "-1597.59 861.359 132"
@@ -8080,7 +8150,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "454523"
+"hammerid" "465255"
 }
 {
 "origin" "-978.437 1085.24 164"
@@ -8090,7 +8160,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -165 0"
 "classname" "item_ammopack_medium"
-"hammerid" "448338"
+"hammerid" "459070"
 }
 {
 "origin" "-997.072 1154.78 164"
@@ -8100,7 +8170,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -165 0"
 "classname" "item_healthkit_medium"
-"hammerid" "448329"
+"hammerid" "459061"
 }
 {
 "origin" "-1010.81 1221.5 294.311"
@@ -8118,7 +8188,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448323"
+"hammerid" "459055"
 }
 {
 "origin" "-1421.52 1007.92 372"
@@ -8136,10 +8206,10 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "448351"
+"hammerid" "459083"
 }
 {
-"model" "*46"
+"model" "*45"
 "angles" "-0 105 0"
 "origin" "-1488 576 196"
 "TeamNum" "0"
@@ -8148,90 +8218,7 @@ Revision: 929
 "AllowSentry" "1"
 "AllowDispenser" "1"
 "classname" "func_nobuild"
-"hammerid" "459810"
-}
-{
-"origin" "-1989.21 839.247 484.326"
-"style" "0"
-"pitch" "-59.9981"
-"angles" "-59.9981 -75.866 0.499986"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "254 216 146 400"
-"_inner_cone" "30"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "461149"
-}
-{
-"origin" "-1984.11 842.996 456.733"
-"StartDisabled" "0"
-"spawnflags" "0"
-"solid" "0"
-"skin" "0"
-"SetBodyGroup" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"RandomAnimation" "0"
-"pressuredelay" "0"
-"PerformanceMode" "0"
-"modelscale" "1.0"
-"model" "models/props_2fort/lantern001.mdl"
-"MinAnimTime" "5"
-"MaxAnimTime" "10"
-"fadescale" "1"
-"fademindist" "2000"
-"fademaxdist" "2300"
-"ExplodeRadius" "0"
-"ExplodeDamage" "0"
-"disableshadows" "1"
-"disablereceiveshadows" "0"
-"angles" "-4.43434 -70.688 1.44428"
-"classname" "prop_dynamic"
-"hammerid" "461156"
-}
-{
-"angles" "-0 105 0"
-"origin" "-1984.59 843.626 466.452"
-"scale" ".75"
-"rendermode" "9"
-"renderfx" "0"
-"rendercolor" "254 216 146"
-"renderamt" "255"
-"model" "materials/Sprites/light_glow03.vmt"
-"mindxlevel" "0"
-"maxdxlevel" "0"
-"HDRColorScale" "1.0"
-"GlowProxySize" "4"
-"framerate" "10.0"
-"disablereceiveshadows" "0"
-"classname" "env_sprite"
-"hammerid" "461160"
-}
-{
-"origin" "-1977.9 858.843 484.326"
-"style" "0"
-"pitch" "-32.1138"
-"angles" "-32.1138 31.703 17.2024"
-"_quadratic_attn" "1"
-"_linear_attn" "0"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "254 216 146 400"
-"_inner_cone" "30"
-"_exponent" "1"
-"_distance" "0"
-"_constant_attn" "0"
-"_cone" "70"
-"classname" "light_spot"
-"hammerid" "461163"
+"hammerid" "470542"
 }
 {
 "origin" "-1587.39 946.916 905.484"
@@ -8251,7 +8238,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "100"
 "classname" "light_spot"
-"hammerid" "461172"
+"hammerid" "471904"
 }
 {
 "origin" "-1958.3 847.529 905.484"
@@ -8271,7 +8258,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "100"
 "classname" "light_spot"
-"hammerid" "461178"
+"hammerid" "471910"
 }
 {
 "angles" "-0 15 0"
@@ -8289,7 +8276,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "461388"
+"hammerid" "472120"
 }
 {
 "angles" "-0 15 0"
@@ -8307,7 +8294,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "461393"
+"hammerid" "472125"
 }
 {
 "angles" "-0 15 0"
@@ -8325,7 +8312,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "461405"
+"hammerid" "472137"
 }
 {
 "angles" "-0 15 0"
@@ -8343,7 +8330,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "461410"
+"hammerid" "472142"
 }
 {
 "origin" "-2385.69 595.405 180.038"
@@ -8372,7 +8359,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 -16.5 0"
 "classname" "prop_dynamic"
-"hammerid" "461457"
+"hammerid" "472189"
 }
 {
 "angles" "-0 15 0"
@@ -8390,14 +8377,14 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "461461"
+"hammerid" "472193"
 }
 {
 "angles" "-0 15 0"
 "origin" "-2402.03 412.202 148"
 "spawn_manager_name" "pumpkinManager"
 "classname" "entity_spawn_point"
-"hammerid" "461494"
+"hammerid" "472226"
 }
 {
 "angles" "-0 15 0"
@@ -8415,7 +8402,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "461485"
+"hammerid" "472217"
 }
 {
 "origin" "-2374.29 591.24 189.86"
@@ -8433,7 +8420,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "461464"
+"hammerid" "472196"
 }
 {
 "angles" "-0 15 0"
@@ -8451,7 +8438,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "461429"
+"hammerid" "472161"
 }
 {
 "origin" "-2357.69 480.82 150"
@@ -8461,7 +8448,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -165 0"
 "classname" "item_healthkit_small"
-"hammerid" "461439"
+"hammerid" "472171"
 }
 {
 "origin" "-2374.25 542.639 150"
@@ -8471,19 +8458,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -165 0"
 "classname" "item_ammopack_small"
-"hammerid" "461448"
-}
-{
-"model" "*47"
-"angles" "-0 15 0"
-"origin" "-2284 484 188"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "462585"
+"hammerid" "472180"
 }
 {
 "origin" "459.365 234.245 262.098"
@@ -8512,7 +8487,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 27.461 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "462890"
+"hammerid" "473622"
 }
 {
 "angles" "-0 15 0"
@@ -8530,7 +8505,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "462894"
+"hammerid" "473626"
 }
 {
 "origin" "509.86 1028.85 308"
@@ -8548,7 +8523,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "462967"
+"hammerid" "473699"
 }
 {
 "origin" "509.86 1028.85 292"
@@ -8566,7 +8541,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "462973"
+"hammerid" "473705"
 }
 {
 "angles" "-0 15 0"
@@ -8584,7 +8559,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "463014"
+"hammerid" "473746"
 }
 {
 "angles" "-0 15 0"
@@ -8602,7 +8577,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "463019"
+"hammerid" "473751"
 }
 {
 "angles" "-0 15 0"
@@ -8620,7 +8595,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "463138"
+"hammerid" "473870"
 }
 {
 "angles" "-0 15 0"
@@ -8638,7 +8613,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "463143"
+"hammerid" "473875"
 }
 {
 "origin" "177.988 1031.03 308"
@@ -8656,7 +8631,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "463193"
+"hammerid" "473925"
 }
 {
 "origin" "177.988 1031.03 292"
@@ -8674,7 +8649,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "463199"
+"hammerid" "473931"
 }
 {
 "origin" "-136.722 1230.65 248.549"
@@ -8703,7 +8678,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 14.176 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "463331"
+"hammerid" "474063"
 }
 {
 "angles" "-0 15 0"
@@ -8721,7 +8696,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "463335"
+"hammerid" "474067"
 }
 {
 "origin" "386.37 871.528 376"
@@ -8739,7 +8714,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "463312"
+"hammerid" "474044"
 }
 {
 "origin" "395.563 469.137 262.098"
@@ -8768,7 +8743,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 -11.039 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "468038"
+"hammerid" "478770"
 }
 {
 "angles" "-0 15 0"
@@ -8786,7 +8761,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "468042"
+"hammerid" "478774"
 }
 {
 "origin" "204.009 919.703 248.549"
@@ -8815,7 +8790,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -165.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "468077"
+"hammerid" "478809"
 }
 {
 "angles" "-0 15 0"
@@ -8833,7 +8808,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "468081"
+"hammerid" "478813"
 }
 {
 "origin" "257.996 1350.63 308"
@@ -8851,7 +8826,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "468387"
+"hammerid" "479119"
 }
 {
 "origin" "257.996 1350.63 292"
@@ -8869,7 +8844,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "468393"
+"hammerid" "479125"
 }
 {
 "origin" "478.406 931.11 104.549"
@@ -8898,7 +8873,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -165.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "469072"
+"hammerid" "479804"
 }
 {
 "angles" "-0 15 0"
@@ -8916,7 +8891,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "469076"
+"hammerid" "479808"
 }
 {
 "origin" "269.904 873.45 104.549"
@@ -8945,7 +8920,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 15 0"
 "classname" "prop_dynamic"
-"hammerid" "469090"
+"hammerid" "479822"
 }
 {
 "angles" "-0 15 0"
@@ -8963,7 +8938,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "469094"
+"hammerid" "479826"
 }
 {
 "origin" "626.376 440.698 104.549"
@@ -8992,7 +8967,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -165.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "469135"
+"hammerid" "479867"
 }
 {
 "angles" "-0 15 0"
@@ -9010,7 +8985,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "469139"
+"hammerid" "479871"
 }
 {
 "origin" "266.996 1264.11 456.407"
@@ -9039,7 +9014,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-4.43434 -160.688 1.44428"
 "classname" "prop_dynamic"
-"hammerid" "474812"
+"hammerid" "485544"
 }
 {
 "angles" "-0 15 0"
@@ -9057,7 +9032,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "474816"
+"hammerid" "485548"
 }
 {
 "origin" "263.247 1269.21 484"
@@ -9075,7 +9050,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "474861"
+"hammerid" "485593"
 }
 {
 "origin" "282.843 1257.9 484"
@@ -9093,7 +9068,31 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "474873"
+"hammerid" "485605"
+}
+{
+"model" "*46"
+"angles" "-0 15 0"
+"origin" "0 768 196"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "1"
+"AllowDispenser" "1"
+"classname" "func_nobuild"
+"hammerid" "484101"
+}
+{
+"model" "*47"
+"angles" "-0 15 0"
+"origin" "0 768 196"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "1"
+"AllowDispenser" "1"
+"classname" "func_nobuild"
+"hammerid" "484089"
 }
 {
 "model" "*48"
@@ -9102,10 +9101,10 @@ Revision: 929
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
-"AllowSentry" "1"
-"AllowDispenser" "1"
+"AllowSentry" "0"
+"AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "473369"
+"hammerid" "484085"
 }
 {
 "model" "*49"
@@ -9114,10 +9113,10 @@ Revision: 929
 "TeamNum" "0"
 "StartDisabled" "0"
 "AllowTeleporters" "0"
-"AllowSentry" "1"
-"AllowDispenser" "1"
+"AllowSentry" "0"
+"AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "473357"
+"hammerid" "484081"
 }
 {
 "model" "*50"
@@ -9129,31 +9128,7 @@ Revision: 929
 "AllowSentry" "0"
 "AllowDispenser" "0"
 "classname" "func_nobuild"
-"hammerid" "473353"
-}
-{
-"model" "*51"
-"angles" "-0 15 0"
-"origin" "0 768 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "473349"
-}
-{
-"model" "*52"
-"angles" "-0 15 0"
-"origin" "0 768 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "473344"
+"hammerid" "484076"
 }
 {
 "angles" "-0 15 0"
@@ -9162,7 +9137,7 @@ Revision: 929
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
-"hammerid" "464123"
+"hammerid" "474855"
 }
 {
 "angles" "-0 15 0"
@@ -9180,7 +9155,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "468317"
+"hammerid" "479049"
 }
 {
 "origin" "-272.852 1009.61 92.069"
@@ -9212,7 +9187,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -98.5 0"
 "classname" "prop_dynamic"
-"hammerid" "468313"
+"hammerid" "479045"
 }
 {
 "angles" "-0 15 0"
@@ -9230,7 +9205,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "468373"
+"hammerid" "479105"
 }
 {
 "origin" "-127.062 1226.75 276"
@@ -9248,7 +9223,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "463338"
+"hammerid" "474070"
 }
 {
 "origin" "431.922 701.525 356"
@@ -9266,7 +9241,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "462931"
+"hammerid" "473663"
 }
 {
 "origin" "408.483 479.907 312"
@@ -9284,7 +9259,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "468051"
+"hammerid" "478783"
 }
 {
 "angles" "-0 15 0"
@@ -9293,7 +9268,7 @@ Revision: 929
 "StartOpen" "1"
 "PortalVersion" "1"
 "classname" "func_areaportal"
-"hammerid" "464117"
+"hammerid" "474849"
 }
 {
 "angles" "-0 15 0"
@@ -9311,7 +9286,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "468306"
+"hammerid" "479038"
 }
 {
 "origin" "32.9336 1448.74 124.069"
@@ -9343,7 +9318,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 171.5 0"
 "classname" "prop_dynamic"
-"hammerid" "468302"
+"hammerid" "479034"
 }
 {
 "angles" "-0 15 0"
@@ -9361,7 +9336,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "468277"
+"hammerid" "479009"
 }
 {
 "origin" "194.349 923.603 276"
@@ -9379,7 +9354,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "468084"
+"hammerid" "478816"
 }
 {
 "angles" "-0 15 0"
@@ -9397,7 +9372,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "472219"
+"hammerid" "482951"
 }
 {
 "origin" "616.717 444.598 132"
@@ -9415,19 +9390,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "469142"
-}
-{
-"model" "*53"
-"angles" "-0 15 0"
-"origin" "0 768 196"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "472474"
+"hammerid" "479874"
 }
 {
 "origin" "285.359 877.591 132"
@@ -9445,7 +9408,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "469097"
+"hammerid" "479829"
 }
 {
 "origin" "587.878 428.589 164"
@@ -9455,7 +9418,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 15 0"
 "classname" "item_ammopack_medium"
-"hammerid" "462912"
+"hammerid" "473644"
 }
 {
 "origin" "606.513 359.042 164"
@@ -9465,7 +9428,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 15 0"
 "classname" "item_healthkit_medium"
-"hammerid" "462903"
+"hammerid" "473635"
 }
 {
 "origin" "452.316 239.044 294.311"
@@ -9483,7 +9446,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "462897"
+"hammerid" "473629"
 }
 {
 "origin" "468.746 935.011 132"
@@ -9501,7 +9464,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "469079"
+"hammerid" "479811"
 }
 {
 "origin" "431.922 701.525 372"
@@ -9519,7 +9482,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "462925"
+"hammerid" "473657"
 }
 {
 "origin" "311.83 1149.71 376"
@@ -9537,7 +9500,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "463323"
+"hammerid" "474055"
 }
 {
 "origin" "312.297 821.051 156.069"
@@ -9569,7 +9532,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 171.5 0"
 "classname" "prop_dynamic"
-"hammerid" "468273"
+"hammerid" "479005"
 }
 {
 "angles" "-0 15 0"
@@ -9587,7 +9550,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "468266"
+"hammerid" "478998"
 }
 {
 "origin" "633.121 304.055 156.069"
@@ -9619,7 +9582,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -113.5 0"
 "classname" "prop_dynamic"
-"hammerid" "468262"
+"hammerid" "478994"
 }
 {
 "origin" "370.916 867.387 905.158"
@@ -9639,7 +9602,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "100"
 "classname" "light_spot"
-"hammerid" "474781"
+"hammerid" "485513"
 }
 {
 "origin" "271.529 1238.3 905.158"
@@ -9659,10 +9622,10 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "100"
 "classname" "light_spot"
-"hammerid" "474795"
+"hammerid" "485527"
 }
 {
-"model" "*54"
+"model" "*51"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -9678,7 +9641,7 @@ Revision: 929
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "480280"
+"hammerid" "491012"
 }
 {
 "origin" "4992 0 30"
@@ -9694,10 +9657,10 @@ Revision: 929
 "fogblend" "0"
 "angles" "0 0 0"
 "classname" "sky_camera"
-"hammerid" "475148"
+"hammerid" "485880"
 }
 {
-"model" "*55"
+"model" "*52"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -9713,7 +9676,7 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "478808"
+"hammerid" "489540"
 }
 {
 "angles" "-18.343 -15.2709 -10.5932"
@@ -9731,7 +9694,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "484241"
+"hammerid" "494973"
 }
 {
 "origin" "-585.788 -357.693 322.093"
@@ -9760,7 +9723,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-3.72809 102.193 0.888638"
 "classname" "prop_dynamic"
-"hammerid" "490926"
+"hammerid" "501658"
 }
 {
 "angles" "-0 -15 0"
@@ -9778,7 +9741,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "490930"
+"hammerid" "501662"
 }
 {
 "origin" "-148.228 -467.845 322.098"
@@ -9807,7 +9770,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 102.461 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "485884"
+"hammerid" "496616"
 }
 {
 "angles" "-0 -15 0"
@@ -9825,7 +9788,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485888"
+"hammerid" "496620"
 }
 {
 "angles" "-0 -15 0"
@@ -9843,7 +9806,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "484978"
+"hammerid" "495710"
 }
 {
 "angles" "-0 -15 0"
@@ -9861,7 +9824,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "484983"
+"hammerid" "495715"
 }
 {
 "origin" "-945.434 -891.486 270.098"
@@ -9890,7 +9853,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 -2.539 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "485040"
+"hammerid" "495772"
 }
 {
 "angles" "-0 -15 0"
@@ -9908,7 +9871,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485044"
+"hammerid" "495776"
 }
 {
 "origin" "-829.048 -449.832 248.549"
@@ -9937,7 +9900,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -15.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "485054"
+"hammerid" "495786"
 }
 {
 "angles" "-0 -15 0"
@@ -9955,7 +9918,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485058"
+"hammerid" "495790"
 }
 {
 "angles" "-0 -15 0"
@@ -9973,7 +9936,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "485080"
+"hammerid" "495812"
 }
 {
 "angles" "-0 -15 0"
@@ -9991,7 +9954,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485085"
+"hammerid" "495817"
 }
 {
 "angles" "-0 -15 0"
@@ -10009,7 +9972,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "485097"
+"hammerid" "495829"
 }
 {
 "angles" "-0 -15 0"
@@ -10027,7 +9990,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485102"
+"hammerid" "495834"
 }
 {
 "origin" "-729.521 -44.1615 318.098"
@@ -10056,7 +10019,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 102.461 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "485115"
+"hammerid" "495847"
 }
 {
 "angles" "-0 -15 0"
@@ -10074,7 +10037,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485119"
+"hammerid" "495851"
 }
 {
 "origin" "-515.193 644.215 347.22"
@@ -10103,7 +10066,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -15.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "485173"
+"hammerid" "495905"
 }
 {
 "angles" "-0 -15 0"
@@ -10121,7 +10084,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485177"
+"hammerid" "495909"
 }
 {
 "origin" "-270.63 60.7837 164.327"
@@ -10150,7 +10113,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-20.2897 -77.539 5.88201"
 "classname" "prop_dynamic"
-"hammerid" "485345"
+"hammerid" "496077"
 }
 {
 "angles" "-0 -15 0"
@@ -10168,7 +10131,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485349"
+"hammerid" "496081"
 }
 {
 "origin" "-641.191 188.793 286.783"
@@ -10197,7 +10160,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 30 0"
 "classname" "prop_dynamic"
-"hammerid" "485781"
+"hammerid" "496513"
 }
 {
 "angles" "-0 -15 0"
@@ -10215,7 +10178,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485785"
+"hammerid" "496517"
 }
 {
 "origin" "-130.552 146.513 266.038"
@@ -10244,7 +10207,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 -135 0"
 "classname" "prop_dynamic"
-"hammerid" "487871"
+"hammerid" "498603"
 }
 {
 "angles" "-0 -15 0"
@@ -10262,7 +10225,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "487875"
+"hammerid" "498607"
 }
 {
 "origin" "-238.661 -220.836 482.298"
@@ -10291,7 +10254,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-8.92485 -127.824 0.908836"
 "classname" "prop_dynamic"
-"hammerid" "491853"
+"hammerid" "502585"
 }
 {
 "angles" "-0 -15 0"
@@ -10309,7 +10272,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "491857"
+"hammerid" "502589"
 }
 {
 "origin" "-498.657 134.292 548"
@@ -10327,7 +10290,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "491904"
+"hammerid" "502636"
 }
 {
 "origin" "-498.657 134.292 532"
@@ -10345,7 +10308,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "491910"
+"hammerid" "502642"
 }
 {
 "origin" "-729.584 -85.3858 170.543"
@@ -10374,7 +10337,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "0.861695 -44.496 0.507691"
 "classname" "prop_dynamic"
-"hammerid" "501063"
+"hammerid" "511795"
 }
 {
 "angles" "-0 -15 0"
@@ -10392,7 +10355,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "501067"
+"hammerid" "511799"
 }
 {
 "origin" "-612.538 418.59 170.543"
@@ -10421,7 +10384,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "0.861695 -164.496 0.507691"
 "classname" "prop_dynamic"
-"hammerid" "501018"
+"hammerid" "511750"
 }
 {
 "angles" "-0 -15 0"
@@ -10439,7 +10402,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "501022"
+"hammerid" "511754"
 }
 {
 "origin" "-48.3884 -139.537 170.543"
@@ -10468,7 +10431,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "0.861695 -44.496 0.507691"
 "classname" "prop_dynamic"
-"hammerid" "501041"
+"hammerid" "511773"
 }
 {
 "angles" "-0 -15 0"
@@ -10486,7 +10449,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "501045"
+"hammerid" "511777"
 }
 {
 "origin" "-620.977 109.092 337.124"
@@ -10504,7 +10467,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "510063"
+"hammerid" "520795"
 }
 {
 "origin" "-620.977 109.092 321.124"
@@ -10522,7 +10485,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "510069"
+"hammerid" "520801"
 }
 {
 "origin" "40.9061 -18.5656 548"
@@ -10540,7 +10503,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "512562"
+"hammerid" "523294"
 }
 {
 "origin" "40.9061 -18.5656 532"
@@ -10558,7 +10521,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "512568"
+"hammerid" "523300"
 }
 {
 "origin" "-93.8624 -218.966 266.038"
@@ -10587,7 +10550,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "-0 79 0"
 "classname" "prop_dynamic"
-"hammerid" "485824"
+"hammerid" "496556"
 }
 {
 "angles" "-0 -15 0"
@@ -10605,7 +10568,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "485828"
+"hammerid" "496560"
 }
 {
 "origin" "-371.924 -313.587 146.543"
@@ -10634,7 +10597,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "0.861695 -44.496 0.507691"
 "classname" "prop_dynamic"
-"hammerid" "534605"
+"hammerid" "545337"
 }
 {
 "angles" "-0 -15 0"
@@ -10652,10 +10615,10 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "534609"
+"hammerid" "545341"
 }
 {
-"model" "*56"
+"model" "*53"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -10672,10 +10635,10 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "532342"
+"hammerid" "543074"
 }
 {
-"model" "*57"
+"model" "*54"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -10692,10 +10655,10 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "532331"
+"hammerid" "543063"
 }
 {
-"model" "*58"
+"model" "*55"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -10712,7 +10675,7 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "530452"
+"hammerid" "541184"
 }
 {
 "origin" "-416.58 -404.87 159.767"
@@ -10741,7 +10704,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 98.5 0"
 "classname" "prop_dynamic_override"
-"hammerid" "512117"
+"hammerid" "522849"
 }
 {
 "origin" "-407.491 26.831 650.05"
@@ -10770,7 +10733,7 @@ Revision: 929
 "disablereceiveshadows" "0"
 "angles" "0.373305 147.876 2.20875"
 "classname" "prop_dynamic"
-"hammerid" "549751"
+"hammerid" "560483"
 }
 {
 "angles" "-0 -15 0"
@@ -10788,7 +10751,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "549755"
+"hammerid" "560487"
 }
 {
 "origin" "-625.698 416.799 204"
@@ -10806,7 +10769,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501011"
+"hammerid" "511743"
 }
 {
 "origin" "-434.777 -401.074 241.2"
@@ -10843,7 +10806,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 98.5 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "512145"
+"hammerid" "522877"
 }
 {
 "origin" "60.5163 303.327 136"
@@ -10859,7 +10822,7 @@ Revision: 929
 "cpoint1_parent" "0"
 "angles" "-0 -15 0"
 "classname" "info_particle_system"
-"hammerid" "511740"
+"hammerid" "522472"
 }
 {
 "origin" "-951.21 -891.533 302.311"
@@ -10877,7 +10840,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485047"
+"hammerid" "495779"
 }
 {
 "origin" "-263.649 67.1807 188"
@@ -10895,7 +10858,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501089"
+"hammerid" "511821"
 }
 {
 "origin" "-630.323 194.193 296.605"
@@ -10913,7 +10876,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485792"
+"hammerid" "496524"
 }
 {
 "origin" "-721.453 -95.8872 204"
@@ -10931,7 +10894,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501070"
+"hammerid" "511802"
 }
 {
 "origin" "-29.9418 -140.38 180"
@@ -10949,7 +10912,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501080"
+"hammerid" "511812"
 }
 {
 "origin" "-519.403 -161.132 228.069"
@@ -10981,7 +10944,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -8.5 0"
 "classname" "prop_dynamic"
-"hammerid" "523732"
+"hammerid" "534464"
 }
 {
 "angles" "-0 -15 0"
@@ -10999,7 +10962,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "523727"
+"hammerid" "534459"
 }
 {
 "origin" "-387.693 -402.103 239.264"
@@ -11036,7 +10999,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 -135 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "512134"
+"hammerid" "522866"
 }
 {
 "origin" "-467.802 -383.703 277.302"
@@ -11073,7 +11036,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 150 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "512075"
+"hammerid" "522807"
 }
 {
 "origin" "-305.93 -439.109 240.599"
@@ -11110,7 +11073,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 118 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "512061"
+"hammerid" "522793"
 }
 {
 "origin" "-267.843 -429.83 238.502"
@@ -11147,7 +11110,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 75 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "512071"
+"hammerid" "522803"
 }
 {
 "origin" "-417.756 -384.318 272"
@@ -11169,7 +11132,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "45"
 "classname" "light_spot"
-"hammerid" "512253"
+"hammerid" "522985"
 }
 {
 "angles" "-0 -15 0"
@@ -11187,7 +11150,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "512236"
+"hammerid" "522968"
 }
 {
 "origin" "-92.6302 -206.404 275.86"
@@ -11205,7 +11168,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485831"
+"hammerid" "496563"
 }
 {
 "angles" "-0 -15 0"
@@ -11223,7 +11186,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "523736"
+"hammerid" "534468"
 }
 {
 "origin" "-443.233 84.2625 297.36"
@@ -11260,7 +11223,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 118 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "532173"
+"hammerid" "542905"
 }
 {
 "origin" "-337.245 -68.3907 232"
@@ -11297,7 +11260,7 @@ Revision: 929
 "body" "0"
 "angles" "-90 120 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "532184"
+"hammerid" "542916"
 }
 {
 "origin" "100.206 -365.743 248"
@@ -11311,7 +11274,7 @@ Revision: 929
 "_ambientHDR" "-1 -1 -1 1"
 "_ambient" "61 67 80 55"
 "classname" "light_environment"
-"hammerid" "485574"
+"hammerid" "496306"
 }
 {
 "origin" "-822.633 -458.04 276"
@@ -11329,7 +11292,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485061"
+"hammerid" "495793"
 }
 {
 "angles" "-0 -15 0"
@@ -11347,7 +11310,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "502860"
+"hammerid" "513592"
 }
 {
 "origin" "-138.41 -445.494 228.069"
@@ -11379,7 +11342,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -143.5 0"
 "classname" "prop_dynamic"
-"hammerid" "502856"
+"hammerid" "513588"
 }
 {
 "origin" "-508.778 636.007 374.671"
@@ -11397,7 +11360,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485180"
+"hammerid" "495912"
 }
 {
 "origin" "-193.602 251.326 404"
@@ -11415,7 +11378,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "487922"
+"hammerid" "498654"
 }
 {
 "origin" "-605.54 -364.57 335.638"
@@ -11433,7 +11396,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "490933"
+"hammerid" "501665"
 }
 {
 "origin" "-409.893 85.6614 44"
@@ -11465,7 +11428,7 @@ Revision: 929
 "DisableBoneFollowers" "0"
 "angles" "-0 -8.5 0"
 "classname" "prop_dynamic"
-"hammerid" "531287"
+"hammerid" "542019"
 }
 {
 "origin" "-274.482 57.6601 188"
@@ -11483,7 +11446,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485352"
+"hammerid" "496084"
 }
 {
 "origin" "-459.891 -927.936 174"
@@ -11493,7 +11456,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -15 0"
 "classname" "item_healthkit_small"
-"hammerid" "484973"
+"hammerid" "495705"
 }
 {
 "origin" "-165.766 -478.801 336"
@@ -11511,7 +11474,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485891"
+"hammerid" "496623"
 }
 {
 "origin" "-308.998 -148.429 236"
@@ -11521,7 +11484,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 75 0"
 "classname" "item_ammopack_medium"
-"hammerid" "485277"
+"hammerid" "496009"
 }
 {
 "origin" "-231.798 -231.231 495.908"
@@ -11539,19 +11502,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "491875"
-}
-{
-"model" "*59"
-"angles" "-0 -15 0"
-"origin" "-544 -160 300"
-"TeamNum" "0"
-"StartDisabled" "0"
-"AllowTeleporters" "0"
-"AllowSentry" "0"
-"AllowDispenser" "0"
-"classname" "func_nobuild"
-"hammerid" "536684"
+"hammerid" "502607"
 }
 {
 "angles" "-0 -15 0"
@@ -11569,7 +11520,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "531291"
+"hammerid" "542023"
 }
 {
 "angles" "-0 -15 0"
@@ -11587,7 +11538,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "523710"
+"hammerid" "534442"
 }
 {
 "origin" "-429.79 70.9021 295.264"
@@ -11624,7 +11575,7 @@ Revision: 929
 "body" "0"
 "angles" "-0 75 0"
 "classname" "prop_physics_multiplayer"
-"hammerid" "532169"
+"hammerid" "542901"
 }
 {
 "origin" "-467.632 -48.2477 276.087"
@@ -11640,7 +11591,7 @@ Revision: 929
 "cpoint1_parent" "0"
 "angles" "-0 -15 0"
 "classname" "info_particle_system"
-"hammerid" "511240"
+"hammerid" "521972"
 }
 {
 "origin" "-265.516 13.8467 399.068"
@@ -11658,7 +11609,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "499061"
+"hammerid" "509793"
 }
 {
 "origin" "-467.741 -48.6563 287.526"
@@ -11674,7 +11625,7 @@ Revision: 929
 "cpoint1_parent" "0"
 "angles" "-0 -15 0"
 "classname" "info_particle_system"
-"hammerid" "511170"
+"hammerid" "521902"
 }
 {
 "origin" "-370.817 -131.864 236"
@@ -11684,7 +11635,7 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 75 0"
 "classname" "item_healthkit_medium"
-"hammerid" "485268"
+"hammerid" "496000"
 }
 {
 "origin" "-450.785 651.526 236"
@@ -11694,10 +11645,10 @@ Revision: 929
 "AutoMaterialize" "1"
 "angles" "-0 -15 0"
 "classname" "item_healthkit_small"
-"hammerid" "486208"
+"hammerid" "496940"
 }
 {
-"model" "*60"
+"model" "*56"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -11714,7 +11665,7 @@ Revision: 929
 "disableshadows" "0"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "499743"
+"hammerid" "510475"
 }
 {
 "origin" "-390.116 105.208 563.75"
@@ -11732,7 +11683,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "491936"
+"hammerid" "502668"
 }
 {
 "origin" "-252.91 -217.292 495.908"
@@ -11750,7 +11701,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "492237"
+"hammerid" "502969"
 }
 {
 "origin" "-37.9466 -125.96 180"
@@ -11768,7 +11719,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501048"
+"hammerid" "511780"
 }
 {
 "origin" "-73.2918 20.3159 563.75"
@@ -11786,7 +11737,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "491955"
+"hammerid" "502687"
 }
 {
 "angles" "-0 -15 0"
@@ -11804,7 +11755,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "503042"
+"hammerid" "513774"
 }
 {
 "origin" "-353.477 -314.429 156"
@@ -11822,7 +11773,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "534612"
+"hammerid" "545344"
 }
 {
 "origin" "-720.621 -46.4169 356.758"
@@ -11840,7 +11791,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "485122"
+"hammerid" "495854"
 }
 {
 "origin" "-145.796 151.553 275.86"
@@ -11858,7 +11809,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "487878"
+"hammerid" "498610"
 }
 {
 "origin" "-453.535 -31.0192 316"
@@ -11866,10 +11817,10 @@ Revision: 929
 "spawnflags" "0"
 "angles" "-0 -15 0"
 "classname" "info_target"
-"hammerid" "509516"
+"hammerid" "520248"
 }
 {
-"model" "*61"
+"model" "*57"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -11886,10 +11837,10 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "526966"
+"hammerid" "537698"
 }
 {
-"model" "*62"
+"model" "*58"
 "angles" "-0 -15 0"
 "vrad_brush_cast_shadows" "1"
 "StartDisabled" "0"
@@ -11906,7 +11857,7 @@ Revision: 929
 "disableshadows" "1"
 "disablereceiveshadows" "0"
 "classname" "func_brush"
-"hammerid" "523693"
+"hammerid" "534425"
 }
 {
 "origin" "-361.482 -300.01 156"
@@ -11924,7 +11875,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "534618"
+"hammerid" "545350"
 }
 {
 "origin" "-608.256 403.843 204"
@@ -11942,7 +11893,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501105"
+"hammerid" "511837"
 }
 {
 "origin" "-417.584 -3.2693 125.459"
@@ -11958,7 +11909,7 @@ Revision: 929
 "cpoint1_parent" "0"
 "angles" "-0 -15 0"
 "classname" "info_particle_system"
-"hammerid" "532525"
+"hammerid" "543257"
 }
 {
 "origin" "-589.504 -414.891 73.704"
@@ -11974,7 +11925,7 @@ Revision: 929
 "cpoint1_parent" "0"
 "angles" "-0 -15 0"
 "classname" "info_particle_system"
-"hammerid" "511447"
+"hammerid" "522179"
 }
 {
 "origin" "-287.108 56.9023 188"
@@ -11992,7 +11943,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "501097"
+"hammerid" "511829"
 }
 {
 "angles" "-0 -15 0"
@@ -12010,7 +11961,7 @@ Revision: 929
 "framerate" "10.0"
 "disablereceiveshadows" "0"
 "classname" "env_sprite"
-"hammerid" "546295"
+"hammerid" "557027"
 }
 {
 "angles" "-0 -15 0"
@@ -12028,7 +11979,7 @@ Revision: 929
 "_distance" "0"
 "_constant_attn" "0"
 "classname" "light"
-"hammerid" "546298"
+"hammerid" "557030"
 }
 {
 "origin" "-407.025 42.7249 662.214"
@@ -12046,7 +11997,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "549744"
+"hammerid" "560476"
 }
 {
 "origin" "-383.498 37.1776 662.214"
@@ -12064,7 +12015,7 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "70"
 "classname" "light_spot"
-"hammerid" "549808"
+"hammerid" "560540"
 }
 {
 "origin" "-213.901 82.8386 972"
@@ -12084,6 +12035,6 @@ Revision: 929
 "_constant_attn" "0"
 "_cone" "80"
 "classname" "light_spot"
-"hammerid" "549825"
+"hammerid" "560557"
 }
  

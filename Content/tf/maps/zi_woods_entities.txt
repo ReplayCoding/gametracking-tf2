@@ -11,7 +11,7 @@ Revision: 19
 "detailmaterial" "detail/detailsprites_sawmill"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "937"
+"mapversion" "942"
 "hammerid" "1"
 }
 {
@@ -711,7 +711,7 @@ Revision: 19
 "_linear_attn" "0"
 "_lightscaleHDR" "1"
 "_lightHDR" "-1 -1 -1 1"
-"_light" "255 238 210 2000"
+"_light" "255 238 210 1000"
 "_inner_cone" "15"
 "_fifty_percent_distance" "310"
 "_exponent" "1"
@@ -3567,7 +3567,7 @@ Revision: 19
 "renderfx" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "-1872 -48 640"
+"origin" "-1864 -48 640"
 "InputFilter" "0"
 "disableshadows" "0"
 "disablereceiveshadows" "0"
