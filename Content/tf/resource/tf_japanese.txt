@@ -19371,8 +19371,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_sum19_staplers_specs"				"ホッチキスのスペック"
 "TF_sum19_bobby_bonnet"					"ボビーボネット"
 "TF_sum19_dynamite_abs"					"ダイナマイトAbs"
-"TF_sum19_dynamite_abs_style1"				"グレネード"
-"TF_sum19_dynamite_abs_style2"				"グレネードなし"
 "TF_sum19_backbreakers_skullcracker"	"バックブレイカーズ・スカルクラッカー"
 "TF_sum19_backbreakers_guards"			"バックブレイカーガード"
 "TF_sum19_unforgiven_glory"				"許されない栄光"
@@ -19751,12 +19749,8 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_sum22_lawnmaker_style1"				"ジョブ"
 "TF_sum22_head_banger"			"ヘッドバンガー"
 "TF_sum22_hawaiian_hangover"	"ハワイアンハングオーバー" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"グレネードなし"
-"TF_sum22_hawaiian_hangover_style1"		"グレネード"
 "TF_sum22_barefoot_brawler"		"ベアフット・ブロウラー"
 "TF_sum22_chaser"				"チェイサー" // ADD THE
-"TF_sum22_chaser_style0"				"グレネードなし"
-"TF_sum22_chaser_style1"				"グレネード"
 "TF_sum22_detective"			"刑事" // ADD THE
 "TF_sum22_detective_style0"				"ペイントヘア"
 "TF_sum22_detective_style1"				"ペイント帽子"
@@ -20405,8 +20399,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_sum26_barbeque_style2"					"ダーク"
 "TF_sum26_unknown_warrior"				"正体不明の戦士" // ADD THE
 "TF_sum26_tropical_torcher"				"トロピカルトーチャー"
-"TF_sum26_tropical_torcher_style1"			"グレネードなし"
-"TF_sum26_tropical_torcher_style2"			"グレネード"
 "TF_sum26_pyros_overalls"				"パイロのオーバーオール"
 "TF_sum26_pyros_overalls_style1"			"一年生"
 "TF_sum26_pyros_overalls_style2"			"二年生"
@@ -20452,6 +20444,8 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 "TF_hwn2026_mined_mind_style1"				"ツルハシ"
 "TF_hwn2026_mined_mind_style2"				"ツルハシなし"
 "TF_hwn2026_damage_dealer"				"ダメージ・ディーラー" // ADD THE
+"TF_hwn2026_damage_dealer_style1"			"ペイントバンド"
+"TF_hwn2026_damage_dealer_style2"			"ペイント帽子"
 "TF_hwn2026_high_caliber"				"ハイカリバー・アーナー"
 "TF_hwn2026_high_caliber_style1"			"ストライプ"
 "TF_hwn2026_high_caliber_style2"			"プレーン"
@@ -20488,6 +20482,8 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 
 "TF_style_bullets"						"弾丸"
 "TF_style_nobullets"					"弾丸なし"
+"TF_style_grenades"						"グレネード"
+"TF_style_nogrenades"					"グレネードなし"
 
 "TF_KathmanHairdo"             "カトマンヘアスタイル" // ADD THE
 "TF_KathmanHairdo_Desc"        "この先史時代のポンパドールは、エベレストの斜面でサー・エドモンド・ヒラリーによって最初に発見された。直後にヒラリー自身が自分のズボンを汚しているのを目撃したという。"

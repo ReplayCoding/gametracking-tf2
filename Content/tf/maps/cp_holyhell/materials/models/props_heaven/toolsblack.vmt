@@ -1,1 +1,4 @@
-"vertexlitgeneric" { 	// original shader: basetimeslightmap 	"$basetexture" "tools/toolsblack"  } 
+"UnlitGeneric"
+{
+	"$basetexture" "Tools/toolsblack"
+}

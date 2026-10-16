@@ -117,6 +117,8 @@ PlayerThink <- function()
                 if ( m_iFlags & ZBIT_SPEWED )
                     self.RemoveSpewDebuff();
 
+                self.ClearSpewPuddle();
+
                 m_iFlags  = ( ( m_iFlags & ~ZBIT_PENDING_ZOMBIE & ~ZBIT_SURVIVOR & ~ZBIT_INITIAL_INFECTION ) );
                 SetPropInt  ( self, "m_Local.m_iHideHUD", ( HIDEHUD_WEAPONSELECTION  |
                                                             HIDEHUD_BUILDING_STATUS  |
@@ -772,6 +774,8 @@ PlayerThink <- function()
             self.ClearSpitStatus();
         };
 
+        self.CheckSpewPuddle();
+
         if ( m_iFlags & ( ZBIT_SPEWED ) )
         {
             if ( Time() > m_fSpewEndTime )
@@ -1411,6 +1415,15 @@ BeaconThink <- function ()
              ( "surface_name" in _tblSweep ) && _tblSweep.surface_name != null &&
              _tblSweep.surface_name.tolower().find( "clip" ) != null )
         {
+            // physics props fall straight through playerclip, so the old bounce had to
+            // keep catching it - once it ran out of speed it just sat there re-sinking
+            if ( ENGIE_BEACON_CLIP_IS_FATAL )
+            {
+                RefundBeaconCooldown( m_hOwner, ENGIE_BEACON_FAIL_REFUND );
+                m_bMustDie = true;
+                return ENGIE_BEACON_RETHINK_TIME;
+            };
+
             local _vecVel    = self.GetAbsVelocity();
             local _vecNormal = _tblSweep.plane_normal;
             local _flDot     = ( ( _vecVel.x * _vecNormal.x ) +
@@ -1452,72 +1465,52 @@ BeaconThink <- function ()
 
         TraceLineEx( _tblTrace );
 
-        local _bBadSpot = ( !_tblTrace.hit || _tblTrace.plane_normal.z < ENGIE_BEACON_SETTLE_NORMAL_Z );
-
-        if ( !_bBadSpot && ( "surface_name" in _tblTrace ) && _tblTrace.surface_name != null )
+        // touching something with no floor underneath = a mid-air bounce off a wall or
+        // ceiling. by default that keeps the old grace timer so wall bounces that land
+        // on good ground still settle. set ENGIE_BEACON_WALL_HIT_IS_FATAL to kill it here too
+        if ( !_tblTrace.hit )
         {
-            local _szSurf = _tblTrace.surface_name.tolower();
-
-            _bBadSpot = ( _szSurf.find( "nodraw" ) != null || _szSurf.find( "clip" ) != null ||
-                          _szSurf.find( "sky" )    != null );
-        };
-
-        if ( !_bBadSpot )
-        {
-            local _vecProbe = ( _tblTrace.pos + Vector( 0, 0, 8 ) );
-
-            local _tblClip =
-            {
-                start   =  _vecProbe,
-                end     =  _vecProbe + Vector( 0, 0, 1 ),
-                mask    =  CONTENTS_PLAYERCLIP,
-                ignore  =  self,
-            };
-
-            TraceLineEx( _tblClip );
-
-            local _bInClip = ( ( "startsolid" in _tblClip ) && _tblClip.startsolid );
-
-            if ( _bInClip || IsPointInNoBuild( _vecProbe, self ) )
+            if ( ENGIE_BEACON_WALL_HIT_IS_FATAL )
             {
                 RefundBeaconCooldown( m_hOwner, ENGIE_BEACON_FAIL_REFUND );
                 m_bMustDie = true;
                 return ENGIE_BEACON_RETHINK_TIME;
             };
 
-            if ( IsPointInRespawnRoom( _vecProbe, TF_TEAM_BLUE, self ) )
-            {
-                RefundBeaconCooldown( m_hOwner, 1.0 );
-                m_bMustDie = true;
-                return ENGIE_BEACON_RETHINK_TIME;
-            };
-
-            _bBadSpot = ( IsPointInTriggerHurt( _vecProbe, self ) ||
-                          IsPointInTriggerHurt( ( _tblTrace.pos + Vector( 0, 0, 48 ) ), self ) );
-        };
-
-        if ( !_bBadSpot )
-        {
-            local _tblClearance =
-            {
-                start    =  _tblTrace.pos + Vector( 0, 0, 18 ),
-                end      =  _tblTrace.pos + Vector( 0, 0, 18 ),
-                hullmin  =  Vector( -24, -24, 0 ),
-                hullmax  =  Vector( 24, 24, ENGIE_BEACON_SPAWN_CLEARANCE ),
-                ignore   =  self,
-            };
-
-            TraceHull( _tblClearance );
-
-            _bBadSpot = ( _tblClearance && ( "enthit" in _tblClearance ) &&
-                          _tblClearance.enthit == worldspawn );
-        };
-
-        if ( _bBadSpot )
-        {
             if ( m_flDestroyTime == 0.0 )
                 m_flDestroyTime = ( Time() + ENGIE_BEACON_DESTROY_TIME ).tofloat();
 
+            return ENGIE_BEACON_RETHINK_TIME;
+        };
+
+        local _iSpot = EvaluateBeaconGround( _tblTrace, self );
+
+        // good ground but boxed in (wall, low ceiling) - try to find room close by.
+        // the tele builds at the found spot instead of where the toolbox stopped
+        if ( _iSpot == BEACON_SPOT_NO_ROOM )
+        {
+            local _tblNearby = FindNearbyBeaconSpot( _tblTrace.pos, self );
+
+            if ( _tblNearby != null )
+            {
+                _tblTrace = _tblNearby;
+                _iSpot    = BEACON_SPOT_OK;
+            };
+        };
+
+        if ( _iSpot == BEACON_SPOT_SPAWNROOM )
+        {
+            RefundBeaconCooldown( m_hOwner, 1.0 );
+            m_bMustDie = true;
+            return ENGIE_BEACON_RETHINK_TIME;
+        };
+
+        // landed somewhere it can't sprout (steep slope, clip, sky, hurt, no-build, or
+        // no room anywhere nearby) - break immediately
+        if ( _iSpot != BEACON_SPOT_OK )
+        {
+            RefundBeaconCooldown( m_hOwner, ENGIE_BEACON_FAIL_REFUND );
+            m_bMustDie = true;
             return ENGIE_BEACON_RETHINK_TIME;
         };
 
@@ -1909,19 +1902,13 @@ PyroSpewGlobThink <- function()
                  _hNextPlayer.InCond( TF_COND_PHASE ) )
                 continue;
 
-            local _psc = _hNextPlayer.GetScriptScope();
-
-            if ( _psc != null && ( "m_iFlags" in _psc ) && ( _psc.m_iFlags & ZBIT_SPEWED ) &&
-                 ( _psc.m_fSpewEndTime - Time() ) >
-                 ( PYRO_SPEW_DEBUFF_DURATION - PYRO_SPEW_REFRESH_SLACK ) )
-                continue;
-
             if ( !IsPointInSplat( _hNextPlayer.GetOrigin(), m_tblSplat ) )
                 continue;
 
-            if ( DEBUG_MODE )
-
-            _hNextPlayer.ApplySpewDebuff( m_hOwner, false );
+            // goop only slows and squelches - the coat (overlay, tint, drain) comes
+            // from direct blob hits. this used to sit under a stray "if ( DEBUG_MODE )"
+            // with no body, so the goop never did anything
+            _hNextPlayer.TouchSpewPuddle();
         };
 
         return PYRO_SPEW_ZONE_RETHINK_TIME;

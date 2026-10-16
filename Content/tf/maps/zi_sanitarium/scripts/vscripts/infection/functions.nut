@@ -519,7 +519,7 @@ SlayPlayerWithSpoofedIDX <-  function(_hAttacker, _hVictim, _hAttackerWep, _vecD
         _hVictim.SetHealth( 1 ); // prep the player to be slain
 
         // get the existing IDX of the given weapon, so we can swap it back
-      //  local _iPreviousIDX = GetPropInt( _hAttacker.GetActiveWeapon(), STRING_NETPROP_ITEMDEF );
+        local _iPreviousIDX = GetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF );
 
         // hack in the IDX of the weapon we want to steal the killicon from
         SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iIDX );
@@ -528,8 +528,10 @@ SlayPlayerWithSpoofedIDX <-  function(_hAttacker, _hVictim, _hAttackerWep, _vecD
                                _hAttackerWep, _vecDmgForce,
                                _vecDmgPosition, 1, DMG_CLUB | DMG_ALWAYSGIB );
 
-        // set the IDX back
-      //  SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
+        // set the IDX back - left as 572 (unarmed combat, a holy mackerel reskin) the
+        // zombie's fists kept the fish hit sounds for the rest of their life
+        if ( _hAttackerWep.IsValid() )
+            SetPropInt( _hAttackerWep, STRING_NETPROP_ITEMDEF, _iPreviousIDX );
     };
 
     _hKillicon.Destroy();
@@ -615,12 +617,63 @@ CTFPlayer_LockInPlace <- function( _bEnable = true )
     };
 };
 
+// TF2 caches a player's max speed and only recomputes it (TeamFortress_SetSpeed)
+// when something like a condition change or weapon switch pokes it - adding or
+// removing a speed attribute by itself doesn't. pulse a near-zero cond so speed
+// attribute changes take effect right away instead of whenever the next cond lands
+CTFPlayer_RefreshMoveSpeed <- function()
+{
+    if ( !IsPlayerAlive( this ) )
+        return;
+
+    // already speed boosted (zombie scout, disciplinary action etc) - overwriting it
+    // would end the real boost early. its own removal recalculates speed anyway
+    if ( this.InCond( TF_COND_SPEED_BOOST ) )
+        return;
+
+    this.AddCondEx( TF_COND_SPEED_BOOST, 0.001, null );
+};
+
+// the short self-slow thrown abilities put on the caster's weapon. remembers the
+// exact weapon it went on so the removal can't miss if the active weapon changes
+CTFPlayer_ApplyCastSlow <- function( _flMult )
+{
+    local _sc   = this.GetScriptScope();
+    local _hWep = this.GetActiveWeapon();
+
+    this.ClearCastSlow();
+
+    if ( _hWep == null || !_hWep.IsValid() )
+        return;
+
+    _hWep.AddAttribute( "move speed penalty", _flMult, -1 );
+    _sc.m_hCastSlowWep <- _hWep;
+
+    this.RefreshMoveSpeed();
+};
+
+CTFPlayer_ClearCastSlow <- function()
+{
+    local _sc = this.GetScriptScope();
+
+    if ( ( "m_hCastSlowWep" in _sc ) && _sc.m_hCastSlowWep != null && _sc.m_hCastSlowWep.IsValid() )
+    {
+        _sc.m_hCastSlowWep.RemoveAttribute( "move speed penalty" );
+        this.RefreshMoveSpeed();
+    };
+
+    _sc.m_hCastSlowWep <- null;
+};
+
 CTFPlayer_EndSpitCharge <- function()
 {
     local _sc = this.GetScriptScope();
 
     if ( ( "m_hSpitSlowWep" in _sc ) && _sc.m_hSpitSlowWep != null && _sc.m_hSpitSlowWep.IsValid() )
+    {
         _sc.m_hSpitSlowWep.RemoveAttribute( "move speed penalty" );
+        this.RefreshMoveSpeed();
+    };
 
     _sc.m_hSpitSlowWep <- null;
     _sc.m_iFlags       <- ( _sc.m_iFlags & ~ZBIT_SNIPER_CHARGING_SPIT );
@@ -784,27 +837,6 @@ CTFPlayer_ApplyOutOfCombat <- function()
 
     this.AddCond             ( TF_COND_SPEED_BOOST );
     this.AddCustomAttribute  ( "move speed penalty", ZOMBIE_BOOST_SPEED_DEBUFF, -1 );
-};
-
-CTFPlayer_RemoveOutOfCombat <- function( _bForceCooldown = false )
-{
-    local _sc = this.GetScriptScope();
-
-    if ( _bForceCooldown )
-    {
-        _sc.m_fTimeLastHit <- Time();
-    };
-
-    if ( _sc.m_iFlags & ZBIT_MUST_EXPLODE )
-        return;
-
-    if ( this.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS || this.GetPlayerClass() == TF_CLASS_SCOUT )
-        return;
-
-    _sc.m_iFlags            <- ( _sc.m_iFlags & ~ZBIT_OUT_OF_COMBAT );
-    this.RemoveCond            ( TF_COND_SPEED_BOOST )
-
-    this.RemoveCustomAttribute ( "move speed penalty" );
 };
 
 CTFPlayer_RemoveAmmo <- function()
@@ -1731,6 +1763,122 @@ RefundBeaconCooldown <- function( _hOwner, _flFraction )
     return;
 };
 
+// checks a ground trace (start/end/pos/plane_normal/surface_name) as a place to build
+// the beacon. same checks, same order as the original inline version in BeaconThink
+EvaluateBeaconGround <- function( _tblGround, _hIgnore = null )
+{
+    if ( _tblGround.plane_normal.z < ENGIE_BEACON_SETTLE_NORMAL_Z )
+        return BEACON_SPOT_BAD;
+
+    if ( ( "surface_name" in _tblGround ) && _tblGround.surface_name != null )
+    {
+        local _szSurf = _tblGround.surface_name.tolower();
+
+        if ( _szSurf.find( "clip" ) != null || _szSurf.find( "sky" ) != null )
+            return BEACON_SPOT_BAD;
+    };
+
+    local _vecProbe = ( _tblGround.pos + Vector( 0, 0, 8 ) );
+
+    local _tblClip =
+    {
+        start   =  _vecProbe,
+        end     =  _vecProbe + Vector( 0, 0, 1 ),
+        mask    =  CONTENTS_PLAYERCLIP,
+        ignore  =  _hIgnore,
+    };
+
+    TraceLineEx( _tblClip );
+
+    if ( ( ( "startsolid" in _tblClip ) && _tblClip.startsolid ) ||
+         IsPointInNoBuild( _vecProbe, _hIgnore ) )
+        return BEACON_SPOT_BAD;
+
+    if ( IsPointInRespawnRoom( _vecProbe, TF_TEAM_BLUE, _hIgnore ) )
+        return BEACON_SPOT_SPAWNROOM;
+
+    if ( IsPointInTriggerHurt( _vecProbe, _hIgnore ) ||
+         IsPointInTriggerHurt( ( _tblGround.pos + Vector( 0, 0, 48 ) ), _hIgnore ) )
+        return BEACON_SPOT_BAD;
+
+    local _tblClearance =
+    {
+        start    =  _tblGround.pos + Vector( 0, 0, 18 ),
+        end      =  _tblGround.pos + Vector( 0, 0, 18 ),
+        hullmin  =  Vector( -25, -25, 0 ),
+        hullmax  =  Vector( 25, 25, ENGIE_BEACON_SPAWN_CLEARANCE ),
+        ignore   =  _hIgnore,
+    };
+
+    TraceHull( _tblClearance );
+
+    if ( ( "enthit" in _tblClearance ) && _tblClearance.enthit == worldspawn )
+        return BEACON_SPOT_NO_ROOM;
+
+    return BEACON_SPOT_OK;
+};
+
+// looks for the nearest usable spot around a cramped landing point. only runs once,
+// at the moment of landing, and only when the landing spot failed for lack of room -
+// worst case is SEARCH_RINGS * SEARCH_DIRS candidates (24 by default), each a couple
+// of traces plus the checks above. returns a ground trace table, or null
+FindNearbyBeaconSpot <- function( _vecGround, _hIgnore = null )
+{
+    local _flPi     = 3.141592653589793;
+    local _vecLift  = Vector( 0, 0, ENGIE_BEACON_SEARCH_LIFT );
+    local _vecFrom  = ( _vecGround + _vecLift );
+
+    for ( local _iRing = 1; _iRing <= ENGIE_BEACON_SEARCH_RINGS; _iRing++ )
+    {
+        local _flRadius = ( _iRing * ENGIE_BEACON_SEARCH_STEP ).tofloat();
+
+        // stagger alternate rings so they don't all probe the same headings
+        local _flOffset = ( ( _iRing % 2 ) == 0 ) ? ( _flPi / ENGIE_BEACON_SEARCH_DIRS ) : 0.0;
+
+        for ( local i = 0; i < ENGIE_BEACON_SEARCH_DIRS; i++ )
+        {
+            local _flAng  = ( ( 2.0 * _flPi * i / ENGIE_BEACON_SEARCH_DIRS ) + _flOffset );
+            local _vecTo  = ( _vecFrom + Vector( cos( _flAng ) * _flRadius,
+                                                 sin( _flAng ) * _flRadius, 0 ) );
+
+            // must be reachable from where it landed - never pick a spot through a
+            // wall or across a playerclip
+            local _tblReach =
+            {
+                start    =  _vecFrom,
+                end      =  _vecTo,
+                hullmin  =  Vector( -4, -4, -4 ),
+                hullmax  =  Vector( 4, 4, 4 ),
+                mask     =  MASK_PLAYERSOLID_BRUSHONLY,
+                ignore   =  _hIgnore,
+            };
+
+            TraceHull( _tblReach );
+
+            if ( _tblReach.hit )
+                continue;
+
+            local _tblGround =
+            {
+                start   =  _vecTo,
+                end     =  _vecTo - Vector( 0, 0, ENGIE_BEACON_SEARCH_LIFT + ENGIE_BEACON_SEARCH_DROP ),
+                mask    =  MASK_SOLID_BRUSHONLY,
+                ignore  =  _hIgnore,
+            };
+
+            TraceLineEx( _tblGround );
+
+            if ( !_tblGround.hit || ( ( "startsolid" in _tblGround ) && _tblGround.startsolid ) )
+                continue;
+
+            if ( EvaluateBeaconGround( _tblGround, _hIgnore ) == BEACON_SPOT_OK )
+                return _tblGround;
+        };
+    };
+
+    return null;
+};
+
 // --------------------------------------------------------------------------------------- //
 // splat stuff                                                                             //
 // --------------------------------------------------------------------------------------- //
@@ -2268,7 +2416,6 @@ CTFPlayer_RemoveEventFomQueue <- function( _event )
 
     if ( _event == -1 )
     {
-        _removedCount = _sc.m_tblEventQueue.len();
         _sc.m_tblEventQueue.clear();
     }
     else
@@ -2323,6 +2470,8 @@ CTFPlayer_ResetInfectionVars <- function()
     if ( ( "m_iFlags" in _sc ) && ( _sc.m_iFlags & ZBIT_SPEWED ) )
         this.RemoveSpewDebuff();
 
+    this.ClearSpewPuddle();
+
     this.SpoofZombieBuffFX( false );
 
     if ( ( "m_hTempEntity" in _sc ) && _sc.m_hTempEntity != null && _sc.m_hTempEntity.IsValid() )
@@ -2347,6 +2496,9 @@ CTFPlayer_ResetInfectionVars <- function()
     _sc.m_bLastThree            <- false;
     _sc.m_bStandingOnSpit       <- false;
     _sc.m_bPreviewAtBeacon      <- false;
+
+    // strip any cast slow a death mid-cast left on the old weapon before the handles go
+    this.ClearCastSlow();
 
     _sc.m_hZombieWep            <- null;
     _sc.m_hSpitSlowWep          <- null;
@@ -2705,6 +2857,70 @@ CTFPlayer_ClearSpitStatus <- function()
 }
 
 // _bWithDamage: direct blob hits drain hp, ground goop is movement-only
+// one move speed penalty for every spew slow, so the coat and the goop add together
+// (15% + 15% = 30%) instead of multiplying. only touches speed when the total changes
+CTFPlayer_UpdateSpewSlow <- function()
+{
+    local _sc     = this.GetScriptScope();
+    local _flSlow = 0.0;
+
+    if ( ( "m_iFlags" in _sc ) && ( _sc.m_iFlags & ZBIT_SPEWED ) )
+        _flSlow += ( 1.0 - PYRO_SPEW_MOVE_SPEED_MULT );
+
+    if ( ( "m_fSpewPuddleEndTime" in _sc ) && Time() < _sc.m_fSpewPuddleEndTime )
+        _flSlow += ( 1.0 - PYRO_SPEW_PUDDLE_MOVE_SPEED_MULT );
+
+    if ( ( "m_flSpewSlowApplied" in _sc ) && _sc.m_flSpewSlowApplied == _flSlow )
+        return;
+
+    _sc.m_flSpewSlowApplied <- _flSlow;
+
+    if ( _flSlow > 0.0 )
+        this.AddCustomAttribute( "move speed penalty", ( 1.0 - _flSlow ), -1 );
+    else
+        this.RemoveCustomAttribute( "move speed penalty" );
+
+    this.RefreshMoveSpeed();
+};
+
+// called by a goop zone every think for each survivor standing in it. only slows and
+// changes footsteps - no overlay, tint or drain. overlapping puddles just refresh it
+CTFPlayer_TouchSpewPuddle <- function()
+{
+    local _sc     = this.GetScriptScope();
+    local _bWasIn = ( ( "m_fSpewPuddleEndTime" in _sc ) && Time() < _sc.m_fSpewPuddleEndTime );
+
+    _sc.m_fSpewPuddleEndTime <- ( Time() + PYRO_SPEW_PUDDLE_GRACE ).tofloat();
+
+    if ( _bWasIn )
+        return;
+
+    if ( PYRO_SPEW_PUDDLE_FOOTSTEPS != 0 )
+        this.AddCustomAttribute( "override footstep sound set", PYRO_SPEW_PUDDLE_FOOTSTEPS, -1 );
+
+    this.UpdateSpewSlow();
+};
+
+CTFPlayer_ClearSpewPuddle <- function()
+{
+    local _sc = this.GetScriptScope();
+
+    _sc.m_fSpewPuddleEndTime <- 0.0;
+
+    this.RemoveCustomAttribute( "override footstep sound set" );
+    this.UpdateSpewSlow();
+};
+
+// player think - drops the goop effects once no zone has refreshed them for a moment
+CTFPlayer_CheckSpewPuddle <- function()
+{
+    local _sc = this.GetScriptScope();
+
+    if ( ( "m_fSpewPuddleEndTime" in _sc ) && _sc.m_fSpewPuddleEndTime != 0.0 &&
+         Time() >= _sc.m_fSpewPuddleEndTime )
+        this.ClearSpewPuddle();
+};
+
 CTFPlayer_ApplySpewDebuff <- function( _hAttacker, _bWithDamage = true )
 {
     local _sc = this.GetScriptScope();
@@ -2771,6 +2987,9 @@ CTFPlayer_ApplySpewDebuff <- function( _hAttacker, _bWithDamage = true )
     this.SetSpewSelfPushOnWeapons( true );
     this.AddCustomAttribute( "air dash count",                -1,                      PYRO_SPEW_DEBUFF_DURATION );
     this.RemoveCond        ( TF_COND_PARACHUTE_ACTIVE );
+
+    // 15% movement slow, combined with the goop's if they're also standing in it
+    this.UpdateSpewSlow();
 
     SetPropInt( this, "m_nRenderMode", kRenderTransColor );
     SetPropInt( this, "m_clrRender",   PYRO_SPEW_TINT );
@@ -2864,6 +3083,7 @@ CTFPlayer_RemoveSpewDebuff <- function()
     this.RemoveCustomAttribute( "damage force reduction" );
     this.SetSpewSelfPushOnWeapons( false );
     this.RemoveCustomAttribute( "air dash count" );
+    this.UpdateSpewSlow(); // drops the coat's share, keeps the goop's if still in it
 
     SetPropInt( this, "m_nRenderMode", kRenderNormal );
     SetPropInt( this, "m_clrRender",   0xFFFFFFFF );

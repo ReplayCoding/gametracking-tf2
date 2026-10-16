@@ -31,7 +31,7 @@ if ( "InfectionLoaded" in getroottable() )
 ::iSplatFireSerial       <- 0;
 
 const GAMEMODE_NAME =  "Zombie Infection";
-const VERSION       =  "v4 workshop release - 31/08/2026";
+const VERSION       =  "v4 workshop release - 14/10/2026";
 
 ::INFECTION_CONVARS <-
 {
@@ -41,7 +41,6 @@ const VERSION       =  "v4 workshop release - 31/08/2026";
     "tf_classlimit"                        : 0,
     "mp_forcecamera"                       : 0,
     "sv_alltalk"                           : 1,
-    "mp_scrableteams_auto"                 : 0,
     "mp_scrambleteams_auto_windifference"  : 0,
     "mp_humans_must_join_team"             : "any",
     "tf_weapon_criticals"                  : 1,
@@ -133,7 +132,6 @@ PrecacheScriptSound ( "DemoCharge.HitFlesh" );
 PrecacheScriptSound ( "Infection.SoldierPounce" );
 PrecacheScriptSound ( "Breakable.MatFlesh" );
 PrecacheScriptSound ( "Infection.DemoCharge" );
-PrecacheScriptSound ( "Infection.SoldierPounce" );
 PrecacheScriptSound ( "Infection.EngineerEMP" );
 PrecacheScriptSound ( "Infection.MedicZombieHeal" );
 PrecacheScriptSound ( "Infection.DemoChargeRamp" );
@@ -143,7 +141,6 @@ PrecacheScriptSound ( "Infection.HeavyRockImpact" );
 
 PrecacheScriptSound ( "WeaponGrapplingHook.ImpactFlesh" );
 PrecacheScriptSound ( "Bounce.Flesh" );
-PrecacheScriptSound ( "Breakable.MatFlesh" );
 
 arrZombieViewModelPath <-
 [

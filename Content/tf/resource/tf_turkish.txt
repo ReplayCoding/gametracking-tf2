@@ -12873,6 +12873,9 @@
 "Attrib_Particle3202"		"Köpekbalığı Saldırısı"
 // Smissmas 2025 Unusual Taunts
 "Attrib_Particle3213"		"Buz Küresi"
+// Halloween 2026 Unusual Taunts
+"Attrib_Particle3230"		"Elektrik Darbesi"
+"Attrib_Particle3231"		"Elektrik Darbesi"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Katliam Efekti: %s1"
@@ -18321,8 +18324,6 @@ Hareket için D-pad, arka tuşlar=daha hızlı, sonraki çizgi için A tuşu."
 "TF_sum19_staplers_specs"				"Memur Gözlüğü"
 "TF_sum19_bobby_bonnet"					"İngiliz Polisi Kaskı"
 "TF_sum19_dynamite_abs"					"Ateşli Karın Kasları"
-"TF_sum19_dynamite_abs_style1"				"El Bombaları"
-"TF_sum19_dynamite_abs_style2"				"El Bombası Yok"
 "TF_sum19_backbreakers_skullcracker"	"Sırt Kırıcının Kafatası Ezicisi"
 "TF_sum19_backbreakers_guards"			"Sırt Kırıcının Omuzlukları"
 "TF_sum19_unforgiven_glory"				"Affedilmeyen Zafer"
@@ -18699,12 +18700,8 @@ Hareket için D-pad, arka tuşlar=daha hızlı, sonraki çizgi için A tuşu."
 "TF_sum22_lawnmaker_style1"				"İş"
 "TF_sum22_head_banger"			"Kafa Patlatan"
 "TF_sum22_hawaiian_hangover"	"Sarhoş Hawaiili" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"El Bombasız"
-"TF_sum22_hawaiian_hangover_style1"		"El Bombalı"
 "TF_sum22_barefoot_brawler"		"Yalınayak Savaşçı"
 "TF_sum22_chaser"				"Avcı" // ADD THE
-"TF_sum22_chaser_style0"				"El Bombasız"
-"TF_sum22_chaser_style1"				"El Bombalı"
 "TF_sum22_detective"			"Dedektif" // ADD THE
 "TF_sum22_detective_style0"				"Renkli Saç"
 "TF_sum22_detective_style1"				"Renkli Şapka"
@@ -19255,9 +19252,11 @@ Hareket için D-pad, arka tuşlar=daha hızlı, sonraki çizgi için A tuşu."
 "TF_hwn2026_clowning_cowl"				"Soytarı Şapkası"
 "TF_hwn2026_clowning_cowl_style1"			"Dışarıda"
 "TF_hwn2026_clowning_cowl_style2"			"İçeride"
+"TF_hwn2026_generals_greatcoat"			"Generalin Paltosu"
 "TF_hwn2026_bounty_hunters_brim"		"Ödül Avcısının Şapkası"
 "TF_style_bullets"						"Mermili"
 "TF_style_nobullets"					"Mermisiz"
+"TF_style_nogrenades"					"El Bombasız"
 
 "TF_KathmanHairdo"             "Katman-saçlı" // ADD THE
 "TF_KathmanHairdo_Desc"        "Bu tarih öncesi pompadour ilk olarak Sir Edmund Hillary tarafından Everest'in yokuşlarında görüldü ve Hillary'nin altını pisletmesinin farkına varmasıyla devamı geldi."

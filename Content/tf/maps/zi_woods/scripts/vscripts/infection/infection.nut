@@ -726,7 +726,17 @@ function OnGameEvent_player_death( params )
         _hPlayer.RemoveSpewDebuff();
 
     if ( _sc != null )
+        _hPlayer.ClearSpewPuddle();
+
+    if ( _sc != null )
         _hPlayer.SpoofZombieBuffFX( false );
+
+    // only a heavy who still has the rock in his hand (windup started, throw not yet
+    // fired) bursts into rock gibs. read before the windup unwind below clears the flag
+    local _bHeavyHoldingRock = ( _sc != null && ( "m_iFlags" in _sc ) &&
+                                 ( _sc.m_iFlags & ZBIT_HEAVY_ROCK_WINDUP ) &&
+                                 ( "m_tblEventQueue" in _sc ) &&
+                                 _sc.m_tblEventQueue.rawin( EVENT_HEAVY_THROW_ROCK ) );
 
     // a death mid-picker/emerge leaks locked state - the exit path is otherwise
     // only reachable from FinishSpawnEmerge, which a corpse never gets to
@@ -741,6 +751,12 @@ function OnGameEvent_player_death( params )
         else if ( _sc.m_iFlags & ZBIT_HEAVY_ROCK_WINDUP )
         {
             _sc.m_iFlags <- ( _sc.m_iFlags & ~ZBIT_HEAVY_ROCK_WINDUP );
+
+            // the event queue keeps running on a corpse - without this a heavy killed
+            // mid-windup still throws his rock (and its gibs) after he's dead
+            _hPlayer.RemoveEventFomQueue ( EVENT_HEAVY_THROW_ROCK );
+            _hPlayer.RemoveEventFomQueue ( EVENT_HEAVY_END_THROW );
+
             _hPlayer.DestroySpawnBody   ();
             _hPlayer.SetSpawnBodyHidden ( false );
             _hPlayer.SetForcedTauntCam  ( 0 );
@@ -802,8 +818,8 @@ function OnGameEvent_player_death( params )
             _sc.m_hZombieAbility.CreateSpitball( true );
         };
 
-        // the heavy is made of the same stuff he throws - burst him into rock gibs
-        if ( _hPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS )
+        // the rock he was holding breaks when he dies mid-windup
+        if ( _hPlayer.GetPlayerClass() == TF_CLASS_HEAVYWEAPONS && _bHeavyHoldingRock )
         {
             SpawnHeavyRockGibs( ( _hPlayer.GetOrigin() + Vector( 0, 0, ZHEAVY_DEATH_GIB_Z_OFF ) ) );
         };
@@ -815,14 +831,32 @@ function OnGameEvent_player_death( params )
 
             if ( !::bNoPyroExplosionMod )
             {
+                // the blast is dealt "with" the pyro's fists. while they carry the
+                // volcano fragment's ignite attribute, the game's own on-hit code sets
+                // the victim on fire - real afterburn, credited to this pyro
+                local _hBlastWep = _hPlayer.GetActiveWeapon();
+
+                if ( ( _hBlastWep == null || !_hBlastWep.IsValid() ) && ( "m_hZombieWep" in _sc ) )
+                    _hBlastWep = _sc.m_hZombieWep;
+
+                local _bIgnite = ( ZPYRO_DEATH_BLAST_IGNITES && _hBlastWep != null && _hBlastWep.IsValid() );
+
+                if ( _bIgnite )
+                    _hBlastWep.AddAttribute( "Set DamageType Ignite", 1, -1 );
+
                 while ( _hNextPlayer = Entities.FindByClassnameWithin( _hNextPlayer, "player", _hPlayer.GetOrigin(), 125 ) )
                 {
                     if ( _hNextPlayer != null && _hNextPlayer.GetTeam() == TF_TEAM_RED && _hNextPlayer != _hPlayer )
                     {
                         KnockbackPlayer           ( _hPlayer, _hNextPlayer, 210, 0.85, true );
-                        _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hPlayer.GetActiveWeapon(), Vector(0, 0, 0), _hPlayer.GetOrigin(), 10, ( DMG_CLUB | DMG_PREVENT_PHYSICS_FORCE ) );
+                        _hNextPlayer.TakeDamageEx ( _hKillicon, _hPlayer, _hBlastWep, Vector(0, 0, 0), _hPlayer.GetOrigin(), ZPYRO_DEATH_BLAST_DMG, ( DMG_CLUB | DMG_PREVENT_PHYSICS_FORCE ) );
                     };
                 };
+
+                // only the blast ignites - the fists are destroyed on respawn anyway, but
+                // this keeps it from leaking if that ever changes
+                if ( _bIgnite )
+                    _hBlastWep.RemoveAttribute( "Set DamageType Ignite" );
 
                 _hKillicon.Destroy();
 
@@ -1015,7 +1049,10 @@ function OnScriptHook_OnTakeDamage( params )
     {
         if ( _hAttacker.GetClassname() == "player" ) // must check before trying to access active weapon
         {
-            if ( _hAttacker.GetPlayerClass() == TF_CLASS_PYRO && _hAttacker.GetActiveWeapon().GetPropInt( STRING_NETPROP_ITEMDEF ) == 153 ) // homewrecker
+            local _hAtkWep = _hAttacker.GetActiveWeapon();
+
+            if ( _hAttacker.GetPlayerClass() == TF_CLASS_PYRO && _hAtkWep != null &&
+                 GetPropInt( _hAtkWep, STRING_NETPROP_ITEMDEF ) == 153 ) // homewrecker
             {
                 _hVictim.GetScriptScope().m_bMustFizzle <- true;
             }
@@ -1106,6 +1143,35 @@ function OnScriptHook_OnTakeDamage( params )
         {
             params.damage_type <- ( _iOriginalDmgBits | DMG_BLAST | DMG_PREVENT_PHYSICS_FORCE );
         }
+
+        // ----------------------------------------------------------- //
+        // zombie pyro burns away to ash                               //
+        // ----------------------------------------------------------- //
+        // tf2 decides ash when it builds the ragdoll, from the killing
+        // weapon's "ragdolls become ash". lend that to the weapon for
+        // a blow that can kill him, then take it back next frame. crits
+        // land after this hook, so allow for them in the lethal check
+        if ( ZPYRO_ASH_RAGDOLL && _hVictim.GetPlayerClass() == TF_CLASS_PYRO &&
+             ( "weapon" in params ) && params.weapon != null && params.weapon.IsValid() )
+        {
+            local _flWorstCase = params.damage;
+
+            if ( "crit_type" in params )
+            {
+                if ( params.crit_type == 2 )
+                    _flWorstCase = ( _flWorstCase * 3.0 );
+                else if ( params.crit_type == 1 )
+                    _flWorstCase = ( _flWorstCase * 1.35 );
+            };
+
+            if ( _flWorstCase >= _hVictim.GetHealth() )
+            {
+                params.weapon.AddAttribute( "ragdolls become ash", 1, -1 );
+                EntFireByHandle( params.weapon, "RunScriptCode",
+                                 "self.RemoveAttribute( \"ragdolls become ash\" )",
+                                 0.0, null, null );
+            };
+        };
 
         if ( _szWeaponName != "worldspawn" )
         {
@@ -1270,20 +1336,16 @@ function OnScriptHook_OnTakeDamage( params )
         };
 
         // ----------------------------------------------------------- //
-        // hitting an already-burning survivor buffs the zombie        //
-        // ----------------------------------------------------------- //
-
-        if ( _hVictim.InCond( TF_COND_BURNING ) && params.damage_type & DMG_CLUB )
-        {
-            _hAttacker.AddCondEx( TF_COND_OFFENSEBUFF, 0.1, _hAttacker )
-        }
-
-        // ----------------------------------------------------------- //
         // zombie deals fatal damage with arms                         //
         // ----------------------------------------------------------- //
 
+        // the pyro death blast and heavy rock are skipped here - they're dealt through
+        // their own killicon inflictors, so letting the damage land normally already
+        // shows the right icon instead of the class fists
         if ( ( params.damage > _hVictim.GetHealth() ) &&
-             ( params.damage_type & DMG_CLUB ) )
+             ( params.damage_type & DMG_CLUB ) &&
+             _hInflictor.GetClassname() != KILLICON_PYRO_BREATH &&
+             _hInflictor.GetClassname() != KILLICON_HEAVY_ROCK )
         {
             // killicon switch
             switch ( _hAttacker.GetPlayerClass() ) {
@@ -1331,9 +1393,7 @@ function OnScriptHook_OnTakeDamage( params )
         };
 
         // register the time we hit someone
-        // and remove out of combat buff
         _sc.m_fTimeLastHit <- Time();
-        _hAttacker.RemoveOutOfCombat();
         return;
     };
 };

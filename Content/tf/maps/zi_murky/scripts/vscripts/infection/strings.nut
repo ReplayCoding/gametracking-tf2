@@ -18,12 +18,15 @@ const STRING_UI_ZOMBIE_INSTRUCTION_PASSIVE = "#tf_zi_ui_zombie_instruction_passi
 const STRING_UI_TEAM_BLUE                  = "#tf_zi_team_blue";
 const STRING_UI_TEAM_RED                   = "#tf_zi_team_red";
 const STRING_UI_SPAWN_PICKER_CONTROLS      = "#tf_zi_ui_spawn_picker_controls"  // PRIMARY FIRE - Next Spawn Point\nSECONDARY FIRE - Previous Spawn Point\nJUMP - Choose Spawn Point
-const STRING_UI_SPAWN_PICKER_COUNTDOWN     = "#tf_zi_ui_spawn_picker_countdown" // Auto-spawn in %s1
+// game_text can only show a localization token as-is - there's no way to hand the client
+// a value for the token's %s1, so it rendered literally. formatted here instead, same as
+// the ability HUD's "Ready in". was "#tf_zi_ui_spawn_picker_countdown"
+const STRING_UI_SPAWN_PICKER_COUNTDOWN     = "Auto-spawn in %d"
 
 const SCOUT_PASSIVE_NAME                   = "#tf_zi_scout_passive_name"
 const PYRO_PASSIVE_NAME                    = "#tf_zi_pyro_passive_name" // no longer used 
-const HEAVY_PASSIVE_NAME                   = "#tf_zi_heavy_passive_name" // no longer used 
-const MEDIC_PASSIVE_NAME                   = "#tf_zi_medic_passive_name"
+const HEAVY_PASSIVE_NAME                   = "#tf_zi_heavy_passive_name" // fallback ability only - see GiveZombieAbility
+const MEDIC_PASSIVE_NAME                   = "#tf_zi_medic_passive_name" // no longer used 
 const ENGIE_EMP_NAME                       = "#tf_zi_engie_emp_name" // no longer used
 const ENGIE_BEACON_NAME                    = "#tf_zi_engie_beacon_name" // Beacon 
 const DEMO_CHARGE_NAME                     = "#tf_zi_demo_charge_name"
@@ -46,4 +49,3 @@ const MEDIC_HEAL_DESC                      = "";
 const SNIPER_SPIT_DESC                     = "";
 const SOLDIER_POUNCE_DESC                  = "";
 const SPY_REVEAL_DESC                      = "";
-const MEDIC_HEAL_DESC                      = "";

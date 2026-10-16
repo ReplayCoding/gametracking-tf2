@@ -2,4 +2,7 @@
 {
 	"$envmap" "custom/heaven/cubemap"
 	"$nofog"	"1"
+	
+	//Saldy because of issues with how the shader sets flags, it only performs the math correctly
+	//for HDR on the RGBA16161616F format which leads to 14mb skybox cubemap textures :(
 }

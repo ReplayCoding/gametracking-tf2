@@ -19248,8 +19248,6 @@ Croce direzionale = movimento, grilletti = aumenta la velocità, tasto A = passa
 "TF_sum19_staplers_specs"				"Gli Occhiali da Ufficio"
 "TF_sum19_bobby_bonnet"					"Il Berretto Britannico"
 "TF_sum19_dynamite_abs"					"Gli Addominali Esplosivi"
-"TF_sum19_dynamite_abs_style1"				"Granate"
-"TF_sum19_dynamite_abs_style2"				"Senza granate"
 "TF_sum19_backbreakers_skullcracker"	"Lo Spaccateste dello Spaccaschiena"
 "TF_sum19_backbreakers_guards"			"Il Paraspalle dello Spaccaschiena"
 "TF_sum19_unforgiven_glory"				"La Gloria Imperdonabile"
@@ -19628,12 +19626,8 @@ Croce direzionale = movimento, grilletti = aumenta la velocità, tasto A = passa
 "TF_sum22_lawnmaker_style1"				"Lavoro"
 "TF_sum22_head_banger"			"Lo Scoppia-Testa"
 "TF_sum22_hawaiian_hangover"	"L'Ubriacone Hawaiano" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"Senza granate"
-"TF_sum22_hawaiian_hangover_style1"		"Granate"
 "TF_sum22_barefoot_brawler"		"L'Attaccabrighe Scalzo"
 "TF_sum22_chaser"				"L'Inseguitore" // ADD THE
-"TF_sum22_chaser_style0"				"Senza granate"
-"TF_sum22_chaser_style1"				"Granate"
 "TF_sum22_detective"			"L'Ispettore" // ADD THE
 "TF_sum22_detective_style0"				"Capelli tinti"
 "TF_sum22_detective_style1"				"Cappello colorato"
@@ -20316,6 +20310,8 @@ Croce direzionale = movimento, grilletti = aumenta la velocità, tasto A = passa
 "TF_hwn2026_mined_mind_style1"				"Picozza"
 "TF_hwn2026_mined_mind_style2"				"Senza Picozza"
 "TF_hwn2026_damage_dealer"				"Croupier Dannoso" // ADD THE
+"TF_hwn2026_damage_dealer_style1"			"Tinta: Fascia"
+"TF_hwn2026_damage_dealer_style2"			"Tinta: Cappello"
 "TF_hwn2026_high_caliber"				"Vincitore di Grosso Calibro"
 "TF_hwn2026_high_caliber_style2"			"Semplice"
 "TF_hwn2026_showdown_slacks"			"Pantaloni da Duello"
@@ -20348,6 +20344,8 @@ Croce direzionale = movimento, grilletti = aumenta la velocità, tasto A = passa
 
 "TF_style_bullets"						"Proiettili"
 "TF_style_nobullets"					"Senza proiettili"
+"TF_style_grenades"						"Granate"
+"TF_style_nogrenades"					"Senza granate"
 
 "TF_KathmanHairdo"             "I Capelli di Kathmandu" // ADD THE
 "TF_KathmanHairdo_Desc"        "Questa acconciatura preistorica venne avvistata per la prima volta da Sir Edmund Hillary sui pendii del monte Everest. Ciò che Hillary vide subito dopo fu lui stesso mentre se la faceva nei pantaloni."

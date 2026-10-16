@@ -40,7 +40,7 @@ ENGIE_BEACON_MODEL_SCALE          <- 1.0;   // model scale of the thrown beacon 
 ENGIE_BEACON_SKIN                 <- 1;     // buildable skins are 0 red / 1 blu            //
 ENGIE_BEACON_MINIROOT_LEN         <- 0.25;  // root duration after throwing the beacon      //
 // --------------------------------------------------------------------------------------- //
-ENGIE_BEACON_HEALTH               <- 150;   // beacon hp (lvl 1 tele) humans can destroy    //
+ENGIE_BEACON_HEALTH               <- 175;   // beacon hp (lvl 1 tele) humans can destroy    //
 ENGIE_BEACON_BUILD_TIME           <- 2.0;   // secs of building before becoming a beacon    //
 // --------------------------------------------------------------------------------------- //
 ENGIE_BEACON_BUILD_ANIM           <- "build";   // tele unfold sequence played on landing   //
@@ -48,12 +48,28 @@ ENGIE_BEACON_IDLE_ANIM            <- "running"; // looping sequence once fully b
 // --------------------------------------------------------------------------------------- //
 ENGIE_BEACON_SETTLE_NORMAL_Z      <- 0.90;  // min ground normal z to sprout - ~25 deg; the tele is forced upright on deploy anyway //
 ENGIE_BEACON_GROUND_TRACE_DIST    <- 20;    // downward trace length to find ground         //
-ENGIE_BEACON_SPAWN_CLEARANCE      <- 82;    // clear space above the beacon a spawner needs //
+ENGIE_BEACON_SPAWN_CLEARANCE      <- 84;    // clear space above the beacon a spawner needs //
 // --------------------------------------------------------------------------------------- //
 ENGIE_BEACON_LIFETIME             <- 8.0;   // secs before a beacon that never rested gives up //
-ENGIE_BEACON_DESTROY_TIME         <- 2.0;   // secs from first invalid contact to give up   //
+ENGIE_BEACON_DESTROY_TIME         <- 2.0;   // secs a mid-air wall/ceiling bounce may last  //
+ENGIE_BEACON_WALL_HIT_IS_FATAL    <- false; // true = touching a wall mid-air breaks it too //
+// --------------------------------------------------------------------------------------- //
+// thrown toolbox visual, relative to the physics shell it rides. local space: it rotates  //
+// with the shell. x = forward, y = left, z = up                                           //
+ENGIE_BEACON_VISUAL_OFFSET        <- Vector( 0, 0, 0 );
+ENGIE_BEACON_VISUAL_ANGLES        <- QAngle( 0, 0, 0 );
 ENGIE_BEACON_FAIL_REFUND          <- 0.5;   // fraction of remaining cd back on a bad spot  //
 ENGIE_BEACON_CLIP_BOUNCE          <- 0.65;  // speed kept when bouncing off playerclip      //
+ENGIE_BEACON_CLIP_IS_FATAL        <- true;  // true = touching any clip brush breaks it     //
+                                            // false = old behaviour, bounce off it         //
+// --------------------------------------------------------------------------------------- //
+// nearby-spot search - when it lands somewhere valid but too cramped (wall, low ceiling)  //
+// it tries rings of candidate spots around the landing point, nearest first              //
+ENGIE_BEACON_SEARCH_STEP          <- 16;    // distance between rings                       //
+ENGIE_BEACON_SEARCH_RINGS         <- 3;     // rings tried - max shift = STEP * RINGS       //
+ENGIE_BEACON_SEARCH_DIRS          <- 8;     // candidates per ring                          //
+ENGIE_BEACON_SEARCH_LIFT          <- 18;    // height the reachability trace runs at        //
+ENGIE_BEACON_SEARCH_DROP          <- 24;    // how far below the landing height it may go   //
 ENGIE_BEACON_HURT_HULL_RADIUS     <- 12;    // half-width used for the trigger_hurt sweep   //
 ENGIE_BEACON_HULL_HALF            <- 24;    // solid bbox half-width of the built tele      //
 ENGIE_BEACON_HULL_HEIGHT          <- 12;    // its height - flat, players step onto it      //
@@ -156,18 +172,23 @@ PYRO_SPEW_BURST_COUNT             <- 4;     // blobs fired per cast             
 PYRO_SPEW_BURST_INTERVAL          <- 0.175; // secs between blobs in the burst              //
 PYRO_SPEW_SPIT_PITCH              <- 50;    // per-blob splash wav pitch - 100 stock        //
 // --------------------------------------------------------------------------------------- //
-PYRO_SPEW_CELL_SIZE               <- 50;    // width of one goop tile                       //
-PYRO_SPEW_TILE_RADIUS             <- 1;     // splat reach - below CELL_SIZE = exactly the  //
+PYRO_SPEW_CELL_SIZE               <- 60;    // width of one goop tile                       //
+PYRO_SPEW_TILE_RADIUS             <- 100;     // splat reach - below CELL_SIZE = exactly the  //
                                            // one tile the blob lands on                   //
 // --------------------------------------------------------------------------------------- //
 PYRO_SPEW_KNOCKBACK_MULT          <- 0.5;   // incoming damage-force mult while spewed      //
+PYRO_SPEW_MOVE_SPEED_MULT         <- 0.80;  // survivor move speed while spewed				//
+PYRO_SPEW_PUDDLE_MOVE_SPEED_MULT  <- 0.80;  // extra slow while standing in goop 			//
+                                            // the coat's: coated + in goop = 30% slower    //
+PYRO_SPEW_PUDDLE_FOOTSTEPS        <- 9;     // footstep sound set in goop - 9 = squid. 0 off //
+PYRO_SPEW_PUDDLE_GRACE            <- 0.25;  // secs the goop effects linger after stepping out //
 PYRO_SPEW_SELF_PUSH_MULT          <- 0.25;  // own blast-jump push kept while spewed - 75% cut        //
-PYRO_SPEW_CHARGE_SPEED_MULT       <- 0.4;   // demo shield charge speed kept (60% cut)      //
+PYRO_SPEW_CHARGE_SPEED_MULT       <- 0.3;   // demo shield charge speed kept (70% cut)      //
 PYRO_SPEW_CHARGE_BASE_SPEED       <- 750;   // stock charge speed the cap derives from      //
 PYRO_SPEW_TICK_DAMAGE             <- 1;     // hp drained per tick while spewed             //
 PYRO_SPEW_TICK_INTERVAL           <- 1.0;   // seconds between drain ticks                  //
 // --------------------------------------------------------------------------------------- //
-PYRO_SPEW_TINT                    <- 0xFF555A64; // packed abgr model tint - oily brown-black //
+PYRO_SPEW_TINT                    <- 0xff723c67; // packed abgr model tint - oily purple //
 PYRO_SPEW_ZONE_BOX_HEIGHT         <- 6;     // z extent of the drawn zone box               //
 PYRO_SPEW_ZONE_COLOR_R            <- 140;   // zone box rgb                                 //
 PYRO_SPEW_ZONE_COLOR_G            <- 110;   //                                              //
@@ -320,7 +341,7 @@ class CSpyEMP extends CZombieAbility
         SetPropFloat ( _d.m_hZombieWep, "m_flNextPrimaryAttack",   FLT_MAX );
         SetPropFloat ( _d.m_hZombieWep, "m_flNextSecondaryAttack", FLT_MAX );
 
-        this.m_hAbilityOwner.GetActiveWeapon().AddAttribute( "move speed penalty", 0.5, -1 );
+        this.m_hAbilityOwner.ApplyCastSlow( 0.5 );
 
         EmitSoundOnClient ( "Weapon_GrenadeLauncher.DrumStop", m_hAbilityOwner );
 
@@ -388,14 +409,13 @@ class CSpyEMP extends CZombieAbility
 
         this.m_hAbilityOwner.ViewPunch( QAngle( -3, 0, 0 ) ); // todo - const
 
-        this.m_hAbilityOwner.AddEventToQueue ( EVENT_PUT_ABILITY_ON_CD, 2 );
         AddThinkToEnt                        ( _nadeEnt, "EngieEMPThink" );
         return;
     };
 
     function ExitRoot()
     {
-        this.m_hAbilityOwner.GetActiveWeapon().RemoveAttribute( "move speed penalty" );
+        this.m_hAbilityOwner.ClearCastSlow();
         this.PutAbilityOnCooldown();
         return;
     };
@@ -543,7 +563,7 @@ class CSniperSpitball extends CZombieAbility
     {
         this.m_hAbilityOwner     =  hAbilityOwner;
         this.m_iAbilityType      =  ZABILITY_PROJECTILE;
-        this.m_fAbilityCooldown  =  MIN_TIME_BETWEEN_ENGIE_EMP_THROW;
+        this.m_fAbilityCooldown  =  MIN_TIME_BETWEEN_SPIT_CAST;
         this.m_szAbilityName     =  SNIPER_SPIT_NAME;
     };
 
@@ -567,8 +587,11 @@ class CSniperSpitball extends CZombieAbility
         local _hSlowWep = this.m_hAbilityOwner.GetActiveWeapon();
 
         if ( _hSlowWep != null )
+        {
             _hSlowWep.AddAttribute( "move speed penalty", SNIPER_SPIT_CHARGE_SLOW,
                                     SNIPER_SPIT_MAX_CHANNEL_TIME + 1.0 );
+            this.m_hAbilityOwner.RefreshMoveSpeed();
+        };
 
         _d.m_hSpitSlowWep <- _hSlowWep;
 
@@ -706,7 +729,7 @@ class CEngineerBeacon extends CZombieAbility
         SetPropFloat ( _d.m_hZombieWep, "m_flNextPrimaryAttack",   FLT_MAX );
         SetPropFloat ( _d.m_hZombieWep, "m_flNextSecondaryAttack", FLT_MAX );
 
-        this.m_hAbilityOwner.GetActiveWeapon().AddAttribute( "move speed penalty", 0.5, -1 );
+        this.m_hAbilityOwner.ApplyCastSlow( 0.5 );
 
         EmitSoundOnClient ( "Weapon_GrenadeLauncher.DrumStop", m_hAbilityOwner );
 
@@ -769,7 +792,13 @@ class CEngineerBeacon extends CZombieAbility
 
         SetPropInt ( _hVisual, "m_nSkin", ENGIE_BEACON_SKIN );
 
-        EntFireByHandle ( _hVisual, "SetParent", "!activator", 0, _beaconEnt, _beaconEnt );
+        // the shell hasn't been rotated yet (SetAngles is below), so a world-space
+        // placement right now equals the local offset. AcceptInput parents immediately
+        // and keeps the current transform - EntFireByHandle waited a frame, by which
+        // point the shell had already spun and the offset came out random
+        _hVisual.SetAbsOrigin ( _angPos + ENGIE_BEACON_VISUAL_OFFSET );
+        _hVisual.SetAbsAngles ( ENGIE_BEACON_VISUAL_ANGLES );
+        _hVisual.AcceptInput  ( "SetParent", "!activator", _beaconEnt, _beaconEnt );
 
         _beaconEnt.SetAngles           ( _fPitch, _fYaw, _fRoll );
         _beaconEnt.SetAngularVelocity  ( _fPitch, _fYaw, _fRoll );
@@ -807,7 +836,7 @@ class CEngineerBeacon extends CZombieAbility
 
     function ExitRoot()
     {
-        this.m_hAbilityOwner.GetActiveWeapon().RemoveAttribute( "move speed penalty" );
+        this.m_hAbilityOwner.ClearCastSlow();
         this.PutAbilityOnCooldown();
         return;
     };
@@ -873,8 +902,6 @@ class CDemoCharge extends CZombieAbility
         this.m_hAbilityOwner.AddCond   ( TF_COND_TAUNTING );
         this.m_hAbilityOwner.AddCondEx ( TF_COND_INVULNERABLE_USER_BUFF, 1.76, this.m_hAbilityOwner );
         this.m_hAbilityOwner.AddCond   ( TF_COND_RADIUSHEAL ); // just the heal ring
-
-        this.m_hAbilityOwner.RemoveOutOfCombat ( true );
 
         this.m_hAbilityOwner.AddCustomAttribute ( "no_jump", 1, -1 );
         this.m_hAbilityOwner.AddCustomAttribute ( "no_duck", 1, -1 );

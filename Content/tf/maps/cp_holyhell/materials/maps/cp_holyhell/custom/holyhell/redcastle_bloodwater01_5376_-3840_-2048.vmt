@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/CUSTOM/HOLYHELL/REDCASTLE_BLOODWATER01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_holyhell/c5376_-3840_-2048"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -13345,6 +13345,10 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle413"			"Lepattavat lentelijät"
 "Attrib_Particle414"			"Lepattavat lentelijät"
 "Attrib_Particle415"			"Suhisevat siivet"
+
+// Halloween 2026 Unusual
+"Attrib_Particle416"			"Flor de Muerto"
+"Attrib_Particle417"			"Flor de Muerto"
 "Attrib_Particle418"			"Syystuulahdus"
 // Weapon Unusual
 "Attrib_Particle701"			"Kuuma"
@@ -13620,6 +13624,10 @@ Tämä näyttää hyvältä. Todella terävää."
 "Attrib_Particle3227"		"Kimaltavat kiteet"
 "Attrib_Particle3228"		"Prameat parrasvalot"
 "Attrib_Particle3229"		"Syväsukellus"
+
+// Halloween 2026 Unusual Taunts
+"Attrib_Particle3230"		"Sähköinen sysäys"
+"Attrib_Particle3231"		"Sähköinen sysäys"
 // End Unusual taunt FX
 
 "Attrib_KillStreakEffect"	"Tappoputki: %s1"
@@ -19120,8 +19128,6 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sum19_staplers_specs"				"Nitojan näkövinkkeli"
 "TF_sum19_bobby_bonnet"					"Pollarin päähine"
 "TF_sum19_dynamite_abs"					"Räjähdysherkät vatsalihakset"
-"TF_sum19_dynamite_abs_style1"				"Kranaatteja"
-"TF_sum19_dynamite_abs_style2"				"Ei kranaatteja"
 "TF_sum19_backbreakers_skullcracker"	"Selänmurtajan kallonhalkaisija"
 "TF_sum19_backbreakers_guards"			"Pelinrakentajan suojukset"
 "TF_sum19_unforgiven_glory"				"Kaunainen kunnia"
@@ -19500,12 +19506,8 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sum22_lawnmaker_style1"				"Ammattilainen"
 "TF_sum22_head_banger"			"Tajunnan räjäyttäjä"
 "TF_sum22_hawaiian_hangover"	"Tropiikin jälkioire" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"Ei kranaatteja"
-"TF_sum22_hawaiian_hangover_style1"		"Kranaatteja"
 "TF_sum22_barefoot_brawler"		"Väkivallan varvastossut"
 "TF_sum22_chaser"				"Jahtaaja" // ADD THE
-"TF_sum22_chaser_style0"				"Ei kranaatteja"
-"TF_sum22_chaser_style1"				"Kranaatit"
 "TF_sum22_detective"			"Salapoliisi" // ADD THE
 "TF_sum22_detective_style0"				"Värjätyt hiukset"
 "TF_sum22_detective_style1"				"Värillinen hattu"
@@ -20176,12 +20178,16 @@ Ristiohjain liikkumiseen, liipaisinpainikkeet: lujempaa, A-näppäimestä seuraa
 "TF_sum26_bald_spotter_style1"				"Likinäköinen"
 "TF_sum26_bald_spotter_style2"				"Kaukonäköinen"
 "TF_sum26_surgical_shroud"				"Kirurgin käärinliina"
+
+"TF_hwn2026_damage_dealer"				"Korttikorsto" // ADD THE
 "TF_hwn2026_clowning_cowl"				"Klovnin päähine"
 "TF_hwn2026_clowning_cowl_style1"			"Hattu kauluksen ulkopuolella"
 "TF_hwn2026_clowning_cowl_style2"			"Hattu kauluksen sisäpuolella"
+"TF_hwn2026_generals_greatcoat"			"Kenraalin painava palttoo"
 "TF_hwn2026_bounty_hunters_brim"		"Palkkionmetsästäjän lierihattu"
 "TF_style_bullets"						"Luodeilla"
 "TF_style_nobullets"					"Ei luoteja"
+"TF_style_nogrenades"					"Ei kranaatteja"
 
 "TF_KathmanHairdo"             "Kathman-tukka" // ADD THE
 "TF_KathmanHairdo_Desc"        "Tämän esihistoriallisen pompadourin löysi ensimmäisenä Sir Edmund Hillary kavutessaan Mount Everestin jyrkänteillä. Pian tämän jälkeen Hillary löysi myös vetelät housuistaan."

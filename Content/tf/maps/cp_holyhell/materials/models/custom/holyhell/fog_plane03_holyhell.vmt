@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/custom/holyhell/fog_plane03_holyhell"
+	$translucent 1
+	$additive 1
+	"$model" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.015
+			"texturescrollangle" 90
+		}
+	}
+}

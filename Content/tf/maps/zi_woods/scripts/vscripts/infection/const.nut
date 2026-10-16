@@ -30,7 +30,7 @@ const MIN_TIME_BETWEEN_ENGIE_EMP_THROW = 9;     // Ability Cooldown  - Engie EMP
 const MIN_TIME_BETWEEN_ENGIE_BEACON    = 15;    // Ability Cooldown  - Engie Beacon Cast   //
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_SPIT_START_END  = 0.5;   // Ability Delay     - Sniper Spit Channel //
-const MIN_TIME_BETWEEN_SPIT_CAST       = 5;     // Ability Cooldown  - Sniper Spit Cast    //
+const MIN_TIME_BETWEEN_SPIT_CAST       = 6;     // Ability Cooldown  - Sniper Spit Cast    //
 // --------------------------------------------------------------------------------------- //
 const MIN_TIME_BETWEEN_SPY_EMP         = 10;    // Ability Cooldown  - Spy EMP Cast        //
 // --------------------------------------------------------------------------------------- //
@@ -68,8 +68,11 @@ const ZHEAVY_KNOCKBACK_MULT            = 0.1;   // Heavy    knockback + airblast
 const ZHEAVY_MELEE_BUILDING_DMG_CAP    = 120;   // Heavy    punch vs buildings, 2 hits on  //
 const ZHEAVY_DEATH_GIB_Z_OFF           = 40;    // Heavy    rock gib burst height on death //
 const ZPYRO_FIRE_DMG_MULT              = 0.35;  // Pyro     zombie fire damage kept        //
-const ZPYRO_DMG_MULTI                  = 0.7;   // Pyro     Zombie Damage Multiplier       //
-const ZSPY_DMG_MULTI                   = 1;     // Spy      Zombie Damage Multiplier       //
+const ZPYRO_DMG_MULTI                  = 1;     // Pyro     Zombie Damage Multiplier       //
+const ZPYRO_DEATH_BLAST_DMG            = 50;    // Pyro     death explosion damage         //
+const ZPYRO_DEATH_BLAST_IGNITES        = true;  // Pyro     death explosion applies afterburn //
+const ZPYRO_ASH_RAGDOLL                = true;  // Pyro     corpse burns away to ash       //
+const ZSPY_DMG_MULTI                   = 0.8;   // Spy      Zombie Damage Multiplier       //
 const ZENGINEER_DMG_MULTI              = 1;     // Engineer Zombie Damage Multiplier       //
 // --------------------------------------------------------------------------------------- //
 // Item Definition Index (IDX) for each class' Zombie weapon                               //
@@ -238,6 +241,11 @@ const MAX_SURVIVORS_FOR_ZOMBIE_WIN     = 0;     // if =  x red alive, zombies wi
 const PLAYER_RETHINK_TIME              = 0.0;   // How often the player thinks             //
 const ENGIE_EMP_RETHINK_TIME           = 0.01;  // How often the EMP grenade thinks        //
 const ENGIE_BEACON_RETHINK_TIME        = 0.01;  // How often the beacon ent thinks         //
+// beacon landing spot results - see EvaluateBeaconGround
+const BEACON_SPOT_OK        = 0;
+const BEACON_SPOT_BAD       = 1; // break, half refund
+const BEACON_SPOT_SPAWNROOM = 2; // break, full refund
+const BEACON_SPOT_NO_ROOM   = 3; // fine ground, too cramped - worth searching nearby
 const SNIPER_SPIT_RETHINK_TIME         = 0;     // How often the sniper spit thinks        //
 const SNIPER_SPIT_ZONE_RETHINK_TIME    = 0.5;   // How often the sniper spit ZONE thinks   //
 const PYRO_SPEW_RETHINK_TIME            = 0;     // How often the spew glob thinks           //
@@ -569,9 +577,9 @@ const KILLICON_PYRO_MELEE       = "infection_pyro";
 const KILLICON_PYRO_BREATH      = "firedeath";
 const KILLICON_PYRO_SPEW         = "firedeath";
 const KILLICON_DEMOMAN_MELEE    = "infection_demoman";
-const KILLICON_DEMOMAN_BOOM     = "soldier_taunt";
+const KILLICON_DEMOMAN_BOOM     = "megaton";        // the Megaton nuke icon
 const KILLICON_HEAVY_MELEE      = "infection_heavy";
-const KILLICON_HEAVY_ROCK       = "infection_heavy";
+const KILLICON_HEAVY_ROCK       = "skull";          // generic skull
 const KILLICON_ENGIE_MELEE      = "infection_engineer";
 const KILLICON_ENGIE_EMP        = "infection_emp";
 const KILLICON_MEDIC_MELEE      = "infection_medic";

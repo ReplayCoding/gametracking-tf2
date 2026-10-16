@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_holyhell/custom/holyhell/redcastle_bloodwater01_5376_-3840_-2048.vmt"
+	"insert"
+	{
+		"$waterdepth"		"104"
+	}
+}

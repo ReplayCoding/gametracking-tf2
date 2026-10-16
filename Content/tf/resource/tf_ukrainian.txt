@@ -3653,6 +3653,7 @@
 "TF_TournamentMedal_Uberfest_style2"					"Незаряджений"
 
 "TF_TournamentMedal_Particle1_First"					"Перше місце на «Particle Mayhem»"
+"TF_TournamentMedal_Particle1_First_Desc"				"Вітаємо! Попри всі випробування та перешкоди, ваш експеримент вдався там, де інші зазнали невдачі. Носіть цю медаль із гордістю, адже ви її заслужили."
 "TF_TournamentMedal_Particle1_Second"					"Друге місце на «Particle Mayhem»"
 "TF_TournamentMedal_Particle1_Second_Desc"				"Вкладені у ваш експеримент зусилля назавжди лишаться в серцях багатьох відьом, чаклунів та вчених."
 "TF_TournamentMedal_Particle1_Third"					"Третє місце на «Particle Mayhem»"
@@ -12183,6 +12184,15 @@
 "Summer2026Paintkits_collection"			"Колекція «Літо 2026»"
 "Summer2026Paintkits_collection_desc"		"Предмети з колекції «Літо 2026»:"
 
+"halloween2026_collection_name"			"Колекція «Химерний сховок»"
+"halloween2026_collection_case"			"Футляр «Химерний сховок»"
+"halloween2026_collection_case_desc"	"Цей футляр замкнений і потребує\nключа від футляра «Химерний сховок».\n\nМістить предмет спільноти \nз колекції «Химерний сховок»."
+"halloween2026_collection_case_adtext"	"-Містить принади від спільноти з колекції «Химерний сховок»\n-Потребує ключа від футляра «Химерний сховок»\n-Може містити чудний предмет або незвичайний капелюх."
+"halloween2026_collection_key"			"Ключ «Химерний сховок»"
+"halloween2026_collection_key_desc"		"Використовується для відкриття футляра «Химерний сховок»"
+"halloween2026_collection_key_adtext"	"-Використовується для відкривання футляра «Химерний сховок»\n-Футляр може містити чудний предмет або незвичайний капелюх."
+"halloween2026_collection_case_footer"	"Може містити чудні предмети або незвичайні капелюхи з ефектом Геловіна 2026"
+
 "halloween2026_event_footer"			"Упродовж святкування Геловіну до всіх незвичайних предметів буде додаватися ефект «Геловін 2026»"
 
 // Collection Ui Label Strings
@@ -13461,6 +13471,10 @@
 "Attrib_Particle413"			"Мрійливі метелики"
 "Attrib_Particle414"			"Мрійливі метелики"
 "Attrib_Particle415"			"Крихкі крильця"
+
+// Halloween 2026 Unusual
+"Attrib_Particle416"			"Квітка мертвого"
+"Attrib_Particle417"			"Квітка мертвого"
 "Attrib_Particle418"			"Осінній бриз"
 "Attrib_Particle419"			"Порив примар"
 "Attrib_Particle420"			"Порив привидів"
@@ -13755,6 +13769,9 @@
 "Attrib_Particle3233"		"Перевершувач Ґейґера"
 "Attrib_Particle3234"		"Сірчана кислота"
 "Attrib_Particle3235"		"Покров пітьми"
+"Attrib_Particle3236"		"Вировий вітер"
+"Attrib_Particle3237"		"Вировий вітер"
+"Attrib_Particle3238"		"Аметистовий вітер"
 "Attrib_Particle3239"		"Гамма-промені"
 "Attrib_Particle3240"		"Гамма-промені"
 "Attrib_Particle3241"		"Ядерний синтез"
@@ -19274,8 +19291,6 @@
 "TF_sum19_staplers_specs"				"Офісні окуляри"
 "TF_sum19_bobby_bonnet"					"Поліцейська каска"
 "TF_sum19_dynamite_abs"					"Вибуховий прес"
-"TF_sum19_dynamite_abs_style1"				"Гранати"
-"TF_sum19_dynamite_abs_style2"				"Без гранат"
 "TF_sum19_backbreakers_skullcracker"	"Череполом спинолама"
 "TF_sum19_backbreakers_guards"			"Наплічники спинолама"
 "TF_sum19_unforgiven_glory"				"Непрощена слава"
@@ -19654,12 +19669,8 @@
 "TF_sum22_lawnmaker_style1"				"Робота"
 "TF_sum22_head_banger"			"Вибухова каска"
 "TF_sum22_hawaiian_hangover"	"Гавайський головняк" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"Без гранат"
-"TF_sum22_hawaiian_hangover_style1"		"Гранати"
 "TF_sum22_barefoot_brawler"		"Босоногий боєць"
 "TF_sum22_chaser"				"Переслідувач" // ADD THE
-"TF_sum22_chaser_style0"				"Без гранат"
-"TF_sum22_chaser_style1"				"Гранати"
 "TF_sum22_detective"			"Детектив" // ADD THE
 "TF_sum22_detective_style0"				"Пофарбоване волосся"
 "TF_sum22_detective_style1"				"Пофарбований капелюх"
@@ -20308,8 +20319,6 @@
 "TF_sum26_barbeque_style2"					"Темні"
 "TF_sum26_unknown_warrior"				"Невідомий воїн" // ADD THE
 "TF_sum26_tropical_torcher"				"Тропічний піроман"
-"TF_sum26_tropical_torcher_style1"			"Без гранат"
-"TF_sum26_tropical_torcher_style2"			"З гранатами"
 "TF_sum26_pyros_overalls"				"Комбінезон палія"
 "TF_sum26_pyros_overalls_style1"			"Перший клас"
 "TF_sum26_pyros_overalls_style2"			"Другий клас"
@@ -20348,6 +20357,7 @@
 
 "TF_hwn2026_skeleton_crew"				"Команда скелетів"
 "TF_hwn2026_bone_chiller"				"Охолоджені кістки"
+"TF_hwn2026_royal_remains"				"Королівські кістки"
 "TF_hwn2026_mined_mind"					"Копання клепки"
 "TF_hwn2026_mined_mind_style1"				"Кирка"
 "TF_hwn2026_mined_mind_style2"				"Без кирки"
@@ -20362,7 +20372,9 @@
 "TF_hwn2026_clowning_cowl"				"Ковпак клоуна"
 "TF_hwn2026_clowning_cowl_style1"			"Незаправлений"
 "TF_hwn2026_clowning_cowl_style2"			"Заправлений"
+"TF_hwn2026_two_faced"					"Дволикий душогуб"
 "TF_hwn2026_gunpowder_grin"				"Порохова посмішка"
+"TF_hwn2026_vances_vest"				"Вбрання Венса"
 "TF_hwn2026_cogwork_cargos"				"Штучні штани"
 "TF_hwn2026_wayward_wrap"				"Накидка найманця"
 "TF_hwn2026_rough_rider"				"Грубий гаучо"
@@ -20370,6 +20382,7 @@
 "TF_hwn2026_batters_jersey"				"Відбійне джерсі"
 "TF_hwn2026_batters_jersey_style1"			"З рукавами"
 "TF_hwn2026_batters_jersey_style2"			"Без рукавів"
+"TF_hwn2026_grenadiers_goggles"			"Гогли гренадера"
 "TF_hwn2026_generals_greatcoat"			"Пальто генерала"
 "TF_hwn2026_bounty_hunters_brim"		"Капелюх мисливця за нагородою"
 "TF_hwn2026_bounty_hunters_brim_style1"		"Класика"
@@ -20385,6 +20398,7 @@
 
 "TF_style_bullets"						"З кулями"
 "TF_style_nobullets"					"Без куль"
+"TF_style_nogrenades"					"Без гранат"
 
 "TF_KathmanHairdo"             "Зачіска із Катманду" // ADD THE
 "TF_KathmanHairdo_Desc"        "Цей доісторичний помпадур уперше був помічений сером Едмундом Гіларі на схилах Евересту, який одразу після цього надзюрив у штани."
@@ -21235,6 +21249,8 @@ E) — Сині можуть захопити цю точку в будь яки
 "tf_zi_team_red"						"Уцілілі"
 "tf_zi_team_blue"						"Зомбі"
 "tf_zi_pyro_blast_name"					"Подих дракона"
+"tf_zi_pyro_spew_name"					"Липкоплюй" 
+"tf_zi_heavy_rock_name"					"Кидок каменя" 
 "tf_zi_engie_beacon_name"				"Маяк" 
 "tow_dynamite_welcome"					"Вітаємо на мапі Dynamite!"
 "tow_dynamite_part1"					"Dynamite — це мапа режиму «Перетягування каната»."

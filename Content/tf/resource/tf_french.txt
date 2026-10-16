@@ -1812,6 +1812,7 @@
 "TF_TournamentMedal_AF_Invite_3rd_Fall2024"	"Décernée aux membres de HONGPRUMP, qui ont obtenu la 3ᵉ place lors de la saison automnale 2024 d'AsiaFortress Invite."
 "TF_TournamentMedal_AF_Invite_3rd_Spring2025"	"Décernée aux membres de MRST, qui ont obtenu la 3ᵉ place lors de la saison printanière 2025 d'AsiaFortress Invite."
 "TF_TournamentMedal_AF_Invite_3rd_Winter2026"	"Décerné aux membres de Meow pour la saison hivernale 2026 d'AsiaFortress Invite"
+"TF_TournamentMedal_AF_Invite_3rd_Spring2026"	"Décernée aux membres de 90+60=140 pour la saison du printemps 2026 d'AsiaFortress Invite"
 "TF_TournamentMedal_AF_Invite_Participant_Spring2024"	"Décernée aux personnes qui ont participé à la saison printanière 2024 d'AsiaFortress Invite."
 "TF_TournamentMedal_AF_Invite_Participant_Fall2024"	"Décernée aux personnes qui ont participé à la saison automnale 2024 d'AsiaFortress Invite."
 "TF_TournamentMedal_AF_Invite_Participant_Spring2025"	"Décernée aux personnes qui ont participé à la saison printanière 2025 d'AsiaFortress Invite."
@@ -1834,12 +1835,15 @@
 "TF_TournamentMedal_AF_Highlander_Invite_1st"				"1ʳᵉ place - AsiaFortress Highlander Invite"
 "TF_TournamentMedal_AF_Highlander_Invite_1st_Summer2024"		"Décernée aux membres d'Elysium, l'équipe gagnante de la saison automnale 2024 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_1st_Winter2024"		"Décernée aux membres d'Austrasia, l'équipe gagnante de la saison hivernale 2024 d'AsiaFortress Highlander."
+"TF_TournamentMedal_AF_Highlander_Invite_1st_Summer2026"		"Décernée aux membres de GBM pour la saison estivale 2026 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_2nd"				"2ᵉ place - AsiaFortress Highlander Invite"
 "TF_TournamentMedal_AF_Highlander_Invite_2nd_Summer2024"		"Décernée aux membres de Snacks On A Plane pour la saison automnale 2024 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_2nd_Winter2024"		"Décernée aux membres d'Ambulas lors de la saison hivernale 2024 d'AsiaFortress Highlander."
+"TF_TournamentMedal_AF_Highlander_Invite_2nd_Summer2026"		"Décernée aux membres d'Austrasia pour la saison estivale 2026 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_3rd"				"3ᵉ place - AsiaFortress Highlander Invite"
 "TF_TournamentMedal_AF_Highlander_Invite_3rd_Summer2024"		"Décernée aux membres de Thai Resurgence pour la saison automnale 2024 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_3rd_Winter2024"		"Décernée aux membres de Significant Otter, qui ont obtenu la 3ᵉ place lors de la saison hivernale 2024 d'AsiaFortress Highlander."
+"TF_TournamentMedal_AF_Highlander_Invite_3rd_Summer2026"		"Décernée aux membres de Minang Resto Padang pour la saison estivale 2026 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_Participant"				"Médaille de participation - AsiaFortress Highlander Invite"
 "TF_TournamentMedal_AF_Highlander_Invite_Participant_Summer2024"	"Décerné aux personnes qui ont participé à la saison estivale 2024 d'AsiaFortress Highlander Invite."
 "TF_TournamentMedal_AF_Highlander_Invite_Participant_Winter2024"	"Décerné aux personnes qui ont participé à la saison hivernale  2024 d'AsiaFortress Highlander Invite."
@@ -7523,7 +7527,7 @@
 "pl_redwood_tower"						"la tour de communication"
 "cp_wildcat_event_sewer"				"Point A : ÉGOUT"
 "cp_wildcat_event_house"				"Point B : MAISON HANTÉE"
-"koth_trainsawlaser_name"				"Scie Laser du Train"
+"koth_trainsawlaser_name"				"la Scie laser du train"
 "pl_aridpass_event_chokepoint"			"le Goulot d'étranglement"
 "pl_aridpass_event_yard"				"la Cour"
 "pl_aridpass_event_base"				"la base des RED"
@@ -13923,7 +13927,7 @@ En tant que Demoman, le seul moyen de recharger votre Caber d'Ullapool est de pa
 "TF_FistsOfSteel"			"Les Poings d'Acier" // ADD THE
 "TF_TreasureHat_1"			"Chapeau de Prime"
 "TF_TreasureHat_2"			"Chapeau Trésor"
-"TF_TreasureHat_3"			"Chapeau de la Fortune et du Respect Incontestables"
+"TF_TreasureHat_3"			"Chapeau de la fortune et du respect incontestables"
 "TF_TreasureHat_3_Style"	"C.F.R.I."
 "TF_Unique_RiftFireAxe"		"Fragment Volcanique Affûté"
 "TF_Unique_RiftFireMace"		"Le Soleil-sur-un-Bâton" // ADD THE
@@ -19297,8 +19301,6 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum19_staplers_specs"				"Officier de bureau"
 "TF_sum19_bobby_bonnet"					"Policier de Sa Majesté"
 "TF_sum19_dynamite_abs"					"Abdynamites"
-"TF_sum19_dynamite_abs_style1"				"Avec grenades"
-"TF_sum19_dynamite_abs_style2"				"Sans grenades"
 "TF_sum19_backbreakers_skullcracker"	"Brise-crânes du footballeur américain"
 "TF_sum19_backbreakers_guards"			"Protections du footballeur américain"
 "TF_sum19_unforgiven_glory"				"Glorieux borgne"
@@ -19677,12 +19679,8 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum22_lawnmaker_style1"				"Professionnel"
 "TF_sum22_head_banger"			"Casque explosif"
 "TF_sum22_hawaiian_hangover"	"Gueule de bois tropicale" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"Sans grenades"
-"TF_sum22_hawaiian_hangover_style1"		"Avec grenades"
 "TF_sum22_barefoot_brawler"		"Baroudeur en claquettes"
 "TF_sum22_chaser"				"Trench" // ADD THE
-"TF_sum22_chaser_style0"				"Sans grenades"
-"TF_sum22_chaser_style1"				"Avec grenades"
 "TF_sum22_detective"			"Fédora" // ADD THE
 "TF_sum22_detective_style0"				"Cheveux colorés"
 "TF_sum22_detective_style1"				"Chapeau coloré"
@@ -20332,8 +20330,6 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_sum26_barbeque_style2"					"Foncé"
 "TF_sum26_unknown_warrior"				"Soldat Inconnu" // ADD THE
 "TF_sum26_tropical_torcher"				"Flamme des Tropiques"
-"TF_sum26_tropical_torcher_style1"			"Sans grenades"
-"TF_sum26_tropical_torcher_style2"			"Avec grenades"
 "TF_sum26_pyros_overalls"				"Salopette du Pyro"
 "TF_sum26_pyros_overalls_style1"			"Débutant"
 "TF_sum26_pyros_overalls_style2"			"Intermédiaire"
@@ -20379,6 +20375,8 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_hwn2026_mined_mind_style1"				"Pioche"
 "TF_hwn2026_mined_mind_style2"				"Sans pioche"
 "TF_hwn2026_damage_dealer"				"Le Croupier roublard" // ADD THE
+"TF_hwn2026_damage_dealer_style1"			"Bande peinte"
+"TF_hwn2026_damage_dealer_style2"			"Chapeau peint"
 "TF_hwn2026_high_caliber"				"Le Lucre de gros calibre"
 "TF_hwn2026_high_caliber_style1"			"Rayures"
 "TF_hwn2026_high_caliber_style2"			"Uni"
@@ -20400,7 +20398,7 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 "TF_hwn2026_batters_jersey_style1"			"Manches longues"
 "TF_hwn2026_batters_jersey_style2"			"Manches courtes"
 "TF_hwn2026_grenadiers_goggles"			"Les Lunettes du grenadier"
-"TF_hwn2026_generals_greatcoat"			"La Capote du Général"
+"TF_hwn2026_generals_greatcoat"			"La Capote du général"
 "TF_hwn2026_bounty_hunters_brim"		"Le Bord du Chasseur de Primes"
 "TF_hwn2026_bounty_hunters_brim_style1"		"Classique"
 "TF_hwn2026_bounty_hunters_brim_style2"		"Classique - sans lunettes"
@@ -20415,6 +20413,8 @@ Ce machin pratique dirige l'air fétide dans lequel vous vivez à travers un gan
 
 "TF_style_bullets"						"Avec munitions"
 "TF_style_nobullets"					"Sans munitions"
+"TF_style_grenades"						"Avec grenades"
+"TF_style_nogrenades"					"Sans grenades"
 
 "TF_KathmanHairdo"             "Abominable homme des jungles" // ADD THE
 "TF_KathmanHairdo_Desc"        "Cette coiffure pompadour a été vue pour la première fois par Edmund Hillary sur l’Everest ; il a tellement été choqué qu'il s'est fait dessus."
@@ -21218,7 +21218,7 @@ Les mercenaires qui meurent vont directement en Enfer et continuent à combattre
 "TF_CaseGlobalBonusItems"				"Items bonus de cette caisse"
 "TF_CaseGlobalBonusItemsDesc"			"Des pots de peinture !\nDes inhabituellisateurs !\nDes tickets MvM !\nEt des outils TF2 !"
 "TF_Unusualifier_UnusualEffects"		"Effet(s) inhabituel(s) actif(s)"
-"TF_InspectForDetails"					"L'inspecter pour afficher la liste complète des effets inhabituels et autres détails."
+"TF_InspectForDetails"					"Inspecter l'objet pour afficher la liste complète des effets inhabituels et autres détails."
 
 "TF_CYOA_PDA_Taunting"					"Vous ne pouvez pas ouvrir le menu du Contr'assistant pendant une raillerie"
 "TF_Not_Enough_Resources"				"Ressources insuffisantes"
@@ -21272,7 +21272,9 @@ Les mercenaires qui meurent vont directement en Enfer et continuent à combattre
 "tf_zi_pyro_spew_name"					"Vomis visqueux" 
 "tf_zi_heavy_rock_name"					"Jet de rocher" 
 "tf_zi_engie_beacon_name"				"Balise" 
-"tf_zi_ui_spawn_picker_controls"		"TIR PRINCIPAL - Point d'apparition suivant\nTIR SECONDAIRE - Point d'apparition précédent\\SAUTER - Confirmer le point d'apparition" 
+"tf_zi_ui_spawn_picker_controls"		"TIR PRINCIPAL - Point d'apparition suivant\nTIR SECONDAIRE - Point d'apparition précédent\nSAUTER - Confirmer le point d'apparition" 
+"tf_zi_ui_spawn_picker_countdown"		"Apparition automatique dans %s1"
+
 "tow_dynamite_welcome"					"Bienvenue sur Dynamite !"
 "tow_dynamite_part1"					"Dynamite est une carte de tir à la corde."
 "tow_dynamite_part2"					"Pour pousser le wagon, restez debout dessus jusqu'à ce qu'il vous appartienne."

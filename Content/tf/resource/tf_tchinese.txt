@@ -13480,6 +13480,10 @@
 "Attrib_Particle413"			"幸福舞蝶"
 "Attrib_Particle414"			"幸福舞蝶"
 "Attrib_Particle415"			"輕柔翅膀"
+
+// Halloween 2026 Unusual
+"Attrib_Particle416"			"死亡之花"
+"Attrib_Particle417"			"死亡之花"
 "Attrib_Particle418"			"秋風落葉"
 "Attrib_Particle419"			"靈魂漩渦"
 "Attrib_Particle420"			"鬼魂漩渦"
@@ -19297,8 +19301,6 @@ ________________________________________
 "TF_sum19_staplers_specs"				"釘書機眼鏡"
 "TF_sum19_bobby_bonnet"					"英式警帽"
 "TF_sum19_dynamite_abs"					"勁爆腹肌"
-"TF_sum19_dynamite_abs_style1"				"手榴彈"
-"TF_sum19_dynamite_abs_style2"				"沒有手榴彈"
 "TF_sum19_backbreakers_skullcracker"	"勁爆橄欖球頭盔"
 "TF_sum19_backbreakers_guards"			"勁爆橄欖球護肩"
 "TF_sum19_unforgiven_glory"				"無可饒恕的榮耀"
@@ -19677,12 +19679,8 @@ ________________________________________
 "TF_sum22_lawnmaker_style1"				"職業"
 "TF_sum22_head_banger"			"爆炸腦袋"
 "TF_sum22_hawaiian_hangover"	"宿醉夏威夷" // ADD THE
-"TF_sum22_hawaiian_hangover_style0"		"沒有手榴彈"
-"TF_sum22_hawaiian_hangover_style1"		"手榴彈"
 "TF_sum22_barefoot_brawler"		"赤腳硬漢"
 "TF_sum22_chaser"				"追查者" // ADD THE
-"TF_sum22_chaser_style0"				"沒有手榴彈"
-"TF_sum22_chaser_style1"				"手榴彈"
 "TF_sum22_detective"			"警探帽" // ADD THE
 "TF_sum22_detective_style0"				"頭髮上色"
 "TF_sum22_detective_style1"				"帽子上色"
@@ -20331,8 +20329,6 @@ ________________________________________
 "TF_sum26_barbeque_style2"					"暗色"
 "TF_sum26_unknown_warrior"				"不明戰士" // ADD THE
 "TF_sum26_tropical_torcher"				"熱帶火炬"
-"TF_sum26_tropical_torcher_style1"			"沒有手榴彈"
-"TF_sum26_tropical_torcher_style2"			"手榴彈"
 "TF_sum26_pyros_overalls"				"Pyro 的吊帶褲"
 "TF_sum26_pyros_overalls_style1"			"一年級"
 "TF_sum26_pyros_overalls_style2"			"二年級"
@@ -20414,6 +20410,7 @@ ________________________________________
 
 "TF_style_bullets"						"有子彈"
 "TF_style_nobullets"					"無子彈"
+"TF_style_nogrenades"					"無手榴彈"
 
 "TF_KathmanHairdo"             "加德滿都髮型" // ADD THE
 "TF_KathmanHairdo_Desc"        "這個從史前時代蓬巴杜髮型由艾德蒙希拉蕊爵士於珠穆朗瑪峰發現。當下他也突然發現，他拉了自己的褲子。"
@@ -21258,6 +21255,9 @@ E)－藍隊可在任何時候搶下這點以獲得勝利
 "tf_zi_pyro_spew_name"					"黏液噴射" 
 "tf_zi_heavy_rock_name"					"岩石投擲" 
 "tf_zi_engie_beacon_name"				"信標" 
+"tf_zi_ui_spawn_picker_controls"		"主要攻擊 - 下一個重生點\n次要攻擊 - 上一個重生點\n跳躍 - 選擇重生點" 
+"tf_zi_ui_spawn_picker_countdown"		"將於 %s1 後自動重生"
+
 "tow_dynamite_welcome"					"歡迎來到 Dynamite！"
 "tow_dynamite_part1"					"Dynamite 是拔河地圖"
 "tow_dynamite_part2"					"若要推動推車，需站在車上，直到成功佔領推車"

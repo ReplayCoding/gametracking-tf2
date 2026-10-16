@@ -1,0 +1,12 @@
+// this replaces the func_dustcloud particle effect
+// with a less ugly one
+
+"UnlitGeneric"
+{
+    "$basetexture" "particle/particle_smokegrenade"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+    "$translucent" "1"
+    "$no_fullbright" "1"
+    "srgb?$alpha" ".27"
+}
