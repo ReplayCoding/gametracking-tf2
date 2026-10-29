@@ -53,6 +53,7 @@ ENGIE_BEACON_SPAWN_CLEARANCE      <- 84;    // clear space above the beacon a sp
 ENGIE_BEACON_LIFETIME             <- 8.0;   // secs before a beacon that never rested gives up //
 ENGIE_BEACON_DESTROY_TIME         <- 2.0;   // secs a mid-air wall/ceiling bounce may last  //
 ENGIE_BEACON_WALL_HIT_IS_FATAL    <- false; // true = touching a wall mid-air breaks it too //
+ENGIE_BEACON_BREAK_SNDLVL         <- 90;    // break sfx soundlevel (db). 0 = heard map-wide //
 // --------------------------------------------------------------------------------------- //
 // thrown toolbox visual, relative to the physics shell it rides. local space: it rotates  //
 // with the shell. x = forward, y = left, z = up                                           //
@@ -171,6 +172,7 @@ PYRO_SPEW_HIT_WORLD_Z_DIST        <- 100;   // ground search below a world/build
 PYRO_SPEW_BURST_COUNT             <- 4;     // blobs fired per cast                         //
 PYRO_SPEW_BURST_INTERVAL          <- 0.175; // secs between blobs in the burst              //
 PYRO_SPEW_SPIT_PITCH              <- 50;    // per-blob splash wav pitch - 100 stock        //
+PYRO_SPEW_SPIT_SNDLVL             <- 80;    // spit sfx soundlevel (db). 0 = heard map-wide //
 // --------------------------------------------------------------------------------------- //
 PYRO_SPEW_CELL_SIZE               <- 60;    // width of one goop tile                       //
 PYRO_SPEW_TILE_RADIUS             <- 100;     // splat reach - below CELL_SIZE = exactly the  //
@@ -1109,6 +1111,7 @@ class CPyroSpew extends CZombieAbility
             sound_name  =  ARR_SFX_SPEW_SPIT_WAVS[ RandomInt( 0, ARR_SFX_SPEW_SPIT_WAVS.len() - 1 ) ],
             entity      =  this.m_hAbilityOwner,
             pitch       =  PYRO_SPEW_SPIT_PITCH,
+            sound_level =  PYRO_SPEW_SPIT_SNDLVL, // left out = 0 = played to the whole map
         } );
 
         local _hGlobEnt      =  Entities.CreateByClassname( "prop_physics_override" );

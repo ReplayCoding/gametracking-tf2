@@ -7,6 +7,13 @@ const TEAM_UNASSIGNED = 0
 	"models/player/player_jackolantern_04.mdl" : {chance = 0.1, centre = Vector(0, 0, 22)}
 }
 
+::SPYPUMPKINMODELS <- {
+	"models/player/player_jackolantern_01_spy.mdl" : {chance = 49.9, centre = Vector(0, 0, 22)},
+	"models/player/player_jackolantern_02_spy.mdl" : {chance = 49.9, centre = Vector(0, 0, 26)},
+	"models/player/player_jackolantern_03_spy.mdl" : {chance = 0.1, centre = Vector(0, 0, 22)},
+	"models/player/player_jackolantern_04_spy.mdl" : {chance = 0.1, centre = Vector(0, 0, 22)}
+}
+
 const PUMPKINEXPLODEMODEL = "models/props_halloween/pumpkin_explode.mdl"
 const PUMPKINPICKUPPOTIONMODEL = "models/wildcat_event/hwn_flask_vial_pumpkin.mdl"
 const PUMPKINAPPEARPARTICLE = "jackolantern_transform"
@@ -15,6 +22,7 @@ const PUMPKINSPEED = 320
 const PUMPKINSPEEDBOOSTSPEED = 448
 const PUMPKINHEALTHDECREASETHRESHOLD = 50
 const PUMPKINTRANSFORMATIONRANGE = 128
+const PUMPKINTRANSFORMATIONGRACEPERIOD = 0.2
 
 const PUMPKINAPPEARSOUND = "misc/halloween/merasmus_appear.wav"
 const PUMPKINAPPEARSOUNDRANGE = 2048
@@ -24,6 +32,7 @@ const PUMPKINEXPLODESOUNDRANGE = 4096
 
 ::SNIPERWEAPONIDSTONOTREMOVEAIMCONDITIONWITH <- [1098, 56, 1005, 1092]
 ::WEAPONIDSTOSWITCHFROMWHENTRANSFORMING <- [239, 426, 1084, 1100]
+const PAINTRAINWEAPONID = 154
 
 ::PUMPKINGIGGLESOUNDS <- [
 	"misc/halloween/skeletons/skelly_medium_01.wav",

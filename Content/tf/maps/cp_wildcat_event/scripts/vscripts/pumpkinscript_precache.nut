@@ -1,6 +1,7 @@
 function Precache()
 {
 	foreach(model, table in PUMPKINMODELS) { PrecacheModel(model) }
+	foreach(model, table in SPYPUMPKINMODELS) { PrecacheModel(model) }
 
 	PrecacheModel(PUMPKINEXPLODEMODEL)
 	PrecacheModel(PUMPKINPICKUPPOTIONMODEL)

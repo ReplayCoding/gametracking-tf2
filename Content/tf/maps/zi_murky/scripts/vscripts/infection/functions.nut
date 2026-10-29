@@ -621,6 +621,28 @@ CTFPlayer_LockInPlace <- function( _bEnable = true )
 // when something like a condition change or weapon switch pokes it - adding or
 // removing a speed attribute by itself doesn't. pulse a near-zero cond so speed
 // attribute changes take effect right away instead of whenever the next cond lands
+// hud elements zombies have no use for. sets the bits only when they differ, so it's
+// safe to call every think
+CTFPlayer_ApplyZombieHideHUD <- function()
+{
+    local _iHideHUD = ( HIDEHUD_WEAPONSELECTION  |
+                        HIDEHUD_BUILDING_STATUS  |
+                        HIDEHUD_CLOAK_AND_FEIGN  |
+                        HIDEHUD_PIPES_AND_CHARGE );
+
+    // the metal counter is the "account panel", and tf2's damage numbers and
+    // heal-on-hit numbers are built on the same panel and inherit its hide bit.
+    // so this also hides those - engineer only, so other classes keep theirs
+    if ( ZENGIE_HIDE_METAL_HUD && this.GetPlayerClass() == TF_CLASS_ENGINEER )
+        _iHideHUD = ( _iHideHUD | HIDEHUD_METAL );
+
+    // keep any bits the engine set itself (e.g. dead/spectating), add ours
+    local _iCurrent = GetPropInt( this, "m_Local.m_iHideHUD" );
+
+    if ( ( _iCurrent & _iHideHUD ) != _iHideHUD )
+        SetPropInt( this, "m_Local.m_iHideHUD", ( _iCurrent | _iHideHUD ) );
+};
+
 CTFPlayer_RefreshMoveSpeed <- function()
 {
     if ( !IsPlayerAlive( this ) )
@@ -1088,7 +1110,7 @@ CTFPlayer_ZombieInitialTooltip <- function()
         color2     =  "127 111 32",
         fadein     =  0.009,
         fadeout    =  0.9,
-        holdtime   =  10,
+        holdtime   =  5,   // on screen 5s - the entity itself is killed 0.5s after Display
         fxtime     =  0.008,
         channel    =  1,
         message    =  "",
@@ -1098,9 +1120,28 @@ CTFPlayer_ZombieInitialTooltip <- function()
     return _hAbilityHUDText;
 };
 
+// removes both ability HUD game_texts. every HUD rebuild and every respawn used to
+// drop the old handles without destroying them - each one is a networked entity
+// (an edict), so a busy round piled up hundreds of dead game_texts
+CTFPlayer_DestroyZombieHUD <- function()
+{
+    local _sc = this.GetScriptScope();
+
+    foreach ( _szHandle in [ "m_hHUDText", "m_hHUDTextAbilityName" ] )
+    {
+        if ( ( _szHandle in _sc ) && _sc[ _szHandle ] != null && _sc[ _szHandle ].IsValid() )
+            _sc[ _szHandle ].Destroy();
+
+        _sc[ _szHandle ] <- null;
+    };
+};
+
 CTFPlayer_InitializeZombieHUD <- function()
 {
     local _sc = this.GetScriptScope();
+
+    // never leave the previous pair behind
+    this.DestroyZombieHUD();
 
     local _hAbilityHUDText = SpawnEntityFromTable( "game_text",
     {
@@ -2482,8 +2523,13 @@ CTFPlayer_ResetInfectionVars <- function()
     this.LockInPlace          ( false );
     this.SetForcedTauntCam    ( 0 );
     this.DestroySpawnPickerHUD();
+    this.DestroyZombieHUD     ();
     this.DestroySpawnBody     ();
     this.SetSpawnBodyHidden   ( false );
+
+    // the spy reveal outline is a netprop, not a flag - wiping the flags below would
+    // otherwise leave it on forever if the round ended before it timed out
+    SetPropBool( this, "m_bGlowEnabled", false );
 
     _sc.m_iFlags                <- ZBIT_SURVIVOR;
     _sc.m_tblEventQueue         <- { };
@@ -4005,7 +4051,7 @@ CTFPlayer_FinishSpawnEmerge <- function()
     _hTooltip.KeyValueFromString( "message", _szAbilityTooltip );
 
     EntFireByHandle ( _hTooltip, "Display", "", 0.0,  this, this );
-    EntFireByHandle ( _hTooltip, "Kill",    "", 15.5, this, this );
+    EntFireByHandle ( _hTooltip, "Kill",    "", 0.5,  this, this );
     return;
 };
 

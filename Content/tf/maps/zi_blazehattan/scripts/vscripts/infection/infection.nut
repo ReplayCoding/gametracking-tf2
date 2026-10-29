@@ -1428,7 +1428,11 @@ function OnGameEvent_player_hurt( params )
 
             if ( _hAttacker.GetClassname() == "player" )
             {
-                if ( _hAttacker.GetActiveWeapon().GetClassname() == "tf_weapon_drg_pomson" )
+                // the attacker can have no active weapon (dead, mid-switch, zombie mid-cast)
+                local _hAtkWep = _hAttacker.GetActiveWeapon();
+
+                if ( _hAtkWep != null && _hAtkWep.IsValid() &&
+                     _hAtkWep.GetClassname() == "tf_weapon_drg_pomson" )
                 {
                     local _flCooldownMod = DRG_RAYGUN_ZOMBIE_COOLDOWN_MOD;
 

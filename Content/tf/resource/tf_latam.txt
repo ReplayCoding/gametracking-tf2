@@ -20371,6 +20371,8 @@ Pad direccional: moverse, gatillos: ir más rápido, botón A: siguiente línea.
 "TF_hwn2026_mined_mind_style1"				"Con pico"
 "TF_hwn2026_mined_mind_style2"				"Sin pico"
 "TF_hwn2026_damage_dealer"				"Crupier Cruel" // ADD THE
+"TF_hwn2026_damage_dealer_style1"			"Banda pintable"
+"TF_hwn2026_damage_dealer_style2"			"Sombrero pintable"
 "TF_hwn2026_high_caliber"				"Apostador de Alto Calibre"
 "TF_hwn2026_high_caliber_style1"			"Rayas"
 "TF_hwn2026_high_caliber_style2"			"Sin decorar"
@@ -20407,6 +20409,9 @@ Pad direccional: moverse, gatillos: ir más rápido, botón A: siguiente línea.
 
 "TF_style_bullets"						"Con balas"
 "TF_style_nobullets"					"Sin balas"
+"TF_style_grenades"						"Con granadas"
+"TF_style_nogrenades"					"Sin granadas"
+
 "TF_KathmanHairdo"             "Katman-Pelodú" // ADD THE
 "TF_KathmanHairdo_Desc"        "Este copete prehistórico fue visto por primera vez por sir Edmund Hillary en las laderas del Everest. Lo siguiente que vio Hillary fue a sí mismo ensuciándose los pantalones."
 "TF_HimalayanHairShirt"        "Camiseta de Pelo Himalayo" // ADD THE
@@ -21259,7 +21264,7 @@ Los jugadores que mueren van directamente al infierno para seguir luchando. Un j
 "tf_zi_heavy_rock_name"					"Pedrada" 
 "tf_zi_engie_beacon_name"				"Baliza" 
 "tf_zi_ui_spawn_picker_controls"		"DISPARO PRINCIPAL: Siguiente punto de reaparición\nDISPARO SECUNDARIO: Punto de reaparición anterior\nSALTAR: Seleccionar punto de reaparición" 
-"tf_zi_ui_spawn_picker_countdown"		"Aparecerás automáticamente en %s1"
+"tf_zi_ui_spawn_picker_countdown"		"Reaparecerás automáticamente en %s1"
 
 "tow_dynamite_welcome"					"¡Te damos la bienvenida a Dynamite!"
 "tow_dynamite_part1"					"Dynamite es un mapa de Empuja y Afloja."

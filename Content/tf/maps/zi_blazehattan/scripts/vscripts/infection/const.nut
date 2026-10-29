@@ -798,3 +798,7 @@ const HIDEHUD_BUILDING_STATUS     =  0x1000
 const HIDEHUD_CLOAK_AND_FEIGN     =  0x2000
 const HIDEHUD_PIPES_AND_CHARGE    =  0x4000
 const HIDEHUD_METAL               =  0x8000
+
+// hides zombie engineer's metal counter. side effect (tf2 client code): it also hides
+// his floating damage numbers and heal-on-hit numbers. false = keep both
+const ZENGIE_HIDE_METAL_HUD       =  true

@@ -25,6 +25,8 @@ CollectEventsInScope({
 
 			i++
 		}
+
+		foreach(player in GetPlayers()) { player.Weapon_Switch(GetPlayerWeapons(player, false)[0]) } //Set all players to use their primary weapon upon round starting to make sure they're not t-posing
 	}
 
 	OnGameEvent_post_inventory_application = function(params)
@@ -33,7 +35,7 @@ CollectEventsInScope({
 		local scope = GetPlayerScope(player)
 		local currentWeaponIds = GetPlayerWeaponIds(player)
 
-		NetProps.SetPropInt(player, "m_ArmorValue", 0x80000000)
+		SetPlayerCanPickUpItemArmor(player, true)
 		SetPlayerIsAPumpkin(player, false, false)
 
 		//If the player's current weapons are different than their ones last post_inv, switch to the first weapon available to them to get around the T-Posing
@@ -107,6 +109,7 @@ CollectEventsInScope({
 
 		scope.isAPumpkin <- true
 		scope.highestHealthAsPumpkin <- 0
+		scope.lastTransformTime <- Time()
 
 		if (WEAPONIDSTOSWITCHFROMWHENTRANSFORMING.find(GetWeaponId(player.GetActiveWeapon())) != null)
 		{
@@ -119,7 +122,9 @@ CollectEventsInScope({
 			entity = player
 		})
 
-		player.AddCustomAttribute("increase player capture value", -2, -1)
+		local captureRateChange = player.GetPlayerClass() == TF_CLASS_SCOUT || GetPlayerWeaponIds(player).find(PAINTRAINWEAPONID) != null ? -2 : -1 //If player is a scout or has pain train, reduce their cap rate by 2, not 1
+
+		player.AddCustomAttribute("increase player capture value", captureRateChange, -1)
 		player.AddCustomAttribute("no double jump", 1, -1)
 		player.AddCustomAttribute("voice pitch scale", 1.4, -1)
 		player.AddCustomAttribute("cannot disguise", 1, -1)
@@ -127,14 +132,14 @@ CollectEventsInScope({
 
 		player.RemoveCustomAttribute("move speed penalty")
 
-		local pumpkinModel = RandomChance(PUMPKINMODELS)
+		local pumpkinModel = player.GetPlayerClass() == TF_CLASS_SPY ? RandomChance(SPYPUMPKINMODELS) : RandomChance(PUMPKINMODELS)
+		local modelCentre = player.GetPlayerClass() == TF_CLASS_SPY ? SPYPUMPKINMODELS[pumpkinModel].centre : PUMPKINMODELS[pumpkinModel].centre
 		player.SetForcedTauntCam(1)
 		player.SetCustomModelWithClassAnimations(pumpkinModel)
 		player.SetCustomModelVisibleToSelf(true)
-		DispatchParticleEffect(PUMPKINAPPEARPARTICLE, player.GetOrigin() + PUMPKINMODELS[pumpkinModel].centre, Vector(0,0,0))
+		DispatchParticleEffect(PUMPKINAPPEARPARTICLE, player.GetOrigin() + modelCentre, Vector(0,0,0))
 
-		NetProps.SetPropInt(player, "m_ArmorValue", 0)
-
+		SetPlayerCanPickUpItemArmor(player, false)
 		SetPlayerCosmeticsVisible(player, false)
 		SetPlayerWeaponsVisible(player, false)
 		player.AcceptInput("DisableShadow", "", null, null)
@@ -147,6 +152,8 @@ CollectEventsInScope({
 	{
 		scope.isAPumpkin <- false
 
+		player.SetCustomModelWithClassAnimations("")
+
 		player.RemoveCustomAttribute("increase player capture value")
 		player.RemoveCustomAttribute("no double jump")
 		player.RemoveCustomAttribute("voice pitch scale")
@@ -155,19 +162,17 @@ CollectEventsInScope({
 
 		player.RemoveCustomAttribute("major move speed bonus")
 
-		NetProps.SetPropInt(player, "m_ArmorValue", 0x80000000)
 		NetProps.SetPropInt(player, "m_nRenderMode", Constants.ERenderMode.kRenderNormal)
 
 		player.SetForcedTauntCam(0)
 		player.SetCustomModelVisibleToSelf(false)
-		if (player.IsAlive()) { player.SetCustomModelWithClassAnimations("") }
 
+		SetPlayerCanPickUpItemArmor(player, true)
 		SetPlayerCosmeticsVisible(player, player.IsAlive())
 		SetPlayerWeaponsVisible(player, player.IsAlive())
 
 		if (explodeOnTransform) { SpawnDudPumpkinBombAndExplodeAt(player.GetOrigin()) }
 		player.AcceptInput("EnableShadow", "", null, null)
-
 		AddThinkToEnt(player, null)
 	}
 }
@@ -199,10 +204,11 @@ CollectEventsInScope({
 	player.RemoveCondEx(TF_COND_PHASE, true)
 	player.RemoveCondEx(TF_COND_PARACHUTE_ACTIVE, true)
 
-	local playerIsTryingToUndisguise = buttonsPressed & IN_ATTACK || buttonsPressed & IN_ATTACK2 || player.InCond(TF_COND_TAUNTING)
+	local playerIsTryingToUndisguise = player.InCond(TF_COND_TAUNTING) || buttonsPressed & IN_ATTACK || buttonsPressed & IN_ATTACK2
 	local playerWasForcedToUndisguise = player.GetHealth() <= highestHealthAsPumpkin - PUMPKINHEALTHDECREASETHRESHOLD || player.GetHealth() < player.GetMaxHealth() / 2
 
-	if (playerWasForcedToUndisguise || playerIsTryingToUndisguise)
+	//If player forced to undisguise or player is trying to undisguise and the player is outside of the grace period. So as to not have them immediately break the pumpkin they pick up upon uncloak
+	if (playerWasForcedToUndisguise || (playerIsTryingToUndisguise && (Time() - lastTransformTime >= PUMPKINTRANSFORMATIONGRACEPERIOD)))
 	{
 		if (playerWasForcedToUndisguise)
 		{
@@ -226,15 +232,6 @@ CollectEventsInScope({
 	&& hurtUserId != attackerUserId //Hurt user is not the same as the attacker
 	&& (attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) //Attacker is either on Blue or Red
 	&& hurtPlayer.GetTeam() != attackerPlayer.GetTeam() //Attacker and Hurt player are on different teams
-
-	// printl("(attackerPlayer != null " + (attackerPlayer != null ))
-	// printl("(attackerPlayer.IsPlayer() " + (attackerPlayer.IsPlayer()))
-	// printl("(GetPlayerScope(hurtPlayer).isAPumpkin " + (GetPlayerScope(hurtPlayer).isAPumpkin ))
-	// printl("(hurtUserId != attackerUserId " + (hurtUserId != attackerUserId ))
-	// printl("((attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) " + ((attackerPlayer.GetTeam() == TF_TEAM_BLUE || attackerPlayer.GetTeam() == TF_TEAM_RED) ))
-	// printl("(hurtPlayer.GetTeam() != attackerPlayer.GetTeam()" + (hurtPlayer.GetTeam() != attackerPlayer.GetTeam()))
-
-	// printl("isEligible: " + isEligible)
 
 	if (isEligible)
 	{
@@ -288,6 +285,7 @@ CollectEventsInScope({
 	s.weaponIds <- {}
 	s.highestHealthAsPumpkin <- 0
 	s.lastDamageSource <- 0
+	s.lastTransformTime <- 0
 
 	return s
 }
@@ -304,13 +302,24 @@ CollectEventsInScope({
 }
 
 ::SetPlayerWeaponsVisible <- function(player, state = true) { foreach(weapon in GetPlayerWeapons(player)) { weapon.SetDrawEnabled(state) }}
-::SetPlayerCosmeticsVisible <- function(player, state = true) { foreach(wearable in GetPlayerWearables(player)) { if (state) wearable.EnableDraw(); else wearable.DisableDraw(); } }
+::SetPlayerCosmeticsVisible <- function(player, state = true)
+{
+	foreach(wearable in GetPlayerWearables(player))
+	{
+		if (state) wearable.EnableDraw(); else wearable.DisableDraw();
+	}
+}
+::SetPlayerCanPickUpItemArmor <- function(player, state = true)
+{
+	if (state) NetProps.SetPropInt(player, "m_ArmorValue", 0x80000000); else NetProps.SetPropInt(player, "m_ArmorValue", 0);
+}
+
 ::GetPlayerWearables <- function(player)
 {
 	local wearables = []
 	for (local wearable = player.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer())
 	{
-		if (wearable.GetClassname() == "tf_wearable" || wearable.GetClassname() == "tf_wearable_demoshield" || wearable.GetClassname() == "tf_wearable_razorback") { wearables.push(wearable); }
+		if (StringIsWearable(wearable.GetClassname())) { wearables.push(wearable); }
 	}
 	return wearables
 }
@@ -327,25 +336,17 @@ CollectEventsInScope({
 
 	if (includeWearables)
 	{
-		for (local wearable = player.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer()) { if (wearable.GetClassname() == "tf_wearable_demoshield" || wearable.GetClassname() == "tf_wearable_razorback" || wearable.GetClassname() == "tf_weapon_buff_item") { weapons.push(wearable) } }
+		for (local wearable = player.FirstMoveChild(); wearable != null; wearable = wearable.NextMovePeer())
+		{
+			if (StringIsWearable(wearable.GetClassname())) { weapons.push(wearable) }
+		}
 	}
 
 	return weapons
 }
 
-::EmitHardCutOffSoundInRadius <- function(position, sound, radius)
-{
-	for (local noiseRecipient; noiseRecipient = Entities.FindByClassnameWithin(noiseRecipient, "player", position, PUMPKINSOUNDSRANGE);)
-	{
-		EmitSoundEx({
-		sound_name = sound,
-		origin = position,
-		entity = noiseRecipient,
-		filter_type = RECIPIENT_FILTER_SINGLE_PLAYER})
-	}
-}
-
-::PostPlayerSpawn <- function() {  SetPlayerIsAPumpkin(self, false, false) }
+::StringIsWearable <- function(str) { return str == "tf_wearable" || str == "tf_wearable_demoshield" || str == "tf_wearable_razorback" || str == "tf_weapon_buff_item" || str == "tf_powerup_bottle" }
+::PostPlayerSpawn <- function() { SetPlayerIsAPumpkin(self, false, false) }
 
 ::GetPlayers <- function(team = null)
 {
@@ -480,5 +481,4 @@ local blacklist = [ "worldspawn", "func_door"]
 }
 
 ::GetPlayerUserID <- function(player) { return NetProps.GetPropIntArray(PlayerManager, "m_iUserID", player.entindex()) }
-
 ::GetSoundLevelFromRadius <- function(radius) { return (40 + (20 * log10(radius / 36.0))).tointeger(); }

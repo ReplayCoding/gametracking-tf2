@@ -1,5 +1,5 @@
 BSP Version: 20
-Revision: 4016
+Revision: 4025
 {
 "world_maxs" "5440 4096 1028"
 "world_mins" "-3328 -5440 -1704"
@@ -11,7 +11,7 @@ Revision: 4016
 "detailmaterial" "detail/detailsprites_viaduct_event"
 "_minlight" "0.0"
 "classname" "worldspawn"
-"mapversion" "4016"
+"mapversion" "4025"
 "hammerid" "1"
 }
 {
@@ -1323,7 +1323,7 @@ Revision: 4016
 "hammerid" "1102603"
 }
 {
-"origin" "2848.44 -527.996 192.16"
+"origin" "2848.44 -511.996 192.16"
 "targetname" "prop_locker_red_1"
 "StartDisabled" "0"
 "spawnflags" "0"
@@ -4634,7 +4634,7 @@ Revision: 4016
 "friendlyfire" "0"
 "explode_particle" "pumpkin_explode"
 "disableshadows" "1"
-"damage" "50"
+"damage" "0"
 "angles" "0 0 0"
 "classname" "tf_generic_bomb"
 "hammerid" "1425178"
@@ -4653,7 +4653,7 @@ Revision: 4016
 "friendlyfire" "0"
 "explode_particle" "pumpkin_explode"
 "disableshadows" "1"
-"damage" "50"
+"damage" "0"
 "angles" "16.7147 312.413 -17.4753"
 "classname" "tf_generic_bomb"
 "hammerid" "1425749"
@@ -4672,7 +4672,7 @@ Revision: 4016
 "friendlyfire" "0"
 "explode_particle" "pumpkin_explode"
 "disableshadows" "1"
-"damage" "50"
+"damage" "0"
 "angles" "0 315 0"
 "classname" "tf_generic_bomb"
 "hammerid" "1425954"
@@ -4691,7 +4691,7 @@ Revision: 4016
 "friendlyfire" "0"
 "explode_particle" "pumpkin_explode"
 "disableshadows" "1"
-"damage" "50"
+"damage" "0"
 "angles" "-13.6528 316.691 -14.0578"
 "classname" "tf_generic_bomb"
 "hammerid" "1426117"
@@ -4951,7 +4951,7 @@ Revision: 4016
 }
 {
 "origin" "120 -504 176"
-"timer_length" "300"
+"timer_length" "360"
 "targetname" "sscp_timer"
 "start_paused" "0"
 "show_time_remaining" "1"
@@ -5154,6 +5154,7 @@ Revision: 4016
 "OnMultiNewRound" "sscp_gamerulesSetBlueTeamRole20-1"
 "OnMultiNewRound" "round_start_respawntime_managerTrigger0-1"
 "OnMultiNewRound" "random_pumpkin_managerTrigger0.1-1"
+"OnMultiNewMap" "random_pumpkin_managerTrigger0.2-1"
 }
 {
 "origin" "1088 -1664 288"
@@ -6262,7 +6263,7 @@ Revision: 4016
 "hammerid" "401329"
 }
 {
-"origin" "3008 992 24"
+"origin" "3008 992 20"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
@@ -6284,7 +6285,7 @@ Revision: 4016
 "hammerid" "401225"
 }
 {
-"origin" "3008 672 24"
+"origin" "3008 672 16"
 "style" "0"
 "spawnflags" "0"
 "pitch" "-90"
@@ -17084,5 +17085,15 @@ Revision: 4016
 "angles" "86.5 180 -45.0001"
 "classname" "point_spotlight"
 "hammerid" "1526681"
+}
+{
+"model" "*159"
+"TeamNum" "0"
+"StartDisabled" "0"
+"AllowTeleporters" "0"
+"AllowSentry" "0"
+"AllowDispenser" "0"
+"classname" "func_nobuild"
+"hammerid" "1546052"
 }
  

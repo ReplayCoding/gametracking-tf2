@@ -120,10 +120,7 @@ PlayerThink <- function()
                 self.ClearSpewPuddle();
 
                 m_iFlags  = ( ( m_iFlags & ~ZBIT_PENDING_ZOMBIE & ~ZBIT_SURVIVOR & ~ZBIT_INITIAL_INFECTION ) );
-                SetPropInt  ( self, "m_Local.m_iHideHUD", ( HIDEHUD_WEAPONSELECTION  |
-                                                            HIDEHUD_BUILDING_STATUS  |
-                                                            HIDEHUD_CLOAK_AND_FEIGN  |
-                                                            HIDEHUD_PIPES_AND_CHARGE ));
+                self.ApplyZombieHideHUD();
 
                 // applying romevision to all zombie players
                 // allows us to spoof disguises for human spies (from the pov of zombies)
@@ -218,7 +215,7 @@ PlayerThink <- function()
                     _hTooltip.KeyValueFromString( "message", _szAbilityTooltip );
 
                     EntFireByHandle     ( _hTooltip,  "Display", "", 0.0, self, self );
-                    EntFireByHandle     ( _hTooltip,  "Kill", "", 15.5, self, self );
+                    EntFireByHandle     ( _hTooltip,  "Kill", "", 0.5, self, self );
                 };
 
                 self.SetHealth      ( self.GetMaxHealth() );
@@ -358,6 +355,10 @@ PlayerThink <- function()
                 self.DoHeavyFootsteps();
             };
 
+            // keep the zombie HUD bits on - a human engineer infected in place at round
+            // start could end up showing his building panel. cheap: only writes on change
+            self.ApplyZombieHideHUD();
+
             // ------------------------------------------------------------------------------ //
             // Zombie ability "vgui"                                                          //
             // ------------------------------------------------------------------------------ //
@@ -369,8 +370,6 @@ PlayerThink <- function()
 
                 if ( !m_bZombieHUDInitialized )
                 {
-                    try { m_hHUDText.Destroy(); } catch ( e ) { }
-
                     local _szAbilityIconPath = ( szArrZombieAbilityUI[ _iClassnum ] + self.AbilityStateToString() );
 
                     self.SetScriptOverlayMaterial( _szAbilityIconPath );
@@ -406,9 +405,6 @@ PlayerThink <- function()
 
                     if ( !m_bZombieHUDInitialized )
                     {
-                        if ( m_hHUDText )
-                            m_hHUDText.Destroy();
-
                         local _szAbilityIconPath = ( szArrZombieAbilityUI[ _iClassnum ] + self.AbilityStateToString() );
 
                         self.SetScriptOverlayMaterial( _szAbilityIconPath );
@@ -894,7 +890,12 @@ SniperSpitThink <- function()
 
                     // swap the IDX of the player's weapon to grappling hook before dealing damage (for kill icon)
                     //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 1152 );
-                    _tblTrace.enthit.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, DMG_BURN );
+                    local _iSpitDmgType = DMG_BURN;
+
+                    if ( _tblTrace.enthit.InCond( TF_COND_BLASTJUMPING ) || _tblTrace.enthit.InCond( TF_COND_KNOCKED_INTO_AIR ) )
+                        _iSpitDmgType = ( _iSpitDmgType | DMG_ACID );
+
+                    _tblTrace.enthit.TakeDamageEx( _hKillIcon, m_hOwner, m_hOwner.GetActiveWeapon(), Vector(0, 0, 0), Vector(0, 0, 0), SNIPER_SPIT_POP_DAMAGE, _iSpitDmgType );
                     //SetPropInt                   ( m_hOwner.GetActiveWeapon(), "m_AttributeManager.m_Item.m_iItemDefinitionIndex", 30758 );
 
                     _hKillIcon.Destroy();
@@ -1333,7 +1334,10 @@ BeaconBossKilled <- function()
 
     try
     {
-        EmitSoundEx( { sound_name = SFX_BEACON_DESTROY, origin = m_vecBeaconPos } );
+        // sound_level left out defaults to 0, which plays the sound to the whole map
+        EmitSoundEx( { sound_name  = SFX_BEACON_DESTROY,
+                       origin      = m_vecBeaconPos,
+                       sound_level = ENGIE_BEACON_BREAK_SNDLVL } );
     }
     catch ( _e ) { };
 

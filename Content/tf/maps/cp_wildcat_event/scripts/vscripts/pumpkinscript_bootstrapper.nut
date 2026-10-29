@@ -41,3 +41,4 @@ if (!("ConstantNamingConvention" in ROOT)) // make sure folding is only done onc
 IncludeScript("pumpkinscript_consts")
 IncludeScript("pumpkinscript_precache")
 IncludeScript("pumpkinscript")
+IncludeScript("pumpkinscript_pickupvaliditycheck")
