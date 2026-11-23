@@ -1,7 +1,10 @@
 _IO_stdin_used
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
 _Z10GetExePathPcm
 __TMC_END__
 __bss_start
+__cxa_finalize@GLIBC_2.2.5
 __data_start
 __dso_handle
 __gmon_start__
@@ -10,11 +13,9 @@ __libc_csu_init
 __libc_start_main@GLIBC_2.2.5
 __wrap_fopen
 __wrap_fopen64
-_dl_relocate_static_pie
 _edata
 _end
 _fini
-_init
 _start
 close@GLIBC_2.2.5
 data_start
